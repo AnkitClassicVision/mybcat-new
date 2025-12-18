@@ -624,10 +624,11 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
   .hero-visual {
     background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
     border-radius: 16px;
-    aspect-ratio: 16/10;
+    aspect-ratio: 3/5;  /* Portrait orientation to match WordPress */
     display: flex;
     align-items: center;
     justify-content: center;
+    max-height: 600px;  /* Limit height on desktop */
   }
 
   .hero-video-placeholder {
@@ -1239,7 +1240,7 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
   .hero-video {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;  /* Show full video without cropping */
     border-radius: 16px;
   }
 
@@ -1413,7 +1414,8 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
 
     .hero-visual {
       order: -1;
-      aspect-ratio: 16/9;
+      aspect-ratio: 4/5;  /* Slightly taller on mobile */
+      max-height: 500px;
     }
 
     :global(.who-card),
