@@ -76,7 +76,7 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
               <video
                 id="heroVideo"
                 class="hero-video"
-                poster="/videos/final-optimized.webp"
+                poster="/videos/final-optimized-landscape.webp"
                 playsinline
                 preload="none"
                 muted
@@ -621,11 +621,10 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
   .hero-visual {
     background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
     border-radius: 16px;
-    aspect-ratio: 3/5;  /* Portrait orientation to match WordPress */
+    aspect-ratio: 16/10;  /* Original landscape ratio */
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 500px;  /* Ensure reasonable minimum height */
   }
 
   .hero-video-placeholder {
@@ -1220,7 +1219,7 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
   .hero-video {
     width: 100%;
     height: 100%;
-    object-fit: contain;  /* Show full video without cropping */
+    object-fit: cover;  /* Fill container, image will be optimized for this */
     border-radius: 16px;
   }
 
@@ -1394,8 +1393,7 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
 
     .hero-visual {
       order: -1;
-      aspect-ratio: 4/5;  /* Slightly taller on mobile */
-      min-height: 400px;
+      aspect-ratio: 16/9;  /* Standard video ratio on mobile */
     }
 
     :global(.who-card),
