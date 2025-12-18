@@ -1,0 +1,353 @@
+---
+import Base from './Base.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { title, description, publishDate, author, category, tags, featuredImage, relatedPosts } = post.data;
+
+// Calculate reading time (rough estimate: 200 words per minute)
+const content = post.body || '';
+const wordCount = content.split(/\s+/).length;
+const readingTime = Math.ceil(wordCount / 200);
+---
+
+<Base
+  title={`${title} | MyBCAT Blog`}
+  description={description}
+  ogType="article"
+  ogImage={featuredImage}
+  publishDate={publishDate}
+  author={author}
+>
+  <article class="blog-post">
+    <header class="post-header">
+      <div class="post-meta">
+        <span class="post-category">{category}</span>
+        <span class="post-date">{publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+        <span class="post-reading-time">{readingTime} min read</span>
+      </div>
+      <h1 class="post-title">{title}</h1>
+      <p class="post-description">{description}</p>
+      <div class="post-author">
+        <div class="author-avatar">{author.split(' ').map(n => n[0]).join('')}</div>
+        <div class="author-info">
+          <span class="author-name">{author}</span>
+        </div>
+      </div>
+    </header>
+
+    {featuredImage && (
+      <div class="post-featured-image">
+        <img src={featuredImage} alt={title} loading="eager" />
+      </div>
+    )}
+
+    <div class="post-content prose">
+      <slot />
+    </div>
+
+    {tags && tags.length > 0 && (
+      <footer class="post-footer">
+        <div class="post-tags">
+          {tags.map((tag: string) => (
+            <a href={`/blog?tag=${tag}`} class="tag">{tag}</a>
+          ))}
+        </div>
+      </footer>
+    )}
+
+    <section class="post-cta">
+      <h2>Ready to capture more appointments?</h2>
+      <p>See how MyBCAT can help your practice fill every slot.</p>
+      <a href="/#final-cta" class="cta-button">Book a Discovery Call</a>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 24px 60px;
+  }
+
+  .post-header {
+    margin-bottom: 40px;
+  }
+
+  .post-meta {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .post-category {
+    background: var(--glass-copper);
+    color: var(--copper-700);
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+  }
+
+  .post-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .post-description {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+
+  .post-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .author-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--glass-copper) 0%, var(--copper-500) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+  }
+
+  .author-name {
+    font-weight: 600;
+    color: var(--navy-900);
+    display: block;
+  }
+
+  .post-featured-image {
+    margin-bottom: 40px;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .post-featured-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Prose styling for Markdown content */
+  .prose {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-primary);
+  }
+
+  .prose :global(h2) {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-top: 48px;
+    margin-bottom: 16px;
+  }
+
+  .prose :global(h3) {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-top: 36px;
+    margin-bottom: 12px;
+  }
+
+  .prose :global(h4) {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-top: 28px;
+    margin-bottom: 8px;
+  }
+
+  .prose :global(p) {
+    margin-bottom: 20px;
+    color: var(--text-secondary);
+  }
+
+  .prose :global(a) {
+    color: var(--oceanic-teal);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .prose :global(a:hover) {
+    color: var(--teal-600);
+  }
+
+  .prose :global(strong) {
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .prose :global(ul),
+  .prose :global(ol) {
+    margin-bottom: 20px;
+    padding-left: 24px;
+  }
+
+  .prose :global(li) {
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+  }
+
+  .prose :global(blockquote) {
+    border-left: 4px solid var(--oceanic-teal);
+    padding-left: 20px;
+    margin: 32px 0;
+    font-style: italic;
+    color: var(--navy-800);
+  }
+
+  .prose :global(code) {
+    background: var(--glass-navy);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9em;
+  }
+
+  .prose :global(pre) {
+    background: var(--navy-900);
+    color: var(--cream-200);
+    padding: 20px;
+    border-radius: 12px;
+    overflow-x: auto;
+    margin: 24px 0;
+  }
+
+  .prose :global(pre code) {
+    background: none;
+    padding: 0;
+  }
+
+  .prose :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+  }
+
+  .prose :global(th),
+  .prose :global(td) {
+    padding: 12px 16px;
+    border: 1px solid var(--glass-border);
+    text-align: left;
+  }
+
+  .prose :global(th) {
+    background: var(--glass-navy);
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .prose :global(img) {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 24px 0;
+  }
+
+  .prose :global(hr) {
+    border: none;
+    border-top: 1px solid var(--glass-border);
+    margin: 40px 0;
+  }
+
+  .post-footer {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  .post-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    background: var(--glass-navy);
+    color: var(--navy-800);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .tag:hover {
+    background: var(--navy-800);
+    color: white;
+  }
+
+  .post-cta {
+    margin-top: 60px;
+    padding: 40px;
+    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
+    border-radius: 24px;
+    text-align: center;
+  }
+
+  .post-cta h2 {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .post-cta p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background: white;
+    color: var(--oceanic-teal);
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (max-width: 768px) {
+    .blog-post {
+      padding: 80px 16px 40px;
+    }
+
+    .post-cta {
+      padding: 32px 24px;
+    }
+  }
+</style>
