@@ -1,0 +1,372 @@
+---
+import Base from '@/layouts/Base.astro';
+import Button from '@/components/Button.astro';
+---
+
+<Base
+  title="Our Story | My Business Care Team - Built by a Practice Owner, for Practice Owners"
+  description="Learn how Ankit Patel built My Business Care Team from his experience running Classic Vision Care. From Dell and Cleveland Clinic to revolutionizing healthcare operations."
+>
+  <main class="about-page">
+    <!-- Hero Section -->
+    <section class="story-hero">
+      <div class="container">
+        <div class="story-hero-grid">
+          <div class="story-hero-content">
+            <div class="eyebrow">Our Story</div>
+            <h1>Built by a Practice Owner, for Practice Owners</h1>
+            <p class="hero-lead">
+              I didn't set out to build a healthcare operations company. I set out to fix my own practice's phone problem. What I discovered was a system that works for any practice facing the same challenges.
+            </p>
+            <Button href="/#final-cta">Let's Talk About Your Practice</Button>
+          </div>
+          <div class="story-hero-image">
+            <div class="image-placeholder">
+              <span>AP</span>
+            </div>
+            <div class="image-caption">
+              <strong>Ankit Patel</strong>
+              <span>Founder & CEO, My Business Care Team</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">The Journey</div>
+          <h2>From Operations to Ownership to Operations Again</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">Dell & Cleveland Clinic</span>
+              <h3>Mastering Lean Six Sigma</h3>
+              <p>Cut my teeth on process optimization at two world-class organizations. Learned that every inefficiency has a root cause, and every root cause has a solution.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">Classic Vision Care</span>
+              <h3>Building the Practice</h3>
+              <p>My wife Dr. Mital Patel and I opened Classic Vision Care in Atlanta. Quickly discovered that clinical excellence means nothing if your phone goes unanswered.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">The Breaking Point</span>
+              <h3>Facing the Staffing Crisis</h3>
+              <p>Hiring was hard. Training was harder. Keeping good people? Nearly impossible. We were growing, but the operational chaos was growing faster.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">The Solution</span>
+              <h3>Building the Team</h3>
+              <p>Applied Lean Six Sigma to build a remote operations team that could handle intake, scheduling, and admin. Not generic VAs-healthcare-trained professionals who understood our workflows.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">Today</span>
+              <h3>MyBCAT</h3>
+              <p>Now we bring that same operational infrastructure to practices across the country. 70+ healthcare professionals trust us to run their patient intake. The system that saved our practice is now saving theirs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">What We Believe</div>
+          <h2>Our Operating Principles</h2>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <h3>Operators, Not Vendors</h3>
+            <p>We don't sell software and walk away. We run your operations alongside you. When you win, we win.</p>
+          </div>
+          <div class="value-card">
+            <h3>Systems Beat Heroics</h3>
+            <p>Great people burnout. Great systems scale. We build the latter so your people can thrive.</p>
+          </div>
+          <div class="value-card">
+            <h3>Healthcare First</h3>
+            <p>We only serve healthcare. That focus means we understand your EMR, your insurance, your patients.</p>
+          </div>
+          <div class="value-card">
+            <h3>Ownership Mentality</h3>
+            <p>We treat your practice like our own-because we've been in your shoes. Every decision passes the "would I do this for Classic Vision?" test.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="about-cta">
+      <div class="container">
+        <h2>Ready to Talk?</h2>
+        <p>Let's discuss how the system that worked for Classic Vision Care can work for your practice.</p>
+        <Button href="/#final-cta">Book a Discovery Call</Button>
+      </div>
+    </section>
+  </main>
+</Base>
+
+<style>
+  .about-page {
+    padding-top: 80px;
+  }
+
+  .container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  /* Hero Section */
+  .story-hero {
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+    padding: 80px 0;
+  }
+
+  .story-hero-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .story-hero h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .hero-lead {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 32px;
+  }
+
+  .story-hero-image {
+    text-align: center;
+  }
+
+  .image-placeholder {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, var(--glass-copper) 0%, var(--copper-500) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+    margin: 0 auto 16px;
+  }
+
+  .image-caption {
+    text-align: center;
+  }
+
+  .image-caption strong {
+    display: block;
+    font-size: 1.1rem;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .image-caption span {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  /* Timeline Section */
+  .timeline-section {
+    padding: 80px 0;
+  }
+
+  .section-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 60px;
+  }
+
+  .section-header h2 {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 700;
+    color: var(--navy-900);
+  }
+
+  .timeline {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 40px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--glass-border);
+  }
+
+  .timeline-item {
+    position: relative;
+    padding-bottom: 48px;
+  }
+
+  .timeline-item:last-child {
+    padding-bottom: 0;
+  }
+
+  .timeline-dot {
+    position: absolute;
+    left: -36px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    background: var(--oceanic-teal);
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px var(--oceanic-teal);
+  }
+
+  .timeline-year {
+    display: inline-block;
+    background: var(--glass-copper);
+    color: var(--copper-700);
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .timeline-content p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  /* Values Section */
+  .values-section {
+    padding: 80px 0;
+    background: var(--spatial-glass);
+  }
+
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+
+  .value-card {
+    background: white;
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid var(--glass-border);
+  }
+
+  .value-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .value-card p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* CTA Section */
+  .about-cta {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
+    text-align: center;
+  }
+
+  .about-cta h2 {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 700;
+    color: white;
+    margin-bottom: 16px;
+  }
+
+  .about-cta p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 32px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .story-hero-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .story-hero-image {
+      order: -1;
+    }
+
+    .image-placeholder {
+      width: 150px;
+      height: 150px;
+      font-size: 3rem;
+    }
+
+    .values-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
