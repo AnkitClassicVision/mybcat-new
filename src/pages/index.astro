@@ -69,13 +69,55 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
               </div>
             </div>
           </div>
-          <!-- Hero Visual -->
+          <!-- Hero Video Testimonial -->
           <div class="hero-visual">
-            <div class="hero-video-placeholder">
-              <div class="play-button">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            <div class="hero-video-container">
+              <!-- Video Player -->
+              <video
+                id="heroVideo"
+                class="hero-video"
+                poster="/videos/final-optimized.webp"
+                playsinline
+                preload="none"
+                muted
+              >
+                <source data-src="/videos/dittman-optimized.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+
+              <!-- Video Overlay Gradient -->
+              <div class="video-overlay-gradient"></div>
+
+              <!-- Premium Floating Play Button -->
+              <div id="videoPlayOverlay" class="video-play-overlay">
+                <div class="play-button-container">
+                  <div class="play-button-glow"></div>
+                  <div class="play-button-ring"></div>
+                  <div class="play-button-ring-2"></div>
+                  <div id="playButton" class="premium-play-btn">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" style="margin-left: 4px;">
+                      <defs>
+                        <linearGradient id="playGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" style="stop-color:#006064"/>
+                          <stop offset="100%" style="stop-color:#00ACC1"/>
+                        </linearGradient>
+                      </defs>
+                      <path d="M8 5v14l11-7z" fill="url(#playGradient)"/>
+                    </svg>
+                  </div>
+                </div>
               </div>
-              <span>Watch Dr. Dittman's Story</span>
+
+              <!-- Testimonial Info Bar -->
+              <div id="videoInfoBar" class="video-info-bar">
+                <div class="video-info-content">
+                  <img src="/videos/dittman-headshot-optimized.webp" alt="Dr. Michael Dittman" width="44" height="44" class="testimonial-avatar">
+                  <div>
+                    <div class="testimonial-name">Dr. Michael Dittman</div>
+                    <div class="testimonial-title">Owner, Dittman Eye Care (Multi-Location Optometry)</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -323,6 +365,46 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
           </div>
         </div>
       </Card>
+
+      <!-- Authority Logos -->
+      <section class="authority-section full-width">
+        <div class="authority-label">Trusted by Leading Healthcare Practices</div>
+        <div class="authority-track">
+          <!-- First set -->
+          <img src="/images/authority/classic-logo.webp" alt="Classic Vision Care" class="authority-logo" loading="lazy">
+          <img src="/images/authority/golden-triangle-logo.webp" alt="Golden Triangle" class="authority-logo" loading="lazy">
+          <img src="/images/authority/fec_logo.webp" alt="FEC" class="authority-logo" loading="lazy">
+          <img src="/images/authority/idoc.webp" alt="iDoc" class="authority-logo" loading="lazy">
+          <img src="/images/authority/rlk.webp" alt="RLK Vision" class="authority-logo" loading="lazy">
+          <img src="/images/authority/ODonFinance-Logo.webp" alt="ODon Finance" class="authority-logo" loading="lazy">
+          <img src="/images/authority/Emerald.webp" alt="Emerald Eye Care" class="authority-logo" loading="lazy">
+          <img src="/images/authority/505-logo.webp" alt="505 Vision" class="authority-logo" loading="lazy">
+          <img src="/images/authority/shelby-logo.webp" alt="Shelby Eye Care" class="authority-logo" loading="lazy">
+          <img src="/images/authority/winchester-logo.webp" alt="Winchester Eye Care" class="authority-logo" loading="lazy">
+          <!-- Second set (duplicate for infinite scroll) -->
+          <img src="/images/authority/classic-logo.webp" alt="Classic Vision Care" class="authority-logo" loading="lazy">
+          <img src="/images/authority/golden-triangle-logo.webp" alt="Golden Triangle" class="authority-logo" loading="lazy">
+          <img src="/images/authority/fec_logo.webp" alt="FEC" class="authority-logo" loading="lazy">
+          <img src="/images/authority/idoc.webp" alt="iDoc" class="authority-logo" loading="lazy">
+          <img src="/images/authority/rlk.webp" alt="RLK Vision" class="authority-logo" loading="lazy">
+          <img src="/images/authority/ODonFinance-Logo.webp" alt="ODon Finance" class="authority-logo" loading="lazy">
+          <img src="/images/authority/Emerald.webp" alt="Emerald Eye Care" class="authority-logo" loading="lazy">
+          <img src="/images/authority/505-logo.webp" alt="505 Vision" class="authority-logo" loading="lazy">
+          <img src="/images/authority/shelby-logo.webp" alt="Shelby Eye Care" class="authority-logo" loading="lazy">
+          <img src="/images/authority/winchester-logo.webp" alt="Winchester Eye Care" class="authority-logo" loading="lazy">
+          <!-- Third set (duplicate for infinite scroll) -->
+          <img src="/images/authority/classic-logo.webp" alt="Classic Vision Care" class="authority-logo" loading="lazy">
+          <img src="/images/authority/golden-triangle-logo.webp" alt="Golden Triangle" class="authority-logo" loading="lazy">
+          <img src="/images/authority/fec_logo.webp" alt="FEC" class="authority-logo" loading="lazy">
+          <img src="/images/authority/idoc.webp" alt="iDoc" class="authority-logo" loading="lazy">
+          <img src="/images/authority/rlk.webp" alt="RLK Vision" class="authority-logo" loading="lazy">
+          <img src="/images/authority/ODonFinance-Logo.webp" alt="ODon Finance" class="authority-logo" loading="lazy">
+          <img src="/images/authority/Emerald.webp" alt="Emerald Eye Care" class="authority-logo" loading="lazy">
+          <img src="/images/authority/505-logo.webp" alt="505 Vision" class="authority-logo" loading="lazy">
+          <img src="/images/authority/shelby-logo.webp" alt="Shelby Eye Care" class="authority-logo" loading="lazy">
+          <img src="/images/authority/winchester-logo.webp" alt="Winchester Eye Care" class="authority-logo" loading="lazy">
+        </div>
+      </section>
 
       <!-- Pricing Section -->
       <section id="pricing" class="section-intro" style="scroll-margin-top: 100px;">
@@ -1075,6 +1157,233 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
     margin-right: auto;
   }
 
+  /* Authority Logo Marquee */
+  .authority-section {
+    background: var(--spatial-glass);
+    border-radius: 24px;
+    border-top: 1px solid var(--glass-border);
+    padding: 40px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: var(--shadow);
+  }
+
+  .authority-label {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 32px;
+  }
+
+  .authority-track {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    animation: scrollLogos 40s linear infinite;
+    will-change: transform;
+  }
+
+  @keyframes scrollLogos {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-33.333%, 0, 0); }
+  }
+
+  .authority-logo {
+    height: 60px;
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
+    opacity: 0.85;
+    transition: all 0.4s ease;
+    flex-shrink: 0;
+    transform: translateZ(0);
+  }
+
+  .authority-logo:hover {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  /* Hero Video Player */
+  .hero-video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .video-overlay-gradient {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.4) 100%),
+      linear-gradient(180deg, rgba(0,0,0,0.1) 0%, transparent 30%, transparent 70%, rgba(0,0,0,0.3) 100%);
+    border-radius: 16px;
+    pointer-events: none;
+  }
+
+  .video-play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 100px;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+    border-radius: 16px;
+  }
+
+  @keyframes floatPlay {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+
+  @keyframes pulseRing {
+    0% { transform: scale(1); opacity: 0.6; }
+    50% { transform: scale(1.3); opacity: 0; }
+    100% { transform: scale(1); opacity: 0; }
+  }
+
+  @keyframes pulseRing2 {
+    0% { transform: scale(1); opacity: 0.4; }
+    50% { transform: scale(1.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 0; }
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+  }
+
+  .play-button-container {
+    position: relative;
+    animation: floatPlay 3s ease-in-out infinite;
+  }
+
+  .play-button-glow {
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--electric-aqua), var(--revenue-gold));
+    filter: blur(12px);
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .play-button-ring {
+    position: absolute;
+    inset: -12px;
+    border-radius: 50%;
+    border: 2px solid var(--electric-aqua);
+    animation: pulseRing 2s ease-out infinite;
+  }
+
+  .play-button-ring-2 {
+    position: absolute;
+    inset: -20px;
+    border-radius: 50%;
+    border: 1px solid var(--revenue-gold);
+    animation: pulseRing2 2s ease-out infinite 0.5s;
+  }
+
+  .premium-play-btn {
+    width: 88px;
+    height: 88px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+      0 4px 24px rgba(0, 96, 100, 0.3),
+      0 8px 32px rgba(0,0,0,0.2),
+      inset 0 1px 0 rgba(255,255,255,0.8),
+      inset 0 -1px 0 rgba(0,0,0,0.05);
+    border: 1px solid rgba(255,255,255,0.5);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .premium-play-btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite;
+    border-radius: 50%;
+  }
+
+  .premium-play-btn:hover {
+    transform: scale(1.12);
+    box-shadow:
+      0 8px 40px rgba(0, 96, 100, 0.4),
+      0 12px 48px rgba(211, 175, 94, 0.2),
+      inset 0 1px 0 rgba(255,255,255,0.9);
+  }
+
+  .premium-play-btn svg {
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(0 2px 4px rgba(0,96,100,0.3));
+    transition: transform 0.3s ease;
+  }
+
+  .premium-play-btn:hover svg {
+    transform: scale(1.1);
+  }
+
+  .video-info-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+    border-radius: 0 0 16px 16px;
+  }
+
+  .video-info-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .testimonial-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255,255,255,0.3);
+    flex-shrink: 0;
+  }
+
+  .testimonial-name {
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .testimonial-title {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.8rem;
+  }
+
   /* Responsive */
   @media (max-width: 1024px) {
     .spatial-hero-inner {
@@ -1126,3 +1435,56 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
     }
   }
 </style>
+
+<script>
+  // Hero Video Player Controls
+  document.addEventListener('DOMContentLoaded', function() {
+    const video = document.getElementById('heroVideo');
+    const overlay = document.getElementById('videoPlayOverlay');
+    let videoLoaded = false;
+
+    if (video && overlay) {
+      // Lazy load video source on first click (saves bandwidth)
+      function loadVideoSource() {
+        if (videoLoaded) return;
+        const source = video.querySelector('source[data-src]');
+        if (source && source.dataset.src) {
+          source.src = source.dataset.src;
+          source.removeAttribute('data-src');
+          video.load();
+          videoLoaded = true;
+        }
+      }
+
+      // Play on overlay click
+      overlay.addEventListener('click', function() {
+        if (video.paused) {
+          loadVideoSource();
+          video.muted = false;
+          video.play();
+          overlay.style.opacity = '0';
+          overlay.style.pointerEvents = 'none';
+        }
+      });
+
+      // Show overlay on pause
+      video.addEventListener('pause', function() {
+        overlay.style.opacity = '1';
+        overlay.style.pointerEvents = 'auto';
+      });
+
+      // Show overlay when video ends
+      video.addEventListener('ended', function() {
+        overlay.style.opacity = '1';
+        overlay.style.pointerEvents = 'auto';
+      });
+
+      // Toggle pause on video click
+      video.addEventListener('click', function() {
+        if (!video.paused) {
+          video.pause();
+        }
+      });
+    }
+  });
+</script>
