@@ -1,0 +1,102 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <img src="/images/logo.png" alt="MyBCAT Logo" class="footer-logo" loading="lazy">
+    <div class="footer-links">
+      <a href="/#hero">Home</a>
+      <a href="/#who-were-for">Who It's For</a>
+      <a href="/#services">Solution</a>
+      <a href="/#pricing">Plans</a>
+      <a href="/blog">Blog</a>
+      <a href="/about/story">About</a>
+      <a href="/about/podcast">Podcast</a>
+      <a href="/about/book">Book</a>
+      <a href="/#final-cta">Get My Schedule Filled</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/mybcat" aria-label="Facebook" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+      </a>
+      <a href="https://www.linkedin.com/company/mybcat" aria-label="LinkedIn" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+      </a>
+    </div>
+    <p class="footer-copyright">
+      &copy; 2023 - {currentYear} My Business Care Team. All Rights Reserved. |
+      <a href="/gdpr">GDPR Compliant</a> |
+      <a href="/privacy-policy">Privacy Policy</a>
+    </p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background-color: var(--navy-900);
+    color: var(--cream-200);
+    padding: 48px var(--grid-gap);
+    text-align: center;
+  }
+
+  .footer-content {
+    max-width: var(--container-max);
+    margin: 0 auto;
+  }
+
+  .footer-logo {
+    max-width: 150px;
+    margin-bottom: 24px;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+
+  .footer-links a {
+    color: var(--cream-200);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .footer-links a:hover {
+    color: var(--copper-500);
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+
+  .footer-social a {
+    color: var(--cream-200);
+    transition: color 0.3s;
+  }
+
+  .footer-social a:hover {
+    color: var(--copper-500);
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+    color: var(--cream-200);
+  }
+
+  .footer-copyright a {
+    color: var(--cream-200);
+    text-decoration: underline;
+  }
+
+  .footer-copyright a:hover {
+    color: var(--electric-aqua);
+  }
+</style>

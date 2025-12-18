@@ -1,0 +1,139 @@
+---
+interface Props {
+  portalId?: string;
+  formId: string;
+  region?: string;
+  class?: string;
+}
+
+const {
+  portalId = '47905082',
+  formId,
+  region = 'na1',
+  class: className = ''
+} = Astro.props;
+
+const containerId = `hubspot-form-${formId}`;
+---
+
+<div id={containerId} class={`hubspot-form-container ${className}`} data-hubspot-form data-portal-id={portalId} data-form-id={formId} data-region={region}>
+  <div class="hubspot-form-loading">Loading form...</div>
+</div>
+
+<style>
+  .hubspot-form-container {
+    min-height: 200px;
+  }
+
+  .hubspot-form-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+
+  /* HubSpot form styling overrides */
+  .hubspot-form-container :global(.hs-form) {
+    font-family: inherit;
+  }
+
+  .hubspot-form-container :global(.hs-form-field) {
+    margin-bottom: 16px;
+  }
+
+  .hubspot-form-container :global(.hs-form-field label) {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--navy-900);
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .hubspot-form-container :global(.hs-input) {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    font-size: 15px;
+    background: var(--spatial-glass);
+    transition: border-color 0.2s;
+  }
+
+  .hubspot-form-container :global(.hs-input:focus) {
+    outline: none;
+    border-color: var(--oceanic-teal);
+  }
+
+  .hubspot-form-container :global(.hs-button) {
+    background: var(--oceanic-teal);
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .hubspot-form-container :global(.hs-button:hover) {
+    background: var(--teal-600);
+    box-shadow: 0 4px 12px rgba(0, 107, 107, 0.3);
+  }
+</style>
+
+<script>
+  // Lazy load HubSpot forms when they enter viewport
+  const formContainers = document.querySelectorAll('[data-hubspot-form]');
+  let hubspotScriptLoaded = false;
+
+  const loadHubSpotScript = () => {
+    if (hubspotScriptLoaded) return Promise.resolve();
+
+    return new Promise<void>((resolve) => {
+      const script = document.createElement('script');
+      script.src = '//js.hsforms.net/forms/embed/v2.js';
+      script.async = true;
+      script.onload = () => {
+        hubspotScriptLoaded = true;
+        resolve();
+      };
+      document.head.appendChild(script);
+    });
+  };
+
+  const initializeForm = async (container: Element) => {
+    const portalId = container.getAttribute('data-portal-id');
+    const formId = container.getAttribute('data-form-id');
+    const region = container.getAttribute('data-region');
+
+    await loadHubSpotScript();
+
+    // Clear loading state
+    container.innerHTML = '';
+
+    // @ts-ignore - HubSpot global
+    window.hbspt?.forms.create({
+      portalId,
+      formId,
+      region,
+      target: `#${container.id}`
+    });
+  };
+
+  // Use IntersectionObserver for lazy loading
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        initializeForm(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { rootMargin: '100px' });
+
+  formContainers.forEach((container) => {
+    observer.observe(container);
+  });
+</script>

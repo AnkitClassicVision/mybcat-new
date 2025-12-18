@@ -1,0 +1,289 @@
+---
+interface Props {
+  meetingLink?: string;
+  buttonText?: string;
+  class?: string;
+}
+
+const {
+  meetingLink = 'https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call',
+  buttonText = 'Book a Discovery Call',
+  class: className = ''
+} = Astro.props;
+---
+
+<button
+  class={`meeting-trigger magnetic-button ${className}`}
+  data-meeting-link={meetingLink}
+  type="button"
+>
+  <span class="snake-line"></span>
+  <span class="snake-line"></span>
+  <span class="snake-line"></span>
+  <span class="snake-line"></span>
+  {buttonText}
+</button>
+
+<!-- Meeting Modal -->
+<div class="meeting-modal" aria-hidden="true">
+  <div class="meeting-modal-overlay"></div>
+  <div class="meeting-modal-content">
+    <button class="meeting-modal-close" aria-label="Close modal">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <div class="meeting-embed-container">
+      <div class="meeting-loading">Loading calendar...</div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .meeting-trigger {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 18px 48px;
+    background: transparent;
+    color: var(--oceanic-teal);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .meeting-trigger:hover {
+    background: var(--oceanic-teal);
+    color: #ffffff;
+    box-shadow: 0 0 5px var(--oceanic-teal),
+          0 0 25px var(--oceanic-teal),
+          0 0 50px var(--oceanic-teal),
+          0 0 100px var(--oceanic-teal);
+  }
+
+  .meeting-trigger .snake-line {
+    position: absolute;
+    display: block;
+    will-change: transform;
+  }
+
+  .meeting-trigger .snake-line:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--oceanic-teal));
+    animation: snake-anim1 1.5s linear infinite;
+  }
+
+  .meeting-trigger .snake-line:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, var(--oceanic-teal));
+    animation: snake-anim2 1.5s linear infinite;
+    animation-delay: 0.375s;
+  }
+
+  .meeting-trigger .snake-line:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, var(--oceanic-teal));
+    animation: snake-anim3 1.5s linear infinite;
+    animation-delay: 0.75s;
+  }
+
+  .meeting-trigger .snake-line:nth-child(4) {
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, var(--oceanic-teal));
+    animation: snake-anim4 1.5s linear infinite;
+    animation-delay: 1.125s;
+  }
+
+  @keyframes snake-anim1 {
+    0% { left: -100%; }
+    50%, 100% { left: 100%; }
+  }
+
+  @keyframes snake-anim2 {
+    0% { top: -100%; }
+    50%, 100% { top: 100%; }
+  }
+
+  @keyframes snake-anim3 {
+    0% { left: 100%; }
+    50%, 100% { left: -100%; }
+  }
+
+  @keyframes snake-anim4 {
+    0% { bottom: -100%; }
+    50%, 100% { bottom: 100%; }
+  }
+
+  /* Modal Styles */
+  .meeting-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .meeting-modal.active {
+    display: flex;
+  }
+
+  .meeting-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 22, 40, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .meeting-modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    height: 80vh;
+    max-height: 700px;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .meeting-modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: var(--spatial-glass);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy-900);
+    transition: all 0.2s;
+  }
+
+  .meeting-modal-close:hover {
+    background: var(--glass-navy);
+  }
+
+  .meeting-embed-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .meeting-embed-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .meeting-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--text-muted);
+  }
+</style>
+
+<script>
+  const triggers = document.querySelectorAll('.meeting-trigger');
+  const modal = document.querySelector('.meeting-modal');
+  const overlay = document.querySelector('.meeting-modal-overlay');
+  const closeBtn = document.querySelector('.meeting-modal-close');
+  const embedContainer = document.querySelector('.meeting-embed-container');
+
+  let meetingScriptLoaded = false;
+
+  const loadMeetingScript = () => {
+    if (meetingScriptLoaded) return Promise.resolve();
+
+    return new Promise<void>((resolve) => {
+      const script = document.createElement('script');
+      script.src = 'https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js';
+      script.async = true;
+      script.onload = () => {
+        meetingScriptLoaded = true;
+        resolve();
+      };
+      document.head.appendChild(script);
+    });
+  };
+
+  const openModal = async (meetingLink: string) => {
+    modal?.classList.add('active');
+    document.body.style.overflow = 'hidden';
+
+    // Load script and create iframe
+    await loadMeetingScript();
+
+    if (embedContainer) {
+      embedContainer.innerHTML = `
+        <iframe
+          src="${meetingLink}?embed=true"
+          title="Schedule a meeting"
+          loading="lazy"
+        ></iframe>
+      `;
+    }
+  };
+
+  const closeModal = () => {
+    modal?.classList.remove('active');
+    document.body.style.overflow = '';
+    if (embedContainer) {
+      embedContainer.innerHTML = '<div class="meeting-loading">Loading calendar...</div>';
+    }
+  };
+
+  triggers.forEach((trigger) => {
+    trigger.addEventListener('click', () => {
+      const meetingLink = trigger.getAttribute('data-meeting-link');
+      if (meetingLink) {
+        openModal(meetingLink);
+      }
+    });
+  });
+
+  overlay?.addEventListener('click', closeModal);
+  closeBtn?.addEventListener('click', closeModal);
+
+  // Close on escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal?.classList.contains('active')) {
+      closeModal();
+    }
+  });
+</script>

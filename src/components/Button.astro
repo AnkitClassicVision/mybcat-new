@@ -1,0 +1,187 @@
+---
+interface Props {
+  href?: string;
+  variant?: 'primary' | 'secondary' | 'text';
+  size?: 'sm' | 'md' | 'lg';
+  class?: string;
+  type?: 'button' | 'submit';
+}
+
+const {
+  href,
+  variant = 'primary',
+  size = 'md',
+  class: className = '',
+  type = 'button'
+} = Astro.props;
+
+const Tag = href ? 'a' : 'button';
+const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
+---
+
+<Tag
+  href={href}
+  type={!href ? type : undefined}
+  class={baseClass}
+  data-magnetic
+>
+  {variant === 'primary' && (
+    <>
+      <span class="snake-line"></span>
+      <span class="snake-line"></span>
+      <span class="snake-line"></span>
+      <span class="snake-line"></span>
+    </>
+  )}
+  <slot />
+</Tag>
+
+<style>
+  .magnetic-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 18px 48px;
+    background: transparent;
+    color: var(--oceanic-teal);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .magnetic-button:hover {
+    background: var(--oceanic-teal);
+    color: #ffffff;
+    box-shadow: 0 0 5px var(--oceanic-teal),
+          0 0 25px var(--oceanic-teal),
+          0 0 50px var(--oceanic-teal),
+          0 0 100px var(--oceanic-teal);
+  }
+
+  /* Size variants */
+  .magnetic-button.sm {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .magnetic-button.lg {
+    padding: 22px 56px;
+    font-size: 18px;
+  }
+
+  /* Snake border lines */
+  .magnetic-button .snake-line {
+    position: absolute;
+    display: block;
+    will-change: transform;
+  }
+
+  /* Top Line - moves left to right */
+  .magnetic-button .snake-line:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--oceanic-teal));
+    animation: snake-anim1 1.5s linear infinite;
+  }
+
+  /* Right Line - moves top to bottom */
+  .magnetic-button .snake-line:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, var(--oceanic-teal));
+    animation: snake-anim2 1.5s linear infinite;
+    animation-delay: 0.375s;
+  }
+
+  /* Bottom Line - moves right to left */
+  .magnetic-button .snake-line:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, var(--oceanic-teal));
+    animation: snake-anim3 1.5s linear infinite;
+    animation-delay: 0.75s;
+  }
+
+  /* Left Line - moves bottom to top */
+  .magnetic-button .snake-line:nth-child(4) {
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, var(--oceanic-teal));
+    animation: snake-anim4 1.5s linear infinite;
+    animation-delay: 1.125s;
+  }
+
+  /* Secondary variant */
+  .magnetic-button.secondary {
+    color: var(--navy-800);
+  }
+
+  .magnetic-button.secondary .snake-line {
+    display: none;
+  }
+
+  .magnetic-button.secondary:hover {
+    background: var(--navy-800);
+    color: #ffffff;
+    box-shadow: 0 0 5px var(--navy-800),
+          0 0 25px var(--navy-800),
+          0 0 50px var(--navy-800);
+  }
+
+  /* Text variant */
+  .magnetic-button.text {
+    background: transparent;
+    color: var(--text-secondary);
+    text-transform: none;
+    letter-spacing: normal;
+    padding: 10px 20px;
+  }
+
+  .magnetic-button.text .snake-line {
+    display: none;
+  }
+
+  .magnetic-button.text:hover {
+    color: var(--text-primary);
+    background: var(--glass-navy);
+    box-shadow: none;
+  }
+
+  @keyframes snake-anim1 {
+    0% { left: -100%; }
+    50%, 100% { left: 100%; }
+  }
+
+  @keyframes snake-anim2 {
+    0% { top: -100%; }
+    50%, 100% { top: 100%; }
+  }
+
+  @keyframes snake-anim3 {
+    0% { left: 100%; }
+    50%, 100% { left: -100%; }
+  }
+
+  @keyframes snake-anim4 {
+    0% { bottom: -100%; }
+    50%, 100% { bottom: 100%; }
+  }
+</style>

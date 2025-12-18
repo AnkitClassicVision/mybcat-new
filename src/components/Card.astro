@@ -1,0 +1,195 @@
+---
+interface Props {
+  variant?: 'default' | 'feature' | 'pricing' | 'testimonial';
+  href?: string;
+  class?: string;
+  tilt?: boolean;
+}
+
+const {
+  variant = 'default',
+  href,
+  class: className = '',
+  tilt = false
+} = Astro.props;
+
+const Tag = href ? 'a' : 'div';
+const baseClass = `spatial-card ${variant} ${className}`.trim();
+---
+
+<Tag
+  href={href}
+  class={baseClass}
+  data-tilt={tilt ? '' : undefined}
+>
+  <div class="spatial-card-content">
+    <slot />
+  </div>
+</Tag>
+
+<style>
+  .spatial-card {
+    position: relative;
+    background: var(--spatial-glass);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 28px;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.6s var(--ease-tilt);
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    display: block;
+    color: inherit;
+  }
+
+  .spatial-card::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: 150%;
+    background: var(--glow-navy);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .spatial-card:hover::before {
+    opacity: 1;
+  }
+
+  .spatial-card:hover {
+    border-color: rgba(212, 145, 94, 0.2);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+  }
+
+  /* 3D Tilt Effect */
+  .spatial-card[data-tilt] {
+    will-change: transform;
+  }
+
+  .spatial-card-content {
+    position: relative;
+    z-index: 1;
+    transform: translateZ(20px);
+  }
+
+  /* Feature Card Variant */
+  .spatial-card.feature {
+    padding: 32px;
+  }
+
+  .spatial-card.feature :global(.card-icon) {
+    width: 48px;
+    height: 48px;
+    background: var(--glass-navy);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .spatial-card.feature :global(.card-title) {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .spatial-card.feature :global(.card-description) {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* Pricing Card Variant */
+  .spatial-card.pricing {
+    padding: 36px;
+    text-align: center;
+  }
+
+  .spatial-card.pricing.popular {
+    border-color: var(--oceanic-teal);
+    box-shadow: 0 0 30px rgba(0, 107, 107, 0.2);
+  }
+
+  .spatial-card.pricing :global(.price) {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--navy-900);
+  }
+
+  .spatial-card.pricing :global(.price-period) {
+    font-size: 1rem;
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+
+  /* Testimonial Card Variant */
+  .spatial-card.testimonial {
+    padding: 24px;
+  }
+
+  .spatial-card.testimonial :global(.quote) {
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  .spatial-card.testimonial :global(.author) {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .spatial-card.testimonial :global(.author-avatar) {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .spatial-card.testimonial :global(.author-name) {
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .spatial-card.testimonial :global(.author-title) {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+  }
+</style>
+
+<script>
+  // Optional 3D Tilt Effect
+  const tiltCards = document.querySelectorAll('.spatial-card[data-tilt]');
+
+  tiltCards.forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      const rotateX = (y - centerY) / 20;
+      const rotateY = (centerX - x) / 20;
+
+      (card as HTMLElement).style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+    });
+
+    card.addEventListener('mouseleave', () => {
+      (card as HTMLElement).style.transform = '';
+    });
+  });
+</script>
