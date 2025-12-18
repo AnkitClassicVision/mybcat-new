@@ -684,11 +684,11 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
   }
 
   /* Who Cards */
-  .who-card {
+  :global(.who-card) {
     grid-column: span 3;
   }
 
-  .who-card-content {
+  :global(.who-card) .who-card-content {
     text-align: center;
   }
 
@@ -705,20 +705,20 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
     margin-bottom: 12px;
   }
 
-  .who-card h3 {
+  :global(.who-card) h3 {
     font-size: 1.4rem;
     font-weight: 700;
     color: var(--navy-900);
     margin-bottom: 8px;
   }
 
-  .who-card p {
+  :global(.who-card) p {
     font-size: 15px;
     color: var(--text-secondary);
   }
 
   /* Problem Cards */
-  .problem-card {
+  :global(.problem-card) {
     grid-column: span 2;
     background: rgba(0, 96, 100, 0.04);
     border-color: rgba(0, 96, 100, 0.15);
@@ -920,12 +920,12 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
   }
 
   .comparison-list.positive li::before {
-    content: "\\2713 ";
+    content: "✓ ";
     color: var(--oceanic-teal);
   }
 
   /* Service Cards */
-  .service-card {
+  :global(.service-card) {
     grid-column: span 3;
   }
 
@@ -1026,7 +1026,7 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
   }
 
   /* Pricing Cards */
-  .pricing-card {
+  :global(.pricing-card) {
     grid-column: span 2;
     text-align: center;
     position: relative;
@@ -1086,7 +1086,7 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
   }
 
   .pricing-features li::before {
-    content: "\\2713 ";
+    content: "✓ ";
     color: var(--oceanic-teal);
     font-weight: 600;
   }
@@ -1396,10 +1396,10 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
       aspect-ratio: 16/9;
     }
 
-    .who-card,
-    .problem-card,
-    .service-card,
-    .pricing-card {
+    :global(.who-card),
+    :global(.problem-card),
+    :global(.service-card),
+    :global(.pricing-card) {
       grid-column: span 6;
     }
 
