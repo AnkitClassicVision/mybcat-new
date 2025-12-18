@@ -30,36 +30,6 @@ The relationships you can have with your clients can depend on how well your cli
 
 We want to make sure your optometry practice is at its best state. [Call us](tel:678-855-6130) to learn more about how we can help you with operations!
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/maintaining-client-relations-in-your-optometry-practice"
-	  },
-	  "headline": "Maintaining Client Relations in Your Optometry Practice",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/maintaining-client-relations-in-your-optometry-practice.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/maintaining-client-relations-in-your-optometry-practice-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/maintaining-client-relations-in-your-optometry-practice-150x150.jpg"
-	   ],
-	  "datePublished": "2023-10-18",
-	  "dateModified": "2023-10-18",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "You can take in concerns more efficiently with optometrists inbound call services in Georgia, allowing you to address them as soon as possible."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

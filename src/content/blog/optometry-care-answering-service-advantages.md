@@ -40,36 +40,6 @@ To experience the full spectrum of optometry answering service benefits, conside
 
 [Contact](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) My Business  Care Team today and embark on a journey towards efficient, patient-centric answering services. Empower your practice with innovative solutions, prioritizing patient satisfaction while achieving operational excellence. At My Business Care Team, we are committed to delivering exceptional service, making your practice's growth and patient care our top priorities.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/optometry-care-answering-service-advantages"
-	  },
-	  "headline": "Optometry Care: Answering Service Advantages",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/optometry-care-answering-service-advantages.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/optometry-care-answering-service-advantages-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/optometry-care-answering-service-advantages-150x150.jpg"
-	   ],
-	  "datePublished": "2024-02-19",
-	  "dateModified": "2024-02-19",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Various practices recognize the significance of optometry virtual receptionists in Georgia in managing patient interactions seamlessly."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

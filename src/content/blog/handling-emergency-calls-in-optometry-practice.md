@@ -20,36 +20,6 @@ By partnering with a [customer service outsourcing provider in Marietta, Georgia
 
 [Optometrists inbound call services in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia) are an indispensable asset for optometry practices looking to excel in handling emergency calls. This strategic approach not only enhances patient care but also contributes to the overall efficiency of the practice. For personalized assistance tailored to your optometry practice's unique needs, [call](tel:678-855-6130) My Business Care Team today. Your patients deserve the best; we are here to help you deliver just that.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/handling-emergency-calls-in-optometry-practice"
-	  },
-	  "headline": "Handling Emergency Calls in Optometry Practice",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/handling-emergency-calls-in-optometry-practice.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/handling-emergency-calls-in-optometry-practice-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/handling-emergency-calls-in-optometry-practice-150x150.jpg"
-	   ],
-	  "datePublished": "2024-03-11",
-	  "dateModified": "2024-03-11",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Optometry practices can leverage the expertise of dedicated optometry virtual receptionists in Georgia to manage and prioritize emergency calls seamlessly."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

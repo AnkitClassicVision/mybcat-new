@@ -38,36 +38,6 @@ Optometry answering services liberate staff time, allowing them to focus on esse
 
 You can experience the transformative impact of optometry answering services by partnering with My Business  Care Team, your dedicated [customer service outsourcing provider in Marietta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-in-marietta-georgia). Elevate your practice's patient access and communication, ensuring each interaction reflects the commitment to exceptional eye care. [Contact](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) My Business Care Team today and witness the difference in patient care and practice efficiency.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/optometry-access-elevating-patient-care"
-	  },
-	  "headline": "Optometry Access: Elevating Patient Care",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/optometry-access-elevating-patient-care.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/optometry-access-elevating-patient-care-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/optometry-access-elevating-patient-care-150x150.jpg"
-	   ],
-	  "datePublished": "2024-02-20",
-	  "dateModified": "2024-02-20",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Optometrists inbound call services in Georgia pave the way for a patient-centric approach, ensuring that every call is handled with care and expertise."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

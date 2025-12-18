@@ -4,7 +4,7 @@ description: "In the ever-evolving landscape of optometry, the integration of vi
 publishDate: 2024-03-15
 status: "published"
 author: "Ankit Patel"
-category: "Technology"
+category: "Patient Experience"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/optometry-virtual-receptionist-future-customer-service.jpg"
 canonical: "https://mybcat.com/optometry-virtual-receptionist-future-customer-service"
@@ -21,36 +21,6 @@ For those navigating the intricacies of optometry, we ensure that the patient jo
 A simple step to experience the future is to call My Business Care Team. This is not just about efficient logistics; it's about creating a connection. Seamlessly [integrating technology](https://mybusinesscaretea.us23.cdn-alpha.com/leveraging-technology-for-streamlined-call-support) with personalized assistance exemplifies the commitment to excellent patient care.
 
 In conclusion, the Optometry virtual receptionist is not just a feature; it's the future of customer service in the realm of eye care. Embrace the evolution, [schedule](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-book-a-discovery-call) your [optometrist appointment in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/), and discover unparalleled support.
-
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/optometry-virtual-receptionist-future-customer-service"
-	  },
-	  "headline": "Optometry Virtual Receptionist: Future Customer Service",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/optometry-virtual-receptionist-future-customer-service.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/optometry-virtual-receptionist-future-customer-service-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/optometry-virtual-receptionist-future-customer-service-150x150.jpg"
-	   ],
-	  "datePublished": "2024-03-15",
-	  "dateModified": "2024-03-15",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Optometry call service in Atlanta, Georgia, is not merely a convenience but a transformative leap into efficient and patient-centric eye care."
-	}
 
 ### Ready to Transform Your Practice?
 

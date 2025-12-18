@@ -24,36 +24,6 @@ In conclusion, integrating a vision care call center into your practice is a piv
 
 As a [customer service outsourcing provider in Marietta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia), we specialize in offering exceptional customer service outsourcing tailored for eye care professionals. [Contact us](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) now to explore how My Business Care Team can not only enhance your patient experience but also provide seamless operational support.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/benefits-of-a-call-center-for-eye-care-professionals"
-	  },
-	  "headline": "Benefits of a Call Center for Eye Care Professionals",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/11/benefits-of-a-call-center-for-eye-care-professionals.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/11/benefits-of-a-call-center-for-eye-care-professionals-300x201.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/11/benefits-of-a-call-center-for-eye-care-professionals-150x150.png"
-	   ],
-	  "datePublished": "2023-11-27",
-	  "dateModified": "2023-11-27",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Services such as optometrists inbound call services in Georgia bring a new level of efficiency to appointment scheduling."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

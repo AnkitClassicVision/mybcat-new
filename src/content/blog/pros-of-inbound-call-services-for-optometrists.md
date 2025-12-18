@@ -22,36 +22,6 @@ Moreover, responsive inbound call services are indispensable in [emergencies](ht
 
 From excellent first impressions to improved patient retention and operational efficiency, stay on top with My Business Care Team. Call [678-855-6130](tel:678-855-6130).
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/pros-of-inbound-call-services-for-optometrists"
-	  },
-	  "headline": "Pros of Inbound Call Services for Optometrists",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/08/pros-of-inbound-call-services-for-optometrists.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/08/pros-of-inbound-call-services-for-optometrists-300x225.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/08/pros-of-inbound-call-services-for-optometrists-150x150.jpg"
-	   ],
-	  "datePublished": "2023-08-14",
-	  "dateModified": "2023-08-14",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "By addressing patient concerns promptly and efficiently, optometrist call management fosters a sense of care and attention to the patient's needs."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

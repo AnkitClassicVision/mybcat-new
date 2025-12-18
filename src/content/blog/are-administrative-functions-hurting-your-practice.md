@@ -30,36 +30,6 @@ As mentioned, administrative tasks require a different set of skills. Attending 
 
 We want your optometry practice to flourish. Learn more about how we can help you achieve this goal. [Call us](tel:678-855-6130) today!
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/are-administrative-functions-hurting-your-practice"
-	  },
-	  "headline": "Are Administrative Functions Hurting Your Practice?",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/are-administrative-functions-hurting-your-practice.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/are-administrative-functions-hurting-your-practice-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/are-administrative-functions-hurting-your-practice-150x150.jpg"
-	   ],
-	  "datePublished": "2023-10-24",
-	  "dateModified": "2023-10-24",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "It may be worth your time to explore outsourced eye care call support in Georgia to give you more time to attend to your tasks."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

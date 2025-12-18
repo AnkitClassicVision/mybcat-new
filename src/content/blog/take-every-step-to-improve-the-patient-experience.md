@@ -30,36 +30,6 @@ Even an eye clinic won't be immune from client feedback. Like all healthcare ope
 
 You can serve your patients better when you give them your full attention. Through our services, we can give you more time and energy to focus on your patients. [Call us](tel:678-855-6130) to learn more about our services.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/take-every-step-to-improve-the-patient-experience"
-	  },
-	  "headline": "Take Every Step to Improve the Patient Experience",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/take-every-step-to-improve-the-patient-experience.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/take-every-step-to-improve-the-patient-experience-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/take-every-step-to-improve-the-patient-experience-150x150.jpg"
-	   ],
-	  "datePublished": "2023-10-26",
-	  "dateModified": "2023-10-26",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Utilizing a vision care call center to communicate with patients allows clients to reach you with maximum convenience. "
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

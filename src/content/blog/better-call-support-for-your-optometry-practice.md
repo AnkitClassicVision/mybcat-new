@@ -32,36 +32,6 @@ Whatever the subject matter may be in these calls, proper call support should ke
 
 Through our capabilities, we can elevate your optometry practice to new heights. [Call us](tel:678-855-6130) to learn more about our services!
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/better-call-support-for-your-optometry-practice"
-	  },
-	  "headline": "Better Call Support for Your Optometry Practice",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/better-call-support-for-your-optometry-practice.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/better-call-support-for-your-optometry-practice-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/10/better-call-support-for-your-optometry-practice-150x150.jpg"
-	   ],
-	  "datePublished": "2023-10-20",
-	  "dateModified": "2023-10-20",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Structured calls through our eye health reception services allow your clients to receive quality support efficiently."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

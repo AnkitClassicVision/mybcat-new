@@ -20,36 +20,6 @@ Measuring customer satisfaction involves gathering feedback, analyzing patient i
 
 For optometrists looking to measure and enhance customer satisfaction, My Business Care Team provides a comprehensive solution with their [optometrist appointment in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-my-business-care-team-process) services. Our team of skilled virtual receptionists ensures that your patients receive the best possible service, enhancing overall patient satisfaction.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/measuring-and-enhancing-customer-satisfaction"
-	  },
-	  "headline": "Measuring and Enhancing Customer Satisfaction",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/measuring-and-enhancing-customer-satisfaction.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/measuring-and-enhancing-customer-satisfaction-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/measuring-and-enhancing-customer-satisfaction-150x150.jpg"
-	   ],
-	  "datePublished": "2024-01-12",
-	  "dateModified": "2024-01-12",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "My Business Care Team provides a comprehensive solution with their optometrist appointment in Georgia services."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

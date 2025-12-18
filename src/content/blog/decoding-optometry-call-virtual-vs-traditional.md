@@ -40,36 +40,6 @@ As you navigate the decision between optometry virtual receptionists and traditi
 
 Empower your practice with innovation, prioritizing your patients' well-being and achieving operational excellence. At My Business Care Team, we are committed to delivering outstanding patient experiences, making your journey towards enhanced reception services a reality.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/decoding-optometry-call-virtual-vs-traditional"
-	  },
-	  "headline": "Decoding Optometry Call: Virtual vs. Traditional",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/decoding-optometry-call-virtual-vs-traditional.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/decoding-optometry-call-virtual-vs-traditional-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/decoding-optometry-call-virtual-vs-traditional-150x150.jpg"
-	   ],
-	  "datePublished": "2024-02-15",
-	  "dateModified": "2024-02-15",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Optometry virtual receptionists in Georgia redefine patient care by offering modern solutions to streamline your practice operations."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

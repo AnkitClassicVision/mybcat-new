@@ -34,36 +34,6 @@ A proactive call support team can ensure patients receive timely appointment rem
 
 [Contact](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) My Business Care Team, your trusted [optometry call service in Atlanta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia).
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/the-role-of-call-support-in-patient-satisfaction"
-	  },
-	  "headline": "The Role of Call Support in Patient Satisfaction",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/08/the-role-of-call-support-in-patient-satisfaction.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/08/the-role-of-call-support-in-patient-satisfaction-300x225.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/08/the-role-of-call-support-in-patient-satisfaction-150x150.jpg"
-	   ],
-	  "datePublished": "2023-08-18",
-	  "dateModified": "2023-08-18",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Providing exceptional eye clinic customer service goes beyond the examination room; it begins with the first point of contact – call support."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

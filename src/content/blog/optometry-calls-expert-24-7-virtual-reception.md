@@ -38,36 +38,6 @@ In an ever-diverse world, speaking your patient's language can make all the diff
 
 Lastly, if you are based in Atlanta and need a trustworthy partner for this crucial service, look no further. My Business Care Team provides specialized [optometry call service in Atlanta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia). Our dedicated professionals ensure your patients hear a friendly, knowledgeable voice on the other end. [Connect with us](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) and elevate your patient service experience today!
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/optometry-calls-expert-24-7-virtual-reception"
-	  },
-	  "headline": "Optometry Calls: Expert 24/7 Virtual Reception",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/11/optometry-calls-expert-24-7-virtual-reception.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/11/optometry-calls-expert-24-7-virtual-reception-300x201.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/11/optometry-calls-expert-24-7-virtual-reception-150x150.png"
-	   ],
-	  "datePublished": "2023-11-14",
-	  "dateModified": "2023-11-14",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "In the fast-paced world of optometry, patient service should never lag. Enter the world of optometry virtual receptionists in Georgia."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

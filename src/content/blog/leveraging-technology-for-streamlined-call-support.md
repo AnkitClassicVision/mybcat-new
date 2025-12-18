@@ -20,36 +20,6 @@ A [customer service outsourcing provider in Marietta, Georgia](https://mybusines
 
 My Business Care Team stands at the forefront of this technological evolution in healthcare customer service. Specializing in [eye care call support in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/), we provide eye clinics with the latest call support technology, ensuring that your patients receive the best possible service. Partner with us and take your eye clinic's customer service to the next level.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/leveraging-technology-for-streamlined-call-support"
-	  },
-	  "headline": " Leveraging Technology for Streamlined Call Support",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/leveraging-technology-for-streamlined-call-support.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/leveraging-technology-for-streamlined-call-support-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/leveraging-technology-for-streamlined-call-support-150x150.jpg"
-	   ],
-	  "datePublished": "2024-01-23",
-	  "dateModified": "2024-01-23",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "This technological integration is particularly important for optometrists inbound call services in Georgia."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

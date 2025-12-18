@@ -38,36 +38,6 @@ Optometry clinics find a reliable partner in [customer service outsourcing provi
 
 For optometry clinics seeking the right call support model, My Business Care Team offers unparalleled [eye care call support in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/). Elevate your patient communication, optimize appointment management, and enhance the overall clinic experience. [Contact us](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) today and embark on a journey toward patient-centric call support for your optometry clinic.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-choosing-patient-centric-support"
-	  },
-	  "headline": "Optometry Call: Choosing Patient-Centric Support",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/optometry-call-choosing-patient-centric-support.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/optometry-call-choosing-patient-centric-support-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/02/optometry-call-choosing-patient-centric-support-150x150.jpg"
-	   ],
-	  "datePublished": "2024-02-12",
-	  "dateModified": "2024-02-12",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "The right call support model streamlines optometrist call management, ensuring appointments are handled efficiently and schedules are well-organized."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

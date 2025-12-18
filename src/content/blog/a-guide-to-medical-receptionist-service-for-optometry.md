@@ -22,64 +22,6 @@ Optometrists focus on streamlining communication channels. These services not on
 
 In conclusion, embracing specialized medical receptionist services is a strategic move for optometrists aiming to enhance their patient experience. Consider partnering with a customer service outsourcing provider to leverage and streamline your [optometrists inbound call services in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/). Optimize and watch your practice flourish. For further details, [call](tel:+1-678-855-6130) our dedicated My Business Care Team today.
 
-	{
-
-	  "@context": "https://schema.org",
-
-	  "@type": "NewsArticle",
-
-	  "mainEntityOfPage": {
-
-		"@type": "WebPage",
-
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/a-guide-to-medical-receptionist-service-for-optometry"
-
-	  },
-
-	  "headline": "A Guide to Medical Receptionist Service for Optometry",
-
-	  "image": [
-
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/a-guide-to-medical-receptionist-service-for-optometry.jpg",
-
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/a-guide-to-medical-receptionist-service-for-optometry-300x201.jpg",
-
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/a-guide-to-medical-receptionist-service-for-optometry-150x150.jpg"
-
-	   ],
-
-	  "datePublished": "2024-03-18",
-
-	  "dateModified": "2024-03-18",
-
-	  "author": {
-
-		"@type": "Person",
-
-		"name": "Louise Savoie"
-
-	  },
-
-	   "publisher": {
-
-		"@type": "Organization",
-
-		"name": "My Business Care Team",
-
-		"logo": {
-
-		  "@type": "ImageObject",
-
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-
-		}
-
-	  },
-
-	  "description": "Optometry virtual receptionists in Georgia are trained to understand the specific needs of optometry practices."
-
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

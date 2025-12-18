@@ -20,36 +20,6 @@ Similarly, [optometrists inbound call services in Georgia](https://mybusinesscar
 
 For optometry practices looking to enhance their customer service capabilities, My Business Care Team is an ideal partner. As a leading [customer service outsourcing provider in Marietta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia), we specialize in managing challenging customer service situations, ensuring your patients always have a positive experience with your practice.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/handling-challenging-customer-service-situations"
-	  },
-	  "headline": "Handling Challenging Customer Service Situations",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/handling-challenging-customer-service-situations.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/handling-challenging-customer-service-situations-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/handling-challenging-customer-service-situations-150x150.jpg"
-	   ],
-	  "datePublished": "2024-01-22",
-	  "dateModified": "2024-01-22",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "In the field of optometry, eye health reception services play a vital role in managing these challenging situations. "
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

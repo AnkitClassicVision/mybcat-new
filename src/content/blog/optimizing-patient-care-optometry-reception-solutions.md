@@ -20,36 +20,6 @@ My Business Care Team specializes in providing top-tier medical receptionist ser
 
 Elevate your optometry practice with the unparalleled support of My Business Care Team. [Contact us](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) today to learn more about how our medical receptionist services can benefit your practice and help you provide exceptional care to every patient.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/optimizing-patient-care-optometry-reception-solutions"
-	  },
-	  "headline": "Optimizing Patient Care: Optometry Reception Solutions",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/optimizing-patient-care-optometry-reception-solutions.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/optimizing-patient-care-optometry-reception-solutions-300x212.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/optimizing-patient-care-optometry-reception-solutions-150x150.png"
-	   ],
-	  "datePublished": "2023-12-22",
-	  "dateModified": "2023-12-22",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Eye health reception services are pivotal in achieving this, as they ensure that every patient receives timely and efficient service. "
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

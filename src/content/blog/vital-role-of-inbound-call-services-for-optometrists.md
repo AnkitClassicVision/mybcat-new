@@ -36,36 +36,6 @@ Multilingual call agents accommodate diverse patient populations, breaking langu
 
 Are you looking for a [customer service outsourcing provider in Marietta, Georgia?](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia) Call My Business Care Team today at [678-855-6130](tel:678-855-6130).
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/vital-role-of-inbound-call-services-for-optometrists"
-	  },
-	  "headline": "Vital Role of Inbound Call Services for Optometrists",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/09/vital-role-of-inbound-call-services-for-optometrists.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/09/vital-role-of-inbound-call-services-for-optometrists-300x225.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/09/vital-role-of-inbound-call-services-for-optometrists-150x150.jpg"
-	   ],
-	  "datePublished": "2023-09-20",
-	  "dateModified": "2023-09-20",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Optometrists inbound call services in Georgia are pivotal in enhancing patient experiences, streamlining operations, and fostering practice growth."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

@@ -20,36 +20,6 @@ Effective [optometrist call management](https://mybusinesscaretea.us23.cdn-alpha
 
 For optometrists in Georgia looking to improve their appointment scheduling and patient service, My Business Care Team offers the ideal solution with their [optometry call service in Atlanta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-in-marietta-georgia). Our experienced team ensures your patients are scheduled efficiently and professionally, enhancing their overall experience with your practice.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/the-importance-of-timely-appointment-scheduling"
-	  },
-	  "headline": "The Importance of Timely Appointment Scheduling",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/the-importance-of-timely-appointment-scheduling.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/the-importance-of-timely-appointment-scheduling-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/01/the-importance-of-timely-appointment-scheduling-150x150.jpg"
-	   ],
-	  "datePublished": "2024-01-10",
-	  "dateModified": "2024-01-10",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "For those seeking an optometrist appointment in Georgia, the importance of timely scheduling becomes even more pronounced."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

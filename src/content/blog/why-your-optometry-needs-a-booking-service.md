@@ -34,36 +34,6 @@ Incorporating a digital appointment booking service positions your practice as a
 
 Stay on top of the competition and build trust with your patients. [Contact](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) My Business Care Team, your trusted [customer service outsourcing provider in Marietta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia).
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/why-your-optometry-needs-a-booking-service"
-	  },
-	  "headline": "Why Your Optometry Needs a Booking Service?",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/08/why-your-optometry-needs-a-booking-service.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/08/why-your-optometry-needs-a-booking-service-300x225.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/08/why-your-optometry-needs-a-booking-service-150x150.jpg"
-	   ],
-	  "datePublished": "2023-08-16",
-	  "dateModified": "2023-08-16",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Optometrists inbound call services in Georgia automate the scheduling process, reducing the administrative burden on your staff."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

@@ -20,36 +20,6 @@ Furthermore, partnering with a specialized call service provider like My Busines
 
 Truly, optometry-call service partnerships offer a range of benefits for practices looking to enhance their operations and improve patient satisfaction. If you are looking for a trusted [eye care call support in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/), consider partnering with us to elevate your practice.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/the-benefits-of-optometry-call-service-partnerships"
-	  },
-	  "headline": "The Benefits of Optometry-Call Service Partnerships",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/04/the-benefits-of-optometry-call-service-partnerships.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/04/the-benefits-of-optometry-call-service-partnerships-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/04/the-benefits-of-optometry-call-service-partnerships-150x150.jpg"
-	   ],
-	  "datePublished": "2024-04-19",
-	  "dateModified": "2024-04-19",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": " My Business Care Team ",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Optometrists inbound call services in Georgia can help practices manage call volume fluctuations more effectively."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

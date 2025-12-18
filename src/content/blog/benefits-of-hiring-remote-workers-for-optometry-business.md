@@ -62,16 +62,6 @@ Office closures due to weather or sickness can disrupt your business. But with r
 
 Interested in learning more? Download our FREE guide, 'Uplevel Your Optometry Business Through Outsourcing.'
 
-  hbspt.forms.create({
-
-    region: "na1",
-
-    portalId: "23344341",
-
-    formId: "66b3df65-2bed-430f-b72e-80c4e7fcc66b"
-
-  });
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

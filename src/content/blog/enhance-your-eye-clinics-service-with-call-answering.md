@@ -20,36 +20,6 @@ Scheduling an [optometrist appointment in Georgia](https://mybusinesscaretea.us2
 
 Ready to take your patient service to the next level? Partner with My Business Care Team for unparalleled [optometry virtual receptionists in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia). Do not let another missed call be a missed opportunity – [contact us](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) today and experience the transformative impact of our virtual receptionists on your optometry practice.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/enhance-your-eye-clinics-service-with-call-answering"
-	  },
-	  "headline": "Enhance Your Eye Clinic's Service with Call Answering",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/enhance-your-eye-clinics-service-with-call-answering.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/enhance-your-eye-clinics-service-with-call-answering-300x212.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/enhance-your-eye-clinics-service-with-call-answering-150x150.png"
-	   ],
-	  "datePublished": "2023-12-15",
-	  "dateModified": "2023-12-15",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Optometry answering service is no longer just an option; it is a crucial element in providing exceptional patient care."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

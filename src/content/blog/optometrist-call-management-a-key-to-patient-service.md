@@ -20,36 +20,6 @@ My Business Care Team understands the unique challenges faced by optometrists in
 
 Enhance your optometry practice's efficiency and [patient satisfaction](https://mybusinesscaretea.us23.cdn-alpha.com/take-every-step-to-improve-the-patient-experience) today. [Get in touch](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) with us and discover how our specialized call management services can transform your patient service experience.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/optometrist-call-management-a-key-to-patient-service"
-	  },
-	  "headline": "Optometrist Call Management: A Key to Patient Service",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/optometrist-call-management-a-key-to-patient-service.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/optometrist-call-management-a-key-to-patient-service-300x212.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/optometrist-call-management-a-key-to-patient-service-150x150.png"
-	   ],
-	  "datePublished": "2023-12-20",
-	  "dateModified": "2023-12-20",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Effective optometrist call management is crucial for any eye care practice aiming to deliver outstanding patient service."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

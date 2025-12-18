@@ -18,36 +18,6 @@ In this digital age, [optometry virtual receptionists in Georgia](https://mybusi
 
 Are you looking to elevate your patient care experience? Let My Business Care Team be your partner in excellence. Our [optometry call service in Atlanta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-my-business-care-team-process), is dedicated to helping your practice grow by improving patient satisfaction through seamless communication. [Contact us](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) today and take the first step towards transforming your optometry practice with our expert virtual receptionist services.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-services-enhance-customer-experience"
-	  },
-	  "headline": "Optometry Call Services Enhance Customer Experience",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/optometry-call-services-enhance-customer-experience.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/optometry-call-services-enhance-customer-experience-300x212.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/12/optometry-call-services-enhance-customer-experience-150x150.png"
-	   ],
-	  "datePublished": "2023-12-18",
-	  "dateModified": "2023-12-18",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "In the world of optometry, where first impressions are vital, eye clinic customer service can truly make or break the patient experience."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

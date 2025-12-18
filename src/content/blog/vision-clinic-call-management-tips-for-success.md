@@ -36,36 +36,6 @@ Regularly review call data to identify trends, areas for improvement, and opport
 
 Incorporating these strategies can surely elevate the performance of your vision clinic's call management. At My Business Care Team, we specialize in providing exceptional [optometrists inbound call services in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-in-marietta-georgia). [Contact us](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) now to discover how we can enhance your clinic's operations and patient experience.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/vision-clinic-call-management-tips-for-success"
-	  },
-	  "headline": " Vision Clinic Call Management: Tips for Success",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/11/vision-clinic-call-management-tips-for-success.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/11/vision-clinic-call-management-tips-for-success-300x201.png",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/11/vision-clinic-call-management-tips-for-success-150x150.png"
-	   ],
-	  "datePublished": "2023-11-28",
-	  "dateModified": "2023-11-28",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "At My Business Care Team, we specialize in providing exceptional optometrists inbound call services in Georgia. "
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

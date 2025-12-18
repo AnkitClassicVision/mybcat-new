@@ -30,36 +30,6 @@ After appointments, inquire about patients' experiences and address any lingerin
 
 Regularly evaluate patient feedback and identify areas for enhancement. Adapt your communication strategies to evolving patient needs and expectations. Are you looking for an [optometry call service in Atlanta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia)? Call My Business Care Team today at [678-855-6130](tel:678-855-6130).
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/enhancing-patient-communication-in-your-eye-clinic"
-	  },
-	  "headline": "Enhancing Patient Communication in Your Eye Clinic",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/09/enhancing-patient-communication-in-your-eye-clinic.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/09/enhancing-patient-communication-in-your-eye-clinic-300x225.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/09/enhancing-patient-communication-in-your-eye-clinic-150x150.jpg"
-	   ],
-	  "datePublished": "2023-09-18",
-	  "dateModified": "2023-09-18",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Implement efficient response protocols as part of your eye care call support in Georgia to ensure a seamless experience."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

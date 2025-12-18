@@ -22,36 +22,6 @@ We take pride in our responsive and knowledgeable staff. Your queries won't go u
 
 To experience the difference in patient care, [call](tel:678-855-6130) My Business Care Team today to elevate your eye health journey with our comprehensive eye health reception services. Schedule your optometris appointment and discover the convenience and excellence that define our services. Your vision is our priority.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/elevate-patient-care-with-eye-health-reception-services"
-	  },
-	  "headline": "Elevate Patient Care with Eye Health Reception Services",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/elevate-patient-care-with-eye-health-reception-services.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/elevate-patient-care-with-eye-health-reception-services-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/03/elevate-patient-care-with-eye-health-reception-services-150x150.jpg"
-	   ],
-	  "datePublished": "2024-03-13",
-	  "dateModified": "2024-03-13",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Our eye care call Support in Georgia goes beyond the ordinary, providing a personalized touch to each interaction."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

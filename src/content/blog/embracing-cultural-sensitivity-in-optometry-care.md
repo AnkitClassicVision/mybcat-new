@@ -32,36 +32,6 @@ Patients are likelier to recommend a practice that respects and embraces their c
 
 Are you looking for an [optometry call service in Atlanta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia)? Call My Business Care Team today at [678-855-6130](tel:678-855-6130).
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/embracing-cultural-sensitivity-in-optometry-care"
-	  },
-	  "headline": "Embracing Cultural Sensitivity in Optometry Care",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/09/embracing-cultural-sensitivity-in-optometry-care.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/09/embracing-cultural-sensitivity-in-optometry-care-300x225.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2023/09/embracing-cultural-sensitivity-in-optometry-care-150x150.jpg"
-	   ],
-	  "datePublished": "2023-09-22",
-	  "dateModified": "2023-09-22",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": "My Business Care Team",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Using appropriate language and gestures when providing optometry answering service can create a welcoming atmosphere."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

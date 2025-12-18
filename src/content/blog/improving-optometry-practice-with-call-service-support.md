@@ -22,36 +22,6 @@ In addition to improving patient communication, call service support can contrib
 
 Indeed, incorporating call service support into optometry practices can lead to a more streamlined and patient-centered approach to care. Consider partnering with My Business Care Team today to elevate your practice with professional call service support.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/improving-optometry-practice-with-call-service-support"
-	  },
-	  "headline": "Improving Optometry Practice with Call Service Support",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/04/improving-optometry-practice-with-call-service-support.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/04/improving-optometry-practice-with-call-service-support-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/04/improving-optometry-practice-with-call-service-support-150x150.jpg"
-	   ],
-	  "datePublished": "2024-04-17",
-	  "dateModified": "2024-04-17",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": " My Business Care Team ",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Optometrists inbound call services in Georgia can help practices handle call volume fluctuations more effectively. "
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.

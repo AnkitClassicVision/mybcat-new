@@ -126,6 +126,12 @@ function htmlToMarkdown(html) {
 
   let md = html;
 
+  // Remove script tags (including JSON-LD schema)
+  md = md.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '');
+
+  // Remove inline JSON-LD schema blocks (sometimes not in script tags)
+  md = md.replace(/\{[\s\n]*"@context"[\s\S]*?"@type"[\s\S]*?\}\s*/g, '');
+
   // Remove WordPress-specific classes and attributes
   md = md.replace(/ class="[^"]*"/g, '');
   md = md.replace(/ id="[^"]*"/g, '');

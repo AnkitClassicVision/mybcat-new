@@ -24,36 +24,6 @@ In conclusion, effective communication lies at the heart of exceptional customer
 
 If you are looking for [optometry virtual receptionists in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia), [contact](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) My Business Care Team today. Learn more about how we can support your practice's communication needs and help you provide exceptional patient care.
 
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NewsArticle",
-	  "mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": "https://mybusinesscaretea.us23.cdn-alpha.com/communicating-better-eye-customer-service-tips"
-	  },
-	  "headline": "Communicating Better: Eye Customer Service Tips",
-	  "image": [
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/04/communicating-better-eye-customer-service-tips.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/04/communicating-better-eye-customer-service-tips-300x201.jpg",
-		"https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/uploads/2024/04/communicating-better-eye-customer-service-tips-150x150.jpg"
-	   ],
-	  "datePublished": "2024-04-12",
-	  "dateModified": "2024-04-12",
-	  "author": {
-		"@type": "Person",
-		"name": "Louise Savoie"
-	  },
-	   "publisher": {
-		"@type": "Organization",
-		"name": " My Business Care Team ",
-		"logo": {
-		  "@type": "ImageObject",
-		  "url": "https://mybusinesscaretea.us23.cdn-alpha.com/wp-content/themes/mybusinesscareit747/images/main-logo.png"
-		}
-	  },
-	  "description": "Implementing efficient systems for optometrist appointment in Georgia minimizes wait times and demonstrates respect for your patients time."
-	}
-
 ### Ready to Transform Your Practice?
 
 Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
