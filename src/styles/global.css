@@ -1,0 +1,337 @@
+/* ============================================
+   SPATIAL DESIGN SYSTEM - Titanium & Teal Palette
+   Migrated from mybcat-live front-page.php
+   ============================================ */
+
+:root {
+  /* Core enterprise palette: Titanium & Teal */
+  --deep-slate: #27343C;
+  --oceanic-teal: #006064;
+  --electric-aqua: #4DD0E1;
+  --silver-mist: #E0E0E0;
+  --revenue-gold: #D3AF5E;
+
+  /* Brand color ramps mapped to new palette */
+  --navy-900: #1A242C;
+  --navy-800: var(--deep-slate);
+  --navy-700: #33424D;
+  --copper-700: var(--oceanic-teal);
+  --copper-500: var(--electric-aqua);
+  --gold-accent: var(--revenue-gold);
+
+  /* Spatial Light Theme Base */
+  --spatial-bg: #F4F6F8;
+  --spatial-surface: #FFFFFF;
+  --spatial-card: rgba(255, 255, 255, 0.9);
+  --spatial-glass: rgba(255, 255, 255, 0.82);
+  --spatial-glass-heavy: rgba(255, 255, 255, 0.96);
+
+  /* Background neutrals */
+  --cream-50: #F4F6F8;
+  --cream-100: #E9EDF0;
+  --cream-200: #D8DFE4;
+  --charcoal-500: #6C7A88;
+  --charcoal-700: #475462;
+  --charcoal-900: #27343C;
+
+  /* Brand as Light Sources (Light Mode) */
+  --glow-navy: radial-gradient(circle at center, rgba(39, 52, 60, 0.16), transparent 70%);
+  --glow-copper: radial-gradient(circle at center, rgba(77, 208, 225, 0.18), transparent 60%);
+  --glow-gold: radial-gradient(circle at center, rgba(211, 175, 94, 0.14), transparent 70%);
+
+  /* Glass Tints with Brand Colors */
+  --glass-navy: rgba(39, 52, 60, 0.06);
+  --glass-copper: rgba(0, 96, 100, 0.08);
+  --glass-border: rgba(39, 52, 60, 0.12);
+
+  /* Text on Light */
+  --text-primary: var(--charcoal-900);
+  --text-secondary: var(--charcoal-700);
+  --text-tertiary: var(--charcoal-500);
+
+  /* Legacy mappings for compatibility */
+  --primary-blue: var(--navy-800);
+  --primary-green: var(--oceanic-teal);
+  --dark-text: var(--navy-900);
+  --light-text: var(--charcoal-500);
+  --bg-light: var(--cream-50);
+
+  /* Spatial Effects */
+  --blur-sm: 8px;
+  --blur: 12px;
+  --blur-lg: 24px;
+  --blur-xl: 40px;
+
+  /* Shadows for Light Theme */
+  --shadow-sm: 0 1px 3px rgba(10, 22, 40, 0.06);
+  --shadow: 0 4px 6px rgba(10, 22, 40, 0.08), 0 2px 4px rgba(10, 22, 40, 0.06);
+  --shadow-lg: 0 10px 25px rgba(10, 22, 40, 0.08), 0 6px 10px rgba(10, 22, 40, 0.04);
+  --shadow-xl: 0 20px 40px rgba(10, 22, 40, 0.12);
+
+  /* Animation Curves */
+  --ease-magnetic: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-tilt: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-smooth: cubic-bezier(0.37, 0, 0.63, 1);
+
+  /* Grid System */
+  --grid-unit: 8px;
+  --grid-gap: 20px;
+  --container-max: 1600px;
+  --row-height: 220px;
+}
+
+/* ============================================
+   RESET & BASE STYLES
+   ============================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--spatial-bg);
+}
+
+/* Offset anchor scroll for floating nav */
+section[id] {
+  scroll-margin-top: 100px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text-primary);
+  background:
+    linear-gradient(140deg, rgba(0, 96, 100, 0.04) 0%, transparent 45%),
+    linear-gradient(230deg, rgba(39, 52, 60, 0.05) 0%, transparent 50%),
+    var(--spatial-bg);
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--navy-900);
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+}
+
+p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+a {
+  color: var(--oceanic-teal);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--copper-500);
+}
+
+/* ============================================
+   BENTO GRID SYSTEM
+   ============================================ */
+.bento-container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--grid-gap);
+  position: relative;
+}
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(var(--row-height), auto);
+  gap: var(--grid-gap);
+  padding: 80px 0;
+}
+
+@media (max-width: 1024px) {
+  .bento-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+@media (max-width: 640px) {
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(180px, auto);
+    gap: 20px;
+  }
+}
+
+/* ============================================
+   SPATIAL CARD COMPONENT
+   ============================================ */
+.spatial-card {
+  position: relative;
+  background: var(--spatial-glass);
+  backdrop-filter: blur(var(--blur));
+  -webkit-backdrop-filter: blur(var(--blur));
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  padding: 28px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: all 0.6s var(--ease-tilt);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.spatial-card::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150%;
+  height: 150%;
+  background: var(--glow-navy);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.spatial-card:hover::before {
+  opacity: 1;
+}
+
+.spatial-card:hover {
+  border-color: rgba(212, 145, 94, 0.2);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+/* 3D Tilt Effect */
+.spatial-card[data-tilt] {
+  will-change: transform;
+}
+
+.spatial-card-content {
+  position: relative;
+  z-index: 1;
+  transform: translateZ(20px);
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+.magnetic-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  background: var(--oceanic-teal);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s var(--ease-magnetic);
+}
+
+.magnetic-button:hover {
+  background: var(--navy-800);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  color: white;
+}
+
+.magnetic-button.secondary {
+  background: transparent;
+  border: 2px solid var(--oceanic-teal);
+  color: var(--oceanic-teal);
+}
+
+.magnetic-button.secondary:hover {
+  background: var(--oceanic-teal);
+  color: white;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.mt-1 { margin-top: 8px; }
+.mt-2 { margin-top: 16px; }
+.mt-3 { margin-top: 24px; }
+.mt-4 { margin-top: 32px; }
+
+.mb-1 { margin-bottom: 8px; }
+.mb-2 { margin-bottom: 16px; }
+.mb-3 { margin-bottom: 24px; }
+.mb-4 { margin-bottom: 32px; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+.fade-in {
+  animation: fadeInUp 0.8s var(--ease-smooth) forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hover-lift {
+  transition: transform 0.3s var(--ease-smooth);
+}
+
+.hover-lift:hover {
+  transform: translateY(-8px);
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

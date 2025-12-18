@@ -1,0 +1,24 @@
+import { defineCollection, z } from 'astro:content';
+
+const blog = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    publishDate: z.coerce.date(),
+    scheduledDate: z.coerce.date().optional(),
+    status: z.enum(['published', 'draft', 'scheduled']).default('draft'),
+    author: z.string().default('Ankit Patel'),
+    category: z.string(),
+    tags: z.array(z.string()).default([]),
+    featuredImage: z.string().optional(),
+    ogImage: z.string().optional(),
+    relatedPosts: z.array(z.string()).default([]),
+    // SEO overrides
+    seoTitle: z.string().optional(),
+    seoDescription: z.string().optional(),
+    canonical: z.string().optional(),
+  }),
+});
+
+export const collections = { blog };

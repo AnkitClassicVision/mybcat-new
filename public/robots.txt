@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow admin/system paths (none in static site)
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://mybcat.com/sitemap-index.xml
