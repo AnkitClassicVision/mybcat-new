@@ -1,15 +1,16 @@
 ---
 title: "How to Train Virtual Assistants for Your Eye Care Practice"
-description: "Why would an optometrist hire virtual assistants from the Philippines? It's simple: value for money and fluency in English. With as little as $5 per hour, you..."
+description: "Why would an optometrist hire virtual assistants from the Philippines? It's simple: value for money and fluency in English. With [...]"
 publishDate: 2023-07-25
 status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","growth"]
+
 canonical: "https://mybcat.com/how-to-train-virtual-assistants-for-your-eye-care-practice"
 ---
 
-Why would an optometrist hire virtual assistants from the Philippines? It's simple: value for money and fluency in English. With as little as $5 per hour, you can secure the services of a college graduate proficient in English—an official language of the country. However, providing great quality eye care takes more than being fluent in English. A new team member from the Philippines may not be familiar with the specifics of optometry, your clinic's unique administrative tasks, or even cultural nuances that can impact patient interactions. 
+Why would an optometrist hire virtual assistants from the Philippines? It's simple: value for money and fluency in English. With as little as $5 per hour, you can secure the services of a college graduate proficient in English—an official language of the country. However, providing great quality eye care takes more than being fluent in English. A new team member from the Philippines may not be familiar with the specifics of optometry, your clinic's unique administrative tasks, or even cultural nuances that can impact patient interactions. 
 
 This is where training comes in.
 
@@ -23,11 +24,11 @@ Begin your VA's training with the basics, from understanding eye conditions like
 
 ### **Leverage the AOA Certified Paraoptometric Training Material**
 
-You can't beat the certified paraoptometric training material provided by the American Optometric Association's (AOA) to ensure your VA's training is thorough and top-notch. Available for free to AOA members through the [AOA Education Center](https://www.aoa.org/education/paraoptometric-resources), this material is a goldmine for those seeking to deliver top-quality care. 
+You can't beat the certified paraoptometric training material provided by the American Optometric Association's (AOA) to ensure your VA's training is thorough and top-notch. Available for free to AOA members through the [AOA Education Center](https://www.aoa.org/education/paraoptometric-resources), this material is a goldmine for those seeking to deliver top-quality care. 
 
 ### **Evaluating Industry Acumen**
 
-Whether you use materials from the AOA or create your own, industry-specific training is how you start transforming your VA into an indispensable asset to your eye care clinic. And you need to ensure your VA has absorbed and retained your training. It is as crucial as the training itself. 
+Whether you use materials from the AOA or create your own, industry-specific training is how you start transforming your VA into an indispensable asset to your eye care clinic. And you need to ensure your VA has absorbed and retained your training. It is as crucial as the training itself. 
 
 From our experience, regular assessments are the most practical means of tracking their progress and identifying areas that need reinforcement. Start with quarterly tests during the first year, and extend your assessment methods to include real-time feedback, role-play scenarios, one-on-one meetings, performance metrics, peer assessments, patient feedback, and continual learning programs. This multi-faceted approach to evaluation not only ensures your VA's industry acumen but also encourages continual growth and improvement.
 
@@ -47,7 +48,7 @@ On the other hand, a culturally trained VA would understand that direct communic
 
 Language training goes beyond basic English fluency. It equips the VA to handle specific professional and regional contexts with nuanced language skills.
 
-Consider an example where a patient calls and reports that they're "seeing floaters." An untrained assistant might not understand the term and could become confused, possibly assuming the patient is describing insects or other objects in their environment. An assistant who has undergone our language training program, however, would recognize that "seeing floaters" is a common complaint related to the eye's vitreous, which can be a symptom of several conditions, including normal aging, nearsightedness, or even retinal detachment in more severe cases. 
+Consider an example where a patient calls and reports that they're "seeing floaters." An untrained assistant might not understand the term and could become confused, possibly assuming the patient is describing insects or other objects in their environment. An assistant who has undergone our language training program, however, would recognize that "seeing floaters" is a common complaint related to the eye's vitreous, which can be a symptom of several conditions, including normal aging, nearsightedness, or even retinal detachment in more severe cases. 
 
 For your reference, here are some of the other things we include in our English language training module:
 
@@ -63,7 +64,7 @@ For your reference, here are some of the other things we include in our English 
 
 ## **Process-Specific Training**
 
-Integrating an overseas VA into your optometry clinic begins with a comprehensive record of your standard operating procedures (SOPs)—the bedrock of consistent and efficient operations. SOPs serve as a manual for daily tasks and provide a roadmap to handle unusual situations, which is crucial for reducing errors and ultimately enhancing patient care.
+Integrating an overseas VA into your optometry clinic begins with a comprehensive record of your standard operating procedures (SOPs)—the bedrock of consistent and efficient operations. SOPs serve as a manual for daily tasks and provide a roadmap to handle unusual situations, which is crucial for reducing errors and ultimately enhancing patient care. For practices with [multiple locations managing patient intake](https://mybcat.com/multi-location-healthcare-intake-guide), well-documented SOPs become even more essential.
 
 Effective SOPs must be clear, concise, and highly detailed, breaking down each task into manageable steps. They should outline what needs to be done, when, and how, identifying whom to contact in case of issues or uncertainties. Visual aids like diagrams and flowcharts can make complex tasks more understandable and actionable.
 
@@ -100,6 +101,12 @@ Investing in detailed and comprehensive training for your overseas Virtual Assis
 This investment will bear fruit in several ways. It will increase revenues and optimize operations by reducing errors and allowing you and your team more time to focus on your ultimate goal—providing top-quality patient care.
 
 Your patients deserve the best care, and that starts with an optimally trained and empowered VA, serving as an integral part of your clinic's journey to success. Take that first step towards addressing staffing issues, improving efficiency, and enhancing patient experience.
+
+### Ready to Transform Your Practice?
+
+Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
+
+  Schedule a Consultation Today →
 
 ---
 

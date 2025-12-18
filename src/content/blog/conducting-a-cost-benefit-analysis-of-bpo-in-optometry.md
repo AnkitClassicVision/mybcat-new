@@ -1,11 +1,12 @@
 ---
 title: "Conducting a Cost-Benefit Analysis of BPO in Optometry"
-description: "Business process outsourcing (BPO) has become an increasingly popular option for optometry practices looking to reduce costs and improve efficiency. With BPO,..."
+description: "Business process outsourcing (BPO) has become an increasingly popular option for optometry practices looking to reduce costs and improve efficiency. [...]"
 publishDate: 2023-09-06
 status: "published"
 author: "Ankit Patel"
 category: "Technology"
-tags: ["optometry","patient-care","scheduling","insurance","hipaa"]
+tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
+
 canonical: "https://mybcat.com/conducting-a-cost-benefit-analysis-of-bpo-in-optometry"
 ---
 
@@ -105,7 +106,7 @@ Outsourcing administrative or non-core functions allows the clinic's staff to fo
 
 ### **Enhanced Scalability**
 
-BPO providers can readily scale capacity up or down as the clinic's needs change. This provides flexibility to support fluctuating demand or seasonal cycles.
+BPO providers can readily scale capacity up or down as the clinic's needs change. This provides flexibility to support fluctuating demand or seasonal cycles. For practices expanding to [multiple locations](https://mybcat.com/multi-location-healthcare-intake-guide), this scalability becomes especially valuable.
 
 ### **Focus on Core Competencies **
 
@@ -169,13 +170,7 @@ Forecast longer-term costs and benefits over a 5-year period and calculate net p
 
 Align conclusions with strategic goals for patient experience, culture, and competitive positioning
 
-This rigorous analysis provides data-driven insights into the likely return on investing in business process outsourcing. The final decision can balance both the financial case and strategic considerations unique to the clinic.
-
-An accurate cost-benefit analysis is crucial for optometry practices considering business process outsourcing. While BPO offers many potential benefits, the decision carries risks and should align with the clinic's broader objectives for delivering compassionate, quality vision care. Carefully analyzing costs and benefits provides an essential fact-base for determining if outsourcing is the right choice to enhance the performance and competitiveness of an optometry practice.
-
-## **Cost-Benefit Analysis Template**
-
-We have created [an easy-to-use Google Sheets template to assist optometrists with conducting their own thorough cost-benefit analysis](https://docs.google.com/spreadsheets/d/1YVPBexLQdo8q_TuZvdaxv7IOSQiF1haCcbSUTxChAkc/edit?usp=sharing). This customizable template allows users to input their own clinic's estimates and projections to quantify the case for or against outsourcing.
+This rigorous analysis provides>an easy-to-use Google Sheets template to assist optometrists with conducting their own thorough cost-benefit analysis. This customizable template allows users to input their own clinic's estimates and projections to quantify the case for or against outsourcing.
 
 The template contains separate worksheets to model different cost and benefit scenarios like:
 
@@ -189,13 +184,7 @@ The template contains separate worksheets to model different cost and benefit sc
 
 Formulas embedded in the template automatically calculate the total projected cost reductions and added revenue from outsourcing based on the user's input assumptions.
 
-This template provides an organized framework to follow the cost-benefit analysis steps outlined in this article. Optometrists can use the model to develop data-driven projections tailored to their unique practice situation and needs.
-
-The Google Sheets template allows clinics to evaluate outsourcing in a quantified, scenario-based manner.
-
-## **Conclusion**
-
-Outsourcing administrative functions through business process outsourcing represents a significant strategic decision for an optometry clinic. Thoroughly assessing the current operations costs, projecting outsourcing expenses, evaluating qualitative benefits and risks, and incorporating strategic alignment is crucial. This cost-benefit analysis provides data-driven insights to decide whether BPO can maximize value for the practice. While outsourcing comes with advantages and downsides, a rigorous analysis helps optometrists determine if it makes financial and competitive sense to move specific business processes outside the organization.
+This template provides an organized framework to follow the cost-benefit analysis steps outlined in this article. Optometrists can use the model to develop>Schedule a Consultation Today →
 
 ---
 

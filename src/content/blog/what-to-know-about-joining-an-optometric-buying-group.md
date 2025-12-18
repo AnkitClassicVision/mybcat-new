@@ -1,11 +1,12 @@
 ---
 title: "What to Know About Joining an Optometric Buying Group"
-description: "Optometric alliances or buying groups are a useful tool for private optometry practices. They are organizations for eye care professionals, such as independent..."
+description: "Optometric alliances or buying groups are a useful tool for private optometry practices. They are organizations for eye care professionals, [...]"
 publishDate: 2023-11-01
 status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
+
 canonical: "https://mybcat.com/what-to-know-about-joining-an-optometric-buying-group"
 ---
 
@@ -41,7 +42,13 @@ Unlike alliances and buying groups, which focus on optometric-specific supplies 
 
 ## **Choosing Which Group Makes Sense for You**
 
-Before jumping into multiple memberships, use the guidance of this article to evaluate how each will fit into your existing operations. Many practices find value in belonging to both a BPO and an optometric alliance or buying group, leveraging the unique strengths of each. While the alliance might provide discounted rates on optical goods and educational opportunities, the [BPO can improve operational efficiencies and bring down overhead costs in areas the alliance doesn't cover](https://mybusinesscaretea.us23.cdn-alpha.com/conducting-a-cost-benefit-analysis-of-bpo-in-optometry).
+Before jumping into multiple memberships, use the guidance of this article to evaluate how each will fit into your existing operations. Many practices find value in belonging to both a BPO and an optometric alliance or buying group, leveraging the unique strengths of each. While the alliance might provide discounted rates on optical goods and educational opportunities, the [BPO can improve operational efficiencies and bring down overhead costs in areas the alliance doesn't cover](https://mybusinesscaretea.us23.cdn-alpha.com/conducting-a-cost-benefit-analysis-of-bpo-in-optometry). 
+
+### Ready to Transform Your Practice?
+
+Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
+
+  Schedule a Consultation Today →
 
 ---
 

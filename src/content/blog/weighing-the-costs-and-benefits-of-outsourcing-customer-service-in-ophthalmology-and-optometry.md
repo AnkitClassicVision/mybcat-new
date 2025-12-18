@@ -1,15 +1,16 @@
 ---
 title: "Weighing the Costs and Benefits of Outsourcing Customer Service in Optometry"
-description: "We increased our revenue per patient by 33% because we took the phones out of the office. We took the admin tasks out of the office too. And we started doing..."
+description: "We increased our revenue per patient by 33% because we took the phones out of the office. Understanding how missed [...]"
 publishDate: 2023-07-07
 status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
-tags: ["optometry","virtual-assistant","patient-care","scheduling","insurance"]
+tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
+
 canonical: "https://mybcat.com/weighing-the-costs-and-benefits-of-outsourcing-customer-service-in-ophthalmology-and-optometry"
 ---
 
-We increased our revenue per patient by 33% because we took the phones out of the office. We took the admin tasks out of the office too. And we started doing recalls. But we didn't set out to be experts in outsourcing customer service in ophthalmology and optometry. We began by focusing on things like reducing staff turnover. And we wanted to spend less time supervising and managing staff without hurting our patient experience. To make those areas more efficient, we focused on process improvements. Once we had refined things into a tight, well-documented process, it was apparent that we could outsource the repetitive admin tasks.
+We increased our revenue per patient by 33% because we took the phones out of the office. Understanding [how missed calls impact revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) was a key insight in this journey. We took the admin tasks out of the office too. And we started doing recalls. But we didn't set out to be experts in outsourcing customer service in ophthalmology and optometry. We began by focusing on things like reducing staff turnover. And we wanted to spend less time supervising and managing staff without hurting our patient experience. To make those areas more efficient, we focused on process improvements. Once we had refined things into a tight, well-documented process, it was apparent that we could outsource the repetitive admin tasks.
 
 When we first started, we weren't planning to go all in on outsourcing our business processes, or BPO for short. The first thing we did was brainstorm the stuff we could streamline. We broke it down into the work that was specific to eye care clinics and the tasks that are common across businesses. 
 
@@ -124,6 +125,12 @@ There's a myriad of strategies to explore. Regardless of their chosen strategy, 
 Depending on the clinic, they may care about their performance compared to other clinics. They might compare their cost structure and financial health with industry standards or similar practices. In our experience, non-doctor labor should be between 20 to 24% of your revenues. Also, if a significant portion of the owner's or practitioners' time is spent on administrative tasks rather than patient care, it could indicate that the clinic could use its resources more efficiently.
 
 In our upcoming posts, we will detail the options available to eye care clinics. We'll cover using virtual assistants vs BPOs. In the meantime, don't hesitate to ask if you have any questions about outsourcing admin work for your eye care clinic. We like to share tools and best practices. We're constantly giving tips, advice, and tricks that we should all be discussing more in our industry.
+
+### Ready to Transform Your Practice?
+
+Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
+
+  Schedule a Consultation Today →
 
 ---
 

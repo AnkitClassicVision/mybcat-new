@@ -1,11 +1,12 @@
 ---
 title: "How to leverage outsourcing in your eye care practice"
-description: "Outsourcing can increase revenue for your optometry practice. It can also improve its operational efficiency, reduce errors, and elevate the quality of patient..."
+description: "Outsourcing can increase revenue for your optometry practice. It can also improve its operational efficiency, reduce errors, and elevate the [...]"
 publishDate: 2023-08-08
 status: "published"
 author: "Ankit Patel"
 category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","insurance"]
+tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
+
 canonical: "https://mybcat.com/how-to-leverage-outsourcing-in-your-eye-care-practice"
 ---
 
@@ -19,7 +20,7 @@ Outsourcing can be a game-changer for your optometry or ophthalmology practice. 
 
 **Front Office Functions**
 
-- **Appointment Scheduling:** Leveraging an external service for appointment booking, confirmations, and cancellations can optimize your front office workflow. This allows your in-house team to devote their attention to patients present in the clinic, enhancing the quality of service.
+- **Appointment Scheduling:** Leveraging an external service for appointment booking, confirmations, and cancellations can optimize your front office workflow. For growing practices, consider [how to streamline intake across multiple locations](https://mybcat.com/multi-location-healthcare-intake-guide). This allows your in-house team to devote their attention to patients present in the clinic, enhancing the quality of service.
 
 - **Customer Service:** Outsourcing your customer service functions, including call centers to handle patient inquiries, feedback management, and complaint resolution, can significantly improve the patient experience while freeing up valuable time for your internal staff.
 
@@ -156,6 +157,12 @@ You also have the option to choose between building your own processes, training
 At My Business Care Team, we are a top-tier BPO specializing in optometry and ophthalmology clinics. We have helped numerous eye care clinics solve the complexities of outsourcing. We also share plenty of helpful advice and tips on our blog, whether you're just getting started or looking to optimize existing outsourced functions.
 
 Whether you're doing it on your own or considering a partnership with a BPO, we're here to help. We're happy to answer any questions. After all, our mission is to help eye care clinics achieve their highest potential through effective outsourcing.
+
+### Ready to Transform Your Practice?
+
+Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
+
+  Schedule a Consultation Today →
 
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: "Compliance and security in utilizing virtual assistants in optometry and ophthalmology"
-description: "Whether you're hiring a full-time employee (FTE) or virtual assistant (VA), certain core aspects of compliance and security remain the same. After all,..."
+description: "Whether you're hiring a full-time employee (FTE) or virtual assistant (VA), certain core aspects of compliance and security remain the [...]"
 publishDate: 2023-07-28
 status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
-tags: ["optometry","virtual-assistant","patient-care","scheduling","insurance"]
+tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
+
 canonical: "https://mybcat.com/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology"
 ---
 
@@ -17,7 +18,7 @@ Eye care practice owners must consider nuances such as their VAs' roles and impa
 
 ## **Understanding How the Role of Virtual Assistants Impacts Data**
 
-Virtual assistants play many roles in an ophthalmology clinic, often being the first point of contact in the patient experience. They handle various administrative tasks, from billing to scheduling appointments to patient intake, electronic health record keeping, and sometimes preliminary patient education or counseling. Each of these roles involves varying levels of exposure to sensitive patient information and carries specific compliance and security concerns.
+Virtual assistants play many roles in an ophthalmology clinic, often being the first point of contact in the patient experience. They handle various administrative tasks, from billing to scheduling appointments to [patient intake](https://mybcat.com/multi-location-healthcare-intake-guide), electronic health record keeping, and sometimes preliminary patient education or counseling. Each of these roles involves varying levels of exposure to sensitive patient information and carries specific compliance and security concerns.
 
 When a VA schedules an appointment, for example, they need access to patient information like names, contact details, and in some cases, the reason for the visit. During patient intake or when maintaining patient records, they may have access to more detailed personal health information, which is more sensitive and subject to stricter regulations like being HIPAA compliant.
 
@@ -82,6 +83,12 @@ Investigate their data protection measures. How do they ensure secure communicat
 Look for vendors who not only provide satisfactory answers to these questions but demonstrate a proactive approach towards data security and regulatory compliance. The right vendor will be a partner who contributes to the effectiveness and efficiency of your clinic.
 
 As you progress with compliance and security for VAs, let us know if we can answer any of your questions about the process or help in any way.
+
+### Ready to Transform Your Practice?
+
+Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
+
+  Schedule a Consultation Today →
 
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: "How to Assess Your Staff to Ensure the Best Patient Care"
-description: "In optometry and ophthalmology practices, your staff isn’t just your support—they’re the face of your practice. From answering calls to guiding the patient..."
+description: "In optometry and ophthalmology practices, your staff isn’t just your support—they’re the face of your practice. From answering calls to [...]"
 publishDate: 2025-01-30
 status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
-tags: ["optometry","virtual-assistant","patient-care","scheduling","insurance"]
+tags: ["optometry","patient-care","scheduling","growth","efficiency"]
+featuredImage: "/images/blog/coaching-training-and-help-with-business-people-i-2023-11-27-04-49-17-utc-scaled.jpg"
 canonical: "https://mybcat.com/blog-best-patient-care"
 ---
 
@@ -17,9 +18,9 @@ Regular staff assessment is key to maintaining excellence and identifying opport
 
 Your patients are your best resource for understanding how well your team is performing. Gathering feedback—both formally and informally—can reveal key insights.
 
-**Patient Surveys:** Use post-appointment surveys to measure satisfaction. Questions might include:
+- **Patient Surveys:** Use post-appointment surveys to measure satisfaction. Questions might include:
 
-- Was the staff helpful and professional?
+Was the staff helpful and professional?
 
 - Were your concerns understood and addressed?
 
@@ -49,7 +50,7 @@ Behind-the-scenes processes are just as important as patient-facing interactions
 
 - **Follow-Ups:** Are patients being contacted for recalls, post-op care, or missed appointments in a timely manner?
 
-**Tip:** Track metrics like call response times, scheduling accuracy, and patient follow-up rates to identify bottlenecks and optimize operations.
+**Tip:** Track metrics like call response times, scheduling accuracy, and patient follow-up rates to identify bottlenecks and optimize operations. For practices managing multiple locations, understanding [how missed calls impact revenue across your organization](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) can reveal hidden opportunities for improvement.
 
 ## 4. Assess Training and Knowledge
 
@@ -108,6 +109,12 @@ At **My Business Care Team (MyBCAT)**, we specialize in providing highly trained
 Regularly assessing your team ensures your practice stays ahead of the curve, delivering the best possible care to your patients. Whether you’re streamlining workflows, enhancing communication, or expanding your team, these steps will help you build a practice known for excellence.
 
 Ready to elevate your staff and patient care? Let **My Business Care Team** provide the expert support your practice needs. [Schedule a consultation today](#) to learn more.
+
+### Ready to Transform Your Practice?
+
+Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
+
+  Schedule a Consultation Today →
 
 ---
 
