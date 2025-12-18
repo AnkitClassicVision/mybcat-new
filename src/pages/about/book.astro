@@ -1,0 +1,417 @@
+---
+import Base from '@/layouts/Base.astro';
+import Button from '@/components/Button.astro';
+---
+
+<Base
+  title="Optometry Redefined: Master Global Resourcing | MyBCAT"
+  description="The definitive playbook for practice owners seeking to scale without sacrificing margins, sanity, or patient experience. By Ankit Patel."
+>
+  <main class="book-page">
+    <!-- Hero Section -->
+    <section class="book-hero">
+      <div class="container">
+        <div class="book-hero-grid">
+          <div class="book-cover">
+            <div class="book-cover-wrapper">
+              <img src="/images/book-cover.jpg" alt="Optometry Redefined Book Cover" loading="eager" />
+            </div>
+          </div>
+          <div class="book-hero-content">
+            <div class="eyebrow">New Book</div>
+            <h1>Optometry Redefined</h1>
+            <p class="book-subtitle">Master Global Resourcing for Peak Performance</p>
+            <p class="book-author">By Ankit Patel</p>
+            <p class="hero-lead">
+              The definitive playbook for practice owners seeking to scale without sacrificing margins, sanity, or patient experience. Drawing from operational systems at Classic Vision Care and multi-location practices nationwide.
+            </p>
+            <div class="book-meta">
+              <div class="meta-item">
+                <span class="meta-label">Format</span>
+                <span class="meta-value">Kindle</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Length</span>
+                <span class="meta-value">200+ Pages</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Chapters</span>
+                <span class="meta-value">12</span>
+              </div>
+            </div>
+            <div class="book-ctas">
+              <Button href="https://www.amazon.com" target="_blank">Buy on Amazon</Button>
+              <Button href="/#final-cta" variant="secondary">Get My Schedule Filled First</Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What You'll Learn Section -->
+    <section class="learn-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Inside the Book</div>
+          <h2>Six Modules to Transform Your Practice</h2>
+        </div>
+
+        <div class="modules-grid">
+          <div class="module-card">
+            <div class="module-number">01</div>
+            <h3>The Global Talent Advantage</h3>
+            <p>Why the best practices are thinking globally for their talent needs—and how you can too.</p>
+          </div>
+          <div class="module-card">
+            <div class="module-number">02</div>
+            <h3>The Leaky Bucket Problem</h3>
+            <p>Identify where your practice is losing revenue and how to plug the holes permanently.</p>
+          </div>
+          <div class="module-card">
+            <div class="module-number">03</div>
+            <h3>Lean Six Sigma for Healthcare</h3>
+            <p>Apply proven operational frameworks to eliminate waste and optimize every process.</p>
+          </div>
+          <div class="module-card">
+            <div class="module-number">04</div>
+            <h3>The EBITDA Multiplier</h3>
+            <p>Build systems that increase your practice value whether you're staying or selling.</p>
+          </div>
+          <div class="module-card">
+            <div class="module-number">05</div>
+            <h3>Hybrid Staffing Models</h3>
+            <p>Create the perfect blend of in-house and virtual team members for maximum efficiency.</p>
+          </div>
+          <div class="module-card">
+            <div class="module-number">06</div>
+            <h3>Scaling Without Chaos</h3>
+            <p>Grow from one location to many without losing your culture or your mind.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Author Section -->
+    <section class="author-section">
+      <div class="container">
+        <div class="author-grid">
+          <div class="author-image">
+            <div class="author-avatar">AP</div>
+          </div>
+          <div class="author-content">
+            <div class="eyebrow">About the Author</div>
+            <h2>Ankit Patel</h2>
+            <p>
+              Ankit brings Lean Six Sigma expertise from Dell and Cleveland Clinic, combined with hands-on experience as the owner of Classic Vision Care in Atlanta and founder of My Business Care Team.
+            </p>
+            <p>
+              His unique perspective—as both a practice owner facing these challenges daily and an operations expert solving them—makes this book an essential read for any healthcare practice looking to scale.
+            </p>
+            <div class="author-links">
+              <a href="/about/story">Read Full Story →</a>
+              <a href="/about/podcast">Listen to Podcast →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="book-cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Redefine Your Practice?</h2>
+          <p>Get the book and start transforming your operations today.</p>
+          <Button href="https://www.amazon.com" target="_blank">Get Your Copy</Button>
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>
+
+<style>
+  .book-page {
+    padding-top: 80px;
+  }
+
+  .container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .eyebrow {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-600);
+    margin-bottom: 12px;
+  }
+
+  /* Hero Section */
+  .book-hero {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+  }
+
+  .book-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .book-cover-wrapper {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-xl);
+    transform: rotate(-2deg);
+  }
+
+  .book-cover-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .book-hero-content h1 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+    line-height: 1.1;
+  }
+
+  .book-subtitle {
+    font-size: 1.5rem;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .book-author {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+  }
+
+  .hero-lead {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+  }
+
+  .book-meta {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+    padding: 20px;
+    background: var(--spatial-glass);
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+  }
+
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .meta-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+  }
+
+  .meta-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .book-ctas {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  /* Learn Section */
+  .learn-section {
+    padding: 80px 0;
+    background: white;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .section-header h2 {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: var(--navy-900);
+  }
+
+  .modules-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+
+  .module-card {
+    padding: 32px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    transition: all 0.3s var(--ease-smooth);
+  }
+
+  .module-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(212, 145, 94, 0.3);
+  }
+
+  .module-number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .module-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .module-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* Author Section */
+  .author-section {
+    padding: 80px 0;
+    background: var(--cream-200);
+  }
+
+  .author-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .author-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--glass-copper) 0%, var(--copper-500) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+  }
+
+  .author-content h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .author-content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+  }
+
+  .author-links {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  .author-links a {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .author-links a:hover {
+    text-decoration: underline;
+  }
+
+  /* CTA Section */
+  .book-cta {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
+    text-align: center;
+  }
+
+  .cta-content h2 {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 800;
+    color: white;
+    margin-bottom: 16px;
+  }
+
+  .cta-content p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 32px;
+  }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .modules-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .book-hero-grid {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .book-cover-wrapper {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .book-meta {
+      justify-content: center;
+    }
+
+    .book-ctas {
+      justify-content: center;
+    }
+
+    .modules-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .author-grid {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .author-avatar {
+      margin: 0 auto;
+    }
+
+    .author-links {
+      justify-content: center;
+    }
+  }
+</style>
