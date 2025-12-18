@@ -21,9 +21,7 @@ import Button from '@/components/Button.astro';
             <Button href="/#final-cta">Let's Talk About Your Practice</Button>
           </div>
           <div class="story-hero-image">
-            <div class="image-placeholder">
-              <span>AP</span>
-            </div>
+            <img src="/images/ankit_headshot_full.webp" alt="Ankit Patel - Founder of My Business Care Team" />
             <div class="image-caption">
               <strong>Ankit Patel</strong>
               <span>Founder & CEO, My Business Care Team</span>
@@ -182,18 +180,13 @@ import Button from '@/components/Button.astro';
     text-align: center;
   }
 
-  .image-placeholder {
-    width: 200px;
-    height: 200px;
-    background: linear-gradient(135deg, var(--glass-copper) 0%, var(--copper-500) 100%);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 4rem;
-    color: white;
-    font-weight: 700;
-    margin: 0 auto 16px;
+  .story-hero-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 16px;
   }
 
   .image-caption {
@@ -359,10 +352,8 @@ import Button from '@/components/Button.astro';
       order: -1;
     }
 
-    .image-placeholder {
-      width: 150px;
-      height: 150px;
-      font-size: 3rem;
+    .story-hero-image img {
+      max-width: 280px;
     }
 
     .values-grid {
