@@ -10,21 +10,22 @@ export default defineConfig({
     webAnalytics: { enabled: true }
   }),
   integrations: [
-    sitemap({
-      filter: (page) => !page.includes('/draft/'),
-      changefreq: 'weekly',
-      priority: 0.7,
-      serialize: (item) => {
-        // Higher priority for main pages
-        if (item.url === 'https://mybcat.com/') {
-          return { ...item, priority: 1.0, changefreq: 'daily' };
-        }
-        if (item.url.includes('/blog/')) {
-          return { ...item, priority: 0.8, changefreq: 'weekly' };
-        }
-        return item;
-      },
-    }),
+    // Sitemap disabled while site is in development (noindex)
+    // Uncomment when ready to launch:
+    // sitemap({
+    //   filter: (page) => !page.includes('/draft/'),
+    //   changefreq: 'weekly',
+    //   priority: 0.7,
+    //   serialize: (item) => {
+    //     if (item.url === 'https://mybcat.com/') {
+    //       return { ...item, priority: 1.0, changefreq: 'daily' };
+    //     }
+    //     if (item.url.includes('/blog/')) {
+    //       return { ...item, priority: 0.8, changefreq: 'weekly' };
+    //     }
+    //     return item;
+    //   },
+    // }),
   ],
   vite: {
     build: {

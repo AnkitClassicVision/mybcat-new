@@ -1,8 +1,31 @@
+# Disallow all crawlers - site is in development
 User-agent: *
-Allow: /
+Disallow: /
 
-# Disallow admin/system paths (none in static site)
-Disallow: /api/
+# Block all known bots explicitly
+User-agent: Googlebot
+Disallow: /
 
-# Sitemap
-Sitemap: https://mybcat.com/sitemap-index.xml
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: facebookexternalhit
+Disallow: /
+
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: LinkedInBot
+Disallow: /

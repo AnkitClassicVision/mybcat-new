@@ -25,7 +25,7 @@ const {
   publishDate,
   modifiedDate,
   author = 'Ankit Patel',
-  noindex = false,
+  noindex = true, // Default to noindex while in development
 } = Astro.props;
 
 const siteUrl = 'https://mybcat.com';
@@ -41,11 +41,9 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
   <title>{title}</title>
   <meta name="description" content={description}>
 
-  {noindex ? (
-    <meta name="robots" content="noindex, nofollow">
-  ) : (
-    <meta name="robots" content="index, follow">
-  )}
+  <!-- Block all crawlers while in development -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
 
   <link rel="canonical" href={canonicalUrl}>
 
