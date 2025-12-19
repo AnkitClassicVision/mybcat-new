@@ -1,663 +1,289 @@
 ---
-import Base from '@/layouts/Base.astro';
+/**
+ * Homepage - Lean landing page linking to separate pages
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
 import Button from '@/components/Button.astro';
 import Card from '@/components/Card.astro';
-import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
+import Hero from '@/components/sections/Hero.astro';
+import Industries from '@/components/sections/Industries.astro';
+import Features from '@/components/sections/Features.astro';
+import Testimonials from '@/components/sections/Testimonials.astro';
+import Stats from '@/components/sections/Stats.astro';
+import ProcessSteps from '@/components/sections/ProcessSteps.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import CTA from '@/components/sections/CTA.astro';
+import LogoMarquee from '@/components/sections/LogoMarquee.astro';
+import { generateOrganizationSchema, generateWebSiteSchema, serializeSchema } from '@utils/schema';
+import { testimonials } from '@data/testimonials';
+import { getFAQsByCategory } from '@data/faq';
+
+// Homepage services data
+const services = [
+  {
+    icon: 'phone',
+    title: 'Phone Answering',
+    description: 'Every call answered in 3 rings. New patient inquiries, appointment requests, insurance questions—all handled professionally.'
+  },
+  {
+    icon: 'calendar',
+    title: 'Appointment Scheduling',
+    description: 'Direct booking into your EHR/PM system. We know your providers\' preferences and optimize for utilization.'
+  },
+  {
+    icon: 'shield',
+    title: 'Insurance Verification',
+    description: 'VSP, EyeMed, medical vision—we verify eligibility before appointments so there are no surprises.'
+  },
+  {
+    icon: 'refresh',
+    title: 'Recall Outreach',
+    description: 'Proactive patient reactivation. We work your recall list to bring patients back before they become lapsed.'
+  }
+];
+
+// Process steps
+const processSteps = [
+  {
+    step: 1,
+    title: 'Discovery Call',
+    description: 'We learn your workflows, EHR, and pain points.'
+  },
+  {
+    step: 2,
+    title: 'Integration',
+    description: 'Connect phone systems and PM/EHR access.'
+  },
+  {
+    step: 3,
+    title: 'Go Live',
+    description: 'AI-assisted intake in 5 days, full team in 30-60.'
+  }
+];
+
+// Stats
+const stats = [
+  { value: '$100K+', label: 'Recoverable Revenue Per Location' },
+  { value: '87%', label: 'Callers Abandon Voicemail' },
+  { value: '40+', label: 'Appointments Recovered Monthly' }
+];
+
+// Get general FAQs
+const homepageFaqs = getFAQsByCategory('general').slice(0, 5);
+
+// Logo marquee
+const clientLogos = [
+  { src: '/images/authority/classic-logo.webp', alt: 'Classic Vision Care' },
+  { src: '/images/authority/golden-triangle-logo.webp', alt: 'Golden Triangle' },
+  { src: '/images/authority/fec_logo.webp', alt: 'FEC' },
+  { src: '/images/authority/idoc.webp', alt: 'iDoc' },
+  { src: '/images/authority/rlk.webp', alt: 'RLK Vision' },
+  { src: '/images/authority/ODonFinance-Logo.webp', alt: 'ODon Finance' },
+  { src: '/images/authority/Emerald.webp', alt: 'Emerald Eye Care' },
+  { src: '/images/authority/505-logo.webp', alt: '505 Vision' },
+  { src: '/images/authority/shelby-logo.webp', alt: 'Shelby Eye Care' },
+  { src: '/images/authority/winchester-logo.webp', alt: 'Winchester Eye Care' }
+];
 ---
 
-<Base
-  title="Filling Optometry, Ophthalmology, Dental, Veterinary Appointment Books | MyBCAT"
-  description="My Business Care Team is a done-for-you service that helps fill your appointment books by taking care of all things front desk and proactive outreach to patients."
+<BaseLayout
+  title="Patient Intake & Scheduling Services for Healthcare Practices | MyBCAT"
+  description="My Business Care Team fills your appointment books by handling all front desk operations and patient outreach. HIPAA compliant, US-based coordinators, 24/7 coverage."
 >
-  <main id="main-content" class="bento-container">
-    <div class="bento-grid">
+  <script type="application/ld+json" set:html={serializeSchema(generateOrganizationSchema())} slot="head" />
+  <script type="application/ld+json" set:html={serializeSchema(generateWebSiteSchema())} slot="head" />
 
-      <!-- Hero Section -->
-      <section id="hero" class="spatial-hero">
-        <div class="spatial-hero-inner">
-          <div class="hero-content">
-            <!-- Logo and Brand Name -->
-            <div class="hero-brand">
-              <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="54" height="50" loading="eager" fetchpriority="high">
-              <div class="hero-brand-text">My Business Care Team</div>
-            </div>
-            <h1 class="hero-title">A Full Schedule. Every Hour. Every Day.</h1>
-            <p class="hero-tagline">
-              Every empty appointment slot costs you $2,400. Let's get your calendar filled.
-            </p>
-            <p class="hero-description">
-              Stop relying on luck to fill your schedule. With 87% of new patients hanging up the moment they reach voicemail, your practice is losing revenue to capacity issues, not staff failure. MyBCAT plugs that leak immediately. As your dedicated medical operations partner, we capture every call, text, and referral to increase your bookings by up to 40% in just 90 days.
-            </p>
-            <div class="hero-benefit-bar">
-              <div class="benefit-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="3" y="4" width="4" height="4" rx="1"></rect>
-                  <rect x="10" y="10" width="4" height="4" rx="1"></rect>
-                  <rect x="17" y="4" width="4" height="4" rx="1"></rect>
-                  <path d="M7 6h3"></path>
-                  <path d="M14 12h3"></path>
-                  <path d="M7 6l4 4 6-4"></path>
-                </svg>
-                <span>Fewer missed calls</span>
-              </div>
-              <div class="benefit-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                <span>Cleaner schedule</span>
-              </div>
-              <div class="benefit-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                <span>Happier providers</span>
-              </div>
-            </div>
-            <div class="hero-cta-group">
-              <Button href="#final-cta">Get My Schedule Filled</Button>
-              <a href="#differentiation" class="text-link">See how we compare</a>
-            </div>
-            <!-- Trust Bar -->
-            <div class="hero-trust-bar">
-              <div class="trust-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--copper-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                <span>HIPAA Compliant</span>
-              </div>
-              <div class="trust-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--copper-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                <span>US-Based Coordinators</span>
-              </div>
-              <div class="trust-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--copper-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                <span>24/7 Coverage</span>
-              </div>
-            </div>
-          </div>
-          <!-- Hero Video Testimonial -->
-          <div class="hero-visual">
-            <div class="hero-video-container">
-              <!-- Video Player (poster image includes REAL RESULTS badge) -->
-              <video
-                id="heroVideo"
-                class="hero-video"
-                poster="/videos/final-optimized-landscape.webp"
-                playsinline
-                preload="none"
-                muted
-              >
-                <source data-src="/videos/dittman-optimized.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+  <main class="homepage">
+    <!-- Hero Section with Video -->
+    <Hero
+      title="A Full Schedule. Every Hour. Every Day."
+      tagline="Every empty appointment slot costs you $2,400. Let's get your calendar filled."
+      description="Stop relying on luck to fill your schedule. With 87% of new patients hanging up the moment they reach voicemail, your practice is losing revenue to capacity issues. MyBCAT captures every call, text, and referral to increase your bookings by up to 40% in just 90 days."
+      ctaText="Get My Schedule Filled"
+      ctaHref="/contact/"
+      secondaryText="See how it works"
+      secondaryHref="/solutions/"
+      showBrand={true}
+      benefits={[
+        { icon: 'workflow', text: 'Fewer missed calls' },
+        { icon: 'calendar', text: 'Cleaner schedule' },
+        { icon: 'users', text: 'Happier providers' }
+      ]}
+      trustItems={[
+        { icon: 'shield', text: 'HIPAA Compliant' },
+        { icon: 'users', text: 'US-Based Coordinators' },
+        { icon: 'clock', text: '24/7 Coverage' }
+      ]}
+      video={{
+        poster: '/videos/final-optimized-landscape.webp',
+        src: '/videos/dittman-optimized.mp4',
+        author: 'Dr. Michael Dittman',
+        title: 'Owner, Dittman Eye Care (Multi-Location Optometry)',
+        avatar: '/videos/dittman-headshot-optimized.webp'
+      }}
+    />
 
-              <!-- Video Overlay Gradient -->
-              <div class="video-overlay-gradient"></div>
+    <!-- Stats Section -->
+    <Stats
+      stats={stats}
+      variant="multi"
+      headline="87%"
+      headlineColor="gold"
+    />
 
-              <!-- Premium Floating Play Button -->
-              <div id="videoPlayOverlay" class="video-play-overlay">
-                <div class="play-button-container">
-                  <div class="play-button-glow"></div>
-                  <div class="play-button-ring"></div>
-                  <div class="play-button-ring-2"></div>
-                  <div id="playButton" class="premium-play-btn">
-                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" style="margin-left: 4px;">
-                      <defs>
-                        <linearGradient id="playGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" style="stop-color:#006064"/>
-                          <stop offset="100%" style="stop-color:#00ACC1"/>
-                        </linearGradient>
-                      </defs>
-                      <path d="M8 5v14l11-7z" fill="url(#playGradient)"/>
-                    </svg>
-                  </div>
-                </div>
-              </div>
+    <!-- Services/Features -->
+    <Features
+      features={services}
+      title="Your Complete Patient Intake OS"
+      eyebrow="What We Do"
+      columns={2}
+    />
 
-              <!-- Testimonial Info Bar -->
-              <div id="videoInfoBar" class="video-info-bar">
-                <div class="video-info-content">
-                  <img src="/videos/dittman-headshot-optimized.webp" alt="Dr. Michael Dittman" width="44" height="44" class="testimonial-avatar">
-                  <div>
-                    <div class="testimonial-name">Dr. Michael Dittman</div>
-                    <div class="testimonial-title">Owner, Dittman Eye Care (Multi-Location Optometry)</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Who We're For Section -->
-      <section id="who-were-for" class="section-intro">
-        <div class="section-intro-eyebrow">Is this for you?</div>
-        <h2 class="section-intro-title">Built for busy single locations and scaling multi-site groups.</h2>
-      </section>
-
-      <!-- Quick Qualifier Cards -->
-      <Card variant="testimonial" class="who-card">
-        <div class="who-card-content">
-          <span class="section-tag">1-3 Locations</span>
-          <h3>Do you choose between answering the phone or greeting a patient?</h3>
-          <p>Your staff isn't failing-your system is. Let your front desk smile at the patient while we handle the calls in the background.</p>
-        </div>
-      </Card>
-
-      <Card variant="testimonial" class="who-card">
-        <div class="who-card-content">
-          <span class="section-tag">3-20 Locations</span>
-          <h3>Stuck in the "messy middle" of growth?</h3>
-          <p>Scaling past 3 locations without operational chaos is the hardest phase. We provide the operating system that lets you step out of firefighting and into the CEO role.</p>
-        </div>
-      </Card>
-
-      <!-- The Problem Section -->
-      <section id="the-problem" class="section-intro">
-        <div class="section-intro-eyebrow">The Uncomfortable Truth</div>
-        <h2 class="section-intro-title">87% of New Patients Who Reach Voicemail Will Never Call Back</h2>
-        <p class="section-intro-subtitle">It's not your team's fault. It's a capacity problem-and at every location, the cost compounds.</p>
-      </section>
-
-      <!-- Problem Cards -->
-      <Card variant="feature" class="problem-card">
-        <div class="feature-icon teal">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--oceanic-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-            <circle cx="9" cy="7" r="4"/>
-            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-          </svg>
-        </div>
-        <h3 class="feature-title teal">It's a Capacity Problem, Not a People Problem</h3>
-        <p>Your team is forced to choose: answer the phone or greet the patient in front of them. Both suffer. <strong>29% of calls go to voicemail</strong> during busy times.</p>
-      </Card>
-
-      <Card variant="feature" class="problem-card">
-        <div class="feature-icon teal">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--oceanic-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-            <line x1="1" y1="1" x2="23" y2="23"/>
-          </svg>
-        </div>
-        <h3 class="feature-title teal">The Hidden Cost</h3>
-        <p>At one location: 12 missed calls/day x $2,400 patient lifetime value = <strong>$200,000/year</strong> in unrealized revenue. Running 5 locations? That's <strong>$1 million</strong> walking out the door.</p>
-      </Card>
-
-      <Card variant="feature" class="problem-card">
-        <div class="feature-icon teal">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--oceanic-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="12" y1="20" x2="12" y2="10"/>
-            <line x1="18" y1="20" x2="18" y2="4"/>
-            <line x1="6" y1="20" x2="6" y2="16"/>
-          </svg>
-        </div>
-        <h3 class="feature-title teal">You Can't Fix What You Can't See</h3>
-        <p>Multiple locations without centralized visibility is <strong>chaos by default</strong>. No dashboard shows missed calls. No report tracks conversion by location.</p>
-      </Card>
-
-      <!-- Testimonial Quote -->
-      <section class="spatial-card quote-card full-width">
-        <blockquote>
-          "I pulled my call reports and was SHOCKED. We were missing 29% of our calls on one given day. They were just going to voicemail."
-        </blockquote>
-        <cite>- Beverly Wilburn, Practice Office Manager</cite>
-      </section>
-
-      <!-- Before/After Section -->
-      <section class="spatial-card before-after-section full-width">
-        <h3 class="section-title">Stop This &rarr; Start This</h3>
-        <div class="before-after-grid">
-          <div class="before-column">
-            <h4>Before MyBCAT</h4>
-            <ul>
-              <li><span class="x-mark">&#10007;</span> Staff forced to choose: phone or patient</li>
-              <li><span class="x-mark">&#10007;</span> Voicemail during lunch, busy times, after hours</li>
-              <li><span class="x-mark">&#10007;</span> No centralized view of calls across locations</li>
-              <li><span class="x-mark">&#10007;</span> 40+ lost appointments per month per location</li>
-            </ul>
-          </div>
-          <div class="after-column">
-            <h4>After MyBCAT</h4>
-            <ul>
-              <li><span class="check-mark">&#10003;</span> Staff focuses 100% on in-office patients</li>
-              <li><span class="check-mark">&#10003;</span> Every call answered professionally-24/7</li>
-              <li><span class="check-mark">&#10003;</span> Single dashboard tracks every opportunity</li>
-              <li><span class="check-mark">&#10003;</span> Capture 40+ appointments previously lost</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- $100K Impact Statement -->
-      <section class="spatial-card stat-card full-width">
-        <div class="stat-number gold">$100,000+</div>
-        <div class="stat-label gold">Annual Revenue Opportunity Per Location</div>
-        <p class="stat-description">The average practice has over $100,000 per year in recoverable revenue from unanswered calls. Multi-location groups? Multiply accordingly.</p>
-      </section>
-
-      <!-- Differentiation Section -->
-      <section id="differentiation" class="section-intro">
-        <div class="section-intro-eyebrow">Why Current Solutions Fail</div>
-        <h2 class="section-intro-title">Not All "Solutions" Are Created Equal</h2>
-      </section>
-
-      <section class="spatial-card comparison-section full-width">
-        <div class="comparison-grid">
-          <div class="comparison-column">
-            <h4>Generic VAs ($8/hr)</h4>
-            <ul class="comparison-list negative">
-              <li>You train, manage, and replace them</li>
-              <li>No healthcare workflow knowledge</li>
-              <li>Work solo-no backup</li>
-            </ul>
-          </div>
-          <div class="comparison-column">
-            <h4>AI-Only Bots</h4>
-            <ul class="comparison-list negative">
-              <li>Can't handle complex scheduling</li>
-              <li>Frustrate anxious patients</li>
-              <li>No insurance verification</li>
-            </ul>
-          </div>
-          <div class="comparison-column highlight">
-            <h4>MyBCAT</h4>
-            <ul class="comparison-list positive">
-              <li>Arrives trained on your workflows</li>
-              <li>Managed team with backups</li>
-              <li>Full intake + insurance + recalls</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- Services Section -->
-      <section id="services" class="section-intro">
-        <div class="section-intro-eyebrow">What We Actually Do</div>
-        <h2 class="section-intro-title">Your Complete Patient Intake OS</h2>
-      </section>
-
-      <Card variant="feature" class="service-card">
-        <div class="feature-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        </div>
-        <h3 class="card-title">Phone Answering</h3>
-        <p class="card-description">Every call answered in 3 rings. New patient inquiries, appointment requests, insurance questions-all handled professionally.</p>
-      </Card>
-
-      <Card variant="feature" class="service-card">
-        <div class="feature-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-        </div>
-        <h3 class="card-title">Appointment Scheduling</h3>
-        <p class="card-description">Direct booking into your EHR/PM system. We know your providers' preferences and optimize for utilization.</p>
-      </Card>
-
-      <Card variant="feature" class="service-card">
-        <div class="feature-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <h3 class="card-title">Insurance Verification</h3>
-        <p class="card-description">VSP, EyeMed, medical vision-we verify eligibility before appointments so there are no surprises.</p>
-      </Card>
-
-      <Card variant="feature" class="service-card">
-        <div class="feature-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-        </div>
-        <h3 class="card-title">Recall Outreach</h3>
-        <p class="card-description">Proactive patient reactivation. We work your recall list to bring patients back before they become lapsed.</p>
-      </Card>
-
-      <!-- How It Works Section -->
-      <section id="how-it-works" class="section-intro">
-        <div class="section-intro-eyebrow">Simple Setup</div>
-        <h2 class="section-intro-title">Live in Days, Not Months</h2>
-      </section>
-
-      <div class="process-steps full-width">
-        <div class="process-step">
-          <div class="step-number">1</div>
-          <h4>Discovery Call</h4>
-          <p>We learn your workflows, EHR, and pain points.</p>
-        </div>
-        <div class="process-step">
-          <div class="step-number">2</div>
-          <h4>Integration</h4>
-          <p>Connect phone systems and PM/EHR access.</p>
-        </div>
-        <div class="process-step">
-          <div class="step-number">3</div>
-          <h4>Go Live</h4>
-          <p>AI-assisted intake in 5 days, full team in 30-60.</p>
-        </div>
+    <!-- Quick Solutions Overview -->
+    <section class="solutions-overview">
+      <div class="section-intro">
+        <div class="eyebrow">Our Solutions</div>
+        <h2>Three Ways We Fill Your Schedule</h2>
       </div>
-
-      <!-- Proof Section -->
-      <section id="proof" class="section-intro">
-        <div class="section-intro-eyebrow">Results That Matter</div>
-        <h2 class="section-intro-title">Trusted by 70+ Healthcare Professionals</h2>
-      </section>
-
-      <Card variant="testimonial">
-        <blockquote class="quote">"Honestly it was a godsend. You have taken a process that we struggled with, and once we got the kinks figured out, you just run with it."</blockquote>
-        <div class="author">
-          <div class="author-avatar">MD</div>
-          <div>
-            <cite class="author-name">Dr. Michael Dittman</cite>
-            <span class="author-title">Owner, Dittman Eye Care (5 locations)</span>
+      <div class="solutions-grid">
+        <a href="/solutions/patient-intake/" class="solution-card">
+          <div class="solution-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           </div>
-        </div>
-      </Card>
-
-      <Card variant="testimonial">
-        <blockquote class="quote">"The biggest thing I like is your manager. I talk directly to your managing team-they manage the remote staff. That takes it off my plate."</blockquote>
-        <div class="author">
-          <div class="author-avatar">DB</div>
-          <div>
-            <cite class="author-name">Dr. Derek Black</cite>
-            <span class="author-title">Owner, Multi-Location Practice</span>
+          <h3>Patient Intake</h3>
+          <p>Never miss a call. Every inquiry answered professionally, 24/7.</p>
+          <span class="solution-link">Learn more →</span>
+        </a>
+        <a href="/solutions/recall-reactivation/" class="solution-card">
+          <div class="solution-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
           </div>
-        </div>
-      </Card>
-
-      <Card variant="testimonial">
-        <blockquote class="quote">"Patient scheduling improved by 40% and we've never missed a call. 24/7 operations transformed how we operate."</blockquote>
-        <div class="author">
-          <div class="author-avatar">DP</div>
-          <div>
-            <cite class="author-name">Dr. Patel</cite>
-            <span class="author-title">Owner, Classic Vision Care</span>
+          <h3>Recall & Reactivation</h3>
+          <p>Bring patients back before they lapse with proactive outreach.</p>
+          <span class="solution-link">Learn more →</span>
+        </a>
+        <a href="/solutions/no-show-recovery/" class="solution-card">
+          <div class="solution-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
           </div>
-        </div>
-      </Card>
+          <h3>No-Show Recovery</h3>
+          <p>Fill cancelled slots fast with waitlist management.</p>
+          <span class="solution-link">Learn more →</span>
+        </a>
+      </div>
+      <div class="solutions-cta">
+        <Button href="/solutions/" variant="secondary">View All Solutions</Button>
+      </div>
+    </section>
 
-      <!-- Authority Logos -->
-      <section class="authority-section full-width">
-        <div class="authority-label">Trusted by Leading Healthcare Practices</div>
-        <div class="authority-track">
-          <!-- First set -->
-          <img src="/images/authority/classic-logo.webp" alt="Classic Vision Care" class="authority-logo" loading="lazy">
-          <img src="/images/authority/golden-triangle-logo.webp" alt="Golden Triangle" class="authority-logo" loading="lazy">
-          <img src="/images/authority/fec_logo.webp" alt="FEC" class="authority-logo" loading="lazy">
-          <img src="/images/authority/idoc.webp" alt="iDoc" class="authority-logo" loading="lazy">
-          <img src="/images/authority/rlk.webp" alt="RLK Vision" class="authority-logo" loading="lazy">
-          <img src="/images/authority/ODonFinance-Logo.webp" alt="ODon Finance" class="authority-logo" loading="lazy">
-          <img src="/images/authority/Emerald.webp" alt="Emerald Eye Care" class="authority-logo" loading="lazy">
-          <img src="/images/authority/505-logo.webp" alt="505 Vision" class="authority-logo" loading="lazy">
-          <img src="/images/authority/shelby-logo.webp" alt="Shelby Eye Care" class="authority-logo" loading="lazy">
-          <img src="/images/authority/winchester-logo.webp" alt="Winchester Eye Care" class="authority-logo" loading="lazy">
-          <!-- Second set (duplicate for infinite scroll) -->
-          <img src="/images/authority/classic-logo.webp" alt="Classic Vision Care" class="authority-logo" loading="lazy">
-          <img src="/images/authority/golden-triangle-logo.webp" alt="Golden Triangle" class="authority-logo" loading="lazy">
-          <img src="/images/authority/fec_logo.webp" alt="FEC" class="authority-logo" loading="lazy">
-          <img src="/images/authority/idoc.webp" alt="iDoc" class="authority-logo" loading="lazy">
-          <img src="/images/authority/rlk.webp" alt="RLK Vision" class="authority-logo" loading="lazy">
-          <img src="/images/authority/ODonFinance-Logo.webp" alt="ODon Finance" class="authority-logo" loading="lazy">
-          <img src="/images/authority/Emerald.webp" alt="Emerald Eye Care" class="authority-logo" loading="lazy">
-          <img src="/images/authority/505-logo.webp" alt="505 Vision" class="authority-logo" loading="lazy">
-          <img src="/images/authority/shelby-logo.webp" alt="Shelby Eye Care" class="authority-logo" loading="lazy">
-          <img src="/images/authority/winchester-logo.webp" alt="Winchester Eye Care" class="authority-logo" loading="lazy">
-          <!-- Third set (duplicate for infinite scroll) -->
-          <img src="/images/authority/classic-logo.webp" alt="Classic Vision Care" class="authority-logo" loading="lazy">
-          <img src="/images/authority/golden-triangle-logo.webp" alt="Golden Triangle" class="authority-logo" loading="lazy">
-          <img src="/images/authority/fec_logo.webp" alt="FEC" class="authority-logo" loading="lazy">
-          <img src="/images/authority/idoc.webp" alt="iDoc" class="authority-logo" loading="lazy">
-          <img src="/images/authority/rlk.webp" alt="RLK Vision" class="authority-logo" loading="lazy">
-          <img src="/images/authority/ODonFinance-Logo.webp" alt="ODon Finance" class="authority-logo" loading="lazy">
-          <img src="/images/authority/Emerald.webp" alt="Emerald Eye Care" class="authority-logo" loading="lazy">
-          <img src="/images/authority/505-logo.webp" alt="505 Vision" class="authority-logo" loading="lazy">
-          <img src="/images/authority/shelby-logo.webp" alt="Shelby Eye Care" class="authority-logo" loading="lazy">
-          <img src="/images/authority/winchester-logo.webp" alt="Winchester Eye Care" class="authority-logo" loading="lazy">
-        </div>
-      </section>
+    <!-- Industries -->
+    <Industries
+      title="Built for Healthcare Specialists"
+      eyebrow="Industries We Serve"
+      subtitle="We understand your EHR, your insurance workflows, and your patients."
+    />
 
-      <!-- Pricing Section -->
-      <section id="pricing" class="section-intro" style="scroll-margin-top: 100px;">
-        <div class="section-intro-eyebrow">Transparent Pricing</div>
-        <h2 class="section-intro-title">Plans That Scale With You</h2>
-      </section>
+    <!-- How It Works -->
+    <ProcessSteps
+      steps={processSteps}
+      title="Live in Days, Not Months"
+      eyebrow="Simple Setup"
+    />
 
-      <Card variant="pricing" class="pricing-card">
-        <div class="pricing-header">
-          <h3>Starter</h3>
-          <div class="price">$1,995<span class="price-period">/mo</span></div>
-        </div>
-        <p class="pricing-description">Perfect for single locations ready to capture every call.</p>
-        <ul class="pricing-features">
-          <li>All calls answered in 3 rings</li>
-          <li>Appointment scheduling</li>
-          <li>Insurance verification</li>
-          <li>8am-6pm coverage</li>
-        </ul>
-        <Button href="#final-cta" variant="secondary" size="sm">Get Started</Button>
-      </Card>
+    <!-- Social Proof -->
+    <Testimonials
+      items={testimonials.slice(0, 3)}
+      title="Trusted by 70+ Healthcare Professionals"
+      eyebrow="Real Results"
+    />
 
-      <Card variant="pricing" class="pricing-card popular">
-        <div class="popular-badge">Most Popular</div>
-        <div class="pricing-header">
-          <h3>Growth</h3>
-          <div class="price">$3,495<span class="price-period">/mo</span></div>
-        </div>
-        <p class="pricing-description">For practices ready to scale without operational chaos.</p>
-        <ul class="pricing-features">
-          <li>Everything in Starter</li>
-          <li>Extended hours (7am-9pm)</li>
-          <li>Recall outreach campaigns</li>
-          <li>Dedicated account manager</li>
-        </ul>
-        <Button href="#final-cta">Get Started</Button>
-      </Card>
+    <!-- Logo Marquee -->
+    <LogoMarquee
+      logos={clientLogos}
+      title="Trusted by Leading Healthcare Practices"
+    />
 
-      <Card variant="pricing" class="pricing-card">
-        <div class="pricing-header">
-          <h3>Enterprise</h3>
-          <div class="price">Custom</div>
-        </div>
-        <p class="pricing-description">Multi-location groups with complex needs.</p>
-        <ul class="pricing-features">
-          <li>Everything in Growth</li>
-          <li>24/7 coverage</li>
-          <li>Centralized dashboard</li>
-          <li>Custom integrations</li>
-        </ul>
-        <Button href="#final-cta" variant="secondary" size="sm">Contact Us</Button>
-      </Card>
+    <!-- Pricing Preview -->
+    <section class="pricing-preview">
+      <div class="section-intro">
+        <div class="eyebrow">Transparent Pricing</div>
+        <h2>Plans That Scale With You</h2>
+        <p class="subtitle">From single locations to multi-site groups, we have a plan that fits.</p>
+      </div>
+      <div class="pricing-grid">
+        <Card variant="pricing" class="pricing-card">
+          <div class="pricing-header">
+            <h3>Starter</h3>
+            <div class="price">$1,995<span class="price-period">/mo</span></div>
+          </div>
+          <p class="pricing-description">Perfect for single locations ready to capture every call.</p>
+          <ul class="pricing-features">
+            <li>All calls answered in 3 rings</li>
+            <li>Appointment scheduling</li>
+            <li>8am-6pm coverage</li>
+          </ul>
+        </Card>
+        <Card variant="pricing" class="pricing-card popular">
+          <div class="popular-badge">Most Popular</div>
+          <div class="pricing-header">
+            <h3>Growth</h3>
+            <div class="price">$3,495<span class="price-period">/mo</span></div>
+          </div>
+          <p class="pricing-description">For practices ready to scale without chaos.</p>
+          <ul class="pricing-features">
+            <li>Everything in Starter</li>
+            <li>Extended hours (7am-9pm)</li>
+            <li>Recall outreach campaigns</li>
+          </ul>
+        </Card>
+        <Card variant="pricing" class="pricing-card">
+          <div class="pricing-header">
+            <h3>Enterprise</h3>
+            <div class="price">Custom</div>
+          </div>
+          <p class="pricing-description">Multi-location groups with complex needs.</p>
+          <ul class="pricing-features">
+            <li>Everything in Growth</li>
+            <li>24/7 coverage</li>
+            <li>Centralized dashboard</li>
+          </ul>
+        </Card>
+      </div>
+      <div class="pricing-cta">
+        <Button href="/pricing/">See Full Pricing Details</Button>
+      </div>
+    </section>
 
-      <!-- FAQ Section -->
-      <section id="faq" class="section-intro">
-        <div class="section-intro-eyebrow">Questions?</div>
-        <h2 class="section-intro-title">Frequently Asked Questions</h2>
-      </section>
+    <!-- FAQ -->
+    <FAQ
+      items={homepageFaqs}
+      title="Frequently Asked Questions"
+      eyebrow="Questions?"
+    />
 
-      <section class="faq-section full-width">
-        <details class="faq-item">
-          <summary>How is this different from hiring a $10/hr VA?</summary>
-          <p>VAs from gig platforms require you to train, manage, and replace them. We arrive ready-trained on optometry workflows, insurance (VSP vs EyeMed), and your EMR. You buy a managed team and results, not a person to babysit.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Do your team members actually understand healthcare?</summary>
-          <p>Yes. We train specifically on healthcare workflows-insurance verification, recall protocols, and your provider preferences. This isn't generic call center staff reading scripts.</p>
-        </details>
-        <details class="faq-item">
-          <summary>We're scaling to 5+ locations. Can you handle that?</summary>
-          <p>That's exactly who we built this for. We function as your centralized intake backbone across every location-one team, one playbook, one dashboard.</p>
-        </details>
-        <details class="faq-item">
-          <summary>How fast can we get started?</summary>
-          <p>AI-assisted intake can start in 5 days. Full team integration takes 30-60 days depending on your EMR and workflow complexity.</p>
-        </details>
-        <details class="faq-item">
-          <summary>What about HIPAA compliance?</summary>
-          <p>Our team operates under a full Business Associate Agreement (BAA). All data stays within HIPAA-compliant systems with the same security protocols as US-based staff.</p>
-        </details>
-      </section>
-
-      <!-- Final CTA Section -->
-      <section id="final-cta" class="cta-section full-width">
-        <div class="cta-content">
-          <h2>Ready to Fill Every Appointment Slot?</h2>
-          <p>Book a discovery call to see how MyBCAT can capture the revenue you're leaving on the table.</p>
-          <HubSpotMeeting buttonText="Book Your Discovery Call" />
-        </div>
-      </section>
-
-    </div>
+    <!-- Final CTA -->
+    <CTA
+      title="Ready to Fill Every Appointment Slot?"
+      description="Book a discovery call to see how MyBCAT can capture the revenue you're leaving on the table."
+      buttonText="Book Your Discovery Call"
+      buttonHref="/contact/"
+    />
   </main>
-</Base>
+</BaseLayout>
 
 <style>
-  /* Hero Section */
-  .spatial-hero {
-    grid-column: span 6;
-    min-height: 85vh;
-    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
-    border-radius: 24px;
-    padding: 0;
-    display: flex;
-    align-items: center;
+  .homepage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px 0;
   }
 
-  .spatial-hero-inner {
-    display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 40px;
-    width: 100%;
-    padding: 60px 48px;
-    align-items: center;
-  }
-
-  .hero-content {
-    padding-top: 60px;
-  }
-
-  .hero-brand {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin-bottom: 24px;
-  }
-
-  .hero-brand img {
-    height: 50px;
-    width: auto;
-  }
-
-  .hero-brand-text {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--navy-900);
-  }
-
-  .hero-title {
-    font-size: clamp(2rem, 4vw, 3rem);
-    font-weight: 800;
-    color: var(--navy-900);
-    line-height: 1.1;
-    margin-bottom: 16px;
-  }
-
-  .hero-tagline {
-    font-size: 1.1rem;
-    color: var(--copper-700);
-    font-weight: 600;
-    margin-bottom: 12px;
-  }
-
-  .hero-description {
-    font-size: 1rem;
-    color: var(--text-secondary);
-    line-height: 1.7;
-    margin-bottom: 20px;
-  }
-
-  .hero-benefit-bar {
-    display: flex;
-    gap: 24px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-  }
-
-  .benefit-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 15px;
-    color: var(--text-secondary);
-  }
-
-  .benefit-item svg {
-    color: var(--copper-500);
-  }
-
-  .hero-cta-group {
-    display: flex;
-    gap: 24px;
-    align-items: center;
-    margin-bottom: 24px;
-  }
-
-  .text-link {
-    color: var(--text-secondary);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s;
-  }
-
-  .text-link:hover {
-    color: var(--oceanic-teal);
-  }
-
-  .hero-trust-bar {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding-top: 12px;
-    border-top: 1px solid var(--glass-border);
-  }
-
-  .trust-item {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 15px;
-    color: var(--text-secondary);
-  }
-
-  .hero-visual {
-    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
-    border-radius: 16px;
-    aspect-ratio: 16/10;  /* Original landscape ratio */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .hero-video-placeholder {
-    text-align: center;
-    color: white;
-  }
-
-  .play-button {
-    width: 64px;
-    height: 64px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 16px;
-    cursor: pointer;
-    transition: all 0.3s;
-  }
-
-  .play-button:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: scale(1.1);
-  }
-
-  /* Section Intro */
   .section-intro {
-    grid-column: span 6;
     text-align: center;
-    padding: 60px 24px 20px;
+    padding: 60px 0 20px;
   }
 
-  .section-intro-eyebrow {
+  .eyebrow {
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -666,370 +292,107 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
     margin-bottom: 12px;
   }
 
-  .section-intro-title {
+  .section-intro h2 {
     font-size: clamp(1.5rem, 3vw, 2.25rem);
     font-weight: 700;
     color: var(--navy-900);
-    max-width: 700px;
-    margin: 0 auto;
+    margin-bottom: 12px;
   }
 
-  .section-intro-subtitle {
+  .section-intro .subtitle {
     font-size: 1.1rem;
     color: var(--text-secondary);
-    margin-top: 12px;
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* Who Cards */
-  :global(.who-card) {
-    grid-column: span 3;
-  }
-
-  :global(.who-card) .who-card-content {
-    text-align: center;
-  }
-
-  .section-tag {
-    display: inline-block;
-    padding: 6px 16px;
-    background: var(--glass-copper);
-    border-radius: 999px;
-    font-size: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--copper-700);
-    margin-bottom: 12px;
-  }
-
-  :global(.who-card) h3 {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--navy-900);
-    margin-bottom: 8px;
-  }
-
-  :global(.who-card) p {
-    font-size: 15px;
-    color: var(--text-secondary);
-  }
-
-  /* Problem Cards */
-  :global(.problem-card) {
-    grid-column: span 2;
-    background: rgba(0, 96, 100, 0.04);
-    border-color: rgba(0, 96, 100, 0.15);
-  }
-
-  .feature-icon.teal {
-    background: rgba(0, 96, 100, 0.08);
-  }
-
-  .feature-title.teal {
-    color: var(--oceanic-teal);
-  }
-
-  /* Full Width */
-  .full-width {
-    grid-column: span 6;
-  }
-
-  /* Quote Card */
-  .quote-card {
-    background: var(--glass-copper);
-    text-align: center;
-    padding: 32px 24px;
-  }
-
-  .quote-card blockquote {
-    font-size: clamp(1.1rem, 2vw, 1.35rem);
-    font-style: italic;
-    color: var(--navy-900);
-    margin: 0 0 16px 0;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
-  }
-
-  .quote-card cite {
-    font-size: 15px;
-    color: var(--text-secondary);
-    font-style: normal;
-  }
-
-  /* Before/After Section */
-  .before-after-section {
-    padding: 40px;
-  }
-
-  .before-after-section .section-title {
-    text-align: center;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--navy-900);
-    margin-bottom: 32px;
-  }
-
-  .before-after-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-  }
-
-  .before-column {
-    padding: 24px;
-    background: rgba(108, 122, 136, 0.06);
-    border-radius: 16px;
-    border: 1px solid rgba(108, 122, 136, 0.15);
-  }
-
-  .after-column {
-    padding: 24px;
-    background: rgba(0, 96, 100, 0.06);
-    border-radius: 16px;
-    border: 1px solid rgba(0, 96, 100, 0.15);
-  }
-
-  .before-column h4 {
-    color: var(--charcoal-700);
-    margin-bottom: 16px;
-    font-size: 1.1rem;
-  }
-
-  .after-column h4 {
-    color: var(--oceanic-teal);
-    margin-bottom: 16px;
-    font-size: 1.1rem;
-  }
-
-  .before-column ul,
-  .after-column ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .before-column li,
-  .after-column li {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 14px;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-  .x-mark {
-    color: #B85450;
-    font-weight: 600;
-  }
-
-  .check-mark {
-    color: var(--oceanic-teal);
-    font-weight: 600;
-  }
-
-  /* Stat Card */
-  .stat-card {
-    background: rgba(211, 175, 94, 0.1);
-    border-color: rgba(211, 175, 94, 0.25);
-    text-align: center;
-    padding: 40px;
-  }
-
-  .stat-number {
-    font-size: clamp(2.5rem, 5vw, 4rem);
-    font-weight: 800;
-  }
-
-  .stat-number.gold {
-    color: var(--revenue-gold);
-  }
-
-  .stat-label {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 12px;
-  }
-
-  .stat-label.gold {
-    color: var(--revenue-gold);
-  }
-
-  .stat-description {
-    font-size: 14px;
-    opacity: 0.85;
-    max-width: 500px;
     margin: 0 auto;
-    color: var(--text-secondary);
   }
 
-  /* Comparison Section */
-  .comparison-section {
-    padding: 40px;
+  /* Solutions Overview */
+  .solutions-overview {
+    padding: 40px 0;
   }
 
-  .comparison-grid {
+  .solutions-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+    padding: 20px 0;
   }
 
-  .comparison-column {
-    padding: 24px;
+  .solution-card {
     background: var(--spatial-glass);
-    border-radius: 16px;
     border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 32px;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
   }
 
-  .comparison-column.highlight {
-    background: rgba(0, 96, 100, 0.08);
+  .solution-card:hover {
     border-color: var(--oceanic-teal);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
   }
 
-  .comparison-column h4 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--navy-900);
-    margin-bottom: 16px;
-  }
-
-  .comparison-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .comparison-list li {
-    padding: 8px 0;
-    font-size: 15px;
-    color: var(--text-secondary);
-    border-bottom: 1px solid var(--glass-border);
-  }
-
-  .comparison-list li:last-child {
-    border-bottom: none;
-  }
-
-  .comparison-list.negative li::before {
-    content: "- ";
-    color: #B85450;
-  }
-
-  .comparison-list.positive li::before {
-    content: "✓ ";
-    color: var(--oceanic-teal);
-  }
-
-  /* Service Cards */
-  :global(.service-card) {
-    grid-column: span 3;
-  }
-
-  .feature-icon {
-    width: 48px;
-    height: 48px;
-    background: var(--glass-navy);
-    border-radius: 12px;
+  .solution-icon {
+    width: 64px;
+    height: 64px;
+    background: var(--glass-teal);
+    border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 16px;
-    color: var(--navy-800);
+    margin-bottom: 20px;
+    color: var(--oceanic-teal);
   }
 
-  .card-title {
+  .solution-card h3 {
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--navy-900);
     margin-bottom: 8px;
   }
 
-  .card-description {
+  .solution-card p {
     font-size: 0.95rem;
     color: var(--text-secondary);
     line-height: 1.6;
+    flex: 1;
+    margin-bottom: 16px;
   }
 
-  /* Process Steps */
-  .process-steps {
+  .solution-link {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .solutions-cta {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  /* Pricing Preview */
+  .pricing-preview {
+    padding: 40px 0;
+  }
+
+  .pricing-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    padding: 40px;
+    padding: 20px 0;
   }
 
-  .process-step {
-    text-align: center;
-  }
-
-  .step-number {
-    width: 48px;
-    height: 48px;
-    background: var(--oceanic-teal);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin: 0 auto 16px;
-  }
-
-  .process-step h4 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--navy-900);
-    margin-bottom: 8px;
-  }
-
-  .process-step p {
-    font-size: 15px;
-    color: var(--text-secondary);
-  }
-
-  /* Testimonial Cards */
-  .author {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-top: 16px;
-  }
-
-  .author-avatar {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--glass-copper) 0%, var(--copper-500) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    color: white;
-    font-weight: 600;
-  }
-
-  .author-name {
-    font-weight: 600;
-    color: var(--navy-900);
-    font-style: normal;
-    display: block;
-  }
-
-  .author-title {
-    font-size: 0.875rem;
-    color: var(--text-muted);
-  }
-
-  /* Pricing Cards */
   :global(.pricing-card) {
-    grid-column: span 2;
     text-align: center;
     position: relative;
+  }
+
+  :global(.pricing-card.popular) {
+    border-color: var(--oceanic-teal);
+    box-shadow: 0 8px 32px rgba(0, 96, 100, 0.15);
   }
 
   .popular-badge {
@@ -1054,7 +417,7 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
   }
 
   .price {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: var(--navy-900);
   }
@@ -1074,7 +437,7 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
   .pricing-features {
     list-style: none;
     padding: 0;
-    margin: 0 0 24px;
+    margin: 0;
     text-align: left;
   }
 
@@ -1091,400 +454,15 @@ import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
     font-weight: 600;
   }
 
-  /* FAQ Section */
-  .faq-section {
-    padding: 20px 40px 40px;
-  }
-
-  .faq-item {
-    background: var(--spatial-glass);
-    border: 1px solid var(--glass-border);
-    border-radius: 16px;
-    margin-bottom: 12px;
-    overflow: hidden;
-  }
-
-  .faq-item summary {
-    padding: 20px 24px;
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--navy-900);
-    cursor: pointer;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .faq-item summary::after {
-    content: "+";
-    font-size: 1.5rem;
-    color: var(--oceanic-teal);
-  }
-
-  .faq-item[open] summary::after {
-    content: "-";
-  }
-
-  .faq-item p {
-    padding: 0 24px 20px;
-    font-size: 15px;
-    color: var(--text-secondary);
-    line-height: 1.7;
-  }
-
-  /* CTA Section */
-  .cta-section {
-    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
-    border-radius: 24px;
-    padding: 60px 40px;
+  .pricing-cta {
     text-align: center;
+    padding-top: 24px;
   }
 
-  .cta-content h2 {
-    font-size: clamp(1.75rem, 3vw, 2.5rem);
-    font-weight: 700;
-    color: white;
-    margin-bottom: 16px;
-  }
-
-  .cta-content p {
-    font-size: 1.1rem;
-    color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 32px;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* Authority Logo Marquee */
-  .authority-section {
-    background: var(--spatial-glass);
-    border-radius: 24px;
-    border-top: 1px solid var(--glass-border);
-    padding: 40px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: var(--shadow);
-  }
-
-  .authority-label {
-    text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text-tertiary);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 32px;
-  }
-
-  .authority-track {
-    display: flex;
-    gap: 80px;
-    align-items: center;
-    animation: scrollLogos 40s linear infinite;
-    will-change: transform;
-  }
-
-  @keyframes scrollLogos {
-    0% { transform: translate3d(0, 0, 0); }
-    100% { transform: translate3d(-33.333%, 0, 0); }
-  }
-
-  .authority-logo {
-    height: 60px;
-    width: auto;
-    max-width: 180px;
-    object-fit: contain;
-    opacity: 0.85;
-    transition: all 0.4s ease;
-    flex-shrink: 0;
-    transform: translateZ(0);
-  }
-
-  .authority-logo:hover {
-    opacity: 1;
-    transform: scale(1.05);
-  }
-
-  /* Hero Video Player */
-  .hero-video-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .hero-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;  /* Fill container, image will be optimized for this */
-    border-radius: 16px;
-  }
-
-  .video-overlay-gradient {
-    position: absolute;
-    inset: 0;
-    background:
-      radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.4) 100%),
-      linear-gradient(180deg, rgba(0,0,0,0.1) 0%, transparent 30%, transparent 70%, rgba(0,0,0,0.3) 100%);
-    border-radius: 16px;
-    pointer-events: none;
-  }
-
-  .video-play-overlay {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    padding-bottom: 100px;
-    cursor: pointer;
-    transition: opacity 0.4s ease;
-    border-radius: 16px;
-  }
-
-  @keyframes floatPlay {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-8px); }
-  }
-
-  @keyframes pulseRing {
-    0% { transform: scale(1); opacity: 0.6; }
-    50% { transform: scale(1.3); opacity: 0; }
-    100% { transform: scale(1); opacity: 0; }
-  }
-
-  @keyframes pulseRing2 {
-    0% { transform: scale(1); opacity: 0.4; }
-    50% { transform: scale(1.5); opacity: 0; }
-    100% { transform: scale(1); opacity: 0; }
-  }
-
-  @keyframes shimmer {
-    0% { background-position: -200% center; }
-    100% { background-position: 200% center; }
-  }
-
-  .play-button-container {
-    position: relative;
-    animation: floatPlay 3s ease-in-out infinite;
-  }
-
-  .play-button-glow {
-    position: absolute;
-    inset: -4px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--electric-aqua), var(--revenue-gold));
-    filter: blur(12px);
-    opacity: 0.5;
-    z-index: -1;
-  }
-
-  .play-button-ring {
-    position: absolute;
-    inset: -12px;
-    border-radius: 50%;
-    border: 2px solid var(--electric-aqua);
-    animation: pulseRing 2s ease-out infinite;
-  }
-
-  .play-button-ring-2 {
-    position: absolute;
-    inset: -20px;
-    border-radius: 50%;
-    border: 1px solid var(--revenue-gold);
-    animation: pulseRing2 2s ease-out infinite 0.5s;
-  }
-
-  .premium-play-btn {
-    width: 88px;
-    height: 88px;
-    background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow:
-      0 4px 24px rgba(0, 96, 100, 0.3),
-      0 8px 32px rgba(0,0,0,0.2),
-      inset 0 1px 0 rgba(255,255,255,0.8),
-      inset 0 -1px 0 rgba(0,0,0,0.05);
-    border: 1px solid rgba(255,255,255,0.5);
-    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    position: relative;
-    overflow: hidden;
-  }
-
-  .premium-play-btn::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
-    background-size: 200% 100%;
-    animation: shimmer 3s infinite;
-    border-radius: 50%;
-  }
-
-  .premium-play-btn:hover {
-    transform: scale(1.12);
-    box-shadow:
-      0 8px 40px rgba(0, 96, 100, 0.4),
-      0 12px 48px rgba(211, 175, 94, 0.2),
-      inset 0 1px 0 rgba(255,255,255,0.9);
-  }
-
-  .premium-play-btn svg {
-    position: relative;
-    z-index: 1;
-    filter: drop-shadow(0 2px 4px rgba(0,96,100,0.3));
-    transition: transform 0.3s ease;
-  }
-
-  .premium-play-btn:hover svg {
-    transform: scale(1.1);
-  }
-
-  .video-info-bar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 16px 20px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
-    border-radius: 0 0 16px 16px;
-  }
-
-  .video-info-content {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .testimonial-avatar {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid rgba(255,255,255,0.3);
-    flex-shrink: 0;
-  }
-
-  .testimonial-name {
-    color: white;
-    font-weight: 600;
-    font-size: 0.95rem;
-  }
-
-  .testimonial-title {
-    color: rgba(255,255,255,0.7);
-    font-size: 0.8rem;
-  }
-
-  /* Responsive */
-  @media (max-width: 1024px) {
-    .spatial-hero-inner {
+  @media (max-width: 900px) {
+    .solutions-grid,
+    .pricing-grid {
       grid-template-columns: 1fr;
-      padding: 40px 24px;
-    }
-
-    .hero-visual {
-      order: -1;
-      aspect-ratio: 16/9;  /* Standard video ratio on mobile */
-    }
-
-    :global(.who-card),
-    :global(.problem-card),
-    :global(.service-card),
-    :global(.pricing-card) {
-      grid-column: span 6;
-    }
-
-    .comparison-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .before-after-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .process-steps {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .hero-content {
-      padding-top: 40px;
-    }
-
-    .hero-cta-group {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .faq-section {
-      padding: 20px;
-    }
-
-    .cta-section {
-      padding: 40px 24px;
     }
   }
 </style>
-
-<script>
-  // Hero Video Player Controls
-  document.addEventListener('DOMContentLoaded', function() {
-    const video = document.getElementById('heroVideo');
-    const overlay = document.getElementById('videoPlayOverlay');
-    let videoLoaded = false;
-
-    if (video && overlay) {
-      // Lazy load video source on first click (saves bandwidth)
-      function loadVideoSource() {
-        if (videoLoaded) return;
-        const source = video.querySelector('source[data-src]');
-        if (source && source.dataset.src) {
-          source.src = source.dataset.src;
-          source.removeAttribute('data-src');
-          video.load();
-          videoLoaded = true;
-        }
-      }
-
-      // Play on overlay click
-      overlay.addEventListener('click', function() {
-        if (video.paused) {
-          loadVideoSource();
-          video.muted = false;
-          video.play();
-          overlay.style.opacity = '0';
-          overlay.style.pointerEvents = 'none';
-        }
-      });
-
-      // Show overlay on pause
-      video.addEventListener('pause', function() {
-        overlay.style.opacity = '1';
-        overlay.style.pointerEvents = 'auto';
-      });
-
-      // Show overlay when video ends
-      video.addEventListener('ended', function() {
-        overlay.style.opacity = '1';
-        overlay.style.pointerEvents = 'auto';
-      });
-
-      // Toggle pause on video click
-      video.addEventListener('click', function() {
-        if (!video.paused) {
-          video.pause();
-        }
-      });
-    }
-  });
-</script>

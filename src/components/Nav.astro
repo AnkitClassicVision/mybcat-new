@@ -1,4 +1,8 @@
 ---
+/**
+ * Main Navigation Component
+ * Uses proper page links instead of anchor links
+ */
 interface Props {
   currentPath?: string;
 }
@@ -22,19 +26,13 @@ const { currentPath = '/' } = Astro.props;
     <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="54" height="50">
     <span class="mobile-nav-brand-text">My Business Care Team</span>
   </a>
-  <a href="/#who-were-for">Who It's For</a>
-  <a href="/#the-problem">Problem</a>
-  <a href="/#differentiation">Compare</a>
-  <a href="/#services">Solution</a>
-  <a href="/#how-it-works">How It Works</a>
-  <a href="/#proof">Proof</a>
-  <a href="/#pricing">Plans</a>
+  <a href="/solutions/">Solutions</a>
+  <a href="/industries/">Industries</a>
+  <a href="/pricing/">Pricing</a>
+  <a href="/about/">About</a>
+  <a href="/resources/">Resources</a>
   <a href="/blog/">Blog</a>
-  <a href="/about/">Our Story</a>
-  <a href="/resources/podcast/">Podcast</a>
-  <a href="/resources/book/">Book</a>
-  <a href="/#faq">FAQ</a>
-  <a href="/#final-cta">Book Call</a>
+  <a href="/contact/" class="mobile-cta">Book a Call</a>
 </nav>
 
 <!-- Floating Navigation Dock -->
@@ -43,23 +41,44 @@ const { currentPath = '/' } = Astro.props;
     <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="54" height="50" loading="eager" fetchpriority="high">
     <span class="nav-brand-text">My Business Care Team</span>
   </a>
-  <a href="/#who-were-for" class="nav-item">Who It's For</a>
-  <a href="/#the-problem" class="nav-item">Problem</a>
-  <a href="/#differentiation" class="nav-item">Compare</a>
-  <a href="/#services" class="nav-item">Solution</a>
-  <a href="/#how-it-works" class="nav-item">How It Works</a>
-  <a href="/#proof" class="nav-item">Proof</a>
-  <a href="/#pricing" class="nav-item">Plans</a>
-  <a href="/blog" class="nav-item" class:list={[{ active: currentPath.startsWith('/blog') }]}>Blog</a>
+
+  <!-- Solutions Dropdown -->
   <div class="nav-dropdown">
-    <a href="#" class="nav-item nav-dropdown-trigger">About</a>
+    <a href="/solutions/" class="nav-item nav-dropdown-trigger">Solutions</a>
     <div class="nav-dropdown-menu">
-      <a href="/about/">Our Story</a>
+      <a href="/solutions/patient-intake/">Patient Intake</a>
+      <a href="/solutions/recall-reactivation/">Recall & Reactivation</a>
+      <a href="/solutions/no-show-recovery/">No-Show Recovery</a>
+    </div>
+  </div>
+
+  <!-- Industries Dropdown -->
+  <div class="nav-dropdown">
+    <a href="/industries/" class="nav-item nav-dropdown-trigger">Industries</a>
+    <div class="nav-dropdown-menu">
+      <a href="/industries/optometry/">Optometry</a>
+      <a href="/industries/dental/">Dental</a>
+      <a href="/industries/veterinary/">Veterinary</a>
+      <a href="/industries/medspa/">MedSpa</a>
+      <a href="/industries/dermatology/">Dermatology</a>
+    </div>
+  </div>
+
+  <a href="/pricing/" class="nav-item" class:list={[{ active: currentPath === '/pricing/' }]}>Pricing</a>
+
+  <!-- Resources Dropdown -->
+  <div class="nav-dropdown">
+    <a href="/resources/" class="nav-item nav-dropdown-trigger">Resources</a>
+    <div class="nav-dropdown-menu">
+      <a href="/blog/">Blog</a>
       <a href="/resources/podcast/">Podcast</a>
       <a href="/resources/book/">Book</a>
     </div>
   </div>
-  <a href="/#final-cta" class="nav-item nav-cta-glow">Get My Schedule Filled</a>
+
+  <a href="/about/" class="nav-item" class:list={[{ active: currentPath === '/about/' }]}>About</a>
+
+  <a href="/contact/" class="nav-item nav-cta-glow">Get My Schedule Filled</a>
 </nav>
 
 <style>
@@ -161,6 +180,13 @@ const { currentPath = '/' } = Astro.props;
   .mobile-menu a:hover {
     background: var(--glass-navy);
     color: var(--text-primary);
+  }
+
+  .mobile-menu .mobile-cta {
+    margin-top: 16px;
+    background: var(--oceanic-teal);
+    color: white;
+    text-align: center;
   }
 
   .mobile-nav-brand {
@@ -291,7 +317,7 @@ const { currentPath = '/' } = Astro.props;
     border: 1px solid var(--glass-border);
     border-radius: 16px;
     padding: 8px;
-    min-width: 160px;
+    min-width: 180px;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
