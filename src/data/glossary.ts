@@ -133,7 +133,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'A digital system that stores patient health records, treatment history, and medical information, enabling healthcare providers to access and update patient data.',
     detailedExplanation: 'EHRs have largely replaced paper records in healthcare. They contain patient demographics, medical history, appointments, treatment notes, and billing information. Integration with EHR systems is critical for any patient intake service, as it enables direct scheduling without manual data entry or message-taking.',
     category: 'technology',
-    relatedTerms: ['pms', 'ehr-integration'],
+    relatedTerms: ['pms'],
     relatedSolutions: ['integrations', 'patient-intake'],
     examples: [
       'Eyefinity for optometry practices',
@@ -147,7 +147,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'Software that handles the business side of a healthcare practice including scheduling, billing, claims, and administrative functions.',
     detailedExplanation: 'While EHRs focus on clinical data, practice management systems handle operations: appointment scheduling, insurance billing, claims management, and revenue cycle. Many modern systems combine EHR and PMS functionality. Effective patient intake requires integration with both clinical and administrative systems.',
     category: 'technology',
-    relatedTerms: ['ehr', 'ehr-integration'],
+    relatedTerms: ['ehr'],
     relatedSolutions: ['integrations', 'front-office-operations'],
     examples: [
       'Scheduling and calendar management',
