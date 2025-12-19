@@ -1,0 +1,78 @@
+---
+/**
+ * Logo component
+ * Displays company logo with optional text
+ */
+import { company } from '@data/company';
+
+interface Props {
+  size?: 'sm' | 'md' | 'lg';
+  showText?: boolean;
+  href?: string;
+}
+
+const {
+  size = 'md',
+  showText = true,
+  href = '/'
+} = Astro.props;
+
+const sizes = {
+  sm: { height: 28, width: 30 },
+  md: { height: 40, width: 44 },
+  lg: { height: 54, width: 60 }
+};
+
+const { height, width } = sizes[size];
+---
+
+<a href={href} class={`logo logo-${size}`}>
+  <img
+    src="/images/logo-optimized.webp"
+    alt={`${company.shortName} Logo`}
+    width={width}
+    height={height}
+    loading="eager"
+    fetchpriority="high"
+  />
+  {showText && (
+    <span class="logo-text">{company.name}</span>
+  )}
+</a>
+
+<style>
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .logo:hover {
+    opacity: 0.85;
+  }
+
+  .logo img {
+    height: auto;
+  }
+
+  .logo-text {
+    font-weight: 700;
+    color: var(--navy-900);
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .logo-sm .logo-text {
+    font-size: 13px;
+  }
+
+  .logo-md .logo-text {
+    font-size: 15px;
+  }
+
+  .logo-lg .logo-text {
+    font-size: 18px;
+  }
+</style>

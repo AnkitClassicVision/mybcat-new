@@ -1,0 +1,111 @@
+---
+/**
+ * Logo Marquee Section component
+ * Displays scrolling client/authority logos
+ */
+import { clientLogos, type ClientLogo } from '@data/testimonials';
+
+interface Props {
+  title?: string;
+  logos?: ClientLogo[];
+  speed?: 'slow' | 'normal' | 'fast';
+}
+
+const {
+  title = 'Trusted by Leading Healthcare Practices',
+  logos = clientLogos,
+  speed = 'normal'
+} = Astro.props;
+
+const speedMap = {
+  slow: '60s',
+  normal: '40s',
+  fast: '25s'
+};
+---
+
+<section class="logo-marquee-section" style={`--animation-speed: ${speedMap[speed]}`}>
+  <div class="marquee-label">{title}</div>
+  <div class="marquee-track">
+    {/* First set */}
+    {logos.map((logo: ClientLogo) => (
+      <img src={logo.src} alt={logo.alt} class="marquee-logo" loading="lazy" />
+    ))}
+    {/* Second set (duplicate for infinite scroll) */}
+    {logos.map((logo: ClientLogo) => (
+      <img src={logo.src} alt={logo.alt} class="marquee-logo" loading="lazy" />
+    ))}
+    {/* Third set (duplicate for seamless loop) */}
+    {logos.map((logo: ClientLogo) => (
+      <img src={logo.src} alt={logo.alt} class="marquee-logo" loading="lazy" />
+    ))}
+  </div>
+</section>
+
+<style>
+  .logo-marquee-section {
+    grid-column: span 6;
+    background: var(--spatial-glass);
+    border-radius: 24px;
+    border: 1px solid var(--glass-border);
+    padding: 40px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: var(--shadow);
+  }
+
+  .marquee-label {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 32px;
+  }
+
+  .marquee-track {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    animation: scrollLogos var(--animation-speed, 40s) linear infinite;
+    will-change: transform;
+  }
+
+  @keyframes scrollLogos {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-33.333%, 0, 0); }
+  }
+
+  .marquee-logo {
+    height: 60px;
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
+    opacity: 0.85;
+    transition: all 0.4s ease;
+    flex-shrink: 0;
+    transform: translateZ(0);
+  }
+
+  .marquee-logo:hover {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  /* Pause on hover */
+  .logo-marquee-section:hover .marquee-track {
+    animation-play-state: paused;
+  }
+
+  @media (max-width: 768px) {
+    .marquee-track {
+      gap: 40px;
+    }
+
+    .marquee-logo {
+      height: 40px;
+      max-width: 120px;
+    }
+  }
+</style>

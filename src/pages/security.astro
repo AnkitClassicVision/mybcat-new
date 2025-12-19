@@ -1,0 +1,383 @@
+---
+/**
+ * Security Page
+ * HIPAA compliance, BAA information, and security practices
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { getFAQsByCategory } from '@data/faq';
+---
+
+<PageLayout
+  title="Security & HIPAA Compliance | MyBCAT"
+  description="MyBCAT is fully HIPAA compliant with BAA agreements, encrypted communications, and US-based oversight. Learn about our security practices."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Security' }
+  ]}
+  heroEyebrow="Security First"
+  heroTitle="HIPAA Compliant. BAA Signed. Always."
+  heroSubtitle="Your patient data security is non-negotiable. We operate under the same strict protocols as US-based healthcare staff."
+>
+  <div class="security-page">
+    <!-- Trust Badges -->
+    <section class="trust-badges">
+      <div class="badge-grid">
+        <div class="trust-badge">
+          <div class="badge-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <polyline points="9 12 11 14 15 10"/>
+            </svg>
+          </div>
+          <h3>HIPAA Compliant</h3>
+          <p>Full compliance with all HIPAA Privacy and Security Rules</p>
+        </div>
+
+        <div class="trust-badge">
+          <div class="badge-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <path d="M9 15l2 2 4-4"/>
+            </svg>
+          </div>
+          <h3>BAA Agreement</h3>
+          <p>Signed Business Associate Agreement with every client</p>
+        </div>
+
+        <div class="trust-badge">
+          <div class="badge-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <h3>Encrypted Data</h3>
+          <p>End-to-end encryption for all patient communications</p>
+        </div>
+
+        <div class="trust-badge">
+          <div class="badge-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3>US-Based Management</h3>
+          <p>All operations overseen by US-based team with healthcare background</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Security Practices -->
+    <section class="practices-section">
+      <div class="section-header">
+        <h2>How We Protect Your Data</h2>
+        <p>Comprehensive security measures at every level</p>
+      </div>
+
+      <div class="practices-grid">
+        <Card variant="feature" class="practice-card">
+          <h3>Access Controls</h3>
+          <ul>
+            <li>Role-based access matching your in-house protocols</li>
+            <li>Individual user accounts with unique credentials</li>
+            <li>Multi-factor authentication required</li>
+            <li>Access logging and audit trails</li>
+            <li>Immediate access revocation when needed</li>
+          </ul>
+        </Card>
+
+        <Card variant="feature" class="practice-card">
+          <h3>Data Handling</h3>
+          <ul>
+            <li>Patient data stays in your existing systems</li>
+            <li>No PHI stored on our servers</li>
+            <li>Encrypted connections to your EMR/PM</li>
+            <li>Secure VPN access when required</li>
+            <li>Regular security assessments</li>
+          </ul>
+        </Card>
+
+        <Card variant="feature" class="practice-card">
+          <h3>Team Training</h3>
+          <ul>
+            <li>HIPAA training for all team members</li>
+            <li>Annual compliance recertification</li>
+            <li>PHI handling best practices</li>
+            <li>Incident response procedures</li>
+            <li>Confidentiality agreements signed</li>
+          </ul>
+        </Card>
+
+        <Card variant="feature" class="practice-card">
+          <h3>Communication Security</h3>
+          <ul>
+            <li>Encrypted phone lines and VoIP</li>
+            <li>Secure messaging platforms</li>
+            <li>No patient info via unsecured email</li>
+            <li>Call recording with secure storage</li>
+            <li>Compliant fax and document handling</li>
+          </ul>
+        </Card>
+      </div>
+    </section>
+
+    <!-- BAA Information -->
+    <section class="baa-section">
+      <Card variant="pricing" class="baa-card">
+        <div class="baa-content">
+          <h2>Business Associate Agreement</h2>
+          <p>We sign a comprehensive BAA with every client before any patient information is accessed. This agreement:</p>
+          <ul class="baa-list">
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Establishes our obligations as a HIPAA Business Associate</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Defines permitted uses and disclosures of PHI</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Requires us to implement appropriate safeguards</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Mandates breach notification procedures</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Ensures PHI is returned or destroyed upon termination</span>
+            </li>
+          </ul>
+          <p class="baa-note">The BAA is provided during onboarding and must be executed before service begins.</p>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Security FAQs -->
+    <section class="faq-section">
+      <FAQ
+        items={getFAQsByCategory('security')}
+        title="Security Questions"
+        eyebrow="Common Questions"
+      />
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Questions About Security?"
+        description="We're happy to discuss our security practices in detail and address any concerns."
+        buttonText="Talk to Our Team"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .security-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .trust-badges {
+    margin-bottom: 60px;
+  }
+
+  .badge-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .trust-badge {
+    text-align: center;
+    padding: 32px 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+  }
+
+  .badge-icon {
+    width: 64px;
+    height: 64px;
+    background: var(--glass-teal);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .trust-badge h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .trust-badge p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  .practices-section {
+    margin-bottom: 60px;
+  }
+
+  .practices-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  :global(.practice-card) {
+    padding: 32px;
+  }
+
+  :global(.practice-card) h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--glass-teal);
+  }
+
+  :global(.practice-card) ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  :global(.practice-card) li {
+    padding: 8px 0;
+    font-size: 15px;
+    color: var(--text-secondary);
+    padding-left: 24px;
+    position: relative;
+  }
+
+  :global(.practice-card) li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+  }
+
+  .baa-section {
+    margin-bottom: 60px;
+  }
+
+  :global(.baa-card) {
+    padding: 48px;
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+  }
+
+  .baa-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .baa-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .baa-content > p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .baa-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+  }
+
+  .baa-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 0;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .baa-list li:last-child {
+    border-bottom: none;
+  }
+
+  .baa-list .check {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+
+  .baa-note {
+    font-size: 14px;
+    color: var(--text-muted);
+    text-align: center;
+    font-style: italic;
+  }
+
+  .faq-section {
+    margin-bottom: 60px;
+  }
+
+  .cta-section {
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 900px) {
+    .badge-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .practices-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .badge-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

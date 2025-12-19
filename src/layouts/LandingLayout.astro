@@ -1,0 +1,103 @@
+---
+/**
+ * LandingLayout - High-conversion pages
+ * Use for: Solution pages, Industry pages, Comparison pages
+ */
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumb from '@/components/common/Breadcrumb.astro';
+import { generateBreadcrumbSchema, generateServiceSchema, serializeSchema, combineSchemas } from '@utils/schema';
+
+interface BreadcrumbItem {
+  name: string;
+  url?: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+  canonical?: string;
+  noindex?: boolean;
+  breadcrumbs?: BreadcrumbItem[];
+  serviceName?: string;
+  serviceDescription?: string;
+  serviceType?: string;
+}
+
+const {
+  title,
+  description,
+  ogImage,
+  canonical,
+  noindex = false,
+  breadcrumbs = [],
+  serviceName,
+  serviceDescription,
+  serviceType
+} = Astro.props;
+
+const hasBreadcrumbs = breadcrumbs.length > 0;
+const hasService = serviceName && serviceDescription;
+
+// Build combined schema
+const schemas: object[] = [];
+if (hasBreadcrumbs) {
+  schemas.push(generateBreadcrumbSchema(breadcrumbs));
+}
+if (hasService) {
+  const currentUrl = Astro.url.pathname.endsWith('/')
+    ? `https://mybcat.com${Astro.url.pathname}`
+    : `https://mybcat.com${Astro.url.pathname}/`;
+  schemas.push(generateServiceSchema({
+    name: serviceName,
+    description: serviceDescription,
+    url: currentUrl,
+    serviceType
+  }));
+}
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  ogImage={ogImage}
+  canonical={canonical}
+  noindex={noindex}
+>
+  <slot name="head" slot="head" />
+
+  {schemas.length > 0 && (
+    <script type="application/ld+json" set:html={serializeSchema(combineSchemas(...schemas))} />
+  )}
+
+  <main class="landing-main">
+    {hasBreadcrumbs && (
+      <div class="breadcrumb-container">
+        <Breadcrumb items={breadcrumbs} />
+      </div>
+    )}
+
+    <slot />
+  </main>
+
+  <slot name="footer-scripts" slot="footer-scripts" />
+</BaseLayout>
+
+<style>
+  .landing-main {
+    min-height: 100vh;
+    padding-top: 80px;
+  }
+
+  .breadcrumb-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 24px 0;
+  }
+
+  @media (max-width: 768px) {
+    .landing-main {
+      padding-top: 60px;
+    }
+  }
+</style>

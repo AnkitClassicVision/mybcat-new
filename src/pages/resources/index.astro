@@ -1,0 +1,319 @@
+---
+/**
+ * Resources Hub Page
+ * Links to podcast, book, and blog
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+---
+
+<PageLayout
+  title="Resources | Podcast, Book & Blog | MyBCAT"
+  description="Resources for healthcare practice owners: the Optometrists Building Empires podcast, Ankit Patel's book on global resourcing, and our practice management blog."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Resources' }
+  ]}
+  heroEyebrow="Resources"
+  heroTitle="Learn From Our Experience"
+  heroSubtitle="Insights, strategies, and real-world lessons from practice owners who've been in your shoes."
+>
+  <div class="resources-page">
+    <div class="resources-grid">
+      <!-- Podcast Card -->
+      <a href="/resources/podcast/" class="resource-card podcast-card">
+        <div class="card-badge">Podcast</div>
+        <div class="card-image podcast-image">
+          <img src="/images/podcast-cover.webp" alt="Optometrists Building Empires Podcast" />
+        </div>
+        <div class="card-content">
+          <h2>Optometrists Building Empires</h2>
+          <p class="card-tagline">Weekly conversations with practice owners who are scaling, selling, and succeeding.</p>
+          <div class="card-meta">
+            <span>50+ Episodes</span>
+            <span>Weekly</span>
+          </div>
+          <span class="card-link">
+            Listen Now
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- Book Card -->
+      <a href="/resources/book/" class="resource-card book-card">
+        <div class="card-badge">Book</div>
+        <div class="card-image book-image">
+          <img src="/images/book-cover.jpg" alt="Optometry Redefined Book Cover" />
+        </div>
+        <div class="card-content">
+          <h2>Optometry Redefined</h2>
+          <p class="card-tagline">Master Global Resourcing for Peak Performance. By Ankit Patel.</p>
+          <div class="card-meta">
+            <span>200+ Pages</span>
+            <span>Kindle</span>
+          </div>
+          <span class="card-link">
+            Get the Book
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- Blog Card -->
+      <a href="/blog/" class="resource-card blog-card">
+        <div class="card-badge">Blog</div>
+        <div class="card-image blog-image">
+          <div class="blog-placeholder">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="card-content">
+          <h2>Practice Management Blog</h2>
+          <p class="card-tagline">Articles on operations, staffing, patient experience, and growing your practice.</p>
+          <div class="card-meta">
+            <span>40+ Articles</span>
+            <span>Updated Weekly</span>
+          </div>
+          <span class="card-link">
+            Read Articles
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </span>
+        </div>
+      </a>
+    </div>
+
+    <!-- About Author Section -->
+    <section class="author-section">
+      <Card variant="pricing" class="author-card">
+        <div class="author-grid">
+          <img src="/images/ankit_headshot_full.webp" alt="Ankit Patel" class="author-image" />
+          <div class="author-content">
+            <h3>About Ankit Patel</h3>
+            <p>
+              Ankit brings a unique perspective to practice ownership: Lean Six Sigma expertise from Dell and Cleveland Clinic, combined with hands-on experience scaling Classic Vision Care in Atlanta.
+            </p>
+            <p>
+              As founder of My Business Care Team, he's helped dozens of practices build the operational infrastructure they need to grow without chaos.
+            </p>
+            <a href="/about/" class="author-link">Read the full story &rarr;</a>
+          </div>
+        </div>
+      </Card>
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .resources-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 60px;
+  }
+
+  .resource-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.3s;
+    position: relative;
+  }
+
+  .resource-card:hover {
+    border-color: var(--oceanic-teal);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+  }
+
+  .card-badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: var(--oceanic-teal);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    z-index: 2;
+  }
+
+  .card-image {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .podcast-image {
+    background: linear-gradient(135deg, var(--navy-900) 0%, #1a3a3d 100%);
+    padding: 24px;
+  }
+
+  .podcast-image img {
+    max-height: 160px;
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .book-image {
+    background: linear-gradient(135deg, var(--cream-200) 0%, var(--cream-100) 100%);
+    padding: 24px;
+  }
+
+  .book-image img {
+    max-height: 160px;
+    width: auto;
+    border-radius: 4px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .blog-image {
+    background: linear-gradient(135deg, var(--glass-teal) 0%, var(--spatial-glass) 100%);
+  }
+
+  .blog-placeholder {
+    color: var(--oceanic-teal);
+  }
+
+  .card-content {
+    padding: 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-content h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .card-tagline {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 16px;
+    flex: 1;
+  }
+
+  .card-meta {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .card-link svg {
+    transition: transform 0.2s;
+  }
+
+  .resource-card:hover .card-link svg {
+    transform: translateX(4px);
+  }
+
+  /* Author Section */
+  .author-section {
+    margin-bottom: 40px;
+  }
+
+  :global(.author-card) {
+    padding: 48px;
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+  }
+
+  .author-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .author-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .author-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .author-content p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 12px;
+  }
+
+  .author-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .author-link:hover {
+    color: var(--copper-500);
+  }
+
+  @media (max-width: 900px) {
+    .resources-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .author-grid {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .author-image {
+      margin: 0 auto;
+    }
+  }
+</style>

@@ -1,0 +1,318 @@
+---
+/**
+ * Pricing Page
+ * Detailed pricing tiers and comparison
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Pricing from '@/components/sections/Pricing.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import CTA from '@/components/sections/CTA.astro';
+import Card from '@/components/Card.astro';
+import { pricingTiers, allFeatures } from '@data/pricing';
+import { getFAQsByCategory } from '@data/faq';
+---
+
+<PageLayout
+  title="Pricing | Transparent Plans for Healthcare Practices | MyBCAT"
+  description="Simple, transparent pricing for healthcare patient intake services. From single locations to multi-site groups, find a plan that fits your practice."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Pricing' }
+  ]}
+  heroEyebrow="Transparent Pricing"
+  heroTitle="Plans That Scale With You"
+  heroSubtitle="Simple pricing based on your practice size. No hidden fees, no per-call charges."
+>
+  <div class="pricing-page">
+    <!-- Pricing Tiers -->
+    <section class="tiers-section">
+      <Pricing tiers={pricingTiers} title="" eyebrow="" />
+    </section>
+
+    <!-- Feature Comparison Table -->
+    <section class="comparison-section">
+      <div class="section-header">
+        <h2>Compare Plans</h2>
+        <p>See what's included in each tier</p>
+      </div>
+
+      <div class="comparison-table-wrapper">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th class="feature-col">Feature</th>
+              <th>Starter</th>
+              <th class="popular">Growth</th>
+              <th>Enterprise</th>
+            </tr>
+          </thead>
+          <tbody>
+            {allFeatures.map(feature => (
+              <tr>
+                <td class="feature-name">{feature.name}</td>
+                <td>
+                  {typeof feature.starter === 'boolean' ? (
+                    feature.starter ? (
+                      <span class="check">&#10003;</span>
+                    ) : (
+                      <span class="x">—</span>
+                    )
+                  ) : (
+                    <span class="value">{feature.starter}</span>
+                  )}
+                </td>
+                <td class="popular">
+                  {typeof feature.growth === 'boolean' ? (
+                    feature.growth ? (
+                      <span class="check">&#10003;</span>
+                    ) : (
+                      <span class="x">—</span>
+                    )
+                  ) : (
+                    <span class="value">{feature.growth}</span>
+                  )}
+                </td>
+                <td>
+                  {typeof feature.enterprise === 'boolean' ? (
+                    feature.enterprise ? (
+                      <span class="check">&#10003;</span>
+                    ) : (
+                      <span class="x">—</span>
+                    )
+                  ) : (
+                    <span class="value">{feature.enterprise}</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ROI Calculator Teaser -->
+    <section class="roi-section">
+      <Card variant="pricing" class="roi-card">
+        <div class="roi-content">
+          <h2>Calculate Your ROI</h2>
+          <p>The average practice loses $100,000+ per year to missed calls. With patient lifetime values of $2,400, capturing just a few extra appointments pays for the service.</p>
+          <div class="roi-example">
+            <div class="roi-stat">
+              <span class="stat-value">12</span>
+              <span class="stat-label">Missed calls/day</span>
+            </div>
+            <div class="roi-operator">&times;</div>
+            <div class="roi-stat">
+              <span class="stat-value">$2,400</span>
+              <span class="stat-label">Patient lifetime value</span>
+            </div>
+            <div class="roi-operator">=</div>
+            <div class="roi-stat highlight">
+              <span class="stat-value">$200K+</span>
+              <span class="stat-label">Lost revenue/year</span>
+            </div>
+          </div>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Pricing FAQs -->
+    <section class="faq-section">
+      <FAQ
+        items={getFAQsByCategory('pricing')}
+        title="Pricing Questions"
+        eyebrow="Common Questions"
+      />
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Ready to Get Started?"
+        description="Book a discovery call to get a custom quote for your practice."
+        buttonText="Book Your Call"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .pricing-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .tiers-section {
+    margin-bottom: 60px;
+  }
+
+  .comparison-section {
+    margin-bottom: 60px;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  .comparison-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 16px 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .comparison-table th {
+    background: var(--spatial-glass);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--navy-900);
+  }
+
+  .comparison-table th.feature-col {
+    text-align: left;
+    width: 40%;
+  }
+
+  .comparison-table th.popular {
+    background: rgba(0, 96, 100, 0.1);
+    color: var(--oceanic-teal);
+  }
+
+  .comparison-table td.popular {
+    background: rgba(0, 96, 100, 0.03);
+  }
+
+  .feature-name {
+    text-align: left;
+    font-weight: 500;
+    color: var(--navy-900);
+  }
+
+  .check {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .x {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+  }
+
+  .value {
+    font-weight: 500;
+    color: var(--navy-900);
+  }
+
+  .comparison-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .roi-section {
+    margin-bottom: 60px;
+  }
+
+  :global(.roi-card) {
+    padding: 48px;
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+  }
+
+  .roi-content {
+    text-align: center;
+  }
+
+  .roi-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .roi-content > p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 32px;
+  }
+
+  .roi-example {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .roi-stat {
+    text-align: center;
+  }
+
+  .roi-stat .stat-value {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--navy-900);
+  }
+
+  .roi-stat .stat-label {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .roi-stat.highlight .stat-value {
+    color: var(--revenue-gold);
+  }
+
+  .roi-operator {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+
+  .faq-section {
+    margin-bottom: 60px;
+  }
+
+  .cta-section {
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 768px) {
+    .roi-example {
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .roi-operator {
+      transform: rotate(90deg);
+    }
+  }
+</style>

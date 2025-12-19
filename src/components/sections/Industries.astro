@@ -1,0 +1,177 @@
+---
+/**
+ * Industries Section component
+ * Displays industry cards linking to industry landing pages
+ */
+import Card from '@/components/Card.astro';
+import Button from '@/components/Button.astro';
+import { industries, type Industry } from '@data/industries';
+
+interface Props {
+  title?: string;
+  eyebrow?: string;
+  subtitle?: string;
+  showLinks?: boolean;
+  limit?: number;
+}
+
+const {
+  title = 'Built for Healthcare Specialists',
+  eyebrow = 'Industries We Serve',
+  subtitle,
+  showLinks = true,
+  limit
+} = Astro.props;
+
+const displayIndustries = limit ? industries.slice(0, limit) : industries;
+
+// Icon SVGs for industries
+const icons: Record<string, string> = {
+  'eye': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>',
+  'tooth': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2c-2 0-3.5.5-4.5 1.5S6 5.5 6 7c0 2 1 3.5 1 5.5S6 15 6 17c0 3 1.5 5 3.5 5 1.5 0 2-1 2.5-2.5s1-2.5 2.5-2.5 2 1 2.5 2.5 1 2.5 2.5 2.5c2 0 3.5-2 3.5-5 0-2-1-3.5-1-5.5s1-3.5 1-5.5c0-1.5-.5-3-1.5-4S14 2 12 2z"></path></svg>',
+  'paw': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="17" rx="5" ry="4"></ellipse><circle cx="6" cy="10" r="2"></circle><circle cx="18" cy="10" r="2"></circle><circle cx="9" cy="6" r="2"></circle><circle cx="15" cy="6" r="2"></circle></svg>',
+  'sparkles': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5L12 3z"></path><path d="M5 19l.5 1.5L7 21l-1.5.5L5 23l-.5-1.5L3 21l1.5-.5L5 19z"></path><path d="M19 13l.5 1.5L21 15l-1.5.5L19 17l-.5-1.5L17 15l1.5-.5L19 13z"></path></svg>',
+  'shield': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>'
+};
+---
+
+<section class="industries-section">
+  <div class="section-intro">
+    <div class="section-intro-eyebrow">{eyebrow}</div>
+    <h2 class="section-intro-title">{title}</h2>
+    {subtitle && <p class="section-intro-subtitle">{subtitle}</p>}
+  </div>
+
+  <div class="industries-grid">
+    {displayIndustries.map((industry: Industry) => (
+      <Card variant="testimonial" class="industry-card">
+        <div class="industry-icon">
+          <Fragment set:html={icons[industry.icon] || icons.shield} />
+        </div>
+        <h3 class="industry-name">{industry.name}</h3>
+        <p class="industry-description">{industry.description}</p>
+        {showLinks && (
+          <a href={`/industries/${industry.slug}/`} class="industry-link">
+            Learn more
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        )}
+      </Card>
+    ))}
+  </div>
+
+  {showLinks && (
+    <div class="industries-cta">
+      <Button href="/industries/" variant="secondary">View All Industries</Button>
+    </div>
+  )}
+</section>
+
+<style>
+  .industries-section {
+    grid-column: span 6;
+  }
+
+  .section-intro {
+    text-align: center;
+    padding: 60px 24px 20px;
+  }
+
+  .section-intro-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .section-intro-title {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .section-intro-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-top: 12px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    padding: 20px 24px;
+  }
+
+  :global(.industry-card) {
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  :global(.industry-card):hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .industry-icon {
+    width: 64px;
+    height: 64px;
+    background: var(--glass-teal);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .industry-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .industry-description {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .industry-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--oceanic-teal);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: gap 0.2s;
+  }
+
+  .industry-link:hover {
+    gap: 10px;
+  }
+
+  .industries-cta {
+    text-align: center;
+    padding: 20px 24px 40px;
+  }
+
+  @media (max-width: 768px) {
+    .industries-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

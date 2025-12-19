@@ -1,0 +1,72 @@
+---
+/**
+ * CTA Section component
+ * Call-to-action section with gradient background
+ */
+import { ctaButton } from '@data/navigation';
+import Button from '@/components/Button.astro';
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  buttonText?: string;
+  buttonHref?: string;
+  variant?: 'default' | 'simple';
+}
+
+const {
+  title = 'Ready to Fill Every Appointment Slot?',
+  subtitle = 'Book a discovery call to see how MyBCAT can capture the revenue you\'re leaving on the table.',
+  buttonText = 'Book Your Discovery Call',
+  buttonHref = ctaButton.href,
+  variant = 'default'
+} = Astro.props;
+---
+
+<section class={`cta-section ${variant}`}>
+  <div class="cta-content">
+    <h2>{title}</h2>
+    <p>{subtitle}</p>
+    <Button href={buttonHref} variant="secondary">{buttonText}</Button>
+  </div>
+</section>
+
+<style>
+  .cta-section {
+    grid-column: span 6;
+    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
+    border-radius: 24px;
+    padding: 60px 40px;
+    text-align: center;
+  }
+
+  .cta-section.simple {
+    padding: 40px;
+  }
+
+  .cta-content h2 {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 700;
+    color: white;
+    margin-bottom: 16px;
+  }
+
+  .cta-content p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 32px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-section.simple .cta-content p {
+    margin-bottom: 24px;
+  }
+
+  @media (max-width: 768px) {
+    .cta-section {
+      padding: 40px 24px;
+    }
+  }
+</style>

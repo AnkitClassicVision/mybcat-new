@@ -1,0 +1,320 @@
+---
+/**
+ * Solutions Hub Page
+ * Lists all solutions we offer
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { solutions } from '@data/solutions';
+
+// Icon SVGs for solutions
+const icons: Record<string, string> = {
+  'patient-intake': '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>',
+  'recall-reactivation': '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>',
+  'no-show-recovery': '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>'
+};
+---
+
+<PageLayout
+  title="Solutions | Patient Intake, Recall & No-Show Recovery | MyBCAT"
+  description="Comprehensive patient operations solutions: phone answering, appointment scheduling, recall campaigns, and no-show recovery. Fill every appointment slot."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Solutions' }
+  ]}
+  heroEyebrow="Our Solutions"
+  heroTitle="Complete Patient Operations"
+  heroSubtitle="From first call to follow-up, we handle your patient communications so you can focus on care."
+>
+  <div class="solutions-page">
+    <div class="solutions-grid">
+      {solutions.map(solution => (
+        <a href={`/solutions/${solution.slug}/`} class="solution-card">
+          <div class="solution-icon">
+            <Fragment set:html={icons[solution.slug] || icons['patient-intake']} />
+          </div>
+          <div class="solution-content">
+            <span class="solution-tagline">{solution.tagline}</span>
+            <h2>{solution.name}</h2>
+            <p class="solution-headline">{solution.headline}</p>
+            <p class="solution-description">{solution.description}</p>
+            <div class="solution-stats">
+              {solution.stats.slice(0, 2).map(stat => (
+                <div class="stat">
+                  <span class="stat-value">{stat.value}</span>
+                  <span class="stat-label">{stat.label}</span>
+                </div>
+              ))}
+            </div>
+            <span class="learn-more">
+              Learn more
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- All Features List -->
+    <section class="features-overview">
+      <div class="section-header">
+        <h2>Everything You Need</h2>
+        <p>A complete patient operations solution</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-column">
+          <h3>Phone & Communication</h3>
+          <ul>
+            <li>Every call answered in 3 rings</li>
+            <li>Professional, trained coordinators</li>
+            <li>After-hours and weekend coverage</li>
+            <li>Text and chat support</li>
+            <li>Call recording and analytics</li>
+          </ul>
+        </div>
+        <div class="feature-column">
+          <h3>Scheduling & Intake</h3>
+          <ul>
+            <li>Direct EMR/PM scheduling</li>
+            <li>Insurance verification</li>
+            <li>Patient demographics collection</li>
+            <li>Appointment confirmations</li>
+            <li>Provider preference matching</li>
+          </ul>
+        </div>
+        <div class="feature-column">
+          <h3>Growth & Retention</h3>
+          <ul>
+            <li>Recall campaign management</li>
+            <li>Patient reactivation outreach</li>
+            <li>No-show follow-up</li>
+            <li>Waitlist management</li>
+            <li>Performance reporting</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Ready to Fill Your Schedule?"
+        description="Book a discovery call to learn how our solutions can help your practice."
+        buttonText="Get Started"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .solutions-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .solutions-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 60px;
+  }
+
+  .solution-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 32px;
+    padding: 40px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .solution-card:hover {
+    border-color: var(--oceanic-teal);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    transform: translateY(-4px);
+  }
+
+  .solution-icon {
+    width: 80px;
+    height: 80px;
+    background: var(--glass-teal);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--oceanic-teal);
+    flex-shrink: 0;
+  }
+
+  .solution-tagline {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--copper-500);
+    margin-bottom: 8px;
+  }
+
+  .solution-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .solution-headline {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--oceanic-teal);
+    margin-bottom: 8px;
+  }
+
+  .solution-description {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .solution-stats {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 16px;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stat-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+  }
+
+  .stat-label {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .learn-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .learn-more svg {
+    transition: transform 0.2s;
+  }
+
+  .solution-card:hover .learn-more svg {
+    transform: translateX(4px);
+  }
+
+  /* Features Overview */
+  .features-overview {
+    margin-bottom: 60px;
+    padding: 48px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+
+  .feature-column {
+    background: white;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid var(--glass-border);
+  }
+
+  .feature-column h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--glass-teal);
+  }
+
+  .feature-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .feature-column li {
+    padding: 8px 0;
+    font-size: 15px;
+    color: var(--text-secondary);
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .feature-column li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+  }
+
+  .cta-section {
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 900px) {
+    .solution-card {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .solution-icon {
+      margin: 0 auto;
+    }
+
+    .solution-stats {
+      justify-content: center;
+    }
+
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

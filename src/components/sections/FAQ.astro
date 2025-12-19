@@ -1,0 +1,128 @@
+---
+/**
+ * FAQ Section component
+ * Displays frequently asked questions with accordion
+ */
+import type { FAQ } from '@data/faq';
+import { generateFAQSchema, serializeSchema } from '@utils/schema';
+
+interface Props {
+  items: FAQ[] | { question: string; answer: string }[];
+  title?: string;
+  eyebrow?: string;
+  includeSchema?: boolean;
+}
+
+const {
+  items,
+  title = 'Frequently Asked Questions',
+  eyebrow = 'Questions?',
+  includeSchema = true
+} = Astro.props;
+
+// Generate FAQ schema
+const faqSchema = includeSchema ? generateFAQSchema(
+  items.map(item => ({
+    question: item.question,
+    answer: item.answer
+  }))
+) : null;
+---
+
+{faqSchema && (
+  <script type="application/ld+json" set:html={serializeSchema(faqSchema)} />
+)}
+
+<section class="faq-section-wrapper">
+  <div class="section-intro">
+    <div class="section-intro-eyebrow">{eyebrow}</div>
+    <h2 class="section-intro-title">{title}</h2>
+  </div>
+
+  <div class="faq-list">
+    {items.map((faq, index) => (
+      <details class="faq-item" data-index={index}>
+        <summary>{faq.question}</summary>
+        <p>{faq.answer}</p>
+      </details>
+    ))}
+  </div>
+</section>
+
+<style>
+  .faq-section-wrapper {
+    grid-column: span 6;
+    padding: 20px 0;
+  }
+
+  .section-intro {
+    text-align: center;
+    padding: 40px 24px 20px;
+  }
+
+  .section-intro-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .section-intro-title {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 24px 40px;
+  }
+
+  .faq-item {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+
+  .faq-item summary {
+    padding: 20px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .faq-item summary::after {
+    content: "+";
+    font-size: 1.5rem;
+    color: var(--oceanic-teal);
+  }
+
+  .faq-item[open] summary::after {
+    content: "-";
+  }
+
+  .faq-item p {
+    padding: 0 24px 20px;
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  @media (max-width: 768px) {
+    .faq-list {
+      padding: 20px 16px 40px;
+    }
+  }
+</style>

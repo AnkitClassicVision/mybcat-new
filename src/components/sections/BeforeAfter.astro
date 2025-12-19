@@ -1,0 +1,144 @@
+---
+/**
+ * Before/After Section component
+ * Displays a comparison of before and after states
+ */
+
+interface ListItem {
+  text: string;
+}
+
+interface Props {
+  title?: string;
+  beforeTitle?: string;
+  afterTitle?: string;
+  beforeItems: ListItem[];
+  afterItems: ListItem[];
+}
+
+const {
+  title = 'Stop This → Start This',
+  beforeTitle = 'Before MyBCAT',
+  afterTitle = 'After MyBCAT',
+  beforeItems,
+  afterItems
+} = Astro.props;
+---
+
+<section class="before-after-section">
+  <h3 class="section-title" set:html={title}></h3>
+  <div class="before-after-grid">
+    <div class="before-column">
+      <h4>{beforeTitle}</h4>
+      <ul>
+        {beforeItems.map(item => (
+          <li><span class="x-mark">&#10007;</span> {item.text}</li>
+        ))}
+      </ul>
+    </div>
+    <div class="after-column">
+      <h4>{afterTitle}</h4>
+      <ul>
+        {afterItems.map(item => (
+          <li><span class="check-mark">&#10003;</span> {item.text}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+  .before-after-section {
+    grid-column: span 6;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 40px;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 32px;
+  }
+
+  .before-after-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .before-column {
+    padding: 24px;
+    background: rgba(108, 122, 136, 0.06);
+    border-radius: 16px;
+    border: 1px solid rgba(108, 122, 136, 0.15);
+  }
+
+  .after-column {
+    padding: 24px;
+    background: rgba(0, 96, 100, 0.06);
+    border-radius: 16px;
+    border: 1px solid rgba(0, 96, 100, 0.15);
+  }
+
+  .before-column h4 {
+    color: var(--charcoal-700);
+    margin-bottom: 16px;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .after-column h4 {
+    color: var(--oceanic-teal);
+    margin-bottom: 16px;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .before-column ul,
+  .after-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .before-column li,
+  .after-column li {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-secondary);
+  }
+
+  .before-column li:last-child,
+  .after-column li:last-child {
+    margin-bottom: 0;
+  }
+
+  .x-mark {
+    color: #B85450;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  .check-mark {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 768px) {
+    .before-after-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .before-after-section {
+      padding: 24px;
+    }
+  }
+</style>

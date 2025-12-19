@@ -1,0 +1,140 @@
+---
+/**
+ * Problem Section component
+ * Displays problem cards with icons highlighting pain points
+ */
+import Card from '@/components/Card.astro';
+
+interface ProblemCard {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+interface Props {
+  title?: string;
+  eyebrow?: string;
+  subtitle?: string;
+  cards: ProblemCard[];
+}
+
+const {
+  title = '87% of New Patients Who Reach Voicemail Will Never Call Back',
+  eyebrow = 'The Uncomfortable Truth',
+  subtitle = "It's not your team's fault. It's a capacity problem-and at every location, the cost compounds.",
+  cards
+} = Astro.props;
+
+// Icon SVGs
+const icons: Record<string, string> = {
+  'users': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--oceanic-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
+  'phone-missed': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--oceanic-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/><line x1="1" y1="1" x2="23" y2="23"/></svg>',
+  'chart': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--oceanic-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>',
+  'calendar': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--oceanic-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>',
+  'clock': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--oceanic-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>',
+  'dollar': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--oceanic-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>'
+};
+---
+
+<section class="problem-section">
+  <div class="section-intro">
+    <div class="section-intro-eyebrow">{eyebrow}</div>
+    <h2 class="section-intro-title">{title}</h2>
+    {subtitle && <p class="section-intro-subtitle">{subtitle}</p>}
+  </div>
+
+  <div class="problem-grid">
+    {cards.map(card => (
+      <Card variant="feature" class="problem-card">
+        <div class="feature-icon teal">
+          <Fragment set:html={icons[card.icon] || icons.chart} />
+        </div>
+        <h3 class="feature-title teal">{card.title}</h3>
+        <p set:html={card.description} />
+      </Card>
+    ))}
+  </div>
+</section>
+
+<style>
+  .problem-section {
+    grid-column: span 6;
+  }
+
+  .section-intro {
+    text-align: center;
+    padding: 60px 24px 20px;
+  }
+
+  .section-intro-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .section-intro-title {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .section-intro-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-top: 12px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .problem-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 20px 24px;
+  }
+
+  :global(.problem-card) {
+    background: rgba(0, 96, 100, 0.04);
+    border-color: rgba(0, 96, 100, 0.15);
+  }
+
+  .feature-icon.teal {
+    width: 48px;
+    height: 48px;
+    background: rgba(0, 96, 100, 0.08);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .feature-title.teal {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--oceanic-teal);
+    margin-bottom: 8px;
+  }
+
+  :global(.problem-card) p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  :global(.problem-card) p :global(strong) {
+    color: var(--navy-900);
+  }
+
+  @media (max-width: 1024px) {
+    .problem-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

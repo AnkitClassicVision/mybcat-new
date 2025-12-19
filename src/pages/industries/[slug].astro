@@ -1,0 +1,488 @@
+---
+/**
+ * Industry Landing Page (Dynamic)
+ * Generates pages for each industry we serve
+ */
+import LandingLayout from '@/layouts/LandingLayout.astro';
+import Card from '@/components/Card.astro';
+import Button from '@/components/Button.astro';
+import Features from '@/components/sections/Features.astro';
+import Stats from '@/components/sections/Stats.astro';
+import ProcessSteps from '@/components/sections/ProcessSteps.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { industries, getAllIndustrySlugs, getIndustryBySlug, type Industry } from '@data/industries';
+import { faqs } from '@data/faq';
+import { solutions } from '@data/solutions';
+
+export function getStaticPaths() {
+  return industries.map(industry => ({
+    params: { slug: industry.slug },
+    props: { industry }
+  }));
+}
+
+interface Props {
+  industry: Industry;
+}
+
+const { industry } = Astro.props;
+
+// Get patient intake solution for process steps
+const patientIntakeSolution = solutions.find(s => s.slug === 'patient-intake');
+const processSteps = patientIntakeSolution?.process || [];
+
+// Get general FAQs for this page
+const generalFaqs = faqs.filter(f => f.category === 'general').slice(0, 4);
+
+// Icon SVGs for industry
+const icons: Record<string, string> = {
+  'eye': '<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>',
+  'tooth': '<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2c-2 0-3.5.5-4.5 1.5S6 5.5 6 7c0 2 1 3.5 1 5.5S6 15 6 17c0 3 1.5 5 3.5 5 1.5 0 2-1 2.5-2.5s1-2.5 2.5-2.5 2 1 2.5 2.5 1 2.5 2.5 2.5c2 0 3.5-2 3.5-5 0-2-1-3.5-1-5.5s1-3.5 1-5.5c0-1.5-.5-3-1.5-4S14 2 12 2z"></path></svg>',
+  'paw': '<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="17" rx="5" ry="4"></ellipse><circle cx="6" cy="10" r="2"></circle><circle cx="18" cy="10" r="2"></circle><circle cx="9" cy="6" r="2"></circle><circle cx="15" cy="6" r="2"></circle></svg>',
+  'sparkles': '<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5L12 3z"></path><path d="M5 19l.5 1.5L7 21l-1.5.5L5 23l-.5-1.5L3 21l1.5-.5L5 19z"></path><path d="M19 13l.5 1.5L21 15l-1.5.5L19 17l-.5-1.5L17 15l1.5-.5L19 13z"></path></svg>',
+  'shield': '<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>'
+};
+---
+
+<LandingLayout
+  title={`${industry.name} Patient Intake Services | MyBCAT`}
+  description={industry.metaDescription}
+  serviceName={industry.name}
+  serviceDescription={industry.description}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Industries', url: '/industries/' },
+    { name: industry.shortName }
+  ]}
+>
+  <div class="industry-page">
+    <!-- Hero Section -->
+    <section class="industry-hero">
+      <div class="hero-content">
+        <div class="hero-icon">
+          <Fragment set:html={icons[industry.icon] || icons.shield} />
+        </div>
+        <h1>{industry.headline}</h1>
+        <p class="hero-description">{industry.description}</p>
+        <div class="hero-cta">
+          <Button href="/contact/">Get Started</Button>
+          <a href="#how-it-works" class="text-link">See how it works</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <Stats
+        headline={industry.stats[0]?.value || '$100,000+'}
+        headlineColor="gold"
+        description={industry.stats[0]?.label || 'Annual Revenue Opportunity'}
+        variant="single"
+      />
+    </section>
+
+    <!-- Pain Points Section -->
+    <section class="pain-points-section">
+      <div class="section-header">
+        <h2>The Challenges You're Facing</h2>
+        <p>We understand the unique operational challenges in {industry.shortName.toLowerCase()} practices.</p>
+      </div>
+
+      <div class="pain-points-grid">
+        {industry.painPoints.map((painPoint, index) => (
+          <Card variant="testimonial" class="pain-point-card">
+            <span class="pain-number">{index + 1}</span>
+            <p>{painPoint}</p>
+          </Card>
+        ))}
+      </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions-section">
+      <div class="section-header">
+        <h2>How We Solve It</h2>
+        <p>Industry-specific solutions designed for {industry.shortName.toLowerCase()} workflows.</p>
+      </div>
+
+      <div class="solutions-grid">
+        {industry.solutions.map(solution => (
+          <div class="solution-item">
+            <span class="check">&#10003;</span>
+            <span>{solution}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- EHR Integration Section -->
+    <section class="ehr-section">
+      <Card variant="pricing" class="ehr-card">
+        <h2>We Integrate With Your Systems</h2>
+        <p>Direct scheduling into your existing EMR/PM system:</p>
+        <div class="ehr-list">
+          {industry.primaryEHR.map(ehr => (
+            <span class="ehr-badge">{ehr}</span>
+          ))}
+          <span class="ehr-badge more">+ Many More</span>
+        </div>
+      </Card>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="process-section">
+      <ProcessSteps
+        title="Getting Started is Easy"
+        eyebrow="Simple Onboarding"
+        steps={processSteps}
+      />
+    </section>
+
+    <!-- Testimonial Section (if available) -->
+    {industry.testimonial && (
+      <section class="testimonial-section">
+        <Card variant="testimonial" class="testimonial-card">
+          <blockquote>"{industry.testimonial.quote}"</blockquote>
+          <cite>
+            <strong>{industry.testimonial.author}</strong>
+            <span>{industry.testimonial.title}{industry.testimonial.company && `, ${industry.testimonial.company}`}</span>
+          </cite>
+        </Card>
+      </section>
+    )}
+
+    <!-- FAQs Section -->
+    <section class="faq-section">
+      <FAQ
+        items={generalFaqs}
+        title={`${industry.shortName} FAQ`}
+        eyebrow="Common Questions"
+      />
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <CTA
+        title={`Ready to Transform Your ${industry.shortName} Practice?`}
+        description="Book a discovery call to see how we can help capture more patients and fill your schedule."
+        buttonText="Schedule a Call"
+      />
+    </section>
+
+    <!-- Other Industries -->
+    <section class="other-industries">
+      <h3>Other Industries We Serve</h3>
+      <div class="industries-links">
+        {industries.filter(i => i.slug !== industry.slug).map(i => (
+          <a href={`/industries/${i.slug}/`} class="industry-link">
+            {i.shortName}
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</LandingLayout>
+
+<style>
+  .industry-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .industry-hero {
+    text-align: center;
+    padding: 60px 0 40px;
+  }
+
+  .hero-icon {
+    width: 96px;
+    height: 96px;
+    background: var(--glass-teal);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+    color: var(--oceanic-teal);
+  }
+
+  .industry-hero h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 16px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-description {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 32px;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .text-link:hover {
+    color: var(--oceanic-teal);
+  }
+
+  /* Stats */
+  .stats-section {
+    margin-bottom: 60px;
+  }
+
+  /* Sections */
+  .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  /* Pain Points */
+  .pain-points-section {
+    margin-bottom: 60px;
+  }
+
+  .pain-points-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+  }
+
+  :global(.pain-point-card) {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .pain-number {
+    width: 28px;
+    height: 28px;
+    background: var(--glass-copper);
+    color: var(--copper-700);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  :global(.pain-point-card) p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* Solutions */
+  .solutions-section {
+    margin-bottom: 60px;
+  }
+
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .solution-item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 16px 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+
+  .check {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  /* EHR Section */
+  .ehr-section {
+    margin-bottom: 60px;
+  }
+
+  :global(.ehr-card) {
+    text-align: center;
+    padding: 48px;
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+  }
+
+  :global(.ehr-card) h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  :global(.ehr-card) > p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+  }
+
+  .ehr-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .ehr-badge {
+    padding: 8px 16px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--navy-900);
+  }
+
+  .ehr-badge.more {
+    background: var(--glass-teal);
+    border-color: var(--oceanic-teal);
+    color: var(--oceanic-teal);
+  }
+
+  /* Process */
+  .process-section {
+    margin-bottom: 60px;
+  }
+
+  /* Testimonial */
+  .testimonial-section {
+    margin-bottom: 60px;
+  }
+
+  :global(.testimonial-card) {
+    text-align: center;
+    padding: 48px;
+  }
+
+  :global(.testimonial-card) blockquote {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--navy-900);
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 24px;
+  }
+
+  :global(.testimonial-card) cite {
+    font-style: normal;
+  }
+
+  :global(.testimonial-card) cite strong {
+    display: block;
+    font-size: 1.1rem;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  :global(.testimonial-card) cite span {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  /* FAQ */
+  .faq-section {
+    margin-bottom: 60px;
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 60px;
+  }
+
+  /* Other Industries */
+  .other-industries {
+    text-align: center;
+    padding: 40px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+  }
+
+  .other-industries h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 20px;
+  }
+
+  .industries-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .industry-link {
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--navy-900);
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+
+  .industry-link:hover {
+    border-color: var(--oceanic-teal);
+    color: var(--oceanic-teal);
+  }
+
+  @media (max-width: 768px) {
+    .solutions-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-cta {
+      flex-direction: column;
+    }
+  }
+</style>

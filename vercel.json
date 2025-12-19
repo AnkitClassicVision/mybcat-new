@@ -1,5 +1,37 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "npm run build",
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "redirects": [
+    {
+      "source": "/about/story",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/about/story/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/about/podcast",
+      "destination": "/resources/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/about/podcast/",
+      "destination": "/resources/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/about/book",
+      "destination": "/resources/book/",
+      "permanent": true
+    },
+    {
+      "source": "/about/book/",
+      "destination": "/resources/book/",
+      "permanent": true
+    }
+  ]
 }

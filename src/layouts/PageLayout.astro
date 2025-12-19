@@ -1,0 +1,132 @@
+---
+/**
+ * PageLayout - Standard pages with optional hero and breadcrumb
+ * Use for: About, Pricing, Contact, Security, etc.
+ */
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumb from '@/components/common/Breadcrumb.astro';
+import { generateBreadcrumbSchema, serializeSchema } from '@utils/schema';
+
+interface BreadcrumbItem {
+  name: string;
+  url?: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+  canonical?: string;
+  noindex?: boolean;
+  breadcrumbs?: BreadcrumbItem[];
+  showBreadcrumb?: boolean;
+  heroTitle?: string;
+  heroSubtitle?: string;
+  heroEyebrow?: string;
+}
+
+const {
+  title,
+  description,
+  ogImage,
+  canonical,
+  noindex = false,
+  breadcrumbs = [],
+  showBreadcrumb = true,
+  heroTitle,
+  heroSubtitle,
+  heroEyebrow
+} = Astro.props;
+
+const hasBreadcrumbs = showBreadcrumb && breadcrumbs.length > 0;
+const hasHero = heroTitle || heroSubtitle;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  ogImage={ogImage}
+  canonical={canonical}
+  noindex={noindex}
+>
+  <slot name="head" slot="head" />
+
+  {hasBreadcrumbs && (
+    <script type="application/ld+json" set:html={serializeSchema(generateBreadcrumbSchema(breadcrumbs))} />
+  )}
+
+  <main class="page-main">
+    {hasBreadcrumbs && (
+      <div class="breadcrumb-container">
+        <Breadcrumb items={breadcrumbs} />
+      </div>
+    )}
+
+    {hasHero && (
+      <header class="page-hero">
+        {heroEyebrow && <div class="hero-eyebrow">{heroEyebrow}</div>}
+        {heroTitle && <h1 class="hero-title">{heroTitle}</h1>}
+        {heroSubtitle && <p class="hero-subtitle">{heroSubtitle}</p>}
+      </header>
+    )}
+
+    <slot />
+  </main>
+
+  <slot name="footer-scripts" slot="footer-scripts" />
+</BaseLayout>
+
+<style>
+  .page-main {
+    min-height: calc(100vh - 200px);
+    padding-top: 80px;
+  }
+
+  .breadcrumb-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 24px 0;
+  }
+
+  .page-hero {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 24px 60px;
+    text-align: center;
+  }
+
+  .hero-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    .page-main {
+      padding-top: 60px;
+    }
+
+    .page-hero {
+      padding: 24px 16px 40px;
+    }
+  }
+</style>

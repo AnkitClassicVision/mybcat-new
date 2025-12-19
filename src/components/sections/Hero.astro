@@ -1,0 +1,551 @@
+---
+/**
+ * Hero Section component
+ * Configurable hero with video testimonial, trust bars, and CTAs
+ */
+import Button from '@/components/Button.astro';
+
+interface HeroVideo {
+  poster: string;
+  src: string;
+  author: string;
+  title: string;
+  avatar?: string;
+}
+
+interface BenefitItem {
+  icon: string;
+  text: string;
+}
+
+interface TrustItem {
+  icon: string;
+  text: string;
+}
+
+interface Props {
+  title: string;
+  tagline?: string;
+  description?: string;
+  ctaText?: string;
+  ctaHref?: string;
+  secondaryText?: string;
+  secondaryHref?: string;
+  benefits?: BenefitItem[];
+  trustItems?: TrustItem[];
+  video?: HeroVideo;
+  showBrand?: boolean;
+  variant?: 'homepage' | 'landing' | 'minimal';
+}
+
+const {
+  title,
+  tagline,
+  description,
+  ctaText = 'Get Started',
+  ctaHref = '#final-cta',
+  secondaryText,
+  secondaryHref,
+  benefits = [],
+  trustItems = [],
+  video,
+  showBrand = false,
+  variant = 'homepage'
+} = Astro.props;
+
+// Icon SVGs for benefits and trust items
+const icons: Record<string, string> = {
+  'workflow': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="4" height="4" rx="1"></rect><rect x="10" y="10" width="4" height="4" rx="1"></rect><rect x="17" y="4" width="4" height="4" rx="1"></rect><path d="M7 6h3"></path><path d="M14 12h3"></path><path d="M7 6l4 4 6-4"></path></svg>',
+  'calendar': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>',
+  'users': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>',
+  'shield': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--copper-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+  'clock': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--copper-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>',
+  'check': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>'
+};
+---
+
+<section id="hero" class={`spatial-hero ${variant}`}>
+  <div class="spatial-hero-inner">
+    <div class="hero-content">
+      {showBrand && (
+        <div class="hero-brand">
+          <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="54" height="50" loading="eager" fetchpriority="high">
+          <div class="hero-brand-text">My Business Care Team</div>
+        </div>
+      )}
+
+      <h1 class="hero-title">{title}</h1>
+
+      {tagline && <p class="hero-tagline">{tagline}</p>}
+
+      {description && <p class="hero-description">{description}</p>}
+
+      {benefits.length > 0 && (
+        <div class="hero-benefit-bar">
+          {benefits.map(benefit => (
+            <div class="benefit-item">
+              <Fragment set:html={icons[benefit.icon] || icons.check} />
+              <span>{benefit.text}</span>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div class="hero-cta-group">
+        <Button href={ctaHref}>{ctaText}</Button>
+        {secondaryText && secondaryHref && (
+          <a href={secondaryHref} class="text-link">{secondaryText}</a>
+        )}
+      </div>
+
+      {trustItems.length > 0 && (
+        <div class="hero-trust-bar">
+          {trustItems.map(item => (
+            <div class="trust-item">
+              <Fragment set:html={icons[item.icon] || icons.check} />
+              <span>{item.text}</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+
+    {video && (
+      <div class="hero-visual">
+        <div class="hero-video-container">
+          <video
+            id="heroVideo"
+            class="hero-video"
+            poster={video.poster}
+            playsinline
+            preload="none"
+            muted
+          >
+            <source data-src={video.src} type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <div class="video-overlay-gradient"></div>
+
+          <div id="videoPlayOverlay" class="video-play-overlay">
+            <div class="play-button-container">
+              <div class="play-button-glow"></div>
+              <div class="play-button-ring"></div>
+              <div class="play-button-ring-2"></div>
+              <div id="playButton" class="premium-play-btn">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" style="margin-left: 4px;">
+                  <defs>
+                    <linearGradient id="playGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#006064"/>
+                      <stop offset="100%" style="stop-color:#00ACC1"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M8 5v14l11-7z" fill="url(#playGradient)"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div id="videoInfoBar" class="video-info-bar">
+            <div class="video-info-content">
+              {video.avatar && (
+                <img src={video.avatar} alt={video.author} width="44" height="44" class="testimonial-avatar">
+              )}
+              <div>
+                <div class="testimonial-name">{video.author}</div>
+                <div class="testimonial-title">{video.title}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
+  </div>
+</section>
+
+<style>
+  .spatial-hero {
+    grid-column: span 6;
+    min-height: 85vh;
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+    border-radius: 24px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .spatial-hero.landing {
+    min-height: 60vh;
+  }
+
+  .spatial-hero.minimal {
+    min-height: auto;
+    padding: 60px 0;
+  }
+
+  .spatial-hero-inner {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 40px;
+    width: 100%;
+    padding: 60px 48px;
+    align-items: center;
+  }
+
+  .spatial-hero.minimal .spatial-hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-content {
+    padding-top: 60px;
+  }
+
+  .hero-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+
+  .hero-brand img {
+    height: 50px;
+    width: auto;
+  }
+
+  .hero-brand-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy-900);
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+
+  .hero-tagline {
+    font-size: 1.1rem;
+    color: var(--copper-700);
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  .hero-benefit-bar {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+
+  .benefit-item :global(svg) {
+    color: var(--copper-500);
+  }
+
+  .hero-cta-group {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .text-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .text-link:hover {
+    color: var(--oceanic-teal);
+  }
+
+  .hero-trust-bar {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+
+  .hero-visual {
+    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
+    border-radius: 16px;
+    aspect-ratio: 16/10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .video-overlay-gradient {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.4) 100%),
+      linear-gradient(180deg, rgba(0,0,0,0.1) 0%, transparent 30%, transparent 70%, rgba(0,0,0,0.3) 100%);
+    border-radius: 16px;
+    pointer-events: none;
+  }
+
+  .video-play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 100px;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+    border-radius: 16px;
+  }
+
+  @keyframes floatPlay {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+
+  @keyframes pulseRing {
+    0% { transform: scale(1); opacity: 0.6; }
+    50% { transform: scale(1.3); opacity: 0; }
+    100% { transform: scale(1); opacity: 0; }
+  }
+
+  @keyframes pulseRing2 {
+    0% { transform: scale(1); opacity: 0.4; }
+    50% { transform: scale(1.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 0; }
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+  }
+
+  .play-button-container {
+    position: relative;
+    animation: floatPlay 3s ease-in-out infinite;
+  }
+
+  .play-button-glow {
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--electric-aqua), var(--revenue-gold));
+    filter: blur(12px);
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .play-button-ring {
+    position: absolute;
+    inset: -12px;
+    border-radius: 50%;
+    border: 2px solid var(--electric-aqua);
+    animation: pulseRing 2s ease-out infinite;
+  }
+
+  .play-button-ring-2 {
+    position: absolute;
+    inset: -20px;
+    border-radius: 50%;
+    border: 1px solid var(--revenue-gold);
+    animation: pulseRing2 2s ease-out infinite 0.5s;
+  }
+
+  .premium-play-btn {
+    width: 88px;
+    height: 88px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+      0 4px 24px rgba(0, 96, 100, 0.3),
+      0 8px 32px rgba(0,0,0,0.2),
+      inset 0 1px 0 rgba(255,255,255,0.8),
+      inset 0 -1px 0 rgba(0,0,0,0.05);
+    border: 1px solid rgba(255,255,255,0.5);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .premium-play-btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite;
+    border-radius: 50%;
+  }
+
+  .premium-play-btn:hover {
+    transform: scale(1.12);
+    box-shadow:
+      0 8px 40px rgba(0, 96, 100, 0.4),
+      0 12px 48px rgba(211, 175, 94, 0.2),
+      inset 0 1px 0 rgba(255,255,255,0.9);
+  }
+
+  .premium-play-btn svg {
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(0 2px 4px rgba(0,96,100,0.3));
+    transition: transform 0.3s ease;
+  }
+
+  .premium-play-btn:hover svg {
+    transform: scale(1.1);
+  }
+
+  .video-info-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+    border-radius: 0 0 16px 16px;
+  }
+
+  .video-info-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .testimonial-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255,255,255,0.3);
+    flex-shrink: 0;
+  }
+
+  .testimonial-name {
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .testimonial-title {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 1024px) {
+    .spatial-hero-inner {
+      grid-template-columns: 1fr;
+      padding: 40px 24px;
+    }
+
+    .hero-visual {
+      order: -1;
+      aspect-ratio: 16/9;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero-content {
+      padding-top: 40px;
+    }
+
+    .hero-cta-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const video = document.getElementById('heroVideo') as HTMLVideoElement;
+    const overlay = document.getElementById('videoPlayOverlay');
+    let videoLoaded = false;
+
+    if (video && overlay) {
+      function loadVideoSource() {
+        if (videoLoaded) return;
+        const source = video.querySelector('source[data-src]') as HTMLSourceElement;
+        if (source && source.dataset.src) {
+          source.src = source.dataset.src;
+          source.removeAttribute('data-src');
+          video.load();
+          videoLoaded = true;
+        }
+      }
+
+      overlay.addEventListener('click', function() {
+        if (video.paused) {
+          loadVideoSource();
+          video.muted = false;
+          video.play();
+          overlay.style.opacity = '0';
+          overlay.style.pointerEvents = 'none';
+        }
+      });
+
+      video.addEventListener('pause', function() {
+        overlay.style.opacity = '1';
+        overlay.style.pointerEvents = 'auto';
+      });
+
+      video.addEventListener('ended', function() {
+        overlay.style.opacity = '1';
+        overlay.style.pointerEvents = 'auto';
+      });
+
+      video.addEventListener('click', function() {
+        if (!video.paused) {
+          video.pause();
+        }
+      });
+    }
+  });
+</script>

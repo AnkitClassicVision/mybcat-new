@@ -1,0 +1,119 @@
+---
+/**
+ * Process Steps Section component
+ * Displays numbered steps for how it works
+ */
+import type { ProcessStep } from '@data/solutions';
+
+interface Props {
+  title?: string;
+  eyebrow?: string;
+  steps: ProcessStep[];
+}
+
+const {
+  title = 'Live in Days, Not Months',
+  eyebrow = 'Simple Setup',
+  steps
+} = Astro.props;
+---
+
+<section class="process-section">
+  <div class="section-intro">
+    <div class="section-intro-eyebrow">{eyebrow}</div>
+    <h2 class="section-intro-title">{title}</h2>
+  </div>
+
+  <div class="process-steps">
+    {steps.map(step => (
+      <div class="process-step">
+        <div class="step-number">{step.step}</div>
+        <h4>{step.title}</h4>
+        <p>{step.description}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .process-section {
+    grid-column: span 6;
+  }
+
+  .section-intro {
+    text-align: center;
+    padding: 60px 24px 20px;
+  }
+
+  .section-intro-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .section-intro-title {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .process-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 20px 40px 40px;
+  }
+
+  .process-step {
+    text-align: center;
+    padding: 24px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .process-step:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .step-number {
+    width: 48px;
+    height: 48px;
+    background: var(--oceanic-teal);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 auto 16px;
+  }
+
+  .process-step h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .process-step p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 1024px) {
+    .process-steps {
+      grid-template-columns: 1fr;
+      padding: 20px 24px 40px;
+    }
+  }
+</style>

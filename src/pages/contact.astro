@@ -1,0 +1,303 @@
+---
+/**
+ * Contact Page
+ * HubSpot meeting scheduler and contact form
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
+import Card from '@/components/Card.astro';
+import { company } from '@data/company';
+---
+
+<PageLayout
+  title="Contact Us | Schedule a Discovery Call | MyBCAT"
+  description="Ready to fill your appointment book? Schedule a discovery call with MyBCAT to learn how we can help your practice capture every patient call."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Contact' }
+  ]}
+  heroEyebrow="Get Started"
+  heroTitle="Let's Talk About Your Practice"
+  heroSubtitle="Schedule a discovery call to learn how MyBCAT can help you capture every patient call and fill your schedule."
+>
+  <div class="contact-page">
+    <div class="contact-grid">
+      <!-- Meeting Scheduler -->
+      <div class="meeting-section">
+        <Card variant="pricing" class="meeting-card">
+          <h2>Book Your Discovery Call</h2>
+          <p class="meeting-description">
+            In 30 minutes, we'll learn about your practice, identify your biggest operational challenges, and show you how MyBCAT can help.
+          </p>
+          <HubSpotMeeting buttonText="Select a Time" />
+        </Card>
+      </div>
+
+      <!-- Contact Info Sidebar -->
+      <div class="contact-sidebar">
+        <Card variant="testimonial" class="info-card">
+          <h3>What to Expect</h3>
+          <ul class="expect-list">
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Learn your specific challenges</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Custom solution walkthrough</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Pricing based on your needs</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>No pressure, no obligation</span>
+            </li>
+          </ul>
+        </Card>
+
+        <Card variant="testimonial" class="info-card">
+          <h3>Quick Questions?</h3>
+          <div class="contact-method">
+            <div class="method-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="method-details">
+              <span class="method-label">Email</span>
+              <a href={`mailto:${company.email}`}>{company.email}</a>
+            </div>
+          </div>
+        </Card>
+
+        <Card variant="testimonial" class="info-card">
+          <h3>Our Location</h3>
+          <div class="contact-method">
+            <div class="method-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="method-details">
+              <span class="method-label">Headquarters</span>
+              <span>{company.address.city}, {company.address.state}</span>
+            </div>
+          </div>
+        </Card>
+      </div>
+    </div>
+
+    <!-- FAQ Quick Links -->
+    <section class="faq-quick">
+      <h2>Common Questions</h2>
+      <div class="faq-links">
+        <a href="/pricing/" class="faq-link">
+          <span class="faq-question">How much does it cost?</span>
+          <span class="faq-arrow">&rarr;</span>
+        </a>
+        <a href="/security/" class="faq-link">
+          <span class="faq-question">Is MyBCAT HIPAA compliant?</span>
+          <span class="faq-arrow">&rarr;</span>
+        </a>
+        <a href="/about/" class="faq-link">
+          <span class="faq-question">Who is behind MyBCAT?</span>
+          <span class="faq-arrow">&rarr;</span>
+        </a>
+      </div>
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .contact-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 32px;
+    margin-bottom: 60px;
+  }
+
+  .meeting-section {
+    min-height: 500px;
+  }
+
+  :global(.meeting-card) {
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+  }
+
+  :global(.meeting-card) h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .meeting-description {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 24px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  :global(.info-card) {
+    padding: 24px;
+  }
+
+  :global(.info-card) h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .expect-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .expect-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+
+  .check {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .contact-method {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .method-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--glass-teal);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--oceanic-teal);
+  }
+
+  .method-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .method-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .method-details a,
+  .method-details span:not(.method-label) {
+    font-size: 15px;
+    color: var(--navy-900);
+    font-weight: 500;
+  }
+
+  .method-details a {
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .method-details a:hover {
+    color: var(--oceanic-teal);
+  }
+
+  .faq-quick {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 40px;
+  }
+
+  .faq-quick h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .faq-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .faq-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .faq-link:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateX(4px);
+  }
+
+  .faq-question {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--navy-900);
+  }
+
+  .faq-arrow {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    transition: transform 0.2s;
+  }
+
+  .faq-link:hover .faq-arrow {
+    transform: translateX(4px);
+  }
+
+  @media (max-width: 900px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .faq-links {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

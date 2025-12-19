@@ -1,0 +1,117 @@
+---
+/**
+ * MinimalLayout - Minimal navigation for legal and utility pages
+ * Use for: Privacy Policy, Terms, GDPR, Thank You pages
+ */
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+  canonical?: string;
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description,
+  ogImage,
+  canonical,
+  noindex = false
+} = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  ogImage={ogImage}
+  canonical={canonical}
+  noindex={noindex}
+  showHubSpotChat={false}
+>
+  <slot name="head" slot="head" />
+
+  <main class="minimal-main">
+    <article class="minimal-content">
+      <slot />
+    </article>
+  </main>
+
+  <slot name="footer-scripts" slot="footer-scripts" />
+</BaseLayout>
+
+<style>
+  .minimal-main {
+    min-height: calc(100vh - 200px);
+    padding: 100px 24px 60px;
+  }
+
+  .minimal-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .minimal-content :global(h1) {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-bottom: 24px;
+  }
+
+  .minimal-content :global(h2) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+
+  .minimal-content :global(h3) {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+
+  .minimal-content :global(p) {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+  }
+
+  .minimal-content :global(ul),
+  .minimal-content :global(ol) {
+    margin-bottom: 20px;
+    padding-left: 24px;
+  }
+
+  .minimal-content :global(li) {
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  .minimal-content :global(a) {
+    color: var(--oceanic-teal);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .minimal-content :global(a:hover) {
+    color: var(--teal-600);
+  }
+
+  .minimal-content :global(strong) {
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  @media (max-width: 768px) {
+    .minimal-main {
+      padding: 80px 16px 40px;
+    }
+  }
+</style>

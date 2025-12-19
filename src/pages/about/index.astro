@@ -1,13 +1,24 @@
 ---
-import Base from '@/layouts/Base.astro';
+/**
+ * About Page
+ * Company story, team, and values - consolidated from story.astro
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
 import Button from '@/components/Button.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { company } from '@data/company';
 ---
 
-<Base
-  title="Our Story | My Business Care Team - Built by a Practice Owner, for Practice Owners"
+<PageLayout
+  title="About Us | Built by a Practice Owner, for Practice Owners | MyBCAT"
   description="Learn how Ankit Patel built My Business Care Team from his experience running Classic Vision Care. From Dell and Cleveland Clinic to revolutionizing healthcare operations."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'About' }
+  ]}
 >
-  <main class="about-page">
+  <div class="about-page">
     <!-- Hero Section -->
     <section class="story-hero">
       <div class="container">
@@ -18,13 +29,13 @@ import Button from '@/components/Button.astro';
             <p class="hero-lead">
               I didn't set out to build a healthcare operations company. I set out to fix my own practice's phone problem. What I discovered was a system that works for any practice facing the same challenges.
             </p>
-            <Button href="/#final-cta">Let's Talk About Your Practice</Button>
+            <Button href="/contact/">Let's Talk About Your Practice</Button>
           </div>
           <div class="story-hero-image">
-            <img src="/images/ankit_headshot_full.webp" alt="Ankit Patel - Founder of My Business Care Team" />
+            <img src="/images/ankit_headshot_full.webp" alt="Ankit Patel - Founder of My Business Care Team" width="400" height="500" />
             <div class="image-caption">
-              <strong>Ankit Patel</strong>
-              <span>Founder & CEO, My Business Care Team</span>
+              <strong>{company.ownership.founder}</strong>
+              <span>{company.ownership.founderTitle}</span>
             </div>
           </div>
         </div>
@@ -81,7 +92,7 @@ import Button from '@/components/Button.astro';
             <div class="timeline-content">
               <span class="timeline-year">Today</span>
               <h3>MyBCAT</h3>
-              <p>Now we bring that same operational infrastructure to practices across the country. 70+ healthcare professionals trust us to run their patient intake. The system that saved our practice is now saving theirs.</p>
+              <p>Now we bring that same operational infrastructure to practices across the country. {company.stats.trustedPractices} healthcare professionals trust us to run their patient intake. The system that saved our practice is now saving theirs.</p>
             </div>
           </div>
         </div>
@@ -97,40 +108,94 @@ import Button from '@/components/Button.astro';
         </div>
 
         <div class="values-grid">
-          <div class="value-card">
+          <Card variant="testimonial" class="value-card">
             <h3>Operators, Not Vendors</h3>
             <p>We don't sell software and walk away. We run your operations alongside you. When you win, we win.</p>
-          </div>
-          <div class="value-card">
+          </Card>
+          <Card variant="testimonial" class="value-card">
             <h3>Systems Beat Heroics</h3>
             <p>Great people burnout. Great systems scale. We build the latter so your people can thrive.</p>
-          </div>
-          <div class="value-card">
+          </Card>
+          <Card variant="testimonial" class="value-card">
             <h3>Healthcare First</h3>
             <p>We only serve healthcare. That focus means we understand your EMR, your insurance, your patients.</p>
-          </div>
-          <div class="value-card">
+          </Card>
+          <Card variant="testimonial" class="value-card">
             <h3>Ownership Mentality</h3>
             <p>We treat your practice like our own-because we've been in your shoes. Every decision passes the "would I do this for Classic Vision?" test.</p>
-          </div>
+          </Card>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Links -->
+    <section class="resources-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Learn More</div>
+          <h2>Resources from Our Team</h2>
+        </div>
+
+        <div class="resources-grid">
+          <a href="/resources/podcast/" class="resource-link">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+              </svg>
+            </div>
+            <div class="resource-details">
+              <h3>Optometry CEO Podcast</h3>
+              <p>Insights on growing your practice</p>
+            </div>
+            <span class="resource-arrow">&rarr;</span>
+          </a>
+
+          <a href="/resources/book/" class="resource-link">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <div class="resource-details">
+              <h3>The Eye Care Entrepreneur</h3>
+              <p>Ankit's book on practice management</p>
+            </div>
+            <span class="resource-arrow">&rarr;</span>
+          </a>
+
+          <a href="/blog/" class="resource-link">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+            </div>
+            <div class="resource-details">
+              <h3>Blog</h3>
+              <p>Articles on practice optimization</p>
+            </div>
+            <span class="resource-arrow">&rarr;</span>
+          </a>
         </div>
       </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="about-cta">
-      <div class="container">
-        <h2>Ready to Talk?</h2>
-        <p>Let's discuss how the system that worked for Classic Vision Care can work for your practice.</p>
-        <Button href="/#final-cta">Book a Discovery Call</Button>
-      </div>
+    <section class="cta-wrapper">
+      <CTA
+        title="Ready to Talk?"
+        description="Let's discuss how the system that worked for Classic Vision Care can work for your practice."
+        buttonText="Book a Discovery Call"
+      />
     </section>
-  </main>
-</Base>
+  </div>
+</PageLayout>
 
 <style>
   .about-page {
-    padding-top: 80px;
+    padding-bottom: 60px;
   }
 
   .container {
@@ -295,50 +360,96 @@ import Button from '@/components/Button.astro';
   .values-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
   }
 
-  .value-card {
-    background: white;
+  :global(.value-card) {
     padding: 32px;
-    border-radius: 20px;
-    border: 1px solid var(--glass-border);
   }
 
-  .value-card h3 {
+  :global(.value-card) h3 {
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--navy-900);
     margin-bottom: 12px;
   }
 
-  .value-card p {
+  :global(.value-card) p {
     font-size: 1rem;
     color: var(--text-secondary);
     line-height: 1.6;
   }
 
-  /* CTA Section */
-  .about-cta {
+  /* Resources Section */
+  .resources-section {
     padding: 80px 0;
-    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
+  }
+
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .resource-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    padding: 32px 24px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
   }
 
-  .about-cta h2 {
-    font-size: clamp(1.75rem, 3vw, 2.5rem);
-    font-weight: 700;
-    color: white;
+  .resource-link:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .resource-icon {
+    width: 64px;
+    height: 64px;
+    background: var(--glass-teal);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 16px;
+    color: var(--oceanic-teal);
   }
 
-  .about-cta p {
+  .resource-details h3 {
     font-size: 1.1rem;
-    color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 32px;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .resource-details p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+  }
+
+  .resource-arrow {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+
+  /* CTA */
+  .cta-wrapper {
+    padding: 0 24px;
+    max-width: 1100px;
+    margin: 0 auto;
   }
 
   /* Responsive */
@@ -357,6 +468,10 @@ import Button from '@/components/Button.astro';
     }
 
     .values-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .resources-grid {
       grid-template-columns: 1fr;
     }
   }

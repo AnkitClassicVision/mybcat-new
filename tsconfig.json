@@ -7,10 +7,12 @@
       "@components/*": ["src/components/*"],
       "@layouts/*": ["src/layouts/*"],
       "@styles/*": ["src/styles/*"],
-      "@content/*": ["src/content/*"]
+      "@content/*": ["src/content/*"],
+      "@data/*": ["src/data/*"],
+      "@utils/*": ["src/utils/*"]
     },
     "jsx": "react-jsx",
-    "jsxImportSource": "astro"
+    "jsxImportSource": "react"
   },
   "include": ["src/**/*", "scripts/**/*"],
   "exclude": ["node_modules", "dist"]

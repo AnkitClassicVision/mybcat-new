@@ -1,0 +1,158 @@
+---
+/**
+ * Comparison Table Section component
+ * Displays a comparison of options with pros/cons
+ */
+
+interface ComparisonColumn {
+  title: string;
+  items: string[];
+  highlight?: boolean;
+  positive?: boolean;
+}
+
+interface Props {
+  title?: string;
+  eyebrow?: string;
+  columns: ComparisonColumn[];
+}
+
+const {
+  title = 'Not All "Solutions" Are Created Equal',
+  eyebrow = 'Why Current Solutions Fail',
+  columns
+} = Astro.props;
+---
+
+<section class="comparison-section">
+  <div class="section-intro">
+    <div class="section-intro-eyebrow">{eyebrow}</div>
+    <h2 class="section-intro-title">{title}</h2>
+  </div>
+
+  <div class="comparison-container">
+    <div class="comparison-grid">
+      {columns.map(column => (
+        <div class={`comparison-column ${column.highlight ? 'highlight' : ''}`}>
+          <h4>{column.title}</h4>
+          <ul class={`comparison-list ${column.positive ? 'positive' : 'negative'}`}>
+            {column.items.map(item => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .comparison-section {
+    grid-column: span 6;
+  }
+
+  .section-intro {
+    text-align: center;
+    padding: 60px 24px 20px;
+  }
+
+  .section-intro-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .section-intro-title {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .comparison-container {
+    padding: 20px 24px 40px;
+  }
+
+  .comparison-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 40px;
+  }
+
+  .comparison-column {
+    padding: 24px;
+    background: var(--spatial-glass);
+    border-radius: 16px;
+    border: 1px solid var(--glass-border);
+    transition: transform 0.2s;
+  }
+
+  .comparison-column.highlight {
+    background: rgba(0, 96, 100, 0.08);
+    border-color: var(--oceanic-teal);
+    transform: scale(1.02);
+  }
+
+  .comparison-column h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .comparison-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .comparison-list li {
+    padding: 10px 0;
+    font-size: 15px;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--glass-border);
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .comparison-list li:last-child {
+    border-bottom: none;
+  }
+
+  .comparison-list.negative li::before {
+    content: "✕";
+    color: #B85450;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  .comparison-list.positive li::before {
+    content: "✓";
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 1024px) {
+    .comparison-grid {
+      grid-template-columns: 1fr;
+      padding: 24px;
+    }
+
+    .comparison-column.highlight {
+      transform: none;
+      order: -1;
+    }
+  }
+</style>

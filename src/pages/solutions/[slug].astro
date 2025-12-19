@@ -1,0 +1,401 @@
+---
+/**
+ * Solution Landing Page (Dynamic)
+ * Generates pages for each solution we offer
+ */
+import LandingLayout from '@/layouts/LandingLayout.astro';
+import Card from '@/components/Card.astro';
+import Button from '@/components/Button.astro';
+import Features from '@/components/sections/Features.astro';
+import Stats from '@/components/sections/Stats.astro';
+import ProcessSteps from '@/components/sections/ProcessSteps.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { solutions, getAllSolutionSlugs, getSolutionBySlug, type Solution } from '@data/solutions';
+import { faqs } from '@data/faq';
+
+export function getStaticPaths() {
+  return solutions.map(solution => ({
+    params: { slug: solution.slug },
+    props: { solution }
+  }));
+}
+
+interface Props {
+  solution: Solution;
+}
+
+const { solution } = Astro.props;
+
+// Get relevant FAQs
+const relevantFaqs = faqs.filter(f => f.category === 'general' || f.category === 'onboarding').slice(0, 4);
+
+// Icon SVGs for solutions
+const icons: Record<string, string> = {
+  'patient-intake': '<svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>',
+  'recall-reactivation': '<svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>',
+  'no-show-recovery': '<svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>'
+};
+
+// Prepare features for Features component
+const featuresData = solution.features.map(f => ({
+  icon: f.icon,
+  title: f.title,
+  description: f.description
+}));
+---
+
+<LandingLayout
+  title={`${solution.name} Services | ${solution.tagline} | MyBCAT`}
+  description={solution.metaDescription}
+  serviceName={solution.name}
+  serviceDescription={solution.description}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Solutions', url: '/solutions/' },
+    { name: solution.name }
+  ]}
+>
+  <div class="solution-page">
+    <!-- Hero Section -->
+    <section class="solution-hero">
+      <div class="hero-content">
+        <div class="hero-icon">
+          <Fragment set:html={icons[solution.slug] || icons['patient-intake']} />
+        </div>
+        <span class="hero-tagline">{solution.tagline}</span>
+        <h1>{solution.headline}</h1>
+        <p class="hero-description">{solution.description}</p>
+        <div class="hero-cta">
+          <Button href="/contact/">Get Started</Button>
+          <a href="#how-it-works" class="text-link">See how it works</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="stats-grid">
+        {solution.stats.map(stat => (
+          <div class="stat-card">
+            <span class="stat-value">{stat.value}</span>
+            <span class="stat-label">{stat.label}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <Features
+        features={featuresData}
+        title="What's Included"
+        eyebrow="Features"
+        columns={2}
+      />
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+      <div class="section-header">
+        <h2>Why Practices Choose This</h2>
+      </div>
+
+      <div class="benefits-grid">
+        {solution.benefits.map((benefit, index) => (
+          <div class="benefit-item">
+            <span class="benefit-number">{index + 1}</span>
+            <span>{benefit}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="process-section">
+      <ProcessSteps
+        title="How It Works"
+        eyebrow="Simple Process"
+        steps={solution.process}
+      />
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="faq-section">
+      <FAQ
+        items={relevantFaqs}
+        title={`${solution.name} FAQ`}
+        eyebrow="Common Questions"
+      />
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <CTA
+        title={`Ready for ${solution.name}?`}
+        description="Book a discovery call to learn how we can help your practice."
+        buttonText="Schedule a Call"
+      />
+    </section>
+
+    <!-- Other Solutions -->
+    <section class="other-solutions">
+      <h3>Other Solutions</h3>
+      <div class="solutions-links">
+        {solutions.filter(s => s.slug !== solution.slug).map(s => (
+          <a href={`/solutions/${s.slug}/`} class="solution-link">
+            <span class="link-name">{s.name}</span>
+            <span class="link-tagline">{s.tagline}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</LandingLayout>
+
+<style>
+  .solution-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .solution-hero {
+    text-align: center;
+    padding: 60px 0 40px;
+  }
+
+  .hero-icon {
+    width: 112px;
+    height: 112px;
+    background: var(--glass-teal);
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+    color: var(--oceanic-teal);
+  }
+
+  .hero-tagline {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .solution-hero h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-description {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 32px;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .text-link:hover {
+    color: var(--oceanic-teal);
+  }
+
+  /* Stats */
+  .stats-section {
+    margin-bottom: 60px;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .stat-card {
+    text-align: center;
+    padding: 32px;
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+  }
+
+  .stat-value {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--oceanic-teal);
+    margin-bottom: 8px;
+  }
+
+  .stat-label {
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  /* Sections */
+  .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+  }
+
+  /* Features */
+  .features-section {
+    margin-bottom: 60px;
+  }
+
+  /* Benefits */
+  .benefits-section {
+    margin-bottom: 60px;
+  }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .benefit-item {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 20px 24px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+
+  .benefit-number {
+    width: 32px;
+    height: 32px;
+    background: var(--oceanic-teal);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  /* Process */
+  .process-section {
+    margin-bottom: 60px;
+  }
+
+  /* FAQ */
+  .faq-section {
+    margin-bottom: 60px;
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 60px;
+  }
+
+  /* Other Solutions */
+  .other-solutions {
+    text-align: center;
+    padding: 40px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+  }
+
+  .other-solutions h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 24px;
+  }
+
+  .solutions-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .solution-link {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .solution-link:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-2px);
+  }
+
+  .link-name {
+    font-weight: 600;
+    color: var(--navy-900);
+    font-size: 1rem;
+  }
+
+  .link-tagline {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  @media (max-width: 768px) {
+    .stats-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .benefits-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .solutions-links {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-cta {
+      flex-direction: column;
+    }
+  }
+</style>

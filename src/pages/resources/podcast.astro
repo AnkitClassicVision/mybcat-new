@@ -1,0 +1,480 @@
+---
+/**
+ * Podcast Page
+ * Optometrists Building Empires podcast information and links
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Button from '@/components/Button.astro';
+---
+
+<PageLayout
+  title="Optometrists Building Empires Podcast | MyBCAT"
+  description="Weekly conversations with practice owners who are scaling, selling, and succeeding. Real stories from the trenches of multi-location optometry ownership."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Resources', url: '/resources/' },
+    { name: 'Podcast' }
+  ]}
+>
+  <div class="podcast-page">
+    <!-- Hero Section -->
+    <section class="podcast-hero">
+      <div class="container">
+        <div class="podcast-hero-grid">
+          <div class="podcast-hero-content">
+            <div class="eyebrow">The Podcast</div>
+            <h1>Optometrists Building Empires</h1>
+            <p class="lead">
+              Weekly conversations with practice owners who are scaling, selling, and succeeding.
+              Real stories from the trenches of multi-location optometry ownership.
+            </p>
+            <p class="lead">
+              Hosted by Ankit Patel, founder of My Business Care Team and owner of Classic Vision Care.
+            </p>
+
+            <div class="podcast-platforms">
+              <a href="https://podcasts.apple.com/us/podcast/optometrists-building-empires/id1762685070" class="platform-btn" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+                Apple Podcasts
+              </a>
+              <a href="https://open.spotify.com/show/optometrists-building-empires" class="platform-btn" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+                Spotify
+              </a>
+              <a href="https://buildingempires.live" class="platform-btn" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                Listen Now
+              </a>
+            </div>
+
+            <div class="podcast-stats">
+              <div class="podcast-stat">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Episodes</span>
+              </div>
+              <div class="podcast-stat">
+                <span class="stat-number">Weekly</span>
+                <span class="stat-label">New Episodes</span>
+              </div>
+              <div class="podcast-stat">
+                <span class="stat-number">5.0</span>
+                <span class="stat-label">Rating</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="podcast-hero-visual">
+            <img src="/images/podcast-cover.webp" alt="Optometrists Building Empires Podcast" class="podcast-cover" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About the Show -->
+    <section class="about-show">
+      <div class="container">
+        <div class="about-show-grid">
+          <div class="about-show-content">
+            <div class="eyebrow secondary">About the Show</div>
+            <h2>Real Conversations About Real Growth</h2>
+            <p>
+              Optometrists Building Empires isn't about theory. It's about the messy, complicated,
+              rewarding reality of scaling a healthcare practice from one location to many.
+            </p>
+            <p>
+              Every week, we sit down with practice owners, industry experts, and operational
+              leaders who share the strategies, mistakes, and breakthroughs that shaped their journey.
+            </p>
+
+            <div class="show-topics">
+              <div class="topic-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 20V10"></path><path d="M18 20V4"></path><path d="M6 20v-4"></path></svg>
+                <span>Scaling Operations</span>
+              </div>
+              <div class="topic-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <span>Team Building</span>
+              </div>
+              <div class="topic-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                <span>Revenue Growth</span>
+              </div>
+              <div class="topic-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>Exit Strategies</span>
+              </div>
+              <div class="topic-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                <span>Operational Systems</span>
+              </div>
+              <div class="topic-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                <span>Leadership</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="host-card">
+            <div class="host-card-header">
+              <img src="/images/ankit_headshot_full.webp" alt="Ankit Patel" class="host-avatar" />
+              <div class="host-info">
+                <h3>Ankit Patel</h3>
+                <span>Host & Founder</span>
+              </div>
+            </div>
+            <p>
+              Ankit brings a unique perspective to practice ownership: Lean Six Sigma expertise from Dell and
+              Cleveland Clinic, combined with hands-on experience scaling Classic Vision Care in Atlanta.
+            </p>
+            <p>
+              As founder of My Business Care Team, he's helped dozens of practices build the operational
+              infrastructure they need to grow without chaos.
+            </p>
+            <div class="host-links">
+              <a href="https://linkedin.com/in/ankitpatel" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="/about/">Full Bio</a>
+              <a href="/resources/book/">His Book</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="podcast-cta">
+      <div class="container">
+        <h2>Never Miss an Episode</h2>
+        <p>Subscribe on your favorite platform and get new episodes delivered every week.</p>
+        <div class="cta-platforms">
+          <a href="https://podcasts.apple.com/us/podcast/optometrists-building-empires/id1762685070" class="cta-platform-btn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+            Apple Podcasts
+          </a>
+          <a href="https://open.spotify.com/show/optometrists-building-empires" class="cta-platform-btn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+            Spotify
+          </a>
+          <a href="https://buildingempires.live" class="cta-platform-btn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+            All Episodes
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .podcast-page {
+    overflow: hidden;
+  }
+
+  .container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--electric-aqua, #4DD0E1);
+    margin-bottom: 16px;
+    background: rgba(77, 208, 225, 0.15);
+    padding: 6px 14px;
+    border-radius: 999px;
+  }
+
+  .eyebrow::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--electric-aqua, #4DD0E1);
+    border-radius: 50%;
+  }
+
+  .eyebrow.secondary {
+    background: rgba(0, 96, 100, 0.1);
+    color: var(--oceanic-teal);
+  }
+
+  .eyebrow.secondary::before {
+    background: var(--oceanic-teal);
+  }
+
+  /* Hero Section */
+  .podcast-hero {
+    background: linear-gradient(135deg, var(--navy-900) 0%, #1a3a3d 100%);
+    padding: 80px 0;
+    color: white;
+  }
+
+  .podcast-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .podcast-hero h1 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: white;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  .podcast-platforms {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 32px 0;
+  }
+
+  .platform-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+
+  .platform-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .podcast-stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+  }
+
+  .podcast-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--electric-aqua, #4DD0E1);
+  }
+
+  .stat-label {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .podcast-hero-visual {
+    display: flex;
+    justify-content: center;
+  }
+
+  .podcast-cover {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  }
+
+  /* About the Show */
+  .about-show {
+    padding: 80px 0;
+    background: white;
+  }
+
+  .about-show-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 60px;
+    align-items: start;
+  }
+
+  .about-show-content h2 {
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 20px;
+  }
+
+  .about-show-content p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  .show-topics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .topic-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--text-secondary);
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .topic-item svg {
+    color: var(--oceanic-teal);
+  }
+
+  /* Host Card */
+  .host-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 28px;
+  }
+
+  .host-card-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .host-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .host-info h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 2px;
+  }
+
+  .host-info span {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .host-card p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+
+  .host-links {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  .host-links a {
+    color: var(--oceanic-teal);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .host-links a:hover {
+    text-decoration: underline;
+  }
+
+  /* CTA Section */
+  .podcast-cta {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
+    text-align: center;
+  }
+
+  .podcast-cta h2 {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 700;
+    color: white;
+    margin-bottom: 16px;
+  }
+
+  .podcast-cta p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 32px;
+  }
+
+  .cta-platforms {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cta-platform-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 24px;
+    background: white;
+    border-radius: 8px;
+    color: var(--navy-900);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .cta-platform-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .podcast-hero-grid,
+    .about-show-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .podcast-hero-visual {
+      order: -1;
+    }
+
+    .podcast-cover {
+      max-width: 280px;
+    }
+
+    .podcast-stats {
+      justify-content: center;
+    }
+
+    .show-topics {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,264 @@
+---
+/**
+ * Footer component
+ * Enhanced version using data layer
+ */
+import { footerNavigation, ctaButton } from '@data/navigation';
+import { company } from '@data/company';
+import Logo from './Logo.astro';
+
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <!-- Top Section: Logo and CTA -->
+    <div class="footer-top">
+      <div class="footer-brand">
+        <Logo size="md" showText={true} />
+        <p class="footer-tagline">{company.tagline}</p>
+      </div>
+      <a href={ctaButton.href} class="footer-cta">{ctaButton.label}</a>
+    </div>
+
+    <!-- Middle Section: Link Columns -->
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h4>Solutions</h4>
+        <ul>
+          {footerNavigation.solutions.map(link => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Industries</h4>
+        <ul>
+          {footerNavigation.industries.map(link => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+          {footerNavigation.company.map(link => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          {footerNavigation.resources.map(link => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Section: Social, Legal, Copyright -->
+    <div class="footer-bottom">
+      <div class="footer-social">
+        <a href={company.social.facebook} aria-label="Facebook" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+        </a>
+        <a href={company.social.linkedin} aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </a>
+      </div>
+
+      <div class="footer-legal">
+        {footerNavigation.legal.map((link, index) => (
+          <>
+            {index > 0 && <span class="legal-separator">|</span>}
+            <a href={link.href}>{link.label}</a>
+          </>
+        ))}
+      </div>
+
+      <p class="footer-copyright">
+        &copy; 2018 - {currentYear} {company.name}. All Rights Reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background-color: var(--navy-900);
+    color: var(--cream-200);
+    padding: 60px 24px 40px;
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Top Section */
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .footer-brand :global(.logo) {
+    color: var(--cream-200);
+  }
+
+  .footer-brand :global(.logo-text) {
+    color: var(--cream-200);
+  }
+
+  .footer-tagline {
+    margin-top: 8px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .footer-cta {
+    display: inline-block;
+    background: var(--oceanic-teal);
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .footer-cta:hover {
+    background: var(--teal-600);
+    transform: translateY(-2px);
+  }
+
+  /* Link Columns */
+  .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 32px;
+  }
+
+  .footer-column h4 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-column li {
+    margin-bottom: 10px;
+  }
+
+  .footer-column a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+
+  .footer-column a:hover {
+    color: white;
+  }
+
+  /* Bottom Section */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footer-social {
+    display: flex;
+    gap: 16px;
+  }
+
+  .footer-social a {
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.3s;
+  }
+
+  .footer-social a:hover {
+    color: var(--copper-500);
+  }
+
+  .footer-legal {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .footer-legal a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s;
+  }
+
+  .footer-legal a:hover {
+    color: white;
+  }
+
+  .legal-separator {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 13px;
+  }
+
+  .footer-copyright {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .footer-columns {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footer-columns {
+      grid-template-columns: 1fr 1fr;
+      text-align: center;
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .footer-columns {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

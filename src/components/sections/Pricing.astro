@@ -1,0 +1,170 @@
+---
+/**
+ * Pricing Section component
+ * Displays pricing tiers
+ */
+import type { PricingTier } from '@data/pricing';
+import Card from '@/components/Card.astro';
+import Button from '@/components/Button.astro';
+
+interface Props {
+  tiers: PricingTier[];
+  title?: string;
+  eyebrow?: string;
+}
+
+const {
+  tiers,
+  title = 'Plans That Scale With You',
+  eyebrow = 'Transparent Pricing'
+} = Astro.props;
+---
+
+<section class="pricing-section" id="pricing">
+  <div class="section-intro">
+    <div class="section-intro-eyebrow">{eyebrow}</div>
+    <h2 class="section-intro-title">{title}</h2>
+  </div>
+
+  <div class="pricing-grid">
+    {tiers.map(tier => (
+      <Card variant="pricing" class={`pricing-card ${tier.popular ? 'popular' : ''}`}>
+        {tier.popular && <div class="popular-badge">Most Popular</div>}
+        <div class="pricing-header">
+          <h3>{tier.name}</h3>
+          <div class="price">
+            {tier.price}
+            {tier.period && <span class="price-period">{tier.period}</span>}
+          </div>
+        </div>
+        <p class="pricing-description">{tier.description}</p>
+        <ul class="pricing-features">
+          {tier.features.map(feature => (
+            <li>{feature}</li>
+          ))}
+        </ul>
+        <Button
+          href={tier.ctaHref}
+          variant={tier.popular ? 'primary' : 'secondary'}
+          size="sm"
+        >
+          {tier.ctaText}
+        </Button>
+      </Card>
+    ))}
+  </div>
+</section>
+
+<style>
+  .pricing-section {
+    grid-column: span 6;
+    scroll-margin-top: 100px;
+  }
+
+  .section-intro {
+    text-align: center;
+    padding: 60px 24px 20px;
+  }
+
+  .section-intro-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .section-intro-title {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 20px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  :global(.pricing-card) {
+    text-align: center;
+    position: relative;
+  }
+
+  :global(.pricing-card.popular) {
+    border-color: var(--oceanic-teal);
+    box-shadow: 0 0 0 2px var(--oceanic-teal);
+  }
+
+  .popular-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--oceanic-teal);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .pricing-header h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .price {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--navy-900);
+  }
+
+  .price-period {
+    font-size: 1rem;
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+
+  .pricing-description {
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin: 16px 0;
+  }
+
+  .pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+    text-align: left;
+  }
+
+  .pricing-features li {
+    padding: 10px 0;
+    font-size: 15px;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .pricing-features li::before {
+    content: "✓ ";
+    color: var(--oceanic-teal);
+    font-weight: 600;
+  }
+
+  @media (max-width: 1024px) {
+    .pricing-grid {
+      grid-template-columns: 1fr;
+      max-width: 400px;
+    }
+  }
+</style>

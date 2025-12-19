@@ -1,0 +1,129 @@
+---
+/**
+ * BaseLayout - Core HTML structure
+ * All other layouts extend from this
+ */
+import '@/styles/global.css';
+import Nav from '@/components/Nav.astro';
+import Footer from '@/components/Footer.astro';
+import HubSpotChat from '@/components/HubSpotChat.astro';
+import { company } from '@data/company';
+import { generateOrganizationSchema, generateWebSiteSchema, serializeSchema } from '@utils/schema';
+
+interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+  ogType?: 'website' | 'article';
+  canonical?: string;
+  publishDate?: Date;
+  modifiedDate?: Date;
+  author?: string;
+  noindex?: boolean;
+  navMode?: 'full' | 'minimal' | 'hidden';
+  showHubSpotChat?: boolean;
+}
+
+const {
+  title,
+  description,
+  ogImage = '/images/og-home.jpg',
+  ogType = 'website',
+  canonical,
+  publishDate,
+  modifiedDate,
+  author = company.ownership.founder,
+  noindex = false,
+  navMode = 'full',
+  showHubSpotChat = true
+} = Astro.props;
+
+const siteUrl = company.site.url;
+// Ensure trailing slash for canonical URLs
+let pathname = Astro.url.pathname;
+if (!pathname.endsWith('/') && !pathname.includes('.')) {
+  pathname += '/';
+}
+const canonicalUrl = canonical || new URL(pathname, siteUrl).href;
+const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
+
+// Check if this is the homepage for Organization schema
+const isHomepage = pathname === '/';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+
+  <!-- Robots -->
+  {noindex ? (
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+  ) : (
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  )}
+
+  <link rel="canonical" href={canonicalUrl}>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content={ogType}>
+  <meta property="og:url" content={canonicalUrl}>
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:image" content={ogImageUrl}>
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content={company.name}>
+  <meta property="og:locale" content={company.site.locale}>
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content={canonicalUrl}>
+  <meta name="twitter:title" content={title}>
+  <meta name="twitter:description" content={description}>
+  <meta name="twitter:image" content={ogImageUrl}>
+
+  {publishDate && (
+    <meta property="article:published_time" content={publishDate.toISOString()}>
+  )}
+  {modifiedDate && (
+    <meta property="article:modified_time" content={modifiedDate.toISOString()}>
+  )}
+  {author && ogType === 'article' && (
+    <meta property="article:author" content={author}>
+  )}
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <!-- Organization Schema (homepage only) -->
+  {isHomepage && (
+    <>
+      <script type="application/ld+json" set:html={serializeSchema(generateOrganizationSchema())} />
+      <script type="application/ld+json" set:html={serializeSchema(generateWebSiteSchema())} />
+    </>
+  )}
+
+  <slot name="head" />
+</head>
+<body>
+  {navMode !== 'hidden' && <Nav currentPath={Astro.url.pathname} />}
+
+  <slot />
+
+  <Footer />
+  {showHubSpotChat && <HubSpotChat />}
+
+  <slot name="footer-scripts" />
+</body>
+</html>
