@@ -1,0 +1,363 @@
+---
+/**
+ * FAQ Hub Page
+ * Displays all FAQs grouped by category with proper schema markup
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { faqs, getFAQsByCategory } from '@data/faq';
+import { generateFAQSchema, serializeSchema } from '@/utils/schema';
+import { company } from '@data/company';
+
+const pageTitle = 'Frequently Asked Questions';
+const pageDescription = 'Find answers to common questions about mybcat patient acquisition services, pricing, HIPAA compliance, onboarding, and technical integrations.';
+
+// Group FAQs by category
+const categories = [
+  { key: 'general', title: 'General Questions', icon: '💬' },
+  { key: 'onboarding', title: 'Getting Started', icon: '🚀' },
+  { key: 'security', title: 'Security & Compliance', icon: '🔒' },
+  { key: 'pricing', title: 'Pricing & Contracts', icon: '💰' },
+  { key: 'technical', title: 'Technical & Integration', icon: '⚙️' },
+] as const;
+
+// Generate FAQ schema for all FAQs
+const faqSchema = generateFAQSchema(faqs);
+---
+
+<PageLayout
+  title={`${pageTitle} | mybcat`}
+  description={pageDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'FAQ' }
+  ]}
+>
+  <script type="application/ld+json" set:html={serializeSchema(faqSchema)} slot="head" />
+
+  <div class="faq-hub">
+    <!-- Hero -->
+    <section class="hub-hero">
+      <span class="eyebrow">Help Center</span>
+      <h1>{pageTitle}</h1>
+      <p class="hero-description">
+        Everything you need to know about mybcat. Can't find what you're looking for?
+        <a href="/contact/">Contact our team</a> for a personalized answer.
+      </p>
+    </section>
+
+    <!-- Quick Jump Navigation -->
+    <section class="quick-nav">
+      <div class="nav-grid">
+        {categories.map(cat => (
+          <a href={`#${cat.key}`} class="nav-item">
+            <span class="nav-icon">{cat.icon}</span>
+            <span class="nav-title">{cat.title}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- FAQ Sections -->
+    {categories.map(cat => {
+      const categoryFaqs = getFAQsByCategory(cat.key);
+      return (
+        <section id={cat.key} class="faq-section">
+          <h2>
+            <span class="section-icon">{cat.icon}</span>
+            {cat.title}
+          </h2>
+          <div class="faq-list">
+            {categoryFaqs.map(faq => (
+              <details class="faq-item">
+                <summary>{faq.question}</summary>
+                <div class="faq-answer">
+                  <p>{faq.answer}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </section>
+      );
+    })}
+
+    <!-- Still Have Questions -->
+    <section class="more-help">
+      <Card variant="pricing">
+        <div class="more-help-content">
+          <h2>Still Have Questions?</h2>
+          <p>
+            Our team is happy to answer any questions about mybcat and how we can help your practice.
+            Schedule a quick call or send us a message.
+          </p>
+          <div class="help-actions">
+            <a href="/contact/" class="btn-primary">Schedule a Call</a>
+            <a href={`mailto:${company.email}`} class="btn-secondary">Email Us</a>
+          </div>
+        </div>
+      </Card>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Ready to Get Started?"
+        description="See how mybcat can help your practice capture more patients and grow revenue."
+        buttonText="Book a Demo"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .faq-hub {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .hub-hero {
+    text-align: center;
+    padding: 40px 0 48px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .hub-hero h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+
+  .hero-description a {
+    color: var(--oceanic-teal);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .hero-description a:hover {
+    text-decoration: underline;
+  }
+
+  /* Quick Nav */
+  .quick-nav {
+    margin-bottom: 48px;
+  }
+
+  .nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 12px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .nav-item:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-2px);
+  }
+
+  .nav-icon {
+    font-size: 1.5rem;
+  }
+
+  .nav-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--navy-900);
+    text-align: center;
+  }
+
+  /* FAQ Sections */
+  .faq-section {
+    margin-bottom: 48px;
+    scroll-margin-top: 100px;
+  }
+
+  .faq-section h2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--glass-border);
+  }
+
+  .section-icon {
+    font-size: 1.25rem;
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .faq-item {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+
+  .faq-item:hover {
+    border-color: var(--oceanic-teal);
+  }
+
+  .faq-item[open] {
+    border-color: var(--oceanic-teal);
+  }
+
+  .faq-item summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-item summary::after {
+    content: "+";
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--oceanic-teal);
+    transition: transform 0.2s;
+  }
+
+  .faq-item[open] summary::after {
+    content: "−";
+  }
+
+  .faq-answer {
+    padding: 0 20px 20px;
+  }
+
+  .faq-answer p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  /* More Help */
+  .more-help {
+    margin-bottom: 48px;
+  }
+
+  .more-help-content {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .more-help-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .more-help-content p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 500px;
+    margin: 0 auto 24px;
+  }
+
+  .help-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .btn-primary {
+    background: var(--oceanic-teal);
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background: var(--teal-700);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--oceanic-teal);
+    border: 1px solid var(--oceanic-teal);
+  }
+
+  .btn-secondary:hover {
+    background: var(--glass-teal);
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 640px) {
+    .nav-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .help-actions {
+      flex-direction: column;
+    }
+  }
+</style>

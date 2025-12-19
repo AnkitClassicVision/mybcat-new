@@ -1,0 +1,383 @@
+---
+/**
+ * Glossary Hub Page
+ * Alphabetical listing of all glossary terms
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { glossaryTerms, getGlossaryTermsByCategory } from '@data/glossary';
+
+const pageTitle = 'Healthcare Practice Glossary';
+const pageDescription = 'Definitions and explanations of key terms in healthcare practice management, patient acquisition, and medical office operations.';
+
+// Sort terms alphabetically
+const sortedTerms = [...glossaryTerms].sort((a, b) => a.term.localeCompare(b.term));
+
+// Group by first letter for alphabetical navigation
+const letterGroups = sortedTerms.reduce((acc, term) => {
+  const letter = term.term[0].toUpperCase();
+  if (!acc[letter]) acc[letter] = [];
+  acc[letter].push(term);
+  return acc;
+}, {} as Record<string, typeof glossaryTerms>);
+
+const letters = Object.keys(letterGroups).sort();
+
+// Category labels
+const categoryLabels: Record<string, string> = {
+  operations: 'Operations',
+  technology: 'Technology',
+  compliance: 'Compliance',
+  metrics: 'Metrics',
+  marketing: 'Marketing'
+};
+---
+
+<PageLayout
+  title={`${pageTitle} | mybcat`}
+  description={pageDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Glossary' }
+  ]}
+>
+  <div class="glossary-hub">
+    <!-- Hero -->
+    <section class="hub-hero">
+      <span class="eyebrow">Reference Guide</span>
+      <h1>{pageTitle}</h1>
+      <p class="hero-description">
+        Understanding the terminology of healthcare practice management.
+        Clear definitions of the terms you'll encounter when optimizing your practice operations.
+      </p>
+    </section>
+
+    <!-- Alphabet Navigation -->
+    <section class="alpha-nav">
+      <div class="alpha-links">
+        {letters.map(letter => (
+          <a href={`#${letter}`} class="alpha-link">{letter}</a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Terms by Category Quick Links -->
+    <section class="category-nav">
+      <h2>Browse by Category</h2>
+      <div class="category-tags">
+        {Object.entries(categoryLabels).map(([key, label]) => {
+          const count = getGlossaryTermsByCategory(key as any).length;
+          return (
+            <span class="category-tag" data-category={key}>
+              {label} ({count})
+            </span>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- Alphabetical Listings -->
+    <section class="terms-section">
+      {letters.map(letter => (
+        <div id={letter} class="letter-group">
+          <h2 class="letter-heading">{letter}</h2>
+          <div class="terms-grid">
+            {letterGroups[letter].map(term => (
+              <a href={`/glossary/${term.slug}/`} class="term-card">
+                <h3>{term.term}</h3>
+                <p>{term.definition}</p>
+                <span class="category-badge" data-category={term.category}>
+                  {categoryLabels[term.category]}
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <!-- Related Resources -->
+    <section class="related-resources">
+      <Card variant="pricing">
+        <div class="resources-content">
+          <h2>Related Resources</h2>
+          <div class="resources-grid">
+            <a href="/faq/" class="resource-link">
+              <span class="resource-icon">❓</span>
+              <span class="resource-title">FAQ</span>
+              <span class="resource-desc">Common questions answered</span>
+            </a>
+            <a href="/how-it-works/" class="resource-link">
+              <span class="resource-icon">⚙️</span>
+              <span class="resource-title">How It Works</span>
+              <span class="resource-desc">Our onboarding process</span>
+            </a>
+            <a href="/solutions/" class="resource-link">
+              <span class="resource-icon">✅</span>
+              <span class="resource-title">Solutions</span>
+              <span class="resource-desc">Services we offer</span>
+            </a>
+          </div>
+        </div>
+      </Card>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Have Questions About Your Practice?"
+        description="Talk to our team about how mybcat can help improve your practice operations."
+        buttonText="Schedule a Call"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .glossary-hub {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .hub-hero {
+    text-align: center;
+    padding: 40px 0 48px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .hub-hero h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Alphabet Navigation */
+  .alpha-nav {
+    margin-bottom: 32px;
+  }
+
+  .alpha-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .alpha-link {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--navy-900);
+    transition: all 0.2s;
+  }
+
+  .alpha-link:hover {
+    background: var(--glass-teal);
+    border-color: var(--oceanic-teal);
+    color: var(--oceanic-teal);
+  }
+
+  /* Category Navigation */
+  .category-nav {
+    text-align: center;
+    margin-bottom: 48px;
+    padding: 24px;
+    background: var(--spatial-glass);
+    border-radius: 16px;
+    border: 1px solid var(--glass-border);
+  }
+
+  .category-nav h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .category-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .category-tag {
+    padding: 8px 16px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
+
+  .category-tag[data-category="operations"] { border-left: 3px solid #0EA5E9; }
+  .category-tag[data-category="technology"] { border-left: 3px solid #8B5CF6; }
+  .category-tag[data-category="compliance"] { border-left: 3px solid #EF4444; }
+  .category-tag[data-category="metrics"] { border-left: 3px solid #10B981; }
+  .category-tag[data-category="marketing"] { border-left: 3px solid #F59E0B; }
+
+  /* Terms Section */
+  .terms-section {
+    margin-bottom: 60px;
+  }
+
+  .letter-group {
+    margin-bottom: 40px;
+    scroll-margin-top: 100px;
+  }
+
+  .letter-heading {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--oceanic-teal);
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--glass-border);
+  }
+
+  .terms-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .term-card {
+    display: block;
+    padding: 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .term-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateX(4px);
+  }
+
+  .term-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .term-card p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+
+  .category-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    background: white;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .category-badge[data-category="operations"] { color: #0EA5E9; }
+  .category-badge[data-category="technology"] { color: #8B5CF6; }
+  .category-badge[data-category="compliance"] { color: #EF4444; }
+  .category-badge[data-category="metrics"] { color: #10B981; }
+  .category-badge[data-category="marketing"] { color: #F59E0B; }
+
+  /* Related Resources */
+  .related-resources {
+    margin-bottom: 60px;
+  }
+
+  .resources-content {
+    text-align: center;
+  }
+
+  .resources-content h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 24px;
+  }
+
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .resource-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+    background: var(--spatial-glass);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .resource-link:hover {
+    background: var(--glass-teal);
+  }
+
+  .resource-icon {
+    font-size: 1.5rem;
+  }
+
+  .resource-title {
+    font-weight: 600;
+    color: var(--navy-900);
+    font-size: 14px;
+  }
+
+  .resource-desc {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 640px) {
+    .resources-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

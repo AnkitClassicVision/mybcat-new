@@ -1,0 +1,688 @@
+---
+/**
+ * Dynamic Competitor Comparison Page
+ * Generates comparison pages for each competitor
+ */
+import LandingLayout from '@/layouts/LandingLayout.astro';
+import Card from '@/components/Card.astro';
+import Button from '@/components/Button.astro';
+import BeforeAfter from '@/components/sections/BeforeAfter.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { competitors, type Competitor } from '@data/competitors';
+import { generateFAQSchema, generateServiceSchema, combineSchemas, serializeSchema } from '@/utils/schema';
+import { company } from '@data/company';
+
+export function getStaticPaths() {
+  return competitors.map(competitor => ({
+    params: { slug: competitor.slug },
+    props: { competitor }
+  }));
+}
+
+interface Props {
+  competitor: Competitor;
+}
+
+const { competitor } = Astro.props;
+
+// Generate schemas
+const pageUrl = `${company.site.url}/compare/${competitor.slug}/`;
+const serviceSchema = generateServiceSchema({
+  name: `mybcat vs ${competitor.name} Comparison`,
+  description: competitor.metaDescription,
+  url: pageUrl,
+  serviceType: 'Healthcare Practice Solutions Comparison'
+});
+const faqSchema = generateFAQSchema(competitor.faqs);
+const combinedSchema = combineSchemas(serviceSchema, faqSchema);
+
+// Convert differentiators to BeforeAfter format
+const beforeItems = competitor.differentiators.map(d => ({ text: d.competitor }));
+const afterItems = competitor.differentiators.map(d => ({ text: d.mybcat }));
+
+// Get other competitors for navigation
+const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
+---
+
+<LandingLayout
+  title={`${competitor.headline} | mybcat`}
+  description={competitor.metaDescription}
+  serviceName={`mybcat vs ${competitor.name}`}
+  serviceDescription={competitor.description}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Compare', url: '/compare/' },
+    { name: `vs ${competitor.name}` }
+  ]}
+>
+  <script type="application/ld+json" set:html={serializeSchema(combinedSchema)} slot="head" />
+
+  <div class="compare-page">
+    <!-- Hero Section -->
+    <section class="compare-hero">
+      <span class="vs-badge">vs</span>
+      <h1>{competitor.headline}</h1>
+      <p class="hero-tagline">{competitor.tagline}</p>
+      <p class="hero-description">{competitor.description}</p>
+      <div class="hero-cta">
+        <Button href="/contact/">Get Started with mybcat</Button>
+        <a href="#comparison" class="text-link">See the comparison</a>
+      </div>
+    </section>
+
+    <!-- TL;DR Section -->
+    <section class="tldr-section">
+      <Card variant="pricing">
+        <div class="tldr-content">
+          <h2>TL;DR</h2>
+          <div class="tldr-grid">
+            <div class="tldr-item">
+              <span class="label">{competitor.name}</span>
+              <p>{competitor.model} at <strong>{competitor.pricing}</strong></p>
+            </div>
+            <div class="tldr-divider"></div>
+            <div class="tldr-item mybcat">
+              <span class="label">mybcat</span>
+              <p>Fully managed patient acquisition with <strong>outcome-based pricing</strong></p>
+            </div>
+          </div>
+          <p class="tldr-bottom">
+            <strong>Bottom line:</strong> {competitor.name} works if you want to manage your own staff.
+            mybcat works if you want results without the management burden.
+          </p>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Feature Comparison Matrix -->
+    <section id="comparison" class="comparison-section">
+      <div class="section-header">
+        <h2>Feature-by-Feature Comparison</h2>
+        <p>See exactly how mybcat and {competitor.name} stack up across key areas.</p>
+      </div>
+
+      {competitor.features.map(category => (
+        <div class="feature-category">
+          <h3>{category.category}</h3>
+          <div class="feature-table">
+            <div class="table-header">
+              <span class="feature-name">Feature</span>
+              <span class="company-col">mybcat</span>
+              <span class="company-col">{competitor.name}</span>
+            </div>
+            {category.items.map(item => (
+              <div class="table-row">
+                <span class="feature-name">{item.name}</span>
+                <span class="company-col mybcat-col">
+                  {typeof item.mybcat === 'boolean'
+                    ? (item.mybcat ? <span class="check">✓</span> : <span class="x">✕</span>)
+                    : item.mybcat
+                  }
+                </span>
+                <span class="company-col competitor-col">
+                  {typeof item.competitor === 'boolean'
+                    ? (item.competitor ? <span class="check">✓</span> : <span class="x">✕</span>)
+                    : item.competitor
+                  }
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <!-- Before/After Section -->
+    <section class="before-after-wrapper">
+      <BeforeAfter
+        title={`<span class="muted">${competitor.name}</span> → <span class="highlight">mybcat</span>`}
+        beforeTitle={competitor.name}
+        afterTitle="mybcat"
+        beforeItems={beforeItems}
+        afterItems={afterItems}
+      />
+    </section>
+
+    <!-- Why mybcat Section -->
+    <section class="advantages-section">
+      <div class="section-header">
+        <h2>Why Practices Choose mybcat</h2>
+        <p>Here's what you get with our managed approach.</p>
+      </div>
+
+      <div class="advantages-grid">
+        {competitor.advantages.map((advantage, index) => (
+          <div class="advantage-item">
+            <span class="advantage-number">{index + 1}</span>
+            <p>{advantage}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Fair Assessment Section -->
+    <section class="fair-assessment">
+      <Card variant="testimonial">
+        <div class="assessment-content">
+          <h2>When {competitor.name} Might Be Right</h2>
+          <p class="assessment-intro">
+            We believe in honest comparisons. Here's when {competitor.name} could be a good fit:
+          </p>
+          <ul class="strength-list">
+            {competitor.competitorStrengths.map(strength => (
+              <li>{strength}</li>
+            ))}
+          </ul>
+          <div class="best-for">
+            <h3>{competitor.name} is best for:</h3>
+            <ul>
+              {competitor.bestFor.map(item => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </Card>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <FAQ
+        items={competitor.faqs}
+        title={`${competitor.name} vs mybcat FAQ`}
+        eyebrow="Common Questions"
+      />
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <CTA
+        title="Ready to See the mybcat Difference?"
+        description="Book a discovery call and we'll give you an honest assessment of whether we're the right fit for your practice."
+        buttonText="Schedule a Call"
+      />
+    </section>
+
+    <!-- Other Comparisons -->
+    <section class="other-comparisons">
+      <h3>Other Comparisons</h3>
+      <div class="comparisons-links">
+        {otherCompetitors.map(c => (
+          <a href={`/compare/${c.slug}/`} class="comparison-link">
+            vs {c.name}
+          </a>
+        ))}
+        <a href="/compare/" class="comparison-link all">
+          View All Comparisons
+        </a>
+      </div>
+    </section>
+  </div>
+</LandingLayout>
+
+<style>
+  .compare-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .compare-hero {
+    text-align: center;
+    padding: 60px 0 40px;
+    position: relative;
+  }
+
+  .vs-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    background: var(--glass-copper);
+    color: var(--copper-700);
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  .compare-hero h1 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 12px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-tagline {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--oceanic-teal);
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto 32px;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .text-link:hover {
+    color: var(--oceanic-teal);
+  }
+
+  /* TL;DR Section */
+  .tldr-section {
+    margin-bottom: 60px;
+  }
+
+  .tldr-content {
+    text-align: center;
+  }
+
+  .tldr-content h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 24px;
+  }
+
+  .tldr-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 24px;
+  }
+
+  .tldr-item {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    background: var(--spatial-glass);
+    border-radius: 12px;
+  }
+
+  .tldr-item.mybcat {
+    background: rgba(0, 96, 100, 0.08);
+    border: 1px solid var(--oceanic-teal);
+  }
+
+  .tldr-item .label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+
+  .tldr-item.mybcat .label {
+    color: var(--oceanic-teal);
+  }
+
+  .tldr-item p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .tldr-divider {
+    width: 40px;
+    height: 2px;
+    background: var(--glass-border);
+    flex-shrink: 0;
+  }
+
+  .tldr-bottom {
+    font-size: 15px;
+    color: var(--text-secondary);
+    padding-top: 20px;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  /* Section Headers */
+  .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  /* Comparison Table */
+  .comparison-section {
+    margin-bottom: 60px;
+  }
+
+  .feature-category {
+    margin-bottom: 32px;
+  }
+
+  .feature-category h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    padding-left: 16px;
+    border-left: 3px solid var(--oceanic-teal);
+  }
+
+  .feature-table {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .table-header {
+    display: grid;
+    grid-template-columns: 1fr 120px 120px;
+    gap: 16px;
+    padding: 16px 20px;
+    background: rgba(0, 96, 100, 0.05);
+    border-bottom: 1px solid var(--glass-border);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--navy-900);
+  }
+
+  .table-row {
+    display: grid;
+    grid-template-columns: 1fr 120px 120px;
+    gap: 16px;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--glass-border);
+    font-size: 14px;
+  }
+
+  .table-row:last-child {
+    border-bottom: none;
+  }
+
+  .feature-name {
+    color: var(--text-secondary);
+  }
+
+  .company-col {
+    text-align: center;
+    color: var(--text-secondary);
+  }
+
+  .mybcat-col {
+    color: var(--navy-900);
+    font-weight: 500;
+  }
+
+  .check {
+    color: var(--oceanic-teal);
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+
+  .x {
+    color: #B85450;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  /* Before/After */
+  .before-after-wrapper {
+    margin-bottom: 60px;
+  }
+
+  .before-after-wrapper :global(.muted) {
+    color: var(--text-muted);
+  }
+
+  .before-after-wrapper :global(.highlight) {
+    color: var(--oceanic-teal);
+  }
+
+  /* Advantages */
+  .advantages-section {
+    margin-bottom: 60px;
+  }
+
+  .advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .advantage-item {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+  }
+
+  .advantage-number {
+    width: 28px;
+    height: 28px;
+    background: var(--glass-teal);
+    color: var(--oceanic-teal);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .advantage-item p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* Fair Assessment */
+  .fair-assessment {
+    margin-bottom: 60px;
+  }
+
+  .assessment-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .assessment-content h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .assessment-intro {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+  }
+
+  .strength-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+  }
+
+  .strength-list li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 10px 0;
+    font-size: 15px;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .strength-list li:last-child {
+    border-bottom: none;
+  }
+
+  .strength-list li::before {
+    content: "•";
+    color: var(--copper-500);
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  .best-for {
+    padding: 20px;
+    background: rgba(184, 153, 113, 0.1);
+    border-radius: 12px;
+  }
+
+  .best-for h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .best-for ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .best-for li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 6px 0;
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .best-for li::before {
+    content: "→";
+    color: var(--copper-600);
+    flex-shrink: 0;
+  }
+
+  /* FAQ */
+  .faq-section {
+    margin-bottom: 60px;
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 60px;
+  }
+
+  /* Other Comparisons */
+  .other-comparisons {
+    text-align: center;
+    padding: 40px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+  }
+
+  .other-comparisons h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 20px;
+  }
+
+  .comparisons-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .comparison-link {
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--navy-900);
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+
+  .comparison-link:hover {
+    border-color: var(--oceanic-teal);
+    color: var(--oceanic-teal);
+  }
+
+  .comparison-link.all {
+    background: var(--glass-teal);
+    border-color: var(--oceanic-teal);
+    color: var(--oceanic-teal);
+  }
+
+  @media (max-width: 768px) {
+    .hero-cta {
+      flex-direction: column;
+    }
+
+    .tldr-grid {
+      flex-direction: column;
+    }
+
+    .tldr-divider {
+      width: 100%;
+      height: 1px;
+    }
+
+    .tldr-item {
+      max-width: 100%;
+    }
+
+    .table-header,
+    .table-row {
+      grid-template-columns: 1fr 90px 90px;
+      gap: 8px;
+      font-size: 13px;
+      padding: 12px 16px;
+    }
+
+    .advantages-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

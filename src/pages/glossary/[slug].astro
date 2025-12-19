@@ -1,0 +1,418 @@
+---
+/**
+ * Dynamic Glossary Term Page
+ * Individual definitions with related terms and solutions
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import Button from '@/components/Button.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { glossaryTerms, getGlossaryTermBySlug, getRelatedTerms, type GlossaryTerm } from '@data/glossary';
+import { solutions } from '@data/solutions';
+
+export function getStaticPaths() {
+  return glossaryTerms.map(term => ({
+    params: { slug: term.slug },
+    props: { term }
+  }));
+}
+
+interface Props {
+  term: GlossaryTerm;
+}
+
+const { term } = Astro.props;
+
+// Get related terms
+const relatedTerms = getRelatedTerms(term);
+
+// Get related solutions
+const relatedSolutions = term.relatedSolutions
+  .map(slug => solutions.find(s => s.slug === slug))
+  .filter(Boolean);
+
+// Category labels and colors
+const categoryLabels: Record<string, string> = {
+  operations: 'Operations',
+  technology: 'Technology',
+  compliance: 'Compliance',
+  metrics: 'Metrics',
+  marketing: 'Marketing'
+};
+
+// Get other terms for "More Terms" section
+const otherTerms = glossaryTerms
+  .filter(t => t.slug !== term.slug)
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 4);
+---
+
+<PageLayout
+  title={`${term.term} - Definition | mybcat Glossary`}
+  description={term.definition}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Glossary', url: '/glossary/' },
+    { name: term.term }
+  ]}
+>
+  <div class="term-page">
+    <!-- Term Header -->
+    <section class="term-header">
+      <span class="category-badge" data-category={term.category}>
+        {categoryLabels[term.category]}
+      </span>
+      <h1>{term.term}</h1>
+      <p class="definition">{term.definition}</p>
+    </section>
+
+    <!-- Detailed Explanation -->
+    <section class="explanation-section">
+      <Card variant="feature">
+        <div class="explanation-content">
+          <h2>What Does This Mean?</h2>
+          <p>{term.detailedExplanation}</p>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Examples (if available) -->
+    {term.examples && term.examples.length > 0 && (
+      <section class="examples-section">
+        <h2>Examples</h2>
+        <ul class="examples-list">
+          {term.examples.map(example => (
+            <li>{example}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <!-- Related Terms -->
+    {relatedTerms.length > 0 && (
+      <section class="related-terms-section">
+        <h2>Related Terms</h2>
+        <div class="related-grid">
+          {relatedTerms.map(relatedTerm => (
+            <a href={`/glossary/${relatedTerm.slug}/`} class="related-card">
+              <h3>{relatedTerm.term}</h3>
+              <p>{relatedTerm.definition}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Related Solutions -->
+    {relatedSolutions.length > 0 && (
+      <section class="solutions-section">
+        <h2>mybcat Solutions</h2>
+        <p class="solutions-intro">Learn how mybcat addresses {term.term.toLowerCase()}:</p>
+        <div class="solutions-grid">
+          {relatedSolutions.map(solution => (
+            <a href={`/solutions/${solution!.slug}/`} class="solution-card">
+              <h3>{solution!.name}</h3>
+              <p>{solution!.tagline}</p>
+              <span class="arrow">→</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- More Terms -->
+    <section class="more-terms-section">
+      <h2>Explore More Terms</h2>
+      <div class="more-terms-grid">
+        {otherTerms.map(otherTerm => (
+          <a href={`/glossary/${otherTerm.slug}/`} class="more-term">
+            {otherTerm.term}
+          </a>
+        ))}
+      </div>
+      <div class="all-terms-link">
+        <a href="/glossary/">View All Glossary Terms →</a>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Need Help With Your Practice?"
+        description={`Talk to our team about improving ${term.term.toLowerCase()} and other practice operations.`}
+        buttonText="Schedule a Call"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .term-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Header */
+  .term-header {
+    text-align: center;
+    padding: 40px 0 48px;
+  }
+
+  .category-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+  }
+
+  .category-badge[data-category="operations"] { background: #E0F2FE; color: #0369A1; }
+  .category-badge[data-category="technology"] { background: #EDE9FE; color: #6D28D9; }
+  .category-badge[data-category="compliance"] { background: #FEE2E2; color: #B91C1C; }
+  .category-badge[data-category="metrics"] { background: #D1FAE5; color: #047857; }
+  .category-badge[data-category="marketing"] { background: #FEF3C7; color: #B45309; }
+
+  .term-header h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .definition {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  /* Explanation */
+  .explanation-section {
+    margin-bottom: 48px;
+  }
+
+  .explanation-content h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .explanation-content p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+
+  /* Examples */
+  .examples-section {
+    margin-bottom: 48px;
+  }
+
+  .examples-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .examples-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .examples-list li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 16px 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  .examples-list li::before {
+    content: "→";
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  /* Related Terms */
+  .related-terms-section {
+    margin-bottom: 48px;
+  }
+
+  .related-terms-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+  }
+
+  .related-card {
+    display: block;
+    padding: 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .related-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-2px);
+  }
+
+  .related-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .related-card p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Solutions */
+  .solutions-section {
+    margin-bottom: 48px;
+    padding: 32px;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.05) 0%, transparent 100%);
+    border-radius: 20px;
+    border: 1px solid var(--glass-border);
+  }
+
+  .solutions-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .solutions-intro {
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+  }
+
+  .solutions-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .solution-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: white;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .solution-card:hover {
+    transform: translateX(4px);
+  }
+
+  .solution-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin: 0;
+  }
+
+  .solution-card p {
+    flex: 1;
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  .solution-card .arrow {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  /* More Terms */
+  .more-terms-section {
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  .more-terms-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 20px;
+  }
+
+  .more-terms-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .more-term {
+    padding: 10px 18px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--navy-900);
+    transition: all 0.2s;
+  }
+
+  .more-term:hover {
+    border-color: var(--oceanic-teal);
+    color: var(--oceanic-teal);
+  }
+
+  .all-terms-link a {
+    color: var(--oceanic-teal);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .all-terms-link a:hover {
+    text-decoration: underline;
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 0;
+  }
+</style>

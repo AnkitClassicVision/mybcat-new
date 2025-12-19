@@ -1,0 +1,317 @@
+---
+/**
+ * Terms of Service Page
+ * Legal terms and conditions for mybcat services
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import { company } from '@data/company';
+
+const pageTitle = 'Terms of Service';
+const pageDescription = 'Terms of Service for mybcat patient acquisition and healthcare call center services. Read our service agreement and usage terms.';
+const lastUpdated = 'December 1, 2024';
+---
+
+<PageLayout
+  title={`${pageTitle} | mybcat`}
+  description={pageDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Terms of Service' }
+  ]}
+>
+  <div class="legal-page">
+    <header class="legal-header">
+      <h1>{pageTitle}</h1>
+      <p class="last-updated">Last Updated: {lastUpdated}</p>
+    </header>
+
+    <div class="legal-content">
+      <section>
+        <h2>1. Agreement to Terms</h2>
+        <p>
+          By accessing or using mybcat's services ("Services"), you agree to be bound by these Terms of Service ("Terms").
+          If you are entering into these Terms on behalf of a business or other legal entity, you represent that you have
+          the authority to bind such entity to these Terms.
+        </p>
+        <p>
+          mybcat is operated by My Business Care Team LLC ("{company.shortName}"), a Georgia limited liability company
+          located at {company.address.city}, {company.address.state} {company.address.zip}.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Description of Services</h2>
+        <p>
+          mybcat provides patient acquisition and front-office support services for healthcare practices, including but not limited to:
+        </p>
+        <ul>
+          <li>Patient intake and appointment scheduling</li>
+          <li>Inbound and outbound call handling</li>
+          <li>Patient recall and reactivation campaigns</li>
+          <li>No-show recovery and appointment optimization</li>
+          <li>EHR/PM system integration and data entry</li>
+          <li>After-hours call coverage</li>
+        </ul>
+        <p>
+          The specific services provided to your practice will be defined in your Service Agreement.
+        </p>
+      </section>
+
+      <section>
+        <h2>3. Service Agreement</h2>
+        <p>
+          Use of mybcat Services requires a separate Service Agreement that defines:
+        </p>
+        <ul>
+          <li>Scope of services to be provided</li>
+          <li>Pricing and payment terms</li>
+          <li>Service level commitments</li>
+          <li>Term and termination provisions</li>
+          <li>HIPAA Business Associate Agreement</li>
+        </ul>
+        <p>
+          In the event of any conflict between these Terms and your Service Agreement, the Service Agreement shall control.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. HIPAA Compliance</h2>
+        <p>
+          mybcat operates as a Business Associate under HIPAA regulations. We will:
+        </p>
+        <ul>
+          <li>Execute a Business Associate Agreement (BAA) with each client</li>
+          <li>Maintain appropriate safeguards for Protected Health Information (PHI)</li>
+          <li>Train all team members on HIPAA requirements</li>
+          <li>Report any security incidents as required by law</li>
+          <li>Use and disclose PHI only as permitted by the BAA and HIPAA</li>
+        </ul>
+        <p>
+          You acknowledge that you are a Covered Entity or Business Associate under HIPAA and will comply with all
+          applicable HIPAA requirements in your use of our Services.
+        </p>
+      </section>
+
+      <section>
+        <h2>5. Client Responsibilities</h2>
+        <p>
+          As a mybcat client, you agree to:
+        </p>
+        <ul>
+          <li>Provide accurate information about your practice and workflows</li>
+          <li>Grant appropriate system access for service delivery</li>
+          <li>Maintain valid licenses and credentials for your practice</li>
+          <li>Respond to inquiries and escalations in a timely manner</li>
+          <li>Pay all fees according to the Service Agreement</li>
+          <li>Comply with all applicable laws and regulations</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Payment Terms</h2>
+        <p>
+          Payment terms are defined in your Service Agreement. Generally:
+        </p>
+        <ul>
+          <li>Fees are billed monthly in advance</li>
+          <li>Payment is due within 15 days of invoice</li>
+          <li>Late payments may incur interest charges</li>
+          <li>Failure to pay may result in service suspension</li>
+        </ul>
+        <p>
+          You agree to pay all applicable taxes related to your use of the Services.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Intellectual Property</h2>
+        <p>
+          mybcat retains all rights to our technology, processes, training materials, and other intellectual property.
+          You retain all rights to your patient data, practice information, and other proprietary content.
+        </p>
+        <p>
+          You grant mybcat a limited license to use your practice information solely for the purpose of providing the Services.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Confidentiality</h2>
+        <p>
+          Both parties agree to maintain the confidentiality of proprietary information received from the other party.
+          This includes business practices, patient information, financial data, and trade secrets.
+        </p>
+        <p>
+          Confidentiality obligations survive termination of the Service Agreement.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Limitation of Liability</h2>
+        <p>
+          TO THE MAXIMUM EXTENT PERMITTED BY LAW, MYBCAT SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+          CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, OR BUSINESS OPPORTUNITIES.
+        </p>
+        <p>
+          OUR TOTAL LIABILITY SHALL NOT EXCEED THE FEES PAID BY YOU IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+        </p>
+        <p>
+          These limitations do not apply to breaches of confidentiality or HIPAA obligations.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Indemnification</h2>
+        <p>
+          You agree to indemnify and hold harmless mybcat and its officers, directors, employees, and agents from any
+          claims, damages, or expenses arising from:
+        </p>
+        <ul>
+          <li>Your breach of these Terms or the Service Agreement</li>
+          <li>Your violation of applicable laws or regulations</li>
+          <li>Your negligence or willful misconduct</li>
+          <li>Claims by third parties related to your use of the Services</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>11. Term and Termination</h2>
+        <p>
+          The term of service is defined in your Service Agreement. Either party may terminate:
+        </p>
+        <ul>
+          <li>For material breach, with 30 days' written notice and opportunity to cure</li>
+          <li>Immediately for breach of HIPAA or confidentiality obligations</li>
+          <li>As otherwise specified in the Service Agreement</li>
+        </ul>
+        <p>
+          Upon termination, you remain responsible for fees accrued through the termination date.
+          We will assist with reasonable transition of services and data.
+        </p>
+      </section>
+
+      <section>
+        <h2>12. Modifications</h2>
+        <p>
+          We may modify these Terms from time to time. We will provide notice of material changes at least 30 days
+          before they take effect. Your continued use of the Services after changes become effective constitutes
+          acceptance of the modified Terms.
+        </p>
+      </section>
+
+      <section>
+        <h2>13. Governing Law</h2>
+        <p>
+          These Terms are governed by the laws of the State of Georgia, without regard to conflict of law principles.
+          Any disputes shall be resolved in the state or federal courts located in Cobb County, Georgia.
+        </p>
+      </section>
+
+      <section>
+        <h2>14. Miscellaneous</h2>
+        <ul>
+          <li><strong>Entire Agreement:</strong> These Terms and your Service Agreement constitute the entire agreement between the parties.</li>
+          <li><strong>Severability:</strong> If any provision is found unenforceable, the remaining provisions remain in effect.</li>
+          <li><strong>Waiver:</strong> Failure to enforce any right does not constitute a waiver of that right.</li>
+          <li><strong>Assignment:</strong> You may not assign these Terms without our written consent.</li>
+          <li><strong>Force Majeure:</strong> Neither party is liable for delays caused by events beyond their reasonable control.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>15. Contact Information</h2>
+        <p>
+          For questions about these Terms of Service, please contact us at:
+        </p>
+        <address>
+          <strong>{company.name}</strong><br>
+          {company.address.city}, {company.address.state} {company.address.zip}<br>
+          Email: <a href={`mailto:${company.email}`}>{company.email}</a>
+        </address>
+      </section>
+    </div>
+  </div>
+</PageLayout>
+
+<style>
+  .legal-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  .legal-header {
+    text-align: center;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 2px solid var(--glass-border);
+  }
+
+  .legal-header h1 {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .last-updated {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .legal-content section {
+    margin-bottom: 32px;
+  }
+
+  .legal-content h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .legal-content p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+  }
+
+  .legal-content ul {
+    margin: 16px 0;
+    padding-left: 24px;
+  }
+
+  .legal-content li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+  }
+
+  .legal-content address {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    background: var(--spatial-glass);
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .legal-content address a {
+    color: var(--oceanic-teal);
+    text-decoration: none;
+  }
+
+  .legal-content address a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 640px) {
+    .legal-page {
+      padding: 24px 16px 60px;
+    }
+  }
+</style>

@@ -1,0 +1,490 @@
+---
+/**
+ * Careers Page
+ * Job opportunities at mybcat
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import Button from '@/components/Button.astro';
+import { company } from '@data/company';
+
+const pageTitle = 'Careers at mybcat';
+const pageDescription = 'Join the mybcat team and help healthcare practices grow. Explore career opportunities in patient coordination, operations, and technology.';
+
+// Current openings (can be updated as needed)
+const openings = [
+  // Uncomment and add positions when available
+  // {
+  //   title: 'Patient Coordinator',
+  //   location: 'Remote (US)',
+  //   type: 'Full-time',
+  //   description: 'Handle inbound patient calls, schedule appointments, and provide excellent service for healthcare practices.',
+  //   requirements: [
+  //     '1+ years healthcare experience',
+  //     'Experience with EHR/PM systems',
+  //     'Excellent communication skills',
+  //     'Available for training hours'
+  //   ]
+  // }
+];
+
+// Company values
+const values = [
+  {
+    title: 'Patient-First Mindset',
+    description: 'Every call is someone\'s healthcare journey. We treat every interaction with care and professionalism.',
+    icon: '❤️'
+  },
+  {
+    title: 'Ownership & Accountability',
+    description: 'We take responsibility for our work and deliver on our commitments to practices and patients.',
+    icon: '🎯'
+  },
+  {
+    title: 'Continuous Improvement',
+    description: 'We\'re always learning, adapting, and finding better ways to serve our clients.',
+    icon: '📈'
+  },
+  {
+    title: 'Team Collaboration',
+    description: 'We support each other. When one person succeeds, we all succeed.',
+    icon: '🤝'
+  }
+];
+
+// Benefits
+const benefits = [
+  'Competitive compensation',
+  'Remote-first work environment',
+  'Comprehensive training program',
+  'Healthcare industry experience',
+  'Growth opportunities',
+  'Supportive team culture'
+];
+---
+
+<PageLayout
+  title={`${pageTitle} | mybcat`}
+  description={pageDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Careers' }
+  ]}
+>
+  <div class="careers-page">
+    <!-- Hero -->
+    <section class="careers-hero">
+      <span class="eyebrow">Join Our Team</span>
+      <h1>{pageTitle}</h1>
+      <p class="hero-description">
+        Help healthcare practices capture more patients and grow their businesses.
+        We're building the future of patient acquisition—and we'd love for you to be part of it.
+      </p>
+    </section>
+
+    <!-- Mission Statement -->
+    <section class="mission-section">
+      <Card variant="pricing">
+        <div class="mission-content">
+          <h2>Our Mission</h2>
+          <p>
+            Every missed call is a patient who didn't get the care they needed and a practice
+            that lost revenue. We exist to ensure every patient gets through—and every practice
+            can focus on what they do best: providing excellent care.
+          </p>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Values -->
+    <section class="values-section">
+      <div class="section-header">
+        <h2>What We Value</h2>
+        <p>The principles that guide our work and culture.</p>
+      </div>
+
+      <div class="values-grid">
+        {values.map(value => (
+          <div class="value-card">
+            <span class="value-icon">{value.icon}</span>
+            <h3>{value.title}</h3>
+            <p>{value.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits-section">
+      <div class="section-header">
+        <h2>Why Work With Us</h2>
+        <p>What you'll get as part of the mybcat team.</p>
+      </div>
+
+      <div class="benefits-list">
+        {benefits.map(benefit => (
+          <div class="benefit-item">
+            <span class="check">✓</span>
+            <span>{benefit}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Current Openings -->
+    <section class="openings-section">
+      <div class="section-header">
+        <h2>Current Openings</h2>
+        {openings.length > 0 ? (
+          <p>Explore our open positions below.</p>
+        ) : (
+          <p>We're always looking for talented people to join our team.</p>
+        )}
+      </div>
+
+      {openings.length > 0 ? (
+        <div class="openings-list">
+          {openings.map(job => (
+            <Card variant="feature" class="job-card">
+              <div class="job-header">
+                <h3>{job.title}</h3>
+                <div class="job-meta">
+                  <span class="job-location">{job.location}</span>
+                  <span class="job-type">{job.type}</span>
+                </div>
+              </div>
+              <p class="job-description">{job.description}</p>
+              <div class="job-requirements">
+                <h4>Requirements:</h4>
+                <ul>
+                  {job.requirements.map(req => (
+                    <li>{req}</li>
+                  ))}
+                </ul>
+              </div>
+              <Button href={`mailto:${company.email}?subject=Application: ${job.title}`}>
+                Apply Now
+              </Button>
+            </Card>
+          ))}
+        </div>
+      ) : (
+        <div class="no-openings">
+          <Card variant="testimonial">
+            <div class="no-openings-content">
+              <h3>No Current Openings</h3>
+              <p>
+                We don't have any positions open right now, but we're always interested in
+                hearing from talented people who share our passion for helping healthcare
+                practices grow.
+              </p>
+              <p>
+                Send us your resume and tell us why you'd be a great fit for mybcat.
+              </p>
+              <Button href={`mailto:${company.email}?subject=General Application - mybcat Careers`}>
+                Send Your Resume
+              </Button>
+            </div>
+          </Card>
+        </div>
+      )}
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section">
+      <div class="contact-content">
+        <h2>Questions About Careers?</h2>
+        <p>
+          Reach out to our team at <a href={`mailto:${company.email}`}>{company.email}</a>
+        </p>
+      </div>
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .careers-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .careers-hero {
+    text-align: center;
+    padding: 40px 0 48px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .careers-hero h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  /* Mission */
+  .mission-section {
+    margin-bottom: 60px;
+  }
+
+  .mission-content {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  .mission-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .mission-content p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+
+  /* Section Headers */
+  .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+  }
+
+  /* Values */
+  .values-section {
+    margin-bottom: 60px;
+  }
+
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .value-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .value-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .value-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .value-card p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* Benefits */
+  .benefits-section {
+    margin-bottom: 60px;
+  }
+
+  .benefits-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .benefit-item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 16px 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+
+  .check {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  /* Openings */
+  .openings-section {
+    margin-bottom: 60px;
+  }
+
+  .openings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  :global(.job-card) {
+    padding: 32px;
+  }
+
+  .job-header {
+    margin-bottom: 16px;
+  }
+
+  .job-header h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .job-meta {
+    display: flex;
+    gap: 16px;
+  }
+
+  .job-location,
+  .job-type {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .job-description {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  .job-requirements {
+    margin-bottom: 24px;
+  }
+
+  .job-requirements h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .job-requirements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .job-requirements li {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+  }
+
+  .job-requirements li::before {
+    content: "•";
+    color: var(--oceanic-teal);
+  }
+
+  /* No Openings */
+  .no-openings-content {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .no-openings-content h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .no-openings-content p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  /* Contact */
+  .contact-section {
+    text-align: center;
+    padding: 40px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+  }
+
+  .contact-content h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .contact-content p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+  }
+
+  .contact-content a {
+    color: var(--oceanic-teal);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .contact-content a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 640px) {
+    .values-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .benefits-list {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

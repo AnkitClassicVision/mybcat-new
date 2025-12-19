@@ -1,0 +1,410 @@
+---
+/**
+ * Compare Hub Page
+ * Lists all competitor comparison pages
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { competitors } from '@data/competitors';
+
+const pageTitle = 'Compare mybcat to Alternatives';
+const pageDescription = 'See how mybcat compares to virtual assistants, call centers, and other healthcare practice solutions. Find the right fit for your practice.';
+---
+
+<PageLayout
+  title={`${pageTitle} | mybcat`}
+  description={pageDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Compare' }
+  ]}
+>
+  <div class="compare-hub">
+    <!-- Hero -->
+    <section class="hub-hero">
+      <span class="eyebrow">Compare Solutions</span>
+      <h1>{pageTitle}</h1>
+      <p class="hero-description">
+        Not sure if mybcat is right for your practice? We believe in transparency.
+        See honest comparisons with other solutions so you can make the best decision for your team.
+      </p>
+    </section>
+
+    <!-- Comparison Grid -->
+    <section class="comparisons-section">
+      <div class="comparisons-grid">
+        {competitors.map(competitor => (
+          <a href={`/compare/${competitor.slug}/`} class="comparison-card">
+            <Card variant="feature">
+              <div class="card-content">
+                <span class="vs-badge">vs</span>
+                <h2>{competitor.name}</h2>
+                <p class="competitor-model">{competitor.model}</p>
+                <p class="competitor-tagline">{competitor.tagline}</p>
+                <div class="card-cta">
+                  <span>Compare Now</span>
+                  <span class="arrow">&rarr;</span>
+                </div>
+              </div>
+            </Card>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Why Compare Section -->
+    <section class="why-compare">
+      <h2>Why We Publish Comparisons</h2>
+      <div class="reasons-grid">
+        <div class="reason">
+          <div class="reason-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3>Transparency Builds Trust</h3>
+          <p>We want you to choose mybcat because it's genuinely the best fit, not because you didn't know about alternatives.</p>
+        </div>
+        <div class="reason">
+          <div class="reason-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 6v6l4 2"></path>
+            </svg>
+          </div>
+          <h3>Save Your Research Time</h3>
+          <p>We've done the competitive analysis so you don't have to spend hours comparing features and pricing models.</p>
+        </div>
+        <div class="reason">
+          <div class="reason-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <h3>Fair Assessments</h3>
+          <p>We acknowledge where competitors excel. Our goal is helping you find the right solution - even if it's not us.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Comparison Table -->
+    <section class="quick-comparison">
+      <h2>Quick Comparison Overview</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Solution</th>
+              <th>Pricing Model</th>
+              <th>Management</th>
+              <th>Technology</th>
+              <th>Best For</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="mybcat-row">
+              <td><strong>mybcat</strong></td>
+              <td>Outcome-based</td>
+              <td>Fully managed</td>
+              <td>AI + Dashboard</td>
+              <td>Growth practices wanting results</td>
+            </tr>
+            <tr>
+              <td>Hello Rache</td>
+              <td>$9.50/hr</td>
+              <td>Self-managed</td>
+              <td>None</td>
+              <td>Budget-focused, hands-on owners</td>
+            </tr>
+            <tr>
+              <td>HireTeem</td>
+              <td>$11/hr</td>
+              <td>Self-managed</td>
+              <td>None</td>
+              <td>Budget-focused, direct control</td>
+            </tr>
+            <tr>
+              <td>Virtual Assistants</td>
+              <td>$8-15/hr</td>
+              <td>You hire & manage</td>
+              <td>You provide</td>
+              <td>Practices with management capacity</td>
+            </tr>
+            <tr>
+              <td>Call Centers</td>
+              <td>Per call/minute</td>
+              <td>Managed</td>
+              <td>Basic</td>
+              <td>High volume, message-taking only</td>
+            </tr>
+            <tr>
+              <td>AI Receptionists</td>
+              <td>SaaS subscription</td>
+              <td>Self-configured</td>
+              <td>AI-only</td>
+              <td>Simple scheduling, tech-savvy patients</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Still Have Questions?"
+        description="Talk to our team about your specific situation. We'll give you an honest assessment of whether mybcat is right for your practice."
+        buttonText="Schedule a Call"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .compare-hub {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .hub-hero {
+    text-align: center;
+    padding: 40px 0 60px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .hub-hero h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  /* Comparisons Grid */
+  .comparisons-section {
+    margin-bottom: 60px;
+  }
+
+  .comparisons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+
+  .comparison-card {
+    text-decoration: none;
+    display: block;
+    transition: transform 0.2s;
+  }
+
+  .comparison-card:hover {
+    transform: translateY(-4px);
+  }
+
+  .card-content {
+    position: relative;
+    text-align: center;
+  }
+
+  .vs-badge {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 36px;
+    height: 36px;
+    background: var(--glass-copper);
+    color: var(--copper-700);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .card-content h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .competitor-model {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+
+  .competitor-tagline {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .card-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .arrow {
+    transition: transform 0.2s;
+  }
+
+  .comparison-card:hover .arrow {
+    transform: translateX(4px);
+  }
+
+  /* Why Compare */
+  .why-compare {
+    margin-bottom: 60px;
+    padding: 48px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+  }
+
+  .why-compare h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 32px;
+  }
+
+  .reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+
+  .reason {
+    text-align: center;
+  }
+
+  .reason-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--glass-teal);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .reason h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .reason p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* Quick Comparison Table */
+  .quick-comparison {
+    margin-bottom: 60px;
+  }
+
+  .quick-comparison h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 24px;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    border-radius: 16px;
+    border: 1px solid var(--glass-border);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  th {
+    background: var(--spatial-glass);
+    font-weight: 600;
+    color: var(--navy-900);
+    white-space: nowrap;
+  }
+
+  td {
+    color: var(--text-secondary);
+  }
+
+  .mybcat-row {
+    background: linear-gradient(90deg, rgba(0, 128, 128, 0.05) 0%, transparent 100%);
+  }
+
+  .mybcat-row td {
+    color: var(--navy-900);
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    .reasons-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .table-wrapper {
+      font-size: 13px;
+    }
+
+    th, td {
+      padding: 12px;
+    }
+  }
+</style>

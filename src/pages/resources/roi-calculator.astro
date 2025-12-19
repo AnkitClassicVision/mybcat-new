@@ -1,0 +1,330 @@
+---
+/**
+ * ROI Calculator Page
+ * Interactive tool to calculate potential revenue impact
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+import ROICalculator from '@/components/islands/ROICalculator';
+
+const pageTitle = 'ROI Calculator';
+const pageDescription = 'Calculate how much revenue your practice is losing to missed calls and see your potential recovery with mybcat. Free interactive tool.';
+---
+
+<PageLayout
+  title={`${pageTitle} | mybcat`}
+  description={pageDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Resources', url: '/resources/' },
+    { name: 'ROI Calculator' }
+  ]}
+>
+  <div class="calculator-page">
+    <!-- Hero -->
+    <section class="page-hero">
+      <span class="eyebrow">Free Tool</span>
+      <h1>How Much Revenue Are You Losing to Missed Calls?</h1>
+      <p class="hero-description">
+        Use our interactive calculator to estimate your practice's lost revenue from missed calls
+        and see how much you could recover with mybcat's patient intake services.
+      </p>
+    </section>
+
+    <!-- Calculator Component -->
+    <section class="calculator-section">
+      <ROICalculator client:load />
+    </section>
+
+    <!-- How We Calculate -->
+    <section class="methodology-section">
+      <Card variant="pricing">
+        <div class="methodology-content">
+          <h2>How We Calculate This</h2>
+          <div class="methodology-grid">
+            <div class="methodology-item">
+              <h3>Lost Revenue Formula</h3>
+              <p>
+                <code>Missed Calls × Conversion Rate × Avg Appointment Value</code>
+              </p>
+              <p class="explanation">
+                We calculate missed calls from your total volume and missed rate, then apply
+                your conversion rate to estimate lost patient appointments.
+              </p>
+            </div>
+            <div class="methodology-item">
+              <h3>Recovery Assumptions</h3>
+              <p>
+                mybcat achieves <strong>95%+ call answer rate</strong> and typically improves
+                conversion by <strong>5-10%</strong> through trained healthcare specialists.
+              </p>
+            </div>
+            <div class="methodology-item">
+              <h3>Industry Benchmarks</h3>
+              <p>
+                Default values are based on industry research. Optometry practices miss ~29% of calls,
+                dental ~25%, veterinary ~30%. Your actual rates may vary.
+              </p>
+            </div>
+          </div>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Why This Matters -->
+    <section class="impact-section">
+      <div class="section-header">
+        <h2>The Real Cost of Missed Calls</h2>
+        <p>Every unanswered call has a ripple effect on your practice.</p>
+      </div>
+
+      <div class="impact-grid">
+        <div class="impact-item">
+          <span class="impact-stat">87%</span>
+          <p>of patients who reach voicemail never call back</p>
+        </div>
+        <div class="impact-item">
+          <span class="impact-stat">$2,400+</span>
+          <p>average lifetime value of a single patient</p>
+        </div>
+        <div class="impact-item">
+          <span class="impact-stat">29%</span>
+          <p>of calls go unanswered at busy practices</p>
+        </div>
+        <div class="impact-item">
+          <span class="impact-stat">$100K+</span>
+          <p>annual revenue lost to missed calls (typical)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial-section">
+      <Card variant="testimonial">
+        <div class="testimonial-content">
+          <blockquote>
+            "Honestly it was a godsend. You have taken a process that we struggled with,
+            and once we got the kinks figured out, you just run with it."
+          </blockquote>
+          <cite>
+            <strong>Dr. Michael Dittman</strong>
+            <span>Dittman Eye Care (5 locations)</span>
+          </cite>
+        </div>
+      </Card>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Want a Custom Analysis?"
+        description="Our team can analyze your specific situation and provide personalized recommendations for your practice."
+        buttonText="Schedule a Consultation"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .calculator-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .page-hero {
+    text-align: center;
+    padding: 40px 0 48px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 16px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-description {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Calculator */
+  .calculator-section {
+    margin-bottom: 60px;
+  }
+
+  /* Methodology */
+  .methodology-section {
+    margin-bottom: 60px;
+  }
+
+  .methodology-content h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .methodology-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .methodology-item h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .methodology-item code {
+    display: block;
+    background: var(--spatial-glass);
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: var(--oceanic-teal);
+    margin-bottom: 12px;
+    font-family: monospace;
+  }
+
+  .methodology-item p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  .methodology-item .explanation {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  /* Section Headers */
+  .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+  }
+
+  /* Impact Section */
+  .impact-section {
+    margin-bottom: 60px;
+  }
+
+  .impact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .impact-item {
+    text-align: center;
+    padding: 24px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+  }
+
+  .impact-stat {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--oceanic-teal);
+    margin-bottom: 8px;
+  }
+
+  .impact-item p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  /* Testimonial */
+  .testimonial-section {
+    margin-bottom: 60px;
+  }
+
+  .testimonial-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .testimonial-content blockquote {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--navy-900);
+    line-height: 1.7;
+    margin: 0 0 24px;
+  }
+
+  .testimonial-content cite {
+    font-style: normal;
+  }
+
+  .testimonial-content cite strong {
+    display: block;
+    font-size: 1rem;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .testimonial-content cite span {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    .methodology-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .impact-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .impact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

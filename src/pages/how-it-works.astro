@@ -1,0 +1,704 @@
+---
+/**
+ * How It Works Page
+ * Detailed overview of mybcat's onboarding process and service model
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import Button from '@/components/Button.astro';
+import Stats from '@/components/sections/Stats.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { faqs, getFAQsByCategory } from '@data/faq';
+import { generateServiceSchema, generateFAQSchema, combineSchemas, serializeSchema } from '@/utils/schema';
+import { company } from '@data/company';
+
+const pageTitle = 'How mybcat Works';
+const pageDescription = 'Learn how mybcat onboards your practice in 2-3 weeks. From discovery call to full integration with your EHR, see exactly how we become your patient acquisition team.';
+
+// Get onboarding FAQs
+const onboardingFaqs = getFAQsByCategory('onboarding');
+
+// Generate schemas
+const pageUrl = `${company.site.url}/how-it-works/`;
+const serviceSchema = generateServiceSchema({
+  name: 'mybcat Onboarding Process',
+  description: pageDescription,
+  url: pageUrl,
+  serviceType: 'Healthcare Practice Onboarding'
+});
+const faqSchema = generateFAQSchema(onboardingFaqs);
+const combinedSchema = combineSchemas(serviceSchema, faqSchema);
+
+// Process steps with detailed info
+const processSteps = [
+  {
+    step: 1,
+    title: 'Discovery Call',
+    duration: 'Day 1',
+    description: 'We start with a 30-minute call to understand your practice.',
+    details: [
+      'Learn your specific workflows and patient types',
+      'Identify your EHR/PM system and integration needs',
+      'Understand your scheduling rules and preferences',
+      'Document your phone handling protocols',
+      'Discuss your growth goals and pain points'
+    ]
+  },
+  {
+    step: 2,
+    title: 'Integration Setup',
+    duration: 'Days 2-5',
+    description: 'We connect to your systems and train our team.',
+    details: [
+      'Set up EHR/PM access for our team',
+      'Configure phone system integration',
+      'Build your custom protocol documentation',
+      'Train team members on your specific workflows',
+      'Test all integrations before going live'
+    ]
+  },
+  {
+    step: 3,
+    title: 'Soft Launch',
+    duration: 'Week 2',
+    description: 'We start handling calls with your team\'s oversight.',
+    details: [
+      'Begin taking overflow and test calls',
+      'Daily check-ins to refine processes',
+      'Adjust protocols based on real scenarios',
+      'Build familiarity with your patient base',
+      'Identify edge cases and document solutions'
+    ]
+  },
+  {
+    step: 4,
+    title: 'Full Go-Live',
+    duration: 'Week 3-4',
+    description: 'We become your fully operational patient intake team.',
+    details: [
+      'Handle all inbound patient calls',
+      'Full appointment scheduling capability',
+      'Recall and reactivation campaigns begin',
+      'Dashboard access for real-time visibility',
+      'Ongoing optimization and reporting'
+    ]
+  }
+];
+
+// What you get
+const benefits = [
+  {
+    title: 'Trained Healthcare Specialists',
+    description: 'Your team arrives pre-trained on healthcare workflows, insurance verification, and your specific EHR system.',
+    icon: '👥'
+  },
+  {
+    title: 'Real-Time Dashboard',
+    description: 'See every call, appointment, and metric in real-time. Full visibility into your patient acquisition operations.',
+    icon: '📊'
+  },
+  {
+    title: 'AI + Human Coverage',
+    description: 'AI handles after-hours and overflow. Humans handle complex calls. You get the best of both worlds.',
+    icon: '🤖'
+  },
+  {
+    title: 'Direct EHR Integration',
+    description: 'Appointments booked directly into your system. No message-taking, no callbacks required.',
+    icon: '🔗'
+  },
+  {
+    title: 'HIPAA Compliance Built-In',
+    description: 'Full BAA, encrypted communications, and compliant data handling. Security isn\'t an add-on.',
+    icon: '🔒'
+  },
+  {
+    title: 'Outcome-Based Model',
+    description: 'We succeed when you succeed. Our pricing aligns our incentives with your growth goals.',
+    icon: '📈'
+  }
+];
+---
+
+<PageLayout
+  title={`${pageTitle} | mybcat`}
+  description={pageDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'How It Works' }
+  ]}
+>
+  <script type="application/ld+json" set:html={serializeSchema(combinedSchema)} slot="head" />
+
+  <div class="how-it-works-page">
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <span class="eyebrow">Simple Onboarding</span>
+      <h1>{pageTitle}</h1>
+      <p class="hero-description">
+        From first call to full integration in 2-3 weeks. Here's exactly how we become
+        your patient acquisition team—without disrupting your practice.
+      </p>
+      <div class="hero-cta">
+        <Button href="/contact/">Start Your Onboarding</Button>
+        <a href="#process" class="text-link">See the process</a>
+      </div>
+    </section>
+
+    <!-- Timeline Stats -->
+    <section class="timeline-stats">
+      <Stats
+        items={[
+          { value: '30', suffix: 'min', label: 'Discovery Call' },
+          { value: '5', suffix: 'days', label: 'AI Intake Ready' },
+          { value: '2-3', suffix: 'weeks', label: 'Full Integration' }
+        ]}
+        variant="compact"
+      />
+    </section>
+
+    <!-- TL;DR -->
+    <section class="tldr-section">
+      <Card variant="pricing">
+        <div class="tldr-content">
+          <h2>TL;DR</h2>
+          <p>
+            <strong>Step 1:</strong> 30-minute discovery call to learn your practice.
+            <strong>Step 2:</strong> We integrate with your EHR and train our team (3-5 days).
+            <strong>Step 3:</strong> Soft launch with oversight.
+            <strong>Step 4:</strong> Full go-live in 2-3 weeks.
+            You don't lift a finger—we handle everything.
+          </p>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Process Timeline -->
+    <section id="process" class="process-section">
+      <div class="section-header">
+        <h2>The Onboarding Process</h2>
+        <p>Four simple steps to transform your patient intake operations.</p>
+      </div>
+
+      <div class="process-timeline">
+        {processSteps.map((item, index) => (
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="step-number">{item.step}</span>
+              <span class="duration-badge">{item.duration}</span>
+            </div>
+            <div class="timeline-content">
+              <h3>{item.title}</h3>
+              <p class="step-description">{item.description}</p>
+              <ul class="step-details">
+                {item.details.map(detail => (
+                  <li>{detail}</li>
+                ))}
+              </ul>
+            </div>
+            {index < processSteps.length - 1 && (
+              <div class="timeline-connector"></div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- What You Get -->
+    <section class="benefits-section">
+      <div class="section-header">
+        <h2>What You Get</h2>
+        <p>Everything included in your mybcat partnership.</p>
+      </div>
+
+      <div class="benefits-grid">
+        {benefits.map(benefit => (
+          <div class="benefit-card">
+            <span class="benefit-icon">{benefit.icon}</span>
+            <h3>{benefit.title}</h3>
+            <p>{benefit.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- What We Need From You -->
+    <section class="requirements-section">
+      <Card variant="testimonial">
+        <div class="requirements-content">
+          <h2>What We Need From You</h2>
+          <p class="requirements-intro">
+            Our goal is to minimize your involvement. Here's all we need:
+          </p>
+          <div class="requirements-grid">
+            <div class="requirement">
+              <span class="req-icon">📞</span>
+              <span class="req-text">30-minute discovery call</span>
+            </div>
+            <div class="requirement">
+              <span class="req-icon">🔑</span>
+              <span class="req-text">EHR/PM system access</span>
+            </div>
+            <div class="requirement">
+              <span class="req-icon">📋</span>
+              <span class="req-text">Your scheduling preferences</span>
+            </div>
+            <div class="requirement">
+              <span class="req-icon">✅</span>
+              <span class="req-text">Quick review during soft launch</span>
+            </div>
+          </div>
+          <p class="requirements-footer">
+            That's it. We handle everything else—training, integration, ongoing management.
+          </p>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Integration Partners -->
+    <section class="integrations-section">
+      <div class="section-header">
+        <h2>We Integrate With Your Systems</h2>
+        <p>Direct connection to your existing EHR/PM and phone systems.</p>
+      </div>
+
+      <div class="integrations-grid">
+        <div class="integration-category">
+          <h3>Optometry</h3>
+          <div class="integration-list">
+            <span>Eyefinity</span>
+            <span>RevolutionEHR</span>
+            <span>Crystal PM</span>
+            <span>Compulink</span>
+            <span>MaximEyes</span>
+          </div>
+        </div>
+        <div class="integration-category">
+          <h3>Dental</h3>
+          <div class="integration-list">
+            <span>Dentrix</span>
+            <span>Eaglesoft</span>
+            <span>Open Dental</span>
+            <span>Curve Dental</span>
+            <span>Denticon</span>
+          </div>
+        </div>
+        <div class="integration-category">
+          <h3>General</h3>
+          <div class="integration-list">
+            <span>ModMed</span>
+            <span>AdvancedMD</span>
+            <span>DrChrono</span>
+            <span>athenahealth</span>
+            <span>+ Many More</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <FAQ
+        items={onboardingFaqs}
+        title="Getting Started FAQ"
+        eyebrow="Common Questions"
+      />
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <CTA
+        title="Ready to Get Started?"
+        description="Book your discovery call today. We'll walk you through exactly how mybcat will work for your practice."
+        buttonText="Schedule Discovery Call"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .how-it-works-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .page-hero {
+    text-align: center;
+    padding: 40px 0 48px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 32px;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .text-link:hover {
+    color: var(--oceanic-teal);
+  }
+
+  /* Timeline Stats */
+  .timeline-stats {
+    margin-bottom: 48px;
+  }
+
+  /* TL;DR */
+  .tldr-section {
+    margin-bottom: 60px;
+  }
+
+  .tldr-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .tldr-content h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .tldr-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+  }
+
+  /* Section Headers */
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  /* Process Timeline */
+  .process-section {
+    margin-bottom: 60px;
+  }
+
+  .process-timeline {
+    position: relative;
+  }
+
+  .timeline-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 32px;
+    margin-bottom: 48px;
+  }
+
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .timeline-marker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .step-number {
+    width: 48px;
+    height: 48px;
+    background: var(--oceanic-teal);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .duration-badge {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--copper-600);
+    background: var(--glass-copper);
+    padding: 4px 10px;
+    border-radius: 12px;
+  }
+
+  .timeline-content {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .step-description {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+  }
+
+  .step-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 8px;
+  }
+
+  .step-details li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .step-details li::before {
+    content: "✓";
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  .timeline-connector {
+    position: absolute;
+    left: 60px;
+    top: 56px;
+    bottom: -48px;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--oceanic-teal), var(--glass-border));
+    transform: translateX(-50%);
+  }
+
+  /* Benefits */
+  .benefits-section {
+    margin-bottom: 60px;
+  }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .benefit-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .benefit-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .benefit-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .benefit-card p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  /* Requirements */
+  .requirements-section {
+    margin-bottom: 60px;
+  }
+
+  .requirements-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .requirements-content h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .requirements-intro {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+  }
+
+  .requirements-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .requirement {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    background: var(--spatial-glass);
+    border-radius: 12px;
+    text-align: left;
+  }
+
+  .req-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  .req-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--navy-900);
+  }
+
+  .requirements-footer {
+    font-size: 15px;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  /* Integrations */
+  .integrations-section {
+    margin-bottom: 60px;
+  }
+
+  .integrations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .integration-category {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .integration-category h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .integration-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .integration-list span {
+    font-size: 14px;
+    color: var(--text-secondary);
+    padding: 8px 12px;
+    background: white;
+    border-radius: 8px;
+  }
+
+  /* FAQ */
+  .faq-section {
+    margin-bottom: 60px;
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    .timeline-item {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .timeline-marker {
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+
+    .timeline-connector {
+      display: none;
+    }
+
+    .benefits-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .integrations-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .requirements-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-cta {
+      flex-direction: column;
+    }
+  }
+</style>
