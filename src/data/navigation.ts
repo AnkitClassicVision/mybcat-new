@@ -37,6 +37,11 @@ export const mainNavigation: NavItem[] = [
         description: 'Complete front desk support'
       },
       {
+        label: 'How It Works',
+        href: '/how-it-works/',
+        description: 'Our process explained'
+      },
+      {
         label: 'Integrations',
         href: '/solutions/integrations/',
         description: 'EHR & PMS connections'
@@ -73,12 +78,11 @@ export const mainNavigation: NavItem[] = [
     href: '/resources/',
     children: [
       { label: 'Blog', href: '/blog/' },
+      { label: 'Case Studies', href: '/case-studies/', description: 'Success stories' },
       { label: 'ROI Calculator', href: '/resources/roi-calculator/', description: 'Calculate your savings' },
       { label: 'Glossary', href: '/glossary/', description: 'Healthcare terms explained' },
       { label: 'FAQ', href: '/faq/', description: 'Common questions' },
-      { label: 'How It Works', href: '/how-it-works/', description: 'Our process' },
-      { label: 'Podcast', href: '/resources/podcast/' },
-      { label: 'Book', href: '/resources/book/' }
+      { label: 'Podcast', href: '/resources/podcast/' }
     ]
   },
   {
