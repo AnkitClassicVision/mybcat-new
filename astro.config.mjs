@@ -8,7 +8,8 @@ export default defineConfig({
   site: 'https://mybcat.com',
   output: 'static',
   adapter: vercel({
-    webAnalytics: { enabled: true }
+    webAnalytics: { enabled: true },
+    speedInsights: { enabled: true }
   }),
   integrations: [
     react(),
@@ -21,8 +22,8 @@ export default defineConfig({
         if (item.url === 'https://mybcat.com/') {
           return { ...item, priority: 1.0, changefreq: 'daily' };
         }
-        // Industry and solution pages
-        if (item.url.includes('/industries/') || item.url.includes('/solutions/')) {
+        // Industry, solution, and comparison pages
+        if (item.url.includes('/industries/') || item.url.includes('/solutions/') || item.url.includes('/compare/')) {
           return { ...item, priority: 0.9, changefreq: 'weekly' };
         }
         // Blog posts

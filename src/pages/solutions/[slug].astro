@@ -65,6 +65,7 @@ const featuresData = solution.features.map(f => ({
         </div>
         <span class="hero-tagline">{solution.tagline}</span>
         <h1>{solution.headline}</h1>
+        <p class="tldr"><strong>TL;DR:</strong> {solution.tldr}</p>
         <p class="hero-description">{solution.description}</p>
         <div class="hero-cta">
           <Button href="/contact/">Get Started</Button>
@@ -197,6 +198,24 @@ const featuresData = solution.features.map(f => ({
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .tldr {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 650px;
+    margin: 0 auto 20px;
+    padding: 16px 24px;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.05) 0%, rgba(0, 96, 100, 0.02) 100%);
+    border-left: 3px solid var(--oceanic-teal);
+    border-radius: 0 12px 12px 0;
+    text-align: left;
+  }
+
+  .tldr strong {
+    color: var(--oceanic-teal);
+    font-weight: 700;
   }
 
   .hero-description {

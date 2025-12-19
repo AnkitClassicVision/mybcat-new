@@ -1,0 +1,439 @@
+---
+/**
+ * Dynamic Case Study Page
+ * Individual case study with full details
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import Button from '@/components/Button.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { caseStudies, type CaseStudy } from '@data/case-studies';
+import { generateArticleSchema, serializeSchema } from '@/utils/schema';
+import { company } from '@data/company';
+
+export function getStaticPaths() {
+  return caseStudies.map(study => ({
+    params: { slug: study.slug },
+    props: { study }
+  }));
+}
+
+interface Props {
+  study: CaseStudy;
+}
+
+const { study } = Astro.props;
+
+// Get other case studies for navigation
+const otherStudies = caseStudies.filter(s => s.slug !== study.slug);
+
+// Generate schema
+const articleSchema = generateArticleSchema({
+  headline: study.title,
+  description: study.challenge.slice(0, 160),
+  image: study.featuredImage || '/images/case-study-default.jpg',
+  author: 'mybcat Team',
+  datePublished: '2024-01-01',
+  url: `${company.site.url}/case-studies/${study.slug}/`
+});
+---
+
+<PageLayout
+  title={`${study.title} | mybcat Case Study`}
+  description={`${study.client} case study: ${study.challenge.slice(0, 140)}...`}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Case Studies', url: '/case-studies/' },
+    { name: study.client }
+  ]}
+>
+  <script type="application/ld+json" set:html={serializeSchema(articleSchema)} slot="head" />
+
+  <div class="case-study-page">
+    <!-- Hero -->
+    <section class="study-hero">
+      <div class="hero-meta">
+        <span class="industry-badge">{study.industry}</span>
+        <span class="divider">•</span>
+        <span class="location">{study.location}</span>
+        <span class="divider">•</span>
+        <span class="size">{study.practiceSize}</span>
+      </div>
+      <h1>{study.title}</h1>
+      <p class="client-name">{study.client}</p>
+    </section>
+
+    <!-- Key Metrics -->
+    <section class="metrics-section">
+      <div class="metrics-grid">
+        {study.metrics.map(metric => (
+          <div class="metric-card">
+            <span class="metric-value">{metric.value}</span>
+            <span class="metric-label">{metric.label}</span>
+            {metric.description && (
+              <span class="metric-description">{metric.description}</span>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Challenge -->
+    <section class="content-section">
+      <h2>The Challenge</h2>
+      <p>{study.challenge}</p>
+    </section>
+
+    <!-- Solution -->
+    <section class="content-section">
+      <h2>The Solution</h2>
+      <p>{study.solution}</p>
+    </section>
+
+    <!-- Implementation -->
+    <section class="content-section">
+      <h2>What We Implemented</h2>
+      <ul class="implementation-list">
+        {study.implementation.map(item => (
+          <li>
+            <span class="check">✓</span>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <!-- Results -->
+    <section class="content-section">
+      <h2>The Results</h2>
+      <p>{study.results}</p>
+      <div class="timeline-badge">
+        <span class="timeline-icon">⏱</span>
+        <span>{study.timeline}</span>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial-section">
+      <Card variant="pricing">
+        <div class="testimonial-content">
+          <blockquote>"{study.testimonial.quote}"</blockquote>
+          <cite>
+            <strong>{study.testimonial.author}</strong>
+            <span>{study.testimonial.title}</span>
+          </cite>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Related Industry -->
+    <section class="related-section">
+      <Card variant="feature">
+        <div class="related-content">
+          <h3>More About {study.industry}</h3>
+          <p>See how mybcat serves {study.industry.toLowerCase()} practices like {study.client}.</p>
+          <Button href={`/industries/${study.industrySlug}/`}>
+            View {study.industry} Solutions
+          </Button>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Other Case Studies -->
+    {otherStudies.length > 0 && (
+      <section class="other-studies">
+        <h3>More Success Stories</h3>
+        <div class="other-grid">
+          {otherStudies.map(other => (
+            <a href={`/case-studies/${other.slug}/`} class="other-card">
+              <span class="other-industry">{other.industry}</span>
+              <h4>{other.client}</h4>
+              <p>{other.metrics[0].value} {other.metrics[0].label}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Ready to See Results Like These?"
+        description={`Join ${study.client} and other practices that have transformed their patient acquisition with mybcat.`}
+        buttonText="Schedule a Consultation"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .case-study-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .study-hero {
+    text-align: center;
+    padding: 40px 0 48px;
+  }
+
+  .hero-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .industry-badge {
+    padding: 6px 14px;
+    background: var(--glass-teal);
+    color: var(--oceanic-teal);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .divider {
+    color: var(--text-muted);
+  }
+
+  .location,
+  .size {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .study-hero h1 {
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+
+  .client-name {
+    font-size: 1.1rem;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+  }
+
+  /* Metrics */
+  .metrics-section {
+    margin-bottom: 48px;
+  }
+
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+  }
+
+  .metric-card {
+    text-align: center;
+    padding: 24px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+  }
+
+  .metric-value {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--oceanic-teal);
+    margin-bottom: 4px;
+  }
+
+  .metric-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .metric-description {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  /* Content Sections */
+  .content-section {
+    margin-bottom: 40px;
+  }
+
+  .content-section h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--glass-border);
+  }
+
+  .content-section p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+
+  .implementation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .implementation-list li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 12px 16px;
+    background: var(--spatial-glass);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+
+  .check {
+    color: var(--oceanic-teal);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .timeline-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 10px 18px;
+    background: var(--glass-copper);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--copper-700);
+  }
+
+  /* Testimonial */
+  .testimonial-section {
+    margin-bottom: 48px;
+  }
+
+  .testimonial-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .testimonial-content blockquote {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--navy-900);
+    line-height: 1.7;
+    margin: 0 0 24px;
+  }
+
+  .testimonial-content cite {
+    font-style: normal;
+  }
+
+  .testimonial-content cite strong {
+    display: block;
+    font-size: 1.1rem;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .testimonial-content cite span {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  /* Related */
+  .related-section {
+    margin-bottom: 48px;
+  }
+
+  .related-content {
+    text-align: center;
+  }
+
+  .related-content h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .related-content p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+  }
+
+  /* Other Studies */
+  .other-studies {
+    margin-bottom: 48px;
+  }
+
+  .other-studies h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 20px;
+  }
+
+  .other-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+  }
+
+  .other-card {
+    display: block;
+    padding: 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .other-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-2px);
+  }
+
+  .other-industry {
+    display: inline-block;
+    padding: 4px 10px;
+    background: var(--glass-teal);
+    color: var(--oceanic-teal);
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .other-card h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .other-card p {
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 0;
+  }
+</style>

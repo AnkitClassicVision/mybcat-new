@@ -1,0 +1,396 @@
+---
+/**
+ * Case Studies Hub Page
+ * Showcases client success stories
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { caseStudies } from '@data/case-studies';
+
+const pageTitle = 'Case Studies';
+const pageDescription = 'Real results from healthcare practices using mybcat. See how optometry, dental, and veterinary practices have improved patient acquisition and grown revenue.';
+---
+
+<PageLayout
+  title={`${pageTitle} | mybcat`}
+  description={pageDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Case Studies' }
+  ]}
+>
+  <div class="case-studies-hub">
+    <!-- Hero -->
+    <section class="hub-hero">
+      <span class="eyebrow">Success Stories</span>
+      <h1>Real Results from Real Practices</h1>
+      <p class="hero-description">
+        See how healthcare practices like yours have transformed their patient acquisition
+        and grown revenue with mybcat's managed services.
+      </p>
+    </section>
+
+    <!-- Featured Stats -->
+    <section class="featured-stats">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-value">100%</span>
+          <span class="stat-label">Call Answer Rate</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">35%+</span>
+          <span class="stat-label">Avg Recall Improvement</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">$150K+</span>
+          <span class="stat-label">Avg Annual Revenue Recovered</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Studies Grid -->
+    <section class="case-studies-section">
+      <div class="case-studies-grid">
+        {caseStudies.map(study => (
+          <a href={`/case-studies/${study.slug}/`} class="case-study-card">
+            <div class="card-header">
+              <span class="industry-badge">{study.industry}</span>
+              <span class="location">{study.location}</span>
+            </div>
+            <h2>{study.title}</h2>
+            <p class="client-info">
+              <strong>{study.client}</strong> — {study.practiceSize}
+            </p>
+            <div class="metrics-preview">
+              {study.metrics.slice(0, 2).map(metric => (
+                <div class="metric">
+                  <span class="metric-value">{metric.value}</span>
+                  <span class="metric-label">{metric.label}</span>
+                </div>
+              ))}
+            </div>
+            <div class="card-cta">
+              <span>Read Full Story</span>
+              <span class="arrow">→</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Testimonial Highlight -->
+    <section class="testimonial-section">
+      <Card variant="testimonial">
+        <div class="testimonial-content">
+          <blockquote>
+            "{caseStudies[0].testimonial.quote}"
+          </blockquote>
+          <cite>
+            <strong>{caseStudies[0].testimonial.author}</strong>
+            <span>{caseStudies[0].testimonial.title}</span>
+          </cite>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Industries Served -->
+    <section class="industries-section">
+      <h2>Industries We Serve</h2>
+      <p>mybcat specializes in healthcare practices across multiple verticals.</p>
+      <div class="industries-grid">
+        <a href="/industries/optometry/" class="industry-link">Optometry</a>
+        <a href="/industries/dental/" class="industry-link">Dental</a>
+        <a href="/industries/veterinary/" class="industry-link">Veterinary</a>
+        <a href="/industries/medspa/" class="industry-link">MedSpa</a>
+        <a href="/industries/dermatology/" class="industry-link">Dermatology</a>
+        <a href="/industries/urgent-care/" class="industry-link">Urgent Care</a>
+        <a href="/industries/ent/" class="industry-link">ENT</a>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Ready to Write Your Success Story?"
+        description="Join practices that have transformed their patient acquisition with mybcat."
+        buttonText="Schedule a Consultation"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .case-studies-hub {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .hub-hero {
+    text-align: center;
+    padding: 40px 0 48px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .hub-hero h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Featured Stats */
+  .featured-stats {
+    margin-bottom: 60px;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 32px;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.05) 0%, transparent 100%);
+    border-radius: 20px;
+    border: 1px solid var(--glass-border);
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-value {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--oceanic-teal);
+    margin-bottom: 4px;
+  }
+
+  .stat-label {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  /* Case Studies Grid */
+  .case-studies-section {
+    margin-bottom: 60px;
+  }
+
+  .case-studies-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .case-study-card {
+    display: block;
+    padding: 32px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .case-study-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-2px);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .industry-badge {
+    padding: 6px 12px;
+    background: var(--glass-teal);
+    color: var(--oceanic-teal);
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .location {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .case-study-card h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    line-height: 1.3;
+    margin-bottom: 8px;
+  }
+
+  .client-info {
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+  }
+
+  .metrics-preview {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 20px;
+  }
+
+  .metric {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .metric-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--oceanic-teal);
+  }
+
+  .metric-label {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .card-cta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .arrow {
+    transition: transform 0.2s;
+  }
+
+  .case-study-card:hover .arrow {
+    transform: translateX(4px);
+  }
+
+  /* Testimonial */
+  .testimonial-section {
+    margin-bottom: 60px;
+  }
+
+  .testimonial-content {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  .testimonial-content blockquote {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--navy-900);
+    line-height: 1.7;
+    margin: 0 0 24px;
+  }
+
+  .testimonial-content cite {
+    font-style: normal;
+  }
+
+  .testimonial-content cite strong {
+    display: block;
+    font-size: 1rem;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .testimonial-content cite span {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  /* Industries */
+  .industries-section {
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 40px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+  }
+
+  .industries-section h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .industries-section > p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+  }
+
+  .industries-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .industry-link {
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--navy-900);
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+
+  .industry-link:hover {
+    border-color: var(--oceanic-teal);
+    color: var(--oceanic-teal);
+  }
+
+  /* CTA */
+  .cta-section {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    .stats-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .stat-value {
+      font-size: 2rem;
+    }
+
+    .metrics-preview {
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+</style>

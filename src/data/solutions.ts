@@ -21,6 +21,7 @@ export interface Solution {
   tagline: string;
   headline: string;
   description: string;
+  tldr: string;  // 40-60 word summary for SEO answer-friendliness
   metaDescription: string;
   features: SolutionFeature[];
   benefits: string[];
@@ -38,6 +39,7 @@ export const solutions: Solution[] = [
     tagline: 'Every Call Answered. Every Patient Captured.',
     headline: 'Never Miss Another Patient Call',
     description: 'Complete front-desk phone coverage that captures new patients and books appointments directly into your EHR. Your patients talk to real people who understand healthcare.',
+    tldr: 'mybcat\'s patient intake service ensures every call is answered by a trained healthcare coordinator who books appointments directly into your EHR. We handle inbound calls, schedule appointments, collect patient information, and verify insurance—so your front desk can focus on patients in the office.',
     metaDescription: 'Never miss another patient call. MyBCAT\'s intake service answers every call, books appointments directly in your EHR, and recovers lost revenue.',
     features: [
       {
@@ -97,6 +99,7 @@ export const solutions: Solution[] = [
     tagline: 'Bring Your Patients Back Before They Become Lapsed',
     headline: 'Proactive Recall That Actually Works',
     description: 'Systematic outreach campaigns that reactivate dormant patients and drive recall compliance. We work your patient list so you can focus on patient care.',
+    tldr: 'mybcat\'s recall and reactivation service proactively contacts patients due for appointments and those who have lapsed. We run multi-channel campaigns via phone, text, and email to bring patients back, improving recall compliance by 30%+ and recovering $50K+ in annual revenue.',
     metaDescription: 'Proactive patient reactivation campaigns. We work your recall list to bring patients back before they become lapsed. Increase recall rates by 30%+.',
     features: [
       {
@@ -156,6 +159,7 @@ export const solutions: Solution[] = [
     tagline: 'Turn Empty Slots Into Revenue',
     headline: 'Recover Revenue From Cancellations',
     description: 'Same-day and next-day recovery workflows that fill cancelled appointments quickly. Don\'t let last-minute cancellations cost you money.',
+    tldr: 'mybcat\'s no-show recovery service fills cancelled appointments within hours. When patients cancel or no-show, we immediately contact your waitlist to fill the slot. Practices typically recover 65% of cancelled appointments, saving $40K+ in annual revenue.',
     metaDescription: 'Fill cancelled appointments fast. Our no-show recovery system contacts patients immediately and fills empty slots within hours.',
     features: [
       {
@@ -207,6 +211,126 @@ export const solutions: Solution[] = [
       { label: 'Slots Recovered', value: '65%' },
       { label: 'Average Fill Time', value: '<4 hours' },
       { label: 'Revenue Saved', value: '$40K+/year' }
+    ]
+  },
+  {
+    slug: 'front-office-operations',
+    name: 'Front Office Operations',
+    tagline: 'Your Complete Front Desk Solution',
+    headline: 'Comprehensive Front Office Support',
+    description: 'End-to-end front office operations that go beyond just phone answering. We handle your complete patient communication workflow from first contact to appointment completion.',
+    tldr: 'mybcat\'s front office operations service handles your entire patient communication workflow. We manage all calls, appointment confirmations, insurance coordination, and schedule optimization—reducing staffing needs by 40+ hours per week while improving patient satisfaction.',
+    metaDescription: 'Complete front office outsourcing for healthcare practices. Handle calls, scheduling, insurance, and patient communications all in one solution.',
+    features: [
+      {
+        title: 'Complete Call Handling',
+        description: 'All inbound calls handled professionally—new patients, existing patients, insurance questions, and general inquiries.',
+        icon: 'phone'
+      },
+      {
+        title: 'Patient Communications',
+        description: 'Appointment confirmations, reminder calls, and follow-up communications managed systematically.',
+        icon: 'message'
+      },
+      {
+        title: 'Insurance Coordination',
+        description: 'Benefits verification, pre-authorization, and insurance question handling.',
+        icon: 'shield'
+      },
+      {
+        title: 'Schedule Optimization',
+        description: 'Proactive schedule management to maximize provider productivity and minimize gaps.',
+        icon: 'calendar'
+      }
+    ],
+    benefits: [
+      'Reduce front desk staffing needs',
+      'Consistent patient experience',
+      'Eliminate phone overflow',
+      'Centralized operations for multi-location practices',
+      'Cost savings vs in-house staff'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Operations Audit',
+        description: 'We document your current workflows, bottlenecks, and opportunities.'
+      },
+      {
+        step: 2,
+        title: 'Team Training',
+        description: 'Our team is trained on your specific protocols, preferences, and systems.'
+      },
+      {
+        step: 3,
+        title: 'Phased Rollout',
+        description: 'Gradual transition of operations with oversight until fully operational.'
+      }
+    ],
+    stats: [
+      { label: 'Staff Time Saved', value: '40+ hrs/week' },
+      { label: 'Cost Savings vs In-House', value: '30-50%' },
+      { label: 'Patient Satisfaction', value: '95%+' }
+    ]
+  },
+  {
+    slug: 'integrations',
+    name: 'EHR & PMS Integrations',
+    tagline: 'Direct Connection to Your Systems',
+    headline: 'Seamless Integration With Your Practice Systems',
+    description: 'mybcat integrates directly with your existing EHR/PMS, phone system, and communication tools. No double entry, no disconnected workflows—just seamless operations.',
+    tldr: 'mybcat integrates directly with 50+ EHR and practice management systems including Eyefinity, Dentrix, ModMed, and more. Our team schedules appointments directly in your system—no message-taking or double entry required. Setup typically takes 3-5 days.',
+    metaDescription: 'mybcat integrates with major EHR and practice management systems. Eyefinity, Dentrix, ModMed, and 50+ more. Direct scheduling, no message-taking.',
+    features: [
+      {
+        title: 'Direct EHR/PMS Access',
+        description: 'Our team schedules directly in your system—Eyefinity, Dentrix, ModMed, and many more.',
+        icon: 'link'
+      },
+      {
+        title: 'Phone System Integration',
+        description: 'Seamless connection to your existing phone system via forwarding, VoIP, or direct integration.',
+        icon: 'phone'
+      },
+      {
+        title: 'Real-Time Sync',
+        description: 'Appointments, patient notes, and updates sync instantly—no delays or data gaps.',
+        icon: 'refresh'
+      },
+      {
+        title: 'Secure Access',
+        description: 'HIPAA-compliant access with role-based permissions and full audit trails.',
+        icon: 'shield'
+      }
+    ],
+    benefits: [
+      'No double data entry',
+      'Real-time visibility into your schedule',
+      'Eliminate manual message-taking',
+      'Consistent with your existing workflows',
+      'Minimal IT involvement required'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'System Assessment',
+        description: 'We identify your EHR/PMS and determine the best integration approach.'
+      },
+      {
+        step: 2,
+        title: 'Access Setup',
+        description: 'Secure user accounts created with appropriate permissions for our team.'
+      },
+      {
+        step: 3,
+        title: 'Testing & Validation',
+        description: 'Full integration testing before any patient-facing work begins.'
+      }
+    ],
+    stats: [
+      { label: 'EHR Systems Supported', value: '50+' },
+      { label: 'Average Setup Time', value: '3-5 days' },
+      { label: 'Integration Success Rate', value: '100%' }
     ]
   }
 ];
