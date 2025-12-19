@@ -1,0 +1,81 @@
+---
+/**
+ * StatCard Component
+ * Display a single statistic with value and label
+ */
+
+export interface Props {
+  value: string;
+  label: string;
+  source?: string;
+  sourceUrl?: string;
+}
+
+const { value, label, source, sourceUrl } = Astro.props;
+---
+
+<div class="stat-card">
+  <span class="stat-value">{value}</span>
+  <span class="stat-label">{label}</span>
+  {source && (
+    <span class="stat-source">
+      {sourceUrl ? (
+        <a href={sourceUrl} target="_blank" rel="noopener noreferrer">
+          Source: {source}
+        </a>
+      ) : (
+        <>Source: {source}</>
+      )}
+    </span>
+  )}
+</div>
+
+<style>
+  .stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background: linear-gradient(135deg, var(--cream-200, #fffdf5) 0%, rgba(255, 253, 245, 0.8) 100%);
+    border: 1px solid var(--glass-border, rgba(0, 96, 100, 0.1));
+    border-radius: 16px;
+    margin: 1.5rem 0;
+  }
+
+  .stat-value {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--oceanic-teal, #006064);
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    font-size: 1rem;
+    color: var(--text-secondary, #4a5568);
+    line-height: 1.5;
+    max-width: 280px;
+  }
+
+  .stat-source {
+    font-size: 0.75rem;
+    color: var(--text-muted, #718096);
+    margin-top: 0.75rem;
+  }
+
+  .stat-source a {
+    color: var(--oceanic-teal, #006064);
+    text-decoration: none;
+  }
+
+  .stat-source a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 640px) {
+    .stat-value {
+      font-size: 2.5rem;
+    }
+  }
+</style>

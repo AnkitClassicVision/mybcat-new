@@ -1,0 +1,82 @@
+---
+/**
+ * TipBox Component
+ * Highlighted tip boxes for actionable advice in content
+ */
+
+export interface Props {
+  title?: string;
+}
+
+const { title = 'Pro Tip' } = Astro.props;
+---
+
+<div class="tip-box">
+  <div class="tip-header">
+    <svg class="tip-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M9 18h6"/>
+      <path d="M10 22h4"/>
+      <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/>
+    </svg>
+    <span class="tip-title">{title}</span>
+  </div>
+  <div class="tip-content">
+    <slot />
+  </div>
+</div>
+
+<style>
+  .tip-box {
+    margin: 1.5rem 0;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.06) 0%, rgba(0, 96, 100, 0.02) 100%);
+    border: 1px solid rgba(0, 96, 100, 0.15);
+    border-radius: 16px;
+    position: relative;
+  }
+
+  .tip-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--oceanic-teal, #006064), var(--copper-500, #b87333));
+    border-radius: 16px 16px 0 0;
+  }
+
+  .tip-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .tip-icon {
+    color: var(--oceanic-teal, #006064);
+    flex-shrink: 0;
+  }
+
+  .tip-title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--oceanic-teal, #006064);
+  }
+
+  .tip-content {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-secondary, #4a5568);
+    padding-left: 2.25rem;
+  }
+
+  .tip-content :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .tip-content :global(ul),
+  .tip-content :global(ol) {
+    margin: 0.5rem 0;
+  }
+</style>

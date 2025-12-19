@@ -1,0 +1,115 @@
+---
+/**
+ * Quote Component
+ * Styled testimonial or blockquote with attribution
+ */
+
+export interface Props {
+  text: string;
+  author: string;
+  role?: string;
+  company?: string;
+  image?: string;
+}
+
+const { text, author, role, company, image } = Astro.props;
+---
+
+<blockquote class="quote-block">
+  <svg class="quote-mark" width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+  </svg>
+  <p class="quote-text">{text}</p>
+  <footer class="quote-footer">
+    {image && (
+      <img src={image} alt={author} class="quote-avatar" width="48" height="48" />
+    )}
+    <div class="quote-attribution">
+      <cite class="quote-author">{author}</cite>
+      {(role || company) && (
+        <span class="quote-role">
+          {role}{role && company && ', '}{company}
+        </span>
+      )}
+    </div>
+  </footer>
+</blockquote>
+
+<style>
+  .quote-block {
+    position: relative;
+    margin: 2rem 0;
+    padding: 2rem 2rem 1.5rem;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.04) 0%, rgba(184, 115, 51, 0.04) 100%);
+    border-radius: 20px;
+    border: 1px solid var(--glass-border, rgba(0, 96, 100, 0.1));
+  }
+
+  .quote-mark {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    color: var(--oceanic-teal, #006064);
+    opacity: 0.15;
+    width: 48px;
+    height: 48px;
+  }
+
+  .quote-text {
+    font-size: 1.15rem;
+    font-style: italic;
+    line-height: 1.8;
+    color: var(--navy-900, #0a1628);
+    margin: 0 0 1.25rem;
+    padding-left: 0.5rem;
+    position: relative;
+  }
+
+  .quote-footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 0.5rem;
+  }
+
+  .quote-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--oceanic-teal, #006064);
+  }
+
+  .quote-attribution {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+
+  .quote-author {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--navy-900, #0a1628);
+  }
+
+  .quote-role {
+    font-size: 0.875rem;
+    color: var(--text-muted, #718096);
+  }
+
+  @media (max-width: 640px) {
+    .quote-block {
+      padding: 1.5rem;
+    }
+
+    .quote-mark {
+      width: 36px;
+      height: 36px;
+    }
+
+    .quote-text {
+      font-size: 1rem;
+    }
+  }
+</style>

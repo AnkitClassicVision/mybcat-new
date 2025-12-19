@@ -1,0 +1,142 @@
+---
+/**
+ * Callout Component
+ * Used in MDX content for info, warning, tip, and stat callouts
+ */
+
+export interface Props {
+  type?: 'info' | 'warning' | 'tip' | 'stat' | 'success';
+  title?: string;
+}
+
+const { type = 'info', title } = Astro.props;
+
+const typeConfig = {
+  info: {
+    icon: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>`,
+    defaultTitle: 'Info',
+    class: 'callout-info'
+  },
+  warning: {
+    icon: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
+    defaultTitle: 'Warning',
+    class: 'callout-warning'
+  },
+  tip: {
+    icon: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4"/><path d="m4.93 4.93 2.83 2.83"/><path d="M2 12h4"/><path d="m4.93 19.07 2.83-2.83"/><path d="M12 18v4"/><path d="m19.07 19.07-2.83-2.83"/><path d="M22 12h-4"/><path d="m19.07 4.93-2.83 2.83"/></svg>`,
+    defaultTitle: 'Pro Tip',
+    class: 'callout-tip'
+  },
+  stat: {
+    icon: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>`,
+    defaultTitle: 'Statistic',
+    class: 'callout-stat'
+  },
+  success: {
+    icon: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22,4 12,14.01 9,11.01"/></svg>`,
+    defaultTitle: 'Success',
+    class: 'callout-success'
+  }
+};
+
+const config = typeConfig[type];
+const displayTitle = title || config.defaultTitle;
+---
+
+<aside class={`callout ${config.class}`} role="note">
+  <div class="callout-header">
+    <span class="callout-icon" set:html={config.icon} />
+    <span class="callout-title">{displayTitle}</span>
+  </div>
+  <div class="callout-content">
+    <slot />
+  </div>
+</aside>
+
+<style>
+  .callout {
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    border-radius: 12px;
+    border-left: 4px solid;
+  }
+
+  .callout-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .callout-icon {
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  .callout-title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .callout-content {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-secondary, #4a5568);
+  }
+
+  .callout-content :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  /* Info variant */
+  .callout-info {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(59, 130, 246, 0.03) 100%);
+    border-color: #3b82f6;
+  }
+  .callout-info .callout-icon,
+  .callout-info .callout-title {
+    color: #3b82f6;
+  }
+
+  /* Warning variant */
+  .callout-warning {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(245, 158, 11, 0.03) 100%);
+    border-color: #f59e0b;
+  }
+  .callout-warning .callout-icon,
+  .callout-warning .callout-title {
+    color: #d97706;
+  }
+
+  /* Tip variant */
+  .callout-tip {
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.08) 0%, rgba(0, 96, 100, 0.03) 100%);
+    border-color: var(--oceanic-teal, #006064);
+  }
+  .callout-tip .callout-icon,
+  .callout-tip .callout-title {
+    color: var(--oceanic-teal, #006064);
+  }
+
+  /* Stat variant */
+  .callout-stat {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.08) 0%, rgba(139, 92, 246, 0.03) 100%);
+    border-color: #8b5cf6;
+  }
+  .callout-stat .callout-icon,
+  .callout-stat .callout-title {
+    color: #8b5cf6;
+  }
+
+  /* Success variant */
+  .callout-success {
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.08) 0%, rgba(34, 197, 94, 0.03) 100%);
+    border-color: #22c55e;
+  }
+  .callout-success .callout-icon,
+  .callout-success .callout-title {
+    color: #16a34a;
+  }
+</style>

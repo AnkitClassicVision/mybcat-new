@@ -3,6 +3,7 @@ import '@/styles/global.css';
 import Nav from '@/components/Nav.astro';
 import Footer from '@/components/Footer.astro';
 import HubSpotChat from '@/components/HubSpotChat.astro';
+import { company } from '@data/company';
 
 interface Props {
   title: string;
@@ -24,12 +25,17 @@ const {
   canonical,
   publishDate,
   modifiedDate,
-  author = 'Ankit Patel',
-  noindex = true, // Default to noindex while in development
+  author = company.ownership.founder,
+  noindex = false,
 } = Astro.props;
 
-const siteUrl = 'https://mybcat.com';
-const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
+const siteUrl = company.site.url;
+// Ensure trailing slash for canonical URLs
+let pathname = Astro.url.pathname;
+if (!pathname.endsWith('/') && !pathname.includes('.')) {
+  pathname += '/';
+}
+const canonicalUrl = canonical || new URL(pathname, siteUrl).href;
 const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 ---
 
@@ -41,9 +47,13 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
   <title>{title}</title>
   <meta name="description" content={description}>
 
-  <!-- Block all crawlers while in development -->
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="googlebot" content="noindex, nofollow">
+  <!-- Robots -->
+  {noindex ? (
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+  ) : (
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  )}
 
   <link rel="canonical" href={canonicalUrl}>
 

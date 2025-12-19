@@ -1,0 +1,78 @@
+name: Lighthouse CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v11
+        with:
+          configPath: './lighthouserc.js'
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+
+      - name: Format lighthouse score
+        id: format_lighthouse_score
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const results = JSON.parse(fs.readFileSync('.lighthouseci/manifest.json'));
+
+            let comment = '## ⚡ Lighthouse Report\n\n';
+            comment += '| URL | Performance | Accessibility | Best Practices | SEO |\n';
+            comment += '|-----|-------------|---------------|----------------|-----|\n';
+
+            for (const result of results) {
+              const url = result.url.replace('http://localhost:4321', '');
+              const { summary } = JSON.parse(fs.readFileSync(result.jsonPath));
+
+              const formatScore = (score) => {
+                const pct = Math.round(score * 100);
+                if (pct >= 90) return `🟢 ${pct}`;
+                if (pct >= 50) return `🟠 ${pct}`;
+                return `🔴 ${pct}`;
+              };
+
+              comment += `| ${url || '/'} `;
+              comment += `| ${formatScore(summary.performance)} `;
+              comment += `| ${formatScore(summary.accessibility)} `;
+              comment += `| ${formatScore(summary['best-practices'])} `;
+              comment += `| ${formatScore(summary.seo)} |\n`;
+            }
+
+            core.setOutput('comment', comment);
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const comment = `${{ steps.format_lighthouse_score.outputs.comment }}`;
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });

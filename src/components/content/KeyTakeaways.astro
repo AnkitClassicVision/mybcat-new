@@ -1,0 +1,115 @@
+---
+/**
+ * KeyTakeaways Component
+ * Summary box for blog posts showing key points
+ */
+
+export interface Props {
+  items: string[];
+  title?: string;
+}
+
+const { items, title = 'Key Takeaways' } = Astro.props;
+---
+
+<aside class="key-takeaways" role="note" aria-label="Key takeaways">
+  <div class="takeaways-header">
+    <svg class="takeaways-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+      <polyline points="14,2 14,8 20,8"/>
+      <line x1="16" y1="13" x2="8" y2="13"/>
+      <line x1="16" y1="17" x2="8" y2="17"/>
+      <polyline points="10,9 9,9 8,9"/>
+    </svg>
+    <h2 class="takeaways-title">{title}</h2>
+  </div>
+  <ul class="takeaways-list">
+    {items.map((item) => (
+      <li class="takeaway-item">
+        <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="20,6 9,17 4,12"/>
+        </svg>
+        <span>{item}</span>
+      </li>
+    ))}
+  </ul>
+</aside>
+
+<style>
+  .key-takeaways {
+    margin: 2rem 0;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.08) 0%, rgba(0, 96, 100, 0.03) 100%);
+    border: 1px solid rgba(0, 96, 100, 0.2);
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .key-takeaways::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--oceanic-teal, #006064), var(--copper-500, #b87333));
+  }
+
+  .takeaways-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(0, 96, 100, 0.15);
+  }
+
+  .takeaways-icon {
+    color: var(--oceanic-teal, #006064);
+    flex-shrink: 0;
+  }
+
+  .takeaways-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--oceanic-teal, #006064);
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .takeaways-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .takeaway-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-secondary, #4a5568);
+  }
+
+  .check-icon {
+    flex-shrink: 0;
+    color: var(--oceanic-teal, #006064);
+    margin-top: 0.125rem;
+  }
+
+  @media (max-width: 640px) {
+    .key-takeaways {
+      padding: 1.25rem 1.5rem;
+    }
+
+    .takeaway-item {
+      font-size: 0.9rem;
+    }
+  }
+</style>
