@@ -26,13 +26,67 @@ const { currentPath = '/' } = Astro.props;
     <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="54" height="50">
     <span class="mobile-nav-brand-text">My Business Care Team</span>
   </a>
-  <a href="/solutions/">Solutions</a>
-  <a href="/industries/">Industries</a>
+
+  <!-- Solutions Section -->
+  <div class="mobile-section">
+    <button class="mobile-section-toggle" aria-expanded="false">Solutions</button>
+    <div class="mobile-section-content">
+      <a href="/solutions/">All Solutions</a>
+      <a href="/solutions/patient-intake/">Patient Intake</a>
+      <a href="/solutions/recall-reactivation/">Recall & Reactivation</a>
+      <a href="/solutions/no-show-recovery/">No-Show Recovery</a>
+      <a href="/solutions/front-office-operations/">Front Office Operations</a>
+      <a href="/how-it-works/">How It Works</a>
+      <a href="/solutions/integrations/">Integrations</a>
+    </div>
+  </div>
+
+  <!-- Industries Section -->
+  <div class="mobile-section">
+    <button class="mobile-section-toggle" aria-expanded="false">Industries</button>
+    <div class="mobile-section-content">
+      <a href="/industries/">All Industries</a>
+      <a href="/industries/optometry/">Optometry</a>
+      <a href="/industries/dental/">Dental</a>
+      <a href="/industries/veterinary/">Veterinary</a>
+      <a href="/industries/medspa/">MedSpa</a>
+      <a href="/industries/dermatology/">Dermatology</a>
+      <a href="/industries/urgent-care/">Urgent Care</a>
+      <a href="/industries/ent/">ENT & Audiology</a>
+    </div>
+  </div>
+
+  <!-- Compare Section -->
+  <div class="mobile-section">
+    <button class="mobile-section-toggle" aria-expanded="false">Compare</button>
+    <div class="mobile-section-content">
+      <a href="/compare/">All Comparisons</a>
+      <a href="/compare/vs-hello-rache/">vs Hello Rache</a>
+      <a href="/compare/vs-hireteem/">vs HireTeem</a>
+      <a href="/compare/vs-virtual-assistants/">vs Virtual Assistants</a>
+      <a href="/compare/vs-call-centers/">vs Call Centers</a>
+      <a href="/compare/vs-ai-receptionists/">vs AI Receptionists</a>
+    </div>
+  </div>
+
   <a href="/pricing/">Pricing</a>
+
+  <!-- Resources Section -->
+  <div class="mobile-section">
+    <button class="mobile-section-toggle" aria-expanded="false">Resources</button>
+    <div class="mobile-section-content">
+      <a href="/resources/">All Resources</a>
+      <a href="/blog/">Blog</a>
+      <a href="/case-studies/">Case Studies</a>
+      <a href="/resources/roi-calculator/">ROI Calculator</a>
+      <a href="/glossary/">Glossary</a>
+      <a href="/faq/">FAQ</a>
+      <a href="/resources/podcast/">Podcast</a>
+    </div>
+  </div>
+
   <a href="/about/">About</a>
-  <a href="/resources/">Resources</a>
-  <a href="/blog/">Blog</a>
-  <a href="/contact/" class="mobile-cta">Book a Call</a>
+  <a href="/contact/" class="mobile-cta">Get My Schedule Filled</a>
 </nav>
 
 <!-- Floating Navigation Dock -->
@@ -415,6 +469,63 @@ const { currentPath = '/' } = Astro.props;
     50%, 100% { left: -100%; }
   }
 
+  /* Mobile Expandable Sections */
+  .mobile-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-section-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+  }
+
+  .mobile-section-toggle::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid currentColor;
+    transition: transform 0.2s ease;
+  }
+
+  .mobile-section-toggle[aria-expanded="true"]::after {
+    transform: rotate(180deg);
+  }
+
+  .mobile-section-toggle:hover {
+    background: var(--glass-navy);
+    color: var(--text-primary);
+  }
+
+  .mobile-section-content {
+    display: none;
+    flex-direction: column;
+    padding-left: 16px;
+    margin-bottom: 8px;
+  }
+
+  .mobile-section-content.active {
+    display: flex;
+  }
+
+  .mobile-section-content a {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
   /* Responsive */
   @media (max-width: 1024px) {
     .nav-dock {
@@ -444,6 +555,27 @@ const { currentPath = '/' } = Astro.props;
 
   menuToggle?.addEventListener('click', toggleMenu);
   menuOverlay?.addEventListener('click', toggleMenu);
+
+  // Mobile section toggle (expandable dropdowns)
+  const sectionToggles = document.querySelectorAll('.mobile-section-toggle');
+  sectionToggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+      const content = toggle.nextElementSibling;
+
+      // Close other sections
+      sectionToggles.forEach(otherToggle => {
+        if (otherToggle !== toggle) {
+          otherToggle.setAttribute('aria-expanded', 'false');
+          otherToggle.nextElementSibling?.classList.remove('active');
+        }
+      });
+
+      // Toggle current section
+      toggle.setAttribute('aria-expanded', !isExpanded);
+      content?.classList.toggle('active');
+    });
+  });
 
   // Close menu on link click
   mobileMenu?.querySelectorAll('a').forEach(link => {
