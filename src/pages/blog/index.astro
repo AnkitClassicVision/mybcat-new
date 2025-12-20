@@ -4,12 +4,16 @@ import Card from '@/components/Card.astro';
 import { getCollection } from 'astro:content';
 
 // Get all published blog posts, sorted by date
-const posts = (await getCollection('blog'))
+const allPosts = (await getCollection('blog'))
   .filter(post => post.data.status === 'published')
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 
+// Show first 18 posts on main page for faster loading
+const posts = allPosts.slice(0, 18);
+const hasMorePosts = allPosts.length > 18;
+
 // Get unique categories
-const categories = [...new Set(posts.map(post => post.data.category))];
+const categories = [...new Set(allPosts.map(post => post.data.category))];
 ---
 
 <Base
@@ -37,13 +41,16 @@ const categories = [...new Set(posts.map(post => post.data.category))];
       <div class="blog-grid">
         {posts.map((post, index) => (
           <article class={`blog-card ${index === 0 ? 'featured' : ''}`}>
-            <a href={`/blog/${post.slug}`} class="card-link">
+            <a href={`/blog/${post.slug}/`} class="card-link">
               {post.data.featuredImage && (
                 <div class="card-image">
                   <img
                     src={post.data.featuredImage}
                     alt={post.data.title}
-                    loading={index < 3 ? 'eager' : 'lazy'}
+                    width="400"
+                    height="250"
+                    loading={index < 6 ? 'eager' : 'lazy'}
+                    decoding={index < 6 ? 'sync' : 'async'}
                   />
                 </div>
               )}
@@ -66,6 +73,12 @@ const categories = [...new Set(posts.map(post => post.data.category))];
       {posts.length === 0 && (
         <div class="no-posts">
           <p>No posts yet. Check back soon!</p>
+        </div>
+      )}
+
+      {hasMorePosts && (
+        <div class="load-more">
+          <a href="/blog/archive/" class="load-more-button">View All {allPosts.length} Posts</a>
         </div>
       )}
     </div>
@@ -283,6 +296,30 @@ const categories = [...new Set(posts.map(post => post.data.category))];
     text-align: center;
     padding: 60px 24px;
     color: var(--text-muted);
+  }
+
+  .load-more {
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  .load-more-button {
+    display: inline-block;
+    padding: 14px 32px;
+    background: var(--navy-900);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s;
+  }
+
+  .load-more-button:hover {
+    background: var(--oceanic-teal);
+    transform: translateY(-2px);
   }
 
   /* CTA Section */
