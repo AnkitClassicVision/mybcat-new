@@ -118,7 +118,8 @@ const icons: Record<string, string> = {
             class="hero-video"
             poster={video.poster}
             playsinline
-            preload="none"
+            webkit-playsinline
+            preload="metadata"
             muted
           >
             <source data-src={video.src} type="video/mp4">
@@ -521,15 +522,42 @@ const icons: Record<string, string> = {
         }
       }
 
-      overlay.addEventListener('click', function() {
-        if (video.paused) {
-          loadVideoSource();
+      async function playVideo() {
+        if (!video.paused) return;
+
+        loadVideoSource();
+
+        try {
+          // First try to play muted (always works on mobile)
+          video.muted = true;
+          await video.play();
+
+          // If muted play succeeded, try to unmute
+          // On mobile, this works because we're in user gesture context
           video.muted = false;
-          video.play();
+
           overlay.style.opacity = '0';
           overlay.style.pointerEvents = 'none';
+        } catch (error) {
+          console.error('Video playback failed:', error);
+          // If play fails, try playing muted as fallback
+          try {
+            video.muted = true;
+            await video.play();
+            overlay.style.opacity = '0';
+            overlay.style.pointerEvents = 'none';
+          } catch (e) {
+            console.error('Muted playback also failed:', e);
+          }
         }
-      });
+      }
+
+      // Handle both click and touch events for mobile
+      overlay.addEventListener('click', playVideo);
+      overlay.addEventListener('touchend', function(e) {
+        e.preventDefault();
+        playVideo();
+      }, { passive: false });
 
       video.addEventListener('pause', function() {
         overlay.style.opacity = '1';
@@ -546,6 +574,13 @@ const icons: Record<string, string> = {
           video.pause();
         }
       });
+
+      video.addEventListener('touchend', function(e) {
+        if (!video.paused) {
+          e.preventDefault();
+          video.pause();
+        }
+      }, { passive: false });
     }
   });
 </script>
