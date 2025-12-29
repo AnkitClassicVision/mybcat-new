@@ -46,7 +46,7 @@ const icons: Record<string, string> = {
 ---
 
 <LandingLayout
-  title={`${industry.name} Patient Intake Services | MyBCAT`}
+  title={`${industry.shortName} Answering Service & Patient Intake | mybcat`}
   description={industry.metaDescription}
   serviceName={industry.name}
   serviceDescription={industry.description}
@@ -82,6 +82,24 @@ const icons: Record<string, string> = {
         variant="single"
       />
     </section>
+
+    <!-- Patient Acquisition Definition Section -->
+    {industry.patientAcquisition && (
+      <section class="definition-section">
+        <div class="definition-card">
+          <h2>What is Patient Acquisition for {industry.shortName}?</h2>
+          <p class="definition-text">{industry.patientAcquisition.definition}</p>
+          <div class="key-metrics">
+            <h3>Key Metrics to Track</h3>
+            <ul class="metrics-list">
+              {industry.patientAcquisition.keyMetrics.map(metric => (
+                <li>{metric}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+    )}
 
     <!-- Pain Points Section -->
     <section class="pain-points-section">
@@ -268,6 +286,73 @@ const icons: Record<string, string> = {
   /* Stats */
   .stats-section {
     margin-bottom: 60px;
+  }
+
+  /* Definition Section */
+  .definition-section {
+    margin-bottom: 60px;
+  }
+
+  .definition-card {
+    padding: 40px;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.05) 0%, rgba(0, 96, 100, 0.02) 100%);
+    border: 1px solid var(--glass-teal);
+    border-radius: 20px;
+  }
+
+  .definition-card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .definition-text {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 28px;
+  }
+
+  .key-metrics {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  .key-metrics h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .metrics-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .metrics-list li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .metrics-list li::before {
+    content: "→";
+    color: var(--oceanic-teal);
+    font-weight: 600;
   }
 
   /* Sections */
@@ -497,6 +582,14 @@ const icons: Record<string, string> = {
 
   @media (max-width: 768px) {
     .solutions-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .definition-card {
+      padding: 28px 20px;
+    }
+
+    .metrics-list {
       grid-template-columns: 1fr;
     }
 

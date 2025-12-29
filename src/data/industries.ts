@@ -12,6 +12,10 @@ export interface Industry {
   description: string;
   tldr: string;  // 40-60 word summary for SEO answer-friendliness
   metaDescription: string;
+  patientAcquisition: {
+    definition: string;  // Answer-friendly definition for SEO
+    keyMetrics: string[];
+  };
   painPoints: string[];
   solutions: string[];
   primaryEHR: string[];
@@ -33,10 +37,19 @@ export const industries: Industry[] = [
     name: 'Optometry & Ophthalmology',
     shortName: 'Optometry',
     icon: 'eye',
-    headline: 'Optometry Patient Intake That Understands Eye Care',
+    headline: 'Optometry Answering Service That Understands Eye Care',
     description: 'Dedicated patient intake solutions for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences.',
     tldr: 'mybcat provides optometry-specific phone answering and scheduling services. We understand VSP vs EyeMed insurance, route medical vs routine visits correctly, and book directly into Eyefinity, RevolutionEHR, and other eye care systems. Practices typically recover $127K+ in annual revenue from missed calls.',
     metaDescription: 'Optometry answering service built for eye care practices. We integrate with Eyefinity, handle comprehensive exam scheduling, and drive optical sales.',
+    patientAcquisition: {
+      definition: 'Patient acquisition for optometry practices means converting phone calls, website inquiries, and referrals into scheduled comprehensive eye exams and optical purchases. It encompasses the full patient journey from first contact through appointment booking, including insurance verification and new patient intake.',
+      keyMetrics: [
+        'Call-to-appointment conversion rate',
+        'New patient bookings per month',
+        'Optical capture rate from exams',
+        'Insurance verification accuracy'
+      ]
+    },
     painPoints: [
       'VSP vs EyeMed insurance complexity',
       'High volume of routine exam scheduling',
@@ -69,10 +82,19 @@ export const industries: Industry[] = [
     name: 'Dental',
     shortName: 'Dental',
     icon: 'tooth',
-    headline: 'Dental Practice Phone Coverage That Converts',
+    headline: 'Dental Answering Service That Converts Callers to Patients',
     description: 'Patient intake and scheduling services designed for dental practices. From hygiene recalls to emergency appointments, we keep your chairs filled.',
     tldr: 'mybcat handles dental practice phone calls with direct scheduling into Dentrix, Eaglesoft, and Open Dental. We manage hygiene recalls, new patient intake, emergency triage, and treatment follow-ups. Dental practices lose $150K+ annually to missed calls—we help you capture that revenue.',
     metaDescription: 'Dental practice answering service with direct EHR scheduling. Handle new patient calls, hygiene recalls, and emergencies professionally.',
+    patientAcquisition: {
+      definition: 'Patient acquisition for dental practices involves converting inquiries into scheduled appointments, maintaining hygiene recall compliance, and following up on treatment plans. It includes new patient intake, emergency scheduling, and reactivating patients who have lapsed from regular care.',
+      keyMetrics: [
+        'New patient appointments per month',
+        'Hygiene recall rate',
+        'Treatment plan acceptance rate',
+        'Patient reactivation success'
+      ]
+    },
     painPoints: [
       'Hygiene recall management',
       'Treatment acceptance follow-up',
@@ -99,10 +121,19 @@ export const industries: Industry[] = [
     name: 'Veterinary',
     shortName: 'Veterinary',
     icon: 'paw',
-    headline: 'Veterinary Practice Support for Busy Animal Hospitals',
+    headline: 'Veterinary Answering Service for Busy Animal Hospitals',
     description: 'Patient intake services that understand pet parents and animal hospital workflows. From wellness visits to emergencies, we handle it all.',
     tldr: 'mybcat provides veterinary-specific answering services that understand pet parent needs. We handle emergency triage, wellness scheduling, medication refills, and multi-pet households. Our team integrates with Cornerstone, AVImark, and other veterinary practice systems.',
     metaDescription: 'Veterinary practice answering service. Handle appointment scheduling, medication refills, and emergency triage for animal hospitals.',
+    patientAcquisition: {
+      definition: 'Patient acquisition for veterinary practices means converting pet parent inquiries into scheduled wellness visits, managing emergency calls, and maintaining relationships with multi-pet households. It includes new client onboarding, vaccine reminders, and reactivating clients who have lapsed.',
+      keyMetrics: [
+        'New client bookings per month',
+        'Wellness visit compliance rate',
+        'Emergency call conversion rate',
+        'Multi-pet household retention'
+      ]
+    },
     painPoints: [
       'High call volume during peak hours',
       'Emergency vs routine call triage',
@@ -129,10 +160,19 @@ export const industries: Industry[] = [
     name: 'MedSpa & Aesthetics',
     shortName: 'MedSpa',
     icon: 'sparkles',
-    headline: 'MedSpa Booking That Matches Your Premium Experience',
+    headline: 'MedSpa Answering Service for Premium Patient Experiences',
     description: 'Patient intake services designed for aesthetic practices. We understand the consultation-driven nature of medspa services and convert inquiries into bookings.',
     tldr: 'mybcat provides premium phone services for medspa and aesthetics practices. We convert consultation inquiries into bookings, manage membership programs, and schedule treatment packages. With average consultation values of $2,500+, every missed call is significant lost revenue.',
     metaDescription: 'MedSpa answering service that converts inquiries into bookings. Handle consultations, treatment scheduling, and membership programs.',
+    patientAcquisition: {
+      definition: 'Patient acquisition for medspa practices focuses on converting high-value consultation inquiries into booked appointments and long-term client relationships. It includes capturing leads from marketing campaigns, nurturing prospects through the consultation process, and maintaining membership program engagement.',
+      keyMetrics: [
+        'Inquiry-to-consultation rate',
+        'Consultation-to-treatment conversion',
+        'Membership enrollment rate',
+        'Client lifetime value'
+      ]
+    },
     painPoints: [
       'High-value consultation conversions',
       'Membership program management',
@@ -159,10 +199,19 @@ export const industries: Industry[] = [
     name: 'Dermatology',
     shortName: 'Dermatology',
     icon: 'shield',
-    headline: 'Dermatology Practice Support for Medical & Cosmetic',
+    headline: 'Dermatology Answering Service for Medical & Cosmetic Practices',
     description: 'Patient intake for dermatology practices handling both medical and cosmetic services. We route appropriately and capture every opportunity.',
     tldr: 'mybcat handles dermatology calls for both medical and cosmetic services. We properly route skin checks vs cosmetic consultations, manage insurance vs self-pay workflows, and integrate with Modernizing Medicine, Nextech, and other derm systems.',
     metaDescription: 'Dermatology answering service for medical and cosmetic practices. Handle skin checks, cosmetic consultations, and follow-up care.',
+    patientAcquisition: {
+      definition: 'Patient acquisition for dermatology practices involves capturing both medical and cosmetic patients through multiple channels. It requires proper triage of urgent skin concerns, routing to appropriate providers, and converting cosmetic inquiries into high-value consultations while managing insurance and self-pay workflows.',
+      keyMetrics: [
+        'New patient bookings per month',
+        'Cosmetic consultation conversion rate',
+        'Same-day appointment fill rate',
+        'Follow-up care compliance'
+      ]
+    },
     painPoints: [
       'Medical vs cosmetic routing',
       'Skin check urgency assessment',
@@ -189,10 +238,19 @@ export const industries: Industry[] = [
     name: 'Urgent Care',
     shortName: 'Urgent Care',
     icon: 'shield',
-    headline: 'Urgent Care Call Management for High-Volume Clinics',
+    headline: 'Urgent Care Answering Service for High-Volume Clinics',
     description: 'Patient intake services designed for urgent care centers handling high call volumes and walk-in traffic. We triage calls, manage wait times, and maximize patient throughput.',
     tldr: 'mybcat manages high-volume urgent care phone lines so your staff can focus on patients. We handle 150-300+ daily calls, communicate real-time wait times, and balance walk-in flow with scheduled appointments. Available extended hours including weekends.',
     metaDescription: 'Urgent care answering service for walk-in clinics. Handle high call volumes, wait time inquiries, and appointment scheduling efficiently.',
+    patientAcquisition: {
+      definition: 'Patient acquisition for urgent care centers involves maximizing patient throughput while maintaining quality care. It includes managing high-volume phone traffic, communicating wait times effectively, balancing walk-ins with scheduled appointments, and capturing patients who might otherwise go to competitors or the ER.',
+      keyMetrics: [
+        'Daily patient volume',
+        'Average wait time communication',
+        'Call abandonment rate',
+        'Return visit rate'
+      ]
+    },
     painPoints: [
       'Extremely high call volume during peak hours',
       'Walk-in vs appointment balance management',
@@ -219,10 +277,19 @@ export const industries: Industry[] = [
     name: 'ENT & Audiology',
     shortName: 'ENT',
     icon: 'shield',
-    headline: 'ENT & Audiology Practice Support for Complex Scheduling',
+    headline: 'ENT & Audiology Answering Service for Complex Scheduling',
     description: 'Patient intake services for ENT practices and audiology clinics. We handle surgical scheduling, hearing aid appointments, and complex multi-visit care coordination.',
     tldr: 'mybcat handles complex ENT and audiology scheduling including surgical pre-authorization, hearing aid fittings, and multi-visit care coordination. We integrate with ModMed, AdvancedMD, and specialty audiology systems to manage your diverse service lines.',
     metaDescription: 'ENT and audiology answering service. Handle hearing evaluations, surgical scheduling, and complex multi-specialty appointment coordination.',
+    patientAcquisition: {
+      definition: 'Patient acquisition for ENT and audiology practices involves managing complex multi-visit patient journeys across multiple service lines. It includes capturing surgical referrals, converting hearing evaluation inquiries into hearing aid sales, managing allergy patients, and coordinating care across multiple providers and specialties.',
+      keyMetrics: [
+        'Surgical case bookings',
+        'Hearing aid conversion rate',
+        'Multi-visit patient retention',
+        'Referral-to-appointment rate'
+      ]
+    },
     painPoints: [
       'Complex surgical scheduling coordination',
       'Hearing aid fitting and follow-up management',

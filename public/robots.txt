@@ -5,6 +5,10 @@ User-agent: *
 Allow: /
 Disallow: /draft/
 Disallow: /api/
+Disallow: /admin/
+Disallow: /_astro/
+Disallow: /preview/
+Disallow: /search
 
 # Sitemap location
 Sitemap: https://mybcat.com/sitemap-index.xml

@@ -15,6 +15,12 @@ export interface ProcessStep {
   description: string;
 }
 
+export interface ProblemStatement {
+  question: string;
+  stats: { label: string; value: string }[];
+  painPoints: string[];
+}
+
 export interface Solution {
   slug: string;
   name: string;
@@ -23,6 +29,7 @@ export interface Solution {
   description: string;
   tldr: string;  // 40-60 word summary for SEO answer-friendliness
   metaDescription: string;
+  problem: ProblemStatement;
   features: SolutionFeature[];
   benefits: string[];
   process: ProcessStep[];
@@ -41,6 +48,20 @@ export const solutions: Solution[] = [
     description: 'Complete front-desk phone coverage that captures new patients and books appointments directly into your EHR. Your patients talk to real people who understand healthcare.',
     tldr: 'mybcat\'s patient intake service ensures every call is answered by a trained healthcare coordinator who books appointments directly into your EHR. We handle inbound calls, schedule appointments, collect patient information, and verify insurance—so your front desk can focus on patients in the office.',
     metaDescription: 'Never miss another patient call. MyBCAT\'s intake service answers every call, books appointments directly in your EHR, and recovers lost revenue.',
+    problem: {
+      question: 'How many patient calls is your practice missing?',
+      stats: [
+        { label: 'Callers abandon voicemail', value: '87%' },
+        { label: 'Revenue lost per missed call', value: '$200-400' },
+        { label: 'Calls going to voicemail', value: '29%' }
+      ],
+      painPoints: [
+        'Front desk too busy with in-office patients to answer every call',
+        'After-hours callers leave messages that never get returned',
+        'New patients call competitors when they can\'t reach you',
+        'Staff turnover creates gaps in phone coverage'
+      ]
+    },
     features: [
       {
         title: 'Phone Answering',
@@ -101,6 +122,20 @@ export const solutions: Solution[] = [
     description: 'Systematic outreach campaigns that reactivate dormant patients and drive recall compliance. We work your patient list so you can focus on patient care.',
     tldr: 'mybcat\'s recall and reactivation service proactively contacts patients due for appointments and those who have lapsed. We run multi-channel campaigns via phone, text, and email to bring patients back, improving recall compliance by 30%+ and recovering $50K+ in annual revenue.',
     metaDescription: 'Proactive patient reactivation campaigns. We work your recall list to bring patients back before they become lapsed. Increase recall rates by 30%+.',
+    problem: {
+      question: 'How many patients are slipping through the cracks?',
+      stats: [
+        { label: 'Patients lapse each year', value: '20-30%' },
+        { label: 'Revenue lost per lapsed patient', value: '$500-2,000' },
+        { label: 'Patients don\'t return without outreach', value: '65%' }
+      ],
+      painPoints: [
+        'Recall lists grow but staff doesn\'t have time to work them',
+        'Patients forget to schedule their annual appointments',
+        'No systematic process to bring back lapsed patients',
+        'Front desk is too reactive to do proactive outreach'
+      ]
+    },
     features: [
       {
         title: 'Recall Campaigns',
@@ -161,6 +196,20 @@ export const solutions: Solution[] = [
     description: 'Same-day and next-day recovery workflows that fill cancelled appointments quickly. Don\'t let last-minute cancellations cost you money.',
     tldr: 'mybcat\'s no-show recovery service fills cancelled appointments within hours. When patients cancel or no-show, we immediately contact your waitlist to fill the slot. Practices typically recover 65% of cancelled appointments, saving $40K+ in annual revenue.',
     metaDescription: 'Fill cancelled appointments fast. Our no-show recovery system contacts patients immediately and fills empty slots within hours.',
+    problem: {
+      question: 'How much revenue are cancellations costing your practice?',
+      stats: [
+        { label: 'Average no-show rate', value: '15-20%' },
+        { label: 'Revenue lost per empty slot', value: '$150-400' },
+        { label: 'Same-day cancellations', value: '8-12%' }
+      ],
+      painPoints: [
+        'Last-minute cancellations leave revenue on the table',
+        'Staff too busy to work the waitlist effectively',
+        'No systematic process to fill cancelled slots',
+        'Chronic no-shows never get addressed'
+      ]
+    },
     features: [
       {
         title: 'Immediate Notification',
@@ -221,6 +270,20 @@ export const solutions: Solution[] = [
     description: 'End-to-end front office operations that go beyond just phone answering. We handle your complete patient communication workflow from first contact to appointment completion.',
     tldr: 'mybcat\'s front office operations service handles your entire patient communication workflow. We manage all calls, appointment confirmations, insurance coordination, and schedule optimization—reducing staffing needs by 40+ hours per week while improving patient satisfaction.',
     metaDescription: 'Complete front office outsourcing for healthcare practices. Handle calls, scheduling, insurance, and patient communications all in one solution.',
+    problem: {
+      question: 'Is your front desk holding back your practice growth?',
+      stats: [
+        { label: 'Time spent on phone daily', value: '4-6 hours' },
+        { label: 'Staff turnover in healthcare', value: '26%/year' },
+        { label: 'Cost per front desk hire', value: '$4,500+' }
+      ],
+      painPoints: [
+        'High turnover creates constant training burden',
+        'Front desk overwhelmed by competing priorities',
+        'Inconsistent patient experience across staff',
+        'Multi-location coordination is chaotic'
+      ]
+    },
     features: [
       {
         title: 'Complete Call Handling',
@@ -281,6 +344,20 @@ export const solutions: Solution[] = [
     description: 'mybcat integrates directly with your existing EHR/PMS, phone system, and communication tools. No double entry, no disconnected workflows—just seamless operations.',
     tldr: 'mybcat integrates directly with 50+ EHR and practice management systems including Eyefinity, Dentrix, ModMed, and more. Our team schedules appointments directly in your system—no message-taking or double entry required. Setup typically takes 3-5 days.',
     metaDescription: 'mybcat integrates with major EHR and practice management systems. Eyefinity, Dentrix, ModMed, and 50+ more. Direct scheduling, no message-taking.',
+    problem: {
+      question: 'Is disconnected technology slowing down your practice?',
+      stats: [
+        { label: 'Time lost to double entry', value: '10+ hrs/week' },
+        { label: 'Data entry errors', value: '15-20%' },
+        { label: 'Failed outsourcing attempts', value: '40%' }
+      ],
+      painPoints: [
+        'Previous services just took messages, didn\'t schedule',
+        'Double data entry creates errors and wastes time',
+        'Disconnected systems mean constant manual updates',
+        'IT complexity makes change feel impossible'
+      ]
+    },
     features: [
       {
         title: 'Direct EHR/PMS Access',
