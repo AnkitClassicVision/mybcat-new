@@ -409,6 +409,154 @@ export const solutions: Solution[] = [
       { label: 'Average Setup Time', value: '3-5 days' },
       { label: 'Integration Success Rate', value: '100%' }
     ]
+  },
+  {
+    slug: 'virtual-medical-scribe',
+    name: 'Virtual Medical Scribe',
+    tagline: 'Documentation Done. Focus on Patients.',
+    headline: 'Virtual Medical Scribe Service for Healthcare Providers',
+    description: 'Remote medical scribes that handle clinical documentation in real-time. Reduce provider burnout, improve note quality, and reclaim hours each week for patient care.',
+    tldr: 'My Business Care Team\'s virtual medical scribe service provides trained remote scribes who document patient encounters in real-time. Scribes work alongside providers via audio or video, completing notes during or immediately after visits—reducing documentation time by 2+ hours daily.',
+    metaDescription: 'Virtual medical scribe service that handles clinical documentation in real-time. Reduce provider burnout and reclaim 2+ hours daily. HIPAA compliant.',
+    problem: {
+      question: 'How much time are your providers losing to documentation?',
+      stats: [
+        { label: 'Time spent on documentation daily', value: '2-3 hours' },
+        { label: 'Physicians report burnout', value: '63%' },
+        { label: 'Notes completed after hours', value: '50%+' }
+      ],
+      painPoints: [
+        'Providers spend evenings and weekends catching up on notes',
+        'Documentation burden reduces patient face time',
+        'EHR complexity makes charting slow and frustrating',
+        'Hiring in-person scribes is expensive and hard to staff'
+      ]
+    },
+    features: [
+      {
+        title: 'Real-Time Documentation',
+        description: 'Scribes document encounters as they happen via audio or video connection, so notes are done when the visit ends.',
+        icon: 'edit'
+      },
+      {
+        title: 'EHR Integration',
+        description: 'Direct documentation into your EHR—Epic, Cerner, Athena, ModMed, and 50+ systems supported.',
+        icon: 'link'
+      },
+      {
+        title: 'Specialty-Trained Scribes',
+        description: 'Scribes trained in your specialty terminology, workflows, and documentation preferences.',
+        icon: 'graduation'
+      },
+      {
+        title: 'Quality Assurance',
+        description: 'All notes reviewed for accuracy, completeness, and compliance before finalization.',
+        icon: 'check-circle'
+      }
+    ],
+    benefits: [
+      'Reduce documentation time by 2+ hours daily',
+      'Complete notes before leaving the office',
+      'Increase patient face time',
+      'Reduce provider burnout',
+      'Improve note quality and completeness'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Workflow Assessment',
+        description: 'We learn your documentation style, EHR workflows, and specialty requirements.'
+      },
+      {
+        step: 2,
+        title: 'Scribe Training',
+        description: 'Your dedicated scribe is trained on your preferences and templates.'
+      },
+      {
+        step: 3,
+        title: 'Go Live',
+        description: 'Start with supervised sessions, transition to full documentation support in 1-2 weeks.'
+      }
+    ],
+    stats: [
+      { label: 'Documentation Time Saved', value: '2+ hrs/day' },
+      { label: 'Notes Completed Same-Day', value: '95%+' },
+      { label: 'Provider Satisfaction', value: '98%' }
+    ]
+  },
+  {
+    slug: 'medical-virtual-assistant',
+    name: 'Medical Virtual Assistant',
+    tagline: 'Your Dedicated Remote Healthcare Admin',
+    headline: 'Medical Virtual Assistant Service for Healthcare Practices',
+    description: 'Dedicated remote healthcare virtual assistants who handle administrative tasks, patient coordination, and back-office operations. Full-time support without the overhead of in-house staff.',
+    tldr: 'My Business Care Team\'s medical virtual assistant service provides dedicated remote staff trained in healthcare administration. Your VA handles scheduling, insurance verification, referral coordination, billing follow-up, and administrative tasks—reducing overhead by 50% compared to in-house hires.',
+    metaDescription: 'Medical virtual assistant service with dedicated remote healthcare staff. Scheduling, insurance verification, billing, and admin support at 50% less than in-house.',
+    problem: {
+      question: 'Is administrative work slowing down your practice?',
+      stats: [
+        { label: 'Admin tasks per patient visit', value: '15-20 min' },
+        { label: 'Staff time on insurance/billing', value: '30%+' },
+        { label: 'Average cost per FTE', value: '$45K+/year' }
+      ],
+      painPoints: [
+        'Administrative burden takes time away from patient care',
+        'Hiring and training staff is expensive and time-consuming',
+        'Insurance verification and prior auth delays slow revenue',
+        'Referral coordination falls through the cracks'
+      ]
+    },
+    features: [
+      {
+        title: 'Dedicated Virtual Assistant',
+        description: 'A single dedicated VA who learns your practice, not a rotating pool of agents.',
+        icon: 'user'
+      },
+      {
+        title: 'Insurance & Billing Support',
+        description: 'Benefits verification, prior authorizations, claim follow-up, and patient billing inquiries.',
+        icon: 'shield'
+      },
+      {
+        title: 'Referral Coordination',
+        description: 'Manage incoming and outgoing referrals, follow up on pending authorizations, and track referral status.',
+        icon: 'share'
+      },
+      {
+        title: 'Administrative Tasks',
+        description: 'Medical records requests, fax management, patient correspondence, and general admin support.',
+        icon: 'clipboard'
+      }
+    ],
+    benefits: [
+      'Dedicated staff who knows your practice',
+      '50% cost savings vs in-house hire',
+      'No recruiting, training, or HR overhead',
+      'Flexible hours based on your needs',
+      'HIPAA-trained healthcare professionals'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Needs Assessment',
+        description: 'We identify your administrative pain points and task requirements.'
+      },
+      {
+        step: 2,
+        title: 'VA Matching',
+        description: 'Match you with a VA whose skills and experience fit your practice needs.'
+      },
+      {
+        step: 3,
+        title: 'Onboarding',
+        description: 'Your VA is trained on your systems, workflows, and preferences before starting.'
+      }
+    ],
+    stats: [
+      { label: 'Cost Savings vs In-House', value: '50%' },
+      { label: 'Tasks Handled Per Day', value: '40+' },
+      { label: 'Retention Rate', value: '95%' }
+    ]
   }
 ];
 
