@@ -86,39 +86,53 @@ const processSteps = [
   }
 ];
 
-// What you get
+// What you get - using SVG icons
 const benefits = [
   {
     title: 'Trained Healthcare Specialists',
     description: 'Your team arrives pre-trained on healthcare workflows, insurance verification, and your specific EHR system.',
-    icon: '👥'
+    icon: 'users'
   },
   {
     title: 'Real-Time Dashboard',
     description: 'See every call, appointment, and metric in real-time. Full visibility into your patient acquisition operations.',
-    icon: '📊'
+    icon: 'chart'
   },
   {
     title: 'AI + Human Coverage',
     description: 'AI handles after-hours and overflow. Humans handle complex calls. You get the best of both worlds.',
-    icon: '🤖'
+    icon: 'cpu'
   },
   {
     title: 'Direct EHR Integration',
     description: 'Appointments booked directly into your system. No message-taking, no callbacks required.',
-    icon: '🔗'
+    icon: 'link'
   },
   {
     title: 'HIPAA Compliance Built-In',
     description: 'Full BAA, encrypted communications, and compliant data handling. Security isn\'t an add-on.',
-    icon: '🔒'
+    icon: 'shield'
   },
   {
     title: 'Outcome-Based Model',
     description: 'We succeed when you succeed. Our pricing aligns our incentives with your growth goals.',
-    icon: '📈'
+    icon: 'trending'
   }
 ];
+
+// Icon SVGs
+const icons: Record<string, string> = {
+  'users': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>',
+  'chart': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>',
+  'cpu': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>',
+  'link': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>',
+  'shield': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>',
+  'trending': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>',
+  'phone': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>',
+  'key': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>',
+  'clipboard': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>',
+  'check': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>'
+};
 ---
 
 <PageLayout
@@ -160,7 +174,7 @@ const benefits = [
 
     <!-- TL;DR -->
     <section class="tldr-section">
-      <Card variant="pricing">
+      <div class="tldr-card">
         <div class="tldr-content">
           <h2>TL;DR</h2>
           <p>
@@ -171,7 +185,7 @@ const benefits = [
             You don't lift a finger—we handle everything.
           </p>
         </div>
-      </Card>
+      </div>
     </section>
 
     <!-- Process Timeline -->
@@ -215,7 +229,9 @@ const benefits = [
       <div class="benefits-grid">
         {benefits.map(benefit => (
           <div class="benefit-card">
-            <span class="benefit-icon">{benefit.icon}</span>
+            <div class="benefit-icon">
+              <Fragment set:html={icons[benefit.icon]} />
+            </div>
             <h3>{benefit.title}</h3>
             <p>{benefit.description}</p>
           </div>
@@ -225,7 +241,7 @@ const benefits = [
 
     <!-- What We Need From You -->
     <section class="requirements-section">
-      <Card variant="testimonial">
+      <div class="requirements-card">
         <div class="requirements-content">
           <h2>What We Need From You</h2>
           <p class="requirements-intro">
@@ -233,19 +249,27 @@ const benefits = [
           </p>
           <div class="requirements-grid">
             <div class="requirement">
-              <span class="req-icon">📞</span>
+              <div class="req-icon">
+                <Fragment set:html={icons['phone']} />
+              </div>
               <span class="req-text">30-minute discovery call</span>
             </div>
             <div class="requirement">
-              <span class="req-icon">🔑</span>
+              <div class="req-icon">
+                <Fragment set:html={icons['key']} />
+              </div>
               <span class="req-text">EHR/PM system access</span>
             </div>
             <div class="requirement">
-              <span class="req-icon">📋</span>
+              <div class="req-icon">
+                <Fragment set:html={icons['clipboard']} />
+              </div>
               <span class="req-text">Your scheduling preferences</span>
             </div>
             <div class="requirement">
-              <span class="req-icon">✅</span>
+              <div class="req-icon">
+                <Fragment set:html={icons['check']} />
+              </div>
               <span class="req-text">Quick review during soft launch</span>
             </div>
           </div>
@@ -253,7 +277,7 @@ const benefits = [
             That's it. We handle everything else—training, integration, ongoing management.
           </p>
         </div>
-      </Card>
+      </div>
     </section>
 
     <!-- Integration Partners -->
@@ -382,6 +406,13 @@ const benefits = [
   /* TL;DR */
   .tldr-section {
     margin-bottom: 60px;
+  }
+
+  .tldr-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 32px;
   }
 
   .tldr-content {
@@ -544,9 +575,15 @@ const benefits = [
   }
 
   .benefit-icon {
-    font-size: 2rem;
-    display: block;
-    margin-bottom: 12px;
+    width: 56px;
+    height: 56px;
+    background: var(--glass-copper);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    color: var(--oceanic-teal);
   }
 
   .benefit-card h3 {
@@ -565,6 +602,13 @@ const benefits = [
   /* Requirements */
   .requirements-section {
     margin-bottom: 60px;
+  }
+
+  .requirements-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 32px;
   }
 
   .requirements-content {
@@ -598,14 +642,27 @@ const benefits = [
     align-items: center;
     gap: 12px;
     padding: 16px;
-    background: var(--spatial-glass);
+    background: white;
+    border: 1px solid var(--glass-border);
     border-radius: 12px;
     text-align: left;
   }
 
   .req-icon {
-    font-size: 1.5rem;
+    width: 44px;
+    height: 44px;
+    background: var(--glass-copper);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
+    color: var(--oceanic-teal);
+  }
+
+  .req-icon svg {
+    width: 22px;
+    height: 22px;
   }
 
   .req-text {
