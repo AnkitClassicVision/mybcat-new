@@ -73,17 +73,18 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
     font-size: 18px;
   }
 
-  /* Secondary variant */
+  /* Secondary variant - outlined style */
   .magnetic-button.secondary {
+    background: transparent;
     color: var(--navy-800);
+    border: 2px solid var(--navy-800);
+    box-shadow: none;
   }
 
   .magnetic-button.secondary:hover {
     background: var(--navy-800);
     color: #ffffff;
-    box-shadow: 0 0 5px var(--navy-800),
-          0 0 25px var(--navy-800),
-          0 0 50px var(--navy-800);
+    box-shadow: none;
   }
 
   /* Text variant */
