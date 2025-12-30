@@ -35,10 +35,10 @@ const processSteps = [
   }
 ];
 
-// Stats
+// Stats - Patient value varies by specialty (optometry ~$2,400, dental ~$3,000+, ENT surgical ~$8,500+)
 const stats = [
-  { value: '$100K+', label: 'Recoverable Revenue Per Location' },
-  { value: '87%', label: 'Callers Abandon Voicemail' },
+  { value: '$1,500-$8,500+', label: 'Patient Value Lost Per Missed Call*' },
+  { value: '87%', label: 'Callers Hang Up on Voicemail' },
   { value: '40+', label: 'Appointments Recovered Monthly' }
 ];
 
@@ -70,18 +70,18 @@ const clientLogos = [
   <main class="homepage">
     <!-- Hero Section with Video -->
     <Hero
-      title="Every empty appointment slot costs you $2,400. Let's get your calendar filled."
-      tagline="Your Complete Patient Operations Team"
-      description="Stop relying on luck to fill your schedule. With 87% of new patients hanging up the moment they reach voicemail, your practice is losing revenue. Our patient operations team captures every call, fills cancelled slots, and brings patients back—increasing your bookings by up to 40% in just 90 days."
-      ctaText="Get My Schedule Filled"
+      title="Tired of empty chairs while phones ring unanswered?"
+      tagline="Your Front Desk's Best Friend"
+      description="Your front desk is stretched thin. Phones ring while they're helping patients. Calls go to voicemail. New patients hang up and call your competitor. We become the backup your team needs—answering overflow calls, booking appointments directly into your EHR, and filling cancelled slots. No more choosing between the patient in front of you and the one on the phone."
+      ctaText="Stop Losing Patients to Voicemail"
       ctaHref="/contact/"
       secondaryText="See how it works"
       secondaryHref="/how-it-works/"
       showBrand={true}
       benefits={[
-        { icon: 'workflow', text: 'Fewer missed calls' },
-        { icon: 'calendar', text: 'Cleaner schedule' },
-        { icon: 'users', text: 'Happier providers' }
+        { icon: 'workflow', text: 'Zero missed calls' },
+        { icon: 'calendar', text: 'Fuller schedule' },
+        { icon: 'users', text: 'Less stressed staff' }
       ]}
       trustItems={[
         { icon: 'shield', text: 'HIPAA Compliant' },
@@ -213,9 +213,9 @@ const clientLogos = [
 
     <!-- Social Proof -->
     <Testimonials
-      items={testimonials.slice(0, 3)}
+      items={testimonials.slice(0, 5)}
       title="Trusted by 70+ Healthcare Professionals"
-      eyebrow="Real Results"
+      eyebrow="Optometry · Dental · Veterinary"
     />
 
     <!-- Logo Marquee -->
@@ -223,6 +223,54 @@ const clientLogos = [
       logos={clientLogos}
       title="Trusted by Leading Healthcare Practices"
     />
+
+    <!-- Why We're Different Section -->
+    <section class="different-section">
+      <div class="section-intro">
+        <div class="eyebrow">Been Burned Before?</div>
+        <h2>Why This Is Different From What You've Tried</h2>
+        <p class="subtitle">We get it. You've tried outsourcing and it didn't work. Here's why we're not like the others.</p>
+      </div>
+      <div class="different-grid">
+        <div class="different-card problem">
+          <div class="card-header">
+            <span class="card-icon">✗</span>
+            <h3>Cheap Answering Services</h3>
+          </div>
+          <ul>
+            <li>Read scripts, take messages</li>
+            <li>No EHR access—patients wait for callbacks</li>
+            <li>Generic operators who don't know healthcare</li>
+            <li>Patients feel like a number</li>
+          </ul>
+        </div>
+        <div class="different-card problem">
+          <div class="card-header">
+            <span class="card-icon">✗</span>
+            <h3>$10/hr Virtual Assistants</h3>
+          </div>
+          <ul>
+            <li>You train, manage, and replace them</li>
+            <li>One person = no backup when they're sick</li>
+            <li>You provide all the systems and processes</li>
+            <li>High turnover, constant retraining</li>
+          </ul>
+        </div>
+        <div class="different-card solution">
+          <div class="card-header">
+            <span class="card-icon">✓</span>
+            <h3>My Business Care Team</h3>
+          </div>
+          <ul>
+            <li><strong>Book directly into your EHR</strong>—no callbacks needed</li>
+            <li><strong>Managed team with backup</strong>—coverage never gaps</li>
+            <li><strong>Healthcare-trained</strong>—we know Dentrix, Eyefinity, Cornerstone</li>
+            <li><strong>Patients can't tell</strong>—we answer as your practice</li>
+          </ul>
+          <p class="solution-note">Like hiring a full-time receptionist for less—without the headaches.</p>
+        </div>
+      </div>
+    </section>
 
     <!-- FAQ -->
     <FAQ
@@ -233,8 +281,8 @@ const clientLogos = [
 
     <!-- Final CTA -->
     <CTA
-      title="Ready to Fill Every Appointment Slot?"
-      description="Book a discovery call to see how My Business Care Team can capture the revenue you're leaving on the table."
+      title="Give Your Front Desk the Backup They Deserve"
+      description="Stop choosing between the patient in front of you and the one on the phone. Book a discovery call to see how we can capture every call and fill every slot."
       buttonText="Book Your Discovery Call"
       buttonHref="/contact/"
     />
@@ -446,6 +494,117 @@ const clientLogos = [
     .vertical-link {
       flex: 1 1 calc(50% - 4px);
       min-width: 140px;
+    }
+  }
+
+  /* Why We're Different Section */
+  .different-section {
+    padding: 80px 0;
+    background: var(--glass-navy);
+    border-radius: 24px;
+    margin: 60px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .different-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .different-card {
+    background: white;
+    border-radius: 16px;
+    padding: 28px;
+    border: 2px solid transparent;
+  }
+
+  .different-card.problem {
+    border-color: var(--glass-border);
+    opacity: 0.85;
+  }
+
+  .different-card.solution {
+    border-color: var(--oceanic-teal);
+    box-shadow: 0 8px 32px rgba(0, 96, 100, 0.15);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .card-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .different-card.problem .card-icon {
+    background: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+  }
+
+  .different-card.solution .card-icon {
+    background: var(--glass-teal);
+    color: var(--oceanic-teal);
+  }
+
+  .different-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin: 0;
+  }
+
+  .different-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .different-card li {
+    padding: 8px 0;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .different-card li:last-child {
+    border-bottom: none;
+  }
+
+  .different-card.solution li {
+    color: var(--navy-900);
+  }
+
+  .solution-note {
+    margin-top: 16px;
+    padding: 12px;
+    background: var(--glass-teal);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--oceanic-teal);
+    text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    .different-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .different-section {
+      padding-left: 24px;
+      padding-right: 24px;
     }
   }
 </style>

@@ -62,6 +62,18 @@ export const mainNavigation: NavItem[] = [
     ]
   },
   {
+    label: 'Enterprise',
+    href: '/enterprise/',
+    children: [
+      { label: 'Enterprise Overview', href: '/enterprise/', description: 'Multi-location solutions' },
+      { label: 'DSOs & Dental Groups', href: '/enterprise/dso/' },
+      { label: 'Optometry Groups', href: '/enterprise/optometry-groups/' },
+      { label: 'Veterinary Groups', href: '/enterprise/veterinary-groups/' },
+      { label: 'Urgent Care Chains', href: '/enterprise/urgent-care-chains/' },
+      { label: 'Build vs Buy Analysis', href: '/compare/build-vs-buy/', description: 'Cost comparison' }
+    ]
+  },
+  {
     label: 'Compare',
     href: '/compare/',
     children: [
@@ -112,6 +124,13 @@ export const footerNavigation = {
     { label: 'Dermatology', href: '/industries/dermatology/' },
     { label: 'Urgent Care', href: '/industries/urgent-care/' },
     { label: 'ENT', href: '/industries/ent/' }
+  ],
+  enterprise: [
+    { label: 'Enterprise Overview', href: '/enterprise/' },
+    { label: 'DSOs & Dental Groups', href: '/enterprise/dso/' },
+    { label: 'Optometry Groups', href: '/enterprise/optometry-groups/' },
+    { label: 'Veterinary Groups', href: '/enterprise/veterinary-groups/' },
+    { label: 'Urgent Care Chains', href: '/enterprise/urgent-care-chains/' }
   ],
   company: [
     { label: 'About', href: '/about/' },

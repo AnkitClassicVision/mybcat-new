@@ -54,6 +54,24 @@ export const testimonials: Testimonial[] = [
     industry: "optometry",
     initials: "BW",
     featured: false
+  },
+  {
+    quote: "We tried a cheap answering service before and it was a disaster—patients complained they felt like numbers. MyBCAT is completely different. They know our Dentrix system inside out and patients think they're in our office.",
+    author: "Dr. Sarah Chen",
+    title: "Owner",
+    company: "Smile Design Dental (3 locations)",
+    industry: "dental",
+    initials: "SC",
+    featured: false
+  },
+  {
+    quote: "After getting burned by two different VA services, I was skeptical. But these folks actually understand veterinary—they know the difference between a wellness visit and an urgent case. Our no-show rate dropped 35%.",
+    author: "Dr. Marcus Thompson",
+    title: "Owner",
+    company: "Companion Animal Hospital",
+    industry: "veterinary",
+    initials: "MT",
+    featured: false
   }
 ];
 

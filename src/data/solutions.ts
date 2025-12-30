@@ -52,7 +52,7 @@ export const solutions: Solution[] = [
       question: 'How many patient calls is your practice missing?',
       stats: [
         { label: 'Callers abandon voicemail', value: '87%' },
-        { label: 'Revenue lost per missed call', value: '$200-400' },
+        { label: 'Patient lifetime value', value: '$1,500-$8,500+' },
         { label: 'Calls going to voicemail', value: '29%' }
       ],
       painPoints: [

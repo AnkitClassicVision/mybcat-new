@@ -56,16 +56,17 @@ export const pricingTiers: PricingTier[] = [
   {
     name: 'Enterprise',
     slug: 'enterprise',
-    price: 'Custom',
-    period: '',
-    description: 'Multi-location groups with complex needs.',
+    price: 'From $2,500',
+    period: '/location/mo',
+    description: 'Multi-location groups. Volume discounts available.',
     features: [
       'Everything in Growth',
       '24/7 coverage',
       'Centralized dashboard',
-      'Custom integrations'
+      'Custom integrations',
+      '30-day pilot available'
     ],
-    ctaText: 'Contact Us',
+    ctaText: 'Talk to Enterprise Team',
     ctaHref: '/contact/',
     popular: false
   }

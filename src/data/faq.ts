@@ -31,6 +31,21 @@ export const faqs: FAQ[] = [
     answer: 'Unlike hiring a single VA, we operate as a team with built-in redundancy. If one coordinator is out, another trained team member covers seamlessly. You never experience gaps in coverage.',
     category: 'general'
   },
+  {
+    question: 'Will patients know they\'re not talking to someone in my office?',
+    answer: 'No. We answer as your practice using your greeting. Patients experience us as an extension of your team. We\'re trained on your office protocols, provider schedules, and can answer questions about your practice just like your front desk would.',
+    category: 'general'
+  },
+  {
+    question: 'What if a patient has a complex question you can\'t answer?',
+    answer: 'We handle the common calls that take up 80% of your phone time—scheduling, insurance questions, directions, hours. For clinical questions or situations requiring your staff, we warm-transfer to your team or take a detailed message with priority flagging.',
+    category: 'general'
+  },
+  {
+    question: 'I\'m worried about losing control of my patient experience.',
+    answer: 'You have full visibility. Every call is recorded and available in your dashboard. You approve our scripts, set our protocols, and we follow your playbook. Think of us as your front desk\'s best friend—we handle overflow and after-hours so they can focus on in-office patients.',
+    category: 'general'
+  },
 
   // Onboarding
   {
