@@ -162,7 +162,7 @@ const benefits = [
                   ))}
                 </ul>
               </div>
-              <Button href={`mailto:${company.email}?subject=Application: ${job.title}`}>
+              <Button href="/contact/">
                 Apply Now
               </Button>
             </Card>
@@ -181,8 +181,8 @@ const benefits = [
               <p>
                 Send us your resume and tell us why you'd be a great fit for mybcat.
               </p>
-              <Button href={`mailto:${company.email}?subject=General Application - mybcat Careers`}>
-                Send Your Resume
+              <Button href="/contact/">
+                Get In Touch
               </Button>
             </div>
           </Card>
@@ -195,7 +195,7 @@ const benefits = [
       <div class="contact-content">
         <h2>Questions About Careers?</h2>
         <p>
-          Reach out to our team at <a href={`mailto:${company.email}`}>{company.email}</a>
+          <a href="/contact/">Reach out to our team</a>
         </p>
       </div>
     </section>

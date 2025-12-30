@@ -1,7 +1,7 @@
 ---
 interface Props {
   href?: string;
-  variant?: 'primary' | 'secondary' | 'text';
+  variant?: 'primary' | 'secondary' | 'secondary-light' | 'text';
   size?: 'sm' | 'md' | 'lg';
   class?: string;
   type?: 'button' | 'submit';
@@ -84,6 +84,20 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
   .magnetic-button.secondary:hover {
     background: var(--navy-800);
     color: #ffffff;
+    box-shadow: none;
+  }
+
+  /* Secondary Light variant - for dark backgrounds */
+  .magnetic-button.secondary-light {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    box-shadow: none;
+  }
+
+  .magnetic-button.secondary-light:hover {
+    background: #ffffff;
+    color: var(--navy-900);
     box-shadow: none;
   }
 

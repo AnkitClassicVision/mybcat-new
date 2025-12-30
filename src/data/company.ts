@@ -11,7 +11,7 @@ export const company = {
 
   // Contact information
   phone: '',
-  email: 'hello@mybcat.com',
+  email: '', // Removed - use contact form instead
 
   // Address
   address: {
@@ -24,8 +24,8 @@ export const company = {
 
   // Social media
   social: {
-    facebook: 'https://www.facebook.com/mybcat',
-    linkedin: 'https://www.linkedin.com/company/mybcat'
+    facebook: 'https://www.facebook.com/profile.php?id=100088695738006',
+    linkedin: 'https://www.linkedin.com/company/my-business-care-team/'
   },
 
   // HubSpot integration
