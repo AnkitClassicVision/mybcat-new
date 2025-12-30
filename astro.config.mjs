@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import vercel from '@astrojs/vercel/static';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
+import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,6 +14,7 @@ export default defineConfig({
   }),
   integrations: [
     react(),
+    mdx(),
     sitemap({
       filter: (page) => !page.includes('/draft/'),
       changefreq: 'weekly',
