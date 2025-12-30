@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","growth"]
 
-canonical: "https://mybcat.com/how-to-train-virtual-assistants-for-your-eye-care-practice"
+canonical: "https://mybcat.com/blog/how-to-train-virtual-assistants-for-your-eye-care-practice"
 ---
 
 Why would an optometrist hire virtual assistants from the Philippines? It's simple: value for money and fluency in English. With as little as $5 per hour, you can secure the services of a college graduate proficient in English—an official language of the country. However, providing great quality eye care takes more than being fluent in English. A new team member from the Philippines may not be familiar with the specifics of optometry, your clinic's unique administrative tasks, or even cultural nuances that can impact patient interactions. 

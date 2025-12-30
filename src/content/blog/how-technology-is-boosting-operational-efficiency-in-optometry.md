@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 
-canonical: "https://mybcat.com/how-technology-is-boosting-operational-efficiency-in-optometry"
+canonical: "https://mybcat.com/blog/how-technology-is-boosting-operational-efficiency-in-optometry"
 ---
 
 Optometry is a tech-driven industry. After all, corrective lenses are technology. So it's baffling that some clinics are still buried under the weight of paper records. The cost of this hesitation? A whopping average of $26,000 more per physician annually when compared to their counterparts using electronic health records (EHR), as reported by a 2022 SK&A study. Four years prior, 87% of optometry practices had already shared a simple truth with the American Optometric Association: implementing electronic health records (EHR) boosted their practice efficiency and productivity. So why would clinics in an industry that configures and sells technology resist it?

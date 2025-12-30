@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 
-canonical: "https://mybcat.com/preserving-your-work-life-balance-while-managing-an-optometry-practice"
+canonical: "https://mybcat.com/blog/preserving-your-work-life-balance-while-managing-an-optometry-practice"
 ---
 
 For optometrists, the demands of patient care, clinic management, and a thousand different things can be overwhelming and often overshadows personal time. It's a common struggle to find that balance between a successful practice and still have time left over for personal fulfillment. However, it’s not impossible. 

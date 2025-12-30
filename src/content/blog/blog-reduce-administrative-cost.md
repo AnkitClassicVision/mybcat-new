@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","patient-care","scheduling","outsourcing","efficiency"]
 featuredImage: "/images/blog/call-center-workers-discussing-data-on-netbook-2023-11-27-04-49-05-utc-scaled.jpeg"
-canonical: "https://mybcat.com/blog-reduce-administrative-cost"
+canonical: "https://mybcat.com/blog/blog-reduce-administrative-cost"
 ---
 
 Running a successful optometry or ophthalmology practice is about more than just providing excellent patient care. With rising costs, maintaining financial efficiency is crucial—and yet, administrative costs often balloon beyond control. What if there were simple strategies to keep those costs in check while also improving operations?

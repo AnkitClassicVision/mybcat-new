@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
 
-canonical: "https://mybcat.com/ensuring-compliance-and-security-with-your-outsourced-customer-service-team-2"
+canonical: "https://mybcat.com/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team-2"
 ---
 
 Many ODs are outsourcing tasks like scheduling appointments, billing, and other administrative tasks in order to focus healthcare professionals on patient care. No doubt there are significant challenges to overcome. From hiring competent individuals to maintaining consistent quality of customer service, we've identified six major factors to address. This article captures our key learnings in helping hundreds of clinics with Business Process Outsourcing (BPO). Whether you're already using virtual assistants or considering incorporating them into your eye care clinic, these tips and best practices can help your optometry practice overcome the hurdles and achieve more effective operations.

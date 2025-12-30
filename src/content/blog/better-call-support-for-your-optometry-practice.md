@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","call-center","scheduling","outsourcing","efficiency"]
 featuredImage: "/images/blog/better-call-support-for-your-optometry-practice.jpg"
-canonical: "https://mybcat.com/better-call-support-for-your-optometry-practice"
+canonical: "https://mybcat.com/blog/better-call-support-for-your-optometry-practice"
 ---
 
 Call support matters when crafting a more [efficient optometry practice](https://mybusinesscaretea.us23.cdn-alpha.com/operational-efficiency-in-optometry-seeing-the-bigger-picture). Conversations, many of them are lengthy, between your office and the patient occur before and after any eye care function. Having a good call support system gives you more chances to foster client loyalty and, ultimately, achieve a lucrative optometry practice. Understanding how [unanswered calls translate to lost revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) helps justify the investment in quality call support.

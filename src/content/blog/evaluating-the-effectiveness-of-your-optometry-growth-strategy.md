@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 
-canonical: "https://mybcat.com/evaluating-the-effectiveness-of-your-optometry-growth-strategy"
+canonical: "https://mybcat.com/blog/evaluating-the-effectiveness-of-your-optometry-growth-strategy"
 ---
 
 Are you an optometrist or ophthalmologist seeking to grow your practice but need to know which metrics indicate progress? You're in the right place! It's not just about having a strategic plan; it's about knowing if your strategy implementation is working. This guide is designed to help you take corrective action where needed and keep your business moving forward. We will simplify the measurement techniques and provide strategic management advice that top healthcare professionals use to grow their practices.

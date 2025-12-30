@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","growth"]
 featuredImage: "/images/blog/happy-ophthalmologist-using-testing-eyeglasses-dur-2024-12-14-04-14-56-utc-1.jpg"
-canonical: "https://mybcat.com/blog-ensuring-patient-staisfaction"
+canonical: "https://mybcat.com/blog/blog-ensuring-patient-staisfaction"
 ---
 
 For any eye care practice, patient satisfaction isn’t just about getting positive reviews—it’s the foundation of trust, loyalty, and long-term growth. But keeping every patient happy, especially when juggling administrative tasks and a packed schedule, can be a challenge. That’s where My Business Care Team steps in.

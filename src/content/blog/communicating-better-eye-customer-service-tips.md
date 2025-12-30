@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/communicating-better-eye-customer-service-tips.jpg"
-canonical: "https://mybcat.com/communicating-better-eye-customer-service-tips"
+canonical: "https://mybcat.com/blog/communicating-better-eye-customer-service-tips"
 ---
 
 Have you ever wondered what sets exceptional customer service apart in optometry? Beyond the technical expertise and quality of care, effective communication is pivotal in ensuring a positive patient experience. This blog post delves into critical strategies to enhance communication and elevate your optometry practice's customer service.

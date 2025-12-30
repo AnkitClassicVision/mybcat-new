@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 
-canonical: "https://mybcat.com/why-capture-rate-matters-for-every-optometry-business"
+canonical: "https://mybcat.com/blog/why-capture-rate-matters-for-every-optometry-business"
 ---
 
 In an optometry practice, the capture rate is one of the most crucial metrics to track for ongoing business success. The capture rate is calculated by dividing the number of patients who fill their new eyeglass or contact lens prescription in-house by the total number of patients given a new prescription after their exam. This percentage indicates what portion of potential revenue is actually captured versus lost to outside vendors. For a profitable optometry business, maintaining a high capture rate is essential.

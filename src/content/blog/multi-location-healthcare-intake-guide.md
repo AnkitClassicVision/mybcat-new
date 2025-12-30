@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/multi-location-healthcare-intake-guide-featured.png"
-canonical: "https://mybcat.com/multi-location-healthcare-intake-guide"
+canonical: "https://mybcat.com/blog/multi-location-healthcare-intake-guide"
 ---
 
 Multi-location healthcare groups lose $500,000-$1,500,000 annually to intake inefficiencies—and most don't know it. This guide provides the complete framework for evaluating, selecting, and implementing intake solutions for healthcare groups with 3-50+ locations.

@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/ideal-labor-costs-for-optometry-offices.jpg"
-canonical: "https://mybcat.com/ideal-labor-costs-for-optometry-offices"
+canonical: "https://mybcat.com/blog/ideal-labor-costs-for-optometry-offices"
 ---
 
 Finding the sweet spot for labor costs is crucial for maintaining a successful optometry practice. Balancing quality patient care with [financial sustainability](https://www.wallstreetmojo.com/financial-sustainability/) is the key to thriving in this competitive field.

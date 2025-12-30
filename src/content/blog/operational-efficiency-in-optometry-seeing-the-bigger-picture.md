@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 
-canonical: "https://mybcat.com/operational-efficiency-in-optometry-seeing-the-bigger-picture"
+canonical: "https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture"
 ---
 
 Operational efficiency, a concept often touted in corporate boardrooms, is equally vital in an optometrist's clinic. And the reasons are both clear and impactful: a clinic operating at peak efficiency can manage more patients per hour.

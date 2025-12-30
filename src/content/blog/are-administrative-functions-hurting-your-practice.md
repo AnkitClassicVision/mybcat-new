@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","call-center","scheduling","outsourcing","efficiency"]
 featuredImage: "/images/blog/are-administrative-functions-hurting-your-practice.jpg"
-canonical: "https://mybcat.com/are-administrative-functions-hurting-your-practice"
+canonical: "https://mybcat.com/blog/are-administrative-functions-hurting-your-practice"
 ---
 
 A successful optometry practice results from strong eye care services. However, as a [customer service outsourcing provider in Marietta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia), we understand that crucial administrative tasks should be performed to ensure successful and efficient optometry operations.

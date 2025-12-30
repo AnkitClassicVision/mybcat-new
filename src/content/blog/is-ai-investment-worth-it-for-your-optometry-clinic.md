@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 
-canonical: "https://mybcat.com/is-ai-investment-worth-it-for-your-optometry-clinic"
+canonical: "https://mybcat.com/blog/is-ai-investment-worth-it-for-your-optometry-clinic"
 ---
 
 Optometry clinics can enhance operational efficiency *and* elevate patient care by integrating artificial intelligence (AI) systems. To grasp just how big AI's potential is, consider in monetary terms that widespread [adoption of AI in the healthcare industry could yield annual savings of **$360 billion**](https://www.healthcaredive.com/news/artificial-intelligence-healthcare-savings-harvard-mckinsey-report/641163/).

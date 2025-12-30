@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/the-role-of-call-support-in-patient-satisfaction.jpg"
-canonical: "https://mybcat.com/the-role-of-call-support-in-patient-satisfaction"
+canonical: "https://mybcat.com/blog/the-role-of-call-support-in-patient-satisfaction"
 ---
 
 Patient satisfaction is paramount, and it holds equal significance in eye care. Providing exceptional [eye clinic customer service](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-in-marietta-georgia/full-inbound-or-outbound-phone-support) goes beyond the examination room; it begins with the first point of contact – call support. Eye care call support is pivotal in shaping the patient experience and overall satisfaction with practice. When calls go unanswered, practices face [significant revenue leakage from missed opportunities](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare).

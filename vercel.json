@@ -6,30 +6,57 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "X-XSS-Protection", "value": "1; mode=block" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
-        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        }
       ]
     },
     {
       "source": "/fonts/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/_astro/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/images/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     }
   ],
@@ -222,6 +249,536 @@
     {
       "source": "/our-team/",
       "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/about-book",
+      "destination": "/resources/book/",
+      "permanent": true
+    },
+    {
+      "source": "/about-book/",
+      "destination": "/resources/book/",
+      "permanent": true
+    },
+    {
+      "source": "/about-podcast",
+      "destination": "/resources/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/about-podcast/",
+      "destination": "/resources/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/about-story",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/about-story/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/accessibility",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/accessibility/",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-conditions",
+      "destination": "/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-conditions/",
+      "destination": "/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/security-and-compliance",
+      "destination": "/hipaa-compliance/",
+      "permanent": true
+    },
+    {
+      "source": "/security-and-compliance/",
+      "destination": "/hipaa-compliance/",
+      "permanent": true
+    },
+    {
+      "source": "/service-package-custom",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/service-package-custom/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assitant-package-options",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assitant-package-options/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-blog",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-blog/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-book-a-discovery-call",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-book-a-discovery-call/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-careers",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-careers/",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-contact-us",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-contact-us/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-gdpr-compliant",
+      "destination": "/gdpr/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-gdpr-compliant/",
+      "destination": "/gdpr/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-in-marietta-georgia-1",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-in-marietta-georgia-1/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-in-marietta-georgia-2",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-in-marietta-georgia-2/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-my-business-care-team-process",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-my-business-care-team-process/",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-privacy-policy",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-privacy-policy/",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-send-your-referrals",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-send-your-referrals/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-set-an-appointment",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-set-an-appointment/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-testimonials",
+      "destination": "/case-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-testimonials/",
+      "destination": "/case-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-medical-scribes-for-optometrists",
+      "destination": "/solutions/virtual-medical-scribe/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-medical-scribes-for-optometrists/",
+      "destination": "/solutions/virtual-medical-scribe/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-receptionists-for-optometry",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-receptionists-for-optometry/",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-voice-agents-for-optometry",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-voice-agents-for-optometry/",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/optoai-for-optometry-2",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/optoai-for-optometry-2/",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-call-service-in-atlanta-georgia",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-call-service-in-atlanta-georgia/",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/remote-hospitality-center",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/remote-hospitality-center/",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/full-inbound-or-outbound-phone-support",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/full-inbound-or-outbound-phone-support/",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/doctor-chair-support",
+      "destination": "/solutions/virtual-medical-scribe/",
+      "permanent": true
+    },
+    {
+      "source": "/doctor-chair-support/",
+      "destination": "/solutions/virtual-medical-scribe/",
+      "permanent": true
+    },
+    {
+      "source": "/medical-scribes",
+      "destination": "/solutions/virtual-medical-scribe/",
+      "permanent": true
+    },
+    {
+      "source": "/medical-scribes/",
+      "destination": "/solutions/virtual-medical-scribe/",
+      "permanent": true
+    },
+    {
+      "source": "/meet-va-2-0",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/meet-va-2-0/",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assistants",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assistants/",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/for-patient-access",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/for-patient-access/",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/never-miss-an-appointment",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/never-miss-an-appointment/",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/patient-show-and-recapture",
+      "destination": "/solutions/no-show-recovery/",
+      "permanent": true
+    },
+    {
+      "source": "/patient-show-and-recapture/",
+      "destination": "/solutions/no-show-recovery/",
+      "permanent": true
+    },
+    {
+      "source": "/recalls-authorization-of-benefits-confirmation-of-exams-back-office-communications",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/recalls-authorization-of-benefits-confirmation-of-exams-back-office-communications/",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/appointment-book-maximizer",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/appointment-book-maximizer/",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/integrations",
+      "destination": "/solutions/integrations/",
+      "permanent": true
+    },
+    {
+      "source": "/integrations/",
+      "destination": "/solutions/integrations/",
+      "permanent": true
+    },
+    {
+      "source": "/get-paid",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/get-paid/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/soft-collections",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/soft-collections/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/rcm-cash-accelerator",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/rcm-cash-accelerator/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/sales-increase-and-cost-reduction-consulting",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/sales-increase-and-cost-reduction-consulting/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/business-care-team-full-service-custom-solution",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/business-care-team-full-service-custom-solution/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/order-management",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/order-management/",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/patient-promise-delivery",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/patient-promise-delivery/",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/reporting",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/reporting/",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/va-monitor-and-audit",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/va-monitor-and-audit/",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/wfm-and-qa",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/wfm-and-qa/",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/your-office-in-a-box",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/your-office-in-a-box/",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/demo",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/demo/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/gemini-website",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/gemini-website/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/seco-2024-registration",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/seco-2024-registration/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-team-solutions-for-you",
+      "destination": "/blog/virtual-team-solutions-for-you-2/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-team-solutions-for-you/",
+      "destination": "/blog/virtual-team-solutions-for-you-2/",
       "permanent": true
     }
   ]

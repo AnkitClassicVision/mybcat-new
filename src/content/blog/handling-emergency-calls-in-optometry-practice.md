@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/handling-emergency-calls-in-optometry-practice.jpg"
-canonical: "https://mybcat.com/handling-emergency-calls-in-optometry-practice"
+canonical: "https://mybcat.com/blog/handling-emergency-calls-in-optometry-practice"
 ---
 
 In the fast-paced world of optometry, efficiently handling emergency calls is paramount to providing exceptional patient care. Whether it's a sudden vision concern or an urgent appointment request, optometry practices must be equipped to address these situations promptly. When emergency calls go unanswered, practices face not just patient care concerns but also [significant revenue losses from missed opportunities](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare).

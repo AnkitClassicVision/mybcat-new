@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 
-canonical: "https://mybcat.com/how-ai-is-streamlining-processes-in-eye-care"
+canonical: "https://mybcat.com/blog/how-ai-is-streamlining-processes-in-eye-care"
 ---
 
 Like the rest of the world, eye care is being impacted by the opportunities and promises of AI. Throughout the industry, from appointment scheduling to predictive analysis for disease detection, tasks and duties are increasingly being done with AI tools. But while new scheduling software and apps are emerging weekly, promising complete freedom from work, the promise of AI bliss hasn't yet arrived.

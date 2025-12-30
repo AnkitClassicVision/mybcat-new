@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","outsourcing"]
 
-canonical: "https://mybcat.com/guide-for-selling-your-optometry-practice"
+canonical: "https://mybcat.com/blog/guide-for-selling-your-optometry-practice"
 ---
 
 The process of selling an optometry practice involves multiple layers of preparation and execution. From initial assessments to legal considerations, each stage requires careful planning. This guide aims to streamline the complexities of selling your optometry practice by providing actionable steps and insights that will help prepare for a successful transaction.

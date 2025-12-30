@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/take-every-step-to-improve-the-patient-experience.jpg"
-canonical: "https://mybcat.com/take-every-step-to-improve-the-patient-experience"
+canonical: "https://mybcat.com/blog/take-every-step-to-improve-the-patient-experience"
 ---
 
 ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)

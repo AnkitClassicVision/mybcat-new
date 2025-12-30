@@ -19,6 +19,12 @@ import { company } from '@data/company';
   heroTitle="Every Missed Call Is a Lost Patient. Let's Fix That."
   heroSubtitle="Fill out the form below and we'll show you how we answer your overflow calls and book directly into your EHR—so you never lose another patient to voicemail."
 >
+  <!-- Preconnect to HubSpot for faster form loading -->
+  <link rel="preconnect" href="https://js.hsforms.net" slot="head" />
+  <link rel="preconnect" href="https://forms.hsforms.com" slot="head" />
+  <link rel="preconnect" href="https://js.hscta.net" slot="head" />
+  <link rel="dns-prefetch" href="https://js.hsforms.net" slot="head" />
+  <link rel="dns-prefetch" href="https://forms.hsforms.com" slot="head" />
   <div class="contact-page">
     <div class="contact-grid">
       <!-- Contact Form -->
@@ -29,6 +35,17 @@ import { company } from '@data/company';
             Tell us about your practice and we'll reach out within 24 hours to schedule your discovery call.
           </p>
           <div class="hubspot-form-wrapper">
+            <!-- Loading skeleton shown while form loads -->
+            <div class="form-skeleton" id="form-skeleton">
+              <div class="skeleton-row">
+                <div class="skeleton-field"></div>
+                <div class="skeleton-field"></div>
+              </div>
+              <div class="skeleton-field full"></div>
+              <div class="skeleton-field full"></div>
+              <div class="skeleton-field full short"></div>
+              <div class="skeleton-button"></div>
+            </div>
             <div class="hs-form-html" data-region="na1" data-form-id="a365996f-87cf-4a60-8782-9dabb9f9dd97" data-portal-id="23344341"></div>
           </div>
         </Card>
@@ -176,6 +193,55 @@ import { company } from '@data/company';
 
   .hubspot-form-wrapper {
     margin-top: 24px;
+    position: relative;
+    min-height: 350px;
+  }
+
+  /* Loading Skeleton */
+  .form-skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .form-skeleton.hidden {
+    display: none;
+  }
+
+  .skeleton-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .skeleton-field {
+    height: 48px;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite;
+    border-radius: 8px;
+  }
+
+  .skeleton-field.full {
+    width: 100%;
+  }
+
+  .skeleton-field.short {
+    width: 60%;
+  }
+
+  .skeleton-button {
+    height: 50px;
+    background: linear-gradient(90deg, var(--glass-teal) 25%, rgba(0, 96, 100, 0.15) 50%, var(--glass-teal) 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+
+  @keyframes skeleton-loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
   }
 
   /* HubSpot Form Styling */
@@ -506,4 +572,23 @@ import { company } from '@data/company';
 </style>
 
 <!-- HubSpot Form Script -->
-<script src="https://js.hsforms.net/forms/embed/developer/23344341.js" defer></script>
+<script>
+  // Hide skeleton when form loads
+  const observer = new MutationObserver((mutations, obs) => {
+    const form = document.querySelector('.hs-form-html form');
+    if (form) {
+      const skeleton = document.getElementById('form-skeleton');
+      if (skeleton) skeleton.classList.add('hidden');
+      obs.disconnect();
+    }
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
+
+  // Fallback: hide skeleton after 5 seconds regardless
+  setTimeout(() => {
+    const skeleton = document.getElementById('form-skeleton');
+    if (skeleton) skeleton.classList.add('hidden');
+  }, 5000);
+</script>
+<script src="https://js.hsforms.net/forms/embed/developer/23344341.js" async></script>

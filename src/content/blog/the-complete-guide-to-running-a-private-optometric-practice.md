@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","outsourcing","growth"]
 
-canonical: "https://mybcat.com/the-complete-guide-to-running-a-private-optometric-practice"
+canonical: "https://mybcat.com/blog/the-complete-guide-to-running-a-private-optometric-practice"
 ---
 
 Defining success in private practice ownership is a personal journey that reflects an individual's unique vision and professional aspirations. As you go through each section of this guide, you will discover valuable insights and strategies to help you create the practice you envision. Rather than providing a one-size-fits-all approach, this guide offers perspectives for you to consider. Our goal is to empower you, the optometry practice owner, to define and achieve the success that resonates with your personal and professional aspirations. We've organized the content into four categories: Financial, Operational, Human Resources, and Marketing and Growth. This allows you to apply insights directly to the areas most relevant to your goals and values.
