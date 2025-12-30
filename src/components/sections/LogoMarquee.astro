@@ -29,15 +29,15 @@ const speedMap = {
   <div class="marquee-track">
     {/* First set */}
     {logos.map((logo: ClientLogo) => (
-      <img src={logo.src} alt={logo.alt} class="marquee-logo" loading="lazy" />
+      <img src={logo.src} alt={logo.alt} class="marquee-logo" width="180" height="60" loading="eager" decoding="async" />
     ))}
     {/* Second set (duplicate for infinite scroll) */}
     {logos.map((logo: ClientLogo) => (
-      <img src={logo.src} alt={logo.alt} class="marquee-logo" loading="lazy" />
+      <img src={logo.src} alt={logo.alt} class="marquee-logo" width="180" height="60" loading="eager" decoding="async" />
     ))}
     {/* Third set (duplicate for seamless loop) */}
     {logos.map((logo: ClientLogo) => (
-      <img src={logo.src} alt={logo.alt} class="marquee-logo" loading="lazy" />
+      <img src={logo.src} alt={logo.alt} class="marquee-logo" width="180" height="60" loading="eager" decoding="async" />
     ))}
   </div>
 </section>
@@ -69,7 +69,13 @@ const speedMap = {
     gap: 80px;
     align-items: center;
     animation: scrollLogos var(--animation-speed, 40s) linear infinite;
-    will-change: transform;
+  }
+
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-track {
+      animation: none;
+    }
   }
 
   @keyframes scrollLogos {
@@ -83,14 +89,12 @@ const speedMap = {
     max-width: 180px;
     object-fit: contain;
     opacity: 0.85;
-    transition: all 0.4s ease;
+    transition: opacity 0.3s ease;
     flex-shrink: 0;
-    transform: translateZ(0);
   }
 
   .marquee-logo:hover {
     opacity: 1;
-    transform: scale(1.05);
   }
 
   /* Pause on hover */

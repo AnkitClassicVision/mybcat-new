@@ -44,28 +44,32 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
     justify-content: center;
     gap: 8px;
     padding: 18px 48px;
-    background: transparent;
-    color: var(--oceanic-teal);
+    background: var(--oceanic-teal);
+    color: #ffffff;
     font-size: 16px;
     font-weight: 600;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.5s;
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
     transform-style: preserve-3d;
     text-decoration: none;
     letter-spacing: 2px;
     text-transform: uppercase;
-  }
-
-  .magnetic-button:hover {
-    background: var(--oceanic-teal);
-    color: #ffffff;
     box-shadow: 0 0 5px var(--oceanic-teal),
           0 0 25px var(--oceanic-teal),
           0 0 50px var(--oceanic-teal),
           0 0 100px var(--oceanic-teal);
+  }
+
+  .magnetic-button:hover {
+    background: var(--navy-800);
+    color: #ffffff;
+    box-shadow: 0 0 5px var(--navy-800),
+          0 0 25px var(--navy-800),
+          0 0 50px var(--revenue-gold),
+          0 0 80px var(--revenue-gold);
   }
 
   /* Size variants */
@@ -79,11 +83,11 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
     font-size: 18px;
   }
 
-  /* Snake border lines */
+  /* Snake border lines - paused by default, runs on hover */
   .magnetic-button .snake-line {
     position: absolute;
     display: block;
-    will-change: transform;
+    opacity: 0.7;
   }
 
   /* Top Line - moves left to right */
@@ -92,8 +96,9 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, var(--oceanic-teal));
+    background: linear-gradient(90deg, transparent, var(--revenue-gold));
     animation: snake-anim1 1.5s linear infinite;
+    animation-play-state: paused;
   }
 
   /* Right Line - moves top to bottom */
@@ -102,9 +107,10 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, var(--oceanic-teal));
+    background: linear-gradient(180deg, transparent, var(--revenue-gold));
     animation: snake-anim2 1.5s linear infinite;
     animation-delay: 0.375s;
+    animation-play-state: paused;
   }
 
   /* Bottom Line - moves right to left */
@@ -113,9 +119,10 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, var(--oceanic-teal));
+    background: linear-gradient(270deg, transparent, var(--revenue-gold));
     animation: snake-anim3 1.5s linear infinite;
     animation-delay: 0.75s;
+    animation-play-state: paused;
   }
 
   /* Left Line - moves bottom to top */
@@ -124,9 +131,16 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, var(--oceanic-teal));
+    background: linear-gradient(360deg, transparent, var(--revenue-gold));
     animation: snake-anim4 1.5s linear infinite;
     animation-delay: 1.125s;
+    animation-play-state: paused;
+  }
+
+  /* Activate snake animation on hover */
+  .magnetic-button:hover .snake-line {
+    animation-play-state: running;
+    opacity: 1;
   }
 
   /* Secondary variant */
