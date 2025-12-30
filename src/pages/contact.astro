@@ -1,10 +1,9 @@
 ---
 /**
  * Contact Page
- * HubSpot meeting scheduler and contact form
+ * HubSpot contact form
  */
 import PageLayout from '@/layouts/PageLayout.astro';
-import HubSpotMeeting from '@/components/HubSpotMeeting.astro';
 import Card from '@/components/Card.astro';
 import { company } from '@data/company';
 ---
@@ -57,14 +56,16 @@ import { company } from '@data/company';
     </section>
 
     <div class="contact-grid">
-      <!-- Meeting Scheduler -->
-      <div class="meeting-section">
-        <Card variant="pricing" class="meeting-card">
-          <h2>Book Your Discovery Call</h2>
-          <p class="meeting-description">
-            In 30 minutes, we'll learn about your practice, identify your biggest operational challenges, and show you how My Business Care Team can help.
+      <!-- Contact Form -->
+      <div class="form-section">
+        <Card variant="pricing" class="form-card">
+          <h2>Get Started Today</h2>
+          <p class="form-description">
+            Tell us about your practice and we'll reach out within 24 hours to schedule your discovery call.
           </p>
-          <HubSpotMeeting buttonText="Select a Time" />
+          <div class="hubspot-form-wrapper">
+            <div class="hs-form-html" data-region="na1" data-form-id="539ee6f8-c838-4ea7-bad7-d2a9ea18db8d" data-portal-id="23344341"></div>
+          </div>
         </Card>
       </div>
 
@@ -307,24 +308,24 @@ import { company } from '@data/company';
     margin-bottom: 60px;
   }
 
-  .meeting-section {
+  .form-section {
     min-height: 500px;
   }
 
-  :global(.meeting-card) {
+  :global(.form-card) {
     height: 100%;
-    text-align: center;
     padding: 40px;
   }
 
-  :global(.meeting-card) h2 {
+  :global(.form-card) h2 {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--navy-900);
     margin-bottom: 12px;
+    text-align: center;
   }
 
-  .meeting-description {
+  .form-description {
     font-size: 1rem;
     color: var(--text-secondary);
     line-height: 1.6;
@@ -332,6 +333,117 @@ import { company } from '@data/company';
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+  }
+
+  .hubspot-form-wrapper {
+    margin-top: 24px;
+  }
+
+  /* HubSpot Form Styling */
+  :global(.hs-form-html) {
+    width: 100%;
+  }
+
+  :global(.hs-form-html form) {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  :global(.hs-form-html .hs-form-field) {
+    margin-bottom: 0;
+  }
+
+  :global(.hs-form-html label) {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 6px;
+  }
+
+  :global(.hs-form-html input[type="text"]),
+  :global(.hs-form-html input[type="email"]),
+  :global(.hs-form-html input[type="tel"]),
+  :global(.hs-form-html input[type="number"]),
+  :global(.hs-form-html select),
+  :global(.hs-form-html textarea) {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    font-size: 15px;
+    color: var(--navy-900);
+    background: white;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  :global(.hs-form-html input:focus),
+  :global(.hs-form-html select:focus),
+  :global(.hs-form-html textarea:focus) {
+    outline: none;
+    border-color: var(--oceanic-teal);
+    box-shadow: 0 0 0 3px rgba(0, 96, 100, 0.1);
+  }
+
+  :global(.hs-form-html textarea) {
+    min-height: 100px;
+    resize: vertical;
+  }
+
+  :global(.hs-form-html .hs-submit) {
+    margin-top: 8px;
+  }
+
+  :global(.hs-form-html input[type="submit"]),
+  :global(.hs-form-html .hs-button) {
+    width: 100%;
+    padding: 14px 24px;
+    background: var(--oceanic-teal);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+  }
+
+  :global(.hs-form-html input[type="submit"]:hover),
+  :global(.hs-form-html .hs-button:hover) {
+    background: var(--navy-900);
+    transform: translateY(-1px);
+  }
+
+  :global(.hs-form-html .hs-error-msgs) {
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 0;
+  }
+
+  :global(.hs-form-html .hs-error-msgs li) {
+    color: #dc3545;
+    font-size: 13px;
+  }
+
+  :global(.hs-form-html .hs-richtext) {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  :global(.hs-form-html .legal-consent-container) {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  :global(.hs-form-html .submitted-message) {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--oceanic-teal);
+    font-size: 1.1rem;
+    font-weight: 600;
   }
 
   .contact-sidebar {
@@ -570,6 +682,9 @@ import { company } from '@data/company';
     }
   }
 </style>
+
+<!-- HubSpot Form Script -->
+<script src="https://js.hsforms.net/forms/embed/developer/23344341.js" defer></script>
 
 <script>
   // Practice type selector
