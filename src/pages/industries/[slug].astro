@@ -28,9 +28,9 @@ interface Props {
 
 const { industry } = Astro.props;
 
-// Get patient intake solution for process steps
-const patientIntakeSolution = solutions.find(s => s.slug === 'patient-intake');
-const processSteps = patientIntakeSolution?.process || [];
+// Get medical answering service solution for process steps
+const medicalAnsweringSolution = solutions.find(s => s.slug === 'medical-answering-service');
+const processSteps = medicalAnsweringSolution?.process || [];
 
 // Get general FAQs for this page
 const generalFaqs = faqs.filter(f => f.category === 'general').slice(0, 4);

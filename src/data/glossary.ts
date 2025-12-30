@@ -22,7 +22,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'Patient acquisition encompasses all activities that bring new patients into a practice. This includes marketing efforts, referral programs, online presence management, and—critically—the ability to convert inquiries into booked appointments. Many practices focus heavily on marketing but lose patients at the conversion stage due to missed calls or poor intake processes.',
     category: 'marketing',
     relatedTerms: ['patient-retention', 'no-show-rate', 'appointment-conversion'],
-    relatedSolutions: ['patient-intake', 'recall-reactivation'],
+    relatedSolutions: ['medical-answering-service', 'patient-recall'],
     examples: [
       'A patient finds your practice through a Google search and calls to book',
       'Converting a walk-in inquiry into a scheduled appointment',
@@ -36,7 +36,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'Patient retention is often more cost-effective than acquisition, as returning patients require less marketing spend and tend to have higher lifetime values. Key factors include care quality, patient experience, appointment availability, and proactive recall programs. Practices with strong retention rates typically have systematic recall processes and excellent communication.',
     category: 'metrics',
     relatedTerms: ['patient-acquisition', 'recall-rate', 'patient-lifetime-value'],
-    relatedSolutions: ['recall-reactivation', 'no-show-recovery'],
+    relatedSolutions: ['patient-recall', 'no-show-recovery'],
     examples: [
       'Patients returning for annual eye exams year after year',
       'Following up with patients due for hygiene appointments',
@@ -50,7 +50,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'No-shows represent significant lost revenue and productivity for healthcare practices. The average no-show rate across healthcare is 15-30%, with each missed appointment costing $100-200+ in lost revenue. Reducing no-shows requires a multi-pronged approach: confirmation calls, reminder systems, waitlist management, and understanding why patients miss appointments.',
     category: 'metrics',
     relatedTerms: ['appointment-conversion', 'patient-retention', 'schedule-utilization'],
-    relatedSolutions: ['no-show-recovery', 'recall-reactivation'],
+    relatedSolutions: ['no-show-recovery', 'patient-recall'],
     examples: [
       'A patient scheduled for 10 AM simply doesn\'t show up',
       'No advance notice or cancellation call',
@@ -64,7 +64,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'Recall rate is a critical metric for practice health, especially in specialties like optometry and dental where annual exams are standard. A healthy recall rate is 70-80%+, meaning most patients return as scheduled. Low recall rates indicate either poor outreach systems, patient dissatisfaction, or excessive competition. Improving recall requires systematic outreach and good patient relationships.',
     category: 'metrics',
     relatedTerms: ['patient-retention', 'patient-lifetime-value', 'no-show-rate'],
-    relatedSolutions: ['recall-reactivation'],
+    relatedSolutions: ['patient-recall'],
     examples: [
       'An optometry practice where 75% of patients return annually',
       'Dental hygiene patients rebooking at checkout for 6 months later',
@@ -78,7 +78,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'Appointment conversion rate measures how effectively a practice turns interest into booked visits. A typical conversion rate ranges from 40-70%, meaning many inquiries never become appointments. Common reasons for lost conversions include unanswered calls, long hold times, scheduling complexity, and poor phone handling. Improving conversion directly increases revenue without additional marketing spend.',
     category: 'metrics',
     relatedTerms: ['patient-acquisition', 'no-show-rate'],
-    relatedSolutions: ['patient-intake', 'front-office-operations'],
+    relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing'],
     examples: [
       'Of 100 calls, 60 result in scheduled appointments (60% conversion)',
       'A new patient calls and books their first exam',
@@ -92,7 +92,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'Patient lifetime value is crucial for understanding the true cost of lost patients and the value of retention efforts. In optometry, a patient who returns annually for 10 years represents $5,000-10,000+ in total revenue. In dental, this number can be even higher. Understanding PLV helps practices justify investments in patient acquisition and retention.',
     category: 'metrics',
     relatedTerms: ['patient-retention', 'patient-acquisition', 'recall-rate'],
-    relatedSolutions: ['recall-reactivation', 'patient-intake'],
+    relatedSolutions: ['patient-recall', 'medical-answering-service'],
     examples: [
       'An optometry patient who spends $500/year for 10 years = $5,000 PLV',
       'A dental patient with regular cleanings plus occasional procedures',
@@ -106,7 +106,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'HIPAA sets national standards for protecting sensitive patient health information. For practices working with third-party services, this means ensuring Business Associate Agreements (BAAs) are in place, data is encrypted and secure, and staff are properly trained. HIPAA violations can result in significant fines and reputational damage.',
     category: 'compliance',
     relatedTerms: ['baa', 'phi', 'hipaa-training'],
-    relatedSolutions: ['patient-intake', 'integrations'],
+    relatedSolutions: ['medical-answering-service', 'integrations'],
     examples: [
       'Secure handling of patient records and communications',
       'Encrypted storage and transmission of health information',
@@ -120,7 +120,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'A BAA is required whenever a third party has access to patient information. It defines how the business associate (vendor) will protect PHI, what uses are permitted, and what happens in case of a breach. Any patient intake service, call center, or technology provider handling patient data must sign a BAA before beginning work.',
     category: 'compliance',
     relatedTerms: ['hipaa-compliance', 'phi'],
-    relatedSolutions: ['patient-intake', 'front-office-operations'],
+    relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing'],
     examples: [
       'mybcat signs a BAA with every client before accessing patient data',
       'The agreement specifies data handling, security, and breach procedures',
@@ -134,7 +134,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'EHRs have largely replaced paper records in healthcare. They contain patient demographics, medical history, appointments, treatment notes, and billing information. Integration with EHR systems is critical for any patient intake service, as it enables direct scheduling without manual data entry or message-taking.',
     category: 'technology',
     relatedTerms: ['pms'],
-    relatedSolutions: ['integrations', 'patient-intake'],
+    relatedSolutions: ['integrations', 'medical-answering-service'],
     examples: [
       'Eyefinity for optometry practices',
       'Dentrix for dental practices',
@@ -148,7 +148,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'While EHRs focus on clinical data, practice management systems handle operations: appointment scheduling, insurance billing, claims management, and revenue cycle. Many modern systems combine EHR and PMS functionality. Effective patient intake requires integration with both clinical and administrative systems.',
     category: 'technology',
     relatedTerms: ['ehr'],
-    relatedSolutions: ['integrations', 'front-office-operations'],
+    relatedSolutions: ['integrations', 'front-desk-outsourcing'],
     examples: [
       'Scheduling and calendar management',
       'Insurance claim submission and tracking',
@@ -161,8 +161,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'A remote professional or service that handles incoming calls, scheduling, and patient communications for a healthcare practice.',
     detailedExplanation: 'Virtual receptionists provide the functions of an in-house receptionist from a remote location. This can range from basic answering services that take messages to fully integrated solutions that schedule appointments directly into practice systems. The best virtual receptionist services combine trained healthcare professionals with technology for seamless patient experiences.',
     category: 'operations',
-    relatedTerms: ['patient-intake', 'call-center', 'answering-service'],
-    relatedSolutions: ['patient-intake', 'front-office-operations'],
+    relatedTerms: ['medical-answering-service', 'call-center', 'answering-service'],
+    relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing'],
     examples: [
       'Answering patient calls when in-house staff are busy',
       'Providing after-hours coverage',
@@ -176,7 +176,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'Traditional call centers focus on answering volume rather than outcomes. Operators typically read scripts and take messages for callback. While call centers can handle high volume, they often lack healthcare expertise and EHR integration, meaning patients must wait for callbacks and staff must manually process messages.',
     category: 'operations',
     relatedTerms: ['virtual-receptionist', 'answering-service'],
-    relatedSolutions: ['patient-intake'],
+    relatedSolutions: ['medical-answering-service'],
     examples: [
       'After-hours message services',
       'High-volume answer-and-route operations',
@@ -190,7 +190,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'Schedule utilization measures how effectively a practice fills its available capacity. Low utilization means empty chairs and lost revenue; high utilization maximizes provider productivity. Factors affecting utilization include no-shows, cancellations, booking gaps, and overbooking strategies. Optimal utilization balances productivity with patient access.',
     category: 'metrics',
     relatedTerms: ['no-show-rate', 'appointment-conversion'],
-    relatedSolutions: ['no-show-recovery', 'front-office-operations'],
+    relatedSolutions: ['no-show-recovery', 'front-desk-outsourcing'],
     examples: [
       '85% utilization means 85% of available slots are filled',
       'Managing waitlists to fill last-minute cancellations',
@@ -203,8 +203,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'The process of confirming a patient\'s insurance coverage, benefits, and eligibility before their appointment.',
     detailedExplanation: 'Insurance verification prevents surprise billing issues and ensures practices know what will be covered before providing care. This is especially important in specialties like optometry where vision plans (VSP, EyeMed) and medical insurance have different coverage. Proper verification improves collections and patient satisfaction.',
     category: 'operations',
-    relatedTerms: ['patient-intake'],
-    relatedSolutions: ['patient-intake', 'front-office-operations'],
+    relatedTerms: ['medical-answering-service'],
+    relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing'],
     examples: [
       'Confirming VSP vs EyeMed coverage for an eye exam',
       'Checking medical vs routine exam benefits',
@@ -218,7 +218,7 @@ export const glossaryTerms: GlossaryTerm[] = [
     detailedExplanation: 'Patient intake encompasses everything from the first phone call to the patient walking through the door. This includes answering calls, booking appointments, collecting patient information, verifying insurance, sending confirmations, and ensuring all paperwork is ready. Effective intake sets the tone for the patient relationship and impacts conversion, satisfaction, and operational efficiency.',
     category: 'operations',
     relatedTerms: ['patient-acquisition', 'appointment-conversion', 'insurance-verification'],
-    relatedSolutions: ['patient-intake', 'front-office-operations'],
+    relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing'],
     examples: [
       'A new patient calls, is scheduled, and receives confirmation',
       'Demographics and insurance collected before the visit',

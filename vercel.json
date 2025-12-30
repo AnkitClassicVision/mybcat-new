@@ -35,6 +35,46 @@
   ],
   "redirects": [
     {
+      "source": "/solutions/patient-intake",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/patient-intake/",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/recall-reactivation",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/recall-reactivation/",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/front-office-operations",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/front-office-operations/",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/security",
+      "destination": "/hipaa-compliance/",
+      "permanent": true
+    },
+    {
+      "source": "/security/",
+      "destination": "/hipaa-compliance/",
+      "permanent": true
+    },
+    {
       "source": "/about/story",
       "destination": "/about/",
       "permanent": true
@@ -106,12 +146,12 @@
     },
     {
       "source": "/solutions-remote-hospitality-center",
-      "destination": "/solutions/patient-intake/",
+      "destination": "/solutions/medical-answering-service/",
       "permanent": true
     },
     {
       "source": "/solutions-remote-hospitality-center/",
-      "destination": "/solutions/patient-intake/",
+      "destination": "/solutions/medical-answering-service/",
       "permanent": true
     },
     {

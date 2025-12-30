@@ -41,13 +41,13 @@ export interface Solution {
 
 export const solutions: Solution[] = [
   {
-    slug: 'patient-intake',
-    name: 'Patient Intake',
+    slug: 'medical-answering-service',
+    name: 'Medical Answering Service',
     tagline: 'Every Call Answered. Every Patient Captured.',
-    headline: 'Never Miss Another Patient Call',
-    description: 'Complete front-desk phone coverage that captures new patients and books appointments directly into your EHR. Your patients talk to real people who understand healthcare.',
-    tldr: 'mybcat\'s patient intake service ensures every call is answered by a trained healthcare coordinator who books appointments directly into your EHR. We handle inbound calls, schedule appointments, collect patient information, and verify insurance—so your front desk can focus on patients in the office.',
-    metaDescription: 'Never miss another patient call. MyBCAT\'s intake service answers every call, books appointments directly in your EHR, and recovers lost revenue.',
+    headline: 'Medical Answering Service for Healthcare Practices',
+    description: '24/7 medical answering service with live healthcare coordinators who book appointments directly into your EHR. Never miss a patient call again.',
+    tldr: 'mybcat\'s medical answering service ensures every call is answered by a trained healthcare coordinator who books appointments directly into your EHR. We handle inbound calls, schedule appointments, collect patient information, and verify insurance—available 24/7 including after hours.',
+    metaDescription: '24/7 medical answering service that books appointments directly into your EHR. HIPAA compliant, US-based healthcare coordinators. Never miss a patient call.',
     problem: {
       question: 'How many patient calls is your practice missing?',
       stats: [
@@ -115,13 +115,13 @@ export const solutions: Solution[] = [
     ]
   },
   {
-    slug: 'recall-reactivation',
-    name: 'Recall & Reactivation',
+    slug: 'patient-recall',
+    name: 'Patient Recall Service',
     tagline: 'Bring Your Patients Back Before They Become Lapsed',
-    headline: 'Proactive Recall That Actually Works',
-    description: 'Systematic outreach campaigns that reactivate dormant patients and drive recall compliance. We work your patient list so you can focus on patient care.',
-    tldr: 'mybcat\'s recall and reactivation service proactively contacts patients due for appointments and those who have lapsed. We run multi-channel campaigns via phone, text, and email to bring patients back, improving recall compliance by 30%+ and recovering $50K+ in annual revenue.',
-    metaDescription: 'Proactive patient reactivation campaigns. We work your recall list to bring patients back before they become lapsed. Increase recall rates by 30%+.',
+    headline: 'Patient Recall Service That Actually Works',
+    description: 'Systematic patient recall campaigns that reactivate dormant patients and drive recall compliance. We work your patient list so you can focus on patient care.',
+    tldr: 'mybcat\'s patient recall service proactively contacts patients due for appointments and those who have lapsed. We run multi-channel campaigns via phone, text, and email to bring patients back, improving recall compliance by 30%+ and recovering $50K+ in annual revenue.',
+    metaDescription: 'Patient recall service that brings patients back before they lapse. Multi-channel outreach campaigns increase recall rates by 30%+.',
     problem: {
       question: 'How many patients are slipping through the cracks?',
       stats: [
@@ -263,13 +263,13 @@ export const solutions: Solution[] = [
     ]
   },
   {
-    slug: 'front-office-operations',
-    name: 'Front Office Operations',
+    slug: 'front-desk-outsourcing',
+    name: 'Front Desk Outsourcing',
     tagline: 'Your Complete Front Desk Solution',
-    headline: 'Comprehensive Front Office Support',
-    description: 'End-to-end front office operations that go beyond just phone answering. We handle your complete patient communication workflow from first contact to appointment completion.',
-    tldr: 'mybcat\'s front office operations service handles your entire patient communication workflow. We manage all calls, appointment confirmations, insurance coordination, and schedule optimization—reducing staffing needs by 40+ hours per week while improving patient satisfaction.',
-    metaDescription: 'Complete front office outsourcing for healthcare practices. Handle calls, scheduling, insurance, and patient communications all in one solution.',
+    headline: 'Front Desk Outsourcing for Healthcare Practices',
+    description: 'Complete front desk outsourcing that goes beyond phone answering. We handle your entire patient communication workflow from first contact to appointment completion.',
+    tldr: 'mybcat\'s front desk outsourcing service handles your entire patient communication workflow. We manage all calls, appointment confirmations, insurance coordination, and schedule optimization—reducing staffing needs by 40+ hours per week while improving patient satisfaction.',
+    metaDescription: 'Front desk outsourcing for healthcare practices. Complete call handling, scheduling, insurance coordination, and patient communications in one solution.',
     problem: {
       question: 'Is your front desk holding back your practice growth?',
       stats: [

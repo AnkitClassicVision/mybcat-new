@@ -17,13 +17,13 @@ export const mainNavigation: NavItem[] = [
     href: '/solutions/',
     children: [
       {
-        label: 'Patient Intake',
-        href: '/solutions/patient-intake/',
+        label: 'Medical Answering Service',
+        href: '/solutions/medical-answering-service/',
         description: 'Never miss another call'
       },
       {
-        label: 'Recall & Reactivation',
-        href: '/solutions/recall-reactivation/',
+        label: 'Patient Recall',
+        href: '/solutions/patient-recall/',
         description: 'Bring patients back'
       },
       {
@@ -32,8 +32,8 @@ export const mainNavigation: NavItem[] = [
         description: 'Fill cancelled slots'
       },
       {
-        label: 'Front Office Operations',
-        href: '/solutions/front-office-operations/',
+        label: 'Front Desk Outsourcing',
+        href: '/solutions/front-desk-outsourcing/',
         description: 'Complete front desk support'
       },
       {
@@ -98,10 +98,10 @@ export const mainNavigation: NavItem[] = [
 // Footer navigation organized by section
 export const footerNavigation = {
   solutions: [
-    { label: 'Patient Intake', href: '/solutions/patient-intake/' },
-    { label: 'Recall & Reactivation', href: '/solutions/recall-reactivation/' },
+    { label: 'Medical Answering Service', href: '/solutions/medical-answering-service/' },
+    { label: 'Patient Recall', href: '/solutions/patient-recall/' },
     { label: 'No-Show Recovery', href: '/solutions/no-show-recovery/' },
-    { label: 'Front Office Operations', href: '/solutions/front-office-operations/' },
+    { label: 'Front Desk Outsourcing', href: '/solutions/front-desk-outsourcing/' },
     { label: 'Integrations', href: '/solutions/integrations/' }
   ],
   industries: [
@@ -118,7 +118,7 @@ export const footerNavigation = {
     { label: 'How It Works', href: '/how-it-works/' },
     { label: 'Contact', href: '/contact/' },
     { label: 'Careers', href: '/careers/' },
-    { label: 'Security', href: '/security/' }
+    { label: 'HIPAA Compliance', href: '/hipaa-compliance/' }
   ],
   resources: [
     { label: 'Blog', href: '/blog/' },
