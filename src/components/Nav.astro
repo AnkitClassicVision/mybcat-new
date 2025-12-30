@@ -419,54 +419,18 @@ const { currentPath = '/' } = Astro.props;
     color: var(--text-primary);
   }
 
-  /* Nav CTA with Snake Border Animation */
+  /* Nav CTA - Simple outlined style */
   .nav-cta-glow {
     background: transparent !important;
     color: var(--oceanic-teal) !important;
     font-weight: 600 !important;
-    border-radius: 4px !important;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .nav-cta-glow::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, var(--oceanic-teal));
-    animation: snake-nav-anim1 1.5s linear infinite;
-  }
-
-  .nav-cta-glow::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, var(--oceanic-teal));
-    animation: snake-nav-anim3 1.5s linear infinite;
-    animation-delay: 0.75s;
+    border: 1.5px solid var(--oceanic-teal) !important;
+    border-radius: 8px !important;
   }
 
   .nav-cta-glow:hover {
     background: var(--oceanic-teal) !important;
     color: #ffffff !important;
-    box-shadow: 0 0 5px var(--oceanic-teal),
-          0 0 25px var(--oceanic-teal);
-  }
-
-  @keyframes snake-nav-anim1 {
-    0% { left: -100%; }
-    50%, 100% { left: 100%; }
-  }
-
-  @keyframes snake-nav-anim3 {
-    0% { left: 100%; }
-    50%, 100% { left: -100%; }
   }
 
   /* Mobile Expandable Sections */
