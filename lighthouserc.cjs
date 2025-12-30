@@ -12,7 +12,7 @@ module.exports = {
       url: [
         'http://localhost:4321/',
         'http://localhost:4321/about/',
-        'http://localhost:4321/solutions/patient-intake/',
+        'http://localhost:4321/solutions/medical-answering-service/',
         'http://localhost:4321/industries/optometry/',
         'http://localhost:4321/blog/',
         'http://localhost:4321/contact/',
