@@ -52,9 +52,9 @@ export const competitors: Competitor[] = [
     slug: 'vs-hello-rache',
     name: 'Hello Rache',
     tagline: 'Managed Service vs Hourly VA Staffing',
-    headline: 'mybcat vs Hello Rache: Which Is Right for Your Practice?',
-    description: 'Compare mybcat\'s fully managed patient acquisition platform with Hello Rache\'s hourly virtual assistant staffing model. Understand the key differences in pricing, management, technology, and outcomes.',
-    metaDescription: 'Compare mybcat vs Hello Rache for your healthcare practice. See how our managed service differs from hourly VA staffing in pricing, technology, and results.',
+    headline: 'MyBCAT vs Hello Rache: Which Is Right for Your Practice?',
+    description: 'Compare My Business Care Team\'s fully managed patient acquisition platform with Hello Rache\'s hourly virtual assistant staffing model. Understand the key differences in pricing, management, technology, and outcomes.',
+    metaDescription: 'Compare MyBCAT vs Hello Rache for your healthcare practice. See how our managed service differs from hourly VA staffing in pricing, technology, and results.',
     pricing: '$9.50/hour',
     model: 'Hourly VA staffing',
     website: 'hellorache.com',
@@ -133,20 +133,20 @@ export const competitors: Competitor[] = [
 
     faqs: [
       {
-        question: 'Why is mybcat more expensive than Hello Rache?',
-        answer: 'While Hello Rache charges $9.50/hour, you\'re responsible for management, training, and covering absences. When you factor in your time spent managing, plus the technology and team coverage mybcat provides, most practices find the total cost similar - with better, more consistent results.'
+        question: 'Why is My Business Care Team more expensive than Hello Rache?',
+        answer: 'While Hello Rache charges $9.50/hour, you\'re responsible for management, training, and covering absences. When you factor in your time spent managing, plus the technology and team coverage My Business Care Team provides, most practices find the total cost similar - with better, more consistent results.'
       },
       {
-        question: 'Can I switch from Hello Rache to mybcat?',
+        question: 'Can I switch from Hello Rache to My Business Care Team?',
         answer: 'Yes, many practices have made this switch. We handle the entire transition, including EHR integration setup and training our team on your specific workflows. Most practices are fully transitioned within 2-3 weeks.'
       },
       {
         question: 'What if I like managing my own VA?',
-        answer: 'Hello Rache might be a better fit for you. mybcat is designed for practice owners who want to focus on patient care, not VA management. If you enjoy the hands-on control, an hourly VA model could work well.'
+        answer: 'Hello Rache might be a better fit for you. My Business Care Team is designed for practice owners who want to focus on patient care, not VA management. If you enjoy the hands-on control, an hourly VA model could work well.'
       },
       {
-        question: 'Does mybcat offer the same services as Hello Rache?',
-        answer: 'mybcat includes everything Hello Rache offers plus proactive services like recall campaigns, no-show recovery, and AI-powered coverage. We also provide real-time analytics and direct EHR integration that Hello Rache doesn\'t offer.'
+        question: 'Does My Business Care Team offer the same services as Hello Rache?',
+        answer: 'My Business Care Team includes everything Hello Rache offers plus proactive services like recall campaigns, no-show recovery, and AI-powered coverage. We also provide real-time analytics and direct EHR integration that Hello Rache doesn\'t offer.'
       }
     ]
   },
@@ -155,9 +155,9 @@ export const competitors: Competitor[] = [
     slug: 'vs-hireteem',
     name: 'HireTeem',
     tagline: 'Managed Platform vs Hourly VA Model',
-    headline: 'mybcat vs HireTeem: Choosing the Right Solution',
-    description: 'Compare mybcat\'s managed patient acquisition platform with HireTeem\'s hourly virtual assistant staffing. Learn which approach best fits your practice\'s needs and growth goals.',
-    metaDescription: 'mybcat vs HireTeem comparison for healthcare practices. Compare managed services vs hourly VA staffing for patient intake and scheduling.',
+    headline: 'MyBCAT vs HireTeem: Choosing the Right Solution',
+    description: 'Compare My Business Care Team\'s managed patient acquisition platform with HireTeem\'s hourly virtual assistant staffing. Learn which approach best fits your practice\'s needs and growth goals.',
+    metaDescription: 'MyBCAT vs HireTeem comparison for healthcare practices. Compare managed services vs hourly VA staffing for patient intake and scheduling.',
     pricing: '$11/hour',
     model: 'Hourly VA staffing',
     website: 'hireteem.com',
@@ -236,20 +236,20 @@ export const competitors: Competitor[] = [
 
     faqs: [
       {
-        question: 'How does mybcat pricing compare to HireTeem\'s $11/hour?',
-        answer: 'mybcat\'s outcome-based pricing means you pay for results, not hours logged. When you factor in management time, coverage gaps, and the technology platform we provide, most practices find mybcat delivers better ROI despite different pricing models.'
+        question: 'How does My Business Care Team pricing compare to HireTeem\'s $11/hour?',
+        answer: 'My Business Care Team\'s outcome-based pricing means you pay for results, not hours logged. When you factor in management time, coverage gaps, and the technology platform we provide, most practices find My Business Care Team delivers better ROI despite different pricing models.'
       },
       {
         question: 'Does HireTeem offer better revenue cycle services?',
-        answer: 'HireTeem does offer revenue cycle management. mybcat focuses on patient acquisition - getting patients scheduled and reducing no-shows. For billing support, some practices use both services together.'
+        answer: 'HireTeem does offer revenue cycle management. My Business Care Team focuses on patient acquisition - getting patients scheduled and reducing no-shows. For billing support, some practices use both services together.'
       },
       {
-        question: 'Can I switch from HireTeem to mybcat?',
+        question: 'Can I switch from HireTeem to My Business Care Team?',
         answer: 'Absolutely. We handle the transition seamlessly, typically completing the switch in 2-3 weeks including EHR integration and team training on your workflows.'
       },
       {
-        question: 'What makes mybcat different from HireTeem?',
-        answer: 'The biggest difference is our managed approach with technology. HireTeem provides a VA you manage; mybcat provides a complete system - trained team, AI backup, analytics dashboard, and outcome accountability - all managed for you.'
+        question: 'What makes My Business Care Team different from HireTeem?',
+        answer: 'The biggest difference is our managed approach with technology. HireTeem provides a VA you manage; My Business Care Team provides a complete system - trained team, AI backup, analytics dashboard, and outcome accountability - all managed for you.'
       }
     ]
   },
@@ -258,9 +258,9 @@ export const competitors: Competitor[] = [
     slug: 'vs-virtual-assistants',
     name: 'Virtual Assistants',
     tagline: 'Managed Service vs DIY Staffing',
-    headline: 'mybcat vs Hiring a Virtual Assistant: What\'s the Difference?',
-    description: 'Should you hire a virtual assistant or use a managed service like mybcat? Compare the true costs, management requirements, and outcomes of each approach for your healthcare practice.',
-    metaDescription: 'Compare hiring a virtual assistant vs using mybcat for your medical practice. Understand the real costs, management burden, and results of each option.',
+    headline: 'MyBCAT vs Hiring a Virtual Assistant: What\'s the Difference?',
+    description: 'Should you hire a virtual assistant or use a managed service like My Business Care Team? Compare the true costs, management requirements, and outcomes of each approach for your healthcare practice.',
+    metaDescription: 'Compare hiring a virtual assistant vs using MyBCAT for your medical practice. Understand the real costs, management burden, and results of each option.',
     pricing: '$8-15/hour',
     model: 'Self-managed staffing',
 
@@ -268,7 +268,7 @@ export const competitors: Competitor[] = [
       {
         category: 'Management & Operations',
         items: [
-          { name: 'Who manages', mybcat: 'mybcat handles everything', competitor: 'You manage directly' },
+          { name: 'Who manages', mybcat: 'My Business Care Team handles everything', competitor: 'You manage directly' },
           { name: 'Training', mybcat: 'Pre-trained on your EHR', competitor: 'You train from scratch' },
           { name: 'Quality assurance', mybcat: 'Continuous monitoring', competitor: 'You monitor' },
           { name: 'Scheduling & coverage', mybcat: 'Automatic team coverage', competitor: 'You coordinate' },
@@ -339,8 +339,8 @@ export const competitors: Competitor[] = [
 
     faqs: [
       {
-        question: 'Isn\'t hiring a VA cheaper than mybcat?',
-        answer: 'The hourly rate looks lower, but the true cost includes your time managing (5-10 hrs/week), training (40+ hours), technology setup, and the cost of gaps when your VA is unavailable. Most practices find mybcat\'s total cost similar with far less hassle.'
+        question: 'Isn\'t hiring a VA cheaper than My Business Care Team?',
+        answer: 'The hourly rate looks lower, but the true cost includes your time managing (5-10 hrs/week), training (40+ hours), technology setup, and the cost of gaps when your VA is unavailable. Most practices find My Business Care Team\'s total cost similar with far less hassle.'
       },
       {
         question: 'Can\'t I just train a VA on my systems?',
@@ -351,7 +351,7 @@ export const competitors: Competitor[] = [
         answer: 'Many practices make this switch when they realize the management burden isn\'t worth the cost savings. We can transition you in 2-3 weeks, and you\'ll immediately notice the difference in coverage consistency and visibility.'
       },
       {
-        question: 'Do I lose control by using mybcat instead of my own VA?',
+        question: 'Do I lose control by using My Business Care Team instead of my own VA?',
         answer: 'You gain visibility, not lose control. Our dashboard shows you every call, outcome, and metric in real-time. You set the protocols and preferences; we execute consistently. Most owners find they have better insight into operations than with a self-managed VA.'
       }
     ]
@@ -361,9 +361,9 @@ export const competitors: Competitor[] = [
     slug: 'vs-call-centers',
     name: 'Call Centers',
     tagline: 'Patient Acquisition vs Call Answering',
-    headline: 'mybcat vs Medical Call Centers: Beyond Answering the Phone',
-    description: 'Traditional call centers answer phones. mybcat acquires patients. Compare script-based answering services with our integrated patient acquisition platform for healthcare practices.',
-    metaDescription: 'Compare mybcat vs medical call centers. See why healthcare practices choose patient acquisition over basic answering services.',
+    headline: 'MyBCAT vs Medical Call Centers: Beyond Answering the Phone',
+    description: 'Traditional call centers answer phones. My Business Care Team acquires patients. Compare script-based answering services with our integrated patient acquisition platform for healthcare practices.',
+    metaDescription: 'Compare MyBCAT vs medical call centers. See why healthcare practices choose patient acquisition over basic answering services.',
     pricing: 'Per call or per minute',
     model: 'Traditional answering service',
 
@@ -442,19 +442,19 @@ export const competitors: Competitor[] = [
     faqs: [
       {
         question: 'Why not just use a medical answering service?',
-        answer: 'Answering services take messages - you still have to call patients back. Every callback is a chance to lose that patient. mybcat books the appointment on the first call, converting callers into patients immediately.'
+        answer: 'Answering services take messages - you still have to call patients back. Every callback is a chance to lose that patient. My Business Care Team books the appointment on the first call, converting callers into patients immediately.'
       },
       {
         question: 'Can call centers access my EHR to schedule?',
-        answer: 'Traditional call centers rarely have EHR integration. They take messages that your staff must then act on. mybcat integrates directly with your EHR/PMS, booking appointments in real-time without any extra work from your team.'
+        answer: 'Traditional call centers rarely have EHR integration. They take messages that your staff must then act on. My Business Care Team integrates directly with your EHR/PMS, booking appointments in real-time without any extra work from your team.'
       },
       {
         question: 'Are call centers better for after-hours coverage?',
-        answer: 'Call centers can take messages after hours, but those patients still wait for a callback. mybcat\'s AI + human model can schedule appointments 24/7, and our team handles true emergencies appropriately.'
+        answer: 'Call centers can take messages after hours, but those patients still wait for a callback. My Business Care Team\'s AI + human model can schedule appointments 24/7, and our team handles true emergencies appropriately.'
       },
       {
-        question: 'Is a call center cheaper than mybcat?',
-        answer: 'Per-call rates look cheap, but you\'re paying for messages, not results. Factor in the staff time to return calls, the patients lost while waiting, and the appointments never booked - mybcat\'s outcome-based model often delivers better ROI.'
+        question: 'Is a call center cheaper than My Business Care Team?',
+        answer: 'Per-call rates look cheap, but you\'re paying for messages, not results. Factor in the staff time to return calls, the patients lost while waiting, and the appointments never booked - My Business Care Team\'s outcome-based model often delivers better ROI.'
       }
     ]
   },
@@ -463,9 +463,9 @@ export const competitors: Competitor[] = [
     slug: 'vs-ai-receptionists',
     name: 'AI Receptionists',
     tagline: 'Human Connection + AI Power vs AI-Only',
-    headline: 'mybcat vs AI Receptionist Tools: The Best of Both Worlds',
-    description: 'Pure AI solutions promise efficiency, but patients want human connection. See how mybcat combines AI power with human expertise for better patient experiences and outcomes.',
-    metaDescription: 'Compare mybcat\'s AI + human hybrid model vs AI-only receptionist tools. Learn why the best healthcare practices use both together.',
+    headline: 'MyBCAT vs AI Receptionist Tools: The Best of Both Worlds',
+    description: 'Pure AI solutions promise efficiency, but patients want human connection. See how My Business Care Team combines AI power with human expertise for better patient experiences and outcomes.',
+    metaDescription: 'Compare My Business Care Team\'s AI + human hybrid model vs AI-only receptionist tools. Learn why the best healthcare practices use both together.',
     pricing: 'SaaS subscription',
     model: 'AI-only automation',
 
@@ -552,11 +552,11 @@ export const competitors: Competitor[] = [
         answer: 'AI handles simple, predictable calls well. But studies show 30-40% of healthcare calls involve complexity AI struggles with. Those are often your highest-value calls - new patients, complex scheduling, concerned patients. You don\'t want AI fumbling those.'
       },
       {
-        question: 'Is AI cheaper than mybcat?',
+        question: 'Is AI cheaper than My Business Care Team?',
         answer: 'Per-interaction, yes. But consider: What\'s the cost of a frustrated patient who couldn\'t get help from your AI? What\'s a lost new patient worth? Our outcome-based model means we\'re incentivized to convert, not just answer.'
       },
       {
-        question: 'Does mybcat use AI at all?',
+        question: 'Does My Business Care Team use AI at all?',
         answer: 'Absolutely. We use AI for after-hours handling, overflow during peak times, and routine information requests. The difference is we have humans ready to step in when AI isn\'t enough - and patients can always request a human.'
       }
     ]

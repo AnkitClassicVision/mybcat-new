@@ -6,7 +6,7 @@
 export const company = {
   name: 'My Business Care Team',
   shortName: 'MyBCAT',
-  tagline: 'A Full Schedule. Every Hour. Every Day.',
+  tagline: 'Medical Answering Service That Fills Your Schedule',
   description: 'Medical operations partner helping healthcare practices capture every call and fill every appointment slot.',
 
   // Contact information

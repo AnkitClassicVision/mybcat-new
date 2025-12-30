@@ -29,7 +29,7 @@ const { competitor } = Astro.props;
 // Generate schemas
 const pageUrl = `${company.site.url}/compare/${competitor.slug}/`;
 const serviceSchema = generateServiceSchema({
-  name: `mybcat vs ${competitor.name} Comparison`,
+  name: `MyBCAT vs ${competitor.name} Comparison`,
   description: competitor.metaDescription,
   url: pageUrl,
   serviceType: 'Healthcare Practice Solutions Comparison'
@@ -46,9 +46,9 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
 ---
 
 <LandingLayout
-  title={`${competitor.headline} | mybcat`}
+  title={`${competitor.headline} | MyBCAT`}
   description={competitor.metaDescription}
-  serviceName={`mybcat vs ${competitor.name}`}
+  serviceName={`MyBCAT vs ${competitor.name}`}
   serviceDescription={competitor.description}
   breadcrumbs={[
     { name: 'Home', url: '/' },
@@ -66,7 +66,7 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
       <p class="hero-tagline">{competitor.tagline}</p>
       <p class="hero-description">{competitor.description}</p>
       <div class="hero-cta">
-        <Button href="/contact/">Get Started with mybcat</Button>
+        <Button href="/contact/">Get Started with My Business Care Team</Button>
         <a href="#comparison" class="text-link">See the comparison</a>
       </div>
     </section>
@@ -83,13 +83,13 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
             </div>
             <div class="tldr-divider"></div>
             <div class="tldr-item mybcat">
-              <span class="label">mybcat</span>
+              <span class="label">My Business Care Team</span>
               <p>Fully managed patient acquisition with <strong>outcome-based pricing</strong></p>
             </div>
           </div>
           <p class="tldr-bottom">
             <strong>Bottom line:</strong> {competitor.name} works if you want to manage your own staff.
-            mybcat works if you want results without the management burden.
+            My Business Care Team works if you want results without the management burden.
           </p>
         </div>
       </Card>
@@ -99,7 +99,7 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
     <section id="comparison" class="comparison-section">
       <div class="section-header">
         <h2>Feature-by-Feature Comparison</h2>
-        <p>See exactly how mybcat and {competitor.name} stack up across key areas.</p>
+        <p>See exactly how My Business Care Team and {competitor.name} stack up across key areas.</p>
       </div>
 
       {competitor.features.map(category => (
@@ -109,7 +109,7 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
             <thead>
               <tr class="table-header">
                 <th scope="col" class="feature-name">Feature</th>
-                <th scope="col" class="company-col">mybcat</th>
+                <th scope="col" class="company-col">MyBCAT</th>
                 <th scope="col" class="company-col">{competitor.name}</th>
               </tr>
             </thead>
@@ -140,18 +140,18 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
     <!-- Before/After Section -->
     <section class="before-after-wrapper">
       <BeforeAfter
-        title={`<span class="muted">${competitor.name}</span> → <span class="highlight">mybcat</span>`}
+        title={`<span class="muted">${competitor.name}</span> → <span class="highlight">MyBCAT</span>`}
         beforeTitle={competitor.name}
-        afterTitle="mybcat"
+        afterTitle="MyBCAT"
         beforeItems={beforeItems}
         afterItems={afterItems}
       />
     </section>
 
-    <!-- Why mybcat Section -->
+    <!-- Why MyBCAT Section -->
     <section class="advantages-section">
       <div class="section-header">
-        <h2>Why Practices Choose mybcat</h2>
+        <h2>Why Practices Choose My Business Care Team</h2>
         <p>Here's what you get with our managed approach.</p>
       </div>
 
@@ -194,7 +194,7 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
     <section class="faq-section">
       <FAQ
         items={competitor.faqs}
-        title={`${competitor.name} vs mybcat FAQ`}
+        title={`${competitor.name} vs My Business Care Team FAQ`}
         eyebrow="Common Questions"
       />
     </section>
@@ -202,7 +202,7 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
     <!-- CTA Section -->
     <section class="cta-section">
       <CTA
-        title="Ready to See the mybcat Difference?"
+        title="Ready to See the My Business Care Team Difference?"
         description="Book a discovery call and we'll give you an honest assessment of whether we're the right fit for your practice."
         buttonText="Schedule a Call"
       />

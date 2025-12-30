@@ -39,7 +39,7 @@ export const industries: Industry[] = [
     icon: 'eye',
     headline: 'Optometry Answering Service That Understands Eye Care',
     description: 'Dedicated patient intake solutions for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences.',
-    tldr: 'mybcat provides optometry-specific phone answering and scheduling services. We understand VSP vs EyeMed insurance, route medical vs routine visits correctly, and book directly into Eyefinity, RevolutionEHR, and other eye care systems. Practices typically recover $127K+ in annual revenue from missed calls.',
+    tldr: 'My Business Care Team provides optometry-specific phone answering and scheduling services. We understand VSP vs EyeMed insurance, route medical vs routine visits correctly, and book directly into Eyefinity, RevolutionEHR, and other eye care systems. Practices typically recover $127K+ in annual revenue from missed calls.',
     metaDescription: 'Optometry answering service built for eye care practices. We integrate with Eyefinity, handle comprehensive exam scheduling, and drive optical sales.',
     patientAcquisition: {
       definition: 'Patient acquisition for optometry practices means converting phone calls, website inquiries, and referrals into scheduled comprehensive eye exams and optical purchases. It encompasses the full patient journey from first contact through appointment booking, including insurance verification and new patient intake.',
@@ -84,7 +84,7 @@ export const industries: Industry[] = [
     icon: 'tooth',
     headline: 'Dental Answering Service That Converts Callers to Patients',
     description: 'Patient intake and scheduling services designed for dental practices. From hygiene recalls to emergency appointments, we keep your chairs filled.',
-    tldr: 'mybcat handles dental practice phone calls with direct scheduling into Dentrix, Eaglesoft, and Open Dental. We manage hygiene recalls, new patient intake, emergency triage, and treatment follow-ups. Dental practices lose $150K+ annually to missed calls—we help you capture that revenue.',
+    tldr: 'My Business Care Team handles dental practice phone calls with direct scheduling into Dentrix, Eaglesoft, and Open Dental. We manage hygiene recalls, new patient intake, emergency triage, and treatment follow-ups. Dental practices lose $150K+ annually to missed calls—we help you capture that revenue.',
     metaDescription: 'Dental practice answering service with direct EHR scheduling. Handle new patient calls, hygiene recalls, and emergencies professionally.',
     patientAcquisition: {
       definition: 'Patient acquisition for dental practices involves converting inquiries into scheduled appointments, maintaining hygiene recall compliance, and following up on treatment plans. It includes new patient intake, emergency scheduling, and reactivating patients who have lapsed from regular care.',
@@ -123,7 +123,7 @@ export const industries: Industry[] = [
     icon: 'paw',
     headline: 'Veterinary Answering Service for Busy Animal Hospitals',
     description: 'Patient intake services that understand pet parents and animal hospital workflows. From wellness visits to emergencies, we handle it all.',
-    tldr: 'mybcat provides veterinary-specific answering services that understand pet parent needs. We handle emergency triage, wellness scheduling, medication refills, and multi-pet households. Our team integrates with Cornerstone, AVImark, and other veterinary practice systems.',
+    tldr: 'My Business Care Team provides veterinary-specific answering services that understand pet parent needs. We handle emergency triage, wellness scheduling, medication refills, and multi-pet households. Our team integrates with Cornerstone, AVImark, and other veterinary practice systems.',
     metaDescription: 'Veterinary practice answering service. Handle appointment scheduling, medication refills, and emergency triage for animal hospitals.',
     patientAcquisition: {
       definition: 'Patient acquisition for veterinary practices means converting pet parent inquiries into scheduled wellness visits, managing emergency calls, and maintaining relationships with multi-pet households. It includes new client onboarding, vaccine reminders, and reactivating clients who have lapsed.',
@@ -162,7 +162,7 @@ export const industries: Industry[] = [
     icon: 'sparkles',
     headline: 'MedSpa Answering Service for Premium Patient Experiences',
     description: 'Patient intake services designed for aesthetic practices. We understand the consultation-driven nature of medspa services and convert inquiries into bookings.',
-    tldr: 'mybcat provides premium phone services for medspa and aesthetics practices. We convert consultation inquiries into bookings, manage membership programs, and schedule treatment packages. With average consultation values of $2,500+, every missed call is significant lost revenue.',
+    tldr: 'My Business Care Team provides premium phone services for medspa and aesthetics practices. We convert consultation inquiries into bookings, manage membership programs, and schedule treatment packages. With average consultation values of $2,500+, every missed call is significant lost revenue.',
     metaDescription: 'MedSpa answering service that converts inquiries into bookings. Handle consultations, treatment scheduling, and membership programs.',
     patientAcquisition: {
       definition: 'Patient acquisition for medspa practices focuses on converting high-value consultation inquiries into booked appointments and long-term client relationships. It includes capturing leads from marketing campaigns, nurturing prospects through the consultation process, and maintaining membership program engagement.',
@@ -201,7 +201,7 @@ export const industries: Industry[] = [
     icon: 'shield',
     headline: 'Dermatology Answering Service for Medical & Cosmetic Practices',
     description: 'Patient intake for dermatology practices handling both medical and cosmetic services. We route appropriately and capture every opportunity.',
-    tldr: 'mybcat handles dermatology calls for both medical and cosmetic services. We properly route skin checks vs cosmetic consultations, manage insurance vs self-pay workflows, and integrate with Modernizing Medicine, Nextech, and other derm systems.',
+    tldr: 'My Business Care Team handles dermatology calls for both medical and cosmetic services. We properly route skin checks vs cosmetic consultations, manage insurance vs self-pay workflows, and integrate with Modernizing Medicine, Nextech, and other derm systems.',
     metaDescription: 'Dermatology answering service for medical and cosmetic practices. Handle skin checks, cosmetic consultations, and follow-up care.',
     patientAcquisition: {
       definition: 'Patient acquisition for dermatology practices involves capturing both medical and cosmetic patients through multiple channels. It requires proper triage of urgent skin concerns, routing to appropriate providers, and converting cosmetic inquiries into high-value consultations while managing insurance and self-pay workflows.',
@@ -240,7 +240,7 @@ export const industries: Industry[] = [
     icon: 'shield',
     headline: 'Urgent Care Answering Service for High-Volume Clinics',
     description: 'Patient intake services designed for urgent care centers handling high call volumes and walk-in traffic. We triage calls, manage wait times, and maximize patient throughput.',
-    tldr: 'mybcat manages high-volume urgent care phone lines so your staff can focus on patients. We handle 150-300+ daily calls, communicate real-time wait times, and balance walk-in flow with scheduled appointments. Available extended hours including weekends.',
+    tldr: 'My Business Care Team manages high-volume urgent care phone lines so your staff can focus on patients. We handle 150-300+ daily calls, communicate real-time wait times, and balance walk-in flow with scheduled appointments. Available extended hours including weekends.',
     metaDescription: 'Urgent care answering service for walk-in clinics. Handle high call volumes, wait time inquiries, and appointment scheduling efficiently.',
     patientAcquisition: {
       definition: 'Patient acquisition for urgent care centers involves maximizing patient throughput while maintaining quality care. It includes managing high-volume phone traffic, communicating wait times effectively, balancing walk-ins with scheduled appointments, and capturing patients who might otherwise go to competitors or the ER.',
@@ -279,7 +279,7 @@ export const industries: Industry[] = [
     icon: 'shield',
     headline: 'ENT & Audiology Answering Service for Complex Scheduling',
     description: 'Patient intake services for ENT practices and audiology clinics. We handle surgical scheduling, hearing aid appointments, and complex multi-visit care coordination.',
-    tldr: 'mybcat handles complex ENT and audiology scheduling including surgical pre-authorization, hearing aid fittings, and multi-visit care coordination. We integrate with ModMed, AdvancedMD, and specialty audiology systems to manage your diverse service lines.',
+    tldr: 'My Business Care Team handles complex ENT and audiology scheduling including surgical pre-authorization, hearing aid fittings, and multi-visit care coordination. We integrate with ModMed, AdvancedMD, and specialty audiology systems to manage your diverse service lines.',
     metaDescription: 'ENT and audiology answering service. Handle hearing evaluations, surgical scheduling, and complex multi-specialty appointment coordination.',
     patientAcquisition: {
       definition: 'Patient acquisition for ENT and audiology practices involves managing complex multi-visit patient journeys across multiple service lines. It includes capturing surgical referrals, converting hearing evaluation inquiries into hearing aid sales, managing allergy patients, and coordinating care across multiple providers and specialties.',

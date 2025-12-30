@@ -46,7 +46,7 @@ export const solutions: Solution[] = [
     tagline: 'Every Call Answered. Every Patient Captured.',
     headline: 'Medical Answering Service for Healthcare Practices',
     description: '24/7 medical answering service with live healthcare coordinators who book appointments directly into your EHR. Never miss a patient call again.',
-    tldr: 'mybcat\'s medical answering service ensures every call is answered by a trained healthcare coordinator who books appointments directly into your EHR. We handle inbound calls, schedule appointments, collect patient information, and verify insurance—available 24/7 including after hours.',
+    tldr: 'My Business Care Team\'s medical answering service ensures every call is answered by a trained healthcare coordinator who books appointments directly into your EHR. We handle inbound calls, schedule appointments, collect patient information, and verify insurance—available 24/7 including after hours.',
     metaDescription: '24/7 medical answering service that books appointments directly into your EHR. HIPAA compliant, US-based healthcare coordinators. Never miss a patient call.',
     problem: {
       question: 'How many patient calls is your practice missing?',
@@ -120,7 +120,7 @@ export const solutions: Solution[] = [
     tagline: 'Bring Your Patients Back Before They Become Lapsed',
     headline: 'Patient Recall Service That Actually Works',
     description: 'Systematic patient recall campaigns that reactivate dormant patients and drive recall compliance. We work your patient list so you can focus on patient care.',
-    tldr: 'mybcat\'s patient recall service proactively contacts patients due for appointments and those who have lapsed. We run multi-channel campaigns via phone, text, and email to bring patients back, improving recall compliance by 30%+ and recovering $50K+ in annual revenue.',
+    tldr: 'My Business Care Team\'s patient recall service proactively contacts patients due for appointments and those who have lapsed. We run multi-channel campaigns via phone, text, and email to bring patients back, improving recall compliance by 30%+ and recovering $50K+ in annual revenue.',
     metaDescription: 'Patient recall service that brings patients back before they lapse. Multi-channel outreach campaigns increase recall rates by 30%+.',
     problem: {
       question: 'How many patients are slipping through the cracks?',
@@ -194,7 +194,7 @@ export const solutions: Solution[] = [
     tagline: 'Turn Empty Slots Into Revenue',
     headline: 'Recover Revenue From Cancellations',
     description: 'Same-day and next-day recovery workflows that fill cancelled appointments quickly. Don\'t let last-minute cancellations cost you money.',
-    tldr: 'mybcat\'s no-show recovery service fills cancelled appointments within hours. When patients cancel or no-show, we immediately contact your waitlist to fill the slot. Practices typically recover 65% of cancelled appointments, saving $40K+ in annual revenue.',
+    tldr: 'My Business Care Team\'s no-show recovery service fills cancelled appointments within hours. When patients cancel or no-show, we immediately contact your waitlist to fill the slot. Practices typically recover 65% of cancelled appointments, saving $40K+ in annual revenue.',
     metaDescription: 'Fill cancelled appointments fast. Our no-show recovery system contacts patients immediately and fills empty slots within hours.',
     problem: {
       question: 'How much revenue are cancellations costing your practice?',
@@ -268,7 +268,7 @@ export const solutions: Solution[] = [
     tagline: 'Your Complete Front Desk Solution',
     headline: 'Front Desk Outsourcing for Healthcare Practices',
     description: 'Complete front desk outsourcing that goes beyond phone answering. We handle your entire patient communication workflow from first contact to appointment completion.',
-    tldr: 'mybcat\'s front desk outsourcing service handles your entire patient communication workflow. We manage all calls, appointment confirmations, insurance coordination, and schedule optimization—reducing staffing needs by 40+ hours per week while improving patient satisfaction.',
+    tldr: 'My Business Care Team\'s front desk outsourcing service handles your entire patient communication workflow. We manage all calls, appointment confirmations, insurance coordination, and schedule optimization—reducing staffing needs by 40+ hours per week while improving patient satisfaction.',
     metaDescription: 'Front desk outsourcing for healthcare practices. Complete call handling, scheduling, insurance coordination, and patient communications in one solution.',
     problem: {
       question: 'Is your front desk holding back your practice growth?',
@@ -341,9 +341,9 @@ export const solutions: Solution[] = [
     name: 'EHR & PMS Integrations',
     tagline: 'Direct Connection to Your Systems',
     headline: 'Seamless Integration With Your Practice Systems',
-    description: 'mybcat integrates directly with your existing EHR/PMS, phone system, and communication tools. No double entry, no disconnected workflows—just seamless operations.',
-    tldr: 'mybcat integrates directly with 50+ EHR and practice management systems including Eyefinity, Dentrix, ModMed, and more. Our team schedules appointments directly in your system—no message-taking or double entry required. Setup typically takes 3-5 days.',
-    metaDescription: 'mybcat integrates with major EHR and practice management systems. Eyefinity, Dentrix, ModMed, and 50+ more. Direct scheduling, no message-taking.',
+    description: 'My Business Care Team integrates directly with your existing EHR/PMS, phone system, and communication tools. No double entry, no disconnected workflows—just seamless operations.',
+    tldr: 'My Business Care Team integrates directly with 50+ EHR and practice management systems including Eyefinity, Dentrix, ModMed, and more. Our team schedules appointments directly in your system—no message-taking or double entry required. Setup typically takes 3-5 days.',
+    metaDescription: 'My Business Care Team integrates with major EHR and practice management systems. Eyefinity, Dentrix, ModMed, and 50+ more. Direct scheduling, no message-taking.',
     problem: {
       question: 'Is disconnected technology slowing down your practice?',
       stats: [
