@@ -13,8 +13,8 @@ import { faqs, getFAQsByCategory } from '@data/faq';
 import { generateServiceSchema, generateFAQSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
 
-const pageTitle = 'How mybcat Works';
-const pageDescription = 'Learn how mybcat onboards your practice in 2-3 weeks. From discovery call to full integration with your EHR, see exactly how we become your patient acquisition team.';
+const pageTitle = 'How My Business Care Team Works';
+const pageDescription = 'Learn how My Business Care Team onboards your practice in 2-3 weeks. From discovery call to full integration with your EHR, see exactly how we become your patient operations team.';
 
 // Get onboarding FAQs
 const onboardingFaqs = getFAQsByCategory('onboarding');
@@ -22,7 +22,7 @@ const onboardingFaqs = getFAQsByCategory('onboarding');
 // Generate schemas
 const pageUrl = `${company.site.url}/how-it-works/`;
 const serviceSchema = generateServiceSchema({
-  name: 'mybcat Onboarding Process',
+  name: 'My Business Care Team Onboarding Process',
   description: pageDescription,
   url: pageUrl,
   serviceType: 'Healthcare Practice Onboarding'
@@ -136,7 +136,7 @@ const icons: Record<string, string> = {
 ---
 
 <PageLayout
-  title={`${pageTitle} | mybcat`}
+  title={`${pageTitle} | My Business Care Team`}
   description={pageDescription}
   breadcrumbs={[
     { name: 'Home', url: '/' },
@@ -223,7 +223,7 @@ const icons: Record<string, string> = {
     <section class="benefits-section">
       <div class="section-header">
         <h2>What You Get</h2>
-        <p>Everything included in your mybcat partnership.</p>
+        <p>Everything included in your My Business Care Team partnership.</p>
       </div>
 
       <div class="benefits-grid">
@@ -334,7 +334,7 @@ const icons: Record<string, string> = {
     <section class="cta-section">
       <CTA
         title="Ready to Get Started?"
-        description="Book your discovery call today. We'll walk you through exactly how mybcat will work for your practice."
+        description="Book your discovery call today. We'll walk you through exactly how My Business Care Team will work for your practice."
         buttonText="Schedule Discovery Call"
       />
     </section>

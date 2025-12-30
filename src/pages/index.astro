@@ -4,10 +4,8 @@
  */
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Button from '@/components/Button.astro';
-import Card from '@/components/Card.astro';
 import Hero from '@/components/sections/Hero.astro';
 import Industries from '@/components/sections/Industries.astro';
-import Features from '@/components/sections/Features.astro';
 import Testimonials from '@/components/sections/Testimonials.astro';
 import Stats from '@/components/sections/Stats.astro';
 import ProcessSteps from '@/components/sections/ProcessSteps.astro';
@@ -17,30 +15,6 @@ import LogoMarquee from '@/components/sections/LogoMarquee.astro';
 import { generateOrganizationSchema, generateWebSiteSchema, serializeSchema } from '@utils/schema';
 import { testimonials } from '@data/testimonials';
 import { getFAQsByCategory } from '@data/faq';
-
-// Homepage services data
-const services = [
-  {
-    icon: 'phone',
-    title: 'Phone Answering',
-    description: 'Every call answered in 3 rings. New patient inquiries, appointment requests, insurance questions—all handled professionally.'
-  },
-  {
-    icon: 'calendar',
-    title: 'Appointment Scheduling',
-    description: 'Direct booking into your EHR/PM system. We know your providers\' preferences and optimize for utilization.'
-  },
-  {
-    icon: 'shield',
-    title: 'Insurance Verification',
-    description: 'VSP, EyeMed, medical vision—we verify eligibility before appointments so there are no surprises.'
-  },
-  {
-    icon: 'refresh',
-    title: 'Recall Outreach',
-    description: 'Proactive patient reactivation. We work your recall list to bring patients back before they become lapsed.'
-  }
-];
 
 // Process steps
 const processSteps = [
@@ -87,8 +61,8 @@ const clientLogos = [
 ---
 
 <BaseLayout
-  title="Medical Answering Service & Patient Acquisition Platform | MyBCAT"
-  description="24/7 medical answering service that fills your appointment books. HIPAA compliant healthcare coordinators handle calls, scheduling, and patient outreach."
+  title="Healthcare Patient Operations | My Business Care Team"
+  description="Complete patient operations for healthcare practices. 24/7 answering, scheduling, recall campaigns, and administrative support. HIPAA compliant."
 >
   <script type="application/ld+json" set:html={serializeSchema(generateOrganizationSchema())} slot="head" />
   <script type="application/ld+json" set:html={serializeSchema(generateWebSiteSchema())} slot="head" />
@@ -96,13 +70,13 @@ const clientLogos = [
   <main class="homepage">
     <!-- Hero Section with Video -->
     <Hero
-      title="Medical Answering Service That Fills Your Schedule"
+      title="Your Complete Patient Operations Team"
       tagline="Every empty appointment slot costs you $2,400. Let's get your calendar filled."
-      description="Stop relying on luck to fill your schedule. With 87% of new patients hanging up the moment they reach voicemail, your practice is losing revenue. Our 24/7 medical answering service captures every call, text, and referral to increase your bookings by up to 40% in just 90 days."
+      description="Stop relying on luck to fill your schedule. With 87% of new patients hanging up the moment they reach voicemail, your practice is losing revenue. Our patient operations team captures every call, fills cancelled slots, and brings patients back—increasing your bookings by up to 40% in just 90 days."
       ctaText="Get My Schedule Filled"
       ctaHref="/contact/"
       secondaryText="See how it works"
-      secondaryHref="/solutions/"
+      secondaryHref="/how-it-works/"
       showBrand={true}
       benefits={[
         { icon: 'workflow', text: 'Fewer missed calls' },
@@ -131,19 +105,12 @@ const clientLogos = [
       headlineColor="gold"
     />
 
-    <!-- Services/Features -->
-    <Features
-      features={services}
-      title="Your Complete Patient Intake OS"
-      eyebrow="What We Do"
-      columns={2}
-    />
-
-    <!-- Quick Solutions Overview -->
+    <!-- Solutions Overview -->
     <section class="solutions-overview">
       <div class="section-intro">
-        <div class="eyebrow">Our Solutions</div>
-        <h2>Three Ways We Fill Your Schedule</h2>
+        <div class="eyebrow">What We Do</div>
+        <h2>Complete Patient Operations</h2>
+        <p class="subtitle">From answering calls to managing your schedule, we handle it all.</p>
       </div>
       <div class="solutions-grid">
         <a href="/solutions/medical-answering-service/" class="solution-card">
@@ -151,7 +118,7 @@ const clientLogos = [
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           </div>
           <h3>Medical Answering Service</h3>
-          <p>Never miss a call. Every inquiry answered professionally, 24/7.</p>
+          <p>Every call answered in 3 rings. Direct scheduling into your EHR, 24/7.</p>
           <span class="solution-link">Learn more →</span>
         </a>
         <a href="/solutions/patient-recall/" class="solution-card">
@@ -159,7 +126,7 @@ const clientLogos = [
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
           </div>
           <h3>Patient Recall</h3>
-          <p>Bring patients back before they lapse with proactive outreach.</p>
+          <p>Bring patients back before they lapse with proactive outreach campaigns.</p>
           <span class="solution-link">Learn more →</span>
         </a>
         <a href="/solutions/no-show-recovery/" class="solution-card">
@@ -167,7 +134,31 @@ const clientLogos = [
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
           </div>
           <h3>No-Show Recovery</h3>
-          <p>Fill cancelled slots fast with waitlist management.</p>
+          <p>Fill cancelled slots fast with waitlist management and same-day outreach.</p>
+          <span class="solution-link">Learn more →</span>
+        </a>
+        <a href="/solutions/front-desk-outsourcing/" class="solution-card">
+          <div class="solution-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <h3>Front Desk Outsourcing</h3>
+          <p>Complete front desk operations without the hiring headaches.</p>
+          <span class="solution-link">Learn more →</span>
+        </a>
+        <a href="/solutions/virtual-medical-scribe/" class="solution-card">
+          <div class="solution-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+          </div>
+          <h3>Virtual Medical Scribe</h3>
+          <p>Real-time documentation so providers can focus on patients, not notes.</p>
+          <span class="solution-link">Learn more →</span>
+        </a>
+        <a href="/solutions/medical-virtual-assistant/" class="solution-card">
+          <div class="solution-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <h3>Medical Virtual Assistant</h3>
+          <p>Dedicated remote staff for insurance, billing, and admin tasks.</p>
           <span class="solution-link">Learn more →</span>
         </a>
       </div>
@@ -203,57 +194,6 @@ const clientLogos = [
       title="Trusted by Leading Healthcare Practices"
     />
 
-    <!-- Pricing Preview -->
-    <section class="pricing-preview">
-      <div class="section-intro">
-        <div class="eyebrow">Transparent Pricing</div>
-        <h2>Plans That Scale With You</h2>
-        <p class="subtitle">From single locations to multi-site groups, we have a plan that fits.</p>
-      </div>
-      <div class="pricing-grid">
-        <Card variant="pricing" class="pricing-card">
-          <div class="pricing-header">
-            <h3>Starter</h3>
-            <div class="price">$1,995<span class="price-period">/mo</span></div>
-          </div>
-          <p class="pricing-description">Perfect for single locations ready to capture every call.</p>
-          <ul class="pricing-features">
-            <li>All calls answered in 3 rings</li>
-            <li>Appointment scheduling</li>
-            <li>8am-6pm coverage</li>
-          </ul>
-        </Card>
-        <Card variant="pricing" class="pricing-card popular">
-          <div class="popular-badge">Most Popular</div>
-          <div class="pricing-header">
-            <h3>Growth</h3>
-            <div class="price">$3,495<span class="price-period">/mo</span></div>
-          </div>
-          <p class="pricing-description">For practices ready to scale without chaos.</p>
-          <ul class="pricing-features">
-            <li>Everything in Starter</li>
-            <li>Extended hours (7am-9pm)</li>
-            <li>Recall outreach campaigns</li>
-          </ul>
-        </Card>
-        <Card variant="pricing" class="pricing-card">
-          <div class="pricing-header">
-            <h3>Enterprise</h3>
-            <div class="price">Custom</div>
-          </div>
-          <p class="pricing-description">Multi-location groups with complex needs.</p>
-          <ul class="pricing-features">
-            <li>Everything in Growth</li>
-            <li>24/7 coverage</li>
-            <li>Centralized dashboard</li>
-          </ul>
-        </Card>
-      </div>
-      <div class="pricing-cta">
-        <Button href="/pricing/" variant="secondary">See Full Pricing Details</Button>
-      </div>
-    </section>
-
     <!-- FAQ -->
     <FAQ
       items={homepageFaqs}
@@ -264,7 +204,7 @@ const clientLogos = [
     <!-- Final CTA -->
     <CTA
       title="Ready to Fill Every Appointment Slot?"
-      description="Book a discovery call to see how MyBCAT can capture the revenue you're leaving on the table."
+      description="Book a discovery call to see how My Business Care Team can capture the revenue you're leaving on the table."
       buttonText="Book Your Discovery Call"
       buttonHref="/contact/"
     />
@@ -373,95 +313,8 @@ const clientLogos = [
     padding-top: 20px;
   }
 
-  /* Pricing Preview */
-  .pricing-preview {
-    padding: 40px 0;
-  }
-
-  .pricing-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    padding: 20px 0;
-  }
-
-  :global(.pricing-card) {
-    text-align: center;
-    position: relative;
-  }
-
-  :global(.pricing-card.popular) {
-    border-color: var(--oceanic-teal);
-    box-shadow: 0 8px 32px rgba(0, 96, 100, 0.15);
-  }
-
-  .popular-badge {
-    position: absolute;
-    top: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--oceanic-teal);
-    color: white;
-    padding: 6px 16px;
-    border-radius: 999px;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-
-  .pricing-header h3 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--navy-900);
-    margin-bottom: 8px;
-  }
-
-  .price {
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: var(--navy-900);
-  }
-
-  .price-period {
-    font-size: 1rem;
-    color: var(--text-muted);
-    font-weight: 400;
-  }
-
-  .pricing-description {
-    font-size: 15px;
-    color: var(--text-secondary);
-    margin: 16px 0;
-  }
-
-  .pricing-features {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-  }
-
-  .pricing-features li {
-    padding: 10px 0;
-    font-size: 15px;
-    color: var(--text-secondary);
-    border-bottom: 1px solid var(--glass-border);
-  }
-
-  .pricing-features li::before {
-    content: "✓ ";
-    color: var(--oceanic-teal);
-    font-weight: 600;
-  }
-
-  .pricing-cta {
-    text-align: center;
-    padding-top: 24px;
-  }
-
   @media (max-width: 900px) {
-    .solutions-grid,
-    .pricing-grid {
+    .solutions-grid {
       grid-template-columns: 1fr;
     }
   }
