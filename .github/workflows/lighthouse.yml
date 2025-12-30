@@ -34,38 +34,55 @@ jobs:
 
       - name: Format lighthouse score
         id: format_lighthouse_score
+        if: always()
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            const results = JSON.parse(fs.readFileSync('.lighthouseci/manifest.json'));
 
-            let comment = '## ⚡ Lighthouse Report\n\n';
-            comment += '| URL | Performance | Accessibility | Best Practices | SEO |\n';
-            comment += '|-----|-------------|---------------|----------------|-----|\n';
+            try {
+              const manifestPath = '.lighthouseci/manifest.json';
+              if (!fs.existsSync(manifestPath)) {
+                core.setOutput('comment', '## Lighthouse Report\n\nNo Lighthouse results found.');
+                return;
+              }
 
-            for (const result of results) {
-              const url = result.url.replace('http://localhost:4321', '');
-              const { summary } = JSON.parse(fs.readFileSync(result.jsonPath));
+              const results = JSON.parse(fs.readFileSync(manifestPath));
 
-              const formatScore = (score) => {
-                const pct = Math.round(score * 100);
-                if (pct >= 90) return `🟢 ${pct}`;
-                if (pct >= 50) return `🟠 ${pct}`;
-                return `🔴 ${pct}`;
-              };
+              let comment = '## Lighthouse Report\n\n';
+              comment += '| URL | Performance | Accessibility | Best Practices | SEO |\n';
+              comment += '|-----|-------------|---------------|----------------|-----|\n';
 
-              comment += `| ${url || '/'} `;
-              comment += `| ${formatScore(summary.performance)} `;
-              comment += `| ${formatScore(summary.accessibility)} `;
-              comment += `| ${formatScore(summary['best-practices'])} `;
-              comment += `| ${formatScore(summary.seo)} |\n`;
+              for (const result of results) {
+                const url = result.url.replace('http://localhost:4321', '');
+                const report = JSON.parse(fs.readFileSync(result.jsonPath));
+                const categories = report.categories;
+
+                if (!categories) continue;
+
+                const formatScore = (score) => {
+                  if (score === null || score === undefined) return 'N/A';
+                  const pct = Math.round(score * 100);
+                  if (pct >= 90) return `${pct}`;
+                  if (pct >= 50) return `${pct}`;
+                  return `${pct}`;
+                };
+
+                comment += `| ${url || '/'} `;
+                comment += `| ${formatScore(categories.performance?.score)} `;
+                comment += `| ${formatScore(categories.accessibility?.score)} `;
+                comment += `| ${formatScore(categories['best-practices']?.score)} `;
+                comment += `| ${formatScore(categories.seo?.score)} |\n`;
+              }
+
+              core.setOutput('comment', comment);
+            } catch (error) {
+              core.warning(`Failed to format Lighthouse scores: ${error.message}`);
+              core.setOutput('comment', '## Lighthouse Report\n\nFailed to parse Lighthouse results.');
             }
 
-            core.setOutput('comment', comment);
-
       - name: Comment on PR
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && steps.format_lighthouse_score.outputs.comment
         uses: actions/github-script@v7
         with:
           script: |
