@@ -174,6 +174,36 @@ const clientLogos = [
       subtitle="We understand your EHR, your insurance workflows, and your patients."
     />
 
+    <!-- Enterprise Callout -->
+    <section class="enterprise-callout">
+      <div class="enterprise-content">
+        <div class="enterprise-badge">Multi-Location</div>
+        <h2>Scaling to Multiple Locations?</h2>
+        <p>Centralize patient operations across 5, 50, or 500 locations. One team, consistent experience, unified reporting.</p>
+        <div class="enterprise-features">
+          <div class="enterprise-feature">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Multi-System Integration</span>
+          </div>
+          <div class="enterprise-feature">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Centralized Reporting</span>
+          </div>
+          <div class="enterprise-feature">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Scalable Infrastructure</span>
+          </div>
+        </div>
+        <Button href="/enterprise/" variant="primary">Explore Enterprise Solutions</Button>
+      </div>
+      <div class="enterprise-verticals">
+        <a href="/enterprise/dso/" class="vertical-link">DSOs & Dental Groups</a>
+        <a href="/enterprise/optometry-groups/" class="vertical-link">Optometry Groups</a>
+        <a href="/enterprise/veterinary-groups/" class="vertical-link">Veterinary Groups</a>
+        <a href="/enterprise/urgent-care-chains/" class="vertical-link">Urgent Care Chains</a>
+      </div>
+    </section>
+
     <!-- How It Works -->
     <ProcessSteps
       steps={processSteps}
@@ -316,6 +346,106 @@ const clientLogos = [
   @media (max-width: 900px) {
     .solutions-grid {
       grid-template-columns: 1fr;
+    }
+  }
+
+  /* Enterprise Callout */
+  .enterprise-callout {
+    background: var(--glass-navy);
+    border-radius: 24px;
+    padding: 48px;
+    margin: 60px 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .enterprise-badge {
+    display: inline-block;
+    background: var(--oceanic-teal);
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 6px 12px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+  }
+
+  .enterprise-content h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .enterprise-content p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    max-width: 500px;
+  }
+
+  .enterprise-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .enterprise-feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--navy-900);
+  }
+
+  .enterprise-feature svg {
+    color: var(--oceanic-teal);
+  }
+
+  .enterprise-verticals {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .vertical-link {
+    display: block;
+    padding: 12px 20px;
+    background: white;
+    border-radius: 12px;
+    color: var(--navy-900);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    border: 1px solid var(--glass-border);
+  }
+
+  .vertical-link:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateX(4px);
+  }
+
+  @media (max-width: 768px) {
+    .enterprise-callout {
+      grid-template-columns: 1fr;
+      padding: 32px 24px;
+    }
+
+    .enterprise-verticals {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .vertical-link {
+      flex: 1 1 calc(50% - 4px);
+      min-width: 140px;
     }
   }
 </style>

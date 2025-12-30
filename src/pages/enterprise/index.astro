@@ -1,0 +1,688 @@
+---
+/**
+ * Enterprise Hub Page
+ * Multi-location patient operations landing page
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Button from '@/components/Button.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import { enterpriseHub, enterpriseVerticals } from '@data/enterprise';
+import { company } from '@data/company';
+import { getFAQsByCategory } from '@data/faq';
+
+// Icons for capabilities
+const icons: Record<string, string> = {
+  'phone': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>',
+  'link': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>',
+  'settings': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>',
+  'chart': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>',
+  'refresh': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>',
+  'growth': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>',
+  'tooth': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2c-2 0-3.5.5-4.5 1.5S6 5.5 6 7c0 2 1 3.5 1 5.5S6 15 6 17c0 3 1.5 5 3.5 5 1.5 0 2-1 2.5-2.5s1-2.5 2.5-2.5 2 1 2.5 2.5 1 2.5 2.5 2.5c2 0 3.5-2 3.5-5 0-2-1-3.5-1-5.5s1-3.5 1-5.5c0-1.5-.5-3-1.5-4S14 2 12 2z"></path></svg>',
+  'eye': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>',
+  'paw': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="17" rx="5" ry="4"></ellipse><circle cx="6" cy="10" r="2"></circle><circle cx="18" cy="10" r="2"></circle><circle cx="9" cy="6" r="2"></circle><circle cx="15" cy="6" r="2"></circle></svg>',
+  'clock': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>'
+};
+
+// Vertical icons mapping
+const verticalIcons: Record<string, string> = {
+  'tooth': icons.tooth,
+  'eye': icons.eye,
+  'paw': icons.paw,
+  'clock': icons.clock
+};
+
+// Get enterprise FAQs (using general for now, can create enterprise category)
+const enterpriseFaqs = getFAQsByCategory('general').slice(0, 4);
+---
+
+<PageLayout
+  title={`${enterpriseHub.title} | ${enterpriseHub.headline} | My Business Care Team`}
+  description={enterpriseHub.metaDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Enterprise' }
+  ]}
+>
+  <div class="enterprise-page">
+    <!-- Hero Section -->
+    <section class="enterprise-hero">
+      <div class="hero-content">
+        <div class="hero-eyebrow">For Healthcare Groups</div>
+        <h1>{enterpriseHub.headline}</h1>
+        <p class="hero-tagline">{enterpriseHub.tagline}</p>
+        <div class="hero-ctas">
+          <Button href="/contact/" variant="primary">Talk to Enterprise Team</Button>
+          <Button href="#how-it-works" variant="secondary">See How It Works</Button>
+        </div>
+        <div class="hero-trust">
+          {enterpriseHub.trust.map(item => (
+            <div class="trust-item">
+              <span class="trust-value">{item.value}</span>
+              <span class="trust-label">{item.label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+      <div class="section-header">
+        <div class="eyebrow">The Challenge</div>
+        <h2>{enterpriseHub.problem.headline}</h2>
+        <p class="section-subtitle">{enterpriseHub.problem.description}</p>
+      </div>
+
+      <div class="problem-stats">
+        {enterpriseHub.problem.stats.map(stat => (
+          <div class="stat-card">
+            <div class="stat-value">{stat.value}</div>
+            <div class="stat-label">{stat.label}</div>
+          </div>
+        ))}
+      </div>
+
+      <div class="pain-points">
+        {enterpriseHub.problem.painPoints.map(point => (
+          <div class="pain-point">
+            <h3>{point.title}</h3>
+            <p>{point.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section" id="how-it-works">
+      <div class="section-header">
+        <div class="eyebrow">The Solution</div>
+        <h2>{enterpriseHub.solution.headline}</h2>
+        <p class="section-subtitle">{enterpriseHub.solution.description}</p>
+      </div>
+
+      <div class="capabilities-grid">
+        {enterpriseHub.solution.capabilities.map(capability => (
+          <div class="capability-card">
+            <div class="capability-icon">
+              <Fragment set:html={icons[capability.icon] || icons.phone} />
+            </div>
+            <h3>{capability.title}</h3>
+            <p>{capability.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Verticals Section -->
+    <section class="verticals-section">
+      <div class="section-header">
+        <div class="eyebrow">Who We Serve</div>
+        <h2>Enterprise Solutions by Industry</h2>
+        <p class="section-subtitle">Specialized patient operations for every healthcare vertical.</p>
+      </div>
+
+      <div class="verticals-grid">
+        {enterpriseVerticals.map(vertical => (
+          <a href={`/enterprise/${vertical.slug}/`} class="vertical-card">
+            <div class="vertical-icon">
+              <Fragment set:html={verticalIcons[vertical.icon] || icons.phone} />
+            </div>
+            <h3>{vertical.name}</h3>
+            <p>{vertical.tagline}</p>
+            <div class="vertical-integrations">
+              {vertical.integrations.slice(0, 3).map(int => (
+                <span class="integration-tag">{int}</span>
+              ))}
+            </div>
+            <span class="vertical-link">Learn more →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+      <div class="section-header">
+        <div class="eyebrow">How It Works</div>
+        <h2>From Discovery to Go-Live</h2>
+        <p class="section-subtitle">A phased approach that minimizes disruption and maximizes results.</p>
+      </div>
+
+      <div class="process-steps">
+        {enterpriseHub.process.map(step => (
+          <div class="process-step">
+            <div class="step-number">{step.step}</div>
+            <div class="step-content">
+              <h3>{step.title}</h3>
+              <p>{step.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Case Study Teaser -->
+    <section class="case-study-section">
+      <Card variant="testimonial" class="case-study-card">
+        <div class="case-study-content">
+          <div class="case-study-badge">Case Study</div>
+          <h3>How a 5-Location Optometry Group Centralized Patient Operations</h3>
+          <p>"We were struggling to maintain consistent phone coverage across all our locations. My Business Care Team gave us one team that handles everything. Our call answer rate went from 67% to 100%, and we are booking 40% more appointments."</p>
+          <div class="case-study-author">
+            <img src="/videos/dittman-headshot-optimized.webp" alt="Dr. Michael Dittman" width="48" height="48" loading="lazy" />
+            <div>
+              <strong>Dr. Michael Dittman</strong>
+              <span>Dittman Eye Care (5 Locations)</span>
+            </div>
+          </div>
+          <Button href="/case-studies/" variant="secondary">Read Full Case Study</Button>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Comparison CTA -->
+    <section class="comparison-section">
+      <div class="comparison-content">
+        <div class="eyebrow">Resources</div>
+        <h2>Build vs. Buy: Multi-Location Call Center Analysis</h2>
+        <p>Should you build an in-house centralized call center or partner with us? Get a detailed cost analysis and decision framework.</p>
+        <Button href="/compare/centralized-vs-in-house/" variant="secondary">Read the Analysis</Button>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <FAQ
+        items={enterpriseFaqs}
+        title="Enterprise FAQ"
+        eyebrow="Common Questions"
+      />
+    </section>
+
+    <!-- Final CTA -->
+    <CTA
+      title="Ready to Centralize Your Patient Operations?"
+      subtitle="Book a discovery call to see how My Business Care Team can support your multi-location growth."
+      buttonText="Talk to Enterprise Team"
+      buttonHref="/contact/"
+    />
+  </div>
+</PageLayout>
+
+<style>
+  .enterprise-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .section-header h2 {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .section-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Hero Section */
+  .enterprise-hero {
+    padding: 80px 0 60px;
+    text-align: center;
+  }
+
+  .hero-eyebrow {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--oceanic-teal);
+    margin-bottom: 16px;
+  }
+
+  .enterprise-hero h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    line-height: 1.1;
+  }
+
+  .hero-tagline {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 32px;
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+
+  .hero-trust {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trust-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--oceanic-teal);
+  }
+
+  .trust-label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+  }
+
+  /* Problem Section */
+  .problem-section {
+    padding: 80px 0;
+    background: var(--glass-navy);
+    border-radius: 24px;
+    margin-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .problem-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+
+  .stat-card {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .stat-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--copper-500);
+    margin-bottom: 8px;
+  }
+
+  .stat-label {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+  }
+
+  .pain-points {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .pain-point {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    border-left: 4px solid var(--copper-500);
+  }
+
+  .pain-point h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .pain-point p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  /* Solution Section */
+  .solution-section {
+    padding: 80px 0;
+  }
+
+  .capabilities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .capability-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 32px;
+    transition: all 0.3s;
+  }
+
+  .capability-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  }
+
+  .capability-icon {
+    width: 64px;
+    height: 64px;
+    background: var(--glass-teal);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: var(--oceanic-teal);
+  }
+
+  .capability-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .capability-card p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* Verticals Section */
+  .verticals-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
+    border-radius: 24px;
+    margin-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .verticals-section .section-header h2,
+  .verticals-section .section-header .section-subtitle,
+  .verticals-section .section-header .eyebrow {
+    color: white;
+  }
+
+  .verticals-section .eyebrow {
+    color: var(--copper-400);
+  }
+
+  .verticals-section .section-subtitle {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .verticals-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .vertical-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 32px;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vertical-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  }
+
+  .vertical-icon {
+    width: 56px;
+    height: 56px;
+    background: var(--glass-teal);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .vertical-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .vertical-card > p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+    flex: 1;
+  }
+
+  .vertical-integrations {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+
+  .integration-tag {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    background: var(--glass-navy);
+    border-radius: 999px;
+    color: var(--text-secondary);
+  }
+
+  .vertical-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--oceanic-teal);
+  }
+
+  /* Process Section */
+  .process-section {
+    padding: 80px 0;
+  }
+
+  .process-steps {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .process-step {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .step-number {
+    width: 56px;
+    height: 56px;
+    background: var(--oceanic-teal);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 auto 20px;
+  }
+
+  .step-content h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .step-content p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  /* Case Study Section */
+  .case-study-section {
+    padding: 40px 0 80px;
+  }
+
+  :global(.case-study-card) {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .case-study-content {
+    text-align: center;
+  }
+
+  .case-study-badge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--oceanic-teal);
+    background: var(--glass-teal);
+    padding: 6px 12px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+  }
+
+  .case-study-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .case-study-content > p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 24px;
+  }
+
+  .case-study-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .case-study-author img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .case-study-author div {
+    text-align: left;
+  }
+
+  .case-study-author strong {
+    display: block;
+    color: var(--navy-900);
+    font-weight: 600;
+  }
+
+  .case-study-author span {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+
+  /* Comparison Section */
+  .comparison-section {
+    padding: 60px 40px;
+    background: var(--glass-navy);
+    border-radius: 24px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .comparison-content h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .comparison-content p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 24px;
+  }
+
+  /* FAQ Section */
+  .faq-section {
+    padding: 40px 0;
+  }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .problem-stats,
+    .capabilities-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .pain-points,
+    .verticals-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .process-steps {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .hero-trust {
+      gap: 24px;
+    }
+
+    .problem-section,
+    .verticals-section,
+    .comparison-section {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+</style>

@@ -224,6 +224,48 @@ export const glossaryTerms: GlossaryTerm[] = [
       'Demographics and insurance collected before the visit',
       'Forms and paperwork prepared in advance'
     ]
+  },
+  {
+    slug: 'dso',
+    term: 'Dental Support Organization (DSO)',
+    definition: 'A company that provides non-clinical business support and administrative services to dental practices, allowing dentists to focus on patient care while the DSO handles operations.',
+    detailedExplanation: 'DSOs have transformed the dental industry by centralizing business functions across multiple practices. They typically handle HR, marketing, billing, compliance, and increasingly, patient communications and call handling. DSOs range from small groups (3-5 locations) to large organizations with hundreds of practices. The model has expanded to other healthcare verticals including optometry, veterinary, and urgent care.',
+    category: 'operations',
+    relatedTerms: ['centralized-scheduling', 'multi-location-practice', 'patient-intake'],
+    relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing'],
+    examples: [
+      'A dental group with 15 locations operating under unified management',
+      'Centralized administrative services for multiple dental practices',
+      'Shared resources and best practices across locations'
+    ]
+  },
+  {
+    slug: 'centralized-scheduling',
+    term: 'Centralized Scheduling',
+    definition: 'A staffing model where patient calls and appointment scheduling for multiple practice locations are handled by a single, dedicated team rather than individual front desks.',
+    detailedExplanation: 'Centralized scheduling addresses the challenges of managing patient communications across multiple locations. Instead of each location independently handling calls (leading to inconsistency, training burden, and coverage gaps), a central team handles all inbound calls with unified protocols. This improves consistency, enables specialization, provides better coverage, and delivers unified reporting across all locations.',
+    category: 'operations',
+    relatedTerms: ['dso', 'multi-location-practice', 'call-center', 'schedule-utilization'],
+    relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing'],
+    examples: [
+      'One team handling calls for all 20 dental locations',
+      'Unified training and quality standards across all patient interactions',
+      'Single dashboard showing performance metrics for all locations'
+    ]
+  },
+  {
+    slug: 'multi-location-practice',
+    term: 'Multi-Location Practice',
+    definition: 'A healthcare organization operating multiple clinical sites under unified ownership or management, requiring coordinated operations across locations.',
+    detailedExplanation: 'Multi-location practices face unique operational challenges including maintaining consistent patient experience, coordinating staff and schedules, managing different systems at different locations, and achieving economies of scale. As practices grow from single to multi-location, phone operations often become a significant pain point due to inconsistent handling, training burden, and lack of visibility.',
+    category: 'operations',
+    relatedTerms: ['dso', 'centralized-scheduling', 'schedule-utilization'],
+    relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing'],
+    examples: [
+      'An optometry group with locations in three cities',
+      'A dental practice that has expanded to multiple offices',
+      'A veterinary group operating five clinics in a region'
+    ]
   }
 ];
 

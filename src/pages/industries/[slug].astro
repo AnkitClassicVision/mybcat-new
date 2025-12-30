@@ -14,6 +14,7 @@ import CTA from '@/components/sections/CTA.astro';
 import { industries, getAllIndustrySlugs, getIndustryBySlug, type Industry } from '@data/industries';
 import { faqs } from '@data/faq';
 import { solutions } from '@data/solutions';
+import { enterpriseVerticals } from '@data/enterprise';
 
 export function getStaticPaths() {
   return industries.map(industry => ({
@@ -34,6 +35,9 @@ const processSteps = medicalAnsweringSolution?.process || [];
 
 // Get general FAQs for this page
 const generalFaqs = faqs.filter(f => f.category === 'general').slice(0, 4);
+
+// Check if there's a corresponding enterprise vertical for multi-location practices
+const enterpriseVertical = enterpriseVerticals.find(v => v.parentIndustrySlug === industry.slug);
 
 // Icon SVGs for industry
 const icons: Record<string, string> = {
@@ -168,6 +172,34 @@ const icons: Record<string, string> = {
             <span>{industry.testimonial.title}{industry.testimonial.company && `, ${industry.testimonial.company}`}</span>
           </cite>
         </Card>
+      </section>
+    )}
+
+    <!-- Multi-Location Callout (if enterprise vertical exists) -->
+    {enterpriseVertical && (
+      <section class="multi-location-section">
+        <div class="multi-location-card">
+          <div class="multi-location-badge">Multi-Location</div>
+          <h2>Managing Multiple {industry.shortName} Locations?</h2>
+          <p>Centralize patient operations across all your {industry.shortName.toLowerCase()} practices. One team, consistent experience, unified reporting.</p>
+          <div class="multi-location-features">
+            <div class="ml-feature">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Multi-System Integration</span>
+            </div>
+            <div class="ml-feature">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Centralized Reporting</span>
+            </div>
+            <div class="ml-feature">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Scalable Coverage</span>
+            </div>
+          </div>
+          <Button href={`/enterprise/${enterpriseVertical.slug}/`} variant="primary">
+            Explore {enterpriseVertical.shortName} Enterprise Solutions
+          </Button>
+        </div>
       </section>
     )}
 
@@ -498,6 +530,68 @@ const icons: Record<string, string> = {
   /* Testimonial */
   .testimonial-section {
     margin-bottom: 60px;
+  }
+
+  /* Multi-Location Section */
+  .multi-location-section {
+    margin-bottom: 60px;
+  }
+
+  .multi-location-card {
+    padding: 48px;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.08) 0%, rgba(10, 22, 40, 0.05) 100%);
+    border: 2px solid var(--oceanic-teal);
+    border-radius: 24px;
+    text-align: center;
+  }
+
+  .multi-location-badge {
+    display: inline-block;
+    background: var(--oceanic-teal);
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 5px 14px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+  }
+
+  .multi-location-card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .multi-location-card > p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 500px;
+    margin: 0 auto 24px;
+    line-height: 1.6;
+  }
+
+  .multi-location-features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 28px;
+  }
+
+  .ml-feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--navy-900);
+  }
+
+  .ml-feature svg {
+    color: var(--oceanic-teal);
   }
 
   :global(.testimonial-card) {

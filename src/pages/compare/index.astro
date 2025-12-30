@@ -30,8 +30,22 @@ const pageDescription = 'Compare the best medical virtual assistant companies fo
       </p>
     </section>
 
+    <!-- Enterprise Build vs Buy -->
+    <section class="featured-comparison">
+      <a href="/compare/build-vs-buy/" class="featured-card">
+        <div class="featured-badge">Enterprise</div>
+        <h2>Build vs Buy: In-House Team or Managed Service?</h2>
+        <p>Scaling to multiple locations? Compare the true costs and capabilities of building an internal call center versus partnering with a managed service.</p>
+        <div class="featured-cta">
+          <span>See Full Analysis</span>
+          <span class="arrow">&rarr;</span>
+        </div>
+      </a>
+    </section>
+
     <!-- Comparison Grid -->
     <section class="comparisons-section">
+      <h2 class="section-title">Competitor Comparisons</h2>
       <div class="comparisons-grid">
         {competitors.map(competitor => (
           <a href={`/compare/${competitor.slug}/`} class="comparison-card">
@@ -198,6 +212,75 @@ const pageDescription = 'Compare the best medical virtual assistant companies fo
     line-height: 1.7;
     max-width: 650px;
     margin: 0 auto;
+  }
+
+  /* Featured Comparison */
+  .featured-comparison {
+    margin-bottom: 48px;
+  }
+
+  .featured-card {
+    display: block;
+    padding: 40px;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.08) 0%, rgba(10, 22, 40, 0.05) 100%);
+    border: 2px solid var(--oceanic-teal);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .featured-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 96, 100, 0.15);
+  }
+
+  .featured-badge {
+    display: inline-block;
+    background: var(--oceanic-teal);
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 5px 12px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+  }
+
+  .featured-card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .featured-card p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 600px;
+  }
+
+  .featured-cta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .featured-card:hover .arrow {
+    transform: translateX(4px);
+  }
+
+  /* Section Title */
+  .section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 20px;
   }
 
   /* Comparisons Grid */

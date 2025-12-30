@@ -21,6 +21,41 @@ import { company } from '@data/company';
   heroSubtitle="Schedule a discovery call to learn how My Business Care Team can help you capture every patient call and fill your schedule."
 >
   <div class="contact-page">
+    <!-- Practice Type Quick-Qualify -->
+    <section class="practice-type-section">
+      <h2>Tell Us About Your Practice</h2>
+      <p class="practice-type-subtitle">This helps us prepare for your call with the right solutions.</p>
+      <div class="practice-type-options">
+        <button class="practice-type-option active" data-type="single" data-locations="1">
+          <span class="option-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </span>
+          <span class="option-label">Single Location</span>
+          <span class="option-desc">One practice</span>
+        </button>
+        <button class="practice-type-option" data-type="small-group" data-locations="2-4">
+          <span class="option-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="8" height="14" rx="1"></rect><rect x="14" y="7" width="8" height="14" rx="1"></rect><path d="M6 3h12"></path></svg>
+          </span>
+          <span class="option-label">2-4 Locations</span>
+          <span class="option-desc">Growing group</span>
+        </button>
+        <button class="practice-type-option" data-type="enterprise" data-locations="5+">
+          <span class="option-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="6" height="18" rx="1"></rect><rect x="9" y="3" width="6" height="18" rx="1"></rect><rect x="17" y="3" width="6" height="18" rx="1"></rect></svg>
+          </span>
+          <span class="option-label">5+ Locations</span>
+          <span class="option-desc">Enterprise / DSO</span>
+        </button>
+      </div>
+      <div class="enterprise-note" id="enterpriseNote" style="display: none;">
+        <div class="enterprise-note-content">
+          <span class="note-badge">Enterprise</span>
+          <p>For multi-location groups, we recommend our <a href="/enterprise/">Enterprise Solutions</a> with centralized operations and dedicated account management.</p>
+        </div>
+      </div>
+    </section>
+
     <div class="contact-grid">
       <!-- Meeting Scheduler -->
       <div class="meeting-section">
@@ -117,6 +152,117 @@ import { company } from '@data/company';
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 24px 80px;
+  }
+
+  /* Practice Type Section */
+  .practice-type-section {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .practice-type-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .practice-type-subtitle {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+  }
+
+  .practice-type-options {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .practice-type-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 24px 32px;
+    background: var(--spatial-glass);
+    border: 2px solid var(--glass-border);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    min-width: 140px;
+  }
+
+  .practice-type-option:hover {
+    border-color: var(--oceanic-teal);
+    background: rgba(0, 96, 100, 0.03);
+  }
+
+  .practice-type-option.active {
+    border-color: var(--oceanic-teal);
+    background: rgba(0, 96, 100, 0.08);
+  }
+
+  .option-icon {
+    color: var(--text-muted);
+    transition: color 0.2s;
+  }
+
+  .practice-type-option.active .option-icon {
+    color: var(--oceanic-teal);
+  }
+
+  .option-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .option-desc {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  .enterprise-note {
+    margin-top: 20px;
+  }
+
+  .enterprise-note-content {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    background: rgba(0, 96, 100, 0.08);
+    border: 1px solid var(--oceanic-teal);
+    border-radius: 12px;
+  }
+
+  .note-badge {
+    background: var(--oceanic-teal);
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+
+  .enterprise-note-content p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  .enterprise-note-content a {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .enterprise-note-content a:hover {
+    text-decoration: underline;
   }
 
   .contact-grid {
@@ -299,5 +445,44 @@ import { company } from '@data/company';
     .faq-links {
       grid-template-columns: 1fr;
     }
+
+    .practice-type-options {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .practice-type-option {
+      flex-direction: row;
+      justify-content: flex-start;
+      text-align: left;
+      padding: 16px 20px;
+    }
+
+    .option-icon {
+      flex-shrink: 0;
+    }
   }
 </style>
+
+<script>
+  // Practice type selector
+  const options = document.querySelectorAll('.practice-type-option');
+  const enterpriseNote = document.getElementById('enterpriseNote');
+
+  options.forEach(option => {
+    option.addEventListener('click', () => {
+      // Remove active from all
+      options.forEach(o => o.classList.remove('active'));
+      // Add active to clicked
+      option.classList.add('active');
+
+      // Show/hide enterprise note
+      const type = option.getAttribute('data-type');
+      if (type === 'enterprise' && enterpriseNote) {
+        enterpriseNote.style.display = 'block';
+      } else if (enterpriseNote) {
+        enterpriseNote.style.display = 'none';
+      }
+    });
+  });
+</script>

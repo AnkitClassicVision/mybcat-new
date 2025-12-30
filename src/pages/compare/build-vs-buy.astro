@@ -1,0 +1,842 @@
+---
+/**
+ * Build vs Buy Comparison Page
+ * Helps enterprise prospects understand the value of outsourcing vs building an internal call center
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Button from '@/components/Button.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+
+// Cost comparison data
+const buildCosts = [
+  { item: 'Staff (5 FTEs)', monthly: '$25,000', notes: 'Salary, benefits, taxes' },
+  { item: 'Management Overhead', monthly: '$8,000', notes: 'Supervisor time, HR costs' },
+  { item: 'Phone System', monthly: '$500', notes: 'VoIP, call routing' },
+  { item: 'Software & EHR Access', monthly: '$300', notes: 'Per-seat licenses' },
+  { item: 'Training & Turnover', monthly: '$2,000', notes: '26% annual turnover in healthcare' },
+  { item: 'Office Space', monthly: '$1,500', notes: 'Workstations, utilities' },
+  { item: 'QA & Compliance', monthly: '$1,200', notes: 'Monitoring, HIPAA audits' }
+];
+
+const buildTotal = '$38,500';
+
+const buyCosts = [
+  { item: 'Managed Service', monthly: 'From $2,500', notes: 'Scales with call volume' },
+  { item: 'Management Overhead', monthly: '$0', notes: 'We handle everything' },
+  { item: 'Phone System', monthly: 'Included', notes: 'We provide infrastructure' },
+  { item: 'Software & EHR Access', monthly: 'Included', notes: 'We train on your systems' },
+  { item: 'Training & Turnover', monthly: '$0', notes: 'Our responsibility' },
+  { item: 'Office Space', monthly: '$0', notes: 'Remote team' },
+  { item: 'QA & Compliance', monthly: 'Included', notes: 'Daily monitoring' }
+];
+
+const buyTotal = 'From $2,500';
+
+// Feature comparison
+const features = [
+  { feature: '24/7 Coverage', build: 'Requires 3 shifts', buy: 'Included' },
+  { feature: 'Time to Launch', build: '3-6 months', buy: '5-30 days' },
+  { feature: 'Scalability', build: 'Hire more staff', buy: 'Instant flex' },
+  { feature: 'Multi-Location Support', build: 'Complex', buy: 'Built-in' },
+  { feature: 'EHR Integrations', build: 'You train staff', buy: '50+ systems ready' },
+  { feature: 'Quality Assurance', build: 'Build your own', buy: 'Included' },
+  { feature: 'HIPAA Training', build: 'Your responsibility', buy: 'Certified team' },
+  { feature: 'Backup Coverage', build: 'Cross-train others', buy: 'Automatic' },
+  { feature: 'Performance Reporting', build: 'Build dashboards', buy: 'Real-time access' },
+  { feature: 'Recall Campaigns', build: 'Additional project', buy: 'Proactive service' }
+];
+
+// FAQ items
+const faqs = [
+  {
+    question: 'How quickly can you get started with multiple locations?',
+    answer: 'We typically onboard 1-2 locations in the first 1-2 weeks, then roll out to remaining locations in phases. Most multi-location groups are fully live within 30-60 days.'
+  },
+  {
+    question: 'What if we have different PM systems at different locations?',
+    answer: 'No problem. We integrate with 50+ practice management and EHR systems. Our team learns each system your locations use, so patients get seamless service regardless of which location they are calling.'
+  },
+  {
+    question: 'Can we start with outsourcing and bring it in-house later?',
+    answer: 'Absolutely. Many groups start with us to get immediate coverage, then evaluate whether to build internal capacity over time. We provide detailed reporting that makes the transition smooth if you decide to go that route.'
+  },
+  {
+    question: 'How do you maintain quality across multiple locations?',
+    answer: 'We use call monitoring, weekly calibration sessions, and location-specific scorecards. You will have visibility into answer rates, booking rates, and patient satisfaction for each location.'
+  },
+  {
+    question: 'What happens during flu season or unexpected call spikes?',
+    answer: 'Our team flexes automatically with volume. You do not pay for idle capacity during slow periods, and you do not scramble for coverage during busy times. This is one of the biggest advantages over an in-house team.'
+  }
+];
+
+// When to build vs buy
+const buildWhen = [
+  'You have unique workflows that require deep organizational knowledge',
+  'Phone operations are a core competitive differentiator',
+  'You have the management capacity to oversee a call center team',
+  'Call volume is predictable and consistent year-round',
+  'You are committed to a 12+ month build timeline'
+];
+
+const buyWhen = [
+  'You want to focus leadership time on clinical growth, not phone operations',
+  'Call volume fluctuates seasonally or unpredictably',
+  'You are adding locations faster than you can hire and train staff',
+  'Turnover is disrupting your patient experience',
+  'You need 24/7 coverage without three-shift staffing',
+  'You want unified operations across different PM systems'
+];
+---
+
+<PageLayout
+  title="Build vs Buy: In-House Call Center vs Managed Service | My Business Care Team"
+  description="Compare the costs and benefits of building an in-house call center vs outsourcing to a managed patient operations team. Make the right decision for your multi-location practice."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Compare', url: '/compare/' },
+    { name: 'Build vs Buy' }
+  ]}
+>
+  <div class="build-vs-buy-page">
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="hero-badge">Enterprise Decision</div>
+      <h1>Build vs Buy: The Multi-Location Call Center Decision</h1>
+      <p class="hero-tagline">Should you build an internal patient operations team or partner with a managed service?</p>
+      <p class="hero-description">
+        As you scale to multiple locations, phone operations become a significant operational challenge.
+        Here's an honest comparison to help you make the right decision for your organization.
+      </p>
+    </section>
+
+    <!-- Cost Comparison Section -->
+    <section class="cost-comparison">
+      <div class="section-header">
+        <h2>True Cost Comparison</h2>
+        <p>Monthly costs for handling ~5,000 patient calls across multiple locations</p>
+      </div>
+
+      <div class="comparison-grid">
+        <!-- Build Column -->
+        <div class="cost-column build">
+          <div class="column-header">
+            <h3>Build In-House</h3>
+            <span class="column-subtitle">Hire your own team</span>
+          </div>
+          <div class="cost-items">
+            {buildCosts.map(cost => (
+              <div class="cost-item">
+                <div class="cost-row">
+                  <span class="item-name">{cost.item}</span>
+                  <span class="item-cost">{cost.monthly}</span>
+                </div>
+                <span class="item-notes">{cost.notes}</span>
+              </div>
+            ))}
+          </div>
+          <div class="cost-total">
+            <span>Total Monthly</span>
+            <span class="total-value">{buildTotal}</span>
+          </div>
+          <div class="hidden-costs">
+            <h4>Hidden Costs Not Included</h4>
+            <ul>
+              <li>Recruiting time and fees</li>
+              <li>Coverage gaps during hiring</li>
+              <li>Knowledge loss from turnover</li>
+              <li>Overtime during absences</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Buy Column -->
+        <div class="cost-column buy">
+          <div class="column-header highlight">
+            <h3>Partner with My Business Care Team</h3>
+            <span class="column-subtitle">Managed service</span>
+          </div>
+          <div class="cost-items">
+            {buyCosts.map(cost => (
+              <div class="cost-item">
+                <div class="cost-row">
+                  <span class="item-name">{cost.item}</span>
+                  <span class="item-cost">{cost.monthly}</span>
+                </div>
+                <span class="item-notes">{cost.notes}</span>
+              </div>
+            ))}
+          </div>
+          <div class="cost-total highlight">
+            <span>Total Monthly</span>
+            <span class="total-value">{buyTotal}</span>
+          </div>
+          <div class="included-benefits">
+            <h4>Also Included</h4>
+            <ul>
+              <li>Instant scalability</li>
+              <li>No coverage gaps ever</li>
+              <li>Consistent quality</li>
+              <li>Performance guarantees</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="savings-callout">
+        <div class="savings-content">
+          <span class="savings-label">Potential Monthly Savings</span>
+          <span class="savings-value">$36,000+</span>
+          <span class="savings-note">Plus reduced management burden and risk</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Comparison -->
+    <section class="feature-comparison">
+      <div class="section-header">
+        <h2>Capability Comparison</h2>
+        <p>How each approach handles key operational requirements</p>
+      </div>
+
+      <div class="feature-table-wrapper">
+        <table class="feature-table">
+          <thead>
+            <tr>
+              <th class="feature-col">Capability</th>
+              <th class="option-col">Build In-House</th>
+              <th class="option-col highlight">My Business Care Team</th>
+            </tr>
+          </thead>
+          <tbody>
+            {features.map(f => (
+              <tr>
+                <td class="feature-col">{f.feature}</td>
+                <td class="option-col">{f.build}</td>
+                <td class="option-col highlight">{f.buy}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- When to Build vs Buy -->
+    <section class="when-section">
+      <div class="section-header">
+        <h2>Making the Right Decision</h2>
+        <p>Honest guidance on which approach fits your situation</p>
+      </div>
+
+      <div class="when-grid">
+        <Card variant="default">
+          <div class="when-card">
+            <h3>Consider Building In-House If...</h3>
+            <ul class="when-list">
+              {buildWhen.map(item => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </Card>
+
+        <Card variant="testimonial">
+          <div class="when-card highlight">
+            <h3>Consider Outsourcing If...</h3>
+            <ul class="when-list">
+              {buyWhen.map(item => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </Card>
+      </div>
+    </section>
+
+    <!-- Hybrid Approach -->
+    <section class="hybrid-section">
+      <Card variant="pricing">
+        <div class="hybrid-content">
+          <h2>The Hybrid Approach</h2>
+          <p class="hybrid-intro">
+            Many growing organizations use a hybrid model: in-house staff for complex, high-touch scenarios
+            while outsourcing high-volume, routine calls to a managed service.
+          </p>
+          <div class="hybrid-examples">
+            <div class="hybrid-example">
+              <h4>In-House Handles</h4>
+              <ul>
+                <li>Complex treatment discussions</li>
+                <li>VIP patient relationships</li>
+                <li>Internal escalations</li>
+              </ul>
+            </div>
+            <div class="hybrid-example">
+              <h4>We Handle</h4>
+              <ul>
+                <li>New patient intake</li>
+                <li>Appointment scheduling</li>
+                <li>Recall campaigns</li>
+                <li>After-hours coverage</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </Card>
+    </section>
+
+    <!-- FAQ -->
+    <FAQ
+      items={faqs}
+      title="Common Questions About Build vs Buy"
+      eyebrow="FAQ"
+    />
+
+    <!-- CTA -->
+    <CTA
+      title="Let's Discuss Your Multi-Location Needs"
+      subtitle="Book a discovery call to explore whether outsourcing makes sense for your organization. We'll give you an honest assessment."
+      buttonText="Schedule a Consultation"
+      buttonHref="/contact/"
+    />
+
+    <!-- Related Links -->
+    <section class="related-links">
+      <h3>Related Resources</h3>
+      <div class="links-grid">
+        <a href="/enterprise/" class="related-link">
+          <span class="link-title">Enterprise Solutions</span>
+          <span class="link-desc">Multi-location patient operations</span>
+        </a>
+        <a href="/enterprise/dso/" class="related-link">
+          <span class="link-title">DSO Solutions</span>
+          <span class="link-desc">For dental support organizations</span>
+        </a>
+        <a href="/case-studies/" class="related-link">
+          <span class="link-title">Case Studies</span>
+          <span class="link-desc">See real results</span>
+        </a>
+        <a href="/pricing/" class="related-link">
+          <span class="link-title">Pricing</span>
+          <span class="link-desc">Transparent pricing models</span>
+        </a>
+      </div>
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .build-vs-buy-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* Hero */
+  .page-hero {
+    text-align: center;
+    padding: 60px 0 40px;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    background: var(--oceanic-teal);
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 20px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .hero-tagline {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--oceanic-teal);
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* Section Header */
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  /* Cost Comparison */
+  .cost-comparison {
+    padding: 60px 0;
+  }
+
+  .comparison-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  .cost-column {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .cost-column.buy {
+    border-color: var(--oceanic-teal);
+  }
+
+  .column-header {
+    padding: 24px;
+    background: var(--glass-navy);
+    text-align: center;
+  }
+
+  .column-header.highlight {
+    background: rgba(0, 96, 100, 0.1);
+  }
+
+  .column-header h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .column-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+
+  .cost-items {
+    padding: 20px 24px;
+  }
+
+  .cost-item {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .cost-item:last-child {
+    border-bottom: none;
+  }
+
+  .cost-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+
+  .item-name {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--navy-900);
+  }
+
+  .item-cost {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .item-notes {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  .cost-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    background: var(--glass-navy);
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .cost-total.highlight {
+    background: rgba(0, 96, 100, 0.1);
+  }
+
+  .total-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--oceanic-teal);
+  }
+
+  .hidden-costs, .included-benefits {
+    padding: 20px 24px;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  .hidden-costs h4, .included-benefits h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+
+  .hidden-costs ul, .included-benefits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hidden-costs li {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    padding: 4px 0;
+    padding-left: 16px;
+    position: relative;
+  }
+
+  .hidden-costs li::before {
+    content: "−";
+    position: absolute;
+    left: 0;
+    color: #B85450;
+    font-weight: 600;
+  }
+
+  .included-benefits li {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    padding: 4px 0;
+    padding-left: 16px;
+    position: relative;
+  }
+
+  .included-benefits li::before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+  }
+
+  .savings-callout {
+    background: linear-gradient(135deg, var(--oceanic-teal), var(--navy-800));
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+  }
+
+  .savings-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .savings-label {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .savings-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+  }
+
+  .savings-note {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  /* Feature Comparison */
+  .feature-comparison {
+    padding: 60px 0;
+  }
+
+  .feature-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .feature-table {
+    width: 100%;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+  }
+
+  .feature-table th {
+    padding: 16px 20px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--navy-900);
+    background: var(--glass-navy);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .feature-table th.highlight {
+    background: rgba(0, 96, 100, 0.1);
+    color: var(--oceanic-teal);
+  }
+
+  .feature-table td {
+    padding: 14px 20px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .feature-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .feature-table td.feature-col {
+    font-weight: 500;
+    color: var(--navy-900);
+  }
+
+  .feature-table td.highlight {
+    background: rgba(0, 96, 100, 0.03);
+    color: var(--oceanic-teal);
+    font-weight: 500;
+  }
+
+  .feature-col {
+    width: 40%;
+  }
+
+  .option-col {
+    width: 30%;
+  }
+
+  /* When Section */
+  .when-section {
+    padding: 60px 0;
+  }
+
+  .when-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .when-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .when-card.highlight h3 {
+    color: var(--oceanic-teal);
+  }
+
+  .when-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .when-list li {
+    padding: 10px 0;
+    padding-left: 24px;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    position: relative;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .when-list li:last-child {
+    border-bottom: none;
+  }
+
+  .when-list li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--copper-500);
+  }
+
+  .when-card.highlight .when-list li::before {
+    color: var(--oceanic-teal);
+  }
+
+  /* Hybrid Section */
+  .hybrid-section {
+    padding: 40px 0 60px;
+  }
+
+  .hybrid-content {
+    text-align: center;
+  }
+
+  .hybrid-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .hybrid-intro {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 32px;
+    line-height: 1.6;
+  }
+
+  .hybrid-examples {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .hybrid-example {
+    text-align: left;
+    padding: 20px;
+    background: var(--spatial-glass);
+    border-radius: 12px;
+  }
+
+  .hybrid-example h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .hybrid-example ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hybrid-example li {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    padding: 4px 0;
+    padding-left: 16px;
+    position: relative;
+  }
+
+  .hybrid-example li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--oceanic-teal);
+  }
+
+  /* Related Links */
+  .related-links {
+    padding: 40px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .related-links h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 24px;
+  }
+
+  .links-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .related-link {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .related-link:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-2px);
+  }
+
+  .link-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .link-desc {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .comparison-grid,
+    .when-grid,
+    .hybrid-examples {
+      grid-template-columns: 1fr;
+    }
+
+    .links-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .feature-table th,
+    .feature-table td {
+      padding: 12px 16px;
+      font-size: 13px;
+    }
+
+    .savings-value {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .links-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
