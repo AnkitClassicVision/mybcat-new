@@ -115,13 +115,25 @@ const icons: Record<string, string> = {
     {video && (
       <div class="hero-visual">
         <div class="hero-video-container">
+          {/* Poster image loads immediately for fast LCP */}
+          <img
+            id="heroPoster"
+            src={video.poster}
+            alt="Video thumbnail"
+            class="hero-poster"
+            width="640"
+            height="400"
+            loading="eager"
+            decoding="sync"
+            fetchpriority="high"
+          />
           <video
             id="heroVideo"
             class="hero-video"
             poster={video.poster}
             playsinline
             webkit-playsinline
-            preload="metadata"
+            preload="none"
             muted
           >
             <source data-src={video.src} type="video/mp4">
@@ -314,6 +326,20 @@ const icons: Record<string, string> = {
     flex-direction: column;
   }
 
+  .hero-poster {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    z-index: 1;
+  }
+
+  .hero-poster.hidden {
+    display: none;
+  }
+
   .hero-video {
     width: 100%;
     height: 100%;
@@ -492,6 +518,7 @@ const icons: Record<string, string> = {
   document.addEventListener('DOMContentLoaded', function() {
     const video = document.getElementById('heroVideo') as HTMLVideoElement;
     const overlay = document.getElementById('videoPlayOverlay');
+    const poster = document.getElementById('heroPoster');
     let videoLoaded = false;
 
     if (video && overlay) {
@@ -504,6 +531,10 @@ const icons: Record<string, string> = {
           video.load();
           videoLoaded = true;
         }
+      }
+
+      function hidePoster() {
+        if (poster) poster.classList.add('hidden');
       }
 
       async function playVideo() {
@@ -520,6 +551,7 @@ const icons: Record<string, string> = {
           // On mobile, this works because we're in user gesture context
           video.muted = false;
 
+          hidePoster();
           overlay.style.opacity = '0';
           overlay.style.pointerEvents = 'none';
         } catch (error) {
@@ -528,6 +560,7 @@ const icons: Record<string, string> = {
           try {
             video.muted = true;
             await video.play();
+            hidePoster();
             overlay.style.opacity = '0';
             overlay.style.pointerEvents = 'none';
           } catch (e) {

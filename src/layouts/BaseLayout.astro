@@ -24,6 +24,7 @@ interface Props {
   noindex?: boolean;
   navMode?: 'full' | 'minimal' | 'hidden';
   showHubSpotChat?: boolean;
+  lcpImage?: string; // Preload hint for Largest Contentful Paint image
 }
 
 const {
@@ -37,7 +38,8 @@ const {
   author = company.ownership.founder,
   noindex = false,
   navMode = 'full',
-  showHubSpotChat = true
+  showHubSpotChat = true,
+  lcpImage
 } = Astro.props;
 
 const siteUrl = company.site.url;
@@ -59,6 +61,12 @@ const isHomepage = pathname === '/';
   <GoogleTagManager />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {/* Preload LCP image for faster paint */}
+  {lcpImage && (
+    <link rel="preload" href={lcpImage} as="image" type="image/webp" fetchpriority="high" />
+  )}
+
   <title>{title}</title>
   <meta name="description" content={description}>
 

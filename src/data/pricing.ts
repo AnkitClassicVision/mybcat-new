@@ -26,10 +26,10 @@ export const pricingTiers: PricingTier[] = [
     slug: 'starter',
     price: 'From $490',
     period: '/week',
-    description: 'Perfect for practices ready to capture every call during business hours.',
+    description: 'Perfect for practices ready to capture every call around the clock.',
     features: [
       'All calls answered',
-      'Business hours coverage',
+      '24/7 coverage (Human + AI)',
       'Dashboard & metrics reporting',
       'Medical answering services'
     ],
@@ -42,9 +42,9 @@ export const pricingTiers: PricingTier[] = [
     slug: 'scale',
     price: 'From $1,200',
     period: '/week',
-    description: 'For practices ready to scale with 24/7 coverage and full front desk support.',
+    description: 'For practices ready to scale with customizable AI and full front desk support.',
     features: [
-      '24/7 coverage (Human + AI)',
+      '24/7 coverage (Human + Customizable AI)',
       'Dedicated account manager',
       'Patient recalls',
       'Insurance verifications',
