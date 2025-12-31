@@ -9,6 +9,7 @@ category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 featuredImage: "/images/blog/01-the-1.2m-leak-featured-v5.webp"
 canonical: "https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare"
+relatedPosts: ["multi-location-healthcare-intake-guide", "5-signs-youre-ready-to-scale", "scaling-up-operations-to-grow-your-eye-care-clinic"]
 ---
 
 Multi-location healthcare groups lose an average of $1.2 million annually to missed calls. Here's the math for a typical 10-location group:

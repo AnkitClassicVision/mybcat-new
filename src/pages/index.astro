@@ -216,6 +216,14 @@ const clientLogos = [
       title="Trusted by 70+ Healthcare Professionals"
       eyebrow="Optometry · Dental · Veterinary"
     />
+    <div class="testimonials-cta">
+      <Button href="/case-studies/" variant="secondary">View Case Studies</Button>
+      <div class="case-study-links">
+        <a href="/case-studies/classic-vision-care/" class="case-study-link">Classic Vision Care</a>
+        <span class="link-separator">|</span>
+        <a href="/case-studies/dittman-eye-care/" class="case-study-link">Dittman Eye Care</a>
+      </div>
+    </div>
 
     <!-- Logo Marquee -->
     <LogoMarquee
@@ -277,6 +285,52 @@ const clientLogos = [
       title="Frequently Asked Questions"
       eyebrow="Questions?"
     />
+    <div class="faq-cta">
+      <Button href="/faq/" variant="secondary">View All FAQs</Button>
+    </div>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links-section">
+      <div class="section-intro">
+        <div class="eyebrow">Learn More</div>
+        <h2>Explore MyBCAT</h2>
+        <p class="subtitle">Everything you need to make an informed decision about your patient operations.</p>
+      </div>
+      <div class="quick-links-grid">
+        <a href="/about/" class="quick-link-card">
+          <div class="quick-link-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <h3>About Us</h3>
+          <p>Meet the team behind MyBCAT and learn our story.</p>
+          <span class="quick-link-arrow">Learn more</span>
+        </a>
+        <a href="/pricing/" class="quick-link-card">
+          <div class="quick-link-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          </div>
+          <h3>Pricing</h3>
+          <p>Transparent pricing plans for practices of all sizes.</p>
+          <span class="quick-link-arrow">View pricing</span>
+        </a>
+        <a href="/compare/" class="quick-link-card">
+          <div class="quick-link-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="9"></rect><path d="M3 16h7v5H3z"></path><path d="M14 16h7v5h-7z"></path></svg>
+          </div>
+          <h3>Compare Solutions</h3>
+          <p>See how we stack up against alternatives.</p>
+          <span class="quick-link-arrow">Compare now</span>
+        </a>
+        <a href="/solutions/integrations/" class="quick-link-card">
+          <div class="quick-link-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          </div>
+          <h3>EHR Integrations</h3>
+          <p>50+ EHR and PM system integrations available.</p>
+          <span class="quick-link-arrow">View integrations</span>
+        </a>
+      </div>
+    </section>
 
     <!-- Final CTA -->
     <CTA
@@ -604,6 +658,122 @@ const clientLogos = [
     .different-section {
       padding-left: 24px;
       padding-right: 24px;
+    }
+  }
+
+  /* Testimonials CTA with Case Studies */
+  .testimonials-cta {
+    text-align: center;
+    padding: 20px 24px 40px;
+  }
+
+  .case-study-links {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .case-study-link {
+    color: var(--oceanic-teal);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+  }
+
+  .case-study-link:hover {
+    color: var(--copper-500);
+    text-decoration: underline;
+  }
+
+  .link-separator {
+    color: var(--text-muted);
+  }
+
+  /* FAQ CTA */
+  .faq-cta {
+    text-align: center;
+    padding: 0 24px 40px;
+  }
+
+  /* Quick Links Section */
+  .quick-links-section {
+    padding: 60px 0;
+  }
+
+  .quick-links-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 20px 0;
+  }
+
+  .quick-link-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 24px;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quick-link-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  }
+
+  .quick-link-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--glass-teal);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .quick-link-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .quick-link-card p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    flex: 1;
+    margin-bottom: 12px;
+  }
+
+  .quick-link-arrow {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  .quick-link-card:hover .quick-link-arrow {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 900px) {
+    .quick-links-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .quick-links-grid {
+      grid-template-columns: 1fr;
     }
   }
 

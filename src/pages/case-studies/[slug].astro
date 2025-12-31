@@ -8,6 +8,7 @@ import Card from '@/components/Card.astro';
 import Button from '@/components/Button.astro';
 import CTA from '@/components/sections/CTA.astro';
 import { caseStudies, type CaseStudy } from '@data/case-studies';
+import { solutions, getSolutionBySlug } from '@data/solutions';
 import { generateArticleSchema, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
 
@@ -26,6 +27,11 @@ const { study } = Astro.props;
 
 // Get other case studies for navigation
 const otherStudies = caseStudies.filter(s => s.slug !== study.slug);
+
+// Get related solutions for this case study
+const relatedSolutions = study.relatedSolutions
+  .map(slug => getSolutionBySlug(slug))
+  .filter(Boolean);
 
 // Generate schema
 const articleSchema = generateArticleSchema({
@@ -138,6 +144,23 @@ const articleSchema = generateArticleSchema({
         </div>
       </Card>
     </section>
+
+    <!-- Related Solutions -->
+    {relatedSolutions.length > 0 && (
+      <section class="related-solutions">
+        <h3>Related Solutions</h3>
+        <p class="related-solutions-intro">The services that drove these results:</p>
+        <div class="solutions-grid">
+          {relatedSolutions.map(solution => (
+            <a href={`/solutions/${solution.slug}/`} class="solution-card">
+              <h4>{solution.name}</h4>
+              <p>{solution.tagline}</p>
+              <span class="solution-link">Learn more</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- Other Case Studies -->
     {otherStudies.length > 0 && (
@@ -435,5 +458,65 @@ const articleSchema = generateArticleSchema({
   /* CTA */
   .cta-section {
     margin-bottom: 0;
+  }
+
+  /* Related Solutions */
+  .related-solutions {
+    margin-bottom: 48px;
+  }
+
+  .related-solutions h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .related-solutions-intro {
+    text-align: center;
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+  }
+
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+
+  .solution-card {
+    display: block;
+    padding: 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .solution-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-2px);
+  }
+
+  .solution-card h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 6px;
+  }
+
+  .solution-card p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+  }
+
+  .solution-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--oceanic-teal);
   }
 </style>

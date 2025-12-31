@@ -12,6 +12,7 @@ import ProcessSteps from '@/components/sections/ProcessSteps.astro';
 import FAQ from '@/components/sections/FAQ.astro';
 import CTA from '@/components/sections/CTA.astro';
 import { industries, getAllIndustrySlugs, getIndustryBySlug, type Industry } from '@data/industries';
+import { getCaseStudiesByIndustry } from '@data/case-studies';
 import { faqs } from '@data/faq';
 import { solutions } from '@data/solutions';
 import { enterpriseVerticals } from '@data/enterprise';
@@ -38,6 +39,9 @@ const generalFaqs = faqs.filter(f => f.category === 'general').slice(0, 4);
 
 // Check if there's a corresponding enterprise vertical for multi-location practices
 const enterpriseVertical = enterpriseVerticals.find(v => v.parentIndustrySlug === industry.slug);
+
+// Get case studies for this industry
+const industryCaseStudies = getCaseStudiesByIndustry(industry.slug);
 
 // Icon SVGs for industry
 const icons: Record<string, string> = {
@@ -172,6 +176,35 @@ const icons: Record<string, string> = {
             <span>{industry.testimonial.title}{industry.testimonial.company && `, ${industry.testimonial.company}`}</span>
           </cite>
         </Card>
+      </section>
+    )}
+
+    <!-- Case Studies Section -->
+    {industryCaseStudies.length > 0 && (
+      <section class="case-studies-section">
+        <div class="section-header">
+          <span class="eyebrow">Success Stories</span>
+          <h2>{industry.shortName} Practices Thriving with mybcat</h2>
+          <p>See how practices like yours have transformed their operations.</p>
+        </div>
+        <div class="case-studies-grid">
+          {industryCaseStudies.map(caseStudy => (
+            <a href={`/case-studies/${caseStudy.slug}/`} class="case-study-card">
+              <h4>{caseStudy.client}</h4>
+              <p class="case-study-location">{caseStudy.location} | {caseStudy.practiceSize}</p>
+              <p class="case-study-title">{caseStudy.title}</p>
+              <div class="case-study-metrics">
+                {caseStudy.metrics.slice(0, 2).map(metric => (
+                  <div class="case-study-metric">
+                    <span class="metric-value">{metric.value}</span>
+                    <span class="metric-label">{metric.label}</span>
+                  </div>
+                ))}
+              </div>
+              <span class="case-study-link">Read full case study</span>
+            </a>
+          ))}
+        </div>
       </section>
     )}
 
@@ -674,6 +707,108 @@ const icons: Record<string, string> = {
     color: var(--oceanic-teal);
   }
 
+  /* Case Studies Section */
+  .case-studies-section {
+    margin-bottom: 60px;
+  }
+
+  .case-studies-section .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .case-studies-section .eyebrow {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 8px;
+  }
+
+  .case-studies-section .section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .case-studies-section .section-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  .case-studies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+  }
+
+  .case-study-card {
+    display: block;
+    padding: 28px;
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .case-study-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 96, 100, 0.1);
+  }
+
+  .case-study-card h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .case-study-location {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+
+  .case-study-title {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .case-study-metrics {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 16px;
+  }
+
+  .case-study-metric {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .case-study-metric .metric-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--oceanic-teal);
+  }
+
+  .case-study-metric .metric-label {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .case-study-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--oceanic-teal);
+  }
+
   @media (max-width: 768px) {
     .solutions-grid {
       grid-template-columns: 1fr;
@@ -689,6 +824,10 @@ const icons: Record<string, string> = {
 
     .hero-cta {
       flex-direction: column;
+    }
+
+    .case-studies-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>

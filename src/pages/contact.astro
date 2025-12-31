@@ -6,6 +6,9 @@
 import PageLayout from '@/layouts/PageLayout.astro';
 import Card from '@/components/Card.astro';
 import { company } from '@data/company';
+import { generateProfessionalServiceSchema, serializeSchema } from '@utils/schema';
+
+const professionalServiceSchema = generateProfessionalServiceSchema();
 ---
 
 <PageLayout
@@ -19,6 +22,9 @@ import { company } from '@data/company';
   heroTitle="Every Missed Call Is a Lost Patient. Let's Fix That."
   heroSubtitle="Fill out the form below and we'll show you how we answer your overflow calls and book directly into your EHR—so you never lose another patient to voicemail."
 >
+  <!-- ProfessionalService JSON-LD Schema -->
+  <script type="application/ld+json" set:html={serializeSchema(professionalServiceSchema)} slot="head" />
+
   <!-- Preconnect to HubSpot for faster form loading -->
   <link rel="preconnect" href="https://js.hsforms.net" slot="head" />
   <link rel="preconnect" href="https://forms.hsforms.com" slot="head" />

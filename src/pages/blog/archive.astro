@@ -21,18 +21,23 @@ const posts = (await getCollection('blog'))
 
     <div class="archive-container">
       <div class="archive-list">
-        {posts.map((post) => (
-          <article class="archive-item">
-            <a href={`/blog/${post.slug}/`} class="archive-link">
-              <div class="archive-meta">
-                <span class="archive-category">{post.data.category}</span>
-                <span class="archive-date">{post.data.publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+        {posts.map((post) => {
+          const categorySlug = post.data.category.toLowerCase().replace(/\s+/g, '-');
+          return (
+            <article class="archive-item">
+              <div class="archive-link-wrapper">
+                <div class="archive-meta">
+                  <a href={`/blog/category/${categorySlug}/`} class="archive-category">{post.data.category}</a>
+                  <span class="archive-date">{post.data.publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+                </div>
+                <a href={`/blog/${post.slug}/`} class="archive-link">
+                  <h2 class="archive-title">{post.data.title}</h2>
+                  <p class="archive-description">{post.data.description}</p>
+                </a>
               </div>
-              <h2 class="archive-title">{post.data.title}</h2>
-              <p class="archive-description">{post.data.description}</p>
-            </a>
-          </article>
-        ))}
+            </article>
+          );
+        })}
       </div>
     </div>
   </main>
@@ -98,9 +103,12 @@ const posts = (await getCollection('blog'))
     box-shadow: var(--shadow-md);
   }
 
+  .archive-link-wrapper {
+    padding: 20px 24px;
+  }
+
   .archive-link {
     display: block;
-    padding: 20px 24px;
     text-decoration: none;
     color: inherit;
   }
@@ -120,6 +128,13 @@ const posts = (await getCollection('blog'))
     font-weight: 600;
     text-transform: uppercase;
     font-size: 11px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .archive-category:hover {
+    background: var(--copper-700);
+    color: white;
   }
 
   .archive-date {

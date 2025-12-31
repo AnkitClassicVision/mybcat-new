@@ -92,9 +92,10 @@ export const mainNavigation: NavItem[] = [
       { label: 'Blog', href: '/blog/' },
       { label: 'Case Studies', href: '/case-studies/', description: 'Success stories' },
       { label: 'ROI Calculator', href: '/resources/roi-calculator/', description: 'Calculate your savings' },
+      { label: 'Book', href: '/resources/book/', description: 'Staff Smart Not Hard' },
+      { label: 'Podcast', href: '/resources/podcast/', description: 'Staff Smart Podcast' },
       { label: 'Glossary', href: '/glossary/', description: 'Healthcare terms explained' },
-      { label: 'FAQ', href: '/faq/', description: 'Common questions' },
-      { label: 'Podcast', href: '/resources/podcast/' }
+      { label: 'FAQ', href: '/faq/', description: 'Common questions' }
     ]
   },
   {
@@ -110,47 +111,40 @@ export const mainNavigation: NavItem[] = [
 // Footer navigation organized by section
 export const footerNavigation = {
   solutions: [
+    { label: 'Front Desk Outsourcing', href: '/solutions/front-desk-outsourcing/' },
     { label: 'Medical Answering Service', href: '/solutions/medical-answering-service/' },
+    { label: 'Medical Virtual Assistant', href: '/solutions/medical-virtual-assistant/' },
     { label: 'Patient Recall', href: '/solutions/patient-recall/' },
     { label: 'No-Show Recovery', href: '/solutions/no-show-recovery/' },
-    { label: 'Front Desk Outsourcing', href: '/solutions/front-desk-outsourcing/' },
+    { label: 'Virtual Medical Scribe', href: '/solutions/virtual-medical-scribe/' },
     { label: 'Integrations', href: '/solutions/integrations/' }
   ],
   industries: [
     { label: 'Optometry', href: '/industries/optometry/' },
     { label: 'Dental', href: '/industries/dental/' },
-    { label: 'Veterinary', href: '/industries/veterinary/' },
-    { label: 'MedSpa', href: '/industries/medspa/' },
     { label: 'Dermatology', href: '/industries/dermatology/' },
+    { label: 'ENT', href: '/industries/ent/' },
+    { label: 'MedSpa', href: '/industries/medspa/' },
     { label: 'Urgent Care', href: '/industries/urgent-care/' },
-    { label: 'ENT', href: '/industries/ent/' }
-  ],
-  enterprise: [
-    { label: 'Enterprise Overview', href: '/enterprise/' },
-    { label: 'DSOs & Dental Groups', href: '/enterprise/dso/' },
-    { label: 'Optometry Groups', href: '/enterprise/optometry-groups/' },
-    { label: 'Veterinary Groups', href: '/enterprise/veterinary-groups/' },
-    { label: 'Urgent Care Chains', href: '/enterprise/urgent-care-chains/' }
+    { label: 'Veterinary', href: '/industries/veterinary/' }
   ],
   company: [
     { label: 'About', href: '/about/' },
-    { label: 'How It Works', href: '/how-it-works/' },
-    { label: 'Contact', href: '/contact/' },
     { label: 'Careers', href: '/careers/' },
-    { label: 'HIPAA Compliance', href: '/hipaa-compliance/' }
+    { label: 'Case Studies', href: '/case-studies/' },
+    { label: 'Contact', href: '/contact/' },
+    { label: 'FAQ', href: '/faq/' }
   ],
   resources: [
     { label: 'Blog', href: '/blog/' },
-    { label: 'ROI Calculator', href: '/resources/roi-calculator/' },
-    { label: 'Glossary', href: '/glossary/' },
-    { label: 'FAQ', href: '/faq/' },
-    { label: 'Compare Solutions', href: '/compare/' },
+    { label: 'Book', href: '/resources/book/' },
     { label: 'Podcast', href: '/resources/podcast/' },
-    { label: 'Book', href: '/resources/book/' }
+    { label: 'ROI Calculator', href: '/resources/roi-calculator/' }
   ],
   legal: [
     { label: 'Privacy Policy', href: '/privacy-policy/' },
-    { label: 'Terms of Service', href: '/terms/' },
+    { label: 'Terms', href: '/terms/' },
+    { label: 'HIPAA Compliance', href: '/hipaa-compliance/' },
     { label: 'GDPR', href: '/gdpr/' }
   ]
 };

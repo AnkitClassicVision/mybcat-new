@@ -8,6 +8,7 @@ category: "Virtual Staffing"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 featuredImage: "/images/blog/spanish-speaking-agents.webp"
 canonical: "https://mybcat.com/blog/blog-spanish-speaking-agents"
+relatedPosts: ["blog-best-patient-care", "embracing-cultural-sensitivity-in-optometry-care", "enhancing-patient-communication-in-your-eye-clinic"]
 ---
 
 Picture this: A Spanish-speaking patient calls your practice to report sudden eye pain or request an appointment, but the language barrier makes it difficult for them to communicate. Frustration builds, and they leave feeling misunderstood. Situations like this can lead to missed opportunities for care—and growth.

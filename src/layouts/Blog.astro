@@ -14,6 +14,9 @@ interface Props {
 const { post } = Astro.props;
 const { title, description, publishDate, author, category, tags, featuredImage, relatedPosts, status, seoTitle, seoDescription } = post.data;
 
+// Generate category slug for linking
+const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
+
 // Non-published posts should not be indexed by search engines
 const shouldNoindex = status !== 'published';
 
@@ -38,7 +41,7 @@ const articleSchema = generateArticleSchema({
 });
 
 const breadcrumbSchema = generateBreadcrumbSchema([
-  { name: 'Blog', url: `${company.site.url}/blog/` },
+  { name: 'Blog', url: '/blog/' },
   { name: title }
 ]);
 
@@ -72,7 +75,7 @@ const authorInfo = authorData[author] || { role: '', image: '' };
   <article class="blog-post">
     <header class="post-header">
       <div class="post-meta">
-        <span class="post-category">{category}</span>
+        <a href={`/blog/category/${categorySlug}/`} class="post-category">{category}</a>
         <span class="post-date">{publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
         <span class="post-reading-time">{readingTime} min read</span>
       </div>
@@ -246,6 +249,13 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .post-category:hover {
+    background: var(--copper-700);
+    color: white;
   }
 
   .post-title {

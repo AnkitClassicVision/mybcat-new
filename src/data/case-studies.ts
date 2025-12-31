@@ -29,6 +29,7 @@ export interface CaseStudy {
   };
   timeline: string;
   featuredImage?: string;
+  relatedSolutions: string[]; // Solution slugs that are relevant to this case study
 }
 
 export const caseStudies: CaseStudy[] = [
@@ -62,7 +63,8 @@ export const caseStudies: CaseStudy[] = [
       title: 'Owner, Classic Vision Care'
     },
     timeline: '30-day implementation, scaled to 6 team members',
-    featuredImage: '/images/case-studies/classic-vision-care.jpg'
+    featuredImage: '/images/case-studies/classic-vision-care.jpg',
+    relatedSolutions: ['medical-answering-service', 'patient-recall', 'integrations']
   },
   {
     slug: 'dittman-eye-care',
@@ -93,7 +95,8 @@ export const caseStudies: CaseStudy[] = [
       author: 'Dr. Michael Dittman',
       title: 'Owner, Dittman Eye Care (5 locations)'
     },
-    timeline: '30-day full implementation'
+    timeline: '30-day full implementation',
+    relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing', 'integrations']
   }
 ];
 
@@ -108,4 +111,8 @@ export function getCaseStudiesByIndustry(industrySlug: string): CaseStudy[] {
 
 export function getAllCaseStudySlugs(): string[] {
   return caseStudies.map(cs => cs.slug);
+}
+
+export function getCaseStudiesBySolution(solutionSlug: string): CaseStudy[] {
+  return caseStudies.filter(cs => cs.relatedSolutions.includes(solutionSlug));
 }

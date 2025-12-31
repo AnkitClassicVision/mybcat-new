@@ -58,9 +58,18 @@ const currentYear = new Date().getFullYear();
           ))}
         </ul>
       </div>
+
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <ul>
+          {footerNavigation.legal.map(link => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </div>
     </div>
 
-    <!-- Bottom Section: Social, Legal, Copyright -->
+    <!-- Bottom Section: Social and Copyright -->
     <div class="footer-bottom">
       <div class="footer-social">
         <a href={company.social.facebook} aria-label="Facebook" target="_blank" rel="noopener">
@@ -69,15 +78,6 @@ const currentYear = new Date().getFullYear();
         <a href={company.social.linkedin} aria-label="LinkedIn" target="_blank" rel="noopener">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
         </a>
-      </div>
-
-      <div class="footer-legal">
-        {footerNavigation.legal.map((link, index) => (
-          <>
-            {index > 0 && <span class="legal-separator">|</span>}
-            <a href={link.href}>{link.label}</a>
-          </>
-        ))}
       </div>
 
       <p class="footer-copyright">
@@ -146,7 +146,7 @@ const currentYear = new Date().getFullYear();
   /* Link Columns */
   .footer-columns {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 40px;
     padding-bottom: 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -206,35 +206,19 @@ const currentYear = new Date().getFullYear();
     color: var(--copper-500);
   }
 
-  .footer-legal {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-  }
-
-  .footer-legal a {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    font-size: 13px;
-    transition: color 0.3s;
-  }
-
-  .footer-legal a:hover {
-    color: white;
-  }
-
-  .legal-separator {
-    color: rgba(255, 255, 255, 0.3);
-    font-size: 13px;
-  }
-
   .footer-copyright {
     font-size: 13px;
     color: rgba(255, 255, 255, 0.5);
   }
 
   /* Responsive */
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
+    .footer-columns {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 900px) {
     .footer-columns {
       grid-template-columns: repeat(2, 1fr);
     }

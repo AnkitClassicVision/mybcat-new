@@ -8,6 +8,9 @@ import Button from '@/components/Button.astro';
 import Card from '@/components/Card.astro';
 import CTA from '@/components/sections/CTA.astro';
 import { company } from '@data/company';
+import { generateProfessionalServiceSchema, serializeSchema } from '@utils/schema';
+
+const professionalServiceSchema = generateProfessionalServiceSchema();
 ---
 
 <PageLayout
@@ -18,6 +21,9 @@ import { company } from '@data/company';
     { name: 'About' }
   ]}
 >
+  <!-- ProfessionalService JSON-LD Schema -->
+  <script type="application/ld+json" set:html={serializeSchema(professionalServiceSchema)} slot="head" />
+
   <div class="about-page">
     <!-- Hero Section -->
     <section class="story-hero">

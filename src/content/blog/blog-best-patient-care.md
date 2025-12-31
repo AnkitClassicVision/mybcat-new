@@ -1,6 +1,6 @@
 ---
 title: "How to Assess Your Staff to Ensure the Best Patient Care"
-description: "In optometry and ophthalmology practices, your staff isn’t just your support—they’re the face of your practice. From answering calls to [...]"
+description: "In optometry and ophthalmology practices, your staff isn't just your support—they're the face of your practice. From answering calls to [...]"
 publishDate: 2025-01-30
 status: "published"
 author: "Ankit Patel"
@@ -8,6 +8,7 @@ category: "Virtual Staffing"
 tags: ["optometry","patient-care","scheduling","growth","efficiency"]
 featuredImage: "/images/blog/coaching-training-and-help-with-business-people-i-2023-11-27-04-49-17-utc-scaled.webp"
 canonical: "https://mybcat.com/blog/blog-best-patient-care"
+relatedPosts: ["blog-spanish-speaking-agents", "blog-streamline-practice-remote-staffing", "effective-hiring-and-training-strategies-for-optometrists"]
 ---
 
 In optometry and ophthalmology practices, your staff isn’t just your support—they’re the face of your practice. From answering calls to guiding the patient care journey, every interaction shapes how patients perceive your services. But how do you know if your team is truly delivering the best care?

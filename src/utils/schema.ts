@@ -96,14 +96,46 @@ export function generateWebSiteSchema() {
 }
 
 /**
+ * Normalize a URL to be absolute (prepend site URL if relative)
+ */
+function normalizeUrl(url: string | undefined): string | undefined {
+  if (!url) return undefined;
+  // If already absolute, return as-is
+  if (url.startsWith('http://') || url.startsWith('https://')) {
+    return url;
+  }
+  // Prepend site URL to relative paths
+  const baseUrl = company.site.url;
+  // Handle paths with or without leading slash
+  const path = url.startsWith('/') ? url : `/${url}`;
+  return `${baseUrl}${path}`;
+}
+
+/**
  * BreadcrumbList schema for all pages except homepage
+ * Generates JSON-LD structured data for breadcrumb navigation
+ *
+ * @example
+ * // For a blog post: Home > Blog > Post Title
+ * generateBreadcrumbSchema([
+ *   { name: 'Blog', url: '/blog/' },
+ *   { name: 'How to Reduce No-Shows' }
+ * ])
+ *
+ * @example
+ * // For a solution page: Home > Solutions > Medical Answering Service
+ * generateBreadcrumbSchema([
+ *   { name: 'Solutions', url: '/solutions/' },
+ *   { name: 'Medical Answering Service' }
+ * ])
  */
 export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
   const homeItem = { name: 'Home', url: company.site.url };
+
   // Skip adding Home if it's already the first item (prevents "Home > Home" duplication)
-  // Also normalize Home URL to use full site URL
   let allItems: BreadcrumbItem[];
   if (items[0]?.name === 'Home') {
+    // Normalize the Home URL to full site URL
     allItems = [{ ...items[0], url: company.site.url }, ...items.slice(1)];
   } else {
     allItems = [homeItem, ...items];
@@ -112,12 +144,18 @@ export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    itemListElement: allItems.map((item, index) => ({
-      '@type': 'ListItem',
-      position: index + 1,
-      name: item.name,
-      ...(item.url && index < allItems.length - 1 && { item: item.url })
-    }))
+    itemListElement: allItems.map((item, index) => {
+      const isLastItem = index === allItems.length - 1;
+      const normalizedUrl = normalizeUrl(item.url);
+
+      return {
+        '@type': 'ListItem',
+        position: index + 1,
+        name: item.name,
+        // Only include 'item' URL for non-last items that have a URL
+        ...(normalizedUrl && !isLastItem && { item: normalizedUrl })
+      };
+    })
   };
 }
 
@@ -207,6 +245,58 @@ export function combineSchemas(...schemas: object[]) {
       const { '@context': _, ...rest } = schema as { '@context'?: string };
       return rest;
     })
+  };
+}
+
+/**
+ * ProfessionalService/LocalBusiness schema for contact/about pages
+ * More specific than Organization - indicates a service-based business
+ */
+export function generateProfessionalServiceSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    '@id': `${company.site.url}/#business`,
+    name: company.name,
+    alternateName: company.shortName,
+    description: company.description,
+    url: company.site.url,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${company.site.url}/images/logo.png`,
+      width: 300,
+      height: 60
+    },
+    image: `${company.site.url}/images/og-default.png`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: company.address.city,
+      addressRegion: company.address.state,
+      postalCode: company.address.zip,
+      addressCountry: company.address.country
+    },
+    areaServed: {
+      '@type': 'Country',
+      name: 'United States'
+    },
+    serviceType: [
+      'Healthcare Call Answering',
+      'Medical Practice Operations',
+      'Patient Appointment Scheduling',
+      'Insurance Verification',
+      'Healthcare Virtual Assistants'
+    ],
+    priceRange: '$$',
+    sameAs: Object.values(company.social),
+    parentOrganization: {
+      '@type': 'Organization',
+      name: company.ownership.parent
+    },
+    founder: {
+      '@type': 'Person',
+      name: company.ownership.founder,
+      jobTitle: company.ownership.founderTitle
+    }
   };
 }
 

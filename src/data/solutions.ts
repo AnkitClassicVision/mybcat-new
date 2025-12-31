@@ -29,6 +29,7 @@ export interface Solution {
   description: string;
   tldr: string;  // 40-60 word summary for SEO answer-friendliness
   metaDescription: string;
+  serviceType: string;  // For JSON-LD Service schema
   problem: ProblemStatement;
   features: SolutionFeature[];
   benefits: string[];
@@ -48,6 +49,7 @@ export const solutions: Solution[] = [
     description: '24/7 medical answering service with live healthcare coordinators who book appointments directly into your EHR. Never miss a patient call again.',
     tldr: 'My Business Care Team\'s medical answering service ensures every call is answered by a trained healthcare coordinator who books appointments directly into your EHR. We handle inbound calls, schedule appointments, collect patient information, and verify insurance—available 24/7 including after hours.',
     metaDescription: '24/7 medical answering service that books appointments directly into your EHR. HIPAA compliant, US-based healthcare coordinators. Never miss a patient call.',
+    serviceType: 'Medical Answering Service',
     problem: {
       question: 'How many patient calls is your practice missing?',
       stats: [
@@ -122,6 +124,7 @@ export const solutions: Solution[] = [
     description: 'Systematic patient recall campaigns that reactivate dormant patients and drive recall compliance. We work your patient list so you can focus on patient care.',
     tldr: 'My Business Care Team\'s patient recall service proactively contacts patients due for appointments and those who have lapsed. We run multi-channel campaigns via phone, text, and email to bring patients back, improving recall compliance by 30%+ and recovering $50K+ in annual revenue.',
     metaDescription: 'Patient recall service that brings patients back before they lapse. Multi-channel outreach campaigns increase recall rates by 30%+.',
+    serviceType: 'Patient Recall and Reactivation Service',
     problem: {
       question: 'How many patients are slipping through the cracks?',
       stats: [
@@ -196,6 +199,7 @@ export const solutions: Solution[] = [
     description: 'Same-day and next-day recovery workflows that fill cancelled appointments quickly. Don\'t let last-minute cancellations cost you money.',
     tldr: 'My Business Care Team\'s no-show recovery service fills cancelled appointments within hours. When patients cancel or no-show, we immediately contact your waitlist to fill the slot. Practices typically recover 65% of cancelled appointments, saving $40K+ in annual revenue.',
     metaDescription: 'Fill cancelled appointments fast. Our no-show recovery system contacts patients immediately and fills empty slots within hours.',
+    serviceType: 'Appointment No-Show Recovery Service',
     problem: {
       question: 'How much revenue are cancellations costing your practice?',
       stats: [
@@ -270,6 +274,7 @@ export const solutions: Solution[] = [
     description: 'Complete front desk outsourcing that goes beyond phone answering. We handle your entire patient communication workflow from first contact to appointment completion.',
     tldr: 'My Business Care Team\'s front desk outsourcing service handles your entire patient communication workflow. We manage all calls, appointment confirmations, insurance coordination, and schedule optimization—reducing staffing needs by 40+ hours per week while improving patient satisfaction.',
     metaDescription: 'Front desk outsourcing for healthcare practices. Complete call handling, scheduling, insurance coordination, and patient communications in one solution.',
+    serviceType: 'Healthcare Front Desk Outsourcing',
     problem: {
       question: 'Is your front desk holding back your practice growth?',
       stats: [
@@ -344,6 +349,7 @@ export const solutions: Solution[] = [
     description: 'My Business Care Team integrates directly with your existing EHR/PMS, phone system, and communication tools. No double entry, no disconnected workflows—just seamless operations.',
     tldr: 'My Business Care Team integrates directly with 50+ EHR and practice management systems including Eyefinity, Dentrix, ModMed, and more. Our team schedules appointments directly in your system—no message-taking or double entry required. Setup typically takes 3-5 days.',
     metaDescription: 'My Business Care Team integrates with major EHR and practice management systems. Eyefinity, Dentrix, ModMed, and 50+ more. Direct scheduling, no message-taking.',
+    serviceType: 'Healthcare System Integration Service',
     problem: {
       question: 'Is disconnected technology slowing down your practice?',
       stats: [
@@ -418,6 +424,7 @@ export const solutions: Solution[] = [
     description: 'Remote medical scribes that handle clinical documentation in real-time. Reduce provider burnout, improve note quality, and reclaim hours each week for patient care.',
     tldr: 'My Business Care Team\'s virtual medical scribe service provides trained remote scribes who document patient encounters in real-time. Scribes work alongside providers via audio or video, completing notes during or immediately after visits—reducing documentation time by 2+ hours daily.',
     metaDescription: 'Virtual medical scribe service that handles clinical documentation in real-time. Reduce provider burnout and reclaim 2+ hours daily. HIPAA compliant.',
+    serviceType: 'Virtual Medical Scribe Service',
     problem: {
       question: 'How much time are your providers losing to documentation?',
       stats: [
@@ -492,6 +499,7 @@ export const solutions: Solution[] = [
     description: 'Dedicated remote healthcare virtual assistants who handle administrative tasks, patient coordination, and back-office operations. Full-time support without the overhead of in-house staff.',
     tldr: 'My Business Care Team\'s medical virtual assistant service provides dedicated remote staff trained in healthcare administration. Your VA handles scheduling, insurance verification, referral coordination, billing follow-up, and administrative tasks—reducing overhead by 50% compared to in-house hires.',
     metaDescription: 'Medical virtual assistant service with dedicated remote healthcare staff. Scheduling, insurance verification, billing, and admin support at 50% less than in-house.',
+    serviceType: 'Medical Virtual Assistant Service',
     problem: {
       question: 'Is administrative work slowing down your practice?',
       stats: [

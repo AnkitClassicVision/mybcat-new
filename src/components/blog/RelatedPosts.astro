@@ -2,6 +2,12 @@
 /**
  * RelatedPosts Component
  * Display related blog posts at the bottom of articles
+ *
+ * Features:
+ * - Intelligent relevance scoring based on category, tags, and explicit relationships
+ * - Falls back to recent posts if no strong matches found
+ * - Displays reading time for each post
+ * - Truncates descriptions at word boundaries
  */
 
 import type { CollectionEntry } from 'astro:content';
@@ -23,6 +29,26 @@ const allPosts = await getCollection('blog', ({ data }) => data.status === 'publ
 // Filter out current post
 const otherPosts = allPosts.filter(post => post.slug !== currentSlug);
 
+// Function to calculate reading time (rough estimate: 200 words per minute)
+function getReadingTime(body: string): number {
+  const wordCount = (body || '').split(/\s+/).length;
+  return Math.max(1, Math.ceil(wordCount / 200));
+}
+
+// Function to truncate description at word boundary
+function truncateDescription(description: string, maxLength: number = 120): string {
+  if (description.length <= maxLength) return description;
+
+  // Find the last space before maxLength
+  const truncated = description.slice(0, maxLength);
+  const lastSpace = truncated.lastIndexOf(' ');
+
+  if (lastSpace > maxLength * 0.7) {
+    return truncated.slice(0, lastSpace) + '...';
+  }
+  return truncated + '...';
+}
+
 // Function to calculate relevance score
 function getRelevanceScore(post: CollectionEntry<'blog'>): number {
   let score = 0;
@@ -32,12 +58,12 @@ function getRelevanceScore(post: CollectionEntry<'blog'>): number {
     score += 100;
   }
 
-  // Same category
+  // Same category - strong signal for related content
   if (currentCategory && post.data.category === currentCategory) {
-    score += 10;
+    score += 15;
   }
 
-  // Matching tags
+  // Matching tags - each matching tag adds to relevance
   const postTags = post.data.tags || [];
   for (const tag of currentTags) {
     if (postTags.includes(tag)) {
@@ -45,7 +71,7 @@ function getRelevanceScore(post: CollectionEntry<'blog'>): number {
     }
   }
 
-  // Recency bonus (newer posts)
+  // Recency bonus (newer posts are slightly preferred)
   const daysOld = (Date.now() - new Date(post.data.publishDate).getTime()) / (1000 * 60 * 60 * 24);
   if (daysOld < 30) score += 3;
   else if (daysOld < 90) score += 2;
@@ -55,52 +81,69 @@ function getRelevanceScore(post: CollectionEntry<'blog'>): number {
 }
 
 // Sort by relevance and take top posts
-const relatedPosts = otherPosts
+const scoredPosts = otherPosts
   .map(post => ({ post, score: getRelevanceScore(post) }))
-  .sort((a, b) => b.score - a.score)
-  .slice(0, maxPosts)
-  .map(({ post }) => post);
+  .sort((a, b) => {
+    // First sort by score
+    if (b.score !== a.score) return b.score - a.score;
+    // Then by date (newest first) as tiebreaker
+    return new Date(b.post.data.publishDate).getTime() - new Date(a.post.data.publishDate).getTime();
+  });
+
+// If no posts have meaningful relevance scores (score > 0), fall back to recent posts
+const hasRelevantPosts = scoredPosts.some(({ score }) => score > 0);
+const relatedPosts = hasRelevantPosts
+  ? scoredPosts.slice(0, maxPosts).map(({ post }) => post)
+  : otherPosts
+      .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
+      .slice(0, maxPosts);
 ---
 
 {relatedPosts.length > 0 && (
-  <section class="related-posts">
-    <h2 class="related-heading">
-      <svg class="related-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+  <section class="related-posts" aria-labelledby="related-posts-heading">
+    <h2 class="related-heading" id="related-posts-heading">
+      <svg class="related-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
         <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
       </svg>
       Related Articles
     </h2>
     <div class="related-grid">
-      {relatedPosts.map((post) => (
-        <a href={`/blog/${post.slug}/`} class="related-card">
-          {post.data.featuredImage && (
-            <div class="related-image">
-              <img
-                src={post.data.featuredImage}
-                alt={post.data.title}
-                loading="lazy"
-                width="320"
-                height="180"
-              />
+      {relatedPosts.map((post) => {
+        const readingTime = getReadingTime(post.body || '');
+        return (
+          <a href={`/blog/${post.slug}/`} class="related-card">
+            {post.data.featuredImage && (
+              <div class="related-image">
+                <img
+                  src={post.data.featuredImage}
+                  alt=""
+                  loading="lazy"
+                  width="320"
+                  height="180"
+                  decoding="async"
+                />
+              </div>
+            )}
+            <div class="related-content">
+              <span class="related-category">{post.data.category}</span>
+              <h3 class="related-title">{post.data.title}</h3>
+              <p class="related-excerpt">{truncateDescription(post.data.description)}</p>
+              <div class="related-meta">
+                <span class="related-date">
+                  {new Date(post.data.publishDate).toLocaleDateString('en-US', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
+                  })}
+                </span>
+                <span class="related-separator" aria-hidden="true">|</span>
+                <span class="related-reading-time">{readingTime} min read</span>
+              </div>
             </div>
-          )}
-          <div class="related-content">
-            <span class="related-category">{post.data.category}</span>
-            <h3 class="related-title">{post.data.title}</h3>
-            <p class="related-excerpt">{post.data.description.slice(0, 100)}...</p>
-            <div class="related-meta">
-              <span class="related-date">
-                {new Date(post.data.publishDate).toLocaleDateString('en-US', {
-                  month: 'short',
-                  day: 'numeric',
-                  year: 'numeric'
-                })}
-              </span>
-            </div>
-          </div>
-        </a>
-      ))}
+          </a>
+        );
+      })}
     </div>
   </section>
 )}
@@ -215,11 +258,26 @@ const relatedPosts = otherPosts
     margin-top: 1rem;
     padding-top: 0.75rem;
     border-top: 1px solid var(--glass-border, rgba(0, 96, 100, 0.08));
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
   }
 
   .related-date {
     font-size: 0.75rem;
     color: var(--text-muted, #718096);
+  }
+
+  .related-separator {
+    font-size: 0.75rem;
+    color: var(--glass-border, rgba(0, 96, 100, 0.3));
+  }
+
+  .related-reading-time {
+    font-size: 0.75rem;
+    color: var(--oceanic-teal, #006064);
+    font-weight: 500;
   }
 
   @media (max-width: 640px) {
