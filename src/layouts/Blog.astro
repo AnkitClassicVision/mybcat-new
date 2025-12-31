@@ -88,10 +88,25 @@ const authorInfo = authorData[author] || { role: '', image: '' };
       maxPosts={3}
     />
 
+    <!-- Blog Post CTA -->
     <section class="post-cta">
-      <h2>Ready to capture more appointments?</h2>
-      <p>See how MyBCAT can help your practice fill every slot.</p>
-      <a href="/#final-cta" class="cta-button">Book a Discovery Call</a>
+      <div class="post-cta-content">
+        <div class="post-cta-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            <path d="M14.05 2a9 9 0 0 1 8 7.94"></path>
+            <path d="M14.05 6A5 5 0 0 1 18 10"></path>
+          </svg>
+        </div>
+        <div class="post-cta-text">
+          <h2>Ready to Capture More Revenue?</h2>
+          <p>See how MyBCAT helps multi-location healthcare groups fill every appointment slot and reduce front desk dependency.</p>
+        </div>
+      </div>
+      <div class="post-cta-buttons">
+        <a href="/contact/" class="cta-button primary">Schedule a Consultation</a>
+        <a href="/blog/" class="cta-button secondary">View More Articles</a>
+      </div>
     </section>
   </article>
 </Base>
@@ -354,10 +369,52 @@ const authorInfo = authorData[author] || { role: '', image: '' };
 
   .post-cta {
     margin-top: 60px;
-    padding: 40px;
-    background: linear-gradient(135deg, var(--navy-900) 0%, var(--oceanic-teal) 100%);
+    padding: 48px;
+    background: var(--navy-900);
     border-radius: 24px;
-    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .post-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(135deg, transparent 0%, rgba(0, 96, 100, 0.3) 100%);
+    pointer-events: none;
+  }
+
+  .post-cta-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 32px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .post-cta-icon {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    background: rgba(77, 208, 225, 0.15);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--electric-aqua);
+  }
+
+  .post-cta-icon svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .post-cta-text {
+    flex: 1;
   }
 
   .post-cta h2 {
@@ -365,29 +422,61 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 12px;
+    line-height: 1.3;
   }
 
   .post-cta p {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.75);
     font-size: 1.1rem;
-    margin-bottom: 24px;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 500px;
+  }
+
+  .post-cta-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
   }
 
   .cta-button {
-    display: inline-block;
-    background: white;
-    color: var(--oceanic-teal);
-    padding: 14px 32px;
-    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    border-radius: 10px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
   }
 
-  .cta-button:hover {
+  .cta-button.primary {
+    background: var(--electric-aqua);
+    color: var(--navy-900);
+  }
+
+  .cta-button.primary:hover {
+    background: white;
+    color: var(--navy-900);
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 24px rgba(77, 208, 225, 0.3);
+  }
+
+  .cta-button.secondary {
+    background: transparent;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .cta-button.secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    transform: translateY(-2px);
   }
 
   @media (max-width: 768px) {
@@ -397,6 +486,38 @@ const authorInfo = authorData[author] || { role: '', image: '' };
 
     .post-cta {
       padding: 32px 24px;
+    }
+
+    .post-cta-content {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .post-cta-icon {
+      width: 56px;
+      height: 56px;
+    }
+
+    .post-cta-icon svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .post-cta h2 {
+      font-size: 1.5rem;
+    }
+
+    .post-cta p {
+      font-size: 1rem;
+    }
+
+    .post-cta-buttons {
+      flex-direction: column;
+    }
+
+    .cta-button {
+      width: 100%;
+      text-align: center;
     }
   }
 </style>
