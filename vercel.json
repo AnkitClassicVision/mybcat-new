@@ -2725,6 +2725,26 @@
       "source": "/sitemap.xml",
       "destination": "/sitemap-index.xml",
       "permanent": true
+    },
+    {
+      "source": "/healthcare-front-desk-staffing-crisis-2025",
+      "destination": "/blog/healthcare-front-desk-staffing-crisis-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/healthcare-front-desk-staffing-crisis-2025/",
+      "destination": "/blog/healthcare-front-desk-staffing-crisis-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/ebitda-impact-calculator",
+      "destination": "/blog/ebitda-impact-calculator/",
+      "permanent": true
+    },
+    {
+      "source": "/ebitda-impact-calculator/",
+      "destination": "/blog/ebitda-impact-calculator/",
+      "permanent": true
     }
   ]
 }
