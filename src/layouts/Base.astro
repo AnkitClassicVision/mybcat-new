@@ -45,12 +45,9 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {/* Critical CSS - inlined to avoid render-blocking */}
+  {/* Critical CSS - inlined for faster FCP (fonts defined in global.css) */}
   <style is:inline>
-    :root{--deep-slate:#27343C;--oceanic-teal:#006064;--electric-aqua:#4DD0E1;--silver-mist:#E0E0E0;--revenue-gold:#D3AF5E;--navy-900:#1A242C;--navy-800:#27343C;--copper-500:#4DD0E1;--spatial-bg:#F4F6F8;--spatial-glass:rgba(255,255,255,0.82);--glass-border:rgba(39,52,60,0.12);--glass-navy:rgba(39,52,60,0.06);--text-primary:#27343C;--text-secondary:#475462;--cream-200:#D8DFE4;--blur-lg:20px;--ease-smooth:cubic-bezier(0.4,0,0.2,1)}
-    @font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/inter-latin-400-normal.woff2') format('woff2')}
-    @font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/inter-latin-600-normal.woff2') format('woff2')}
-    @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/inter-latin-700-normal.woff2') format('woff2')}
+    :root{--deep-slate:#27343C;--oceanic-teal:#006064;--navy-900:#1A242C;--navy-800:#27343C;--copper-500:#4DD0E1;--spatial-bg:#F4F6F8;--spatial-glass:rgba(255,255,255,0.82);--glass-border:rgba(39,52,60,0.12);--text-primary:#27343C;--text-secondary:#475462;--cream-200:#D8DFE4}
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     html{-webkit-text-size-adjust:100%;font-family:'Inter',system-ui,-apple-system,sans-serif}
     body{background:var(--spatial-bg);color:var(--text-primary);line-height:1.6;min-height:100vh}

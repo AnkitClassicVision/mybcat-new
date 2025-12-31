@@ -194,8 +194,8 @@ const { currentPath = '/' } = Astro.props;
     width: 44px;
     height: 44px;
     background: var(--spatial-glass);
-    backdrop-filter: blur(var(--blur-lg));
-    -webkit-backdrop-filter: blur(var(--blur-lg));
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border: 1px solid var(--glass-border);
     border-radius: 12px;
     flex-direction: column;
@@ -226,7 +226,7 @@ const { currentPath = '/' } = Astro.props;
     transform: rotate(-45deg) translate(5px, -5px);
   }
 
-  /* Mobile Menu Overlay */
+  /* Mobile Menu Overlay - reduced blur for performance */
   .mobile-menu-overlay {
     display: none;
     position: fixed;
@@ -234,9 +234,7 @@ const { currentPath = '/' } = Astro.props;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(10, 22, 40, 0.5);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    background: rgba(10, 22, 40, 0.6);
     z-index: 999;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -246,7 +244,7 @@ const { currentPath = '/' } = Astro.props;
     opacity: 1;
   }
 
-  /* Mobile Menu Panel */
+  /* Mobile Menu Panel - reduced blur for performance */
   .mobile-menu {
     display: none;
     position: fixed;
@@ -254,9 +252,9 @@ const { currentPath = '/' } = Astro.props;
     right: -300px;
     width: 280px;
     height: 100vh;
-    background: var(--spatial-glass);
-    backdrop-filter: blur(var(--blur-lg));
-    -webkit-backdrop-filter: blur(var(--blur-lg));
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border-left: 1px solid var(--glass-border);
     z-index: 1000;
     flex-direction: column;
@@ -411,9 +409,9 @@ const { currentPath = '/' } = Astro.props;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background: var(--spatial-glass);
-    backdrop-filter: blur(var(--blur-lg));
-    -webkit-backdrop-filter: blur(var(--blur-lg));
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border: 1px solid var(--glass-border);
     border-radius: 16px;
     padding: 8px;
@@ -445,7 +443,7 @@ const { currentPath = '/' } = Astro.props;
     color: var(--text-primary);
   }
 
-  /* Nav CTA - Filled with glow like main CTA */
+  /* Nav CTA - Simplified shadow for better mobile perf */
   .nav-cta-glow {
     background: var(--oceanic-teal) !important;
     color: #ffffff !important;
@@ -453,17 +451,13 @@ const { currentPath = '/' } = Astro.props;
     border: none !important;
     border-radius: 8px !important;
     margin-left: 12px;
-    box-shadow: 0 0 10px var(--oceanic-teal),
-          0 0 30px rgba(0, 96, 100, 0.5),
-          0 0 60px rgba(0, 96, 100, 0.3);
+    box-shadow: 0 4px 16px rgba(0, 96, 100, 0.4);
   }
 
   .nav-cta-glow:hover {
     background: var(--navy-800) !important;
     color: #ffffff !important;
-    box-shadow: 0 0 10px var(--navy-800),
-          0 0 30px rgba(211, 175, 94, 0.6),
-          0 0 60px rgba(211, 175, 94, 0.3);
+    box-shadow: 0 4px 20px rgba(211, 175, 94, 0.5);
   }
 
   /* Mobile Expandable Sections */
