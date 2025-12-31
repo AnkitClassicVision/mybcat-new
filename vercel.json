@@ -2755,6 +2755,66 @@
       "source": "/dso-integration-playbook/",
       "destination": "/blog/dso-integration-playbook/",
       "permanent": true
+    },
+    {
+      "source": "/jobs",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/jobs/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/author/:slug",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/author/:slug/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/category",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/category/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/category/:slug",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/category/:slug/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/tag",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:slug",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:slug/",
+      "destination": "/blog/",
+      "permanent": true
     }
   ]
 }
