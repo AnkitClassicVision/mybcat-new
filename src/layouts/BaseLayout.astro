@@ -7,6 +7,8 @@ import '@/styles/global.css';
 import Nav from '@/components/Nav.astro';
 import Footer from '@/components/Footer.astro';
 import HubSpotChat from '@/components/HubSpotChat.astro';
+import GoogleTagManager from '@/components/GoogleTagManager.astro';
+import GoogleTagManagerNoScript from '@/components/GoogleTagManagerNoScript.astro';
 import { company } from '@data/company';
 import { generateOrganizationSchema, generateWebSiteSchema, serializeSchema } from '@utils/schema';
 
@@ -54,6 +56,7 @@ const isHomepage = pathname === '/';
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <GoogleTagManager />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title}</title>
@@ -119,6 +122,7 @@ const isHomepage = pathname === '/';
   <slot name="head" />
 </head>
 <body>
+  <GoogleTagManagerNoScript />
   {navMode !== 'hidden' && <Nav currentPath={Astro.url.pathname} />}
 
   <slot />
