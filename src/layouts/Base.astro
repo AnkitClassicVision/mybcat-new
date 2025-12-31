@@ -44,6 +44,23 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {/* Critical CSS - inlined to avoid render-blocking */}
+  <style is:inline>
+    :root{--deep-slate:#27343C;--oceanic-teal:#006064;--electric-aqua:#4DD0E1;--silver-mist:#E0E0E0;--revenue-gold:#D3AF5E;--navy-900:#1A242C;--navy-800:#27343C;--copper-500:#4DD0E1;--spatial-bg:#F4F6F8;--spatial-glass:rgba(255,255,255,0.82);--glass-border:rgba(39,52,60,0.12);--glass-navy:rgba(39,52,60,0.06);--text-primary:#27343C;--text-secondary:#475462;--cream-200:#D8DFE4;--blur-lg:20px;--ease-smooth:cubic-bezier(0.4,0,0.2,1)}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/inter-latin-400-normal.woff2') format('woff2')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/inter-latin-600-normal.woff2') format('woff2')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/inter-latin-700-normal.woff2') format('woff2')}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{-webkit-text-size-adjust:100%;font-family:'Inter',system-ui,-apple-system,sans-serif}
+    body{background:var(--spatial-bg);color:var(--text-primary);line-height:1.6;min-height:100vh}
+    .nav-dock{position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:1000;background:rgba(255,255,255,0.98);border:1px solid var(--glass-border);border-radius:24px;padding:6px 16px;display:flex;gap:2px;box-shadow:0 4px 20px rgba(0,0,0,0.08)}
+    .nav-brand{display:flex;align-items:center;gap:10px;padding:6px 14px;text-decoration:none}
+    .nav-brand img{height:28px;width:auto}
+    .mobile-menu-toggle,.mobile-menu,.mobile-menu-overlay{display:none}
+    @media(max-width:1024px){.nav-dock{display:none}.mobile-menu-toggle{display:flex;position:fixed;top:20px;right:20px;z-index:1001;width:44px;height:44px;background:var(--spatial-glass);border:1px solid var(--glass-border);border-radius:12px;flex-direction:column;justify-content:center;align-items:center;gap:5px}}
+  </style>
+
   <title>{title}</title>
   <meta name="description" content={description}>
 
@@ -82,16 +99,12 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
     <meta property="article:author" content={author}>
   )}
 
-  <!-- Preconnect hints for critical resources -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Self-hosted fonts - eliminates external requests -->
+  <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="dns-prefetch" href="https://js.hs-scripts.com">
   <link rel="dns-prefetch" href="https://js.hsforms.net">
-
-  <!-- Fonts - Optimized: reduced weights, preload critical -->
-  <link rel="preload" href="https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff2" as="font" type="font/woff2" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
