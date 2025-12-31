@@ -2,7 +2,6 @@
 import '@/styles/global.css';
 import Nav from '@/components/Nav.astro';
 import Footer from '@/components/Footer.astro';
-import HubSpotChat from '@/components/HubSpotChat.astro';
 import { company } from '@data/company';
 
 interface Props {
@@ -96,14 +95,12 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
     <meta property="article:author" content={author}>
   )}
 
-  <!-- Self-hosted fonts - eliminates external requests -->
+  <!-- Self-hosted fonts - preload critical weights only (400 for body, 700 for headings) -->
+  <!-- Other weights (600, 800) load on-demand via @font-face in global.css -->
   <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/inter-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 
   <!-- DNS prefetch for third-party resources -->
-  <link rel="dns-prefetch" href="https://js.hs-scripts.com">
   <link rel="dns-prefetch" href="https://js.hsforms.net">
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
   <link rel="dns-prefetch" href="https://va.vercel-scripts.com">
@@ -120,7 +117,6 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
   <slot />
 
   <Footer />
-  <HubSpotChat />
 
   <slot name="footer-scripts" />
 </body>

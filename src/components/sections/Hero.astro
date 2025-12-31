@@ -461,6 +461,17 @@ const icons: Record<string, string> = {
     }
   }
 
+  /* Disable animations on mobile for performance and battery life */
+  @media (max-width: 768px) {
+    .play-button-container {
+      animation: none;
+    }
+    .play-button-ring {
+      animation: none;
+      opacity: 0.3;
+    }
+  }
+
   .play-button-glow {
     position: absolute;
     inset: -8px;
