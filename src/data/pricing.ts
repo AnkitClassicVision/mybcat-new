@@ -24,30 +24,32 @@ export const pricingTiers: PricingTier[] = [
   {
     name: 'Starter',
     slug: 'starter',
-    price: '$1,995',
-    period: '/mo',
-    description: 'Perfect for single locations ready to capture every call.',
+    price: 'From $490',
+    period: '/week',
+    description: 'Perfect for practices ready to capture every call during business hours.',
     features: [
-      'All calls answered in 3 rings',
-      'Appointment scheduling',
-      'Insurance verification',
-      '8am-6pm coverage'
+      'All calls answered',
+      'Business hours coverage',
+      'Dashboard & metrics reporting',
+      'Medical answering services'
     ],
     ctaText: 'Get Started',
     ctaHref: '/contact/',
     popular: false
   },
   {
-    name: 'Growth',
-    slug: 'growth',
-    price: '$3,495',
-    period: '/mo',
-    description: 'For practices ready to scale without operational chaos.',
+    name: 'Scale',
+    slug: 'scale',
+    price: 'From $1,200',
+    period: '/week',
+    description: 'For practices ready to scale with 24/7 coverage and full front desk support.',
     features: [
-      'Everything in Starter',
-      'Extended hours (7am-9pm)',
-      'Recall outreach campaigns',
-      'Dedicated account manager'
+      '24/7 coverage (Human + AI)',
+      'Dedicated account manager',
+      'Patient recalls',
+      'Insurance verifications',
+      'Appointment confirmations',
+      'Front desk outsourcing'
     ],
     ctaText: 'Get Started',
     ctaHref: '/contact/',
@@ -57,14 +59,14 @@ export const pricingTiers: PricingTier[] = [
     name: 'Enterprise',
     slug: 'enterprise',
     price: 'From $2,500',
-    period: '/location/mo',
-    description: 'Multi-location groups. Volume discounts available.',
+    period: '/week',
+    description: 'Multi-location groups with full virtual team support.',
     features: [
-      'Everything in Growth',
-      '24/7 coverage',
-      'Centralized dashboard',
-      'Custom integrations',
-      '30-day pilot available'
+      'Everything in Scale',
+      'Virtual assistants',
+      'Medical scribes',
+      '30-day pilot available',
+      'Custom integrations'
     ],
     ctaText: 'Talk to Enterprise Team',
     ctaHref: '/contact/',
@@ -74,15 +76,19 @@ export const pricingTiers: PricingTier[] = [
 
 // All features for comparison table
 export const allFeatures = [
-  { name: 'Phone answering', starter: true, growth: true, enterprise: true },
-  { name: 'Appointment scheduling', starter: true, growth: true, enterprise: true },
-  { name: 'Insurance verification', starter: true, growth: true, enterprise: true },
-  { name: 'Business hours coverage', starter: '8am-6pm', growth: '7am-9pm', enterprise: '24/7' },
-  { name: 'Recall campaigns', starter: false, growth: true, enterprise: true },
-  { name: 'Dedicated account manager', starter: false, growth: true, enterprise: true },
-  { name: 'Multi-location dashboard', starter: false, growth: false, enterprise: true },
-  { name: 'Custom integrations', starter: false, growth: false, enterprise: true },
-  { name: 'API access', starter: false, growth: false, enterprise: true }
+  { name: 'All calls answered', starter: true, scale: true, enterprise: true },
+  { name: 'Dashboard & metrics reporting', starter: true, scale: true, enterprise: true },
+  { name: 'Medical answering services', starter: true, scale: true, enterprise: true },
+  { name: 'Coverage hours', starter: 'Business hours', scale: '24/7 Human + AI', enterprise: '24/7 Human + AI' },
+  { name: 'Insurance verifications', starter: false, scale: true, enterprise: true },
+  { name: 'Appointment confirmations', starter: false, scale: true, enterprise: true },
+  { name: 'Patient recalls', starter: false, scale: true, enterprise: true },
+  { name: 'Dedicated account manager', starter: false, scale: true, enterprise: true },
+  { name: 'Front desk outsourcing', starter: false, scale: true, enterprise: true },
+  { name: 'Virtual assistants', starter: false, scale: false, enterprise: true },
+  { name: 'Medical scribes', starter: false, scale: false, enterprise: true },
+  { name: '30-day pilot available', starter: false, scale: false, enterprise: true },
+  { name: 'Custom integrations', starter: false, scale: false, enterprise: true }
 ];
 
 // Helper function
