@@ -3,6 +3,30 @@ import vercel from '@astrojs/vercel/static';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import mdx from '@astrojs/mdx';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+
+// Get non-published blog post slugs at build time
+function getNonPublishedSlugs() {
+  const blogDir = path.join(process.cwd(), 'src/content/blog');
+  if (!fs.existsSync(blogDir)) return [];
+
+  const files = fs.readdirSync(blogDir).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+  const slugs = [];
+
+  files.forEach(file => {
+    const content = fs.readFileSync(path.join(blogDir, file), 'utf8');
+    const { data } = matter(content);
+    if (data.status !== 'published') {
+      slugs.push(file.replace(/\.(md|mdx)$/, ''));
+    }
+  });
+
+  return slugs;
+}
+
+const nonPublishedSlugs = getNonPublishedSlugs();
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,7 +40,17 @@ export default defineConfig({
     react(),
     mdx(),
     sitemap({
-      filter: (page) => !page.includes('/draft/'),
+      filter: (page) => {
+        // Exclude drafts
+        if (page.includes('/draft/')) return false;
+        // Exclude non-published blog posts (scheduled/draft)
+        for (const slug of nonPublishedSlugs) {
+          if (page.includes(`/blog/${slug}/`) || page.endsWith(`/blog/${slug}`)) {
+            return false;
+          }
+        }
+        return true;
+      },
       changefreq: 'weekly',
       priority: 0.7,
       serialize: (item) => {

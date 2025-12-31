@@ -27,8 +27,8 @@ if (!fs.existsSync(BLOG_DIR)) {
   process.exit(0);
 }
 
-// Get all markdown files
-const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
+// Get all markdown files (both .md and .mdx)
+const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
 
 if (files.length === 0) {
   console.log('No blog posts found. Nothing to publish.');
