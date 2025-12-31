@@ -130,7 +130,7 @@ All migration preparation tasks completed successfully:
 | Metric | Before | After |
 |--------|--------|-------|
 | X-Robots-Tag | noindex, nofollow | index, follow |
-| Redirect Entries | 38 | 148 |
+| Redirect Entries | 38 | 533 |
 | Canonical URLs | /[slug] | /blog/[slug] |
 | Build Status | N/A | 165 pages, 0 errors |
 
