@@ -33,6 +33,38 @@ export interface CaseStudy {
 
 export const caseStudies: CaseStudy[] = [
   {
+    slug: 'classic-vision-care',
+    title: 'How Classic Vision Care Cut Costs, Grew Revenue by 33%, and Freed Staff to Focus on Patients',
+    client: 'Classic Vision Care',
+    industry: 'Optometry',
+    industrySlug: 'optometry',
+    location: 'Atlanta, Georgia',
+    practiceSize: '4 locations',
+    challenge: 'Classic Vision Care faced rising payroll costs that had ballooned to over 24% of revenue, straining profitability. With four busy locations and high staff turnover, phones rang unanswered, schedules tangled, and patient satisfaction suffered. Missed appointments, incomplete documentation, and internal confusion meant valuable chair time was lost.',
+    solution: 'My Business Care Team stepped in, systematically mapping every workflow and identifying inefficiencies. We crafted customized Standard Operating Procedures (SOPs) and set up direct communication channels, ensuring immediate feedback and continuous improvement.',
+    implementation: [
+      'Inbound phone management - dedicated team handles every call swiftly and professionally',
+      'Proactive scheduling & follow-ups - managed recalls and eyewear purchase follow-ups',
+      'Billing & insurance support - verifying medical and vision benefits, reducing AR',
+      'Customized SOPs for each location',
+      'Direct communication channels for continuous improvement'
+    ],
+    results: 'Within the first month, Classic Vision Care saw payroll expenses drop by 25%, a 33% increase in revenue, improved team dynamics, and happier patients. The practice scaled from one outsourced staff member to six seamlessly.',
+    metrics: [
+      { label: 'Revenue Increase', value: '33%', description: 'Through efficient scheduling and follow-ups' },
+      { label: 'Payroll Reduction', value: '25%', description: 'Within the first month' },
+      { label: 'Team Scaled', value: '1 to 6', description: 'Outsourced staff members' },
+      { label: 'Patient Experience', value: 'Transformed', description: 'Calmer, more patient-centric environment' }
+    ],
+    testimonial: {
+      quote: 'It was amazing—patients and staff immediately noticed the difference. The phones were always answered, appointments stayed full, and my team in the office could focus on patients in front of them while my business care team focused on the patients on the phones.',
+      author: 'Dr. Ankit Patel',
+      title: 'Owner, Classic Vision Care'
+    },
+    timeline: '30-day implementation, scaled to 6 team members',
+    featuredImage: '/images/case-studies/classic-vision-care.jpg'
+  },
+  {
     slug: 'dittman-eye-care',
     title: 'How Dittman Eye Care Scaled to 5 Locations Without Adding Front Desk Staff',
     client: 'Dittman Eye Care',
@@ -40,16 +72,16 @@ export const caseStudies: CaseStudy[] = [
     industrySlug: 'optometry',
     location: 'Ohio',
     practiceSize: '5 locations',
-    challenge: 'Dr. Dittman was expanding from 3 to 5 locations but struggling with inconsistent patient intake across offices. Each location had different phone handling, leading to missed calls during busy periods and inconsistent patient experiences. Hiring and training front desk staff for each new location was expensive and time-consuming.',
-    solution: 'mybcat became the centralized patient intake team for all 5 locations. Every call routes to our trained team who schedule directly into their EHR, ensuring consistent experience regardless of which location patients call.',
+    challenge: 'Dr. Dittman faced severe staffing challenges post-COVID. With expansion from 3 to 5 locations, the practice struggled with inconsistent patient intake across offices. Each location had different phone handling, leading to missed calls during busy periods. Hiring and training front desk staff for each new location was expensive and time-consuming.',
+    solution: 'My Business Care Team became the centralized patient intake and billing team for all 5 locations. We took over call center operations and billing processes, handling the workload the internal team was struggling with and maintaining consistency across all locations.',
     implementation: [
       'Unified phone system routing across all 5 locations',
+      'Call center services for all inbound patient calls',
+      'Billing and accounts receivable management',
       'Custom training on Eyefinity workflows and provider preferences',
-      'Insurance verification protocols for VSP and EyeMed',
-      'Real-time dashboard for multi-location visibility',
-      'Recall campaign integration for annual exam reminders'
+      'Insurance verification protocols for VSP and EyeMed'
     ],
-    results: 'Within 6 months, Dittman Eye Care saw significant improvements in call handling and patient capture. The practice was able to expand without the typical growing pains of hiring and training new front desk staff at each location.',
+    results: 'Within 6 months, Dittman Eye Care resolved their staffing struggles and achieved consistent operations across all locations. The practice expanded without the typical growing pains of hiring and training new front desk staff.',
     metrics: [
       { label: 'Call Answer Rate', value: '100%', description: 'Up from 71%' },
       { label: 'New Locations Added', value: '2', description: 'Without additional front desk hires' },
@@ -57,73 +89,11 @@ export const caseStudies: CaseStudy[] = [
       { label: 'Staff Time Saved', value: '40+ hrs/week', description: 'Across all locations' }
     ],
     testimonial: {
-      quote: 'Honestly it was a godsend. You have taken a process that we struggled with, and once we got the kinks figured out, you just run with it.',
+      quote: 'Honestly it was a godsend when we brought them in. You have taken a process that we were challenged with, we struggled, and once we got the little kinks figured out, you just run with it.',
       author: 'Dr. Michael Dittman',
-      title: 'Owner, Dittman Eye Care'
+      title: 'Owner, Dittman Eye Care (5 locations)'
     },
     timeline: '30-day full implementation'
-  },
-  {
-    slug: 'coastal-dental-group',
-    title: 'Coastal Dental Group Increased Hygiene Recall Rate by 35%',
-    client: 'Coastal Dental Group',
-    industry: 'Dental',
-    industrySlug: 'dental',
-    location: 'Florida',
-    practiceSize: '3 locations',
-    challenge: 'Coastal Dental Group was losing patients to lapsed hygiene appointments. Their in-house team was too busy handling daily operations to consistently work the recall list. Hygiene recall rate had dropped to 52%, well below the industry benchmark of 70-80%.',
-    solution: 'mybcat implemented a systematic recall and reactivation program targeting patients overdue for hygiene appointments. Our team handles outbound recall calls, appointment reminders, and no-show follow-ups.',
-    implementation: [
-      'Patient list analysis to identify recall opportunities',
-      'Multi-touch outreach campaigns (call, text, email)',
-      'Same-day and next-day appointment recovery',
-      'Integration with Eaglesoft for direct scheduling',
-      'Weekly reporting on recall rates and campaign ROI'
-    ],
-    results: 'The practice saw their hygiene recall rate increase from 52% to 87% within 4 months. This translated to significant revenue recovery and improved patient retention.',
-    metrics: [
-      { label: 'Hygiene Recall Rate', value: '87%', description: 'Up from 52%' },
-      { label: 'Reactivated Patients', value: '340+', description: 'In first 4 months' },
-      { label: 'Revenue Recovered', value: '$180K', description: 'Annualized' },
-      { label: 'No-Show Reduction', value: '45%', description: 'From confirmation calls' }
-    ],
-    testimonial: {
-      quote: 'Our hygiene schedule is consistently full now. The recall program pays for itself many times over.',
-      author: 'Dr. Sarah Martinez',
-      title: 'Managing Partner, Coastal Dental Group'
-    },
-    timeline: '2-week implementation, results in 60 days'
-  },
-  {
-    slug: 'premier-veterinary-hospital',
-    title: 'Premier Veterinary Hospital Eliminated After-Hours Call Gaps',
-    client: 'Premier Veterinary Hospital',
-    industry: 'Veterinary',
-    industrySlug: 'veterinary',
-    location: 'Texas',
-    practiceSize: 'Single location, high-volume',
-    challenge: 'As a busy veterinary hospital, Premier was receiving 200+ calls daily with 35% coming after regular business hours. These after-hours calls often involved urgent concerns that needed triage. The answering service they used only took messages, requiring callbacks the next day.',
-    solution: 'mybcat provides comprehensive coverage including after-hours AI-assisted triage that can schedule next-day appointments and identify true emergencies for immediate attention.',
-    implementation: [
-      'Extended hours coverage (7am-10pm)',
-      'AI triage for after-hours calls with human backup',
-      'Emergency escalation protocols',
-      'Direct scheduling into Cornerstone',
-      'Multi-pet family account management'
-    ],
-    results: 'Premier now captures appointments from after-hours callers instead of losing them to competitors. Emergency triage ensures critical cases are handled appropriately while routine calls result in next-day appointments.',
-    metrics: [
-      { label: 'After-Hours Capture', value: '95%', description: 'Calls converted to appointments' },
-      { label: 'Emergency Response', value: '<5 min', description: 'Critical case escalation' },
-      { label: 'Daily Call Handling', value: '200+', description: 'Calls managed' },
-      { label: 'Client Satisfaction', value: '4.8/5', description: 'Post-call surveys' }
-    ],
-    testimonial: {
-      quote: 'Pet parents are calling at all hours with concerns. Now they get answers and appointments instead of voicemail. It has transformed our client experience.',
-      author: 'Dr. Jennifer Walsh',
-      title: 'Hospital Director, Premier Veterinary Hospital'
-    },
-    timeline: '3-week implementation'
   }
 ];
 

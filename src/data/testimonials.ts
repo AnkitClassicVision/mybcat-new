@@ -18,7 +18,7 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
-    quote: "Honestly it was a godsend. You have taken a process that we struggled with, and once we got the kinks figured out, you just run with it.",
+    quote: "Honestly it was a godsend when we brought them in. You have taken a process that we were challenged with, we struggled, and once we got the little kinks figured out, you just run with it.",
     author: "Dr. Michael Dittman",
     title: "Owner",
     company: "Dittman Eye Care (5 locations)",
@@ -30,7 +30,16 @@ export const testimonials: Testimonial[] = [
     avatar: "/videos/dittman-headshot-optimized.webp"
   },
   {
-    quote: "The biggest thing I like is your manager. I talk directly to your managing team-they manage the remote staff. That takes it off my plate.",
+    quote: "It was amazing—patients and staff immediately noticed the difference. The phones were always answered, appointments stayed full, and my team in the office could focus on patients in front of them.",
+    author: "Dr. Ankit Patel",
+    title: "Owner",
+    company: "Classic Vision Care (4 locations)",
+    industry: "optometry",
+    initials: "AP",
+    featured: false
+  },
+  {
+    quote: "The biggest thing I like about My Business Care Team is your manager. I talk directly to your managing team—they manage the remote staff. That's what I appreciate, it takes it off my plate.",
     author: "Dr. Derek Black",
     title: "Owner",
     company: "Multi-Location Practice",
@@ -39,38 +48,30 @@ export const testimonials: Testimonial[] = [
     featured: false
   },
   {
-    quote: "Patient scheduling improved by 40% and we've never missed a call. 24/7 operations transformed how we operate.",
-    author: "Dr. Patel",
+    quote: "Turnover especially at the front desk is daunting. When we can systemize and use companies like My Business Care Team, we can hire for personality and take time training on the things we need them to do on the ground level. It's been phenomenal for profitability.",
+    author: "Dr. Bradley Grant",
     title: "Owner",
-    company: "Classic Vision Care",
+    company: "Multi-Location Practice",
     industry: "optometry",
-    initials: "DP",
+    initials: "BG",
     featured: false
   },
   {
-    quote: "I pulled my call reports and was SHOCKED. We were missing 29% of our calls on one given day. They were just going to voicemail.",
-    author: "Beverly Wilburn",
-    title: "Practice Office Manager",
+    quote: "From our first conversation, I felt confident this would be a great opportunity for our business to grow. Nofa and her team trained diligently to learn our office protocols with a nearly flawless transition. I highly recommend My Business Care Team.",
+    author: "Ashley Choate",
+    title: "Manager",
+    company: "Family Eye Clinic (Lafayette, LA)",
     industry: "optometry",
-    initials: "BW",
+    initials: "AC",
     featured: false
   },
   {
-    quote: "We tried a cheap answering service before and it was a disaster—patients complained they felt like numbers. MyBCAT is completely different. They know our Dentrix system inside out and patients think they're in our office.",
-    author: "Dr. Sarah Chen",
+    quote: "I love how quiet the office is now.",
+    author: "Dr. Larry Golson",
     title: "Owner",
-    company: "Smile Design Dental (3 locations)",
-    industry: "dental",
-    initials: "SC",
-    featured: false
-  },
-  {
-    quote: "After getting burned by two different VA services, I was skeptical. But these folks actually understand veterinary—they know the difference between a wellness visit and an urgent case. Our no-show rate dropped 35%.",
-    author: "Dr. Marcus Thompson",
-    title: "Owner",
-    company: "Companion Animal Hospital",
-    industry: "veterinary",
-    initials: "MT",
+    company: "Envision Eyecare",
+    industry: "optometry",
+    initials: "LG",
     featured: false
   }
 ];
