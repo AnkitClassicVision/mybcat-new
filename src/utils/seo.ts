@@ -134,7 +134,7 @@ export function getSitemapPriority(path: string): number {
   if (path.includes('/compare/')) return 0.7;
   if (path.includes('/case-studies/')) return 0.7;
   if (path.includes('/faq/')) return 0.7;
-  if (path.includes('/glossary/')) return 0.5;
+  if (path.includes('/glossary/')) return 0.65;
   if (path.includes('/privacy') || path.includes('/terms') || path.includes('/gdpr')) return 0.3;
   return 0.6;
 }

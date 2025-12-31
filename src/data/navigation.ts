@@ -150,7 +150,8 @@ export const footerNavigation = {
   ],
   legal: [
     { label: 'Privacy Policy', href: '/privacy-policy/' },
-    { label: 'Terms of Service', href: '/terms/' }
+    { label: 'Terms of Service', href: '/terms/' },
+    { label: 'GDPR', href: '/gdpr/' }
   ]
 };
 
