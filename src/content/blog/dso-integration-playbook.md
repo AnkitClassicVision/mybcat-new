@@ -63,17 +63,10 @@ Most DSOs don't have visibility into acquired practice performance until months 
 
 The solution flips the traditional sequence:
 
-**Traditional Approach:**
-```
-PM System Migration → Process Design → Staff Training → Go Live
-Timeline: 12-18 months
-```
-
-**Workflow-First Approach:**
-```
-Process Standardization → Staff Training → Parallel Operations → PM Migration
-Timeline: 90 days to standardized operations
-```
+| Approach | Sequence | Timeline |
+|----------|----------|----------|
+| **Traditional** | PM System Migration → Process Design → Staff Training → Go Live | 12-18 months |
+| **Workflow-First** | Process Standardization → Staff Training → Parallel Operations → PM Migration | **90 days** |
 
 The key insight: **you can standardize intake workflows independent of which PM system the practice uses.** Dentrix, Eaglesoft, Open Dental—the phone still rings, patients still need appointments, and someone still needs to answer.
 
