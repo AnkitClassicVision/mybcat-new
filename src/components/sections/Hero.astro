@@ -639,6 +639,7 @@ const icons: Record<string, string> = {
 
     .hero-visual {
       order: 1;
+      width: 100%;
       aspect-ratio: 16/9;
       max-width: 100%;
       margin: 0 auto;
@@ -650,6 +651,9 @@ const icons: Record<string, string> = {
   }
 
   @media (max-width: 768px) {
+    .hero-visual {
+      width: 100%;
+    }
     .spatial-hero-inner {
       padding: 28px 20px;
       gap: 28px;
