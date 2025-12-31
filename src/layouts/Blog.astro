@@ -2,6 +2,7 @@
 import Base from './Base.astro';
 import AuthorBio from '@/components/blog/AuthorBio.astro';
 import RelatedPosts from '@/components/blog/RelatedPosts.astro';
+import InContentCTA from '@/components/blog/InContentCTA.astro';
 import { generateArticleSchema, generateBreadcrumbSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
 import type { CollectionEntry } from 'astro:content';
@@ -86,9 +87,66 @@ const authorInfo = authorData[author] || { role: '', image: '' };
       </div>
     )}
 
-    <div class="post-content prose">
+    <div class="post-content prose" id="blog-content">
       <slot />
     </div>
+
+    <!-- Hidden CTA template for injection before Key Takeaways -->
+    <template id="in-content-cta-template">
+      <InContentCTA />
+    </template>
+
+    <script>
+      // Inject CTA before Key Takeaways section
+      document.addEventListener('DOMContentLoaded', () => {
+        const content = document.getElementById('blog-content');
+        if (!content) return;
+
+        // Find h2 elements that contain "Key Takeaways" or "Takeaways"
+        const headings = content.querySelectorAll('h2');
+        let targetHeading: Element | null = null;
+
+        headings.forEach((h2) => {
+          const text = h2.textContent?.toLowerCase() || '';
+          if (text.includes('key takeaway') || text.includes('takeaway') || text.includes('conclusion')) {
+            if (!targetHeading) targetHeading = h2;
+          }
+        });
+
+        // If no takeaways section, try to find Related Resources or FAQ
+        if (!targetHeading) {
+          headings.forEach((h2) => {
+            const text = h2.textContent?.toLowerCase() || '';
+            if (text.includes('related') || text.includes('faq') || text.includes('frequently asked')) {
+              if (!targetHeading) targetHeading = h2;
+            }
+          });
+        }
+
+        // Create and inject the CTA if we found a target
+        if (targetHeading) {
+          const ctaWrapper = document.createElement('div');
+          ctaWrapper.className = 'injected-cta';
+          ctaWrapper.innerHTML = `
+            <aside class="in-content-cta" role="complementary" aria-label="Call to action">
+              <div class="cta-inner">
+                <div class="cta-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="cta-text">
+                  <h3 class="cta-title">Reduce Your Front Desk Dependency</h3>
+                  <p class="cta-description">MyBCAT helps multi-location healthcare groups build resilient intake operations that don't break when staffing is tight.</p>
+                </div>
+                <a href="/contact/" class="cta-button-inline">Schedule a Consultation</a>
+              </div>
+            </aside>
+          `;
+          targetHeading.parentNode?.insertBefore(ctaWrapper, targetHeading);
+        }
+      });
+    </script>
 
     {tags && tags.length > 0 && (
       <footer class="post-footer">
@@ -239,128 +297,330 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     display: block;
   }
 
-  /* Prose styling for Markdown content */
+  /* Enhanced Prose styling for Markdown content */
   .prose {
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     line-height: 1.8;
     color: var(--text-primary);
   }
 
-  .prose :global(h2) {
-    font-size: 1.75rem;
-    font-weight: 700;
+  /* Lead Paragraph - The Hook */
+  .prose > :global(p:first-of-type) {
+    font-size: 1.3rem;
+    line-height: 1.6;
     color: var(--navy-900);
-    margin-top: 48px;
-    margin-bottom: 16px;
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+
+  /* Headings that Pop */
+  .prose :global(h2) {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-top: 3.5rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--glass-border);
+    position: relative;
+  }
+
+  .prose :global(h2)::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: var(--oceanic-teal);
   }
 
   .prose :global(h3) {
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     font-weight: 700;
-    color: var(--navy-900);
-    margin-top: 36px;
-    margin-bottom: 12px;
+    color: var(--navy-800);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 4px solid var(--electric-aqua);
   }
 
   .prose :global(h4) {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    color: var(--navy-900);
-    margin-top: 28px;
-    margin-bottom: 8px;
+    color: var(--navy-700);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
   }
 
+  /* Body Text & Links */
   .prose :global(p) {
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
     color: var(--text-secondary);
   }
 
   .prose :global(a) {
     color: var(--oceanic-teal);
-    text-decoration: underline;
-    text-underline-offset: 2px;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 96, 100, 0.2);
+    transition: all 0.2s ease;
+    font-weight: 500;
   }
 
   .prose :global(a:hover) {
-    color: var(--teal-600);
+    color: var(--navy-900);
+    border-bottom-color: var(--electric-aqua);
+    background: rgba(77, 208, 225, 0.1);
   }
 
   .prose :global(strong) {
-    font-weight: 600;
+    font-weight: 700;
     color: var(--navy-900);
   }
 
+  /* Engaging Lists */
   .prose :global(ul),
   .prose :global(ol) {
-    margin-bottom: 20px;
-    padding-left: 24px;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
   }
 
   .prose :global(li) {
-    margin-bottom: 8px;
+    margin-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    position: relative;
     color: var(--text-secondary);
   }
 
-  .prose :global(blockquote) {
-    border-left: 4px solid var(--oceanic-teal);
-    padding-left: 20px;
-    margin: 32px 0;
-    font-style: italic;
-    color: var(--navy-800);
+  .prose :global(ul li)::marker {
+    color: var(--oceanic-teal);
+    font-weight: bold;
   }
 
+  .prose :global(ol li)::marker {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+  }
+
+  /* Enhanced Blockquotes */
+  .prose :global(blockquote) {
+    border-left: 4px solid var(--oceanic-teal);
+    background: linear-gradient(to right, rgba(0, 96, 100, 0.06), transparent);
+    padding: 24px 32px;
+    margin: 2.5rem 0;
+    font-style: italic;
+    color: var(--navy-800);
+    border-radius: 0 12px 12px 0;
+    font-size: 1.15rem;
+  }
+
+  .prose :global(blockquote p) {
+    margin-bottom: 0;
+  }
+
+  /* Code Blocks */
   .prose :global(code) {
-    background: var(--glass-navy);
+    background: var(--cream-100, #f5f5f5);
+    color: var(--navy-900);
     padding: 2px 6px;
     border-radius: 4px;
     font-family: 'Space Mono', monospace;
     font-size: 0.9em;
+    border: 1px solid var(--cream-200, #e5e5e5);
   }
 
   .prose :global(pre) {
     background: var(--navy-900);
     color: var(--cream-200);
-    padding: 20px;
+    padding: 24px;
     border-radius: 12px;
     overflow-x: auto;
-    margin: 24px 0;
+    margin: 2rem 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   }
 
   .prose :global(pre code) {
     background: none;
     padding: 0;
+    border: none;
   }
 
+  /* Modern Tables */
   .prose :global(table) {
     width: 100%;
-    border-collapse: collapse;
-    margin: 24px 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2.5rem 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    font-size: 1rem;
   }
 
   .prose :global(th),
   .prose :global(td) {
-    padding: 12px 16px;
-    border: 1px solid var(--glass-border);
+    padding: 16px 20px;
     text-align: left;
+    border-bottom: 1px solid var(--glass-border);
   }
 
   .prose :global(th) {
-    background: var(--glass-navy);
+    background: var(--navy-900);
+    color: white;
     font-weight: 600;
-    color: var(--navy-900);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    border-bottom: none;
   }
 
+  .prose :global(tr:last-child td) {
+    border-bottom: none;
+  }
+
+  .prose :global(tbody tr:nth-child(even)) {
+    background-color: rgba(0, 96, 100, 0.03);
+  }
+
+  .prose :global(tbody tr:hover td) {
+    background-color: rgba(0, 96, 100, 0.06);
+  }
+
+  /* Images */
   .prose :global(img) {
     max-width: 100%;
     height: auto;
-    border-radius: 12px;
-    margin: 24px 0;
+    border-radius: 16px;
+    margin: 2.5rem 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--glass-border);
   }
 
   .prose :global(hr) {
     border: none;
-    border-top: 1px solid var(--glass-border);
-    margin: 40px 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--glass-border), transparent);
+    margin: 3.5rem 0;
+  }
+
+  /* In-Content CTA Styles (for injected CTA) */
+  .prose :global(.in-content-cta),
+  .injected-cta .in-content-cta {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: linear-gradient(135deg, var(--navy-900) 0%, rgba(0, 96, 100, 0.9) 100%);
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .prose :global(.in-content-cta)::before,
+  .injected-cta .in-content-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(77, 208, 225, 0.15) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .prose :global(.cta-inner),
+  .injected-cta .cta-inner {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .prose :global(.cta-icon),
+  .injected-cta .cta-icon {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    background: rgba(77, 208, 225, 0.15);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--electric-aqua);
+  }
+
+  .prose :global(.cta-text),
+  .injected-cta .cta-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .prose :global(.cta-title),
+  .injected-cta .cta-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.3;
+    border: none;
+    padding: 0;
+  }
+
+  .prose :global(.cta-title)::after,
+  .injected-cta .cta-title::after {
+    display: none;
+  }
+
+  .prose :global(.cta-description),
+  .injected-cta .cta-description {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .prose :global(.cta-button-inline),
+  .injected-cta .cta-button-inline {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background: var(--electric-aqua);
+    color: var(--navy-900);
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    border: none;
+  }
+
+  .prose :global(.cta-button-inline:hover),
+  .injected-cta .cta-button-inline:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(77, 208, 225, 0.3);
+  }
+
+  @media (max-width: 768px) {
+    .prose :global(.cta-inner),
+    .injected-cta .cta-inner {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.25rem;
+    }
+
+    .prose :global(.cta-icon),
+    .injected-cta .cta-icon {
+      width: 48px;
+      height: 48px;
+    }
+
+    .prose :global(.cta-button-inline),
+    .injected-cta .cta-button-inline {
+      width: 100%;
+    }
   }
 
   .post-footer {

@@ -1,0 +1,142 @@
+---
+/**
+ * InContentCTA Component
+ * Call-to-action box that appears before Key Takeaways in blog posts
+ * Matches the site's teal/navy color scheme
+ */
+
+interface Props {
+  title?: string;
+  description?: string;
+  buttonText?: string;
+  buttonHref?: string;
+}
+
+const {
+  title = "Reduce Your Front Desk Dependency",
+  description = "MyBCAT helps multi-location healthcare groups build resilient intake operations that don't break when staffing is tight.",
+  buttonText = "Schedule a Consultation",
+  buttonHref = "/contact/"
+} = Astro.props;
+---
+
+<aside class="in-content-cta" role="complementary" aria-label="Call to action">
+  <div class="cta-inner">
+    <div class="cta-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+    </div>
+    <div class="cta-text">
+      <h3 class="cta-title">{title}</h3>
+      <p class="cta-description">{description}</p>
+    </div>
+    <a href={buttonHref} class="cta-button">{buttonText}</a>
+  </div>
+</aside>
+
+<style>
+  .in-content-cta {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: linear-gradient(135deg, var(--navy-900, #1A242C) 0%, rgba(0, 96, 100, 0.9) 100%);
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .in-content-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(77, 208, 225, 0.15) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .cta-inner {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cta-icon {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    background: rgba(77, 208, 225, 0.15);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--electric-aqua, #4DD0E1);
+  }
+
+  .cta-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .cta-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.3;
+  }
+
+  .cta-description {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .cta-button {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background: var(--electric-aqua, #4DD0E1);
+    color: var(--navy-900, #1A242C);
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+  }
+
+  .cta-button:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(77, 208, 225, 0.3);
+  }
+
+  @media (max-width: 768px) {
+    .cta-inner {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.25rem;
+    }
+
+    .cta-icon {
+      width: 48px;
+      height: 48px;
+    }
+
+    .cta-icon svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .cta-button {
+      width: 100%;
+    }
+  }
+</style>
