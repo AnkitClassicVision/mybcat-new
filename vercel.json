@@ -780,6 +780,1886 @@
       "source": "/virtual-team-solutions-for-you/",
       "destination": "/blog/virtual-team-solutions-for-you-2/",
       "permanent": true
+    },
+    {
+      "source": "/5-signs-youre-ready-to-scale",
+      "destination": "/blog/5-signs-youre-ready-to-scale/",
+      "permanent": true
+    },
+    {
+      "source": "/5-signs-youre-ready-to-scale/",
+      "destination": "/blog/5-signs-youre-ready-to-scale/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-best-patient-care",
+      "destination": "/blog/blog-best-patient-care/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-best-patient-care/",
+      "destination": "/blog/blog-best-patient-care/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-spanish-speaking-agents",
+      "destination": "/blog/blog-spanish-speaking-agents/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-spanish-speaking-agents/",
+      "destination": "/blog/blog-spanish-speaking-agents/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-ensuring-patient-staisfaction",
+      "destination": "/blog/blog-ensuring-patient-staisfaction/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-ensuring-patient-staisfaction/",
+      "destination": "/blog/blog-ensuring-patient-staisfaction/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-when-every-second-counts",
+      "destination": "/blog/blog-when-every-second-counts/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-when-every-second-counts/",
+      "destination": "/blog/blog-when-every-second-counts/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-streamline-practice-remote-staffing",
+      "destination": "/blog/blog-streamline-practice-remote-staffing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-streamline-practice-remote-staffing/",
+      "destination": "/blog/blog-streamline-practice-remote-staffing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-reduce-administrative-cost",
+      "destination": "/blog/blog-reduce-administrative-cost/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-reduce-administrative-cost/",
+      "destination": "/blog/blog-reduce-administrative-cost/",
+      "permanent": true
+    },
+    {
+      "source": "/the-benefits-of-optometry-call-service-partnerships",
+      "destination": "/blog/the-benefits-of-optometry-call-service-partnerships/",
+      "permanent": true
+    },
+    {
+      "source": "/the-benefits-of-optometry-call-service-partnerships/",
+      "destination": "/blog/the-benefits-of-optometry-call-service-partnerships/",
+      "permanent": true
+    },
+    {
+      "source": "/improving-optometry-practice-with-call-service-support",
+      "destination": "/blog/improving-optometry-practice-with-call-service-support/",
+      "permanent": true
+    },
+    {
+      "source": "/improving-optometry-practice-with-call-service-support/",
+      "destination": "/blog/improving-optometry-practice-with-call-service-support/",
+      "permanent": true
+    },
+    {
+      "source": "/ways-to-optimize-efficiency-in-optometrist-offices",
+      "destination": "/blog/ways-to-optimize-efficiency-in-optometrist-offices/",
+      "permanent": true
+    },
+    {
+      "source": "/ways-to-optimize-efficiency-in-optometrist-offices/",
+      "destination": "/blog/ways-to-optimize-efficiency-in-optometrist-offices/",
+      "permanent": true
+    },
+    {
+      "source": "/communicating-better-eye-customer-service-tips",
+      "destination": "/blog/communicating-better-eye-customer-service-tips/",
+      "permanent": true
+    },
+    {
+      "source": "/communicating-better-eye-customer-service-tips/",
+      "destination": "/blog/communicating-better-eye-customer-service-tips/",
+      "permanent": true
+    },
+    {
+      "source": "/a-guide-to-medical-receptionist-service-for-optometry",
+      "destination": "/blog/a-guide-to-medical-receptionist-service-for-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/a-guide-to-medical-receptionist-service-for-optometry/",
+      "destination": "/blog/a-guide-to-medical-receptionist-service-for-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-virtual-receptionist-future-customer-service",
+      "destination": "/blog/optometry-virtual-receptionist-future-customer-service/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-virtual-receptionist-future-customer-service/",
+      "destination": "/blog/optometry-virtual-receptionist-future-customer-service/",
+      "permanent": true
+    },
+    {
+      "source": "/elevate-patient-care-with-eye-health-reception-services",
+      "destination": "/blog/elevate-patient-care-with-eye-health-reception-services/",
+      "permanent": true
+    },
+    {
+      "source": "/elevate-patient-care-with-eye-health-reception-services/",
+      "destination": "/blog/elevate-patient-care-with-eye-health-reception-services/",
+      "permanent": true
+    },
+    {
+      "source": "/handling-emergency-calls-in-optometry-practice",
+      "destination": "/blog/handling-emergency-calls-in-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/handling-emergency-calls-in-optometry-practice/",
+      "destination": "/blog/handling-emergency-calls-in-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-access-elevating-patient-care",
+      "destination": "/blog/optometry-access-elevating-patient-care/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-access-elevating-patient-care/",
+      "destination": "/blog/optometry-access-elevating-patient-care/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-care-answering-service-advantages",
+      "destination": "/blog/optometry-care-answering-service-advantages/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-care-answering-service-advantages/",
+      "destination": "/blog/optometry-care-answering-service-advantages/",
+      "permanent": true
+    },
+    {
+      "source": "/decoding-optometry-call-virtual-vs-traditional",
+      "destination": "/blog/decoding-optometry-call-virtual-vs-traditional/",
+      "permanent": true
+    },
+    {
+      "source": "/decoding-optometry-call-virtual-vs-traditional/",
+      "destination": "/blog/decoding-optometry-call-virtual-vs-traditional/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-call-choosing-patient-centric-support",
+      "destination": "/blog/optometry-call-choosing-patient-centric-support/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-call-choosing-patient-centric-support/",
+      "destination": "/blog/optometry-call-choosing-patient-centric-support/",
+      "permanent": true
+    },
+    {
+      "source": "/leveraging-technology-for-streamlined-call-support",
+      "destination": "/blog/leveraging-technology-for-streamlined-call-support/",
+      "permanent": true
+    },
+    {
+      "source": "/leveraging-technology-for-streamlined-call-support/",
+      "destination": "/blog/leveraging-technology-for-streamlined-call-support/",
+      "permanent": true
+    },
+    {
+      "source": "/handling-challenging-customer-service-situations",
+      "destination": "/blog/handling-challenging-customer-service-situations/",
+      "permanent": true
+    },
+    {
+      "source": "/handling-challenging-customer-service-situations/",
+      "destination": "/blog/handling-challenging-customer-service-situations/",
+      "permanent": true
+    },
+    {
+      "source": "/measuring-and-enhancing-customer-satisfaction",
+      "destination": "/blog/measuring-and-enhancing-customer-satisfaction/",
+      "permanent": true
+    },
+    {
+      "source": "/measuring-and-enhancing-customer-satisfaction/",
+      "destination": "/blog/measuring-and-enhancing-customer-satisfaction/",
+      "permanent": true
+    },
+    {
+      "source": "/the-importance-of-timely-appointment-scheduling",
+      "destination": "/blog/the-importance-of-timely-appointment-scheduling/",
+      "permanent": true
+    },
+    {
+      "source": "/the-importance-of-timely-appointment-scheduling/",
+      "destination": "/blog/the-importance-of-timely-appointment-scheduling/",
+      "permanent": true
+    },
+    {
+      "source": "/optimizing-patient-care-optometry-reception-solutions",
+      "destination": "/blog/optimizing-patient-care-optometry-reception-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/optimizing-patient-care-optometry-reception-solutions/",
+      "destination": "/blog/optimizing-patient-care-optometry-reception-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/optometrist-call-management-a-key-to-patient-service",
+      "destination": "/blog/optometrist-call-management-a-key-to-patient-service/",
+      "permanent": true
+    },
+    {
+      "source": "/optometrist-call-management-a-key-to-patient-service/",
+      "destination": "/blog/optometrist-call-management-a-key-to-patient-service/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-call-services-enhance-customer-experience",
+      "destination": "/blog/optometry-call-services-enhance-customer-experience/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-call-services-enhance-customer-experience/",
+      "destination": "/blog/optometry-call-services-enhance-customer-experience/",
+      "permanent": true
+    },
+    {
+      "source": "/enhance-your-eye-clinics-service-with-call-answering",
+      "destination": "/blog/enhance-your-eye-clinics-service-with-call-answering/",
+      "permanent": true
+    },
+    {
+      "source": "/enhance-your-eye-clinics-service-with-call-answering/",
+      "destination": "/blog/enhance-your-eye-clinics-service-with-call-answering/",
+      "permanent": true
+    },
+    {
+      "source": "/vision-clinic-call-management-tips-for-success",
+      "destination": "/blog/vision-clinic-call-management-tips-for-success/",
+      "permanent": true
+    },
+    {
+      "source": "/vision-clinic-call-management-tips-for-success/",
+      "destination": "/blog/vision-clinic-call-management-tips-for-success/",
+      "permanent": true
+    },
+    {
+      "source": "/benefits-of-a-call-center-for-eye-care-professionals",
+      "destination": "/blog/benefits-of-a-call-center-for-eye-care-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/benefits-of-a-call-center-for-eye-care-professionals/",
+      "destination": "/blog/benefits-of-a-call-center-for-eye-care-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/streamlining-insurance-claim-processing-for-optometric-practices",
+      "destination": "/blog/streamlining-insurance-claim-processing-for-optometric-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/streamlining-insurance-claim-processing-for-optometric-practices/",
+      "destination": "/blog/streamlining-insurance-claim-processing-for-optometric-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/unlocking-efficient-inventory-management-strategies-for-optometry-products",
+      "destination": "/blog/unlocking-efficient-inventory-management-strategies-for-optometry-products/",
+      "permanent": true
+    },
+    {
+      "source": "/unlocking-efficient-inventory-management-strategies-for-optometry-products/",
+      "destination": "/blog/unlocking-efficient-inventory-management-strategies-for-optometry-products/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-reception-elevating-patient-experience",
+      "destination": "/blog/optometry-reception-elevating-patient-experience/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-reception-elevating-patient-experience/",
+      "destination": "/blog/optometry-reception-elevating-patient-experience/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-calls-expert-24-7-virtual-reception",
+      "destination": "/blog/optometry-calls-expert-24-7-virtual-reception/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-calls-expert-24-7-virtual-reception/",
+      "destination": "/blog/optometry-calls-expert-24-7-virtual-reception/",
+      "permanent": true
+    },
+    {
+      "source": "/the-complete-guide-to-running-a-private-optometric-practice",
+      "destination": "/blog/the-complete-guide-to-running-a-private-optometric-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/the-complete-guide-to-running-a-private-optometric-practice/",
+      "destination": "/blog/the-complete-guide-to-running-a-private-optometric-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/strategies-to-uphold-legal-and-regulatory-compliance-in-optometry",
+      "destination": "/blog/strategies-to-uphold-legal-and-regulatory-compliance-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/strategies-to-uphold-legal-and-regulatory-compliance-in-optometry/",
+      "destination": "/blog/strategies-to-uphold-legal-and-regulatory-compliance-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/preserving-your-work-life-balance-while-managing-an-optometry-practice",
+      "destination": "/blog/preserving-your-work-life-balance-while-managing-an-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/preserving-your-work-life-balance-while-managing-an-optometry-practice/",
+      "destination": "/blog/preserving-your-work-life-balance-while-managing-an-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/crafting-a-financially-sustainable-future-for-your-optometry-practice",
+      "destination": "/blog/crafting-a-financially-sustainable-future-for-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/crafting-a-financially-sustainable-future-for-your-optometry-practice/",
+      "destination": "/blog/crafting-a-financially-sustainable-future-for-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/effective-hiring-and-training-strategies-for-optometrists",
+      "destination": "/blog/effective-hiring-and-training-strategies-for-optometrists/",
+      "permanent": true
+    },
+    {
+      "source": "/effective-hiring-and-training-strategies-for-optometrists/",
+      "destination": "/blog/effective-hiring-and-training-strategies-for-optometrists/",
+      "permanent": true
+    },
+    {
+      "source": "/measuring-and-optimizing-patient-production-for-optometric-practices",
+      "destination": "/blog/measuring-and-optimizing-patient-production-for-optometric-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/measuring-and-optimizing-patient-production-for-optometric-practices/",
+      "destination": "/blog/measuring-and-optimizing-patient-production-for-optometric-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/what-to-know-about-joining-an-optometric-buying-group",
+      "destination": "/blog/what-to-know-about-joining-an-optometric-buying-group/",
+      "permanent": true
+    },
+    {
+      "source": "/what-to-know-about-joining-an-optometric-buying-group/",
+      "destination": "/blog/what-to-know-about-joining-an-optometric-buying-group/",
+      "permanent": true
+    },
+    {
+      "source": "/starting-an-optometric-practice-101",
+      "destination": "/blog/starting-an-optometric-practice-101/",
+      "permanent": true
+    },
+    {
+      "source": "/starting-an-optometric-practice-101/",
+      "destination": "/blog/starting-an-optometric-practice-101/",
+      "permanent": true
+    },
+    {
+      "source": "/take-every-step-to-improve-the-patient-experience",
+      "destination": "/blog/take-every-step-to-improve-the-patient-experience/",
+      "permanent": true
+    },
+    {
+      "source": "/take-every-step-to-improve-the-patient-experience/",
+      "destination": "/blog/take-every-step-to-improve-the-patient-experience/",
+      "permanent": true
+    },
+    {
+      "source": "/are-administrative-functions-hurting-your-practice",
+      "destination": "/blog/are-administrative-functions-hurting-your-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/are-administrative-functions-hurting-your-practice/",
+      "destination": "/blog/are-administrative-functions-hurting-your-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/taming-the-review-beast-managing-online-reputations-in-optometry",
+      "destination": "/blog/taming-the-review-beast-managing-online-reputations-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/taming-the-review-beast-managing-online-reputations-in-optometry/",
+      "destination": "/blog/taming-the-review-beast-managing-online-reputations-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/better-call-support-for-your-optometry-practice",
+      "destination": "/blog/better-call-support-for-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/better-call-support-for-your-optometry-practice/",
+      "destination": "/blog/better-call-support-for-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices",
+      "destination": "/blog/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices/",
+      "destination": "/blog/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/maintaining-client-relations-in-your-optometry-practice",
+      "destination": "/blog/maintaining-client-relations-in-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/maintaining-client-relations-in-your-optometry-practice/",
+      "destination": "/blog/maintaining-client-relations-in-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/joining-an-optometric-management-service-organization",
+      "destination": "/blog/joining-an-optometric-management-service-organization/",
+      "permanent": true
+    },
+    {
+      "source": "/joining-an-optometric-management-service-organization/",
+      "destination": "/blog/joining-an-optometric-management-service-organization/",
+      "permanent": true
+    },
+    {
+      "source": "/management-tips-to-simplify-the-optometric-administrative-workload",
+      "destination": "/blog/management-tips-to-simplify-the-optometric-administrative-workload/",
+      "permanent": true
+    },
+    {
+      "source": "/management-tips-to-simplify-the-optometric-administrative-workload/",
+      "destination": "/blog/management-tips-to-simplify-the-optometric-administrative-workload/",
+      "permanent": true
+    },
+    {
+      "source": "/how-ai-is-streamlining-processes-in-eye-care",
+      "destination": "/blog/how-ai-is-streamlining-processes-in-eye-care/",
+      "permanent": true
+    },
+    {
+      "source": "/how-ai-is-streamlining-processes-in-eye-care/",
+      "destination": "/blog/how-ai-is-streamlining-processes-in-eye-care/",
+      "permanent": true
+    },
+    {
+      "source": "/the-optometric-practice-valuation-guide-for-buyers-and-sellers",
+      "destination": "/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/",
+      "permanent": true
+    },
+    {
+      "source": "/the-optometric-practice-valuation-guide-for-buyers-and-sellers/",
+      "destination": "/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/",
+      "permanent": true
+    },
+    {
+      "source": "/guide-for-selling-your-optometry-practice",
+      "destination": "/blog/guide-for-selling-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/guide-for-selling-your-optometry-practice/",
+      "destination": "/blog/guide-for-selling-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/why-capture-rate-matters-for-every-optometry-business",
+      "destination": "/blog/why-capture-rate-matters-for-every-optometry-business/",
+      "permanent": true
+    },
+    {
+      "source": "/why-capture-rate-matters-for-every-optometry-business/",
+      "destination": "/blog/why-capture-rate-matters-for-every-optometry-business/",
+      "permanent": true
+    },
+    {
+      "source": "/is-ai-investment-worth-it-for-your-optometry-clinic",
+      "destination": "/blog/is-ai-investment-worth-it-for-your-optometry-clinic/",
+      "permanent": true
+    },
+    {
+      "source": "/is-ai-investment-worth-it-for-your-optometry-clinic/",
+      "destination": "/blog/is-ai-investment-worth-it-for-your-optometry-clinic/",
+      "permanent": true
+    },
+    {
+      "source": "/navigating-the-ethical-maze-for-ai-in-ophthalmology-and-optometry",
+      "destination": "/blog/navigating-the-ethical-maze-for-ai-in-ophthalmology-and-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/navigating-the-ethical-maze-for-ai-in-ophthalmology-and-optometry/",
+      "destination": "/blog/navigating-the-ethical-maze-for-ai-in-ophthalmology-and-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/ideal-labor-costs-for-optometry-offices",
+      "destination": "/blog/ideal-labor-costs-for-optometry-offices/",
+      "permanent": true
+    },
+    {
+      "source": "/ideal-labor-costs-for-optometry-offices/",
+      "destination": "/blog/ideal-labor-costs-for-optometry-offices/",
+      "permanent": true
+    },
+    {
+      "source": "/embracing-cultural-sensitivity-in-optometry-care",
+      "destination": "/blog/embracing-cultural-sensitivity-in-optometry-care/",
+      "permanent": true
+    },
+    {
+      "source": "/embracing-cultural-sensitivity-in-optometry-care/",
+      "destination": "/blog/embracing-cultural-sensitivity-in-optometry-care/",
+      "permanent": true
+    },
+    {
+      "source": "/evaluating-the-effectiveness-of-your-optometry-growth-strategy",
+      "destination": "/blog/evaluating-the-effectiveness-of-your-optometry-growth-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/evaluating-the-effectiveness-of-your-optometry-growth-strategy/",
+      "destination": "/blog/evaluating-the-effectiveness-of-your-optometry-growth-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic",
+      "destination": "/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic/",
+      "destination": "/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic/",
+      "permanent": true
+    },
+    {
+      "source": "/vital-role-of-inbound-call-services-for-optometrists",
+      "destination": "/blog/vital-role-of-inbound-call-services-for-optometrists/",
+      "permanent": true
+    },
+    {
+      "source": "/vital-role-of-inbound-call-services-for-optometrists/",
+      "destination": "/blog/vital-role-of-inbound-call-services-for-optometrists/",
+      "permanent": true
+    },
+    {
+      "source": "/patient-retention-and-acquisition-strategies-for-your-optometry-practice",
+      "destination": "/blog/patient-retention-and-acquisition-strategies-for-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/patient-retention-and-acquisition-strategies-for-your-optometry-practice/",
+      "destination": "/blog/patient-retention-and-acquisition-strategies-for-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/enhancing-patient-communication-in-your-eye-clinic",
+      "destination": "/blog/enhancing-patient-communication-in-your-eye-clinic/",
+      "permanent": true
+    },
+    {
+      "source": "/enhancing-patient-communication-in-your-eye-clinic/",
+      "destination": "/blog/enhancing-patient-communication-in-your-eye-clinic/",
+      "permanent": true
+    },
+    {
+      "source": "/scaling-up-operations-to-grow-your-eye-care-clinic",
+      "destination": "/blog/scaling-up-operations-to-grow-your-eye-care-clinic/",
+      "permanent": true
+    },
+    {
+      "source": "/scaling-up-operations-to-grow-your-eye-care-clinic/",
+      "destination": "/blog/scaling-up-operations-to-grow-your-eye-care-clinic/",
+      "permanent": true
+    },
+    {
+      "source": "/outsourcing-as-a-business-growth-strategy-for-eye-care-clinics",
+      "destination": "/blog/outsourcing-as-a-business-growth-strategy-for-eye-care-clinics/",
+      "permanent": true
+    },
+    {
+      "source": "/outsourcing-as-a-business-growth-strategy-for-eye-care-clinics/",
+      "destination": "/blog/outsourcing-as-a-business-growth-strategy-for-eye-care-clinics/",
+      "permanent": true
+    },
+    {
+      "source": "/conducting-a-cost-benefit-analysis-of-bpo-in-optometry",
+      "destination": "/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/conducting-a-cost-benefit-analysis-of-bpo-in-optometry/",
+      "destination": "/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice",
+      "destination": "/blog/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice/",
+      "destination": "/blog/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/successfully-transitioning-to-a-bpo-model-in-optometry",
+      "destination": "/blog/successfully-transitioning-to-a-bpo-model-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/successfully-transitioning-to-a-bpo-model-in-optometry/",
+      "destination": "/blog/successfully-transitioning-to-a-bpo-model-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice",
+      "destination": "/blog/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice/",
+      "destination": "/blog/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/the-role-of-call-support-in-patient-satisfaction",
+      "destination": "/blog/the-role-of-call-support-in-patient-satisfaction/",
+      "permanent": true
+    },
+    {
+      "source": "/the-role-of-call-support-in-patient-satisfaction/",
+      "destination": "/blog/the-role-of-call-support-in-patient-satisfaction/",
+      "permanent": true
+    },
+    {
+      "source": "/how-technology-is-boosting-operational-efficiency-in-optometry",
+      "destination": "/blog/how-technology-is-boosting-operational-efficiency-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/how-technology-is-boosting-operational-efficiency-in-optometry/",
+      "destination": "/blog/how-technology-is-boosting-operational-efficiency-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/why-your-optometry-needs-a-booking-service",
+      "destination": "/blog/why-your-optometry-needs-a-booking-service/",
+      "permanent": true
+    },
+    {
+      "source": "/why-your-optometry-needs-a-booking-service/",
+      "destination": "/blog/why-your-optometry-needs-a-booking-service/",
+      "permanent": true
+    },
+    {
+      "source": "/pros-of-inbound-call-services-for-optometrists",
+      "destination": "/blog/pros-of-inbound-call-services-for-optometrists/",
+      "permanent": true
+    },
+    {
+      "source": "/pros-of-inbound-call-services-for-optometrists/",
+      "destination": "/blog/pros-of-inbound-call-services-for-optometrists/",
+      "permanent": true
+    },
+    {
+      "source": "/operational-efficiency-in-optometry-seeing-the-bigger-picture",
+      "destination": "/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture/",
+      "permanent": true
+    },
+    {
+      "source": "/operational-efficiency-in-optometry-seeing-the-bigger-picture/",
+      "destination": "/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture/",
+      "permanent": true
+    },
+    {
+      "source": "/streamlining-your-practice-with-appointment-setting",
+      "destination": "/blog/streamlining-your-practice-with-appointment-setting/",
+      "permanent": true
+    },
+    {
+      "source": "/streamlining-your-practice-with-appointment-setting/",
+      "destination": "/blog/streamlining-your-practice-with-appointment-setting/",
+      "permanent": true
+    },
+    {
+      "source": "/streamlining-patient-intake-for-eye-care-practices",
+      "destination": "/blog/streamlining-patient-intake-for-eye-care-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/streamlining-patient-intake-for-eye-care-practices/",
+      "destination": "/blog/streamlining-patient-intake-for-eye-care-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-leverage-outsourcing-in-your-eye-care-practice",
+      "destination": "/blog/how-to-leverage-outsourcing-in-your-eye-care-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-leverage-outsourcing-in-your-eye-care-practice/",
+      "destination": "/blog/how-to-leverage-outsourcing-in-your-eye-care-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/avoid-outsourcing-mistakes-in-optometry",
+      "destination": "/blog/avoid-outsourcing-mistakes-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/avoid-outsourcing-mistakes-in-optometry/",
+      "destination": "/blog/avoid-outsourcing-mistakes-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology",
+      "destination": "/blog/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology/",
+      "permanent": true
+    },
+    {
+      "source": "/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology/",
+      "destination": "/blog/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-train-virtual-assistants-for-your-eye-care-practice",
+      "destination": "/blog/how-to-train-virtual-assistants-for-your-eye-care-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-train-virtual-assistants-for-your-eye-care-practice/",
+      "destination": "/blog/how-to-train-virtual-assistants-for-your-eye-care-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/ensuring-compliance-and-security-with-your-outsourced-customer-service-team-2",
+      "destination": "/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team-2/",
+      "permanent": true
+    },
+    {
+      "source": "/ensuring-compliance-and-security-with-your-outsourced-customer-service-team-2/",
+      "destination": "/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team-2/",
+      "permanent": true
+    },
+    {
+      "source": "/ensuring-compliance-and-security-with-your-outsourced-customer-service-team",
+      "destination": "/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team/",
+      "permanent": true
+    },
+    {
+      "source": "/ensuring-compliance-and-security-with-your-outsourced-customer-service-team/",
+      "destination": "/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team/",
+      "permanent": true
+    },
+    {
+      "source": "/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices",
+      "destination": "/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices/",
+      "destination": "/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care",
+      "destination": "/blog/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care/",
+      "permanent": true
+    },
+    {
+      "source": "/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care/",
+      "destination": "/blog/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care/",
+      "permanent": true
+    },
+    {
+      "source": "/weighing-the-costs-and-benefits-of-outsourcing-customer-service-in-ophthalmology-and-optometry",
+      "destination": "/blog/weighing-the-costs-and-benefits-of-outsourcing-customer-service-in-ophthalmology-and-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/weighing-the-costs-and-benefits-of-outsourcing-customer-service-in-ophthalmology-and-optometry/",
+      "destination": "/blog/weighing-the-costs-and-benefits-of-outsourcing-customer-service-in-ophthalmology-and-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/benefits-of-hiring-remote-workers-for-optometry-business",
+      "destination": "/blog/benefits-of-hiring-remote-workers-for-optometry-business/",
+      "permanent": true
+    },
+    {
+      "source": "/benefits-of-hiring-remote-workers-for-optometry-business/",
+      "destination": "/blog/benefits-of-hiring-remote-workers-for-optometry-business/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/1",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/1/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/11",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/11/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/15",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/15/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/18",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/18/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/22",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/22/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/26",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/26/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/27",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/27/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/31",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/31/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/33",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/33/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/34",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/34/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/35",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/35/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/36",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/36/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/37",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/37/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/41",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/41/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/45",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/45/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/49",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/49/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/52",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/52/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/56",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/56/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/60",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/60/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/63",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/63/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/67",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/67/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/68",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/68/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/69",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/69/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/73",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/73/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/77",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/77/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/80",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/80/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/82",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/82/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/83",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/83/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/87",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/87/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/91",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/91/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/93",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/93/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/96",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/96/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/99",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/99/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/100",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/100/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/102",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/102/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/106",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/106/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/109",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/109/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/113",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/113/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/114",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/114/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/12",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/12/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/13",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/13/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/14",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/14/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/16",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/16/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/17",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/17/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/19",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/19/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/20",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/20/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/21",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/21/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/23",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/23/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/24",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/24/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/25",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/25/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/28",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/28/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/29",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/29/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/30",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/30/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/32",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/32/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/38",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/38/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/39",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/39/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/40",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/40/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/42",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/42/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/43",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/43/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/44",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/44/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/46",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/46/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/47",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/47/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/48",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/48/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/50",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/50/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/51",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/51/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/53",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/53/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/54",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/54/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/55",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/55/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/57",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/57/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/58",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/58/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/59",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/59/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/61",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/61/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/62",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/62/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/64",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/64/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/65",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/65/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/66",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/66/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/70",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/70/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/71",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/71/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/72",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/72/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/74",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/74/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/75",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/75/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/76",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/76/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/78",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/78/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/79",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/79/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/81",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/81/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/84",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/84/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/85",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/85/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/86",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/86/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/88",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/88/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/89",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/89/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/90",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/90/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/92",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/92/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/94",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/94/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/95",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/95/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/97",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/97/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/98",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/98/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/101",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/101/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/103",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/103/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/104",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/104/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/107",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/107/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/108",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/108/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/110",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/110/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/111",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/111/",
+      "destination": "/blog/",
+      "permanent": true
     }
   ]
 }
