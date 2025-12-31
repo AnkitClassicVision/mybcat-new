@@ -26,21 +26,30 @@ const speedMap = {
 
 <section class="logo-marquee-section" style={`--animation-speed: ${speedMap[speed]}`}>
   <div class="marquee-label">{title}</div>
-  <div class="marquee-track">
-    {/* First set */}
-    {logos.map((logo: ClientLogo) => (
-      <img src={logo.src} alt={logo.alt} class="marquee-logo" width="180" height="60" loading="eager" decoding="async" />
-    ))}
-    {/* Second set (duplicate for infinite scroll) */}
-    {logos.map((logo: ClientLogo) => (
-      <img src={logo.src} alt={logo.alt} class="marquee-logo" width="180" height="60" loading="eager" decoding="async" />
-    ))}
-    {/* Third set (duplicate for seamless loop) */}
-    {logos.map((logo: ClientLogo) => (
-      <img src={logo.src} alt={logo.alt} class="marquee-logo" width="180" height="60" loading="eager" decoding="async" />
+  <div class="marquee-track" id="logoMarqueeTrack">
+    {/* Only load logos once - JS will clone for infinite scroll */}
+    {logos.map((logo: ClientLogo, index: number) => (
+      <img
+        src={logo.src}
+        alt={logo.alt}
+        class="marquee-logo"
+        width="180"
+        height="60"
+        loading={index < 5 ? "eager" : "lazy"}
+        decoding="async"
+      />
     ))}
   </div>
 </section>
+
+<script>
+  // Clone logos for infinite scroll effect (avoids loading 30 images)
+  const track = document.getElementById('logoMarqueeTrack');
+  if (track) {
+    const logos = track.innerHTML;
+    track.innerHTML = logos + logos + logos;
+  }
+</script>
 
 <style>
   .logo-marquee-section {
