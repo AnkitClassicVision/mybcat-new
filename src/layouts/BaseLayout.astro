@@ -58,8 +58,11 @@ const isHomepage = pathname === '/';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {/* Critical CSS - inlined for faster FCP (fonts defined in global.css) */}
+  {/* Critical CSS - inlined for faster FCP */}
   <style is:inline>
+    @font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:fallback;src:url('/fonts/inter-latin-400-normal.woff2') format('woff2')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:fallback;src:url('/fonts/inter-latin-700-normal.woff2') format('woff2')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:800;font-display:fallback;src:url('/fonts/inter-latin-800-normal.woff2') format('woff2')}
     :root{--deep-slate:#27343C;--oceanic-teal:#006064;--navy-900:#1A242C;--navy-800:#27343C;--copper-500:#4DD0E1;--spatial-bg:#F4F6F8;--spatial-glass:rgba(255,255,255,0.82);--glass-border:rgba(39,52,60,0.12);--text-primary:#27343C;--text-secondary:#475462;--cream-200:#D8DFE4}
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     html{-webkit-text-size-adjust:100%;font-family:'Inter',system-ui,-apple-system,sans-serif}
@@ -121,10 +124,10 @@ const isHomepage = pathname === '/';
     <meta property="article:author" content={author}>
   )}
 
-  <!-- Self-hosted fonts - preload critical weights only (400 for body, 700 for headings) -->
-  <!-- Other weights (600, 800) load on-demand via @font-face in global.css -->
+  <!-- Self-hosted fonts - preload critical weights (400 body, 700 headings, 800 hero) -->
   <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/inter-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 
   <!-- DNS prefetch for third-party resources -->
   <link rel="dns-prefetch" href="https://js.hsforms.net">
