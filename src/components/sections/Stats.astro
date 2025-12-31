@@ -7,14 +7,16 @@
 interface Stat {
   value: string;
   label: string;
+  suffix?: string;
 }
 
 interface Props {
-  headline: string;
+  headline?: string;
   headlineColor?: 'gold' | 'teal' | 'copper';
   description?: string;
   stats?: Stat[];
-  variant?: 'single' | 'multi';
+  items?: Stat[];
+  variant?: 'single' | 'multi' | 'compact';
 }
 
 const {
@@ -22,8 +24,12 @@ const {
   headlineColor = 'gold',
   description,
   stats = [],
+  items = [],
   variant = 'single'
 } = Astro.props;
+
+// Support both 'stats' and 'items' prop names
+const statItems = stats.length > 0 ? stats : items;
 
 const colorMap = {
   gold: 'var(--revenue-gold)',
@@ -53,11 +59,24 @@ const borderMap = {
       <div class="stat-number">{headline}</div>
       {description && <div class="stat-label">{description}</div>}
     </div>
+  ) : variant === 'compact' ? (
+    <div class="stat-grid compact">
+      {statItems.map(stat => (
+        <div class="stat-item">
+          <div class="stat-value">
+            {stat.value}{stat.suffix && <span class="stat-suffix">{stat.suffix}</span>}
+          </div>
+          <div class="stat-label">{stat.label}</div>
+        </div>
+      ))}
+    </div>
   ) : (
     <div class="stat-grid">
-      {stats.map(stat => (
+      {statItems.map(stat => (
         <div class="stat-item">
-          <div class="stat-value">{stat.value}</div>
+          <div class="stat-value">
+            {stat.value}{stat.suffix && <span class="stat-suffix">{stat.suffix}</span>}
+          </div>
           <div class="stat-label">{stat.label}</div>
         </div>
       ))}
@@ -119,10 +138,48 @@ const borderMap = {
     color: var(--text-secondary);
   }
 
+  .stat-suffix {
+    font-size: 0.5em;
+    font-weight: 600;
+    margin-left: 2px;
+  }
+
+  /* Compact variant */
+  .stat-grid.compact {
+    padding: 24px 32px;
+    gap: 16px;
+  }
+
+  .stat-grid.compact .stat-item {
+    padding: 12px;
+  }
+
+  .stat-grid.compact .stat-value {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+  }
+
   @media (max-width: 768px) {
     .stat-grid {
       grid-template-columns: 1fr;
       padding: 24px;
+    }
+
+    .stat-grid.compact {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 16px;
+      gap: 8px;
+    }
+
+    .stat-grid.compact .stat-item {
+      padding: 8px;
+    }
+
+    .stat-grid.compact .stat-value {
+      font-size: 1.25rem;
+    }
+
+    .stat-grid.compact .stat-label {
+      font-size: 0.75rem;
     }
   }
 </style>
