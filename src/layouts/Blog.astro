@@ -2,6 +2,8 @@
 import Base from './Base.astro';
 import AuthorBio from '@/components/blog/AuthorBio.astro';
 import RelatedPosts from '@/components/blog/RelatedPosts.astro';
+import { generateArticleSchema, generateBreadcrumbSchema, combineSchemas, serializeSchema } from '@/utils/schema';
+import { company } from '@data/company';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -10,6 +12,27 @@ interface Props {
 
 const { post } = Astro.props;
 const { title, description, publishDate, author, category, tags, featuredImage, relatedPosts } = post.data;
+
+// Generate Article schema for SEO
+const articleUrl = `${company.site.url}/blog/${post.slug}/`;
+const articleSchema = generateArticleSchema({
+  headline: title,
+  description: description,
+  image: featuredImage || '/images/blog/default.png',
+  author: author,
+  authorUrl: author === 'Ankit Patel' ? `${company.site.url}/about/` : undefined,
+  datePublished: publishDate.toISOString(),
+  url: articleUrl,
+  section: category,
+  keywords: tags,
+});
+
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Blog', url: `${company.site.url}/blog/` },
+  { name: title }
+]);
+
+const schema = combineSchemas(articleSchema, breadcrumbSchema);
 
 // Calculate reading time (rough estimate: 200 words per minute)
 const content = post.body || '';
@@ -34,6 +57,7 @@ const authorInfo = authorData[author] || { role: '', image: '' };
   publishDate={publishDate}
   author={author}
 >
+  <script slot="head" type="application/ld+json" set:html={serializeSchema(schema)} />
   <article class="blog-post">
     <header class="post-header">
       <div class="post-meta">
