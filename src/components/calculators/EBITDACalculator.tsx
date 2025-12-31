@@ -12,12 +12,14 @@ function formatPercent(num: number): string {
 
 export default function EBITDACalculator() {
   const [revenue, setRevenue] = useState(10000000);
-  const [locations, setLocations] = useState(10);
   const [currentMargin, setCurrentMargin] = useState(15);
   const [currentAnswerRate, setCurrentAnswerRate] = useState(70);
   const [targetAnswerRate, setTargetAnswerRate] = useState(95);
   const [newPatientPercent, setNewPatientPercent] = useState(35);
   const [multiple, setMultiple] = useState(5);
+
+  // Ensure target is always >= current + 1
+  const effectiveTargetRate = Math.max(targetAnswerRate, currentAnswerRate + 1);
 
   const [results, setResults] = useState({
     currentEBITDA: 0,
@@ -33,12 +35,16 @@ export default function EBITDACalculator() {
   useEffect(() => {
     const currentEBITDA = revenue * (currentMargin / 100);
 
-    // Revenue recovered = Revenue x New Patient % x (Target Rate - Current Rate) / Current Rate x 0.5 conversion factor
-    const rateImprovement = (targetAnswerRate - currentAnswerRate) / 100;
+    // Revenue recovered formula:
+    // - Assumes new patient revenue scales with answered call volume
+    // - 0.5 conversion factor: ~50% of incremental answered calls convert to patients
+    // - Only applies to phone-driven new patient revenue (not online bookings/referrals)
+    const rateImprovement = (effectiveTargetRate - currentAnswerRate) / 100;
     const newPatientRevenue = revenue * (newPatientPercent / 100);
     const revenueRecovered = newPatientRevenue * (rateImprovement / (currentAnswerRate / 100)) * 0.5;
 
-    // EBITDA improvement (25% flow-through)
+    // EBITDA improvement: 25% flow-through rate
+    // Conservative estimate - actual flow-through varies by practice capacity and cost structure
     const ebitdaImprovement = revenueRecovered * 0.25;
 
     const newEBITDA = currentEBITDA + ebitdaImprovement;
@@ -47,8 +53,11 @@ export default function EBITDACalculator() {
     // Valuation increase
     const valuationIncrease = ebitdaImprovement * multiple;
 
-    // 3-year cumulative (with 5% annual growth)
-    const threeYearImpact = ebitdaImprovement + (ebitdaImprovement * 1.05) + (ebitdaImprovement * 1.1);
+    // 3-year cumulative with 5% annual compounding growth
+    const year1 = ebitdaImprovement;
+    const year2 = ebitdaImprovement * 1.05;
+    const year3 = ebitdaImprovement * 1.05 * 1.05; // Proper compounding
+    const threeYearImpact = year1 + year2 + year3;
 
     // Monthly investment threshold for 3x ROI
     const monthlyThreshold = (ebitdaImprovement / 12) / 3;
@@ -63,7 +72,7 @@ export default function EBITDACalculator() {
       threeYearImpact: Math.round(threeYearImpact),
       monthlyThreshold: Math.round(monthlyThreshold)
     });
-  }, [revenue, locations, currentMargin, currentAnswerRate, targetAnswerRate, newPatientPercent, multiple]);
+  }, [revenue, currentMargin, currentAnswerRate, effectiveTargetRate, newPatientPercent, multiple]);
 
   const inputCardStyle = {
     background: 'white',
@@ -118,25 +127,6 @@ export default function EBITDACalculator() {
             <div style={rangeLabelsStyle}>
               <span>$500K</span>
               <span>$50M</span>
-            </div>
-          </div>
-
-          {/* Locations */}
-          <div style={inputCardStyle}>
-            <label style={labelStyle}>
-              Number of Locations: <span style={{ color: '#006064', fontWeight: 700 }}>{locations}</span>
-            </label>
-            <input
-              type="range"
-              min={1}
-              max={50}
-              value={locations}
-              onChange={(e) => setLocations(Number(e.target.value))}
-              style={sliderStyle}
-            />
-            <div style={rangeLabelsStyle}>
-              <span>1</span>
-              <span>50+</span>
             </div>
           </div>
 
@@ -297,8 +287,9 @@ export default function EBITDACalculator() {
             </div>
           </div>
 
-          <p style={{ margin: '20px 0 0', fontSize: '12px', color: 'rgba(255,255,255,0.5)', textAlign: 'center' }}>
-            *Maximum monthly spend to achieve 3x ROI | Based on 25% EBITDA flow-through rate
+          <p style={{ margin: '20px 0 0', fontSize: '11px', color: 'rgba(255,255,255,0.5)', textAlign: 'center', lineHeight: '1.5' }}>
+            *Max monthly spend for 3x ROI | Assumptions: 25% EBITDA flow-through, 50% call-to-patient conversion, phone-driven new patient revenue only.<br/>
+            Actual results vary by practice capacity, payer mix, and cost structure. For precise analysis, use your actual call data.
           </p>
         </div>
       </div>
