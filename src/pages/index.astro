@@ -90,9 +90,9 @@ const clientLogos = [
       ]}
       video={{
         poster: '/videos/final-optimized-landscape.webp',
-        src: '/videos/dittman-optimized.mp4',
-        author: 'Dr. Michael Dittman',
-        title: 'Owner, Dittman Eye Care (Multi-Location Optometry)',
+        youtubeId: 'bp_Rx2tENsI',
+        author: 'Client Testimonial',
+        title: 'See How MyBCAT Transforms Healthcare Practices',
         avatar: '/videos/dittman-headshot-optimized.webp'
       }}
     />
@@ -210,24 +210,6 @@ const clientLogos = [
       title="Live in Days, Not Months"
       eyebrow="Simple Setup"
     />
-
-    <!-- Video Testimonial -->
-    <section class="video-testimonial">
-      <div class="section-intro">
-        <div class="eyebrow">See It In Action</div>
-        <h2>Hear From Our Clients</h2>
-      </div>
-      <div class="video-container">
-        <iframe
-          src="https://www.youtube.com/embed/bp_Rx2tENsI"
-          title="MyBCAT Client Testimonial"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          loading="lazy"
-        ></iframe>
-      </div>
-    </section>
 
     <!-- Social Proof -->
     <Testimonials
@@ -626,29 +608,4 @@ const clientLogos = [
     }
   }
 
-  /* Video Testimonial Section */
-  .video-testimonial {
-    padding: 60px 0;
-  }
-
-  .video-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
-  }
-
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
 </style>

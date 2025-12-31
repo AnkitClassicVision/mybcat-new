@@ -7,7 +7,8 @@ import Button from '@/components/Button.astro';
 
 interface HeroVideo {
   poster: string;
-  src: string;
+  src?: string;
+  youtubeId?: string;
   author: string;
   title: string;
   avatar?: string;
@@ -115,51 +116,66 @@ const icons: Record<string, string> = {
     {video && (
       <div class="hero-visual">
         <div class="hero-video-container">
-          {/* Poster image loads immediately for fast LCP */}
-          <img
-            id="heroPoster"
-            src={video.poster}
-            alt="Video thumbnail"
-            class="hero-poster"
-            width="640"
-            height="400"
-            loading="eager"
-            decoding="sync"
-            fetchpriority="high"
-          />
-          <video
-            id="heroVideo"
-            class="hero-video"
-            poster={video.poster}
-            playsinline
-            webkit-playsinline
-            preload="none"
-            muted
-          >
-            <source data-src={video.src} type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+          {video.youtubeId ? (
+            /* YouTube embed */
+            <iframe
+              class="hero-youtube"
+              src={`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1&mute=1&loop=1&playlist=${video.youtubeId}&controls=1&modestbranding=1&rel=0`}
+              title="Client Testimonial Video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              loading="eager"
+            ></iframe>
+          ) : (
+            /* Self-hosted video */
+            <>
+              <img
+                id="heroPoster"
+                src={video.poster}
+                alt="Video thumbnail"
+                class="hero-poster"
+                width="640"
+                height="400"
+                loading="eager"
+                decoding="sync"
+                fetchpriority="high"
+              />
+              <video
+                id="heroVideo"
+                class="hero-video"
+                poster={video.poster}
+                playsinline
+                webkit-playsinline
+                preload="none"
+                muted
+              >
+                <source data-src={video.src} type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
 
-          <div class="video-overlay-gradient"></div>
+              <div class="video-overlay-gradient"></div>
 
-          <div id="videoPlayOverlay" class="video-play-overlay">
-            <div class="play-button-container">
-              <div class="play-button-glow"></div>
-              <div class="play-button-ring"></div>
-              <div class="play-button-ring-2"></div>
-              <div id="playButton" class="premium-play-btn">
-                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" style="margin-left: 4px;">
-                  <defs>
-                    <linearGradient id="playGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" style="stop-color:#006064"/>
-                      <stop offset="100%" style="stop-color:#00ACC1"/>
-                    </linearGradient>
-                  </defs>
-                  <path d="M8 5v14l11-7z" fill="url(#playGradient)"/>
-                </svg>
+              <div id="videoPlayOverlay" class="video-play-overlay">
+                <div class="play-button-container">
+                  <div class="play-button-glow"></div>
+                  <div class="play-button-ring"></div>
+                  <div class="play-button-ring-2"></div>
+                  <div id="playButton" class="premium-play-btn">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" style="margin-left: 4px;">
+                      <defs>
+                        <linearGradient id="playGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" style="stop-color:#006064"/>
+                          <stop offset="100%" style="stop-color:#00ACC1"/>
+                        </linearGradient>
+                      </defs>
+                      <path d="M8 5v14l11-7z" fill="url(#playGradient)"/>
+                    </svg>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            </>
+          )}
 
           <div id="videoInfoBar" class="video-info-bar">
             <div class="video-info-content">
@@ -344,6 +360,13 @@ const icons: Record<string, string> = {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .hero-youtube {
+    width: 100%;
+    height: 100%;
+    border: none;
     border-radius: 16px;
   }
 
