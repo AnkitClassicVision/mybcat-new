@@ -117,16 +117,50 @@ const icons: Record<string, string> = {
       <div class="hero-visual">
         <div class="hero-video-container">
           {video.youtubeId ? (
-            /* YouTube embed */
-            <iframe
-              class="hero-youtube"
-              src={`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1&mute=1&loop=1&playlist=${video.youtubeId}&controls=1&modestbranding=1&rel=0`}
-              title="Client Testimonial Video"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              loading="eager"
-            ></iframe>
+            /* YouTube embed with click-to-play */
+            <>
+              <img
+                id="youtubePoster"
+                src={video.poster}
+                alt="Video thumbnail"
+                class="hero-poster"
+                width="640"
+                height="400"
+                loading="eager"
+                decoding="sync"
+                fetchpriority="high"
+              />
+              <div id="youtubeContainer" class="youtube-container" style="display: none;">
+                <iframe
+                  id="youtubeFrame"
+                  class="hero-youtube"
+                  data-src={`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1&controls=1&modestbranding=1&rel=0`}
+                  title="Client Testimonial Video"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="video-overlay-gradient"></div>
+              <div id="youtubePlayOverlay" class="video-play-overlay">
+                <div class="play-button-container">
+                  <div class="play-button-glow"></div>
+                  <div class="play-button-ring"></div>
+                  <div class="play-button-ring-2"></div>
+                  <div class="premium-play-btn">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" style="margin-left: 4px;">
+                      <defs>
+                        <linearGradient id="ytPlayGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" style="stop-color:#006064"/>
+                          <stop offset="100%" style="stop-color:#00ACC1"/>
+                        </linearGradient>
+                      </defs>
+                      <path d="M8 5v14l11-7z" fill="url(#ytPlayGradient)"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </>
           ) : (
             /* Self-hosted video */
             <>
@@ -370,6 +404,14 @@ const icons: Record<string, string> = {
     border-radius: 16px;
   }
 
+  .youtube-container {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
   .video-overlay-gradient {
     position: absolute;
     inset: 0;
@@ -539,6 +581,32 @@ const icons: Record<string, string> = {
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+    // YouTube video handling
+    const ytOverlay = document.getElementById('youtubePlayOverlay');
+    const ytPoster = document.getElementById('youtubePoster');
+    const ytContainer = document.getElementById('youtubeContainer');
+    const ytFrame = document.getElementById('youtubeFrame') as HTMLIFrameElement;
+
+    if (ytOverlay && ytPoster && ytContainer && ytFrame) {
+      function playYouTube() {
+        // Load the YouTube iframe src
+        if (ytFrame.dataset.src) {
+          ytFrame.src = ytFrame.dataset.src;
+        }
+        // Hide poster and overlay, show video
+        ytPoster.style.display = 'none';
+        ytOverlay.style.display = 'none';
+        ytContainer.style.display = 'block';
+      }
+
+      ytOverlay.addEventListener('click', playYouTube);
+      ytOverlay.addEventListener('touchend', function(e) {
+        e.preventDefault();
+        playYouTube();
+      }, { passive: false });
+    }
+
+    // Self-hosted video handling
     const video = document.getElementById('heroVideo') as HTMLVideoElement;
     const overlay = document.getElementById('videoPlayOverlay');
     const poster = document.getElementById('heroPoster');
