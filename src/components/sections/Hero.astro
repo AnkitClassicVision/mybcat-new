@@ -232,11 +232,13 @@ const icons: Record<string, string> = {
   .spatial-hero {
     grid-column: span 6;
     min-height: 85vh;
-    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+    background: linear-gradient(135deg, #FAFBFC 0%, rgba(229, 245, 246, 0.8) 100%);
     border-radius: 24px;
     padding: 0;
     display: flex;
     align-items: center;
+    border: 1px solid rgba(0, 96, 100, 0.08);
+    box-shadow: 0 8px 32px rgba(0, 96, 100, 0.06);
   }
 
   .spatial-hero.landing {
@@ -250,10 +252,10 @@ const icons: Record<string, string> = {
 
   .spatial-hero-inner {
     display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
     width: 100%;
-    padding: 60px 48px;
+    padding: 80px 60px;
     align-items: center;
   }
 
@@ -263,7 +265,8 @@ const icons: Record<string, string> = {
   }
 
   .hero-content {
-    padding-top: 60px;
+    padding-top: 40px;
+    max-width: 620px;
   }
 
   .hero-brand {
@@ -285,25 +288,34 @@ const icons: Record<string, string> = {
   }
 
   .hero-title {
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
     font-weight: 800;
     color: var(--navy-900);
-    line-height: 1.1;
-    margin-bottom: 16px;
+    line-height: 1.12;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
   }
 
   .hero-tagline {
-    font-size: 1.1rem;
-    color: var(--copper-700);
-    font-weight: 600;
-    margin-bottom: 12px;
+    font-size: 0.875rem;
+    color: var(--oceanic-teal);
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    background: rgba(0, 96, 100, 0.08);
+    padding: 6px 14px;
+    border-radius: 4px;
+    display: inline-block;
   }
 
   .hero-description {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--text-secondary);
-    line-height: 1.7;
-    margin-bottom: 20px;
+    line-height: 1.75;
+    margin-bottom: 28px;
+    max-width: 540px;
   }
 
   .hero-benefit-bar {
@@ -345,18 +357,27 @@ const icons: Record<string, string> = {
 
   .hero-trust-bar {
     display: flex;
-    gap: 20px;
+    gap: 24px;
     flex-wrap: wrap;
-    padding-top: 12px;
-    border-top: 1px solid var(--glass-border);
+    padding: 20px;
+    background: rgba(0, 96, 100, 0.04);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 96, 100, 0.1);
+    margin-top: 8px;
   }
 
   .trust-item {
     display: flex;
     align-items: center;
-    gap: 6px;
-    font-size: 15px;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
     color: var(--text-secondary);
+  }
+
+  .trust-item :global(svg) {
+    color: var(--oceanic-teal);
+    flex-shrink: 0;
   }
 
   .hero-visual {
@@ -474,11 +495,11 @@ const icons: Record<string, string> = {
 
   .play-button-glow {
     position: absolute;
-    inset: -8px;
+    inset: -6px;
     border-radius: 50%;
     background: linear-gradient(135deg, #00BCD4, #FF9800);
-    filter: blur(12px);
-    opacity: 0.7;
+    filter: blur(8px);
+    opacity: 0.5;
     z-index: -1;
   }
 
@@ -497,29 +518,29 @@ const icons: Record<string, string> = {
   }
 
   .premium-play-btn {
-    width: 88px;
-    height: 88px;
+    width: 72px;
+    height: 72px;
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow:
-      0 4px 24px rgba(0, 0, 0, 0.4),
-      0 8px 40px rgba(0, 0, 0, 0.3),
-      0 0 0 4px rgba(0, 150, 136, 0.5),
+      0 4px 16px rgba(0, 0, 0, 0.3),
+      0 8px 32px rgba(0, 0, 0, 0.2),
+      0 0 0 3px rgba(0, 150, 136, 0.4),
       inset 0 2px 4px rgba(255,255,255,0.9);
-    border: 3px solid rgba(0, 150, 136, 0.8);
+    border: 2px solid rgba(0, 150, 136, 0.6);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
   }
 
   .premium-play-btn:hover {
-    transform: scale(1.15);
+    transform: scale(1.08);
     box-shadow:
-      0 6px 32px rgba(0, 0, 0, 0.5),
-      0 12px 48px rgba(0, 0, 0, 0.4),
-      0 0 0 6px rgba(0, 150, 136, 0.7),
+      0 6px 24px rgba(0, 0, 0, 0.35),
+      0 12px 40px rgba(0, 0, 0, 0.25),
+      0 0 0 4px rgba(0, 150, 136, 0.5),
       inset 0 2px 4px rgba(255,255,255,0.9);
   }
 
@@ -585,12 +606,64 @@ const icons: Record<string, string> = {
 
   @media (max-width: 768px) {
     .hero-content {
-      padding-top: 40px;
+      padding-top: 24px;
+    }
+
+    .hero-title {
+      font-size: clamp(1.75rem, 7vw, 2.5rem);
+    }
+
+    .hero-description {
+      font-size: 1rem;
+      line-height: 1.7;
     }
 
     .hero-cta-group {
       flex-direction: column;
-      align-items: flex-start;
+      align-items: stretch;
+      width: 100%;
+    }
+
+    .hero-trust-bar {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      padding: 16px;
+    }
+
+    .premium-play-btn {
+      width: 56px;
+      height: 56px;
+    }
+
+    .premium-play-btn svg {
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .spatial-hero-inner {
+      padding: 32px 16px;
+      gap: 28px;
+    }
+
+    .hero-tagline {
+      font-size: 0.75rem;
+      padding: 5px 10px;
+    }
+
+    .hero-trust-bar {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .hero-benefit-bar {
+      gap: 12px;
+    }
+
+    .benefit-item {
+      font-size: 14px;
     }
   }
 </style>
