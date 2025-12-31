@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/avoid-outsourcing-mistakes-in-optometry.webp"
 canonical: "https://mybcat.com/blog/avoid-outsourcing-mistakes-in-optometry"
 ---
 

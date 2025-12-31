@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/patient-retention-strategies.webp"
 canonical: "https://mybcat.com/blog/patient-retention-and-acquisition-strategies-for-your-optometry-practice"
 ---
 
@@ -68,7 +68,7 @@ Standing out is both an art and a science in a world brimming with optometry pra
 
 - Personal Touch: Regardless of the technological advancements, a personal touch goes a long way. By getting to know your patients, recalling previous interactions, asking about their families, or remembering their preferences, you build a rapport that's hard to replace. Consider the success of Maria Sampalis, OD. At her practice, [in 2017, they had a retention rate of 43%](https://www.optometricmanagement.com/). Not bad when you consider that Luxottica reports an average of 25%. Five years later, [her retention rate doubled to around 90%](https://www.reviewob.com/how-i-created-a-practice-with-90-patient-retention-rate/). She gives excellent examples of sharing personal stories about what is going on in her life. She makes it a point to ask specific questions about her patients. For instance, she reminds her clients who have kids about the free one-year warranty for glasses in case they break them. It's the kind of touch that makes patients feel seen.
 
-- Ambiance and Environment: The physical setting of your practice plays a pivotal role. A calm, serene environment can enhance patient comfort. One of the best ways to do this is to take the non-patient care tasks out of the office. [Working with a Business Process Outsourcing firm](https://mybusinesscaretea.us23.cdn-alpha.com/conducting-a-cost-benefit-analysis-of-bpo-in-optometry) can make that transition smooth. It takes the sounds of phone calls and administrative conversations away from the exam and waiting rooms. Consider elements like ambient lighting, soft background music, and comfortable seating to put patients at ease.
+- Ambiance and Environment: The physical setting of your practice plays a pivotal role. A calm, serene environment can enhance patient comfort. One of the best ways to do this is to take the non-patient care tasks out of the office. [Working with a Business Process Outsourcing firm](https://mybcat.com/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry) can make that transition smooth. It takes the sounds of phone calls and administrative conversations away from the exam and waiting rooms. Consider elements like ambient lighting, soft background music, and comfortable seating to put patients at ease.
 
 - Operational Efficiency: The patient experience should be smooth from when a patient books an appointment to the post-consultation follow-up. Incorporating online forms, digital reminders, efficient queuing systems, and prompt responses can transform the patient experience, especially for the generational expectations we mentioned earlier.
 
@@ -80,7 +80,7 @@ Remember, the quality of patient care often goes hand in hand with the staff's a
 
 [Staffing post-pandemic has higher turnover](https://www.ophthalmologymanagement.com/). Ensuring continuity in a healthcare practice is crucial. A frequent turnover of staff members can be detrimental to patient satisfaction. Consistent faces and familiar interactions can go a long way in building trust and rapport. Patients, especially those who visit regularly, find comfort in seeing the same staff members, as it often means not having to re-explain their histories or preferences. High staff turnover can interrupt this trust-building, potentially reducing patient retention.
 
-One effective solution to manage this is to [select a Business Process Outsourcing (BPO) firm](https://mybusinesscaretea.us23.cdn-alpha.com/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice). These firms can handle many administrative tasks, allowing the in-house staff to focus solely on patient care. By outsourcing non-core tasks, the practice can ensure continuity in patient care, even if there's a change in administrative roles. Moreover, BPOs bring in operational efficiency and expert handling, reducing the burden on your primary staff.
+One effective solution to manage this is to [select a Business Process Outsourcing (BPO) firm](https://mybcat.com/blog/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice). These firms can handle many administrative tasks, allowing the in-house staff to focus solely on patient care. By outsourcing non-core tasks, the practice can ensure continuity in patient care, even if there's a change in administrative roles. Moreover, BPOs bring in operational efficiency and expert handling, reducing the burden on your primary staff.
 
 ## Staff Morale's Impact on Patient Satisfaction
 

@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/call-center-2023-11-27-04-57-58-utc-1.jpg"
+featuredImage: "/images/blog/spanish-speaking-agents.webp"
 canonical: "https://mybcat.com/blog/blog-spanish-speaking-agents"
 ---
 

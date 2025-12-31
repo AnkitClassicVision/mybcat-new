@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/ai-streamlining-eye-care.webp"
 canonical: "https://mybcat.com/blog/how-ai-is-streamlining-processes-in-eye-care"
 ---
 

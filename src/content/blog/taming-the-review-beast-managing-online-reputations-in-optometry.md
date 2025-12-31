@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","scheduling","growth","efficiency"]
-
+featuredImage: "/images/blog/online-reputation-management.webp"
 canonical: "https://mybcat.com/blog/taming-the-review-beast-managing-online-reputations-in-optometry"
 ---
 

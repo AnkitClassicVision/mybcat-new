@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/multi-location-healthcare-intake-guide-featured.png"
+featuredImage: "/images/blog/multi-location-healthcare-intake-guide-featured.webp"
 canonical: "https://mybcat.com/blog/multi-location-healthcare-intake-guide"
 ---
 

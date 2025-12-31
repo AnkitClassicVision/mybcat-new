@@ -8,7 +8,7 @@ status: "scheduled"
 author: "Ankit Patel"
 category: "Operations"
 tags: ["dso", "dental", "integration", "acquisition", "intake", "operations"]
-featuredImage: "/images/blog/dso-integration-playbook.png"
+featuredImage: "/images/blog/dso-integration-playbook.webp"
 canonical: "https://mybcat.com/blog/dso-integration-playbook"
 ---
 

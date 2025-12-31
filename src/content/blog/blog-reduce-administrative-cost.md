@@ -7,7 +7,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","patient-care","scheduling","outsourcing","efficiency"]
-featuredImage: "/images/blog/call-center-workers-discussing-data-on-netbook-2023-11-27-04-49-05-utc-scaled.jpeg"
+featuredImage: "/images/blog/call-center-workers-discussing-data-on-netbook-2023-11-27-04-49-05-utc-scaled.webp"
 canonical: "https://mybcat.com/blog/blog-reduce-administrative-cost"
 ---
 

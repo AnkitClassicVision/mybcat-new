@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/transitioning-bpo-model.webp"
 canonical: "https://mybcat.com/blog/successfully-transitioning-to-a-bpo-model-in-optometry"
 ---
 

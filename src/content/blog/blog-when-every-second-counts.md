@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["patient-care","scheduling","efficiency"]
-featuredImage: "/images/blog/people-working-at-call-center-2023-11-27-05-18-10-utc-1.jpg"
+featuredImage: "/images/blog/when-every-second-counts.webp"
 canonical: "https://mybcat.com/blog/blog-when-every-second-counts"
 ---
 

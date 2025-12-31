@@ -7,6 +7,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
+featuredImage: "/images/blog/virtual-assistant-compliance-ophthalmology.webp"
 canonical: "https://mybcat.com/blog/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology"
 ---
 

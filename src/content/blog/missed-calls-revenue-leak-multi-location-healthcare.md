@@ -7,7 +7,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/01-the-1.2m-leak-featured-v5.png"
+featuredImage: "/images/blog/01-the-1.2m-leak-featured-v5.webp"
 canonical: "https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare"
 ---
 

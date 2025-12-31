@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/administrative-workload-tips.webp"
 canonical: "https://mybcat.com/blog/management-tips-to-simplify-the-optometric-administrative-workload"
 ---
 

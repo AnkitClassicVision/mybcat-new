@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","outsourcing","growth"]
-
+featuredImage: "/images/blog/financial-sustainable-future.webp"
 canonical: "https://mybcat.com/blog/crafting-a-financially-sustainable-future-for-your-optometry-practice"
 ---
 

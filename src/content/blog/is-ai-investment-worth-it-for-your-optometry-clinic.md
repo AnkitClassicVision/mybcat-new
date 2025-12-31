@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/ai-investment-optometry.webp"
 canonical: "https://mybcat.com/blog/is-ai-investment-worth-it-for-your-optometry-clinic"
 ---
 
@@ -34,7 +34,7 @@ It's important to consider the opportunity cost of integrating AI into an optome
 
 ## **Understanding Cost-Benefit Analysis**
 
-[Conducting a cost-benefit analysis is a wise step before integrating AI into the operations of an optometry clinic.](https://mybusinesscaretea.us23.cdn-alpha.com/conducting-a-cost-benefit-analysis-of-bpo-in-optometry) This analytical method provides an objective framework to evaluate the financial and operational implications of a significant investment. A cost-benefit analysis involves multiple steps, starting with a clearly defined objective or goal. Are you aiming to increase operational efficiency, improve customer satisfaction, or both? A well-articulated objective serves as the guiding light throughout the analysis.
+[Conducting a cost-benefit analysis is a wise step before integrating AI into the operations of an optometry clinic.](https://mybcat.com/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry) This analytical method provides an objective framework to evaluate the financial and operational implications of a significant investment. A cost-benefit analysis involves multiple steps, starting with a clearly defined objective or goal. Are you aiming to increase operational efficiency, improve customer satisfaction, or both? A well-articulated objective serves as the guiding light throughout the analysis.
 
 Once the objective is clear, the next step is to identify all the potential costs and benefits of AI implementation. Costs include:
 

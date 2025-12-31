@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","growth"]
-
+featuredImage: "/images/blog/training-virtual-assistants.webp"
 canonical: "https://mybcat.com/blog/how-to-train-virtual-assistants-for-your-eye-care-practice"
 ---
 

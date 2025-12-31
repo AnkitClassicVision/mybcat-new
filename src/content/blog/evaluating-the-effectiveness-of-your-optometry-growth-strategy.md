@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/optometry-growth-strategy-evaluation.webp"
 canonical: "https://mybcat.com/blog/evaluating-the-effectiveness-of-your-optometry-growth-strategy"
 ---
 

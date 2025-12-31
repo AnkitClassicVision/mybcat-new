@@ -6,13 +6,13 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/optometry-calls-expert-24-7-virtual-reception.png"
+featuredImage: "/images/blog/optometry-calls-expert-24-7-virtual-reception.webp"
 canonical: "https://mybcat.com/blog/optometry-calls-expert-24-7-virtual-reception"
 ---
 
-In the fast-paced world of optometry, patient service should never lag. Enter the world of [optometry virtual receptionists in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-in-marietta-georgia). This state-of-the-art solution ensures every call is treated with the utmost care and urgency. But what makes these virtual receptionists so essential?
+In the fast-paced world of optometry, patient service should never lag. Enter the world of [optometry virtual receptionists in Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia). This state-of-the-art solution ensures every call is treated with the utmost care and urgency. But what makes these virtual receptionists so essential?
 
-[Eye health reception services](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-my-business-care-team-process) are more than just answering calls. They are trained to understand the nuances of eye health and can provide immediate, empathic responses to patient inquiries. Instead of letting your patients wait in long queues or miss their calls, these services ensure that every concern is addressed promptly.
+[Eye health reception services](https://mybcat.com/blog/customer-service-outsourcing-provider-my-business-care-team-process) are more than just answering calls. They are trained to understand the nuances of eye health and can provide immediate, empathic responses to patient inquiries. Instead of letting your patients wait in long queues or miss their calls, these services ensure that every concern is addressed promptly.
 
 Here's what sets them apart:
 
@@ -26,7 +26,7 @@ Regardless of when a concern arises, having round-the-clock support ensures no p
 
 - **Local Knowledge**
 
-Being familiar with a local [optometrist appointment in Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/) gives patients a sense of familiarity and trust.
+Being familiar with a local [optometrist appointment in Georgia](https://mybcat.com/blog/) gives patients a sense of familiarity and trust.
 
 - **Cost-effective**
 
@@ -36,7 +36,7 @@ In the long run, virtual receptionists can be a financially prudent choice, offe
 
 In an ever-diverse world, speaking your patient's language can make all the difference in [building rapport ](https://www.betterup.com/blog/how-to-build-rapport)and trust.
 
-Lastly, if you are based in Atlanta and need a trustworthy partner for this crucial service, look no further. My Business Care Team provides specialized [optometry call service in Atlanta, Georgia](https://mybusinesscaretea.us23.cdn-alpha.com/optometry-call-service-in-atlanta-georgia). Our dedicated professionals ensure your patients hear a friendly, knowledgeable voice on the other end. [Connect with us](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-contact-us) and elevate your patient service experience today!
+Lastly, if you are based in Atlanta and need a trustworthy partner for this crucial service, look no further. My Business Care Team provides specialized [optometry call service in Atlanta, Georgia](https://mybcat.com/blog/optometry-call-service-in-atlanta-georgia). Our dedicated professionals ensure your patients hear a friendly, knowledgeable voice on the other end. [Connect with us](https://mybcat.com/blog/customer-service-outsourcing-provider-contact-us) and elevate your patient service experience today!
 
 ### Ready to Transform Your Practice?
 

@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-
+featuredImage: "/images/blog/leverage-outsourcing.webp"
 canonical: "https://mybcat.com/blog/how-to-leverage-outsourcing-in-your-eye-care-practice"
 ---
 

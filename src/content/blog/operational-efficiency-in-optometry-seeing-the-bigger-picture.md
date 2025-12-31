@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/operational-efficiency-optometry.webp"
 canonical: "https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture"
 ---
 

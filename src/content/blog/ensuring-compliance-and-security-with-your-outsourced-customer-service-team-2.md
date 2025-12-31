@@ -1,12 +1,13 @@
 ---
-title: "Ensuring Compliance and Security with Your Outsourced Customer Service Team"
+title: "6 Best Practices for Managing Your Outsourced Customer Service Team"
+seoTitle: "Managing Outsourced Customer Service Teams"
 description: "Many ODs are outsourcing tasks like scheduling appointments, billing, and other administrative tasks in order to focus healthcare professionals on [...]"
 publishDate: 2023-07-20
 status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
-
+featuredImage: "/images/blog/ensuring-compliance-security-outsourced-team.webp"
 canonical: "https://mybcat.com/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team-2"
 ---
 

@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/management-service-organization.webp"
 canonical: "https://mybcat.com/blog/joining-an-optometric-management-service-organization"
 ---
 
@@ -90,7 +90,7 @@ Pricing is also flexible based on customized service packages. Business owners o
 
 The BPO approach also enables sticking with your existing systems versus adapting processes to the MSO model. No need to change your EHR platform or inventory practices if they work for you today. And you maintain direct oversight of all operations.
 
-While MSOs offer turnkey practice management, [BPOs allow focused task delegation while retaining overall independence](https://mybusinesscaretea.us23.cdn-alpha.com/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice). For clinics not ready to join a larger consolidated entity, outsourcing provides an interim step to lighten the workload until scaling demands fuller MSO integration.
+While MSOs offer turnkey practice management, [BPOs allow focused task delegation while retaining overall independence](https://mybcat.com/blog/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice). For clinics not ready to join a larger consolidated entity, outsourcing provides an interim step to lighten the workload until scaling demands fuller MSO integration.
 
 ## Conclusion
 

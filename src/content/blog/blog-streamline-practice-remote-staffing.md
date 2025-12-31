@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/call-center-2023-11-27-05-35-17-utc.jpg"
+featuredImage: "/images/blog/streamline-practice-remote-staffing.webp"
 canonical: "https://mybcat.com/blog/blog-streamline-practice-remote-staffing"
 ---
 

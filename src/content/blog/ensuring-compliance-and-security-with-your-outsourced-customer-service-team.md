@@ -7,6 +7,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","efficiency"]
+featuredImage: "/images/blog/compliance-security-data-protection.webp"
 canonical: "https://mybcat.com/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team"
 ---
 

@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","efficiency"]
-
+featuredImage: "/images/blog/patient-intake-streamlining.webp"
 canonical: "https://mybcat.com/blog/streamlining-patient-intake-for-eye-care-practices"
 ---
 

@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/bpo-cost-benefit-analysis.webp"
 canonical: "https://mybcat.com/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry"
 ---
 

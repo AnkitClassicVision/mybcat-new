@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","outsourcing"]
-
+featuredImage: "/images/blog/selling-optometry-practice.webp"
 canonical: "https://mybcat.com/blog/guide-for-selling-your-optometry-practice"
 ---
 

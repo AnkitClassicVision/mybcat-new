@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","growth"]
-featuredImage: "/images/blog/happy-ophthalmologist-using-testing-eyeglasses-dur-2024-12-14-04-14-56-utc-1.jpg"
+featuredImage: "/images/blog/happy-ophthalmologist-using-testing-eyeglasses-dur-2024-12-14-04-14-56-utc-1.webp"
 canonical: "https://mybcat.com/blog/blog-ensuring-patient-staisfaction"
 ---
 

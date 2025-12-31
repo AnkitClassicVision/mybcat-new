@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","patient-care","scheduling","growth","efficiency"]
-featuredImage: "/images/blog/coaching-training-and-help-with-business-people-i-2023-11-27-04-49-17-utc-scaled.jpg"
+featuredImage: "/images/blog/coaching-training-and-help-with-business-people-i-2023-11-27-04-49-17-utc-scaled.webp"
 canonical: "https://mybcat.com/blog/blog-best-patient-care"
 ---
 

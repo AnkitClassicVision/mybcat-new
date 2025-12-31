@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/ai-ethics-ophthalmology-optometry.webp"
 canonical: "https://mybcat.com/blog/navigating-the-ethical-maze-for-ai-in-ophthalmology-and-optometry"
 ---
 

@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/selecting-bpo-provider.webp"
 canonical: "https://mybcat.com/blog/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice"
 ---
 

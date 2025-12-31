@@ -7,6 +7,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","outsourcing","efficiency"]
+featuredImage: "/images/blog/benefits-of-hiring-remote-workers-for-optometry-business.webp"
 canonical: "https://mybcat.com/blog/benefits-of-hiring-remote-workers-for-optometry-business"
 ---
 

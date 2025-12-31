@@ -7,6 +7,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
+featuredImage: "/images/blog/outsourced-customer-service.webp"
 canonical: "https://mybcat.com/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices"
 ---
 

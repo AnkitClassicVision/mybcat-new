@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/practice-valuation-guide.webp"
 canonical: "https://mybcat.com/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers"
 ---
 

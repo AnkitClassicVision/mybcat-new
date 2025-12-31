@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/capture-rate-optometry.webp"
 canonical: "https://mybcat.com/blog/why-capture-rate-matters-for-every-optometry-business"
 ---
 

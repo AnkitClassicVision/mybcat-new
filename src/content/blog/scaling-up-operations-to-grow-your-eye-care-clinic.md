@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/scaling-up-operations-to-grow-your-eye-care-clinic.webp"
 canonical: "https://mybcat.com/blog/scaling-up-operations-to-grow-your-eye-care-clinic"
 ---
 

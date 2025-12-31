@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
-
+featuredImage: "/images/blog/costs-benefits-outsourcing.webp"
 canonical: "https://mybcat.com/blog/weighing-the-costs-and-benefits-of-outsourcing-customer-service-in-ophthalmology-and-optometry"
 ---
 

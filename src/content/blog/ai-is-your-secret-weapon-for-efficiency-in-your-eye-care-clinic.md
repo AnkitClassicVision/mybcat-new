@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","growth","efficiency"]
-
+featuredImage: "/images/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic.webp"
 canonical: "https://mybcat.com/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic"
 ---
 

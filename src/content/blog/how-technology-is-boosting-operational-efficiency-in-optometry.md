@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/technology-operational-efficiency.webp"
 canonical: "https://mybcat.com/blog/how-technology-is-boosting-operational-efficiency-in-optometry"
 ---
 
@@ -74,7 +74,7 @@ Lastly, while technology can transform many aspects of a practice, it bears stat
 
 In eye and vision care, technology is inextricably linked with efficiency and enhanced patient experience. For the modern eye care practice, staying ahead of the curve isn't just about being competitive; it's about offering the best possible care in the information age. Eye health will inevitably benefit from these advancements, but it's up to the practices to ensure they ride the wave rather than get swept away.
 
-[If you have questions or want help, please reach out](https://mybusinesscaretea.us23.cdn-alpha.com/customer-service-outsourcing-provider-book-a-discovery-call)!
+[If you have questions or want help, please reach out](https://mybcat.com/blog/customer-service-outsourcing-provider-book-a-discovery-call)!
 
 ### Ready to Transform Your Practice?
 

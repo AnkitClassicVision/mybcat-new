@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-
+featuredImage: "/images/blog/outsourcing-growth-strategy.webp"
 canonical: "https://mybcat.com/blog/outsourcing-as-a-business-growth-strategy-for-eye-care-clinics"
 ---
 

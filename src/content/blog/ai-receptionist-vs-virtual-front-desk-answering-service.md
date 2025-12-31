@@ -7,7 +7,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","growth"]
-featuredImage: "/images/blog/ai-receptionist-vs-virtual-front-desk-comparison.png"
+featuredImage: "/images/blog/ai-receptionist-vs-virtual-front-desk-comparison.webp"
 canonical: "https://mybcat.com/blog/ai-receptionist-vs-virtual-front-desk-answering-service"
 ---
 

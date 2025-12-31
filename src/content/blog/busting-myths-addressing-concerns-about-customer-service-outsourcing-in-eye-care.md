@@ -7,6 +7,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","outsourcing","efficiency"]
+featuredImage: "/images/blog/outsourcing-myths-eye-care.webp"
 canonical: "https://mybcat.com/blog/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care"
 ---
 

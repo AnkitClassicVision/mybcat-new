@@ -7,7 +7,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","growth"]
-featuredImage: "/images/blog/embracing-cultural-sensitivity-in-optometry-care.jpg"
+featuredImage: "/images/blog/embracing-cultural-sensitivity-in-optometry-care.webp"
 canonical: "https://mybcat.com/blog/5-signs-youre-ready-to-scale"
 ---
 
