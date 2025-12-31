@@ -35,8 +35,9 @@ const {
   // Load after delay
   const timeoutId = setTimeout(loadHubSpotChat, delay);
 
-  // Or load on user interaction (whichever comes first)
-  const interactionEvents = ['mousedown', 'mousemove', 'keydown', 'scroll', 'touchstart'];
+  // Or load on deliberate user interaction (click/keyboard only - NOT scroll/touchstart)
+  // This prevents loading on mobile immediately when users scroll
+  const interactionEvents = ['mousedown', 'keydown'];
 
   const handleInteraction = () => {
     clearTimeout(timeoutId);

@@ -96,11 +96,12 @@ const containerId = `hubspot-form-${formId}`;
       const script = document.createElement('script');
       script.src = '//js.hsforms.net/forms/embed/v2.js';
       script.async = true;
+      script.defer = true;
       script.onload = () => {
         hubspotScriptLoaded = true;
         resolve();
       };
-      document.head.appendChild(script);
+      document.body.appendChild(script); // Append to body instead of head for better performance
     });
   };
 
