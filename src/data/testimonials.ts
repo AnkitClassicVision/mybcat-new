@@ -31,11 +31,11 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote: "It was amazing—patients and staff immediately noticed the difference. The phones were always answered, appointments stayed full, and my team in the office could focus on patients in front of them.",
-    author: "Dr. Ankit Patel",
+    author: "Dr. Mital Patel",
     title: "Owner",
-    company: "Classic Vision Care (4 locations)",
+    company: "Classic Vision Care (2 locations)",
     industry: "optometry",
-    initials: "AP",
+    initials: "MP",
     featured: false
   },
   {

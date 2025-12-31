@@ -39,8 +39,8 @@ export const caseStudies: CaseStudy[] = [
     industry: 'Optometry',
     industrySlug: 'optometry',
     location: 'Atlanta, Georgia',
-    practiceSize: '4 locations',
-    challenge: 'Classic Vision Care faced rising payroll costs that had ballooned to over 24% of revenue, straining profitability. With four busy locations and high staff turnover, phones rang unanswered, schedules tangled, and patient satisfaction suffered. Missed appointments, incomplete documentation, and internal confusion meant valuable chair time was lost.',
+    practiceSize: '2 locations',
+    challenge: 'Classic Vision Care faced rising payroll costs that had ballooned to over 24% of revenue, straining profitability. With two busy locations and high staff turnover, phones rang unanswered, schedules tangled, and patient satisfaction suffered. Missed appointments, incomplete documentation, and internal confusion meant valuable chair time was lost.',
     solution: 'My Business Care Team stepped in, systematically mapping every workflow and identifying inefficiencies. We crafted customized Standard Operating Procedures (SOPs) and set up direct communication channels, ensuring immediate feedback and continuous improvement.',
     implementation: [
       'Inbound phone management - dedicated team handles every call swiftly and professionally',
@@ -58,7 +58,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     testimonial: {
       quote: 'It was amazing—patients and staff immediately noticed the difference. The phones were always answered, appointments stayed full, and my team in the office could focus on patients in front of them while my business care team focused on the patients on the phones.',
-      author: 'Dr. Ankit Patel',
+      author: 'Dr. Mital Patel',
       title: 'Owner, Classic Vision Care'
     },
     timeline: '30-day implementation, scaled to 6 team members',
