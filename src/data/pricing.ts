@@ -28,8 +28,8 @@ export const pricingTiers: PricingTier[] = [
     period: '/week',
     description: 'Perfect for practices ready to capture every call around the clock.',
     features: [
-      'All calls answered',
-      '24/7 coverage (Human + AI)',
+      'All calls answered 24/7',
+      'Human + AI coverage',
       'Dashboard & metrics reporting',
       'Medical answering services'
     ],
@@ -42,9 +42,9 @@ export const pricingTiers: PricingTier[] = [
     slug: 'scale',
     price: 'From $1,200',
     period: '/week',
-    description: 'For practices ready to scale with customizable AI and full front desk support.',
+    description: 'For practices ready to scale with customizable workflows and full front desk support.',
     features: [
-      '24/7 coverage (Human + Customizable AI)',
+      '24/7 coverage with moderate customization',
       'Dedicated account manager',
       'Patient recalls',
       'Insurance verifications',
@@ -60,9 +60,10 @@ export const pricingTiers: PricingTier[] = [
     slug: 'enterprise',
     price: 'From $2,500',
     period: '/week',
-    description: 'Multi-location groups with full virtual team support.',
+    description: 'Multi-location groups with full virtual team support and complete customization.',
     features: [
       'Everything in Scale',
+      '24/7 coverage with full customization',
       'Virtual assistants',
       'Medical scribes',
       '30-day pilot available',
@@ -76,11 +77,12 @@ export const pricingTiers: PricingTier[] = [
 
 // All features for comparison table
 export const allFeatures = [
-  { name: 'All calls answered', starter: true, scale: true, enterprise: true },
-  { name: '24/7 coverage (Human + AI)', starter: true, scale: true, enterprise: true },
+  { name: 'All calls answered 24/7', starter: true, scale: true, enterprise: true },
+  { name: 'Human + AI coverage', starter: true, scale: true, enterprise: true },
   { name: 'Dashboard & metrics reporting', starter: true, scale: true, enterprise: true },
   { name: 'Medical answering services', starter: true, scale: true, enterprise: true },
-  { name: 'Customizable AI', starter: false, scale: true, enterprise: true },
+  { name: 'Moderate workflow customization', starter: false, scale: true, enterprise: true },
+  { name: 'Full workflow customization', starter: false, scale: false, enterprise: true },
   { name: 'Insurance verifications', starter: false, scale: true, enterprise: true },
   { name: 'Appointment confirmations', starter: false, scale: true, enterprise: true },
   { name: 'Patient recalls', starter: false, scale: true, enterprise: true },

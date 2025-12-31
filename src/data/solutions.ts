@@ -48,7 +48,7 @@ export const solutions: Solution[] = [
     headline: 'Medical Answering Service for Healthcare Practices',
     description: '24/7 medical answering service with live healthcare coordinators who book appointments directly into your EHR. Never miss a patient call again.',
     tldr: 'My Business Care Team\'s medical answering service ensures every call is answered by a trained healthcare coordinator who books appointments directly into your EHR. We handle inbound calls, schedule appointments, collect patient information, and verify insurance—available 24/7 including after hours.',
-    metaDescription: '24/7 medical answering service that books appointments directly into your EHR. HIPAA compliant, US-based healthcare coordinators. Never miss a patient call.',
+    metaDescription: '24/7 medical answering service that books appointments directly into your EHR. HIPAA compliant, US-managed healthcare coordinators. Never miss a patient call.',
     serviceType: 'Medical Answering Service',
     problem: {
       question: 'How many patient calls is your practice missing?',
@@ -107,7 +107,7 @@ export const solutions: Solution[] = [
       {
         step: 3,
         title: 'Go Live',
-        description: 'AI-assisted intake starts in 5 days, full team coverage in 30-60 days.'
+        description: 'Full team integration in 1-4 weeks depending on your workflows and EHR complexity.'
       }
     ],
     stats: [

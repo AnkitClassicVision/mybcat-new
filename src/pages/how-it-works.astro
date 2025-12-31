@@ -14,7 +14,7 @@ import { generateServiceSchema, generateFAQSchema, combineSchemas, serializeSche
 import { company } from '@data/company';
 
 const pageTitle = 'How My Business Care Team Works';
-const pageDescription = 'Learn how My Business Care Team onboards your practice in 2-3 weeks. From discovery call to full integration with your EHR, see exactly how we become your patient operations team.';
+const pageDescription = 'Learn how My Business Care Team onboards your practice in 1-4 weeks. From discovery call to full integration with your EHR, see exactly how we become your patient operations team.';
 
 // Get onboarding FAQs
 const onboardingFaqs = getFAQsByCategory('onboarding');
@@ -165,8 +165,8 @@ const icons: Record<string, string> = {
       <Stats
         items={[
           { value: '30', suffix: 'min', label: 'Discovery Call' },
-          { value: '5', suffix: 'days', label: 'AI Intake Ready' },
-          { value: '2-3', suffix: 'weeks', label: 'Full Integration' }
+          { value: '3-5', suffix: 'days', label: 'Integration Setup' },
+          { value: '1-4', suffix: 'weeks', label: 'Full Go-Live' }
         ]}
         variant="compact"
       />
@@ -181,7 +181,7 @@ const icons: Record<string, string> = {
             <strong>Step 1:</strong> 30-minute discovery call to learn your practice.
             <strong>Step 2:</strong> We integrate with your EHR and train our team (3-5 days).
             <strong>Step 3:</strong> Soft launch with oversight.
-            <strong>Step 4:</strong> Full go-live in 2-3 weeks.
+            <strong>Step 4:</strong> Full go-live in 1-4 weeks depending on complexity.
             You don't lift a finger—we handle everything.
           </p>
         </div>

@@ -50,7 +50,7 @@ export const faqs: FAQ[] = [
   // Onboarding
   {
     question: 'How fast can we get started?',
-    answer: 'AI-assisted intake can start in 5 days. Full team integration takes 30-60 days depending on your EMR and workflow complexity.',
+    answer: 'Full team integration takes 1-4 weeks depending on your workflows and EHR complexity. Simple setups can go live in as little as one week.',
     category: 'onboarding'
   },
   {
@@ -84,7 +84,7 @@ export const faqs: FAQ[] = [
   // Pricing
   {
     question: 'How does pricing work?',
-    answer: 'We use transparent monthly pricing based on your practice size and service level. No hidden fees, no per-call charges. You know exactly what you\'re paying each month.',
+    answer: 'We use transparent weekly pricing based on your practice size and service level. No hidden fees, no per-call charges. You know exactly what you\'re paying each week.',
     category: 'pricing'
   },
   {
@@ -111,7 +111,7 @@ export const faqs: FAQ[] = [
   },
   {
     question: 'What hours are you available?',
-    answer: 'Starter plans include 8am-6pm local time coverage. Growth plans extend to 7am-9pm. Enterprise plans include full 24/7 coverage.',
+    answer: 'All plans include 24/7 coverage. The difference is in customization: Starter plans use our standard workflows, Scale plans offer moderate customization to match your protocols, and Enterprise plans include full workflow customization with dedicated support.',
     category: 'technical'
   }
 ];
