@@ -77,9 +77,10 @@ export const pricingTiers: PricingTier[] = [
 // All features for comparison table
 export const allFeatures = [
   { name: 'All calls answered', starter: true, scale: true, enterprise: true },
+  { name: '24/7 coverage (Human + AI)', starter: true, scale: true, enterprise: true },
   { name: 'Dashboard & metrics reporting', starter: true, scale: true, enterprise: true },
   { name: 'Medical answering services', starter: true, scale: true, enterprise: true },
-  { name: 'Coverage hours', starter: 'Business hours', scale: '24/7 Human + AI', enterprise: '24/7 Human + AI' },
+  { name: 'Customizable AI', starter: false, scale: true, enterprise: true },
   { name: 'Insurance verifications', starter: false, scale: true, enterprise: true },
   { name: 'Appointment confirmations', starter: false, scale: true, enterprise: true },
   { name: 'Patient recalls', starter: false, scale: true, enterprise: true },
