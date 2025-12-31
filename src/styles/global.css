@@ -333,3 +333,49 @@ a:hover {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ============================================
+   MOBILE PERFORMANCE OPTIMIZATIONS
+   ============================================ */
+
+/* Content visibility for below-fold sections - improves initial render */
+section:not(:first-of-type) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
+
+/* Optimize touch targets for mobile */
+@media (max-width: 768px) {
+  button, a, input, select, textarea {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Reduce complex shadows on mobile for GPU performance */
+  .card, .blog-card, .post-cta {
+    box-shadow: var(--shadow-sm);
+  }
+
+  /* Disable hover effects on touch devices */
+  @media (hover: none) {
+    .hover-lift:hover {
+      transform: none;
+    }
+  }
+}
+
+/* Optimize images for mobile */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* GPU acceleration for animated elements */
+.fade-in, .hover-lift {
+  will-change: transform, opacity;
+}
+
+/* Remove will-change after animation */
+.fade-in {
+  animation-fill-mode: forwards;
+}

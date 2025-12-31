@@ -1,5 +1,6 @@
 ---
 title: "How to Reduce Administrative Costs in Optometry and Ophthalmology Practices"
+seoTitle: "Reduce Admin Costs in Eye Care Practices"
 description: "Running a successful optometry or ophthalmology practice is about more than just providing excellent patient care. With rising costs, maintaining [...]"
 publishDate: 2024-12-03
 status: "published"

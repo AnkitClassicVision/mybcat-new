@@ -1,5 +1,6 @@
 ---
 title: "DSO Integration Playbook: Standardizing Intake Across Acquired Dental Practices"
+seoTitle: "DSO Integration Playbook for Dental Practices"
 description: "A 90-day framework for standardizing patient intake across acquired dental practices. The definitive guide for DSO operators and PE-backed dental groups."
 publishDate: 2026-01-01
 scheduledDate: 2026-01-01T09:00:00-05:00

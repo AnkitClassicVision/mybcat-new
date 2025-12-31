@@ -1,5 +1,6 @@
 ---
 title: "AI Receptionist vs. Virtual Front Desk vs. Answering Service: A Decision Framework for Healthcare Groups"
+seoTitle: "AI vs Virtual vs Answering Service Comparison"
 description: "AI receptionist, virtual front desk, answering service—what's the difference? This decision framework helps multi-location healthcare groups choose the right..."
 publishDate: 2025-12-15
 status: "published"

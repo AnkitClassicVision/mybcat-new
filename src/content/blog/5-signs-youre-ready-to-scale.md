@@ -1,5 +1,6 @@
 ---
 title: "5 Signs You're Ready to Scale Your Optometry Practice – and How a Virtual Assistant Team Can Get You There Faster"
+seoTitle: "5 Signs to Scale Your Optometry Practice"
 description: "Don't miss the signs that you're ready to scale your optometry practice. Check out the five indicators that you need [...]"
 publishDate: 2025-06-17
 status: "published"

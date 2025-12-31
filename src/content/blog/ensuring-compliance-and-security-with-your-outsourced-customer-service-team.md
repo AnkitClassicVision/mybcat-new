@@ -1,12 +1,12 @@
 ---
 title: "Ensuring Compliance and Security with Your Outsourced Customer Service Team"
+seoTitle: "Compliance & Security for Outsourced Teams"
 description: "If you're like us, you didn't get a degree in ophthalmology or optometry because you were passionate about data security [...]"
 publishDate: 2023-07-19
 status: "published"
 author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","efficiency"]
-
 canonical: "https://mybcat.com/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team"
 ---
 

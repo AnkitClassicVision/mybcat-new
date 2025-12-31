@@ -1,12 +1,12 @@
 ---
 title: "Compliance and security in utilizing virtual assistants in optometry and ophthalmology"
+seoTitle: "HIPAA Compliance for Virtual Assistants in Eye Care"
 description: "Whether you're hiring a full-time employee (FTE) or virtual assistant (VA), certain core aspects of compliance and security remain the [...]"
 publishDate: 2023-07-28
 status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
-
 canonical: "https://mybcat.com/blog/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology"
 ---
 

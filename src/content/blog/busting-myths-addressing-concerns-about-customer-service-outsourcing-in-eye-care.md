@@ -1,12 +1,12 @@
 ---
 title: "Busting myths: addressing concerns about customer service outsourcing in eye care"
+seoTitle: "Eye Care Outsourcing Myths Busted"
 description: "To be an optometrist or ophthalmologist, you need to understand the human eye. But, to run an eye care clinic, [...]"
 publishDate: 2023-07-11
 status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","outsourcing","efficiency"]
-
 canonical: "https://mybcat.com/blog/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care"
 ---
 

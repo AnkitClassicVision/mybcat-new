@@ -1,12 +1,12 @@
 ---
 title: "How outsourced customer service boosts patient satisfaction in optometry practices"
+seoTitle: "Outsourcing Boosts Patient Satisfaction in Optometry"
 description: "Imagine an office of focused staff working diligently and providing friendly patient care. The hectic pace of administrative tasks like [...]"
 publishDate: 2023-07-14
 status: "published"
 author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
-
 canonical: "https://mybcat.com/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices"
 ---
 

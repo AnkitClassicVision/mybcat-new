@@ -12,10 +12,16 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, publishDate, author, category, tags, featuredImage, relatedPosts, status } = post.data;
+const { title, description, publishDate, author, category, tags, featuredImage, relatedPosts, status, seoTitle, seoDescription } = post.data;
 
 // Non-published posts should not be indexed by search engines
 const shouldNoindex = status !== 'published';
+
+// SEO title: use seoTitle if provided, otherwise use full title
+// This allows short, keyword-optimized titles for search results
+// while keeping descriptive titles on the page
+const pageTitle = seoTitle || title;
+const metaDescription = seoDescription || description;
 
 // Generate Article schema for SEO
 const articleUrl = `${company.site.url}/blog/${post.slug}/`;
@@ -54,8 +60,8 @@ const authorInfo = authorData[author] || { role: '', image: '' };
 ---
 
 <Base
-  title={`${title} | MyBCAT Blog`}
-  description={description}
+  title={`${pageTitle} | MyBCAT Blog`}
+  description={metaDescription}
   ogType="article"
   ogImage={featuredImage}
   publishDate={publishDate}
@@ -87,7 +93,21 @@ const authorInfo = authorData[author] || { role: '', image: '' };
 
     {featuredImage && (
       <div class="post-featured-image">
-        <img src={featuredImage} alt={title} loading="eager" />
+        <picture>
+          <source
+            srcset={featuredImage.replace(/\.(png|jpg|jpeg)$/i, '.webp')}
+            type="image/webp"
+          />
+          <img
+            src={featuredImage}
+            alt={title}
+            loading="eager"
+            decoding="async"
+            width="1200"
+            height="630"
+            fetchpriority="high"
+          />
+        </picture>
       </div>
     )}
 
