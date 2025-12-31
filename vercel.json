@@ -2815,6 +2815,116 @@
       "source": "/tag/:slug/",
       "destination": "/blog/",
       "permanent": true
+    },
+    {
+      "source": "/optometry-call-service",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-call-service/",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-packages",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-packages/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/the-optometric-practice-owners-guide-to-outsourcing",
+      "destination": "/resources/book/",
+      "permanent": true
+    },
+    {
+      "source": "/the-optometric-practice-owners-guide-to-outsourcing/",
+      "destination": "/resources/book/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assistants-for-eye-care-practices",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assistants-for-eye-care-practices/",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/patient-retention-and-revenue-in-optometry",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/patient-retention-and-revenue-in-optometry/",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/unlocking-efficient-insurance-verification",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/unlocking-efficient-insurance-verification/",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/starting-an-optometry-practice",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/starting-an-optometry-practice/",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assitant-packages-for-optometry-business",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assitant-packages-for-optometry-business/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/what-to-know-about-joining-eyecare-group-purchasing-organizations",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/what-to-know-about-joining-eyecare-group-purchasing-organizations/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/why-capture-rate-matters",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/why-capture-rate-matters/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/jobs/:slug",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/jobs/:slug/",
+      "destination": "/about/",
+      "permanent": true
     }
   ]
 }

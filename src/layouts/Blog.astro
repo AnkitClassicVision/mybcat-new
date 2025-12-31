@@ -12,7 +12,10 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, publishDate, author, category, tags, featuredImage, relatedPosts } = post.data;
+const { title, description, publishDate, author, category, tags, featuredImage, relatedPosts, status } = post.data;
+
+// Non-published posts should not be indexed by search engines
+const shouldNoindex = status !== 'published';
 
 // Generate Article schema for SEO
 const articleUrl = `${company.site.url}/blog/${post.slug}/`;
@@ -57,6 +60,7 @@ const authorInfo = authorData[author] || { role: '', image: '' };
   ogImage={featuredImage}
   publishDate={publishDate}
   author={author}
+  noindex={shouldNoindex}
 >
   <script slot="head" type="application/ld+json" set:html={serializeSchema(schema)} />
   <article class="blog-post">
