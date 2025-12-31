@@ -100,7 +100,14 @@ export function generateWebSiteSchema() {
  */
 export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
   const homeItem = { name: 'Home', url: company.site.url };
-  const allItems = [homeItem, ...items];
+  // Skip adding Home if it's already the first item (prevents "Home > Home" duplication)
+  // Also normalize Home URL to use full site URL
+  let allItems: BreadcrumbItem[];
+  if (items[0]?.name === 'Home') {
+    allItems = [{ ...items[0], url: company.site.url }, ...items.slice(1)];
+  } else {
+    allItems = [homeItem, ...items];
+  }
 
   return {
     '@context': 'https://schema.org',
