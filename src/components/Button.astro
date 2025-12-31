@@ -44,19 +44,19 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
     border-radius: 8px;
     cursor: pointer;
     overflow: hidden;
-    transition: all 0.3s ease;
     transform-style: preserve-3d;
     text-decoration: none;
     letter-spacing: 0.02em;
-    box-shadow: 0 2px 8px rgba(0, 96, 100, 0.25);
+    box-shadow: 0 4px 16px rgba(0, 96, 100, 0.4);
+    transition: all 0.3s ease;
   }
 
   .magnetic-button:hover {
     background: var(--navy-800);
     border-color: var(--navy-800);
     color: #ffffff;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-    transform: translateY(-1px);
+    box-shadow: 0 4px 20px rgba(211, 175, 94, 0.5);
+    transform: translateY(-2px);
   }
 
   .magnetic-button:focus-visible {
@@ -86,7 +86,8 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
   .magnetic-button.secondary:hover {
     background: var(--navy-800);
     color: #ffffff;
-    box-shadow: none;
+    box-shadow: 0 4px 20px rgba(211, 175, 94, 0.5);
+    transform: translateY(-2px);
   }
 
   /* Secondary Light variant - for dark backgrounds */
@@ -100,7 +101,8 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
   .magnetic-button.secondary-light:hover {
     background: #ffffff;
     color: var(--navy-900);
-    box-shadow: none;
+    box-shadow: 0 4px 20px rgba(211, 175, 94, 0.5);
+    transform: translateY(-2px);
   }
 
   /* Text variant */
