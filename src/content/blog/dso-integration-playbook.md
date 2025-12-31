@@ -15,6 +15,25 @@ Most DSO acquisitions take 12+ months to fully integrate—but the target is 90 
 
 Whether you're a DSO COO hitting integration timelines, a PE operating partner overseeing a dental portfolio, or a regional director managing day-to-day execution, this guide provides the tactical framework you need.
 
+---
+
+## Table of Contents
+
+- [Why DSO Intake Integration Fails](#why-dso-intake-integration-fails)
+- [The Workflow-First Integration Framework](#the-workflow-first-integration-framework)
+- [Pre-Close: Intake Assessment (Weeks -4 to 0)](#pre-close-intake-assessment-weeks--4-to-0)
+- [Week 1-2: Process Mapping and Gap Analysis](#week-1-2-process-mapping-and-gap-analysis)
+- [Week 3-4: Standardization Design](#week-3-4-standardization-design)
+- [Week 5-6: Staff Training and Rollout](#week-5-6-staff-training-and-rollout)
+- [Week 7-8: Parallel Operations and Monitoring](#week-7-8-parallel-operations-and-monitoring)
+- [Week 9-12: Optimization and Documentation](#week-9-12-optimization-and-documentation)
+- [PM System Considerations](#pm-system-considerations)
+- [KPIs to Track During Integration](#kpis-to-track-during-integration)
+- [Managing Staff Resistance](#managing-staff-resistance)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
+---
+
 ## Why DSO Intake Integration Fails
 
 Before diving into the solution, let's understand why most DSO integrations miss their targets.
@@ -483,26 +502,61 @@ The Practice Manager often determines integration success or failure. They may:
 - **Measure from Day 1**: You can't improve what you don't measure
 - **Document everything**: Future acquisitions benefit from your learnings
 
+---
+
 ## Next Steps
 
 Ready to implement this playbook in your next acquisition?
 
 ### For DSO Operators
-[Download the Complete DSO Integration Toolkit](/contact/) - Includes all checklists, templates, and scripts referenced in this guide.
+[Download the Complete DSO Integration Toolkit](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) - Includes all checklists, templates, and scripts referenced in this guide.
 
 ### For PE Operating Partners
-[Schedule a Portfolio Assessment](/contact/) - We'll evaluate intake operations across your dental investments and identify the highest-impact opportunities.
+[Schedule a Portfolio Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) - We'll evaluate intake operations across your dental investments and identify the highest-impact opportunities.
+
+Our [Never Miss an Appointment](https://mybcat.com/never-miss-an-appointment) solution is specifically designed for multi-location healthcare groups, combining trained healthcare specialists with technology that integrates directly into your practice management systems—including Dentrix, Eaglesoft, and Open Dental.
+
+---
+
+## Frequently Asked Questions
+
+### How long does DSO intake integration typically take?
+
+Most DSO integrations take **12+ months** using the traditional technology-first approach. Using the workflow-first framework in this playbook, you can achieve standardized intake operations in **90 days**. PM system migration can then happen separately without disrupting patient-facing operations.
+
+### Can I standardize intake across different PM systems?
+
+Yes. The workflow-first approach standardizes **human processes** independent of technology. Whether acquired practices use Dentrix, Eaglesoft, or Open Dental, the phone greeting, information collection, and scheduling workflows can be identical. This is the key insight that enables 90-day integration.
+
+### What's the biggest mistake DSOs make during integration?
+
+**Technology-first thinking**—attempting to migrate everyone to the same PM system before standardizing processes. This creates 6-12 months of chaos where you can't measure performance, staff resist simultaneous system and process changes, and patient experience suffers.
+
+### How do I handle staff resistance to new processes?
+
+Staff resistance peaks around weeks 4-5 of integration—this is normal. Key strategies: explain the "why" behind changes, involve staff in process refinement, train (don't just tell), and acknowledge what's already working. Make the Practice Manager your partner by giving them ownership of implementation success.
+
+### What KPIs should I track during integration?
+
+Track **operational KPIs** (answer rate 90%+, hold time <60s, abandonment <5%), **conversion KPIs** (new patient conversion 70%+, time-to-appointment <7 days), and **experience KPIs** (patient satisfaction 4.5+/5, complaint rate <2 per 100 visits). Measure from Day 1.
+
+### How does intake optimization affect DSO valuation?
+
+For PE-backed DSOs, recovered revenue from improved intake flows directly to EBITDA at 20-30% flow-through. At typical 6-8x multiples, a $500K annual revenue recovery can add **$750K-$1.2M to enterprise value**. See our [EBITDA Impact Calculator](/blog/ebitda-impact-calculator/) for specific modeling.
 
 ---
 
 ## Related Resources
 
-- [Multi-Location Healthcare Intake Solutions: The Complete Guide](/blog/multi-location-healthcare-intake-guide/)
-- [EBITDA Impact Calculator](/blog/ebitda-impact-calculator/) - Quantify the financial impact of intake optimization
-- [The $1.2M Leak: How Multi-Location Healthcare Groups Lose Revenue](/blog/missed-calls-revenue-leak-multi-location-healthcare/)
+- [Multi-Location Healthcare Intake Solutions: The Complete Guide](/blog/multi-location-healthcare-intake-guide/) – Comprehensive framework for evaluating intake solutions
+- [EBITDA Impact Calculator](/blog/ebitda-impact-calculator/) – Quantify the financial impact of intake optimization
+- [The $1.2M Leak: How Multi-Location Healthcare Groups Lose Revenue](/blog/missed-calls-revenue-leak-multi-location-healthcare/) – The revenue cost of missed calls
+- [Never Miss an Appointment](https://mybcat.com/never-miss-an-appointment) – Our solution for multi-location healthcare call handling
+
+---
 
 *Last Updated: January 2026*
 
 ---
 
-*Need help standardizing intake across your DSO? [Book a discovery call](/contact/) to learn how MyBCAT can accelerate your integration timeline.*
+*Need help standardizing intake across your DSO? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can accelerate your integration timeline.*
