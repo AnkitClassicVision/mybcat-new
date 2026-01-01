@@ -9,6 +9,7 @@ dist/
 .env
 .env.local
 .env.production
+.env*.local
 
 # IDE
 .idea/
@@ -30,5 +31,41 @@ yarn-error.log*
 
 # TypeScript
 *.tsbuildinfo
-.vercel
-.env*.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# Screenshots and debug images (keep in designated folders only)
+screenshot*.png
+mobile-*.png
+hero-*.png
+video-*.png
+
+# Temporary check/debug scripts
+*-check.js
+*-check.cjs
+verify-*.js
+
+# Migration artifacts
+wp_*.json
+*_mapping.json
+
+# Reports (generated files - keep in /docs if needed)
+*-report.md
+*-REPORT.md
+*_STATUS.md
+*_GUIDE.md
+
+# Large binary files in root (use public/images or specific folders)
+/*.pdf
+
+# Lighthouse CI results
+.lighthouseci/
+
+# Playwright
+playwright-report/
+test-results/
+
+# ESLint
+.eslintcache

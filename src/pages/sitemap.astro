@@ -1,0 +1,289 @@
+---
+/**
+ * HTML Sitemap Page
+ * Comprehensive listing of all site pages organized by section
+ * Helps users and search engines discover content
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { solutions } from '@data/solutions';
+import { industries } from '@data/industries';
+import { enterpriseVerticals } from '@data/enterprise';
+import { competitors } from '@data/competitors';
+import { caseStudies } from '@data/case-studies';
+import { glossaryTerms } from '@data/glossary';
+import { getCollection } from 'astro:content';
+
+// Get all blog posts
+const blogPosts = await getCollection('blog');
+const sortedBlogPosts = blogPosts.sort((a, b) =>
+  new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+
+// Get unique blog categories
+const blogCategories = [...new Set(blogPosts.map(post => post.data.category))].filter(Boolean).sort();
+
+// Get recent posts (last 20)
+const recentPosts = sortedBlogPosts.slice(0, 20);
+
+// SEO metadata
+const title = 'Sitemap | MyBCAT - All Pages';
+const description = 'Complete sitemap of MyBCAT website. Find all pages including solutions, industries, enterprise services, comparisons, case studies, blog posts, and resources.';
+---
+
+<BaseLayout title={title} description={description}>
+  <main class="sitemap-page">
+    <div class="container">
+      <header class="sitemap-header">
+        <h1>Sitemap</h1>
+        <p>Find all pages on the MyBCAT website organized by category.</p>
+      </header>
+
+      <div class="sitemap-grid">
+        <!-- Home -->
+        <section class="sitemap-section">
+          <h2>Home</h2>
+          <ul>
+            <li><a href="/">Homepage</a></li>
+            <li><a href="/how-it-works/">How It Works</a></li>
+            <li><a href="/pricing/">Pricing</a></li>
+          </ul>
+        </section>
+
+        <!-- Solutions -->
+        <section class="sitemap-section">
+          <h2>Solutions</h2>
+          <ul>
+            <li><a href="/solutions/">All Solutions</a></li>
+            {solutions.map(solution => (
+              <li><a href={`/solutions/${solution.slug}/`}>{solution.name}</a></li>
+            ))}
+          </ul>
+        </section>
+
+        <!-- Industries -->
+        <section class="sitemap-section">
+          <h2>Industries</h2>
+          <ul>
+            <li><a href="/industries/">All Industries</a></li>
+            {industries.map(industry => (
+              <li><a href={`/industries/${industry.slug}/`}>{industry.name}</a></li>
+            ))}
+          </ul>
+        </section>
+
+        <!-- Enterprise -->
+        <section class="sitemap-section">
+          <h2>Enterprise</h2>
+          <ul>
+            <li><a href="/enterprise/">Multi-Location Solutions</a></li>
+            {enterpriseVerticals.map(vertical => (
+              <li><a href={`/enterprise/${vertical.slug}/`}>{vertical.name}</a></li>
+            ))}
+          </ul>
+        </section>
+
+        <!-- Compare -->
+        <section class="sitemap-section">
+          <h2>Compare</h2>
+          <ul>
+            <li><a href="/compare/">All Comparisons</a></li>
+            <li><a href="/compare/build-vs-buy/">Build vs Buy</a></li>
+            {competitors.map(competitor => (
+              <li><a href={`/compare/${competitor.slug}/`}>MyBCAT vs {competitor.name}</a></li>
+            ))}
+          </ul>
+        </section>
+
+        <!-- Case Studies -->
+        <section class="sitemap-section">
+          <h2>Case Studies</h2>
+          <ul>
+            <li><a href="/case-studies/">All Case Studies</a></li>
+            {caseStudies.map(study => (
+              <li><a href={`/case-studies/${study.slug}/`}>{study.client}</a></li>
+            ))}
+          </ul>
+        </section>
+
+        <!-- Resources -->
+        <section class="sitemap-section">
+          <h2>Resources</h2>
+          <ul>
+            <li><a href="/resources/">Resources Hub</a></li>
+            <li><a href="/resources/podcast/">Podcast</a></li>
+            <li><a href="/resources/book/">Book</a></li>
+            <li><a href="/resources/roi-calculator/">ROI Calculator</a></li>
+          </ul>
+        </section>
+
+        <!-- Blog Categories -->
+        <section class="sitemap-section">
+          <h2>Blog Categories</h2>
+          <ul>
+            <li><a href="/blog/">All Blog Posts</a></li>
+            <li><a href="/blog/archive/">Blog Archive</a></li>
+            {blogCategories.map(category => (
+              <li><a href={`/blog/category/${category.toLowerCase().replace(/\s+/g, '-')}/`}>{category}</a></li>
+            ))}
+          </ul>
+        </section>
+
+        <!-- Recent Blog Posts -->
+        <section class="sitemap-section sitemap-section--wide">
+          <h2>Recent Blog Posts</h2>
+          <ul class="blog-list">
+            {recentPosts.map(post => (
+              <li><a href={`/blog/${post.slug}/`}>{post.data.title}</a></li>
+            ))}
+          </ul>
+          <p class="more-link"><a href="/blog/archive/">View all blog posts →</a></p>
+        </section>
+
+        <!-- Glossary -->
+        <section class="sitemap-section sitemap-section--wide">
+          <h2>Glossary</h2>
+          <ul class="glossary-list">
+            <li><a href="/glossary/">All Glossary Terms</a></li>
+            {glossaryTerms.map(term => (
+              <li><a href={`/glossary/${term.slug}/`}>{term.term}</a></li>
+            ))}
+          </ul>
+        </section>
+
+        <!-- Company -->
+        <section class="sitemap-section">
+          <h2>Company</h2>
+          <ul>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/careers/">Careers</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+          </ul>
+        </section>
+
+        <!-- Legal -->
+        <section class="sitemap-section">
+          <h2>Legal & Compliance</h2>
+          <ul>
+            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="/terms/">Terms of Service</a></li>
+            <li><a href="/hipaa-compliance/">HIPAA Compliance</a></li>
+            <li><a href="/gdpr/">GDPR Compliance</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .sitemap-page {
+    padding: 80px 24px;
+    min-height: 100vh;
+    background: var(--cream-100);
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .sitemap-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .sitemap-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .sitemap-header p {
+    font-size: 1.125rem;
+    color: var(--gray-600);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .sitemap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 40px;
+  }
+
+  .sitemap-section {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .sitemap-section--wide {
+    grid-column: span 2;
+  }
+
+  @media (max-width: 768px) {
+    .sitemap-section--wide {
+      grid-column: span 1;
+    }
+  }
+
+  .sitemap-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--copper-500);
+  }
+
+  .sitemap-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sitemap-section li {
+    margin-bottom: 8px;
+  }
+
+  .sitemap-section a {
+    color: var(--navy-700);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+    display: inline-block;
+    padding: 4px 0;
+  }
+
+  .sitemap-section a:hover {
+    color: var(--copper-600);
+    text-decoration: underline;
+  }
+
+  .blog-list,
+  .glossary-list {
+    column-count: 2;
+    column-gap: 24px;
+  }
+
+  @media (max-width: 600px) {
+    .blog-list,
+    .glossary-list {
+      column-count: 1;
+    }
+  }
+
+  .more-link {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--gray-200);
+  }
+
+  .more-link a {
+    color: var(--copper-600);
+    font-weight: 600;
+  }
+</style>
