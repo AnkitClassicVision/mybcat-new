@@ -6,7 +6,7 @@ status: "published"
 author: "Ankit Patel"
 category: "Operations"
 tags: ["multi-location", "healthcare", "intake", "DSO", "optometry", "veterinary", "call-center", "scheduling"]
-featuredImage: "/images/blog/multi-location-healthcare-intake-guide.png"
+featuredImage: "/images/blog/multi-location-healthcare-intake-guide-featured.webp"
 canonical: "https://mybcat.com/blog/multi-location-healthcare-intake-guide"
 relatedPosts: ["missed-calls-revenue-leak-multi-location-healthcare", "ai-receptionist-vs-virtual-front-desk-answering-service", "healthcare-front-desk-staffing-crisis-2025"]
 ---
