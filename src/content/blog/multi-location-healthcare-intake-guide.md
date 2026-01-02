@@ -937,7 +937,6 @@ This assumes 29% missed call rate (industry average), 35% new patient call mix, 
 ## Related Resources
 
 - [The $1.2M Leak: How Multi-Location Healthcare Groups Lose Revenue to Missed Calls](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare) - Detailed analysis of the revenue math behind missed calls
-- [Schedule a Multi-Location Intake Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) - Get a custom analysis for your group
 
 ---
 
