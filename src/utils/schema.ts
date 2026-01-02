@@ -50,7 +50,7 @@ export function generateOrganizationSchema() {
     url: company.site.url,
     logo: {
       '@type': 'ImageObject',
-      url: `${company.site.url}/images/logo.png`,
+      url: `${company.site.url}/images/logo.webp`,
       width: 300,
       height: 60
     },
@@ -263,7 +263,7 @@ export function generateProfessionalServiceSchema() {
     url: company.site.url,
     logo: {
       '@type': 'ImageObject',
-      url: `${company.site.url}/images/logo.png`,
+      url: `${company.site.url}/images/logo.webp`,
       width: 300,
       height: 60
     },

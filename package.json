@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "prebuild": "node scripts/check-missing-webp.js",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
@@ -16,7 +17,10 @@
     "lint:fix": "eslint . --fix",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
-    "publish-scheduled": "node scripts/publish-scheduled.js"
+    "publish-scheduled": "node scripts/publish-scheduled.js",
+    "images:optimize": "node scripts/optimize-images.js",
+    "images:check": "node scripts/check-missing-webp.js",
+    "images:check:fix": "node scripts/check-missing-webp.js --fix"
   },
   "dependencies": {
     "@astrojs/mdx": "^3.1.9",
@@ -24,7 +28,6 @@
     "@astrojs/rss": "^4.0.0",
     "@astrojs/sitemap": "^3.2.0",
     "@astrojs/vercel": "^7.8.0",
-    "@fontsource/inter": "^5.2.8",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "astro": "^4.16.0",
@@ -43,6 +46,7 @@
     "globals": "^16.5.0",
     "gray-matter": "^4.0.3",
     "playwright": "^1.57.0",
+    "sharp": "^0.33.5",
     "typescript": "^5.0.0",
     "typescript-eslint": "^8.51.0"
   }

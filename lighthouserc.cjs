@@ -2,6 +2,9 @@
  * Lighthouse CI Configuration
  * Run with: npx lhci autorun
  *
+ * IMPORTANT: This now tests MOBILE performance to catch regressions
+ * that affect real users. Desktop testing was hiding mobile issues.
+ *
  * Install: npm install -D @lhci/cli
  */
 
@@ -24,18 +27,28 @@ module.exports = {
       startServerReadyTimeout: 30000,
       numberOfRuns: 3,
       settings: {
-        preset: 'desktop',
-        // Throttling for more realistic results
+        // CHANGED: Test mobile (was desktop) to catch real-world regressions
+        preset: 'mobile',
+        // Mobile throttling to simulate real-world conditions
         throttling: {
-          cpuSlowdownMultiplier: 1,
+          // Standard mobile CPU slowdown (4x)
+          cpuSlowdownMultiplier: 4,
+        },
+        // Emulate mobile device
+        formFactor: 'mobile',
+        screenEmulation: {
+          mobile: true,
+          width: 375,
+          height: 667,
+          deviceScaleFactor: 2,
         },
       },
     },
     assert: {
-      // Assertion thresholds
+      // STRICTER assertions for mobile performance
       assertions: {
-        // Performance
-        'categories:performance': ['warn', { minScore: 0.8 }],
+        // Performance - ERROR to block deploys on regression
+        'categories:performance': ['error', { minScore: 0.70 }],
 
         // Accessibility
         'categories:accessibility': ['error', { minScore: 0.9 }],
@@ -46,11 +59,11 @@ module.exports = {
         // SEO
         'categories:seo': ['error', { minScore: 0.9 }],
 
-        // Core Web Vitals
-        'first-contentful-paint': ['warn', { maxNumericValue: 2000 }],
-        'largest-contentful-paint': ['warn', { maxNumericValue: 2500 }],
-        'cumulative-layout-shift': ['warn', { maxNumericValue: 0.1 }],
-        'total-blocking-time': ['warn', { maxNumericValue: 300 }],
+        // Core Web Vitals - STRICT MOBILE THRESHOLDS
+        'first-contentful-paint': ['error', { maxNumericValue: 2500 }],
+        'largest-contentful-paint': ['error', { maxNumericValue: 3500 }],
+        'cumulative-layout-shift': ['error', { maxNumericValue: 0.1 }],
+        'total-blocking-time': ['error', { maxNumericValue: 400 }],
 
         // Critical SEO audits
         'document-title': 'error',
@@ -68,18 +81,18 @@ module.exports = {
         'label': 'error',
         'heading-order': 'warn',
 
-        // Performance audits
-        'uses-responsive-images': 'warn',
+        // Performance audits - now ERROR level
+        'uses-responsive-images': 'error',
         'offscreen-images': 'warn',
         'render-blocking-resources': 'warn',
-        'unminified-css': 'warn',
-        'unminified-javascript': 'warn',
+        'unminified-css': 'error',
+        'unminified-javascript': 'error',
         'unused-css-rules': 'off',
         'unused-javascript': 'off',
 
         // Best practices
         'errors-in-console': 'warn',
-        'no-vulnerable-libraries': 'off', // Flaky in CI - audit may not run
+        'no-vulnerable-libraries': 'off',
         'csp-xss': 'off',
         'notification-on-start': 'off',
       },

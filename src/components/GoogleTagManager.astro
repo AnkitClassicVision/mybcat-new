@@ -1,7 +1,10 @@
 ---
 /**
  * Google Tag Manager Component
- * Deferred loading for better FCP - loads after page is idle
+ * Deferred loading for better FCP - loads AFTER LCP is measured
+ *
+ * PERFORMANCE FIX: Now waits for LCP event instead of arbitrary timeout.
+ * This ensures GTM doesn't affect PageSpeed measurements.
  *
  * GTM Container: GTM-MFK3VKPN
  */
@@ -9,10 +12,13 @@
 const GTM_ID = 'GTM-MFK3VKPN';
 ---
 
-<!-- Google Tag Manager - deferred for performance -->
+<!-- Google Tag Manager - deferred until after LCP -->
 <script is:inline define:vars={{ GTM_ID }}>
-  // Defer GTM until after page is interactive
+  // Load GTM after performance-critical metrics are captured
   function loadGTM() {
+    if (window.__gtmLoaded) return;
+    window.__gtmLoaded = true;
+
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
     var script = document.createElement('script');
@@ -21,11 +27,64 @@ const GTM_ID = 'GTM-MFK3VKPN';
     document.head.appendChild(script);
   }
 
-  // Use requestIdleCallback if available, otherwise setTimeout
-  // Increased timeouts to ensure GTM loads AFTER LCP measurement (target: 2.5s)
-  if ('requestIdleCallback' in window) {
-    requestIdleCallback(loadGTM, { timeout: 7000 });
-  } else {
-    setTimeout(loadGTM, 8000);
+  // Strategy: Wait for LCP to be observed, then load during idle time
+  // This ensures GTM doesn't affect Core Web Vitals measurements
+  function initGTMAfterLCP() {
+    // Use PerformanceObserver to detect when LCP has been measured
+    if ('PerformanceObserver' in window) {
+      var lcpObserved = false;
+
+      var observer = new PerformanceObserver(function(list) {
+        var entries = list.getEntries();
+        if (entries.length > 0) {
+          lcpObserved = true;
+          observer.disconnect();
+
+          // LCP recorded - now safe to load GTM during idle time
+          if ('requestIdleCallback' in window) {
+            requestIdleCallback(loadGTM, { timeout: 3000 });
+          } else {
+            setTimeout(loadGTM, 100);
+          }
+        }
+      });
+
+      try {
+        observer.observe({ type: 'largest-contentful-paint', buffered: true });
+      } catch (e) {
+        // LCP observer not supported, fall back to load event
+        lcpObserved = true;
+      }
+
+      // Fallback: If LCP not observed within 4s, load anyway
+      // (handles edge cases like single-element pages)
+      setTimeout(function() {
+        if (!lcpObserved) {
+          observer.disconnect();
+          loadGTM();
+        }
+      }, 4000);
+
+    } else {
+      // No PerformanceObserver - load after window.load + idle
+      window.addEventListener('load', function() {
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(loadGTM, { timeout: 2000 });
+        } else {
+          setTimeout(loadGTM, 1000);
+        }
+      });
+    }
   }
+
+  // Also ensure GTM loads on user interaction (for tracking)
+  function loadGTMOnInteraction() {
+    ['mousedown', 'keydown', 'touchstart', 'scroll'].forEach(function(event) {
+      document.addEventListener(event, loadGTM, { once: true, passive: true });
+    });
+  }
+
+  // Initialize
+  initGTMAfterLCP();
+  loadGTMOnInteraction();
 </script>
