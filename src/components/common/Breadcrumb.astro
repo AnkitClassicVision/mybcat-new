@@ -14,14 +14,19 @@ interface Props {
 }
 
 const { items } = Astro.props;
+
+// Check if the first item is already Home to avoid duplication
+const showHome = items.length === 0 || (items[0].name !== 'Home' && items[0].url !== '/');
 ---
 
 <nav aria-label="Breadcrumb" class="breadcrumb">
   <ol class="breadcrumb-list">
-    <li class="breadcrumb-item">
-      <a href="/" class="breadcrumb-link">Home</a>
-      {items.length > 0 && <span class="breadcrumb-separator" aria-hidden="true">/</span>}
-    </li>
+    {showHome && (
+      <li class="breadcrumb-item">
+        <a href="/" class="breadcrumb-link">Home</a>
+        {items.length > 0 && <span class="breadcrumb-separator" aria-hidden="true">/</span>}
+      </li>
+    )}
     {items.map((item, index) => (
       <li class="breadcrumb-item">
         {item.url && index < items.length - 1 ? (
