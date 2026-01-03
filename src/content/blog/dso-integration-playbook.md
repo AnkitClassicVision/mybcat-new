@@ -8,7 +8,7 @@ author: "Ankit Patel"
 category: "Operations"
 tags: ["dso", "dental", "integration", "acquisition", "intake", "operations"]
 featuredImage: "/images/blog/dso-integration-playbook.webp"
-canonical: "https://mybcat.com/blog/dso-integration-playbook"
+canonical: "https://mybcat.com/blog/dso-integration-playbook/"
 ---
 
 Most DSO acquisitions take 12+ months to fully integrate—but the target is 90 days. The gap? Integration playbooks focus on PM system migration before establishing standardized intake processes. This playbook flips that sequence, giving you a week-by-week framework for standardizing patient intake that works regardless of which PM system the acquired practice uses.

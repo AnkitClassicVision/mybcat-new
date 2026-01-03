@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 featuredImage: "/images/blog/spanish-speaking-agents.webp"
-canonical: "https://mybcat.com/blog/blog-spanish-speaking-agents"
+canonical: "https://mybcat.com/blog/blog-spanish-speaking-agents/"
 relatedPosts: ["blog-best-patient-care", "embracing-cultural-sensitivity-in-optometry-care", "enhancing-patient-communication-in-your-eye-clinic"]
 ---
 

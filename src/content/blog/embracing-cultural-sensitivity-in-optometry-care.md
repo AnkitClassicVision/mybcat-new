@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/embracing-cultural-sensitivity-in-optometry-care.webp"
-canonical: "https://mybcat.com/blog/embracing-cultural-sensitivity-in-optometry-care"
+canonical: "https://mybcat.com/blog/embracing-cultural-sensitivity-in-optometry-care/"
 ---
 
 Cultural sensitivity provides exceptional customer service no matter what business you provide. Acknowledging and respecting cultural differences is crucial for building trust, ensuring patient comfort, and fostering positive experiences. Cultural sensitivity in optometry customer service holds significant importance for several reasons:

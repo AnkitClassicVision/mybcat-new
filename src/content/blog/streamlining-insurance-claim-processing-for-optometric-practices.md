@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","efficiency"]
 featuredImage: "/images/blog/insurance-claim-processing.webp"
-canonical: "https://mybcat.com/blog/streamlining-insurance-claim-processing-for-optometric-practices"
+canonical: "https://mybcat.com/blog/streamlining-insurance-claim-processing-for-optometric-practices/"
 ---
 
 Insurance claims are a drag. They slow down almost every step of eye care from dealing with the insurance company itself to double checking if the patient has vision insurance to begin with. However, modern software, new technology, and [outsourcing](https://mybcat.com/blog/weighing-the-costs-and-benefits-of-outsourcing-customer-service-in-ophthalmology-and-optometry) organizations are making big improvements to the process of handling claims. In this article, we go into the details of how technology can help, what to look for, how to use it, and other alternatives to software.  

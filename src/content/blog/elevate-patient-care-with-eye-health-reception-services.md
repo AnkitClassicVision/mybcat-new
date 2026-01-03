@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/elevate-patient-care-with-eye-health-reception-services.webp"
-canonical: "https://mybcat.com/blog/elevate-patient-care-with-eye-health-reception-services"
+canonical: "https://mybcat.com/blog/elevate-patient-care-with-eye-health-reception-services/"
 ---
 
 In the bustling realm of eye care, ensuring seamless patient experiences begins right at the reception. Our [optometry call service in Atlanta, Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia), is dedicated to enhancing your eye care journey.

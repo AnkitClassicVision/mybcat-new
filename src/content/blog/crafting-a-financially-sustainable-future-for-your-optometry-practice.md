@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","outsourcing","growth"]
 featuredImage: "/images/blog/financial-sustainable-future.webp"
-canonical: "https://mybcat.com/blog/crafting-a-financially-sustainable-future-for-your-optometry-practice"
+canonical: "https://mybcat.com/blog/crafting-a-financially-sustainable-future-for-your-optometry-practice/"
 ---
 
 In order for your practice to grow and thrive, it has to be profitable, efficient, and still able to provide quality patient care. Balancing all of this to create a sustainable business model demands a thoughtful financial strategy. To help, we've created a primer for you to consider the main areas of your business and how to create a simple plan for giving your practice a financial success guide. We've divided the article into three core sections: Financial Metrics, Expense Management, and Revenue Enhancement. To get the most out of this primer, read through each section to grasp the broad strokes and then follow the "Next Steps" recommendations at the end to dive deeper into areas that particularly resonate with your practice's needs.

@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/optometry-access-elevating-patient-care.webp"
-canonical: "https://mybcat.com/blog/optometry-access-elevating-patient-care"
+canonical: "https://mybcat.com/blog/optometry-access-elevating-patient-care/"
 ---
 
 Unlocking the full potential of patient access and care, [eye care call Support in Georgia](https://mybcat.com/blog/) takes center stage, offering a tailored solution to streamline your practice and elevate the patient experience.

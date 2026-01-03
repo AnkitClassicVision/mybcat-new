@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 featuredImage: "/images/blog/scaling-up-operations-to-grow-your-eye-care-clinic.webp"
-canonical: "https://mybcat.com/blog/scaling-up-operations-to-grow-your-eye-care-clinic"
+canonical: "https://mybcat.com/blog/scaling-up-operations-to-grow-your-eye-care-clinic/"
 ---
 
 Every eye care clinic owner is looking forward to it – the moment when their practice really starts to take off. 

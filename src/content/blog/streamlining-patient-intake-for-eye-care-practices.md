@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","efficiency"]
 featuredImage: "/images/blog/patient-intake-streamlining.webp"
-canonical: "https://mybcat.com/blog/streamlining-patient-intake-for-eye-care-practices"
+canonical: "https://mybcat.com/blog/streamlining-patient-intake-for-eye-care-practices/"
 ---
 
 Opening the doors to an optometry practice means having various processes in place. If your experience was anything like ours, we had some processes that we were proud of and some that we didn't get to spend as much time on as we'd like. From eye exams to patient intake, setting up each step to ensure a smooth patient takes a lot of work. And going back and updating these processes can get pushed to the back burner as the clinic grows and the daily routine takes over. For practices growing to multiple locations, having a [scalable intake solution](https://mybcat.com/multi-location-healthcare-intake-guide) becomes even more critical.

@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 featuredImage: "/images/blog/patient-retention-strategies.webp"
-canonical: "https://mybcat.com/blog/patient-retention-and-acquisition-strategies-for-your-optometry-practice"
+canonical: "https://mybcat.com/blog/patient-retention-and-acquisition-strategies-for-your-optometry-practice/"
 ---
 
 Top-performing practices often attribute their high patient retention rates to several key elements:

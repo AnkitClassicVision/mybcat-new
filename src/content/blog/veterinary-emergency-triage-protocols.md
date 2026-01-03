@@ -8,7 +8,7 @@ author: "Ankit Patel"
 category: "Operations"
 tags: ["veterinary", "emergency-triage", "phone-protocols", "multi-location", "after-hours", "staff-training"]
 featuredImage: "/images/blog/veterinary-emergency-triage-protocols.webp"
-canonical: "https://mybcat.com/blog/veterinary-emergency-triage-protocols"
+canonical: "https://mybcat.com/blog/veterinary-emergency-triage-protocols/"
 relatedPosts: ["multi-location-healthcare-intake-guide", "after-hours-veterinary-call-management", "healthcare-front-desk-staffing-crisis-2025"]
 ---
 

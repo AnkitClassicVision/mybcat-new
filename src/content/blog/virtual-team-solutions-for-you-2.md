@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","growth"]
 featuredImage: "/images/blog/call-center-workers-discussing-data-on-netbook-2023-11-27-04-49-05-utc-scaled.webp"
-canonical: "https://mybcat.com/blog/virtual-team-solutions-for-you-2"
+canonical: "https://mybcat.com/blog/virtual-team-solutions-for-you-2/"
 ---
 
 Is your optometry practice currently overwhelmed and understaffed? If so, there's help available in the form of a virtual team that can fill the gaps in your business.

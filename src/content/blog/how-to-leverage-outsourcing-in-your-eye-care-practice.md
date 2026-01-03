@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/leverage-outsourcing.webp"
-canonical: "https://mybcat.com/blog/how-to-leverage-outsourcing-in-your-eye-care-practice"
+canonical: "https://mybcat.com/blog/how-to-leverage-outsourcing-in-your-eye-care-practice/"
 ---
 
 Outsourcing can increase revenue for your optometry practice. It can also improve its operational efficiency, reduce errors, and elevate the quality of patient care. But, getting started with outsourcing can seem like a daunting task. At least, it felt that way to us way back when we first started with our own clinic.

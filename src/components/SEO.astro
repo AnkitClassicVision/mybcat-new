@@ -14,7 +14,7 @@ interface Props {
 const {
   title,
   description,
-  canonical = Astro.url.href,
+  canonical,
   image = '/images/og-default.png',
   type = 'website',
   publishedTime,
@@ -25,7 +25,14 @@ const {
 
 const siteUrl = 'https://mybcat.com';
 const fullImageUrl = image.startsWith('http') ? image : `${siteUrl}${image}`;
-const fullCanonical = canonical.startsWith('http') ? canonical : `${siteUrl}${canonical}`;
+
+// Construct canonical URL: use provided prop or default to siteUrl + current pathname
+// This ensures we always point to the non-www version and strip query params by default
+const path = Astro.url.pathname;
+const defaultCanonical = `${siteUrl}${path}`;
+const fullCanonical = canonical 
+  ? (canonical.startsWith('http') ? canonical : `${siteUrl}${canonical}`)
+  : defaultCanonical;
 ---
 
 <!-- Primary Meta Tags -->

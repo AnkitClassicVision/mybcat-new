@@ -62,6 +62,26 @@
   ],
   "redirects": [
     {
+      "source": "/optometry-call-services",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-call-services/",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assistants-for-optometry",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assistants-for-optometry/",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
       "source": "/solutions/patient-intake",
       "destination": "/solutions/medical-answering-service/",
       "permanent": true
@@ -2758,12 +2778,12 @@
     },
     {
       "source": "/jobs",
-      "destination": "/about/",
+      "destination": "/careers/",
       "permanent": true
     },
     {
       "source": "/jobs/",
-      "destination": "/about/",
+      "destination": "/careers/",
       "permanent": true
     },
     {
@@ -2878,12 +2898,12 @@
     },
     {
       "source": "/starting-an-optometry-practice",
-      "destination": "/industries/optometry/",
+      "destination": "/blog/starting-an-optometric-practice-101/",
       "permanent": true
     },
     {
       "source": "/starting-an-optometry-practice/",
-      "destination": "/industries/optometry/",
+      "destination": "/blog/starting-an-optometric-practice-101/",
       "permanent": true
     },
     {

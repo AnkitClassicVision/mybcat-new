@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/a-guide-to-medical-receptionist-service-for-optometry.webp"
-canonical: "https://mybcat.com/blog/a-guide-to-medical-receptionist-service-for-optometry"
+canonical: "https://mybcat.com/blog/a-guide-to-medical-receptionist-service-for-optometry/"
 ---
 
 In the dynamic world of optometry, providing exceptional customer service is crucial for building a thriving practice. Many optometrists are turning to specialized services like a [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia), to elevate their patient experience. Let's delve and discover how these professionals play a pivotal role.

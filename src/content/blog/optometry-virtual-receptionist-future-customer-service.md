@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Patient Experience"
 tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
 featuredImage: "/images/blog/optometry-virtual-receptionist-future-customer-service.webp"
-canonical: "https://mybcat.com/blog/optometry-virtual-receptionist-future-customer-service"
+canonical: "https://mybcat.com/blog/optometry-virtual-receptionist-future-customer-service/"
 ---
 
 In the ever-evolving landscape of optometry, the integration of virtual receptionists is shaping the future of customer service. [Optometry call service in Atlanta, Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia), is not merely a convenience but a transformative leap into efficient and patient-centric eye care.

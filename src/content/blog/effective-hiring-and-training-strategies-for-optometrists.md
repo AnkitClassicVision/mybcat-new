@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 featuredImage: "/images/blog/hiring-training-optometrists.webp"
-canonical: "https://mybcat.com/blog/effective-hiring-and-training-strategies-for-optometrists"
+canonical: "https://mybcat.com/blog/effective-hiring-and-training-strategies-for-optometrists/"
 ---
 
 Staffing an optometry clinic with talented team members is one of the most important investments you can make for your practice. But hiring and training is about more than just filling roles – it requires strategies to attract skilled candidates, efficiently onboard them, and cultivate an environment where they can thrive long-term.

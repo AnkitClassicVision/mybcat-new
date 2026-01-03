@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","call-center","outsourcing"]
 featuredImage: "/images/blog/maintaining-client-relations-in-your-optometry-practice.webp"
-canonical: "https://mybcat.com/blog/maintaining-client-relations-in-your-optometry-practice"
+canonical: "https://mybcat.com/blog/maintaining-client-relations-in-your-optometry-practice/"
 ---
 
 Eye care professionals consistently see recurring patients. Even as a [customer service outsourcing Provider in Marietta, Georgia](https://mybcat.com/blog/optometry-call-service-in-atlanta-georgia), we understand that the services they provide, paired with efficient back-office functions, allow them to create meaningful and productive relationships with their clients.

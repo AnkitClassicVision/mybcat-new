@@ -8,7 +8,7 @@ author: "Ankit Patel"
 category: "Virtual Staffing"
 tags: ["optometry","virtual-assistant","patient-care","scheduling","growth"]
 featuredImage: "/images/blog/embracing-cultural-sensitivity-in-optometry-care.webp"
-canonical: "https://mybcat.com/blog/5-signs-youre-ready-to-scale"
+canonical: "https://mybcat.com/blog/5-signs-youre-ready-to-scale/"
 ---
 
 Don't miss the signs that you're ready to scale your optometry practice. Check out the five indicators that you need a virtual assistant team to get your business to where it needs to be – fast.

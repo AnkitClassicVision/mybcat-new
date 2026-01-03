@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 featuredImage: "/images/blog/avoid-outsourcing-mistakes-in-optometry.webp"
-canonical: "https://mybcat.com/blog/avoid-outsourcing-mistakes-in-optometry"
+canonical: "https://mybcat.com/blog/avoid-outsourcing-mistakes-in-optometry/"
 ---
 
 "As the nation's population continues to grow, there are fewer doctors graduating from optometry school and more insured patients, leading to a gap in the healthcare provider network," Peter Cass, OD,[ explained to Optometry Times](https://www.optometrytimes.com/view/how-see-50-patients-day-your-practice). This gap represents a significant revenue opportunity for optometrists and ophthalmologists that want to improve their practice's operational efficiency to handle more patients. Dr. Cass has successfully tapped into this gap by optimizing his clinic's patients-per-hour ratio to 6+, a significant increase compared to the average of 1.2 per hour.

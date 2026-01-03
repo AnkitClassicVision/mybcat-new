@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 featuredImage: "/images/blog/optometric-buying-group.webp"
-canonical: "https://mybcat.com/blog/what-to-know-about-joining-an-optometric-buying-group"
+canonical: "https://mybcat.com/blog/what-to-know-about-joining-an-optometric-buying-group/"
 ---
 
 Optometric alliances or buying groups are a useful tool for private optometry practices. They are organizations for eye care professionals, such as independent optometrists, eye doctors, eye care providers, and others, who coordinate their purchases to get volume discounts and more leverage in their ordering. Alliances also provide member optometrists with increased purchasing power, business growth support, and management assistance. More importantly, these alliances play an instrumental role in supporting independent practices by allowing them to get the kind of price breaks that corporate practices have, which allows them to lower prices without sacrificing their capture rates and profits.
