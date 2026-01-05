@@ -62,6 +62,17 @@
   ],
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "meeting.mybcat.com"
+        }
+      ],
+      "destination": "https://mybcat.com/contact/",
+      "permanent": true
+    },
+    {
       "source": "/optometry-call-services",
       "destination": "/solutions/medical-answering-service/",
       "permanent": true
@@ -2944,6 +2955,56 @@
     {
       "source": "/jobs/:slug/",
       "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-contact-us/faq",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-contact-us/faq/",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-calls-expert-24-7-virtual-reception/feed",
+      "destination": "/blog/optometry-calls-expert-24-7-virtual-reception/",
+      "permanent": true
+    },
+    {
+      "source": "/optometry-calls-expert-24-7-virtual-reception/feed/",
+      "destination": "/blog/optometry-calls-expert-24-7-virtual-reception/",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/Follow",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/Follow/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/follow",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/follow/",
+      "destination": "/",
       "permanent": true
     }
   ]

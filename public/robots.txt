@@ -1,65 +1,18 @@
 # robots.txt for mybcat.com
-# Allow all crawlers including AI bots
+# Consolidated rules for all crawlers
 
 User-agent: *
 Allow: /
+
+# Block non-public paths
 Disallow: /draft/
 Disallow: /api/
 Disallow: /admin/
-Disallow: /_astro/
 Disallow: /preview/
 Disallow: /search
 
+# Note: /_astro/ is ALLOWED - blocking it breaks CSS/JS rendering
+# which hurts mobile-first indexing scores
+
 # Sitemap location
 Sitemap: https://mybcat.com/sitemap-index.xml
-
-# Search engine bots
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-User-agent: Baiduspider
-Allow: /
-
-User-agent: YandexBot
-Allow: /
-
-# Social media bots (for link previews)
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: LinkedInBot
-Allow: /
-
-# AI crawlers (explicitly allowed per SEO plan)
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Bytespider
-Allow: /
-
-User-agent: CCBot
-Allow: /
