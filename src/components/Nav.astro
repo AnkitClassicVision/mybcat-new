@@ -10,6 +10,11 @@ interface Props {
 const { currentPath = '/' } = Astro.props;
 ---
 
+<!-- Mobile Logo (visible when nav-dock is hidden) -->
+<a href="/" class="mobile-logo" aria-label="MyBCAT Home">
+  <img src="/images/logo-optimized.webp" alt="MyBCAT" width="36" height="33" loading="eager">
+</a>
+
 <!-- Mobile Menu Toggle Button -->
 <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
   <span class="hamburger-line"></span>
@@ -186,6 +191,30 @@ const { currentPath = '/' } = Astro.props;
 </nav>
 
 <style>
+  /* Mobile Logo */
+  .mobile-logo {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+    width: 44px;
+    height: 44px;
+    background: var(--spatial-glass);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .mobile-logo img {
+    height: 28px;
+    width: auto;
+  }
+
   /* Mobile Menu Toggle */
   .mobile-menu-toggle {
     display: none;
@@ -239,11 +268,13 @@ const { currentPath = '/' } = Astro.props;
     background: rgba(10, 22, 40, 0.6);
     z-index: 999;
     opacity: 0;
+    pointer-events: none;
     transition: opacity 0.3s ease;
   }
 
   .mobile-menu-overlay.active {
     opacity: 1;
+    pointer-events: auto;
   }
 
   /* Mobile Menu Panel - reduced blur for performance */
@@ -526,6 +557,7 @@ const { currentPath = '/' } = Astro.props;
       display: none;
     }
 
+    .mobile-logo,
     .mobile-menu-toggle,
     .mobile-menu,
     .mobile-menu-overlay {

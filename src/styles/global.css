@@ -129,6 +129,7 @@
 html {
   scroll-behavior: smooth;
   background: var(--spatial-bg);
+  scrollbar-gutter: stable;
 }
 
 /* Offset anchor scroll for floating nav */

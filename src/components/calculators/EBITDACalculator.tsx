@@ -105,6 +105,41 @@ export default function EBITDACalculator() {
 
   return (
     <div style={{ fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" }}>
+      <style>{`
+        .ebitda-calc-slider {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          background: rgba(0, 96, 100, 0.15);
+          border-radius: 4px;
+          outline: none;
+          touch-action: manipulation;
+        }
+        .ebitda-calc-slider::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          width: 44px;
+          height: 44px;
+          background: #006064;
+          border-radius: 50%;
+          cursor: pointer;
+          border: 3px solid white;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+        .ebitda-calc-slider::-moz-range-thumb {
+          width: 44px;
+          height: 44px;
+          background: #006064;
+          border-radius: 50%;
+          cursor: pointer;
+          border: 3px solid white;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+        .ebitda-calc-slider::-moz-range-track {
+          height: 8px;
+          background: rgba(0, 96, 100, 0.15);
+          border-radius: 4px;
+        }
+      `}</style>
       <div style={{ background: '#f8f9fa', borderRadius: '16px', padding: '28px', margin: '24px 0' }}>
 
         {/* Input Grid */}
@@ -122,6 +157,7 @@ export default function EBITDACalculator() {
               step={500000}
               value={revenue}
               onChange={(e) => setRevenue(Number(e.target.value))}
+              className="ebitda-calc-slider"
               style={sliderStyle}
             />
             <div style={rangeLabelsStyle}>
@@ -141,6 +177,7 @@ export default function EBITDACalculator() {
               max={30}
               value={currentMargin}
               onChange={(e) => setCurrentMargin(Number(e.target.value))}
+              className="ebitda-calc-slider"
               style={sliderStyle}
             />
             <div style={rangeLabelsStyle}>
@@ -160,6 +197,7 @@ export default function EBITDACalculator() {
               max={90}
               value={currentAnswerRate}
               onChange={(e) => setCurrentAnswerRate(Number(e.target.value))}
+              className="ebitda-calc-slider"
               style={sliderStyle}
             />
             <div style={rangeLabelsStyle}>
@@ -179,6 +217,7 @@ export default function EBITDACalculator() {
               max={99}
               value={targetAnswerRate}
               onChange={(e) => setTargetAnswerRate(Number(e.target.value))}
+              className="ebitda-calc-slider"
               style={sliderStyle}
             />
             <div style={rangeLabelsStyle}>
@@ -198,6 +237,7 @@ export default function EBITDACalculator() {
               max={50}
               value={newPatientPercent}
               onChange={(e) => setNewPatientPercent(Number(e.target.value))}
+              className="ebitda-calc-slider"
               style={sliderStyle}
             />
             <div style={rangeLabelsStyle}>

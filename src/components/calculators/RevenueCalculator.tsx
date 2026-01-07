@@ -47,6 +47,41 @@ export default function RevenueCalculator() {
 
   return (
     <div style={{ fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" }}>
+      <style>{`
+        .revenue-calc-slider {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          background: rgba(0, 96, 100, 0.15);
+          border-radius: 4px;
+          outline: none;
+          touch-action: manipulation;
+        }
+        .revenue-calc-slider::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          width: 44px;
+          height: 44px;
+          background: #006064;
+          border-radius: 50%;
+          cursor: pointer;
+          border: 3px solid white;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+        .revenue-calc-slider::-moz-range-thumb {
+          width: 44px;
+          height: 44px;
+          background: #006064;
+          border-radius: 50%;
+          cursor: pointer;
+          border: 3px solid white;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+        .revenue-calc-slider::-moz-range-track {
+          height: 8px;
+          background: rgba(0, 96, 100, 0.15);
+          border-radius: 4px;
+        }
+      `}</style>
       <div style={{ background: '#f8f9fa', borderRadius: '16px', padding: '28px', margin: '24px 0' }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', marginBottom: '28px' }}>
           {/* Locations */}
@@ -122,6 +157,7 @@ export default function RevenueCalculator() {
               max={100}
               value={dailyCalls}
               onChange={(e) => setDailyCalls(Number(e.target.value))}
+              className="revenue-calc-slider"
               style={{ width: '100%', margin: '12px 0 8px', height: '8px', cursor: 'pointer' }}
             />
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: '#888' }}>
@@ -141,6 +177,7 @@ export default function RevenueCalculator() {
               max={50}
               value={missedRate}
               onChange={(e) => setMissedRate(Number(e.target.value))}
+              className="revenue-calc-slider"
               style={{ width: '100%', margin: '12px 0 8px', height: '8px', cursor: 'pointer' }}
             />
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: '#888' }}>
@@ -160,6 +197,7 @@ export default function RevenueCalculator() {
               max={60}
               value={newPatientRate}
               onChange={(e) => setNewPatientRate(Number(e.target.value))}
+              className="revenue-calc-slider"
               style={{ width: '100%', margin: '12px 0 8px', height: '8px', cursor: 'pointer' }}
             />
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: '#888' }}>

@@ -316,23 +316,44 @@ export default function ROICalculator() {
           flex: 1;
           height: 8px;
           -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
           background: rgba(0, 96, 100, 0.1);
           border-radius: 4px;
           outline: none;
+          touch-action: manipulation;
         }
 
         input[type="range"]::-webkit-slider-thumb {
           -webkit-appearance: none;
-          width: 20px;
-          height: 20px;
+          width: 44px;
+          height: 44px;
           background: #006064;
           border-radius: 50%;
           cursor: pointer;
           transition: transform 0.2s;
+          border: 3px solid white;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="range"]::-moz-range-thumb {
+          width: 44px;
+          height: 44px;
+          background: #006064;
+          border-radius: 50%;
+          cursor: pointer;
+          border: 3px solid white;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
         }
 
         input[type="range"]::-webkit-slider-thumb:hover {
           transform: scale(1.1);
+        }
+
+        input[type="range"]::-moz-range-track {
+          height: 8px;
+          background: rgba(0, 96, 100, 0.1);
+          border-radius: 4px;
         }
 
         .value-display {
