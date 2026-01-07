@@ -18,27 +18,27 @@
 ## URLs To Submit (15 Total)
 
 ### Solutions (4 URLs)
-- [ ] https://mybcat.com/solutions/medical-answering-service/
-- [ ] https://mybcat.com/solutions/patient-recall/
-- [ ] https://mybcat.com/solutions/no-show-recovery/
-- [ ] https://mybcat.com/solutions/integrations/
+- [submitted 1/6] https://mybcat.com/solutions/medical-answering-service/
+- [done ] https://mybcat.com/solutions/patient-recall/
+- [done ] https://mybcat.com/solutions/no-show-recovery/
+- [submitted 1/6 ] https://mybcat.com/solutions/integrations/
 
 ### Industries (5 URLs)
-- [ ] https://mybcat.com/industries/dental/
-- [ ] https://mybcat.com/industries/veterinary/
-- [ ] https://mybcat.com/industries/medspa/
-- [ ] https://mybcat.com/industries/dermatology/
-- [ ] https://mybcat.com/industries/ent/
+- [ done] https://mybcat.com/industries/dental/
+- [done  ] https://mybcat.com/industries/veterinary/
+- [done ] https://mybcat.com/industries/medspa/
+- [ done] https://mybcat.com/industries/dermatology/
+- [ submitted 1/6] https://mybcat.com/industries/ent/
 
 ### Compare Pages (4 URLs)
-- [ ] https://mybcat.com/compare/vs-hello-rache/
-- [ ] https://mybcat.com/compare/vs-call-centers/
-- [ ] https://mybcat.com/compare/vs-ai-receptionists/
-- [ ] https://mybcat.com/compare/vs-virtual-assistants/
+- [ submiteed 1/6] https://mybcat.com/compare/vs-hello-rache/
+- [ submitted 1/6] https://mybcat.com/compare/vs-call-centers/
+- [ submitted 1/6] https://mybcat.com/compare/vs-ai-receptionists/
+- [ submitted 1/6] https://mybcat.com/compare/vs-virtual-assistants/
 
 ### Enterprise (2 URLs)
-- [ ] https://mybcat.com/enterprise/
-- [ ] https://mybcat.com/enterprise/optometry-groups/
+- [ done] https://mybcat.com/enterprise/
+- [ submitted 1/6] https://mybcat.com/enterprise/optometry-groups/
 
 ---
 

@@ -49,17 +49,19 @@ const showHome = items.length === 0 || (items[0].name !== 'Home' && items[0].url
 
   .breadcrumb-list {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 0;
     list-style: none;
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
+    row-gap: 4px;
   }
 
   .breadcrumb-item {
-    display: flex;
-    align-items: center;
+    display: inline-flex;
+    align-items: baseline;
+    white-space: nowrap;
   }
 
   .breadcrumb-link {
@@ -81,5 +83,16 @@ const showHome = items.length === 0 || (items[0].name !== 'Home' && items[0].url
   .breadcrumb-current {
     color: var(--text-secondary);
     font-weight: 500;
+  }
+
+  /* Mobile: tighter spacing to fit more on one line */
+  @media (max-width: 480px) {
+    .breadcrumb {
+      font-size: 13px;
+    }
+
+    .breadcrumb-separator {
+      margin: 0 6px;
+    }
   }
 </style>
