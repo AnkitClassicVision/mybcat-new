@@ -783,16 +783,6 @@
       "permanent": true
     },
     {
-      "source": "/sitemap",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/sitemap/",
-      "destination": "/",
-      "permanent": true
-    },
-    {
       "source": "/gemini-website",
       "destination": "/",
       "permanent": true
@@ -2805,16 +2795,6 @@
     {
       "source": "/jobs/",
       "destination": "/careers/",
-      "permanent": true
-    },
-    {
-      "source": "/author/:slug",
-      "destination": "/about/",
-      "permanent": true
-    },
-    {
-      "source": "/author/:slug/",
-      "destination": "/about/",
       "permanent": true
     },
     {
