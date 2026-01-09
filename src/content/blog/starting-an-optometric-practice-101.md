@@ -112,7 +112,7 @@ Once a team is in place, investing in training and development is crucial for en
 
 ### **Technological Integration**
 
-In the modern-day optometry practice, technology plays a pivotal role in enhancing efficiency, improving patient care, and ensuring data security. And there are tech solutions for just about everything, from clinical applications, invoicing and billing, to project management. 
+In the modern-day optometry practice, technology plays a pivotal role in enhancing efficiency, improving patient care, and ensuring data security. And there are tech solutions for just about everything, from clinical applications, invoicing and billing, to project management. For a detailed breakdown of equipment costs and priorities, see our [Equipment and Technology Checklist for New Optometry Practices](/blog/equipment-technology-checklist-new-optometry-practices/). 
 
 **Key Points to Consider:**
 
