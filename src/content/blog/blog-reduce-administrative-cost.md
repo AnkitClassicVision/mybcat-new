@@ -1,7 +1,7 @@
 ---
 title: "How to Reduce Administrative Costs in Optometry and Ophthalmology Practices"
 seoTitle: "Reduce Admin Costs in Eye Care Practices"
-description: "Running a successful optometry or ophthalmology practice is about more than just providing excellent patient care. With rising costs, maintaining [...]"
+description: "Your non-doctor payroll should be around 24% of revenue. If you're way over that, here's where you're probably bleeding money."
 publishDate: 2024-12-03
 status: "published"
 author: "Ankit Patel"
@@ -11,99 +11,133 @@ featuredImage: "/images/blog/call-center-workers-discussing-data-on-netbook-2023
 canonical: "https://mybcat.com/blog/blog-reduce-administrative-cost/"
 ---
 
-Running a successful optometry or ophthalmology practice is about more than just providing excellent patient care. With rising costs, maintaining financial efficiency is crucial—and yet, administrative costs often balloon beyond control. What if there were simple strategies to keep those costs in check while also improving operations?
+I'm going to give you a number that might ruin your day: 24%.
 
-In this post, we’ll explore exactly how you can do that.
+That's roughly what your non-doctor payroll should be as a percentage of total revenue. Industry benchmarks. Not my opinion—actual data from thousands of practices.
 
-## Identifying Key Areas of Overspending
+Now pull up your own numbers. What's your percentage?
 
-Administrative costs can quietly eat away at your profits, leaving your practice less profitable than it should be. So, where exactly do these costs come from? Most often, the issue boils down to two things: **inefficient staffing** and **unmanaged costs of goods**.
+If you just winced, keep reading. Because you're probably not alone, and there's a path out of this.
 
-### 1. Staffing Inefficiencies
+## Where The Money Actually Goes
 
-Ever feel like you’re paying too much in salaries, yet still not getting the results you want from your team? You’re not alone. Excessive staffing or underutilization of employees can lead to significant overspending in optometry and ophthalmology practices. Additionally, [missed calls represent a hidden revenue leak](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) that compounds staffing inefficiencies.
+Most practice owners I talk to know they're spending too much on admin. They just don't know *where* exactly. It feels like a blob of overhead that's impossible to untangle.
 
-> 
+Let me untangle it.
 
-According to industry benchmarks, non-doctor payroll should be around 24% of your total revenue.
+**Staffing bloat happens gradually.** You hired someone for insurance billing because it got overwhelming. Then you needed another person to handle phones because the first person was too busy billing. Then you brought on a part-timer to help with recalls because nobody had time for outbound calls.
 
-If your practice’s payroll exceeds this benchmark, it’s a red flag that you might be overstaffed or not fully optimizing your team’s workload.
+Each hire made sense in isolation. Together, they create a payroll that's eating your margins.
 
-### 2. Losing Control of Costs
+**Underutilization is the hidden killer.** That person you hired for billing—are they billing eight hours a day? Or are they billing for three hours and filling time with tasks that don't really need doing? Most practices have significant slack in their staffing. Not because employees are lazy, but because workflows are designed inefficiently.
 
-Ever wonder if you’re paying too much for contact lenses, frames, or other supplies? Without strong controls, it’s easy to over-order or fail to secure the best pricing from vendors.
+**Cost of goods creeps up too.** Are you getting the best prices on frames? Contact lenses? When's the last time you actually negotiated with your vendors? Many practices are overpaying simply because they've always used the same suppliers.
 
-**The combined cost of labor and goods should never exceed 60% of your revenue.**
+Here's the rule of thumb: your combined cost of labor and goods should stay below 60% of revenue. Labor alone shouldn't exceed about 35-40% when you include doctors. If you're north of those numbers, something's off.
 
-## Practical Strategies for Reducing Costs
+## The 60/40 Reality Check
 
-### 1. Right-Size Your Staff
+Pull your P&L. Do the math. Seriously, do it now.
 
-Use the **60/40 rule**:
+Take your total labor cost (all salaries, benefits, payroll taxes—everyone). Add your cost of goods (frames, lenses, contacts, supplies). Divide by total revenue.
 
-60% of your total revenue should cover labor and cost of goods. If labor costs alone are creeping toward 50% or more, you’re overspending.
+What did you get?
+
+If you're under 60%, nice work. You're running a tight ship.
+
+If you're between 60-70%, you've got some fat to trim but you're not in crisis.
+
+If you're over 70%, we need to talk. You're working way too hard for margins that thin.
+
+## Three Levers You Can Actually Pull
+
+Assuming you want to fix this, you've got three main options. Most practices need some combination of all three.
+
+### 1. Right-size your team
+
+This doesn't necessarily mean firing people. It might mean not replacing someone when they leave. It might mean cross-training so people can flex between roles. It might mean shifting hours based on actual demand instead of "this is how we've always scheduled."
 
 Ask yourself:
+- Are there times during the day when staff are clearly idle?
+- Are there tasks that take way longer than they should?
+- Could two people do what three people are doing if workflows were better?
 
-- Are all employees fully occupied during their shifts?
+Sometimes the answer is yes. Sometimes it's not. But you won't know until you actually look.
 
-- Can tasks be reassigned or workflows optimized?
+### 2. Negotiate harder on supplies
 
-### 2. Implement Cost Management Tools
+Join a buying group if you haven't already. Seriously. The discounts are real. We're talking 10-30% on frames and lenses depending on volume.
 
-Think of your business like a ship—it needs course corrections. Here are a few quick wins:
+Review your vendor contracts annually. Get competitive quotes. Most suppliers will match pricing if they think you're actually willing to switch.
 
-- **Renegotiate vendor contracts:** Join buying groups for discounts on supplies.
+And track your ordering. Are you over-ordering certain products that sit in inventory? Are you under-ordering popular items and missing sales? Your EHR probably has reports for this. Use them.
 
-- **Track payroll productivity:** Ensure ROI for employee hours.
+### 3. Outsource what doesn't need to be done on-site
 
-### 3. Leverage Global Staffing
+This is the big one. And it's where most practices have the largest opportunity.
 
-Global staffing allows you to outsource non-core functions (e.g., billing, scheduling, customer service) to remote staff at a fraction of the cost. For practices with multiple offices, explore our [guide to multi-location healthcare intake solutions](https://mybcat.com/multi-location-healthcare-intake-guide) for additional strategies.
+Think about everything your staff does. Now ask: does this task physically need to happen in my office?
 
-## How Global Staffing Works
+Answering phones? No.
+Scheduling appointments? No.
+Insurance verification? No.
+Patient recalls? No.
+Billing follow-ups? No.
+Chart prep? No.
 
-Unlike traditional outsourcing, global staffing integrates remote workers into your team. They perform the same tasks as in-house staff but from a different location.
+The list goes on. A huge percentage of administrative work can be done remotely. And when you outsource to the right partner, you're typically paying 40-60% less than equivalent in-house labor.
 
-### Best Tasks for Outsourcing
+## How Global Staffing Actually Works
 
-- **Appointment confirmations and scheduling:** Remote staff can handle all incoming calls.
+Let me be specific, because "outsourcing" is a loaded word.
 
-- **Insurance filing and billing:** Reduce in-office paperwork by outsourcing claims.
+I'm not talking about sending work overseas and hoping for the best. I'm talking about bringing trained remote workers into your team. They use your systems. They follow your protocols. They're on your schedule. The only difference is they're not physically sitting in your office.
 
-- **Patient recalls and follow-ups:** Follow-up tasks boost revenue while keeping costs low.
+At Classic Vision Care—the practice my wife and I own—we've used remote staff for years. They handle our inbound calls, schedule appointments, verify insurance, and follow up on recalls. They're trained specifically on our systems (we use RevolutionEHR) and they know our patients.
 
-### Case Study: Classic Vision Care
+From the patient's perspective, they're just talking to someone at our practice. Because they are.
 
-By outsourcing tasks like billing and follow-ups, [Classic Vision Care](https://classicvisioncare.com/) reduced non-doctor payroll by **30%** and increased revenue by **33%**.
+The result? We cut our non-doctor payroll by 30%. And our revenue went up 33% because we weren't dropping balls on recalls and follow-ups anymore.
 
-## The Importance of Metrics and Continuous Monitoring
+Those aren't typos. Costs down 30%, revenue up 33%. That's what happens when you stop paying premium prices for tasks that don't require premium resources.
 
-To ensure these strategies work, monitor key metrics like:
+## What's Actually Worth Outsourcing
 
-- Calls answered per day
+Not everything should be outsourced. I'd never outsource clinical support roles—techs and opticians need to be there with the patient. And I'd always keep some in-office admin capacity for situations that require a physical presence.
 
-- Insurance claims processed
+But these tasks? These can absolutely be handled remotely:
 
-- Patient follow-up completion rates
+**Phone calls and scheduling.** This is the big one. [Missed calls are a massive revenue leak](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare)—and even answered calls are expensive if you're paying an in-office person $18-22/hour to do what a trained remote worker does for less.
 
-## Conclusion
+**Insurance verification.** Tedious, time-consuming, and doesn't require physical presence. Perfect for outsourcing.
 
-Reducing administrative costs doesn’t have to be daunting. By:
+**Patient recalls and reactivation.** These outbound campaigns are where most practices drop the ball. A dedicated remote team can run recalls consistently, turning dormant patients into appointments.
 
-- Optimizing staffing levels
+**Billing follow-ups.** Chasing insurance payments and patient balances. Again, tedious but necessary, and doesn't need to happen on-site.
 
-- Using cost-control tools
+**After-hours coverage.** Instead of paying on-call premiums to your staff, have a remote team handle evening and weekend calls.
 
-- Leveraging global staffing
+## The Numbers That Matter
 
-… you can transform your practice into a cost-efficient, productive operation. Start today with simple adjustments and focus on what truly matters: [providing excellent patient care](https://mybcat.com/contact/) 
+Once you start making changes, track these:
 
-### Ready to Transform Your Practice?
+- Calls answered vs. calls missed
+- Appointment conversion rate (calls that turn into bookings)
+- Insurance verification completion rate
+- Patient recall success rate
+- Payroll as a percentage of revenue
 
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
+If those metrics are improving while payroll percentage is dropping, you're doing it right.
 
-  Schedule a Consultation Today →
+## Stop Overpaying For Admin Work
+
+Look, I get it. Changing how you staff your practice is scary. You've got relationships with your team. You're worried about quality. You're not sure where to start.
+
+But the math doesn't lie. If your admin costs are eating your margins, you can't fix it by working harder or seeing more patients. You have to fix the structural problem.
+
+Outsourcing isn't about cutting corners. It's about putting the right resources on the right tasks. Your skilled in-office staff should be doing work that requires their physical presence and expertise. Everything else? That can be done better and cheaper by people whose whole job is doing it well.
+
+[If you're curious what this might look like for your practice](https://mybcat.com/contact/), let's talk. I'll walk you through exactly how we'd handle your workflows and what the numbers might look like.
 
 ---
 

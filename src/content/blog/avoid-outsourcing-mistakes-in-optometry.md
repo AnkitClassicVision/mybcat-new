@@ -1,6 +1,6 @@
 ---
 title: "Avoid outsourcing mistakes in optometry"
-description: "\"As the nation's population continues to grow, there are fewer doctors graduating from optometry school and more insured patients, leading [...]"
+description: "Outsourcing can cut your admin costs by 30%. Or it can create a nightmare. Here are the corners you can't afford to cut."
 publishDate: 2023-08-01
 status: "published"
 author: "Ankit Patel"
@@ -10,85 +10,114 @@ featuredImage: "/images/blog/avoid-outsourcing-mistakes-in-optometry.webp"
 canonical: "https://mybcat.com/blog/avoid-outsourcing-mistakes-in-optometry/"
 ---
 
-"As the nation's population continues to grow, there are fewer doctors graduating from optometry school and more insured patients, leading to a gap in the healthcare provider network," Peter Cass, OD,[ explained to Optometry Times](https://www.optometrytimes.com/view/how-see-50-patients-day-your-practice). This gap represents a significant revenue opportunity for optometrists and ophthalmologists that want to improve their practice's operational efficiency to handle more patients. Dr. Cass has successfully tapped into this gap by optimizing his clinic's patients-per-hour ratio to 6+, a significant increase compared to the average of 1.2 per hour.
+Peter Cass sees six patients an hour. That's not a typo—six patients per hour, compared to the industry average of 1.2.
 
-However, increasing patient capacity can't come at the expense of patient care, especially since patient expectations are rising. According to[ a white paper from Notable](https://assets-global.website-files.com/628b58b14c93b92656929a99/6372647955d5071e5b023649_StateofAutomation_PatientFindings_2022.pdf), nearly two-thirds of patients skipped a healthcare appointment due to scheduling challenges.[ A Harris poll](https://www.businesswire.com/news/home/20220215005224/en/New-Data-Finds-69-of-Americans-Would-Consider-Switching-Healthcare-Providers-for-More-%E2%80%9CAppealing%E2%80%9D-Services-%E2%80%93-Same-Day-Appointments-Top-the-List) found that the same proportion of patients desired a healthcare experience akin to the ease and convenience of services like Amazon or Uber. Clinics have a double opportunity to embrace the digital experience to increase operational efficiency and meet patient expectations.
+He talked about it in [Optometry Times](https://www.optometrytimes.com/view/how-see-50-patients-day-your-practice), and every time I mention it to colleagues, they assume he's cutting corners on care. He's not. He's optimized everything around the clinical encounter so efficiently that he spends more actual face-time with patients than most docs seeing half the volume.
 
-A growth-minded optometrist can get even more returns for their clinics by outsourcing to reduce costs, solve staffing challenges, and standardize processes across various locations. Done well, outsourcing can offer numerous benefits, such as cost reduction, improved patient care, and boosted performance metrics. But when done poorly, it can mean wasting time correcting administrative errors, a deterioration in patient care, and even reputational damage.
+That kind of efficiency doesn't happen by accident. It requires ruthless focus on operational excellence—which often means outsourcing the tasks that don't need to happen on-site.
 
-Avoid outsourcing mistakes in optometry by providing thorough training, developing comprehensive SOP documentation, and ensuring quality control. Similarly, it's crucial to take your time with the implementation process and not excessively reduce staff.
+But here's what Dr. Cass would tell you (and what I've learned the hard way): outsourcing done poorly is worse than not outsourcing at all. The potential upside is huge—30% cost reduction, 33% revenue increase, those are real numbers from our own practice. The downside, if you screw it up, is chaos.
 
-But how can you avoid these pitfalls, and what does it mean to implement outsourcing properly? To answer this, let's look at corners not to cut when optimizing your clinic's operational efficiency through outsourcing.
+So let's talk about the mistakes I've seen kill outsourcing initiatives, and how to avoid them.
 
-## **Inadequate Documentation and Insufficient Training: The Twin Pillars of Outsourcing Errors**
+## Mistake #1: Skimping on Documentation
 
-When outsourcing, two corners that often get cut are thorough documentation of patient interactions and comprehensive training for the outsourced staff. Both are crucial for seamless workflow and quality eye care, requiring time and attention that might seem like too much upfront effort.
+I get it. Creating SOPs is tedious. Nobody became an optometrist because they love writing procedure manuals.
 
-First, consider documentation. Optometrists and staff may not dedicate enough time to document each step of patient interactions, instead relying on memory or meeting notes. This approach can lead to uncertainties when an outsourced staffer isn't sure what to do, which may impact the quality of care provided. For example, an outsourced receptionist could incorrectly schedule a patient's comprehensive eye exam because they didn't understand the medical necessity of the patient's condition.
+But here's what happens when you outsource without proper documentation:
 
-Similarly, the notion that external staff requires less training is flawed. The impact of such an oversight can degrade the quality of patient care and increase the burden on in-house staff, who have to spend extra time correcting these errors.
+Your remote worker gets a call. Patient wants to know if you can fit them in for an emergency same-day. The answer depends on about fifteen things the remote worker doesn't know—your definition of "emergency," your scheduling preferences, your policy on squeezing in existing patients versus new patients, what to do if the doctor's running behind.
 
-What's the solution? Documentation starts with dedicating enough time to document every step of patient interactions, implementing standardized documentation protocols, and ensuring the outsourced team can access these comprehensive notes. This will help reduce chances of error and miscommunication, improving the patient experience.
+Without documentation, they guess. Sometimes they guess right. Sometimes they tell a patient with a potential retinal tear to come in next week. Sometimes they triple-book your 2 PM slot.
 
-For training, the answer is comprehensive, tailored training for the outsourced staff. This doesn't just mean a general training session; it means training that familiarizes the outsourced team with the clinic's specific needs, protocols, and best practices. An outsourced receptionist, for example, should understand the clinic's booking system, cancellation protocol, and handling of emergency appointments. It's particularly critical for an optometry billing service or medical billing outsourcing partner. Your outsourced team member will need detailed training on your billing process, especially how to do optometry coding.
+Here's the fix: before you outsource anything, document the hell out of it.
 
-Documenting interactions thoroughly and providing comprehensive training ensures your outsourced team can perform their duties to the same standard as your in-house staff.
+Every workflow. Every scenario. Every exception. Write it down as if you were explaining it to someone who's never set foot in an eye care practice. Because that might be exactly who's reading it.
 
-## **Generic Solutions**
+This takes time upfront. Maybe 20-30 hours to document your core processes properly. But that time investment pays for itself a hundred times over in avoided mistakes.
 
-Optometry clinics cater to various patients, each with unique needs and preferences. In an attempt to increase operational efficiency, some clinics may opt to implement generic, one-size-fits-all solutions such as standardized chatbots or pre-made administrative software. These can offer the allure of immediate implementation with minimal customization.
+## Mistake #2: Treating Training as Optional
 
-These generic solutions often fall short in addressing the unique needs and preferences of patients. They can also feel impersonal, leading to patient frustration and decreased satisfaction. Additionally, these systems may not perfectly align with your clinic's specific workflows and protocols, leading to inefficiencies or inaccuracies in tasks like appointment scheduling or medical coding.
+"They're professionals. They'll figure it out."
 
-When implementing AI tools like chatbots, ensure they are programmed to understand and respond to various patient queries and can guide patients to a human representative when necessary. When adopting new software, look for customization options, so it can be adapted to fit your clinic's existing protocols and workflows.
+I've heard this from practice owners who wouldn't dream of letting a new in-office hire figure things out on their own. Somehow, when it's a remote worker, they expect magic.
 
-## **Limited Patient Interaction Channels**
+Training for outsourced staff needs to be more thorough than for in-office hires, not less. They don't have the benefit of osmosis—they can't overhear how things are done, ask a quick question to a colleague, or pick up on unwritten norms by watching others.
 
-Modern technology has brought a multitude of communication channels, from email and online chat to video calls and social media. However, this doesn't mean older methods like phone calls are obsolete. In fact, [missed phone calls can significantly impact practice revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare). A clinic's patient base likely spans a wide range of ages and technological comfort levels.
+What proper training looks like:
 
-Some ambitious clinics might eliminate traditional communication methods like phone lines, instead favoring digital platforms or AI-based chatbots.
+**Practice-specific training.** Not generic call center stuff—training on YOUR systems, YOUR insurance contracts, YOUR scheduling logic. If you use RevolutionEHR, they need to be proficient in RevolutionEHR. If you have a specific insurance verification workflow, they need to know it cold.
 
-While many patients appreciate the convenience of digital communication, others may find it impersonal or even intimidating. Some, particularly older patients, simply prefer the familiarity of a phone call. You risk alienating a segment of your patient base by eliminating this option and potentially losing their business.
+**Role-playing scenarios.** Lots of them. The tricky calls, the upset patients, the complicated scheduling situations. Don't wait for these to happen in real life.
 
-While embracing new technology is essential, it's equally important to maintain multiple channels for patient communication. This includes both traditional methods like phone calls and modern ones like chatbots, emails, or video consultations. Ensure your staff and outsourced service providers, like your medical billing company or optometry biller, are trained to handle interactions across these platforms. Additionally, the chosen methods should be adaptable based on individual patient preferences. This approach ensures that all patients feel comfortable and accommodated in their interactions with your clinic, regardless of their preferred communication style.
+**Ongoing coaching.** Training isn't a one-time event. Review calls weekly. Identify patterns. Correct mistakes before they become habits.
 
-## **Overly Reduced Staff**
+The practices that fail at outsourcing almost always failed at training first.
 
-Outsourcing doesn't mean eliminating all of your in-house staff. Clinics that drastically cut down their in-house staff can put excessive pressure on the remaining staff, leading to stress, burnout, and a decline in the quality of service. With less personnel available for face-to-face interactions, patients may also feel a drop in personalized care, which can impact patient satisfaction and retention.
+## Mistake #3: Using Generic Solutions
 
-When outsourcing, retain a core team of in-house staff who can maintain the personal touch and handle critical tasks. The outsourced team should complement your in-house staff. A proper balance allows your clinic to leverage the benefits of outsourcing while ensuring top-quality patient care.
+There's a temptation to just grab a chatbot or plug in some off-the-shelf scheduling software and call it outsourcing.
 
-## **Neglect of Patient Feedback**
+These generic solutions have their place. But they break down fast in eye care, where nuance matters.
 
-Patient feedback is a gold mine of insights that can help optometry practices improve their services and overall patient experience. Ignoring it can be a costly mistake. It's also a common mistake.
+A chatbot can't recognize that a patient saying "my vision is acting weird" might be describing a retinal emergency. Generic scheduling software doesn't understand that a comprehensive exam takes 30 minutes but a contact lens fitting takes 45. Off-the-shelf phone systems don't know that your practice accepts VSP but not EyeMed.
 
-Some clinics may not prioritize collecting or responding to patient feedback after outsourcing optometry billing, particularly during a transition period when resources might be stretched thin.
+Whatever you outsource needs to be customized to your practice. That means working with partners who specialize in your industry and are willing to configure their systems to your specific needs.
 
-This can result in missed opportunities to adjust and improve new processes based on actual user experiences. Moreover, patients might feel disregarded if their concerns and feedback are not addressed, leading to dissatisfaction and potential attrition.
+At MyBCAT, this is literally our entire business model. We don't do generic. Every practice we work with gets agents trained specifically on their workflows, their systems, their protocols. It takes longer to set up, but it actually works.
 
-Actively solicit and respond to patient feedback during and after the transition to outsourced optometry billing services. Use various channels for feedback collection, such as surveys, suggestion boxes, social media, and direct communication. Act on the feedback by making necessary adjustments and improvements to the new processes. Communication is key: letting your patients know their opinions are valued and impactful. Not only does this help improve your services, but it also fosters a stronger relationship with your patients.
+## Mistake #4: Eliminating Phone Support
 
-## **Steering Your Clinic Toward Prosperity**
+Some practices get excited about digital transformation and decide to go all-in on chatbots, online scheduling, and patient portals. No more phones.
 
-Outsourcing can boost the operational efficiency of optometry clinics, reduce costs, improve cash flow, and increase patient care capacity. However, it's not a process to take lightly or rush through. 
+This is a mistake.
 
-As we've discussed, cutting corners can lead to significant problems, including miscommunication, patient dissatisfaction, and damage to your clinic's reputation.
+[Missed calls cost real money](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare)—but so do failed digital interactions. And here's the thing: a significant portion of your patient base, especially older patients, prefers talking to a human. They're not comfortable with chatbots. They get frustrated with patient portals. They want to call.
 
-If you're considering outsourcing, start by analyzing your clinic's current operations, identifying tasks that could be outsourced, and defining clear goals for what you hope to achieve. Investigate potential outsourcing partners thoroughly, ensuring they have the capability, experience, and cultural fit to meet your clinic's specific needs.
+If you eliminate that option, you eliminate those patients. They'll go somewhere else.
 
-Once you've found a suitable partner, develop a detailed implementation plan, including comprehensive training for both your in-house and outsourced teams. Establish robust quality control measures and create a strong system for documenting patient interactions.
+The right approach is omnichannel. Give patients options. Some will happily book online at 11 PM. Others will call Monday morning. Meet them where they are.
 
-Remember, it's not about reducing your in-house team to the bare bones; instead, it's about balancing your internal resources and outsourced services. And, as always, keep your patients at the center of all decisions, ensuring their needs are met and their voices are heard.
+Whatever channels you offer, make sure they're all staffed by people (or systems) who actually know your practice. A phone with nobody answering is bad. An online scheduler that double-books appointments is worse.
 
-You can avoid outsourcing mistakes in optometry today and set your clinic up for success and longevity.
+## Mistake #5: Cutting In-Office Staff to the Bone
 
- 
+Outsourcing should complement your in-office team, not replace it entirely.
 
-### Ready to Transform Your Practice?
+Yes, you can shift work off-site. Yes, you can reduce headcount through attrition as roles get automated or outsourced. But if you slash your in-office staff dramatically, you create problems:
 
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
+**Patient experience suffers.** Someone needs to be there physically to help patients, handle the unexpected, and provide that human touch.
 
-  Schedule a Consultation Today →
+**Flexibility disappears.** When something goes wrong (and something always goes wrong), you need people on-site who can adapt.
+
+**Institutional knowledge vanishes.** Your long-time employees know things that aren't documented anywhere. Fire them all at once and you lose irreplaceable context.
+
+The smart approach is balance. Keep a core in-office team doing work that truly requires physical presence. Outsource everything else. And make sure the two groups communicate seamlessly.
+
+## Mistake #6: Ignoring Patient Feedback During Transition
+
+When you change how things work, patients notice. Sometimes they complain. Sometimes they just quietly leave.
+
+During and after any outsourcing transition, actively collect patient feedback:
+- Are calls being handled well?
+- Is scheduling smoother or more confusing?
+- Do patients feel like they're getting the same quality of service?
+
+Listen to what they tell you. If multiple patients mention the same issue, that's real signal. Fix it fast, before word spreads.
+
+And communicate proactively. If patients are going to notice a change, tell them about it positively. "We've added extended phone support so you can reach us more easily" sounds a lot better than patients figuring out something's different and wondering why.
+
+## Getting It Right
+
+Outsourcing works. I've seen it work at our own practice and at dozens of others. The cost savings are real. The efficiency gains are real. The ability to scale without proportionally scaling headcount—that's real too.
+
+But it only works if you do it right.
+
+Invest in documentation. Invest in training. Work with partners who understand your industry. Keep enough in-office staff to maintain quality. Listen to your patients.
+
+Do those things, and outsourcing becomes a competitive advantage. Skip them, and you're setting yourself up for a mess that takes months to clean up.
+
+If you want to talk through what outsourcing might look like for your specific practice, [reach out](https://mybcat.com/contact/). We've done this enough times to know what works and what doesn't.
 
 ---
 

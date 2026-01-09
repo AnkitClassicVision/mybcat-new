@@ -1,6 +1,6 @@
 ---
 title: "How to Assess Your Staff to Ensure the Best Patient Care"
-description: "In optometry and ophthalmology practices, your staff isn't just your support—they're the face of your practice. From answering calls to [...]"
+description: "Your staff is the first thing patients judge. Here's how to actually measure if they're helping or hurting your practice."
 publishDate: 2025-01-30
 status: "published"
 author: "Ankit Patel"
@@ -11,111 +11,128 @@ canonical: "https://mybcat.com/blog/blog-best-patient-care/"
 relatedPosts: ["blog-spanish-speaking-agents", "blog-streamline-practice-remote-staffing", "effective-hiring-and-training-strategies-for-optometrists"]
 ---
 
-In optometry and ophthalmology practices, your staff isn’t just your support—they’re the face of your practice. From answering calls to guiding the patient care journey, every interaction shapes how patients perceive your services. But how do you know if your team is truly delivering the best care?
+I'm going to tell you something that might sting: your patients probably can't tell if you're a great clinician.
 
-Regular staff assessment is key to maintaining excellence and identifying opportunities for growth. Here’s how to evaluate your team and ensure your patients consistently receive outstanding care.
+Seriously. They don't know if your refraction technique is textbook perfect. They can't assess whether you caught a subtle retinal finding. They have no idea if your contact lens fitting was exceptional or just adequate.
 
-## 1. Start with Patient Feedback
+What they CAN tell is whether your receptionist seemed annoyed when they called. Whether the check-in process felt chaotic. Whether anyone actually seemed happy to see them.
 
-Your patients are your best resource for understanding how well your team is performing. Gathering feedback—both formally and informally—can reveal key insights.
+Your staff is the face of your practice. Not you. Them. And if that face is tired, disorganized, or indifferent, patients will assume your clinical care is the same way.
 
-- **Patient Surveys:** Use post-appointment surveys to measure satisfaction. Questions might include:
+So how do you know if your team is actually delivering good patient care? Let's get specific.
 
-Was the staff helpful and professional?
+## Start With What Patients Actually Say
 
-- Were your concerns understood and addressed?
+The easiest data to collect is patient feedback. But most practices do this wrong.
 
-- How would you rate your overall experience?
+They send out generic satisfaction surveys. Patients give generic responses. Nobody learns anything useful.
 
-- **Online Reviews:** Monitor platforms like Google and Yelp. Positive and negative reviews provide a snapshot of how your team is perceived.
+Here's what to do instead:
 
-**Tip:** Encourage patients to share specific experiences. Detailed feedback helps identify exactly where your team excels—or needs improvement.
+**Ask specific questions.** Not "how was your experience?" but "Did the person who answered the phone seem knowledgeable about our services?" Not "were you satisfied?" but "Would you recommend us to a friend who needs eye care?"
 
-## 2. Observe Staff Interactions
+**Read your online reviews—all of them.** Not just the star ratings. Read the actual comments. What specifically do people praise? What specifically do they complain about? If multiple patients mention the same issue (long wait times, rude front desk, confusing billing), believe them.
 
-Assessing staff performance isn’t just about data—it’s also about observing how your team interacts with patients and each other.
+**Ask follow-up questions in person.** When a patient mentions something during their visit—good or bad—dig deeper. "You said scheduling was easy? What made it easy?" or "You mentioned you had trouble reaching us? Tell me more about that."
 
-- **Shadow Patient Interactions:** Watch how team members greet patients, explain procedures, and handle questions. Are they confident, empathetic, and clear?
+The goal isn't just to measure satisfaction. It's to understand specifically what's working and what isn't.
 
-- ? **Role-Playing Scenarios:** Use training sessions to observe how staff respond to common challenges, such as handling an upset patient or scheduling conflicts.
+## Watch How Your Team Actually Works
 
-**Key Metric:** Patient comfort and clarity. Do patients leave interactions feeling reassured and informed?
+Surveys only capture what patients remember to tell you. The real picture comes from observation.
 
-## 3. Review Workflow Efficiency
+I'm not talking about spying on your staff. I'm talking about spending intentional time watching workflows. Shadow your front desk for a morning. Listen to how phones are answered. Notice what happens during busy moments.
 
-Behind-the-scenes processes are just as important as patient-facing interactions. Evaluate your team’s efficiency in handling administrative tasks and workflows.
+Things to watch for:
 
-- **Appointment Scheduling:** Are bookings accurate and seamless?
+**How do they handle interruptions?** When someone's in the middle of checking in a patient and the phone rings, what happens? Does one task get bungled while they try to do both? Do patients get put on hold without explanation?
 
-- **Insurance Processing:** Is verification handled quickly and without errors?
+**What's their default tone?** Not when the boss is watching—when they think no one's paying attention. Is there warmth in their voice? Or does it sound like they're reading from a script?
 
-- **Follow-Ups:** Are patients being contacted for recalls, post-op care, or missed appointments in a timely manner?
+**How do they deal with problems?** When insurance doesn't verify correctly, when appointments get double-booked, when a patient shows up on the wrong day—how does your staff respond? Do they stay calm and solution-focused, or do they get flustered and defensive?
 
-**Tip:** Track metrics like call response times, scheduling accuracy, and patient follow-up rates to identify bottlenecks and optimize operations. For practices managing multiple locations, understanding [how missed calls impact revenue across your organization](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) can reveal hidden opportunities for improvement.
+**What happens during downtime?** Are they prepping for the next patient, organizing, learning? Or are they scrolling their phones?
 
-## 4. Assess Training and Knowledge
+None of this is about catching people doing something wrong. It's about understanding how your systems and people actually function in real conditions.
 
-An informed team is an effective team. Regularly evaluate your staff’s understanding of your practice’s procedures, policies, and industry standards.
+## Measure The Things That Matter
 
-- **Knowledge Audits:** Test staff on their familiarity with medical terminology, practice protocols, and patient communication techniques.
+Beyond observation, track actual metrics. Not vanity metrics—metrics that correlate with patient experience and practice health.
 
-- **Continuing Education:** Ensure your team has access to ongoing training. Keeping up with advancements in optometry and ophthalmology ensures your practice remains competitive.
+**Phone answer rate.** What percentage of calls get answered live versus going to voicemail? If you don't know this number, you're flying blind. [Missed calls directly impact revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare).
 
-**Tip:** Schedule periodic training refreshers to address knowledge gaps and introduce new techniques.
+**Call-to-appointment conversion.** Of the calls that get answered, how many turn into scheduled appointments? If this number is low, something's breaking down in those conversations.
 
-## 5. Focus on Communication Skills
+**Check-in time.** How long does it take from when a patient walks in the door to when they're seated in the exam room? Long check-in times often indicate process problems, not lazy staff.
 
-Effective communication is at the heart of quality patient care. Assess your staff’s ability to:
+**Patient follow-up completion.** Are recall calls actually getting made? Are post-op check-ins happening? If tasks are consistently slipping through cracks, you've got a capacity or accountability problem.
 
-- Listen actively and empathetically.
+**No-show rate by scheduler.** This one's interesting. If one staff member's patients no-show at 8% and another's no-show at 15%, something different is happening in those scheduling conversations.
 
-- Provide clear explanations of procedures, treatments, and next steps.
+## Check Their Knowledge, Not Just Their Attitude
 
-- Handle conflicts or dissatisfaction with professionalism.
+A friendly staff member who doesn't know your practice protocols is almost worse than a competent grouch. They'll cheerfully give patients wrong information.
 
-**Actionable Step:** Create scripts or guidelines for common patient interactions, ensuring consistency and clarity across your team.
+Periodically quiz your team on things like:
 
-## 6. Leverage Technology for Performance Insights
+- What insurance plans do you accept?
+- What's the difference between a comprehensive eye exam and a contact lens fitting?
+- What should a patient do if they experience sudden vision changes?
+- How do you handle a patient who wants to see the doctor today but the schedule is full?
 
-Modern tools can provide valuable data on staff performance. Consider implementing:
+You don't need to make it a formal test. Just ask questions in conversation and notice the answers. If your staff can't accurately explain basic things about your practice, patients are getting misinformation.
 
-- **Call Monitoring Systems:** Track how patient calls are handled, including response times and call resolution rates.
+## Actually Talk To Your Team
 
-- **AI and Analytics Tools:** Use data to identify trends, such as peak call times or frequently asked questions, to improve workflows.
+Here's the part most practice owners skip: one-on-one conversations with each staff member.
 
-**Bonus:** Many tools offer coaching insights, allowing you to provide targeted feedback based on real interactions.
+Not annual reviews—those are useless. Regular check-ins. Monthly at minimum. More often for new hires or people who are struggling.
 
-## 7. Regularly Recognize and Address Performance
+In these conversations:
+- Ask what's frustrating them about their job
+- Ask what resources or support they need
+- Give specific feedback on things they're doing well
+- Give specific feedback on things that need improvement
+- Set clear expectations for the next period
 
-Assessment isn’t just about identifying weaknesses—it’s also about celebrating strengths. Recognize team members who consistently deliver great care, and provide constructive feedback to those who need support.
+Most staff performance issues aren't attitude problems. They're clarity problems. People don't know exactly what's expected, so they wing it. Clear expectations plus regular feedback solves most of this.
 
-- **One-on-One Meetings:** Use these sessions to discuss individual performance, set goals, and offer guidance.
+## Use Technology To Fill Gaps
 
-- **Team Recognition:** Celebrate collective achievements, such as high patient satisfaction scores or meeting workflow targets.
+You can't personally observe every patient interaction. But technology can help.
 
-**Tip:** Clear, actionable feedback empowers your team to improve continuously.
+Call recording and monitoring—if you're working with a partner like us, we record calls and flag ones that need review. Patterns emerge that you'd never catch with occasional observation.
 
-## How My Business Care Team Can Help
+AI-powered analytics can identify sentiment in calls, catch missed opportunities, and highlight training needs. Not as a replacement for human judgment, but as a way to scale your attention.
 
-At **My Business Care Team (MyBCAT)**, we specialize in providing highly trained remote staff for optometry and ophthalmology practices. Our agents are:
+Customer feedback tools that trigger automatically after appointments can capture impressions while they're fresh.
 
-- **Pre-Trained in Patient Care:** Skilled in scheduling, insurance verification, and handling patient concerns.
+The point isn't surveillance. It's insight. You can't improve what you can't see.
 
-- **Performance-Monitored:** Regularly assessed to ensure they meet the highest standards of care.
+## When The Problem Is You, Not Them
 
-- **Seamlessly Integrated:** We align with your practice’s workflows, enhancing your existing team’s efficiency and professionalism.
+Sometimes staff underperformance is actually a leadership problem.
 
-## Take the Next Step Toward Excellence
+If you've never clearly communicated your expectations, you can't blame staff for not meeting them. If you've never trained them on your protocols, you can't be surprised they don't follow them. If you've created a chaotic environment where they're constantly interrupted and understaffed, you can't expect calm, attentive service.
 
-Regularly assessing your team ensures your practice stays ahead of the curve, delivering the best possible care to your patients. Whether you’re streamlining workflows, enhancing communication, or expanding your team, these steps will help you build a practice known for excellence.
+Before you decide someone's a bad employee, ask yourself:
+- Have I told them specifically what good performance looks like?
+- Have I given them the training and resources to succeed?
+- Have I created conditions where good performance is possible?
 
-Ready to elevate your staff and patient care? Let **My Business Care Team** provide the expert support your practice needs. [Schedule a consultation today](#) to learn more.
+If the answer to any of those is "not really," start there.
 
-### Ready to Transform Your Practice?
+## Building A Team That Actually Delivers
 
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
+The goal isn't perfection. It's continuous improvement. A practice that regularly assesses performance, gives feedback, and develops skills will always outperform one that just hopes things are going okay.
 
-  Schedule a Consultation Today →
+At MyBCAT, this is baked into how we operate. Our agents are continuously trained, regularly monitored, and consistently coached. When we handle calls for your practice, we're tracking performance metrics and improving constantly.
+
+But whether you work with us or not, the principle applies: pay attention to how your team interacts with patients, measure what matters, and never stop developing your people.
+
+That's how you build a practice known for exceptional care—not just clinically, but in every interaction.
+
+[Want to talk about how we approach staff performance and patient experience?](https://mybcat.com/contact/) Happy to share what we've learned.
 
 ---
 
