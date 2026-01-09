@@ -37,4 +37,4 @@ jobs:
         with:
           name: dist
           path: .vercel/output/static
-          retention-days: 7
+          retention-days: 3
