@@ -3006,6 +3006,126 @@
       "source": "/follow/",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-contact-us",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-contact-us/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-my-business-care-team-process",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-my-business-care-team-process/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/optometry-call-service-in-atlanta-georgia",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/optometry-call-service-in-atlanta-georgia/",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-book-a-discovery-call",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-book-a-discovery-call/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/virtual-assistants",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/virtual-assistants/",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/full-inbound-or-outbound-phone-support",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/full-inbound-or-outbound-phone-support/",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/business-care-team-full-service-custom-solution",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/business-care-team-full-service-custom-solution/",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/sales-increase-and-cost-reduction-consulting",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/sales-increase-and-cost-reduction-consulting/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/recalls-authorization-of-benefits-confirmation-of-exams-back-office-communications",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service-outsourcing-provider-in-marietta-georgia/recalls-authorization-of-benefits-confirmation-of-exams-back-office-communications/",
+      "destination": "/solutions/patient-recall/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-in-marietta-georgia/business-care-team-full-service-custom-solution",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-outsourcing-provider-in-marietta-georgia/business-care-team-full-service-custom-solution/",
+      "destination": "/solutions/front-desk-outsourcing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/industry",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/industry/",
+      "destination": "/blog/",
+      "permanent": true
     }
   ]
 }

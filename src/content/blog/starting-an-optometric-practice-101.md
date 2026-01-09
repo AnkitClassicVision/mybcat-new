@@ -86,7 +86,7 @@ All of this leads just to the opportunity to see patients. Then, for a practice 
 
 Ensuring that each staff member is proficient in patient interactions, clinical procedures, and the usage of diagnostic equipment is obviously important. Training programs offered by the AOA or other professional bodies can be immensely beneficial. 
 
-Cultivating a patient-centric culture is a long-term investment. A satisfied patient is likely to return for future eye care needs and recommend the practice to others. [Implementing a patient-first approach](https://reviewob.com/how-i-created-a-practice-with-90-patient-retention-rate/) entails creating a welcoming environment, being attentive to patient concerns, and ensuring transparency in communication regarding treatment plans and costs. Feedback collection and analysis are instrumental in understanding patient needs and refining the quality of care.
+Cultivating a patient-centric culture is a long-term investment. A satisfied patient is likely to return for future eye care needs and recommend the practice to others. Implementing a patient-first approach entails creating a welcoming environment, being attentive to patient concerns, and ensuring transparency in communication regarding treatment plans and costs. Feedback collection and analysis are instrumental in understanding patient needs and refining the quality of care.
 
 ### **Staffing and Management**
 

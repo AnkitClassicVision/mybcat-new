@@ -275,19 +275,27 @@ export function generateProfessionalServiceSchema() {
       postalCode: company.address.zip,
       addressCountry: company.address.country
     },
+    geo: {
+      '@type': 'GeoCoordinates',
+      // Marietta, GA coordinates
+      latitude: 33.9526,
+      longitude: -84.5499
+    },
     areaServed: {
       '@type': 'Country',
       name: 'United States'
     },
-    serviceType: [
-      'Healthcare Call Answering',
-      'Medical Practice Operations',
-      'Patient Appointment Scheduling',
-      'Insurance Verification',
-      'Healthcare Virtual Assistants'
-    ],
+    // Use single serviceType string for better schema validation
+    serviceType: 'Healthcare Call Answering Service',
     priceRange: '$$',
     sameAs: Object.values(company.social),
+    // ContactPoint for businesses without a public phone number
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'sales',
+      url: `${company.site.url}/contact/`,
+      availableLanguage: ['English', 'Spanish']
+    },
     parentOrganization: {
       '@type': 'Organization',
       name: company.ownership.parent
@@ -295,8 +303,112 @@ export function generateProfessionalServiceSchema() {
     founder: {
       '@type': 'Person',
       name: company.ownership.founder,
-      jobTitle: company.ownership.founderTitle
-    }
+      jobTitle: company.ownership.founderTitle,
+      url: `${company.site.url}/author/ankit-patel/`
+    },
+    knowsAbout: [
+      'Healthcare Operations',
+      'Medical Practice Management',
+      'Patient Acquisition',
+      'Healthcare Call Center Services',
+      'HIPAA Compliant Services',
+      'Medical Virtual Assistants'
+    ]
+  };
+}
+
+/**
+ * LocalBusiness schema for local SEO and GEO/AEO optimization
+ * Important for Google Maps, local search, and AI search results
+ */
+export function generateLocalBusinessSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    '@id': `${company.site.url}/#localbusiness`,
+    name: company.name,
+    alternateName: company.shortName,
+    description: company.description,
+    url: company.site.url,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${company.site.url}/images/logo.webp`,
+      width: 300,
+      height: 60
+    },
+    image: `${company.site.url}/images/og-default.png`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: company.address.city,
+      addressRegion: company.address.state,
+      postalCode: company.address.zip,
+      addressCountry: company.address.country
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      // Marietta, GA coordinates
+      latitude: 33.9526,
+      longitude: -84.5499
+    },
+    areaServed: {
+      '@type': 'Country',
+      name: 'United States'
+    },
+    serviceArea: {
+      '@type': 'Country',
+      name: 'United States'
+    },
+    priceRange: '$$',
+    sameAs: Object.values(company.social),
+    founder: {
+      '@type': 'Person',
+      name: company.ownership.founder,
+      jobTitle: company.ownership.founderTitle,
+      url: `${company.site.url}/author/ankit-patel/`
+    },
+    knowsAbout: [
+      'Healthcare Operations',
+      'Medical Practice Management',
+      'Patient Acquisition',
+      'Healthcare Call Center Services',
+      'HIPAA Compliant Services',
+      'Medical Virtual Assistants'
+    ]
+  };
+}
+
+/**
+ * Person schema for author pages - critical for E-A-T signals
+ */
+export function generatePersonSchema(person: {
+  name: string;
+  givenName?: string;
+  familyName?: string;
+  jobTitle: string;
+  description: string;
+  image: string;
+  url: string;
+  sameAs?: string[];
+  knowsAbout?: string[];
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': `${person.url}#person`,
+    name: person.name,
+    ...(person.givenName && { givenName: person.givenName }),
+    ...(person.familyName && { familyName: person.familyName }),
+    jobTitle: person.jobTitle,
+    description: person.description,
+    image: person.image.startsWith('http') ? person.image : `${company.site.url}${person.image}`,
+    url: person.url,
+    ...(person.sameAs && { sameAs: person.sameAs }),
+    worksFor: {
+      '@type': 'Organization',
+      '@id': `${company.site.url}/#organization`,
+      name: company.name
+    },
+    ...(person.knowsAbout && { knowsAbout: person.knowsAbout })
   };
 }
 

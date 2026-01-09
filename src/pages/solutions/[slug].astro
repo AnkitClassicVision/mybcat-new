@@ -16,6 +16,7 @@ import { solutions, getAllSolutionSlugs, getSolutionBySlug, type Solution } from
 import { getCaseStudiesBySolution } from '@data/case-studies';
 import { faqs } from '@data/faq';
 import { testimonials } from '@data/testimonials';
+import { generateFAQSchema, serializeSchema } from '@utils/schema';
 
 export function getStaticPaths() {
   return solutions.map(solution => ({
@@ -30,8 +31,13 @@ interface Props {
 
 const { solution } = Astro.props;
 
-// Get relevant FAQs
-const relevantFaqs = faqs.filter(f => f.category === 'general' || f.category === 'onboarding').slice(0, 4);
+// Get relevant FAQs - prefer solution-specific FAQs if available
+const solutionFaqs = solution.extendedContent?.faqs || [];
+const generalFaqs = faqs.filter(f => f.category === 'general' || f.category === 'onboarding').slice(0, 4);
+const relevantFaqs = solutionFaqs.length > 0 ? solutionFaqs : generalFaqs;
+
+// Generate FAQ schema for service-specific FAQs
+const faqSchema = solutionFaqs.length > 0 ? generateFAQSchema(solutionFaqs) : null;
 
 // Icon SVGs for solutions
 const icons: Record<string, string> = {
@@ -65,6 +71,11 @@ const relatedCaseStudies = getCaseStudiesBySolution(solution.slug);
     { name: solution.name }
   ]}
 >
+  {/* FAQ Schema for service-specific FAQs */}
+  {faqSchema && (
+    <script slot="head" type="application/ld+json" set:html={serializeSchema(faqSchema)} />
+  )}
+
   <div class="solution-page">
     <!-- Hero Section -->
     <section class="solution-hero">
@@ -165,6 +176,72 @@ const relatedCaseStudies = getCaseStudiesBySolution(solution.slug);
         steps={solution.process}
       />
     </section>
+
+    <!-- Extended Content Section (SEO Depth) -->
+    {solution.extendedContent && (
+      <section class="extended-content">
+        <div class="extended-header">
+          <span class="eyebrow">Learn More</span>
+          <h2>Everything You Need to Know About {solution.name}</h2>
+        </div>
+
+        {solution.extendedContent.whatIs && (
+          <details class="content-accordion" open>
+            <summary>
+              <h3>{solution.extendedContent.whatIs.title}</h3>
+              <span class="accordion-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </summary>
+            <div class="accordion-content" set:html={solution.extendedContent.whatIs.content.split('\n\n').map(p => `<p>${p}</p>`).join('')} />
+          </details>
+        )}
+
+        {solution.extendedContent.howItWorks && (
+          <details class="content-accordion">
+            <summary>
+              <h3>{solution.extendedContent.howItWorks.title}</h3>
+              <span class="accordion-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </summary>
+            <div class="accordion-content" set:html={solution.extendedContent.howItWorks.content.split('\n\n').map(p => `<p>${p}</p>`).join('')} />
+          </details>
+        )}
+
+        {solution.extendedContent.whoItsFor && (
+          <details class="content-accordion">
+            <summary>
+              <h3>{solution.extendedContent.whoItsFor.title}</h3>
+              <span class="accordion-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </summary>
+            <div class="accordion-content" set:html={solution.extendedContent.whoItsFor.content.split('\n\n').map(p => `<p>${p}</p>`).join('')} />
+          </details>
+        )}
+
+        {solution.extendedContent.comparison && (
+          <details class="content-accordion">
+            <summary>
+              <h3>{solution.extendedContent.comparison.title}</h3>
+              <span class="accordion-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </summary>
+            <div class="accordion-content" set:html={solution.extendedContent.comparison.content.split('\n\n').map(p => `<p>${p}</p>`).join('')} />
+          </details>
+        )}
+      </section>
+    )}
 
     <!-- FAQs Section -->
     <section class="faq-section">
@@ -503,6 +580,96 @@ const relatedCaseStudies = getCaseStudiesBySolution(solution.slug);
   /* Process */
   .process-section {
     margin-bottom: 60px;
+  }
+
+  /* Extended Content / Accordions */
+  .extended-content {
+    margin-bottom: 60px;
+  }
+
+  .extended-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .extended-header .eyebrow {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 8px;
+  }
+
+  .extended-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+  }
+
+  .content-accordion {
+    margin-bottom: 12px;
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+  }
+
+  .content-accordion summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    cursor: pointer;
+    list-style: none;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.02) 0%, transparent 100%);
+    transition: background 0.2s;
+  }
+
+  .content-accordion summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .content-accordion summary:hover {
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.05) 0%, transparent 100%);
+  }
+
+  .content-accordion summary h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin: 0;
+  }
+
+  .accordion-icon {
+    color: var(--oceanic-teal);
+    transition: transform 0.3s;
+    flex-shrink: 0;
+  }
+
+  .content-accordion[open] .accordion-icon {
+    transform: rotate(180deg);
+  }
+
+  .accordion-content {
+    padding: 0 24px 24px;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+  }
+
+  .accordion-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .accordion-content :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .accordion-content :global(strong) {
+    color: var(--navy-900);
+    font-weight: 600;
   }
 
   /* FAQ */

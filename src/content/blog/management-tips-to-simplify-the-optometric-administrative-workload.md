@@ -14,7 +14,7 @@ The operational efficiencies of your optometry practice are integral to the over
 
 ## Harnessing Software for Seamless Operations
 
-Modern tools have come a long way and there are now multiple options, specific to optometry, that can help in several areas. Optometry practice management software combines various operational domains into a centralized platform, facilitating effortless access to patient records, appointment schedules, and billing information. Opting for software solutions like [NextGen Healthcare](https://www.nextgen.com/) or [OD Link](https://www.odlink.com/) can significantly streamline administrative tasks (learn how to [streamline patient intake across multiple locations](https://mybcat.com/multi-location-healthcare-intake-guide)), allowing for more time to be devoted to patient care. Note that it's wise to focus on software made for your industry to ensure that their security and compliance is designed with optometry in mind.
+Modern tools have come a long way and there are now multiple options, specific to optometry, that can help in several areas. Optometry practice management software combines various operational domains into a centralized platform, facilitating effortless access to patient records, appointment schedules, and billing information. Opting for software solutions like [NextGen Healthcare](https://www.nextgen.com/) or OD Link can significantly streamline administrative tasks (learn how to [streamline patient intake across multiple locations](https://mybcat.com/multi-location-healthcare-intake-guide)), allowing for more time to be devoted to patient care. Note that it's wise to focus on software made for your industry to ensure that their security and compliance is designed with optometry in mind.
 
 ## Elevating Patient Engagement
 
@@ -30,7 +30,7 @@ The efficiency of your staff is reflective of your overall practice’s operatio
 
 ## Metrics-Driven Management
 
-Adopting a metrics-driven approach to management can provide invaluable insights into the performance and operational efficiency of your practice. By analyzing key performance indicators (KPIs) such as patient retention rates, appointment no-show rates you can identify areas of improvement. A simple stat to track is the number of patients you see per year, comparing your practice with the [industry average of 4428 patients per 12-months](https://reviewob.com/key-practice-metrics-numbers-to-track-grow-to-speed-practice-recovery/). This>what to know when selecting a BPO provider for your optometry practice.
+Adopting a metrics-driven approach to management can provide invaluable insights into the performance and operational efficiency of your practice. By analyzing key performance indicators (KPIs) such as patient retention rates, appointment no-show rates you can identify areas of improvement. A simple stat to track is the number of patients you see per year, comparing your practice with the industry average of 4428 patients per 12-months. This>what to know when selecting a BPO provider for your optometry practice.
 
 ## Conclusion
 
