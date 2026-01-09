@@ -1,8 +1,8 @@
 ---
 title: "Veterinary Emergency Triage: Phone Protocols That Save Lives and Staff Time"
 description: "A complete phone triage protocol framework for multi-location veterinary groups. Includes decision trees for 15 common scenarios, staff training guidelines, and after-hours integration."
-publishDate: 2026-01-15
-scheduledDate: 2026-01-15T09:00:00-05:00
+publishDate: 2026-01-09
+scheduledDate: 2026-01-09T16:00:00-05:00
 status: "scheduled"
 author: "Ankit Patel"
 category: "Operations"
