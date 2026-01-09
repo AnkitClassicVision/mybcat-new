@@ -10,9 +10,9 @@ featuredImage: "/images/blog/are-administrative-functions-hurting-your-practice.
 canonical: "https://mybcat.com/blog/are-administrative-functions-hurting-your-practice/"
 ---
 
-A successful optometry practice results from strong eye care services. However, as a [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/blog/optometry-call-service-in-atlanta-georgia), we understand that crucial administrative tasks should be performed to ensure successful and efficient optometry operations.
+A successful optometry practice results from strong eye care services. However, as a [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/industries/optometry/), we understand that crucial administrative tasks should be performed to ensure successful and efficient optometry operations.
 
-Our services at My Business Care Team aim to improve your optometry practice through our [optometrists inbound call services in Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia/full-inbound-or-outbound-phone-support). We recognize that many of these administrative tasks, while crucial, can slow down your operations when you do them on your own. How can these tasks hurt your practice?
+Our services at My Business Care Team aim to improve your optometry practice through our [optometrists inbound call services in Georgia](https://mybcat.com/solutions/medical-answering-service/). We recognize that many of these administrative tasks, while crucial, can slow down your operations when you do them on your own. How can these tasks hurt your practice?
 
 - **Less Time for Patients**
 
@@ -22,7 +22,7 @@ If you do these functions on your own, you will have less time to focus on your 
 
 - **Evolving Distractions**
 
-Administrative duties can become growing distractions that internally affect how well you work. Providing [eye clinic customer service](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia), scheduling appointments, and answering queries can become a little overwhelming for optometrists who should focus on their clients.
+Administrative duties can become growing distractions that internally affect how well you work. Providing [eye clinic customer service](https://mybcat.com/about/), scheduling appointments, and answering queries can become a little overwhelming for optometrists who should focus on their clients.
 
 - **Focusing On Two Things at Once**
 

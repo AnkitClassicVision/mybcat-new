@@ -43,13 +43,13 @@ const categoryMeta: Record<string, { title: string; description: string; }> = {
 
 export function getStaticPaths() {
   // We need to generate paths at build time
+  // Note: 'industry' category removed - no posts exist, redirect handles old links
   return [
     { params: { category: 'technology' } },
     { params: { category: 'virtual-staffing' } },
     { params: { category: 'patient-experience' } },
     { params: { category: 'operations' } },
     { params: { category: 'growth' } },
-    { params: { category: 'industry' } },
   ];
 }
 

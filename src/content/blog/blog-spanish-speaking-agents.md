@@ -83,7 +83,7 @@ Picture this: A Spanish-speaking patient calls your practice to report sudden ey
         Let **My Business Care Team** help you integrate bilingual support into your practice. Our remote workers bring the language skills, professionalism, and expertise your patients deserve.
     
 
-        [Schedule a free consultation today](https://mybcat.com/customer-service-outsourcing-provider-contact-us) and discover how MyBCAT can transform your patient experience.
+        [Schedule a free consultation today](https://mybcat.com/contact/) and discover how MyBCAT can transform your patient experience.
     
 
 ### Ready to Transform Your Practice?

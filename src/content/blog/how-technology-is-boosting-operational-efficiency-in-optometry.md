@@ -74,7 +74,7 @@ Lastly, while technology can transform many aspects of a practice, it bears stat
 
 In eye and vision care, technology is inextricably linked with efficiency and enhanced patient experience. For the modern eye care practice, staying ahead of the curve isn't just about being competitive; it's about offering the best possible care in the information age. Eye health will inevitably benefit from these advancements, but it's up to the practices to ensure they ride the wave rather than get swept away.
 
-[If you have questions or want help, please reach out](https://mybcat.com/blog/customer-service-outsourcing-provider-book-a-discovery-call)!
+[If you have questions or want help, please reach out](https://mybcat.com/contact/)!
 
 ### Ready to Transform Your Practice?
 

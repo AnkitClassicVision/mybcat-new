@@ -97,7 +97,7 @@ Reducing administrative costs doesn’t have to be daunting. By:
 
 - Leveraging global staffing
 
-… you can transform your practice into a cost-efficient, productive operation. Start today with simple adjustments and focus on what truly matters: [providing excellent patient care](https://mybcat.com/customer-service-outsourcing-provider-contact-us) 
+… you can transform your practice into a cost-efficient, productive operation. Start today with simple adjustments and focus on what truly matters: [providing excellent patient care](https://mybcat.com/contact/) 
 
 ### Ready to Transform Your Practice?
 

@@ -90,7 +90,7 @@ To effectively manage remote teams, you'll need the right tools in place. Time-t
 
 Remote staffing is more than just a cost-cutting measure—it's a way to enhance your practice's efficiency while maintaining the highest standard of patient care. By offloading non-core tasks to a skilled remote team, you can focus on what truly matters: serving your patients.
 
-With the right systems in place, remote staffing allows you to save money, streamline operations, and even boost revenue. [Isn't it time you gave it a try?](https://mybcat.com/customer-service-outsourcing-provider-contact-us)
+With the right systems in place, remote staffing allows you to save money, streamline operations, and even boost revenue. [Isn't it time you gave it a try?](https://mybcat.com/contact/)
 
 ### Ready to Transform Your Practice?
 

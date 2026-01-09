@@ -14,7 +14,7 @@ The significance of seamless patient communication cannot be overstated. [Optome
 
 - **Appointment Scheduling**
 
-Inbound call services assisted by [optometry virtual receptionists in Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia) efficiently manage appointment bookings, reducing the likelihood of [missed opportunities and revenue leakage](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) while maximizing daily schedules. Patients appreciate the convenience of a live person assisting with their appointments.
+Inbound call services assisted by [optometry virtual receptionists in Georgia](https://mybcat.com/about/) efficiently manage appointment bookings, reducing the likelihood of [missed opportunities and revenue leakage](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) while maximizing daily schedules. Patients appreciate the convenience of a live person assisting with their appointments.
 
 - **Personalized and Prompt Attention**
 
@@ -28,13 +28,13 @@ A live person answering calls minimizes hold times, enhancing patient convenienc
 
 - **Overall Appointment Efficiency**
 
-An [optometrist call management](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia/business-care-team-full-service-custom-solution) can automate appointment reminders, decreasing no-show rates and improving practice efficiency. After appointments, call agents can reach out to patients for feedback and to ensure they are satisfied with their experience. This gesture demonstrates dedication to patient care.
+An [optometrist call management](https://mybcat.com/solutions/front-desk-outsourcing/) can automate appointment reminders, decreasing no-show rates and improving practice efficiency. After appointments, call agents can reach out to patients for feedback and to ensure they are satisfied with their experience. This gesture demonstrates dedication to patient care.
 
 - **Language Accessibility**
 
 Multilingual call agents accommodate diverse patient populations, breaking language barriers and ensuring effective communication. Superior customer service through inbound call services contributes to positive word-of-mouth referrals, bolstering the practice's reputation and patient base.
 
-Are you looking for a [customer service outsourcing provider in Marietta, Georgia?](https://mybcat.com/blog/optometry-call-service-in-atlanta-georgia) Call My Business Care Team today at [678-855-6130](tel:678-855-6130).
+Are you looking for a [customer service outsourcing provider in Marietta, Georgia?](https://mybcat.com/industries/optometry/) Call My Business Care Team today at [678-855-6130](tel:678-855-6130).
 
 ### Ready to Transform Your Practice?
 

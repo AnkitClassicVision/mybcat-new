@@ -46,7 +46,7 @@ export const enterpriseHub = {
   title: 'Multi-Location Patient Operations',
   headline: 'One Team. Every Location. Every Call.',
   tagline: 'Centralized patient operations for healthcare groups scaling from 3 to 300 locations',
-  metaDescription: 'Centralized patient operations for DSOs, healthcare groups, and multi-location practices. One team handling calls, scheduling, and intake across all your locations.',
+  metaDescription: 'Centralized patient operations for DSOs and multi-location practices. One team for calls, scheduling, intake.',
   primaryKeyword: 'centralized healthcare call center',
   secondaryKeywords: [
     'multi-location medical answering service',
@@ -158,7 +158,7 @@ export const enterpriseVerticals: EnterpriseVertical[] = [
     headline: 'Patient Operations Built for DSOs',
     tagline: 'From 5 locations to 500, we scale with you',
     description: 'Centralized call handling, scheduling, and patient communication for dental support organizations. We integrate with Dentrix, Eaglesoft, Open Dental, and every major dental PM system.',
-    metaDescription: 'Patient operations built for DSOs. Centralized call handling, scheduling across Dentrix/Eaglesoft/Open Dental, and consistent patient experience across all locations.',
+    metaDescription: 'Patient operations for DSOs. Centralized call handling, Dentrix/Eaglesoft/Open Dental scheduling.',
     primaryKeyword: 'DSO answering service',
     secondaryKeywords: ['dental group phone support', 'dental support organization call center', 'DSO patient communication'],
     parentIndustrySlug: 'dental',

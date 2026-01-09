@@ -10,9 +10,9 @@ featuredImage: "/images/blog/optometry-reception-elevating-patient-experience.we
 canonical: "https://mybcat.com/blog/optometry-reception-elevating-patient-experience/"
 ---
 
-The rapidly evolving healthcare landscape has amplified the need for optometrists to provide superior patient experiences. Amid this backdrop, the [optometry call service in Atlanta, Georgia](https://mybcat.com/blog/optometry-call-service-in-atlanta-georgia) has emerged as a linchpin, ensuring patients are treated with efficiency and heartfelt care. As the front liners in patient communication, medical receptionists in optometry play an integral role in setting the tone for a patient's journey.
+The rapidly evolving healthcare landscape has amplified the need for optometrists to provide superior patient experiences. Amid this backdrop, the [optometry call service in Atlanta, Georgia](https://mybcat.com/industries/optometry/) has emerged as a linchpin, ensuring patients are treated with efficiency and heartfelt care. As the front liners in patient communication, medical receptionists in optometry play an integral role in setting the tone for a patient's journey.
 
-Navigating the medical field can often seem like a labyrinth to patients. They're seeking clarity, assurance, and a touch of [empathy](https://www.helpguide.org/articles/relationships-communication/empathy.htm). The medical receptionist is their first point of contact, a beacon offering guidance in a sometimes confusing world. Here's the distinct advantage of the [optometry virtual receptionists in Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia):
+Navigating the medical field can often seem like a labyrinth to patients. They're seeking clarity, assurance, and a touch of [empathy](https://www.helpguide.org/articles/relationships-communication/empathy.htm). The medical receptionist is their first point of contact, a beacon offering guidance in a sometimes confusing world. Here's the distinct advantage of the [optometry virtual receptionists in Georgia](https://mybcat.com/about/):
 
 - **Patient-Centric Approach**
 

@@ -10,9 +10,9 @@ featuredImage: "/images/blog/decoding-optometry-call-virtual-vs-traditional.webp
 canonical: "https://mybcat.com/blog/decoding-optometry-call-virtual-vs-traditional/"
 ---
 
-[Optometry virtual receptionists in Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia) redefine patient care by offering modern solutions to streamline your practice operations. As you contemplate the choice between an optometry virtual receptionist and a traditional receptionist, it's essential to consider the unique benefits and drawbacks each option brings to your practice.
+[Optometry virtual receptionists in Georgia](https://mybcat.com/about/) redefine patient care by offering modern solutions to streamline your practice operations. As you contemplate the choice between an optometry virtual receptionist and a traditional receptionist, it's essential to consider the unique benefits and drawbacks each option brings to your practice.
 
-[Optometry call service in Atlanta, Georgia](https://mybcat.com/blog/optometry-call-service-in-atlanta-georgia) is becoming pivotal in enhancing patient communication and overall satisfaction. Practices are leveraging these services to ensure a seamless and efficient experience for staff and patients.
+[Optometry call service in Atlanta, Georgia](https://mybcat.com/industries/optometry/) is becoming pivotal in enhancing patient communication and overall satisfaction. Practices are leveraging these services to ensure a seamless and efficient experience for staff and patients.
 
 Here are some of its pros and cons:
 

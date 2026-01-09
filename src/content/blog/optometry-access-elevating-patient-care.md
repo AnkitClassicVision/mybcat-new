@@ -34,9 +34,9 @@ Immediate response to urgent inquiries and emergencies, offering reassurance to 
 
 Optometry answering services liberate staff time, allowing them to focus on essential tasks, ultimately enhancing overall practice productivity.
 
-[Optometrists inbound call services in Georgia](https://mybcat.com/blog/optometry-call-service-in-atlanta-georgia) pave the way for a patient-centric approach, ensuring that every call is handled with care and expertise, contributing to an overall positive patient experience.
+[Optometrists inbound call services in Georgia](https://mybcat.com/industries/optometry/) pave the way for a patient-centric approach, ensuring that every call is handled with care and expertise, contributing to an overall positive patient experience.
 
-You can experience the transformative impact of optometry answering services by partnering with My Business  Care Team, your dedicated [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia). Elevate your practice's patient access and communication, ensuring each interaction reflects the commitment to exceptional eye care. [Contact](https://mybcat.com/blog/customer-service-outsourcing-provider-contact-us) My Business Care Team today and witness the difference in patient care and practice efficiency.
+You can experience the transformative impact of optometry answering services by partnering with My Business  Care Team, your dedicated [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/about/). Elevate your practice's patient access and communication, ensuring each interaction reflects the commitment to exceptional eye care. [Contact](https://mybcat.com/contact/) My Business Care Team today and witness the difference in patient care and practice efficiency.
 
 ### Ready to Transform Your Practice?
 

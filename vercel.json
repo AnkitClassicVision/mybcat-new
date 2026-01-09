@@ -513,6 +513,16 @@
       "permanent": true
     },
     {
+      "source": "/optoai-for-optometry",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/optoai-for-optometry/",
+      "destination": "/industries/optometry/",
+      "permanent": true
+    },
+    {
       "source": "/optoai-for-optometry-2",
       "destination": "/industries/optometry/",
       "permanent": true

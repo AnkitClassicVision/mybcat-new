@@ -2,6 +2,8 @@
 import '@/styles/global.css';
 import Nav from '@/components/Nav.astro';
 import Footer from '@/components/Footer.astro';
+import GoogleTagManager from '@/components/GoogleTagManager.astro';
+import GoogleTagManagerNoScript from '@/components/GoogleTagManagerNoScript.astro';
 import { company } from '@data/company';
 
 interface Props {
@@ -112,6 +114,7 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
   <slot name="head" />
 </head>
 <body>
+  <GoogleTagManagerNoScript />
   <Nav currentPath={Astro.url.pathname} />
 
   <slot />
@@ -119,5 +122,8 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
   <Footer />
 
   <slot name="footer-scripts" />
+
+  {/* GTM moved to end of body for better FCP */}
+  <GoogleTagManager />
 </body>
 </html>

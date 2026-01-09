@@ -306,6 +306,14 @@ export function generateProfessionalServiceSchema() {
       jobTitle: company.ownership.founderTitle,
       url: `${company.site.url}/author/ankit-patel/`
     },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '08:00',
+        closes: '18:00'
+      }
+    ],
     knowsAbout: [
       'Healthcare Operations',
       'Medical Practice Management',
@@ -366,6 +374,14 @@ export function generateLocalBusinessSchema() {
       jobTitle: company.ownership.founderTitle,
       url: `${company.site.url}/author/ankit-patel/`
     },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '08:00',
+        closes: '18:00'
+      }
+    ],
     knowsAbout: [
       'Healthcare Operations',
       'Medical Practice Management',

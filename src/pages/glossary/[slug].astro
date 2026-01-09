@@ -49,7 +49,7 @@ const otherTerms = glossaryTerms
 
 <PageLayout
   title={`${term.term} - Definition | mybcat Glossary`}
-  description={term.definition}
+  description={term.definition.length > 155 ? term.definition.slice(0, 152) + '...' : term.definition}
   breadcrumbs={[
     { name: 'Home', url: '/' },
     { name: 'Glossary', url: '/glossary/' },

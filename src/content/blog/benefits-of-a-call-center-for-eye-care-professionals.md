@@ -16,13 +16,13 @@ An [eye clinic customer service](https://mybcat.com/blog/) serves as a dedicated
 
 The ability to reach out for assistance at any time, from anywhere, not only enhances patient convenience but also lays the foundation for stronger patient-practice relationships—while preventing the [revenue leakage that occurs when calls go unanswered](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare).
 
-Services such as [optometrists inbound call services in Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-in-marietta-georgia) bring a new level of efficiency to appointment scheduling. Trained professionals adeptly handle confirmations, changes, and cancellations, allowing your team to focus on providing exceptional eye care services.
+Services such as [optometrists inbound call services in Georgia](https://mybcat.com/about/) bring a new level of efficiency to appointment scheduling. Trained professionals adeptly handle confirmations, changes, and cancellations, allowing your team to focus on providing exceptional eye care services.
 
-Moreover, your practice gains a knowledgeable ally when you seek [eye care call support in Georgia](https://mybcat.com/blog/customer-service-outsourcing-provider-my-business-care-team-process). This team not only comprehends the complexities of eye care but also excels in providing compassionate support. They offer initial information, address queries, and expertly guide patients. Patients are met with a team that not only understands their concerns but also has the expertise to offer accurate guidance, fostering a sense of confidence and trust in your services.
+Moreover, your practice gains a knowledgeable ally when you seek [eye care call support in Georgia](https://mybcat.com/about/). This team not only comprehends the complexities of eye care but also excels in providing compassionate support. They offer initial information, address queries, and expertly guide patients. Patients are met with a team that not only understands their concerns but also has the expertise to offer accurate guidance, fostering a sense of confidence and trust in your services.
 
 In conclusion, integrating a vision care call center into your practice is a pivotal step toward optimizing patient care and streamlining operations.
 
-As a [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/blog/optometry-call-service-in-atlanta-georgia), we specialize in offering exceptional customer service outsourcing tailored for eye care professionals. [Contact us](https://mybcat.com/blog/customer-service-outsourcing-provider-contact-us) now to explore how My Business Care Team can not only enhance your patient experience but also provide seamless operational support.
+As a [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/industries/optometry/), we specialize in offering exceptional customer service outsourcing tailored for eye care professionals. [Contact us](https://mybcat.com/contact/) now to explore how My Business Care Team can not only enhance your patient experience but also provide seamless operational support.
 
 ### Ready to Transform Your Practice?
 
