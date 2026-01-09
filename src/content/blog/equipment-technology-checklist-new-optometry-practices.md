@@ -1,8 +1,8 @@
 ---
 title: "Equipment and Technology Checklist for New Optometry Practices"
 description: "A comprehensive checklist of essential equipment and technology needed to start an optometric practice, from exam room basics to practice management systems."
-publishDate: 2026-01-09
-status: "draft"
+publishDate: 2026-01-13
+status: "scheduled"
 author: "Ankit Patel"
 category: "Practice Management"
 tags: ["optometry", "equipment", "technology", "startup", "practice-management"]
