@@ -308,13 +308,6 @@ Revenue Per Call = Total Revenue (Period) / Total Incoming Calls (Period)
 
 ---
 
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Want Your Custom Benchmark Analysis?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Get a personalized report showing how your practice compares to specialty benchmarks and where your biggest opportunities are.</p>
-  <a href="https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call" style="display: inline-block; background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none;">Get Your Custom Benchmark Report</a>
-</div>
-<!-- End MyBCAT CTA Section -->
 
 ---
 

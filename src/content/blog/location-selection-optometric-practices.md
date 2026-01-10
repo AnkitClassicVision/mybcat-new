@@ -1,7 +1,8 @@
 ---
 title: "Location Selection for Optometric Practices: What to Consider"
 description: "A practical framework for choosing the right location for your optometry practice, including demographics, competition, visibility, and lease considerations."
-publishDate: 2026-01-16
+publishDate: 2026-01-23
+scheduledDate: 2026-01-23T16:00:00-05:00
 status: "scheduled"
 author: "Ankit Patel"
 category: "Practice Management"

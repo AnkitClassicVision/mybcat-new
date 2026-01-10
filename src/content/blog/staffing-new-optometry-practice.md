@@ -1,7 +1,8 @@
 ---
 title: "Staffing Your New Optometry Practice: Roles, Hiring, and Training"
 description: "A practical guide to building your optometry practice team, from defining essential roles to hiring strategies and training programs that drive retention."
-publishDate: 2026-01-15
+publishDate: 2026-01-22
+scheduledDate: 2026-01-22T16:00:00-05:00
 status: "scheduled"
 author: "Ankit Patel"
 category: "Practice Management"
