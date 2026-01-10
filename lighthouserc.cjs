@@ -27,8 +27,9 @@ module.exports = {
       startServerReadyTimeout: 30000,
       numberOfRuns: 3,
       settings: {
-        // CHANGED: Test mobile (was desktop) to catch real-world regressions
-        preset: 'mobile',
+        // Mobile testing to catch real-world regressions
+        // Note: preset: 'mobile' was removed (deprecated in Lighthouse v11+)
+        // Mobile is now configured via formFactor + screenEmulation below
         // Mobile throttling to simulate real-world conditions
         throttling: {
           // Standard mobile CPU slowdown (4x)

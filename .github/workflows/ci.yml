@@ -31,10 +31,5 @@ jobs:
 
       - name: Build site
         run: npm run build
-
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: dist
-          path: .vercel/output/static
-          retention-days: 3
+        # Note: Artifact upload removed - Vercel handles deployment artifacts
+        # and GitHub storage quota was being exceeded
