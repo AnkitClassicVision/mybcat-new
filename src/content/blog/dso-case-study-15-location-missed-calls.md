@@ -24,9 +24,11 @@ relatedPosts:
   - missed-calls-revenue-leak-multi-location-healthcare
 ---
 
+*This case study illustrates the potential impact of centralized intake optimization, using realistic metrics based on industry data and typical DSO performance patterns. While not a specific MyBCAT client engagement, it demonstrates what multi-location dental groups can achieve with a solution like ours.*
+
 A 15-location dental group was losing 42 calls per day. Within 90 days of implementing centralized intake, they captured 33 of those calls and converted them into $108,000 in monthly revenue. Their answer rate jumped from 62% to 95%, and their PE sponsor finally saw the same-store growth numbers they had been demanding.
 
-This case study breaks down exactly how they did it.
+This case study breaks down exactly how a DSO could achieve these results.
 
 ---
 
@@ -34,7 +36,7 @@ This case study breaks down exactly how they did it.
 
 1. [The Challenge: Post-Acquisition Integration Chaos](#the-challenge-post-acquisition-integration-chaos)
 2. [Why Traditional Solutions Were Not Working](#why-traditional-solutions-were-not-working)
-3. [The MyBCAT Implementation](#the-mybcat-implementation)
+3. [The Centralized Intake Implementation](#the-centralized-intake-implementation)
 4. [Results: The Numbers That Matter](#results-the-numbers-that-matter)
 5. [Beyond the Metrics: Qualitative Improvements](#beyond-the-metrics-qualitative-improvements)
 6. [What Made the Difference](#what-made-the-difference)
@@ -68,7 +70,7 @@ For a 15-location group, even a 30% missed call rate translates to massive reven
 
 ## Why Traditional Solutions Were Not Working
 
-Before engaging MyBCAT, the group had tried several approaches:
+Before implementing a centralized intake solution, the group had tried several approaches:
 
 **Approach 1: Hiring more front desk staff**
 
@@ -86,7 +88,7 @@ The regional director of operations summed it up: "We tried point solutions. Eac
 
 ---
 
-## The MyBCAT Implementation
+## The Centralized Intake Implementation
 
 The implementation followed a 90-day rollout across all 15 locations:
 
@@ -101,7 +103,7 @@ The implementation followed a 90-day rollout across all 15 locations:
 
 - Launched at three pilot locations first
 - Refined call scripts based on actual patient interactions
-- Trained front desk teams on the hybrid workflow (when to transfer, when to let MyBCAT handle)
+- Trained front desk teams on the hybrid workflow (when to transfer, when to let the intake service handle)
 - Extended to remaining 12 locations in waves
 
 ### Phase 3: Optimization (Days 46-90)
@@ -113,7 +115,7 @@ The implementation followed a 90-day rollout across all 15 locations:
 
 **The model:**
 
-MyBCAT handled overflow calls during peak hours (when front desk staff were with patients) and all after-hours calls. For complex cases requiring clinical judgment, calls were routed to on-site staff or scheduled for callback. Simple appointment bookings, confirmations, and general inquiries were handled end-to-end.
+The centralized intake service handled overflow calls during peak hours (when front desk staff were with patients) and all after-hours calls. For complex cases requiring clinical judgment, calls were routed to on-site staff or scheduled for callback. Simple appointment bookings, confirmations, and general inquiries were handled end-to-end.
 
 ---
 
@@ -169,7 +171,7 @@ Looking back at the implementation, three factors stood out as critical to succe
 
 ### 1. Multi-System Integration
 
-The group's three different practice management systems had been a barrier to previous solutions. MyBCAT's ability to integrate with all three meant scheduling could happen in real time, regardless of which location the patient was calling.
+The group's three different practice management systems had been a barrier to previous solutions. A healthcare-specialized intake service's ability to integrate with all three meant scheduling could happen in real time, regardless of which location the patient was calling.
 
 ### 2. Healthcare-Specific Training
 
@@ -209,7 +211,7 @@ Answer rate is a leading indicator, but same-store revenue growth is what PE spo
 
 ## What Is Next: Scaling to 25+ Locations
 
-The group is now applying the same intake model to new acquisitions from day one. Rather than inheriting each practice's phone chaos and fixing it later, they integrate MyBCAT as part of the standard acquisition playbook.
+The group is now applying the same intake model to new acquisitions from day one. Rather than inheriting each practice's phone chaos and fixing it later, they integrate centralized intake as part of the standard acquisition playbook.
 
 The COO expects to reach 25 locations within the next 18 months. With intake standardized, each new acquisition can be operationally integrated faster, and the same-store growth playbook can be applied immediately.
 
