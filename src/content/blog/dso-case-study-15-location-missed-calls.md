@@ -1,15 +1,27 @@
 ---
-title: "Case Study: How a 15-Location DSO Reduced Missed Calls by 60% Post-Acquisition"
-description: "A PE-backed dental group recovering $108,000 monthly by standardizing intake across 15 locations. Real metrics, implementation timeline, and lessons for DSO operators."
-publishDate: 2026-01-10
-scheduledDate: 2026-01-10T16:00:00-05:00
-status: "scheduled"
-author: "Ankit Patel"
-category: "Growth"
-tags: ["dso", "case-study", "dental", "multi-location", "private-equity", "intake-optimization"]
-featuredImage: "/images/blog/dso-case-study-15-location-missed-calls.webp"
-canonical: "https://mybcat.com/blog/dso-case-study-15-location-missed-calls/"
-relatedPosts: ["dso-integration-playbook", "ebitda-impact-calculator", "multi-location-healthcare-intake-guide", "missed-calls-revenue-leak-multi-location-healthcare"]
+title: 'Case Study: How a 15-Location DSO Reduced Missed Calls by 60% Post-Acquisition'
+description: >-
+  A PE-backed dental group recovering $108,000 monthly by standardizing intake
+  across 15 locations. Real metrics, implementation timeline, and lessons for
+  DSO operators.
+publishDate: 2026-01-10T00:00:00.000Z
+status: published
+author: Ankit Patel
+category: Growth
+tags:
+  - dso
+  - case-study
+  - dental
+  - multi-location
+  - private-equity
+  - intake-optimization
+featuredImage: /images/blog/dso-case-study-15-location-missed-calls.webp
+canonical: 'https://mybcat.com/blog/dso-case-study-15-location-missed-calls/'
+relatedPosts:
+  - dso-integration-playbook
+  - ebitda-impact-calculator
+  - multi-location-healthcare-intake-guide
+  - missed-calls-revenue-leak-multi-location-healthcare
 ---
 
 A 15-location dental group was losing 42 calls per day. Within 90 days of implementing centralized intake, they captured 33 of those calls and converted them into $108,000 in monthly revenue. Their answer rate jumped from 62% to 95%, and their PE sponsor finally saw the same-store growth numbers they had been demanding.
