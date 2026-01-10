@@ -12,6 +12,7 @@ keywords:
   - "practice management"
   - "healthcare"
 cluster: "starting-practice"
+category: "Practice Management"
 ---
 
 # Optometry Practice Location: How to Choose the Right Site for Long-Term Success

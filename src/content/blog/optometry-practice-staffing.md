@@ -12,6 +12,7 @@ keywords:
   - "practice management"
   - "healthcare"
 cluster: "starting-practice"
+category: "Practice Management"
 ---
 
 # Optometry Practice Staffing: Build Your Dream Team

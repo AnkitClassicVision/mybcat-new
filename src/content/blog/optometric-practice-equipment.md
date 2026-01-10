@@ -12,6 +12,7 @@ keywords:
   - "practice management"
   - "healthcare"
 cluster: "starting-practice"
+category: "Practice Management"
 ---
 
 # Essential Optometric Practice Equipment: A Complete Guide
