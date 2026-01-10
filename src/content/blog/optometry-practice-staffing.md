@@ -1,11 +1,11 @@
 ---
 title: "Optometry Practice Staffing: Build Your Dream Team"
 description: "Learn proven optometry practice staffing strategies to hire, train, and retain top talent. Reduce turnover and boost patient satisfaction today."
-pubDate: "2026-01-10"
+publishDate: "2026-01-10"
 author: "MyBCAT Team"
 status: "scheduled"
 scheduledDate: "2026-01-12"
-heroImage: "/images/blog/optometry-practice-staffing.png"
+featuredImage: "/images/blog/optometry-practice-staffing.webp"
 keywords:
   - "optometry practice staffing"
   - "optometry"
