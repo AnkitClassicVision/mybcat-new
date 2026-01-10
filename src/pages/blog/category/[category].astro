@@ -7,8 +7,17 @@
 import Base from '@/layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
-// Get all published posts
-const allPosts = await getCollection('blog', ({ data }) => data.status === 'published');
+// Helper: Check if a post should be visible
+const isPostVisible = (data: any) => {
+  if (data.status === 'published') return true;
+  if (data.status === 'scheduled' && data.scheduledDate) {
+    return new Date(data.scheduledDate) <= new Date();
+  }
+  return false;
+};
+
+// Get all visible posts
+const allPosts = await getCollection('blog', ({ data }) => isPostVisible(data));
 
 // Get unique categories
 const categories = [...new Set(allPosts.map(post => post.data.category))];
@@ -38,6 +47,10 @@ const categoryMeta: Record<string, { title: string; description: string; }> = {
   'Industry': {
     title: 'Industry News & Trends',
     description: 'Stay updated on healthcare industry trends, regulations, and developments affecting medical and specialty practices.'
+  },
+  'Practice Management': {
+    title: 'Practice Management',
+    description: 'Comprehensive guides on starting, managing, and growing a successful healthcare practice including equipment, staffing, location, and finances.'
   }
 };
 
@@ -50,6 +63,7 @@ export function getStaticPaths() {
     { params: { category: 'patient-experience' } },
     { params: { category: 'operations' } },
     { params: { category: 'growth' } },
+    { params: { category: 'practice-management' } },
   ];
 }
 
@@ -64,6 +78,7 @@ function slugToCategory(slug: string): string {
     'operations': 'Operations',
     'growth': 'Growth',
     'industry': 'Industry',
+    'practice-management': 'Practice Management',
   };
   return mapping[slug] || slug;
 }

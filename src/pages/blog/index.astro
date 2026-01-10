@@ -3,9 +3,20 @@ import Base from '@/layouts/Base.astro';
 import Card from '@/components/Card.astro';
 import { getCollection } from 'astro:content';
 
-// Get all published blog posts, sorted by date
+// Helper: Check if a post should be visible
+// - Published posts are always visible
+// - Scheduled posts become visible when scheduledDate passes
+const isPostVisible = (post: any) => {
+  if (post.data.status === 'published') return true;
+  if (post.data.status === 'scheduled' && post.data.scheduledDate) {
+    return new Date(post.data.scheduledDate) <= new Date();
+  }
+  return false;
+};
+
+// Get all visible blog posts, sorted by date
 const allPosts = (await getCollection('blog'))
-  .filter(post => post.data.status === 'published')
+  .filter(isPostVisible)
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 
 // Show first 18 posts on main page for faster loading
