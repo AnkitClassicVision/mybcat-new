@@ -1,18 +1,19 @@
 ---
-title: "Optometry Practice Location: How to Choose the Right Site"
-description: "Learn how to select the ideal optometry practice location. Site selection factors, demographics, costs, and visibility tips for practice success."
-publishDate: "2026-01-10"
-author: "MyBCAT Team"
-status: "scheduled"
-scheduledDate: "2026-01-12"
-featuredImage: "/images/blog/optometry-practice-location.webp"
+title: 'Optometry Practice Location: How to Choose the Right Site'
+description: >-
+  Learn how to select the ideal optometry practice location. Site selection
+  factors, demographics, costs, and visibility tips for practice success.
+publishDate: '2026-01-10'
+author: MyBCAT Team
+status: published
+featuredImage: /images/blog/optometry-practice-location.webp
 keywords:
-  - "optometry practice location"
-  - "optometry"
-  - "practice management"
-  - "healthcare"
-cluster: "starting-practice"
-category: "Practice Management"
+  - optometry practice location
+  - optometry
+  - practice management
+  - healthcare
+cluster: starting-practice
+category: Practice Management
 ---
 
 # Optometry Practice Location: How to Choose the Right Site for Long-Term Success
