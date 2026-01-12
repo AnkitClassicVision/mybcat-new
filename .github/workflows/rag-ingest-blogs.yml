@@ -1,0 +1,193 @@
+# RAG Pipeline - Blog Ingestion
+# Triggers on push to blog content directory
+# Queues ingestion jobs for changed blog posts
+
+name: RAG Blog Ingestion
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'src/content/blog/**'
+
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: 'Process all blog posts (backfill mode)'
+        type: boolean
+        default: false
+
+env:
+  SUPABASE_URL: ${{ secrets.RAG_SUPABASE_URL }}
+  SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.RAG_SUPABASE_SERVICE_ROLE_KEY }}
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # Need previous commit for diff
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install gray-matter glob
+
+      - name: Determine changed files
+        id: changed
+        run: |
+          if [ "${{ github.event.inputs.backfill }}" == "true" ]; then
+            echo "Running in backfill mode - processing all blog posts"
+            FILES=$(find src/content/blog -type f \( -name '*.md' -o -name '*.mdx' \) | jq -R -s -c 'split("\n") | map(select(length > 0))')
+          else
+            echo "Processing changed files only"
+            FILES=$(git diff --name-only HEAD~1 HEAD -- 'src/content/blog/*.md' 'src/content/blog/*.mdx' 2>/dev/null | jq -R -s -c 'split("\n") | map(select(length > 0))')
+          fi
+          echo "files=$FILES" >> $GITHUB_OUTPUT
+          echo "Found files: $FILES"
+
+      - name: Queue ingestion jobs
+        if: steps.changed.outputs.files != '[]'
+        run: |
+          node << 'SCRIPT'
+          const fs = require('fs');
+          const matter = require('gray-matter');
+          const crypto = require('crypto');
+
+          const SUPABASE_URL = process.env.SUPABASE_URL;
+          const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+          const COMMIT_SHA = process.env.GITHUB_SHA;
+          const RUN_ID = process.env.GITHUB_RUN_ID;
+
+          const files = JSON.parse(process.env.CHANGED_FILES || '[]');
+
+          console.log(`Processing ${files.length} files...`);
+
+          async function queueJob(file) {
+            try {
+              const content = fs.readFileSync(file, 'utf-8');
+              const { data: frontmatter, content: body } = matter(content);
+
+              // Skip non-published posts
+              if (frontmatter.status && frontmatter.status !== 'published') {
+                console.log(`SKIP: ${file} (status: ${frontmatter.status})`);
+                return { status: 'skipped', reason: 'not_published' };
+              }
+
+              // Extract slug from file path
+              const slug = file
+                .replace('src/content/blog/', '')
+                .replace(/\.mdx?$/, '');
+
+              // Generate content hash for idempotency
+              const contentHash = crypto
+                .createHash('sha256')
+                .update(body + (frontmatter.title || ''))
+                .digest('hex');
+
+              const payload = {
+                file_path: file,
+                slug: slug,
+                commit_sha: COMMIT_SHA,
+                title: frontmatter.title || slug,
+                description: frontmatter.description || '',
+                publish_date: frontmatter.publishDate || null,
+                author: frontmatter.author || 'Ankit Patel',
+                category: frontmatter.category || '',
+                tags: frontmatter.tags || [],
+                content_hash: contentHash,
+                raw_content: body
+              };
+
+              const idempotencyKey = `blog:${slug}:${contentHash.slice(0, 8)}`;
+
+              const response = await fetch(
+                `${SUPABASE_URL}/rest/v1/rpc/rag_enqueue_job`,
+                {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                    'apikey': SUPABASE_KEY,
+                    'Authorization': `Bearer ${SUPABASE_KEY}`,
+                    'Prefer': 'return=representation'
+                  },
+                  body: JSON.stringify({
+                    p_job_type: 'blog_ingest',
+                    p_source_type: 'blog',
+                    p_source_id: slug,
+                    p_payload: payload,
+                    p_idempotency_key: idempotencyKey,
+                    p_provenance: {
+                      commit_sha: COMMIT_SHA,
+                      workflow_run_id: RUN_ID,
+                      triggered_by: 'github_actions',
+                      file_path: file
+                    }
+                  })
+                }
+              );
+
+              if (!response.ok) {
+                const error = await response.text();
+                console.error(`FAIL: ${file} - ${error}`);
+                return { status: 'error', error };
+              }
+
+              const jobId = await response.json();
+              if (jobId) {
+                console.log(`QUEUED: ${file} -> job ${jobId}`);
+                return { status: 'queued', jobId };
+              } else {
+                console.log(`SKIPPED: ${file} (duplicate idempotency key)`);
+                return { status: 'duplicate' };
+              }
+
+            } catch (error) {
+              console.error(`ERROR: ${file} - ${error.message}`);
+              return { status: 'error', error: error.message };
+            }
+          }
+
+          async function main() {
+            const results = { queued: 0, skipped: 0, errors: 0 };
+
+            for (const file of files) {
+              if (!file) continue;
+
+              const result = await queueJob(file);
+
+              if (result.status === 'queued') results.queued++;
+              else if (result.status === 'error') results.errors++;
+              else results.skipped++;
+
+              // Rate limiting
+              await new Promise(r => setTimeout(r, 100));
+            }
+
+            console.log('\n--- Summary ---');
+            console.log(`Queued: ${results.queued}`);
+            console.log(`Skipped: ${results.skipped}`);
+            console.log(`Errors: ${results.errors}`);
+
+            if (results.errors > 0) {
+              process.exit(1);
+            }
+          }
+
+          main().catch(e => {
+            console.error('Fatal error:', e);
+            process.exit(1);
+          });
+          SCRIPT
+        env:
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
+
+      - name: No changes detected
+        if: steps.changed.outputs.files == '[]'
+        run: echo "No blog files changed in this push"
