@@ -1,15 +1,27 @@
 ---
-title: "KPI Dashboard for Multi-Location Intake: What to Measure (With Benchmarks)"
-description: "The 10 essential intake KPIs every multi-location healthcare group should track, with benchmarks for dental, optometry, and veterinary practices. Includes dashboard template."
-publishDate: 2026-01-13
-scheduledDate: 2026-01-13T16:00:00-05:00
-status: "scheduled"
-author: "Ankit Patel"
-category: "Operations"
-tags: ["kpis", "dashboard", "multi-location", "benchmarks", "analytics", "intake-metrics"]
-featuredImage: "/images/blog/kpi-dashboard-multi-location-intake.webp"
-canonical: "https://mybcat.com/blog/kpi-dashboard-multi-location-intake/"
-relatedPosts: ["multi-location-healthcare-intake-guide", "ebitda-impact-calculator", "missed-calls-revenue-leak-multi-location-healthcare", "dso-integration-playbook"]
+title: 'KPI Dashboard for Multi-Location Intake: What to Measure (With Benchmarks)'
+description: >-
+  The 10 essential intake KPIs every multi-location healthcare group should
+  track, with benchmarks for dental, optometry, and veterinary practices.
+  Includes dashboard template.
+publishDate: 2026-01-13T00:00:00.000Z
+status: published
+author: Ankit Patel
+category: Operations
+tags:
+  - kpis
+  - dashboard
+  - multi-location
+  - benchmarks
+  - analytics
+  - intake-metrics
+featuredImage: /images/blog/kpi-dashboard-multi-location-intake.webp
+canonical: 'https://mybcat.com/blog/kpi-dashboard-multi-location-intake/'
+relatedPosts:
+  - multi-location-healthcare-intake-guide
+  - ebitda-impact-calculator
+  - missed-calls-revenue-leak-multi-location-healthcare
+  - dso-integration-playbook
 ---
 
 Most multi-location healthcare groups track revenue per location but cannot tell you their call answer rate, new patient conversion rate, or average time to appointment. The result: marketing spend increases while patient acquisition efficiency stays flat. Here are the 10 intake KPIs that top-performing groups track, with benchmarks for dental, optometry, and veterinary practices.
