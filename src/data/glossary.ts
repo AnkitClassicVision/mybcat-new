@@ -241,8 +241,8 @@ export const glossaryTerms: GlossaryTerm[] = [
   },
   {
     slug: 'centralized-scheduling',
-    term: 'Centralized Scheduling',
-    definition: 'A staffing model where patient calls and appointment scheduling for multiple practice locations are handled by a single, dedicated team rather than individual front desks.',
+    term: 'Centralized Scheduling: Benefits, Tools & Best Practices',
+    definition: 'Discover how centralized scheduling streamlines operations, reduces conflicts & boosts productivity. Learn implementation strategies and top tools for your team.',
     detailedExplanation: 'Centralized scheduling addresses the challenges of managing patient communications across multiple locations. Instead of each location independently handling calls (leading to inconsistency, training burden, and coverage gaps), a central team handles all inbound calls with unified protocols. This improves consistency, enables specialization, provides better coverage, and delivers unified reporting across all locations.',
     category: 'operations',
     relatedTerms: ['dso', 'multi-location-practice', 'call-center', 'schedule-utilization'],
