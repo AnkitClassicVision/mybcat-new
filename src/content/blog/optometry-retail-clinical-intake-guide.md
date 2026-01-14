@@ -1,15 +1,26 @@
 ---
-title: "The Optometry Group's Guide to Integrated Retail-Clinical Intake"
-description: "How multi-location optometry groups handle the dual challenge of clinical scheduling and optical retail. Includes call routing framework, scripts, and capture rate optimization."
-publishDate: 2026-01-14
-scheduledDate: 2026-01-14T16:00:00-05:00
-status: "scheduled"
-author: "Ankit Patel"
-category: "Operations"
-tags: ["optometry", "optical-retail", "intake", "capture-rate", "multi-location", "vsp"]
-featuredImage: "/images/blog/optometry-retail-clinical-intake-guide.webp"
-canonical: "https://mybcat.com/blog/optometry-retail-clinical-intake-guide/"
-relatedPosts: ["multi-location-healthcare-intake-guide", "kpi-dashboard-multi-location-intake", "human-ai-hybrid-model-healthcare-intake"]
+title: The Optometry Group's Guide to Integrated Retail-Clinical Intake
+description: >-
+  How multi-location optometry groups handle the dual challenge of clinical
+  scheduling and optical retail. Includes call routing framework, scripts, and
+  capture rate optimization.
+publishDate: 2026-01-14T00:00:00.000Z
+status: published
+author: Ankit Patel
+category: Operations
+tags:
+  - optometry
+  - optical-retail
+  - intake
+  - capture-rate
+  - multi-location
+  - vsp
+featuredImage: /images/blog/optometry-retail-clinical-intake-guide.webp
+canonical: 'https://mybcat.com/blog/optometry-retail-clinical-intake-guide/'
+relatedPosts:
+  - multi-location-healthcare-intake-guide
+  - kpi-dashboard-multi-location-intake
+  - human-ai-hybrid-model-healthcare-intake
 ---
 
 Optometry groups live in two worlds: clinical care representing roughly 40% of revenue and optical retail representing 60%. Yet most intake systems treat every call the same. The result: clinical appointments get booked while optical opportunities slip away. Groups that design intake specifically for the clinical-retail handoff see 15-20% higher capture rates than those treating every call identically.
