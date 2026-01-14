@@ -37,10 +37,10 @@ export const industries: Industry[] = [
     name: 'Optometry & Ophthalmology',
     shortName: 'Optometry',
     icon: 'eye',
-    headline: 'Best Virtual Assistant for Optometrists in 2025 [Top Picks]',
+    headline: 'Best Virtual Assistant for Optometrists (2025 Guide)',
     description: 'Dedicated patient intake solutions for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences.',
     tldr: 'My Business Care Team provides optometry-specific phone answering and scheduling services. We understand VSP vs EyeMed insurance, route medical vs routine visits correctly, and book directly into Eyefinity, RevolutionEHR, and other eye care systems. Practices typically recover $127K+ in annual revenue from missed calls.',
-    metaDescription: 'Discover the best virtual assistants for optometrists. Save 20+ hours weekly on scheduling, patient calls & admin tasks. Compare top VA services now.',
+    metaDescription: 'Find the best virtual assistant for your optometry practice. Compare top VA services, pricing & features to save time on scheduling, billing & patient calls.',
     patientAcquisition: {
       definition: 'Patient acquisition for optometry practices means converting phone calls, website inquiries, and referrals into scheduled comprehensive eye exams and optical purchases. It encompasses the full patient journey from first contact through appointment booking, including insurance verification and new patient intake.',
       keyMetrics: [
