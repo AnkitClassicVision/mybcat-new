@@ -157,7 +157,7 @@ export const competitors: Competitor[] = [
     tagline: 'Managed Platform vs Hourly VA Model',
     headline: 'HireTeem Alternative: Compare Top Features & Pricing [2025]',
     description: 'Compare My Business Care Team\'s managed patient acquisition platform with HireTeem\'s hourly virtual assistant staffing. Learn which approach best fits your practice\'s needs and growth goals.',
-    metaDescription: 'Looking for a HireTeem alternative? Compare features, pricing & user reviews. Discover why teams are switching to better hiring solutions. Free trial available.',
+    metaDescription: 'Looking for a HireTeem alternative? Compare features, pricing & user reviews to find the best hiring platform for your team. Free trial available.',
     pricing: '$11/hour',
     model: 'Hourly VA staffing',
     website: 'hireteem.com',
