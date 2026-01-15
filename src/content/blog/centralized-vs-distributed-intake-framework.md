@@ -1,15 +1,26 @@
 ---
-title: "Centralized vs. Distributed Intake: A Decision Framework for Healthcare Groups"
-description: "Should you centralize patient intake or keep it at each location? A strategic framework for multi-location healthcare groups, including when hybrid models make sense."
-publishDate: 2026-01-15
-scheduledDate: 2026-01-15T16:00:00-05:00
-status: "scheduled"
-author: "Ankit Patel"
-category: "Operations"
-tags: ["centralization", "multi-location", "intake-architecture", "call-center", "operations-strategy"]
-featuredImage: "/images/blog/centralized-vs-distributed-intake-framework.webp"
-canonical: "https://mybcat.com/blog/centralized-vs-distributed-intake-framework/"
-relatedPosts: ["multi-location-healthcare-intake-guide", "human-ai-hybrid-model-healthcare-intake", "kpi-dashboard-multi-location-intake", "dso-integration-playbook"]
+title: 'Centralized vs. Distributed Intake: A Decision Framework for Healthcare Groups'
+description: >-
+  Should you centralize patient intake or keep it at each location? A strategic
+  framework for multi-location healthcare groups, including when hybrid models
+  make sense.
+publishDate: 2026-01-15T00:00:00.000Z
+status: published
+author: Ankit Patel
+category: Operations
+tags:
+  - centralization
+  - multi-location
+  - intake-architecture
+  - call-center
+  - operations-strategy
+featuredImage: /images/blog/centralized-vs-distributed-intake-framework.webp
+canonical: 'https://mybcat.com/blog/centralized-vs-distributed-intake-framework/'
+relatedPosts:
+  - multi-location-healthcare-intake-guide
+  - human-ai-hybrid-model-healthcare-intake
+  - kpi-dashboard-multi-location-intake
+  - dso-integration-playbook
 ---
 
 Centralize for efficiency or stay distributed for personal touch? That is the wrong question. Top-performing multi-location healthcare groups have moved beyond this binary choice to intelligent routing: systems that direct each call to the optimal handler based on call type, not geography. Here is the decision framework that reveals which model fits your group.
