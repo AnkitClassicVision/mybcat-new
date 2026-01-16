@@ -130,12 +130,6 @@ Scaling your eye care operations sustainably means putting the patient first, wh
 
 At My Business Care Team, we live and breathe operations optimization for clinics like yours every single day. Our teams have deep expertise in efficiently scaling workflows, technology, and staffing structures specifically for the eye care industry. We'd love to start a conversation about how our outsourced solutions can provide the support you need to smoothly scale your practice. Just let us know when works best, and we'll be in touch. Here's to your continued success and growth in the years ahead!
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

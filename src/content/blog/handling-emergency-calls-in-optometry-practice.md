@@ -20,12 +20,6 @@ By partnering with a [customer service outsourcing provider in Marietta, Georgia
 
 [Optometrists inbound call services in Georgia](https://mybcat.com/industries/optometry/) are an indispensable asset for optometry practices looking to excel in handling emergency calls. This strategic approach not only enhances patient care but also contributes to the overall efficiency of the practice. For personalized assistance tailored to your optometry practice's unique needs, [call](tel:678-855-6130) My Business Care Team today. Your patients deserve the best; we are here to help you deliver just that.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

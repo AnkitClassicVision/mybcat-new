@@ -20,12 +20,6 @@ Measuring customer satisfaction involves gathering feedback, analyzing patient i
 
 For optometrists looking to measure and enhance customer satisfaction, My Business Care Team provides a comprehensive solution with their [optometrist appointment in Georgia](https://mybcat.com/about/) services. Our team of skilled virtual receptionists ensures that your patients receive the best possible service, enhancing overall patient satisfaction.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

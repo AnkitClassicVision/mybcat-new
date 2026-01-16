@@ -38,12 +38,6 @@ In an ever-diverse world, speaking your patient's language can make all the diff
 
 Lastly, if you are based in Atlanta and need a trustworthy partner for this crucial service, look no further. My Business Care Team provides specialized [optometry call service in Atlanta, Georgia](https://mybcat.com/industries/optometry/). Our dedicated professionals ensure your patients hear a friendly, knowledgeable voice on the other end. [Connect with us](https://mybcat.com/contact/) and elevate your patient service experience today!
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

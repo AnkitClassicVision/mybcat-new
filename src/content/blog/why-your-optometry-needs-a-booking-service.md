@@ -34,12 +34,6 @@ Incorporating a digital appointment booking service positions your practice as a
 
 Stay on top of the competition and build trust with your patients. [Contact](https://mybcat.com/contact/) My Business Care Team, your trusted [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/industries/optometry/).
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

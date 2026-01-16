@@ -20,12 +20,6 @@ My Business Care Team understands the unique challenges faced by optometrists in
 
 Enhance your optometry practice's efficiency and [patient satisfaction](https://mybcat.com/blog/take-every-step-to-improve-the-patient-experience) today. [Get in touch](https://mybcat.com/contact/) with us and discover how our specialized call management services can transform your patient service experience.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

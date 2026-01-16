@@ -30,12 +30,6 @@ The relationships you can have with your clients can depend on how well your cli
 
 We want to make sure your optometry practice is at its best state. [Call us](tel:678-855-6130) to learn more about how we can help you with operations!
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

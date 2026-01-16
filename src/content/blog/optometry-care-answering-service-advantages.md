@@ -40,12 +40,6 @@ To experience the full spectrum of optometry answering service benefits, conside
 
 [Contact](https://mybcat.com/contact/) My Business  Care Team today and embark on a journey towards efficient, patient-centric answering services. Empower your practice with innovative solutions, prioritizing patient satisfaction while achieving operational excellence. At My Business Care Team, we are committed to delivering exceptional service, making your practice's growth and patient care our top priorities.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

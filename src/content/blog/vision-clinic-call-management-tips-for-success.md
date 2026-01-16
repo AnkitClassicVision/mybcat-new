@@ -36,12 +36,6 @@ Regularly review call data to identify trends, areas for improvement, and opport
 
 Incorporating these strategies can surely elevate the performance of your vision clinic's call management. At My Business Care Team, we specialize in providing exceptional [optometrists inbound call services in Georgia](https://mybcat.com/about/). [Contact us](https://mybcat.com/contact/) now to discover how we can enhance your clinic's operations and patient experience.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

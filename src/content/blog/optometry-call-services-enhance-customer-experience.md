@@ -18,12 +18,6 @@ In this digital age, [optometry virtual receptionists in Georgia](https://mybcat
 
 Are you looking to elevate your patient care experience? Let My Business Care Team be your partner in excellence. Our [optometry call service in Atlanta, Georgia](https://mybcat.com/about/), is dedicated to helping your practice grow by improving patient satisfaction through seamless communication. [Contact us](https://mybcat.com/contact/) today and take the first step towards transforming your optometry practice with our expert virtual receptionist services.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

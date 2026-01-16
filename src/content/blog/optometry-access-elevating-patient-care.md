@@ -38,12 +38,6 @@ Optometry answering services liberate staff time, allowing them to focus on esse
 
 You can experience the transformative impact of optometry answering services by partnering with My Business  Care Team, your dedicated [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/about/). Elevate your practice's patient access and communication, ensuring each interaction reflects the commitment to exceptional eye care. [Contact](https://mybcat.com/contact/) My Business Care Team today and witness the difference in patient care and practice efficiency.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

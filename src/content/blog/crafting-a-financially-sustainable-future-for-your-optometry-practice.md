@@ -58,12 +58,6 @@ The Future in Focus
 
 Crafting a financially sustainable future for your optometry or ophthalmology practice is complex. From understanding critical financial metrics to managing expenses and optimizing revenue, the strategies outlined here aim to offer you actionable insights for immediate implementation. Remember, financial planning is an ongoing process. By focusing on these key areas, you'll create an environment where both patient care and business success can flourish. Here's to the future success of your practice!
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

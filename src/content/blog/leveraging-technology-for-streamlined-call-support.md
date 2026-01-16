@@ -20,12 +20,6 @@ A [customer service outsourcing provider in Marietta, Georgia](https://mybcat.co
 
 My Business Care Team stands at the forefront of this technological evolution in healthcare customer service. Specializing in [eye care call support in Georgia](https://mybcat.com/blog/), we provide eye clinics with the latest call support technology, ensuring that your patients receive the best possible service. Partner with us and take your eye clinic's customer service to the next level.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

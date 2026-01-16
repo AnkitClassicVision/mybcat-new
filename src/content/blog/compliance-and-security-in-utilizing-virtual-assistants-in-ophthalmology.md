@@ -85,12 +85,6 @@ Look for vendors who not only provide satisfactory answers to these questions bu
 
 As you progress with compliance and security for VAs, let us know if we can answer any of your questions about the process or help in any way.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

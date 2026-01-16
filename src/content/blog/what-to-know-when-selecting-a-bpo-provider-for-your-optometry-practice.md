@@ -94,12 +94,6 @@ Furthermore, with the backing of an adept BPO partner, optometrists can go deepe
 
 For the forward-looking private practice, BPO is not merely an outsourced service; it's an integral extension of the team. As optometry practices navigate the intricate dance of clinical care, operational efficiency, and patient satisfaction, the right BPO partner can be the guiding hand that harmonizes these factors.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

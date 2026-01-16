@@ -20,12 +20,6 @@ Effective [optometrist call management](https://mybcat.com/about/) is a key elem
 
 For optometrists in Georgia looking to improve their appointment scheduling and patient service, My Business Care Team offers the ideal solution with their [optometry call service in Atlanta, Georgia](https://mybcat.com/about/). Our experienced team ensures your patients are scheduled efficiently and professionally, enhancing their overall experience with your practice.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

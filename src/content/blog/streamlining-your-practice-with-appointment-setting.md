@@ -22,12 +22,6 @@ Furthermore, embracing a digital appointment demonstrates your practice's commit
 
 Adopting these innovative tools ensures that your practice remains competitive and capable of providing top-notch eye care services in today's fast-paced world. [Contact](https://mybcat.com/contact/) My Business Care Team, your trusted [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/industries/optometry/).
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

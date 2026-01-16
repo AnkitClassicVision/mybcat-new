@@ -212,12 +212,6 @@ With commitment, innovation, and a patient-centric approach, the sky's the limit
 
 If you find yourself wondering how to take the next step on your operational efficiency journey, know that you're not alone. At My Business Care Team, we're passionate about assisting optometry practices in reaching their fullest potential. Should you ever need a guiding hand or just want to discuss strategies, we're here to help. We believe in better care, not just for patients but for the practices that serve them.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

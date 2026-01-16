@@ -65,12 +65,6 @@ Whether you're considering transitioning to a BPO or simply aiming to learn from
 
 Applying these evaluation criteria to your existing outsourcing arrangements can help you identify gaps and improvement areas. It's also a step towards better understanding and enhancing your security and compliance stance.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

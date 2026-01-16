@@ -22,12 +22,6 @@ In addition to improving patient communication, call service support can contrib
 
 Indeed, incorporating call service support into optometry practices can lead to a more streamlined and patient-centered approach to care. Consider partnering with My Business Care Team today to elevate your practice with professional call service support.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

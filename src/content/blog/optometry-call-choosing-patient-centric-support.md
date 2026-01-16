@@ -38,12 +38,6 @@ Optometry clinics find a reliable partner in [customer service outsourcing provi
 
 For optometry clinics seeking the right call support model, My Business Care Team offers unparalleled [eye care call support in Georgia](https://mybcat.com/blog/). Elevate your patient communication, optimize appointment management, and enhance the overall clinic experience. [Contact us](https://mybcat.com/contact/) today and embark on a journey toward patient-centric call support for your optometry clinic.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

@@ -97,12 +97,6 @@ We'll have some articles in the future with more tips and best practices for cli
 
 [Taking the outsourcing plunge may seem like a significant step](https://mybcat.com/), but with careful planning and the right partner, it can lead to improved efficiency, greater revenue, and better patient care. My Business Care Team is here to be that partner for you, combining our industry expertise, tech-savvy solutions, and passion for quality patient care to help you navigate this journey.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

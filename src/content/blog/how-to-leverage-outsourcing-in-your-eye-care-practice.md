@@ -158,12 +158,6 @@ At My Business Care Team, we are a top-tier BPO specializing in optometry and op
 
 Whether you're doing it on your own or considering a partnership with a BPO, we're here to help. We're happy to answer any questions. After all, our mission is to help eye care clinics achieve their highest potential through effective outsourcing.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

@@ -78,12 +78,6 @@ Succession planning asks you to take time now to think about the future. This he
 
 Your practice reflects your dedication to your craft and community, and this guide supports that mission. Whether you're looking to optimize your revenue cycles, streamline your practice operations, or foster a supportive team environment, each section is a step toward building the specific practice you envision. With the insights and strategies contained here, you should have everything you need to achieve your distinct version of success and make a lasting impact on your patients, your staff, and your community. [We'd love to hear from you if anything needs to be added or if you have any questions!](https://mybcat.com/contact/)
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

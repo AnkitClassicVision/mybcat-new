@@ -28,12 +28,6 @@ Even an eye clinic won't be immune from client feedback. Like all healthcare ope
 
 You can serve your patients better when you give them your full attention. Through our services, we can give you more time and energy to focus on your patients. [Call us](tel:678-855-6130) to learn more about our services.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

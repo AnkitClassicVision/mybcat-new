@@ -44,12 +44,6 @@ Unlike alliances and buying groups, which focus on optometric-specific supplies 
 
 Before jumping into multiple memberships, use the guidance of this article to evaluate how each will fit into your existing operations. Many practices find value in belonging to both a BPO and an optometric alliance or buying group, leveraging the unique strengths of each. While the alliance might provide discounted rates on optical goods and educational opportunities, the [BPO can improve operational efficiencies and bring down overhead costs in areas the alliance doesn't cover](https://mybcat.com/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry). 
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

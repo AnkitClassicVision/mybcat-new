@@ -22,12 +22,6 @@ Optometrists focus on streamlining communication channels. These services not on
 
 In conclusion, embracing specialized medical receptionist services is a strategic move for optometrists aiming to enhance their patient experience. Consider partnering with a customer service outsourcing provider to leverage and streamline your [optometrists inbound call services in Georgia](https://mybcat.com/blog/). Optimize and watch your practice flourish. For further details, [call](tel:+1-678-855-6130) our dedicated My Business Care Team today.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

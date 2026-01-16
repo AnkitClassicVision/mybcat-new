@@ -146,12 +146,6 @@ And the metrics don't lie. By tracking the number of returning patients and the 
 
 While the world of optometry might seem far removed from the cut-throat dynamics of digital startups or luxurious hotels, the principles of patient care, satisfaction, and retention remain strikingly similar. Whether it's investing in staff training, enhancing operational efficiency, or addressing feedback, the end goal remains the same: to provide exceptional care so exceptional that patients return and become loyal advocates for your practice.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

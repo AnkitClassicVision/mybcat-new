@@ -32,12 +32,6 @@ Patients are likelier to recommend a practice that respects and embraces their c
 
 Are you looking for an [optometry call service in Atlanta, Georgia](https://mybcat.com/industries/optometry/)? Call My Business Care Team today at [678-855-6130](tel:678-855-6130).
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

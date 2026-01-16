@@ -34,12 +34,6 @@ The nuanced world of optometry demands a reception service that is both technica
 
 For optometrists looking to redefine the patient experience, the path is clear. My Business Care Team offers unparalleled support. We ensure every [optometrist appointment in Georgia](https://mybcat.com/blog/) is managed. Step into the future of optometric care with us. Let's collaboratively ensure that every patient's first [call](tel:678-855-6130) is the beginning of a lasting, positive relationship.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

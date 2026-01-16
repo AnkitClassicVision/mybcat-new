@@ -20,12 +20,6 @@ Scheduling an [optometrist appointment in Georgia](https://mybcat.com/about/) sh
 
 Ready to take your patient service to the next level? Partner with My Business Care Team for unparalleled [optometry virtual receptionists in Georgia](https://mybcat.com/industries/optometry/). Do not let another missed call be a missed opportunity – [contact us](https://mybcat.com/contact/) today and experience the transformative impact of our virtual receptionists on your optometry practice.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

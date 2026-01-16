@@ -20,12 +20,6 @@ Furthermore, partnering with a specialized call service provider like My Busines
 
 Truly, optometry-call service partnerships offer a range of benefits for practices looking to enhance their operations and improve patient satisfaction. If you are looking for a trusted [eye care call support in Georgia](https://mybcat.com/blog/), consider partnering with us to elevate your practice.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

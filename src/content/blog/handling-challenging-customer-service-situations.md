@@ -20,12 +20,6 @@ Similarly, [optometrists inbound call services in Georgia](https://mybcat.com/ab
 
 For optometry practices looking to enhance their customer service capabilities, My Business Care Team is an ideal partner. As a leading [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/industries/optometry/), we specialize in managing challenging customer service situations, ensuring your patients always have a positive experience with your practice.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

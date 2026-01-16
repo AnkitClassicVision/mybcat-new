@@ -92,12 +92,6 @@ Remote staffing is more than just a cost-cutting measure—it's a way to enhance
 
 With the right systems in place, remote staffing allows you to save money, streamline operations, and even boost revenue. [Isn't it time you gave it a try?](https://mybcat.com/contact/)
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

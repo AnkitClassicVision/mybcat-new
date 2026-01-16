@@ -68,12 +68,6 @@ Finally, the collaboration doesn't end once the outsourcing partnership begins. 
 
 Eye care clinics can harness the power of outsourcing as a strategy to stay competitive, efficient, and patient-focused. Whether it's software solutions, supplemental staff, or business process enhancements, choosing the right outsourcing model can help remove obstacles to a clinic's success. Proper planning, diligent research, and an adaptable mindset are keys to a successful outsourcing strategy.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

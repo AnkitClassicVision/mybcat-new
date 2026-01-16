@@ -141,12 +141,6 @@ For staff, comprehensive training fosters AI fluency and an ethical mindset. Wit
 
 While AI's potential advantages are substantial, they cannot come at the cost of clinics' ethical obligations. Navigating the technology landscape thoughtfully, with human needs central, allows clinics to unlock AI's benefits equitably and conscientiously. A principled approach makes AI implementation smoother while upholding healthcare's highest ideals.
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*

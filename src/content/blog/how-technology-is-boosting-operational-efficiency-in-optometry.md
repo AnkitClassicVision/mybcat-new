@@ -76,12 +76,6 @@ In eye and vision care, technology is inextricably linked with efficiency and en
 
 [If you have questions or want help, please reach out](https://mybcat.com/contact/)!
 
-### Ready to Transform Your Practice?
-
-Schedule a consultation today to see how MyBCAT can help you capture more revenue and streamline operations.
-
-  Schedule a Consultation Today →
-
 ---
 
 *Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
