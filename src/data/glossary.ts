@@ -241,8 +241,8 @@ export const glossaryTerms: GlossaryTerm[] = [
   },
   {
     slug: 'centralized-scheduling',
-    term: 'Centralized Scheduling: Complete Guide to Unified Workforce Management',
-    definition: 'Learn how centralized scheduling streamlines operations, reduces conflicts & boosts productivity. Discover best practices, tools & implementation tips for your team.',
+    term: 'Centralized Scheduling: Benefits, Tools & Best Practices',
+    definition: 'Discover how centralized scheduling streamlines workforce management, reduces conflicts & boosts productivity. Learn implementation strategies and top tools.',
     detailedExplanation: 'Centralized scheduling addresses the challenges of managing patient communications across multiple locations. Instead of each location independently handling calls (leading to inconsistency, training burden, and coverage gaps), a central team handles all inbound calls with unified protocols. This improves consistency, enables specialization, provides better coverage, and delivers unified reporting across all locations.',
     category: 'operations',
     relatedTerms: ['dso', 'multi-location-practice', 'call-center', 'schedule-utilization'],
