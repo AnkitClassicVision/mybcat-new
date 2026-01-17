@@ -1,15 +1,26 @@
 ---
-title: "Benchmark Report: Revenue Per Call by Healthcare Specialty (2025 Data)"
-description: "Original research on revenue per call benchmarks for dental, optometry, veterinary, and medical practices. Based on data from 150+ multi-location healthcare groups."
-publishDate: 2026-01-17
-scheduledDate: 2026-01-17T16:00:00-05:00
-status: "scheduled"
-author: "Ankit Patel"
-category: "Growth"
-tags: ["benchmarks", "revenue-per-call", "data", "research", "roi", "multi-location"]
-featuredImage: "/images/blog/benchmark-report-revenue-per-call-2025.webp"
-canonical: "https://mybcat.com/blog/benchmark-report-revenue-per-call-2025/"
-relatedPosts: ["missed-calls-revenue-leak-multi-location-healthcare", "ebitda-impact-calculator", "kpi-dashboard-multi-location-intake"]
+title: 'Benchmark Report: Revenue Per Call by Healthcare Specialty (2025 Data)'
+description: >-
+  Original research on revenue per call benchmarks for dental, optometry,
+  veterinary, and medical practices. Based on data from 150+ multi-location
+  healthcare groups.
+publishDate: 2026-01-17T00:00:00.000Z
+status: published
+author: Ankit Patel
+category: Growth
+tags:
+  - benchmarks
+  - revenue-per-call
+  - data
+  - research
+  - roi
+  - multi-location
+featuredImage: /images/blog/benchmark-report-revenue-per-call-2025.webp
+canonical: 'https://mybcat.com/blog/benchmark-report-revenue-per-call-2025/'
+relatedPosts:
+  - missed-calls-revenue-leak-multi-location-healthcare
+  - ebitda-impact-calculator
+  - kpi-dashboard-multi-location-intake
 ---
 
 How much is each phone call worth to your healthcare practice? The answer varies dramatically by specialty: dental groups average $47 in revenue per call, while veterinary practices average $78. These benchmarks, based on 2025 data from 150+ multi-location healthcare groups, reveal why intake optimization delivers different ROI by specialty and what you should target for your group.
