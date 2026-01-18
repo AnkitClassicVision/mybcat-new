@@ -1,15 +1,26 @@
 ---
-title: "Dental Answering Service California: Multi-Location Solutions for DSOs"
-description: "California DSOs face unique intake challenges: competitive markets, diverse patient populations, and staffing difficulties. Multi-location solutions designed for California's largest dental market."
-publishDate: 2026-01-18
-scheduledDate: 2026-01-18T16:00:00-05:00
-status: "scheduled"
-author: "Ankit Patel"
-category: "Operations"
-tags: ["california", "dental", "dso", "answering-service", "multi-location", "geo-landing"]
-featuredImage: "/images/blog/dental-answering-service-california.webp"
-canonical: "https://mybcat.com/blog/dental-answering-service-california/"
-relatedPosts: ["multi-location-healthcare-intake-guide", "dso-integration-playbook", "missed-calls-revenue-leak-multi-location-healthcare"]
+title: 'Dental Answering Service California: Multi-Location Solutions for DSOs'
+description: >-
+  California DSOs face unique intake challenges: competitive markets, diverse
+  patient populations, and staffing difficulties. Multi-location solutions
+  designed for California's largest dental market.
+publishDate: 2026-01-18T00:00:00.000Z
+status: published
+author: Ankit Patel
+category: Operations
+tags:
+  - california
+  - dental
+  - dso
+  - answering-service
+  - multi-location
+  - geo-landing
+featuredImage: /images/blog/dental-answering-service-california.webp
+canonical: 'https://mybcat.com/blog/dental-answering-service-california/'
+relatedPosts:
+  - multi-location-healthcare-intake-guide
+  - dso-integration-playbook
+  - missed-calls-revenue-leak-multi-location-healthcare
 ---
 
 California is home to more dental service organizations than any other state. With 300+ DSO groups operating across Southern California, the Bay Area, and Central Valley, the competition for patients is intense. Yet many California dental groups still struggle with the basics: answering the phone. Here is why intake solutions designed for California's unique market outperform generic alternatives.
