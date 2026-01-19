@@ -59,7 +59,7 @@ These benchmarks assume a full-service practice with optical dispensing. Adjust 
 
 **Office Manager**: Oversees daily operations, billing, and staff coordination. Salary typically runs $45,000-65,000 annually.
 
-For practices struggling with phone coverage, consider how [missed calls impact your bottom line](/blog/missed-calls-impact-optometry-revenue). Even one missed call during lunch breaks can cost hundreds in lost revenue.
+For practices struggling with phone coverage, consider how [missed calls impact your bottom line](/blog/missed-calls-revenue-leak-multi-location-healthcare/). Even one missed call during lunch breaks can cost hundreds in lost revenue.
 
 ## The Hiring Process That Attracts Top Talent
 
@@ -205,7 +205,7 @@ Disconnected teams become disengaged teams. Establish regular touchpoints:
 
 **Quarterly reviews**: Formal performance discussions with documented feedback
 
-Learn more about [effective communication systems for healthcare practices](/blog/healthcare-team-communication-strategies) to keep your staff aligned and engaged.
+Effective communication systems keep your staff aligned and engaged through regular touchpoints and clear feedback channels.
 
 ### Recognize and Reward Excellence
 
@@ -253,7 +253,7 @@ Technology handles tasks that don't require human judgment. Consider automating:
 - Patient intake forms
 - Recall outreach
 
-Practices using [AI-powered phone systems](/blog/ai-answering-for-optometry-practices) report handling 40% more calls without adding staff. This technology ensures every patient call gets answered, even when your team is stretched thin.
+Practices using [AI-powered phone systems](/blog/ai-receptionist-vs-virtual-front-desk-answering-service/) report handling 40% more calls without adding staff. This technology ensures every patient call gets answered, even when your team is stretched thin.
 
 ## Technology Solutions for Staffing Challenges
 

@@ -124,7 +124,7 @@ Choose a system with optical inventory management, automated patient communicati
 
 ### Patient Communication Systems
 
-Missed calls cost optometry practices $50,000 or more annually in lost appointments. A reliable phone system with call tracking helps you understand patient communication patterns. [Learn about the financial impact of missed calls](/blog/missed-calls-cost-optometry-practices) to protect your investment in equipment and marketing.
+Missed calls cost optometry practices $50,000 or more annually in lost appointments. A reliable phone system with call tracking helps you understand patient communication patterns. [Learn about the financial impact of missed calls](/blog/missed-calls-revenue-leak-multi-location-healthcare/) to protect your investment in equipment and marketing.
 
 Modern practices increasingly adopt AI-powered communication tools that answer calls 24/7, schedule appointments, and never put patients on hold. These systems ensure that your equipment investment generates maximum returns by capturing every potential patient inquiry.
 
@@ -191,11 +191,11 @@ Document serial numbers, purchase dates, and warranty terms for all equipment. T
 
 ## Making Your Practice Easy to Reach
 
-The best-equipped practice means nothing if patients cannot book appointments. [Phone system optimization](/blog/optometry-phone-system-mistakes) ensures your investment in clinical equipment translates to scheduled patients.
+The best-equipped practice means nothing if patients cannot book appointments. Phone system optimization ensures your investment in clinical equipment translates to scheduled patients.
 
 Modern practices recognize that patient access matters as much as clinical capability. When patients call and reach voicemail, 30% never call back. They book with a competitor who answered. Your equipment sits unused while revenue walks out the door.
 
-Consider how [automated patient communication](/blog/medical-practice-phone-automation) fits into your overall practice infrastructure. These systems complement your clinical equipment by maximizing chair time utilization and practice revenue.
+Consider how [automated patient communication](/blog/ai-receptionist-vs-virtual-front-desk-answering-service/) fits into your overall practice infrastructure. These systems complement your clinical equipment by maximizing chair time utilization and practice revenue.
 
 ## Key Takeaways
 

@@ -78,7 +78,7 @@ Empty appointment slots cost money. The average no-show costs an optometry pract
 
 Implement automated appointment reminders via text and email. Send reminders 48 hours and 24 hours before appointments. Some practices have reduced no-show rates to under 5% through consistent reminder systems.
 
-Missed calls compound this problem. When potential patients call and reach voicemail, [47% never call back](/blog/missed-calls-cost-optometry-practices). That's revenue walking out the door before it ever arrives.
+Missed calls compound this problem. When potential patients call and reach voicemail, [47% never call back](/blog/missed-calls-revenue-leak-multi-location-healthcare/). That's revenue walking out the door before it ever arrives.
 
 ## Controlling Expenses Without Cutting Quality
 
@@ -124,7 +124,7 @@ Reduce your accounts receivable days. The faster money moves from insurance comp
 
 Submit claims within 24 hours of service. Follow up on unpaid claims at 30 days, not 60. Collect patient portions at the time of service whenever possible.
 
-The [cost of delayed follow-up](/blog/cost-of-delayed-patient-follow-up) extends beyond individual transactions. Slow collections create a compounding cash shortage that limits your ability to invest in growth.
+The cost of delayed follow-up extends beyond individual transactions. Slow collections create a compounding cash shortage that limits your ability to invest in growth.
 
 ### Building Cash Reserves
 
@@ -192,7 +192,7 @@ Choose software that integrates with your EHR and optical POS system. Fragmented
 
 Automated appointment reminders, recall notifications, and patient satisfaction surveys improve retention and reduce no-shows. These systems typically cost $200-500 monthly but generate returns many times that amount.
 
-The key is ensuring patients actually reach your practice when they call back. [Voice AI solutions](/blog/voice-ai-for-healthcare-practices) now handle routine calls, schedule appointments, and answer common questions without requiring additional staff.
+The key is ensuring patients actually reach your practice when they call back. [Voice AI solutions](/blog/ai-receptionist-vs-virtual-front-desk-answering-service/) now handle routine calls, schedule appointments, and answer common questions without requiring additional staff.
 
 ### Online Scheduling and Intake
 
