@@ -64,6 +64,8 @@ Valuation multiples usually apply to the *operating business*—not necessarily 
 
 The "valuation" number and your "cash at closing" number can differ significantly once these items are sorted out.
 
+For a deeper dive into valuation methods, see our [complete optometric practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/). You can also use our [EBITDA impact calculator](/blog/ebitda-impact-calculator/) to model how operational improvements affect your multiple.
+
 ### What Moves You Up (or Down) the Multiple Range
 
 Higher multiples go to practices with:
@@ -160,6 +162,8 @@ PE acquisitions have cooled from 2021 peaks. Higher interest rates and economic 
 
 If you're targeting a PE exit, start preparing 2-3 years out. The practices commanding premium multiples in 2025 built their operational foundations in 2022-2023.
 
+For a real-world example, see how one [15-location DSO recovered $1.2M in annual revenue](/blog/dso-case-study-15-location-missed-calls/) by fixing their intake operations before expansion. Our [DSO integration playbook](/blog/dso-integration-playbook/) also covers how PE-backed groups standardize operations across locations.
+
 ## The 1-3 Year Preparation Timeline
 
 The best time to start preparing was three years ago. The second best time is now.
@@ -219,6 +223,8 @@ Buyers will dig into everything. Here's what moves the needle.
 - **Call answer rate:** [Missed calls directly impact revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/)—and buyers know it
 - **Staff turnover:** High turnover raises transition risk
 
+If you're not already tracking these metrics, our guide to [building a KPI dashboard for multi-location intake](/blog/kpi-dashboard-multi-location-intake/) shows exactly what to measure and how.
+
 ### Documentation Buyers Expect
 
 - 3 years of tax returns
@@ -267,6 +273,12 @@ If your staff can't function when you take a two-week vacation, buyers will noti
 - Office managers who handle daily operations
 - Staff cross-trained on multiple functions
 - Clear accountability without owner micromanagement
+
+---
+
+**Ready to see how your operations stack up?** The intake systems, call handling, and patient communication processes are exactly what buyers scrutinize during due diligence. [Schedule a free operational assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to identify gaps that could affect your valuation—and fix them before you go to market.
+
+---
 
 ## Asset Sale vs Stock Sale: Tax Implications Explained
 
