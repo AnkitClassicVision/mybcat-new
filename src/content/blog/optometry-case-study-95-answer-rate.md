@@ -1,15 +1,29 @@
 ---
-title: "Case Study: How a Regional Optometry Group Achieved 95% Answer Rate (And What It Meant for Revenue)"
-description: "A regional optometry group transformed their intake operations from 72% to 95% answer rate. The result: 44% more new patients and $787,000 in annual revenue growth."
-publishDate: 2026-01-21
-scheduledDate: 2026-01-21T16:00:00-05:00
-status: "scheduled"
-author: "Ankit Patel"
-category: "Growth"
-tags: ["case-study", "optometry", "answer-rate", "revenue", "capture-rate", "multi-location"]
-featuredImage: "/images/blog/optometry-case-study-95-answer-rate.webp"
-canonical: "https://mybcat.com/blog/optometry-case-study-95-answer-rate/"
-relatedPosts: ["optometry-retail-clinical-intake-guide", "missed-calls-revenue-leak-multi-location-healthcare", "ebitda-impact-calculator", "multi-location-healthcare-intake-guide"]
+title: >-
+  Case Study: How a Regional Optometry Group Achieved 95% Answer Rate (And What
+  It Meant for Revenue)
+description: >-
+  A regional optometry group transformed their intake operations from 72% to 95%
+  answer rate. The result: 44% more new patients and $787,000 in annual revenue
+  growth.
+publishDate: 2026-01-21T00:00:00.000Z
+status: published
+author: Ankit Patel
+category: Growth
+tags:
+  - case-study
+  - optometry
+  - answer-rate
+  - revenue
+  - capture-rate
+  - multi-location
+featuredImage: /images/blog/optometry-case-study-95-answer-rate.webp
+canonical: 'https://mybcat.com/blog/optometry-case-study-95-answer-rate/'
+relatedPosts:
+  - optometry-retail-clinical-intake-guide
+  - missed-calls-revenue-leak-multi-location-healthcare
+  - ebitda-impact-calculator
+  - multi-location-healthcare-intake-guide
 ---
 
 A regional optometry group was growing fast but losing patients to unanswered calls. With private equity interest on the horizon, they needed operational excellence. Here is how they transformed their intake operations and the measurable impact on revenue.
