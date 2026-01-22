@@ -1,14 +1,21 @@
 ---
-title: "Staffing Your New Optometry Practice: Roles, Hiring, and Training"
-description: "A practical guide to building your optometry practice team, from defining essential roles to hiring strategies and training programs that drive retention."
-publishDate: 2026-01-22
-scheduledDate: 2026-01-22T16:00:00-05:00
-status: "scheduled"
-author: "Ankit Patel"
-category: "Practice Management"
-tags: ["optometry", "staffing", "hiring", "training", "practice-management"]
-featuredImage: "/images/blog/staffing-new-optometry-practice.webp"
-canonical: "https://mybcat.com/blog/staffing-new-optometry-practice/"
+title: 'Staffing Your New Optometry Practice: Roles, Hiring, and Training'
+description: >-
+  A practical guide to building your optometry practice team, from defining
+  essential roles to hiring strategies and training programs that drive
+  retention.
+publishDate: 2026-01-22T00:00:00.000Z
+status: published
+author: Ankit Patel
+category: Practice Management
+tags:
+  - optometry
+  - staffing
+  - hiring
+  - training
+  - practice-management
+featuredImage: /images/blog/staffing-new-optometry-practice.webp
+canonical: 'https://mybcat.com/blog/staffing-new-optometry-practice/'
 ---
 
 Building the right team is often the difference between a thriving optometry practice and one that struggles. Your staff shapes every patient interaction, influences capture rates, and determines whether your clinical days run smoothly or chaotically. This guide covers the essential roles, hiring approaches, and training strategies that set new optometry practices up for success.
