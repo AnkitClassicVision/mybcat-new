@@ -26,7 +26,32 @@ function getNonPublishedSlugs() {
   return slugs;
 }
 
+// Build a map of blog URLs to their publish dates for sitemap lastmod
+function getBlogLastModDates() {
+  const blogDir = path.join(process.cwd(), 'src/content/blog');
+  if (!fs.existsSync(blogDir)) return {};
+
+  const files = fs.readdirSync(blogDir).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+  const dateMap = {};
+
+  files.forEach(file => {
+    const content = fs.readFileSync(path.join(blogDir, file), 'utf8');
+    const { data } = matter(content);
+    if (data.status === 'published' && data.publishDate) {
+      const slug = file.replace(/\.(md|mdx)$/, '');
+      const url = `https://mybcat.com/blog/${slug}/`;
+      dateMap[url] = new Date(data.publishDate).toISOString().split('T')[0];
+    }
+  });
+
+  return dateMap;
+}
+
 const nonPublishedSlugs = getNonPublishedSlugs();
+const blogLastModDates = getBlogLastModDates();
+
+// Default lastmod date for static pages (can be updated when pages change)
+const defaultLastMod = new Date().toISOString().split('T')[0];
 
 // https://astro.build/config
 export default defineConfig({
@@ -56,19 +81,25 @@ export default defineConfig({
       changefreq: 'weekly',
       priority: 0.7,
       serialize: (item) => {
+        // Determine lastmod date
+        let lastmod = defaultLastMod;
+        if (blogLastModDates[item.url]) {
+          lastmod = blogLastModDates[item.url];
+        }
+
         // Homepage highest priority
         if (item.url === 'https://mybcat.com/') {
-          return { ...item, priority: 1.0, changefreq: 'daily' };
+          return { ...item, lastmod, priority: 1.0, changefreq: 'daily' };
         }
         // Industry, solution, and comparison pages
         if (item.url.includes('/industries/') || item.url.includes('/solutions/') || item.url.includes('/compare/')) {
-          return { ...item, priority: 0.9, changefreq: 'weekly' };
+          return { ...item, lastmod, priority: 0.9, changefreq: 'weekly' };
         }
         // Blog posts
         if (item.url.includes('/blog/')) {
-          return { ...item, priority: 0.8, changefreq: 'weekly' };
+          return { ...item, lastmod, priority: 0.8, changefreq: 'weekly' };
         }
-        return item;
+        return { ...item, lastmod };
       },
     }),
   ],
