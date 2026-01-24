@@ -7,7 +7,7 @@ author: "Ankit Patel"
 category: "Technology"
 tags: ["optometry","patient-care","scheduling","growth"]
 featuredImage: "/images/blog/happy-ophthalmologist-using-testing-eyeglasses-dur-2024-12-14-04-14-56-utc-1.webp"
-canonical: "https://mybcat.com/blog/blog-ensuring-patient-staisfaction/"
+canonical: "https://mybcat.com/blog/blog-ensuring-patient-satisfaction/"
 ---
 
 Here's an uncomfortable truth I learned running Classic Vision Care: you can give someone a perfect refraction, catch early glaucoma, and save their vision—and they'll still leave a one-star review because your receptionist seemed rushed on the phone.

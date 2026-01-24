@@ -844,12 +844,22 @@
     },
     {
       "source": "/blog-ensuring-patient-staisfaction",
-      "destination": "/blog/blog-ensuring-patient-staisfaction/",
+      "destination": "/blog/blog-ensuring-patient-satisfaction/",
       "permanent": true
     },
     {
       "source": "/blog-ensuring-patient-staisfaction/",
-      "destination": "/blog/blog-ensuring-patient-staisfaction/",
+      "destination": "/blog/blog-ensuring-patient-satisfaction/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/blog-ensuring-patient-staisfaction",
+      "destination": "/blog/blog-ensuring-patient-satisfaction/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/blog-ensuring-patient-staisfaction/",
+      "destination": "/blog/blog-ensuring-patient-satisfaction/",
       "permanent": true
     },
     {
