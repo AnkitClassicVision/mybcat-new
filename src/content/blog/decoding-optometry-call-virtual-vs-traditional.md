@@ -18,7 +18,7 @@ Here are some of its pros and cons:
 
 - **Efficiency**
 
-Optometry virtual receptionists provide [24/7 availability](https://mybcat.com/blog/optometry-calls-expert-24-7-virtual-reception), ensuring prompt responses and efficient appointment scheduling.
+Optometry virtual receptionists provide [24/7 availability](https://mybcat.com/blog/optometry-calls-expert-24-7-virtual-reception/), ensuring prompt responses and efficient appointment scheduling.
 
 - **Cost-Effectiveness**
 
@@ -36,7 +36,7 @@ Virtual receptionists minimize the risk of human errors in appointment schedulin
 
 Traditional receptionists may adapt to unique situations more effectively, handling complex patient inquiries with a nuanced understanding.
 
-As you navigate the decision between optometry virtual receptionists and traditional reception, consider the tailored services offered by My Business Care Team. Our optometry call service is designed to optimize patient care, ensuring a seamless experience. This is particularly important for growing practices that need to implement [efficient patient intake processes across multiple locations](https://mybcat.com/multi-location-healthcare-intake-guide). Book your [optometrist appointment in Georgia](https://mybcat.com/blog/) today and witness the future of efficient, patient-centric reception services.
+As you navigate the decision between optometry virtual receptionists and traditional reception, consider the tailored services offered by My Business Care Team. Our optometry call service is designed to optimize patient care, ensuring a seamless experience. This is particularly important for growing practices that need to implement [efficient patient intake processes across multiple locations](https://mybcat.com/blog/multi-location-healthcare-intake-guide/). Book your [optometrist appointment in Georgia](https://mybcat.com/blog/) today and witness the future of efficient, patient-centric reception services.
 
 Empower your practice with innovation, prioritizing your patients' well-being and achieving operational excellence. At My Business Care Team, we are committed to delivering outstanding patient experiences, making your journey towards enhanced reception services a reality.
 

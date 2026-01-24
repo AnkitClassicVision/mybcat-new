@@ -1,6 +1,8 @@
 ---
 title: "Veterinary Emergency Triage: Phone Protocols That Save Lives and Staff Time"
+seoTitle: "Veterinary Emergency Triage Protocols for Vet Groups"
 description: "A complete phone triage protocol framework for multi-location veterinary groups. Includes decision trees for 15 common scenarios, staff training guidelines, and after-hours integration."
+seoDescription: "Phone triage protocols for veterinary groups. Decision trees for 15 scenarios, 3-tier framework, and staff training. Reduce DVM burnout and improve outcomes."
 publishDate: 2026-01-09
 status: "published"
 author: "Ankit Patel"
@@ -409,7 +411,7 @@ For veterinary practices, after-hours isn't an afterthought. It's 30-40% of call
 
 **Emergency clinic partnership:** After-hours calls routed to partner emergency clinic. Clean handoff but less control over client experience.
 
-**Hybrid model:** AI handles routine inquiries (hours, directions, refill requests); trained humans handle triage. See our [AI vs. virtual front desk comparison](https://mybcat.com/blog/ai-receptionist-vs-virtual-front-desk-answering-service) for more on hybrid approaches.
+**Hybrid model:** AI handles routine inquiries (hours, directions, refill requests); trained humans handle triage. See our [AI vs. virtual front desk comparison](https://mybcat.com/blog/ai-receptionist-vs-virtual-front-desk-answering-service/) for more on hybrid approaches.
 
 ---
 
@@ -452,7 +454,7 @@ Multi-location veterinary groups face a specific challenge: ensuring consistent 
 
 **Regular calibration.** Monthly review of call recordings from all locations to ensure consistency.
 
-**Centralized overflow.** When local staff are unavailable, calls route to a centralized team using the same protocols. For guidance on centralized vs. distributed models, see our [multi-location intake guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide).
+**Centralized overflow.** When local staff are unavailable, calls route to a centralized team using the same protocols. For guidance on centralized vs. distributed models, see our [multi-location intake guide](/blog/multi-location-healthcare-intake-guide/). According to the [AVMA](https://www.avma.org/resources-tools/reports-statistics/market-research-statistics-veterinarians), veterinary practices lose significant revenue from mishandled calls—our [missed calls revenue analysis](/blog/missed-calls-revenue-leak-multi-location-healthcare/) shows the financial impact. For KPI tracking across locations, see our [intake KPI dashboard guide](/blog/kpi-dashboard-multi-location-intake/).
 
 ### Technology Requirements
 
@@ -530,8 +532,8 @@ Consult with your veterinary malpractice insurance provider about phone triage p
 
 ## Related Resources
 
-- [Multi-Location Healthcare Intake Solutions: The Complete Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide) - Framework for intake operations at scale
-- [The Healthcare Front Desk Staffing Crisis: 2025 Data and Trends](https://mybcat.com/blog/healthcare-front-desk-staffing-crisis-2025) - Why staffing challenges make standardized protocols essential
+- [Multi-Location Healthcare Intake Solutions: The Complete Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) - Framework for intake operations at scale
+- [The Healthcare Front Desk Staffing Crisis: 2025 Data and Trends](https://mybcat.com/blog/healthcare-front-desk-staffing-crisis-2025/) - Why staffing challenges make standardized protocols essential
 
 ---
 

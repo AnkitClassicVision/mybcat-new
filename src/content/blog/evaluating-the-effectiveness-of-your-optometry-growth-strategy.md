@@ -60,7 +60,7 @@ A practical evaluation of your operations focuses on the metrics that measure th
 
 - How can you improve patient satisfaction scores? Are there any recurring complaints that can be addressed immediately?
 
-- Are there any bottlenecks in your [operational processes like patient intake](https://mybcat.com/multi-location-healthcare-intake-guide)? How can these be eliminated?
+- Are there any bottlenecks in your [operational processes like patient intake](https://mybcat.com/blog/multi-location-healthcare-intake-guide/)? How can these be eliminated?
 
 - Which services are most profitable and should be focused on? Are there any that could be discontinued or improved?
 

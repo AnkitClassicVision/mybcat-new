@@ -16,7 +16,7 @@ Is your optometry practice currently overwhelmed and understaffed? If so, there'
 
 Many optometrists face difficulties balancing a busy practice with a consistently optimal staffing level. The demands and pressures of a growing business means that burnout can often lead to high staff turnover.
 
-Recruitment difficulties can add to your woes, as you struggle to find the right people to manage your administrative tasks. Add to this the ever-increasing demands of patients and you end up with an extremely challenging staffing situation. Research shows that [missed calls can cost healthcare practices significant revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare), making proper staffing critical. This is exactly why many practices are turning to [virtual assistants for optometrists](https://mybcat.com/virtual-assistants-for-optometrists) as a strategic solution.
+Recruitment difficulties can add to your woes, as you struggle to find the right people to manage your administrative tasks. Add to this the ever-increasing demands of patients and you end up with an extremely challenging staffing situation. Research shows that [missed calls can cost healthcare practices significant revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/), making proper staffing critical. This is exactly why many practices are turning to [virtual assistants for optometrists](https://mybcat.com/industries/optometry/) as a strategic solution.
 
 ## Signs Your Practice Needs Virtual Support
 
@@ -38,7 +38,7 @@ Quite often you'll have one or more of the following signs, which are a good ind
 
 Now that you know there's help at hand through VAs for optometry, what tasks can they handle for your business?
 
-Our [virtual assistants trained specifically for optometry practices](https://mybcat.com/virtual-assistants-for-optometrists) can tackle any aspect of your practice management including:
+Our [virtual assistants trained specifically for optometry practices](https://mybcat.com/industries/optometry/) can tackle any aspect of your practice management including:
 
 - 24/7 appointment scheduling
 
@@ -62,7 +62,7 @@ Our [virtual assistants trained specifically for optometry practices](https://my
 
 - Supply management
 
-By taking over many of the tasks that are overwhelming your in-house staff, we can help your practice focus on patient care and generating new business. For practices with multiple locations, explore our [comprehensive guide to multi-location healthcare intake](https://mybcat.com/multi-location-healthcare-intake-guide) for additional strategies.
+By taking over many of the tasks that are overwhelming your in-house staff, we can help your practice focus on patient care and generating new business. For practices with multiple locations, explore our [comprehensive guide to multi-location healthcare intake](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) for additional strategies.
 
 ### Remote vs. In-Person: Breaking Down the Myths
 
@@ -96,7 +96,7 @@ Implementation of our virtual assistant plan consists of four phases. Phase one 
 
 Phase three includes quality and performance audits as well as corrective plans and uptime monitoring. Phase four may include customer satisfaction scores (CSAT) and/or Service Level Agreement (SLA) adherence monitoring.
 
-At all times, we are committed to providing the very best virtual assistant service for your optometry practice. Learn more about our [dedicated virtual assistant solutions for optometrists](https://mybcat.com/virtual-assistants-for-optometrists).
+At all times, we are committed to providing the very best virtual assistant service for your optometry practice. Learn more about our [dedicated virtual assistant solutions for optometrists](https://mybcat.com/industries/optometry/).
 
 ---
 

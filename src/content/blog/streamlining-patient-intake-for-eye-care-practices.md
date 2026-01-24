@@ -10,11 +10,11 @@ featuredImage: "/images/blog/patient-intake-streamlining.webp"
 canonical: "https://mybcat.com/blog/streamlining-patient-intake-for-eye-care-practices/"
 ---
 
-Opening the doors to an optometry practice means having various processes in place. If your experience was anything like ours, we had some processes that we were proud of and some that we didn't get to spend as much time on as we'd like. From eye exams to patient intake, setting up each step to ensure a smooth patient takes a lot of work. And going back and updating these processes can get pushed to the back burner as the clinic grows and the daily routine takes over. For practices growing to multiple locations, having a [scalable intake solution](https://mybcat.com/multi-location-healthcare-intake-guide) becomes even more critical.
+Opening the doors to an optometry practice means having various processes in place. If your experience was anything like ours, we had some processes that we were proud of and some that we didn't get to spend as much time on as we'd like. From eye exams to patient intake, setting up each step to ensure a smooth patient takes a lot of work. And going back and updating these processes can get pushed to the back burner as the clinic grows and the daily routine takes over. For practices growing to multiple locations, having a [scalable intake solution](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) becomes even more critical.
 
 Patient intake is one of those processes that need to evolve over time. When new legislation passes, it's obvious that you need to update your intake process. But there are other signs that it's time to update intake. For example, are your appointment wait times getting longer? Are patients asking repeat questions about paperwork or becoming impatient with filling it out? These are just some of the signs indicating it's time for a refresh on your intake processes. Later, we'll share more tips on knowing if it's time to update intake.
 
-We needed to figure out where to start when we first realized we needed to streamline our intake process. Talking with other optometrists and ophthalmologists, not knowing where to start can be a big enough hurdle that some practices avoid doing it altogether. So we're sharing our breakdown of streamlining tips, ranging from the easy fixes to bigger effort and bigger impact opportunities. For practices looking to maximize their scheduling efficiency, our [appointment book maximizer](https://mybcat.com/appointment-book-maximizer) can help ensure every slot gets filled.
+We needed to figure out where to start when we first realized we needed to streamline our intake process. Talking with other optometrists and ophthalmologists, not knowing where to start can be a big enough hurdle that some practices avoid doing it altogether. So we're sharing our breakdown of streamlining tips, ranging from the easy fixes to bigger effort and bigger impact opportunities. For practices looking to maximize their scheduling efficiency, our [appointment book maximizer](https://mybcat.com/solutions/patient-recall/) can help ensure every slot gets filled.
 
 Starting the optimization of your patient intake processes is like any other task; the first step is often the hardest. Bear in mind that your patients are expecting a smooth experience. Making intake more efficient not only elevates their satisfaction but also reduces staff stress and might even make room for more daily appointments. What's not to like about happier patients and potentially more revenue for your practice?
 
@@ -36,7 +36,7 @@ Insurance can be confusing for many. If patients need clarification when present
 
 **Remembering Appointments**
 
-All eye clinics should be tracking missed visits or last-minute reschedules. A daily count of them over the last month or quarter makes it easy to see if they are spiking. An updated appointment reminder system can keep things on track if they are. A timely nudge often helps in ensuring patients remember their schedules. Tools like our [appointment book maximizer](https://mybcat.com/appointment-book-maximizer) include automated reminders that significantly reduce no-shows.
+All eye clinics should be tracking missed visits or last-minute reschedules. A daily count of them over the last month or quarter makes it easy to see if they are spiking. An updated appointment reminder system can keep things on track if they are. A timely nudge often helps in ensuring patients remember their schedules. Tools like our [appointment book maximizer](https://mybcat.com/solutions/patient-recall/) include automated reminders that significantly reduce no-shows.
 
 **Feedback from the Eye Doctor and Team**
 
@@ -100,7 +100,7 @@ When improving your patient intake process, consider the following practical fac
 
 Optimizing your intake process requires a mix of introspection, innovation, and ongoing dedication. Hopefully, this article has given you a clear understanding of what to consider and some tips on what to do. Your commitment to achieving the end goal sets you on your way to making an intake process that both patients and staff will like.
 
-**Feeling Overwhelmed?** Streamlining processes can be tricky and time-consuming. If you want guidance on your clinic's unique challenges, My Business Care Team is here to help. With expertise in increased revenues, efficiency improvements, and ensuring top-quality care for optometry clinics, our team can support you to make a seamless transformation. Learn more about our [appointment book maximizer solution](https://mybcat.com/appointment-book-maximizer) designed specifically for eye care practices.
+**Feeling Overwhelmed?** Streamlining processes can be tricky and time-consuming. If you want guidance on your clinic's unique challenges, My Business Care Team is here to help. With expertise in increased revenues, efficiency improvements, and ensuring top-quality care for optometry clinics, our team can support you to make a seamless transformation. Learn more about our [appointment book maximizer solution](https://mybcat.com/solutions/patient-recall/) designed specifically for eye care practices.
 
  
 

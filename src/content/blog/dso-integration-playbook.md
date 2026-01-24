@@ -2,6 +2,7 @@
 title: "DSO Integration Playbook: Standardizing Intake Across Acquired Dental Practices"
 seoTitle: "DSO Integration Playbook for Dental Practices"
 description: "A 90-day framework for standardizing patient intake across acquired dental practices. The definitive guide for DSO operators and PE-backed dental groups."
+seoDescription: "90-day DSO integration framework for standardizing patient intake across acquisitions. Week-by-week playbook for PE-backed dental groups and DSO operators."
 publishDate: 2026-01-01
 status: "published"
 author: "Ankit Patel"
@@ -9,6 +10,7 @@ category: "Operations"
 tags: ["dso", "dental", "integration", "acquisition", "intake", "operations"]
 featuredImage: "/images/blog/dso-integration-playbook.webp"
 canonical: "https://mybcat.com/blog/dso-integration-playbook/"
+relatedPosts: ["dso-case-study-15-location-missed-calls", "90-day-integration-playbook-healthcare-acquisitions", "multi-location-healthcare-intake-guide"]
 ---
 
 Most DSO acquisitions take 12+ months to fully integrate—but the target is 90 days. The gap? Integration playbooks focus on PM system migration before establishing standardized intake processes. This playbook flips that sequence, giving you a week-by-week framework for standardizing patient intake that works regardless of which PM system the acquired practice uses.
@@ -489,11 +491,11 @@ The Practice Manager often determines integration success or failure. They may:
 
 ## Key Takeaways
 
-- **Flip the sequence**: Standardize intake workflows first, migrate PM systems second
-- **90 days is achievable**: With proper framework and focus
+- **Flip the sequence**: Standardize intake workflows first, migrate PM systems second. According to [Bain & Company's 2025 Healthcare PE Report](https://www.bain.com/insights/healthcare-private-equity/), integration speed directly correlates with deal value creation.
+- **90 days is achievable**: With proper framework and focus. See our [90-day integration playbook](/blog/90-day-integration-playbook-healthcare-acquisitions/) for the detailed week-by-week timeline.
 - **People over process**: Change management is as important as process design
-- **Measure from Day 1**: You can't improve what you don't measure
-- **Document everything**: Future acquisitions benefit from your learnings
+- **Measure from Day 1**: You can't improve what you don't measure. Use our [KPI dashboard framework](/blog/kpi-dashboard-multi-location-intake/) to track from the start.
+- **Document everything**: Future acquisitions benefit from your learnings. Our [pre-sale operational cleanup guide](/blog/pre-sale-operational-cleanup-intake-valuation/) shows how proper documentation affects valuation.
 
 ---
 
@@ -507,7 +509,7 @@ Ready to implement this playbook in your next acquisition?
 ### For PE Operating Partners
 [Schedule a Portfolio Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) - We'll evaluate intake operations across your dental investments and identify the highest-impact opportunities.
 
-Our [Never Miss an Appointment](https://mybcat.com/never-miss-an-appointment) solution is specifically designed for multi-location healthcare groups, combining trained healthcare specialists with technology that integrates directly into your practice management systems—including Dentrix, Eaglesoft, and Open Dental.
+Our [Never Miss an Appointment](https://mybcat.com/solutions/patient-recall/) solution is specifically designed for multi-location healthcare groups, combining trained healthcare specialists with technology that integrates directly into your practice management systems—including Dentrix, Eaglesoft, and Open Dental.
 
 ---
 
@@ -544,7 +546,7 @@ For PE-backed DSOs, recovered revenue from improved intake flows directly to EBI
 - [Multi-Location Healthcare Intake Solutions: The Complete Guide](/blog/multi-location-healthcare-intake-guide/) – Comprehensive framework for evaluating intake solutions
 - [EBITDA Impact Calculator](/blog/ebitda-impact-calculator/) – Quantify the financial impact of intake optimization
 - [The $1.2M Leak: How Multi-Location Healthcare Groups Lose Revenue](/blog/missed-calls-revenue-leak-multi-location-healthcare/) – The revenue cost of missed calls
-- [Never Miss an Appointment](https://mybcat.com/never-miss-an-appointment) – Our solution for multi-location healthcare call handling
+- [Never Miss an Appointment](https://mybcat.com/solutions/patient-recall/) – Our solution for multi-location healthcare call handling
 
 ---
 

@@ -1,3 +1,14 @@
+---
+title: "Why You Should Test an AI Receptionist: 7 Benefits That Pay for Themselves"
+description: "A draft post outline and notes for testing an AI receptionist, including key benefits, internal links, and sourced statistics."
+publishDate: '2026-01-24'
+status: "draft"
+author: "Ankit Patel"
+category: "Technology"
+tags: ["ai", "receptionist", "healthcare", "patient-access"]
+canonical: "https://mybcat.com/blog/test-ai-receptionist-benefits/"
+---
+
 ## Summary
 
 I've created a complete, publication-ready blog post following the 17-stage pipeline:

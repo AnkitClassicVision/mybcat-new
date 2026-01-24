@@ -44,7 +44,7 @@ Not sure which tasks to hand off to remote staff? Here are the key areas where r
 
 ### 1. Administrative Tasks
 
-Remote staffing is perfect for administrative functions that don't require a physical presence in the office. Are your front-desk staff overwhelmed with phone calls and paperwork? This is where remote teams can step in and lighten the load—and help prevent the [revenue leakage that comes from missed calls](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare).
+Remote staffing is perfect for administrative functions that don't require a physical presence in the office. Are your front-desk staff overwhelmed with phone calls and paperwork? This is where remote teams can step in and lighten the load—and help prevent the [revenue leakage that comes from missed calls](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/).
 
 - **Appointment scheduling:** Remote staff can handle all incoming calls and manage your practice's schedule.
 

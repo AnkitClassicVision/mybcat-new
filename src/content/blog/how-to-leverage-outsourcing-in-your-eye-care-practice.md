@@ -20,7 +20,7 @@ Outsourcing can be a game-changer for your optometry or ophthalmology practice. 
 
 **Front Office Functions**
 
-- **Appointment Scheduling:** Leveraging an external service for appointment booking, confirmations, and cancellations can optimize your front office workflow. For growing practices, consider [how to streamline intake across multiple locations](https://mybcat.com/multi-location-healthcare-intake-guide). This allows your in-house team to devote their attention to patients present in the clinic, enhancing the quality of service.
+- **Appointment Scheduling:** Leveraging an external service for appointment booking, confirmations, and cancellations can optimize your front office workflow. For growing practices, consider [how to streamline intake across multiple locations](https://mybcat.com/blog/multi-location-healthcare-intake-guide/). This allows your in-house team to devote their attention to patients present in the clinic, enhancing the quality of service.
 
 - **Customer Service:** Outsourcing your customer service functions, including call centers to handle patient inquiries, feedback management, and complaint resolution, can significantly improve the patient experience while freeing up valuable time for your internal staff.
 

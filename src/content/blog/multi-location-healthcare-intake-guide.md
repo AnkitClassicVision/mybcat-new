@@ -11,7 +11,7 @@ canonical: "https://mybcat.com/blog/multi-location-healthcare-intake-guide/"
 relatedPosts: ["missed-calls-revenue-leak-multi-location-healthcare", "ai-receptionist-vs-virtual-front-desk-answering-service", "healthcare-front-desk-staffing-crisis-2025"]
 ---
 
-Multi-location healthcare groups lose $500,000-$1,500,000 annually to intake inefficiencies, and most don't know it. Use our [missed call revenue calculator](https://mybcat.com/blog/missed-call-revenue-calculator) to see your specific number. This guide provides the complete framework for evaluating, selecting, and implementing intake solutions for healthcare groups with 3-50+ locations.
+Multi-location healthcare groups lose $500,000-$1,500,000 annually to intake inefficiencies, and most don't know it. Use our [missed call revenue calculator](https://mybcat.com/blog/missed-call-revenue-calculator/) to see your specific number. This guide provides the complete framework for evaluating, selecting, and implementing intake solutions for healthcare groups with 3-50+ locations.
 
 **The core insight:** Multi-location intake is not a technology problem. It's an operational architecture decision that determines whether you can scale profitably.
 
@@ -62,7 +62,7 @@ The staffing equation that works for solo practices fails at scale:
 *Based on $50,000 fully-loaded annual cost per FTE (includes benefits and overhead)
 **Assumes 260 business days/year, 35% new patient call mix, 65% conversion rate, $1,200 average first-year patient value. Revenue figures reflect EBITDA impact (approximately 14% of gross patient revenue).
 
-The staffing challenges go beyond simple math. For a deeper analysis, see our guide on the [healthcare front desk staffing crisis](https://mybcat.com/blog/healthcare-front-desk-staffing-crisis-2025).
+The staffing challenges go beyond simple math. For a deeper analysis, see our guide on the [healthcare front desk staffing crisis](https://mybcat.com/blog/healthcare-front-desk-staffing-crisis-2025/).
 
 Neither extreme works. Multi-location groups need variable capacity that scales with actual demand.
 
@@ -86,7 +86,7 @@ For DSOs and PE-backed groups acquiring 3-8 practices per year, every acquisitio
 - Different call handling culture ("We never answer during lunch" vs. "We never miss a call")
 - Different patient communication preferences
 
-Integration takes 12-18 months using traditional approaches. Revenue leaks the entire time. Based on our analysis of healthcare M&A outcomes, a significant portion of expected synergies from practice acquisitions are lost due to operational integration delays, and phone system chaos is a leading contributor. For a week-by-week integration framework, see our [DSO integration playbook](https://mybcat.com/blog/dso-integration-playbook).
+Integration takes 12-18 months using traditional approaches. Revenue leaks the entire time. Based on our analysis of healthcare M&A outcomes, a significant portion of expected synergies from practice acquisitions are lost due to operational integration delays, and phone system chaos is a leading contributor. For a week-by-week integration framework, see our [DSO integration playbook](https://mybcat.com/blog/dso-integration-playbook/).
 
 ---
 
@@ -409,7 +409,7 @@ Most successful multi-location groups use a combination:
 - **Virtual front desk** for overflow, after-hours, and acquisition integration
 - **AI triage** for initial intake and routing of high-volume call types
 
-The question isn't "which one" but "what mix optimizes cost, quality, and patient experience for our specific situation." For a detailed comparison of these options, see our [AI receptionist vs. virtual front desk vs. answering service decision framework](https://mybcat.com/blog/ai-receptionist-vs-virtual-front-desk-answering-service).
+The question isn't "which one" but "what mix optimizes cost, quality, and patient experience for our specific situation." For a detailed comparison of these options, see our [AI receptionist vs. virtual front desk vs. answering service decision framework](https://mybcat.com/blog/ai-receptionist-vs-virtual-front-desk-answering-service/).
 
 Once you've determined the right mix of intake resources, you'll need the technology infrastructure to enable it. Your tech stack requirements evolve significantly with scale.
 
@@ -843,7 +843,7 @@ When evaluating intake solutions for your multi-location group, demand answers t
 
 ### If You're at Level 1-2 (Under 10 Locations)
 
-1. **Get your data first.** Pull call reports. Calculate your actual answer rate and missed call cost using our [missed call revenue calculator](https://mybcat.com/blog/missed-call-revenue-calculator).
+1. **Get your data first.** Pull call reports. Calculate your actual answer rate and missed call cost using our [missed call revenue calculator](https://mybcat.com/blog/missed-call-revenue-calculator/).
 
 2. **Establish baseline metrics.** You can't improve what you don't measure. Start tracking answer rate, ASA, and abandonment weekly.
 
@@ -918,7 +918,7 @@ Build a documented **90-day integration playbook**. Days 1-14: Discovery (docume
 
 ### How much does poor intake cost a multi-location healthcare group?
 
-Based on the [revenue leak analysis](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare), multi-location groups typically lose:
+Based on the [revenue leak analysis](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/), multi-location groups typically lose:
 - **5 locations:** $400,000-$600,000/year
 - **10 locations:** $800,000-$1,200,000/year
 - **25 locations:** $2,000,000-$3,000,000/year
@@ -929,7 +929,7 @@ This assumes 29% missed call rate (industry average), 35% new patient call mix, 
 
 ## Related Resources
 
-- [The $1.2M Leak: How Multi-Location Healthcare Groups Lose Revenue to Missed Calls](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare) - Detailed analysis of the revenue math behind missed calls
+- [The $1.2M Leak: How Multi-Location Healthcare Groups Lose Revenue to Missed Calls](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) - Detailed analysis of the revenue math behind missed calls
 
 ---
 

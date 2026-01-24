@@ -99,7 +99,7 @@ VoIP systems cost $20 to $50 per line monthly with features like call routing, v
 Automated appointment reminders, recall messages, and two-way texting cost $100 to $400 monthly. The reduction in no-shows typically covers this expense within the first month.
 
 **After-Hours Coverage**
-Patients call outside business hours. How you handle those calls affects both patient satisfaction and revenue capture. Options include voicemail (free but loses patients), answering services ($200 to $500 monthly), or [virtual receptionist services that integrate with your practice management system](/blog/multi-location-healthcare-intake-guide).
+Patients call outside business hours. How you handle those calls affects both patient satisfaction and revenue capture. Options include voicemail (free but loses patients), answering services ($200 to $500 monthly), or [virtual receptionist services that integrate with your practice management system](/blog/multi-location-healthcare-intake-guide/).
 
 ## Total Investment Estimates
 

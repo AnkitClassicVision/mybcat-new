@@ -28,7 +28,7 @@ Round-the-clock availability ensures patients receive timely responses, irrespec
 
 - **Seamless Integration**
 
-These virtual receptionists effortlessly mesh with existing systems, ensuring a smooth transition from call to appointment[](https://mybcat.com/blog/streamlining-your-practice-with-appointment-setting). For practices managing [multiple locations, centralized intake solutions](https://mybcat.com/multi-location-healthcare-intake-guide) further enhance consistency across all sites.
+These virtual receptionists effortlessly mesh with existing systems, ensuring a smooth transition from call to appointment[](https://mybcat.com/blog/streamlining-your-practice-with-appointment-setting/). For practices managing [multiple locations, centralized intake solutions](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) further enhance consistency across all sites.
 
 The nuanced world of optometry demands a reception service that is both technically proficient and emotionally attuned. Whether a patient is anxious about an upcoming surgery, curious about new lens types, or wants to reschedule, these receptionists stand ready to assist, ensuring every interaction is meaningful.
 

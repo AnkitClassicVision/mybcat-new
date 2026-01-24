@@ -107,7 +107,7 @@ Not everything should be outsourced. I'd never outsource clinical support roles�
 
 But these tasks? These can absolutely be handled remotely:
 
-**Phone calls and scheduling.** This is the big one. [Missed calls are a massive revenue leak](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare)—and even answered calls are expensive if you're paying an in-office person $18-22/hour to do what a trained remote worker does for less.
+**Phone calls and scheduling.** This is the big one. [Missed calls are a massive revenue leak](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/)—and even answered calls are expensive if you're paying an in-office person $18-22/hour to do what a trained remote worker does for less.
 
 **Insurance verification.** Tedious, time-consuming, and doesn't require physical presence. Perfect for outsourcing.
 

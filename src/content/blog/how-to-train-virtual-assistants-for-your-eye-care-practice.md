@@ -64,7 +64,7 @@ For your reference, here are some of the other things we include in our English 
 
 ## **Process-Specific Training**
 
-Integrating an overseas VA into your optometry clinic begins with a comprehensive record of your standard operating procedures (SOPs)—the bedrock of consistent and efficient operations. SOPs serve as a manual for daily tasks and provide a roadmap to handle unusual situations, which is crucial for reducing errors and ultimately enhancing patient care. For practices with [multiple locations managing patient intake](https://mybcat.com/multi-location-healthcare-intake-guide), well-documented SOPs become even more essential.
+Integrating an overseas VA into your optometry clinic begins with a comprehensive record of your standard operating procedures (SOPs)—the bedrock of consistent and efficient operations. SOPs serve as a manual for daily tasks and provide a roadmap to handle unusual situations, which is crucial for reducing errors and ultimately enhancing patient care. For practices with [multiple locations managing patient intake](https://mybcat.com/blog/multi-location-healthcare-intake-guide/), well-documented SOPs become even more essential.
 
 Effective SOPs must be clear, concise, and highly detailed, breaking down each task into manageable steps. They should outline what needs to be done, when, and how, identifying whom to contact in case of issues or uncertainties. Visual aids like diagrams and flowcharts can make complex tasks more understandable and actionable.
 

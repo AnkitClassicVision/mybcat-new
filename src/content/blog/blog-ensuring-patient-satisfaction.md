@@ -78,7 +78,7 @@ The data consistently shows that practices with strong phone experiences have:
 - Better online reviews
 - Stronger patient retention year over year
 
-The ROI is real. [Missed calls alone can cost practices significant revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare)—but bad calls might be worse, because they actively push patients toward your competitors.
+The ROI is real. [Missed calls alone can cost practices significant revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/)—but bad calls might be worse, because they actively push patients toward your competitors.
 
 ## What Makes Training Stick
 

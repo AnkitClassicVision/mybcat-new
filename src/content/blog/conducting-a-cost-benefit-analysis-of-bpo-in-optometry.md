@@ -106,7 +106,7 @@ Outsourcing administrative or non-core functions allows the clinic's staff to fo
 
 ### **Enhanced Scalability**
 
-BPO providers can readily scale capacity up or down as the clinic's needs change. This provides flexibility to support fluctuating demand or seasonal cycles. For practices expanding to [multiple locations](https://mybcat.com/multi-location-healthcare-intake-guide), this scalability becomes especially valuable.
+BPO providers can readily scale capacity up or down as the clinic's needs change. This provides flexibility to support fluctuating demand or seasonal cycles. For practices expanding to [multiple locations](https://mybcat.com/blog/multi-location-healthcare-intake-guide/), this scalability becomes especially valuable.
 
 ### **Focus on Core Competencies **
 

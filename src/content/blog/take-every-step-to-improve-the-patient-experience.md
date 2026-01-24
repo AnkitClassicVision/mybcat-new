@@ -16,7 +16,7 @@ Running an eye clinic can lead to hectic moments. Amid this hectic environment, 
 
 Booking an [optometrist appointment in Georgia](https://mybcat.com/blog/) should be a smooth experience for clients. This is only possible when your clinic maintains an active and accessible communication line.
 
-Utilizing a [vision care call center](https://mybcat.com/solutions/medical-virtual-assistant/) to communicate with patients allows clients to reach you with maximum convenience. Outsourcing this crucial task also takes a lot off of your plate, giving you the energy to focus on your clients. For practices managing [multiple locations, centralized intake solutions](https://mybcat.com/multi-location-healthcare-intake-guide) become essential for maintaining consistent service.
+Utilizing a [vision care call center](https://mybcat.com/solutions/medical-virtual-assistant/) to communicate with patients allows clients to reach you with maximum convenience. Outsourcing this crucial task also takes a lot off of your plate, giving you the energy to focus on your clients. For practices managing [multiple locations, centralized intake solutions](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) become essential for maintaining consistent service.
 
 - **People Skills**
 
@@ -24,7 +24,7 @@ Applying people skills in every [client interaction](https://ca.indeed.com/caree
 
 - **Learn from Your Patients**
 
-Even an eye clinic won't be immune from client feedback. Like all healthcare operations, the well-being of every patient should come first. Take the time to listen to what your clients are saying about your operations. Utilize [call support](https://mybcat.com/blog/the-role-of-call-support-in-patient-satisfaction) functions for feedback collection. Making the right adjustments to your operations should hinge on constructive feedback from the people you serve.
+Even an eye clinic won't be immune from client feedback. Like all healthcare operations, the well-being of every patient should come first. Take the time to listen to what your clients are saying about your operations. Utilize [call support](https://mybcat.com/blog/the-role-of-call-support-in-patient-satisfaction/) functions for feedback collection. Making the right adjustments to your operations should hinge on constructive feedback from the people you serve.
 
 You can serve your patients better when you give them your full attention. Through our services, we can give you more time and energy to focus on your patients. [Call us](tel:678-855-6130) to learn more about our services.
 

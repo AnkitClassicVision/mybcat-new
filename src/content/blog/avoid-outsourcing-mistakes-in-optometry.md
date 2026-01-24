@@ -72,7 +72,7 @@ Some practices get excited about digital transformation and decide to go all-in 
 
 This is a mistake.
 
-[Missed calls cost real money](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare)—but so do failed digital interactions. And here's the thing: a significant portion of your patient base, especially older patients, prefers talking to a human. They're not comfortable with chatbots. They get frustrated with patient portals. They want to call.
+[Missed calls cost real money](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/)—but so do failed digital interactions. And here's the thing: a significant portion of your patient base, especially older patients, prefers talking to a human. They're not comfortable with chatbots. They get frustrated with patient portals. They want to call.
 
 If you eliminate that option, you eliminate those patients. They'll go somewhere else.
 

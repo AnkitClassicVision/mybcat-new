@@ -14,7 +14,7 @@ In the digital age, convenience, and efficiency are paramount to meeting the exp
 
 - **Enhanced Patient Experience**
 
-Virtual [optometrist appointment in Georgia](https://mybcat.com/solutions/patient-recall/) allows patients to schedule their eye care visits conveniently at anytime, eliminating the need for phone calls during business hours. This also helps reduce [missed calls that can lead to revenue leakage](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare). A user-friendly interface will enable patients to select suitable appointment slots, reducing wait times and ensuring a smooth scheduling process.
+Virtual [optometrist appointment in Georgia](https://mybcat.com/solutions/patient-recall/) allows patients to schedule their eye care visits conveniently at anytime, eliminating the need for phone calls during business hours. This also helps reduce [missed calls that can lead to revenue leakage](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/). A user-friendly interface will enable patients to select suitable appointment slots, reducing wait times and ensuring a smooth scheduling process.
 
 - **24/7 Accessibility**
 

@@ -24,7 +24,7 @@ The right call support model streamlines [optometrist call management](https://m
 
 - **Scalability**
 
-Choose a model that can adapt to the evolving needs of your optometry clinic, providing scalability to accommodate growth. For practices expanding to multiple locations, having a [scalable multi-location intake solution](https://mybcat.com/multi-location-healthcare-intake-guide) is essential.
+Choose a model that can adapt to the evolving needs of your optometry clinic, providing scalability to accommodate growth. For practices expanding to multiple locations, having a [scalable multi-location intake solution](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) is essential.
 
 - **Professional Image**
 

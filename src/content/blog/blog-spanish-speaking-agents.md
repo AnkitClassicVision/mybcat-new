@@ -55,7 +55,7 @@ Every Maria who hangs up in frustration is revenue you didn't capture. Every fam
 
 We've seen practices grow their patient base by 15-20% simply by adding reliable Spanish language support. Not through marketing. Just through word of mouth in communities that had been underserved.
 
-And here's the math that really matters: [missed calls cost money](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare). If you're missing calls because of language barriers—or worse, converting calls poorly because of communication struggles—you're bleeding revenue you might not even know about.
+And here's the math that really matters: [missed calls cost money](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/). If you're missing calls because of language barriers—or worse, converting calls poorly because of communication struggles—you're bleeding revenue you might not even know about.
 
 ## Why "We Have Someone Who Speaks Some Spanish" Doesn't Work
 

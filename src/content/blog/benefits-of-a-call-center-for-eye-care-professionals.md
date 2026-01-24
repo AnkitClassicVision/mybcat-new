@@ -34,7 +34,7 @@ Of those 10 lost calls, assume 3 were potential new patients (the rest might be 
 
 At an average lifetime value of $800-1,200 per patient in optometry, you're looking at $2,400-3,600 walking out the door. Every single day.
 
-[This math is why missed calls are one of the biggest revenue leaks in healthcare.](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) It's invisible—you never see the patients you didn't get—but it's very real.
+[This math is why missed calls are one of the biggest revenue leaks in healthcare.](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) It's invisible—you never see the patients you didn't get—but it's very real.
 
 ## What A Call Center Actually Does
 

@@ -16,7 +16,7 @@ Here is the comprehensive array of benefits that an optometry answering service 
 
 - **24/7 Availability**
 
-An [optometry answering service](https://mybcat.com/about/) ensures constant accessibility, allowing patients to schedule appointments or seek information at their convenience—helping you avoid the [significant revenue loss from missed calls](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare).
+An [optometry answering service](https://mybcat.com/about/) ensures constant accessibility, allowing patients to schedule appointments or seek information at their convenience—helping you avoid the [significant revenue loss from missed calls](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/).
 
 - **Appointment Management**
 

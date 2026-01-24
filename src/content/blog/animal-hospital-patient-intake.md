@@ -220,4 +220,4 @@ The practices seeing the best results treat intake as a continuous improvement p
 
 ---
 
-*Ready to improve your practice operations? [Schedule a discovery call](https://mybcat.com/demo/) to learn how MyBCAT can help.*
+*Ready to improve your practice operations? [Schedule a discovery call](https://mybcat.com/contact/) to learn how MyBCAT can help.*

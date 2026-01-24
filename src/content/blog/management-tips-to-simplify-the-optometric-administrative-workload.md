@@ -14,7 +14,7 @@ The operational efficiencies of your optometry practice are integral to the over
 
 ## Harnessing Software for Seamless Operations
 
-Modern tools have come a long way and there are now multiple options, specific to optometry, that can help in several areas. Optometry practice management software combines various operational domains into a centralized platform, facilitating effortless access to patient records, appointment schedules, and billing information. Opting for software solutions like [NextGen Healthcare](https://www.nextgen.com/) or OD Link can significantly streamline administrative tasks (learn how to [streamline patient intake across multiple locations](https://mybcat.com/multi-location-healthcare-intake-guide)), allowing for more time to be devoted to patient care. Note that it's wise to focus on software made for your industry to ensure that their security and compliance is designed with optometry in mind.
+Modern tools have come a long way and there are now multiple options, specific to optometry, that can help in several areas. Optometry practice management software combines various operational domains into a centralized platform, facilitating effortless access to patient records, appointment schedules, and billing information. Opting for software solutions like [NextGen Healthcare](https://www.nextgen.com/) or OD Link can significantly streamline administrative tasks (learn how to [streamline patient intake across multiple locations](https://mybcat.com/blog/multi-location-healthcare-intake-guide/)), allowing for more time to be devoted to patient care. Note that it's wise to focus on software made for your industry to ensure that their security and compliance is designed with optometry in mind.
 
 ## Elevating Patient Engagement
 

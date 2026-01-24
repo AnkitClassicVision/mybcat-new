@@ -14,7 +14,7 @@ Effective patient communication is paramount for building trust, ensuring satisf
 
 - **Clear and Compassionate Communication**
 
-Train your staff to convey information in a clear and empathetic manner. Patients should feel comfortable asking questions and discussing concerns about their eye health. Attentive listening helps staff [understand patients' needs](https://mybcat.com/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices) and concerns thoroughly. It not only aids in accurate diagnosis and treatment but also makes patients feel valued and heard. Address patients by their names and engage in personalized conversations. Remembering past discussions or treatments demonstrates genuine interest and builds a strong rapport.
+Train your staff to convey information in a clear and empathetic manner. Patients should feel comfortable asking questions and discussing concerns about their eye health. Attentive listening helps staff [understand patients' needs](https://mybcat.com/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices/) and concerns thoroughly. It not only aids in accurate diagnosis and treatment but also makes patients feel valued and heard. Address patients by their names and engage in personalized conversations. Remembering past discussions or treatments demonstrates genuine interest and builds a strong rapport.
 
 - **Educational Approach**
 
@@ -22,7 +22,7 @@ Empower patients with knowledge about their conditions and treatment options. Pr
 
 - **Prompt Responses**
 
-Timely replies to inquiries and appointment requests exhibit professionalism—and [avoiding missed calls prevents significant revenue loss](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) and respect for patients' time. Implement efficient response protocols as part of your [eye care call support in Georgia](https://mybcat.com/about/) to ensure a seamless experience. Use automated systems to send reminders for upcoming appointments through text messages or emails. It minimizes no-shows and fosters a sense of reliability.
+Timely replies to inquiries and appointment requests exhibit professionalism—and [avoiding missed calls prevents significant revenue loss](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) and respect for patients' time. Implement efficient response protocols as part of your [eye care call support in Georgia](https://mybcat.com/about/) to ensure a seamless experience. Use automated systems to send reminders for upcoming appointments through text messages or emails. It minimizes no-shows and fosters a sense of reliability.
 
 - **Post-Visit Follow-ups**
 

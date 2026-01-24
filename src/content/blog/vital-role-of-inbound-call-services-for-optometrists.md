@@ -14,7 +14,7 @@ The significance of seamless patient communication cannot be overstated. Optomet
 
 - **Appointment Scheduling**
 
-Inbound call services assisted by [optometry virtual receptionists in Georgia](https://mybcat.com/about/) efficiently manage appointment bookings, reducing the likelihood of [missed opportunities and revenue leakage](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) while maximizing daily schedules. Patients appreciate the convenience of a live person assisting with their appointments.
+Inbound call services assisted by [optometry virtual receptionists in Georgia](https://mybcat.com/about/) efficiently manage appointment bookings, reducing the likelihood of [missed opportunities and revenue leakage](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) while maximizing daily schedules. Patients appreciate the convenience of a live person assisting with their appointments.
 
 - **Personalized and Prompt Attention**
 

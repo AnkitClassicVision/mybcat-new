@@ -64,7 +64,7 @@ For clinics striving for clinical excellence, MSOs can provide welcome support t
 
 Beyond optimizing day-to-day operations, MSOs aim to spur business growth and revenue gains for member practices. Their scale, resources, and clinical expertise enable expansion potential for independent optometrists.
 
-Marketing is one area where MSO size offers advantages. Network-wide campaigns in print, TV, radio and online channels extend reach. Name recognition grows. MSO staff handle ad creation and placement—no need to go it alone. Centralized scheduling and customer service support new location growth by efficiently coordinating increased demand. For groups expanding to multiple locations, having a [comprehensive intake strategy](https://mybcat.com/multi-location-healthcare-intake-guide) becomes essential for maintaining service quality across all sites. Economies of scale make large equipment purchases more affordable, enabling new specialty offerings. While success ultimately depends on providing great patient care, MSOs equip their members with tools to reach more people and expand services for growth.
+Marketing is one area where MSO size offers advantages. Network-wide campaigns in print, TV, radio and online channels extend reach. Name recognition grows. MSO staff handle ad creation and placement—no need to go it alone. Centralized scheduling and customer service support new location growth by efficiently coordinating increased demand. For groups expanding to multiple locations, having a [comprehensive intake strategy](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) becomes essential for maintaining service quality across all sites. Economies of scale make large equipment purchases more affordable, enabling new specialty offerings. While success ultimately depends on providing great patient care, MSOs equip their members with tools to reach more people and expand services for growth.
 
 ## Assessing Readiness Before Transitioning to an MSO
 
@@ -90,7 +90,7 @@ Pricing is also flexible based on customized service packages. Business owners o
 
 The BPO approach also enables sticking with your existing systems versus adapting processes to the MSO model. No need to change your EHR platform or inventory practices if they work for you today. And you maintain direct oversight of all operations.
 
-While MSOs offer turnkey practice management, [BPOs allow focused task delegation while retaining overall independence](https://mybcat.com/blog/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice). For clinics not ready to join a larger consolidated entity, outsourcing provides an interim step to lighten the workload until scaling demands fuller MSO integration.
+While MSOs offer turnkey practice management, [BPOs allow focused task delegation while retaining overall independence](https://mybcat.com/blog/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice/). For clinics not ready to join a larger consolidated entity, outsourcing provides an interim step to lighten the workload until scaling demands fuller MSO integration.
 
 ## Conclusion
 

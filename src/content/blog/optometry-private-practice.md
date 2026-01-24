@@ -261,4 +261,4 @@ Start with the fundamentals: choose your location carefully, equip efficiently, 
 
 ---
 
-*Ready to improve your practice operations? [Schedule a discovery call](https://mybcat.com/demo/) to learn how MyBCAT can help.*
+*Ready to improve your practice operations? [Schedule a discovery call](https://mybcat.com/contact/) to learn how MyBCAT can help.*

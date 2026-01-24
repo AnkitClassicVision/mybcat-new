@@ -19,7 +19,7 @@ Eye care practice owners must consider nuances such as their VAs' roles and impa
 
 ## **Understanding How the Role of Virtual Assistants Impacts Data**
 
-Virtual assistants play many roles in an ophthalmology clinic, often being the first point of contact in the patient experience. They handle various administrative tasks, from billing to scheduling appointments to [patient intake](https://mybcat.com/multi-location-healthcare-intake-guide), electronic health record keeping, and sometimes preliminary patient education or counseling. Each of these roles involves varying levels of exposure to sensitive patient information and carries specific compliance and security concerns.
+Virtual assistants play many roles in an ophthalmology clinic, often being the first point of contact in the patient experience. They handle various administrative tasks, from billing to scheduling appointments to [patient intake](https://mybcat.com/blog/multi-location-healthcare-intake-guide/), electronic health record keeping, and sometimes preliminary patient education or counseling. Each of these roles involves varying levels of exposure to sensitive patient information and carries specific compliance and security concerns.
 
 When a VA schedules an appointment, for example, they need access to patient information like names, contact details, and in some cases, the reason for the visit. During patient intake or when maintaining patient records, they may have access to more detailed personal health information, which is more sensitive and subject to stricter regulations like being HIPAA compliant.
 

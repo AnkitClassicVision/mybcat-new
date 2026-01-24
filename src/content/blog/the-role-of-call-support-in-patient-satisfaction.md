@@ -10,7 +10,7 @@ featuredImage: "/images/blog/the-role-of-call-support-in-patient-satisfaction.we
 canonical: "https://mybcat.com/blog/the-role-of-call-support-in-patient-satisfaction/"
 ---
 
-Patient satisfaction is paramount, and it holds equal significance in eye care. Providing exceptional [eye clinic customer service](https://mybcat.com/solutions/medical-answering-service/) goes beyond the examination room; it begins with the first point of contact – call support. Eye care call support is pivotal in shaping the patient experience and overall satisfaction with practice. When calls go unanswered, practices face [significant revenue leakage from missed opportunities](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare).
+Patient satisfaction is paramount, and it holds equal significance in eye care. Providing exceptional [eye clinic customer service](https://mybcat.com/solutions/medical-answering-service/) goes beyond the examination room; it begins with the first point of contact – call support. Eye care call support is pivotal in shaping the patient experience and overall satisfaction with practice. When calls go unanswered, practices face [significant revenue leakage from missed opportunities](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/).
 
 - **Prompt and Efficient Appointment Scheduling**
 

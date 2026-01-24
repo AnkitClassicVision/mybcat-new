@@ -1,9 +1,11 @@
 ---
 title: 'Benchmark Report: Revenue Per Call by Healthcare Specialty (2025 Data)'
+seoTitle: "Revenue Per Call Benchmarks by Healthcare Specialty 2025"
 description: >-
   Original research on revenue per call benchmarks for dental, optometry,
   veterinary, and medical practices. Based on data from 150+ multi-location
   healthcare groups.
+seoDescription: "2025 revenue per call benchmarks: Dental $47, Optometry $38, Veterinary $78. Original research from 150+ multi-location healthcare groups reveals ROI."
 publishDate: 2026-01-17T00:00:00.000Z
 status: published
 author: Ankit Patel
@@ -19,7 +21,7 @@ featuredImage: /images/blog/benchmark-report-revenue-per-call-2025.webp
 canonical: 'https://mybcat.com/blog/benchmark-report-revenue-per-call-2025/'
 relatedPosts:
   - missed-calls-revenue-leak-multi-location-healthcare
-  - ebitda-impact-calculator
+  - dso-case-study-15-location-missed-calls
   - kpi-dashboard-multi-location-intake
 ---
 
@@ -334,9 +336,11 @@ Revenue Per Call = Total Revenue (Period) / Total Incoming Calls (Period)
 
 - **Payer mix significantly impacts economics.** Commercial PPO practices see 15-25% higher revenue per call than average.
 
-- **Missed calls have quantifiable cost.** A 15-location dental group missing 22 calls daily loses approximately $268,000 annually.
+- **Missed calls have quantifiable cost.** A 15-location dental group missing 22 calls daily loses approximately $268,000 annually. See our [detailed missed call analysis](/blog/missed-calls-revenue-leak-multi-location-healthcare/) for the full breakdown, and our [DSO case study](/blog/dso-case-study-15-location-missed-calls/) showing how one group recovered $1.2M.
 
-- **Calculate your own benchmark.** Total revenue divided by total calls gives your baseline. Compare to specialty benchmarks to identify opportunity.
+- **Calculate your own benchmark.** Total revenue divided by total calls gives your baseline. Compare to specialty benchmarks to identify opportunity. Our [KPI dashboard guide](/blog/kpi-dashboard-multi-location-intake/) shows how to track these metrics systematically.
+
+According to [MGMA benchmarks](https://www.mgma.com/data/benchmarking), practices with systematic call tracking outperform those without by 15-25%. For optometry groups specifically, see our [retail-clinical intake guide](/blog/optometry-retail-clinical-intake-guide/) for specialty-specific optimization. Multi-location groups should also review our [centralized vs. distributed framework](/blog/centralized-vs-distributed-intake-framework/) for intake structure decisions.
 
 ---
 

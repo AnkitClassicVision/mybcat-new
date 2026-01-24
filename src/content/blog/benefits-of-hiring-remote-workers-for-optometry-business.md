@@ -45,7 +45,7 @@ I expected to save money on payroll. I didn't expect to make more money overall.
 
 But think about it. When you have dedicated staff handling phones, what happens?
 
-More calls get answered. More calls get converted to appointments. [Missed calls stop leaking revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare). Recall campaigns actually get done. Patients who fell off the radar get brought back in.
+More calls get answered. More calls get converted to appointments. [Missed calls stop leaking revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/). Recall campaigns actually get done. Patients who fell off the radar get brought back in.
 
 Our remote team doesn't just answer phones—they actively work to fill the schedule. They follow up on missed appointments. They run recall campaigns for patients overdue for their annual exam. They chase down insurance verifications so patients don't bail at the front desk.
 

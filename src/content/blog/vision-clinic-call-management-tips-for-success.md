@@ -20,7 +20,7 @@ Equip your reception team with comprehensive training in [eye care call support 
 
 - **Opt for Optometrists Inbound Call Services**
 
-[Outsourcing inbound calls](https://mybcat.com/blog/vital-role-of-inbound-call-services-for-optometrists) to specialized services can be a game-changer. These experts are trained in the intricacies of eye care and can handle appointments, queries, and support with precision and empathy, allowing your in-house team to focus on in-clinic operations. Understanding how [missed calls affect your bottom line](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) makes this investment more compelling.
+[Outsourcing inbound calls](https://mybcat.com/blog/vital-role-of-inbound-call-services-for-optometrists/) to specialized services can be a game-changer. These experts are trained in the intricacies of eye care and can handle appointments, queries, and support with precision and empathy, allowing your in-house team to focus on in-clinic operations. Understanding how [missed calls affect your bottom line](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) makes this investment more compelling.
 
 - **Leverage Technology for Efficiency**
 

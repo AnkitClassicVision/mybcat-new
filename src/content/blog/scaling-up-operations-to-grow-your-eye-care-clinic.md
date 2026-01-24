@@ -104,7 +104,7 @@ Also examine repetitive manual tasks that consume significant staff time. These 
 
 ### What's the best way to manage multiple locations?
 
-Coordinating multiple clinic locations brings added complexity. Maintaining consistent operations and care standards across sites is key, but can be challenging. For healthcare groups managing multiple locations, having the right [intake infrastructure](https://mybcat.com/multi-location-healthcare-intake-guide) is essential for scaling successfully.
+Coordinating multiple clinic locations brings added complexity. Maintaining consistent operations and care standards across sites is key, but can be challenging. For healthcare groups managing multiple locations, having the right [intake infrastructure](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) is essential for scaling successfully.
 
 Implement centralized systems for scheduling appointments and keeping shared patient records. This makes coordinating care seamless across locations. Telemedicine can also minimize patient travel when follow-ups are needed at a different site. 
 

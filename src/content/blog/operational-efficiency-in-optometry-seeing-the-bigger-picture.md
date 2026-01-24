@@ -12,7 +12,7 @@ canonical: "https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-t
 
 Operational efficiency, a concept often touted in corporate boardrooms, is equally vital in an optometrist's clinic. And the reasons are both clear and impactful: a clinic operating at peak efficiency can manage more patients per hour.
 
-At first glance, it might seem that operational efficiency—including [streamlined patient intake processes](https://mybcat.com/multi-location-healthcare-intake-guide) is all about improving the bottom line, but its benefits extend far beyond that. A key benefit is that it improves the overall experience for patients. When processes are streamlined and efficient, patients wait less, face fewer administrative hurdles, and enjoy smoother, faster, and more attentive care.
+At first glance, it might seem that operational efficiency—including [streamlined patient intake processes](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) is all about improving the bottom line, but its benefits extend far beyond that. A key benefit is that it improves the overall experience for patients. When processes are streamlined and efficient, patients wait less, face fewer administrative hurdles, and enjoy smoother, faster, and more attentive care.
 
 But the benefits don't stop with the patients. From the reception desk to the optometrist's chair, staff thrives in an environment where they know what's expected of them. A well-structured system minimizes confusion, reduces errors, and creates a more enjoyable work environment. It's less about putting out fires and more about providing the kind of care that every patient deserves.
 

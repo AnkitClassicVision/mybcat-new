@@ -59,7 +59,7 @@ None of this is about catching people doing something wrong. It's about understa
 
 Beyond observation, track actual metrics. Not vanity metrics—metrics that correlate with patient experience and practice health.
 
-**Phone answer rate.** What percentage of calls get answered live versus going to voicemail? If you don't know this number, you're flying blind. [Missed calls directly impact revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare).
+**Phone answer rate.** What percentage of calls get answered live versus going to voicemail? If you don't know this number, you're flying blind. [Missed calls directly impact revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/).
 
 **Call-to-appointment conversion.** Of the calls that get answered, how many turn into scheduled appointments? If this number is low, something's breaking down in those conversations.
 

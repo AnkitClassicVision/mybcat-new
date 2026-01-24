@@ -22,7 +22,7 @@ With a deep understanding of the field, these receptionists are more than equipp
 
 - **24/7 Availability**
 
-Regardless of when a concern arises, having round-the-clock support ensures no patient feels left out or unattended. Research shows that [missed calls can cost healthcare practices significant revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare), making 24/7 coverage essential.
+Regardless of when a concern arises, having round-the-clock support ensures no patient feels left out or unattended. Research shows that [missed calls can cost healthcare practices significant revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/), making 24/7 coverage essential.
 
 - **Local Knowledge**
 

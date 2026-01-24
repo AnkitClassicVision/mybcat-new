@@ -46,7 +46,7 @@ Multi-location healthcare groups lose an average of $1.2 million annually to mis
 
 - **× 250 business days** = **$1.2 million annually**
 
-That's revenue you already paid to acquire through marketing—walking out the door because no one answered the phone. The solution lies in implementing systems that ensure you [never miss an appointment opportunity](https://mybcat.com/never-miss-an-appointment) again.
+That's revenue you already paid to acquire through marketing—walking out the door because no one answered the phone. The solution lies in implementing systems that ensure you [never miss an appointment opportunity](https://mybcat.com/solutions/patient-recall/) again.
 
 For PE-backed DSOs and growing optometry groups, this isn't a phone problem. It's a financial blind spot that's silently eroding your EBITDA and dragging down your valuation.
 
@@ -242,7 +242,7 @@ Veterinary has the highest per-call value because of the emergency component. Pe
 
 ---
 
-The solution isn't hiring more staff—it's implementing systematic intake operations. For a complete framework on evaluating intake solutions, see our [Multi-Location Healthcare Intake Guide](https://mybcat.com/multi-location-healthcare-intake-guide).
+The solution isn't hiring more staff—it's implementing systematic intake operations. For a complete framework on evaluating intake solutions, see our [Multi-Location Healthcare Intake Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide/).
 
 ## How Top-Performing Groups Achieve 95%+ Answer Rates
 
@@ -398,7 +398,7 @@ For groups serious about closing the revenue leak:
 
 - **Integrated scheduling** lets trained representatives book appointments across all your locations
 
-Our [Never Miss an Appointment](https://mybcat.com/never-miss-an-appointment) solution is specifically designed for multi-location healthcare groups facing this challenge, combining trained healthcare specialists with technology that integrates directly into your practice management systems.
+Our [Never Miss an Appointment](https://mybcat.com/solutions/patient-recall/) solution is specifically designed for multi-location healthcare groups facing this challenge, combining trained healthcare specialists with technology that integrates directly into your practice management systems.
 
 ### Stop the Revenue Leak
 
@@ -448,15 +448,15 @@ For PE-backed groups, recovered missed call revenue adds **6-12x to enterprise v
 
 ### What's the best solution for reducing missed calls?
 
-The solution isn't hiring more staff—it's implementing systematic intake operations including centralized overflow handling, after-hours coverage, real-time visibility dashboards, and technology integration with practice management systems. See our complete [Multi-Location Healthcare Intake Guide](https://mybcat.com/multi-location-healthcare-intake-guide) for detailed evaluation frameworks.
+The solution isn't hiring more staff—it's implementing systematic intake operations including centralized overflow handling, after-hours coverage, real-time visibility dashboards, and technology integration with practice management systems. See our complete [Multi-Location Healthcare Intake Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) for detailed evaluation frameworks.
 
 ---
 
 ## Related Resources
 
-- [Multi-Location Healthcare Intake Solutions: The Complete Guide](https://mybcat.com/multi-location-healthcare-intake-guide) – Comprehensive framework for evaluating and implementing intake solutions
+- [Multi-Location Healthcare Intake Solutions: The Complete Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) – Comprehensive framework for evaluating and implementing intake solutions
 
-- [Never Miss an Appointment](https://mybcat.com/never-miss-an-appointment) – Our solution for multi-location healthcare call handling
+- [Never Miss an Appointment](https://mybcat.com/solutions/patient-recall/) – Our solution for multi-location healthcare call handling
 
 - [Schedule a Revenue Leak Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) – Calculate your specific missed call cost
 

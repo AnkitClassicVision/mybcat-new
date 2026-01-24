@@ -32,7 +32,7 @@ A warm, confident voice that makes them feel genuinely heard? They book the appo
 
 A robotic interaction where they feel like a number? They hang up and call someone else. Or worse, they don't call anyone—they just let their vision problems get worse.
 
-[This is why missed calls and bad calls both leak revenue.](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) A missed call is obviously lost. But a poorly handled call is often just as lost—you just don't know it.
+[This is why missed calls and bad calls both leak revenue.](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) A missed call is obviously lost. But a poorly handled call is often just as lost—you just don't know it.
 
 ## The First 20 Seconds
 

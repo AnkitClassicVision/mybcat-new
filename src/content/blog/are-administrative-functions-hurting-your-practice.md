@@ -18,7 +18,7 @@ Our services at My Business Care Team aim to improve your optometry practice thr
 
 Administrative tasks, while not entirely related to providing eye care, are essential elements for better operational efficiency, client relations, and client management. This is an entirely independent section of your operations.
 
-If you do these functions on your own, you will have less time to focus on your patients, effectively affecting your quality of care. It may be worth your time to explore [medical virtual assistants](/solutions/medical-virtual-assistant/) and [front desk outsourcing](/solutions/front-desk-outsourcing/) to give you more time to attend to your tasks. Data shows that [missed calls directly impact your revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) when staff are too busy to answer.
+If you do these functions on your own, you will have less time to focus on your patients, effectively affecting your quality of care. It may be worth your time to explore [medical virtual assistants](/solutions/medical-virtual-assistant/) and [front desk outsourcing](/solutions/front-desk-outsourcing/) to give you more time to attend to your tasks. Data shows that [missed calls directly impact your revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) when staff are too busy to answer.
 
 - **Evolving Distractions**
 
@@ -26,7 +26,7 @@ Administrative duties can become growing distractions that internally affect how
 
 - **Focusing On Two Things at Once**
 
-As mentioned, administrative tasks require a different set of skills. Attending these future events can split your focus, compromising your quality of care and putting you and your health team at a higher risk of [burnout](https://www.mindtools.com/apt37nj/avoiding-burnout). Outsourcing these duties allows you to focus on your level of service. For practices with [multiple locations, centralized intake systems](https://mybcat.com/multi-location-healthcare-intake-guide) can distribute this administrative burden efficiently.
+As mentioned, administrative tasks require a different set of skills. Attending these future events can split your focus, compromising your quality of care and putting you and your health team at a higher risk of [burnout](https://www.mindtools.com/apt37nj/avoiding-burnout). Outsourcing these duties allows you to focus on your level of service. For practices with [multiple locations, centralized intake systems](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) can distribute this administrative burden efficiently.
 
 We want your optometry practice to flourish. Learn more about how we can help you achieve this goal. [Call us](tel:678-855-6130) today!
 

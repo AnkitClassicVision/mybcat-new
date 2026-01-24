@@ -1097,7 +1097,7 @@ Problems will occur; understand how they're handled
 
 ### If You're Currently Using Nothing (Voicemail/Missed Calls)
 
-- **Quantify your leak:** Use our [missed call revenue calculator](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) to see actual dollars lost
+- **Quantify your leak:** Use our [missed call revenue calculator](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) to see actual dollars lost
 
 - **Start simple:** Virtual front desk for overflow and after-hours captures immediate revenue
 
@@ -1187,9 +1187,9 @@ Veterinary practices should **not rely on pure AI for emergency calls**. Pet own
 
 ## Related Resources
 
-- [The $1.2M Leak: How Multi-Location Healthcare Groups Lose Revenue to Missed Calls](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) – Understand the cost of missed calls
+- [The $1.2M Leak: How Multi-Location Healthcare Groups Lose Revenue to Missed Calls](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) – Understand the cost of missed calls
 
-- [Multi-Location Healthcare Intake Solutions: The Complete Guide](https://mybcat.com/multi-location-healthcare-intake-guide) – Comprehensive framework for evaluating intake solutions
+- [Multi-Location Healthcare Intake Solutions: The Complete Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) – Comprehensive framework for evaluating intake solutions
 
 - [Schedule a Custom Intake Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) – Get personalized recommendations for your group
 

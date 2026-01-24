@@ -11,7 +11,7 @@ featuredImage: "/images/blog/outsourced-customer-service.webp"
 canonical: "https://mybcat.com/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices/"
 ---
 
-Imagine an office of focused staff working diligently and providing friendly patient care. The hectic pace of administrative tasks like managing patient recall, medical billing, and appointment scheduling—including [preventing costly missed calls](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) isn't part of this scene. It's not that these tasks have disappeared—they're simply happening elsewhere, out of sight and out of mind. The reality is that the repetitive admin work so familiar to clinic operations does not have to take place within the office walls.
+Imagine an office of focused staff working diligently and providing friendly patient care. The hectic pace of administrative tasks like managing patient recall, medical billing, and appointment scheduling—including [preventing costly missed calls](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) isn't part of this scene. It's not that these tasks have disappeared—they're simply happening elsewhere, out of sight and out of mind. The reality is that the repetitive admin work so familiar to clinic operations does not have to take place within the office walls.
 
 In many clinics, it's all too common to see patient care staff members burdened with 'busy' work. This, unfortunately, often results in an underinvestment in the tasks that genuinely matter—those that keep the schedule full and revenue flowing. Unnecessary administrative tasks shouldn't impede your patient care staff from giving their undivided attention to the patients.
 

@@ -25,7 +25,7 @@ This situation also means that your staff are constantly working flat out trying
 
 ### How VA Teams Accelerate This Growth
 
-The services provided by [virtual assistants for optometry practices](https://mybcat.com/virtual-assistants-for-optometrists) can accelerate your practice's growth by helping you manage your business admin.
+The services provided by [virtual assistants for optometry practices](https://mybcat.com/industries/optometry/) can accelerate your practice's growth by helping you manage your business admin.
 
 Our virtual assistants provide:
 
@@ -51,7 +51,7 @@ The cost of doing your own administration may not be immediately apparent. But w
 
 ### VA Solutions That Free Up Your Focus
 
-An [eye doctor virtual assistant](https://mybcat.com/virtual-assistants-for-optometrists) can handle:
+An [eye doctor virtual assistant](https://mybcat.com/industries/optometry/) can handle:
 
 - claims processing
 
@@ -75,7 +75,7 @@ No practice wants to turn away new patients or refer them elsewhere. But if your
 
 ### When Growth Opportunity Becomes Lost Revenue
 
-Having to turn away or refer new clients impacts your practice in several ways. Not only are you failing to onboard new patients but you may also strain referral relationships. The [revenue impact of missed calls and lost patient opportunities](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) can be substantial.
+Having to turn away or refer new clients impacts your practice in several ways. Not only are you failing to onboard new patients but you may also strain referral relationships. The [revenue impact of missed calls and lost patient opportunities](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) can be substantial.
 
 Your competitors will benefit by capturing overflow patients and your word-of-mouth growth will be limited by your resource constraints.
 
@@ -107,11 +107,11 @@ With a healthy and thriving business, it's natural to want to expand either in t
 
 ### Ready to Grow But Missing the Foundation
 
-Wanting to grow your practice could mean offering extra locations, telehealth services, enhanced patient experiences or new equipment. But you need the foundation of solid, consistent and reliable administrative support to do so. For practices expanding to multiple locations, having the right [intake infrastructure in place](https://mybcat.com/multi-location-healthcare-intake-guide) is essential for successful scaling.
+Wanting to grow your practice could mean offering extra locations, telehealth services, enhanced patient experiences or new equipment. But you need the foundation of solid, consistent and reliable administrative support to do so. For practices expanding to multiple locations, having the right [intake infrastructure in place](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) is essential for successful scaling.
 
 ### VAs as Your Scaling Infrastructure
 
-[Virtual assistants for optometry](https://mybcat.com/virtual-assistants-for-optometrists) can establish scalable systems across multiple locations, support new service lines and enable extended hours without the costs of physical staffing.
+[Virtual assistants for optometry](https://mybcat.com/industries/optometry/) can establish scalable systems across multiple locations, support new service lines and enable extended hours without the costs of physical staffing.
 
 As your practice grows, our VA team will create consistent processes that expand with your business.
 
