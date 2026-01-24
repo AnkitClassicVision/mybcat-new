@@ -72,7 +72,7 @@ Training staff, including optometrists and ophthalmologists, is equally crucial.
 
 Lastly, while technology can transform many aspects of a practice, it bears stating the obvious: human touch in patient care remains irreplaceable. It's essential to find a balance, ensuring patients feel cared for and not just processed through a machine.
 
-In eye and vision care, technology is inextricably linked with efficiency and enhanced patient experience. For the modern eye care practice, staying ahead of the curve isn't just about being competitive; it's about offering the best possible care in the information age. Eye health will inevitably benefit from these advancements, but it's up to the practices to ensure they ride the wave rather than get swept away.
+In eye and vision care, technology is inextricably linked with efficiency and enhanced patient experience. For the modern [eye care practice](/industries/optometry/), staying ahead of the curve isn't just about being competitive; it's about offering the best possible care in the information age. A [medical answering service](/solutions/medical-answering-service/) can help ensure your patients always reach a live person - see how one practice achieved a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). Eye health will inevitably benefit from these advancements, but it's up to the practices to ensure they ride the wave rather than get swept away.
 
 [If you have questions or want help, please reach out](https://mybcat.com/contact/)!
 

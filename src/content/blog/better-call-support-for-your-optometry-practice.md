@@ -12,7 +12,7 @@ canonical: "https://mybcat.com/blog/better-call-support-for-your-optometry-pract
 
 Call support matters when crafting a more [efficient optometry practice](https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture). Conversations, many of them are lengthy, between your office and the patient occur before and after any eye care function. Having a good call support system gives you more chances to foster client loyalty and, ultimately, achieve a lucrative optometry practice. Understanding how [unanswered calls translate to lost revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) helps justify the investment in quality call support.
 
-At My Business Care Team, we supplement your optometry practice through our [optometry call service in Atlanta, Georgia](https://mybcat.com/industries/optometry/). Let's talk about some factors that improve every call support system for your practice.
+At My Business Care Team, we supplement your optometry practice through our [front desk outsourcing](/solutions/front-desk-outsourcing/) services. Let's talk about some factors that improve every call support system for your practice.
 
 - **Structured Interactions**
 
@@ -30,7 +30,7 @@ Booking an [optometrist appointment in Georgia](https://mybcat.com/blog/) should
 
 Whatever the subject matter may be in these calls, proper call support should keep a positive and helpful atmosphere. Giving clients a positive experience is an important part of fostering client loyalty. Positive wording also puts clients in a more comfortable mind state.
 
-Through our capabilities, we can elevate your optometry practice to new heights. [Call us](tel:678-855-6130) to learn more about our services!
+Through our [medical virtual assistants](/solutions/medical-virtual-assistant/), we can elevate your optometry practice to new heights. Learn how we [compare to other virtual assistant options](/compare/vs-virtual-assistants/). [Call us](tel:678-855-6130) to learn more about our services!
 
 ---
 

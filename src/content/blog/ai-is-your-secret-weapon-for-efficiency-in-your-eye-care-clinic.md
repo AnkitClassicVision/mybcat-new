@@ -50,7 +50,7 @@ It sounds fancy, but it's basically just writing down every step that happens wh
 
 Once you have it all mapped out, the bottlenecks usually become obvious. Maybe it's insurance verification that holds everything up. Maybe it's the handoff between check-in and pretesting. Maybe it's the doctor spending 10 minutes on documentation for every 15-minute patient visit.
 
-I know one practice that did this exercise and discovered their front desk was spending two hours every morning on calls that could have been handled by an automated system. Two hours! That's a whole staff member's morning, every single day. Once they identified it, fixing it was straightforward.
+I know one practice that did this exercise and discovered their front desk was spending two hours every morning on calls that could have been handled by an automated system. Two hours! That's a whole staff member's morning, every single day. Once they identified it, fixing it was straightforward—they implemented [front desk outsourcing](/solutions/front-desk-outsourcing/) to handle the overflow.
 
 You can even use AI tools like ChatGPT to help build your process map—just don't feed it any actual patient information. It's surprisingly good at prompting you to think about steps you might have forgotten.
 
@@ -81,7 +81,7 @@ This is the low-hanging fruit. There are AI tools that can:
 - Transcribe and summarize patient visits
 - Process incoming referrals and faxes
 
-Every hour your staff spends on these tasks is an hour they're not spending on things that actually require human judgment and empathy. And humans make mistakes when they're tired or distracted—AI doesn't.
+Every hour your staff spends on these tasks is an hour they're not spending on things that actually require human judgment and empathy. And humans make mistakes when they're tired or distracted—AI doesn't. Pairing AI tools with a specialized [medical answering service](/solutions/medical-answering-service/) creates the best of both worlds.
 
 ### Telemedicine Support
 

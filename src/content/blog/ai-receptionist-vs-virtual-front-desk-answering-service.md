@@ -99,7 +99,7 @@ The healthcare intake industry uses these terms inconsistently. Here's what they
 
 - Know local office details without training
 
-**Common vendors:** MyBCAT, Ruby, Smith.ai, AnswerConnect (with varying healthcare specialization)
+**Common vendors:** MyBCAT, Ruby, Smith.ai, AnswerConnect (with varying healthcare specialization). Learn more about [our medical answering service](/solutions/medical-answering-service/) and [how it works](/how-it-works/).
 
 ### Traditional Answering Service
 

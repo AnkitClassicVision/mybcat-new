@@ -117,7 +117,7 @@ What worked was partnering with a company that specializes in this. That's actua
 
 We handle the recruiting, training, management, and quality control. You get dedicated agents who know eye care and integrate with your existing team.
 
-[If you want to explore what this might look like for your practice](https://mybcat.com/contact/), let's talk. I've been in your shoes. I know what works.
+We've helped [optometry practices](/industries/optometry/) achieve remarkable results - see how one practice reached a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). [If you want to explore what this might look like for your practice](https://mybcat.com/contact/), let's talk. I've been in your shoes. I know what works.
 
 ---
 

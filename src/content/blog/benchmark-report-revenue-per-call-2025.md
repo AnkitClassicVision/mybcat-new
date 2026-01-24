@@ -252,7 +252,7 @@ Revenue per call generally increases with practice size due to operational lever
 
 ### Why Scale Helps
 
-**Better conversion rates:** Larger groups typically have more sophisticated intake processes and training.
+**Better conversion rates:** Larger groups typically have more sophisticated intake processes and training. A dedicated [medical answering service](/solutions/medical-answering-service/) can dramatically improve conversion at scale.
 
 **Broader services:** Multi-location groups often offer specialty services not available at smaller practices.
 
@@ -283,6 +283,8 @@ Revenue per call also quantifies the cost of missed calls.
 **Step 3:** Multiply by your estimated capture rate for missed call recovery (typically 10-20% without callback)
 
 **Result:** True opportunity cost of missed calls
+
+[Front desk outsourcing](/solutions/front-desk-outsourcing/) can help capture more of these calls and convert them into revenue.
 
 ---
 

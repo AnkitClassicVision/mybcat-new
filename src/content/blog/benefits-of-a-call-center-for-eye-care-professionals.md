@@ -40,7 +40,7 @@ At an average lifetime value of $800-1,200 per patient in optometry, you're look
 
 When I say "call center," I don't mean a warehouse of bored people reading scripts. I'm talking about trained professionals who become an extension of your practice.
 
-Here's what good call support looks like:
+Here's what good [medical answering service](/solutions/medical-answering-service/) support looks like:
 
 **Every call gets answered.** Not "97% of calls"—every call. During business hours, after hours, during lunch when your staff is eating in the break room. The phone never rings to voicemail.
 
@@ -105,7 +105,7 @@ We can look at your call volume, your current answer rates, and your scheduling 
 
 No commitment required. Just data.
 
-[Schedule a discovery call](https://mybcat.com/contact/) and let's see if this makes sense for your practice.
+We've helped [optometry practices](/industries/optometry/) achieve remarkable results - see how one practice reached a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). [Schedule a discovery call](https://mybcat.com/contact/) and let's see if this makes sense for your practice.
 
 ---
 

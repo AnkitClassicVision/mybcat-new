@@ -74,7 +74,7 @@ And track your ordering. Are you over-ordering certain products that sit in inve
 
 ### 3. Outsource what doesn't need to be done on-site
 
-This is the big one. And it's where most practices have the largest opportunity.
+This is the big one. And it's where most practices have the largest opportunity through [front desk outsourcing](/solutions/front-desk-outsourcing/) and [medical virtual assistants](/solutions/medical-virtual-assistant/).
 
 Think about everything your staff does. Now ask: does this task physically need to happen in my office?
 
@@ -93,7 +93,7 @@ Let me be specific, because "outsourcing" is a loaded word.
 
 I'm not talking about sending work overseas and hoping for the best. I'm talking about bringing trained remote workers into your team. They use your systems. They follow your protocols. They're on your schedule. The only difference is they're not physically sitting in your office.
 
-At Classic Vision Care—the practice my wife and I own—we've used remote staff for years. They handle our inbound calls, schedule appointments, verify insurance, and follow up on recalls. They're trained specifically on our systems (we use RevolutionEHR) and they know our patients.
+At Classic Vision Care—the practice my wife and I own—we've used remote staff for years. They handle our inbound calls, schedule appointments, verify insurance, and follow up on recalls. They're trained specifically on our systems (we use RevolutionEHR) and they know our patients. This is [what sets us apart from competitors like Hello Rache](/compare/vs-hello-rache/).
 
 From the patient's perspective, they're just talking to someone at our practice. Because they are.
 

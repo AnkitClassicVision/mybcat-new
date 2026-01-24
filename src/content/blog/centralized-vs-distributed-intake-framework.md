@@ -161,11 +161,11 @@ Centralization succeeds under specific conditions:
 
 ### High Location Count with Standard Services
 
-Groups with 15+ locations offering similar services benefit most from centralization. The standardization overhead pays off when spread across many sites. A dental group where every location offers the same services is a good candidate. A specialty medical group where each location offers different services is not.
+Groups with 15+ locations offering similar services benefit most from centralization. The standardization overhead pays off when spread across many sites. A [dental group](/industries/dental/) where every location offers the same services is a good candidate. A specialty medical group where each location offers different services is not.
 
 ### Rapid Acquisition Growth
 
-PE-backed groups acquiring multiple practices per year often lack the management bandwidth to develop local intake excellence at each new acquisition. Centralization provides immediate consistency for newly acquired practices without requiring local capability building.
+PE-backed groups including [DSOs](/enterprise/dso/) acquiring multiple practices per year often lack the management bandwidth to develop local intake excellence at each new acquisition. Centralization provides immediate consistency for newly acquired practices without requiring local capability building.
 
 ### Significant Coverage Gaps
 
@@ -177,7 +177,7 @@ Some locations have strong managers who can develop excellent local intake. Othe
 
 ### Geographic Dispersion
 
-Groups spread across multiple states face regulatory and labor market differences that make local staffing complex. Central teams in a single location simplify compliance and hiring.
+Groups spread across multiple states face regulatory and labor market differences that make local staffing complex. Central teams in a single location simplify compliance and hiring. [Front desk outsourcing](/solutions/front-desk-outsourcing/) can provide this centralized capability without building internal infrastructure.
 
 ---
 
@@ -256,6 +256,8 @@ Hybrid models require technology investment:
 - **Queue management:** To handle overflow routing
 - **Analytics:** To measure performance by routing path
 
+A specialized [medical answering service](/solutions/medical-answering-service/) can provide much of this technology and expertise, making hybrid implementation more accessible.
+
 ---
 
 ## Total Cost of Ownership Comparison
@@ -312,7 +314,7 @@ Financial analysis should inform the decision, but beware of oversimplification.
 
 ### Comparative Analysis
 
-For a 15-location dental group with 3,000 monthly calls:
+For a 15-location [dental](/industries/dental/) group with 3,000 monthly calls:
 
 | Model | Estimated Monthly Cost | Answer Rate | Conversion Rate |
 |-------|----------------------|-------------|-----------------|

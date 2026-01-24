@@ -75,7 +75,7 @@ Fluency matters. Training matters. Consistency matters.
 
 ## How We Handle It
 
-At MyBCAT, a significant portion of our agents are fully bilingual in English and Spanish. Not conversational—fluent. Born and raised in Spanish-speaking households, educated in both languages, trained specifically on eye care terminology.
+At MyBCAT, a significant portion of our [medical virtual assistants](/solutions/medical-virtual-assistant/) are fully bilingual in English and Spanish. Not conversational—fluent. Born and raised in Spanish-speaking households, educated in both languages, trained specifically on eye care terminology.
 
 When a Spanish-speaking patient calls one of our client practices, they get seamless service. Greeting in Spanish if that's their preference. Symptom intake in Spanish. Appointment scheduling in Spanish. Follow-up in Spanish.
 
@@ -105,7 +105,7 @@ Multiply this by dozens of calls per month. That's the difference.
 
 You don't need to hire a full-time bilingual receptionist (though if your demographics support it, maybe you should). You just need reliable access to Spanish-language support when your patients need it.
 
-That's exactly what we provide. Our agents integrate with your practice, learn your protocols, and handle calls as if they were sitting in your front office—except they also happen to speak fluent Spanish.
+That's exactly what we provide through our [front desk outsourcing](/solutions/front-desk-outsourcing/) services. Our agents integrate with your practice, learn your protocols, and handle calls as if they were sitting in your front office—except they also happen to speak fluent Spanish. See how we [compare to other virtual assistant options](/compare/vs-virtual-assistants/).
 
 [Let's talk about your patient demographics and how bilingual support could work for your practice.](https://mybcat.com/contact/)
 

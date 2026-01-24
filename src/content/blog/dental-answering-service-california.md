@@ -23,7 +23,7 @@ relatedPosts:
   - missed-calls-revenue-leak-multi-location-healthcare
 ---
 
-California is home to more dental service organizations than any other state. With 300+ DSO groups operating across Southern California, the Bay Area, and Central Valley, the competition for patients is intense. Yet many California dental groups still struggle with the basics: answering the phone. Here is why intake solutions designed for California's unique market outperform generic alternatives.
+California is home to more [dental service organizations](/enterprise/dso/) than any other state. With 300+ DSO groups operating across Southern California, the Bay Area, and Central Valley, the competition for patients is intense. Yet many California [dental groups](/industries/dental/) still struggle with the basics: answering the phone. Here is why intake solutions designed for California's unique market outperform generic alternatives.
 
 ---
 
@@ -98,7 +98,7 @@ A California DSO might have locations in San Diego, Orange County, LA, the Inlan
 
 ### Beyond Basic Call Answering
 
-Generic answering services take messages. California dental groups need partners who can:
+Generic answering services take messages. California dental groups need [medical answering service](/solutions/medical-answering-service/) partners who can:
 
 **Schedule appointments directly**: Access to your scheduling system to book patients immediately, not take messages for callback.
 

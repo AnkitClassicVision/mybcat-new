@@ -26,7 +26,7 @@ relatedPosts:
 
 *This case study illustrates the potential impact of centralized intake optimization, using realistic metrics based on industry data and typical DSO performance patterns. While not a specific MyBCAT client engagement, it demonstrates what multi-location dental groups can achieve with a solution like ours.*
 
-A 15-location dental group was losing 42 calls per day. Within 90 days of implementing centralized intake, they captured 33 of those calls and converted them into $108,000 in monthly revenue. Their answer rate jumped from 62% to 95%, and their PE sponsor finally saw the same-store growth numbers they had been demanding.
+A 15-location [dental](/industries/dental/) group was losing 42 calls per day. Within 90 days of implementing centralized intake, they captured 33 of those calls and converted them into $108,000 in monthly revenue. Their answer rate jumped from 62% to 95%, and their PE sponsor finally saw the same-store growth numbers they had been demanding.
 
 This case study breaks down exactly how a DSO could achieve these results.
 
@@ -228,7 +228,7 @@ The COO expects to reach 25 locations within the next 18 months. With intake sta
 
 - **Integration speed matters.** The 90-day implementation timeline meant results appeared within the same quarter, satisfying board expectations for operational improvement.
 
-- **The ROI is compelling.** A 25:1 return on a $4,200 monthly investment makes intake optimization one of the highest-ROI operational improvements available to DSOs.
+- **The ROI is compelling.** A 25:1 return on a $4,200 monthly investment makes intake optimization one of the highest-ROI operational improvements available to [DSOs](/enterprise/dso/).
 
 - **Standardization enables scale.** With intake solved, the group can now acquire and integrate new practices faster, applying the same playbook from day one.
 

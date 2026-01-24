@@ -10,7 +10,7 @@ featuredImage: "/images/blog/transitioning-bpo-model.webp"
 canonical: "https://mybcat.com/blog/successfully-transitioning-to-a-bpo-model-in-optometry/"
 ---
 
-Business process outsourcing (BPO) involves contracting specialized external companies to handle essential business functions like billing, customer service, or IT support. For optometry and ophthalmology practices, partnering with a healthcare-focused BPO can enhance efficiency, reduce costs, and improve patient care by offloading time-consuming administrative work.
+Business process outsourcing (BPO) involves contracting specialized external companies to handle essential business functions like billing, customer service, or IT support. For optometry and ophthalmology practices, partnering with a healthcare-focused BPO through [front desk outsourcing](/solutions/front-desk-outsourcing/) can enhance efficiency, reduce costs, and improve patient care by offloading time-consuming administrative work.
 
 However, transitioning to a BPO model involves careful planning and consideration around staffing, data security, costs, integration, and contractual commitments. This guide provides an in-depth look at everything you need to know to make the transition successful:
 
@@ -130,7 +130,7 @@ Conduct training well before rollout, allowing staff time to become comfortable 
 
 **Change Management**
 
-Transitioning to BPO can initially make some staff feel threatened or concerned about being replaced. Fortunately, optometry BPOs aim to enhance employees' work rather than eliminate roles. With administrative tasks like billing and scheduling handled by the BPO, practice staff can focus on more meaningful patient interactions and clinical work.
+Transitioning to BPO can initially make some staff feel threatened or concerned about being replaced. Fortunately, optometry BPOs aim to enhance employees' work rather than eliminate roles. With administrative tasks like billing and scheduling handled by [medical virtual assistants](/solutions/medical-virtual-assistant/), practice staff can focus on more meaningful patient interactions and clinical work. Interested in [joining our team](/careers/)? We're always looking for talented individuals.
 
 Managers should frame the BPO partnership as providing support rather than replacing staff. Transparency around objectives, empowering staff to give feedback, and celebrating wins help maintain morale. Training prepares them to adapt successfully to new systems and workflows. Taking the transition slowly also allows the staff to process the changes more easily and understand their implications. 
 

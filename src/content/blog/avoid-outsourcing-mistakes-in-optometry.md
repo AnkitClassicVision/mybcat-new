@@ -117,7 +117,7 @@ Invest in documentation. Invest in training. Work with partners who understand y
 
 Do those things, and outsourcing becomes a competitive advantage. Skip them, and you're setting yourself up for a mess that takes months to clean up.
 
-If you want to talk through what outsourcing might look like for your specific practice, [reach out](https://mybcat.com/contact/). We've done this enough times to know what works and what doesn't.
+We've helped [optometry practices](/industries/optometry/) achieve remarkable results - see how one practice reached a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). If you want to talk through what outsourcing might look like for your specific practice, [reach out](https://mybcat.com/contact/). We've done this enough times to know what works and what doesn't.
 
 ---
 

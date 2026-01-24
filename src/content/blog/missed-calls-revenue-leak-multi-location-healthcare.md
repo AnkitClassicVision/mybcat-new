@@ -178,7 +178,7 @@ You can't improve what you don't measure. Groups without call analytics are maki
 
 Not all missed calls cost the same. Patient lifetime values vary dramatically by specialty.
 
-### Dental Practices
+### [Dental Practices](/industries/dental/)
 
 Metric
 Value
@@ -194,7 +194,7 @@ $735-$3,500 (35% conversion × LTV)
 
 Dental has the widest range because LTV depends heavily on whether patients accept treatment plans. A patient who comes for cleanings only is worth $2,000 over 5 years. A patient who accepts a full-mouth restoration is worth $25,000+.
 
-**DSO-Specific Impact**: With EBITDA multiples of 6-12x for dental practices, every $100,000 in annual revenue you recover from missed calls adds **$600,000-$1,200,000 to your enterprise value**.
+**[DSO](/enterprise/dso/)-Specific Impact**: With EBITDA multiples of 6-12x for dental practices, every $100,000 in annual revenue you recover from missed calls adds **$600,000-$1,200,000 to your enterprise value**.
 
 ### Optometry Practices
 

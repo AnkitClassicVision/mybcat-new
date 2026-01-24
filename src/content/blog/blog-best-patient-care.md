@@ -126,7 +126,7 @@ If the answer to any of those is "not really," start there.
 
 The goal isn't perfection. It's continuous improvement. A practice that regularly assesses performance, gives feedback, and develops skills will always outperform one that just hopes things are going okay.
 
-At MyBCAT, this is baked into how we operate. Our agents are continuously trained, regularly monitored, and consistently coached. When we handle calls for your practice, we're tracking performance metrics and improving constantly.
+At MyBCAT, this is baked into how we operate. Our [medical virtual assistants](/solutions/medical-virtual-assistant/) are continuously trained, regularly monitored, and consistently coached. When we handle calls through our [front desk outsourcing](/solutions/front-desk-outsourcing/) services, we're tracking performance metrics and improving constantly. Looking to [join our team](/careers/)? We're always seeking talented people.
 
 But whether you work with us or not, the principle applies: pay attention to how your team interacts with patients, measure what matters, and never stop developing your people.
 

@@ -556,7 +556,7 @@ The best-performing DSOs have this playbook documented and can integrate new acq
 
 While multi-location intake principles apply across healthcare, each vertical has specific nuances:
 
-### Dental / DSO
+### [Dental](/industries/dental/) / [DSO](/enterprise/dso/)
 
 **Unique Factors:**
 - Highest PM system fragmentation (Dentrix, Eaglesoft, Open Dental, Curve, Denticon, etc.)
@@ -568,7 +568,7 @@ While multi-location intake principles apply across healthcare, each vertical ha
 **Recommended Approach:**
 - Centralized model often best given DSO scale
 - PM integration critical for scheduling
-- Dedicated dental-trained agents
+- Dedicated dental-trained agents through a specialized [medical answering service](/solutions/medical-answering-service/)
 - Clear emergency protocols
 
 **Key Metrics to Track:**

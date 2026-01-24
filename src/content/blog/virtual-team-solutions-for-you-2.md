@@ -10,7 +10,7 @@ featuredImage: "/images/blog/call-center-workers-discussing-data-on-netbook-2023
 canonical: "https://mybcat.com/blog/virtual-team-solutions-for-you-2/"
 ---
 
-Is your optometry practice currently overwhelmed and understaffed? If so, there's help available in the form of a virtual team that can fill the gaps in your business.
+Is your optometry practice currently overwhelmed and understaffed? If so, there's help available in the form of [medical virtual assistants](/solutions/medical-virtual-assistant/) that can fill the gaps in your business through [front desk outsourcing](/solutions/front-desk-outsourcing/).
 
 ## The Reality of Modern Optometry Practice Challenges
 
@@ -66,7 +66,7 @@ By taking over many of the tasks that are overwhelming your in-house staff, we c
 
 ### Remote vs. In-Person: Breaking Down the Myths
 
-There are many circulating myths about using remote staff rather than in-house employees – such as virtual assistants lacking niche experience, but this isn't true.
+There are many circulating myths about using remote staff rather than in-house employees – such as virtual assistants lacking niche experience, but this isn't true. To separate fact from fiction, read our [comparison of virtual assistant options](/compare/vs-virtual-assistants/).
 
 The wide pool of talent available means that your optometry virtual assistant will be a perfect match for your business. You will also have the benefit of being able to scale your support requirements according to the needs of the practice.
 

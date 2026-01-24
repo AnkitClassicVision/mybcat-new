@@ -210,7 +210,7 @@ The journey of operational efficiency is ongoing, filled with learnings, adaptat
 
 With commitment, innovation, and a patient-centric approach, the sky's the limit. The question then remains: How efficiently will you soar?
 
-If you find yourself wondering how to take the next step on your operational efficiency journey, know that you're not alone. At My Business Care Team, we're passionate about assisting optometry practices in reaching their fullest potential. Should you ever need a guiding hand or just want to discuss strategies, we're here to help. We believe in better care, not just for patients but for the practices that serve them.
+If you find yourself wondering how to take the next step on your operational efficiency journey, know that you're not alone. At My Business Care Team, we're passionate about assisting [optometry practices](/industries/optometry/) in reaching their fullest potential. Our [medical answering service](/solutions/medical-answering-service/) delivers proven results - see how one practice achieved a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). Should you ever need a guiding hand or just want to discuss strategies, we're here to help. We believe in better care, not just for patients but for the practices that serve them.
 
 ---
 

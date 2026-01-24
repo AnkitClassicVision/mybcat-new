@@ -256,7 +256,7 @@ Establish baseline measurements for:
 - Call tracking implementation
 - Daily reporting establishment
 - Basic training on platform standards
-- Overflow routing setup
+- Overflow routing setup through a [medical answering service](/solutions/medical-answering-service/)
 
 ### Daily Reporting
 
@@ -335,7 +335,7 @@ Week 3-4 training focuses on:
 Connect acquired practice to platform resources:
 
 **Overflow support**
-- Route overflow to centralized support
+- Route overflow to centralized support through [front desk outsourcing](/solutions/front-desk-outsourcing/)
 - Establish triggers (rings, wait time)
 - Train central team on location specifics
 

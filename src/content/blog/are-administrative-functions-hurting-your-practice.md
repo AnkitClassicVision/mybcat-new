@@ -18,7 +18,7 @@ Our services at My Business Care Team aim to improve your optometry practice thr
 
 Administrative tasks, while not entirely related to providing eye care, are essential elements for better operational efficiency, client relations, and client management. This is an entirely independent section of your operations.
 
-If you do these functions on your own, you will have less time to focus on your patients, effectively affecting your quality of care. It may be worth your time to explore outsourced [eye care call support in Georgia](https://mybcat.com/blog/) to give you more time to attend to your tasks. Data shows that [missed calls directly impact your revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) when staff are too busy to answer.
+If you do these functions on your own, you will have less time to focus on your patients, effectively affecting your quality of care. It may be worth your time to explore [medical virtual assistants](/solutions/medical-virtual-assistant/) and [front desk outsourcing](/solutions/front-desk-outsourcing/) to give you more time to attend to your tasks. Data shows that [missed calls directly impact your revenue](https://mybcat.com/missed-calls-revenue-leak-multi-location-healthcare) when staff are too busy to answer.
 
 - **Evolving Distractions**
 

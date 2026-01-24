@@ -13,7 +13,7 @@ canonical: "https://mybcat.com/blog/dso-integration-playbook/"
 
 Most DSO acquisitions take 12+ months to fully integrate—but the target is 90 days. The gap? Integration playbooks focus on PM system migration before establishing standardized intake processes. This playbook flips that sequence, giving you a week-by-week framework for standardizing patient intake that works regardless of which PM system the acquired practice uses.
 
-Whether you're a DSO COO hitting integration timelines, a PE operating partner overseeing a dental portfolio, or a regional director managing day-to-day execution, this guide provides the tactical framework you need.
+Whether you're a [DSO](/enterprise/dso/) COO hitting integration timelines, a PE operating partner overseeing a [dental](/industries/dental/) portfolio, or a regional director managing day-to-day execution, this guide provides the tactical framework you need.
 
 ---
 
@@ -70,7 +70,7 @@ The solution flips the traditional sequence:
 
 The key insight: **you can standardize intake workflows independent of which PM system the practice uses.** Dentrix, Eaglesoft, Open Dental—the phone still rings, patients still need appointments, and someone still needs to answer.
 
-Standardize the human workflows first. Migrate systems around a proven process later.
+Standardize the human workflows first. Migrate systems around a proven process later. A [medical answering service](/solutions/medical-answering-service/) can provide consistent call coverage during this transition period.
 
 ## Pre-Close: Intake Assessment (Weeks -4 to 0)
 

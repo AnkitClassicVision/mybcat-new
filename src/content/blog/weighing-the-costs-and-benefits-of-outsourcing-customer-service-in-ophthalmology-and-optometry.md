@@ -66,7 +66,7 @@ Then, we listed the costs and benefits of outsourcing our optometry clinic.
 
 - **Cost-Efficiency: **Outsourcing can significantly reduce operational costs as you're not responsible for the employees' full salaries, benefits, training, and equipment.
 
-- **Expertise and Training: **Professionals with extensive training and expertise in customer service, specifically for optometry and ophthalmology clinics.
+- **Expertise and Training: **Professionals like [medical virtual assistants](/solutions/medical-virtual-assistant/) with extensive training and expertise in customer service, specifically for optometry and ophthalmology clinics.
 
 - **Scalability: **You can scale up or down based on your clinic's needs.
 
@@ -124,7 +124,7 @@ There's a myriad of strategies to explore. Regardless of their chosen strategy, 
 
 Depending on the clinic, they may care about their performance compared to other clinics. They might compare their cost structure and financial health with industry standards or similar practices. In our experience, non-doctor labor should be between 20 to 24% of your revenues. Also, if a significant portion of the owner's or practitioners' time is spent on administrative tasks rather than patient care, it could indicate that the clinic could use its resources more efficiently.
 
-In our upcoming posts, we will detail the options available to eye care clinics. We'll cover using virtual assistants vs BPOs. In the meantime, don't hesitate to ask if you have any questions about outsourcing admin work for your eye care clinic. We like to share tools and best practices. We're constantly giving tips, advice, and tricks that we should all be discussing more in our industry.
+In our upcoming posts, we will detail the options available to eye care clinics. We'll cover [comparing virtual assistant options](/compare/vs-virtual-assistants/) and how they differ from BPOs. You can also learn more about our [front desk outsourcing](/solutions/front-desk-outsourcing/) solutions. In the meantime, don't hesitate to ask if you have any questions about outsourcing admin work for your eye care clinic. We like to share tools and best practices. We're constantly giving tips, advice, and tricks that we should all be discussing more in our industry.
 
 ---
 
