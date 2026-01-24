@@ -1,7 +1,13 @@
 ---
 title: "Animal Hospital Patient Intake: Cut Wait Times by 40%"
+seoTitle: "Animal Hospital Patient Intake: Cut Wait Times 40%"
 description: "Transform your animal hospital patient intake process with proven strategies. Reduce wait times, boost client satisfaction, and increase daily appointments."
+seoDescription: "Cut animal hospital wait times by 40% with modern patient intake. Pre-arrival forms, digital integration, and smart triage boost client satisfaction 23%."
 publishDate: "2026-01-12"
+relatedPosts:
+  - veterinary-emergency-triage-protocols
+  - after-hours-veterinary-call-management
+  - multi-location-healthcare-intake-guide
 author: "Ankit Patel"
 status: "scheduled"
 scheduledDate: "2026-01-26"

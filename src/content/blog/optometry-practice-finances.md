@@ -1,8 +1,10 @@
 ---
 title: 'Optometry Practice Finances: A Complete Guide'
+seoTitle: "Optometry Practice Finances | Revenue & Profit Guide"
 description: >-
   Master optometry practice finances with proven strategies for revenue,
   expenses, and profitability. Start building a sustainable practice today.
+seoDescription: "Master optometry practice finances with proven strategies for revenue, expense management, and profitability. Build a sustainable, profitable practice."
 publishDate: '2026-01-10'
 author: MyBCAT Team
 status: published

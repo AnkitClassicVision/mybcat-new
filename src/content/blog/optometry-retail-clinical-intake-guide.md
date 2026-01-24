@@ -1,9 +1,11 @@
 ---
 title: The Optometry Group's Guide to Integrated Retail-Clinical Intake
+seoTitle: "Optometry Retail-Clinical Intake Guide | 15-20% Higher Capture"
 description: >-
   How multi-location optometry groups handle the dual challenge of clinical
   scheduling and optical retail. Includes call routing framework, scripts, and
   capture rate optimization.
+seoDescription: "Learn how optometry groups boost capture rates 15-20% with integrated retail-clinical intake. Get call routing frameworks, scripts, and optimization strategies."
 publishDate: 2026-01-14T00:00:00.000Z
 status: published
 author: Ankit Patel

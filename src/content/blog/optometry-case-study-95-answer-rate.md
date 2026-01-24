@@ -2,10 +2,12 @@
 title: >-
   Case Study: How a Regional Optometry Group Achieved 95% Answer Rate (And What
   It Meant for Revenue)
+seoTitle: "Optometry Case Study: 72% to 95% Answer Rate | $787K Growth"
 description: >-
   A regional optometry group transformed their intake operations from 72% to 95%
   answer rate. The result: 44% more new patients and $787,000 in annual revenue
   growth.
+seoDescription: "See how a regional optometry group went from 72% to 95% answer rate, adding 44% more new patients and $787,000 in annual revenue. Full case study with results."
 publishDate: 2026-01-21T00:00:00.000Z
 status: published
 author: Ankit Patel

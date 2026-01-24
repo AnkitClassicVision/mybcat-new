@@ -1,6 +1,7 @@
 ---
 title: "The $1.2M Leak: How Multi-Location Healthcare Groups Lose Revenue to Missed Calls"
 seoTitle: "The $1.2M Revenue Leak from Missed Calls"
+seoDescription: "Multi-location healthcare groups lose $1.2M annually to missed calls. See the data breakdown and proven strategies to recover lost revenue."
 description: "Multi-location healthcare groups lose an average of $1.2 million annually to missed calls. This data-driven analysis breaks down the math behind the revenue..."
 publishDate: 2025-12-09
 status: "published"

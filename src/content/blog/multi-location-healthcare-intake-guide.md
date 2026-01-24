@@ -1,6 +1,8 @@
 ---
 title: "Multi-Location Healthcare Intake Solutions: The Complete Guide (2025)"
+seoTitle: "Multi-Location Healthcare Intake Solutions Guide"
 description: "Multi-location healthcare groups lose $500,000-$1,500,000 annually to intake inefficiencies, and most don't know it. This guide provides the complete framework for evaluating, selecting, and implementing intake solutions."
+seoDescription: "Complete framework for multi-location healthcare intake. Reduce $500K-$1.5M annual losses with proven solutions for DSOs, optometry, and veterinary groups."
 publishDate: 2025-12-10
 status: "published"
 author: "Ankit Patel"

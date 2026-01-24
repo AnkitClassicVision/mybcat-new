@@ -1,9 +1,11 @@
 ---
 title: 'Centralized vs. Distributed Intake: A Decision Framework for Healthcare Groups'
+seoTitle: "Centralized vs Distributed Intake: Decision Guide"
 description: >-
   Should you centralize patient intake or keep it at each location? A strategic
   framework for multi-location healthcare groups, including when hybrid models
   make sense.
+seoDescription: "Strategic framework for choosing centralized, distributed, or hybrid intake models. Make the right decision for your multi-location healthcare group."
 publishDate: 2026-01-15T00:00:00.000Z
 status: published
 author: Ankit Patel

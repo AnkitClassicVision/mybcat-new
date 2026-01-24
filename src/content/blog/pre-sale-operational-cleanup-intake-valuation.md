@@ -1,9 +1,11 @@
 ---
 title: 'Pre-Sale Operational Cleanup: Intake Systems That Boost Valuation'
+seoTitle: "Pre-Sale Intake Cleanup to Boost Practice Valuation"
 description: >-
   What PE buyers actually evaluate in healthcare intake operations. A 12-month
   roadmap for practice owners preparing for exit, with specific metrics and
   improvements that increase valuation multiples.
+seoDescription: "12-month roadmap to optimize intake operations before selling your practice. Learn what PE buyers evaluate and how to increase valuation multiples."
 publishDate: 2026-01-12T00:00:00.000Z
 status: published
 author: Ankit Patel

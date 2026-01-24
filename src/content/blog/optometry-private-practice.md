@@ -1,7 +1,13 @@
 ---
 title: "Optometry Private Practice: A Complete Guide to Success"
+seoTitle: "Optometry Private Practice: Complete Success Guide"
 description: "Learn how to build a thriving optometry private practice with proven strategies for operations, finances, and patient growth. Start your path to independence today."
+seoDescription: "Build a thriving optometry private practice. Complete guide covering location selection, equipment investment, and patient growth strategies for OD owners."
 publishDate: "2026-01-12"
+relatedPosts:
+  - staffing-new-optometry-practice
+  - first-year-financial-planning-optometry
+  - location-selection-optometric-practices
 author: "Ankit Patel"
 status: "scheduled"
 scheduledDate: "2026-01-26"

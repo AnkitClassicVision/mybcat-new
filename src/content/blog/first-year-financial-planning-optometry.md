@@ -1,8 +1,10 @@
 ---
 title: First-Year Financial Planning for New Optometry Practices
+seoTitle: "First-Year Financial Planning for Optometry Practices"
 description: >-
   A practical guide to budgeting, cash flow management, and financial milestones
   for your first year as an optometry practice owner.
+seoDescription: "First-year financial planning guide for new optometry practices. Learn budgeting, cash flow management, and milestones to survive year one and thrive."
 publishDate: 2026-01-24T00:00:00.000Z
 status: published
 author: Ankit Patel

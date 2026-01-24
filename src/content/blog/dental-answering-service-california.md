@@ -1,9 +1,11 @@
 ---
 title: 'Dental Answering Service California: Multi-Location Solutions for DSOs'
+seoTitle: "Dental Answering Service California | DSO Solutions"
 description: >-
   California DSOs face unique intake challenges: competitive markets, diverse
   patient populations, and staffing difficulties. Multi-location solutions
   designed for California's largest dental market.
+seoDescription: "California dental answering services built for DSOs. Multi-location solutions for competitive markets, diverse populations, and staffing challenges. 300+ DSO groups served."
 publishDate: 2026-01-18T00:00:00.000Z
 status: published
 author: Ankit Patel

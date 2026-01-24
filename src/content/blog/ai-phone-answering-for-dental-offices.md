@@ -1,7 +1,13 @@
 ---
 title: "AI Phone Answering for Dental Offices: How Smart Technology Captures More Patients"
+seoTitle: "AI Phone Answering for Dental Offices: A Guide"
 description: "Dental offices miss 30-35% of calls, losing $100,000+ annually. Learn how AI phone answering systems achieve 90%+ answer rates and boost appointments."
+seoDescription: "AI phone answering for dental offices boosts answer rates to 90%+. See how dental practices recover $100K+ annually from missed calls with AI receptionists."
 publishDate: '2026-01-18'
+relatedPosts:
+  - ai-receptionist-vs-virtual-front-desk-answering-service
+  - dental-answering-service-california
+  - missed-calls-revenue-leak-multi-location-healthcare
 status: "draft"
 author: "Ankit Patel"
 category: "Technology"

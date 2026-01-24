@@ -1,9 +1,11 @@
 ---
 title: '90-Day Integration Playbook for Healthcare Acquisitions: The Intake Sprint'
+seoTitle: "90-Day Healthcare Acquisition Integration Playbook"
 description: >-
   Week-by-week guide for integrating patient intake operations after healthcare
   practice acquisition. Tactical playbook for PE operating partners and DSO
   integration teams.
+seoDescription: "Week-by-week intake integration playbook for healthcare acquisitions. Tactical guide for PE operating partners and DSO teams to integrate in 90 days."
 publishDate: 2026-01-20T00:00:00.000Z
 status: published
 author: Ankit Patel

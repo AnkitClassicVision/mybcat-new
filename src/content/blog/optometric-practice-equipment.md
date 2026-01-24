@@ -1,8 +1,10 @@
 ---
 title: 'Essential Optometric Practice Equipment: A Complete Guide'
+seoTitle: "Optometric Practice Equipment Guide | Essential Tools"
 description: >-
   Discover the must-have optometric practice equipment for your new clinic. From
   exam lanes to diagnostic tools, build a profitable practice from day one.
+seoDescription: "Complete guide to optometric practice equipment. Learn which exam lanes, diagnostic tools, and technology to buy for your new clinic. Budget tips included."
 publishDate: '2026-01-10'
 author: MyBCAT Team
 status: published

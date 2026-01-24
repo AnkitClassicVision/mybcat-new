@@ -1,7 +1,13 @@
 ---
 title: "Why You Should Test an AI Receptionist: 7 Benefits That Pay for Themselves"
+seoTitle: "Test AI Receptionist: 7 Benefits That Pay Off"
 description: "A draft post outline and notes for testing an AI receptionist, including key benefits, internal links, and sourced statistics."
+seoDescription: "See why testing an AI receptionist delivers 9-17x ROI. 7 proven benefits including 35-70% no-show reduction and 30% fewer missed calls for healthcare."
 publishDate: '2026-01-24'
+relatedPosts:
+  - ai-receptionist-vs-virtual-front-desk-answering-service
+  - ai-phone-answering-for-dental-offices
+  - human-ai-hybrid-model-healthcare-intake
 status: "draft"
 author: "Ankit Patel"
 category: "Technology"
