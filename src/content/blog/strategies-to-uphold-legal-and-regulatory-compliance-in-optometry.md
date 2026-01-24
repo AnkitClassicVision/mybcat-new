@@ -20,7 +20,7 @@ Moreover, different areas of compliance, such as OSHA, CLIA, and CDC regulations
 
 **Strategy 1**: Use online government resources like the [Centers for Medicare & Medicaid Services](https://www.cms.gov/) (CMS) website for federal regulations and the respective [State Board of Optometry websites](https://www.aoa.org/advocacy/state/state-boards-of-optometry?sso=y) for state-specific rules. These are authoritative sources for compliance guidelines. The [American Optometric Association](https://www.aoa.org/?sso=y) is also a great resource to find more information. 
 
-**Strategy 2**: Subscribe to a [legal update service](https://compliancenavigator.bsigroup.com/) that specializes in healthcare laws. These services usually offer customized updates, so you can receive only the information that's relevant to optometry.
+**Strategy 2**: Subscribe to a [legal update service](https://www.bsigroup.com/en-US/products-and-services/compliance-navigator/) that specializes in healthcare laws. These services usually offer customized updates, so you can receive only the information that's relevant to optometry.
 
 ## Technology and Data Security
 

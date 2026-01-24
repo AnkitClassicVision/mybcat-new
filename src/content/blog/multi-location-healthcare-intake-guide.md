@@ -608,7 +608,7 @@ While multi-location intake principles apply across healthcare, each vertical ha
 - Emotional callers (sick/injured pets) require empathy that pure AI struggles to deliver
 - Species-specific protocols (dog vs. cat vs. exotic vs. large animal) add complexity
 - Boarding/grooming scheduling often shares the same phone line as medical calls
-- DVM shortage ([15,000+ professional deficit projected by 2030 per AVMA](https://www.avma.org/resources-tools/reports-statistics/market-research-statistics-veterinary-profession)) makes coverage gaps more damaging. You can't just "hire more vets"
+- DVM shortage (projected deficit by 2030) makes coverage gaps more damaging. You can't just "hire more vets"
 - Multi-location veterinary groups often span general practice, specialty, and emergency, each with different call handling needs
 
 **PM System Landscape:**

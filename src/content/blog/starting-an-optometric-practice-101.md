@@ -28,7 +28,7 @@ Understanding the regulatory compliance aspect of a practice is important right 
 
 Prior to beginning your practice, it's critical to have a clear understanding of the regulations governing optometry. This includes familiarizing oneself with each set of regulations that pertain to healthcare, patient privacy, and even workplace safety.It is important to know the requirements for forming a business in your area, such as whether you need to be an S- or C-Corporation, or if an LLC will suffice. Talking to a lawyer is one option, but you may also find that connecting with trade groups in your region can put you in touch with other business owners who have already been through the process and can save you time and money by providing insights that you don't yet have.
 
-Establishing a compliance framework is a proactive approach to mitigating legal risks. This framework encompasses documentation on how you'll manage regular training for staff members, adherence to patient privacy laws, and ensuring that the clinical practice adheres to healthcare standards (looking for inspiration, [here are seven questions to ask to help create your framework](https://eyecareleaders.com/7-essential-elements-airtight-compliance-plan/amp/)). Non-compliance, on the other hand, could result in legal repercussions that could severely impact the practice's reputation and financial health, with fines ranging from [hundreds of dollars to tens of thousands, depending on the penalty tier](https://www.hipaajournal.com/hipaa-violation-fines/). Therefore, having a compliance checklist, conducting regular audits, and implementing continuous education on legal updates are smart strategies to ensure ongoing compliance.
+Establishing a compliance framework is a proactive approach to mitigating legal risks. This framework encompasses documentation on how you'll manage regular training for staff members, adherence to patient privacy laws, and ensuring that the clinical practice adheres to healthcare standards (looking for inspiration, [here are seven questions to ask to help create your framework](https://healthit.gov/privacy-security/security-risk-assessment-tool/)). Non-compliance, on the other hand, could result in legal repercussions that could severely impact the practice's reputation and financial health, with fines ranging from [hundreds of dollars to tens of thousands, depending on the penalty tier](https://www.hipaajournal.com/hipaa-violation-fines/). Therefore, having a compliance checklist, conducting regular audits, and implementing continuous education on legal updates are smart strategies to ensure ongoing compliance.
 
 ### **Business Planning**
 
@@ -44,7 +44,7 @@ Creating a comprehensive business plan will act as a roadmap to help you by defi
 
 Market research is not typically taught in optometry school. However, understanding the basics of your demographics and how to reach them will make a big difference. Here are some simple steps to help you better understand your target market and how they want to be served:
 
-- [Understand your demographics](https://finmodelslab.com/blogs/write-business-plan/how-to-write-business-plan-for-mobile-optometry-clinic). This includes factors such as age, gender, income, and location.
+- [Understand your demographics](https://financialmodelslab.com/blogs/write-business-plan/mobile-optometry-clinic). This includes factors such as age, gender, income, and location.
 
 - Identify potential patients. This can be done by looking at census data, industry reports, and social media.
 
