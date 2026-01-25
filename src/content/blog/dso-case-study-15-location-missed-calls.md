@@ -236,4 +236,10 @@ The COO expects to reach 25 locations within the next 18 months. With intake sta
 
 ---
 
+*Last Updated: January 2026*
+
+*Sources: [Invoca - Healthcare](https://www.invoca.com/solutions/healthcare), [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/healthcare-private-equity/), [Peerlogic - Turning Missed Dental Phone Calls Into Profit](https://www.peerlogic.com/post/turning-missed-dental-phone-calls-into-profit)*
+
+---
+
 *Looking to replicate these results at your DSO? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to get a custom analysis for your dental group.*

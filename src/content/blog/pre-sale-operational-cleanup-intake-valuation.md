@@ -443,4 +443,10 @@ Even at the conservative end, investing $100,000 to increase valuation by $2M de
 
 ---
 
+*Last Updated: January 2026*
+
+*Sources: [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/healthcare-private-equity/), [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
+
+---
+
 *Ready to maximize your exit? [Schedule a pre-sale intake assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to identify the specific improvements that will increase your valuation.*

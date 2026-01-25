@@ -432,4 +432,10 @@ Location is one component of launching a successful practice. For guidance on eq
 
 ---
 
+*Last Updated: January 2026*
+
+*Sources: [SBA - Pick Your Business Location](https://www.sba.gov/business-guide/launch-your-business/pick-your-business-location), [Review of Optometric Business](https://reviewob.com/from-1-to-16-locations-a-practice-setting-fueling-my-optometry-practice-growth/)*
+
+---
+
 *Need help managing patient calls as you launch? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT supports new optometry practices.*

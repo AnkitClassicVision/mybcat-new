@@ -311,7 +311,13 @@ The goal is not maximum automation. The goal is optimal routing.
 
 - **The hybrid model delivers both efficiency and quality.** 40-50% cost reduction compared to human-only, with equal or better quality on the calls that count.
 
-According to [Gartner research](https://www.gartner.com/en/industries/healthcare), healthcare administration comprises 25% of total costs—hybrid models directly target this overhead. For implementation guidance, see our [multi-location intake guide](/blog/multi-location-healthcare-intake-guide/) and [centralized vs. distributed framework](/blog/centralized-vs-distributed-intake-framework/). To measure ROI, use our [KPI dashboard framework](/blog/kpi-dashboard-multi-location-intake/). Our [DSO case study](/blog/dso-case-study-15-location-missed-calls/) shows real-world results from hybrid implementation. For a detailed comparison of solution types, see our [AI vs. virtual front desk comparison](/blog/ai-receptionist-vs-virtual-front-desk-answering-service/).
+Administrative work is a meaningful share of U.S. healthcare spending. Estimates of total administrative costs range widely depending on methodology, and hybrid models directly target this overhead by automating routine work while routing complex calls to humans. For implementation guidance, see our [multi-location intake guide](/blog/multi-location-healthcare-intake-guide/) and [centralized vs. distributed framework](/blog/centralized-vs-distributed-intake-framework/). To measure ROI, use our [KPI dashboard framework](/blog/kpi-dashboard-multi-location-intake/). Our [DSO case study](/blog/dso-case-study-15-location-missed-calls/) shows real-world results from hybrid implementation. For a detailed comparison of solution types, see our [AI vs. virtual front desk comparison](/blog/ai-receptionist-vs-virtual-front-desk-answering-service/).
+
+---
+
+*Last Updated: January 2026*
+
+*Sources: [PMC - Patient administrative burden in the US health care system](https://pmc.ncbi.nlm.nih.gov/articles/PMC8522562/), [American Hospital Association - AI Market Insights Report (PDF)](https://www.aha.org/system/files/media/file/2025/01/Market_Insights_AI_Report-2025.pdf)*
 
 ---
 

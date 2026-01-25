@@ -935,6 +935,20 @@ This assumes 29% missed call rate (industry average), 35% new patient call mix, 
 
 ---
 
+## Want a Custom Recommendation for Your Group?
+
+<aside class="in-content-cta" role="complementary" aria-label="Call to action">
+  <div class="cta-inner">
+    <div class="cta-text">
+      <h3 class="cta-title">Get an Intake Assessment</h3>
+      <p class="cta-description">Talk through your call volume, location count, and integration constraints, then leave with a clear next step.</p>
+    </div>
+    <a href="/contact/" class="cta-button-inline">Schedule a Consultation</a>
+  </div>
+</aside>
+
+---
+
 *Last Updated: January 2026*
 
-*Sources: Healthcare M&A integration research, MGMA operational benchmarks, proprietary MyBCAT client data, industry PM system integration analyses*
+*Sources: [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/healthcare-private-equity/), [Invoca - Healthcare](https://www.invoca.com/solutions/healthcare)*

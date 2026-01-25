@@ -47,7 +47,7 @@ Multi-location healthcare groups lose an average of $1.2 million annually to mis
 
 - **× 250 business days** = **$1.2 million annually**
 
-That's revenue you already paid to acquire through marketing—walking out the door because no one answered the phone. The solution lies in implementing systems that ensure you [never miss an appointment opportunity](https://mybcat.com/solutions/patient-recall/) again.
+That's revenue you already paid to acquire through marketing, walking out the door because no one answered the phone. The solution lies in implementing systems that ensure you [never miss an appointment opportunity](https://mybcat.com/solutions/patient-recall/) again.
 
 For PE-backed DSOs and growing optometry groups, this isn't a phone problem. It's a financial blind spot that's silently eroding your EBITDA and dragging down your valuation.
 
@@ -65,53 +65,26 @@ Here's how missed calls translate to lost revenue for a 10-location healthcare g
 
 ### The Basic Calculation (Conservative First-Visit Model)
 
-Factor
-Value
-
-Average calls per location/day
-50-80
-
-Missed call rate
-29-35%
-
-Missed calls per location/day
-15-25
-
-New patient inquiries (% of missed)
-35-40%
-
-New patient opportunities lost/day/location
-2-3
-
-Average new patient first-visit value
-$230-$400
-
-**Daily revenue at risk per location**
-**$460-$1,200**
+| Factor | Value |
+|---|---|
+| Average calls per location/day | 50-80 |
+| Missed call rate | 29-35% |
+| Missed calls per location/day | 15-25 |
+| New patient inquiries (% of missed) | 35-40% |
+| New patient opportunities lost/day/location | 2-3 |
+| Average new patient first-visit value | $230-$400 |
+| **Daily revenue at risk per location** | **$460-$1,200** |
 
 *Note: This uses first-visit value only. When you factor in lifetime value ($800-$2,500 per patient), the revenue at risk multiplies 3-5x.*
 
 ### By Location Count
 
-Locations
-Daily Missed Calls
-Annual Revenue at Risk (Conservative)
-
-5
-100
-$600,000
-
-10
-200
-$1,200,000
-
-25
-500
-$3,000,000
-
-50
-1,000
-$6,000,000
+| Locations | Daily missed calls | Annual revenue at risk (conservative) |
+|---:|---:|---:|
+| 5 | 100 | $600,000 |
+| 10 | 200 | $1,200,000 |
+| 25 | 500 | $3,000,000 |
+| 50 | 1,000 | $6,000,000 |
 
 The $1.2M figure assumes a 10-location group with moderate call volume and conservative lifetime values. Your actual number could be significantly higher.
 
@@ -155,7 +128,7 @@ The $1.2M calculation only accounts for direct revenue loss. The real damage goe
 
 ### Marketing Waste
 
-If you're spending $50,000 per month on marketing and missing 29% of the calls that marketing generates, you're throwing away **$14,500 monthly**—$174,000 annually—on leads you never even spoke to.
+If you're spending $50,000 per month on marketing and missing 29% of the calls that marketing generates, you're throwing away **$14,500 monthly** (about $174,000 annually) on leads you never even spoke to.
 
 According to Invoca's analysis of large healthcare systems, providers are wasting up to **$383,827 in marketing spend each month** due to unanswered calls. Even at smaller scale, a 10-location group spending $50K/month on marketing and missing 29% of resulting calls wastes over $170,000 annually on leads that never get a callback.
 
@@ -167,11 +140,11 @@ Front desk staff forced to choose between the ringing phone and the patient stan
 
 Research from BIA/Kelsey shows **85% of callers won't try calling back** if their first attempt goes unanswered. And according to a 2023 Podium survey, **67% of healthcare consumers will call a competitor** if their primary practice doesn't answer quickly.
 
-Every missed call isn't just lost revenue—it's a patient telling five friends about their frustrating experience with your practice.
+Every missed call isn't just lost revenue. It's a patient telling five friends about their frustrating experience with your practice.
 
 ### Data Blind Spots
 
-You can't improve what you don't measure. Groups without call analytics are making operational decisions—staffing levels, marketing spend, expansion plans—without fundamental data about how patients are actually reaching (or failing to reach) their practices.
+You can't improve what you don't measure. Groups without call analytics make operational decisions (staffing levels, marketing spend, expansion plans) without fundamental data about how patients are actually reaching (or failing to reach) their practices.
 
 ---
 
@@ -181,17 +154,11 @@ Not all missed calls cost the same. Patient lifetime values vary dramatically by
 
 ### [Dental Practices](/industries/dental/)
 
-Metric
-Value
-
-Average new patient LTV
-$2,100-$10,000
-
-Annual patient value
-$400-$800
-
-Cost per missed new patient call
-$735-$3,500 (35% conversion × LTV)
+| Metric | Value |
+|---|---|
+| Average new patient LTV | $2,100-$10,000 |
+| Annual patient value | $400-$800 |
+| Cost per missed new patient call | $735-$3,500 (35% conversion × LTV) |
 
 Dental has the widest range because LTV depends heavily on whether patients accept treatment plans. A patient who comes for cleanings only is worth $2,000 over 5 years. A patient who accepts a full-mouth restoration is worth $25,000+.
 
@@ -199,20 +166,12 @@ Dental has the widest range because LTV depends heavily on whether patients acce
 
 ### Optometry Practices
 
-Metric
-Value
-
-Average new patient LTV
-$4,000-$8,000 (10-20 year relationship)
-
-Annual patient value
-$400-$500
-
-Family multiplier
-3.15x (patients bring families)
-
-Cost per missed new patient call
-$1,400-$2,800
+| Metric | Value |
+|---|---|
+| Average new patient LTV | $4,000-$8,000 (10-20 year relationship) |
+| Annual patient value | $400-$500 |
+| Family multiplier | 3.15x (patients bring families) |
+| Cost per missed new patient call | $1,400-$2,800 |
 
 Optometry's advantage is the family effect. One missed call from a parent looking for a kids' eye exam often represents three or more potential long-term patients.
 
@@ -222,20 +181,12 @@ Optometry's advantage is the family effect. One missed call from a parent lookin
 
 ### Veterinary Practices
 
-Metric
-Value
-
-Average client LTV
-$5,000-$10,000
-
-Annual client value
-$500-$1,600
-
-Emergency premium
-2-3x regular visit value
-
-Cost per missed call
-$1,750-$3,500
+| Metric | Value |
+|---|---|
+| Average client LTV | $5,000-$10,000 |
+| Annual client value | $500-$1,600 |
+| Emergency premium | 2-3x regular visit value |
+| Cost per missed call | $1,750-$3,500 |
 
 Veterinary has the highest per-call value because of the emergency component. Pet owners calling about a potential emergency represent immediate, high-value revenue. Miss that call and they're driving to your competitor's emergency clinic.
 
@@ -243,7 +194,7 @@ Veterinary has the highest per-call value because of the emergency component. Pe
 
 ---
 
-The solution isn't hiring more staff—it's implementing systematic intake operations. For a complete framework on evaluating intake solutions, see our [Multi-Location Healthcare Intake Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide/).
+The solution isn't hiring more staff. It's implementing systematic intake operations. For a complete framework on evaluating intake solutions, see our [Multi-Location Healthcare Intake Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide/).
 
 ## How Top-Performing Groups Achieve 95%+ Answer Rates
 
@@ -295,27 +246,13 @@ For PE-backed groups and practices considering a transaction, missed call revenu
 
 Current DSO valuations range from **6-12x EBITDA** for platform acquisitions, with exceptional practices commanding up to 15x. Here's how missed call recovery affects valuation:
 
-Recovered Annual Revenue
-EBITDA Flow-Through (25%)
-Value at 6x Multiple
-Value at 10x Multiple
+| Recovered annual revenue | EBITDA flow-through (25%) | Value at 6x multiple | Value at 10x multiple |
+|---:|---:|---:|---:|
+| $500,000 | $125,000 | $750,000 | $1,250,000 |
+| $1,000,000 | $250,000 | $1,500,000 | $2,500,000 |
+| $2,000,000 | $500,000 | $3,000,000 | $5,000,000 |
 
-$500,000
-$125,000
-$750,000
-$1,250,000
-
-$1,000,000
-$250,000
-$1,500,000
-$2,500,000
-
-$2,000,000
-$500,000
-$3,000,000
-$5,000,000
-
-A 10-location dental group recovering $1.2M in annual revenue from missed calls—at a 25% EBITDA flow-through and 8x multiple—adds **$2.4 million to their enterprise value**.
+A 10-location dental group recovering $1.2M in annual revenue from missed calls (at a 25% EBITDA flow-through and 8x multiple) adds **$2.4 million to enterprise value**.
 
 ### What PE Buyers Look For
 
@@ -329,7 +266,7 @@ During operational due diligence, sophisticated buyers evaluate:
 
 - **Staff productivity** (calls handled per FTE)
 
-Groups with documented answer rates above 90% and clear phone conversion data command premium multiples. Those with no call analytics represent integration risk—and get priced accordingly.
+Groups with documented answer rates above 90% and clear phone conversion data command premium multiples. Those with no call analytics represent integration risk, and get priced accordingly.
 
 ---
 
@@ -339,23 +276,13 @@ Ready to calculate your actual number? Here's the framework:
 
 ### Step 1: Gather Your Data
 
-Data Point
-Where to Find It
-
-Total monthly calls (all locations)
-Phone system reports
-
-Missed/abandoned calls
-Phone system reports
-
-New patient inquiries (% of total)
-Estimate 30-40% if unknown
-
-New patient conversion rate
-PM system or estimate 65-75%
-
-Average new patient lifetime value
-PM system or use benchmarks above
+| Data point | Where to find it |
+|---|---|
+| Total monthly calls (all locations) | Phone system reports |
+| Missed/abandoned calls | Phone system reports |
+| New patient inquiries (% of total) | Estimate 30-40% if unknown |
+| New patient conversion rate | PM system or estimate 65-75% |
+| Average new patient lifetime value | PM system or use benchmarks above |
 
 ### Step 2: Run the Calculation
 
@@ -403,9 +330,17 @@ Our [Never Miss an Appointment](https://mybcat.com/solutions/patient-recall/) so
 
 ### Stop the Revenue Leak
 
-Schedule a consultation to see how much revenue your multi-location group is leaving on the table—and how to capture it within 90 days.
+Schedule a consultation to see how much revenue your multi-location group is leaving on the table, and how to capture it within 90 days.
 
-  Schedule a Consultation Today
+<aside class="in-content-cta" role="complementary" aria-label="Call to action">
+  <div class="cta-inner">
+    <div class="cta-text">
+      <h3 class="cta-title">Get a Revenue Leak Assessment</h3>
+      <p class="cta-description">See your missed-call cost and the fastest changes to raise your answer rate.</p>
+    </div>
+    <a href="/contact/" class="cta-button-inline">Schedule a Consultation</a>
+  </div>
+</aside>
 
 ---
 
@@ -413,7 +348,7 @@ Schedule a consultation to see how much revenue your multi-location group is lea
 
 - Multi-location healthcare groups lose an average of **$1.2 million annually** to missed calls
 
-- The average healthcare practice misses **29% of inbound calls**—dental practices miss up to 68%
+- The average healthcare practice misses **29% of inbound calls**. Dental practices can be higher during peak hours.
 
 - **85% of callers won't call back** after an unanswered call attempt
 
@@ -421,7 +356,7 @@ Schedule a consultation to see how much revenue your multi-location group is lea
 
 - For PE-backed groups, recovered revenue adds **6-12x to enterprise value** through EBITDA multiples
 
-- The solution isn't hiring more staff—it's implementing systematic overflow and after-hours coverage
+- The solution isn't hiring more staff. It's implementing systematic overflow and after-hours coverage.
 
 ---
 
@@ -445,11 +380,11 @@ Top-performing multi-location healthcare groups achieve **95%+ answer rates** wi
 
 ### How do missed calls affect practice valuation?
 
-For PE-backed groups, recovered missed call revenue adds **6-12x to enterprise value** through EBITDA multiples. A 10-location dental group recovering $1.2M in annual revenue—at 25% EBITDA flow-through and 8x multiple—adds $2.4 million to their enterprise value.
+For PE-backed groups, recovered missed call revenue adds **6-12x to enterprise value** through EBITDA multiples. A 10-location dental group recovering $1.2M in annual revenue (at a 25% EBITDA flow-through and 8x multiple) adds $2.4 million to their enterprise value.
 
 ### What's the best solution for reducing missed calls?
 
-The solution isn't hiring more staff—it's implementing systematic intake operations including centralized overflow handling, after-hours coverage, real-time visibility dashboards, and technology integration with practice management systems. See our complete [Multi-Location Healthcare Intake Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) for detailed evaluation frameworks.
+The solution isn't hiring more staff. It's implementing systematic intake operations including centralized overflow handling, after-hours coverage, real-time visibility dashboards, and technology integration with practice management systems. See our complete [Multi-Location Healthcare Intake Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) for detailed evaluation frameworks.
 
 ---
 

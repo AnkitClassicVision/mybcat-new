@@ -15,6 +15,7 @@
     "astro": "astro",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "audit:tracked": "node scripts/audit-blog-posts.js --csv=../blog_writer/blogs/published/published_posts.csv",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
     "publish-scheduled": "node scripts/publish-scheduled.js",

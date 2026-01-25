@@ -373,4 +373,10 @@ Staffing is one component of launching a successful practice. For guidance on eq
 
 ---
 
+*Last Updated: January 2026*
+
+*Sources: [BoomCloud Optometry Benchmarks](https://boomcloudapps.com/optometry-benchmarks-where-should-your-practice-be-and-how-the-heck-do-you-get-there/), [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026)*
+
+---
+
 *Need help managing patient calls while you focus on building your team? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT supports optometry practices with overflow call handling and after-hours coverage.*

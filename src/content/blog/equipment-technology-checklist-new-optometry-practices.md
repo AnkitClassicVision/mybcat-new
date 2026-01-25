@@ -178,4 +178,10 @@ If you are planning a multi-location expansion or need help with patient intake 
 
 ---
 
+*Last Updated: January 2026*
+
+*Sources: [SBA - Loans](https://www.sba.gov/funding-programs/loans), [Review of Optometric Business](https://reviewob.com/3-metrics-that-reveal-the-true-financial-health-of-your-practice/)*
+
+---
+
 *Need help managing calls while you focus on patient care? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT handles patient communication for optometry practices.*

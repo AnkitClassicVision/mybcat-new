@@ -13,7 +13,7 @@ canonical: "https://mybcat.com/blog/dso-integration-playbook/"
 relatedPosts: ["dso-case-study-15-location-missed-calls", "90-day-integration-playbook-healthcare-acquisitions", "multi-location-healthcare-intake-guide"]
 ---
 
-Most DSO acquisitions take 12+ months to fully integrate—but the target is 90 days. The gap? Integration playbooks focus on PM system migration before establishing standardized intake processes. This playbook flips that sequence, giving you a week-by-week framework for standardizing patient intake that works regardless of which PM system the acquired practice uses.
+Most DSO acquisitions take 12+ months to fully integrate, but the target is 90 days. The gap is that integration playbooks focus on PM system migration before establishing standardized intake processes. This playbook flips that sequence, giving you a week-by-week framework for standardizing patient intake that works regardless of which PM system the acquired practice uses.
 
 Whether you're a [DSO](/enterprise/dso/) COO hitting integration timelines, a PE operating partner overseeing a [dental](/industries/dental/) portfolio, or a regional director managing day-to-day execution, this guide provides the tactical framework you need.
 
@@ -70,7 +70,7 @@ The solution flips the traditional sequence:
 | **Traditional** | PM System Migration → Process Design → Staff Training → Go Live | 12-18 months |
 | **Workflow-First** | Process Standardization → Staff Training → Parallel Operations → PM Migration | **90 days** |
 
-The key insight: **you can standardize intake workflows independent of which PM system the practice uses.** Dentrix, Eaglesoft, Open Dental—the phone still rings, patients still need appointments, and someone still needs to answer.
+The key insight: **you can standardize intake workflows independent of which PM system the practice uses.** Dentrix, Eaglesoft, Open Dental: the phone still rings, patients still need appointments, and someone still needs to answer.
 
 Standardize the human workflows first. Migrate systems around a proven process later. A [medical answering service](/solutions/medical-answering-service/) can provide consistent call coverage during this transition period.
 
@@ -120,7 +120,7 @@ Integration starts before the deal closes. Use due diligence to assess intake op
 - No call tracking or analytics
 - Scheduling controlled entirely by clinical staff
 
-These don't disqualify an acquisition—but they indicate higher integration lift.
+These don't disqualify an acquisition, but they indicate higher integration lift.
 
 ## Week 1-2: Process Mapping and Gap Analysis
 
@@ -129,7 +129,7 @@ Day 1 readiness means understanding exactly how the practice operates today.
 ### Process Mapping Steps
 
 **1. Shadow the Front Desk**
-Spend 2-4 hours observing. Don't try to change anything yet—just document:
+Spend 2-4 hours observing. Don't try to change anything yet. Just document:
 - How calls are answered (greeting, tone, process)
 - How appointments are scheduled
 - How patient information is collected
@@ -269,8 +269,8 @@ Sending an email with new SOPs doesn't work. Plan actual training:
 
 **4. Acknowledge What's Working**
 Don't position everything as broken. Identify and celebrate what the practice does well:
-- "Your patient satisfaction scores are excellent—let's make sure we maintain that."
-- "Your hygiene schedule is incredibly efficient—we're actually sharing that with other practices."
+- "Your patient satisfaction scores are excellent. Let's make sure we maintain that."
+- "Your hygiene schedule is incredibly efficient. We're actually sharing that with other practices."
 
 ### Training Curriculum (2-Week Program)
 
@@ -509,7 +509,7 @@ Ready to implement this playbook in your next acquisition?
 ### For PE Operating Partners
 [Schedule a Portfolio Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) - We'll evaluate intake operations across your dental investments and identify the highest-impact opportunities.
 
-Our [Never Miss an Appointment](https://mybcat.com/solutions/patient-recall/) solution is specifically designed for multi-location healthcare groups, combining trained healthcare specialists with technology that integrates directly into your practice management systems—including Dentrix, Eaglesoft, and Open Dental.
+Our [Never Miss an Appointment](https://mybcat.com/solutions/patient-recall/) solution is specifically designed for multi-location healthcare groups, combining trained healthcare specialists with technology that integrates directly into your practice management systems, including Dentrix, Eaglesoft, and Open Dental.
 
 ---
 
@@ -525,11 +525,11 @@ Yes. The workflow-first approach standardizes **human processes** independent of
 
 ### What's the biggest mistake DSOs make during integration?
 
-**Technology-first thinking**—attempting to migrate everyone to the same PM system before standardizing processes. This creates 6-12 months of chaos where you can't measure performance, staff resist simultaneous system and process changes, and patient experience suffers.
+**Technology-first thinking**: attempting to migrate everyone to the same PM system before standardizing processes. This creates 6-12 months of chaos where you can't measure performance, staff resist simultaneous system and process changes, and patient experience suffers.
 
 ### How do I handle staff resistance to new processes?
 
-Staff resistance peaks around weeks 4-5 of integration—this is normal. Key strategies: explain the "why" behind changes, involve staff in process refinement, train (don't just tell), and acknowledge what's already working. Make the Practice Manager your partner by giving them ownership of implementation success.
+Staff resistance peaks around weeks 4-5 of integration. This is normal. Key strategies: explain the "why" behind changes, involve staff in process refinement, train (don't just tell), and acknowledge what's already working. Make the Practice Manager your partner by giving them ownership of implementation success.
 
 ### What KPIs should I track during integration?
 
@@ -551,6 +551,8 @@ For PE-backed DSOs, recovered revenue from improved intake flows directly to EBI
 ---
 
 *Last Updated: January 2026*
+
+*Sources: [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/healthcare-private-equity/), [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
 
 ---
 

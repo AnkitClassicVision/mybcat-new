@@ -155,28 +155,28 @@ The capture rate improvement added further revenue not included in this calculat
 ### For Front Desk Staff
 
 *"I used to dread the afternoon rush. Phones ringing, patients checking out, and I knew calls were going to voicemail. Now I can focus on the patients in front of me knowing the phones are covered."*
-— Front Desk Manager, Location 4
+- Front Desk Manager, Location 4
 
 Staff reported lower stress levels across all locations. Front desk turnover, which had been 40% annually, dropped to under 15%.
 
 ### For Optical Staff
 
 *"We used to get patients who came in for exams with no idea we had an optical department. Now they show up asking about the frames they discussed on the phone."*
-— Lead Optician, Location 2
+- Lead Optician, Location 2
 
 Optical staff received better-prepared patients. Pre-scheduling dispensary time meant patients arrived with time allocated for frame selection rather than rushing after an exam.
 
 ### For Practice Leadership
 
 *"For the first time, I can see what is happening across all locations in real-time. When location 6 had a staffing issue last month, I saw the call metrics dip immediately and we could respond."*
-— Director of Operations
+- Director of Operations
 
 Visibility enabled proactive management rather than reactive firefighting.
 
 ### For the PE Process
 
 *"Our operational metrics went from a weakness to a strength in due diligence. The answer rate and conversion data showed we had scalable systems."*
-— CEO
+- CEO
 
 The PE firm specifically cited operational improvements as a factor in their valuation. The partnership closed 6 months after implementation.
 
@@ -235,3 +235,9 @@ Schedule a consultation to understand how these results translate to your specif
 ---
 
 *Curious about the financial model? Use our [EBITDA Impact Calculator](/blog/ebitda-impact-calculator/) to estimate potential returns for your group.*
+
+---
+
+*Last Updated: January 2026*
+
+*Sources: [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), [CallRail Healthcare Marketing Challenges](https://www.callrail.com/blog/healthcare-marketing-challenges)*
