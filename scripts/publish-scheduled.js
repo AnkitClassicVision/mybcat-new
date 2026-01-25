@@ -49,6 +49,14 @@ files.forEach(file => {
     if (scheduledDate === today) {
       console.log(`Publishing: ${file}`);
 
+      // Ensure the publishDate reflects the go-live date so sorting and timestamps are correct.
+      // Astro content schema uses `z.coerce.date()`, so both ISO strings and YYYY-MM-DD strings are valid.
+      try {
+        data.publishDate = new Date(data.scheduledDate).toISOString();
+      } catch {
+        data.publishDate = new Date().toISOString();
+      }
+
       // Update status to published
       data.status = 'published';
       delete data.scheduledDate;
