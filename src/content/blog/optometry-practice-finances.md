@@ -6,7 +6,7 @@ description: >-
   expenses, and profitability. Start building a sustainable practice today.
 seoDescription: "Master optometry practice finances with proven strategies for revenue, expense management, and profitability. Build a sustainable, profitable practice."
 publishDate: '2026-01-10'
-author: MyBCAT Team
+author: Ankit Patel
 status: published
 featuredImage: /images/blog/optometry-practice-finances.webp
 keywords:
