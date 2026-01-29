@@ -113,7 +113,7 @@ The key is understanding which plans to prioritize:
 3. **Medical plans**: Higher reimbursements for medical eye care
 4. **Medicare**: Critical for practices near retirement communities
 
-[Managing insurance claims efficiently](/blog/optometry-billing-best-practices/) becomes increasingly important as your panel participation grows.
+[Managing insurance claims efficiently](/blog/streamlining-insurance-claim-processing-for-optometric-practices/) becomes increasingly important as your panel participation grows.
 
 ### Marketing That Actually Works
 
@@ -160,7 +160,7 @@ Staff costs typically run 22-28% of collections. Higher percentages indicate ove
 
 Disconnected systems create data entry duplication, errors, and wasted time. Your practice management system, EHR, and optical software should share patient data seamlessly.
 
-[Modern practice management approaches](/blog/practice-management-software-guide/) emphasize integration over individual feature sets. A slightly less powerful system that connects properly outperforms a feature-rich system that creates information silos.
+[Modern practice management approaches](/blog/how-technology-is-boosting-operational-efficiency-in-optometry/) emphasize integration over individual feature sets. A slightly less powerful system that connects properly outperforms a feature-rich system that creates information silos.
 
 Essential technology stack:
 - Practice management and EHR (combined or integrated)
@@ -173,7 +173,7 @@ Essential technology stack:
 
 Every unanswered phone call represents potential lost revenue. Studies show 62% of calls to healthcare practices go unanswered or reach voicemail. Of those callers, 85% will not leave a message and 30% will call a competitor instead.
 
-[Understanding your phone answer rate](/blog/missed-calls-revenue-impact/) reveals opportunities most practice owners overlook. Solutions range from additional staff coverage to AI-powered answering systems that handle routine inquiries 24/7.
+[Understanding your phone answer rate](/blog/missed-calls-revenue-leak-multi-location-healthcare/) reveals opportunities most practice owners overlook. Solutions range from additional staff coverage to AI-powered answering systems that handle routine inquiries 24/7.
 
 ## Financial Management for Long-Term Success
 
@@ -237,7 +237,7 @@ Medical optometry services offer higher reimbursements and differentiation from 
 - Myopia management programs
 - Low vision rehabilitation
 - Sports vision training
-- [Medical billing optimization](/blog/medical-billing-optometry/) for increased revenue
+- [Medical billing optimization](/blog/streamlining-insurance-claim-processing-for-optometric-practices/) for increased revenue
 
 Each specialty requires additional training and equipment investment but creates patient loyalty and referral opportunities competitors cannot easily replicate.
 
