@@ -14,7 +14,7 @@ Peter Cass sees six patients an hour. That's not a typo—six patients per hour,
 
 He talked about it in [Optometry Times](https://www.optometrytimes.com/view/how-see-50-patients-day-your-practice), and every time I mention it to colleagues, they assume he's cutting corners on care. He's not. He's optimized everything around the clinical encounter so efficiently that he spends more actual face-time with patients than most docs seeing half the volume.
 
-That kind of efficiency doesn't happen by accident. It requires ruthless focus on operational excellence—which often means outsourcing the tasks that don't need to happen on-site.
+That kind of efficiency doesn't happen by accident. It requires ruthless focus on operational excellence—which often means outsourcing the tasks that don't need to happen on-site. If you're considering this path, start with our [guide to medical receptionist services for optometry](/blog/a-guide-to-medical-receptionist-service-for-optometry/).
 
 But here's what Dr. Cass would tell you (and what I've learned the hard way): outsourcing done poorly is worse than not outsourcing at all. The potential upside is huge—30% cost reduction, 33% revenue increase, those are real numbers from our own practice. The downside, if you screw it up, is chaos.
 

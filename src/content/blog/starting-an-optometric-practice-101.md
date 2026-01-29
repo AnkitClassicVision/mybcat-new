@@ -166,6 +166,7 @@ Explore these detailed guides on specific aspects of starting your practice:
 - **[Staffing Your New Optometry Practice](/blog/staffing-new-optometry-practice/)** — Essential roles, hiring strategies, and training programs
 - **[Location Selection for Optometric Practices](/blog/location-selection-optometric-practices/)** — Demographics, competition, and lease considerations
 - **[First-Year Financial Planning](/blog/first-year-financial-planning-optometry/)** — Budgeting, cash flow management, and financial milestones
+- **[5 Signs You're Ready to Scale](/blog/5-signs-youre-ready-to-scale/)** — When to expand from startup to growth mode
 
 ---
 

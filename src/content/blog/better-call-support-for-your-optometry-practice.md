@@ -12,7 +12,7 @@ canonical: "https://mybcat.com/blog/better-call-support-for-your-optometry-pract
 
 Call support matters when crafting a more [efficient optometry practice](https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture/). Conversations, many of them are lengthy, between your office and the patient occur before and after any eye care function. Having a good call support system gives you more chances to foster client loyalty and, ultimately, achieve a lucrative optometry practice. Understanding how [unanswered calls translate to lost revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) helps justify the investment in quality call support.
 
-At My Business Care Team, we supplement your optometry practice through our [front desk outsourcing](/solutions/front-desk-outsourcing/) services. Let's talk about some factors that improve every call support system for your practice.
+At My Business Care Team, we supplement your optometry practice through our [front desk outsourcing](/solutions/front-desk-outsourcing/) services. For a comprehensive overview, see our [guide to medical receptionist services for optometry](/blog/a-guide-to-medical-receptionist-service-for-optometry/). Let's talk about some factors that improve every call support system for your practice.
 
 - **Structured Interactions**
 

@@ -286,6 +286,7 @@ Small practices struggle when someone calls in sick:
 - Build relationships with reliable per diem staff
 - Partner with staffing agencies specializing in healthcare
 - Consider [virtual receptionist services](/blog/multi-location-healthcare-intake-guide/) for phone coverage
+- Evaluate [building in-house vs outsourcing](/compare/build-vs-buy/) for your front desk needs
 - Learn about [preventing missed calls from leaking revenue](/blog/missed-calls-revenue-leak-multi-location-healthcare/)
 
 ### Burnout Prevention

@@ -360,7 +360,7 @@ Once you've determined your architectural approach, you need to select the right
 **Cons:**
 - Less local knowledge than on-site staff
 - Requires technology integration
-- Ongoing cost (though often lower than in-house)
+- Ongoing cost (though often lower than in-house). See our [build vs buy analysis](/compare/build-vs-buy/) for a detailed cost comparison.
 
 **True Cost:**
 - $4-8/call fully loaded for quality providers

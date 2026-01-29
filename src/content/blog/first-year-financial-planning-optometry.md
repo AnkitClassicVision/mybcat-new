@@ -342,7 +342,7 @@ Starting with too little reserve capital creates crisis mode. Secure adequate fu
 
 ### Mistake 2: Hiring Too Fast
 
-Adding staff before volume justifies the cost burns cash. Hire when you need capacity, not when you hope for growth.
+Adding staff before volume justifies the cost burns cash. Hire when you need capacity, not when you hope for growth. Learn to recognize the [5 signs you're ready to scale](/blog/5-signs-youre-ready-to-scale/) before adding headcount.
 
 ### Mistake 3: Premium Equipment Before Revenue
 
