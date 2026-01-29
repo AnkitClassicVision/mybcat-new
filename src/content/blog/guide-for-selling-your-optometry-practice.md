@@ -466,36 +466,36 @@ You sell a majority stake but retain minority ownership. Common with PE deals (e
 Use this as a starting point for your preparation:
 
 **2-3 Years Before Sale:**
-- [ ] Get preliminary valuation
-- [ ] Identify owner-dependent processes
-- [ ] Begin documenting SOPs
-- [ ] Start tracking key metrics
-- [ ] Review lease terms
-- [ ] Evaluate equipment needs
+- ☐ Get preliminary valuation
+- ☐ Identify owner-dependent processes
+- ☐ Begin documenting SOPs
+- ☐ Start tracking key metrics
+- ☐ Review lease terms
+- ☐ Evaluate equipment needs
 
 **1-2 Years Before Sale:**
-- [ ] Engage broker/advisor
-- [ ] Clean up financials
-- [ ] Control discretionary expenses
-- [ ] Document add-backs
-- [ ] Build staff independence
-- [ ] Modernize technology
+- ☐ Engage broker/advisor
+- ☐ Clean up financials
+- ☐ Control discretionary expenses
+- ☐ Document add-backs
+- ☐ Build staff independence
+- ☐ Modernize technology
 
 **6-12 Months Before Sale:**
-- [ ] Formal valuation
-- [ ] Prepare data room
-- [ ] Identify target buyers
-- [ ] Negotiate LOIs
-- [ ] Attorney review of agreements
-- [ ] Plan transition
+- ☐ Formal valuation
+- ☐ Prepare data room
+- ☐ Identify target buyers
+- ☐ Negotiate LOIs
+- ☐ Attorney review of agreements
+- ☐ Plan transition
 
 **At Closing:**
-- [ ] Execute purchase agreement
-- [ ] Transfer licenses and credentials
-- [ ] Patient notification per state regulations and HIPAA requirements (patients generally have the right to access records and choose providers)
-- [ ] Establish patient record retention and transfer protocols
-- [ ] Staff communication
-- [ ] Begin transition period
+- ☐ Execute purchase agreement
+- ☐ Transfer licenses and credentials
+- ☐ Patient notification per state regulations and HIPAA requirements (patients generally have the right to access records and choose providers)
+- ☐ Establish patient record retention and transfer protocols
+- ☐ Staff communication
+- ☐ Begin transition period
 
 ## The Bottom Line
 

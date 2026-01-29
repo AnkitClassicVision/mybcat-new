@@ -55,7 +55,7 @@ const hasHero = heroTitle || heroSubtitle;
     <script type="application/ld+json" set:html={serializeSchema(generateBreadcrumbSchema(breadcrumbs))} />
   )}
 
-  <main class="page-main">
+  <main id="main-content" class="page-main">
     {hasBreadcrumbs && (
       <div class="breadcrumb-container">
         <Breadcrumb items={breadcrumbs} />

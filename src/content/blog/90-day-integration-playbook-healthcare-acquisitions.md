@@ -155,15 +155,15 @@ Identify before close:
 
 ### Pre-Close Checklist
 
-- [ ] Call volume data obtained
-- [ ] Current answer rate estimated
-- [ ] Phone system identified
-- [ ] PM system documented
-- [ ] Staffing model understood
-- [ ] Day 1 communication drafted
-- [ ] Integration lead identified
-- [ ] 90-day plan outlined
-- [ ] Success metrics defined
+- ☐ Call volume data obtained
+- ☐ Current answer rate estimated
+- ☐ Phone system identified
+- ☐ PM system documented
+- ☐ Staffing model understood
+- ☐ Day 1 communication drafted
+- ☐ Integration lead identified
+- ☐ 90-day plan outlined
+- ☐ Success metrics defined
 
 ---
 
@@ -229,12 +229,12 @@ Establish baseline measurements for:
 
 ### Week 1-2 Deliverables
 
-- [ ] Complete intake process documentation
-- [ ] Call type and volume analysis
-- [ ] Baseline KPI report
-- [ ] Staff assessment summary
-- [ ] Quick win opportunity list
-- [ ] Risk register (potential integration issues)
+- ☐ Complete intake process documentation
+- ☐ Call type and volume analysis
+- ☐ Baseline KPI report
+- ☐ Staff assessment summary
+- ☐ Quick win opportunity list
+- ☐ Risk register (potential integration issues)
 
 ---
 
@@ -294,12 +294,12 @@ Week 3-4 training focuses on:
 
 ### Week 3-4 Deliverables
 
-- [ ] Call tracking operational
-- [ ] Daily reporting implemented
-- [ ] Quick wins implemented and measured
-- [ ] Foundation training completed
-- [ ] Baseline to Week 4 comparison report
-- [ ] Week 5-6 standardization plan confirmed
+- ☐ Call tracking operational
+- ☐ Daily reporting implemented
+- ☐ Quick wins implemented and measured
+- ☐ Foundation training completed
+- ☐ Baseline to Week 4 comparison report
+- ☐ Week 5-6 standardization plan confirmed
 
 ---
 
@@ -355,21 +355,21 @@ Connect acquired practice to platform resources:
 
 Verify:
 
-- [ ] All call types following platform protocols
-- [ ] Scripts deployed and being used
-- [ ] Overflow routing functional
-- [ ] After-hours integration complete
-- [ ] Escalation paths documented and working
-- [ ] Staff can articulate procedures
+- ☐ All call types following platform protocols
+- ☐ Scripts deployed and being used
+- ☐ Overflow routing functional
+- ☐ After-hours integration complete
+- ☐ Escalation paths documented and working
+- ☐ Staff can articulate procedures
 
 ### Week 5-6 Deliverables
 
-- [ ] Process alignment documentation complete
-- [ ] Platform protocols implemented
-- [ ] Overflow routing operational
-- [ ] After-hours integrated
-- [ ] Escalation procedures documented
-- [ ] Mid-integration performance report
+- ☐ Process alignment documentation complete
+- ☐ Platform protocols implemented
+- ☐ Overflow routing operational
+- ☐ After-hours integrated
+- ☐ Escalation procedures documented
+- ☐ Mid-integration performance report
 
 ---
 
@@ -430,12 +430,12 @@ Verify competency through:
 
 ### Week 7-8 Deliverables
 
-- [ ] Technology integration complete
-- [ ] Advanced training delivered
-- [ ] Dashboards operational
-- [ ] Staff competency verified
-- [ ] System documentation complete
-- [ ] Week 9-10 optimization plan
+- ☐ Technology integration complete
+- ☐ Advanced training delivered
+- ☐ Dashboards operational
+- ☐ Staff competency verified
+- ☐ System documentation complete
+- ☐ Week 9-10 optimization plan
 
 ---
 
@@ -487,12 +487,12 @@ Implement ongoing quality program:
 
 ### Week 9-10 Deliverables
 
-- [ ] Gap analysis completed
-- [ ] Gap closure actions implemented
-- [ ] Staff feedback collected and addressed
-- [ ] Quality monitoring operational
-- [ ] Week 11-12 documentation plan
-- [ ] Handoff preparation started
+- ☐ Gap analysis completed
+- ☐ Gap closure actions implemented
+- ☐ Staff feedback collected and addressed
+- ☐ Quality monitoring operational
+- ☐ Week 11-12 documentation plan
+- ☐ Handoff preparation started
 
 ---
 
@@ -559,13 +559,13 @@ Final integration report including:
 
 ### Week 11-12 Deliverables
 
-- [ ] SOP documentation complete
-- [ ] Training materials finalized
-- [ ] Technical documentation complete
-- [ ] Handoff meetings completed
-- [ ] Lessons learned documented
-- [ ] Final integration report delivered
-- [ ] Integration declared complete
+- ☐ SOP documentation complete
+- ☐ Training materials finalized
+- ☐ Technical documentation complete
+- ☐ Handoff meetings completed
+- ☐ Lessons learned documented
+- ☐ Final integration report delivered
+- ☐ Integration declared complete
 
 ---
 

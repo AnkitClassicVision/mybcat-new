@@ -270,31 +270,31 @@ Track progress against these benchmarks:
 
 ### Month 3 Milestones
 
-- [ ] Seeing 8+ patients per day consistently
-- [ ] Cash flow still negative but within projections
-- [ ] Insurance credentialing complete
-- [ ] Claims being paid within 30 days
+- ☐ Seeing 8+ patients per day consistently
+- ☐ Cash flow still negative but within projections
+- ☐ Insurance credentialing complete
+- ☐ Claims being paid within 30 days
 
 ### Month 6 Milestones
 
-- [ ] Seeing 12+ patients per day
-- [ ] Cash flow approaching break-even
-- [ ] Capture rate above 50%
-- [ ] No aging receivables over 90 days
+- ☐ Seeing 12+ patients per day
+- ☐ Cash flow approaching break-even
+- ☐ Capture rate above 50%
+- ☐ No aging receivables over 90 days
 
 ### Month 9 Milestones
 
-- [ ] Seeing 15+ patients per day
-- [ ] Cash flow positive (before owner compensation)
-- [ ] Optical revenue growing monthly
-- [ ] Beginning to rebuild reserves
+- ☐ Seeing 15+ patients per day
+- ☐ Cash flow positive (before owner compensation)
+- ☐ Optical revenue growing monthly
+- ☐ Beginning to rebuild reserves
 
 ### Month 12 Milestones
 
-- [ ] Seeing 18+ patients per day
-- [ ] Taking reasonable owner draws
-- [ ] 3 months operating reserves rebuilt
-- [ ] Clear path to profitability year two
+- ☐ Seeing 18+ patients per day
+- ☐ Taking reasonable owner draws
+- ☐ 3 months operating reserves rebuilt
+- ☐ Clear path to profitability year two
 
 Missing milestones is not failure. It signals need for adjustment. Identify the constraint and address it.
 

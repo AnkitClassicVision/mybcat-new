@@ -73,7 +73,8 @@ const schemas = combineSchemas(
   <slot name="head" slot="head" />
   <script type="application/ld+json" set:html={serializeSchema(schemas)} />
 
-  <article class="blog-post">
+  <main id="main-content">
+    <article class="blog-post">
     <div class="breadcrumb-container">
       <Breadcrumb items={breadcrumbs} />
     </div>
@@ -119,7 +120,8 @@ const schemas = combineSchemas(
       <p>See how {company.shortName} can help your practice fill every slot.</p>
       <a href="/contact/" class="cta-button">Book a Discovery Call</a>
     </section>
-  </article>
+    </article>
+  </main>
 </BaseLayout>
 
 <style>

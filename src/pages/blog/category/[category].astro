@@ -137,7 +137,7 @@ const categoryCounts = allPosts.reduce((acc, post) => {
   title={`${meta.title} | MyBCAT Blog`}
   description={meta.description}
 >
-  <div class="category-page">
+  <main id="main-content" class="category-page">
     <header class="category-header">
       <nav class="breadcrumb">
         <a href="/">Home</a>
@@ -181,7 +181,7 @@ const categoryCounts = allPosts.reduce((acc, post) => {
         </a>
       </aside>
 
-      <main class="posts-grid">
+      <div class="posts-grid">
         {categoryPosts.length > 0 ? (
           categoryPosts.map((post) => (
             <article class="post-card">
@@ -218,9 +218,9 @@ const categoryCounts = allPosts.reduce((acc, post) => {
             <a href="/blog/" class="back-link">Browse all articles</a>
           </div>
         )}
-      </main>
+      </div>
     </div>
-  </div>
+  </main>
 </Base>
 
 <style>

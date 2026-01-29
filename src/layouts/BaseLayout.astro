@@ -155,9 +155,7 @@ const isHomepage = pathname === '/';
   <GoogleTagManagerNoScript />
   {navMode !== 'hidden' && <Nav currentPath={Astro.url.pathname} />}
 
-  <main id="main-content">
-    <slot />
-  </main>
+  <slot />
 
   <Footer />
 

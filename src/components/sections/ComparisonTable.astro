@@ -34,7 +34,7 @@ const {
     <div class="comparison-grid">
       {columns.map(column => (
         <div class={`comparison-column ${column.highlight ? 'highlight' : ''}`}>
-          <h4>{column.title}</h4>
+          <h3>{column.title}</h3>
           <ul class={`comparison-list ${column.positive ? 'positive' : 'negative'}`}>
             {column.items.map(item => (
               <li>{item}</li>
@@ -101,7 +101,7 @@ const {
     transform: scale(1.02);
   }
 
-  .comparison-column h4 {
+  .comparison-column h3 {
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--navy-900);

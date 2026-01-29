@@ -81,35 +81,35 @@ Integration starts before the deal closes. Use due diligence to assess intake op
 ### Intake Assessment Checklist
 
 **Call Handling**
-- [ ] What's the current call answer rate? (Request phone system reports)
-- [ ] Who answers phones? (Dedicated staff or clinical rotation?)
-- [ ] What hours are phones staffed?
-- [ ] What happens to after-hours calls?
-- [ ] Is there overflow handling or backup?
+- ☐ What's the current call answer rate? (Request phone system reports)
+- ☐ Who answers phones? (Dedicated staff or clinical rotation?)
+- ☐ What hours are phones staffed?
+- ☐ What happens to after-hours calls?
+- ☐ Is there overflow handling or backup?
 
 **Scheduling**
-- [ ] What PM system is in use? (Dentrix, Eaglesoft, Open Dental, other)
-- [ ] How are appointment types configured?
-- [ ] What's the average time-to-appointment for new patients?
-- [ ] Who has scheduling authority?
-- [ ] Are there scheduling templates or is it ad-hoc?
+- ☐ What PM system is in use? (Dentrix, Eaglesoft, Open Dental, other)
+- ☐ How are appointment types configured?
+- ☐ What's the average time-to-appointment for new patients?
+- ☐ Who has scheduling authority?
+- ☐ Are there scheduling templates or is it ad-hoc?
 
 **New Patient Process**
-- [ ] How are new patients registered? (Phone, online, in-office?)
-- [ ] What information is collected pre-visit?
-- [ ] How is insurance verified?
-- [ ] What's the new patient conversion rate (inquiry to scheduled)?
+- ☐ How are new patients registered? (Phone, online, in-office?)
+- ☐ What information is collected pre-visit?
+- ☐ How is insurance verified?
+- ☐ What's the new patient conversion rate (inquiry to scheduled)?
 
 **Staff & Knowledge**
-- [ ] Who holds institutional knowledge about intake processes?
-- [ ] What's the front desk tenure and turnover history?
-- [ ] Are there documented SOPs or is everything tribal knowledge?
-- [ ] What training do new front desk staff receive?
+- ☐ Who holds institutional knowledge about intake processes?
+- ☐ What's the front desk tenure and turnover history?
+- ☐ Are there documented SOPs or is everything tribal knowledge?
+- ☐ What training do new front desk staff receive?
 
 **Technology**
-- [ ] Is there a phone system with call tracking/recording?
-- [ ] Is online scheduling enabled?
-- [ ] What integrations exist (texting, reminders, forms)?
+- ☐ Is there a phone system with call tracking/recording?
+- ☐ Is online scheduling enabled?
+- ☐ What integrations exist (texting, reminders, forms)?
 
 ### Red Flags to Watch For
 

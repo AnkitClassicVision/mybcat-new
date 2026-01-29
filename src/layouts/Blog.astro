@@ -72,7 +72,8 @@ const authorInfo = authorData[author] || { role: '', image: '' };
   noindex={shouldNoindex}
 >
   <script slot="head" type="application/ld+json" set:html={serializeSchema(schema)} />
-  <article class="blog-post">
+  <main id="main-content">
+    <article class="blog-post">
     <header class="post-header">
       <div class="post-meta">
         <a href={`/blog/category/${categorySlug}/`} class="post-category">{category}</a>
@@ -218,6 +219,7 @@ const authorInfo = authorData[author] || { role: '', image: '' };
       </div>
     </section>
   </article>
+  </main>
 </Base>
 
 <style>
