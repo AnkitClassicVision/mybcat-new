@@ -12,7 +12,7 @@ import { getFAQsByCategory } from '@data/faq';
 
 <PageLayout
   title="HIPAA Compliant Answering Service | Medical Phone Service | MyBCAT"
-  description="HIPAA compliant medical answering service with signed BAA, encrypted communications, and US-based oversight. Your patient data security is non-negotiable."
+  description="HIPAA compliant medical answering service with signed BAA, encrypted communications, and US-based leadership. Your patient data security is non-negotiable."
   breadcrumbs={[
     { name: 'Home', url: '/' },
     { name: 'HIPAA Compliance' }
@@ -68,8 +68,8 @@ import { getFAQsByCategory } from '@data/faq';
               <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
             </svg>
           </div>
-          <h3>US-Based Management</h3>
-          <p>All operations overseen by US-based team with healthcare background</p>
+          <h3>US-Based Leadership</h3>
+          <p>US-based leadership + HIPAA-trained global delivery team with healthcare expertise</p>
         </div>
       </div>
     </section>
@@ -159,6 +159,141 @@ import { getFAQsByCategory } from '@data/faq';
           <p class="baa-note">The BAA is provided during onboarding and must be executed before service begins.</p>
         </div>
       </Card>
+    </section>
+
+    <!-- Enterprise Compliance Section -->
+    <section class="enterprise-compliance">
+      <div class="section-header">
+        <span class="eyebrow">Enterprise Security</span>
+        <h2>Enterprise-Grade Compliance Controls</h2>
+        <p>Additional security measures for multi-location healthcare groups</p>
+      </div>
+
+      <div class="compliance-grid">
+        <!-- Access Control Model -->
+        <div class="compliance-card" id="access-control">
+          <div class="compliance-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <h3>Access Control Model</h3>
+          <p class="compliance-intro">Role-based access that mirrors your internal security requirements.</p>
+          <ul class="compliance-list">
+            <li><strong>Location-Level Access:</strong> Agents only access systems for assigned locations</li>
+            <li><strong>Role Segregation:</strong> Schedulers, call handlers, and supervisors have different permission levels</li>
+            <li><strong>Principle of Least Privilege:</strong> Access limited to minimum required for job function</li>
+            <li><strong>Just-In-Time Access:</strong> Temporary elevated access for specific tasks when needed</li>
+            <li><strong>Automatic Deprovisioning:</strong> Access revoked within 24 hours of role change or termination</li>
+          </ul>
+        </div>
+
+        <!-- Audit Logs -->
+        <div class="compliance-card" id="audit-logs">
+          <div class="compliance-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+              <polyline points="10 9 9 9 8 9"/>
+            </svg>
+          </div>
+          <h3>Audit Logs</h3>
+          <p class="compliance-intro">Complete audit trail for compliance reporting and investigations.</p>
+          <ul class="compliance-list">
+            <li><strong>User Activity Logging:</strong> All system access, searches, and actions logged with timestamps</li>
+            <li><strong>PHI Access Tracking:</strong> Every patient record access logged by user, date, and purpose</li>
+            <li><strong>Login/Logout Records:</strong> Authentication events tracked across all systems</li>
+            <li><strong>Change Logs:</strong> Modifications to patient data, schedules, and configurations recorded</li>
+            <li><strong>Retention:</strong> Audit logs retained for minimum 6 years per HIPAA requirements</li>
+          </ul>
+        </div>
+
+        <!-- MFA Requirements -->
+        <div class="compliance-card" id="mfa">
+          <div class="compliance-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              <circle cx="12" cy="16" r="1"/>
+            </svg>
+          </div>
+          <h3>MFA Requirements</h3>
+          <p class="compliance-intro">Multi-factor authentication required for all PHI access.</p>
+          <ul class="compliance-list">
+            <li><strong>Universal MFA:</strong> All team members must authenticate with 2+ factors</li>
+            <li><strong>Supported Methods:</strong> Authenticator apps, hardware tokens, SMS backup</li>
+            <li><strong>Session Management:</strong> Automatic timeout after 15 minutes of inactivity</li>
+            <li><strong>Failed Login Lockout:</strong> Account locked after 5 failed attempts</li>
+            <li><strong>Biometric Option:</strong> Fingerprint/facial recognition for workstation access</li>
+          </ul>
+        </div>
+
+        <!-- Device Policies -->
+        <div class="compliance-card" id="device-policies">
+          <div class="compliance-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <h3>Device Policies</h3>
+          <p class="compliance-intro">Strict controls on devices that access patient information.</p>
+          <ul class="compliance-list">
+            <li><strong>Managed Devices Only:</strong> No personal devices access PHI—company-controlled equipment only</li>
+            <li><strong>Endpoint Encryption:</strong> Full disk encryption on all workstations</li>
+            <li><strong>USB Restrictions:</strong> Removable media blocked on all systems</li>
+            <li><strong>Screen Lock:</strong> Automatic screen lock after 2 minutes of inactivity</li>
+            <li><strong>Remote Wipe:</strong> Lost or stolen devices can be remotely wiped within hours</li>
+          </ul>
+        </div>
+
+        <!-- Incident Response -->
+        <div class="compliance-card full-width" id="incident-response">
+          <div class="compliance-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+              <line x1="12" y1="9" x2="12" y2="13"/>
+              <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+          </div>
+          <h3>Incident Response Procedures</h3>
+          <p class="compliance-intro">Documented procedures for identifying, containing, and reporting security incidents.</p>
+          <div class="incident-timeline">
+            <div class="incident-step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h4>Detection & Identification</h4>
+                <p>Automated monitoring alerts + human review to identify potential incidents within minutes</p>
+              </div>
+            </div>
+            <div class="incident-step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h4>Containment</h4>
+                <p>Immediate isolation of affected systems, access revocation, and scope assessment</p>
+              </div>
+            </div>
+            <div class="incident-step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h4>Client Notification</h4>
+                <p>Affected clients notified within 24 hours of confirmed incident per BAA requirements</p>
+              </div>
+            </div>
+            <div class="incident-step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h4>Remediation & Reporting</h4>
+                <p>Root cause analysis, corrective actions, and full incident report provided</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Security FAQs -->
@@ -357,12 +492,148 @@ import { getFAQsByCategory } from '@data/faq';
     font-style: italic;
   }
 
+  /* Enterprise Compliance Section */
+  .enterprise-compliance {
+    margin-bottom: 60px;
+  }
+
+  .enterprise-compliance .eyebrow {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .compliance-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .compliance-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 28px;
+  }
+
+  .compliance-card.full-width {
+    grid-column: 1 / -1;
+  }
+
+  .compliance-icon {
+    width: 56px;
+    height: 56px;
+    background: var(--glass-teal);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .compliance-card h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .compliance-intro {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+
+  .compliance-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .compliance-list li {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    padding: 8px 0;
+    border-bottom: 1px solid var(--glass-border);
+    line-height: 1.5;
+  }
+
+  .compliance-list li:last-child {
+    border-bottom: none;
+  }
+
+  .compliance-list strong {
+    color: var(--navy-900);
+  }
+
+  /* Incident Timeline */
+  .incident-timeline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .incident-step {
+    text-align: center;
+  }
+
+  .step-number {
+    width: 36px;
+    height: 36px;
+    background: var(--oceanic-teal);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 auto 12px;
+  }
+
+  .step-content h4 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 6px;
+  }
+
+  .step-content p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+  }
+
   .faq-section {
     margin-bottom: 60px;
   }
 
   .cta-section {
     margin-bottom: 40px;
+  }
+
+  @media (max-width: 900px) {
+    .compliance-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .incident-timeline {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .incident-timeline {
+      grid-template-columns: 1fr;
+    }
   }
 
   @media (max-width: 900px) {

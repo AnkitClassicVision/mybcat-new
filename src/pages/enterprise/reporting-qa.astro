@@ -1,0 +1,524 @@
+---
+/**
+ * Enterprise Reporting & QA Page
+ * Dashboards and quality assurance landing page
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Button from '@/components/Button.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { enterpriseCapabilityPages, getEnterpriseVerticalBySlug } from '@data/enterprise';
+
+const page = enterpriseCapabilityPages.find(p => p.slug === 'reporting-qa')!;
+
+const icons: Record<string, string> = {
+  'chart': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>',
+  'users': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>',
+  'map': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line></svg>',
+  'shield': '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>'
+};
+
+const dashboardMetrics = [
+  { name: 'Call Volume', description: 'Inbound calls by location, hour, and day' },
+  { name: 'Answer Rate', description: 'Percentage of calls answered within 3 rings' },
+  { name: 'Average Handle Time', description: 'Time spent per call by type' },
+  { name: 'Booking Rate', description: 'Calls that result in scheduled appointments' },
+  { name: 'First-Call Resolution', description: 'Issues resolved without callback' },
+  { name: 'Patient Satisfaction', description: 'Post-call survey scores' },
+  { name: 'Recall Success', description: 'Outbound recall campaign results' },
+  { name: 'Queue Time', description: 'How long patients wait before answer' }
+];
+---
+
+<PageLayout
+  title="Healthcare Call Center Reporting & QA | Dashboards | MyBCAT"
+  description={page.metaDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Enterprise', url: '/enterprise/' },
+    { name: 'Reporting & QA' }
+  ]}
+>
+  <div class="capability-page">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-eyebrow">Enterprise Capability</div>
+      <h1>{page.headline}</h1>
+      <p class="hero-tagline">{page.tagline}</p>
+      <p class="hero-problem">{page.problemStatement}</p>
+      <div class="hero-ctas">
+        <Button href="/contact/" variant="primary">Talk to Enterprise Team</Button>
+        <Button href="/enterprise/" variant="secondary">See All Enterprise Solutions</Button>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-section">
+      <div class="stats-grid">
+        {page.stats.map(stat => (
+          <div class="stat-item">
+            <div class="stat-value">{stat.value}</div>
+            <div class="stat-label">{stat.label}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Pain Points -->
+    <section class="pain-section">
+      <div class="section-header">
+        <div class="eyebrow">The Problem</div>
+        <h2>Why You're Flying Blind</h2>
+      </div>
+      <div class="pain-list">
+        {page.painPoints.map(point => (
+          <div class="pain-item">
+            <span class="pain-x">✕</span>
+            <span>{point}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Features/Solutions -->
+    <section class="features-section">
+      <div class="section-header">
+        <div class="eyebrow">The Solution</div>
+        <h2>Complete Visibility Into Phone Operations</h2>
+      </div>
+      <div class="features-grid">
+        {page.features.map(feature => (
+          <div class="feature-card">
+            <div class="feature-icon">
+              <Fragment set:html={icons[feature.icon] || icons.chart} />
+            </div>
+            <h3>{feature.title}</h3>
+            <p>{feature.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Dashboard Metrics -->
+    <section class="metrics-section">
+      <div class="section-header">
+        <div class="eyebrow">What You'll See</div>
+        <h2>Dashboard Metrics</h2>
+        <p class="section-subtitle">Real-time visibility into every aspect of your phone operations.</p>
+      </div>
+      <div class="metrics-grid">
+        {dashboardMetrics.map(metric => (
+          <div class="metric-card">
+            <h3>{metric.name}</h3>
+            <p>{metric.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- QA Process -->
+    <section class="qa-section">
+      <div class="qa-card">
+        <div class="qa-header">
+          <div class="eyebrow">Quality Assurance</div>
+          <h2>How We Maintain Call Quality</h2>
+        </div>
+        <div class="qa-grid">
+          <div class="qa-item">
+            <div class="qa-number">1</div>
+            <h3>Call Recording</h3>
+            <p>100% of calls recorded for review and training purposes.</p>
+          </div>
+          <div class="qa-item">
+            <div class="qa-number">2</div>
+            <h3>Weekly Audits</h3>
+            <p>Random sample of calls reviewed against quality scorecard.</p>
+          </div>
+          <div class="qa-item">
+            <div class="qa-number">3</div>
+            <h3>Agent Coaching</h3>
+            <p>Individual feedback sessions based on QA findings.</p>
+          </div>
+          <div class="qa-item">
+            <div class="qa-number">4</div>
+            <h3>Continuous Improvement</h3>
+            <p>Protocol updates based on trends and feedback.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Verticals -->
+    <section class="related-section">
+      <div class="section-header">
+        <div class="eyebrow">Industry Solutions</div>
+        <h2>Reporting for Your Industry</h2>
+      </div>
+      <div class="related-grid">
+        {page.relatedVerticals.map(slug => {
+          const vertical = getEnterpriseVerticalBySlug(slug);
+          return vertical && (
+            <a href={`/enterprise/${slug}/`} class="related-card">
+              <h3>{vertical.name}</h3>
+              <p>{vertical.tagline}</p>
+              <span class="related-link">Learn more →</span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <CTA
+      title="Ready to See Your Phone Operations Clearly?"
+      subtitle="Book a discovery call to see a live dashboard demo."
+      buttonText="Talk to Enterprise Team"
+      buttonHref="/contact/"
+    />
+  </div>
+</PageLayout>
+
+<style>
+  .capability-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .section-header h2 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .section-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 60px 0 40px;
+  }
+
+  .hero-eyebrow {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--oceanic-teal);
+    margin-bottom: 16px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .hero-tagline {
+    font-size: 1.25rem;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .hero-problem {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto 32px;
+    line-height: 1.7;
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Stats */
+  .stats-section {
+    padding: 40px 0;
+  }
+
+  .stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--oceanic-teal);
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+
+  /* Pain Points */
+  .pain-section {
+    padding: 60px 0;
+  }
+
+  .pain-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .pain-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(220, 53, 69, 0.08);
+    border: 1px solid rgba(220, 53, 69, 0.2);
+    padding: 12px 20px;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    color: var(--navy-900);
+  }
+
+  .pain-x {
+    color: #dc3545;
+    font-weight: 700;
+  }
+
+  /* Features */
+  .features-section {
+    padding: 60px 40px;
+    background: var(--glass-navy);
+    border-radius: 24px;
+    margin-bottom: 60px;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .feature-card {
+    background: white;
+    border-radius: 20px;
+    padding: 32px;
+  }
+
+  .feature-icon {
+    width: 56px;
+    height: 56px;
+    background: var(--glass-teal);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .feature-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .feature-card p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* Metrics Section */
+  .metrics-section {
+    padding: 60px 0;
+  }
+
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .metric-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  .metric-card h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 6px;
+  }
+
+  .metric-card p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* QA Section */
+  .qa-section {
+    padding: 60px 0;
+  }
+
+  .qa-card {
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.08) 0%, rgba(0, 96, 100, 0.02) 100%);
+    border: 2px solid var(--oceanic-teal);
+    border-radius: 24px;
+    padding: 48px;
+  }
+
+  .qa-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .qa-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+  }
+
+  .qa-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .qa-item {
+    text-align: center;
+  }
+
+  .qa-number {
+    width: 40px;
+    height: 40px;
+    background: var(--oceanic-teal);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 auto 12px;
+  }
+
+  .qa-item h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .qa-item p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  /* Related */
+  .related-section {
+    padding: 60px 0;
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .related-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 24px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .related-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 96, 100, 0.1);
+  }
+
+  .related-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .related-card p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
+
+  .related-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--oceanic-teal);
+  }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .metrics-grid,
+    .qa-grid,
+    .related-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .features-grid,
+    .metrics-grid,
+    .qa-grid,
+    .related-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .features-section {
+      padding: 40px 24px;
+    }
+
+    .qa-card {
+      padding: 32px 24px;
+    }
+  }
+</style>

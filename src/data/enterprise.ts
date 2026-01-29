@@ -405,6 +405,196 @@ export const enterpriseVerticals: EnterpriseVertical[] = [
   }
 ];
 
+// Enterprise capability pages (new landing pages for SEO)
+export interface EnterpriseCapabilityPage {
+  slug: string;
+  name: string;
+  headline: string;
+  tagline: string;
+  metaDescription: string;
+  primaryKeyword: string;
+  secondaryKeywords: string[];
+  icon: string;
+  problemStatement: string;
+  painPoints: string[];
+  features: EnterpriseFeature[];
+  stats: EnterpriseStat[];
+  relatedVerticals: string[];
+}
+
+export const enterpriseCapabilityPages: EnterpriseCapabilityPage[] = [
+  {
+    slug: 'patient-access-center',
+    name: 'Patient Access Center',
+    headline: 'Centralized Patient Access for Healthcare Groups',
+    tagline: 'One team. Every location. Every patient call handled right.',
+    metaDescription: 'Centralized patient access center for multi-location healthcare groups. Unified call handling, scheduling, and intake across all your locations.',
+    primaryKeyword: 'centralized patient access center',
+    secondaryKeywords: ['healthcare call center', 'patient access services', 'medical call handling'],
+    icon: 'phone',
+    problemStatement: 'When you have 5, 10, or 50+ locations, every location handling calls differently creates chaos. Patients get inconsistent experiences, staff turnover creates constant training gaps, and you have zero visibility into what\'s actually happening on the phones.',
+    painPoints: [
+      'Inconsistent patient experience across locations',
+      'High turnover means constant training',
+      'No unified reporting or visibility',
+      'Overflow calls go to voicemail',
+      'Adding new locations multiplies chaos'
+    ],
+    features: [
+      { title: 'Single Team, All Locations', description: 'Your dedicated team knows every location\'s protocols, providers, and systems. Patients get the same quality experience no matter which location they\'re calling.', icon: 'users' },
+      { title: 'Direct EHR Scheduling', description: 'We schedule directly into each location\'s system—Dentrix, Eyefinity, ModMed, or whatever you use. No callbacks, no delays.', icon: 'link' },
+      { title: 'Location-Specific Routing', description: 'Calls route intelligently based on the location called, service needed, and provider availability.', icon: 'map' },
+      { title: 'Unified Reporting Dashboard', description: 'See call volume, answer rates, booking rates, and patient satisfaction across all locations in one place.', icon: 'chart' }
+    ],
+    stats: [
+      { value: '100%', label: 'Calls Answered' },
+      { value: '<3', label: 'Rings to Answer' },
+      { value: '50+', label: 'EHR Integrations' }
+    ],
+    relatedVerticals: ['dso', 'optometry-groups', 'veterinary-groups', 'urgent-care-chains']
+  },
+  {
+    slug: 'centralized-scheduling',
+    name: 'Centralized Scheduling',
+    headline: 'Multi-Location Scheduling That Actually Works',
+    tagline: 'Fill schedules across all locations from one coordinated team.',
+    metaDescription: 'Centralized scheduling for multi-location healthcare groups. Direct EHR booking, provider preference management, and optimized scheduling across all your practices.',
+    primaryKeyword: 'multi-location scheduling',
+    secondaryKeywords: ['centralized healthcare scheduling', 'medical appointment scheduling', 'practice management scheduling'],
+    icon: 'calendar',
+    problemStatement: 'Scheduling across multiple locations is a nightmare. Different systems, different provider preferences, different availability—and when one location is overbooked while another has openings, patients wait unnecessarily.',
+    painPoints: [
+      'Different scheduling systems at different locations',
+      'Provider preferences not communicated',
+      'Can\'t balance capacity across locations',
+      'Double-bookings and scheduling errors',
+      'New patients lost to booking friction'
+    ],
+    features: [
+      { title: 'Multi-System Expertise', description: 'We work in Dentrix, Eaglesoft, Eyefinity, Crystal PM, Cornerstone, and 50+ other systems. One team handles all your systems.', icon: 'link' },
+      { title: 'Provider Preference Management', description: 'We know which providers want buffer time, who sees complex cases, and who prefers certain appointment types.', icon: 'users' },
+      { title: 'Cross-Location Optimization', description: 'When one location is full, we route patients to nearby locations with availability. Maximum efficiency, minimum patient wait.', icon: 'map' },
+      { title: 'Real-Time Availability', description: 'Live access to each location\'s schedule means we book accurately, every time. No callbacks to confirm.', icon: 'clock' }
+    ],
+    stats: [
+      { value: '98%', label: 'First-Call Resolution' },
+      { value: '35%', label: 'Reduction in No-Shows' },
+      { value: '50+', label: 'Systems We Use' }
+    ],
+    relatedVerticals: ['dso', 'optometry-groups', 'urgent-care-chains']
+  },
+  {
+    slug: 'multi-location-recall',
+    name: 'Multi-Location Recall',
+    headline: 'Patient Recall at Scale',
+    tagline: 'Systematic outreach that brings patients back across all your locations.',
+    metaDescription: 'Multi-location patient recall services for healthcare groups. Hygiene recall, annual exams, wellness visits—systematically handled across all your practices.',
+    primaryKeyword: 'multi-location patient recall',
+    secondaryKeywords: ['dental hygiene recall', 'patient reactivation', 'wellness recall campaigns'],
+    icon: 'refresh',
+    problemStatement: 'Recall is the first thing that slips when front desks get busy. Patients due for hygiene cleanings, annual exams, and wellness visits fall through the cracks—and that\'s revenue walking out the door.',
+    painPoints: [
+      'Front desk too busy for proactive outreach',
+      'Inconsistent recall efforts across locations',
+      'Patients due for care not being contacted',
+      'No visibility into recall rates by location',
+      'Revenue lost to lapsed patients'
+    ],
+    features: [
+      { title: 'Systematic Outreach', description: 'We don\'t wait for patients to remember—we proactively reach out when they\'re due for care. Hygiene, annual exams, wellness visits.', icon: 'phone' },
+      { title: 'Multi-Channel Contact', description: 'Phone calls, text reminders, email follow-ups—we use the channel most likely to reach each patient.', icon: 'users' },
+      { title: 'Location-Level Reporting', description: 'See recall rates, contact rates, and reactivation success for each location. Identify which locations need attention.', icon: 'chart' },
+      { title: 'Integrated Scheduling', description: 'When patients are ready to book, we schedule them immediately. No handoffs, no delays, no lost opportunities.', icon: 'calendar' }
+    ],
+    stats: [
+      { value: '40%', label: 'Increase in Recall Rate' },
+      { value: '25%', label: 'Patient Reactivation' },
+      { value: '3x', label: 'ROI on Recall Campaigns' }
+    ],
+    relatedVerticals: ['dso', 'optometry-groups', 'veterinary-groups']
+  },
+  {
+    slug: 'reporting-qa',
+    name: 'Reporting & QA',
+    headline: 'Visibility Across All Your Locations',
+    tagline: 'Dashboards, scorecards, and QA that keep your operations on track.',
+    metaDescription: 'Enterprise reporting and QA for multi-location healthcare groups. Call analytics, agent scorecards, and quality assurance across all your practices.',
+    primaryKeyword: 'healthcare call center reporting',
+    secondaryKeywords: ['QA dashboards', 'call center scorecards', 'patient access analytics'],
+    icon: 'chart',
+    problemStatement: 'You can\'t improve what you can\'t measure. Most multi-location groups have no idea how their phone operations are performing—call volume, answer rates, booking rates, patient satisfaction. You\'re flying blind.',
+    painPoints: [
+      'No visibility into call handling across locations',
+      'Can\'t identify underperforming locations',
+      'Quality varies without QA processes',
+      'No data to support staffing decisions',
+      'Patient complaints surface too late'
+    ],
+    features: [
+      { title: 'Real-Time Dashboards', description: 'See call volume, answer rates, average handle time, and booking rates across all locations—updated in real time.', icon: 'chart' },
+      { title: 'Agent Scorecards', description: 'Track individual agent performance on call quality, patient satisfaction, and key metrics. Identify coaching opportunities.', icon: 'users' },
+      { title: 'Location Comparisons', description: 'Compare performance across locations. See which sites are excelling and which need support.', icon: 'map' },
+      { title: 'QA Call Reviews', description: 'Regular call audits ensure quality stays high. We share feedback and continuously improve.', icon: 'shield' }
+    ],
+    stats: [
+      { value: '100%', label: 'Call Recording' },
+      { value: 'Weekly', label: 'QA Reviews' },
+      { value: 'Real-Time', label: 'Dashboard Updates' }
+    ],
+    relatedVerticals: ['dso', 'optometry-groups', 'veterinary-groups', 'urgent-care-chains']
+  }
+];
+
+// Rollout timeline for enterprise implementations
+export const enterpriseRolloutTimeline = {
+  phases: [
+    {
+      phase: 'Discovery',
+      duration: 'Week 1',
+      description: 'Map locations, systems, and workflows',
+      activities: ['EHR/PM system inventory', 'Workflow documentation', 'Protocol capture', 'Team introductions']
+    },
+    {
+      phase: 'Pilot Setup',
+      duration: 'Week 2-3',
+      description: 'Configure and launch 1-2 pilot locations',
+      activities: ['System access setup', 'Protocol training', 'Call routing configuration', 'Go-live with pilot sites']
+    },
+    {
+      phase: 'Pilot Optimization',
+      duration: 'Week 4-6',
+      description: 'Refine processes based on pilot learnings',
+      activities: ['Performance review', 'Protocol adjustments', 'Team calibration', 'Reporting setup']
+    },
+    {
+      phase: 'Phased Rollout',
+      duration: 'Week 7+',
+      description: 'Expand to remaining locations',
+      activities: ['Add 2-3 locations per week', 'Ongoing QA and training', 'Dashboard expansion', 'Continuous improvement']
+    }
+  ],
+  successMetrics: {
+    day30: [
+      'Pilot locations fully operational',
+      'Call answer rate >95%',
+      'First-call resolution >90%',
+      'Team handling protocols independently'
+    ],
+    day60: [
+      '50% of locations onboarded',
+      'Reporting dashboard live',
+      'QA process established',
+      'Patient satisfaction baseline set'
+    ],
+    day90: [
+      'All locations live',
+      'Performance targets met',
+      'Recall campaigns launched',
+      'ROI metrics documented'
+    ]
+  }
+};
+
 // Helper functions
 export function getEnterpriseVerticalBySlug(slug: string): EnterpriseVertical | undefined {
   return enterpriseVerticals.find(v => v.slug === slug);
@@ -412,4 +602,12 @@ export function getEnterpriseVerticalBySlug(slug: string): EnterpriseVertical | 
 
 export function getAllEnterpriseVerticalSlugs(): string[] {
   return enterpriseVerticals.map(v => v.slug);
+}
+
+export function getEnterpriseCapabilityBySlug(slug: string): EnterpriseCapabilityPage | undefined {
+  return enterpriseCapabilityPages.find(p => p.slug === slug);
+}
+
+export function getAllEnterpriseCapabilitySlugs(): string[] {
+  return enterpriseCapabilityPages.map(p => p.slug);
 }

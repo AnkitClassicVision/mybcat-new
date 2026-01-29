@@ -126,6 +126,39 @@ const professionalServiceSchema = generateProfessionalServiceSchema();
       </div>
     </section>
 
+    <!-- Enterprise Trust Block -->
+    <section class="enterprise-trust-section">
+      <div class="container">
+        <Card variant="pricing" class="enterprise-trust-card">
+          <div class="trust-block-content">
+            <h2>Enterprise-Grade Compliance with a Global Team</h2>
+            <p class="trust-intro">How do we maintain HIPAA compliance with a distributed team? The same way enterprise healthcare organizations do it.</p>
+            <div class="trust-grid">
+              <div class="trust-item">
+                <h4>US-Based Leadership</h4>
+                <p>All operations managed by US-based team with healthcare background. Every workflow designed and supervised from Atlanta.</p>
+              </div>
+              <div class="trust-item">
+                <h4>HIPAA-Trained Global Team</h4>
+                <p>Every team member completes HIPAA certification and annual recertification. Confidentiality agreements signed before any patient access.</p>
+              </div>
+              <div class="trust-item">
+                <h4>Enterprise Security Controls</h4>
+                <p>Role-based access, MFA required, audit logging, encrypted VPN connections. Patient data never leaves your systems.</p>
+              </div>
+              <div class="trust-item">
+                <h4>Continuous QA & Calibration</h4>
+                <p>Weekly calibration sessions, call monitoring, location-specific scorecards. Same standards as in-house staff—often higher.</p>
+              </div>
+            </div>
+            <div class="trust-cta">
+              <a href="/hipaa-compliance/" class="trust-link">View our full HIPAA compliance details →</a>
+            </div>
+          </div>
+        </Card>
+      </div>
+    </section>
+
     <!-- Values Section -->
     <section class="values-section">
       <div class="container">
@@ -344,6 +377,81 @@ const professionalServiceSchema = generateProfessionalServiceSchema();
   .social-links a:hover {
     background: var(--oceanic-teal);
     color: white;
+  }
+
+  /* Enterprise Trust Section */
+  .enterprise-trust-section {
+    padding: 40px 0 80px;
+  }
+
+  :global(.enterprise-trust-card) {
+    padding: 48px;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.05) 0%, rgba(0, 96, 100, 0.02) 100%);
+    border: 2px solid var(--oceanic-teal);
+  }
+
+  .trust-block-content h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .trust-intro {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 32px;
+  }
+
+  .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .trust-item {
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+  }
+
+  .trust-item h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .trust-item p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .trust-cta {
+    text-align: center;
+  }
+
+  .trust-link {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .trust-link:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .trust-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
   /* Timeline Section */

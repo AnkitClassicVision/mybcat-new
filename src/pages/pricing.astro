@@ -13,19 +13,43 @@ import { getFAQsByCategory } from '@data/faq';
 ---
 
 <PageLayout
-  title="Medical Answering Service Pricing | MyBCAT"
-  description="Medical answering service pricing from $490/week. Transparent plans for healthcare practices, single to multi-site."
+  title="Enterprise Healthcare Pricing | Multi-Location Patient Access | MyBCAT"
+  description="Enterprise healthcare pricing for multi-location groups. From $2,500/week base for centralized patient access across all your locations."
   breadcrumbs={[
     { name: 'Home', url: '/' },
     { name: 'Pricing' }
   ]}
-  heroEyebrow="Medical Answering Service Pricing"
-  heroTitle="Plans That Scale With You"
-  heroSubtitle="Simple medical answering service pricing based on your practice size. No hidden fees, no per-call charges."
+  heroEyebrow="Enterprise Healthcare Pricing"
+  heroTitle="One Investment. Every Location Covered."
+  heroSubtitle="Centralized patient access pricing for healthcare groups. No per-location surprises, no per-call charges—just one team handling all your locations."
 >
   <div class="pricing-page">
+    <!-- Enterprise Callout -->
+    <section class="enterprise-callout">
+      <div class="enterprise-box">
+        <div class="enterprise-badge">Most Groups Start Here</div>
+        <h2>Multi-Location Healthcare Groups</h2>
+        <p class="enterprise-desc">3+ locations? We centralize your patient access operations across all sites with unified reporting, single-team consistency, and rollout support for acquisitions.</p>
+        <div class="enterprise-pricing">
+          <span class="price">From $2,500</span>
+          <span class="period">/week base</span>
+        </div>
+        <ul class="enterprise-includes">
+          <li><span class="check">&#10003;</span> Pilot 1-2 locations first</li>
+          <li><span class="check">&#10003;</span> Unified reporting by location</li>
+          <li><span class="check">&#10003;</span> Scale at your pace</li>
+          <li><span class="check">&#10003;</span> 30-day pilot available</li>
+        </ul>
+        <a href="/contact/" class="enterprise-cta">Talk to Enterprise Team</a>
+      </div>
+    </section>
+
     <!-- Pricing Tiers -->
     <section class="tiers-section">
+      <div class="tiers-header">
+        <h2>All Plans</h2>
+        <p>From single practices to enterprise groups</p>
+      </div>
       <Pricing tiers={pricingTiers} title="" eyebrow="" />
     </section>
 
@@ -110,14 +134,14 @@ import { getFAQsByCategory } from '@data/faq';
         <div class="cost-card highlight">
           <div class="best-value">Best Value</div>
           <h3>My Business Care Team</h3>
-          <div class="cost-value">$25,480<span>/year</span></div>
+          <div class="cost-value">From $10,500<span>/month</span></div>
           <ul class="cost-details">
             <li>Full managed team, always covered</li>
             <li>Business hours to 24/7 options</li>
             <li>Books directly into your EHR</li>
             <li>We manage everything</li>
           </ul>
-          <p class="savings">Save $19,000+/year vs hiring</p>
+          <p class="savings">Replaces 2-3 FTEs across locations</p>
         </div>
         <div class="cost-card">
           <h3>Cheap Answering Service</h3>
@@ -216,8 +240,125 @@ import { getFAQsByCategory } from '@data/faq';
     padding: 0 24px 80px;
   }
 
+  .enterprise-callout {
+    margin-bottom: 60px;
+  }
+
+  .enterprise-box {
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.08) 0%, rgba(0, 96, 100, 0.02) 100%);
+    border: 2px solid var(--oceanic-teal);
+    border-radius: 24px;
+    padding: 48px;
+    text-align: center;
+    position: relative;
+  }
+
+  .enterprise-badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--oceanic-teal);
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 20px;
+    border-radius: 999px;
+  }
+
+  .enterprise-box h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .enterprise-desc {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 24px;
+  }
+
+  .enterprise-pricing {
+    margin-bottom: 24px;
+  }
+
+  .enterprise-pricing .price {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--oceanic-teal);
+  }
+
+  .enterprise-pricing .period {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .enterprise-includes {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 32px;
+    max-width: 500px;
+  }
+
+  .enterprise-includes li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    color: var(--navy-900);
+    font-weight: 500;
+  }
+
+  .enterprise-includes .check {
+    color: var(--oceanic-teal);
+    font-weight: 700;
+  }
+
+  .enterprise-cta {
+    display: inline-block;
+    padding: 16px 32px;
+    background: var(--oceanic-teal);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .enterprise-cta:hover {
+    background: var(--navy-900);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 96, 100, 0.3);
+  }
+
   .tiers-section {
     margin-bottom: 60px;
+  }
+
+  .tiers-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .tiers-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .tiers-header p {
+    font-size: 1rem;
+    color: var(--text-secondary);
   }
 
   .comparison-section {

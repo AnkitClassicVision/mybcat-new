@@ -23,7 +23,7 @@ const buildCosts = [
 const buildTotal = '$38,500';
 
 const buyCosts = [
-  { item: 'Managed Service', monthly: 'From $2,500', notes: 'Scales with call volume' },
+  { item: 'Managed Service', monthly: 'From $10,500', notes: 'Enterprise: $2,500/week base' },
   { item: 'Management Overhead', monthly: '$0', notes: 'We handle everything' },
   { item: 'Phone System', monthly: 'Included', notes: 'We provide infrastructure' },
   { item: 'Software & EHR Access', monthly: 'Included', notes: 'We train on your systems' },
@@ -32,7 +32,7 @@ const buyCosts = [
   { item: 'QA & Compliance', monthly: 'Included', notes: 'Daily monitoring' }
 ];
 
-const buyTotal = 'From $2,500';
+const buyTotal = 'From $10,500';
 
 // Feature comparison
 const features = [
@@ -188,10 +188,14 @@ const buyWhen = [
       <div class="savings-callout">
         <div class="savings-content">
           <span class="savings-label">Potential Monthly Savings</span>
-          <span class="savings-value">$36,000+</span>
+          <span class="savings-value">$28,000+</span>
           <span class="savings-note">Plus reduced management burden and risk</span>
         </div>
       </div>
+      <p class="pricing-note">
+        *Enterprise pricing starts at $2,500/week (~$10,500/month). Volume-based adjustments available.
+        <a href="/pricing/">See full pricing details →</a>
+      </p>
     </section>
 
     <!-- Feature Comparison -->
@@ -574,6 +578,18 @@ const buyWhen = [
   .savings-note {
     font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.7);
+  }
+
+  .pricing-note {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: 16px;
+  }
+
+  .pricing-note a {
+    color: var(--oceanic-teal);
+    font-weight: 600;
   }
 
   /* Feature Comparison */

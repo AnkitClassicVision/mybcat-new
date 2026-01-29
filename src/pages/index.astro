@@ -70,18 +70,18 @@ const clientLogos = [
   <main class="homepage">
     <!-- Hero Section with Video -->
     <Hero
-      title="Every Missed Call Is a Lost Patient"
-      tagline="We answer your overflow calls and book directly into your EHR—your patients never know the difference."
-      description="When your front desk is with a patient, we pick up the phone. We schedule appointments in Eyefinity, Dentrix, ModMed, and 50+ systems. No voicemail. No callbacks. No lost revenue."
-      ctaText="Book a Demo"
+      title="Centralized Patient Access for Multi-Location Healthcare Groups"
+      tagline="One team handles calls, scheduling, and intake across all your locations—patients never know the difference."
+      description="From 3 locations to 300, we centralize your patient operations. Direct scheduling into Eyefinity, Dentrix, ModMed, and 50+ systems. Unified reporting. Consistent patient experience. No staffing headaches."
+      ctaText="Talk to Enterprise Team"
       ctaHref="/contact/"
-      secondaryText="See how it works"
-      secondaryHref="/how-it-works/"
+      secondaryText="See How It Works"
+      secondaryHref="/enterprise/"
       showBrand={true}
       benefits={[
-        { icon: 'dollar', text: 'Recover $100K+ in revenue' },
-        { icon: 'link', text: 'Direct EHR booking' },
-        { icon: 'clock', text: '24/7 live coverage' }
+        { icon: 'check', text: 'Pilot 1-2 locations first' },
+        { icon: 'chart', text: 'Unified reporting by location' },
+        { icon: 'growth', text: 'Rollouts for acquisitions' }
       ]}
       trustItems={[
         { icon: 'shield', text: 'HIPAA Compliant' },
@@ -103,6 +103,49 @@ const clientLogos = [
       headline="87%"
       headlineColor="gold"
     />
+
+    <!-- Enterprise Callout - Moved above Solutions for enterprise-first positioning -->
+    <section class="enterprise-callout">
+      <div class="enterprise-content">
+        <div class="enterprise-badge">For 3+ Locations</div>
+        <h2>Enterprise Patient Access Operations</h2>
+        <p>Centralize patient operations across all your locations. One team, consistent experience, unified reporting by location.</p>
+        <div class="enterprise-features">
+          <div class="enterprise-feature">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Pilot 1-2 Locations First</span>
+          </div>
+          <div class="enterprise-feature">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>50+ EHR Integrations</span>
+          </div>
+          <div class="enterprise-feature">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Rollouts for Acquisitions</span>
+          </div>
+        </div>
+        <div class="enterprise-ctas">
+          <Button href="/contact/" variant="primary">Talk to Enterprise Team</Button>
+          <Button href="/enterprise/" variant="secondary">See How It Works</Button>
+        </div>
+      </div>
+      <div class="enterprise-verticals">
+        <a href="/enterprise/dso/" class="vertical-link">DSOs & Dental Groups</a>
+        <a href="/enterprise/optometry-groups/" class="vertical-link">Optometry Groups</a>
+        <a href="/enterprise/veterinary-groups/" class="vertical-link">Veterinary Groups</a>
+        <a href="/enterprise/urgent-care-chains/" class="vertical-link">Urgent Care Chains</a>
+      </div>
+    </section>
+
+    <!-- Key Links for Enterprise Buyers -->
+    <section class="enterprise-links">
+      <div class="links-row">
+        <a href="/enterprise/" class="key-link">Enterprise Solutions</a>
+        <a href="/hipaa-compliance/" class="key-link">HIPAA Compliance</a>
+        <a href="/solutions/integrations/" class="key-link">EHR Integrations</a>
+        <a href="/case-studies/dittman-eye-care/" class="key-link">Case Study: 5-Location Group</a>
+      </div>
+    </section>
 
     <!-- Solutions Overview -->
     <section class="solutions-overview">
@@ -172,36 +215,6 @@ const clientLogos = [
       eyebrow="Industries We Serve"
       subtitle="We understand your EHR, your insurance workflows, and your patients."
     />
-
-    <!-- Enterprise Callout -->
-    <section class="enterprise-callout">
-      <div class="enterprise-content">
-        <div class="enterprise-badge">Multi-Location</div>
-        <h2>Scaling to Multiple Locations?</h2>
-        <p>Centralize patient operations across 5, 50, or 500 locations. One team, consistent experience, unified reporting.</p>
-        <div class="enterprise-features">
-          <div class="enterprise-feature">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            <span>Multi-System Integration</span>
-          </div>
-          <div class="enterprise-feature">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            <span>Centralized Reporting</span>
-          </div>
-          <div class="enterprise-feature">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            <span>Scalable Infrastructure</span>
-          </div>
-        </div>
-        <Button href="/enterprise/" variant="primary">Explore Enterprise Solutions</Button>
-      </div>
-      <div class="enterprise-verticals">
-        <a href="/enterprise/dso/" class="vertical-link">DSOs & Dental Groups</a>
-        <a href="/enterprise/optometry-groups/" class="vertical-link">Optometry Groups</a>
-        <a href="/enterprise/veterinary-groups/" class="vertical-link">Veterinary Groups</a>
-        <a href="/enterprise/urgent-care-chains/" class="vertical-link">Urgent Care Chains</a>
-      </div>
-    </section>
 
     <!-- How It Works -->
     <ProcessSteps
@@ -450,16 +463,55 @@ const clientLogos = [
     }
   }
 
+  /* Enterprise Links */
+  .enterprise-links {
+    padding: 24px 0;
+    margin-bottom: 20px;
+  }
+
+  .links-row {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .key-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 999px;
+    color: var(--navy-900);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+
+  .key-link:hover {
+    border-color: var(--oceanic-teal);
+    background: var(--glass-teal);
+    color: var(--oceanic-teal);
+  }
+
   /* Enterprise Callout */
   .enterprise-callout {
     background: var(--glass-navy);
     border-radius: 24px;
     padding: 48px;
-    margin: 60px 0;
+    margin: 40px 0 60px;
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 40px;
     align-items: center;
+  }
+
+  .enterprise-ctas {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
   }
 
   .enterprise-badge {

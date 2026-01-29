@@ -49,6 +49,22 @@ export const mainNavigation: NavItem[] = [
     ]
   },
   {
+    label: 'Enterprise',
+    href: '/enterprise/',
+    children: [
+      { label: 'Enterprise Overview', href: '/enterprise/', description: 'Multi-location solutions' },
+      { label: 'Patient Access Center', href: '/enterprise/patient-access-center/', description: 'Centralized call handling' },
+      { label: 'Centralized Scheduling', href: '/enterprise/centralized-scheduling/', description: 'Multi-location booking' },
+      { label: 'Multi-Location Recall', href: '/enterprise/multi-location-recall/', description: 'Recall at scale' },
+      { label: 'Reporting & QA', href: '/enterprise/reporting-qa/', description: 'Dashboards & scorecards' },
+      { label: 'DSOs & Dental Groups', href: '/enterprise/dso/' },
+      { label: 'Optometry Groups', href: '/enterprise/optometry-groups/' },
+      { label: 'Veterinary Groups', href: '/enterprise/veterinary-groups/' },
+      { label: 'Urgent Care Chains', href: '/enterprise/urgent-care-chains/' },
+      { label: 'Build vs Buy Analysis', href: '/compare/build-vs-buy/', description: 'Cost comparison' }
+    ]
+  },
+  {
     label: 'Industries',
     href: '/industries/',
     children: [
@@ -59,18 +75,6 @@ export const mainNavigation: NavItem[] = [
       { label: 'Dermatology', href: '/industries/dermatology/' },
       { label: 'Urgent Care', href: '/industries/urgent-care/' },
       { label: 'ENT & Audiology', href: '/industries/ent/' }
-    ]
-  },
-  {
-    label: 'Enterprise',
-    href: '/enterprise/',
-    children: [
-      { label: 'Enterprise Overview', href: '/enterprise/', description: 'Multi-location solutions' },
-      { label: 'DSOs & Dental Groups', href: '/enterprise/dso/' },
-      { label: 'Optometry Groups', href: '/enterprise/optometry-groups/' },
-      { label: 'Veterinary Groups', href: '/enterprise/veterinary-groups/' },
-      { label: 'Urgent Care Chains', href: '/enterprise/urgent-care-chains/' },
-      { label: 'Build vs Buy Analysis', href: '/compare/build-vs-buy/', description: 'Cost comparison' }
     ]
   },
   {
@@ -151,7 +155,7 @@ export const footerNavigation = {
 
 // CTA button configuration
 export const ctaButton = {
-  label: 'Get My Schedule Filled',
+  label: 'Talk to Enterprise Team',
   href: '/contact/',
-  mobileLabel: 'Book Call'
+  mobileLabel: 'Contact Us'
 };
