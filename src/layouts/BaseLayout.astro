@@ -151,10 +151,13 @@ const isHomepage = pathname === '/';
   <slot name="head" />
 </head>
 <body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
   <GoogleTagManagerNoScript />
   {navMode !== 'hidden' && <Nav currentPath={Astro.url.pathname} />}
 
-  <slot />
+  <main id="main-content">
+    <slot />
+  </main>
 
   <Footer />
 

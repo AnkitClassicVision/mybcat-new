@@ -79,7 +79,12 @@ const fullCanonical = canonical
     "name": "My Business Care Team",
     "alternateName": "MyBCAT",
     "url": siteUrl,
-    "logo": `${siteUrl}/images/logo.webp`,
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${siteUrl}/images/logo.webp`,
+      "width": 300,
+      "height": 60
+    },
     "description": "Medical operations partner helping healthcare practices capture every call and fill every appointment slot.",
     "address": {
       "@type": "PostalAddress",
@@ -108,7 +113,9 @@ const fullCanonical = canonical
       "name": "My Business Care Team",
       "logo": {
         "@type": "ImageObject",
-        "url": `${siteUrl}/images/logo.webp`
+        "url": `${siteUrl}/images/logo.webp`,
+        "width": 300,
+        "height": 60
       }
     },
     "mainEntityOfPage": {

@@ -44,6 +44,10 @@ const categoryMeta: Record<string, { title: string; description: string; }> = {
     title: 'Practice Growth & Revenue',
     description: 'Strategies for growing your healthcare practice, increasing patient acquisition, and maximizing revenue opportunities.'
   },
+  'Practice Growth': {
+    title: 'Practice Growth Strategies',
+    description: 'Proven strategies for scaling your healthcare practice, from patient acquisition to revenue optimization.'
+  },
   'Industry': {
     title: 'Industry News & Trends',
     description: 'Stay updated on healthcare industry trends, regulations, and developments affecting medical and specialty practices.'
@@ -51,6 +55,22 @@ const categoryMeta: Record<string, { title: string; description: string; }> = {
   'Practice Management': {
     title: 'Practice Management',
     description: 'Comprehensive guides on starting, managing, and growing a successful healthcare practice including equipment, staffing, location, and finances.'
+  },
+  'Analytics': {
+    title: 'Analytics & Data Insights',
+    description: 'Data-driven insights, KPI tracking, and analytics strategies for optimizing healthcare practice performance.'
+  },
+  'Case Study': {
+    title: 'Case Studies',
+    description: 'Real-world success stories and case studies from healthcare practices using MyBCAT solutions.'
+  },
+  'Optometry': {
+    title: 'Optometry Practice Insights',
+    description: 'Specialized content for optometry practices covering patient care, operations, and growth strategies.'
+  },
+  'Dental': {
+    title: 'Dental Practice Insights',
+    description: 'Specialized content for dental practices covering patient experience, operations, and practice growth.'
   }
 };
 
@@ -63,7 +83,12 @@ export function getStaticPaths() {
     { params: { category: 'patient-experience' } },
     { params: { category: 'operations' } },
     { params: { category: 'growth' } },
+    { params: { category: 'practice-growth' } },
     { params: { category: 'practice-management' } },
+    { params: { category: 'analytics' } },
+    { params: { category: 'case-study' } },
+    { params: { category: 'optometry' } },
+    { params: { category: 'dental' } },
   ];
 }
 
@@ -77,8 +102,13 @@ function slugToCategory(slug: string): string {
     'patient-experience': 'Patient Experience',
     'operations': 'Operations',
     'growth': 'Growth',
+    'practice-growth': 'Practice Growth',
     'industry': 'Industry',
     'practice-management': 'Practice Management',
+    'analytics': 'Analytics',
+    'case-study': 'Case Study',
+    'optometry': 'Optometry',
+    'dental': 'Dental',
   };
   return mapping[slug] || slug;
 }

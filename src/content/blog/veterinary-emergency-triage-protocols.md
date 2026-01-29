@@ -454,7 +454,7 @@ Multi-location veterinary groups face a specific challenge: ensuring consistent 
 
 **Regular calibration.** Monthly review of call recordings from all locations to ensure consistency.
 
-**Centralized overflow.** When local staff are unavailable, calls route to a centralized team using the same protocols. For guidance on centralized vs. distributed models, see our [multi-location intake guide](/blog/multi-location-healthcare-intake-guide/). According to the [AVMA](https://www.avma.org/resources-tools/reports-statistics/market-research-statistics-veterinarians), veterinary practices lose significant revenue from mishandled calls. Our [missed calls revenue analysis](/blog/missed-calls-revenue-leak-multi-location-healthcare/) shows the financial impact. For KPI tracking across locations, see our [intake KPI dashboard guide](/blog/kpi-dashboard-multi-location-intake/).
+**Centralized overflow.** When local staff are unavailable, calls route to a centralized team using the same protocols. For guidance on centralized vs. distributed models, see our [multi-location intake guide](/blog/multi-location-healthcare-intake-guide/). According to the [AVMA](https://www.avma.org/resources-tools/reports-statistics), veterinary practices lose significant revenue from mishandled calls. Our [missed calls revenue analysis](/blog/missed-calls-revenue-leak-multi-location-healthcare/) shows the financial impact. For KPI tracking across locations, see our [intake KPI dashboard guide](/blog/kpi-dashboard-multi-location-intake/).
 
 ### Technology Requirements
 
@@ -552,4 +552,4 @@ If you want help standardizing triage across locations (including after-hours ro
 
 *Disclaimer: This article provides a general framework for phone triage operations. All triage protocols should be reviewed and approved by your practice's medical director. This content is not intended as veterinary medical advice, and actual clinical decisions should be made by licensed veterinarians.*
 
-*Sources: [AVMA - Market Research and Statistics](https://www.avma.org/resources-tools/reports-statistics/market-research-statistics-veterinarians), [VetFolio - Implementing a Triage Protocol](https://www.vetfolio.com/learn/article/back-to-basics-implementing-a-triage-protocol), [Dispomed - Veterinary Triage Protocol Best Practices](https://www.dispomed.com/veterinary-triage-protocol-best-practices-for-front-office-staff/)*
+*Sources: [AVMA - Reports and Statistics](https://www.avma.org/resources-tools/reports-statistics), [VetFolio - Implementing a Triage Protocol](https://www.vetfolio.com/learn/article/back-to-basics-implementing-a-triage-protocol), [Dispomed - Veterinary Triage Protocol Best Practices](https://www.dispomed.com/veterinary-triage-protocol-best-practices-for-front-office-staff/)*
