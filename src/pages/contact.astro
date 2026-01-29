@@ -35,10 +35,22 @@ const professionalServiceSchema = generateProfessionalServiceSchema();
     <div class="contact-grid">
       <!-- Contact Form -->
       <div class="form-section">
+        <!-- Enterprise Qualifier -->
+        <div class="enterprise-qualifier">
+          <div class="qualifier-label">We Work With</div>
+          <div class="qualifier-tags">
+            <span class="qualifier-tag">DSOs</span>
+            <span class="qualifier-tag">Optometry Groups</span>
+            <span class="qualifier-tag">Veterinary Chains</span>
+            <span class="qualifier-tag">Multi-Location Practices</span>
+            <span class="qualifier-tag highlight">3+ Locations</span>
+          </div>
+        </div>
+
         <Card variant="pricing" class="form-card">
           <h2>Get Started Today</h2>
           <p class="form-description">
-            Tell us about your practice and we'll reach out within 24 hours to schedule your discovery call.
+            Tell us about your group and we'll reach out within 24 hours to discuss your centralized patient access strategy.
           </p>
           <div class="hubspot-form-wrapper">
             <!-- Loading skeleton shown while form loads -->
@@ -119,6 +131,29 @@ const professionalServiceSchema = generateProfessionalServiceSchema();
           </div>
         </Card>
 
+        <Card variant="testimonial" class="info-card enterprise-questions-card">
+          <h3>Be Ready to Discuss</h3>
+          <p class="prep-text">Our discovery calls work best when you can share:</p>
+          <ul class="prep-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+              <span>Number of locations & monthly call volume</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+              <span>Current EHR/PM systems (we integrate with 50+)</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+              <span>Primary pain point (staffing, answer rate, consistency)</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+              <span>Timeline for decision (pilot or full rollout)</span>
+            </li>
+          </ul>
+        </Card>
+
         <Card variant="testimonial" class="info-card not-ready-card">
           <h3>Not Ready to Talk Yet?</h3>
           <p class="not-ready-text">That's okay. Get our free guide on how much missed calls are really costing your practice.</p>
@@ -171,6 +206,50 @@ const professionalServiceSchema = generateProfessionalServiceSchema();
 
   .form-section {
     min-height: 500px;
+  }
+
+  /* Enterprise Qualifier */
+  .enterprise-qualifier {
+    background: linear-gradient(135deg, var(--navy-900) 0%, #1a3a3d 100%);
+    border-radius: 16px 16px 0 0;
+    padding: 20px 24px;
+    margin-bottom: 0;
+  }
+
+  .qualifier-label {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 12px;
+  }
+
+  .qualifier-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .qualifier-tag {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .qualifier-tag.highlight {
+    background: var(--oceanic-teal);
+    border-color: var(--oceanic-teal);
+    color: white;
+  }
+
+  .enterprise-qualifier + :global(.form-card) {
+    border-radius: 0 0 16px 16px;
   }
 
   :global(.form-card) {
@@ -474,6 +553,44 @@ const professionalServiceSchema = generateProfessionalServiceSchema();
   .trust-badge svg {
     color: var(--oceanic-teal);
     flex-shrink: 0;
+  }
+
+  /* Enterprise Questions Card */
+  .enterprise-questions-card {
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+    border: 1px solid var(--copper-500);
+  }
+
+  .prep-text {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+  }
+
+  .prep-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .prep-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    padding: 8px 0;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .prep-list li:last-child {
+    border-bottom: none;
+  }
+
+  .prep-list svg {
+    color: var(--copper-500);
+    flex-shrink: 0;
+    margin-top: 2px;
   }
 
   /* Not Ready Card */

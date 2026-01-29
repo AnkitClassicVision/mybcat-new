@@ -95,6 +95,70 @@ import Card from '@/components/Card.astro';
       </a>
     </div>
 
+    <!-- Enterprise Resources Section -->
+    <section class="enterprise-section">
+      <div class="section-header">
+        <span class="section-badge">For Enterprise Teams</span>
+        <h2>Enterprise Evaluation Resources</h2>
+        <p>Materials your operations, finance, and compliance teams need to evaluate centralized patient access.</p>
+      </div>
+      <div class="enterprise-grid">
+        <!-- ROI Calculator -->
+        <a href="/resources/roi-calculator/" class="enterprise-card">
+          <div class="enterprise-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+              <line x1="8" y1="6" x2="16" y2="6"></line>
+              <line x1="8" y1="10" x2="16" y2="10"></line>
+              <line x1="8" y1="14" x2="12" y2="14"></line>
+            </svg>
+          </div>
+          <h3>ROI Calculator</h3>
+          <p>Calculate potential savings and efficiency gains for your multi-location practice.</p>
+          <span class="enterprise-link">Calculate ROI &rarr;</span>
+        </a>
+
+        <!-- Case Studies -->
+        <a href="/case-studies/" class="enterprise-card">
+          <div class="enterprise-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <h3>Enterprise Case Studies</h3>
+          <p>See how 10-12+ location groups achieved centralized patient access.</p>
+          <span class="enterprise-link">View Case Studies &rarr;</span>
+        </a>
+
+        <!-- Security & Compliance -->
+        <a href="/hipaa-compliance/" class="enterprise-card">
+          <div class="enterprise-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <path d="M9 12l2 2 4-4"></path>
+            </svg>
+          </div>
+          <h3>Security & Compliance</h3>
+          <p>HIPAA compliance, SOC 2, and enterprise security documentation.</p>
+          <span class="enterprise-link">Review Security &rarr;</span>
+        </a>
+
+        <!-- Enterprise Solutions -->
+        <a href="/enterprise/" class="enterprise-card">
+          <div class="enterprise-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          </div>
+          <h3>Enterprise Solutions</h3>
+          <p>Purpose-built for DSOs, optometry groups, and healthcare networks.</p>
+          <span class="enterprise-link">Explore Enterprise &rarr;</span>
+        </a>
+      </div>
+    </section>
+
     <!-- About Author Section -->
     <section class="author-section">
       <Card variant="pricing" class="author-card">
@@ -302,6 +366,105 @@ import Card from '@/components/Card.astro';
     color: var(--copper-500);
   }
 
+  /* Enterprise Resources Section */
+  .enterprise-section {
+    margin-bottom: 60px;
+    padding: 48px;
+    background: linear-gradient(135deg, var(--navy-900) 0%, #1a3a3d 100%);
+    border-radius: 24px;
+  }
+
+  .enterprise-section .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .section-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--oceanic-teal);
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+  }
+
+  .enterprise-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 12px;
+  }
+
+  .enterprise-section .section-header p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .enterprise-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .enterprise-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .enterprise-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--oceanic-teal);
+    transform: translateY(-4px);
+  }
+
+  .enterprise-icon {
+    width: 56px;
+    height: 56px;
+    background: rgba(27, 153, 139, 0.2);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .enterprise-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 8px;
+  }
+
+  .enterprise-card p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  .enterprise-link {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  @media (max-width: 1024px) {
+    .enterprise-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
   @media (max-width: 900px) {
     .resources-grid {
       grid-template-columns: 1fr;
@@ -314,6 +477,14 @@ import Card from '@/components/Card.astro';
 
     .author-image {
       margin: 0 auto;
+    }
+
+    .enterprise-section {
+      padding: 32px 24px;
+    }
+
+    .enterprise-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>

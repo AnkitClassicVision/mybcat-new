@@ -10,8 +10,25 @@ export interface NavItem {
   description?: string;
 }
 
-// Main navigation menu
+// Main navigation menu - Enterprise-first positioning
 export const mainNavigation: NavItem[] = [
+  {
+    label: 'Enterprise',
+    href: '/enterprise/',
+    children: [
+      { label: 'Enterprise Overview', href: '/enterprise/', description: 'Multi-location solutions' },
+      { label: 'Patient Access Center', href: '/enterprise/patient-access-center/', description: 'Centralized call handling' },
+      { label: 'Centralized Scheduling', href: '/enterprise/centralized-scheduling/', description: 'Multi-location booking' },
+      { label: 'Multi-Location Recall', href: '/enterprise/multi-location-recall/', description: 'Recall at scale' },
+      { label: 'Reporting & QA', href: '/enterprise/reporting-qa/', description: 'Dashboards & scorecards' },
+      { label: 'Security & Compliance', href: '/hipaa-compliance/', description: 'HIPAA, SOC 2, BAA' },
+      { label: 'DSOs & Dental Groups', href: '/enterprise/dso/' },
+      { label: 'Optometry Groups', href: '/enterprise/optometry-groups/' },
+      { label: 'Veterinary Groups', href: '/enterprise/veterinary-groups/' },
+      { label: 'Urgent Care Chains', href: '/enterprise/urgent-care-chains/' },
+      { label: 'Build vs Buy Analysis', href: '/compare/build-vs-buy/', description: 'Cost comparison' }
+    ]
+  },
   {
     label: 'Solutions',
     href: '/solutions/',
@@ -49,22 +66,6 @@ export const mainNavigation: NavItem[] = [
     ]
   },
   {
-    label: 'Enterprise',
-    href: '/enterprise/',
-    children: [
-      { label: 'Enterprise Overview', href: '/enterprise/', description: 'Multi-location solutions' },
-      { label: 'Patient Access Center', href: '/enterprise/patient-access-center/', description: 'Centralized call handling' },
-      { label: 'Centralized Scheduling', href: '/enterprise/centralized-scheduling/', description: 'Multi-location booking' },
-      { label: 'Multi-Location Recall', href: '/enterprise/multi-location-recall/', description: 'Recall at scale' },
-      { label: 'Reporting & QA', href: '/enterprise/reporting-qa/', description: 'Dashboards & scorecards' },
-      { label: 'DSOs & Dental Groups', href: '/enterprise/dso/' },
-      { label: 'Optometry Groups', href: '/enterprise/optometry-groups/' },
-      { label: 'Veterinary Groups', href: '/enterprise/veterinary-groups/' },
-      { label: 'Urgent Care Chains', href: '/enterprise/urgent-care-chains/' },
-      { label: 'Build vs Buy Analysis', href: '/compare/build-vs-buy/', description: 'Cost comparison' }
-    ]
-  },
-  {
     label: 'Industries',
     href: '/industries/',
     children: [
@@ -93,9 +94,10 @@ export const mainNavigation: NavItem[] = [
     label: 'Resources',
     href: '/resources/',
     children: [
-      { label: 'Blog', href: '/blog/' },
-      { label: 'Case Studies', href: '/case-studies/', description: 'Success stories' },
+      { label: 'Enterprise Case Studies', href: '/case-studies/', description: 'Multi-location success stories' },
       { label: 'ROI Calculator', href: '/resources/roi-calculator/', description: 'Calculate your savings' },
+      { label: 'Security & Compliance', href: '/hipaa-compliance/', description: 'HIPAA, SOC 2 docs' },
+      { label: 'Blog', href: '/blog/' },
       { label: 'Book', href: '/resources/book/', description: 'Staff Smart Not Hard' },
       { label: 'Podcast', href: '/resources/podcast/', description: 'Staff Smart Podcast' },
       { label: 'Glossary', href: '/glossary/', description: 'Healthcare terms explained' },
@@ -114,6 +116,16 @@ export const mainNavigation: NavItem[] = [
 
 // Footer navigation organized by section
 export const footerNavigation = {
+  enterprise: [
+    { label: 'Enterprise Overview', href: '/enterprise/' },
+    { label: 'Patient Access Center', href: '/enterprise/patient-access-center/' },
+    { label: 'Centralized Scheduling', href: '/enterprise/centralized-scheduling/' },
+    { label: 'Multi-Location Recall', href: '/enterprise/multi-location-recall/' },
+    { label: 'Reporting & QA', href: '/enterprise/reporting-qa/' },
+    { label: 'DSOs & Dental Groups', href: '/enterprise/dso/' },
+    { label: 'Optometry Groups', href: '/enterprise/optometry-groups/' },
+    { label: 'Security & Compliance', href: '/hipaa-compliance/' }
+  ],
   solutions: [
     { label: 'Front Desk Outsourcing', href: '/solutions/front-desk-outsourcing/' },
     { label: 'Medical Answering Service', href: '/solutions/medical-answering-service/' },

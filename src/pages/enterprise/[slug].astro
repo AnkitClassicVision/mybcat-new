@@ -9,6 +9,22 @@ import Button from '@/components/Button.astro';
 import Card from '@/components/Card.astro';
 import CTA from '@/components/sections/CTA.astro';
 import { enterpriseVerticals, getEnterpriseVerticalBySlug } from '@data/enterprise';
+import { caseStudies } from '@data/case-studies';
+
+// Get relevant case studies based on vertical type
+function getVerticalCaseStudies(verticalSlug: string) {
+  const verticalToIndustry: Record<string, string> = {
+    'dso': 'dental',
+    'optometry-groups': 'optometry',
+    'veterinary-groups': 'veterinary',
+    'urgent-care-chains': 'urgent-care'
+  };
+  const industrySlug = verticalToIndustry[verticalSlug];
+  // Return case studies for this industry, prioritizing enterprise-scale (5+ locations)
+  return caseStudies
+    .filter(cs => cs.industrySlug === industrySlug || cs.practiceSize.includes('10') || cs.practiceSize.includes('12'))
+    .slice(0, 2);
+}
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return enterpriseVerticals.map(vertical => ({
@@ -18,6 +34,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 const { vertical } = Astro.props;
+const verticalCaseStudies = getVerticalCaseStudies(vertical.slug);
 
 // Icons
 const icons: Record<string, string> = {
@@ -129,6 +146,37 @@ const icons: Record<string, string> = {
         </div>
       </div>
     </section>
+
+    <!-- Success Stories Section -->
+    {verticalCaseStudies.length > 0 && (
+      <section class="success-section">
+        <div class="section-header">
+          <div class="eyebrow">Success Stories</div>
+          <h2>Results From Groups Like Yours</h2>
+        </div>
+        <div class="success-grid">
+          {verticalCaseStudies.map(cs => (
+            <a href={`/case-studies/${cs.slug}/`} class="success-card">
+              <div class="success-header">
+                <span class="success-badge">{cs.practiceSize}</span>
+                <span class="success-industry">{cs.industry}</span>
+              </div>
+              <h3>{cs.client}</h3>
+              <p class="success-result">{cs.results.split('.')[0]}.</p>
+              <div class="success-metrics">
+                {cs.metrics.slice(0, 2).map(metric => (
+                  <div class="metric">
+                    <span class="metric-value">{metric.value}</span>
+                    <span class="metric-label">{metric.label}</span>
+                  </div>
+                ))}
+              </div>
+              <span class="success-link">Read full case study →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- Related Industry Link -->
     {vertical.parentIndustrySlug && (
@@ -388,6 +436,98 @@ const icons: Record<string, string> = {
   .integration-item.more .integration-name {
     color: var(--oceanic-teal);
     font-weight: 600;
+  }
+
+  /* Success Stories */
+  .success-section {
+    padding: 60px 0;
+  }
+
+  .success-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .success-card {
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 28px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .success-card:hover {
+    border-color: var(--oceanic-teal);
+    box-shadow: 0 12px 40px rgba(0, 96, 100, 0.1);
+    transform: translateY(-4px);
+  }
+
+  .success-header {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .success-badge {
+    background: var(--glass-teal);
+    color: var(--oceanic-teal);
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .success-industry {
+    background: var(--cream-200);
+    color: var(--copper-600);
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .success-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .success-result {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .success-metrics {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 16px;
+  }
+
+  .metric {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--oceanic-teal);
+  }
+
+  .metric-label {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .success-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--oceanic-teal);
   }
 
   /* Related Section */

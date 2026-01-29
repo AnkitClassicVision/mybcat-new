@@ -24,6 +24,15 @@ const currentYear = new Date().getFullYear();
     <!-- Middle Section: Link Columns -->
     <div class="footer-columns">
       <div class="footer-column">
+        <h4>Enterprise</h4>
+        <ul>
+          {footerNavigation.enterprise.map(link => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="footer-column">
         <h4>Solutions</h4>
         <ul>
           {footerNavigation.solutions.map(link => (
@@ -146,8 +155,8 @@ const currentYear = new Date().getFullYear();
   /* Link Columns */
   .footer-columns {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 32px;
     padding-bottom: 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 32px;

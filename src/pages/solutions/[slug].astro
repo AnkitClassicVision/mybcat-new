@@ -88,8 +88,31 @@ const relatedCaseStudies = getCaseStudiesBySolution(solution.slug);
         <p class="tldr"><strong>TL;DR:</strong> {solution.tldr}</p>
         <p class="hero-description">{solution.description}</p>
         <div class="hero-cta">
-          <Button href="/contact/">Get Started</Button>
+          <Button href="/contact/">Talk to Enterprise Team</Button>
           <a href="#how-it-works" class="text-link">See how it works</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Multi-Location Callout -->
+    <section class="multi-location-callout">
+      <div class="callout-content">
+        <div class="callout-badge">For Multi-Location Groups</div>
+        <h2>Need This Across Multiple Locations?</h2>
+        <p>Centralize {solution.name.toLowerCase()} across all your locations with unified reporting, consistent protocols, and one team that knows your systems.</p>
+        <div class="callout-links">
+          <a href="/enterprise/" class="callout-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            Enterprise Solutions
+          </a>
+          <a href="/hipaa-compliance/" class="callout-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            Security & Compliance
+          </a>
+          <a href="/solutions/integrations/" class="callout-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+            50+ EHR Integrations
+          </a>
         </div>
       </div>
     </section>
@@ -394,6 +417,73 @@ const relatedCaseStudies = getCaseStudiesBySolution(solution.slug);
 
   .text-link:hover {
     color: var(--oceanic-teal);
+  }
+
+  /* Multi-Location Callout */
+  .multi-location-callout {
+    margin-bottom: 60px;
+    padding: 32px 40px;
+    background: linear-gradient(135deg, var(--navy-900) 0%, #1a3a3d 100%);
+    border-radius: 20px;
+  }
+
+  .callout-content {
+    text-align: center;
+  }
+
+  .callout-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--oceanic-teal);
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+  }
+
+  .callout-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 12px;
+  }
+
+  .callout-content p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: 0 auto 24px;
+    line-height: 1.6;
+  }
+
+  .callout-links {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .callout-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--oceanic-teal);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+    background: rgba(27, 153, 139, 0.15);
+    border: 1px solid rgba(27, 153, 139, 0.3);
+    border-radius: 8px;
+    transition: all 0.2s;
+  }
+
+  .callout-link:hover {
+    background: rgba(27, 153, 139, 0.25);
+    border-color: var(--oceanic-teal);
   }
 
   /* Stats */

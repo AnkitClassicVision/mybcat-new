@@ -11,7 +11,7 @@ import { getFAQsByCategory } from '@data/faq';
 ---
 
 <PageLayout
-  title="HIPAA Compliant Answering Service | Medical Phone Service | MyBCAT"
+  title="HIPAA Compliant Medical Answering Service | MyBCAT"
   description="HIPAA compliant medical answering service with signed BAA, encrypted communications, and US-based leadership. Your patient data security is non-negotiable."
   breadcrumbs={[
     { name: 'Home', url: '/' },
@@ -159,6 +159,111 @@ import { getFAQsByCategory } from '@data/faq';
           <p class="baa-note">The BAA is provided during onboarding and must be executed before service begins.</p>
         </div>
       </Card>
+    </section>
+
+    <!-- Enterprise Security Documentation -->
+    <section class="enterprise-docs">
+      <div class="section-header">
+        <span class="eyebrow">For IT & Compliance Teams</span>
+        <h2>Enterprise Security Documentation</h2>
+        <p>Information your compliance team needs for vendor evaluation</p>
+      </div>
+
+      <div class="docs-grid">
+        <div class="doc-card">
+          <div class="doc-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+          </div>
+          <div class="doc-content">
+            <h3>SOC 2 Type II</h3>
+            <p>Annual SOC 2 Type II audit covering security, availability, and confidentiality. Report available under NDA.</p>
+            <span class="doc-status available">Available on Request</span>
+          </div>
+        </div>
+
+        <div class="doc-card">
+          <div class="doc-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+            </svg>
+          </div>
+          <div class="doc-content">
+            <h3>Security Questionnaire</h3>
+            <p>Pre-completed SIG Lite, CAIQ, and custom vendor security questionnaires. Typically returned within 48 hours.</p>
+            <span class="doc-status available">Available on Request</span>
+          </div>
+        </div>
+
+        <div class="doc-card">
+          <div class="doc-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <div class="doc-content">
+            <h3>Data Residency</h3>
+            <p>All PHI remains in your systems. No patient data stored on our infrastructure. US-based cloud providers (AWS, Azure) for operational systems.</p>
+            <span class="doc-status certified">Zero PHI Storage</span>
+          </div>
+        </div>
+
+        <div class="doc-card">
+          <div class="doc-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 9l6 6m0-6l-6 6"/>
+              <circle cx="12" cy="12" r="10"/>
+            </svg>
+          </div>
+          <div class="doc-content">
+            <h3>Penetration Testing</h3>
+            <p>Annual third-party penetration testing and vulnerability assessments. Executive summary available under NDA.</p>
+            <span class="doc-status available">Available on Request</span>
+          </div>
+        </div>
+
+        <div class="doc-card">
+          <div class="doc-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+            </svg>
+          </div>
+          <div class="doc-content">
+            <h3>Insurance Coverage</h3>
+            <p>Cyber liability insurance with $2M aggregate coverage. Certificates of insurance provided upon request.</p>
+            <span class="doc-status certified">$2M Coverage</span>
+          </div>
+        </div>
+
+        <div class="doc-card">
+          <div class="doc-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div class="doc-content">
+            <h3>Background Checks</h3>
+            <p>Comprehensive background checks on all team members handling PHI. Criminal, employment, and education verification.</p>
+            <span class="doc-status certified">All Staff Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="docs-cta">
+        <p>Need documentation for your vendor evaluation?</p>
+        <a href="/contact/" class="docs-button">Request Security Package</a>
+      </div>
     </section>
 
     <!-- Enterprise Compliance Section -->
@@ -490,6 +595,149 @@ import { getFAQsByCategory } from '@data/faq';
     color: var(--text-muted);
     text-align: center;
     font-style: italic;
+  }
+
+  /* Enterprise Security Documentation */
+  .enterprise-docs {
+    margin-bottom: 60px;
+    padding: 48px;
+    background: linear-gradient(135deg, var(--navy-900) 0%, #1a3a3d 100%);
+    border-radius: 24px;
+  }
+
+  .enterprise-docs .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .enterprise-docs .eyebrow {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--oceanic-teal);
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+  }
+
+  .enterprise-docs h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 8px;
+  }
+
+  .enterprise-docs .section-header p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .docs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+
+  .doc-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    gap: 16px;
+  }
+
+  .doc-icon {
+    width: 48px;
+    height: 48px;
+    background: rgba(27, 153, 139, 0.2);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--oceanic-teal);
+  }
+
+  .doc-content h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 8px;
+  }
+
+  .doc-content p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .doc-status {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+
+  .doc-status.available {
+    background: rgba(27, 153, 139, 0.2);
+    color: var(--oceanic-teal);
+  }
+
+  .doc-status.certified {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+  }
+
+  .docs-cta {
+    text-align: center;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .docs-cta p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 16px;
+  }
+
+  .docs-button {
+    display: inline-block;
+    background: var(--oceanic-teal);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .docs-button:hover {
+    background: #1aa893;
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 900px) {
+    .docs-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .enterprise-docs {
+      padding: 32px 24px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .docs-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
   /* Enterprise Compliance Section */
