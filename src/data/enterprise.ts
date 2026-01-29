@@ -95,7 +95,7 @@ export const enterpriseHub = {
       },
       {
         title: 'Unified EHR Access',
-        description: 'We schedule directly into each location\'s EHR. Dentrix, Eyefinity, ModMed—we integrate with 50+ systems.',
+        description: 'We schedule directly into each location\'s EHR. Dentrix, Eyefinity, ModMed-we integrate with 50+ systems.',
         icon: 'link'
       },
       {
@@ -229,7 +229,7 @@ export const enterpriseVerticals: EnterpriseVertical[] = [
     painPoints: [
       {
         title: 'Vision Insurance Complexity',
-        description: 'VSP, EyeMed, Spectera—each location handles verification differently. Errors cost money.'
+        description: 'VSP, EyeMed, Spectera-each location handles verification differently. Errors cost money.'
       },
       {
         title: 'Annual Exam Recall',
@@ -247,7 +247,7 @@ export const enterpriseVerticals: EnterpriseVertical[] = [
     solutions: [
       {
         title: 'Vision Insurance Verification',
-        description: 'VSP, EyeMed, medical vision—we verify before every appointment, every location.',
+        description: 'VSP, EyeMed, medical vision-we verify before every appointment, every location.',
         icon: 'shield'
       },
       {
@@ -355,7 +355,7 @@ export const enterpriseVerticals: EnterpriseVertical[] = [
     painPoints: [
       {
         title: 'High Call Volume Spikes',
-        description: 'Flu season, COVID surges—call volume spikes unpredictably. Staff can not keep up.'
+        description: 'Flu season, COVID surges-call volume spikes unpredictably. Staff can not keep up.'
       },
       {
         title: 'Wait Time Questions',
@@ -442,7 +442,7 @@ export const enterpriseCapabilityPages: EnterpriseCapabilityPage[] = [
     ],
     features: [
       { title: 'Single Team, All Locations', description: 'Your dedicated team knows every location\'s protocols, providers, and systems. Patients get the same quality experience no matter which location they\'re calling.', icon: 'users' },
-      { title: 'Direct EHR Scheduling', description: 'We schedule directly into each location\'s system—Dentrix, Eyefinity, ModMed, or whatever you use. No callbacks, no delays.', icon: 'link' },
+      { title: 'Direct EHR Scheduling', description: 'We schedule directly into each location\'s system-Dentrix, Eyefinity, ModMed, or whatever you use. No callbacks, no delays.', icon: 'link' },
       { title: 'Location-Specific Routing', description: 'Calls route intelligently based on the location called, service needed, and provider availability.', icon: 'map' },
       { title: 'Unified Reporting Dashboard', description: 'See call volume, answer rates, booking rates, and patient satisfaction across all locations in one place.', icon: 'chart' }
     ],
@@ -462,7 +462,7 @@ export const enterpriseCapabilityPages: EnterpriseCapabilityPage[] = [
     primaryKeyword: 'multi-location scheduling',
     secondaryKeywords: ['centralized healthcare scheduling', 'medical appointment scheduling', 'practice management scheduling'],
     icon: 'calendar',
-    problemStatement: 'Scheduling across multiple locations is a nightmare. Different systems, different provider preferences, different availability—and when one location is overbooked while another has openings, patients wait unnecessarily.',
+    problemStatement: 'Scheduling across multiple locations is a nightmare. Different systems, different provider preferences, different availability-and when one location is overbooked while another has openings, patients wait unnecessarily.',
     painPoints: [
       'Different scheduling systems at different locations',
       'Provider preferences not communicated',
@@ -488,11 +488,11 @@ export const enterpriseCapabilityPages: EnterpriseCapabilityPage[] = [
     name: 'Multi-Location Recall',
     headline: 'Patient Recall at Scale',
     tagline: 'Systematic outreach that brings patients back across all your locations.',
-    metaDescription: 'Multi-location patient recall services for healthcare groups. Hygiene recall, annual exams, wellness visits—systematically handled across all your practices.',
+    metaDescription: 'Multi-location patient recall services for healthcare groups. Hygiene recall, annual exams, wellness visits-systematically handled across all your practices.',
     primaryKeyword: 'multi-location patient recall',
     secondaryKeywords: ['dental hygiene recall', 'patient reactivation', 'wellness recall campaigns'],
     icon: 'refresh',
-    problemStatement: 'Recall is the first thing that slips when front desks get busy. Patients due for hygiene cleanings, annual exams, and wellness visits fall through the cracks—and that\'s revenue walking out the door.',
+    problemStatement: 'Recall is the first thing that slips when front desks get busy. Patients due for hygiene cleanings, annual exams, and wellness visits fall through the cracks-and that\'s revenue walking out the door.',
     painPoints: [
       'Front desk too busy for proactive outreach',
       'Inconsistent recall efforts across locations',
@@ -501,8 +501,8 @@ export const enterpriseCapabilityPages: EnterpriseCapabilityPage[] = [
       'Revenue lost to lapsed patients'
     ],
     features: [
-      { title: 'Systematic Outreach', description: 'We don\'t wait for patients to remember—we proactively reach out when they\'re due for care. Hygiene, annual exams, wellness visits.', icon: 'phone' },
-      { title: 'Multi-Channel Contact', description: 'Phone calls, text reminders, email follow-ups—we use the channel most likely to reach each patient.', icon: 'users' },
+      { title: 'Systematic Outreach', description: 'We don\'t wait for patients to remember-we proactively reach out when they\'re due for care. Hygiene, annual exams, wellness visits.', icon: 'phone' },
+      { title: 'Multi-Channel Contact', description: 'Phone calls, text reminders, email follow-ups-we use the channel most likely to reach each patient.', icon: 'users' },
       { title: 'Location-Level Reporting', description: 'See recall rates, contact rates, and reactivation success for each location. Identify which locations need attention.', icon: 'chart' },
       { title: 'Integrated Scheduling', description: 'When patients are ready to book, we schedule them immediately. No handoffs, no delays, no lost opportunities.', icon: 'calendar' }
     ],
@@ -522,7 +522,7 @@ export const enterpriseCapabilityPages: EnterpriseCapabilityPage[] = [
     primaryKeyword: 'healthcare call center reporting',
     secondaryKeywords: ['QA dashboards', 'call center scorecards', 'patient access analytics'],
     icon: 'chart',
-    problemStatement: 'You can\'t improve what you can\'t measure. Most multi-location groups have no idea how their phone operations are performing—call volume, answer rates, booking rates, patient satisfaction. You\'re flying blind.',
+    problemStatement: 'You can\'t improve what you can\'t measure. Most multi-location groups have no idea how their phone operations are performing-call volume, answer rates, booking rates, patient satisfaction. You\'re flying blind.',
     painPoints: [
       'No visibility into call handling across locations',
       'Can\'t identify underperforming locations',
@@ -531,7 +531,7 @@ export const enterpriseCapabilityPages: EnterpriseCapabilityPage[] = [
       'Patient complaints surface too late'
     ],
     features: [
-      { title: 'Real-Time Dashboards', description: 'See call volume, answer rates, average handle time, and booking rates across all locations—updated in real time.', icon: 'chart' },
+      { title: 'Real-Time Dashboards', description: 'See call volume, answer rates, average handle time, and booking rates across all locations-updated in real time.', icon: 'chart' },
       { title: 'Agent Scorecards', description: 'Track individual agent performance on call quality, patient satisfaction, and key metrics. Identify coaching opportunities.', icon: 'users' },
       { title: 'Location Comparisons', description: 'Compare performance across locations. See which sites are excelling and which need support.', icon: 'map' },
       { title: 'QA Call Reviews', description: 'Regular call audits ensure quality stays high. We share feedback and continuously improve.', icon: 'shield' }
