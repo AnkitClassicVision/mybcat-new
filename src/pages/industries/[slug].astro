@@ -190,7 +190,7 @@ const icons: Record<string, string> = {
         <div class="case-studies-grid">
           {industryCaseStudies.map(caseStudy => (
             <a href={`/case-studies/${caseStudy.slug}/`} class="case-study-card">
-              <h4>{caseStudy.client}</h4>
+              <h3 class="case-study-client">{caseStudy.client}</h3>
               <p class="case-study-location">{caseStudy.location} | {caseStudy.practiceSize}</p>
               <p class="case-study-title">{caseStudy.title}</p>
               <div class="case-study-metrics">
@@ -761,7 +761,7 @@ const icons: Record<string, string> = {
     box-shadow: 0 8px 24px rgba(0, 96, 100, 0.1);
   }
 
-  .case-study-card h4 {
+  .case-study-card .case-study-client {
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--navy-900);

@@ -48,17 +48,13 @@ export function generateOrganizationSchema() {
     name: company.name,
     alternateName: company.shortName,
     url: company.site.url,
-    logo: {
-      '@type': 'ImageObject',
-      url: `${company.site.url}/images/logo.webp`,
-      width: 300,
-      height: 60
-    },
+    logo: `${company.site.url}/images/logo.webp`,
     description: company.description,
     foundingDate: '2018',
     email: company.email,
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '1140 Hammond Drive',
       addressLocality: company.address.city,
       addressRegion: company.address.state,
       postalCode: company.address.zip,
@@ -237,13 +233,18 @@ export function generateArticleSchema(meta: ArticleMeta) {
 
 /**
  * Combine multiple schemas using @graph
+ * Preserves @context in each item for broader validator compatibility
  */
 export function combineSchemas(...schemas: object[]) {
   return {
     '@context': 'https://schema.org',
     '@graph': schemas.map(schema => {
-      const { '@context': _, ...rest } = schema as { '@context'?: string };
-      return rest;
+      // Keep @context in each item for validators that check independently
+      const schemaObj = schema as { '@context'?: string };
+      if (!schemaObj['@context']) {
+        return { '@context': 'https://schema.org', ...schema };
+      }
+      return schema;
     })
   };
 }
@@ -261,15 +262,11 @@ export function generateProfessionalServiceSchema() {
     alternateName: company.shortName,
     description: company.description,
     url: company.site.url,
-    logo: {
-      '@type': 'ImageObject',
-      url: `${company.site.url}/images/logo.webp`,
-      width: 300,
-      height: 60
-    },
+    logo: `${company.site.url}/images/logo.webp`,
     image: `${company.site.url}/images/og-default.png`,
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '1140 Hammond Drive',
       addressLocality: company.address.city,
       addressRegion: company.address.state,
       postalCode: company.address.zip,
@@ -338,15 +335,11 @@ export function generateLocalBusinessSchema() {
     alternateName: company.shortName,
     description: company.description,
     url: company.site.url,
-    logo: {
-      '@type': 'ImageObject',
-      url: `${company.site.url}/images/logo.webp`,
-      width: 300,
-      height: 60
-    },
+    logo: `${company.site.url}/images/logo.webp`,
     image: `${company.site.url}/images/og-default.png`,
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '1140 Hammond Drive',
       addressLocality: company.address.city,
       addressRegion: company.address.state,
       postalCode: company.address.zip,
