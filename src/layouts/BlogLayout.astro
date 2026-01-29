@@ -13,7 +13,7 @@ import {
   serializeSchema,
   combineSchemas
 } from '@utils/schema';
-import { formatDate, calculateReadingTime, formatReadingTime, getInitials } from '@utils/formatting';
+import { formatDate, calculateReadingTime, formatReadingTime, getInitials, slugify } from '@utils/formatting';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -88,10 +88,12 @@ const schemas = combineSchemas(
       <h1 class="post-title">{title}</h1>
       <p class="post-description">{description}</p>
       <div class="post-author">
-        <div class="author-avatar">{getInitials(author)}</div>
-        <div class="author-info">
-          <span class="author-name">{author}</span>
-        </div>
+        <a href={`/author/${slugify(author)}/`} rel="author" class="author-link">
+          <div class="author-avatar">{getInitials(author)}</div>
+          <div class="author-info">
+            <span class="author-name">{author}</span>
+          </div>
+        </a>
       </div>
     </header>
 
@@ -175,9 +177,7 @@ const schemas = combineSchemas(
   }
 
   .post-author {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+    display: block;
   }
 
   .author-avatar {
@@ -197,6 +197,23 @@ const schemas = combineSchemas(
     font-weight: 600;
     color: var(--navy-900);
     display: block;
+  }
+
+  .author-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .author-link:hover {
+    opacity: 0.8;
+  }
+
+  .author-link:hover .author-name {
+    color: var(--oceanic-teal);
+    text-decoration: underline;
   }
 
   .post-featured-image {

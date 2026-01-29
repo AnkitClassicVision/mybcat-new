@@ -89,7 +89,7 @@ const authorInfo = authorData[author] || { role: '', image: '' };
           <div class="author-avatar">{author.split(' ').map(n => n[0]).join('')}</div>
         )}
         <div class="author-info">
-          <a href={author === 'Ankit Patel' ? '/author/ankit-patel/' : '/about/'} class="author-name">{author}</a>
+          <a href={author === 'Ankit Patel' ? '/author/ankit-patel/' : '/about/'} rel="author" class="author-name">{author}</a>
           {authorInfo.role && <span class="author-role">{authorInfo.role}</span>}
         </div>
       </div>
