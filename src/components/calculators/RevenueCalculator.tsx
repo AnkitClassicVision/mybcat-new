@@ -86,12 +86,14 @@ export default function RevenueCalculator() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', marginBottom: '28px' }}>
           {/* Locations */}
           <div style={{ background: 'white', padding: '20px', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
-            <label style={{ display: 'block', fontWeight: 600, color: '#27343C', marginBottom: '12px', fontSize: '14px' }}>
+            <label htmlFor="revenue-locations" style={{ display: 'block', fontWeight: 600, color: '#27343C', marginBottom: '12px', fontSize: '14px' }}>
               Number of Locations
             </label>
             <select
+              id="revenue-locations"
               value={locations}
               onChange={(e) => setLocations(Number(e.target.value))}
+              aria-label="Number of Locations"
               style={{
                 width: '100%',
                 padding: '14px 40px 14px 16px',
@@ -117,12 +119,14 @@ export default function RevenueCalculator() {
 
           {/* Specialty */}
           <div style={{ background: 'white', padding: '20px', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
-            <label style={{ display: 'block', fontWeight: 600, color: '#27343C', marginBottom: '12px', fontSize: '14px' }}>
+            <label htmlFor="revenue-specialty" style={{ display: 'block', fontWeight: 600, color: '#27343C', marginBottom: '12px', fontSize: '14px' }}>
               Your Specialty
             </label>
             <select
+              id="revenue-specialty"
               value={specialty}
               onChange={(e) => setSpecialty(e.target.value)}
+              aria-label="Your Specialty"
               style={{
                 width: '100%',
                 padding: '14px 40px 14px 16px',
@@ -148,10 +152,11 @@ export default function RevenueCalculator() {
 
           {/* Daily Calls Slider */}
           <div style={{ background: 'white', padding: '20px', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', gridColumn: 'span 2' }}>
-            <label style={{ display: 'block', fontWeight: 600, color: '#27343C', marginBottom: '12px', fontSize: '14px' }}>
+            <label htmlFor="revenue-daily-calls" style={{ display: 'block', fontWeight: 600, color: '#27343C', marginBottom: '12px', fontSize: '14px' }}>
               Avg. Daily Calls Per Location: <span style={{ color: '#006064', fontWeight: 700 }}>{dailyCalls}</span>
             </label>
             <input
+              id="revenue-daily-calls"
               type="range"
               min={20}
               max={100}
@@ -159,6 +164,7 @@ export default function RevenueCalculator() {
               onChange={(e) => setDailyCalls(Number(e.target.value))}
               className="revenue-calc-slider"
               style={{ width: '100%', margin: '12px 0 8px', height: '8px', cursor: 'pointer' }}
+              aria-label="Average Daily Calls Per Location"
             />
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: '#888' }}>
               <span>20</span>
@@ -168,10 +174,11 @@ export default function RevenueCalculator() {
 
           {/* Missed Rate Slider */}
           <div style={{ background: 'white', padding: '20px', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
-            <label style={{ display: 'block', fontWeight: 600, color: '#27343C', marginBottom: '12px', fontSize: '14px' }}>
+            <label htmlFor="revenue-missed-rate" style={{ display: 'block', fontWeight: 600, color: '#27343C', marginBottom: '12px', fontSize: '14px' }}>
               Missed Call Rate: <span style={{ color: '#006064', fontWeight: 700 }}>{missedRate}%</span>
             </label>
             <input
+              id="revenue-missed-rate"
               type="range"
               min={10}
               max={50}
@@ -179,6 +186,7 @@ export default function RevenueCalculator() {
               onChange={(e) => setMissedRate(Number(e.target.value))}
               className="revenue-calc-slider"
               style={{ width: '100%', margin: '12px 0 8px', height: '8px', cursor: 'pointer' }}
+              aria-label="Missed Call Rate"
             />
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: '#888' }}>
               <span>10%</span>
@@ -188,10 +196,11 @@ export default function RevenueCalculator() {
 
           {/* New Patient Rate Slider */}
           <div style={{ background: 'white', padding: '20px', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
-            <label style={{ display: 'block', fontWeight: 600, color: '#27343C', marginBottom: '12px', fontSize: '14px' }}>
+            <label htmlFor="revenue-new-patient-rate" style={{ display: 'block', fontWeight: 600, color: '#27343C', marginBottom: '12px', fontSize: '14px' }}>
               New Patient Calls: <span style={{ color: '#006064', fontWeight: 700 }}>{newPatientRate}%</span>
             </label>
             <input
+              id="revenue-new-patient-rate"
               type="range"
               min={20}
               max={60}
@@ -199,6 +208,7 @@ export default function RevenueCalculator() {
               onChange={(e) => setNewPatientRate(Number(e.target.value))}
               className="revenue-calc-slider"
               style={{ width: '100%', margin: '12px 0 8px', height: '8px', cursor: 'pointer' }}
+              aria-label="New Patient Calls Percentage"
             />
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: '#888' }}>
               <span>20%</span>

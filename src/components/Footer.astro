@@ -16,7 +16,7 @@ const currentYear = new Date().getFullYear();
 
       <div class="footer-nav">
         <div class="footer-column">
-          <h4>Solutions</h4>
+          <span class="footer-heading">Solutions</span>
           <a href="/solutions/front-desk-outsourcing/">Front Desk Outsourcing</a>
           <a href="/solutions/medical-answering-service/">Medical Answering Service</a>
           <a href="/solutions/medical-virtual-assistant/">Medical Virtual Assistant</a>
@@ -27,7 +27,7 @@ const currentYear = new Date().getFullYear();
         </div>
 
         <div class="footer-column">
-          <h4>Industries</h4>
+          <span class="footer-heading">Industries</span>
           <a href="/industries/optometry/">Optometry</a>
           <a href="/industries/dental/">Dental</a>
           <a href="/industries/dermatology/">Dermatology</a>
@@ -38,7 +38,7 @@ const currentYear = new Date().getFullYear();
         </div>
 
         <div class="footer-column">
-          <h4>Company</h4>
+          <span class="footer-heading">Company</span>
           <a href="/about/">About</a>
           <a href="/careers/">Careers</a>
           <a href="/case-studies/">Case Studies</a>
@@ -47,7 +47,7 @@ const currentYear = new Date().getFullYear();
         </div>
 
         <div class="footer-column">
-          <h4>Resources</h4>
+          <span class="footer-heading">Resources</span>
           <a href="/blog/">Blog</a>
           <a href="/resources/book/">Book</a>
           <a href="/resources/podcast/">Podcast</a>
@@ -55,7 +55,7 @@ const currentYear = new Date().getFullYear();
         </div>
 
         <div class="footer-column">
-          <h4>Legal</h4>
+          <span class="footer-heading">Legal</span>
           <a href="/privacy-policy/">Privacy Policy</a>
           <a href="/terms/">Terms</a>
           <a href="/hipaa-compliance/">HIPAA Compliance</a>
@@ -124,7 +124,8 @@ const currentYear = new Date().getFullYear();
     gap: 24px;
   }
 
-  .footer-column h4 {
+  .footer-column .footer-heading {
+    display: block;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;

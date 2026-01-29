@@ -147,10 +147,11 @@ export default function EBITDACalculator() {
 
           {/* Annual Revenue */}
           <div style={{ ...inputCardStyle, gridColumn: 'span 2' }}>
-            <label style={labelStyle}>
+            <label htmlFor="ebitda-revenue" style={labelStyle}>
               Current Annual Revenue: <span style={{ color: '#006064', fontWeight: 700 }}>{formatCurrency(revenue)}</span>
             </label>
             <input
+              id="ebitda-revenue"
               type="range"
               min={500000}
               max={50000000}
@@ -159,6 +160,7 @@ export default function EBITDACalculator() {
               onChange={(e) => setRevenue(Number(e.target.value))}
               className="ebitda-calc-slider"
               style={sliderStyle}
+              aria-label="Current Annual Revenue"
             />
             <div style={rangeLabelsStyle}>
               <span>$500K</span>
@@ -168,10 +170,11 @@ export default function EBITDACalculator() {
 
           {/* Current EBITDA Margin */}
           <div style={inputCardStyle}>
-            <label style={labelStyle}>
+            <label htmlFor="ebitda-margin" style={labelStyle}>
               Current EBITDA Margin: <span style={{ color: '#006064', fontWeight: 700 }}>{currentMargin}%</span>
             </label>
             <input
+              id="ebitda-margin"
               type="range"
               min={5}
               max={30}
@@ -179,6 +182,7 @@ export default function EBITDACalculator() {
               onChange={(e) => setCurrentMargin(Number(e.target.value))}
               className="ebitda-calc-slider"
               style={sliderStyle}
+              aria-label="Current EBITDA Margin"
             />
             <div style={rangeLabelsStyle}>
               <span>5%</span>
@@ -188,10 +192,11 @@ export default function EBITDACalculator() {
 
           {/* Current Answer Rate */}
           <div style={inputCardStyle}>
-            <label style={labelStyle}>
+            <label htmlFor="ebitda-current-answer" style={labelStyle}>
               Current Call Answer Rate: <span style={{ color: '#dc3545', fontWeight: 700 }}>{currentAnswerRate}%</span>
             </label>
             <input
+              id="ebitda-current-answer"
               type="range"
               min={50}
               max={90}
@@ -199,6 +204,7 @@ export default function EBITDACalculator() {
               onChange={(e) => setCurrentAnswerRate(Number(e.target.value))}
               className="ebitda-calc-slider"
               style={sliderStyle}
+              aria-label="Current Call Answer Rate"
             />
             <div style={rangeLabelsStyle}>
               <span>50%</span>
@@ -208,10 +214,11 @@ export default function EBITDACalculator() {
 
           {/* Target Answer Rate */}
           <div style={inputCardStyle}>
-            <label style={labelStyle}>
+            <label htmlFor="ebitda-target-answer" style={labelStyle}>
               Target Answer Rate: <span style={{ color: '#28a745', fontWeight: 700 }}>{targetAnswerRate}%</span>
             </label>
             <input
+              id="ebitda-target-answer"
               type="range"
               min={85}
               max={99}
@@ -219,6 +226,7 @@ export default function EBITDACalculator() {
               onChange={(e) => setTargetAnswerRate(Number(e.target.value))}
               className="ebitda-calc-slider"
               style={sliderStyle}
+              aria-label="Target Answer Rate"
             />
             <div style={rangeLabelsStyle}>
               <span>85%</span>
@@ -228,10 +236,11 @@ export default function EBITDACalculator() {
 
           {/* New Patient Revenue % */}
           <div style={inputCardStyle}>
-            <label style={labelStyle}>
+            <label htmlFor="ebitda-new-patient" style={labelStyle}>
               New Patient % of Revenue: <span style={{ color: '#006064', fontWeight: 700 }}>{newPatientPercent}%</span>
             </label>
             <input
+              id="ebitda-new-patient"
               type="range"
               min={20}
               max={50}
@@ -239,6 +248,7 @@ export default function EBITDACalculator() {
               onChange={(e) => setNewPatientPercent(Number(e.target.value))}
               className="ebitda-calc-slider"
               style={sliderStyle}
+              aria-label="New Patient Percentage of Revenue"
             />
             <div style={rangeLabelsStyle}>
               <span>20%</span>
@@ -248,12 +258,14 @@ export default function EBITDACalculator() {
 
           {/* Valuation Multiple */}
           <div style={inputCardStyle}>
-            <label style={labelStyle}>
+            <label htmlFor="ebitda-multiple" style={labelStyle}>
               Expected Valuation Multiple
             </label>
             <select
+              id="ebitda-multiple"
               value={multiple}
               onChange={(e) => setMultiple(Number(e.target.value))}
+              aria-label="Expected Valuation Multiple"
               style={{
                 width: '100%',
                 padding: '14px 40px 14px 16px',
