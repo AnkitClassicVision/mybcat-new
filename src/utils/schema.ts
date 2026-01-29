@@ -66,11 +66,14 @@ export function generateOrganizationSchema() {
     },
     sameAs: Object.values(company.social),
     knowsAbout: [
-      'Patient acquisition',
-      'Healthcare operations',
-      'Medical practice management',
-      'Remote patient coordination',
-      'Healthcare call center services'
+      'Healthcare Practice Operations',
+      'Multi-Location Practice Management',
+      'Enterprise Patient Access',
+      'Medical Administrative Outsourcing',
+      'Healthcare BPO Services',
+      'Patient Intake Automation',
+      'HIPAA Compliant Services',
+      'Healthcare Technology Integration'
     ]
   };
 }
@@ -173,10 +176,20 @@ export function generateServiceSchema(meta: ServiceMeta) {
       '@type': 'Country',
       name: 'United States'
     },
-    audience: {
-      '@type': 'Audience',
-      audienceType: 'Healthcare practices'
-    }
+    audience: [
+      {
+        '@type': 'Audience',
+        audienceType: 'Enterprise Healthcare Groups'
+      },
+      {
+        '@type': 'Audience',
+        audienceType: 'Dental Service Organizations (DSOs)'
+      },
+      {
+        '@type': 'Audience',
+        audienceType: 'Multi-Location Healthcare Practices'
+      }
+    ]
   };
 }
 
@@ -250,8 +263,9 @@ export function combineSchemas(...schemas: object[]) {
 }
 
 /**
- * ProfessionalService/LocalBusiness schema for contact/about pages
- * More specific than Organization - indicates a service-based business
+ * @deprecated Use generateOrganizationSchema() instead for enterprise B2B positioning.
+ * ProfessionalService schema with geo coordinates is inappropriate for national B2B positioning.
+ * Retained temporarily for reference during migration.
  */
 export function generateProfessionalServiceSchema() {
   return {
@@ -263,7 +277,7 @@ export function generateProfessionalServiceSchema() {
     description: company.description,
     url: company.site.url,
     logo: `${company.site.url}/images/logo.webp`,
-    image: `${company.site.url}/images/og-default.png`,
+    image: `${company.site.url}/images/og-about.jpg`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: '1140 Hammond Drive',
@@ -323,8 +337,9 @@ export function generateProfessionalServiceSchema() {
 }
 
 /**
- * LocalBusiness schema for local SEO and GEO/AEO optimization
- * Important for Google Maps, local search, and AI search results
+ * @deprecated Use generateOrganizationSchema() instead for enterprise B2B positioning.
+ * LocalBusiness schema with geo coordinates is inappropriate for national B2B positioning.
+ * Retained temporarily for reference during migration.
  */
 export function generateLocalBusinessSchema() {
   return {
@@ -336,7 +351,7 @@ export function generateLocalBusinessSchema() {
     description: company.description,
     url: company.site.url,
     logo: `${company.site.url}/images/logo.webp`,
-    image: `${company.site.url}/images/og-default.png`,
+    image: `${company.site.url}/images/og-home.jpg`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: '1140 Hammond Drive',
