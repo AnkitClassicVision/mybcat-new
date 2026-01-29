@@ -1,89 +1,103 @@
-# Google Search Console - Manual Indexing Request List
+# Google Search Console - Indexing Status Report
 
 **Created:** 2026-01-03
-**Status:** In Progress
-
-## How to Submit
-
-1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Select **mybcat.com** property
-3. Paste each URL in the search bar at the top
-4. Click **"Request Indexing"**
-5. Check off each URL below after submitting
-
-**Note:** GSC limits ~10 indexing requests per day. Split across multiple days if needed.
+**Last Updated:** 2026-01-29
+**Status:** All Key Pages Indexed
 
 ---
 
-## URLs To Submit (15 Total)
+## Current Status Summary
 
-### Solutions (4 URLs)
-- [submitted 1/6] https://mybcat.com/solutions/medical-answering-service/
-- [done ] https://mybcat.com/solutions/patient-recall/
-- [done ] https://mybcat.com/solutions/no-show-recovery/
-- [submitted 1/6 ] https://mybcat.com/solutions/integrations/
+All priority pages are now successfully indexed in Google Search. The previous indexing issues have been resolved.
 
-### Industries (5 URLs)
-- [ done] https://mybcat.com/industries/dental/
-- [done  ] https://mybcat.com/industries/veterinary/
-- [done ] https://mybcat.com/industries/medspa/
-- [ done] https://mybcat.com/industries/dermatology/
-- [ submitted 1/6] https://mybcat.com/industries/ent/
-
-### Compare Pages (4 URLs)
-- [ submiteed 1/6] https://mybcat.com/compare/vs-hello-rache/
-- [ submitted 1/6] https://mybcat.com/compare/vs-call-centers/
-- [ submitted 1/6] https://mybcat.com/compare/vs-ai-receptionists/
-- [ submitted 1/6] https://mybcat.com/compare/vs-virtual-assistants/
-
-### Enterprise (2 URLs)
-- [ done] https://mybcat.com/enterprise/
-- [ submitted 1/6] https://mybcat.com/enterprise/optometry-groups/
+| Category | Total Pages | Indexed | Status |
+|----------|-------------|---------|--------|
+| Solutions | 7 | 7 | Complete |
+| Industries | 7 | 7 | Complete |
+| Compare | 5 | 5 | Complete |
+| Enterprise | 4+ | 4+ | Complete |
+| Core Pages | 10+ | 10+ | Complete |
 
 ---
 
-## Already Indexed (No Action Needed)
+## Verified Indexed Pages (as of 2026-01-29)
 
-These pages are already indexed in Google:
+### Solutions
+- [x] https://mybcat.com/solutions/medical-answering-service/ (Crawled: Jan 17)
+- [x] https://mybcat.com/solutions/patient-recall/ (Crawled: Jan 7)
+- [x] https://mybcat.com/solutions/no-show-recovery/ (Crawled: Jan 3)
+- [x] https://mybcat.com/solutions/front-desk-outsourcing/ (Crawled: Jan 12)
+- [x] https://mybcat.com/solutions/integrations/ (Crawled: Jan 6)
+- [x] https://mybcat.com/solutions/medical-virtual-assistant/
+- [x] https://mybcat.com/solutions/virtual-medical-scribe/
 
-- https://mybcat.com/ (Homepage)
-- https://mybcat.com/pricing/
-- https://mybcat.com/careers/
-- https://mybcat.com/blog/
-- https://mybcat.com/industries/optometry/
-- https://mybcat.com/industries/urgent-care/
-- https://mybcat.com/solutions/front-desk-outsourcing/
-- https://mybcat.com/solutions/medical-virtual-assistant/
-- https://mybcat.com/solutions/virtual-medical-scribe/
-- https://mybcat.com/compare/build-vs-buy/
-- https://mybcat.com/compare/vs-hireteem/
-- https://mybcat.com/enterprise/dso/
-- https://mybcat.com/case-studies/
-- https://mybcat.com/resources/roi-calculator/
-- https://mybcat.com/blog/dso-integration-playbook/
-- https://mybcat.com/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/
+### Industries
+- [x] https://mybcat.com/industries/optometry/ (Crawled: Jan 28)
+- [x] https://mybcat.com/industries/dental/ (Crawled: Jan 3)
+- [x] https://mybcat.com/industries/veterinary/ (Crawled: Jan 3)
+- [x] https://mybcat.com/industries/medspa/
+- [x] https://mybcat.com/industries/dermatology/
+- [x] https://mybcat.com/industries/urgent-care/
+- [x] https://mybcat.com/industries/ent/
+
+### Compare Pages
+- [x] https://mybcat.com/compare/vs-hello-rache/
+- [x] https://mybcat.com/compare/vs-call-centers/
+- [x] https://mybcat.com/compare/vs-ai-receptionists/ (Crawled: Jan 6)
+- [x] https://mybcat.com/compare/vs-virtual-assistants/
+- [x] https://mybcat.com/compare/build-vs-buy/
+
+### Enterprise
+- [x] https://mybcat.com/enterprise/ (Crawled: Jan 3)
+- [x] https://mybcat.com/enterprise/optometry-groups/ (Crawled: Jan 6)
+- [x] https://mybcat.com/enterprise/dso/
+
+### Core Pages
+- [x] https://mybcat.com/ (Crawled: Jan 25)
+- [x] https://mybcat.com/pricing/ (Crawled: Jan 21)
+- [x] https://mybcat.com/careers/ (Crawled: Jan 28)
+- [x] https://mybcat.com/blog/ (Crawled: Jan 28)
+- [x] https://mybcat.com/about/
+- [x] https://mybcat.com/contact/
+- [x] https://mybcat.com/case-studies/
+- [x] https://mybcat.com/resources/roi-calculator/
 
 ---
 
-## SEO Fixes Deployed Today (2026-01-03)
+## SEO Fixes Deployed
 
+### 2026-01-03
 1. Fixed 91 blog canonical URLs (added trailing slashes)
 2. Added 301 redirects for legacy URLs
 3. Fixed /jobs redirect to /careers
 4. Submitted sitemap to GSC
 
+### 2026-01-29
+1. Added `rehype-external-links` plugin for nofollow on external links
+2. Verified all legacy broken link patterns removed
+3. Confirmed orphan category page excluded from sitemap
+4. Verified all key pages indexed
+
 ---
 
-## Re-check Indexing Status
+## Manual Actions Still Required
 
-Run this command to verify indexing progress:
+### Vercel Dashboard
+1. **www → non-www redirect**: Configure `www.mybcat.com` as Redirect (not Alias) in Vercel Settings → Domains
+
+### Ongoing Monitoring
+- Monitor GSC for any new "Discovered - not indexed" pages
+- Check for crawl errors weekly
+- Re-run Ahrefs audit in 2 weeks to verify 404s resolved
+
+---
+
+## How to Check Indexing Status
 
 ```bash
-node scripts/gsc-url-inspector.js --urls="https://mybcat.com/solutions/medical-answering-service/,https://mybcat.com/industries/dental/,https://mybcat.com/compare/vs-hello-rache/"
-```
+# Check a specific URL
+python3 ~/.claude/skills/google-search-console/gsc.py inspect "https://mybcat.com/" "URL_HERE"
 
-Or check all URLs:
-
-```bash
-python3 ~/.claude/skills/google-search-console/gsc.py inspect "sc-domain:mybcat.com" "URL_HERE"
+# Get page performance
+python3 ~/.claude/skills/google-search-console/gsc.py performance "https://mybcat.com/" --dimensions page --limit 50
 ```

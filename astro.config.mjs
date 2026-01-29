@@ -3,6 +3,7 @@ import vercel from '@astrojs/vercel/static';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import mdx from '@astrojs/mdx';
+import rehypeExternalLinks from 'rehype-external-links';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
@@ -112,5 +113,24 @@ export default defineConfig({
   trailingSlash: 'always',
   build: {
     format: 'directory'
+  },
+  // Add nofollow to external links to conserve crawl budget
+  markdown: {
+    rehypePlugins: [
+      [rehypeExternalLinks, {
+        target: '_blank',
+        rel: ['nofollow', 'noopener'],
+        // Only apply to external links (links not starting with mybcat.com or /)
+        test: (node) => {
+          const href = node.properties?.href;
+          if (!href || typeof href !== 'string') return false;
+          // Skip internal links
+          if (href.startsWith('/') || href.startsWith('#')) return false;
+          if (href.includes('mybcat.com') && !href.includes('hubspot.mybcat.com')) return false;
+          // Apply to all external links including hubspot subdomain
+          return true;
+        }
+      }]
+    ]
   }
 });
