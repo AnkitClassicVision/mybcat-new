@@ -6,8 +6,7 @@ description: Learn how to effectively reactivate dormant patients with our 30-da
 seoDescription: Discover a 30-day playbook for dormant patient reactivation to enhance
   your practice's revenue and patient engagement.
 publishDate: '2026-01-30'
-status: scheduled
-scheduledDate: '2026-01-30'
+status: draft
 author: Ankit Patel
 category: Practice Growth
 tags:

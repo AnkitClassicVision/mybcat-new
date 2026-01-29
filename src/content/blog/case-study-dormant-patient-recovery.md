@@ -6,8 +6,7 @@ description: Discover how to recover dormant patients without discounting in thi
 seoDescription: Explore a case study on recovering dormant patients without discounting.
   Gain insights into effective strategies for patient reactivation.
 publishDate: '2026-02-17'
-status: scheduled
-scheduledDate: '2026-02-17'
+status: draft
 author: Ankit Patel
 category: Case Study
 tags:

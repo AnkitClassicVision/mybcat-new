@@ -6,8 +6,7 @@ description: Explore a step-by-step patient recall campaign framework to reactiv
 seoDescription: Explore a step-by-step patient recall campaign framework to reactivate
   dormant patients effectively.
 publishDate: '2026-01-29'
-status: scheduled
-scheduledDate: '2026-01-29'
+status: draft
 author: Ankit Patel
 category: Practice Growth
 tags:

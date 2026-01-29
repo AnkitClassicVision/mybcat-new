@@ -6,8 +6,7 @@ description: Learn how to implement an effective optometry recall campaign to bo
 seoDescription: Discover practical strategies for an optometry recall campaign to
   effectively fill the January slump and enhance patient engagement.
 publishDate: '2026-02-10'
-status: scheduled
-scheduledDate: '2026-02-10'
+status: draft
 author: Ankit Patel
 category: Optometry
 tags:

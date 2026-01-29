@@ -6,8 +6,7 @@ description: Implement a no-show recovery program to minimize gaps in your sched
 seoDescription: Discover how a no-show recovery program can help reduce gaps in your
   schedule and rebook patients effectively.
 publishDate: '2026-02-04'
-status: scheduled
-scheduledDate: '2026-02-04'
+status: draft
 author: Ankit Patel
 category: Operations
 tags:
