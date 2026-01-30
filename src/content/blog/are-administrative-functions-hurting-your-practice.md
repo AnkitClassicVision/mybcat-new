@@ -1,6 +1,6 @@
 ---
 title: "Are Administrative Functions Hurting Your Practice?"
-description: "A successful optometry practice results from strong eye care services. However, as a customer service outsourcing provider in Marietta, Georgia, [...]"
+description: "A successful optometry practice results from strong eye care services. However, as a managed healthcare intake partner, we understand that crucial administrative tasks should be performed to ensure efficient operations."
 publishDate: 2023-10-24
 status: "published"
 author: "Ankit Patel"
@@ -10,9 +10,9 @@ featuredImage: "/images/blog/are-administrative-functions-hurting-your-practice.
 canonical: "https://mybcat.com/blog/are-administrative-functions-hurting-your-practice/"
 ---
 
-A successful optometry practice results from strong eye care services. However, as a [customer service outsourcing provider in Marietta, Georgia](https://mybcat.com/industries/optometry/), we understand that crucial administrative tasks should be performed to ensure successful and efficient optometry operations.
+A successful optometry practice results from strong eye care services. However, as a [managed healthcare intake partner](https://mybcat.com/industries/optometry/), we understand that crucial administrative tasks should be performed to ensure successful and efficient optometry operations.
 
-Our services at My Business Care Team aim to improve your optometry practice through our [optometrists inbound call services in Georgia](https://mybcat.com/solutions/medical-answering-service/). We recognize that many of these administrative tasks, while crucial, can slow down your operations when you do them on your own. How can these tasks hurt your practice?
+Our services at My Business Care Team aim to improve your optometry practice through our [optometrist inbound call services](https://mybcat.com/solutions/medical-answering-service/). We recognize that many of these administrative tasks, while crucial, can slow down your operations when you do them on your own. How can these tasks hurt your practice?
 
 - **Less Time for Patients**
 
@@ -28,7 +28,7 @@ Administrative duties can become growing distractions that internally affect how
 
 As mentioned, administrative tasks require a different set of skills. Attending these future events can split your focus, compromising your quality of care and putting you and your health team at a higher risk of [burnout](https://www.mindtools.com/apt37nj/avoiding-burnout). Outsourcing these duties allows you to focus on your level of service. For practices with [multiple locations, centralized intake systems](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) can distribute this administrative burden efficiently.
 
-We want your optometry practice to flourish. Learn more about how we can help you achieve this goal. [Call us](tel:678-855-6130) today!
+We want your optometry practice to flourish. Learn more about how we can help you achieve this goal. [Contact us](/contact/) today!
 
 ---
 

@@ -20,17 +20,17 @@ Structured calls can efficiently address the client's purpose. This entails smar
 
 - **Emotional Intelligence**
 
-Call support agents should show emotional intelligence that allows patients to feel valued. This is a crucial step when trying to foster [client loyalty](https://www.businessnewsdaily.com/16017-build-customer-loyalty.html). With optometry [virtual receptionists in Georgia](https://mybcat.com/solutions/medical-virtual-assistant/), you can cater to patients in the best way possible.
+Call support agents should show emotional intelligence that allows patients to feel valued. This is a crucial step when trying to foster [client loyalty](https://www.businessnewsdaily.com/16017-build-customer-loyalty.html). With optometry [virtual receptionists](https://mybcat.com/solutions/medical-virtual-assistant/), you can cater to patients in the best way possible.
 
 - **Watch Your Language**
 
-Booking an [optometrist appointment in Georgia](https://mybcat.com/blog/) should be a pleasant experience for everyone. Call support professionals need to understand that tone and language matter when talking to patients over the phone. These interactions are essentially part of the overall optometry care experience.
+Booking an [optometrist appointment](https://mybcat.com/blog/) should be a pleasant experience for everyone. Call support professionals need to understand that tone and language matter when talking to patients over the phone. These interactions are essentially part of the overall optometry care experience.
 
 - **Keep It Positive**
 
 Whatever the subject matter may be in these calls, proper call support should keep a positive and helpful atmosphere. Giving clients a positive experience is an important part of fostering client loyalty. Positive wording also puts clients in a more comfortable mind state.
 
-Through our [medical virtual assistants](/solutions/medical-virtual-assistant/), we can elevate your optometry practice to new heights. Learn how we [compare to other virtual assistant options](/compare/vs-virtual-assistants/). [Call us](tel:678-855-6130) to learn more about our services!
+Through our [medical virtual assistants](/solutions/medical-virtual-assistant/), we can elevate your optometry practice to new heights. Learn how we [compare to other virtual assistant options](/compare/vs-virtual-assistants/). [Contact us](/contact/) to learn more about our services!
 
 ---
 
