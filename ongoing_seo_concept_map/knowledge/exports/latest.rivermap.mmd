@@ -1,0 +1,148 @@
+flowchart LR
+  node_adjust_filters_000107["Adjust Filters"]
+  node_ahrefs_000024["Ahrefs (Rank Tracker + Audit)"]
+  node_audit_content_quality_000303["Audit Content Quality"]
+  node_audit_onpage_seo_000302["Audit On-Page SEO"]
+  node_audit_technical_seo_000301["Audit Technical SEO"]
+  node_authority_and_throttle_000070["Authority + Publishing Throttle"]
+  node_burst_drip_publish_000084["Burst Drip Publish"]
+  node_burst_spokes_000063["Burst: Multiple Spokes"]
+  node_ctr_conversion_tracking_000104["CTR/Conversion Tracking"]
+  node_ctr_snippet_fix_000067["CTR: Snippet Fix"]
+  node_cannibalization_consolidation_000069["Cannibalization Consolidation"]
+  node_commit_and_open_pr_000095["Commit + Open PR"]
+  node_audit_baseline_diff_000304["Compare to Audit Baseline"]
+  node_constraints_pace_and_quality_000032["Constraints: Pace + Quality"]
+  node_content_creation_decisions_000060["Content Creation Decisions"]
+  node_cross_page_updates_000098["Cross-Page Updates"]
+  node_daily_content_pr_000085["Daily Content PR"]
+  node_daily_loop_concept_000026["Daily Loop (Content + Quick Fixes)"]
+  node_dataforseo_000023["DataForSEO (Rankings + SERP)"]
+  node_decision_system_000013["Decision System"]
+  node_execution_pipelines_000015["Execution Pipelines"]
+  node_expand_keyword_set_000101["Expand Keyword Set"]
+  node_feedback_and_recalibration_000016["Feedback & Recalibration"]
+  node_gsc_analytics_000025["GSC/Analytics (CTR + Conversions)"]
+  node_generate_posts_and_links_000093["Generate Posts + Links"]
+  node_goal_compounding_visibility_000030["Goal: Compounding Organic Visibility"]
+  node_value_filter_000052["High-Value Filter (Volume/Business)"]
+  node_internal_linking_discipline_000092["Internal Linking Discipline"]
+  node_key_repos_and_boundaries_000001["Key Repos & Boundaries"]
+  node_linkable_asset_000071["Linkable Asset"]
+  node_max_posts_per_day_000083["Max Posts Per Day"]
+  node_merge_and_monitor_000096["Merge + Monitor"]
+  node_monitor_outcomes_000100["Monitor Outcomes"]
+  node_movers_filter_000051["Movers Filter (≥3 Positions)"]
+  node_near_page_one_filter_000050["Near Page 1 Filter (Positions 8–20)"]
+  node_new_cluster_detection_000105["New Cluster Detection"]
+  node_new_pillar_cluster_000065["New: Pillar + Cluster"]
+  node_operating_cadence_000003["Operating Cadence"]
+  node_pr_cadence_governance_000082["PR Cadence Governance"]
+  node_page_improvement_decisions_000061["Page Improvement Decisions"]
+  node_pause_slow_publishing_000072["Pause/Slow Publishing"]
+  node_primary_signal_sources_000002["Primary Signal Sources"]
+  node_quality_gates_000094["Quality Gates"]
+  node_queue_and_scheduling_000081["Queue & Scheduling"]
+  node_rank_movement_tracking_000103["Rank Movement Tracking"]
+  node_rank_positions_daily_truth_000040["Rank Positions (Daily Truth)"]
+  node_refine_work_orders_000108["Refine Work Orders"]
+  node_refresh_page_000066["Refresh: Update Existing Page"]
+  node_repo_blog_writer_000022["Repo: blog_writer"]
+  node_repo_mybcat_new_000021["Repo: mybcat-new"]
+  node_root["Root Concept"]
+  node_serp_context_features_000041["SERP Context (Features + Questions)"]
+  node_scope_content_and_tech_000031["Scope: Content + Tech Actions"]
+  node_signal_filters_000012["Signal Filters"]
+  node_signal_driven_seo_autopilot_000010["Signal-Driven SEO Autopilot"]
+  node_signals_and_measurements_000011["Signals & Measurements"]
+  node_single_support_post_000064["Single: One Support Post"]
+  node_site_health_and_authority_000042["Site Health + Authority Signals"]
+  node_site_mybcat_com_000020["Site: mybcat.com"]
+  node_spoke_to_pillar_links_000097["Spoke → Pillar Links"]
+  node_system_risk_decisions_000062["System Risk Decisions"]
+  node_tech_integrity_gate_000068["Tech Integrity Gate"]
+  node_tracked_keywords_maintenance_000106["Tracked Keywords Maintenance"]
+  node_tune_rules_and_thresholds_000102["Tune Rules & Thresholds"]
+  node_weekly_loop_concept_000027["Weekly Loop (Technical + Recalibration)"]
+  node_optional_weekly_refresh_pr_000087["Weekly Refresh PR (Optional)"]
+  node_weekly_seo_audit_000300["Weekly SEO Site Audit"]
+  node_weekly_tech_fix_pr_000086["Weekly Tech Fix PR"]
+  node_work_order_types_000080["Work Order Types"]
+  node_work_orders_and_pacing_000014["Work Orders & Pacing"]
+  node_blog_writer_pipeline_000090["blog_writer Content Pipeline"]
+  node_mybcat_new_delivery_pipeline_000091["mybcat-new Delivery Pipeline"]
+  node_weekly_seo_audit_000300 -- "precedes" --> node_audit_baseline_diff_000304
+  node_root -- "precedes" --> node_signal_driven_seo_autopilot_000010
+  node_signal_driven_seo_autopilot_000010 -- "precedes" --> node_signals_and_measurements_000011
+  node_signals_and_measurements_000011 -- "precedes" --> node_signal_filters_000012
+  node_signal_filters_000012 -- "precedes" --> node_decision_system_000013
+  node_decision_system_000013 -- "precedes" --> node_work_orders_and_pacing_000014
+  node_work_orders_and_pacing_000014 -- "precedes" --> node_execution_pipelines_000015
+  node_execution_pipelines_000015 -- "precedes" --> node_feedback_and_recalibration_000016
+  node_key_repos_and_boundaries_000001 -- "part_of" --> node_site_mybcat_com_000020
+  node_primary_signal_sources_000002 -- "part_of" --> node_dataforseo_000023
+  node_operating_cadence_000003 -- "part_of" --> node_daily_loop_concept_000026
+  node_content_creation_decisions_000060 -- "part_of" --> node_burst_spokes_000063
+  node_page_improvement_decisions_000061 -- "part_of" --> node_refresh_page_000066
+  node_system_risk_decisions_000062 -- "part_of" --> node_tech_integrity_gate_000068
+  node_authority_and_throttle_000070 -- "part_of" --> node_linkable_asset_000071
+  node_queue_and_scheduling_000081 -- "part_of" --> node_max_posts_per_day_000083
+  node_pr_cadence_governance_000082 -- "part_of" --> node_daily_content_pr_000085
+  node_blog_writer_pipeline_000090 -- "part_of" --> node_generate_posts_and_links_000093
+  node_mybcat_new_delivery_pipeline_000091 -- "part_of" --> node_commit_and_open_pr_000095
+  node_internal_linking_discipline_000092 -- "part_of" --> node_spoke_to_pillar_links_000097
+  node_feedback_and_recalibration_000016 -- "part_of" --> node_monitor_outcomes_000100
+  node_monitor_outcomes_000100 -- "part_of" --> node_rank_movement_tracking_000103
+  node_expand_keyword_set_000101 -- "part_of" --> node_new_cluster_detection_000105
+  node_tune_rules_and_thresholds_000102 -- "part_of" --> node_adjust_filters_000107
+  node_weekly_seo_audit_000300 -- "part_of" --> node_audit_technical_seo_000301
+  node_audit_baseline_diff_000304 -- "causes" --> node_queue_and_scheduling_000081
+  node_root -- "part_of" --> node_key_repos_and_boundaries_000001
+  node_key_repos_and_boundaries_000001 -- "part_of" --> node_repo_mybcat_new_000021
+  node_primary_signal_sources_000002 -- "part_of" --> node_ahrefs_000024
+  node_operating_cadence_000003 -- "part_of" --> node_weekly_loop_concept_000027
+  node_signal_driven_seo_autopilot_000010 -- "part_of" --> node_goal_compounding_visibility_000030
+  node_signals_and_measurements_000011 -- "part_of" --> node_rank_positions_daily_truth_000040
+  node_signal_filters_000012 -- "part_of" --> node_near_page_one_filter_000050
+  node_decision_system_000013 -- "part_of" --> node_content_creation_decisions_000060
+  node_content_creation_decisions_000060 -- "part_of" --> node_single_support_post_000064
+  node_page_improvement_decisions_000061 -- "part_of" --> node_ctr_snippet_fix_000067
+  node_system_risk_decisions_000062 -- "part_of" --> node_cannibalization_consolidation_000069
+  node_authority_and_throttle_000070 -- "part_of" --> node_pause_slow_publishing_000072
+  node_work_orders_and_pacing_000014 -- "part_of" --> node_work_order_types_000080
+  node_queue_and_scheduling_000081 -- "part_of" --> node_burst_drip_publish_000084
+  node_pr_cadence_governance_000082 -- "part_of" --> node_weekly_tech_fix_pr_000086
+  node_execution_pipelines_000015 -- "part_of" --> node_blog_writer_pipeline_000090
+  node_blog_writer_pipeline_000090 -- "part_of" --> node_quality_gates_000094
+  node_mybcat_new_delivery_pipeline_000091 -- "part_of" --> node_merge_and_monitor_000096
+  node_internal_linking_discipline_000092 -- "part_of" --> node_cross_page_updates_000098
+  node_feedback_and_recalibration_000016 -- "part_of" --> node_expand_keyword_set_000101
+  node_monitor_outcomes_000100 -- "part_of" --> node_ctr_conversion_tracking_000104
+  node_expand_keyword_set_000101 -- "part_of" --> node_tracked_keywords_maintenance_000106
+  node_tune_rules_and_thresholds_000102 -- "part_of" --> node_refine_work_orders_000108
+  node_weekly_seo_audit_000300 -- "part_of" --> node_audit_onpage_seo_000302
+  node_audit_baseline_diff_000304 -- "enables" --> node_feedback_and_recalibration_000016
+  node_root -- "part_of" --> node_primary_signal_sources_000002
+  node_key_repos_and_boundaries_000001 -- "part_of" --> node_repo_blog_writer_000022
+  node_primary_signal_sources_000002 -- "part_of" --> node_gsc_analytics_000025
+  node_signal_driven_seo_autopilot_000010 -- "part_of" --> node_scope_content_and_tech_000031
+  node_signals_and_measurements_000011 -- "part_of" --> node_serp_context_features_000041
+  node_signal_filters_000012 -- "part_of" --> node_movers_filter_000051
+  node_decision_system_000013 -- "part_of" --> node_page_improvement_decisions_000061
+  node_content_creation_decisions_000060 -- "part_of" --> node_new_pillar_cluster_000065
+  node_system_risk_decisions_000062 -- "part_of" --> node_authority_and_throttle_000070
+  node_work_orders_and_pacing_000014 -- "part_of" --> node_queue_and_scheduling_000081
+  node_pr_cadence_governance_000082 -- "part_of" --> node_optional_weekly_refresh_pr_000087
+  node_execution_pipelines_000015 -- "part_of" --> node_mybcat_new_delivery_pipeline_000091
+  node_feedback_and_recalibration_000016 -- "part_of" --> node_tune_rules_and_thresholds_000102
+  node_operating_cadence_000003 -- "part_of" --> node_weekly_seo_audit_000300
+  node_weekly_seo_audit_000300 -- "part_of" --> node_audit_content_quality_000303
+  node_root -- "part_of" --> node_operating_cadence_000003
+  node_signal_driven_seo_autopilot_000010 -- "part_of" --> node_constraints_pace_and_quality_000032
+  node_signals_and_measurements_000011 -- "part_of" --> node_site_health_and_authority_000042
+  node_signal_filters_000012 -- "part_of" --> node_value_filter_000052
+  node_decision_system_000013 -- "part_of" --> node_system_risk_decisions_000062
+  node_work_orders_and_pacing_000014 -- "part_of" --> node_pr_cadence_governance_000082
+  node_execution_pipelines_000015 -- "part_of" --> node_internal_linking_discipline_000092
+  classDef trunk stroke-width:3px;
+  class node_audit_baseline_diff_000304,node_decision_system_000013,node_execution_pipelines_000015,node_feedback_and_recalibration_000016,node_root,node_signal_driven_seo_autopilot_000010,node_signal_filters_000012,node_signals_and_measurements_000011,node_weekly_seo_audit_000300,node_work_orders_and_pacing_000014 trunk;

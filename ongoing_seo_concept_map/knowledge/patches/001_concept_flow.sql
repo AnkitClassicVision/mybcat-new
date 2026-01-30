@@ -1,0 +1,723 @@
+PRAGMA foreign_keys = ON;
+
+-- Concept Flow Map (Sense-Making) for: Ongoing SEO
+-- Notes:
+-- - Trunk edges explain the logic chain (is_trunk=1).
+-- - Structural expansions use rel_part_of (is_trunk=0) with why/how filled.
+-- - Keep <=3 non-trunk children per node; total outgoing edges <=4 per node.
+
+BEGIN;
+
+-- Root node already exists as: node_root
+UPDATE node
+SET
+  short_def = 'A signal-driven operating system for ongoing SEO on mybcat.com: daily content decisions + weekly technical maintenance.',
+  why_important = 'Turns rankings and site-health changes into consistent, high-leverage actions without random publishing.',
+  deep_dive = 'Core loop: check signals (rankings/SERP/audit/CTR) → decide using clarity rules → act via work orders → ship PRs → learn and recalibrate tracked keywords and thresholds.',
+  example = 'If a cluster has 3+ keywords in positions 8–20 and improving, create a burst of 3–5 spokes and drip publish (max 1–2 posts/day) while keeping weekly tech health clean.',
+  eli5 = 'Look at what is happening in Google, decide what to write or fix, then do it every day/week.',
+  tags = 'seo,operations,mybcat,content,maintenance'
+WHERE id = 'node_root' AND map_id = 'default';
+
+-- Root-level anchors (implementation surface area)
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_key_repos_and_boundaries_000001', 'default', 'Key Repos & Boundaries',
+   'Where ongoing SEO work is executed and versioned.',
+   'Clear boundaries prevent drift between research, writing, and site code changes.',
+   'repos,workflow,governance'),
+  ('node_primary_signal_sources_000002', 'default', 'Primary Signal Sources',
+   'The recurring inputs that drive the autopilot loop.',
+   'Signal quality determines decision quality; define a consistent daily truth source and cross-checks.',
+   'signals,data,measurement'),
+  ('node_operating_cadence_000003', 'default', 'Operating Cadence',
+   'Two rhythms: daily content loop and weekly technical recalibration.',
+   'A fixed cadence prevents neglect (no maintenance) and thrash (too many changes).',
+   'cadence,ops');
+
+-- Trunk (Level 0) concepts
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_signal_driven_seo_autopilot_000010', 'default', 'Signal-Driven SEO Autopilot',
+   'A repeatable check → decide → act loop for ongoing SEO.',
+   'Creates compounding progress by acting on the right signals at the right time.',
+   'autopilot,loop,ops'),
+  ('node_signals_and_measurements_000011', 'default', 'Signals & Measurements',
+   'What we observe: rankings, SERP context, CTR, site health, and authority changes.',
+   'Without reliable measurement, content and fixes become random and hard to evaluate.',
+   'signals,kpi,measurement'),
+  ('node_signal_filters_000012', 'default', 'Signal Filters',
+   'Rules that decide which keywords/pages deserve attention today.',
+   'Filters focus effort on the highest probability of movement (near page 1, movers, high value).',
+   'filters,prioritization'),
+  ('node_decision_system_000013', 'default', 'Decision System',
+   'Clarity rules that map filtered signals to specific action types.',
+   'A simple rule set prevents overthinking and keeps execution consistent across days.',
+   'decisions,rules'),
+  ('node_work_orders_and_pacing_000014', 'default', 'Work Orders & Pacing',
+   'Structured action representations (work orders) plus strict publishing limits.',
+   'Work orders turn decisions into executable tasks while pacing prevents site-wide chaos.',
+   'work-orders,queue,pacing'),
+  ('node_execution_pipelines_000015', 'default', 'Execution Pipelines',
+   'How chosen actions become shipped changes: content pipeline + tech pipeline.',
+   'Reliable pipelines reduce errors and keep output consistent (posts, refreshes, fixes).',
+   'execution,pipelines'),
+  ('node_feedback_and_recalibration_000016', 'default', 'Feedback & Recalibration',
+   'Use outcomes to update tracked keywords, thresholds, and the content roadmap.',
+   'The system improves only if it learns (what moves rankings, what improves CTR, what breaks).',
+   'feedback,iteration');
+
+-- Anchor expansions
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_site_mybcat_com_000020', 'default', 'Site: mybcat.com',
+   'The target property whose organic visibility and conversions we are improving.',
+   'Defines the audience, constraints, and what counts as success.',
+   'site,mybcat'),
+  ('node_repo_mybcat_new_000021', 'default', 'Repo: mybcat-new',
+   'The website code/content repo where changes land via PRs.',
+   'PR-based delivery provides traceability, review, and rollback for SEO changes.',
+   'repo,git,website'),
+  ('node_repo_blog_writer_000022', 'default', 'Repo: blog_writer',
+   'The controlled content generation pipeline used to write/support posts.',
+   'Standardizes writing quality and linking behavior across daily work orders.',
+   'repo,content,pipeline'),
+
+  ('node_dataforseo_000023', 'default', 'DataForSEO (Rankings + SERP)',
+   'Daily rank positions and SERP snapshots (top results, PAA, related searches, features).',
+   'Acts as the daily ranking truth and supplies SERP context for decisions and snippet fixes.',
+   'dataforseo,rankings,serp'),
+  ('node_ahrefs_000024', 'default', 'Ahrefs (Rank Tracker + Audit)',
+   'Cross-check visibility/movers, plus weekly site audit and backlink deltas.',
+   'Provides sanity signals and tech/authority diagnostics that rankings alone cannot explain.',
+   'ahrefs,audit,backlinks'),
+  ('node_gsc_analytics_000025', 'default', 'GSC/Analytics (CTR + Conversions)',
+   'Query/page performance to detect CTR and conversion regressions.',
+   'Separates ranking success from business success and triggers snippet/CTR actions.',
+   'gsc,analytics,ctr'),
+
+  ('node_daily_loop_concept_000026', 'default', 'Daily Loop (Content + Quick Fixes)',
+   'Day-to-day ranking-driven decisions that produce 0–1 content PR/day (optionally 2).',
+   'Daily actions capture momentum when keywords sit near page 1 or get stuck.',
+   'daily,content,ops'),
+  ('node_weekly_loop_concept_000027', 'default', 'Weekly Loop (Technical + Recalibration)',
+   'Weekly maintenance to keep indexability/link health stable and detect new clusters.',
+   'Technical regression can erase content gains; weekly scans prevent silent decay.',
+   'weekly,maintenance,ops');
+
+-- Autopilot supports
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_goal_compounding_visibility_000030', 'default', 'Goal: Compounding Organic Visibility',
+   'Improve rankings/visibility by continuously expanding and updating topical authority.',
+   'Authority compounds through consistent publishing, linking, and upkeep.',
+   'goal,visibility'),
+  ('node_scope_content_and_tech_000031', 'default', 'Scope: Content + Tech Actions',
+   'Two levers: publish/support content and remove technical blockers.',
+   'SEO performance is constrained by both relevance (content) and crawl/index health (tech).',
+   'scope,content,tech'),
+  ('node_constraints_pace_and_quality_000032', 'default', 'Constraints: Pace + Quality',
+   'Limits on publishing volume and change size to avoid instability.',
+   'Pacing and QA reduce self-inflicted regressions and protect trust.',
+   'constraints,pacing,quality');
+
+-- Measurements supports
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_rank_positions_daily_truth_000040', 'default', 'Rank Positions (Daily Truth)',
+   'Keyword → position + ranking URL for tracked clusters.',
+   'This is the primary feedback signal that the loop optimizes for each day.',
+   'rankings,keywords'),
+  ('node_serp_context_features_000041', 'default', 'SERP Context (Features + Questions)',
+   'PAA questions, related searches, feature blocks, and top competitors.',
+   'Explains why the SERP behaves as it does and supplies targets for refresh/CTR actions.',
+   'serp,paa,features'),
+  ('node_site_health_and_authority_000042', 'default', 'Site Health + Authority Signals',
+   'Audit issues, broken links, redirect chains, and backlink deltas.',
+   'Distinguishes content problems from technical/authority problems when rankings move.',
+   'audit,backlinks,health');
+
+-- Filters supports
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_near_page_one_filter_000050', 'default', 'Near Page 1 Filter (Positions 8–20)',
+   'Focus on queries close enough to break into page 1 with supporting content or refreshes.',
+   'Near-page-1 work usually has the highest marginal impact per post.',
+   'filter,near-page-1'),
+  ('node_movers_filter_000051', 'default', 'Movers Filter (≥3 Positions)',
+   'Detect keywords/pages that materially moved since yesterday/7d.',
+   'Movement is a signal of active SERP volatility or algorithmic response to changes.',
+   'filter,movers'),
+  ('node_value_filter_000052', 'default', 'High-Value Filter (Volume/Business)',
+   'Prioritize by search volume and business value thresholds.',
+   'Prevents spending cycles on low-impact queries when higher leverage exists.',
+   'filter,priority,value');
+
+-- Decision supports
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_content_creation_decisions_000060', 'default', 'Content Creation Decisions',
+   'When to create a burst, a single support post, or a new pillar+cluster.',
+   'Content is the primary lever to push clusters from positions 8–20 into top 10.',
+   'decisions,content'),
+  ('node_page_improvement_decisions_000061', 'default', 'Page Improvement Decisions',
+   'When to refresh a page or improve CTR/snippets.',
+   'Refreshing protects existing wins and recovers losses without creating more pages.',
+   'decisions,refresh,ctr'),
+  ('node_system_risk_decisions_000062', 'default', 'System Risk Decisions',
+   'When to prioritize tech fixes, consolidation, or to slow publishing.',
+   'Risk controls prevent regressions like crawl waste, indexability issues, and cannibalization.',
+   'decisions,tech,risk');
+
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_burst_spokes_000063', 'default', 'Burst: Multiple Spokes',
+   'Create 3–5 supporting posts when a cluster is poised to reach top 10.',
+   'A burst increases topical coverage and internal link support at the moment it matters most.',
+   'burst,cluster'),
+  ('node_single_support_post_000064', 'default', 'Single: One Support Post',
+   'Create one targeted support post when a keyword is stuck 11–20.',
+   'A single spoke can resolve a missing intent slice and add internal link pressure.',
+   'spoke,support'),
+  ('node_new_pillar_cluster_000065', 'default', 'New: Pillar + Cluster',
+   'Create a new pillar plus 6–8 spokes when a new theme emerges.',
+   'New clusters are the main path to expanding what the site can rank for over time.',
+   'pillar,cluster'),
+
+  ('node_refresh_page_000066', 'default', 'Refresh: Update Existing Page',
+   'Update sections, add FAQs, and improve recency when rankings drop.',
+   'Refreshing is the fastest way to recover drops when tech health is clean.',
+   'refresh,recency'),
+  ('node_ctr_snippet_fix_000067', 'default', 'CTR: Snippet Fix',
+   'Update title/meta and add FAQ blocks to improve clicks when ranking is already top 10.',
+   'Better CTR can improve traffic immediately and sometimes improves rankings via engagement signals.',
+   'ctr,snippet,faq'),
+
+  ('node_tech_integrity_gate_000068', 'default', 'Tech Integrity Gate',
+   'Check for technical causes before refreshing content after large drops.',
+   'Fixing the wrong thing wastes time; tech issues can suppress otherwise strong pages.',
+   'tech,diagnosis'),
+  ('node_cannibalization_consolidation_000069', 'default', 'Cannibalization Consolidation',
+   'Resolve keyword ranking URL flips by picking a winner and merging/redirecting/canonicalizing.',
+   'Cannibalization splits authority and confuses search engines, slowing progress.',
+   'cannibalization,consolidation'),
+  ('node_authority_and_throttle_000070', 'default', 'Authority + Publishing Throttle',
+   'When to build linkable assets and when to slow publishing due to regressions.',
+   'Authority plateaus and tech/conversion regressions require changing strategy, not more random posts.',
+   'authority,governance');
+
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_linkable_asset_000071', 'default', 'Linkable Asset',
+   'A deliberately designed asset meant to earn backlinks and unlock ranking plateaus.',
+   'If content is strong but authority is flat, assets are higher leverage than more spokes.',
+   'asset,backlinks'),
+  ('node_pause_slow_publishing_000072', 'default', 'Pause/Slow Publishing',
+   'Reduce publishing when tech health or conversion health regresses.',
+   'Stabilization prevents compounding harm while root causes are fixed.',
+   'pacing,stability');
+
+-- Work order supports
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_work_order_types_000080', 'default', 'Work Order Types',
+   'A small vocabulary that encodes the chosen action (create, refresh, fix).',
+   'A shared vocabulary makes the system auditable and automatable.',
+   'work-orders,taxonomy'),
+  ('node_queue_and_scheduling_000081', 'default', 'Queue & Scheduling',
+   'How work orders are queued and drip-published within pacing limits.',
+   'Scheduling turns bursts into predictable daily output without overwhelm.',
+   'queue,scheduling'),
+  ('node_pr_cadence_governance_000082', 'default', 'PR Cadence Governance',
+   'Ship changes as PRs with daily/weekly expectations.',
+   'PR cadence enforces batching discipline and makes changes reviewable.',
+   'prs,governance');
+
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_max_posts_per_day_000083', 'default', 'Max Posts Per Day',
+   'Enforce 0–1 post/day (optionally 2) across the site.',
+   'Protects crawl/index stability and prevents quality drops.',
+   'pacing,content'),
+  ('node_burst_drip_publish_000084', 'default', 'Burst Drip Publish',
+   'Schedule bursts over multiple days instead of publishing all at once.',
+   'Spreads risk and makes outcomes measurable per day.',
+   'burst,scheduling'),
+
+  ('node_daily_content_pr_000085', 'default', 'Daily Content PR',
+   'One PR per day for content actions.',
+   'Creates a consistent shipping rhythm and a clean review trail.',
+   'pr,daily'),
+  ('node_weekly_tech_fix_pr_000086', 'default', 'Weekly Tech Fix PR',
+   'One PR per week dedicated to technical maintenance fixes.',
+   'Keeps audit health stable so content gains are not suppressed.',
+   'pr,weekly,tech'),
+  ('node_optional_weekly_refresh_pr_000087', 'default', 'Weekly Refresh PR (Optional)',
+   'A separate PR for batch refreshes when needed.',
+   'Separating refreshes from tech fixes preserves clarity and review speed.',
+   'pr,weekly,refresh');
+
+-- Execution supports
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_blog_writer_pipeline_000090', 'default', 'blog_writer Content Pipeline',
+   'The standardized pipeline for generating posts from work orders.',
+   'Keeps writing quality and internal linking consistent while scaling output.',
+   'blog-writer,content'),
+  ('node_mybcat_new_delivery_pipeline_000091', 'default', 'mybcat-new Delivery Pipeline',
+   'The PR-based workflow that lands content and fixes into the site repo.',
+   'Ensures every change is reviewable and deployable.',
+   'mybcat-new,delivery,git'),
+  ('node_internal_linking_discipline_000092', 'default', 'Internal Linking Discipline',
+   'Systematic linking from spokes to pillars and updating relevant pages.',
+   'Internal linking compounds authority and reduces orphan pages.',
+   'internal-links,clusters');
+
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_generate_posts_and_links_000093', 'default', 'Generate Posts + Links',
+   'Produce the support content and required internal links.',
+   'Links are part of the action, not an afterthought.',
+   'posts,links'),
+  ('node_quality_gates_000094', 'default', 'Quality Gates',
+   'Verification steps that prevent shipping low-quality or incorrect content.',
+   'Quality failures erode trust and can trigger ranking regression.',
+   'qa,quality'),
+
+  ('node_commit_and_open_pr_000095', 'default', 'Commit + Open PR',
+   'Package the change as a single, reviewable PR.',
+   'Clear PRs keep shipping stable and isolate regressions.',
+   'git,pr'),
+  ('node_merge_and_monitor_000096', 'default', 'Merge + Monitor',
+   'Merge changes, then monitor signals for impact.',
+   'The loop closes only when outcomes are observed and captured.',
+   'deploy,monitoring'),
+
+  ('node_spoke_to_pillar_links_000097', 'default', 'Spoke → Pillar Links',
+   'Every support post links to the pillar it is meant to lift.',
+   'Makes topical clusters explicit to search engines and users.',
+   'pillar,spoke'),
+  ('node_cross_page_updates_000098', 'default', 'Cross-Page Updates',
+   'Update existing relevant pages to link to the new content.',
+   'Creates bidirectional reinforcement and avoids orphaned spokes.',
+   'crosslinking,updates');
+
+-- Feedback supports
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_monitor_outcomes_000100', 'default', 'Monitor Outcomes',
+   'Observe rank changes, CTR changes, and business outcomes after shipping.',
+   'Outcomes determine whether rules and content direction are working.',
+   'monitoring,outcomes'),
+  ('node_expand_keyword_set_000101', 'default', 'Expand Keyword Set',
+   'Detect and add new clusters/themes that the site should track.',
+   'Expanding the keyword set is how the system finds new growth vectors.',
+   'keywords,discovery'),
+  ('node_tune_rules_and_thresholds_000102', 'default', 'Tune Rules & Thresholds',
+   'Adjust filters, thresholds, and work order definitions over time.',
+   'Rules must evolve as the site grows and SERPs change.',
+   'rules,thresholds');
+
+INSERT INTO node (id, map_id, label, short_def, why_important, tags)
+VALUES
+  ('node_rank_movement_tracking_000103', 'default', 'Rank Movement Tracking',
+   'Day-to-day and week-to-week movement buckets and drop alerts.',
+   'Supports refresh and burst timing decisions.',
+   'rankings,movement'),
+  ('node_ctr_conversion_tracking_000104', 'default', 'CTR/Conversion Tracking',
+   'Identify top-10 queries that underperform in clicks or conversions.',
+   'Triggers snippet fixes and publishing slowdowns when needed.',
+   'ctr,conversions'),
+
+  ('node_new_cluster_detection_000105', 'default', 'New Cluster Detection',
+   'Spot new themes in weekly wide scans and SERP patterns.',
+   'Creates opportunities for new pillars and fresh clusters.',
+   'clusters,discovery'),
+  ('node_tracked_keywords_maintenance_000106', 'default', 'Tracked Keywords Maintenance',
+   'Keep the tracked keyword set current and clustered.',
+   'Tracking accuracy determines whether the loop sees the right signals.',
+   'keywords,tracking'),
+
+  ('node_adjust_filters_000107', 'default', 'Adjust Filters',
+   'Tune position windows, mover thresholds, and value cutoffs.',
+   'Right thresholds prevent both overreaction and missed opportunities.',
+   'filters,thresholds'),
+  ('node_refine_work_orders_000108', 'default', 'Refine Work Orders',
+   'Improve work order templates and decision mapping as patterns emerge.',
+   'Clearer work orders reduce execution errors and speed up throughput.',
+   'work-orders,process');
+
+-- Root edges
+INSERT INTO edge (id, map_id, from_node_id, to_node_id, rel_type_id, is_trunk, branch_order, depth_hint, why, how)
+VALUES
+  ('edge_root__autopilot_trunk_000200', 'default',
+   'node_root', 'node_signal_driven_seo_autopilot_000010',
+   'rel_precedes', 1, 1, 0,
+   'Ongoing SEO becomes manageable when treated as an operating loop instead of one-off projects.',
+   'Start with an explicit autopilot model, then derive signals, rules, work orders, and execution routines.'),
+  ('edge_root__repos_000201', 'default',
+   'node_root', 'node_key_repos_and_boundaries_000001',
+   'rel_part_of', 0, 2, 1,
+   'SEO actions are executed through real repos and tools that must remain consistent.',
+   'Define where content is produced and where changes are merged and deployed.'),
+  ('edge_root__signals_000202', 'default',
+   'node_root', 'node_primary_signal_sources_000002',
+   'rel_part_of', 0, 3, 1,
+   'The loop depends on stable signal inputs with clear ownership and cadence.',
+   'Use DataForSEO as daily ranking truth and keep secondary signals for diagnosis.'),
+  ('edge_root__cadence_000203', 'default',
+   'node_root', 'node_operating_cadence_000003',
+   'rel_part_of', 0, 4, 1,
+   'Cadence turns strategy into repeatable behavior (daily actions + weekly maintenance).',
+   'Separate daily content iteration from weekly technical recalibration.');
+
+-- Root anchor expansions
+INSERT INTO edge (id, map_id, from_node_id, to_node_id, rel_type_id, is_trunk, branch_order, depth_hint, why, how)
+VALUES
+  ('edge_repos__site_000210', 'default',
+   'node_key_repos_and_boundaries_000001', 'node_site_mybcat_com_000020',
+   'rel_part_of', 0, 1, 2,
+   'The autopilot exists to improve a specific site with specific goals.',
+   'Use mybcat.com as the scope for measurement, decisions, and work orders.'),
+  ('edge_repos__mybcat_new_000211', 'default',
+   'node_key_repos_and_boundaries_000001', 'node_repo_mybcat_new_000021',
+   'rel_part_of', 0, 2, 2,
+   'All changes must land in a versioned repo for traceability.',
+   'Use PRs in mybcat-new as the delivery mechanism for content and technical changes.'),
+  ('edge_repos__blog_writer_000212', 'default',
+   'node_key_repos_and_boundaries_000001', 'node_repo_blog_writer_000022',
+   'rel_part_of', 0, 3, 2,
+   'Content generation needs a controlled process to avoid quality drift.',
+   'Use the blog_writer pipeline as the standard way to create support content.'),
+
+  ('edge_signals__dataforseo_000213', 'default',
+   'node_primary_signal_sources_000002', 'node_dataforseo_000023',
+   'rel_part_of', 0, 1, 2,
+   'Daily ranking truth and SERP context are required to decide what to do next.',
+   'Pull rank positions and SERP snapshots for filtered keywords/clusters.'),
+  ('edge_signals__ahrefs_000214', 'default',
+   'node_primary_signal_sources_000002', 'node_ahrefs_000024',
+   'rel_part_of', 0, 2, 2,
+   'Secondary signals help diagnose causes and avoid false conclusions.',
+   'Use rank tracker summaries for sanity checks and site audits/backlinks for weekly diagnosis.'),
+  ('edge_signals__gsc_000215', 'default',
+   'node_primary_signal_sources_000002', 'node_gsc_analytics_000025',
+   'rel_part_of', 0, 3, 2,
+   'CTR and conversion outcomes change what the "right action" is.',
+   'Use query/page performance to trigger snippet fixes and publishing throttles.'),
+
+  ('edge_cadence__daily_000216', 'default',
+   'node_operating_cadence_000003', 'node_daily_loop_concept_000026',
+   'rel_part_of', 0, 1, 2,
+   'Most SEO progress comes from small, consistent actions.',
+   'Run the daily loop to create support content and quick fixes based on rank signals.'),
+  ('edge_cadence__weekly_000217', 'default',
+   'node_operating_cadence_000003', 'node_weekly_loop_concept_000027',
+   'rel_part_of', 0, 2, 2,
+   'Technical and authority issues accumulate unless reviewed deliberately.',
+   'Run the weekly loop to fix audit regressions and detect new clusters.');
+
+-- Trunk edges (logic chain)
+INSERT INTO edge (id, map_id, from_node_id, to_node_id, rel_type_id, is_trunk, branch_order, depth_hint, why, how)
+VALUES
+  ('edge_autopilot__signals_000220', 'default',
+   'node_signal_driven_seo_autopilot_000010', 'node_signals_and_measurements_000011',
+   'rel_precedes', 1, 1, 0,
+   'A signal-driven loop requires reliable signals before it can decide or act.',
+   'Define the measurement system (rankings, SERP context, CTR, health) that will drive choices.'),
+  ('edge_signals__filters_000221', 'default',
+   'node_signals_and_measurements_000011', 'node_signal_filters_000012',
+   'rel_precedes', 1, 1, 0,
+   'Raw signals must be filtered to avoid thrash and focus on high-leverage opportunities.',
+   'Apply simple selection rules (near page 1, movers, high value) to choose what to analyze.'),
+  ('edge_filters__decisions_000222', 'default',
+   'node_signal_filters_000012', 'node_decision_system_000013',
+   'rel_precedes', 1, 1, 0,
+   'Once attention is focused, a consistent rule set maps signals to action types.',
+   'Use clarity rules to choose between content creation, refreshes, snippet fixes, or tech work.'),
+  ('edge_decisions__work_orders_000223', 'default',
+   'node_decision_system_000013', 'node_work_orders_and_pacing_000014',
+   'rel_precedes', 1, 1, 0,
+   'Decisions only become executable when expressed as concrete tasks with constraints.',
+   'Represent actions as work orders and enforce pacing so execution stays stable.'),
+  ('edge_work_orders__execution_000224', 'default',
+   'node_work_orders_and_pacing_000014', 'node_execution_pipelines_000015',
+   'rel_precedes', 1, 1, 0,
+   'Work orders must be executed through reliable pipelines to produce correct outputs.',
+   'Feed work orders into content and tech pipelines that generate posts, refreshes, or fixes.'),
+  ('edge_execution__feedback_000225', 'default',
+   'node_execution_pipelines_000015', 'node_feedback_and_recalibration_000016',
+   'rel_precedes', 1, 1, 0,
+   'Shipping changes is not enough; the system must observe outcomes and adapt.',
+   'Monitor results, then update tracked keywords, thresholds, and plans based on what moved.');
+
+-- Structural expansions (supports)
+INSERT INTO edge (id, map_id, from_node_id, to_node_id, rel_type_id, is_trunk, branch_order, depth_hint, why, how)
+VALUES
+  -- Autopilot supports
+  ('edge_autopilot__goal_000230', 'default',
+   'node_signal_driven_seo_autopilot_000010', 'node_goal_compounding_visibility_000030',
+   'rel_part_of', 0, 1, 1,
+   'The loop exists to drive compounding organic growth over time.',
+   'Treat visibility gains as a compound effect of consistent actions and internal reinforcement.'),
+  ('edge_autopilot__scope_000231', 'default',
+   'node_signal_driven_seo_autopilot_000010', 'node_scope_content_and_tech_000031',
+   'rel_part_of', 0, 2, 1,
+   'SEO is constrained by both content relevance and technical health.',
+   'Model actions as either content creation/updates or technical maintenance fixes.'),
+  ('edge_autopilot__constraints_000232', 'default',
+   'node_signal_driven_seo_autopilot_000010', 'node_constraints_pace_and_quality_000032',
+   'rel_part_of', 0, 3, 1,
+   'Overpublishing or shipping low-quality changes can create regressions.',
+   'Enforce pacing and QA gates as first-class constraints of the system.'),
+
+  -- Signals supports
+  ('edge_signals__ranks_000233', 'default',
+   'node_signals_and_measurements_000011', 'node_rank_positions_daily_truth_000040',
+   'rel_part_of', 0, 1, 1,
+   'Rank positions are the most direct signal for whether content is winning today.',
+   'Track keyword → position + ranking URL daily per cluster.'),
+  ('edge_signals__serp_000234', 'default',
+   'node_signals_and_measurements_000011', 'node_serp_context_features_000041',
+   'rel_part_of', 0, 2, 1,
+   'SERP context explains what competitors cover and what features dominate clicks.',
+   'Capture PAA, related searches, feature blocks, and top results snapshots for priority keywords.'),
+  ('edge_signals__health_000235', 'default',
+   'node_signals_and_measurements_000011', 'node_site_health_and_authority_000042',
+   'rel_part_of', 0, 3, 1,
+   'Technical and authority changes can shift rankings independent of content quality.',
+   'Use audit/backlink deltas and link health signals to diagnose drops and plateaus.'),
+
+  -- Filters supports
+  ('edge_filters__near_page_one_000236', 'default',
+   'node_signal_filters_000012', 'node_near_page_one_filter_000050',
+   'rel_part_of', 0, 1, 1,
+   'Near-page-1 queries are most likely to move into top 10 with focused support.',
+   'Prioritize positions 8–20 (or your chosen window) for action selection.'),
+  ('edge_filters__movers_000237', 'default',
+   'node_signal_filters_000012', 'node_movers_filter_000051',
+   'rel_part_of', 0, 2, 1,
+   'Large movements indicate a changing SERP that may reward quick responses.',
+   'Filter keywords/pages that moved materially since yesterday or 7d (example: ≥3 positions).'),
+  ('edge_filters__value_000238', 'default',
+   'node_signal_filters_000012', 'node_value_filter_000052',
+   'rel_part_of', 0, 3, 1,
+   'Not all rankings are equally valuable for the business.',
+   'Use volume and business-value thresholds to choose where to spend writing cycles.'),
+
+  -- Decision system supports
+  ('edge_decisions__content_000239', 'default',
+   'node_decision_system_000013', 'node_content_creation_decisions_000060',
+   'rel_part_of', 0, 1, 1,
+   'Content creation is the primary lever to expand topical authority and move clusters upward.',
+   'Choose between burst, single support, or new pillar+cluster based on cluster shape and momentum.'),
+  ('edge_decisions__page_improve_000240', 'default',
+   'node_decision_system_000013', 'node_page_improvement_decisions_000061',
+   'rel_part_of', 0, 2, 1,
+   'Sometimes the best move is improving an existing page instead of adding more pages.',
+   'Use refreshes and snippet fixes when rankings or CTR signal underperformance.'),
+  ('edge_decisions__risk_000241', 'default',
+   'node_decision_system_000013', 'node_system_risk_decisions_000062',
+   'rel_part_of', 0, 3, 1,
+   'Risk controls prevent self-inflicted SEO regressions and wasted cycles.',
+   'Use tech, consolidation, and publishing throttle rules as guardrails.'),
+
+  ('edge_content_decisions__burst_000242', 'default',
+   'node_content_creation_decisions_000060', 'node_burst_spokes_000063',
+   'rel_part_of', 0, 1, 2,
+   'Clusters with multiple near-top-10 terms benefit from short bursts of coverage and links.',
+   'Create 3–5 spokes and link them into the pillar to push the cluster into top 10.'),
+  ('edge_content_decisions__single_000243', 'default',
+   'node_content_creation_decisions_000060', 'node_single_support_post_000064',
+   'rel_part_of', 0, 2, 2,
+   'A single stuck keyword often needs one missing support piece to complete intent coverage.',
+   'Write one targeted support post and link it to the pillar (optionally refresh the target page).'),
+  ('edge_content_decisions__new_pillar_000244', 'default',
+   'node_content_creation_decisions_000060', 'node_new_pillar_cluster_000065',
+   'rel_part_of', 0, 3, 2,
+   'New themes require a dedicated pillar to avoid scattered spokes.',
+   'Create one pillar plus 6–8 spokes and publish on a drip schedule.'),
+
+  ('edge_page_improve__refresh_000245', 'default',
+   'node_page_improvement_decisions_000061', 'node_refresh_page_000066',
+   'rel_part_of', 0, 1, 2,
+   'Large drops often recover fastest with a recency and coverage refresh after tech checks.',
+   'Add sections, update facts, add FAQs, and align to current SERP patterns.'),
+  ('edge_page_improve__ctr_000246', 'default',
+   'node_page_improvement_decisions_000061', 'node_ctr_snippet_fix_000067',
+   'rel_part_of', 0, 2, 2,
+   'Top-10 rankings can underperform if the snippet fails to earn clicks.',
+   'Update title/meta and add FAQ blocks using PAA questions and competitor patterns.'),
+
+  ('edge_risk__tech_gate_000247', 'default',
+   'node_system_risk_decisions_000062', 'node_tech_integrity_gate_000068',
+   'rel_part_of', 0, 1, 2,
+   'Tech regressions can cause drops that content changes do not fix.',
+   'Check audit signals (broken links, redirects, indexability) before deciding to refresh content.'),
+  ('edge_risk__cannibalization_000248', 'default',
+   'node_system_risk_decisions_000062', 'node_cannibalization_consolidation_000069',
+   'rel_part_of', 0, 2, 2,
+   'Multiple pages fighting for one keyword prevents stable improvement.',
+   'Pick a winner and merge content; use redirects/canonicals to consolidate signals.'),
+  ('edge_risk__authority_throttle_000249', 'default',
+   'node_system_risk_decisions_000062', 'node_authority_and_throttle_000070',
+   'rel_part_of', 0, 3, 2,
+   'Plateaus and regressions require strategic adjustments, not more volume.',
+   'When authority is flat, build linkable assets; when tech/conversion regresses, slow publishing.'),
+
+  ('edge_authority_throttle__asset_000250', 'default',
+   'node_authority_and_throttle_000070', 'node_linkable_asset_000071',
+   'rel_part_of', 0, 1, 3,
+   'Linkable assets can unlock clusters that are capped by authority.',
+   'Create one asset designed to earn links (data, tools, templates) aligned to the cluster.'),
+  ('edge_authority_throttle__pause_000251', 'default',
+   'node_authority_and_throttle_000070', 'node_pause_slow_publishing_000072',
+   'rel_part_of', 0, 2, 3,
+   'Publishing should not accelerate while systems are unstable.',
+   'Throttle output when health/conversions regress and focus on fixes and validation.'),
+
+  -- Work orders supports
+  ('edge_work_orders__types_000252', 'default',
+   'node_work_orders_and_pacing_000014', 'node_work_order_types_000080',
+   'rel_part_of', 0, 1, 1,
+   'Actions should be encoded as a small set of consistent work order types.',
+   'Represent create/refresh/fix actions with standardized names and required fields.'),
+  ('edge_work_orders__queue_000253', 'default',
+   'node_work_orders_and_pacing_000014', 'node_queue_and_scheduling_000081',
+   'rel_part_of', 0, 2, 1,
+   'A queue is required to enforce pacing and to manage bursts across days.',
+   'Store work orders and publish on a schedule (max 1–2 posts/day).'),
+  ('edge_work_orders__pr_cadence_000254', 'default',
+   'node_work_orders_and_pacing_000014', 'node_pr_cadence_governance_000082',
+   'rel_part_of', 0, 3, 1,
+   'PR cadence is the mechanism that enforces operational discipline.',
+   'Ship one focused PR per cadence (daily content, weekly tech, optional refresh).'),
+
+  ('edge_queue__max_posts_000255', 'default',
+   'node_queue_and_scheduling_000081', 'node_max_posts_per_day_000083',
+   'rel_part_of', 0, 1, 2,
+   'Publishing too much too quickly increases risk and reduces learning signal.',
+   'Enforce a site-wide daily cap for new posts.'),
+  ('edge_queue__drip_000256', 'default',
+   'node_queue_and_scheduling_000081', 'node_burst_drip_publish_000084',
+   'rel_part_of', 0, 2, 2,
+   'Burst output should be spread out to isolate impact and reduce instability.',
+   'Schedule bursts across multiple days while maintaining internal linking.'),
+
+  ('edge_pr_cadence__daily_000257', 'default',
+   'node_pr_cadence_governance_000082', 'node_daily_content_pr_000085',
+   'rel_part_of', 0, 1, 2,
+   'Daily PRs create a consistent shipping rhythm for content changes.',
+   'Package content actions into one PR per day.'),
+  ('edge_pr_cadence__weekly_tech_000258', 'default',
+   'node_pr_cadence_governance_000082', 'node_weekly_tech_fix_pr_000086',
+   'rel_part_of', 0, 2, 2,
+   'Technical maintenance must be deliberate and visible.',
+   'Ship a weekly PR focused on audit regressions and indexability/link health fixes.'),
+  ('edge_pr_cadence__weekly_refresh_000259', 'default',
+   'node_pr_cadence_governance_000082', 'node_optional_weekly_refresh_pr_000087',
+   'rel_part_of', 0, 3, 2,
+   'Refreshes may be needed, but batching helps review and measurement.',
+   'Ship refresh batches separately from tech fixes to keep cause/effect clear.'),
+
+  -- Execution supports
+  ('edge_execution__blog_writer_000260', 'default',
+   'node_execution_pipelines_000015', 'node_blog_writer_pipeline_000090',
+   'rel_part_of', 0, 1, 1,
+   'Most actions involve creating or updating content that must meet quality standards.',
+   'Use the blog_writer pipeline to generate and QA posts from work orders.'),
+  ('edge_execution__delivery_000261', 'default',
+   'node_execution_pipelines_000015', 'node_mybcat_new_delivery_pipeline_000091',
+   'rel_part_of', 0, 2, 1,
+   'All changes must be delivered to the website repo through a stable workflow.',
+   'Commit changes, open PRs, merge, and monitor effects.'),
+  ('edge_execution__internal_links_000262', 'default',
+   'node_execution_pipelines_000015', 'node_internal_linking_discipline_000092',
+   'rel_part_of', 0, 3, 1,
+   'Internal linking is the reinforcement mechanism that makes clusters compound.',
+   'Ensure spokes link to pillars and relevant pages are updated with new links.'),
+
+  ('edge_blog_writer__generate_000263', 'default',
+   'node_blog_writer_pipeline_000090', 'node_generate_posts_and_links_000093',
+   'rel_part_of', 0, 1, 2,
+   'Content actions require producing both text and the linking plan.',
+   'Generate the post(s) plus the required internal links per work order.'),
+  ('edge_blog_writer__qa_000264', 'default',
+   'node_blog_writer_pipeline_000090', 'node_quality_gates_000094',
+   'rel_part_of', 0, 2, 2,
+   'Quality gates prevent brand and SEO regressions from weak content.',
+   'Apply structured review before publishing or committing to the site repo.'),
+
+  ('edge_delivery__pr_000265', 'default',
+   'node_mybcat_new_delivery_pipeline_000091', 'node_commit_and_open_pr_000095',
+   'rel_part_of', 0, 1, 2,
+   'PR packaging is how changes stay reviewable and isolated.',
+   'Commit site changes and open a single PR per day/week as required.'),
+  ('edge_delivery__monitor_000266', 'default',
+   'node_mybcat_new_delivery_pipeline_000091', 'node_merge_and_monitor_000096',
+   'rel_part_of', 0, 2, 2,
+   'Shipping is only successful if outcomes are observed and recorded.',
+   'Merge then monitor ranks/CTR/health signals to validate impact.'),
+
+  ('edge_internal_links__spoke_to_pillar_000267', 'default',
+   'node_internal_linking_discipline_000092', 'node_spoke_to_pillar_links_000097',
+   'rel_part_of', 0, 1, 2,
+   'Cluster authority requires a clear pillar-spoke structure.',
+   'Ensure each spoke explicitly links to its pillar with relevant anchor context.'),
+  ('edge_internal_links__cross_updates_000268', 'default',
+   'node_internal_linking_discipline_000092', 'node_cross_page_updates_000098',
+   'rel_part_of', 0, 2, 2,
+   'New posts create opportunity to strengthen existing pages through linking.',
+   'Update relevant existing pages to include links to the new content (and vice versa).'),
+
+  -- Feedback supports
+  ('edge_feedback__monitor_000269', 'default',
+   'node_feedback_and_recalibration_000016', 'node_monitor_outcomes_000100',
+   'rel_part_of', 0, 1, 1,
+   'Outcomes determine whether the loop is working and where it needs adjustment.',
+   'Track rank changes and CTR/conversions after each shipping cycle.'),
+  ('edge_feedback__keywords_000270', 'default',
+   'node_feedback_and_recalibration_000016', 'node_expand_keyword_set_000101',
+   'rel_part_of', 0, 2, 1,
+   'New clusters are discovered through wider scans and emerging SERP patterns.',
+   'Add newly discovered themes to tracked keywords and cluster them for future loops.'),
+  ('edge_feedback__tuning_000271', 'default',
+   'node_feedback_and_recalibration_000016', 'node_tune_rules_and_thresholds_000102',
+   'rel_part_of', 0, 3, 1,
+   'Rules must evolve to stay aligned with site maturity and SERP shifts.',
+   'Tune thresholds and refine work order templates using observed outcomes.'),
+
+  ('edge_monitor_outcomes__rank_000272', 'default',
+   'node_monitor_outcomes_000100', 'node_rank_movement_tracking_000103',
+   'rel_part_of', 0, 1, 2,
+   'Ranking movement is the fastest feedback signal in SEO.',
+   'Bucket movers and drops (daily/7d) to drive refresh and burst timing.'),
+  ('edge_monitor_outcomes__ctr_000273', 'default',
+   'node_monitor_outcomes_000100', 'node_ctr_conversion_tracking_000104',
+   'rel_part_of', 0, 2, 2,
+   'Top-10 rank without clicks or conversions is a packaging problem.',
+   'Use CTR and conversion trends to trigger snippet fixes or throttles.'),
+
+  ('edge_expand_keywords__new_clusters_000274', 'default',
+   'node_expand_keyword_set_000101', 'node_new_cluster_detection_000105',
+   'rel_part_of', 0, 1, 2,
+   'Growth requires continuously finding new themes to build authority in.',
+   'Use wide scans and SERP exploration to detect emerging clusters.'),
+  ('edge_expand_keywords__maintenance_000275', 'default',
+   'node_expand_keyword_set_000101', 'node_tracked_keywords_maintenance_000106',
+   'rel_part_of', 0, 2, 2,
+   'Tracking must stay current or the loop stops seeing the right signals.',
+   'Maintain the tracked keyword set per cluster and update it as new themes appear.'),
+
+  ('edge_tune_rules__filters_000276', 'default',
+   'node_tune_rules_and_thresholds_000102', 'node_adjust_filters_000107',
+   'rel_part_of', 0, 1, 2,
+   'Thresholds determine what gets attention, so they must be tuned to reality.',
+   'Adjust position windows, mover thresholds, and value cutoffs based on observed outcomes.'),
+  ('edge_tune_rules__work_orders_000277', 'default',
+   'node_tune_rules_and_thresholds_000102', 'node_refine_work_orders_000108',
+   'rel_part_of', 0, 2, 2,
+   'Clearer work orders reduce execution errors and speed up throughput.',
+   'Refine templates and decision mapping as patterns become obvious.');
+
+COMMIT;

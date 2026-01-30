@@ -253,3 +253,12 @@ Mastering optometry practice finances requires attention to multiple interconnec
 Financial mastery takes time to develop, but the payoff is substantial. Practices that manage their finances well generate higher incomes for their owners, provide better experiences for patients, and build lasting value that rewards years of hard work.
 
 Start with one area. Master it. Then expand to the next. Within a year, you'll wonder how you ever operated without this clarity.
+---
+
+<!-- MyBCAT CTA Section -->
+<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
+  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
+  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
+</div>
+<!-- End MyBCAT CTA Section -->
