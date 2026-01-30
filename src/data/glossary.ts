@@ -241,8 +241,8 @@ export const glossaryTerms: GlossaryTerm[] = [
   },
   {
     slug: 'centralized-scheduling',
-    term: 'Centralized Scheduling: What It Is & Why Enterprises Need It',
-    definition: 'Learn how centralized scheduling streamlines workforce management across locations. Discover key benefits, implementation strategies, and enterprise best practices.',
+    term: 'Centralized Scheduling: Definition, Benefits & Best Practices',
+    definition: 'Learn what centralized scheduling is and how it streamlines workforce management. Discover key benefits, implementation strategies, and software solutions.',
     detailedExplanation: 'Centralized scheduling addresses the challenges of managing patient communications across multiple locations. Instead of each location independently handling calls (leading to inconsistency, training burden, and coverage gaps), a central team handles all inbound calls with unified protocols. This improves consistency, enables specialization, provides better coverage, and delivers unified reporting across all locations.',
     category: 'operations',
     relatedTerms: ['dso', 'multi-location-practice', 'call-center', 'schedule-utilization'],
