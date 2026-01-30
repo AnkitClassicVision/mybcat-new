@@ -6,7 +6,7 @@ description: Discover effective reactivation text message templates that engage 
 seoDescription: Explore engaging reactivation text message templates that don’t sound
   spammy. Enhance your patient recall strategy with MyBCAT.
 publishDate: '2026-02-11'
-status: draft
+status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
