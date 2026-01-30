@@ -221,6 +221,7 @@ export function generateArticleSchema(meta: ArticleMeta) {
     headline: meta.headline,
     description: meta.description,
     image: meta.image.startsWith('http') ? meta.image : `${company.site.url}${meta.image}`,
+    url: meta.url,
     author: {
       '@type': 'Person',
       name: meta.author,
