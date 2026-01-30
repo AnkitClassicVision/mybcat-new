@@ -26,7 +26,7 @@ relatedPosts:
   - dso-integration-playbook
 ---
 
-Most multi-location healthcare groups track revenue per location but cannot tell you their call answer rate, new patient conversion rate, or average time to appointment. The result: marketing spend increases while patient acquisition efficiency stays flat. Here are the 10 intake KPIs that top-performing groups track, with benchmarks for dental, optometry, and veterinary practices.
+Most multi-location healthcare groups track revenue per location but cannot tell you their call answer rate, new patient conversion rate, or average time to appointment. The result: marketing spend increases while patient acquisition efficiency stays flat. Here are the 10 intake KPIs that top-performing groups track, with benchmarks for dental, optometry, and veterinary practices. For groups seeking comprehensive intake visibility, our [enterprise reporting and QA](/enterprise/reporting-qa/) solution delivers real-time dashboards across all locations.
 
 ---
 
@@ -430,6 +430,8 @@ For conversion tracking, your phone system must pass caller information to your 
 - **Act on data.** Weekly review cadence, clear intervention triggers, and root cause investigation processes turn metrics into improvement.
 
 - **Avoid common mistakes.** Measure conversion (not just calls), set realistic targets, include context, and ensure metrics drive action rather than gaming.
+
+For healthcare groups ready to implement enterprise-grade intake measurement, a [patient access center](/enterprise/patient-access-center/) with [centralized scheduling](/enterprise/centralized-scheduling/) provides the infrastructure for consistent, measurable performance across all locations.
 
 ---
 

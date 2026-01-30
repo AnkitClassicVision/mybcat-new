@@ -49,7 +49,7 @@ Multi-location healthcare groups lose an average of $1.2 million annually to mis
 
 That's revenue you already paid to acquire through marketing, walking out the door because no one answered the phone. The solution lies in implementing systems that ensure you [never miss an appointment opportunity](https://mybcat.com/solutions/patient-recall/) again.
 
-For PE-backed DSOs and growing optometry groups, this isn't a phone problem. It's a financial blind spot that's silently eroding your EBITDA and dragging down your valuation.
+For PE-backed DSOs and growing optometry groups, this isn't a phone problem. It's a financial blind spot that's silently eroding your EBITDA and dragging down your valuation. The solution is a [patient access center](/enterprise/patient-access-center/) designed for multi-location healthcare groups.
 
 This guide breaks down the math behind the revenue leak, explains why multi-location groups are uniquely vulnerable, and shows you exactly how to calculate what missed calls cost your specific organization.
 

@@ -408,7 +408,7 @@ Once you've determined your architectural approach, you need to select the right
 Most successful multi-location groups use a combination:
 
 - **In-house staff** for in-person patients and location-specific issues
-- **Virtual front desk** for overflow, after-hours, and acquisition integration
+- **Virtual front desk** for overflow, after-hours, and acquisition integration via a [patient access center](/enterprise/patient-access-center/)
 - **AI triage** for initial intake and routing of high-volume call types
 
 The question isn't "which one" but "what mix optimizes cost, quality, and patient experience for our specific situation." For a detailed comparison of these options, see our [AI receptionist vs. virtual front desk vs. answering service decision framework](https://mybcat.com/blog/ai-receptionist-vs-virtual-front-desk-answering-service/).
@@ -863,9 +863,9 @@ When evaluating intake solutions for your multi-location group, demand answers t
 
 1. **Benchmark against excellence.** You should be at 95%+ answer rate. If not, identify the specific gaps.
 
-2. **Focus on optimization.** Marginal improvements in new patient conversion rate have outsized revenue impact at your scale.
+2. **Focus on optimization.** Marginal improvements in new patient conversion rate have outsized revenue impact at your scale. An [enterprise reporting and QA](/enterprise/reporting-qa/) solution provides the visibility needed to identify and close these gaps.
 
-3. **Build your acquisition playbook.** Every acquisition should integrate faster than the last. Document and systematize.
+3. **Build your acquisition playbook.** Every acquisition should integrate faster than the last. Document and systematize. [Centralized scheduling](/enterprise/centralized-scheduling/) capabilities accelerate integration timelines.
 
 
 ---

@@ -1,0 +1,57 @@
+{
+  "$schema": "./meta-rules.schema.json",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-29",
+  "description": "Meta tag validation rules",
+
+  "title": {
+    "minLength": 30,
+    "maxLength": 60,
+    "required": true,
+    "mustInclude": [],
+    "mustNotInclude": ["undefined", "null", "untitled"]
+  },
+
+  "description": {
+    "minLength": 120,
+    "maxLength": 160,
+    "required": true,
+    "mustNotInclude": ["undefined", "null", "lorem ipsum"]
+  },
+
+  "canonical": {
+    "required": true,
+    "mustBeAbsolute": true,
+    "mustIncludeTrailingSlash": true,
+    "mustUseHttps": true,
+    "domain": "mybcat.com"
+  },
+
+  "openGraph": {
+    "required": ["og:title", "og:description", "og:url", "og:type"],
+    "recommended": ["og:image"],
+    "imageMinWidth": 1200,
+    "imageMinHeight": 630
+  },
+
+  "robots": {
+    "defaultIndex": true,
+    "defaultFollow": true,
+    "noindexPatterns": ["/draft/", "/preview/", "/404"]
+  },
+
+  "byPageType": {
+    "blog": {
+      "requiredFields": ["author", "datePublished", "category"],
+      "titleSuffix": " | MyBCAT"
+    },
+    "enterprise": {
+      "requiredFields": [],
+      "titleSuffix": " | MyBCAT Enterprise"
+    },
+    "solution": {
+      "requiredFields": [],
+      "titleSuffix": " | MyBCAT"
+    }
+  }
+}

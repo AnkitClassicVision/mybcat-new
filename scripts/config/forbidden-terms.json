@@ -1,0 +1,100 @@
+{
+  "$schema": "./forbidden-terms.schema.json",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-29",
+  "description": "Terms forbidden in content to maintain enterprise B2B positioning",
+
+  "categories": {
+    "geographic-b2c": {
+      "description": "Local geographic terms that signal B2C/local business",
+      "severity": "error",
+      "terms": [
+        {
+          "pattern": "\\bGeorgia\\b",
+          "context": "state reference in business context",
+          "replacement": "nationwide",
+          "exceptions": ["author-bio", "case-study-quote"]
+        },
+        {
+          "pattern": "\\bAtlanta\\b",
+          "context": "city reference in business context",
+          "replacement": "nationwide",
+          "exceptions": ["author-bio", "case-study-quote"]
+        },
+        {
+          "pattern": "\\bMarietta\\b",
+          "context": "city reference",
+          "replacement": null,
+          "exceptions": ["author-bio"]
+        }
+      ]
+    },
+
+    "local-business-signals": {
+      "description": "Terms that signal local/small business targeting",
+      "severity": "error",
+      "terms": [
+        {
+          "pattern": "tel:\\+?[0-9\\-\\(\\)\\s]+",
+          "context": "telephone links in blog content",
+          "replacement": "/contact/",
+          "exceptions": ["contact-page", "footer"]
+        },
+        {
+          "pattern": "\\blocal practice\\b",
+          "context": "B2C terminology",
+          "replacement": "healthcare practice",
+          "exceptions": []
+        },
+        {
+          "pattern": "\\bsmall business\\b",
+          "context": "B2C terminology on enterprise pages",
+          "replacement": "healthcare groups",
+          "exceptions": ["comparison-content"],
+          "scopePatterns": ["/enterprise/", "/solutions/"]
+        }
+      ]
+    },
+
+    "b2c-language": {
+      "description": "Consumer-focused language inappropriate for B2B",
+      "severity": "warning",
+      "terms": [
+        {
+          "pattern": "\\bfree trial\\b",
+          "context": "consumer pricing language",
+          "replacement": "pilot program",
+          "exceptions": [],
+          "scopePatterns": ["/enterprise/"]
+        },
+        {
+          "pattern": "\\bDIY\\b|\\bdo-it-yourself\\b",
+          "context": "consumer self-service language",
+          "replacement": "self-service",
+          "exceptions": []
+        },
+        {
+          "pattern": "\\bcheap\\b",
+          "context": "price-focused consumer term",
+          "replacement": "cost-effective",
+          "exceptions": ["competitor-comparison"]
+        },
+        {
+          "pattern": "\\bconsumer\\b",
+          "context": "B2C audience term",
+          "replacement": "healthcare provider",
+          "exceptions": ["industry-analysis"],
+          "scopePatterns": ["/enterprise/", "/solutions/", "/industries/"]
+        }
+      ]
+    }
+  },
+
+  "globalExceptions": {
+    "filePatterns": [
+      "src/content/blog/benefits-of-hiring-remote-workers-for-optometry-business.md",
+      "src/content/blog/blog-spanish-speaking-agents.md"
+    ],
+    "reason": "Author biographical stories with legitimate first-person Atlanta/Georgia references"
+  }
+}

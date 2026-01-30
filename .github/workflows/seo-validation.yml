@@ -1,0 +1,89 @@
+name: SEO & Content Validation
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'scripts/**'
+      - 'astro.config.mjs'
+      - 'CONTROLS.md'
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'scripts/**'
+
+jobs:
+  pre-build-validation:
+    name: Pre-Build Checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate Forbidden Terms
+        run: npm run validate:terms
+
+      - name: Validate Meta Tags
+        run: npm run validate:meta
+
+      - name: Validate H1 Tags
+        run: npm run validate:h1
+
+      - name: Validate Enterprise Links
+        run: npm run validate:enterprise-links
+
+  post-build-validation:
+    name: Post-Build Checks
+    runs-on: ubuntu-latest
+    needs: pre-build-validation
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Validate Schema Markup
+        run: npm run validate:schema
+
+      - name: Validate Internal Links
+        run: npm run validate:links
+
+  content-quality:
+    name: Content Quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
+
+      - name: Check TypeScript
+        run: npm run check

@@ -1,0 +1,66 @@
+{
+  "$schema": "./schema-rules.schema.json",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-29",
+  "description": "Schema.org markup rules for enterprise B2B positioning",
+
+  "allowed": {
+    "Organization": {
+      "pages": ["/"],
+      "required": true,
+      "properties": ["name", "url", "logo", "contactPoint"]
+    },
+    "WebSite": {
+      "pages": ["/"],
+      "required": true,
+      "properties": ["name", "url"]
+    },
+    "Service": {
+      "pages": ["/solutions/*", "/industries/*", "/enterprise/*"],
+      "required": false,
+      "properties": ["name", "description", "provider"]
+    },
+    "Article": {
+      "pages": ["/blog/*"],
+      "required": true,
+      "properties": ["headline", "author", "datePublished", "url"]
+    },
+    "BreadcrumbList": {
+      "pages": ["*"],
+      "required": false,
+      "properties": ["itemListElement"]
+    },
+    "FAQPage": {
+      "pages": ["*"],
+      "required": false,
+      "properties": ["mainEntity"]
+    }
+  },
+
+  "forbidden": {
+    "LocalBusiness": {
+      "reason": "Conflicts with national enterprise positioning",
+      "severity": "error"
+    },
+    "ProfessionalService": {
+      "reason": "Implies local service provider, not enterprise solution",
+      "severity": "error"
+    },
+    "GeoCoordinates": {
+      "reason": "Geographic coordinates signal local business",
+      "severity": "error"
+    },
+    "PostalAddress": {
+      "reason": "Physical address signals local business (use contactPoint instead)",
+      "severity": "warning",
+      "exceptions": ["/contact/"]
+    }
+  },
+
+  "validation": {
+    "requireAbsoluteUrls": true,
+    "requireHttps": true,
+    "maxSchemasPerPage": 3,
+    "requireUniqueIds": true
+  }
+}

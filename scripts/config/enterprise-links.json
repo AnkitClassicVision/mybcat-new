@@ -1,0 +1,55 @@
+{
+  "$schema": "./enterprise-links.schema.json",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-29",
+  "description": "Required inbound link counts for enterprise pillar pages",
+
+  "pillarPages": {
+    "/enterprise/": {
+      "minInboundLinks": 10,
+      "description": "Main enterprise landing page",
+      "priority": "critical"
+    },
+    "/enterprise/patient-access-center/": {
+      "minInboundLinks": 5,
+      "description": "Patient access center solution",
+      "priority": "high"
+    },
+    "/enterprise/centralized-scheduling/": {
+      "minInboundLinks": 5,
+      "description": "Centralized scheduling solution",
+      "priority": "high"
+    },
+    "/enterprise/multi-location-recall/": {
+      "minInboundLinks": 5,
+      "description": "Multi-location recall solution",
+      "priority": "high"
+    },
+    "/enterprise/reporting-qa/": {
+      "minInboundLinks": 5,
+      "description": "Reporting and QA solution",
+      "priority": "high"
+    },
+    "/enterprise/dso/": {
+      "minInboundLinks": 5,
+      "description": "DSO-specific page",
+      "priority": "high"
+    }
+  },
+
+  "linkSources": {
+    "validSources": [
+      "src/content/blog/**/*.md",
+      "src/content/blog/**/*.mdx",
+      "src/pages/**/*.astro"
+    ],
+    "excludeSources": [
+      "src/pages/enterprise/**/*.astro"
+    ]
+  },
+
+  "reporting": {
+    "warnThreshold": 0.8,
+    "failThreshold": 0.5
+  }
+}

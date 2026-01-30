@@ -1,0 +1,79 @@
+name: Weekly SEO Audit
+
+on:
+  schedule:
+    # Run every Monday at 8am UTC
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+    # Allow manual trigger
+
+jobs:
+  weekly-audit:
+    name: Full SEO Audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Pre-Build Validations
+        id: prebuild
+        continue-on-error: true
+        run: |
+          echo "## Pre-Build Validation Results" >> $GITHUB_STEP_SUMMARY
+          npm run validate:terms -- --verbose 2>&1 | tee terms.log || true
+          npm run validate:meta -- --verbose 2>&1 | tee meta.log || true
+          npm run validate:h1 -- --verbose 2>&1 | tee h1.log || true
+          npm run validate:enterprise-links -- --verbose 2>&1 | tee links.log || true
+
+      - name: Build Site
+        run: npm run build
+
+      - name: Run Post-Build Validations
+        id: postbuild
+        continue-on-error: true
+        run: |
+          echo "## Post-Build Validation Results" >> $GITHUB_STEP_SUMMARY
+          npm run validate:schema -- --verbose 2>&1 | tee schema.log || true
+          npm run validate:links -- --verbose 2>&1 | tee internal-links.log || true
+
+      - name: Generate Audit Summary
+        run: |
+          echo "# Weekly SEO Audit Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Date:** $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Validation Logs" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Forbidden Terms" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -20 terms.log >> $GITHUB_STEP_SUMMARY || echo "No issues" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Enterprise Links" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -30 links.log >> $GITHUB_STEP_SUMMARY || echo "No issues" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload Audit Logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-logs-${{ github.run_number }}
+          path: |
+            *.log
+          retention-days: 30
+
+      - name: Check for Critical Issues
+        run: |
+          # Count errors in logs
+          ERRORS=$(grep -c "✗\|Error\|error" *.log 2>/dev/null || echo "0")
+          if [ "$ERRORS" -gt "5" ]; then
+            echo "::warning::$ERRORS critical issues found in weekly audit"
+          fi

@@ -1,0 +1,30 @@
+{
+  "$schema": "./term-allowlist.schema.json",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-29",
+  "description": "Specific exceptions to forbidden terms with documented reasons",
+
+  "exceptions": [
+    {
+      "file": "src/content/blog/benefits-of-hiring-remote-workers-for-optometry-business.md",
+      "terms": ["Atlanta", "Georgia"],
+      "reason": "Author biographical content - first-person story about starting practice",
+      "approvedBy": "SEO Lead",
+      "approvedDate": "2026-01-29"
+    },
+    {
+      "file": "src/content/blog/blog-spanish-speaking-agents.md",
+      "terms": ["Atlanta"],
+      "reason": "Author biographical content - first-person story",
+      "approvedBy": "SEO Lead",
+      "approvedDate": "2026-01-29"
+    }
+  ],
+
+  "commentPatterns": [
+    "<!-- allowed-term: author-bio-story -->",
+    "<!-- allowed-term: case-study-quote -->",
+    "<!-- allowed-term: competitor-comparison -->",
+    "<!-- allowed-term: industry-analysis -->"
+  ]
+}
