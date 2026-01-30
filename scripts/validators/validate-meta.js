@@ -177,6 +177,12 @@ async function main() {
       const content = fs.readFileSync(file, 'utf-8');
       const { data: frontmatter } = matter(content);
 
+      // Debug specific file
+      if (file.includes('optometry-private-practice')) {
+        console.log(`  DEBUG FILE: ${file}`);
+        console.log(`  DEBUG CONTENT (first 200 chars): ${content.substring(0, 200).replace(/\n/g, '\\n')}`);
+      }
+
       // Skip drafts
       if (frontmatter.status === 'draft') continue;
 
