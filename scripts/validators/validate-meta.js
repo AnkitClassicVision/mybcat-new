@@ -28,17 +28,12 @@ function loadConfig() {
   return JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf-8'));
 }
 
-function validateFrontmatter(filePath, frontmatter, config, verbose = false) {
+function validateFrontmatter(filePath, frontmatter, config) {
   const issues = [];
 
   // Check title
   const title = frontmatter.seoTitle || frontmatter.title;
   if (!title) {
-    // Debug: show what was parsed
-    if (verbose || filePath.includes('optometry-private-practice')) {
-      console.log(`  DEBUG: frontmatter keys: [${Object.keys(frontmatter).join(', ')}]`);
-      console.log(`  DEBUG: title="${frontmatter.title}", seoTitle="${frontmatter.seoTitle}"`);
-    }
     issues.push({
       file: filePath,
       field: 'title',
@@ -176,12 +171,6 @@ async function main() {
     try {
       const content = fs.readFileSync(file, 'utf-8');
       const { data: frontmatter } = matter(content);
-
-      // Debug specific file
-      if (file.includes('optometry-private-practice')) {
-        console.log(`  DEBUG FILE: ${file}`);
-        console.log(`  DEBUG CONTENT (first 200 chars): ${content.substring(0, 200).replace(/\n/g, '\\n')}`);
-      }
 
       // Skip drafts
       if (frontmatter.status === 'draft') continue;
