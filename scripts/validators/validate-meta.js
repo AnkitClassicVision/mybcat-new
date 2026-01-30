@@ -28,12 +28,17 @@ function loadConfig() {
   return JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf-8'));
 }
 
-function validateFrontmatter(filePath, frontmatter, config) {
+function validateFrontmatter(filePath, frontmatter, config, verbose = false) {
   const issues = [];
 
   // Check title
   const title = frontmatter.seoTitle || frontmatter.title;
   if (!title) {
+    // Debug: show what was parsed
+    if (verbose || filePath.includes('optometry-private-practice')) {
+      console.log(`  DEBUG: frontmatter keys: [${Object.keys(frontmatter).join(', ')}]`);
+      console.log(`  DEBUG: title="${frontmatter.title}", seoTitle="${frontmatter.seoTitle}"`);
+    }
     issues.push({
       file: filePath,
       field: 'title',
