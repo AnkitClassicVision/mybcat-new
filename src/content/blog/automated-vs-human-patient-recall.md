@@ -2,9 +2,9 @@
 title: 'Automated vs Human Patient Recall: What Works Better?'
 seoTitle: 'Automated vs Human Patient Recall: What Works Better?'
 description: Discover the strengths and weaknesses of automated vs human patient recall
-  systems for your practice's success.
-seoDescription: Explore automated vs human patient recall systems and find out what
-  works better for your practice's success.
+  systems and find the best approach for your practice's long-term success.
+seoDescription: Explore automated vs human patient recall systems and find out what approach
+  works better for your healthcare practice's long-term success.
 publishDate: '2026-02-03'
 status: published
 author: Ankit Patel

@@ -1,10 +1,10 @@
 ---
 title: 'Dormant Patient Reactivation: A 30-Day Playbook'
 seoTitle: 'Dormant Patient Reactivation: A Playbook for Practices'
-description: Learn how to effectively reactivate dormant patients with our 30-day
-  playbook, designed to boost your practice's revenue.
-seoDescription: Discover a 30-day playbook for dormant patient reactivation to enhance
-  your practice's revenue and patient engagement.
+description: Learn how to effectively reactivate dormant patients with our proven 30-day
+  playbook, designed to boost your practice's revenue and retention.
+seoDescription: Discover a proven 30-day playbook for dormant patient reactivation to enhance
+  your practice's revenue, retention, and patient engagement.
 publishDate: '2026-01-30'
 status: published
 author: Ankit Patel
