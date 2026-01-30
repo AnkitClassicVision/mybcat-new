@@ -1,6 +1,6 @@
 ---
 title: "Scaling up operations to grow your eye care clinic"
-description: "Every eye care clinic owner is looking forward to it – the moment when their practice really starts to take [...]"
+description: "Every eye care clinic owner looks to grow their practice. Learn operational strategies that scale efficiently while maintaining quality patient care."
 publishDate: 2023-09-12
 status: "published"
 author: "Ankit Patel"

@@ -1,5 +1,5 @@
 ---
-title: "When Every Second Counts: How MyBCAT Handles Emergencies for Your Practice"
+title: "How MyBCAT Handles Emergencies for Your Practice"
 description: "What happens when a patient calls with sudden vision loss at 4:47 PM on a Friday? Here's how we handle the calls that can't wait."
 publishDate: 2025-01-21
 status: "published"

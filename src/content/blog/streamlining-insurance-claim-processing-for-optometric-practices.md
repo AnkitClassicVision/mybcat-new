@@ -1,6 +1,6 @@
 ---
-title: "Streamlining Insurance Claim Processing for Optometric Practices"
-description: "Insurance claims are a drag. They slow down almost every step of eye care from dealing with the insurance company [...]"
+title: "Insurance Claim Processing for Optometry Practices"
+description: "Insurance claim delays hurt cash flow and patient satisfaction. Learn proven strategies to streamline claim processing and reduce denials in your practice."
 publishDate: 2023-11-22
 status: "published"
 author: "Ankit Patel"

@@ -59,7 +59,7 @@ Starting frame inventory typically requires $15,000 to $40,000 depending on your
 In-house finishing capability runs $20,000 to $50,000 for quality equipment. Many new practices start with lab partnerships and add in-house capability once volume justifies the investment.
 
 **Frame Boards and Displays**
-Professional displays cost $3,000 to $15,000 for a properly merchandised optical area. This is where patient perception of value forms. Cheap displays suggest cheap products.
+Professional displays cost $3,000 to $15,000 for a properly merchandised optical area. This is where patient perception of value forms. Cost-effective displays suggest cost-effective products.
 
 **PD Ruler and Digital Pupillometer**
 Manual PD measurement tools cost under $100. Digital pupillometers with height measurements run $1,500 to $5,000. The digital versions improve accuracy and patient confidence.

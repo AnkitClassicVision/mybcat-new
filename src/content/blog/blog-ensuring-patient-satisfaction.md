@@ -1,5 +1,5 @@
 ---
-title: "Ensuring Patient Satisfaction: How MyBCAT Helps You Build Loyalty and Trust"
+title: "Building Patient Loyalty Through Great Service"
 description: "The awkward truth about patient satisfaction: it has almost nothing to do with clinical outcomes and everything to do with how people feel."
 publishDate: 2025-01-23
 status: "published"

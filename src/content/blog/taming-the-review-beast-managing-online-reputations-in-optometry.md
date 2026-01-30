@@ -1,5 +1,5 @@
 ---
-title: "Taming the Review Beast: Managing Online Reputations in Optometry"
+title: "Managing Online Reputations in Optometry"
 description: "Online reviews and ratings hold tremendous influence over an optometry practice's reputation and ability to attract new patients. Over 72% [...]"
 publishDate: 2023-10-21
 status: "published"

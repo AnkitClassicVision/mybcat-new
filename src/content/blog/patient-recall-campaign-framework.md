@@ -1,8 +1,10 @@
 ---
-title: "Patient Recall Campaign Framework: The Data-Driven Guide to Reactivating Dormant Patients"
-seoTitle: "Patient Recall Campaign Framework: Reactivate Dormant Patients (2026)"
-description: "Healthcare practices lose 10-17% of patients annually to attrition. This framework shows how to build recall campaigns that achieve 140x ROI using SMS, email, and phone outreach."
-seoDescription: "Build a patient recall campaign that works. Learn the multi-channel framework that achieves 140x ROI, with timing, messaging, and channel strategies backed by data."
+title: Patient Recall Campaign Framework (2026)
+seoTitle: Patient Recall Campaign Framework (2026 Guide)
+description: Build a patient recall campaign that works. Proven strategies to reactivate
+  dormant patients and improve practice revenue.
+seoDescription: Build a patient recall campaign that reactivates dormant patients.
+  Proven strategies and scripts to improve practice revenue and retention.
 publishDate: '2026-01-29'
 status: published
 author: Ankit Patel

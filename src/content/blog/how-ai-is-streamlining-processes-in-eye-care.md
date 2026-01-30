@@ -1,6 +1,6 @@
 ---
 title: "How AI is Streamlining Processes in Eye Care"
-description: "Like the rest of the world, eye care is being impacted by the opportunities and promises of AI. Throughout the [...]"
+description: "AI is transforming eye care operations from scheduling to diagnostics. Learn how practices are using AI to improve efficiency and patient outcomes."
 publishDate: 2023-10-05
 status: "published"
 author: "Ankit Patel"

@@ -1,28 +1,27 @@
 ---
-title: The Optometry Group's Guide to Integrated Retail-Clinical Intake
-seoTitle: "Optometry Retail-Clinical Intake Guide | 15-20% Higher Capture"
-description: >-
-  How multi-location optometry groups handle the dual challenge of clinical
-  scheduling and optical retail. Includes call routing framework, scripts, and
-  capture rate optimization.
-seoDescription: "Learn how optometry groups boost capture rates 15-20% with integrated retail-clinical intake. Get call routing frameworks, scripts, and optimization strategies."
-publishDate: 2026-01-14T00:00:00.000Z
+title: Optometry Retail-Clinical Intake Guide
+seoTitle: Optometry Retail-Clinical Intake Guide
+description: How multi-location optometry groups handle the dual nature of retail
+  and clinical operations with unified patient intake processes.
+seoDescription: How multi-location optometry groups handle retail and clinical operations
+  with unified patient intake and scheduling processes.
+publishDate: 2026-01-14 00:00:00+00:00
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - optometry
-  - optical-retail
-  - intake
-  - capture-rate
-  - multi-location
-  - vsp
+- optometry
+- optical-retail
+- intake
+- capture-rate
+- multi-location
+- vsp
 featuredImage: /images/blog/optometry-retail-clinical-intake-guide.webp
-canonical: 'https://mybcat.com/blog/optometry-retail-clinical-intake-guide/'
+canonical: https://mybcat.com/blog/optometry-retail-clinical-intake-guide/
 relatedPosts:
-  - multi-location-healthcare-intake-guide
-  - kpi-dashboard-multi-location-intake
-  - human-ai-hybrid-model-healthcare-intake
+- multi-location-healthcare-intake-guide
+- kpi-dashboard-multi-location-intake
+- human-ai-hybrid-model-healthcare-intake
 ---
 
 Optometry groups live in two worlds: clinical care representing roughly 40% of revenue and optical retail representing 60%. Yet most intake systems treat every call the same. The result: clinical appointments get booked while optical opportunities slip away. Groups that design intake specifically for the clinical-retail handoff see 15-20% higher capture rates than those treating every call identically.

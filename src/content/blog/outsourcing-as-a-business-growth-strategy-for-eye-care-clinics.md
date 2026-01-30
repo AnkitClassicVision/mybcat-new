@@ -1,5 +1,5 @@
 ---
-title: "Outsourcing As a Business Growth Strategy for Eye Care Clinics"
+title: "Outsourcing as a Growth Strategy for Eye Care"
 description: "A decade ago, the word 'outsourcing’ seemed alien to many eye care professionals. Today, it's firmly part of many successful [...]"
 publishDate: 2023-09-07
 status: "published"

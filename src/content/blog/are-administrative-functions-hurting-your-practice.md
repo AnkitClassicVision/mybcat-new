@@ -1,6 +1,6 @@
 ---
 title: "Are Administrative Functions Hurting Your Practice?"
-description: "A successful optometry practice results from strong eye care services. However, as a managed healthcare intake partner, we understand that crucial administrative tasks should be performed to ensure efficient operations."
+description: "Administrative burden hurts optometry practices. Learn how to streamline operations and focus more time on patient care."
 publishDate: 2023-10-24
 status: "published"
 author: "Ankit Patel"

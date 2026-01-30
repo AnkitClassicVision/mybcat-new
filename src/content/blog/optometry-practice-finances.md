@@ -18,7 +18,7 @@ cluster: starting-practice
 category: Practice Management
 ---
 
-# Optometry Practice Finances: A Complete Guide to Building a Profitable Practice
+## Optometry Practice Finances: A Complete Guide to Building a Profitable Practice
 
 The average optometry practice loses $150,000 annually to preventable financial mismanagement. Understanding optometry practice finances is the difference between a thriving practice and one that struggles to keep the lights on. Whether you're launching a new practice or optimizing an existing one, financial mastery determines your success more than clinical excellence alone.
 

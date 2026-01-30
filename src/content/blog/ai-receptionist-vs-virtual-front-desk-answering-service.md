@@ -542,7 +542,7 @@ $50,000-80,000
 16,000
 $3.13-5
 
-Pure human models work, but they're expensive. Pure AI models are cheap, but they lose patients. The math points toward hybrid.
+Pure human models work, but they're expensive. Pure AI models are cost-effective, but they lose patients. The math points toward hybrid.
 
 ---
 

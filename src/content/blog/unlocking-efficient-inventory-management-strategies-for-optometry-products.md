@@ -1,5 +1,5 @@
 ---
-title: "Unlocking Efficient Inventory Management Strategies for Optometry Products"
+title: "Inventory Management Strategies for Optometry"
 description: "Like other small businesses, many optometric practices do not track optical inventory, or it's a manual inventory management process. It's [...]"
 publishDate: 2023-11-16
 status: "published"

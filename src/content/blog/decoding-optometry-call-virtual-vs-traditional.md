@@ -1,6 +1,6 @@
 ---
 title: "Decoding Optometry Call: Virtual vs. Traditional"
-description: "Optometry virtual receptionists redefine patient care by offering modern solutions to streamline your practice operations. Compare virtual vs. traditional receptionist options."
+description: "Compare virtual vs traditional receptionists for optometry. Learn which solution best fits your practice needs and budget."
 publishDate: 2024-02-15
 status: "published"
 author: "Ankit Patel"

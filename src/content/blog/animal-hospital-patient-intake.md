@@ -24,7 +24,7 @@ tags:
 cluster: veterinary
 ---
 
-# Animal Hospital Patient Intake: Cut Wait Times by 40%
+## Animal Hospital Patient Intake: Cut Wait Times by 40%
 
 The average animal hospital patient intake process wastes 12 minutes per appointment. For a practice seeing 30 patients daily, that adds up to 6 lost hours of productivity every single day. The good news: practices that modernize their intake workflow report 40% shorter wait times and 23% higher client satisfaction scores within 90 days.
 

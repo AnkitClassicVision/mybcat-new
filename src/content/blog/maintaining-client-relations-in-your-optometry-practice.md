@@ -1,6 +1,6 @@
 ---
 title: "Maintaining Client Relations in Your Optometry Practice"
-description: "Eye care professionals consistently see recurring patients. As a managed healthcare intake partner, we understand that the services they provide, paired with efficient back-office functions, allow them to create meaningful relationships."
+description: "Eye care professionals see recurring patients for years. Learn strategies to maintain strong patient relationships and improve retention."
 publishDate: 2023-10-18
 status: "published"
 author: "Ankit Patel"

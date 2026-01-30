@@ -1,5 +1,5 @@
 ---
-title: "Patient retention and acquisition strategies for your optometry practice"
+title: "Patient Retention Strategies for Optometry"
 description: "Top-performing practices often attribute their high patient retention rates to several key elements: Personalized care where every patient feels recognized..."
 publishDate: 2023-09-18
 status: "published"

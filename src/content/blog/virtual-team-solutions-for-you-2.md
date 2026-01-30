@@ -1,5 +1,5 @@
 ---
-title: "Overwhelmed and Understaffed? How a Virtual Team Fills the Gap"
+title: "Overwhelmed? How a Virtual Team Fills the Gap"
 description: "Is your optometry practice currently overwhelmed and understaffed? If so, there's help available in the form of a virtual team [...]"
 publishDate: 2025-06-20
 status: "published"

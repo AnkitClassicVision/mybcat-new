@@ -1,6 +1,6 @@
 ---
 title: "Optometry Access: Elevating Patient Care"
-description: "Unlocking the full potential of patient access and care, eye care call support takes center stage, offering a tailored solution to streamline your practice and elevate the patient experience."
+description: "Unlock the full potential of patient access in your optometry practice. Improve scheduling, communication, and patient satisfaction."
 publishDate: 2024-02-20
 status: "published"
 author: "Ankit Patel"

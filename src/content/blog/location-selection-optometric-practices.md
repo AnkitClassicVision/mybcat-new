@@ -418,7 +418,7 @@ With your preferred location:
 
 **Underestimating build-out:** Optometry build-outs are specialized. Get contractor quotes before committing to a space.
 
-**Focusing only on rent:** A cheap lease in a bad location is not a bargain. Total economics include marketing cost to overcome poor visibility.
+**Focusing only on rent:** A cost-effective lease in a bad location is not a bargain. Total economics include marketing cost to overcome poor visibility.
 
 **Personal preference over business logic:** The charming Victorian building downtown may not be where your target patients shop.
 

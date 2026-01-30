@@ -1,7 +1,7 @@
 ---
 title: "Busting myths: addressing concerns about customer service outsourcing in eye care"
 seoTitle: "Eye Care Outsourcing Myths Busted"
-description: "To be an optometrist or ophthalmologist, you need to understand the human eye. But, to run an eye care clinic, [...]"
+description: "Optometry practices often hesitate to outsource. Learn the truth about customer service outsourcing and how it can transform your practice operations."
 publishDate: 2023-07-11
 status: "published"
 author: "Ankit Patel"
@@ -77,17 +77,17 @@ As you contemplate the move towards outsourcing, navigating the process can seem
 
 **Research Outsourcing Partners:** Your outsourcing journey doesn't have to be a solo one. You could work with a partner. Some of the common options people consider are:
 
-- Do it yourself (DIY)
+- Do it yourself (in-house)
 
 - Hiring virtual assistants (VA)
 
 - Business Process Outsourcing (BPO)
 
-We plan to write about each of these approaches in more detail. From a high level, the DIY and VA approach could be good options for someone with a strong business management background. Whereas a BPO, like us, specializes in the specific needs of an optometry or ophthalmology clinic. If you decide that a partner is the best option for you, look for one with demonstrated expertise in your field, a clear communication strategy, robust data security protocols, and a proven track record of increasing revenues and improving efficiency for clinics similar to yours.
+We plan to write about each of these approaches in more detail. From a high level, the in-house and VA approach could be good options for someone with a strong business management background. Whereas a BPO, like us, specializes in the specific needs of an optometry or ophthalmology clinic. If you decide that a partner is the best option for you, look for one with demonstrated expertise in your field, a clear communication strategy, robust data security protocols, and a proven track record of increasing revenues and improving efficiency for clinics similar to yours.
 
 **Gathering the Necessary Information:** If you're looking for partners and have made a shortlist, gather all the information you need to make an informed decision. This includes understanding their pricing model, getting details about their team and their training process, assessing their technology capabilities, and inquiring about their data protection measures. Ask for case studies or testimonials that showcase their impact. Transparency in these areas is key to building a trusting partnership.
 
-We'll have some articles in the future with more tips and best practices for clinics choosing the DIY or VA route.
+We'll have some articles in the future with more tips and best practices for clinics choosing the in-house or VA route.
 
 **Understanding the Transition Process:** Outsourcing should not disrupt your clinic's operations. Ask potential partners about their onboarding process. How will they ensure a smooth transition? What kind of support can you expect during this period? An experienced partner will have a structured plan to minimize disruption and facilitate a seamless shift to the outsourced model.
 

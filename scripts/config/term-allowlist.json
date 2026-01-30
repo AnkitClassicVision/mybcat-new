@@ -1,7 +1,7 @@
 {
   "$schema": "./term-allowlist.schema.json",
-  "version": "1.0.0",
-  "lastUpdated": "2026-01-29",
+  "version": "1.1.0",
+  "lastUpdated": "2026-01-30",
   "description": "Specific exceptions to forbidden terms with documented reasons",
 
   "exceptions": [
@@ -18,6 +18,41 @@
       "reason": "Author biographical content - first-person story",
       "approvedBy": "SEO Lead",
       "approvedDate": "2026-01-29"
+    },
+    {
+      "file": "src/pages/terms.astro",
+      "terms": ["Georgia"],
+      "reason": "Legal requirement - company is registered as Georgia LLC",
+      "approvedBy": "SEO Lead",
+      "approvedDate": "2026-01-30"
+    },
+    {
+      "file": "src/pages/about/index.astro",
+      "terms": ["Atlanta", "Georgia"],
+      "reason": "Company headquarters location - factual business information",
+      "approvedBy": "SEO Lead",
+      "approvedDate": "2026-01-30"
+    },
+    {
+      "file": "src/pages/author/ankit-patel.astro",
+      "terms": ["Atlanta", "Georgia"],
+      "reason": "Founder biographical content - factual background",
+      "approvedBy": "SEO Lead",
+      "approvedDate": "2026-01-30"
+    },
+    {
+      "file": "src/pages/resources/podcast.astro",
+      "terms": ["Atlanta"],
+      "reason": "Podcast recorded in Atlanta - factual production location",
+      "approvedBy": "SEO Lead",
+      "approvedDate": "2026-01-30"
+    },
+    {
+      "file": "src/pages/resources/index.astro",
+      "terms": ["Atlanta"],
+      "reason": "Resource page - references podcast location",
+      "approvedBy": "SEO Lead",
+      "approvedDate": "2026-01-30"
     }
   ],
 
@@ -25,6 +60,7 @@
     "<!-- allowed-term: author-bio-story -->",
     "<!-- allowed-term: case-study-quote -->",
     "<!-- allowed-term: competitor-comparison -->",
-    "<!-- allowed-term: industry-analysis -->"
+    "<!-- allowed-term: industry-analysis -->",
+    "<!-- allowed-term: legal-requirement -->"
   ]
 }

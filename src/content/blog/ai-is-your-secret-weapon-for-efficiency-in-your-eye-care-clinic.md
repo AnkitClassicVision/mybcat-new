@@ -1,5 +1,5 @@
 ---
-title: "AI Is Your Secret Weapon For Efficiency In Your Eye Care Clinic"
+title: "AI: Your Secret Weapon for Eye Care Efficiency"
 description: "How eye care practices are actually using AI today to save time, reduce admin headaches, and see more patients—plus what's coming next."
 publishDate: 2023-09-20
 status: "published"

@@ -1,5 +1,5 @@
 ---
-title: "Strategies to Uphold Legal and Regulatory Compliance in Optometry"
+title: "Legal and Regulatory Compliance in Optometry"
 description: "Legal and regulatory compliance is usually a fairly unexciting aspect of an optometry business. Yet, it’s a really really important [...]"
 publishDate: 2023-11-10
 status: "published"

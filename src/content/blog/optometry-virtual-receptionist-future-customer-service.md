@@ -1,6 +1,6 @@
 ---
 title: "Optometry Virtual Receptionist: Future Customer Service"
-description: "In the ever-evolving landscape of optometry, the integration of virtual receptionists is shaping the future of customer service. Discover how optometry call services transform patient care."
+description: "Virtual receptionists are transforming optometry practices. Learn how they improve patient care and reduce administrative burden."
 publishDate: 2024-03-15
 status: "published"
 author: "Ankit Patel"

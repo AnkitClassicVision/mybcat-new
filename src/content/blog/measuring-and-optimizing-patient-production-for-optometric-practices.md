@@ -1,5 +1,5 @@
 ---
-title: "Measuring and optimizing patient production for optometric practices"
+title: "Optimizing Patient Production in Optometry"
 description: "Patient production measures the overall volume of patients and the associated revenue generation. It can be the difference between a [...]"
 publishDate: 2023-11-02
 status: "published"

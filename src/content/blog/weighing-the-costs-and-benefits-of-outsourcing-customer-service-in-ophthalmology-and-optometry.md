@@ -1,5 +1,5 @@
 ---
-title: "Weighing the Costs and Benefits of Outsourcing Customer Service in Optometry"
+title: "Costs and Benefits of Outsourcing Customer Service"
 description: "We increased our revenue per patient by 33% because we took the phones out of the office. Understanding how missed [...]"
 publishDate: 2023-07-07
 status: "published"

@@ -25,7 +25,7 @@ tags:
 cluster: private-practice
 ---
 
-# Optometry Private Practice: A Complete Guide to Success
+## Optometry Private Practice: A Complete Guide to Success
 
 Running an optometry private practice gives you something corporate settings never can: complete control over patient care, your schedule, and your income. According to the American Optometric Association, private practice owners earn an average of $175,000 annually, with top performers exceeding $300,000. But these numbers only tell part of the story. The real advantage lies in building equity in a business you own outright.
 

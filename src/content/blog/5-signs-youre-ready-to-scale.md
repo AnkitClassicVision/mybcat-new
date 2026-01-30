@@ -45,7 +45,7 @@ All of the above will maximize the existing capacity of your business.
 
 When doctors are spending valuable clinical hours doing paperwork such as patient follow-ups, processing insurance claims and managing inventory, it's time to think about an optometry virtual assistant.
 
-### The Hidden Cost of DIY Administration
+### The Hidden Cost of in-house Administration
 
 The cost of doing your own administration may not be immediately apparent. But when you consider that, as an optometrist, your time could be better spent on client care or other revenue generating activities, you'll understand the benefit of delegating the admin.
 

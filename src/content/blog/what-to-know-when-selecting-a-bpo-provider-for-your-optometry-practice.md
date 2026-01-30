@@ -1,5 +1,5 @@
 ---
-title: "What to Know When Selecting a BPO Provider for Your Optometry Practice"
+title: "Selecting a BPO Provider for Your Optometry Practice"
 description: "Business process outsourcing (BPO) started in the supply chain world of manufacturing and is now becoming an integral part of [...]"
 publishDate: 2023-08-29
 status: "published"

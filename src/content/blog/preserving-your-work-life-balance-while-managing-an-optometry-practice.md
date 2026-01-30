@@ -1,5 +1,5 @@
 ---
-title: "Preserving Your Work-Life Balance While Managing an Optometry Practice"
+title: "Work-Life Balance for Optometry Practice Owners"
 description: "For optometrists, the demands of patient care, clinic management, and a thousand different things can be overwhelming and often overshadows [...]"
 publishDate: 2023-11-09
 status: "published"

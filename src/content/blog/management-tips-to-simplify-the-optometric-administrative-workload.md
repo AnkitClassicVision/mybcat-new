@@ -1,5 +1,5 @@
 ---
-title: "Management Tips to Simplify the Optometric Administrative Workload"
+title: "Simplifying Optometric Administrative Workload"
 description: "The operational efficiencies of your optometry practice are integral to the overall success and growth of your practice. An efficient [...]"
 publishDate: 2023-10-16
 status: "published"

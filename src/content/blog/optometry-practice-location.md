@@ -18,7 +18,7 @@ cluster: starting-practice
 category: Practice Management
 ---
 
-# Optometry Practice Location: How to Choose the Right Site for Long-Term Success
+## Optometry Practice Location: How to Choose the Right Site for Long-Term Success
 
 Your optometry practice location will determine up to 40% of your revenue potential before you see your first patient. Research from the American Optometric Association shows that practices in high-visibility locations with strong demographic matches generate 2.3x more new patient appointments than comparable practices in secondary locations. Yet most new practice owners spend more time selecting equipment than analyzing their site options.
 

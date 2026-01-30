@@ -1,5 +1,5 @@
 ---
-title: "How technology is boosting operational efficiency in optometry"
+title: "Technology Boosting Efficiency in Optometry"
 description: "Optometry is a tech-driven industry. After all, corrective lenses are technology. So it's baffling that some clinics are still buried [...]"
 publishDate: 2023-08-16
 status: "published"

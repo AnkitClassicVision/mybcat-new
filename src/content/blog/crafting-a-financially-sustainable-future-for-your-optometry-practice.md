@@ -1,6 +1,6 @@
 ---
-title: "Crafting a Financially Sustainable Future for Your Optometry Practice"
-description: "In order for your practice to grow and thrive, it has to be profitable, efficient, and still able to provide [...]"
+title: "Financial Sustainability for Optometry Practices"
+description: "Financial sustainability requires strategic planning and smart operational decisions. Learn how to build a thriving optometry practice that lasts."
 publishDate: 2023-11-08
 status: "published"
 author: "Ankit Patel"

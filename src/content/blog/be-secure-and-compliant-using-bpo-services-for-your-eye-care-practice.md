@@ -1,5 +1,5 @@
 ---
-title: "Be secure and compliant using BPO services for your eye care practice"
+title: "BPO Security and Compliance for Eye Care"
 description: "To the uninitiated, all forms of outsourcing might seem alike. Virtual assistants, offshore teams, and business process outsourcing (BPO) might [...]"
 publishDate: 2023-08-21
 status: "published"

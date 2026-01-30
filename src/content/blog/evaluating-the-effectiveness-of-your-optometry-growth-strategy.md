@@ -1,5 +1,5 @@
 ---
-title: "Evaluating the effectiveness of your optometry growth strategy"
+title: "Evaluating Your Optometry Growth Strategy"
 description: "Are you an optometrist or ophthalmologist seeking to grow your practice but need to know which metrics indicate progress? You're [...]"
 publishDate: 2023-09-21
 status: "published"

@@ -1,5 +1,5 @@
 ---
-title: "How Trained Spanish-Speaking Staff Can Elevate Your Eye Care Practice"
+title: "Spanish-Speaking Staff for Eye Care Practices"
 description: "41 million Spanish speakers in the US. How many are choosing your competitor because they can actually communicate with them?"
 publishDate: 2025-01-28
 status: "published"

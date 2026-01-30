@@ -1,30 +1,27 @@
 ---
-title: >-
-  After-Hours Veterinary Call Management: Models That Work for Multi-Location
-  Groups
-seoTitle: "After-Hours Veterinary Call Management | 4 Models Compared"
-description: >-
-  Four after-hours models for veterinary groups compared: DVM on-call,
-  triage-first, virtual triage nurses, and telemedicine hybrid. Includes cost
-  analysis and implementation guide.
-seoDescription: "Compare 4 after-hours veterinary call models: DVM on-call, triage-first, virtual nurses, telemedicine. Cost analysis and implementation guide for multi-location groups."
-publishDate: 2026-01-16T00:00:00.000Z
+title: After-Hours Veterinary Call Management Models
+seoTitle: After-Hours Veterinary Call Management | 4 Models Compared
+description: 'Compare 4 after-hours vet call models: DVM on-call, answering service,
+  hybrid, and AI triage. Find the right fit for your practice.'
+seoDescription: 'Compare 4 after-hours vet call models: DVM on-call, answering service,
+  hybrid, and AI. Find the right solution for your practice.'
+publishDate: 2026-01-16 00:00:00+00:00
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - veterinary
-  - after-hours
-  - triage
-  - dvm-burnout
-  - multi-location
-  - emergency
+- veterinary
+- after-hours
+- triage
+- dvm-burnout
+- multi-location
+- emergency
 featuredImage: /images/blog/after-hours-veterinary-call-management.webp
-canonical: 'https://mybcat.com/blog/after-hours-veterinary-call-management/'
+canonical: https://mybcat.com/blog/after-hours-veterinary-call-management/
 relatedPosts:
-  - veterinary-emergency-triage-protocols
-  - multi-location-healthcare-intake-guide
-  - healthcare-front-desk-staffing-crisis-2025
+- veterinary-emergency-triage-protocols
+- multi-location-healthcare-intake-guide
+- healthcare-front-desk-staffing-crisis-2025
 ---
 
 Veterinary practices receive 40% of their calls outside business hours, and most go to voicemail. The standard solutions (DVM on-call, rotating staff, ignoring the problem) all fail at scale. For multi-location veterinary groups, after-hours is not a coverage problem. It is a routing problem. Here are four models that actually work, with the data to help you choose.

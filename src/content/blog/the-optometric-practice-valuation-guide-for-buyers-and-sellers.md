@@ -1,6 +1,6 @@
 ---
-title: "The Optometric Practice Valuation Guide for Buyers and Sellers"
-description: "Figuring out how much an eye care business is worth can be complicated. There are lots of ways to look [...]"
+title: "Optometric Practice Valuation Guide"
+description: "Understanding optometry practice valuation is critical for buyers and sellers. Learn key factors that determine fair market value and get optimal terms."
 publishDate: 2023-10-04
 status: "published"
 author: "Ankit Patel"

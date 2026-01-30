@@ -1,5 +1,5 @@
 ---
-title: "Navigating the Ethical Maze for AI in Ophthalmology and Optometry"
+title: "AI Ethics in Ophthalmology and Optometry"
 description: "The adoption of Artificial Intelligence (AI) in healthcare is not just a technological advancement but also an ethical journey. In [...]"
 publishDate: 2023-09-25
 status: "published"

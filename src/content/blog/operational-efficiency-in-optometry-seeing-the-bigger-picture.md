@@ -1,5 +1,5 @@
 ---
-title: "Operational Efficiency in Optometry: Seeing the Bigger Picture"
+title: "Operational Efficiency in Optometry"
 description: "Operational efficiency, a concept often touted in corporate boardrooms, is equally vital in an optometrist's clinic. And the reasons are [...]"
 publishDate: 2023-08-11
 status: "published"
