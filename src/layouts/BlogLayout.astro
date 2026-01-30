@@ -111,7 +111,7 @@ const schemas = combineSchemas(
       <footer class="post-footer">
         <div class="post-tags">
           {tags.map((tag: string) => (
-            <a href={`/blog/?tag=${tag}`} class="tag">{tag}</a>
+            <a href={`/blog/tag/${tag.toLowerCase().replace(/\s+/g, '-')}/`} class="tag">{tag}</a>
           ))}
         </div>
       </footer>
