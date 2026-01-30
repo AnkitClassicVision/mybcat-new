@@ -44,3 +44,5 @@ Through our [medical virtual assistants](/solutions/medical-virtual-assistant/),
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+> **Managing multiple locations?** [See how enterprise healthcare groups centralize patient access](/enterprise/)
