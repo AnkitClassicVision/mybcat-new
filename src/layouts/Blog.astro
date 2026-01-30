@@ -125,10 +125,22 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     </template>
 
     <script>
-      // Inject CTA before Key Takeaways section
+      // Inject CTA before Key Takeaways section (only if no custom CTA exists)
       document.addEventListener('DOMContentLoaded', () => {
         const content = document.getElementById('blog-content');
         if (!content) return;
+
+        // Check if a custom CTA already exists in the content
+        // Look for the MyBCAT CTA Section comment or the styled CTA div
+        const hasCustomCTA = content.innerHTML.includes('MyBCAT CTA Section') ||
+                            content.innerHTML.includes('Schedule a Consultation Today') ||
+                            content.querySelector('[style*="linear-gradient"][style*="#0A1628"]');
+
+        // If custom CTA exists, skip auto-injection
+        if (hasCustomCTA) {
+          console.log('Custom CTA found, skipping auto-inject');
+          return;
+        }
 
         // Find h2 elements that contain "Key Takeaways" or "Takeaways"
         const headings = content.querySelectorAll('h2');
@@ -151,8 +163,9 @@ const authorInfo = authorData[author] || { role: '', image: '' };
           });
         }
 
-        // Create and inject the CTA if we found a target
+        // Create and inject the fallback CTA if we found a target
         if (targetHeading) {
+          console.log('No custom CTA found, injecting fallback CTA');
           const ctaWrapper = document.createElement('div');
           ctaWrapper.className = 'injected-cta';
           ctaWrapper.innerHTML = `
