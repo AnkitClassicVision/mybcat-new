@@ -2,7 +2,6 @@
 import Base from './Base.astro';
 import AuthorBio from '@/components/blog/AuthorBio.astro';
 import RelatedPosts from '@/components/blog/RelatedPosts.astro';
-import InContentCTA from '@/components/blog/InContentCTA.astro';
 import { generateArticleSchema, generateBreadcrumbSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
 import type { CollectionEntry } from 'astro:content';
@@ -118,76 +117,6 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     <div class="post-content prose" id="blog-content">
       <slot />
     </div>
-
-    <!-- Hidden CTA template for injection before Key Takeaways -->
-    <template id="in-content-cta-template">
-      <InContentCTA />
-    </template>
-
-    <script>
-      // Inject CTA before Key Takeaways section (only if no custom CTA exists)
-      document.addEventListener('DOMContentLoaded', () => {
-        const content = document.getElementById('blog-content');
-        if (!content) return;
-
-        // Check if a custom CTA already exists in the content
-        // Look for the MyBCAT CTA Section comment or the styled CTA div
-        const hasCustomCTA = content.innerHTML.includes('MyBCAT CTA Section') ||
-                            content.innerHTML.includes('Schedule a Consultation Today') ||
-                            content.querySelector('[style*="linear-gradient"][style*="#0A1628"]');
-
-        // If custom CTA exists, skip auto-injection
-        if (hasCustomCTA) {
-          console.log('Custom CTA found, skipping auto-inject');
-          return;
-        }
-
-        // Find h2 elements that contain "Key Takeaways" or "Takeaways"
-        const headings = content.querySelectorAll('h2');
-        let targetHeading: Element | null = null;
-
-        headings.forEach((h2) => {
-          const text = h2.textContent?.toLowerCase() || '';
-          if (text.includes('key takeaway') || text.includes('takeaway') || text.includes('conclusion')) {
-            if (!targetHeading) targetHeading = h2;
-          }
-        });
-
-        // If no takeaways section, try to find Related Resources or FAQ
-        if (!targetHeading) {
-          headings.forEach((h2) => {
-            const text = h2.textContent?.toLowerCase() || '';
-            if (text.includes('related') || text.includes('faq') || text.includes('frequently asked')) {
-              if (!targetHeading) targetHeading = h2;
-            }
-          });
-        }
-
-        // Create and inject the fallback CTA if we found a target
-        if (targetHeading) {
-          console.log('No custom CTA found, injecting fallback CTA');
-          const ctaWrapper = document.createElement('div');
-          ctaWrapper.className = 'injected-cta';
-          ctaWrapper.innerHTML = `
-            <aside class="in-content-cta" role="complementary" aria-label="Call to action">
-              <div class="cta-inner">
-                <div class="cta-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                  </svg>
-                </div>
-                <div class="cta-text">
-                  <h3 class="cta-title">Reduce Your Front Desk Dependency</h3>
-                  <p class="cta-description">MyBCAT helps multi-location healthcare groups build resilient intake operations that don't break when staffing is tight.</p>
-                </div>
-                <a href="/contact/" class="cta-button-inline">Schedule a Consultation</a>
-              </div>
-            </aside>
-          `;
-          targetHeading.parentNode?.insertBefore(ctaWrapper, targetHeading);
-        }
-      });
-    </script>
 
     {tags && tags.length > 0 && (
       <footer class="post-footer">
