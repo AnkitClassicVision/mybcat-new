@@ -1,6 +1,6 @@
 ---
 title: 'Recall Postcard vs Text vs Phone: What to Use When'
-seoTitle: 'Patient Recall Postcard vs Text vs Phone: Effective Strategies'
+seoTitle: 'Recall Postcard vs Text vs Phone: Best Practices'
 description: Explore the pros and cons of patient recall postcard, text, and phone
   methods to optimize your reactivation strategy.
 seoDescription: 'Discover the best methods for patient recall: postcard, text, or
