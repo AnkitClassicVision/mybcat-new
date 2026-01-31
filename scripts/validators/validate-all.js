@@ -23,6 +23,12 @@ const colors = {
 
 const VALIDATORS = [
   {
+    name: 'Publish Dates',
+    script: 'validate-publish-dates.js',
+    requiresBuild: false,
+    critical: true  // Blocks deployment if future-dated posts are published
+  },
+  {
     name: 'Forbidden Terms',
     script: 'validate-terms.js',
     requiresBuild: false
