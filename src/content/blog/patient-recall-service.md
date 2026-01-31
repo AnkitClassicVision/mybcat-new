@@ -6,7 +6,7 @@ description: Discover what a patient recall service is and when your practice ne
 seoDescription: Learn about patient recall services, their importance, and when your
   practice should utilize them for better patient engagement.
 publishDate: '2026-02-02'
-status: published
+status: draft
 author: Ankit Patel
 category: Practice Growth
 tags:

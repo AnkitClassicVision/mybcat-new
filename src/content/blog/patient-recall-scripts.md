@@ -6,7 +6,7 @@ description: Discover effective patient recall scripts to reengage patients via 
 seoDescription: Explore effective patient recall scripts for phone and SMS that help
   reengage patients and enhance your practice's revenue.
 publishDate: '2026-02-05'
-status: published
+status: draft
 author: Ankit Patel
 category: Practice Growth
 tags:

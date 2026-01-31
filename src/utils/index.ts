@@ -41,3 +41,8 @@ export {
   pluralize,
   formatPhone
 } from './formatting';
+
+export {
+  isPostVisible,
+  isVisiblePost
+} from './blog';

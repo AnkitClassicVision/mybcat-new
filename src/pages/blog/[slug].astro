@@ -3,9 +3,13 @@ import Blog from '@/layouts/Blog.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  // Only generate pages for published posts (not drafts)
+  // Only generate pages for published posts with past/current publishDate
+  // This prevents future-dated posts from being accessible before their scheduled date
+  const now = new Date();
   const posts = await getCollection('blog', ({ data }) => {
-    return data.status === 'published';
+    if (data.status !== 'published') return false;
+    // Check if publishDate is in the past or today
+    return data.publishDate <= now;
   });
   return posts.map(post => ({
     params: { slug: post.slug },

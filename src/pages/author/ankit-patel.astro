@@ -11,9 +11,10 @@ import { company } from '@data/company';
 import { getCollection } from 'astro:content';
 import { serializeSchema } from '@utils/schema';
 
-// Get all published blog posts by Ankit
+// Get all published blog posts by Ankit (exclude future-dated posts)
+const now = new Date();
 const allPosts = await getCollection('blog', ({ data }) =>
-  data.status === 'published' && data.author === 'Ankit Patel'
+  data.status === 'published' && data.author === 'Ankit Patel' && data.publishDate <= now
 );
 const recentPosts = allPosts
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())

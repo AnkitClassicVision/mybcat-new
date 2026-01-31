@@ -23,8 +23,9 @@ export interface Props {
 
 const { currentSlug, currentCategory, currentTags = [], relatedSlugs = [], maxPosts = 3 } = Astro.props;
 
-// Get all published posts
-const allPosts = await getCollection('blog', ({ data }) => data.status === 'published');
+// Get all published posts (exclude future-dated posts)
+const now = new Date();
+const allPosts = await getCollection('blog', ({ data }) => data.status === 'published' && data.publishDate <= now);
 
 // Filter out current post
 const otherPosts = allPosts.filter(post => post.slug !== currentSlug);

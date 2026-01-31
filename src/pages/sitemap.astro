@@ -13,8 +13,9 @@ import { caseStudies } from '@data/case-studies';
 import { glossaryTerms } from '@data/glossary';
 import { getCollection } from 'astro:content';
 
-// Get all published blog posts (exclude drafts)
-const blogPosts = await getCollection('blog', ({ data }) => data.status === 'published');
+// Get all published blog posts (exclude drafts and future-dated posts)
+const now = new Date();
+const blogPosts = await getCollection('blog', ({ data }) => data.status === 'published' && data.publishDate <= now);
 const sortedBlogPosts = blogPosts.sort((a, b) =>
   new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime()
 );

@@ -8,8 +8,10 @@ import Base from '@/layouts/Base.astro';
 import { company } from '@data/company';
 
 export async function getStaticPaths() {
+  const now = new Date();
   const posts = await getCollection('blog', ({ data }) => {
-    return data.status === 'published';
+    if (data.status !== 'published') return false;
+    return data.publishDate <= now;
   });
 
   // Collect all unique tags from all posts
@@ -32,9 +34,11 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.props;
 
-// Get all published posts with this tag
+// Get all published posts with this tag (exclude future-dated posts)
+const now = new Date();
 const allPosts = await getCollection('blog', ({ data }) => {
-  return data.status === 'published';
+  if (data.status !== 'published') return false;
+  return data.publishDate <= now;
 });
 
 // Filter posts that have this tag (case-insensitive match)

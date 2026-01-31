@@ -6,7 +6,7 @@ description: Discover how to calculate patient reactivation ROI effectively and 
 seoDescription: Learn how to calculate patient reactivation ROI and boost revenue
   in your healthcare practice with practical steps and insights.
 publishDate: '2026-02-13'
-status: published
+status: draft
 author: Ankit Patel
 category: Analytics
 tags:
