@@ -6,7 +6,8 @@ description: Explore appointment reminder best practices that enhance patient co
 seoDescription: Learn appointment reminder best practices to improve patient communication
   and minimize no-shows without annoying patients.
 publishDate: '2026-02-16'
-status: draft
+status: scheduled
+scheduledDate: '2026-02-16'
 author: Ankit Patel
 category: Operations
 tags:

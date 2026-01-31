@@ -6,7 +6,8 @@ description: Explore how dental hygiene recall impacts practice valuation and pa
 seoDescription: Discover the importance of dental hygiene recall in practice valuation.
   Implement strategies for better patient retention and revenue.
 publishDate: '2026-02-09'
-status: draft
+status: scheduled
+scheduledDate: '2026-02-09'
 author: Ankit Patel
 category: Dental
 tags:

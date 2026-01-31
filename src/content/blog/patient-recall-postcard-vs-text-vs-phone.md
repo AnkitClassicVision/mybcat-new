@@ -6,7 +6,8 @@ description: Explore the pros and cons of patient recall postcard, text, and pho
 seoDescription: 'Discover the best methods for patient recall: postcard, text, or
   phone. Learn when to use each for maximum reactivation success.'
 publishDate: '2026-02-12'
-status: draft
+status: scheduled
+scheduledDate: '2026-02-12'
 author: Ankit Patel
 category: Practice Growth
 tags:

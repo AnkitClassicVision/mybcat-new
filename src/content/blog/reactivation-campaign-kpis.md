@@ -6,7 +6,8 @@ description: Discover essential KPIs for your reactivation campaigns to enhance 
 seoDescription: Explore key reactivation campaign KPIs to monitor weekly, ensuring
   effective patient engagement and increased revenue for your practice.
 publishDate: '2026-02-06'
-status: draft
+status: scheduled
+scheduledDate: '2026-02-06'
 author: Ankit Patel
 category: Analytics
 tags:

@@ -6,7 +6,8 @@ description: Discover the strengths and weaknesses of automated vs human patient
 seoDescription: Explore automated vs human patient recall systems and find out what approach
   works better for your healthcare practice's long-term success.
 publishDate: '2026-02-03'
-status: draft
+status: scheduled
+scheduledDate: '2026-02-03'
 author: Ankit Patel
 category: Practice Growth
 tags:
