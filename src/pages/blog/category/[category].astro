@@ -7,14 +7,8 @@
 import Base from '@/layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
-// Helper: Check if a post should be visible
-const isPostVisible = (data: any) => {
-  if (data.status === 'published') return true;
-  if (data.status === 'scheduled' && data.scheduledDate) {
-    return new Date(data.scheduledDate) <= new Date();
-  }
-  return false;
-};
+// Use centralized visibility logic from utils
+import { isPostVisible } from '@utils/blog';
 
 // Get all visible posts
 const allPosts = await getCollection('blog', ({ data }) => isPostVisible(data));
