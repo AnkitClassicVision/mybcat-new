@@ -104,7 +104,7 @@ The research is clear: multi-channel campaigns dramatically outperform single-ch
 - **SMS + Email only**: 50-65% reduction in no-shows, 7-10% no-show rate
 - **Comprehensive (all channels)**: 70-85% reduction, 3-6% no-show rate
 
-For patient recall specifically, lead with SMS for its 98% open rate, support with email for detailed information, and reserve phone calls for high-value patients or those who do not respond to digital outreach. For guidance on choosing between channels, see our comparison of [postcard vs text vs phone outreach](/blog/patient-recall-postcard-vs-text-vs-phone/).
+For patient recall specifically, lead with SMS for its 98% open rate, support with email for detailed information, and reserve phone calls for high-value patients or those who do not respond to digital outreach.
 
 ### Phase 4: Develop Your Messaging Strategy
 
@@ -128,7 +128,7 @@ Personalization is not optional. Research shows 96% of consumers act on personal
 **Day 14 (Final Reminder)**
 > Last reminder: [First Name], your [service] is [X months] overdue. We would hate to see you fall behind on your [dental/eye/pet] health. Schedule today: [link]
 
-For more message templates, see our guide to [patient recall scripts that work](/blog/patient-recall-scripts/).
+For more message templates, consider developing scripts tailored to your practice's voice and patient demographics.
 
 ### Phase 5: Execute with Proper Timing
 
@@ -149,7 +149,7 @@ Timing affects response rates more than most practices realize. Research shows:
 | Day 21 | Phone call (high-value only) | Phone |
 | Day 30 | Direct mail (optional) | Postcard |
 
-For practices running campaigns at scale, [automation is essential](/blog/automated-vs-human-patient-recall/). Manual outreach consumes 8+ minutes per patient call. A practice trying to reactivate 500 dormant patients manually would need 67+ staff hours just for phone calls.
+For practices running campaigns at scale, automation is essential. Manual outreach consumes 8+ minutes per patient call. A practice trying to reactivate 500 dormant patients manually would need 67+ staff hours just for phone calls.
 
 ### Phase 6: Measure What Matters
 
@@ -175,7 +175,7 @@ Track these KPIs to evaluate campaign performance:
 | Cost Per Reactivation | >$100 | $50-100 | $25-50 | <$25 |
 | Campaign ROI | <5x | 5-20x | 20-50x | >50x |
 
-Real-world results validate these benchmarks. Modern Dentistry achieved 59 reactivations in 90 days, generating $49,456 in revenue for a 140x ROI using automated text-based recall. For more on tracking metrics, see our guide to [reactivation campaign KPIs](/blog/reactivation-campaign-kpis/).
+Real-world results validate these benchmarks. Modern Dentistry achieved 59 reactivations in 90 days, generating $49,456 in revenue for a 140x ROI using automated text-based recall.
 
 ## Common Mistakes That Kill Recall Campaigns
 
@@ -281,12 +281,7 @@ Patient recall does not exist in isolation. It connects to every other aspect of
 
 ## Related Reading
 
-- [Patient Recall Service: When to Outsource](/blog/patient-recall-service/)
-- [Automated vs Human Patient Recall: Finding the Balance](/blog/automated-vs-human-patient-recall/)
 - [Dormant Patient Reactivation: The Complete Guide](/blog/dormant-patient-reactivation/)
-- [Reactivation Text Message Templates](/blog/reactivation-text-message-templates/)
-- [Case Study: Dormant Patient Recovery](/blog/case-study-dormant-patient-recovery/)
-- [Patient Reactivation ROI Calculator](/blog/patient-reactivation-roi/)
 
 ## Sources
 
