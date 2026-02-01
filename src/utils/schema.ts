@@ -64,6 +64,13 @@ export function generateOrganizationSchema() {
       '@type': 'Country',
       name: 'United States'
     },
+    // ContactPoint for organizations using web-based contact
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'sales',
+      url: `${company.site.url}/contact/`,
+      availableLanguage: ['English', 'Spanish']
+    },
     sameAs: Object.values(company.social),
     knowsAbout: [
       'Healthcare Practice Operations',
