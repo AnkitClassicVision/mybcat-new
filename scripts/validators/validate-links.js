@@ -26,6 +26,53 @@ const colors = {
   bold: '\x1b[1m'
 };
 
+function decodeHtmlEntities(text) {
+  if (!text || typeof text !== 'string') return text;
+
+  const named = {
+    amp: '&',
+    lt: '<',
+    gt: '>',
+    quot: '"',
+    apos: "'"
+  };
+
+  return text
+    .replace(/&([a-z]+);/gi, (match, name) => named[name.toLowerCase()] ?? match)
+    .replace(/&#(\d+);/g, (match, num) => {
+      try {
+        return String.fromCodePoint(Number.parseInt(num, 10));
+      } catch {
+        return match;
+      }
+    })
+    .replace(/&#x([0-9a-f]+);/gi, (match, hex) => {
+      try {
+        return String.fromCodePoint(Number.parseInt(hex, 16));
+      } catch {
+        return match;
+      }
+    });
+}
+
+function sanitizeHref(href) {
+  if (!href) return href;
+
+  // Decode HTML entities first so we validate the real URL.
+  let decoded = decodeHtmlEntities(href);
+
+  // Treat absolute URLs to our own site as internal.
+  if (decoded.startsWith(SITE_BASE)) {
+    decoded = decoded.slice(SITE_BASE.length) || '/';
+  }
+
+  // Remove fragments and query strings for filesystem resolution.
+  decoded = decoded.split('#')[0];
+  decoded = decoded.split('?')[0];
+
+  return decoded || '/';
+}
+
 function extractInternalLinks(html, filePath) {
   const links = [];
 
@@ -35,6 +82,7 @@ function extractInternalLinks(html, filePath) {
 
   while ((match = hrefRegex.exec(html)) !== null) {
     const href = match[1];
+    const sanitizedHref = sanitizeHref(href);
 
     // Skip external links, anchors, mailto, tel, javascript
     if (href.startsWith('http://') ||
@@ -50,6 +98,7 @@ function extractInternalLinks(html, filePath) {
     // Internal link
     links.push({
       href,
+      sanitizedHref,
       source: filePath
     });
   }
@@ -125,7 +174,7 @@ async function main() {
   const checkedPaths = new Set();
 
   for (const link of allLinks) {
-    const normalized = normalizeLink(link.href);
+    const normalized = normalizeLink(link.sanitizedHref || link.href);
 
     // Skip if already checked
     if (checkedPaths.has(normalized)) {
@@ -133,7 +182,7 @@ async function main() {
     }
     checkedPaths.add(normalized);
 
-    const targetPath = linkToFilePath(link.href, DIST_DIR);
+    const targetPath = linkToFilePath(link.sanitizedHref || link.href, DIST_DIR);
 
     if (!targetPath) {
       brokenLinks.push({
@@ -160,9 +209,10 @@ async function main() {
 
   // Check for missing trailing slashes
   for (const link of allLinks) {
-    if (!link.href.endsWith('/') &&
-        !path.extname(link.href) &&
-        !link.href.includes('#')) {
+    const checkHref = link.sanitizedHref || link.href;
+    if (!checkHref.endsWith('/') &&
+        !path.extname(checkHref) &&
+        !checkHref.includes('#')) {
       issues.push({
         type: 'missing-trailing-slash',
         href: link.href,

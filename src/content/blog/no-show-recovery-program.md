@@ -1,10 +1,8 @@
 ---
 title: 'No-Show Recovery Program: Reduce Gaps and Rebook Fast'
 seoTitle: 'No-Show Recovery Program: Reduce Gaps and Rebook Fast'
-description: Implement a no-show recovery program to minimize gaps in your schedule
-  and rebook patients quickly.
-seoDescription: Discover how a no-show recovery program can help reduce gaps in your
-  schedule and rebook patients effectively.
+description: Reduce no-shows and refill canceled slots with a no-show recovery program that rebooks patients fast and keeps your schedule full.
+seoDescription: Learn how a no-show recovery program helps rebook patients quickly, fill last-minute gaps, and protect revenue—without overloading your front desk.
 publishDate: '2026-02-04'
 status: scheduled
 scheduledDate: '2026-02-04'

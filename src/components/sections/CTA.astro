@@ -7,23 +7,32 @@ import { ctaButton } from '@data/navigation';
 import Button from '@/components/Button.astro';
 
 interface Props {
+  id?: string;
   title?: string;
   subtitle?: string;
+  description?: string;
   buttonText?: string;
   buttonHref?: string;
   variant?: 'default' | 'simple';
 }
 
+const props = Astro.props as Props;
+
 const {
+  id,
   title = 'Ready to Fill Every Appointment Slot?',
-  subtitle = 'Book a discovery call to see how My Business Care Team can capture the revenue you\'re leaving on the table.',
   buttonText = 'Book Your Discovery Call',
   buttonHref = ctaButton.href,
   variant = 'default'
-} = Astro.props;
+} = props;
+
+const subtitle =
+  props.subtitle ??
+  props.description ??
+  "Book a discovery call to see how My Business Care Team can capture the revenue you're leaving on the table.";
 ---
 
-<section class={`cta-section ${variant}`}>
+<section id={id} class={`cta-section ${variant}`}>
   <div class="cta-content">
     <h2>{title}</h2>
     <p>{subtitle}</p>
