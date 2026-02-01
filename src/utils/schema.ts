@@ -51,7 +51,7 @@ export function generateOrganizationSchema() {
     logo: `${company.site.url}/images/logo.webp`,
     description: company.description,
     foundingDate: '2018',
-    email: company.email,
+    // Email omitted - contact form used instead
     address: {
       '@type': 'PostalAddress',
       streetAddress: '1140 Hammond Drive',
