@@ -7,6 +7,7 @@ import rehypeExternalLinks from 'rehype-external-links';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { execSync } from 'child_process';
 
 // Get non-published blog post slugs at build time
 function getNonPublishedSlugs() {
@@ -48,11 +49,167 @@ function getBlogLastModDates() {
   return dateMap;
 }
 
+// Check if a date is within the last N days (likely a "build date" rather than meaningful content update)
+function isRecentDate(dateStr, daysThreshold = 7) {
+  const date = new Date(dateStr);
+  const now = new Date();
+  const diffDays = (now - date) / (1000 * 60 * 60 * 24);
+  return diffDays < daysThreshold;
+}
+
+// Get git last commit date for a file
+// Returns null if the date is too recent (likely just a build/deploy, not content change)
+function getGitLastModDate(filePath, skipRecentDates = true) {
+  try {
+    const result = execSync(`git log -1 --format=%cI -- "${filePath}"`, {
+      encoding: 'utf8',
+      stdio: ['pipe', 'pipe', 'pipe']
+    }).trim();
+    if (result) {
+      const dateStr = result.split('T')[0];
+      // Skip dates that are too recent - they likely represent build/deploy times, not content updates
+      if (skipRecentDates && isRecentDate(dateStr)) {
+        return null;
+      }
+      return dateStr;
+    }
+  } catch (e) {
+    // Git command failed
+  }
+
+  return null;
+}
+
+// Build a map of page URLs to their lastmod dates based on source files
+function getPageLastModDates() {
+  const dateMap = {};
+  const baseDir = process.cwd();
+
+  // Map data files to their URL patterns
+  const dataFileMapping = {
+    'src/data/solutions.ts': '/solutions/',
+    'src/data/industries.ts': '/industries/',
+    'src/data/competitors.ts': '/compare/',
+    'src/data/enterprise.ts': '/enterprise/',
+    'src/data/case-studies.ts': '/case-studies/',
+    'src/data/glossary.ts': '/glossary/',
+    'src/data/faq.ts': '/faq/',
+    'src/data/pricing.ts': '/pricing/',
+  };
+
+  // Get dates for data-driven pages
+  for (const [dataFile, urlPattern] of Object.entries(dataFileMapping)) {
+    const filePath = path.join(baseDir, dataFile);
+    if (fs.existsSync(filePath)) {
+      const lastMod = getGitLastModDate(filePath);
+      if (lastMod) {
+        dateMap[urlPattern] = lastMod;
+      }
+    }
+  }
+
+  // Map specific page files to their URLs
+  const pageFileMapping = {
+    'src/pages/index.astro': '/',
+    'src/pages/how-it-works.astro': '/how-it-works/',
+    'src/pages/pricing.astro': '/pricing/',
+    'src/pages/contact.astro': '/contact/',
+    'src/pages/about/index.astro': '/about/',
+    'src/pages/careers.astro': '/careers/',
+    'src/pages/privacy-policy.astro': '/privacy-policy/',
+    'src/pages/terms.astro': '/terms/',
+    'src/pages/hipaa-compliance.astro': '/hipaa-compliance/',
+    'src/pages/gdpr.astro': '/gdpr/',
+    'src/pages/resources/index.astro': '/resources/',
+    'src/pages/resources/podcast.astro': '/resources/podcast/',
+    'src/pages/resources/book.astro': '/resources/book/',
+    'src/pages/resources/roi-calculator.astro': '/resources/roi-calculator/',
+    'src/pages/blog/index.astro': '/blog/',
+    'src/pages/compare/build-vs-buy.astro': '/compare/build-vs-buy/',
+  };
+
+  // Get dates for static pages
+  for (const [pageFile, url] of Object.entries(pageFileMapping)) {
+    const filePath = path.join(baseDir, pageFile);
+    if (fs.existsSync(filePath)) {
+      const lastMod = getGitLastModDate(filePath);
+      if (lastMod) {
+        dateMap[url] = lastMod;
+      }
+    }
+  }
+
+  return dateMap;
+}
+
+// Section-specific lastmod dates for SEO
+// These represent approximate content freshness by section type
+const sectionLastModDates = {
+  '/solutions/': '2025-11-15',       // Core product pages
+  '/industries/': '2025-11-20',      // Industry-specific pages
+  '/compare/': '2025-12-01',         // Comparison pages
+  '/enterprise/': '2025-11-10',      // Enterprise solutions
+  '/case-studies/': '2025-10-15',    // Case study content
+  '/glossary/': '2025-09-01',        // Reference content (less frequently updated)
+  '/resources/': '2025-10-01',       // Resource hub
+  '/faq/': '2025-11-01',             // FAQ content
+  '/about/': '2025-08-15',           // Company info (stable)
+  '/contact/': '2025-08-15',         // Contact info (stable)
+  '/pricing/': '2025-12-15',         // Pricing (may update periodically)
+  '/careers/': '2025-11-01',         // Careers page
+  '/how-it-works/': '2025-10-20',    // How it works page
+  '/privacy-policy/': '2025-07-01',  // Legal pages (rarely change)
+  '/terms/': '2025-07-01',           // Legal pages
+  '/hipaa-compliance/': '2025-06-15',// Compliance pages
+  '/gdpr/': '2025-06-15',            // Compliance pages
+  '/sitemap/': '2025-12-01',         // HTML sitemap
+  '/blog/category/': '2025-12-20',   // Category pages
+  '/blog/tag/': '2025-12-20',        // Tag pages
+  '/blog/archive/': '2025-12-25',    // Archive pages
+  '/blog/': '2025-12-28',            // Blog index
+  '/author/': '2025-10-01',          // Author pages
+  '/': '2025-12-01',                 // Homepage
+};
+
+// Helper to find the best lastmod for a URL
+function findLastModForUrl(url, pageLastModDates) {
+  const urlPath = url.replace('https://mybcat.com', '');
+
+  // First, check for git-based dates that are NOT recent (meaningful content updates)
+  if (pageLastModDates[urlPath]) {
+    return pageLastModDates[urlPath];
+  }
+
+  // Check for pattern matches from git dates
+  for (const [pattern, date] of Object.entries(pageLastModDates)) {
+    if (pattern !== '/' && urlPath.startsWith(pattern)) {
+      return date;
+    }
+  }
+
+  // Use section-specific fallback dates for varied lastmod across sitemap
+  // Check specific paths first (longer patterns), then shorter ones
+  const sortedPatterns = Object.keys(sectionLastModDates).sort((a, b) => b.length - a.length);
+  for (const pattern of sortedPatterns) {
+    if (urlPath === pattern || (pattern !== '/' && urlPath.startsWith(pattern))) {
+      return sectionLastModDates[pattern];
+    }
+  }
+
+  // Homepage exact match
+  if (urlPath === '/') {
+    return sectionLastModDates['/'];
+  }
+
+  return null;
+}
+
 const nonPublishedSlugs = getNonPublishedSlugs();
 const blogLastModDates = getBlogLastModDates();
+const pageLastModDates = getPageLastModDates();
 
-// Default lastmod date for static pages (can be updated when pages change)
-const defaultLastMod = new Date().toISOString().split('T')[0];
+// Default lastmod only used as absolute fallback
+const defaultLastMod = '2025-01-01';
 
 // https://astro.build/config
 export default defineConfig({
@@ -82,10 +239,18 @@ export default defineConfig({
       changefreq: 'weekly',
       priority: 0.7,
       serialize: (item) => {
-        // Determine lastmod date
+        // Determine lastmod date from multiple sources
         let lastmod = defaultLastMod;
+
+        // Check blog posts first (use publishDate)
         if (blogLastModDates[item.url]) {
           lastmod = blogLastModDates[item.url];
+        } else {
+          // Try to find lastmod from page/data file git history
+          const pageLastMod = findLastModForUrl(item.url, pageLastModDates);
+          if (pageLastMod) {
+            lastmod = pageLastMod;
+          }
         }
 
         // Homepage highest priority
