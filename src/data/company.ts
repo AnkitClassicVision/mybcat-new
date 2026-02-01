@@ -10,8 +10,8 @@ export const company = {
   description: 'We answer your overflow calls and book appointments directly into your EHR—so your staff can focus on patients, not phones.',
 
   // Contact information
-  phone: '',
-  email: '', // Removed - use contact form instead
+  phone: '+1-678-855-6130',
+  email: 'hello@mybcat.com',
 
   // Address (Headquarters)
   address: {

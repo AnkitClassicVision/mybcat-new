@@ -97,7 +97,8 @@ export function generateOrganizationSchema() {
     logo: `${company.site.url}/images/logo.webp`,
     description: company.description,
     foundingDate: '2018',
-    // Email omitted - contact form used instead
+    telephone: company.phone,
+    email: company.email,
     address: {
       '@type': 'PostalAddress',
       streetAddress: company.address.street,
@@ -114,6 +115,8 @@ export function generateOrganizationSchema() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',
+      telephone: company.phone,
+      email: company.email,
       url: `${company.site.url}/contact/`,
       availableLanguage: ['English', 'Spanish']
     },
