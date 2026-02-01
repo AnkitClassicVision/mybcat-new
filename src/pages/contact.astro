@@ -1,13 +1,15 @@
 ---
 /**
  * Contact Page
- * HubSpot contact form
+ * HubSpot contact form with Organization schema for local search visibility
  */
 import PageLayout from '@/layouts/PageLayout.astro';
 import Card from '@/components/Card.astro';
 import { company } from '@data/company';
-// ProfessionalService schema removed - uses local/geo signals inappropriate for national B2B
-// Breadcrumb schema is handled by PageLayout
+import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
+// Organization schema added to contact page per schema-rules.json exception
+// PostalAddress allowed on /contact/ to improve local search visibility
+// while maintaining enterprise B2B positioning (not LocalBusiness)
 ---
 
 <PageLayout
@@ -27,6 +29,8 @@ import { company } from '@data/company';
   <link rel="preconnect" href="https://js.hscta.net" slot="head" />
   <link rel="dns-prefetch" href="https://js.hsforms.net" slot="head" />
   <link rel="dns-prefetch" href="https://forms.hsforms.com" slot="head" />
+  <!-- Organization schema with PostalAddress for local search visibility -->
+  <script type="application/ld+json" set:html={serializeSchema(generateOrganizationSchema())} slot="head" />
   <div class="contact-page">
     <div class="contact-grid">
       <!-- Contact Form -->

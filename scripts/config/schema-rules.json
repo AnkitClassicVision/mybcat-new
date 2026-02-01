@@ -6,7 +6,7 @@
 
   "allowed": {
     "Organization": {
-      "pages": ["/"],
+      "pages": ["/", "/contact/"],
       "required": true,
       "properties": ["name", "url", "logo", "contactPoint"]
     },

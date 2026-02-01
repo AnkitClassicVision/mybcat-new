@@ -54,7 +54,7 @@ export function generateOrganizationSchema() {
     // Email omitted - contact form used instead
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '1140 Hammond Drive',
+      streetAddress: company.address.street,
       addressLocality: company.address.city,
       addressRegion: company.address.state,
       postalCode: company.address.zip,

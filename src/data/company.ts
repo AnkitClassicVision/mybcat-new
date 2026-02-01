@@ -13,9 +13,9 @@ export const company = {
   phone: '',
   email: '', // Removed - use contact form instead
 
-  // Address
+  // Address (Headquarters)
   address: {
-    street: '',
+    street: '1140 Hammond Drive',
     city: 'Marietta',
     state: 'GA',
     zip: '30060',
