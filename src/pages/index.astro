@@ -12,21 +12,9 @@ import ProcessSteps from '@/components/sections/ProcessSteps.astro';
 import FAQ from '@/components/sections/FAQ.astro';
 import CTA from '@/components/sections/CTA.astro';
 import LogoMarquee from '@/components/sections/LogoMarquee.astro';
-// BaseLayout handles Organization/WebSite schemas for homepage
-// AggregateRating schema added here to support testimonials social proof
-import { generateAggregateRatingSchema, serializeSchema } from '@utils/schema';
+// Schema imports removed - BaseLayout handles Organization/WebSite schemas for homepage
 import { testimonials } from '@data/testimonials';
 import { getFAQsByCategory } from '@data/faq';
-
-// Generate AggregateRating schema from testimonials data
-const aggregateRatingSchema = generateAggregateRatingSchema({
-  ratingValue: 4.9,
-  ratingCount: 70, // "70+ Healthcare Professionals"
-  reviews: testimonials.slice(0, 6).map(t => ({
-    author: t.author,
-    reviewBody: t.quote
-  }))
-});
 
 // Process steps
 const processSteps = [
@@ -78,8 +66,6 @@ const clientLogos = [
   lcpImage="/videos/final-optimized-landscape.webp"
 >
   <!-- Organization + WebSite schemas are added by BaseLayout for homepage -->
-  <!-- AggregateRating schema for "70+ Healthcare Professionals" social proof -->
-  <script slot="head" type="application/ld+json" set:html={serializeSchema(aggregateRatingSchema)} />
 
   <main id="main-content" class="homepage">
     <!-- Hero Section with Video -->
