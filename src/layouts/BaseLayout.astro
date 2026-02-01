@@ -96,6 +96,10 @@ const isHomepage = pathname === '/';
 
   <link rel="canonical" href={canonicalUrl}>
 
+  <!-- Hreflang - US English site with x-default fallback for international SEO -->
+  <link rel="alternate" hreflang="en-US" href={canonicalUrl}>
+  <link rel="alternate" hreflang="x-default" href={canonicalUrl}>
+
   <!-- Open Graph -->
   <meta property="og:type" content={ogType}>
   <meta property="og:url" content={canonicalUrl}>
