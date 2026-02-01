@@ -363,11 +363,14 @@ export function generateHowToSchema(meta: HowToMeta) {
 
 /**
  * Article schema for blog posts and case studies
+ * Publisher is expanded inline to ensure search engines can resolve it
+ * even when crawling individual blog posts without the homepage
  */
 export function generateArticleSchema(meta: ArticleMeta) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
+    '@id': `${meta.url}#article`,
     headline: meta.headline,
     description: meta.description,
     image: meta.image.startsWith('http') ? meta.image : `${company.site.url}${meta.image}`,
@@ -377,11 +380,19 @@ export function generateArticleSchema(meta: ArticleMeta) {
       name: meta.author,
       ...(meta.authorUrl && { url: meta.authorUrl }),
       worksFor: {
-        '@id': `${company.site.url}/#organization`
+        '@type': 'Organization',
+        '@id': `${company.site.url}/#organization`,
+        name: company.name
       }
     },
     publisher: {
-      '@id': `${company.site.url}/#organization`
+      '@type': 'Organization',
+      '@id': `${company.site.url}/#organization`,
+      name: company.name,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${company.site.url}/images/logo.webp`
+      }
     },
     datePublished: meta.datePublished,
     dateModified: meta.dateModified || meta.datePublished,
@@ -391,7 +402,15 @@ export function generateArticleSchema(meta: ArticleMeta) {
     },
     ...(meta.wordCount && { wordCount: meta.wordCount }),
     ...(meta.section && { articleSection: meta.section }),
-    ...(meta.keywords && { keywords: meta.keywords.join(', ') })
+    ...(meta.keywords && { keywords: meta.keywords.join(', ') }),
+    isPartOf: {
+      '@type': 'Blog',
+      '@id': `${company.site.url}/blog/#blog`,
+      name: `${company.name} Blog`,
+      publisher: {
+        '@id': `${company.site.url}/#organization`
+      }
+    }
   };
 }
 
