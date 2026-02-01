@@ -1,0 +1,360 @@
+---
+import Base from '@/layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths, Page } from 'astro';
+import type { CollectionEntry } from 'astro:content';
+
+// Use centralized visibility logic from utils
+import { isPostVisible } from '@utils/blog';
+
+export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
+  // Get all visible blog posts, sorted by date
+  const posts = (await getCollection('blog'))
+    .filter(post => isPostVisible(post.data))
+    .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+
+  // Paginate with 24 posts per page
+  return paginate(posts, { pageSize: 24 });
+};
+
+interface Props {
+  page: Page<CollectionEntry<'blog'>>;
+}
+
+const { page } = Astro.props;
+
+// Build pagination URLs
+const baseUrl = 'https://mybcat.com/blog/archive';
+const currentUrl = page.currentPage === 1 ? `${baseUrl}/` : `${baseUrl}/${page.currentPage}/`;
+const prevUrl = page.url.prev ? (page.currentPage === 2 ? `${baseUrl}/` : `${baseUrl}/${page.currentPage - 1}/`) : null;
+const nextUrl = page.url.next ? `${baseUrl}/${page.currentPage + 1}/` : null;
+
+// Build page numbers array for pagination display
+type PageItem = { type: 'page'; num: number; url: string; current: boolean } | { type: 'ellipsis' };
+const pageItems: PageItem[] = [];
+
+for (let i = 1; i <= page.lastPage; i++) {
+  const showPage = i === 1 || i === page.lastPage || Math.abs(i - page.currentPage) <= 1;
+
+  if (showPage) {
+    pageItems.push({
+      type: 'page',
+      num: i,
+      url: i === 1 ? '/blog/archive/' : `/blog/archive/${i}/`,
+      current: i === page.currentPage
+    });
+  } else if (pageItems.length > 0 && pageItems[pageItems.length - 1].type !== 'ellipsis') {
+    pageItems.push({ type: 'ellipsis' });
+  }
+}
+---
+
+<Base
+  title={page.currentPage === 1 ? "All Blog Posts | MyBCAT" : `All Blog Posts - Page ${page.currentPage} | MyBCAT`}
+  description={page.currentPage === 1
+    ? "Browse all healthcare practice insights and articles from MyBCAT."
+    : `Browse healthcare practice insights - page ${page.currentPage} of ${page.lastPage}.`}
+  canonical={currentUrl}
+>
+  <Fragment slot="head">
+    {prevUrl && <link rel="prev" href={prevUrl} />}
+    {nextUrl && <link rel="next" href={nextUrl} />}
+  </Fragment>
+
+  <main id="main-content" class="archive-page">
+    <header class="archive-header">
+      <a href="/blog/" class="back-link">&larr; Back to Blog</a>
+      <h1>All Blog Posts</h1>
+      <p>{page.total} articles on healthcare practice growth</p>
+      {page.lastPage > 1 && (
+        <p class="page-indicator">Page {page.currentPage} of {page.lastPage}</p>
+      )}
+    </header>
+
+    <div class="archive-container">
+      <div class="archive-list">
+        {page.data.map((post) => {
+          const categorySlug = post.data.category.toLowerCase().replace(/\s+/g, '-');
+          return (
+            <article class="archive-item">
+              <div class="archive-link-wrapper">
+                <div class="archive-meta">
+                  <a href={`/blog/category/${categorySlug}/`} class="archive-category">{post.data.category}</a>
+                  <span class="archive-date">{post.data.publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+                </div>
+                <a href={`/blog/${post.slug}/`} class="archive-link">
+                  <h2 class="archive-title">{post.data.title}</h2>
+                  <p class="archive-description">{post.data.description}</p>
+                </a>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+
+      {/* Pagination Navigation */}
+      {page.lastPage > 1 && (
+        <nav class="pagination" aria-label="Archive pagination">
+          <div class="pagination-links">
+            {prevUrl ? (
+              <a href={prevUrl} class="pagination-link prev" rel="prev">
+                <span class="pagination-arrow">&larr;</span>
+                <span>Previous</span>
+              </a>
+            ) : (
+              <span class="pagination-link prev disabled">
+                <span class="pagination-arrow">&larr;</span>
+                <span>Previous</span>
+              </span>
+            )}
+
+            <div class="pagination-numbers">
+              {pageItems.map((item, idx) => (
+                item.type === 'ellipsis' ? (
+                  <span class="pagination-ellipsis" key={`ellipsis-${idx}`}>...</span>
+                ) : item.current ? (
+                  <span class="pagination-number current" aria-current="page">{item.num}</span>
+                ) : (
+                  <a href={item.url} class="pagination-number">{item.num}</a>
+                )
+              ))}
+            </div>
+
+            {nextUrl ? (
+              <a href={nextUrl} class="pagination-link next" rel="next">
+                <span>Next</span>
+                <span class="pagination-arrow">&rarr;</span>
+              </a>
+            ) : (
+              <span class="pagination-link next disabled">
+                <span>Next</span>
+                <span class="pagination-arrow">&rarr;</span>
+              </span>
+            )}
+          </div>
+        </nav>
+      )}
+    </div>
+  </main>
+</Base>
+
+<style>
+  .archive-page {
+    padding-top: 80px;
+  }
+
+  .archive-header {
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+    padding: 40px 24px 60px;
+    text-align: center;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-bottom: 24px;
+    color: var(--oceanic-teal);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .archive-header h1 {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .archive-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  .page-indicator {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+  }
+
+  .archive-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  .archive-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .archive-item {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    transition: all 0.2s;
+  }
+
+  .archive-item:hover {
+    border-color: rgba(212, 145, 94, 0.3);
+    box-shadow: var(--shadow-md);
+  }
+
+  .archive-link-wrapper {
+    padding: 20px 24px;
+  }
+
+  .archive-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .archive-meta {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
+
+  .archive-category {
+    background: var(--glass-copper);
+    color: var(--copper-700);
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .archive-category:hover {
+    background: var(--copper-700);
+    color: white;
+  }
+
+  .archive-date {
+    color: var(--text-muted);
+  }
+
+  .archive-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 6px;
+    line-height: 1.4;
+  }
+
+  .archive-description {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Pagination Styles */
+  .pagination {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  .pagination-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .pagination-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--navy-900);
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+
+  .pagination-link:hover:not(.disabled) {
+    background: var(--navy-900);
+    color: white;
+    border-color: var(--navy-900);
+  }
+
+  .pagination-link.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  .pagination-arrow {
+    font-size: 16px;
+  }
+
+  .pagination-numbers {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  .pagination-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 36px;
+    height: 36px;
+    padding: 0 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--navy-900);
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+
+  .pagination-number:hover:not(.current) {
+    background: var(--glass-navy);
+  }
+
+  .pagination-number.current {
+    background: var(--oceanic-teal);
+    color: white;
+  }
+
+  .pagination-ellipsis {
+    padding: 0 8px;
+    color: var(--text-muted);
+  }
+
+  @media (max-width: 640px) {
+    .pagination-links {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .pagination-numbers {
+      order: -1;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+
+    .pagination-link {
+      flex: 1;
+      justify-content: center;
+    }
+  }
+</style>
