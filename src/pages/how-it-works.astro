@@ -10,7 +10,7 @@ import Stats from '@/components/sections/Stats.astro';
 import FAQ from '@/components/sections/FAQ.astro';
 import CTA from '@/components/sections/CTA.astro';
 import { faqs, getFAQsByCategory } from '@data/faq';
-import { generateServiceSchema, generateFAQSchema, combineSchemas, serializeSchema } from '@/utils/schema';
+import { generateServiceSchema, generateFAQSchema, generateHowToSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
 
 const pageTitle = 'How It Works';
@@ -28,7 +28,31 @@ const serviceSchema = generateServiceSchema({
   serviceType: 'Healthcare Practice Onboarding'
 });
 const faqSchema = generateFAQSchema(onboardingFaqs);
-const combinedSchema = combineSchemas(serviceSchema, faqSchema);
+const howToSchema = generateHowToSchema({
+  name: 'How to Onboard Your Healthcare Practice with MyBCAT',
+  description: 'Step-by-step guide to implementing MyBCAT patient intake services for your healthcare practice. From discovery call to full integration in 1-4 weeks.',
+  totalTime: 'P4W', // 4 weeks max
+  url: pageUrl,
+  steps: [
+    {
+      name: 'Discovery Call',
+      text: 'Schedule a 30-minute call to discuss your practice workflows, EHR/PM system, scheduling rules, phone handling protocols, and growth goals.'
+    },
+    {
+      name: 'Integration Setup',
+      text: 'We set up EHR/PM access, configure phone system integration, build custom protocol documentation, train team members on your workflows, and test all integrations.'
+    },
+    {
+      name: 'Soft Launch',
+      text: 'We begin taking overflow and test calls with daily check-ins, refine processes based on real scenarios, and build familiarity with your patient base.'
+    },
+    {
+      name: 'Full Go-Live',
+      text: 'We become your fully operational patient intake team, handling all inbound calls, appointment scheduling, recall campaigns, with dashboard access and ongoing optimization.'
+    }
+  ]
+});
+const combinedSchema = combineSchemas(serviceSchema, faqSchema, howToSchema);
 
 // Process steps with detailed info
 const processSteps = [

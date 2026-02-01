@@ -44,6 +44,26 @@ interface ReviewItem {
   datePublished?: string;
 }
 
+interface HowToStep {
+  name: string;
+  text: string;
+  url?: string;
+  image?: string;
+}
+
+interface HowToMeta {
+  name: string;
+  description: string;
+  totalTime?: string; // ISO 8601 duration format, e.g., "P1W" for 1 week
+  estimatedCost?: {
+    value: string;
+    currency: string;
+  };
+  steps: HowToStep[];
+  image?: string;
+  url?: string;
+}
+
 interface AggregateRatingMeta {
   ratingValue: number;
   bestRating?: number;
@@ -306,6 +326,37 @@ export function generateFAQSchema(items: FAQItem[]) {
         '@type': 'Answer',
         text: item.answer
       }
+    }))
+  };
+}
+
+/**
+ * HowTo schema for step-by-step process pages
+ * Used for onboarding flows, implementation guides, etc.
+ */
+export function generateHowToSchema(meta: HowToMeta) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: meta.name,
+    description: meta.description,
+    ...(meta.totalTime && { totalTime: meta.totalTime }),
+    ...(meta.estimatedCost && {
+      estimatedCost: {
+        '@type': 'MonetaryAmount',
+        value: meta.estimatedCost.value,
+        currency: meta.estimatedCost.currency
+      }
+    }),
+    ...(meta.image && { image: meta.image.startsWith('http') ? meta.image : `${company.site.url}${meta.image}` }),
+    ...(meta.url && { url: meta.url }),
+    step: meta.steps.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+      ...(step.url && { url: step.url }),
+      ...(step.image && { image: step.image.startsWith('http') ? step.image : `${company.site.url}${step.image}` })
     }))
   };
 }
