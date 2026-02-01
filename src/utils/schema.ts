@@ -4,6 +4,7 @@
  */
 
 import { company } from '@data/company';
+import { solutions } from '@data/solutions';
 
 // Types
 interface BreadcrumbItem {
@@ -35,6 +36,37 @@ interface ServiceMeta {
   description: string;
   url: string;
   serviceType?: string;
+}
+
+/**
+ * Generate OfferCatalog with all healthcare services
+ * Used in Organization schema to advertise services offered
+ */
+function generateServicesOfferCatalog() {
+  const serviceOffers = solutions.map(solution => ({
+    '@type': 'Offer',
+    itemOffered: {
+      '@type': 'Service',
+      '@id': `${company.site.url}/solutions/${solution.slug}/#service`,
+      name: solution.name,
+      description: solution.description,
+      serviceType: solution.serviceType,
+      provider: {
+        '@id': `${company.site.url}/#organization`
+      },
+      areaServed: {
+        '@type': 'Country',
+        name: 'United States'
+      },
+      url: `${company.site.url}/solutions/${solution.slug}/`
+    }
+  }));
+
+  return {
+    '@type': 'OfferCatalog',
+    name: 'Healthcare Operations Services',
+    itemListElement: serviceOffers
+  };
 }
 
 /**
@@ -81,7 +113,9 @@ export function generateOrganizationSchema() {
       'Patient Intake Automation',
       'HIPAA Compliant Services',
       'Healthcare Technology Integration'
-    ]
+    ],
+    // Service catalog listing all healthcare services offered
+    hasOfferCatalog: generateServicesOfferCatalog()
   };
 }
 
