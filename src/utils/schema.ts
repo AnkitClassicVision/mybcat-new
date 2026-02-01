@@ -38,6 +38,20 @@ interface ServiceMeta {
   serviceType?: string;
 }
 
+interface ReviewItem {
+  author: string;
+  reviewBody: string;
+  datePublished?: string;
+}
+
+interface AggregateRatingMeta {
+  ratingValue: number;
+  bestRating?: number;
+  worstRating?: number;
+  ratingCount: number;
+  reviews?: ReviewItem[];
+}
+
 /**
  * Generate OfferCatalog with all healthcare services
  * Used in Organization schema to advertise services offered
@@ -232,6 +246,47 @@ export function generateServiceSchema(meta: ServiceMeta) {
       }
     ]
   };
+}
+
+/**
+ * AggregateRating schema for reviews/testimonials section
+ * Supports the "70+ Healthcare Professionals" claim with structured data
+ */
+export function generateAggregateRatingSchema(meta: AggregateRatingMeta) {
+  const schema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${company.site.url}/#organization`,
+    name: company.name,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: meta.ratingValue,
+      bestRating: meta.bestRating || 5,
+      worstRating: meta.worstRating || 1,
+      ratingCount: meta.ratingCount
+    }
+  };
+
+  // Add individual reviews if provided
+  if (meta.reviews && meta.reviews.length > 0) {
+    schema.review = meta.reviews.map(review => ({
+      '@type': 'Review',
+      author: {
+        '@type': 'Person',
+        name: review.author
+      },
+      reviewBody: review.reviewBody,
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: 5,
+        bestRating: 5,
+        worstRating: 1
+      },
+      ...(review.datePublished && { datePublished: review.datePublished })
+    }));
+  }
+
+  return schema;
 }
 
 /**
