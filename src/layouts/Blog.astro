@@ -25,6 +25,11 @@ const shouldNoindex = status !== 'published';
 const pageTitle = seoTitle || title;
 const metaDescription = seoDescription || description;
 
+// Calculate reading time and word count (rough estimate: 200 words per minute)
+const content = post.body || '';
+const wordCount = content.split(/\s+/).length;
+const readingTime = Math.ceil(wordCount / 200);
+
 // Generate Article schema for SEO
 const articleUrl = `${company.site.url}/blog/${post.slug}/`;
 const articleSchema = generateArticleSchema({
@@ -35,6 +40,7 @@ const articleSchema = generateArticleSchema({
   authorUrl: author === 'Ankit Patel' ? `${company.site.url}/author/ankit-patel/` : undefined,
   datePublished: publishDate.toISOString(),
   url: articleUrl,
+  wordCount: wordCount,
   section: category,
   keywords: tags,
 });
@@ -45,11 +51,6 @@ const breadcrumbSchema = generateBreadcrumbSchema([
 ]);
 
 const schema = combineSchemas(articleSchema, breadcrumbSchema);
-
-// Calculate reading time (rough estimate: 200 words per minute)
-const content = post.body || '';
-const wordCount = content.split(/\s+/).length;
-const readingTime = Math.ceil(wordCount / 200);
 
 // Author data for header
 const authorData: Record<string, { role: string; image: string }> = {
