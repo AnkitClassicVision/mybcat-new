@@ -82,6 +82,16 @@
       "permanent": true
     },
     {
+      "source": "/services",
+      "destination": "/solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/services/",
+      "destination": "/solutions/",
+      "permanent": true
+    },
+    {
       "source": "/optometry-call-services",
       "destination": "/solutions/medical-answering-service/",
       "permanent": true
