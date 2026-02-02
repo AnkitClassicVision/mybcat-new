@@ -1,10 +1,10 @@
 ---
 title: 'Dormant Patient Reactivation: A 30-Day Playbook'
 seoTitle: 'Dormant Patient Reactivation: A Playbook for Practices'
-description: Learn how to effectively reactivate dormant patients with our proven 30-day
-  playbook, designed to boost your practice's revenue and retention.
-seoDescription: Discover a proven 30-day playbook for dormant patient reactivation to enhance
-  your practice's revenue, retention, and patient engagement.
+description: Learn how to effectively reactivate dormant patients with our proven
+  30-day playbook, designed to boost your practice's revenue and retention.
+seoDescription: Discover a proven 30-day playbook for dormant patient reactivation
+  to enhance your practice's revenue, retention, and patient engagement.
 publishDate: '2026-01-30'
 status: published
 author: Ankit Patel
@@ -18,6 +18,9 @@ tags:
 featuredImage: /images/blog/dormant-patient-reactivation.webp
 canonical: https://mybcat.com/blog/dormant-patient-reactivation/
 cluster: recall-reactivation
+relatedPosts:
+- patient-recall-service
+- patient-recall-campaign-framework
 ---
 
 ## Understanding Dormant Patients
@@ -63,6 +66,12 @@ After implementing your reactivation efforts, monitor the results closely. Track
 Reactivating dormant patients is a crucial aspect of maintaining your practice's revenue and ensuring ongoing patient care. By following this 30-day playbook, you can effectively engage these patients and encourage them to return.
 
 For more insights on optimizing patient engagement, check out our post on [5 Signs You're Ready to Scale](/blog/5-signs-youre-ready-to-scale/) or learn about [AI's Role in Patient Engagement](/blog/how-ai-is-streamlining-processes-in-eye-care/). For practices looking to enhance their recall strategies, visit our [Patient Recall Solutions](https://mybcat.com/solutions/patient-recall/) page.
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Patient Recall Service: What It Is and When You Need It](/blog/patient-recall-service/)
+- [Patient Recall Campaign Framework (2026)](/blog/patient-recall-campaign-framework/)
 
 ## Sources
 

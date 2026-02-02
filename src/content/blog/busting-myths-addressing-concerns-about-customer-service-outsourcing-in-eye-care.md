@@ -1,14 +1,22 @@
 ---
-title: "Busting myths: addressing concerns about customer service outsourcing in eye care"
-seoTitle: "Eye Care Outsourcing Myths Busted"
-description: "Optometry practices often hesitate to outsource. Learn the truth about customer service outsourcing and how it can transform your practice operations."
+title: 'Busting myths: addressing concerns about customer service outsourcing in eye
+  care'
+seoTitle: Eye Care Outsourcing Myths Busted
+description: Optometry practices often hesitate to outsource. Learn the truth about
+  customer service outsourcing and how it can transform your practice operations.
 publishDate: 2023-07-11
-status: "published"
-author: "Ankit Patel"
-category: "Virtual Staffing"
-tags: ["optometry","virtual-assistant","patient-care","outsourcing","efficiency"]
-featuredImage: "/images/blog/outsourcing-myths-eye-care.webp"
-canonical: "https://mybcat.com/blog/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care/"
+status: published
+author: Ankit Patel
+category: Virtual Staffing
+tags:
+- optometry
+- virtual-assistant
+- patient-care
+- outsourcing
+- efficiency
+featuredImage: /images/blog/outsourcing-myths-eye-care.webp
+canonical: https://mybcat.com/blog/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care/
+relatedPosts: []
 ---
 
 To be an optometrist or ophthalmologist, you need to understand the human eye. But, to run an eye care clinic, you need to understand business management. As a practice owner, you're not just a healthcare provider but also a team leader, a customer service champion, a data security guardian, and an efficiency engineer. 

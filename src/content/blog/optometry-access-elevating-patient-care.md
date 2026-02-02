@@ -1,13 +1,20 @@
 ---
-title: "Optometry Access: Elevating Patient Care"
-description: "Unlock the full potential of patient access in your optometry practice. Improve scheduling, communication, and patient satisfaction."
+title: 'Optometry Access: Elevating Patient Care'
+description: Unlock the full potential of patient access in your optometry practice.
+  Improve scheduling, communication, and patient satisfaction.
 publishDate: 2024-02-20
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/optometry-access-elevating-patient-care.webp"
-canonical: "https://mybcat.com/blog/optometry-access-elevating-patient-care/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/optometry-access-elevating-patient-care.webp
+canonical: https://mybcat.com/blog/optometry-access-elevating-patient-care/
+relatedPosts: []
 ---
 
 Unlocking the full potential of patient access and care, [eye care call support](https://mybcat.com/blog/) takes center stage, offering a tailored solution to streamline your practice and elevate the patient experience.

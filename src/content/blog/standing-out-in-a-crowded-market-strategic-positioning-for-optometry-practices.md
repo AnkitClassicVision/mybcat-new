@@ -1,14 +1,21 @@
 ---
-title: "Standing Out in a Crowded Market: Strategic Positioning for Optometry Practices"
-seoTitle: "Strategic Positioning for Optometry Practices"
-description: "In a market that can often be competitive and saturated, optometry clinics face the challenge of standing out. It is [...]"
+title: 'Standing Out in a Crowded Market: Strategic Positioning for Optometry Practices'
+seoTitle: Strategic Positioning for Optometry Practices
+description: In a market that can often be competitive and saturated, optometry clinics
+  face the challenge of standing out. It is [...]
 publishDate: 2023-10-18
-status: "published"
-author: "Ankit Patel"
-category: "Virtual Staffing"
-tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
-featuredImage: "/images/blog/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices.webp"
-canonical: "https://mybcat.com/blog/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices/"
+status: published
+author: Ankit Patel
+category: Virtual Staffing
+tags:
+- optometry
+- virtual-assistant
+- patient-care
+- scheduling
+- outsourcing
+featuredImage: /images/blog/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices.webp
+canonical: https://mybcat.com/blog/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices/
+relatedPosts: []
 ---
 
 In a market that can often be competitive and saturated, optometry clinics face the challenge of standing out. It is crucial for these clinics to differentiate themselves in a way that captures the attention of their target audience. This guide provides practical steps that optometry practices can take to not only stand out in the market but also to capture and retain loyal patients as they experience steady growth.

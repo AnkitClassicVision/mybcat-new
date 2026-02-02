@@ -1,13 +1,21 @@
 ---
-title: "Improving Optometry Practice with Call Service Support"
-description: "Efficient call service support can significantly enhance the operations of optometry practices. As the frontline of communication with patients, handling [...]"
+title: Improving Optometry Practice with Call Service Support
+description: Efficient call service support can significantly enhance the operations
+  of optometry practices. As the frontline of communication with patients, handling
+  [...]
 publishDate: 2024-04-17
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/improving-optometry-practice-with-call-service-support.webp"
-canonical: "https://mybcat.com/blog/improving-optometry-practice-with-call-service-support/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/improving-optometry-practice-with-call-service-support.webp
+canonical: https://mybcat.com/blog/improving-optometry-practice-with-call-service-support/
+relatedPosts: []
 ---
 
 Efficient call service support can significantly enhance the operations of optometry practices. As the frontline of communication with patients, handling phone calls plays a crucial role in shaping the patient experience and ultimately impacting the practice's success. As a [managed healthcare intake partner](https://mybcat.com/industries/optometry/), we delve into how optometrists can improve their practice by leveraging professional call service support.

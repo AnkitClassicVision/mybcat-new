@@ -1,13 +1,20 @@
 ---
-title: "Scaling up operations to grow your eye care clinic"
-description: "Every eye care clinic owner looks to grow their practice. Learn operational strategies that scale efficiently while maintaining quality patient care."
+title: Scaling up operations to grow your eye care clinic
+description: Every eye care clinic owner looks to grow their practice. Learn operational
+  strategies that scale efficiently while maintaining quality patient care.
 publishDate: 2023-09-12
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/scaling-up-operations-to-grow-your-eye-care-clinic.webp"
-canonical: "https://mybcat.com/blog/scaling-up-operations-to-grow-your-eye-care-clinic/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- growth
+featuredImage: /images/blog/scaling-up-operations-to-grow-your-eye-care-clinic.webp
+canonical: https://mybcat.com/blog/scaling-up-operations-to-grow-your-eye-care-clinic/
+relatedPosts: []
 ---
 
 Every eye care clinic owner is looking forward to it – the moment when their practice really starts to take off. 

@@ -1,16 +1,29 @@
 ---
-title: "Veterinary Emergency Triage: Phone Protocols That Save Lives and Staff Time"
-seoTitle: "Veterinary Emergency Triage Protocols for Vet Groups"
-description: "A complete phone triage protocol framework for multi-location veterinary groups. Includes decision trees for 15 common scenarios, staff training guidelines, and after-hours integration."
-seoDescription: "Phone triage protocols for veterinary groups. Decision trees for 15 scenarios, 3-tier framework, and staff training. Reduce DVM burnout and improve outcomes."
+title: 'Veterinary Emergency Triage: Phone Protocols That Save Lives and Staff Time'
+seoTitle: Veterinary Emergency Triage Protocols for Vet Groups
+description: A complete phone triage protocol framework for multi-location veterinary
+  groups. Includes decision trees for 15 common scenarios, staff training guidelines,
+  and after-hours integration.
+seoDescription: Phone triage protocols for veterinary groups. Decision trees for 15
+  scenarios, 3-tier framework, and staff training. Reduce DVM burnout and improve
+  outcomes.
 publishDate: 2026-01-09
-status: "published"
-author: "Ankit Patel"
-category: "Operations"
-tags: ["veterinary", "emergency-triage", "phone-protocols", "multi-location", "after-hours", "staff-training"]
-featuredImage: "/images/blog/veterinary-emergency-triage-protocols.webp"
-canonical: "https://mybcat.com/blog/veterinary-emergency-triage-protocols/"
-relatedPosts: ["multi-location-healthcare-intake-guide", "after-hours-veterinary-call-management", "healthcare-front-desk-staffing-crisis-2025"]
+status: published
+author: Ankit Patel
+category: Operations
+tags:
+- veterinary
+- emergency-triage
+- phone-protocols
+- multi-location
+- after-hours
+- staff-training
+featuredImage: /images/blog/veterinary-emergency-triage-protocols.webp
+canonical: https://mybcat.com/blog/veterinary-emergency-triage-protocols/
+relatedPosts:
+- multi-location-healthcare-intake-guide
+- after-hours-veterinary-call-management
+- healthcare-front-desk-staffing-crisis-2025
 ---
 
 A panicked client calls at 2 PM about a dog that "isn't acting right." Is it an emergency requiring immediate action, an urgent situation needing same-day attention, or a routine concern for the next available appointment? For multi-location veterinary groups, getting this decision wrong has consequences: for the patient, the client relationship, and your staff's well-being.

@@ -1,13 +1,19 @@
 ---
-title: "Managing Online Reputations in Optometry"
-description: "Online reviews and ratings hold tremendous influence over an optometry practice's reputation and ability to attract new patients. Over 72% [...]"
+title: Managing Online Reputations in Optometry
+description: Online reviews and ratings hold tremendous influence over an optometry
+  practice's reputation and ability to attract new patients. Over 72% [...]
 publishDate: 2023-10-21
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","scheduling","growth","efficiency"]
-featuredImage: "/images/blog/online-reputation-management.webp"
-canonical: "https://mybcat.com/blog/taming-the-review-beast-managing-online-reputations-in-optometry/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- scheduling
+- growth
+- efficiency
+featuredImage: /images/blog/online-reputation-management.webp
+canonical: https://mybcat.com/blog/taming-the-review-beast-managing-online-reputations-in-optometry/
+relatedPosts: []
 ---
 
 Online reviews and ratings hold tremendous influence over an optometry practice's reputation and ability to attract new patients.[ Over 72% of consumers consult reviews](https://patientengagementhit.com/news/72-of-patients-view-online-reviews-when-selecting-a-new-provider) before choosing a healthcare provider, which means optometry reputation management can have a significant impact on the success of your practice. This makes proactively managing your online reputation critical for any optometry office looking to grow. The good news is that with some focused effort, you can turn online reviews into valuable feedback for improving your practice while showcasing your commitment to patients. This article provides actionable tips for monitoring review sites, encouraging positive feedback, gracefully handling negative patient reviews, and implementing changes that strengthen your operations and brand. By following this advice, you can take control of your online reputation and use it as a tool for practice success.

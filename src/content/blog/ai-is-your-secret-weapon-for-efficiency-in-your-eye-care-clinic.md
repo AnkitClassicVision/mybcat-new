@@ -1,13 +1,20 @@
 ---
-title: "AI: Your Secret Weapon for Eye Care Efficiency"
-description: "How eye care practices are actually using AI today to save time, reduce admin headaches, and see more patients—plus what's coming next."
+title: 'AI: Your Secret Weapon for Eye Care Efficiency'
+description: How eye care practices are actually using AI today to save time, reduce
+  admin headaches, and see more patients—plus what's coming next.
 publishDate: 2023-09-20
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","growth","efficiency"]
-featuredImage: "/images/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic.webp"
-canonical: "https://mybcat.com/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- growth
+- efficiency
+featuredImage: /images/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic.webp
+canonical: https://mybcat.com/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic/
+relatedPosts: []
 ---
 
 I'll admit it—when I first heard people talking about AI in healthcare, my eyes glazed over a bit. It felt like one of those buzzwords that consultants throw around at conferences but nobody actually implements. Then I watched a friend's optometry practice go from struggling with no-shows and insurance headaches to running like a well-oiled machine, largely thanks to a few AI tools they'd quietly adopted. That got my attention.

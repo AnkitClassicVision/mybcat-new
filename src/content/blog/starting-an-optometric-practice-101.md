@@ -1,13 +1,20 @@
 ---
-title: "Starting an Optometric Practice 101"
-description: "Starting an optometric practice is a blend of excitement, fear, and meticulous planning to help prepare for the unknown. For [...]"
+title: Starting an Optometric Practice 101
+description: Starting an optometric practice is a blend of excitement, fear, and meticulous
+  planning to help prepare for the unknown. For [...]
 publishDate: 2023-10-31
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/starting-an-optometric-practice-101.webp"
-canonical: "https://mybcat.com/blog/starting-an-optometric-practice-101/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- growth
+featuredImage: /images/blog/starting-an-optometric-practice-101.webp
+canonical: https://mybcat.com/blog/starting-an-optometric-practice-101/
+relatedPosts: []
 ---
 
 Starting an optometric practice is a blend of excitement, fear, and meticulous planning to help prepare for the unknown. For many, the goal of helping patients with their eye care is high on the list of motivations, but individually you might be motivated by the idea of shifting your career, expanding your existing practice, or merely becoming your own boss. However, regardless of your motivation, to be successful you have to figure out staff management, legal compliance, marketing and messaging, and for those planning multiple locations, [an efficient patient intake system](https://mybcat.com/blog/multi-location-healthcare-intake-guide/), and a system that allows for continual improvement. This comprehensive guide aims to help you understand the requirements and take action on establishing a new practice. Each section of this guide goes into critical aspects, offering a blend of foundational knowledge and actionable insights to equip aspiring optometrists with a framework for their venture into practice ownership.

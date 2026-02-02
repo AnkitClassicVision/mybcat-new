@@ -1,14 +1,21 @@
 ---
-title: "How outsourced customer service boosts patient satisfaction in optometry practices"
-seoTitle: "Outsourcing Boosts Patient Satisfaction in Optometry"
-description: "Imagine an office of focused staff working diligently and providing friendly patient care. The hectic pace of administrative tasks like [...]"
+title: How outsourced customer service boosts patient satisfaction in optometry practices
+seoTitle: Outsourcing Boosts Patient Satisfaction in Optometry
+description: Imagine an office of focused staff working diligently and providing friendly
+  patient care. The hectic pace of administrative tasks like [...]
 publishDate: 2023-07-14
-status: "published"
-author: "Ankit Patel"
-category: "Virtual Staffing"
-tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
-featuredImage: "/images/blog/outsourced-customer-service.webp"
-canonical: "https://mybcat.com/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices/"
+status: published
+author: Ankit Patel
+category: Virtual Staffing
+tags:
+- optometry
+- virtual-assistant
+- patient-care
+- scheduling
+- outsourcing
+featuredImage: /images/blog/outsourced-customer-service.webp
+canonical: https://mybcat.com/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices/
+relatedPosts: []
 ---
 
 Imagine an office of focused staff working diligently and providing friendly patient care. The hectic pace of administrative tasks like managing patient recall, medical billing, and appointment scheduling—including [preventing costly missed calls](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) isn't part of this scene. It's not that these tasks have disappeared—they're simply happening elsewhere, out of sight and out of mind. The reality is that the repetitive admin work so familiar to clinic operations does not have to take place within the office walls.

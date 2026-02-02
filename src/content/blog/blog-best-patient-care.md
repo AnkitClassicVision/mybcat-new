@@ -1,14 +1,23 @@
 ---
-title: "How to Assess Your Staff to Ensure the Best Patient Care"
-description: "Your staff is the first thing patients judge. Here's how to actually measure if they're helping or hurting your practice."
+title: How to Assess Your Staff to Ensure the Best Patient Care
+description: Your staff is the first thing patients judge. Here's how to actually
+  measure if they're helping or hurting your practice.
 publishDate: 2025-01-30
-status: "published"
-author: "Ankit Patel"
-category: "Virtual Staffing"
-tags: ["optometry","patient-care","scheduling","growth","efficiency"]
-featuredImage: "/images/blog/coaching-training-and-help-with-business-people-i-2023-11-27-04-49-17-utc-scaled.webp"
-canonical: "https://mybcat.com/blog/blog-best-patient-care/"
-relatedPosts: ["blog-spanish-speaking-agents", "blog-streamline-practice-remote-staffing", "effective-hiring-and-training-strategies-for-optometrists"]
+status: published
+author: Ankit Patel
+category: Virtual Staffing
+tags:
+- optometry
+- patient-care
+- scheduling
+- growth
+- efficiency
+featuredImage: /images/blog/coaching-training-and-help-with-business-people-i-2023-11-27-04-49-17-utc-scaled.webp
+canonical: https://mybcat.com/blog/blog-best-patient-care/
+relatedPosts:
+- blog-spanish-speaking-agents
+- blog-streamline-practice-remote-staffing
+- effective-hiring-and-training-strategies-for-optometrists
 ---
 
 I'm going to tell you something that might sting: your patients probably can't tell if you're a great clinician.

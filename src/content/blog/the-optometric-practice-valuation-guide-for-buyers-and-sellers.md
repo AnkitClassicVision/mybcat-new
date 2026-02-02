@@ -1,13 +1,20 @@
 ---
-title: "Optometric Practice Valuation Guide"
-description: "Understanding optometry practice valuation is critical for buyers and sellers. Learn key factors that determine fair market value and get optimal terms."
+title: Optometric Practice Valuation Guide
+description: Understanding optometry practice valuation is critical for buyers and
+  sellers. Learn key factors that determine fair market value and get optimal terms.
 publishDate: 2023-10-04
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/practice-valuation-guide.webp"
-canonical: "https://mybcat.com/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- growth
+featuredImage: /images/blog/practice-valuation-guide.webp
+canonical: https://mybcat.com/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/
+relatedPosts: []
 ---
 
 Figuring out how much an eye care business is worth can be complicated. There are lots of ways to look at the value, and different buyers and sellers will have their own ideas about what makes a practice valuable. In this article, we'll go over some common ways people decide on a practice's worth. We'll also talk about what buyers and sellers should keep in mind to make smarter choices. By the end, you'll have a better idea of how to think about the value of an eye care business, whether you're looking to buy one or sell one.

@@ -1,14 +1,21 @@
 ---
-title: "How to Reduce Administrative Costs in Optometry and Ophthalmology Practices"
-seoTitle: "Reduce Admin Costs in Eye Care Practices"
-description: "Your non-doctor payroll should be around 24% of revenue. If you're way over that, here's where you're probably bleeding money."
+title: How to Reduce Administrative Costs in Optometry and Ophthalmology Practices
+seoTitle: Reduce Admin Costs in Eye Care Practices
+description: Your non-doctor payroll should be around 24% of revenue. If you're way
+  over that, here's where you're probably bleeding money.
 publishDate: 2024-12-03
-status: "published"
-author: "Ankit Patel"
-category: "Virtual Staffing"
-tags: ["optometry","patient-care","scheduling","outsourcing","efficiency"]
-featuredImage: "/images/blog/call-center-workers-discussing-data-on-netbook-2023-11-27-04-49-05-utc-scaled.webp"
-canonical: "https://mybcat.com/blog/blog-reduce-administrative-cost/"
+status: published
+author: Ankit Patel
+category: Virtual Staffing
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- efficiency
+featuredImage: /images/blog/call-center-workers-discussing-data-on-netbook-2023-11-27-04-49-05-utc-scaled.webp
+canonical: https://mybcat.com/blog/blog-reduce-administrative-cost/
+relatedPosts: []
 ---
 
 I'm going to give you a number that might ruin your day: 24%.

@@ -1,13 +1,20 @@
 ---
-title: "Elevate Patient Care with Eye Health Reception Services"
-description: "In the bustling realm of eye care, ensuring seamless patient experiences begins right at the reception. Our optometry call service [...]"
+title: Elevate Patient Care with Eye Health Reception Services
+description: In the bustling realm of eye care, ensuring seamless patient experiences
+  begins right at the reception. Our optometry call service [...]
 publishDate: 2024-03-13
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/elevate-patient-care-with-eye-health-reception-services.webp"
-canonical: "https://mybcat.com/blog/elevate-patient-care-with-eye-health-reception-services/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/elevate-patient-care-with-eye-health-reception-services.webp
+canonical: https://mybcat.com/blog/elevate-patient-care-with-eye-health-reception-services/
+relatedPosts: []
 ---
 
 In the bustling realm of eye care, ensuring seamless patient experiences begins right at the reception. Our [specialized optometry patient intake services](https://mybcat.com/about/) are dedicated to enhancing your eye care journey.

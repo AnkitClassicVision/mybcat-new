@@ -1,30 +1,30 @@
 ---
 title: '90-Day Integration Playbook for Healthcare Acquisitions: The Intake Sprint'
-seoTitle: "90-Day Healthcare Acquisition Integration Playbook"
-description: >-
-  Week-by-week guide for integrating patient intake operations after healthcare
-  practice acquisition. Tactical playbook for PE operating partners and DSO
-  integration teams.
-seoDescription: "Week-by-week intake integration playbook for healthcare acquisitions. Tactical guide for PE operating partners and DSO teams to integrate in 90 days."
-publishDate: 2026-01-20T00:00:00.000Z
+seoTitle: 90-Day Healthcare Acquisition Integration Playbook
+description: Week-by-week guide for integrating patient intake operations after healthcare
+  practice acquisition. Tactical playbook for PE operating partners and DSO integration
+  teams.
+seoDescription: Week-by-week intake integration playbook for healthcare acquisitions.
+  Tactical guide for PE operating partners and DSO teams to integrate in 90 days.
+publishDate: 2026-01-20 00:00:00+00:00
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - integration
-  - acquisition
-  - playbook
-  - pe
-  - dso
-  - m-and-a
-  - multi-location
+- integration
+- acquisition
+- playbook
+- pe
+- dso
+- m-and-a
+- multi-location
 featuredImage: /images/blog/90-day-integration-playbook-healthcare-acquisitions.webp
-canonical: 'https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions/'
+canonical: https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions/
 relatedPosts:
-  - dso-integration-playbook
-  - pre-sale-operational-cleanup-intake-valuation
-  - multi-location-healthcare-intake-guide
-  - kpi-dashboard-multi-location-intake
+- dso-integration-playbook
+- pre-sale-operational-cleanup-intake-valuation
+- multi-location-healthcare-intake-guide
+- kpi-dashboard-multi-location-intake
 ---
 
 PE-backed healthcare groups target 90-day integration timelines, but most acquisitions take 12-18 months to fully integrate, destroying value and burning out staff in the process. The difference between fast and slow integrators? Successful groups focus on intake operations first, creating visibility and standardization before tackling deeper integration challenges. Here is the 90-day intake integration sprint that turns add-on chaos into repeatable platform building. For groups seeking a turnkey solution, a [patient access center](/enterprise/patient-access-center/) can accelerate integration timelines significantly.

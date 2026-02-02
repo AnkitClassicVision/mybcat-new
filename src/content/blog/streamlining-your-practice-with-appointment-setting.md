@@ -1,13 +1,20 @@
 ---
-title: "Streamlining Your Practice with Appointment Setting"
-description: "As an optometrist, providing exceptional eye care to your patients is your top priority. However, efficiently managing appointments is crucial [...]"
+title: Streamlining Your Practice with Appointment Setting
+description: As an optometrist, providing exceptional eye care to your patients is
+  your top priority. However, efficiently managing appointments is crucial [...]
 publishDate: 2023-08-11
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","outsourcing","efficiency"]
-featuredImage: "/images/blog/streamlining-your-practice-with-appointment-setting.webp"
-canonical: "https://mybcat.com/blog/streamlining-your-practice-with-appointment-setting/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- efficiency
+featuredImage: /images/blog/streamlining-your-practice-with-appointment-setting.webp
+canonical: https://mybcat.com/blog/streamlining-your-practice-with-appointment-setting/
+relatedPosts: []
 ---
 
 As an optometrist, providing exceptional eye care to your patients is your top priority. However, efficiently managing appointments is crucial to ensure a smooth and successful practice. [Optometry answering service](https://mybcat.com/about/) is a powerful tool that can streamline your operations and enhance the overall patient experience.

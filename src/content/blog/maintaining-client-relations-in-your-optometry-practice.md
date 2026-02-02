@@ -1,13 +1,18 @@
 ---
-title: "Maintaining Client Relations in Your Optometry Practice"
-description: "Eye care professionals see recurring patients for years. Learn strategies to maintain strong patient relationships and improve retention."
+title: Maintaining Client Relations in Your Optometry Practice
+description: Eye care professionals see recurring patients for years. Learn strategies
+  to maintain strong patient relationships and improve retention.
 publishDate: 2023-10-18
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","call-center","outsourcing"]
-featuredImage: "/images/blog/maintaining-client-relations-in-your-optometry-practice.webp"
-canonical: "https://mybcat.com/blog/maintaining-client-relations-in-your-optometry-practice/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- call-center
+- outsourcing
+featuredImage: /images/blog/maintaining-client-relations-in-your-optometry-practice.webp
+canonical: https://mybcat.com/blog/maintaining-client-relations-in-your-optometry-practice/
+relatedPosts: []
 ---
 
 Eye care professionals consistently see recurring patients. As a [managed healthcare intake partner](https://mybcat.com/industries/optometry/), we understand that the services they provide, paired with efficient back-office functions, allow them to create meaningful and productive relationships with their clients.

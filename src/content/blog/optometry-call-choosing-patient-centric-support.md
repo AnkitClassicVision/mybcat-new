@@ -1,13 +1,20 @@
 ---
-title: "Optometry Call: Choosing Patient-Centric Support"
-description: "Elevating the patient experience begins with the right call support model, and optometrists' inbound call services redefine how optometry clinics [...]"
+title: 'Optometry Call: Choosing Patient-Centric Support'
+description: Elevating the patient experience begins with the right call support model,
+  and optometrists' inbound call services redefine how optometry clinics [...]
 publishDate: 2024-02-12
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/optometry-call-choosing-patient-centric-support.webp"
-canonical: "https://mybcat.com/blog/optometry-call-choosing-patient-centric-support/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/optometry-call-choosing-patient-centric-support.webp
+canonical: https://mybcat.com/blog/optometry-call-choosing-patient-centric-support/
+relatedPosts: []
 ---
 
 Elevating the patient experience begins with the right call support model, and optometrists' inbound call services redefine how optometry clinics prioritize patient care.

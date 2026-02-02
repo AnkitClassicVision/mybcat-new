@@ -1,13 +1,20 @@
 ---
-title: "Enhancing Patient Communication in Your Eye Clinic"
-description: "Effective patient communication is paramount for building trust, ensuring satisfaction, and fostering long-term relationships. Elevating eye clinic customer..."
+title: Enhancing Patient Communication in Your Eye Clinic
+description: Effective patient communication is paramount for building trust, ensuring
+  satisfaction, and fostering long-term relationships. Elevating eye clinic customer...
 publishDate: 2023-09-18
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/enhancing-patient-communication-in-your-eye-clinic.webp"
-canonical: "https://mybcat.com/blog/enhancing-patient-communication-in-your-eye-clinic/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/enhancing-patient-communication-in-your-eye-clinic.webp
+canonical: https://mybcat.com/blog/enhancing-patient-communication-in-your-eye-clinic/
+relatedPosts: []
 ---
 
 Effective patient communication is paramount for building trust, ensuring satisfaction, and fostering long-term relationships. Elevating [eye clinic customer service](https://mybcat.com/blog/) within an eye clinic hinges on a few essential strategies.

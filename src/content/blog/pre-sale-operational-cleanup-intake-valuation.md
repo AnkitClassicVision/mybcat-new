@@ -1,29 +1,29 @@
 ---
 title: 'Pre-Sale Operational Cleanup: Intake Systems That Boost Valuation'
-seoTitle: "Pre-Sale Intake Cleanup to Boost Practice Valuation"
-description: >-
-  What PE buyers actually evaluate in healthcare intake operations. A 12-month
-  roadmap for practice owners preparing for exit, with specific metrics and
-  improvements that increase valuation multiples.
-seoDescription: "12-month roadmap to optimize intake operations before selling your practice. Learn what PE buyers evaluate and how to increase valuation multiples."
-publishDate: 2026-01-12T00:00:00.000Z
+seoTitle: Pre-Sale Intake Cleanup to Boost Practice Valuation
+description: What PE buyers actually evaluate in healthcare intake operations. A 12-month
+  roadmap for practice owners preparing for exit, with specific metrics and improvements
+  that increase valuation multiples.
+seoDescription: 12-month roadmap to optimize intake operations before selling your
+  practice. Learn what PE buyers evaluate and how to increase valuation multiples.
+publishDate: 2026-01-12 00:00:00+00:00
 status: published
 author: Ankit Patel
 category: Growth
 tags:
-  - valuation
-  - private-equity
-  - exit-planning
-  - dso
-  - healthcare-m&a
-  - ebitda
+- valuation
+- private-equity
+- exit-planning
+- dso
+- healthcare-m&a
+- ebitda
 featuredImage: /images/blog/pre-sale-operational-cleanup-intake-valuation.webp
-canonical: 'https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/'
+canonical: https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/
 relatedPosts:
-  - ebitda-impact-calculator
-  - multi-location-healthcare-intake-guide
-  - missed-calls-revenue-leak-multi-location-healthcare
-  - dso-case-study-15-location-missed-calls
+- ebitda-impact-calculator
+- multi-location-healthcare-intake-guide
+- missed-calls-revenue-leak-multi-location-healthcare
+- dso-case-study-15-location-missed-calls
 ---
 
 PE buyers evaluating your healthcare practice are not just looking at EBITDA. They are modeling integration costs. A practice with fragmented intake operations, owner-dependent processes, and no visibility into call conversion represents risk. A practice with standardized, documented, scalable intake systems represents a platform asset that commands premium multiples.

@@ -1,13 +1,20 @@
 ---
-title: "Optimizing Patient Care: Optometry Reception Solutions"
-description: "Navigating the day-to-day operations of an optometry office requires a seamless approach to patient communication and management. Eye health reception [...]"
+title: 'Optimizing Patient Care: Optometry Reception Solutions'
+description: Navigating the day-to-day operations of an optometry office requires
+  a seamless approach to patient communication and management. Eye health reception
+  [...]
 publishDate: 2023-12-22
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","outsourcing"]
-featuredImage: "/images/blog/optimizing-patient-care-optometry-reception-solutions.webp"
-canonical: "https://mybcat.com/blog/optimizing-patient-care-optometry-reception-solutions/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- outsourcing
+featuredImage: /images/blog/optimizing-patient-care-optometry-reception-solutions.webp
+canonical: https://mybcat.com/blog/optimizing-patient-care-optometry-reception-solutions/
+relatedPosts: []
 ---
 
 Navigating the day-to-day operations of an optometry office requires a seamless approach to patient communication and management. [Eye health reception services](https://mybcat.com/blog/) are pivotal in achieving this, as they ensure that every patient receives timely and efficient service. From the moment a patient calls, a medical receptionist becomes the face of your practice, setting the tone for the quality of care and attention patients can expect. Understanding [how missed calls affect revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) underscores the importance of robust reception solutions.

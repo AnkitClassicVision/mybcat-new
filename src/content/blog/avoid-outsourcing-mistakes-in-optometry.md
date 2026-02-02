@@ -1,13 +1,20 @@
 ---
-title: "Avoid outsourcing mistakes in optometry"
-description: "Outsourcing can cut your admin costs by 30%. Or it can create a nightmare. Here are the corners you can't afford to cut."
+title: Avoid outsourcing mistakes in optometry
+description: Outsourcing can cut your admin costs by 30%. Or it can create a nightmare.
+  Here are the corners you can't afford to cut.
 publishDate: 2023-08-01
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/avoid-outsourcing-mistakes-in-optometry.webp"
-canonical: "https://mybcat.com/blog/avoid-outsourcing-mistakes-in-optometry/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- growth
+featuredImage: /images/blog/avoid-outsourcing-mistakes-in-optometry.webp
+canonical: https://mybcat.com/blog/avoid-outsourcing-mistakes-in-optometry/
+relatedPosts: []
 ---
 
 Peter Cass sees six patients an hour. That's not a typo—six patients per hour, compared to the industry average of 1.2.

@@ -1,29 +1,29 @@
 ---
 title: 'Case Study: How a 15-Location DSO Reduced Missed Calls by 60% Post-Acquisition'
-seoTitle: "DSO Case Study: 60% Fewer Missed Calls, $108K/Mo"
-description: >-
-  A PE-backed dental group recovering $108,000 monthly by standardizing intake
-  across 15 locations. Real metrics, implementation timeline, and lessons for
+seoTitle: 'DSO Case Study: 60% Fewer Missed Calls, $108K/Mo'
+description: A PE-backed dental group recovering $108,000 monthly by standardizing
+  intake across 15 locations. Real metrics, implementation timeline, and lessons for
   DSO operators.
-seoDescription: "See how a 15-location DSO recovered $108,000/month by reducing missed calls 60%. Real metrics and 90-day implementation timeline for dental groups."
-publishDate: 2026-01-10T00:00:00.000Z
+seoDescription: See how a 15-location DSO recovered $108,000/month by reducing missed
+  calls 60%. Real metrics and 90-day implementation timeline for dental groups.
+publishDate: 2026-01-10 00:00:00+00:00
 status: published
 author: Ankit Patel
 category: Growth
 tags:
-  - dso
-  - case-study
-  - dental
-  - multi-location
-  - private-equity
-  - intake-optimization
+- dso
+- case-study
+- dental
+- multi-location
+- private-equity
+- intake-optimization
 featuredImage: /images/blog/dso-case-study-15-location-missed-calls.webp
-canonical: 'https://mybcat.com/blog/dso-case-study-15-location-missed-calls/'
+canonical: https://mybcat.com/blog/dso-case-study-15-location-missed-calls/
 relatedPosts:
-  - dso-integration-playbook
-  - ebitda-impact-calculator
-  - multi-location-healthcare-intake-guide
-  - missed-calls-revenue-leak-multi-location-healthcare
+- dso-integration-playbook
+- ebitda-impact-calculator
+- multi-location-healthcare-intake-guide
+- missed-calls-revenue-leak-multi-location-healthcare
 ---
 
 *This case study illustrates the potential impact of centralized intake optimization, using realistic metrics based on industry data and typical DSO performance patterns. While not a specific MyBCAT client engagement, it demonstrates what multi-location dental groups can achieve with a solution like ours.*

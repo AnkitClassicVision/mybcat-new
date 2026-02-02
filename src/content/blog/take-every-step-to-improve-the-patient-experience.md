@@ -1,13 +1,20 @@
 ---
-title: "Take Every Step to Improve the Patient Experience"
-description: "Running an eye clinic can lead to hectic moments. Amid this hectic environment, operators must uphold the experience they create [...]"
+title: Take Every Step to Improve the Patient Experience
+description: Running an eye clinic can lead to hectic moments. Amid this hectic environment,
+  operators must uphold the experience they create [...]
 publishDate: 2023-10-26
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/take-every-step-to-improve-the-patient-experience.webp"
-canonical: "https://mybcat.com/blog/take-every-step-to-improve-the-patient-experience/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/take-every-step-to-improve-the-patient-experience.webp
+canonical: https://mybcat.com/blog/take-every-step-to-improve-the-patient-experience/
+relatedPosts: []
 ---
 
 Running an eye clinic can lead to hectic moments. Amid this hectic environment, operators must uphold the experience they create for their clients. Here at My Business Care Team, we make sure that every optometrist patient has a pleasant experience through our [specialized optometry patient intake services](https://mybcat.com/about/). Let's talk about some factors needed to improve the client experience.

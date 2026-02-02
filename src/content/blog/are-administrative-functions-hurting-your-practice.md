@@ -1,13 +1,20 @@
 ---
-title: "Are Administrative Functions Hurting Your Practice?"
-description: "Administrative burden hurts optometry practices. Learn how to streamline operations and focus more time on patient care."
+title: Are Administrative Functions Hurting Your Practice?
+description: Administrative burden hurts optometry practices. Learn how to streamline
+  operations and focus more time on patient care.
 publishDate: 2023-10-24
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","call-center","scheduling","outsourcing","efficiency"]
-featuredImage: "/images/blog/are-administrative-functions-hurting-your-practice.webp"
-canonical: "https://mybcat.com/blog/are-administrative-functions-hurting-your-practice/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- call-center
+- scheduling
+- outsourcing
+- efficiency
+featuredImage: /images/blog/are-administrative-functions-hurting-your-practice.webp
+canonical: https://mybcat.com/blog/are-administrative-functions-hurting-your-practice/
+relatedPosts: []
 ---
 
 A successful optometry practice results from strong eye care services. However, as a [managed healthcare intake partner](https://mybcat.com/industries/optometry/), we understand that crucial administrative tasks should be performed to ensure successful and efficient optometry operations.

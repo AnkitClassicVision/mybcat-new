@@ -1,13 +1,20 @@
 ---
-title: "Better Call Support for Your Optometry Practice"
-description: "Call support matters when crafting a more efficient optometry practice. Conversations, many of them are lengthy, between your office and [...]"
+title: Better Call Support for Your Optometry Practice
+description: Call support matters when crafting a more efficient optometry practice.
+  Conversations, many of them are lengthy, between your office and [...]
 publishDate: 2023-10-20
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","call-center","scheduling","outsourcing","efficiency"]
-featuredImage: "/images/blog/better-call-support-for-your-optometry-practice.webp"
-canonical: "https://mybcat.com/blog/better-call-support-for-your-optometry-practice/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- call-center
+- scheduling
+- outsourcing
+- efficiency
+featuredImage: /images/blog/better-call-support-for-your-optometry-practice.webp
+canonical: https://mybcat.com/blog/better-call-support-for-your-optometry-practice/
+relatedPosts: []
 ---
 
 Call support matters when crafting a more [efficient optometry practice](https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture/). Conversations, many of them are lengthy, between your office and the patient occur before and after any eye care function. Having a good call support system gives you more chances to foster client loyalty and, ultimately, achieve a lucrative optometry practice. Understanding how [unanswered calls translate to lost revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) helps justify the investment in quality call support.

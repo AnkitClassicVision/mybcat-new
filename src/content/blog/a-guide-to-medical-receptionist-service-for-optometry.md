@@ -1,13 +1,20 @@
 ---
-title: "A Guide to Medical Receptionist Service for Optometry"
-description: "In the dynamic world of optometry, providing exceptional customer service is crucial for building a thriving practice. Many optometrists are [...]"
+title: A Guide to Medical Receptionist Service for Optometry
+description: In the dynamic world of optometry, providing exceptional customer service
+  is crucial for building a thriving practice. Many optometrists are [...]
 publishDate: 2024-03-18
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/a-guide-to-medical-receptionist-service-for-optometry.webp"
-canonical: "https://mybcat.com/blog/a-guide-to-medical-receptionist-service-for-optometry/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/a-guide-to-medical-receptionist-service-for-optometry.webp
+canonical: https://mybcat.com/blog/a-guide-to-medical-receptionist-service-for-optometry/
+relatedPosts: []
 ---
 
 In the dynamic world of optometry, providing exceptional customer service is crucial for building a thriving practice. Many optometrists are turning to specialized services like a [managed healthcare intake partner](https://mybcat.com/about/), to elevate their patient experience. Let's delve and discover how these professionals play a pivotal role.

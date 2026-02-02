@@ -1,28 +1,29 @@
 ---
-title: 'The Human + AI Hybrid Model: Why ''Both'' Beats ''Either/Or'' in Healthcare Intake'
-seoTitle: "Human + AI Hybrid Intake Model for Healthcare Groups"
-description: >-
-  AI excels at routine scheduling but fails on complex calls. Human-only
-  services are expensive at scale. The hybrid model routes the right calls to
-  the right handler. Here's how it works.
-seoDescription: "Hybrid AI-human intake systems deliver 40-50% cost savings while maintaining quality. Routing framework and implementation guide for healthcare groups."
-publishDate: 2026-01-11T00:00:00.000Z
+title: 'The Human + AI Hybrid Model: Why ''Both'' Beats ''Either/Or'' in Healthcare
+  Intake'
+seoTitle: Human + AI Hybrid Intake Model for Healthcare Groups
+description: AI excels at routine scheduling but fails on complex calls. Human-only
+  services are expensive at scale. The hybrid model routes the right calls to the
+  right handler. Here's how it works.
+seoDescription: Hybrid AI-human intake systems deliver 40-50% cost savings while maintaining
+  quality. Routing framework and implementation guide for healthcare groups.
+publishDate: 2026-01-11 00:00:00+00:00
 status: published
 author: Ankit Patel
 category: Technology
 tags:
-  - ai
-  - hybrid-model
-  - healthcare-intake
-  - automation
-  - human-touch
-  - multi-location
+- ai
+- hybrid-model
+- healthcare-intake
+- automation
+- human-touch
+- multi-location
 featuredImage: /images/blog/human-ai-hybrid-model-healthcare-intake.webp
-canonical: 'https://mybcat.com/blog/human-ai-hybrid-model-healthcare-intake/'
+canonical: https://mybcat.com/blog/human-ai-hybrid-model-healthcare-intake/
 relatedPosts:
-  - ai-receptionist-vs-virtual-front-desk-answering-service
-  - multi-location-healthcare-intake-guide
-  - veterinary-emergency-triage-protocols
+- ai-receptionist-vs-virtual-front-desk-answering-service
+- multi-location-healthcare-intake-guide
+- veterinary-emergency-triage-protocols
 ---
 
 TrueLark claims 85% automation. Ruby touts "real people for every call." Both miss the point for multi-location healthcare groups. AI excels at routine scheduling but fails on complex clinical questions, emotional situations, and high-stakes calls. Human-only services work but become prohibitively expensive at scale. The answer is not choosing between AI and human. It is building a system that routes the right calls to the right handler.

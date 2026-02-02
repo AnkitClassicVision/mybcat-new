@@ -1,13 +1,20 @@
 ---
-title: "BPO Security and Compliance for Eye Care"
-description: "To the uninitiated, all forms of outsourcing might seem alike. Virtual assistants, offshore teams, and business process outsourcing (BPO) might [...]"
+title: BPO Security and Compliance for Eye Care
+description: To the uninitiated, all forms of outsourcing might seem alike. Virtual
+  assistants, offshore teams, and business process outsourcing (BPO) might [...]
 publishDate: 2023-08-21
-status: "published"
-author: "Ankit Patel"
-category: "Virtual Staffing"
-tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
-featuredImage: "/images/blog/bpo-services-compliance-eye-care.webp"
-canonical: "https://mybcat.com/blog/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice/"
+status: published
+author: Ankit Patel
+category: Virtual Staffing
+tags:
+- optometry
+- virtual-assistant
+- patient-care
+- scheduling
+- outsourcing
+featuredImage: /images/blog/bpo-services-compliance-eye-care.webp
+canonical: https://mybcat.com/blog/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice/
+relatedPosts: []
 ---
 
 To the uninitiated, all forms of outsourcing might seem alike. Virtual assistants, offshore teams, and business process outsourcing (BPO) might blur into one. It makes sense since BPOs are relatively new to specialized sectors like optometry and ophthalmology. Global giants like Coca-Cola have outsourced their complex supply chains for decades to maintain operational efficiency. 

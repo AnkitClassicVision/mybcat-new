@@ -1,13 +1,20 @@
 ---
-title: "Patient Retention Strategies for Optometry"
-description: "Top-performing practices often attribute their high patient retention rates to several key elements: Personalized care where every patient feels recognized..."
+title: Patient Retention Strategies for Optometry
+description: 'Top-performing practices often attribute their high patient retention
+  rates to several key elements: Personalized care where every patient feels recognized...'
 publishDate: 2023-09-18
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/patient-retention-strategies.webp"
-canonical: "https://mybcat.com/blog/patient-retention-and-acquisition-strategies-for-your-optometry-practice/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- growth
+featuredImage: /images/blog/patient-retention-strategies.webp
+canonical: https://mybcat.com/blog/patient-retention-and-acquisition-strategies-for-your-optometry-practice/
+relatedPosts: []
 ---
 
 Top-performing practices often attribute their high patient retention rates to several key elements:

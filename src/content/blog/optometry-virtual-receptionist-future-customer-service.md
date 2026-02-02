@@ -1,13 +1,20 @@
 ---
-title: "Optometry Virtual Receptionist: Future Customer Service"
-description: "Virtual receptionists are transforming optometry practices. Learn how they improve patient care and reduce administrative burden."
+title: 'Optometry Virtual Receptionist: Future Customer Service'
+description: Virtual receptionists are transforming optometry practices. Learn how
+  they improve patient care and reduce administrative burden.
 publishDate: 2024-03-15
-status: "published"
-author: "Ankit Patel"
-category: "Patient Experience"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/optometry-virtual-receptionist-future-customer-service.webp"
-canonical: "https://mybcat.com/blog/optometry-virtual-receptionist-future-customer-service/"
+status: published
+author: Ankit Patel
+category: Patient Experience
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/optometry-virtual-receptionist-future-customer-service.webp
+canonical: https://mybcat.com/blog/optometry-virtual-receptionist-future-customer-service/
+relatedPosts: []
 ---
 
 In the ever-evolving landscape of optometry, the integration of virtual receptionists is shaping the future of customer service. [Specialized optometry patient intake services](https://mybcat.com/about/) are not merely a convenience but a transformative leap into efficient and patient-centric eye care.

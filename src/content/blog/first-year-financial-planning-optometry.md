@@ -1,22 +1,23 @@
 ---
 title: First-Year Financial Planning for New Optometry Practices
-seoTitle: "First-Year Financial Planning for Optometry Practices"
-description: >-
-  A practical guide to budgeting, cash flow management, and financial milestones
+seoTitle: First-Year Financial Planning for Optometry Practices
+description: A practical guide to budgeting, cash flow management, and financial milestones
   for your first year as an optometry practice owner.
-seoDescription: "First-year financial planning guide for new optometry practices. Learn budgeting, cash flow management, and milestones to survive year one and thrive."
-publishDate: 2026-01-24T00:00:00.000Z
+seoDescription: First-year financial planning guide for new optometry practices. Learn
+  budgeting, cash flow management, and milestones to survive year one and thrive.
+publishDate: 2026-01-24 00:00:00+00:00
 status: published
 author: Ankit Patel
 category: Practice Management
 tags:
-  - optometry
-  - financial-planning
-  - startup
-  - budgeting
-  - practice-management
+- optometry
+- financial-planning
+- startup
+- budgeting
+- practice-management
 featuredImage: /images/blog/first-year-financial-planning-optometry.webp
-canonical: 'https://mybcat.com/blog/first-year-financial-planning-optometry/'
+canonical: https://mybcat.com/blog/first-year-financial-planning-optometry/
+relatedPosts: []
 ---
 
 The first year of practice ownership is a financial marathon. Cash flows out faster than it comes in, unexpected expenses emerge constantly, and revenue takes time to build. This guide provides a realistic framework for financial planning that helps new optometry practice owners survive year one and set up for year-two success.

@@ -1,13 +1,19 @@
 ---
-title: "Optometry Calls: Expert 24/7 Virtual Reception"
-description: "In the fast-paced world of optometry, patient service should never lag. Discover how optometry virtual receptionists provide 24/7 support for your practice."
+title: 'Optometry Calls: Expert 24/7 Virtual Reception'
+description: In the fast-paced world of optometry, patient service should never lag.
+  Discover how optometry virtual receptionists provide 24/7 support for your practice.
 publishDate: 2023-11-14
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/optometry-calls-expert-24-7-virtual-reception.webp"
-canonical: "https://mybcat.com/blog/optometry-calls-expert-24-7-virtual-reception/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/optometry-calls-expert-24-7-virtual-reception.webp
+canonical: https://mybcat.com/blog/optometry-calls-expert-24-7-virtual-reception/
+relatedPosts: []
 ---
 
 In the fast-paced world of optometry, patient service should never lag. Enter the world of [optometry virtual receptionists](https://mybcat.com/about/). This state-of-the-art solution ensures every call is treated with the utmost care and urgency. But what makes these virtual receptionists so essential?

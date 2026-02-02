@@ -1,14 +1,21 @@
 ---
-title: "Ensuring Compliance and Security with Your Outsourced Customer Service Team"
-seoTitle: "Compliance & Security for Outsourced Teams"
-description: "If you're like us, you didn't get a degree in ophthalmology or optometry because you were passionate about data security [...]"
+title: Ensuring Compliance and Security with Your Outsourced Customer Service Team
+seoTitle: Compliance & Security for Outsourced Teams
+description: If you're like us, you didn't get a degree in ophthalmology or optometry
+  because you were passionate about data security [...]
 publishDate: 2023-07-19
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","outsourcing","efficiency"]
-featuredImage: "/images/blog/compliance-security-data-protection.webp"
-canonical: "https://mybcat.com/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- efficiency
+featuredImage: /images/blog/compliance-security-data-protection.webp
+canonical: https://mybcat.com/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team/
+relatedPosts: []
 ---
 
 If you're like us, you didn't get a degree in ophthalmology or optometry because you were passionate about data security and compliance. You chose this path because you're passionate about improving people's lives, about bringing clarity of sight to your patients. Yet here you are, reading the article we wrote about data security and compliance for an outsourced customer service team. Something likely neither of us would have chosen to do when we first aspired to run our own eye care clinic. 

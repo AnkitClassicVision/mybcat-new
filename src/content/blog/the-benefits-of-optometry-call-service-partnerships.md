@@ -1,13 +1,20 @@
 ---
-title: "The Benefits of Optometry-Call Service Partnerships"
-description: "Did you know that efficient call management is integral to the success of optometry practices? Studies show that 80% of [...]"
+title: The Benefits of Optometry-Call Service Partnerships
+description: Did you know that efficient call management is integral to the success
+  of optometry practices? Studies show that 80% of [...]
 publishDate: 2024-04-19
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/the-benefits-of-optometry-call-service-partnerships.webp"
-canonical: "https://mybcat.com/blog/the-benefits-of-optometry-call-service-partnerships/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/the-benefits-of-optometry-call-service-partnerships.webp
+canonical: https://mybcat.com/blog/the-benefits-of-optometry-call-service-partnerships/
+relatedPosts: []
 ---
 
 Did you know that efficient call management is integral to the success of optometry practices? Studies show that 80% of callers will not leave a voicemail if their call goes unanswered—and the [revenue impact of missed calls](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) can be staggering for healthcare practices. It highlights the importance of ensuring that every patient inquiry and appointment request is handled promptly and professionally. This blog post explores the benefits of optometry-call service partnerships in enhancing practice efficiency and patient satisfaction.

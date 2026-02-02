@@ -1,13 +1,20 @@
 ---
-title: "Benefits of a Call Center for Eye Care Professionals"
-description: "Most eye care practices answer about 60% of their calls. That means 40% of potential patients hear voicemail. Here's a better way."
+title: Benefits of a Call Center for Eye Care Professionals
+description: Most eye care practices answer about 60% of their calls. That means 40%
+  of potential patients hear voicemail. Here's a better way.
 publishDate: 2023-11-27
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/benefits-of-a-call-center-for-eye-care-professionals.webp"
-canonical: "https://mybcat.com/blog/benefits-of-a-call-center-for-eye-care-professionals/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/benefits-of-a-call-center-for-eye-care-professionals.webp
+canonical: https://mybcat.com/blog/benefits-of-a-call-center-for-eye-care-professionals/
+relatedPosts: []
 ---
 
 Let me paint you a picture of a Tuesday afternoon at your practice.

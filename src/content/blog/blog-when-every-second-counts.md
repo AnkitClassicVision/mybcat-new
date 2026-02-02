@@ -1,13 +1,18 @@
 ---
-title: "How MyBCAT Handles Emergencies for Your Practice"
-description: "What happens when a patient calls with sudden vision loss at 4:47 PM on a Friday? Here's how we handle the calls that can't wait."
+title: How MyBCAT Handles Emergencies for Your Practice
+description: What happens when a patient calls with sudden vision loss at 4:47 PM
+  on a Friday? Here's how we handle the calls that can't wait.
 publishDate: 2025-01-21
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["patient-care","scheduling","efficiency"]
-featuredImage: "/images/blog/when-every-second-counts.webp"
-canonical: "https://mybcat.com/blog/blog-when-every-second-counts/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- patient-care
+- scheduling
+- efficiency
+featuredImage: /images/blog/when-every-second-counts.webp
+canonical: https://mybcat.com/blog/blog-when-every-second-counts/
+relatedPosts: []
 ---
 
 It was 4:47 PM on a Friday. The kind of afternoon where your front desk is already mentally checked out, thinking about weekend plans. That's when a 67-year-old patient called one of our client practices, describing what sounded like a curtain falling over her vision.

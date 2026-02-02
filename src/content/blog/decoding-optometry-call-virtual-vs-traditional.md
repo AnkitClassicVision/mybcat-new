@@ -1,13 +1,20 @@
 ---
-title: "Decoding Optometry Call: Virtual vs. Traditional"
-description: "Compare virtual vs traditional receptionists for optometry. Learn which solution best fits your practice needs and budget."
+title: 'Decoding Optometry Call: Virtual vs. Traditional'
+description: Compare virtual vs traditional receptionists for optometry. Learn which
+  solution best fits your practice needs and budget.
 publishDate: 2024-02-15
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/decoding-optometry-call-virtual-vs-traditional.webp"
-canonical: "https://mybcat.com/blog/decoding-optometry-call-virtual-vs-traditional/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/decoding-optometry-call-virtual-vs-traditional.webp
+canonical: https://mybcat.com/blog/decoding-optometry-call-virtual-vs-traditional/
+relatedPosts: []
 ---
 
 [Optometry virtual receptionists](https://mybcat.com/about/) redefine patient care by offering modern solutions to streamline your practice operations. As you contemplate the choice between an optometry virtual receptionist and a traditional receptionist, it's essential to consider the unique benefits and drawbacks each option brings to your practice.

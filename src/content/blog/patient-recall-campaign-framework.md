@@ -18,6 +18,9 @@ tags:
 featuredImage: /images/blog/patient-recall-campaign-framework.webp
 canonical: https://mybcat.com/blog/patient-recall-campaign-framework/
 cluster: recall-reactivation
+relatedPosts:
+- patient-recall-service
+- dormant-patient-reactivation
 ---
 
 Healthcare practices lose 10-17% of their patient base every year to attrition. For a practice with 2,000 active patients and an average lifetime value of $4,200, that translates to $840,000 walking out the door annually. The solution is not more marketing spend on new patient acquisition. It is a systematic patient recall campaign that brings dormant patients back at a fraction of the cost.
@@ -282,6 +285,12 @@ Patient recall does not exist in isolation. It connects to every other aspect of
 ## Related Reading
 
 - [Dormant Patient Reactivation: The Complete Guide](/blog/dormant-patient-reactivation/)
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Patient Recall Service: What It Is and When You Need It](/blog/patient-recall-service/)
+- [Dormant Patient Reactivation: A 30-Day Playbook](/blog/dormant-patient-reactivation/)
 
 ## Sources
 

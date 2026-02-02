@@ -1,14 +1,23 @@
 ---
-title: "Spanish-Speaking Staff for Eye Care Practices"
-description: "41 million Spanish speakers in the US. How many are choosing your competitor because they can actually communicate with them?"
+title: Spanish-Speaking Staff for Eye Care Practices
+description: 41 million Spanish speakers in the US. How many are choosing your competitor
+  because they can actually communicate with them?
 publishDate: 2025-01-28
-status: "published"
-author: "Ankit Patel"
-category: "Virtual Staffing"
-tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/spanish-speaking-agents.webp"
-canonical: "https://mybcat.com/blog/blog-spanish-speaking-agents/"
-relatedPosts: ["blog-best-patient-care", "embracing-cultural-sensitivity-in-optometry-care", "enhancing-patient-communication-in-your-eye-clinic"]
+status: published
+author: Ankit Patel
+category: Virtual Staffing
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- growth
+featuredImage: /images/blog/spanish-speaking-agents.webp
+canonical: https://mybcat.com/blog/blog-spanish-speaking-agents/
+relatedPosts:
+- blog-best-patient-care
+- embracing-cultural-sensitivity-in-optometry-care
+- enhancing-patient-communication-in-your-eye-clinic
 ---
 
 Maria called our practice at 3 PM on a Tuesday. Her English was limited—maybe enough to order food or ask for directions, but not enough to explain that her mother's vision had been getting cloudy over the past few weeks and she was worried about cataracts.

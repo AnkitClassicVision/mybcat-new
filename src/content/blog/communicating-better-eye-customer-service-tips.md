@@ -1,13 +1,20 @@
 ---
-title: "Communicating Better: Eye Customer Service Tips"
-description: "The difference between a patient who books and one who hangs up usually comes down to the first 20 seconds of conversation."
+title: 'Communicating Better: Eye Customer Service Tips'
+description: The difference between a patient who books and one who hangs up usually
+  comes down to the first 20 seconds of conversation.
 publishDate: 2024-04-12
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/communicating-better-eye-customer-service-tips.webp"
-canonical: "https://mybcat.com/blog/communicating-better-eye-customer-service-tips/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/communicating-better-eye-customer-service-tips.webp
+canonical: https://mybcat.com/blog/communicating-better-eye-customer-service-tips/
+relatedPosts: []
 ---
 
 I listened to a recording of one of our agents last week. Patient called asking about scheduling an eye exam. Pretty straightforward.

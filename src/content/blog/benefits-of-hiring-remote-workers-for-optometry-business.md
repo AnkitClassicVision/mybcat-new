@@ -1,14 +1,20 @@
 ---
-title: "6 Irresistible Reasons Why Hiring Remote Workers Can Transform Your Optometry Business"
-seoTitle: "6 Reasons to Hire Remote Workers in Optometry"
-description: "Remote staffing reduced my non-doctor payroll by 30% while increasing revenue. Learn how optometry practices benefit from virtual team members."
+title: 6 Irresistible Reasons Why Hiring Remote Workers Can Transform Your Optometry
+  Business
+seoTitle: 6 Reasons to Hire Remote Workers in Optometry
+description: Remote staffing reduced my non-doctor payroll by 30% while increasing
+  revenue. Learn how optometry practices benefit from virtual team members.
 publishDate: 2023-06-30
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","outsourcing","efficiency"]
-featuredImage: "/images/blog/benefits-of-hiring-remote-workers-for-optometry-business.webp"
-canonical: "https://mybcat.com/blog/benefits-of-hiring-remote-workers-for-optometry-business/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- outsourcing
+- efficiency
+featuredImage: /images/blog/benefits-of-hiring-remote-workers-for-optometry-business.webp
+canonical: https://mybcat.com/blog/benefits-of-hiring-remote-workers-for-optometry-business/
+relatedPosts: []
 ---
 
 Five years ago, I was stuck.

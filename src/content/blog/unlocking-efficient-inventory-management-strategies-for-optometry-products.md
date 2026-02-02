@@ -1,13 +1,18 @@
 ---
-title: "Inventory Management Strategies for Optometry"
-description: "Like other small businesses, many optometric practices do not track optical inventory, or it's a manual inventory management process. It's [...]"
+title: Inventory Management Strategies for Optometry
+description: Like other small businesses, many optometric practices do not track optical
+  inventory, or it's a manual inventory management process. It's [...]
 publishDate: 2023-11-16
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","growth","efficiency"]
-featuredImage: "/images/blog/inventory-management-optometry.webp"
-canonical: "https://mybcat.com/blog/unlocking-efficient-inventory-management-strategies-for-optometry-products/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- growth
+- efficiency
+featuredImage: /images/blog/inventory-management-optometry.webp
+canonical: https://mybcat.com/blog/unlocking-efficient-inventory-management-strategies-for-optometry-products/
+relatedPosts: []
 ---
 
 Like other small businesses, many optometric practices do not track optical inventory, or it's a manual inventory management process. It's not surprising then that many practices have too little or too many items in their stock. And the answer isn't as easy as stocking up. More frames don't necessarily mean more sales. Too much stock can tie up capital that could be used for other purposes. Unsold items can eventually expire or become a loss. Balancing supply with demand takes an intentional effort and some trial and error. Let's start by better understanding the challenges of managing inventory.

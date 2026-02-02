@@ -1,13 +1,20 @@
 ---
-title: "Overwhelmed? How a Virtual Team Fills the Gap"
-description: "Is your optometry practice currently overwhelmed and understaffed? If so, there's help available in the form of a virtual team [...]"
+title: Overwhelmed? How a Virtual Team Fills the Gap
+description: Is your optometry practice currently overwhelmed and understaffed? If
+  so, there's help available in the form of a virtual team [...]
 publishDate: 2025-06-20
-status: "published"
-author: "Ankit Patel"
-category: "Virtual Staffing"
-tags: ["optometry","virtual-assistant","patient-care","scheduling","growth"]
-featuredImage: "/images/blog/call-center-workers-discussing-data-on-netbook-2023-11-27-04-49-05-utc-scaled.webp"
-canonical: "https://mybcat.com/blog/virtual-team-solutions-for-you-2/"
+status: published
+author: Ankit Patel
+category: Virtual Staffing
+tags:
+- optometry
+- virtual-assistant
+- patient-care
+- scheduling
+- growth
+featuredImage: /images/blog/call-center-workers-discussing-data-on-netbook-2023-11-27-04-49-05-utc-scaled.webp
+canonical: https://mybcat.com/blog/virtual-team-solutions-for-you-2/
+relatedPosts: []
 ---
 
 Is your optometry practice currently overwhelmed and understaffed? If so, there's help available in the form of [medical virtual assistants](/solutions/medical-virtual-assistant/) that can fill the gaps in your business through [front desk outsourcing](/solutions/front-desk-outsourcing/).

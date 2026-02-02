@@ -1,28 +1,28 @@
 ---
 title: 'Centralized vs. Distributed Intake: A Decision Framework for Healthcare Groups'
-seoTitle: "Centralized vs Distributed Intake: Decision Guide"
-description: >-
-  Should you centralize patient intake or keep it at each location? A strategic
-  framework for multi-location healthcare groups, including when hybrid models
-  make sense.
-seoDescription: "Strategic framework for choosing centralized, distributed, or hybrid intake models. Make the right decision for your multi-location healthcare group."
-publishDate: 2026-01-15T00:00:00.000Z
+seoTitle: 'Centralized vs Distributed Intake: Decision Guide'
+description: Should you centralize patient intake or keep it at each location? A strategic
+  framework for multi-location healthcare groups, including when hybrid models make
+  sense.
+seoDescription: Strategic framework for choosing centralized, distributed, or hybrid
+  intake models. Make the right decision for your multi-location healthcare group.
+publishDate: 2026-01-15 00:00:00+00:00
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - centralization
-  - multi-location
-  - intake-architecture
-  - call-center
-  - operations-strategy
+- centralization
+- multi-location
+- intake-architecture
+- call-center
+- operations-strategy
 featuredImage: /images/blog/centralized-vs-distributed-intake-framework.webp
-canonical: 'https://mybcat.com/blog/centralized-vs-distributed-intake-framework/'
+canonical: https://mybcat.com/blog/centralized-vs-distributed-intake-framework/
 relatedPosts:
-  - multi-location-healthcare-intake-guide
-  - human-ai-hybrid-model-healthcare-intake
-  - kpi-dashboard-multi-location-intake
-  - dso-integration-playbook
+- multi-location-healthcare-intake-guide
+- human-ai-hybrid-model-healthcare-intake
+- kpi-dashboard-multi-location-intake
+- dso-integration-playbook
 ---
 
 Centralize for efficiency or stay distributed for personal touch? That is the wrong question. Top-performing multi-location healthcare groups have moved beyond this binary choice to intelligent routing: systems that direct each call to the optimal handler based on call type, not geography. Here is the decision framework that reveals which model fits your group.

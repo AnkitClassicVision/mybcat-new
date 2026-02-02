@@ -1,13 +1,20 @@
 ---
-title: "Work-Life Balance for Optometry Practice Owners"
-description: "For optometrists, the demands of patient care, clinic management, and a thousand different things can be overwhelming and often overshadows [...]"
+title: Work-Life Balance for Optometry Practice Owners
+description: For optometrists, the demands of patient care, clinic management, and
+  a thousand different things can be overwhelming and often overshadows [...]
 publishDate: 2023-11-09
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/work-life-balance-optometry.webp"
-canonical: "https://mybcat.com/blog/preserving-your-work-life-balance-while-managing-an-optometry-practice/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- growth
+featuredImage: /images/blog/work-life-balance-optometry.webp
+canonical: https://mybcat.com/blog/preserving-your-work-life-balance-while-managing-an-optometry-practice/
+relatedPosts: []
 ---
 
 For optometrists, the demands of patient care, clinic management, and a thousand different things can be overwhelming and often overshadows personal time. It's a common struggle to find that balance between a successful practice and still have time left over for personal fulfillment. However, it’s not impossible. 

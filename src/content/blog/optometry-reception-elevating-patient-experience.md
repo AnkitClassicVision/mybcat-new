@@ -1,13 +1,20 @@
 ---
-title: "Optometry Reception: Elevating Patient Experience"
-description: "The rapidly evolving healthcare landscape has amplified the need for optometrists to provide superior patient experiences. Amid this backdrop, the [...]"
+title: 'Optometry Reception: Elevating Patient Experience'
+description: The rapidly evolving healthcare landscape has amplified the need for
+  optometrists to provide superior patient experiences. Amid this backdrop, the [...]
 publishDate: 2023-11-16
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/optometry-reception-elevating-patient-experience.webp"
-canonical: "https://mybcat.com/blog/optometry-reception-elevating-patient-experience/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/optometry-reception-elevating-patient-experience.webp
+canonical: https://mybcat.com/blog/optometry-reception-elevating-patient-experience/
+relatedPosts: []
 ---
 
 The rapidly evolving healthcare landscape has amplified the need for optometrists to provide superior patient experiences. Amid this backdrop, [specialized optometry patient intake services](https://mybcat.com/industries/optometry/) have emerged as a linchpin, ensuring patients are treated with efficiency and heartfelt care. As the front liners in patient communication, medical receptionists in optometry play an integral role in setting the tone for a patient's journey.

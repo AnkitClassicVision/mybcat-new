@@ -1,29 +1,30 @@
 ---
 title: 'KPI Dashboard for Multi-Location Intake: What to Measure (With Benchmarks)'
-seoTitle: "Multi-Location Intake KPI Dashboard + Benchmarks"
-description: >-
-  The 10 essential intake KPIs every multi-location healthcare group should
-  track, with benchmarks for dental, optometry, and veterinary practices.
-  Includes dashboard template.
-seoDescription: "10 essential intake KPIs for multi-location healthcare with industry benchmarks. Track answer rates, conversion, and more for dental, optometry, and vet."
-publishDate: 2026-01-13T00:00:00.000Z
+seoTitle: Multi-Location Intake KPI Dashboard + Benchmarks
+description: The 10 essential intake KPIs every multi-location healthcare group should
+  track, with benchmarks for dental, optometry, and veterinary practices. Includes
+  dashboard template.
+seoDescription: 10 essential intake KPIs for multi-location healthcare with industry
+  benchmarks. Track answer rates, conversion, and more for dental, optometry, and
+  vet.
+publishDate: 2026-01-13 00:00:00+00:00
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - kpis
-  - dashboard
-  - multi-location
-  - benchmarks
-  - analytics
-  - intake-metrics
+- kpis
+- dashboard
+- multi-location
+- benchmarks
+- analytics
+- intake-metrics
 featuredImage: /images/blog/kpi-dashboard-multi-location-intake.webp
-canonical: 'https://mybcat.com/blog/kpi-dashboard-multi-location-intake/'
+canonical: https://mybcat.com/blog/kpi-dashboard-multi-location-intake/
 relatedPosts:
-  - multi-location-healthcare-intake-guide
-  - ebitda-impact-calculator
-  - missed-calls-revenue-leak-multi-location-healthcare
-  - dso-integration-playbook
+- multi-location-healthcare-intake-guide
+- ebitda-impact-calculator
+- missed-calls-revenue-leak-multi-location-healthcare
+- dso-integration-playbook
 ---
 
 Most multi-location healthcare groups track revenue per location but cannot tell you their call answer rate, new patient conversion rate, or average time to appointment. The result: marketing spend increases while patient acquisition efficiency stays flat. Here are the 10 intake KPIs that top-performing groups track, with benchmarks for dental, optometry, and veterinary practices. For groups seeking comprehensive intake visibility, our [enterprise reporting and QA](/enterprise/reporting-qa/) solution delivers real-time dashboards across all locations.

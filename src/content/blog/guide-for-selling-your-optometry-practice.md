@@ -1,16 +1,27 @@
 ---
-title: "How to Sell Your Optometry Practice in 2025-2026: The Complete Exit Strategy Guide"
-description: "Current valuation multiples, PE acquirer landscape, tax implications, and a 1-3 year preparation timeline for optometry practice owners planning their exit."
+title: 'How to Sell Your Optometry Practice in 2025-2026: The Complete Exit Strategy
+  Guide'
+description: Current valuation multiples, PE acquirer landscape, tax implications,
+  and a 1-3 year preparation timeline for optometry practice owners planning their
+  exit.
 publishDate: 2026-01-20
-status: "published"
-author: "Ankit Patel"
-category: "Practice Management"
-tags: ["optometry", "practice-sale", "valuation", "private-equity", "exit-strategy"]
-featuredImage: "/images/blog/selling-optometry-practice.webp"
-canonical: "https://mybcat.com/blog/guide-for-selling-your-optometry-practice/"
-seoTitle: "How to Sell Your Optometry Practice (2025-2026 Guide)"
-seoDescription: "Complete guide to selling your optometry practice: current valuation multiples (2-3.5x SDE), PE acquirers, tax implications, and preparation timeline."
-relatedPosts: ["the-optometric-practice-valuation-guide-for-buyers-and-sellers", "pre-sale-operational-cleanup-intake-valuation"]
+status: published
+author: Ankit Patel
+category: Practice Management
+tags:
+- optometry
+- practice-sale
+- valuation
+- private-equity
+- exit-strategy
+featuredImage: /images/blog/selling-optometry-practice.webp
+canonical: https://mybcat.com/blog/guide-for-selling-your-optometry-practice/
+seoTitle: How to Sell Your Optometry Practice (2025-2026 Guide)
+seoDescription: 'Complete guide to selling your optometry practice: current valuation
+  multiples (2-3.5x SDE), PE acquirers, tax implications, and preparation timeline.'
+relatedPosts:
+- the-optometric-practice-valuation-guide-for-buyers-and-sellers
+- pre-sale-operational-cleanup-intake-valuation
 ---
 
 Optometry practices typically sell for 2.0x-3.5x seller's discretionary earnings (SDE) or 0.43x-0.75x revenue—though exceptional practices with strong operations can reach 4x+ SDE. A $1 million revenue practice might sell for $430,000 or $750,000 depending on operations, buyer type, and preparation. The difference? Usually not the practice itself, but how transferable and predictable the business looks to buyers.

@@ -17,6 +17,9 @@ tags:
 featuredImage: /images/blog/patient-recall-service.webp
 canonical: https://mybcat.com/blog/patient-recall-service/
 cluster: recall-reactivation
+relatedPosts:
+- dormant-patient-reactivation
+- patient-recall-campaign-framework
 ---
 
 ## Understanding Patient Recall Services
@@ -57,6 +60,12 @@ For more insights on enhancing patient engagement, check out our article on [dor
 A patient recall service is an invaluable tool for healthcare practices aiming to maintain patient engagement and optimize revenue. By understanding when to implement such a service and how to do so effectively, practices can ensure they keep their schedules full.
 
 For more information on our patient recall services, visit [MyBCAT Patient Recall Solutions](https://mybcat.com/solutions/patient-recall/).
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Dormant Patient Reactivation: A 30-Day Playbook](/blog/dormant-patient-reactivation/)
+- [Patient Recall Campaign Framework (2026)](/blog/patient-recall-campaign-framework/)
 
 ## Sources
 

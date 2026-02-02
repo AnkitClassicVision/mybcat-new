@@ -1,13 +1,20 @@
 ---
-title: "Why Your Optometry Needs a Booking Service?"
-description: "In the digital age, convenience, and efficiency are paramount to meeting the expectations of modern patients. For optometrists, implementing a [...]"
+title: Why Your Optometry Needs a Booking Service?
+description: In the digital age, convenience, and efficiency are paramount to meeting
+  the expectations of modern patients. For optometrists, implementing a [...]
 publishDate: 2023-08-16
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/why-your-optometry-needs-a-booking-service.webp"
-canonical: "https://mybcat.com/blog/why-your-optometry-needs-a-booking-service/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/why-your-optometry-needs-a-booking-service.webp
+canonical: https://mybcat.com/blog/why-your-optometry-needs-a-booking-service/
+relatedPosts: []
 ---
 
 In the digital age, convenience, and efficiency are paramount to meeting the expectations of modern patients. For optometrists, implementing a [vision care call center](https://mybcat.com/solutions/medical-virtual-assistant/) is no longer a luxury but a necessity. This streamlined approach offers numerous benefits for both the practice and its patients.

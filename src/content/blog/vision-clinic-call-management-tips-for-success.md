@@ -1,13 +1,20 @@
 ---
-title: "Vision Clinic Call Management: Tips for Success"
-description: "Efficient call management is the cornerstone of a thriving vision clinic. As the first point of contact for patients, your [...]"
+title: 'Vision Clinic Call Management: Tips for Success'
+description: Efficient call management is the cornerstone of a thriving vision clinic.
+  As the first point of contact for patients, your [...]
 publishDate: 2023-11-28
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","call-center","scheduling","outsourcing"]
-featuredImage: "/images/blog/vision-clinic-call-management-tips-for-success.webp"
-canonical: "https://mybcat.com/blog/vision-clinic-call-management-tips-for-success/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- call-center
+- scheduling
+- outsourcing
+featuredImage: /images/blog/vision-clinic-call-management-tips-for-success.webp
+canonical: https://mybcat.com/blog/vision-clinic-call-management-tips-for-success/
+relatedPosts: []
 ---
 
 Efficient call management is the cornerstone of a thriving vision clinic. As the first point of contact for patients, your [eye health reception services](https://mybcat.com/about/) play a crucial role in shaping their experience, ensuring they feel welcomed and valued from the moment they step through our doors.

@@ -1,14 +1,21 @@
 ---
-title: "Compliance and security in utilizing virtual assistants in optometry and ophthalmology"
-seoTitle: "HIPAA Compliance for Virtual Assistants in Eye Care"
-description: "Whether you're hiring a full-time employee (FTE) or virtual assistant (VA), certain core aspects of compliance and security remain the [...]"
+title: Compliance and security in utilizing virtual assistants in optometry and ophthalmology
+seoTitle: HIPAA Compliance for Virtual Assistants in Eye Care
+description: Whether you're hiring a full-time employee (FTE) or virtual assistant
+  (VA), certain core aspects of compliance and security remain the [...]
 publishDate: 2023-07-28
-status: "published"
-author: "Ankit Patel"
-category: "Virtual Staffing"
-tags: ["optometry","virtual-assistant","patient-care","scheduling","outsourcing"]
-featuredImage: "/images/blog/virtual-assistant-compliance-ophthalmology.webp"
-canonical: "https://mybcat.com/blog/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology/"
+status: published
+author: Ankit Patel
+category: Virtual Staffing
+tags:
+- optometry
+- virtual-assistant
+- patient-care
+- scheduling
+- outsourcing
+featuredImage: /images/blog/virtual-assistant-compliance-ophthalmology.webp
+canonical: https://mybcat.com/blog/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology/
+relatedPosts: []
 ---
 
 Whether you're hiring a full-time employee (FTE) or virtual assistant (VA), certain core aspects of compliance and security remain the same. After all, regulations like the Health Insurance Portability and Accountability Act (HIPAA) apply to all healthcare personnel, irrespective of their geographic location or employment status. Similarly, data security principles, such as encryption and secure access controls, are universally applicable.

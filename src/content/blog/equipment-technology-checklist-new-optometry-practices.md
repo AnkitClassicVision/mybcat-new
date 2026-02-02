@@ -1,15 +1,23 @@
 ---
-title: "Equipment and Technology Checklist for New Optometry Practices"
-seoTitle: "Optometry Equipment Checklist | New Practice Startup"
-description: "Essential equipment and technology checklist for starting an optometry practice, from exam room basics to practice management."
-seoDescription: "Complete optometry equipment checklist for new practices. Covers exam room essentials, diagnostic tools, and practice management systems."
+title: Equipment and Technology Checklist for New Optometry Practices
+seoTitle: Optometry Equipment Checklist | New Practice Startup
+description: Essential equipment and technology checklist for starting an optometry
+  practice, from exam room basics to practice management.
+seoDescription: Complete optometry equipment checklist for new practices. Covers exam
+  room essentials, diagnostic tools, and practice management systems.
 publishDate: 2026-01-09
-status: "published"
-author: "Ankit Patel"
-category: "Practice Management"
-tags: ["optometry", "equipment", "technology", "startup", "practice-management"]
-featuredImage: "/images/blog/equipment-technology-checklist-optometry.webp"
-canonical: "https://mybcat.com/blog/equipment-technology-checklist-new-optometry-practices/"
+status: published
+author: Ankit Patel
+category: Practice Management
+tags:
+- optometry
+- equipment
+- technology
+- startup
+- practice-management
+featuredImage: /images/blog/equipment-technology-checklist-optometry.webp
+canonical: https://mybcat.com/blog/equipment-technology-checklist-new-optometry-practices/
+relatedPosts: []
 ---
 
 Starting a new optometric practice requires significant investment in equipment and technology. The choices you make during this phase will affect patient care quality, operational efficiency, and your practice's financial health for years to come. This checklist breaks down what you need, what it costs, and how to prioritize your purchases.

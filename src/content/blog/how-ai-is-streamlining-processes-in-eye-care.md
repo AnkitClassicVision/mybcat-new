@@ -1,13 +1,20 @@
 ---
-title: "How AI is Streamlining Processes in Eye Care"
-description: "AI is transforming eye care operations from scheduling to diagnostics. Learn how practices are using AI to improve efficiency and patient outcomes."
+title: How AI is Streamlining Processes in Eye Care
+description: AI is transforming eye care operations from scheduling to diagnostics.
+  Learn how practices are using AI to improve efficiency and patient outcomes.
 publishDate: 2023-10-05
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/ai-streamlining-eye-care.webp"
-canonical: "https://mybcat.com/blog/how-ai-is-streamlining-processes-in-eye-care/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- growth
+featuredImage: /images/blog/ai-streamlining-eye-care.webp
+canonical: https://mybcat.com/blog/how-ai-is-streamlining-processes-in-eye-care/
+relatedPosts: []
 ---
 
 Like the rest of the world, eye care is being impacted by the opportunities and promises of AI. Throughout the industry, from appointment scheduling to predictive analysis for disease detection, tasks and duties are increasingly being done with AI tools. But while new scheduling software and apps are emerging weekly, promising complete freedom from work, the promise of AI bliss hasn't yet arrived.

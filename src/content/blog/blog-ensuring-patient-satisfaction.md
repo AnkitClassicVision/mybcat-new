@@ -1,13 +1,19 @@
 ---
-title: "Building Patient Loyalty Through Great Service"
-description: "The awkward truth about patient satisfaction: it has almost nothing to do with clinical outcomes and everything to do with how people feel."
+title: Building Patient Loyalty Through Great Service
+description: 'The awkward truth about patient satisfaction: it has almost nothing
+  to do with clinical outcomes and everything to do with how people feel.'
 publishDate: 2025-01-23
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","growth"]
-featuredImage: "/images/blog/happy-ophthalmologist-using-testing-eyeglasses-dur-2024-12-14-04-14-56-utc-1.webp"
-canonical: "https://mybcat.com/blog/blog-ensuring-patient-satisfaction/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- growth
+featuredImage: /images/blog/happy-ophthalmologist-using-testing-eyeglasses-dur-2024-12-14-04-14-56-utc-1.webp
+canonical: https://mybcat.com/blog/blog-ensuring-patient-satisfaction/
+relatedPosts: []
 ---
 
 Here's an uncomfortable truth I learned running Classic Vision Care: you can give someone a perfect refraction, catch early glaucoma, and save their vision—and they'll still leave a one-star review because your receptionist seemed rushed on the phone.

@@ -1,13 +1,20 @@
 ---
-title: "Outsourcing as a Growth Strategy for Eye Care"
-description: "A decade ago, the word 'outsourcing’ seemed alien to many eye care professionals. Today, it's firmly part of many successful [...]"
+title: Outsourcing as a Growth Strategy for Eye Care
+description: A decade ago, the word 'outsourcing’ seemed alien to many eye care professionals.
+  Today, it's firmly part of many successful [...]
 publishDate: 2023-09-07
-status: "published"
-author: "Ankit Patel"
-category: "Technology"
-tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
-featuredImage: "/images/blog/outsourcing-growth-strategy.webp"
-canonical: "https://mybcat.com/blog/outsourcing-as-a-business-growth-strategy-for-eye-care-clinics/"
+status: published
+author: Ankit Patel
+category: Technology
+tags:
+- optometry
+- patient-care
+- scheduling
+- outsourcing
+- growth
+featuredImage: /images/blog/outsourcing-growth-strategy.webp
+canonical: https://mybcat.com/blog/outsourcing-as-a-business-growth-strategy-for-eye-care-clinics/
+relatedPosts: []
 ---
 
 A decade ago, the word 'outsourcing’ seemed alien to many eye care professionals. Today, it's firmly part of many successful optometry businesses across the U.S. Adopting outsourcing as a strategy provides avenues for streamlined operations and growth. Here, we delve into the nuances of a successful outsourcing strategy tailored to the specific needs of eye care clinics.
