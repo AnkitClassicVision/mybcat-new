@@ -1,34 +1,21 @@
 ---
-status: scheduled
-publishDate: '2026-02-19'
-author: Ankit Patel
-category: Practice Growth
-cluster: retention
-featuredImage: /images/blog/reducingpatientchurninhealthcare.webp
-canonical: https://mybcat.com/blog/reducingpatientchurninhealthcare/
-scheduledDate: '2026-02-19'
----
-
-I have all the research I need. Let me now write the complete blog post following the 17-stage pipeline, incorporating enterprise framing and using only verified internal links from the provided list.
-
----
 title: "Reducing Patient Churn in Healthcare at Scale"
 seoTitle: "Reducing Patient Churn in Multi-Location Healthcare"
 description: "Multi-location healthcare groups lose millions to patient churn. Learn proven strategies to reduce attrition across 3+ locations with centralized systems."
 seoDescription: "Learn how DSOs and healthcare groups reduce patient churn across multiple locations using centralized recall systems and data-driven retention strategies."
 publishDate: '2026-02-19'
-status: "scheduled"
+status: scheduled
 scheduledDate: '2026-02-19'
-author: "Ankit Patel"
-category: "Practice Growth"
+author: Ankit Patel
+category: Practice Growth
 tags:
   - "reducing patient churn in healthcare"
   - "multi-location"
   - "enterprise operations"
   - "healthcare scale"
-cluster: "retention"
-featuredImage: "/images/blog/reducingpatientchurninhealthcare.webp"
-canonical: "https://mybcat.com/blog/reducingpatientchurninhealthcare/"
+cluster: retention
+featuredImage: /images/blog/reducingpatientchurninhealthcare.webp
+canonical: https://mybcat.com/blog/reducingpatientchurninhealthcare/
 ---
 
 Multi-location healthcare groups lose between 15% and 30% of their patient base annually to churn. For a 10-location dental group with 2,000 patients per site, that translates to 3,000 to 6,000 lost patients each year. At an average patient lifetime value of $4,000, that quiet erosion costs $12 million to $24 million in potential revenue. This guide breaks down how operations leaders at DSOs, veterinary networks, and optometry chains can standardize patient retention across every location.
