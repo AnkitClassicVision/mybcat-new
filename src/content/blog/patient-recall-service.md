@@ -74,13 +74,13 @@ The financial impact of recall performance is significant and measurable.
 
 **Revenue impact example:**
 
-A practice with 4,000 annual hygiene visits (2,000 patients on 6-month intervals) at 70% recall rate:
+A practice with 4,000 annual hygiene visit opportunities (2,000 patients eligible for 6-month recalls) at 70% recall rate:
 - 1,200 missed visits annually (30% of 4,000)
 - At $175 average hygiene revenue: **$210,000 in lost hygiene production**
 - Plus missed restorative treatment identified during hygiene exams
 - Plus lost referrals from disengaged patients
 
-Research from Practice Analytics indicates that improving recall rate by 10 percentage points adds $50,000-$100,000 in annual revenue for a typical practice. For multi-location groups, multiply that across every site.
+Industry research indicates that improving recall rate by 10 percentage points adds $50,000-$100,000 in annual revenue for a typical dental practice. For multi-location groups, multiply that across every site.
 
 ## Types of Patient Recall Services
 
@@ -291,7 +291,7 @@ Even accounting for patients who would have scheduled anyway, the incremental re
 Patient recall services help healthcare practices bring back patients who are due or overdue for appointments. For multi-location groups, the key points:
 
 - Existing patients generate up to 80% of practice revenue, making recall essential
-- Average practices achieve 55-65% recall rates; top performers reach 85-90%+
+- Many practices achieve only 55-65% recall rates; top performers reach 85-90%+
 - Each 10-point improvement in recall rate adds $50,000-$100,000 annually per location
 - In-house recall works for small practices with dedicated staff and strong execution
 - Outsourced recall works for multi-location groups needing consistency and scale
