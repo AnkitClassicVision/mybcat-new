@@ -60,6 +60,30 @@ const isHomepage = pathname === '/';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  {/* Disable Vercel Insights injection on privacy-sensitive pages */}
+  {disableTracking && (
+    <script is:inline>
+      (function () {
+        try {
+          var original = HTMLHeadElement.prototype.appendChild;
+          HTMLHeadElement.prototype.appendChild = function (node) {
+            try {
+              if (
+                node &&
+                node.tagName === 'SCRIPT' &&
+                typeof node.src === 'string' &&
+                node.src.indexOf('/_vercel/insights/script.js') !== -1
+              ) {
+                return node;
+              }
+            } catch (e) {}
+            return original.call(this, node);
+          };
+        } catch (e) {}
+      })();
+    </script>
+  )}
+
   {/* Critical CSS - inlined for faster FCP */}
   <style is:inline>
     @font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:fallback;src:url('/fonts/inter-latin-400-normal.woff2') format('woff2')}
