@@ -37,7 +37,7 @@ const relatedSolutions = study.relatedSolutions
 const articleSchema = generateArticleSchema({
   headline: study.title,
   description: study.challenge.slice(0, 160),
-  image: study.featuredImage || '/images/case-study-default.jpg',
+  image: study.featuredImage || '/images/og-home.jpg',
   author: 'mybcat Team',
   datePublished: '2024-01-01',
   url: `${company.site.url}/case-studies/${study.slug}/`
