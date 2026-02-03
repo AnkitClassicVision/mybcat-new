@@ -1,11 +1,15 @@
 ---
-title: "Automated vs Human Patient Recall: Data-Driven Comparison"
-seoTitle: "Automated vs Human Patient Recall: Data-Driven Comparison Guide"
-description: "Live calls achieve 32% completion vs 17% for automated texts, but automation costs 55-65% less. Learn when to use each approach."
-seoDescription: "Compare automated vs human patient recall with research-backed statistics. Learn which approach works best for multi-location healthcare groups and when to use hybrid strategies."
-publishDate: '2026-02-03'
-status: scheduled
-scheduledDate: '2026-02-03'
+title: 'Automated vs Human Patient Recall: Data-Driven Comparison'
+seoTitle: 'Automated vs Human Patient Recall: Data-Driven Comparison Guide'
+description: >-
+  Live calls achieve 32% completion vs 17% for automated texts, but automation
+  costs 55-65% less. Learn when to use each approach.
+seoDescription: >-
+  Compare automated vs human patient recall with research-backed statistics.
+  Learn which approach works best for multi-location healthcare groups and when
+  to use hybrid strategies.
+publishDate: '2026-02-03T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
@@ -15,7 +19,7 @@ tags:
   - multi-location healthcare
   - DSO operations
 featuredImage: /images/blog/automated-vs-human-patient-recall.webp
-canonical: https://mybcat.com/blog/automated-vs-human-patient-recall/
+canonical: 'https://mybcat.com/blog/automated-vs-human-patient-recall/'
 cluster: recall-reactivation
 relatedPosts:
   - patient-recall-service
