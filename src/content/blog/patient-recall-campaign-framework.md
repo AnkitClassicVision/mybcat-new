@@ -1,26 +1,24 @@
 ---
-title: Patient Recall Campaign Framework (2026)
-seoTitle: Patient Recall Campaign Framework (2026 Guide)
-description: Build a patient recall campaign that works. Proven strategies to reactivate
-  dormant patients and improve practice revenue.
-seoDescription: Build a patient recall campaign that reactivates dormant patients.
-  Proven strategies and scripts to improve practice revenue and retention.
+title: "Patient Recall Campaign Framework: Step-by-Step Guide"
+seoTitle: "Patient Recall Campaign Framework: Step-by-Step Guide"
+description: "Build a patient recall campaign that works. The complete framework for identifying dormant patients, multi-channel outreach sequencing, and achieving 20%+ reactivation rates."
+seoDescription: "Patient recall campaign framework with step-by-step implementation. Multi-channel sequencing, messaging templates, and metrics for healthcare practices."
 publishDate: '2026-01-29'
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-- patient recall
-- patient reactivation
-- healthcare marketing
-- dormant patients
-- recall campaigns
+  - patient recall
+  - reactivation
+  - practice growth
+  - healthcare
 featuredImage: /images/blog/patient-recall-campaign-framework.webp
 canonical: https://mybcat.com/blog/patient-recall-campaign-framework/
 cluster: recall-reactivation
 relatedPosts:
-- patient-recall-service
-- dormant-patient-reactivation
+  - patient-recall-service
+  - dormant-patient-reactivation
+  - patient-reactivation-campaign-timeline
 ---
 
 Healthcare practices lose 10-17% of their patient base every year to attrition. For a practice with 2,000 active patients and an average lifetime value of $4,200, that translates to $840,000 walking out the door annually. The solution is not more marketing spend on new patient acquisition. It is a systematic patient recall campaign that brings dormant patients back at a fraction of the cost.
@@ -284,13 +282,9 @@ Patient recall does not exist in isolation. It connects to every other aspect of
 
 ## Related Reading
 
-- [Dormant Patient Reactivation: The Complete Guide](/blog/dormant-patient-reactivation/)
-
-## Related Reading
-
-- [Patient Recall Solution](/solutions/patient-recall/)
 - [Patient Recall Service: What It Is and When You Need It](/blog/patient-recall-service/)
 - [Dormant Patient Reactivation: A 30-Day Playbook](/blog/dormant-patient-reactivation/)
+- [Patient Reactivation Campaign Timeline: 7 Days to 90 Days](/blog/patient-reactivation-campaign-timeline/)
 
 ## Sources
 
