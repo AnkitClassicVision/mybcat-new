@@ -21,6 +21,7 @@ interface Props {
   modifiedDate?: Date;
   author?: string;
   noindex?: boolean;
+  disableTracking?: boolean;
   navMode?: 'full' | 'minimal' | 'hidden';
   lcpImage?: string; // Preload hint for Largest Contentful Paint image
 }
@@ -35,6 +36,7 @@ const {
   modifiedDate,
   author = company.ownership.founder,
   noindex = false,
+  disableTracking = false,
   navMode = 'full',
   lcpImage
 } = Astro.props;
@@ -135,9 +137,13 @@ const isHomepage = pathname === '/';
 
   <!-- DNS prefetch for third-party resources -->
   <link rel="dns-prefetch" href="https://js.hsforms.net">
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-  <link rel="dns-prefetch" href="https://va.vercel-scripts.com">
-  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  {!disableTracking && (
+    <>
+      <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+      <link rel="dns-prefetch" href="https://va.vercel-scripts.com">
+      <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    </>
+  )}
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -155,7 +161,7 @@ const isHomepage = pathname === '/';
 </head>
 <body>
   <a href="#main-content" class="skip-to-content">Skip to main content</a>
-  <GoogleTagManagerNoScript />
+  {!disableTracking && <GoogleTagManagerNoScript />}
   {navMode !== 'hidden' && <Nav currentPath={Astro.url.pathname} />}
 
   <slot />
@@ -165,6 +171,6 @@ const isHomepage = pathname === '/';
   <slot name="footer-scripts" />
 
   {/* GTM moved to end of body for better FCP */}
-  <GoogleTagManager />
+  {!disableTracking && <GoogleTagManager />}
 </body>
 </html>

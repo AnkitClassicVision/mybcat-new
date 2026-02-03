@@ -1,0 +1,31 @@
+---
+/**
+ * IDOC Connections 2026 - Booth / Kiosk mode
+ * Minimal distractions, form-first.
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import IdocConnections2026Landing from '@/components/landing/IdocConnections2026Landing.astro';
+---
+
+<BaseLayout
+  title="IDOC Connections 2026 Booth Signup | MyBCAT"
+  description="Booth signup: get the missed-call opportunity snapshot + AI in Optometry deck from MyBCAT."
+  canonical="https://mybcat.com/idoc-connections-2026/"
+  noindex={true}
+  navMode="hidden"
+  disableTracking={true}
+>
+  <!-- Preconnect to HubSpot for faster form loading -->
+  <link rel="preconnect" href="https://js.hsforms.net" slot="head" />
+  <link rel="preconnect" href="https://forms.hsforms.com" slot="head" />
+  <link rel="dns-prefetch" href="https://js.hsforms.net" slot="head" />
+  <link rel="dns-prefetch" href="https://forms.hsforms.com" slot="head" />
+
+  <IdocConnections2026Landing variant="booth" />
+</BaseLayout>
+
+<style>
+  :global(.site-footer) {
+    display: none;
+  }
+</style>
