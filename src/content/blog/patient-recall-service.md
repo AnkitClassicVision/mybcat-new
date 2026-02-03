@@ -311,8 +311,9 @@ The question is not whether recall matters. The question is whether your current
 ## Sources
 
 - [Jarvis Analytics: Hygiene Recalls for DSOs](https://www.jarvisanalytics.com/blog/hygiene-recalls/)
-- [Practice Analytics: Improving Patient Recall](https://practiceanalytics.com/improving-patient-recall-increases-practice-profitability/)
-- [DentX: Dental Recall Rate Benchmarks](https://dentx.ca/blog/dental-recall-rate-benchmarks/)
+- [DocResponse: Patient Recall Systems](https://docresponse.com/blog/patient-recall-system/)
+- [Relatient: Patient Recalls and Automated Scheduling](https://www.relatient.com/patient-recalls-automated-scheduling/)
 - [NexHealth: Scaling DSO with Technology](https://www.nexhealth.com/resources/scaling-dso-with-technology)
 - [Emitrr: Patient Recall Guide](https://emitrr.com/blog/patient-recall/)
 - [Group Dentistry Now: Text Reminders for DSOs](https://www.groupdentistrynow.com/dso-group-blog/how-text-reminders-encourage-recurring-patients-in-your-dso/)
+- [Vital Interaction: Hyper-Personalization in Patient Recall](https://www.vitalinteraction.com/the-importance-of-hyper-personalization-in-patient-recall-reactivation-and-retention-strategies/)
