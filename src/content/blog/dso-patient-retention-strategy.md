@@ -1,8 +1,8 @@
 ---
 title: "DSO Patient Retention Strategy: Scaling to 10+ Locations"
-seoTitle: "DSO Patient Retention Strategy: Scaling Recall for 10+ Locations"
+seoTitle: "DSO Patient Retention Strategy: Scaling Recall for 10+"
 description: "DSOs with 10+ locations build retention systems that achieve 80%+ recall rates. Centralized tech and standardized workflows."
-seoDescription: "DSO patient retention strategy for 10+ locations. Benchmarks, centralized tech stacks, standardized workflows, and accountability frameworks achieving 80%+ recall rates."
+seoDescription: "DSO patient retention strategy for 10+ locations. Benchmarks, centralized tech stacks, standardized workflows, and accountability frameworks achieving 80%+"
 publishDate: '2026-02-15'
 status: scheduled
 scheduledDate: '2026-02-15'

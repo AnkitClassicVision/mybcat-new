@@ -2,7 +2,7 @@
 title: "Patient Recall Scripts: Phone and SMS Templates That Get Results"
 seoTitle: "Patient Recall Scripts: Phone & SMS Templates for Healthcare"
 description: "Patient recall scripts for phone and SMS that increase response rates by 20-30%. Includes objection handling and timing."
-seoDescription: "Copy-and-paste patient recall scripts for phone and SMS. Includes templates for overdue patients, no-shows, objection handling, and multi-location healthcare groups."
+seoDescription: "Copy-and-paste patient recall scripts for phone and SMS. Includes templates for overdue patients, no-shows, objection handling, and multi-location healthcare"
 publishDate: '2026-02-05'
 status: scheduled
 scheduledDate: '2026-02-05'

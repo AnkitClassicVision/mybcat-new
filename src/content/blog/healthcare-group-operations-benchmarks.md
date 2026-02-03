@@ -2,7 +2,7 @@
 title: "Healthcare Operations Benchmarks: What Top DSOs Track"
 seoTitle: "Healthcare Group Operations Benchmarks: Top DSO Metrics"
 description: "Benchmarks that distinguish top DSOs from average. Financial, operational, and patient metrics for 10+ locations."
-seoDescription: "Healthcare group operations benchmarks for DSOs. Target ranges for EBITDA margins, provider productivity, patient retention, and revenue metrics that top-performing groups track."
+seoDescription: "Healthcare group operations benchmarks for DSOs. Target ranges for EBITDA margins, provider productivity, patient retention, and revenue metrics that"
 publishDate: '2026-02-11'
 status: scheduled
 scheduledDate: '2026-02-11'

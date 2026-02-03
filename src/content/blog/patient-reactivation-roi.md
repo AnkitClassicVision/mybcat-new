@@ -2,7 +2,7 @@
 title: "Patient Reactivation ROI: Simple Calculation Framework"
 seoTitle: "Patient Reactivation ROI: Calculate Your Campaign Returns"
 description: "Patient reactivation costs 5-25x less than acquisition. ROI formula, benchmarks (50-140x returns), and measurement framework."
-seoDescription: "Calculate patient reactivation ROI with this simple framework. Reactivation costs 5-25x less than acquisition, with top campaigns achieving 50-140x returns. Includes formulas and benchmarks."
+seoDescription: "Calculate patient reactivation ROI with this simple framework. Reactivation costs 5-25x less than acquisition, with top campaigns achieving 50-140x returns."
 publishDate: '2026-02-13'
 status: scheduled
 scheduledDate: '2026-02-13'

@@ -2,7 +2,7 @@
 title: "Scaling Optometry Network Operations: 5 to 50 Locations"
 seoTitle: "Scaling Optometry Network Operations: 5 to 50 Locations"
 description: "Playbook for scaling optometry networks from 5 to 50+ locations. Tech, staffing, and retention strategies."
-seoDescription: "Scaling optometry network operations from 5 to 50 locations. Technology infrastructure, standardization, patient retention, and operational playbook for vision care groups."
+seoDescription: "Scaling optometry network operations from 5 to 50 locations. Technology infrastructure, standardization, patient retention, and operational playbook for vision"
 publishDate: '2026-02-09'
 status: scheduled
 scheduledDate: '2026-02-09'

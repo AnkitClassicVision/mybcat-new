@@ -1,8 +1,8 @@
 ---
 title: "Appointment Reminder Best Practices: Reduce No-Shows 20-50%"
-seoTitle: "Appointment Reminder Best Practices: Reduce No-Shows by 20-50%"
+seoTitle: "Appointment Reminder Best Practices: Reduce No-Shows"
 description: "64% of patients prefer text reminders. Timing, frequency, and strategies that reduce no-shows 20-50% without annoying patients."
-seoDescription: "Appointment reminder best practices that reduce healthcare no-shows by 20-50%. Optimal timing (3-day, 1-day, same-day), channel preferences, and HIPAA-compliant templates."
+seoDescription: "Appointment reminder best practices that reduce healthcare no-shows by 20-50%. Optimal timing (3-day, 1-day, same-day), channel preferences"
 publishDate: '2026-02-16'
 status: scheduled
 scheduledDate: '2026-02-16'

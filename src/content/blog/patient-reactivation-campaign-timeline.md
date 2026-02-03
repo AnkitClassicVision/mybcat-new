@@ -2,7 +2,7 @@
 title: "Patient Reactivation Campaign Timeline: From 7 Days to 90 Days"
 seoTitle: "Patient Reactivation Campaign Timeline: 7-90 Day Framework"
 description: "Reactivation timeline that achieves 20-30% recovery. Day-by-day cadence from week 1 to 12 with escalation triggers."
-seoDescription: "Day-by-day patient reactivation campaign timeline from 7 to 90 days. Multi-channel outreach cadence achieving 20-30% recovery rates for healthcare practices and multi-location groups."
+seoDescription: "Day-by-day patient reactivation campaign timeline from 7 to 90 days. Multi-channel outreach cadence achieving 20-30% recovery rates for healthcare practices"
 publishDate: '2026-02-20'
 status: scheduled
 scheduledDate: '2026-02-20'

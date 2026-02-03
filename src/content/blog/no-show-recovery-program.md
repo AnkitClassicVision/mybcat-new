@@ -1,8 +1,8 @@
 ---
 title: "No-Show Recovery Program: Multi-Location Guide to Schedule Gaps"
-seoTitle: "No-Show Recovery Program: Fill Schedule Gaps & Recover Revenue"
+seoTitle: "No-Show Recovery Program: Fill Schedule Gaps & Recover"
 description: "No-shows cost US healthcare $150B yearly. Multi-location groups see up to 70% reduction with recovery programs. Learn the framework."
-seoDescription: "Build a no-show recovery program that reduces missed appointments by up to 70%. Includes statistics, rebooking strategies, and technology requirements for multi-location healthcare groups."
+seoDescription: "Build a no-show recovery program that reduces missed appointments by up to 70%. Includes statistics, rebooking strategies, and technology requirements"
 publishDate: '2026-02-04'
 status: scheduled
 scheduledDate: '2026-02-04'

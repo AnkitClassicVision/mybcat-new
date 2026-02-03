@@ -1,13 +1,11 @@
 ---
 title: 'Automated vs Human Patient Recall: Data-Driven Comparison'
-seoTitle: 'Automated vs Human Patient Recall: Data-Driven Comparison Guide'
+seoTitle: 'Automated vs Human Patient Recall: Data-Driven Comparison'
 description: >-
   Live calls achieve 32% completion vs 17% for automated texts, but automation
   costs 55-65% less. Learn when to use each approach.
 seoDescription: >-
-  Compare automated vs human patient recall with research-backed statistics.
-  Learn which approach works best for multi-location healthcare groups and when
-  to use hybrid strategies.
+  Compare automated vs human patient recall using research-backed stats. Learn what works for multi-location healthcare groups and when to use a hybrid approach.
 publishDate: '2026-02-03T00:00:00.000Z'
 status: published
 author: Ankit Patel

@@ -2,7 +2,7 @@
 title: "Healthcare Call Center ROI: Enterprise Calculation Framework"
 seoTitle: "Healthcare Call Center ROI: Enterprise Calculation Framework"
 description: "Framework for calculating healthcare call center ROI at enterprise scale. Cost components and revenue benchmarks."
-seoDescription: "Healthcare call center ROI calculation framework for enterprise. Cost components, revenue attribution, patient retention value, and benchmarks achieving 40-100%+ ROI."
+seoDescription: "Healthcare call center ROI calculation framework for enterprise. Cost components, revenue attribution, patient retention value, and benchmarks achieving"
 publishDate: '2026-02-08'
 status: scheduled
 scheduledDate: '2026-02-08'

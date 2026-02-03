@@ -2,7 +2,7 @@
 title: "Case Study: 12-Location Optometry Group Recovered $312K"
 seoTitle: "Case Study: Dormant Patient Recovery Without Discounting"
 description: "12-location optometry group recovered 847 dormant patients, $312K revenue in 90 days, no discounts. The exact playbook."
-seoDescription: "Real case study: 12-location optometry group reactivated 847 dormant patients, generated $312K revenue in 90 days without discounting. See the exact campaign framework and results."
+seoDescription: "Real case study: 12-location optometry group reactivated 847 dormant patients, generated $312K revenue in 90 days without discounting. See the exact campaign"
 publishDate: '2026-02-17'
 status: scheduled
 scheduledDate: '2026-02-17'

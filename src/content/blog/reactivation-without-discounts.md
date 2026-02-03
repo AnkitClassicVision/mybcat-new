@@ -2,7 +2,7 @@
 title: "Reactivation Without Discounts: Scripts and Offers That Work"
 seoTitle: "Reactivation Without Discounts: Scripts and Offers That Work"
 description: "Reactivate dormant patients without discounts. Value-driven scripts and messaging that bring patients back."
-seoDescription: "Patient reactivation strategies without discounts. Scripts, messaging templates, and value-driven offers that bring dormant patients back while protecting your margins."
+seoDescription: "Patient reactivation strategies without discounts. Scripts, messaging templates, and value-driven offers that bring dormant patients back while protecting your"
 publishDate: '2026-02-23'
 status: scheduled
 scheduledDate: '2026-02-23'
