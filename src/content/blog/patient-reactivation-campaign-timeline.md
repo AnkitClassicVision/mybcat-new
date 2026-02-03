@@ -258,7 +258,7 @@ The 90-day campaign maximizes reactivation from a dormant list through sustained
 **90-day campaign benchmarks:**
 - Overall contact rate: 90-95%
 - Response rate: 25-35%
-- Booking rate: 20-28%
+- Booking rate: 22-32%
 - Reactivation rate: 20-30%
 - Best for: Annual database cleanout, major initiatives
 
@@ -339,8 +339,8 @@ Campaign timeline selection depends on your goals and resources:
 - **90-day comprehensive:** Maximum recovery for annual initiatives (20-30% reactivation)
 
 **Universal principles:**
-- Multiple touches outperform single contact (4-5x better)
-- Multi-channel reaches 95%+ of patients
+- Multiple touches outperform single contact (2-3x better)
+- Multi-channel reaches 90-95% of patients
 - Phone calls convert highest for non-responders
 - Segment by dormancy and value for resource allocation
 - Track weekly and optimize mid-campaign

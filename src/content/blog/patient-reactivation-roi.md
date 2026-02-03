@@ -27,7 +27,7 @@ Reactivating a dormant patient costs 5-25x less than acquiring a new one. Yet mo
 
 ## The Financial Case for Reactivation
 
-Before diving into calculations, understand why reactivation investment matters:
+Before reviewing calculations, understand why reactivation investment matters:
 
 **Reactivation vs. acquisition economics:**
 
@@ -219,15 +219,15 @@ OUTPUTS
 Patients reactivated:          150
 Total SMS cost:                $160
 Total phone cost:              $1,050 (70% called)
-Total postcard cost:           $30 (20% mailed)
-Total campaign cost:           $1,240
-Cost per reactivation:         $8.27
+Total postcard cost:           $20 (20% mailed)
+Total campaign cost:           $1,230
+Cost per reactivation:         $8.20
 
 First-year revenue:            $90,000
-First-year ROI:                7,158% (72x)
+First-year ROI:                7,217% (72x)
 
 Lifetime value recovered:      $375,000
-LTV-adjusted ROI:              30,142% (302x)
+LTV-adjusted ROI:              30,388% (304x)
 ```
 
 ## ROI by Patient Segment

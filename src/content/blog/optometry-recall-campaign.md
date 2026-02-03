@@ -2,7 +2,7 @@
 title: "Optometry Recall Campaign: Beat the January Slump"
 seoTitle: "Optometry Recall Campaign: Beat the January Slump"
 description: "Top optometry practices achieve 85-87% recall rates and 140x ROI. Strategies to fill schedules during the January slump."
-seoDescription: "Optometry recall campaigns can achieve 85% recall rates and 50x+ ROI. Learn timing, messaging, and multi-channel strategies to fill the January slump and recover $428K+ in lapsed patient revenue."
+seoDescription: "Optometry recall campaigns can achieve 85% recall rates and 50x+ ROI. Learn timing, messaging, and multi-channel strategies to fill the January slump and recover $840K+ in lapsed patient revenue."
 publishDate: '2026-02-10'
 status: scheduled
 scheduledDate: '2026-02-10'
@@ -26,10 +26,10 @@ The January slump hits optometry practices hard. Post-holiday slowdowns leave sc
 
 ## The Cost of Ignoring Optometry Recall
 
-Before diving into campaign tactics, understand what poor recall costs your practice:
+Before covering campaign tactics, understand what poor recall costs your practice:
 
 **Patient lifetime value at stake:**
-The average optometry patient has a lifetime value of approximately $4,200. For a practice with 2,000 active patients experiencing industry-average attrition (10-17% annually), that represents $840,000 in lost revenue each year from patients who drift away without active recall.
+The average optometry patient has a lifetime value of approximately $4,200. For a practice with 2,000 active patients experiencing 10% annual attrition (conservative industry estimate), that represents $840,000 in lost revenue each year from patients who drift away without active recall. At higher attrition rates (15-17%), losses can exceed $1.2 million annually.
 
 **The exam-to-eyewear connection:**
 Recall does not just recover exam revenue. Patients who return for annual exams also purchase eyewear and contact lenses. Practices with strong recall (87% rate) report average revenue per patient (ARPP) of $630, compared to $210 at practices with poor recall, a 3x difference.
@@ -40,7 +40,7 @@ Recall does not just recover exam revenue. Patients who return for annual exams 
 | Recall rate | 62% | 85-87% |
 | Complete exams per 100 active patients | 43 | 51+ |
 | Reactivation rate (dormant patients) | 15-20% | 25-30% |
-| No-show reduction with reminders |: | 50-85% |
+| No-show reduction with reminders | N/A | 50-85% |
 
 ## Understanding the January Slump
 
@@ -136,7 +136,7 @@ For patients with no valid phone/email, send a postcard:
 
 ## Multi-Channel Campaign Strategy
 
-Research shows multi-channel campaigns outperform single-channel by 2-3x. Here is how to optimize each channel:
+Industry data shows multi-channel campaigns typically outperform single-channel approaches significantly. Here is how to optimize each channel:
 
 ### SMS (Highest Engagement)
 

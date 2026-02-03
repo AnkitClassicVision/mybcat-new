@@ -56,7 +56,7 @@ Expected EBITDA: $200,000
 
 Post-acquisition scenario (25% patient loss):
 Revenue: $900,000 (-25%)
-EBITDA: $75,000 (-62%)
+EBITDA: $75,000 (-63%)
 Debt service: $96,000/year
 Cash flow: Negative
 ```
@@ -294,11 +294,11 @@ At close: $600,000
 
 **Example:**
 ```
-Total potential consideration: $900,000
+Total potential consideration: $800,000
 At close: $500,000
-Year 1 earnout: 10% of collections over $800K (up to $120K)
-Year 2 earnout: 10% of collections over $800K (up to $120K)
-Year 3 earnout: 8% of collections over $800K (up to $60K)
+Year 1 earnout: 10% of collections over $800K (up to $100K)
+Year 2 earnout: 10% of collections over $800K (up to $100K)
+Year 3 earnout: 8% of collections over $800K (up to $100K)
 ```
 
 ### Structure 3: Price Reduction

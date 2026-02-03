@@ -1,11 +1,11 @@
 ---
-title: 'Case Study: How a 15-Location DSO Reduced Missed Calls by 60% Post-Acquisition'
-seoTitle: 'DSO Case Study: 60% Fewer Missed Calls, $108K/Mo'
+title: 'Case Study: How a 15-Location DSO Reduced Missed Calls by 81% Post-Acquisition'
+seoTitle: 'DSO Case Study: 81% Fewer Missed Calls, $108K/Mo'
 description: A PE-backed dental group recovering $108,000 monthly by standardizing
   intake across 15 locations. Real metrics, implementation timeline, and lessons for
   DSO operators.
 seoDescription: See how a 15-location DSO recovered $108,000/month by reducing missed
-  calls 60%. Real metrics and 90-day implementation timeline for dental groups.
+  calls 81%. Real metrics and 90-day implementation timeline for dental groups.
 publishDate: 2026-01-10 00:00:00+00:00
 status: published
 author: Ankit Patel
@@ -28,7 +28,7 @@ relatedPosts:
 
 *This case study illustrates the potential impact of centralized intake optimization, using realistic metrics based on industry data and typical DSO performance patterns. While not a specific MyBCAT client engagement, it demonstrates what multi-location dental groups can achieve with a solution like ours.*
 
-A 15-location [dental](/industries/dental/) group was losing 42 calls per day. Within 90 days of implementing centralized intake, they captured 33 of those calls and converted them into $108,000 in monthly revenue. Their answer rate jumped from 62% to 95%, and their PE sponsor finally saw the same-store growth numbers they had been demanding.
+A 15-location [dental](/industries/dental/) group was losing 42 calls per day. Within 90 days of implementing centralized intake, they captured 34 of those calls and converted them into $108,000 in monthly revenue. Their answer rate jumped from 62% to 95%, and their PE sponsor finally saw the same-store growth numbers they had been demanding.
 
 This case study breaks down exactly how a DSO could achieve these results.
 
@@ -64,7 +64,7 @@ The dental group had recently acquired five practices and was struggling to inte
 
 The COO described the situation: "We were spending $85,000 per month on marketing across all locations, but new patient numbers weren't moving. We knew something was broken, but we couldn't see where the leak was."
 
-Industry data backs up this experience. Research from Resonate shows that dental practices miss approximately 30-35% of incoming calls on average, with the figure climbing above 50% during peak periods. Each missed new patient call represents roughly $850 in immediate revenue and $8,000 or more in lifetime value.
+Industry data backs up this experience. Research from Resonate shows that dental practices miss approximately 30-35% of incoming calls on average, with the figure climbing above 50% during peak periods. Each missed new patient call represents roughly $1,000 in immediate revenue and $8,000 or more in lifetime value.
 
 For a 15-location group, even a 30% missed call rate translates to massive revenue loss.
 

@@ -23,17 +23,17 @@ relatedPosts:
   - patient-recall-service
 ---
 
-The difference between a text message that gets ignored and one that brings a patient back often comes down to 160 characters. SMS achieves a 98% open rate (compared to 12% for email) and 90% of texts are read within three minutes. Yet many healthcare reactivation messages sound robotic, impersonal, or worse, like spam. This guide provides ready-to-use reactivation text message templates that feel personal, respect HIPAA compliance, and convert dormant patients back to active status.
+The difference between a text message that gets ignored and one that brings a patient back often comes down to the words you choose. SMS achieves a 98% open rate (compared to 20-30% for email) and 90% of texts are read within three minutes. Yet many healthcare reactivation messages sound robotic, impersonal, or worse, like spam. This guide provides ready-to-use reactivation text message templates that feel personal, respect HIPAA compliance, and convert dormant patients back to active status.
 
 ## Why SMS Works for Patient Reactivation
 
-Before diving into templates, understand why text messaging outperforms other channels for reactivation:
+Before reviewing templates, understand why text messaging outperforms other channels for reactivation:
 
 **SMS engagement statistics:**
 
 | Metric | Value | Comparison |
 |--------|-------|------------|
-| Open rate | 98% | Email: 12% |
+| Open rate | 98% | Email: 20-30% |
 | Read within 3 minutes | 90% | Email: hours to days |
 | Personalization impact | +70% response | vs. generic messages |
 | Patient preference | 93% | opt in for healthcare SMS |
@@ -82,7 +82,7 @@ Hi [First Name], this is [Practice Name]. We noticed it's been a while
 since your last visit. Just checking in. How have you been? Reply YES
 if you'd like to schedule, or call us at [phone]. Reply STOP to opt out.
 ```
-**Character count:** 225 | **Tone:** Caring, conversational
+**Character count:** ~213 (may span 2 SMS segments) | **Tone:** Caring, conversational
 
 **Template 1B: The We-Miss-You**
 ```
@@ -90,7 +90,7 @@ if you'd like to schedule, or call us at [phone]. Reply STOP to opt out.
 [exam/cleaning/checkup] is overdue. We have openings this week.
 Reply YES to schedule or call [phone]. Reply STOP to opt out.
 ```
-**Character count:** 212 | **Tone:** Friendly, personal
+**Character count:** ~190 (may span 2 SMS segments) | **Tone:** Friendly, personal
 
 **Template 1C: The Health Reminder**
 ```
@@ -98,7 +98,7 @@ Hi [First Name], [Practice Name] here. Regular [checkups/cleanings/exams]
 help catch issues early. You're overdue. Let's get you scheduled.
 Reply YES or call [phone]. Reply STOP to opt out.
 ```
-**Character count:** 208 | **Tone:** Educational, non-pushy
+**Character count:** ~189 (may span 2 SMS segments) | **Tone:** Educational, non-pushy
 
 ### Category 2: Benefit-Focused (Insurance/Vision Plan Angle)
 
@@ -110,7 +110,7 @@ Hi [First Name], your 2026 benefits are active at [Practice Name]!
 Don't let them expire unused. We have openings this month.
 Reply YES to book or call [phone]. Reply STOP to opt out.
 ```
-**Character count:** 198 | **Tone:** Helpful, timely
+**Character count:** ~183 (may span 2 SMS segments) | **Tone:** Helpful, timely
 
 **Template 2B: Year-End Push**
 ```
@@ -118,7 +118,7 @@ Reply YES to book or call [phone]. Reply STOP to opt out.
 Use them before they expire! [Practice Name] has openings in December.
 Reply YES to schedule. Reply STOP to opt out.
 ```
-**Character count:** 197 | **Tone:** Urgent, practical
+**Character count:** ~180 (may span 2 SMS segments) | **Tone:** Urgent, practical
 
 **Template 2C: Covered Appointment**
 ```
@@ -126,7 +126,7 @@ Hi [First Name], your preventive [exam/cleaning] may be covered at
 no cost under your plan. [Practice Name] would love to see you again.
 Reply YES or call [phone]. Reply STOP to opt out.
 ```
-**Character count:** 201 | **Tone:** Value-oriented
+**Character count:** ~186 (may span 2 SMS segments) | **Tone:** Value-oriented
 
 ### Category 3: Provider-Personalized
 
@@ -138,7 +138,7 @@ Hi [First Name], Dr. [Provider] noticed you're overdue for your annual
 [exam/checkup] and wanted me to reach out. We have availability this
 week. Reply YES to book. Reply STOP to opt out.
 ```
-**Character count:** 210 | **Tone:** Personal, authoritative
+**Character count:** ~187 (may span 2 SMS segments) | **Tone:** Personal, authoritative
 
 **Template 3B: Team Message**
 ```
@@ -146,7 +146,7 @@ week. Reply YES to book. Reply STOP to opt out.
 Dr. [Provider] has openings this month for your checkup.
 Reply YES to schedule or call [phone]. Reply STOP to opt out.
 ```
-**Character count:** 195 | **Tone:** Warm, team-oriented
+**Character count:** ~179 (may span 2 SMS segments) | **Tone:** Warm, team-oriented
 
 ### Category 4: Long-Dormant Patients (18+ Months)
 
@@ -158,7 +158,7 @@ Hi [First Name], it's [Practice Name]. We know it's been a while, and
 that's okay! We'd love to see you again whenever you're ready.
 Reply YES to schedule. Reply STOP to opt out.
 ```
-**Character count:** 192 | **Tone:** Non-judgmental, welcoming
+**Character count:** ~178 (may span 2 SMS segments) | **Tone:** Non-judgmental, welcoming
 
 **Template 4B: The Changes Message**
 ```
@@ -166,15 +166,15 @@ Reply YES to schedule. Reply STOP to opt out.
 technology]. We'd love to welcome you back. Reply YES to schedule or
 call [phone]. Reply STOP to opt out.
 ```
-**Character count:** 188 | **Tone:** Inviting, fresh
+**Character count:** ~178 (may span 2 SMS segments) | **Tone:** Inviting, fresh
 
 **Template 4C: The Direct Ask**
 ```
 Hi [First Name], we haven't seen you in a while and wanted to check
-if you're still interested in being a patient. Reply YES to schedule
-or REMOVE if you'd like to be removed from our list.
+if you're still interested in being a patient. Reply YES to schedule.
+Reply STOP to opt out.
 ```
-**Character count:** 205 | **Tone:** Direct, respectful
+**Character count:** ~180 | **Tone:** Direct, respectful
 
 ### Category 5: Specialty-Specific Templates
 

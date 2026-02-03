@@ -1,7 +1,7 @@
 ---
 title: "Patient Recall Scripts: Phone and SMS Templates That Get Results"
 seoTitle: "Patient Recall Scripts: Phone & SMS Templates for Healthcare"
-description: "Patient recall scripts for phone and SMS that increase booking rates by 20-30%. Includes objection handling and timing."
+description: "Patient recall scripts for phone and SMS that increase response rates by 20-30%. Includes objection handling and timing."
 seoDescription: "Copy-and-paste patient recall scripts for phone and SMS. Includes templates for overdue patients, no-shows, objection handling, and multi-location healthcare groups."
 publishDate: '2026-02-05'
 status: scheduled
@@ -155,7 +155,7 @@ What time works better for you?"
 
 ## SMS Templates for Patient Recall
 
-Text messages achieve higher open rates (95%+) than any other channel. Keep messages short, personal, and action-oriented.
+Text messages achieve higher delivery and read rates than email or voicemail. Keep messages short, personal, and action-oriented.
 
 ### Template 1: Pre-Due Reminder (2-4 Weeks Before Due Date)
 
@@ -165,7 +165,7 @@ Hi [First Name]! This is [Practice Name]. You're coming due for your
 call us at [phone]. We look forward to seeing you! 📅
 ```
 
-**Character count:** ~180 (fits in single SMS)
+**Character count:** ~186 (may span 2-3 SMS segments with actual names)
 
 ### Template 2: Due Now
 
@@ -196,7 +196,7 @@ Let's get you scheduled. Reply YES or call [phone].
 ```
 [First Name], we've been trying to reach you about your overdue
 [appointment type]. Please reply or call [phone] if you'd like to
-stay on as a patient. We're here when you're ready. – [Practice Name]
+stay on as a patient. We're here when you're ready. [Practice Name]
 ```
 
 ### Template 6: No-Show Same Day
@@ -204,7 +204,7 @@ stay on as a patient. We're here when you're ready. – [Practice Name]
 ```
 Hi [First Name], we missed you at your appointment today! Life happens. No
 worries. Reply to reschedule or call [phone]. We want to make sure you
-get the care you need. – [Practice Name]
+get the care you need. [Practice Name]
 ```
 
 ### Template 7: Appointment Confirmation
@@ -352,7 +352,7 @@ Effective patient recall scripts combine personalization with efficiency:
 
 - Personalized messages generate 3-4x higher response rates than generic reminders
 - Phone scripts should reference the specific provider and offer concrete scheduling options
-- SMS templates should be under 160 characters when possible and include clear calls-to-action
+- SMS templates should be concise (under 160 characters ideal, but prioritize clarity over character count)
 - Objection handling scripts prevent conversations from ending without resolution
 - Timing matters: Tuesday-Thursday, mid-morning or early afternoon performs best
 - Multi-location groups should standardize framework but localize details

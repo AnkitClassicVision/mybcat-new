@@ -46,7 +46,7 @@ Each recall channel has distinct strengths:
 Text messaging has become the primary recall channel for most healthcare practices due to its reach and efficiency.
 
 **Strengths:**
-- 98% open rate (vs. 12% for email)
+- 98% open rate (vs. 20-30% for email)
 - 90% read within three minutes
 - Low cost per contact ($0.03-0.05)
 - Two-way communication enables instant responses

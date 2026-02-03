@@ -108,9 +108,9 @@ Research shows practices that track reactivation KPIs weekly achieve 10-20% reco
 **Cost breakdown example:**
 | Channel | Cost Per Attempt | Typical Conversion | Effective Cost/Reactivation |
 |---------|-----------------|-------------------|----------------------------|
-| SMS | $0.03-0.05 | 5-8% | $0.50-1.00 |
-| Phone call | $2-5 | 15-25% | $10-20 |
-| Direct mail | $0.50-1.00 | 1-3% | $30-100 |
+| SMS | $0.03-0.05 | 5-8% | $0.40-1.00 |
+| Phone call | $2-5 | 15-25% | $8-33 |
+| Direct mail | $0.50-1.00 | 1-3% | $17-100 |
 
 **Why it matters:** Cost efficiency determines scalability. High cost per reactivation may still deliver positive ROI if patient lifetime value exceeds cost.
 
@@ -130,7 +130,7 @@ Research shows practices that track reactivation KPIs weekly achieve 10-20% reco
 
 **Formula:** `(Revenue Recovered - Campaign Cost) / Campaign Cost × 100`
 
-**Benchmark:** 500-3000% ROI is typical for well-executed campaigns
+**Benchmark:** 500-3500% ROI is typical for well-executed campaigns
 
 **Example:**
 - Campaign cost: $2,500
@@ -152,7 +152,7 @@ Dormant Patient List (1,000 patients)
         ↓
     Contacted (350)   ← Track: Contact Rate (35%)
         ↓
-    Responded (100)   ← Track: Response Rate (29%)
+    Responded (175)   ← Track: Response Rate (50%)
         ↓
     Booked (150)      ← Track: Booking Rate (43%)
         ↓

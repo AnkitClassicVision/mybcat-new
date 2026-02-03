@@ -20,7 +20,7 @@ relatedPosts:
 - enhancing-patient-communication-in-your-eye-clinic
 ---
 
-Maria called our practice at 3 PM on a Tuesday. Her English was limited—maybe enough to order food or ask for directions, but not enough to explain that her mother's vision had been getting cloudy over the past few weeks and she was worried about cataracts.
+Maria called our practice at 3 PM on a Tuesday. Her English was limited, maybe enough to order food or ask for directions, but not enough to explain that her mother's vision had been getting cloudy over the past few weeks and she was worried about cataracts.
 
 She tried. Our receptionist tried. They both got frustrated. Maria eventually said "thank you" and hung up.
 
@@ -52,7 +52,7 @@ The clinical impact is real:
 
 **Better symptom history.** When patients can describe exactly what they're experiencing in their native language, you get accurate information. "Flashes of light in my peripheral vision" is very different from what you might piece together through broken English and hand gestures.
 
-**Higher compliance.** Post-operative instructions, medication schedules, follow-up requirements—all of this lands better when communicated clearly. Non-compliance often isn't stubbornness. It's confusion.
+**Higher compliance.** Post-operative instructions, medication schedules, follow-up requirements: all of this lands better when communicated clearly. Non-compliance often isn't stubbornness. It's confusion.
 
 **More referrals.** Happy patients bring their families. Spanish-speaking patients bring their Spanish-speaking families, friends, and neighbors. Word travels in tight-knit communities.
 
@@ -64,7 +64,7 @@ Every Maria who hangs up in frustration is revenue you didn't capture. Every fam
 
 We've seen practices grow their patient base by 15-20% simply by adding reliable Spanish language support. Not through marketing. Just through word of mouth in communities that had been underserved.
 
-And here's the math that really matters: [missed calls cost money](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/). If you're missing calls because of language barriers—or worse, converting calls poorly because of communication struggles—you're bleeding revenue you might not even know about.
+And here's the math that really matters: [missed calls cost money](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/). If you're missing calls because of language barriers, or worse, converting calls poorly because of communication struggles, you're bleeding revenue you might not even know about.
 
 ## Why "We Have Someone Who Speaks Some Spanish" Doesn't Work
 
@@ -84,9 +84,9 @@ Fluency matters. Training matters. Consistency matters.
 
 ## How We Handle It
 
-At MyBCAT, a significant portion of our [medical virtual assistants](/solutions/medical-virtual-assistant/) are fully bilingual in English and Spanish. Not conversational—fluent. Born and raised in Spanish-speaking households, educated in both languages, trained specifically on eye care terminology.
+At MyBCAT, a significant portion of our [medical virtual assistants](/solutions/medical-virtual-assistant/) are fully bilingual in English and Spanish. Not conversational: fluent. Born and raised in Spanish-speaking households, educated in both languages, trained specifically on eye care terminology.
 
-When a Spanish-speaking patient calls one of our client practices, they get seamless service. Greeting in Spanish if that's their preference. Symptom intake in Spanish. Appointment scheduling in Spanish. Follow-up in Spanish.
+When a Spanish-speaking patient calls one of our client practices, they get consistent, fluent service. Greeting in Spanish if that's their preference. Symptom intake in Spanish. Appointment scheduling in Spanish. Follow-up in Spanish.
 
 And from the practice's perspective? It's transparent. The call gets documented in your system, in English, with all the clinical details. Your in-office team knows exactly what was discussed and what the patient needs.
 
@@ -114,7 +114,7 @@ Multiply this by dozens of calls per month. That's the difference.
 
 You don't need to hire a full-time bilingual receptionist (though if your demographics support it, maybe you should). You just need reliable access to Spanish-language support when your patients need it.
 
-That's exactly what we provide through our [front desk outsourcing](/solutions/front-desk-outsourcing/) services. Our agents integrate with your practice, learn your protocols, and handle calls as if they were sitting in your front office—except they also happen to speak fluent Spanish. See how we [compare to other virtual assistant options](/compare/vs-virtual-assistants/).
+That's exactly what we provide through our [front desk outsourcing](/solutions/front-desk-outsourcing/) services. Our agents integrate with your practice, learn your protocols, and handle calls as if they were sitting in your front office, except they also happen to speak fluent Spanish. See how we [compare to other virtual assistant options](/compare/vs-virtual-assistants/).
 
 [Let's talk about your patient demographics and how bilingual support could work for your practice.](https://mybcat.com/contact/)
 

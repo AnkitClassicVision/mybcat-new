@@ -2,7 +2,7 @@
 title: "Dental Hygiene Recall: The DSO Valuation Driver"
 seoTitle: "Dental Hygiene Recall: The DSO Valuation Driver"
 description: "Hygiene recall rates separate $500K from $1M practices. Only 17% have patients on 6-month recall. Benchmarks and strategies."
-seoDescription: "Dental hygiene recall rates are the #1 driver of practice valuation. Learn benchmarks (60-70% average, 85%+ optimal), revenue impact, and strategies for DSO improvement."
+seoDescription: "Dental hygiene recall rates are the #1 driver of practice valuation. Learn benchmarks (65-74% average, 85%+ optimal), revenue impact, and strategies for DSO improvement."
 publishDate: '2026-02-09'
 status: scheduled
 scheduledDate: '2026-02-09'
@@ -29,7 +29,8 @@ Hygiene recall rates are the single metric that most frequently separates $500,0
 Dental practice valuations depend heavily on predictable, recurring revenue. Hygiene appointments provide exactly that: scheduled, repeating visits that generate both direct revenue and downstream treatment opportunities.
 
 **The financial math:**
-- Average hygiene appointment produces approximately $471 in income (appointment + doctor exam)
+- Average hygiene appointment produces approximately $175-200 in direct hygiene production
+- Including doctor exam and treatment acceptance, total visit value reaches $350-450
 - A new patient generates at least $4,500 in lifetime revenue with the practice
 - 20% of hygiene exams result in restorative treatment averaging $500 per patient
 - Practices with strong recall systems retain patients 10-15% longer than those without
@@ -43,7 +44,7 @@ The industry data reveals a significant performance gap:
 
 | Metric | Value |
 |--------|-------|
-| Average practice recall rate | 60-70% |
+| Average practice recall rate | 65-74% |
 | Optimal recall rate | 85%+ |
 | Practices with "most patients" on 6-month recall | Only 17% |
 | Average general dentist patient retention | 4 out of 10 beyond first visit |
@@ -59,18 +60,18 @@ A 10-15% increase in patient retention ties directly to improvements in a practi
 
 | Revenue Category | Monthly Impact |
 |-----------------|----------------|
-| Hygiene production | +$4,000-5,000 |
-| Restorative production (from hygiene exams) | +$2,000-3,000 |
-| **Total monthly improvement** | **+$6,000-8,000** |
-| **Annual improvement** | **+$72,000-96,000** |
+| Hygiene production | +$4,500-6,000 |
+| Restorative production (from hygiene exams) | +$2,500-3,000 |
+| **Total monthly improvement** | **+$7,000-9,000** |
+| **Annual improvement** | **+$84,000-108,000** |
 
 **For a 20-location DSO improving recall by 10%:**
-- If each location adds $6,000/month: $120,000/month network-wide
-- Annual impact: $1.44 million in additional production
+- If each location adds $7,000/month: $140,000/month network-wide
+- Annual impact: $1.68 million in additional production
 - Plus improved valuation multiple from demonstrating operational excellence
 
 **Revenue scaling potential:**
-Practices using optimized recall solutions report increasing recall patient return rates by up to 55%, potentially adding $25,000 in monthly revenue at the practice level.
+Practices using optimized recall solutions report significant improvements in patient return rates, with top performers adding $15,000-25,000 in monthly revenue depending on practice size and baseline recall rate.
 
 ## Recall Rate Benchmarks by Performance Tier
 
@@ -226,10 +227,10 @@ Multi-location dental groups face additional complexity:
 
 Dental hygiene recall is the operational lever with the highest impact on practice valuation and revenue:
 
-- Hygiene recall rates separate $500K practices from $1M practices
+- Hygiene recall rates separate $500,000 practices from $1,000,000 practices
 - Only 17% of dentists have most patients on proper 6-month recall
-- Average practices achieve 60-70% recall; optimal is 85%+
-- A 10-15% improvement in retention adds $72,000-96,000 annually per practice
+- Average practices achieve 65-74% recall; optimal is 85%+
+- A 10-15% improvement in retention adds $84,000-108,000 annually per practice
 - Pre-scheduling at every visit is the single most effective intervention
 - Multi-channel reminders (text + phone + email) outperform single-channel
 - For DSOs: standardize processes, track by location, share best practices

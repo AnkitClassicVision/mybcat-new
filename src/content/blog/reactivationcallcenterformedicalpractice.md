@@ -28,7 +28,7 @@ Single-location practices treat patient attrition as inevitable. Multi-location 
 
 Consider the financial reality. Each dormant patient represents $400-800 in annual production, depending on specialty. When you multiply that across 9,000 lapsed patients, you are looking at $3.6 million to $7.2 million in unrealized revenue sitting in your own database.
 
-The acquisition cost comparison makes the case clearer. Acquiring a new patient costs 5x more than reactivating an existing one. Your dormant patients already know your brand, have visit history in your system, and require no marketing spend to reach. They are the lowest-cost revenue opportunity in your portfolio.
+The acquisition cost comparison makes the case clearer. Acquiring a new patient typically costs 2-6x more than reactivating an existing one. Your dormant patients already know your brand, have visit history in your system, and require no marketing spend to reach. They are the lowest-cost revenue opportunity in your portfolio.
 
 For PE-backed groups focused on [same-store growth metrics](/blog/missed-calls-revenue-leak-multi-location-healthcare/), reactivation campaigns directly improve the numbers that drive valuations.
 
@@ -111,7 +111,7 @@ Measure reactivation call centers differently than inbound support. Key metrics 
 |--------|--------|----------------|
 | Contact Rate | 15-25% | Percentage of dials reaching a live person |
 | Conversion Rate | 8-15% | Percentage of contacts who schedule |
-| Cost Per Reactivation | $50-150 | Total campaign cost divided by appointments booked |
+| Cost Per Reactivation | $150-300 | Total annual operating cost divided by kept appointments |
 | Appointments Kept | 70-80% | Show rate for reactivated patients |
 | Revenue Per Reactivation | $400-800 | Average production from reactivated patient visits |
 
@@ -147,7 +147,7 @@ The [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/)
 
 **Stage 2: Multi-Channel Outreach (Weeks 2-3)**
 
-Research shows that 4-5 contact attempts boost reactivation rates to 81%, reaching 95% of your dormant patient pool. Structure your touches across channels:
+Research shows that 4-5 contact attempts can reach up to 95% of your dormant patient pool, with multi-channel campaigns recovering 20-30% of targeted patients. Structure your touches across channels:
 
 - Touch 1: Text message (90%+ open rate)
 - Touch 2: Email with scheduling link
@@ -198,7 +198,7 @@ Compare cost per reactivation against cost per new patient acquisition.
 |---------|---------------------|-------------------|
 | Digital Marketing | $150-300 | 2-5% |
 | Direct Mail | $100-200 | 1-3% |
-| Reactivation Call | $50-150 | 8-15% |
+| Reactivation Call | $150-300 | 8-15% |
 
 Reactivation delivers lower cost and higher conversion because you are reaching warm contacts who already know your brand.
 
@@ -300,7 +300,7 @@ For PE-backed groups, frame the investment in terms of multiple expansion. Impro
 - Centralized call centers outperform distributed approaches for groups with 10+ locations
 - Human contact converts at 8-15% compared to 1-3% for automated outreach
 - Four-stage campaigns (segment, outreach, convert, retain) maximize reactivation yield
-- Cost per reactivation ($50-150) beats cost per new patient acquisition ($150-300)
+- Cost per reactivation ($150-300) beats cost per new patient acquisition ($300-500+)
 - Measure reactivation contribution to EBITDA, not just revenue
 
 ## Sources

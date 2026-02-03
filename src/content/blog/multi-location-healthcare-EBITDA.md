@@ -1,8 +1,8 @@
 ---
 title: "Multi-Location Healthcare EBITDA: Retention Protects Margins"
 seoTitle: "Multi-Location Healthcare EBITDA: Retention Protects Margins"
-description: "5% retention improvement adds 1-3 turns to EBITDA multiple. How patient retention impacts multi-location healthcare value."
-seoDescription: "Multi-location healthcare EBITDA and patient retention. How retention improvements drive 10-20% EBITDA lift and add 1-3 turns to valuation multiples for healthcare groups."
+description: "10% retention improvement can add 1-2 turns to EBITDA multiple. How patient retention impacts multi-location healthcare value."
+seoDescription: "Multi-location healthcare EBITDA and patient retention. How retention improvements drive 10-20% EBITDA lift and add 1-2 turns to valuation multiples for healthcare groups."
 publishDate: '2026-02-13'
 status: scheduled
 scheduledDate: '2026-02-13'

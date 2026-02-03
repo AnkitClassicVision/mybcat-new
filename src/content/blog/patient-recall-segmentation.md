@@ -287,8 +287,8 @@ Track performance by segment to refine your approach:
 | Tier 4 | 40 | 10 | 4 | 10% | $1,400 |
 
 **Insights from data:**
-- Tier 1 converts at 5x Tier 4. Prioritization is working
-- Tier 2 volume yields high absolute numbers. Capacity here is valuable
+- Tier 1 converts at nearly 5x Tier 4. Prioritization is working
+- Tier 2 volume justifies dedicated capacity given reasonable conversion
 - Tier 4 may need different channel or be deprioritized further
 
 ## Common Segmentation Mistakes
@@ -338,7 +338,7 @@ Effective recall segmentation prioritizes patients based on:
 5. Track results and refine
 
 **Expected outcomes with segmentation:**
-- 60-80% improvement in conversion rates
+- 50-100% improvement in conversion rates
 - Higher revenue per outreach hour
 - Better allocation of limited staff time
 - More satisfied patients (right message, right time)
