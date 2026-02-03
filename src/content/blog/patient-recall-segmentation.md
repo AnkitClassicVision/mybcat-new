@@ -1,11 +1,11 @@
 ---
 title: "Patient Recall Segmentation: Who to Call First (and Why)"
-seoTitle: "Patient Recall Segmentation: Prioritize Your Outreach"
-description: "Not all dormant patients deserve equal effort. Learn how to segment your recall list by value, dormancy duration, and attrition risk to maximize ROI from your outreach resources."
-seoDescription: "Patient recall segmentation framework for healthcare practices. Prioritize dormant patients by lifetime value, dormancy duration, and attrition risk for maximum reactivation ROI."
-publishDate: '2026-02-24'
+seoTitle: "Patient Recall Segmentation: Who to Call First (and Why)"
+description: "How to segment your patient recall list for maximum impact. Prioritization frameworks, segmentation criteria, and the data-driven approach to deciding who gets called first."
+seoDescription: "Patient recall segmentation and prioritization guide. Frameworks for deciding which patients to contact first based on value, recency, risk, and likelihood to respond."
+publishDate: '2026-02-22'
 status: scheduled
-scheduledDate: '2026-02-24'
+scheduledDate: '2026-02-22'
 author: Ankit Patel
 category: Analytics
 tags:
@@ -17,317 +17,351 @@ featuredImage: /images/blog/patient-recall-segmentation.webp
 canonical: https://mybcat.com/blog/patient-recall-segmentation/
 cluster: recall-reactivation
 relatedPosts:
-  - reactivation-campaign-kpis
   - patient-reactivation-roi
-  - dormant-patient-reactivation
+  - reactivation-campaign-kpis
+  - patient-recall-campaign-framework
 ---
 
-A practice with 2,000 dormant patients cannot—and should not—treat them all the same. The patient who spent $3,000 annually and has been gone for 8 months is fundamentally different from the patient who came once three years ago for a basic exam. Effective recall segmentation ensures your limited outreach resources focus on the patients most likely to return and most valuable when they do. This guide provides the framework for segmenting your recall list and prioritizing your outreach.
+When facing a recall list of 500 overdue patients, the instinct is to start at the top and work down alphabetically. This is one of the most common—and costly—mistakes in patient recall. Not all patients are equal, and treating them as such wastes time on low-probability contacts while high-value opportunities slip away. Effective segmentation answers the fundamental question: who should we call first, and why?
 
-## Why Segmentation Matters
+## The Case for Segmentation
 
-Without segmentation, recall campaigns waste resources on low-probability, low-value patients while under-investing in high-probability, high-value ones:
+Recall outreach capacity is finite. Most practices can make 50-100 quality outreach attempts per day. With 500 overdue patients, that is a full week of work—and by week's end, some patients have become even harder to reach.
 
-**The math of unsegmented outreach:**
-- 2,000 dormant patients
-- Staff capacity: 500 calls/month
-- Random calling reaches patients proportionally
-- Result: Many calls to low-value, long-dormant patients
-- Opportunity cost: High-value patients not reached
+**The segmentation advantage:**
 
-**The math of segmented outreach:**
-- Same 2,000 dormant patients
-- Segmented into priority tiers
-- Top 500 (high-value, recently dormant) called first
-- Result: Higher reactivation rate, higher revenue per reactivation
-- ROI: 2-3x improvement over unsegmented
+| Approach | Conversion Rate | Revenue/100 Contacts |
+|----------|-----------------|---------------------|
+| Alphabetical (random) | 12-15% | $4,200-5,250 |
+| Recency-based | 18-22% | $6,300-7,700 |
+| Value + Recency | 22-28% | $7,700-9,800 |
+| Full prioritization | 25-32% | $8,750-11,200 |
 
-## The Three Segmentation Dimensions
-
-Effective recall segmentation combines three primary dimensions:
-
-### 1. Lifetime Value (LTV)
-
-What is this patient worth to your practice over time?
-
-**LTV calculation:**
+**The math of prioritization:**
 ```
-LTV = Average Annual Revenue × Average Patient Tenure
+100 outreach attempts with random selection:
+- Conversion: 15 patients scheduled
+- Average revenue: $350
+- Total: $5,250
+
+100 outreach attempts with optimized segmentation:
+- Conversion: 28 patients scheduled
+- Average revenue: $350 (but higher-value mix)
+- Total: $9,800+
+
+Same effort, nearly double the result.
 ```
 
-**LTV tiers:**
-| Tier | Annual Revenue | Estimated LTV | Priority |
-|------|---------------|---------------|----------|
-| High | $800+ | $4,000+ | Highest |
-| Medium | $400-800 | $2,000-4,000 | High |
-| Standard | $200-400 | $1,000-2,000 | Medium |
-| Low | <$200 | <$1,000 | Lower |
+Segmentation is not about working harder—it is about working smarter.
 
-**Indicators of high LTV:**
-- Multiple services (exam + products/procedures)
-- Frequent visits beyond minimum recall
-- Family members also patients
-- Insurance with good coverage
-- History of accepting recommended treatment
+## The Five Segmentation Dimensions
 
-### 2. Dormancy Duration
+Effective recall segmentation considers five key dimensions:
 
-How long has it been since their last visit?
+### 1. Recency: When Did They Last Visit?
 
-**Dormancy tiers:**
-| Tier | Time Since Last Visit | Reactivation Probability | Priority |
-|------|----------------------|-------------------------|----------|
-| Recently dormant | 6-12 months | 25-35% | Highest |
-| Moderately dormant | 12-18 months | 15-25% | High |
-| Long dormant | 18-24 months | 10-15% | Medium |
-| Very long dormant | 24+ months | 5-10% | Lower |
+The most powerful predictor of recall success is how recently the patient was active.
 
-**Why recency matters:**
-- Recent patients remember your practice
-- Contact info more likely valid
-- Life circumstances less likely to have changed dramatically
-- Emotional connection to provider still exists
+**Recency tiers:**
 
-### 3. Attrition Risk
+| Tier | Months Since Visit | Contact Rate | Scheduling Rate |
+|------|-------------------|--------------|-----------------|
+| Just due | 6-12 months | 70-80% | 65-75% |
+| Recently lapsed | 12-18 months | 55-65% | 45-55% |
+| Dormant | 18-24 months | 40-50% | 25-35% |
+| Long dormant | 24+ months | 25-35% | 12-20% |
 
-What is the likelihood this patient will never return without intervention?
+**Recency rule:** Patients in the "just due" tier should always be prioritized over longer-lapsed patients, regardless of other factors.
 
-**Risk indicators:**
-| Factor | Higher Risk | Lower Risk |
-|--------|-------------|------------|
-| Age | Younger (more mobile) | Older (established) |
-| Tenure before dormancy | Short (1-2 years) | Long (5+ years) |
-| Last experience | Issue/complaint | Positive |
-| Insurance status | Changed/lost | Stable |
-| Geographic mobility | High-mobility area | Stable neighborhood |
+### 2. Value: What Are They Worth?
 
-**Risk scoring approach:**
-Assign points for each risk factor, sum for total score:
-- Age under 35: +2
-- Tenure under 2 years: +2
-- No-show in last 6 months before dormancy: +3
-- Single visit only: +3
-- Complaint on file: +4
-- Changed insurance: +2
+Patient value varies significantly. High-value patients justify more outreach effort.
 
-**Risk tiers:**
-- 0-3 points: Low risk (likely to return eventually)
-- 4-7 points: Medium risk (intervention helpful)
-- 8+ points: High risk (urgent intervention needed)
-
-## The Segmentation Matrix
-
-Combine dimensions into a prioritization matrix:
-
-### Priority Tier 1: High Value + Recently Dormant
-- **Who:** Patients with high LTV, dormant 6-12 months
-- **Why first:** Highest reactivation probability, highest return
-- **Channel:** Phone call + personalized SMS
-- **Investment level:** High (multiple attempts, escalation to provider)
-
-### Priority Tier 2: High Value + Moderately Dormant
-- **Who:** Patients with high LTV, dormant 12-18 months
-- **Why second:** Still recoverable, high value worth extra effort
-- **Channel:** Phone call + multi-touch SMS/email
-- **Investment level:** High
-
-### Priority Tier 3: Medium Value + Recently Dormant
-- **Who:** Patients with medium LTV, dormant 6-12 months
-- **Why third:** Good reactivation probability, decent value
-- **Channel:** SMS/email sequence + phone for non-responders
-- **Investment level:** Medium
-
-### Priority Tier 4: High Value + Long Dormant
-- **Who:** Patients with high LTV, dormant 18-24 months
-- **Why fourth:** Value justifies effort despite lower probability
-- **Channel:** Phone (personal touch needed) + direct mail
-- **Investment level:** Medium-high
-
-### Priority Tier 5: Medium Value + Moderately Dormant
-- **Who:** Patients with medium LTV, dormant 12-18 months
-- **Why fifth:** Reasonable probability and value
-- **Channel:** SMS/email sequence + phone for high-risk
-- **Investment level:** Medium
-
-### Priority Tier 6: Standard Value + Any Duration
-- **Who:** Standard LTV patients regardless of dormancy
-- **Channel:** Automated SMS/email only
-- **Investment level:** Low (automated outreach)
-
-### Priority Tier 7: Low Value + Long Dormant
-- **Who:** Low LTV, dormant 18+ months
-- **Channel:** Automated SMS if contact info valid, otherwise skip
-- **Investment level:** Minimal
-
-## Implementing Segmentation
-
-### Step 1: Extract and Calculate
-
-Pull from your PM system:
-- All patients with no visit in 6+ months
-- Last visit date
-- Total revenue in last 3 years
-- Visit frequency before dormancy
-- Contact information status
-
-### Step 2: Calculate LTV Tier
-
-For each patient:
+**Value calculation:**
 ```
-Annual Revenue = Total Revenue / Years as Patient
-LTV Estimate = Annual Revenue × 5 (average tenure)
-Assign tier: High / Medium / Standard / Low
+Patient Value = Historical Revenue + Future Potential + Referral Value
 ```
 
-### Step 3: Calculate Dormancy Tier
+**Value segmentation:**
 
-For each patient:
+| Segment | Characteristics | Priority Weight |
+|---------|-----------------|-----------------|
+| High value | $1,000+ annual spend, comprehensive care | 3x |
+| Medium value | $400-1,000 annual, regular preventive | 2x |
+| Low value | <$400 annual, infrequent, minimal treatment | 1x |
+
+**Practical value indicators:**
+- Treatment history (restorative, cosmetic, specialty)
+- Insurance coverage (PPO vs. HMO vs. fee-for-service)
+- Family connections (heads of household)
+- Referral history
+
+### 3. Engagement: How Do They Respond?
+
+Past behavior predicts future behavior. Patients with strong engagement history respond better.
+
+**Engagement indicators:**
+
+| Signal | High Engagement | Low Engagement |
+|--------|-----------------|----------------|
+| Appointment history | Keeps appointments, rarely cancels | Frequent no-shows, late cancels |
+| Communication response | Replies to texts, answers calls | Ignores outreach, changed numbers |
+| Online activity | Uses patient portal, books online | No digital engagement |
+| Payment behavior | Pays promptly, no collections | Outstanding balances, slow pay |
+
+**Engagement scoring (0-10):**
+- 8-10: Highly engaged, prioritize
+- 5-7: Moderately engaged, standard priority
+- 0-4: Low engagement, deprioritize or different approach
+
+### 4. Risk: What Are the Clinical Implications?
+
+Some patients have clinical reasons for more urgent recall.
+
+**Risk factors for prioritization:**
+
+| Condition | Recall Urgency | Prioritization |
+|-----------|---------------|----------------|
+| Periodontal disease (active) | 3-4 month | High |
+| High caries risk | 4-6 month | High |
+| Diabetic patient | 3-4 month | High |
+| Post-treatment monitoring | Per treatment | High |
+| Healthy, low risk | 6-12 month | Standard |
+
+**Risk-based sequencing:**
+Patients with clinical urgency may warrant outreach even if other factors are unfavorable—but balance with practical reachability.
+
+### 5. Reachability: Can We Actually Contact Them?
+
+Some patients are simply harder to reach. Factor this into prioritization.
+
+**Reachability indicators:**
+
+| Factor | High Reachability | Low Reachability |
+|--------|-------------------|------------------|
+| Contact info | Verified cell, responds to text | Landline only, old info |
+| Contact history | Answers on first attempt | Never answers, no callback |
+| Schedule flexibility | Flexible availability | Very limited windows |
+| Location | Still in area | May have moved |
+
+**Reachability rule:** A high-value patient you cannot reach is worth less than a medium-value patient who answers immediately.
+
+## The Prioritization Matrix
+
+Combine dimensions into a prioritization score:
+
+### Basic Scoring Model
+
 ```
-Months Dormant = Today - Last Visit Date
-Assign tier: Recently / Moderately / Long / Very Long
+Priority Score = (Recency × 3) + (Value × 2) + (Engagement × 1.5) + 
+                 (Risk × 1) + (Reachability × 1.5)
+
+Where each dimension is scored 1-5:
+- 5 = Highest priority indicator
+- 1 = Lowest priority indicator
 ```
 
-### Step 4: Calculate Risk Score
+### Simplified Tier Assignment
 
-For each patient:
+For practices without sophisticated scoring systems, use this matrix:
+
+**Tier 1 (Contact First):**
+- 6-12 months overdue AND high/medium value
+- Any recency with high clinical risk
+- Previously engaged patients just coming due
+
+**Tier 2 (Contact Second):**
+- 12-18 months overdue, any value
+- 6-12 months overdue, low value but high engagement
+- Medium value, moderate engagement
+
+**Tier 3 (Contact Third):**
+- 18-24 months overdue
+- Low engagement history
+- Low value without mitigating factors
+
+**Tier 4 (Contact Last or Alternative Channel):**
+- 24+ months overdue
+- No response to previous attempts
+- Contact info likely outdated
+- Consider: direct mail, email campaign, or archive
+
+## Segmentation in Practice
+
+### Step 1: Export and Clean Your List
+
+Pull all patients due or overdue for recall:
+- Include: Last visit date, total revenue, contact info, notes
+- Clean: Remove deceased, moved, do-not-contact
+- Verify: Check for updated contact information
+
+### Step 2: Apply Segmentation Criteria
+
+Create columns for each dimension and score or categorize:
+
+| Patient | Recency | Value | Engagement | Risk | Reachability | Tier |
+|---------|---------|-------|------------|------|--------------|------|
+| Smith, J | 8 mo | High | High | Med | High | 1 |
+| Jones, M | 14 mo | Med | Med | Low | Med | 2 |
+| Brown, A | 22 mo | Low | Low | Low | Low | 4 |
+
+### Step 3: Sort and Assign
+
+Sort by tier, then within tier by secondary priority (usually value).
+
+**Assignment distribution:**
+
+| Week | Focus | Expected Yield |
+|------|-------|----------------|
+| Week 1 | Tier 1 (100 patients) | 25-32 scheduled |
+| Week 2 | Tier 2 (150 patients) | 27-38 scheduled |
+| Week 3 | Tier 3 (150 patients) | 22-30 scheduled |
+| Week 4 | Tier 4 (100 patients) | 8-15 scheduled |
+
+### Step 4: Tailor Approach by Segment
+
+Different segments warrant different approaches:
+
+| Tier | Primary Channel | Message Tone | Offer |
+|------|-----------------|--------------|-------|
+| 1 | Phone + SMS | Warm, personal | Convenience focus |
+| 2 | SMS + Email | Friendly reminder | Value reminder |
+| 3 | Email + SMS | Re-engagement | May include incentive |
+| 4 | Email + Mail | Win-back | Incentive appropriate |
+
+## Segment-Specific Messaging
+
+### Tier 1: Just Due, High Value
+
 ```
-Sum risk factors based on available data
-Assign tier: Low / Medium / High
+SMS: "Hi [Name], it's time for your [cleaning/exam]! We have openings 
+this week—Dr. [Name] is looking forward to seeing you. Reply with a 
+good day/time and I'll confirm your appointment."
+
+Tone: Personal, assumes they want to come, removes friction
 ```
 
-### Step 5: Assign Priority Tier
+### Tier 2: Recently Lapsed, Medium Value
 
-Use the matrix to assign each patient to Priority Tier 1-7.
+```
+SMS: "Hi [Name], we noticed it's been a while since your last visit 
+at [Practice]. Regular [dental/eye] care helps catch small issues 
+early. We have flexible scheduling—when works best for you?"
 
-### Step 6: Validate and Adjust
+Tone: Gentle reminder, emphasizes value of preventive care
+```
 
-Review segments for reasonableness:
-- Are segment sizes workable?
-- Does the prioritization feel right intuitively?
-- Are any high-value patients in low-priority tiers incorrectly?
+### Tier 3: Dormant, Lower Value
 
-## Segmentation by Specialty
+```
+Email: "Hi [Name], we've missed seeing you at [Practice]! It's been 
+[X months] since your last visit. Your oral health matters to us, 
+and we'd love to help you get back on track. Click here to see 
+available appointments."
 
-Different specialties may weight factors differently:
+Tone: We miss you, easy to respond
+```
 
-**Dental:**
-- Emphasize hygiene frequency (2x/year patients are high value)
-- Weight restorative treatment history heavily
-- Consider family relationships (one dormant = family at risk)
+### Tier 4: Long Dormant, Low Engagement
 
-**Optometry:**
-- Annual exam is the baseline (dormant = 12+ months)
-- Weight eyewear/contact lens purchases
-- Consider vision plan status and benefit timing
+```
+Postcard: "We Miss You, [Name]! 
+It's been too long since we've seen you at [Practice Name]. 
+Schedule your appointment this month and receive [offer]. 
+Call [number] or scan the QR code to book."
 
-**Medical/Primary Care:**
-- Weight chronic condition management
-- Consider preventive care compliance
-- Factor in referral potential
-
-## Dynamic Segmentation
-
-Segments should update as circumstances change:
-
-**Triggers for re-segmentation:**
-- Patient responds to outreach (upgrade priority)
-- Contact info bounces (note and adjust)
-- Insurance change detected (re-evaluate risk)
-- Time passes (dormancy tier changes)
-
-**Quarterly refresh:**
-- Re-run segmentation calculations
-- Move patients between tiers as appropriate
-- Archive permanently lost (multiple failed contacts)
-
-## Resource Allocation by Segment
-
-Match your resources to your segments:
-
-| Priority Tier | Recommended Resource | Cost/Patient | Expected ROI |
-|--------------|---------------------|--------------|--------------|
-| 1 (High/Recent) | Dedicated caller | $5-8 | 50-100x |
-| 2 (High/Moderate) | Dedicated caller | $5-8 | 40-80x |
-| 3 (Med/Recent) | Hybrid (auto + phone) | $2-4 | 30-60x |
-| 4 (High/Long) | Dedicated caller | $8-12 | 25-50x |
-| 5 (Med/Moderate) | Hybrid | $2-4 | 20-40x |
-| 6 (Standard) | Automated only | $0.50-1 | 15-30x |
-| 7 (Low/Long) | Minimal auto | $0.25-0.50 | 10-20x |
-
-## Multi-Location Considerations
-
-For healthcare groups operating multiple sites:
-
-**Standardize:**
-- Segmentation criteria and thresholds
-- Priority tier definitions
-- Resource allocation guidelines
-
-**Localize:**
-- Calculate LTV using location-specific revenue
-- Adjust for local demographics and mobility
-- Account for location-specific service mix
-
-**Aggregate for insights:**
-- Compare segment distributions across locations
-- Identify locations with higher dormancy rates
-- Share best practices from high-performing sites
+Tone: Win-back, incentive-driven, physical touchpoint
+```
 
 ## Measuring Segmentation Effectiveness
 
-Track these metrics by segment to validate your approach:
+Track performance by segment to refine your approach:
 
-| Metric | Tier 1-2 Target | Tier 3-5 Target | Tier 6-7 Target |
-|--------|----------------|-----------------|-----------------|
-| Reactivation rate | 25-35% | 15-25% | 8-15% |
-| Revenue per reactivation | $600+ | $400-600 | $200-400 |
-| Cost per reactivation | $15-25 | $8-15 | $3-8 |
-| Campaign ROI | 40-80x | 25-50x | 15-30x |
+**Weekly segment performance:**
 
-**If results do not match expectations:**
-- Tier 1-2 underperforming: Check if LTV calculation is accurate
-- Tier 6-7 overperforming: Consider moving threshold higher
-- All tiers underperforming: Review messaging, not segmentation
+| Segment | Contacts | Responses | Scheduled | Rate | Revenue |
+|---------|----------|-----------|-----------|------|---------|
+| Tier 1 | 50 | 38 | 24 | 48% | $8,400 |
+| Tier 2 | 75 | 42 | 22 | 29% | $7,700 |
+| Tier 3 | 60 | 25 | 12 | 20% | $4,200 |
+| Tier 4 | 40 | 10 | 4 | 10% | $1,400 |
+
+**Insights from data:**
+- Tier 1 converts at 5x Tier 4—prioritization is working
+- Tier 2 volume yields high absolute numbers—capacity here is valuable
+- Tier 4 may need different channel or be deprioritized further
+
+## Common Segmentation Mistakes
+
+### Mistake 1: Over-Complicating the Model
+
+**Problem:** Analysis paralysis with 20 segmentation factors
+
+**Fix:** Start with recency and value—these drive 80% of results. Add complexity only when basic model is working.
+
+### Mistake 2: Static Segmentation
+
+**Problem:** Segment once, never update
+
+**Fix:** Re-segment monthly as patients move between tiers (recent → lapsed → dormant).
+
+### Mistake 3: Ignoring Engagement History
+
+**Problem:** Calling chronic no-shows before reliable patients
+
+**Fix:** Weight engagement history—a medium-value engaged patient beats a high-value non-responder.
+
+### Mistake 4: Same Approach for All Segments
+
+**Problem:** Generic message to all patients regardless of segment
+
+**Fix:** Tailor message, channel, and offer by segment characteristics.
 
 ## Key Takeaways
 
-Patient recall segmentation ensures your limited resources focus on the highest-impact opportunities:
+Effective recall segmentation prioritizes patients based on:
 
-**The three dimensions:**
-1. **Lifetime Value:** What the patient is worth
-2. **Dormancy Duration:** How long they have been gone
-3. **Attrition Risk:** How likely they are to be lost permanently
+**Primary factors:**
+- Recency (most predictive)
+- Value (highest ROI)
+- Engagement (likelihood to respond)
 
-**Priority order:**
-1. High value + recently dormant (25-35% reactivation, highest ROI)
-2. High value + moderately dormant (still worth significant investment)
-3. Medium value + recently dormant (good probability, decent value)
-4. Continue through matrix based on value × probability
+**Secondary factors:**
+- Clinical risk (urgency)
+- Reachability (practical contact probability)
 
-**Resource matching:**
-- Tier 1-2: Phone calls with dedicated staff
-- Tier 3-5: Hybrid approach (automated + phone backup)
-- Tier 6-7: Automated only or minimal effort
+**Implementation approach:**
+1. Export and clean your list
+2. Score or tier each patient
+3. Sort by priority
+4. Tailor outreach by segment
+5. Track results and refine
 
-**Refresh quarterly:** Segments shift as time passes and circumstances change.
+**Expected outcomes with segmentation:**
+- 60-80% improvement in conversion rates
+- Higher revenue per outreach hour
+- Better allocation of limited staff time
+- More satisfied patients (right message, right time)
 
-The practices that excel at recall do not simply work harder—they work smarter by focusing their energy on the patients most likely to return and most valuable when they do.
+The question is not whether to do recall—it is who to recall first. Segmentation provides the answer.
 
-For the metrics to track during segmented campaigns, see our [reactivation campaign KPIs guide](/blog/reactivation-campaign-kpis/). For ROI calculation by segment, review our [patient reactivation ROI guide](/blog/patient-reactivation-roi/).
+For calculating the ROI of your reactivation efforts, see our [patient reactivation ROI guide](/blog/patient-reactivation-roi/). For the complete campaign framework, review our [patient recall campaign framework](/blog/patient-recall-campaign-framework/).
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Need Help Segmenting and Prioritizing?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups partner with MyBCAT for data-driven segmentation and prioritized outreach that maximizes reactivation ROI.</p>
+  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Need Help Prioritizing Your Recall List?</h3>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Healthcare practices partner with MyBCAT for data-driven patient segmentation and prioritized recall outreach that maximizes every contact attempt.</p>
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
 
 ## Sources
 
-- [SciSoft: Patient Segmentation](https://www.scnsoft.com/healthcare/patient-segmentation)
-- [PMC: Population Segmentation in Healthcare](https://pmc.ncbi.nlm.nih.gov/articles/PMC7267007/)
-- [Paubox: Implementing Data Segmentation in Healthcare](https://www.paubox.com/blog/implementing-data-segmentation-in-healthcare)
-- [Alexander Group: Precision Targeting in Healthcare](https://www.alexandergroup.com/insights/precision-targeting-navigating-healthcare-markets-with-data-driven-segmentation/)
-- [Johns Hopkins ACG: Guide to Quality Patient Segmentation](https://www.hopkinsacg.org/your-guide-to-quality-patient-segmentation/)
-- [Deloitte: Healthcare Consumer Segmentation](https://www.deloitte.com/us/en/insights/industry/health-care/healthcare-consumer-patient-segmentation.html)
+- [Practice Numbers: Dental Recall Systems Strategies](https://practicenumbers.com/blog/dental-recall-systems-strategies/)
+- [Axle: Patient Retention Strategies in Dentistry](https://meetaxle.com/blog/patient-retention-strategies-in-dentistry/)
+- [Adit: Patient Retention Strategies Dental Recall](https://adit.com/patient-retention-strategies-dental-recall)
+- [NexHealth: Dental Recall Software Systems](https://www.nexhealth.com/resources/dental-recall-software-systems)
+- [Arini AI: Improve Patient Retention Recall Rate](https://www.arini.ai/blog/improve-patient-retention-recall-rate-dental-clinics)
+- [Yapi: Dental Patient Communication System](https://yapiapp.com/blog/dental-patient-communication/sytem/)
+- [Practice Analytics: Improving Patient Recall](https://practiceanalytics.com/improving-patient-recall-increases-practice-profitability/)
+
