@@ -1,28 +1,28 @@
 ---
 title: 'Automated vs Human Patient Recall: Data-Driven Comparison'
 seoTitle: 'Automated vs Human Patient Recall: Data-Driven Comparison'
-description: >-
-  Live calls achieve 32% completion vs 17% for automated texts, but automation
+description: Live calls achieve 32% completion vs 17% for automated texts, but automation
   costs 55-65% less. Learn when to use each approach.
-seoDescription: >-
-  Compare automated vs human patient recall using research-backed stats. Learn what works for multi-location healthcare groups and when to use a hybrid approach.
+seoDescription: Compare automated vs human patient recall using research-backed stats.
+  Learn what works for multi-location healthcare groups and when to use a hybrid approach.
 publishDate: '2026-02-03T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-  - patient recall
-  - automation
-  - call center
-  - multi-location healthcare
-  - DSO operations
+- patient recall
+- automation
+- call center
+- multi-location healthcare
+- DSO operations
 featuredImage: /images/blog/automated-vs-human-patient-recall.webp
-canonical: 'https://mybcat.com/blog/automated-vs-human-patient-recall/'
+canonical: https://mybcat.com/blog/automated-vs-human-patient-recall/
 cluster: recall-reactivation
 relatedPosts:
-  - patient-recall-service
-  - dormant-patient-reactivation
-  - patient-recall-scripts
+- patient-recall-service
+- dormant-patient-reactivation
+- patient-recall-scripts
+- patient-recall-campaign-framework
 ---
 
 Multi-location healthcare groups face a fundamental question when building recall programs: should patient outreach be automated, handled by live agents, or a combination of both? Research shows the answer depends on patient demographics, appointment type, and operational scale. Live phone calls achieve 32% completion rates compared to 17% for automated texts in preventive care contexts, yet automation costs 55-65% less per message. This guide presents the data and decision framework operations leaders need to choose the right approach.
@@ -229,6 +229,13 @@ For a detailed week-by-week implementation guide, see our [dormant patient react
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Patient Recall Service: What It Is and When You Need It](/blog/patient-recall-service/)
+- [Dormant Patient Reactivation: 30-Day Multi-Location Playbook](/blog/dormant-patient-reactivation/)
+- [Patient Recall Campaign Framework: Step-by-Step Guide](/blog/patient-recall-campaign-framework/)
 
 ## Sources
 
