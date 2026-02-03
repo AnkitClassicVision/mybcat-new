@@ -49,7 +49,7 @@ Enterprise Value = EBITDA × Multiple
 | Average | 8-10x | Stable but undifferentiated |
 | Underperformers | 6-8x | Operational challenges, high leverage |
 
-A 50-location dental group generating $10 million EBITDA at a 10x multiple is worth $100 million. Improve operations to command 12x and value increases to $120 million (a $20 million gain from operational excellence alone.
+A 50-location dental group generating $10 million EBITDA at a 10x multiple is worth $100 million. Improve operations to command 12x and value increases to $120 million (a $20 million gain from operational excellence alone).
 
 ## The PE Healthcare KPI Framework
 
@@ -423,7 +423,7 @@ PE-backed healthcare operations succeed by tracking and optimizing the right KPI
 - Sustainable value creation signal
 
 **The multiple impact:**
-Strong KPIs across all categories can expand multiples by 2-4x turns, representing tens or hundreds of millions in enterprise value for scaled platforms.
+Strong KPIs across all categories can expand multiples by 2-4 turns, representing tens or hundreds of millions in enterprise value for scaled platforms.
 
 **The bottom line:** The KPIs that PE firms track are not mysterious. They are the fundamental drivers of healthcare business value. Operating with PE-level KPI discipline creates value whether or not you ever engage with private equity.
 
