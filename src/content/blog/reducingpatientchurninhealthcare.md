@@ -43,7 +43,7 @@ Patient lifetime value in healthcare ranges from $1,000 for general practices to
 | Annual patient churn (20%) | 400 patients | 4,000 patients |
 | Revenue loss at $4,000 LTV | $1.6M | $16M |
 | Cost to acquire replacement | $400/patient | $1.6M total |
-| Net annual impact | $2M | $17.6M |
+| Net annual impact | $1.76M | $17.6M |
 
 The math gets worse when you factor in acquisition costs. Acquiring a new patient costs approximately $400 on average, according to healthcare marketing benchmarks. Retaining an existing patient costs a fraction of that amount.
 
@@ -78,7 +78,7 @@ Multi-location groups face a fundamental choice in how they structure patient re
 - Central team handles high-volume outreach
 - **Advantage**: Consistent patient experience, measurable KPIs, economies of scale
 
-The centralized approach works for groups managing 3+ locations because it creates accountability. You can benchmark Location 7 against Location 12 using the same metrics. You can identify underperforming sites before churn becomes critical.
+The centralized approach works for groups managing 3+ locations because it creates accountability. You can benchmark Location 7 against Location 10 using the same metrics. You can identify underperforming sites before churn becomes critical.
 
 For a deeper analysis of how to structure intake operations, see our guide on [centralized vs. distributed intake frameworks](/blog/centralized-vs-distributed-intake-framework/).
 

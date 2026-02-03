@@ -224,31 +224,31 @@ PE-backed healthcare companies need dashboards that serve multiple stakeholders:
 
 | Metric | Actual | Target | Trend | Status |
 |--------|--------|--------|-------|--------|
-| Revenue MTD | $X.XM | $X.XM | ↑3% | ✓ |
-| EBITDA MTD | $X.XM | $X.XM | ↑5% | ✓ |
-| Patient Volume | X,XXX | X,XXX | ↑2% | ✓ |
-| Collections | $X.XM | $X.XM | ↓1% | ⚠️ |
-| New Patients | XXX | XXX | ↑8% | ✓ |
+| Revenue MTD | $4.2M | $4.1M | ↑3% | ✓ |
+| EBITDA MTD | $0.9M | $0.85M | ↑5% | ✓ |
+| Patient Volume | 8,450 | 8,300 | ↑2% | ✓ |
+| Collections | $3.8M | $3.9M | ↓1% | ⚠️ |
+| New Patients | 485 | 450 | ↑8% | ✓ |
 
 ### Board/PE Sponsor Dashboard (Monthly/Quarterly)
 
 | Category | KPI | Actual | Budget | YoY | vs. Peers |
 |----------|-----|--------|--------|-----|-----------|
-| Financial | EBITDA | $XXM | $XXM | +12% | Top 25% |
-| Financial | Margin | XX% | XX% | +200bps | Above avg |
-| Operational | Utilization | XX% | XX% | +3% | Top 25% |
-| Quality | NPS | XX | XX | +5 | Average |
-| Growth | Same-store | X% | X% | +2% | Top 25% |
+| Financial | EBITDA | $11M | $10.5M | +12% | Top 25% |
+| Financial | Margin | 21% | 20% | +200bps | Above avg |
+| Operational | Utilization | 78% | 75% | +3% | Top 25% |
+| Quality | NPS | 72 | 70 | +5 | Average |
+| Growth | Same-store | 6% | 5% | +2% | Top 25% |
 
 ### Location-Level Dashboard (Daily/Weekly)
 
 | Metric | Today | WTD | MTD | vs. Goal |
 |--------|-------|-----|-----|----------|
-| Visits | XX | XXX | X,XXX | 98% |
-| Collections | $XX,XXX | $XXX,XXX | $X.XM | 95% |
-| No-shows | X | XX | XX | Above ⚠️ |
-| New patients | X | XX | XXX | 102% |
-| Provider hours | XX | XXX | X,XXX | 100% |
+| Visits | 42 | 185 | 820 | 98% |
+| Collections | $18,500 | $82,000 | $365,000 | 95% |
+| No-shows | 3 | 12 | 48 | Above ⚠️ |
+| New patients | 4 | 18 | 78 | 102% |
+| Provider hours | 32 | 142 | 620 | 100% |
 
 ## Improving KPIs That Drive Valuation
 

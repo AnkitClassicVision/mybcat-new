@@ -224,7 +224,7 @@ The COO expects to reach 25 locations within the next 18 months. With intake sta
 
 ## Key Takeaways
 
-- **The problem is bigger than you think.** A 38% missed call rate at 15 locations translated to 42 missed calls per day and over $1.2 million in annual lost revenue.
+- **The problem is bigger than you think.** A 38% missed call rate at 15 locations translated to 42 missed calls per day. With an estimated 8-10% of those being new patient inquiries, that represents over $1.2 million in annual lost revenue opportunity.
 
 - **PE sponsors care about same-store growth.** Improving answer rate from 62% to 95% moved same-store revenue growth from 2% to 8%, a metric that directly impacts valuation.
 

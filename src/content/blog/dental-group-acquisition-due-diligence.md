@@ -23,7 +23,7 @@ relatedPosts:
   - multi-location-healthcare-EBITDA
 ---
 
-The purchase price of a dental practice is largely a bet on patient retention. When you acquire a practice for 70-80% of collections, you are betting that those patients will continue coming after the seller leaves. Yet many acquirers. Even experienced DSOs. Underweight patient retention analysis during due diligence, only to watch 20-30% of patients disappear within 18 months of closing. This guide identifies the specific patient retention red flags to look for during dental acquisition due diligence.
+The purchase price of a dental practice is largely a bet on patient retention. When you acquire a practice for 70-80% of collections, you are betting that those patients will continue coming after the seller leaves. Yet many acquirers, even experienced DSOs, underweight patient retention analysis during due diligence, only to watch 20-30% of patients disappear within 18 months of closing. This guide identifies the specific patient retention red flags to look for during dental acquisition due diligence.
 
 ## Why Patient Retention Drives Dental Practice Value
 

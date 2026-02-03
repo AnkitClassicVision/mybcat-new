@@ -22,7 +22,7 @@ relatedPosts:
   - patient-recall-campaign-framework
 ---
 
-When facing a recall list of 500 overdue patients, the instinct is to start at the top and work down alphabetically. This is one of the most common, and costly. Mistakes in patient recall. Not all patients are equal, and treating them as such wastes time on low-probability contacts while high-value opportunities slip away. Effective segmentation answers the fundamental question: who should we call first, and why?
+When facing a recall list of 500 overdue patients, the instinct is to start at the top and work down alphabetically. This is one of the most common, and costly, mistakes in patient recall. Not all patients are equal, and treating them as such wastes time on low-probability contacts while high-value opportunities slip away. Effective segmentation answers the fundamental question: who should we call first, and why?
 
 ## The Case for Segmentation
 
@@ -309,7 +309,7 @@ Track performance by segment to refine your approach:
 
 **Problem:** Calling chronic no-shows before reliable patients
 
-**Fix:** Weight engagement history (a medium-value engaged patient beats a high-value non-responder.
+**Fix:** Weight engagement history (a medium-value engaged patient beats a high-value non-responder).
 
 ### Mistake 4: Same Approach for All Segments
 

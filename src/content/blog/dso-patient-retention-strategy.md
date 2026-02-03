@@ -291,7 +291,7 @@ At checkout:
 
 "[Patient Name], Dr. [Provider] would like to see you in 6 months for
 your next cleaning. Let's get that scheduled now so you don't have to
-worry about it later. I have availability in [Month]. do mornings or
+worry about it later. I have availability in [Month]. Do mornings or
 afternoons usually work better for you?"
 
 [Schedule appointment]
@@ -515,7 +515,7 @@ DSO patient retention at scale requires:
 - Root cause analysis for underperformers
 - Regular review and optimization cycles
 
-**The bottom line:** DSOs that treat retention as an enterprise capability, not a collection of local problems. Achieve 5-10 percentage points higher retention than industry average. At scale, those percentage points translate to millions in retained revenue and significantly higher enterprise value.
+**The bottom line:** DSOs that treat retention as an enterprise capability, not a collection of local problems, achieve 5-10 percentage points higher retention than industry average. At scale, those percentage points translate to millions in retained revenue and significantly higher enterprise value.
 
 For the technical implementation of centralized recall, see our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/). For the financial impact of retention on EBITDA, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-EBITDA/).
 

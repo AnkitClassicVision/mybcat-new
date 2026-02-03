@@ -1,6 +1,6 @@
 ---
 title: Spanish-Speaking Staff for Eye Care Practices
-description: 41 million Spanish speakers in the US. How many are choosing your competitor
+description: Over 40 million Spanish speakers in the US. How many are choosing your competitor
   because they can actually communicate with them?
 publishDate: 2025-01-28
 status: published
@@ -32,9 +32,9 @@ That story is from years ago, before we figured out that bilingual support isn't
 
 ## The Numbers That Should Get Your Attention
 
-There are over 41 million Spanish speakers in the United States. That's according to Pew Research, not some marketing estimate. Forty-one million.
+There are over 40 million Spanish speakers in the United States, according to Census Bureau data. In some estimates, the number exceeds 44 million when including bilingual speakers.
 
-In metro Atlanta, where my practice is located, about 10% of the population speaks Spanish at home. In cities like Houston, Miami, Los Angeles, Phoenix? It's significantly higher.
+In metro Atlanta, where my practice is located, about 9% of the population speaks Spanish at home. In cities like Houston, Miami, Los Angeles, Phoenix? It's significantly higher.
 
 Now think about your patient demographics. Think about who's living in the neighborhoods around your practice. Think about the patients who call, struggle to communicate, and never actually book.
 
@@ -62,7 +62,7 @@ Let's be direct about this: serving Spanish-speaking patients well is also good 
 
 Every Maria who hangs up in frustration is revenue you didn't capture. Every family that drives to a competitor is a relationship that could have been yours. Every Spanish-speaking patient who becomes a loyal advocate is marketing you didn't have to pay for.
 
-We've seen practices grow their patient base by 15-20% simply by adding reliable Spanish language support. Not through marketing. Just through word of mouth in communities that had been underserved.
+We've seen practices experience meaningful patient base growth simply by adding reliable Spanish language support. Not through marketing. Just through word of mouth in communities that had been underserved.
 
 And here's the math that really matters: [missed calls cost money](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/). If you're missing calls because of language barriers, or worse, converting calls poorly because of communication struggles, you're bleeding revenue you might not even know about.
 
