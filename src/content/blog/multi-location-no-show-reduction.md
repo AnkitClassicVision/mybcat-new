@@ -1,7 +1,7 @@
 ---
-title: "Multi-Location No-Show Reduction: Standardizing Across Your Network"
+title: "Multi-Location No-Show Reduction: Network Standardization"
 seoTitle: "Multi-Location No-Show Reduction: Network Standardization"
-description: "How multi-location healthcare groups standardize no-show reduction across their networks. Technology, protocols, and accountability systems that achieve sub-10% no-show rates consistently."
+description: "Standardize no-show reduction across multi-location networks. Protocols that achieve sub-10% no-show rates."
 seoDescription: "Multi-location healthcare no-show reduction standardization. Protocols, technology, and accountability systems achieving 8-10% no-show rates across all locations."
 publishDate: '2026-02-07'
 status: scheduled
@@ -23,7 +23,7 @@ relatedPosts:
   - healthcare-group-operations-benchmarks
 ---
 
-When one location achieves 8% no-shows and another struggles at 18%, the problem is not the patients—it is the lack of standardization. No-shows are a systems problem, and systems problems require systematic solutions. Multi-location healthcare groups that achieve consistently low no-show rates do so through standardized protocols, centralized technology, and network-wide accountability. This guide provides the framework for standardizing no-show reduction across your locations.
+When one location achieves 8% no-shows and another struggles at 18%, the problem is not the patients. It is the lack of standardization. No-shows are a systems problem, and systems problems require systematic solutions. Multi-location healthcare groups that achieve consistently low no-show rates do so through standardized protocols, centralized technology, and network-wide accountability. This guide provides the framework for standardizing no-show reduction across your locations.
 
 ## The No-Show Problem at Scale
 
@@ -413,7 +413,7 @@ Standardizing no-show reduction across multiple locations requires:
 - $2-5M annual revenue recovery (20-location example)
 - Improved patient satisfaction
 
-The locations that achieve the best no-show rates are not lucky—they follow disciplined, standardized processes. When you standardize those processes across your network, every location can perform like the best.
+The locations that achieve the best no-show rates are not lucky. They follow disciplined, standardized processes. When you standardize those processes across your network, every location can perform like the best.
 
 For the recovery protocols that complement no-show reduction, see our [no-show recovery program guide](/blog/no-show-recovery-program/). For centralized implementation, review our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/).
 

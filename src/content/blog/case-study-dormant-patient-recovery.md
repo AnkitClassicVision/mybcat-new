@@ -1,7 +1,7 @@
 ---
-title: "Case Study: How a 12-Location Optometry Group Recovered $312K from Dormant Patients"
+title: "Case Study: 12-Location Optometry Group Recovered $312K"
 seoTitle: "Case Study: Dormant Patient Recovery Without Discounting"
-description: "A 12-location optometry group recovered 847 dormant patients and $312,000 in first-year revenue using a 90-day reactivation campaign—without a single discount. Here's the playbook."
+description: "12-location optometry group recovered 847 dormant patients, $312K revenue in 90 days, no discounts. The exact playbook."
 seoDescription: "Real case study: 12-location optometry group reactivated 847 dormant patients, generated $312K revenue in 90 days without discounting. See the exact campaign framework and results."
 publishDate: '2026-02-17'
 status: scheduled
@@ -23,7 +23,7 @@ relatedPosts:
   - optometry-recall-campaign
 ---
 
-When Vision Care Partners (name changed for confidentiality) analyzed their patient data across 12 optometry locations, they found a problem hiding in plain sight: 4,200 patients who had not visited in 12-24 months. At an average lifetime value of $2,800 per patient, they were looking at $11.7 million in at-risk revenue slowly walking out the door. This case study documents how they recovered 847 of those patients and generated $312,000 in first-year revenue using a systematic reactivation campaign—without offering a single discount.
+When Vision Care Partners (name changed for confidentiality) analyzed their patient data across 12 optometry locations, they found a problem hiding in plain sight: 4,200 patients who had not visited in 12-24 months. At an average lifetime value of $2,800 per patient, they were looking at $11.7 million in at-risk revenue slowly walking out the door. This case study documents how they recovered 847 of those patients and generated $312,000 in first-year revenue using a systematic reactivation campaign, without offering a single discount.
 
 ## The Challenge
 
@@ -174,7 +174,7 @@ Performance varied significantly across the 12 locations:
 **Analysis of variance:**
 - Top performers (23-24%): Strong provider-patient relationships, consistent messaging
 - Mid performers (17-20%): Standard execution, room for improvement
-- Below average (15-17%): Investigated root causes—found stale contact data, inconsistent follow-up
+- Below average (15-17%): Investigated root causes and found stale contact data, inconsistent follow-up
 
 The network average of 20.2% masked significant variation, highlighting the importance of location-level tracking.
 
@@ -243,7 +243,7 @@ Six months post-campaign:
 - Quarterly deep-dive campaigns for long-dormant patients
 
 **Projected annual impact:**
-With ongoing reactivation processes, the group projects recovering 1,200+ dormant patients annually, representing $400,000+ in additional revenue—without increasing marketing spend on new patient acquisition.
+With ongoing reactivation processes, the group projects recovering 1,200+ dormant patients annually, representing $400,000+ in additional revenue, without increasing marketing spend on new patient acquisition.
 
 ## Key Takeaways
 
@@ -264,6 +264,13 @@ This case study demonstrates several principles for dormant patient recovery:
 7. **One campaign is not enough:** Ongoing reactivation processes prevent dormant lists from accumulating.
 
 For the complete framework to run your own reactivation campaign, see our [30-day dormant patient reactivation playbook](/blog/dormant-patient-reactivation/). For ROI calculation methodology, review our [patient reactivation ROI guide](/blog/patient-reactivation-roi/).
+
+## Sources
+
+- [Arini AI: Improve Patient Retention and Recall Rate](https://www.arini.ai/blog/improve-patient-retention-recall-rate-dental-clinics)
+- [Dentx: Dental Recall Rate Benchmarks](https://dentx.ca/blog/dental-recall-rate-benchmarks/)
+- [Artisan Growth Strategies: Healthcare Patient Acquisition and Retention Costs](https://www.artisangrowthstrategies.com/blog/healthcare-patient-acquisition-retention-costs-statistics-trends)
+- [RevenueWell: Perfect Dental Recall Campaign](https://www.revenuewell.com/article/perfect-dental-recall-campaign)
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

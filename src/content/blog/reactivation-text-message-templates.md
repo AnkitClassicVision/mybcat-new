@@ -1,7 +1,7 @@
 ---
-title: "Reactivation Text Message Templates: SMS Scripts That Don't Sound Spammy"
+title: "Reactivation Text Templates: SMS Scripts That Work"
 seoTitle: "Reactivation Text Message Templates: HIPAA-Compliant SMS Scripts"
-description: "Copy-and-paste reactivation text message templates that achieve 70% higher response rates. HIPAA-compliant SMS scripts for healthcare patient reactivation that feel personal, not pushy."
+description: "Reactivation text templates with 70% higher response rates. HIPAA-compliant SMS scripts that feel personal, not pushy."
 seoDescription: "HIPAA-compliant reactivation text message templates with 98% open rates. Ready-to-use SMS scripts for dormant patient reactivation in dental, optometry, and multi-location healthcare groups."
 publishDate: '2026-02-11'
 status: scheduled
@@ -23,7 +23,7 @@ relatedPosts:
   - patient-recall-service
 ---
 
-The difference between a text message that gets ignored and one that brings a patient back often comes down to 160 characters. SMS achieves a 98% open rate—compared to 12% for email—and 90% of texts are read within three minutes. Yet many healthcare reactivation messages sound robotic, impersonal, or worse, like spam. This guide provides ready-to-use reactivation text message templates that feel personal, respect HIPAA compliance, and convert dormant patients back to active status.
+The difference between a text message that gets ignored and one that brings a patient back often comes down to 160 characters. SMS achieves a 98% open rate (compared to 12% for email) and 90% of texts are read within three minutes. Yet many healthcare reactivation messages sound robotic, impersonal, or worse, like spam. This guide provides ready-to-use reactivation text message templates that feel personal, respect HIPAA compliance, and convert dormant patients back to active status.
 
 ## Why SMS Works for Patient Reactivation
 
@@ -79,7 +79,7 @@ These templates work for patients who have been away for six months to a year. T
 **Template 1A: The Check-In**
 ```
 Hi [First Name], this is [Practice Name]. We noticed it's been a while
-since your last visit. Just checking in—how have you been? Reply YES
+since your last visit. Just checking in. How have you been? Reply YES
 if you'd like to schedule, or call us at [phone]. Reply STOP to opt out.
 ```
 **Character count:** 225 | **Tone:** Caring, conversational
@@ -95,7 +95,7 @@ Reply YES to schedule or call [phone]. Reply STOP to opt out.
 **Template 1C: The Health Reminder**
 ```
 Hi [First Name], [Practice Name] here. Regular [checkups/cleanings/exams]
-help catch issues early. You're overdue—let's get you scheduled.
+help catch issues early. You're overdue. Let's get you scheduled.
 Reply YES or call [phone]. Reply STOP to opt out.
 ```
 **Character count:** 208 | **Tone:** Educational, non-pushy
@@ -162,7 +162,7 @@ Reply YES to schedule. Reply STOP to opt out.
 
 **Template 4B: The Changes Message**
 ```
-[First Name], a lot has changed at [Practice Name]—new [hours/services/
+[First Name], a lot has changed at [Practice Name]: new [hours/services/
 technology]. We'd love to welcome you back. Reply YES to schedule or
 call [phone]. Reply STOP to opt out.
 ```
@@ -206,7 +206,7 @@ The most effective reactivation uses a sequence of 3-4 messages spaced appropria
 **Sequence Day 1 (Initial):**
 ```
 Hi [First Name], this is [Practice Name]. Your [exam/cleaning/checkup]
-is overdue—just wanted to make sure you knew! Reply YES to schedule
+is overdue. Just wanted to make sure you knew! Reply YES to schedule
 or call [phone]. Reply STOP to opt out.
 ```
 
@@ -219,7 +219,7 @@ Reply YES or call [phone]. Reply STOP to opt out.
 
 **Sequence Day 10 (Value Add):**
 ```
-Hi [First Name], one more note from [Practice Name]—your [preventive
+Hi [First Name], one more note from [Practice Name]. Your [preventive
 visit] may be covered by insurance at no cost. Want to check?
 Reply YES to schedule. Reply STOP to opt out.
 ```
@@ -227,7 +227,7 @@ Reply YES to schedule. Reply STOP to opt out.
 **Sequence Day 21 (Final):**
 ```
 [First Name], this is our last message about scheduling. We're here
-when you're ready—just reply or call [phone]. Take care! —[Practice Name]
+when you're ready. Just reply or call [phone]. Take care! - [Practice Name]
 Reply STOP to opt out.
 ```
 
@@ -252,7 +252,7 @@ Feels like spam, damages brand trust.
 ❌ "Hi John, your diabetes checkup is overdue. Dr. Smith needs to
 discuss your A1C levels."
 ```
-HIPAA violation—never include conditions or specific health details.
+HIPAA violation. Never include conditions or specific health details.
 
 **Too many messages:**
 ```
@@ -369,12 +369,12 @@ Reactivation text message templates succeed when they feel personal, not promoti
 - SMS achieves 98% open rates; 90% are read within three minutes
 - Personalized messages generate 70% higher response rates than generic ones
 - Always include opt-out language for HIPAA and TCPA compliance
-- Never include PHI in message body—use links to secure portals
+- Never include PHI in message body. Use links to secure portals
 - Use sequences of 3-4 messages over 21-30 days, not daily blasts
 - Test and optimize: small changes in wording can significantly impact response rates
 - For multi-location groups: standardize compliance and voice, localize details
 
-The templates in this guide provide starting points. Adapt them to your practice's voice, patient demographics, and specialty. The best message is one that sounds like it came from a real person who cares—because it should.
+The templates in this guide provide starting points. Adapt them to your practice's voice, patient demographics, and specialty. The best message is one that sounds like it came from a real person who cares. Because it should.
 
 For complete phone scripts to complement these SMS templates, see our [patient recall scripts guide](/blog/patient-recall-scripts/). For the full reactivation campaign framework, review our [30-day dormant patient reactivation playbook](/blog/dormant-patient-reactivation/).
 

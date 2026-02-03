@@ -1,7 +1,7 @@
 ---
 title: "Patient Recall Campaign Framework: Step-by-Step Guide"
 seoTitle: "Patient Recall Campaign Framework: Step-by-Step Guide"
-description: "Build a patient recall campaign that works. The complete framework for identifying dormant patients, multi-channel outreach sequencing, and achieving 20%+ reactivation rates."
+description: "Build a patient recall campaign that works. Complete 6-phase framework for multi-channel outreach, messaging, and achieving 20%+ reactivation rates."
 seoDescription: "Patient recall campaign framework with step-by-step implementation. Multi-channel sequencing, messaging templates, and metrics for healthcare practices."
 publishDate: '2026-01-29'
 status: published
@@ -288,15 +288,15 @@ Patient recall does not exist in isolation. It connects to every other aspect of
 
 ## Sources
 
-- [Henry Schein One: How Top 10% Dominate Patient Retention](https://www.henryscheinone.com/insights/blogs/how-the-top-10-dominate-dental-care-patient-retention-and-practice-growth/)
 - [Delmain: Average Lifetime Value of a Dental Patient](https://delmain.co/blog/average-lifetime-value-dental-patient/)
-- [Vital Interaction: Patient Reactivation Process](https://www.vitalinteraction.com/3-key-reasons-your-patient-reactivation-process-may-be-broken/)
-- [Proactive Chart: Appointment Reminders Text vs Email](https://www.proactivechart.com/resources/appointment-reminders-text-email/)
-- [Demandforce: Patient Recall Strategies](https://www.demandforce.com/proven-patient-recall-strategies-that-actually-work/)
-- [Prospyr: Automated Reminders Reduce No-Shows](https://www.prospyrmed.com/blog/post/how-automated-reminders-reduce-no-shows)
-- [TeamCare: Modern Dentistry Case Study - 140x ROI](https://teamcaredental.com/case-studies/modern-customer-story)
+- [Artisan Growth Strategies: Healthcare Patient Acquisition and Retention Costs](https://www.artisangrowthstrategies.com/blog/healthcare-patient-acquisition-retention-costs-statistics-trends)
+- [Arini AI: Improve Patient Retention and Recall Rate](https://www.arini.ai/blog/improve-patient-retention-recall-rate-dental-clinics)
+- [Dentx: Dental Recall Rate Benchmarks](https://dentx.ca/blog/dental-recall-rate-benchmarks/)
+- [RevenueWell: Perfect Dental Recall Campaign](https://www.revenuewell.com/article/perfect-dental-recall-campaign)
+- [Practice Numbers: Dental Recall System](https://practicenumbers.com/blog/dental-recall-system/)
 - [Gallup: Pet Owners Skipped Veterinary Care](https://news.gallup.com/poll/659057/pet-owners-skipped-declined-veterinary-care.aspx)
 - [Overjet: Dental Patient Targeting 2025](https://www.overjet.com/blog/how-many-new-patients-should-your-dental-practice-target-monthly-in-2025)
+- [Dental Tribune: Automated Appointment Reminders Study](https://us.dental-tribune.com/news/study-reveals-how-automated-patient-appointment-reminders-affect-dental-practice-no-show-rates-and-production/)
 
 ---
 

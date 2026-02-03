@@ -1,7 +1,7 @@
 ---
-title: "Dental Hygiene Recall: Why It Drives DSO Valuation More Than Any Other Metric"
+title: "Dental Hygiene Recall: The DSO Valuation Driver"
 seoTitle: "Dental Hygiene Recall: The DSO Valuation Driver"
-description: "Hygiene recall rates separate $500K practices from $1M practices. Only 17% of dentists have most patients on 6-month recall. Learn the benchmarks and strategies that drive DSO valuations."
+description: "Hygiene recall rates separate $500K from $1M practices. Only 17% have patients on 6-month recall. Benchmarks and strategies."
 seoDescription: "Dental hygiene recall rates are the #1 driver of practice valuation. Learn benchmarks (60-70% average, 85%+ optimal), revenue impact, and strategies for DSO improvement."
 publishDate: '2026-02-09'
 status: scheduled
@@ -26,7 +26,7 @@ Hygiene recall rates are the single metric that most frequently separates $500,0
 
 ## Why Hygiene Recall Matters for Valuation
 
-Dental practice valuations depend heavily on predictable, recurring revenue. Hygiene appointments provide exactly that—scheduled, repeating visits that generate both direct revenue and downstream treatment opportunities.
+Dental practice valuations depend heavily on predictable, recurring revenue. Hygiene appointments provide exactly that: scheduled, repeating visits that generate both direct revenue and downstream treatment opportunities.
 
 **The financial math:**
 - Average hygiene appointment produces approximately $471 in income (appointment + doctor exam)
@@ -35,7 +35,7 @@ Dental practice valuations depend heavily on predictable, recurring revenue. Hyg
 - Practices with strong recall systems retain patients 10-15% longer than those without
 
 **Why it separates practices:**
-Research shows hygiene reappointment rates "most frequently separate $500,000 practices from $1,000,000 practices." The difference is not location, demographics, or marketing spend—it is systematic execution of patient retention through hygiene recall.
+Research shows hygiene reappointment rates "most frequently separate $500,000 practices from $1,000,000 practices." The difference is not location, demographics, or marketing spend. It is systematic execution of patient retention through hygiene recall.
 
 ## Current State: Where Most Practices Stand
 
@@ -49,7 +49,7 @@ The industry data reveals a significant performance gap:
 | Average general dentist patient retention | 4 out of 10 beyond first visit |
 
 **The retention challenge:**
-The average general dentist retains only four out of every ten patients beyond their initial appointment. Patients who cancel hygiene appointments frequently fail to reschedule without active intervention. Your ideal patient retention rate should be 85% or better—nearly nine out of every ten patients returning for their next visit.
+The average general dentist retains only four out of every ten patients beyond their initial appointment. Patients who cancel hygiene appointments frequently fail to reschedule without active intervention. Your ideal patient retention rate should be 85% or better: nearly nine out of every ten patients returning for their next visit.
 
 ## The Revenue Impact of Improving Recall
 

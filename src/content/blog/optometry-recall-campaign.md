@@ -1,7 +1,7 @@
 ---
-title: "Optometry Recall Campaign: How to Fill the January Slump and Beyond"
+title: "Optometry Recall Campaign: Beat the January Slump"
 seoTitle: "Optometry Recall Campaign: Beat the January Slump"
-description: "Top optometry practices achieve 85-87% recall rates and 140x ROI on reactivation campaigns. Learn the strategies that fill schedules during the January slump and year-round."
+description: "Top optometry practices achieve 85-87% recall rates and 140x ROI. Strategies to fill schedules during the January slump."
 seoDescription: "Optometry recall campaigns can achieve 85% recall rates and 50x+ ROI. Learn timing, messaging, and multi-channel strategies to fill the January slump and recover $428K+ in lapsed patient revenue."
 publishDate: '2026-02-10'
 status: scheduled
@@ -22,7 +22,7 @@ relatedPosts:
   - patient-recall-scripts
 ---
 
-The January slump hits optometry practices hard—post-holiday slowdowns leave schedules with gaps and revenue unpredictable. Yet top-performing practices use this exact period to run recall campaigns that generate 50x+ ROI and achieve 85-87% recall rates. One practice reported gaining $49,000 in revenue from 59 reactivated patients in just 90 days—a 140x return on their campaign investment. This guide provides the specific strategies optometry practices use to fill the January slump and maintain consistent patient flow year-round.
+The January slump hits optometry practices hard. Post-holiday slowdowns leave schedules with gaps and revenue unpredictable. Yet top-performing practices use this exact period to run recall campaigns that generate 50x+ ROI and achieve 85-87% recall rates. One practice reported gaining $49,000 in revenue from 59 reactivated patients in just 90 days (a 140x return on their campaign investment). This guide provides the specific strategies optometry practices use to fill the January slump and maintain consistent patient flow year-round.
 
 ## The Cost of Ignoring Optometry Recall
 
@@ -32,7 +32,7 @@ Before diving into campaign tactics, understand what poor recall costs your prac
 The average optometry patient has a lifetime value of approximately $4,200. For a practice with 2,000 active patients experiencing industry-average attrition (10-17% annually), that represents $840,000 in lost revenue each year from patients who drift away without active recall.
 
 **The exam-to-eyewear connection:**
-Recall does not just recover exam revenue. Patients who return for annual exams also purchase eyewear and contact lenses. Practices with strong recall (87% rate) report average revenue per patient (ARPP) of $630, compared to $210 at practices with poor recall—a 3x difference.
+Recall does not just recover exam revenue. Patients who return for annual exams also purchase eyewear and contact lenses. Practices with strong recall (87% rate) report average revenue per patient (ARPP) of $630, compared to $210 at practices with poor recall, a 3x difference.
 
 **Industry benchmarks:**
 | Metric | Average Practice | Top Performer |
@@ -40,7 +40,7 @@ Recall does not just recover exam revenue. Patients who return for annual exams 
 | Recall rate | 62% | 85-87% |
 | Complete exams per 100 active patients | 43 | 51+ |
 | Reactivation rate (dormant patients) | 15-20% | 25-30% |
-| No-show reduction with reminders | — | 50-85% |
+| No-show reduction with reminders |: | 50-85% |
 
 ## Understanding the January Slump
 
@@ -89,14 +89,14 @@ Draft campaign messages that acknowledge the new year and tie to annual eye heal
 
 ```
 Hi [Name], happy new year from [Practice Name]! Your annual eye exam
-is due. Start 2026 with clear vision—reply YES to schedule or call
+is due. Start 2026 with clear vision. Reply YES to schedule or call
 [phone]. Your [VSP/vision plan] benefits are ready to use!
 ```
 
 **Day 4-7: Email campaign to full list**
 
 Subject lines that work:
-- "Your vision benefits reset—schedule your 2026 exam"
+- "Your vision benefits reset. Schedule your 2026 exam"
 - "[Name], your annual eye exam is due"
 - "Start the new year seeing clearly"
 

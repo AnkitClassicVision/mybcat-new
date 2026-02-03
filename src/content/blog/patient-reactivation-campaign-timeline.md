@@ -1,7 +1,7 @@
 ---
 title: "Patient Reactivation Campaign Timeline: From 7 Days to 90 Days"
 seoTitle: "Patient Reactivation Campaign Timeline: 7-90 Day Framework"
-description: "A structured reactivation campaign timeline that achieves 20-30% recovery rates. Day-by-day outreach cadence from week 1 to week 12, with channel selection and escalation triggers."
+description: "Reactivation timeline that achieves 20-30% recovery. Day-by-day cadence from week 1 to 12 with escalation triggers."
 seoDescription: "Day-by-day patient reactivation campaign timeline from 7 to 90 days. Multi-channel outreach cadence achieving 20-30% recovery rates for healthcare practices and multi-location groups."
 publishDate: '2026-02-20'
 status: scheduled
@@ -22,7 +22,7 @@ relatedPosts:
   - patient-recall-scripts
 ---
 
-The difference between a 10% and 25% reactivation rate often comes down to timing and persistence. Send one message and stop—you will recover a fraction of what a structured multi-touch campaign delivers. This guide provides the day-by-day timeline for patient reactivation campaigns spanning 7 days to 90 days, with channel selection, escalation triggers, and benchmarks at each stage.
+The difference between a 10% and 25% reactivation rate often comes down to timing and persistence. Send one message and stop. You will recover a fraction of what a structured multi-touch campaign delivers. This guide provides the day-by-day timeline for patient reactivation campaigns spanning 7 days to 90 days, with channel selection, escalation triggers, and benchmarks at each stage.
 
 ## Why Campaign Duration Matters
 
@@ -52,11 +52,11 @@ Use the 7-day sprint for recently dormant patients (6-12 months) or time-sensiti
 | Day | Channel | Action | Goal |
 |-----|---------|--------|------|
 | 1 | SMS | Initial outreach with personalization | Contact and booking |
-| 2 | — | Wait for responses | Process replies |
+| 2 | N/A | Wait for responses | Process replies |
 | 3 | Email | Detailed follow-up with booking link | Catch email-preferred |
-| 4-5 | — | Process responses and bookings | Convert responders |
+| 4-5 | N/A | Process responses and bookings | Convert responders |
 | 6 | SMS | Final reminder to non-responders | Last push |
-| 7 | — | Campaign close for this sprint | Tally results |
+| 7 | N/A | Campaign close for this sprint | Tally results |
 
 **7-day sprint messaging:**
 
@@ -89,7 +89,7 @@ Looking forward to seeing you!
 
 **Day 6 SMS:**
 ```
-[Name], last reminder from [Practice Name]—your [appointment type] is
+[Name], last reminder from [Practice Name]. Your [appointment type] is
 overdue. Reply YES to schedule before spots fill up, or call [phone].
 Reply STOP to opt out.
 ```
@@ -111,20 +111,20 @@ The 30-day campaign is the workhorse for most reactivation efforts, providing en
 | 1 | SMS | Initial personalized outreach | All dormant |
 | 3 | Email | Detailed message with booking link | All dormant |
 | 7 | SMS | Second reminder with urgency | Non-responders |
-| 10 | — | Review responses, segment non-responders | — |
+| 10 | N/A | Review responses, segment non-responders | N/A |
 | 14 | Email/SMS | Value-focused message | Non-responders |
-| 17 | — | Identify high-value non-responders | — |
+| 17 | N/A | Identify high-value non-responders | N/A |
 | 21 | Phone | Personal calls to high-value | Top 20% by LTV |
-| 24 | — | Process call results | — |
+| 24 | N/A | Process call results | N/A |
 | 28 | Postcard | Direct mail to unreachables | No valid digital contact |
-| 30 | — | Campaign close, final reporting | — |
+| 30 | N/A | Campaign close, final reporting | N/A |
 
 ### 30-Day Detailed Script Sequence
 
 **Day 1 SMS (All patients):**
 ```
 Hi [Name], it's [Practice Name]. Dr. [Provider] noticed your [exam/
-cleaning/checkup] is overdue. We have openings this week—reply YES
+cleaning/checkup] is overdue. We have openings this week. Reply YES
 to schedule or call [phone]. Reply STOP to opt out.
 ```
 
@@ -141,7 +141,7 @@ Include:
 **Day 7 SMS (Non-responders only):**
 ```
 [Name], following up from [Practice Name]. Your [appointment] is now
-[X months] overdue. We have openings—reply YES or call [phone].
+[X months] overdue. We have openings. Reply YES or call [phone].
 Reply STOP to opt out.
 ```
 
@@ -162,7 +162,7 @@ for your [appointment type].
 Is there anything that's been keeping you from coming in? [Listen]
 
 I'd love to get you scheduled. I have [specific times] available
-this week—what works best for you?"
+this week. What works best for you?"
 ```
 
 **Day 28 Postcard (Unreachables):**
@@ -212,8 +212,8 @@ The 90-day campaign maximizes reactivation from a dormant list through sustained
 
 | Week | Days | Focus | Channels | Target |
 |------|------|-------|----------|--------|
-| 1 | 1-7 | Data prep, segmentation | — | Setup |
-| 2 | 8-14 | Template prep, testing | — | Setup |
+| 1 | 1-7 | Data prep, segmentation | N/A | Setup |
+| 2 | 8-14 | Template prep, testing | N/A | Setup |
 | 3 | 15-21 | Launch: recently dormant | SMS, Email | High priority |
 | 4 | 22-28 | Launch: high-value | SMS, Email, Phone | High priority |
 | 5 | 29-35 | Expand: medium dormant | SMS, Email | All dormant |
@@ -223,7 +223,7 @@ The 90-day campaign maximizes reactivation from a dormant list through sustained
 | 9 | 57-63 | Final digital push | SMS, Email | Non-responders |
 | 10 | 64-70 | Final phone push | Phone | High-value only |
 | 11 | 71-77 | Closeout outreach | SMS | Last chance |
-| 12 | 78-90 | Reporting, transition | — | Analysis |
+| 12 | 78-90 | Reporting, transition | N/A | Analysis |
 
 ### 90-Day Weekly Checklist
 

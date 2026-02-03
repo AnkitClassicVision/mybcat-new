@@ -1,7 +1,7 @@
 ---
 title: "Healthcare Call Center ROI: Enterprise Calculation Framework"
 seoTitle: "Healthcare Call Center ROI: Enterprise Calculation Framework"
-description: "A comprehensive framework for calculating healthcare call center ROI at enterprise scale. Cost components, revenue drivers, patient retention value, and benchmarks for multi-location healthcare groups."
+description: "Framework for calculating healthcare call center ROI at enterprise scale. Cost components and revenue benchmarks."
 seoDescription: "Healthcare call center ROI calculation framework for enterprise. Cost components, revenue attribution, patient retention value, and benchmarks achieving 40-100%+ ROI."
 publishDate: '2026-02-08'
 status: scheduled
@@ -23,7 +23,7 @@ relatedPosts:
   - healthcare-group-operations-benchmarks
 ---
 
-Healthcare executives frequently ask: "What is the ROI of our call center?" The answer is more complex than it appears. Unlike manufacturing where output equals input transformed, call centers generate value through multiple channels—appointments scheduled, patients retained, revenue protected, and experiences delivered. This guide provides the comprehensive framework for calculating healthcare call center ROI at enterprise scale.
+Healthcare executives frequently ask: "What is the ROI of our call center?" The answer is more complex than it appears. Unlike manufacturing where output equals input transformed, call centers generate value through multiple channels. Appointments scheduled, patients retained, revenue protected, and experiences delivered. This guide provides the comprehensive framework for calculating healthcare call center ROI at enterprise scale.
 
 ## The Healthcare Call Center ROI Equation
 
@@ -452,7 +452,7 @@ Healthcare call center ROI calculation requires comprehensive analysis:
 - Retention success rate
 - Self-service deflection
 
-The healthcare call center is not a cost center—it is a revenue and retention engine that, when measured properly, demonstrates substantial positive ROI.
+The healthcare call center is not a cost center. It is a revenue and retention engine that, when measured properly, demonstrates substantial positive ROI.
 
 For implementation of centralized call center operations, see our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/). For the impact on EBITDA, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-EBITDA/).
 

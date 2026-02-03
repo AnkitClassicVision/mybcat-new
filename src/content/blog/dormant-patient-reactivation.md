@@ -1,7 +1,7 @@
 ---
-title: "Dormant Patient Reactivation: A 30-Day Playbook for Multi-Location Groups"
+title: "Dormant Patient Reactivation: 30-Day Multi-Location Playbook"
 seoTitle: "Dormant Patient Reactivation: 30-Day Playbook for Healthcare Groups"
-description: "Multi-location healthcare groups can recover 15-25% of dormant patients with a structured 30-day reactivation playbook. Learn the exact steps DSOs and healthcare networks use."
+description: "Multi-location healthcare groups recover 15-25% of dormant patients with this 30-day reactivation playbook. Steps for DSOs and healthcare networks."
 seoDescription: "A proven 30-day playbook for dormant patient reactivation at multi-location healthcare groups. Includes scripts, timing sequences, and KPIs that drive results."
 publishDate: '2026-01-30'
 status: published
@@ -315,4 +315,6 @@ The difference between groups that recover dormant patients and those that do no
 
 - [MGMA Patient Access and Retention Data 2025](https://www.mgma.com/)
 - [Weatherby Healthcare: Patient Lifetime Value Research](https://weatherbyhealthcare.com/blog/patient-lifetime-value)
-- [Healthcare communication effectiveness research](https://www.ncbi.nlm.nih.gov/pmc/articles/patient-communication/)
+- [Prospyr: Ultimate Guide to Patient Reactivation](https://www.prospyrmed.com/blog/post/ultimate-guide-to-patient-reactivation)
+- [Demandforce: Strategies to Achieve Patient Reactivation in 2025](https://www.demandforce.com/3-strategies-to-achieve-patient-reactivation-in-2025/)
+- [Physicians Assistance: Reactivating Dormant Patients with CRM](https://www.physiciansassistance.com/reactivating-dormant-patients-how-our-crm-re-engagement-campaigns-bring-patients-back/)

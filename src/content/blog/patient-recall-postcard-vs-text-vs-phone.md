@@ -1,7 +1,7 @@
 ---
-title: "Recall Postcard vs Text vs Phone: A Channel Selection Guide for Healthcare"
+title: "Recall Postcard vs Text vs Phone: Channel Selection Guide"
 seoTitle: "Recall Postcard vs Text vs Phone: Which Channel Works Best?"
-description: "SMS achieves 98% open rates while phone calls convert 40-60% of connections. This guide compares recall postcards, text messages, and phone calls with cost-per-contact data and patient demographic recommendations."
+description: "SMS: 98% open rates. Phone: 40-60% conversion. Compare recall postcards, texts, and calls with cost-per-contact data."
 seoDescription: "Compare patient recall channels: postcards, text messages, and phone calls. Data-driven analysis of effectiveness, cost, and when to use each for multi-location healthcare groups."
 publishDate: '2026-02-12'
 status: scheduled
@@ -23,7 +23,7 @@ relatedPosts:
   - automated-vs-human-patient-recall
 ---
 
-The debate over which patient recall channel works best misses the point. Top-performing practices do not choose one channel—they deploy all three strategically based on patient demographics, dormancy duration, and lifetime value. SMS achieves 98% open rates. Phone calls convert 40-60% of connected patients. Postcards reach patients that digital channels miss entirely. This guide provides the data to decide when to use each channel and how to combine them for maximum recall effectiveness.
+The debate over which patient recall channel works best misses the point. Top-performing practices do not choose one channel. They deploy all three strategically based on patient demographics, dormancy duration, and lifetime value. SMS achieves 98% open rates. Phone calls convert 40-60% of connected patients. Postcards reach patients that digital channels miss entirely. This guide provides the data to decide when to use each channel and how to combine them for maximum recall effectiveness.
 
 ## Channel Performance Overview
 
@@ -32,7 +32,7 @@ Each recall channel has distinct strengths:
 | Channel | Open/Reach Rate | Response Rate | Conversion Rate | Best For |
 |---------|----------------|---------------|-----------------|----------|
 | SMS/Text | 98% open | 15-25% | 30-50% of responses | Quick actions, confirmations |
-| Phone calls | 25-40% answer | — | 40-60% of connections | High-value, complex cases |
+| Phone calls | 25-40% answer | N/A | 40-60% of connections | High-value, complex cases |
 | Postcards | 80-90% delivered | 1-3% | Variable | Older demographics, no digital |
 | Email | 20-30% open | 5-10% click | Variable | Educational content |
 
@@ -281,7 +281,7 @@ Track these metrics by channel to optimize your mix:
 
 ## Key Takeaways
 
-Choosing between recall postcards, texts, and phone calls is not about picking a winner—it is about strategic deployment based on patient characteristics:
+Choosing between recall postcards, texts, and phone calls is not about picking a winner. It is about strategic deployment based on patient characteristics:
 
 - **SMS/Text:** Primary channel for most patients; 98% open rate, lowest cost, highest scalability
 - **Phone calls:** Reserve for high-value patients and long-dormant; 40-60% conversion when connected

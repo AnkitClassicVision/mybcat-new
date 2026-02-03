@@ -1,7 +1,7 @@
 ---
 title: "Patient Recall Scripts: Phone and SMS Templates That Get Results"
 seoTitle: "Patient Recall Scripts: Phone & SMS Templates for Healthcare"
-description: "Ready-to-use patient recall scripts for phone calls and SMS that increase booking rates by 20-30%. Includes objection handling, timing guidance, and multi-location adaptation."
+description: "Patient recall scripts for phone and SMS that increase booking rates by 20-30%. Includes objection handling and timing."
 seoDescription: "Copy-and-paste patient recall scripts for phone and SMS. Includes templates for overdue patients, no-shows, objection handling, and multi-location healthcare groups."
 publishDate: '2026-02-05'
 status: scheduled
@@ -107,7 +107,7 @@ seen you in a while and Dr. [Provider] asked me to personally reach out."
 "It's been about [X months] since your last visit. We want you to know
 you're still welcome here and we'd love to see you again.
 
-A lot has changed since your last visit—we've [mention improvement:
+A lot has changed since your last visit: we've [mention improvement:
 new technology, extended hours, new services, etc.].
 
 I know it's been a while. Is there anything we could have done better
@@ -140,11 +140,11 @@ We noticed you weren't able to make it in. I hope everything is okay!
 We had that time reserved just for you, and we want to make sure you
 still get the care you need.
 
-What happened—did something come up? Let's find a time that works better
+What happened? Did something come up? Let's find a time that works better
 for your schedule. I have [specific times] available this week."
 
 [If they apologize:]
-"No worries—it happens! The important thing is getting you rescheduled.
+"No worries. It happens! The important thing is getting you rescheduled.
 What time works better for you?"
 ```
 
@@ -188,7 +188,7 @@ schedule or CALL to chat with our team. We're here when you're ready!
 ```
 [First Name], your [appointment type] at [Practice Name] is now [X months]
 overdue. Regular [exams/checkups/cleanings] help catch issues early.
-Let's get you scheduled—reply YES or call [phone].
+Let's get you scheduled. Reply YES or call [phone].
 ```
 
 ### Template 5: Last Chance
@@ -202,7 +202,7 @@ stay on as a patient. We're here when you're ready. – [Practice Name]
 ### Template 6: No-Show Same Day
 
 ```
-Hi [First Name], we missed you at your appointment today! Life happens—no
+Hi [First Name], we missed you at your appointment today! Life happens. No
 worries. Reply to reschedule or call [phone]. We want to make sure you
 get the care you need. – [Practice Name]
 ```
@@ -222,7 +222,7 @@ Patients give objections. How you respond determines whether they book or diseng
 ### Objection: "I'm too busy right now"
 
 ```
-Phone: "I completely understand—everyone's schedule is packed these days.
+Phone: "I completely understand. Everyone's schedule is packed these days.
 What if we looked at early morning or late afternoon times? We also have
 [Saturday hours/extended hours] if that helps. Even a quick appointment
 is better than letting things slide."
@@ -235,7 +235,7 @@ that fits."
 ### Objection: "I'll call you back to schedule"
 
 ```
-Phone: "Of course! Before I let you go—what day this week works best
+Phone: "Of course! Before I let you go, what day this week works best
 for you, generally? I can send you a text reminder with available times
 for that day, so you don't have to remember to call back."
 
@@ -248,14 +248,14 @@ the best number?"
 ### Objection: "I don't think I can afford it right now"
 
 ```
-Phone: "I hear you—that's a real concern for a lot of patients. Let me
+Phone: "I hear you. That's a real concern for a lot of patients. Let me
 tell you about a couple options: We offer [payment plans/financing], and
 your preventive [exam/cleaning] may be covered by insurance at little to
 no cost. Would it help if I checked your benefits before we schedule?"
 
 SMS: "We understand cost concerns! Many preventive visits are covered
 by insurance. We also offer payment plans. Call [phone] and we can
-check your benefits—often it costs less than you'd think."
+check your benefits. Often it costs less than you'd think."
 ```
 
 ### Objection: "I'm seeing someone else now"

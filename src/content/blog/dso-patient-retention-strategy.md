@@ -1,7 +1,7 @@
 ---
-title: "DSO Patient Retention Strategy: Scaling Recall Systems Across 10+ Locations"
+title: "DSO Patient Retention Strategy: Scaling to 10+ Locations"
 seoTitle: "DSO Patient Retention Strategy: Scaling Recall for 10+ Locations"
-description: "How DSOs with 10+ locations build patient retention systems that achieve 80%+ recall rates. Centralized technology, standardized workflows, and location-level accountability for sustainable growth."
+description: "DSOs with 10+ locations build retention systems that achieve 80%+ recall rates. Centralized tech and standardized workflows."
 seoDescription: "DSO patient retention strategy for 10+ locations. Benchmarks, centralized tech stacks, standardized workflows, and accountability frameworks achieving 80%+ recall rates."
 publishDate: '2026-02-15'
 status: scheduled
@@ -23,7 +23,7 @@ relatedPosts:
   - dormant-patient-reactivation
 ---
 
-Dental Service Organizations face a unique challenge: maintaining the personalized care that keeps patients coming back while operating at scale across dozens or hundreds of locations. The DSOs that achieve sustainable growth understand that patient retention is not a local problem to be solved independently at each practice—it is an enterprise capability requiring centralized systems, standardized processes, and location-level accountability. This guide provides the framework for building retention systems that scale.
+Dental Service Organizations face a unique challenge: maintaining the personalized care that keeps patients coming back while operating at scale across dozens or hundreds of locations. The DSOs that achieve sustainable growth understand that patient retention is not a local problem to be solved independently at each practice. It is an enterprise capability requiring centralized systems, standardized processes, and location-level accountability. This guide provides the framework for building retention systems that scale.
 
 ## The DSO Retention Imperative
 
@@ -291,7 +291,7 @@ At checkout:
 
 "[Patient Name], Dr. [Provider] would like to see you in 6 months for
 your next cleaning. Let's get that scheduled now so you don't have to
-worry about it later. I have availability in [Month]—do mornings or
+worry about it later. I have availability in [Month]. do mornings or
 afternoons usually work better for you?"
 
 [Schedule appointment]
@@ -326,7 +326,7 @@ to hearing from you!"
 
 **"I'm too busy right now."**
 ```
-"I completely understand—everyone's calendar is packed these days. What
+"I completely understand. Everyone's calendar is packed these days. What
 if we scheduled something a few weeks out when things might calm down?
 I can also send you a link to book online whenever it's convenient."
 ```
@@ -515,7 +515,7 @@ DSO patient retention at scale requires:
 - Root cause analysis for underperformers
 - Regular review and optimization cycles
 
-**The bottom line:** DSOs that treat retention as an enterprise capability—not a collection of local problems—achieve 5-10 percentage points higher retention than industry average. At scale, those percentage points translate to millions in retained revenue and significantly higher enterprise value.
+**The bottom line:** DSOs that treat retention as an enterprise capability, not a collection of local problems. Achieve 5-10 percentage points higher retention than industry average. At scale, those percentage points translate to millions in retained revenue and significantly higher enterprise value.
 
 For the technical implementation of centralized recall, see our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/). For the financial impact of retention on EBITDA, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-EBITDA/).
 

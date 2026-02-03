@@ -1,7 +1,7 @@
 ---
-title: "PE-Backed Healthcare Operations: KPIs That Drive Valuation Multiples"
+title: "PE-Backed Healthcare Operations: KPIs That Drive Valuation"
 seoTitle: "PE-Backed Healthcare KPIs: Metrics That Drive Valuation"
-description: "The specific KPIs that private equity firms track in healthcare portfolio companies. Financial, operational, and clinical metrics that impact EBITDA multiples and exit valuations."
+description: "KPIs that PE firms track in healthcare portfolios. Metrics that impact EBITDA multiples and exit valuations."
 seoDescription: "PE-backed healthcare operations KPIs that drive valuation. Financial, operational, and clinical metrics impacting EBITDA multiples from 10x to 15x in healthcare portfolio companies."
 publishDate: '2026-02-14'
 status: scheduled
@@ -49,7 +49,7 @@ Enterprise Value = EBITDA × Multiple
 | Average | 8-10x | Stable but undifferentiated |
 | Underperformers | 6-8x | Operational challenges, high leverage |
 
-A 50-location dental group generating $10 million EBITDA at a 10x multiple is worth $100 million. Improve operations to command 12x and value increases to $120 million—a $20 million gain from operational excellence alone.
+A 50-location dental group generating $10 million EBITDA at a 10x multiple is worth $100 million. Improve operations to command 12x and value increases to $120 million (a $20 million gain from operational excellence alone.
 
 ## The PE Healthcare KPI Framework
 
@@ -425,7 +425,7 @@ PE-backed healthcare operations succeed by tracking and optimizing the right KPI
 **The multiple impact:**
 Strong KPIs across all categories can expand multiples by 2-4x turns, representing tens or hundreds of millions in enterprise value for scaled platforms.
 
-**The bottom line:** The KPIs that PE firms track are not mysterious—they are the fundamental drivers of healthcare business value. Operating with PE-level KPI discipline creates value whether or not you ever engage with private equity.
+**The bottom line:** The KPIs that PE firms track are not mysterious. They are the fundamental drivers of healthcare business value. Operating with PE-level KPI discipline creates value whether or not you ever engage with private equity.
 
 For detailed strategies on improving patient retention metrics, see our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/). For EBITDA optimization tactics, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-EBITDA/).
 

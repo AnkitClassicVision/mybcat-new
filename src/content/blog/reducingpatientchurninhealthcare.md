@@ -179,7 +179,7 @@ Our [dormant patient reactivation guide](/blog/dormant-patient-reactivation/) pr
 
 ## Technology Stack for Reducing Healthcare Patient Churn
 
-Multi-location groups need systems that scale. The right technology creates operational leverage across your network.
+Multi-location groups need systems that scale. The right technology creates operational efficiency across your network.
 
 **Essential components:**
 

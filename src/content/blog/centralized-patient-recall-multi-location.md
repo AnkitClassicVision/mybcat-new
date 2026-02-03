@@ -1,7 +1,7 @@
 ---
-title: "Centralized Patient Recall for Multi-Location Healthcare: Implementation Guide"
+title: "Centralized Patient Recall for Multi-Location Healthcare"
 seoTitle: "Centralized Patient Recall Multi-Location: Implementation Guide"
-description: "A comprehensive implementation guide for centralizing patient recall across multiple healthcare locations. Technology, workflows, governance, and change management for 80%+ recall rates."
+description: "Implementation guide for centralizing patient recall. Tech, workflows, and governance for 80%+ recall rates."
 seoDescription: "Centralized patient recall implementation for multi-location healthcare groups. Technology architecture, workflows, staffing, and governance achieving 80%+ recall rates network-wide."
 publishDate: '2026-02-12'
 status: scheduled
@@ -23,7 +23,7 @@ relatedPosts:
   - front-desk-recall-workflow
 ---
 
-When patient recall operates independently at each location, performance varies widely. Top locations achieve 80%+ recall rates while struggling sites hover at 55%. Centralization addresses this variance through standardized technology, unified workflows, and network-wide accountability. This guide provides the implementation roadmap for centralizing patient recall across multiple healthcare locations—from technology architecture to change management.
+When patient recall operates independently at each location, performance varies widely. Top locations achieve 80%+ recall rates while struggling sites hover at 55%. Centralization addresses this variance through standardized technology, unified workflows, and network-wide accountability. This guide provides the implementation roadmap for centralizing patient recall across multiple healthcare locations from technology architecture to change management.
 
 ## Why Centralize Patient Recall
 
@@ -558,7 +558,7 @@ Centralizing patient recall across multiple locations delivers measurable improv
 - Initial results: 3-4 months post-launch
 - Full optimization: 12-18 months
 
-**The bottom line:** Centralized recall is not about removing local ownership—it is about providing every location with enterprise-grade tools, expertise, and support to achieve consistently excellent results.
+**The bottom line:** Centralized recall is not about removing local ownership. It is about providing every location with enterprise-grade tools, expertise, and support to achieve consistently excellent results.
 
 For the front desk workflow that complements centralized recall, see our [front desk recall workflow guide](/blog/front-desk-recall-workflow/). For strategies specific to DSOs, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
 

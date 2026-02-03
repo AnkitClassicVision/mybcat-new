@@ -1,7 +1,7 @@
 ---
 title: "Reactivation Without Discounts: Scripts and Offers That Work"
 seoTitle: "Reactivation Without Discounts: Scripts and Offers That Work"
-description: "How to reactivate dormant patients without relying on discounts. Value-driven scripts, non-monetary offers, and messaging that brings patients back without devaluing your services."
+description: "Reactivate dormant patients without discounts. Value-driven scripts and messaging that bring patients back."
 seoDescription: "Patient reactivation strategies without discounts. Scripts, messaging templates, and value-driven offers that bring dormant patients back while protecting your margins."
 publishDate: '2026-02-23'
 status: scheduled
@@ -49,7 +49,7 @@ But if 50% become "discount-dependent":
 - True cost: Tens of thousands over patient lifetime
 ```
 
-Discounts are not free—they are borrowed from future revenue.
+Discounts are not free. They are borrowed from future revenue.
 
 ## Value-Based Reactivation Framework
 
@@ -76,7 +76,7 @@ Patients respond to value signals in this order:
 | Health urgency | "Regular exams catch 80% of issues before they become painful" | Health-conscious patients |
 | Convenience | "We now offer Saturday appointments and same-day booking" | Busy professionals |
 | Technology | "Our new digital X-rays are 70% faster with less radiation" | Tech-aware patients |
-| Comfort | "We've added comfort amenities—ask about our relaxation options" | Anxious patients |
+| Comfort | "We've added comfort amenities. Ask about our relaxation options" | Anxious patients |
 | Expertise | "Our team just completed advanced training in [specialty]" | Quality-focused patients |
 
 ## Scripts That Work Without Discounts
@@ -87,7 +87,7 @@ Patients respond to value signals in this order:
 ```
 Hi [Name], it's [Staff] from [Practice Name]. We realized it's been 
 a while since we've seen you, and Dr. [Name] asked me to reach out 
-personally. We'd love to get your next checkup scheduled—when works 
+personally. We'd love to get your next checkup scheduled. When works 
 best? Reply or call [Phone].
 ```
 
@@ -100,7 +100,7 @@ problems. We have openings this week. Text back a day that works!
 
 **Convenience-Focused:**
 ```
-Hi [Name]! We've expanded our hours—now open Saturdays and evenings. 
+Hi [Name]! We've expanded our hours. Now open Saturdays and evenings. 
 Makes getting your checkup easier. Ready to schedule? Reply YES or 
 call [Phone]. Looking forward to seeing you!
 ```
@@ -118,7 +118,7 @@ about you! Our team genuinely enjoys seeing familiar faces, and
 Dr. [Name] asked me to reach out.
 
 We know life gets busy, but your [dental/eye] health is important. 
-Regular checkups help us catch any concerns early—before they become 
+Regular checkups help us catch any concerns early. Before they become 
 costly or uncomfortable.
 
 We've made it easier than ever to schedule:
@@ -144,7 +144,7 @@ updates and see if we can get you back on the schedule:
 
 What's new:
 • [New technology/equipment] for faster, more comfortable visits
-• Extended hours—now open [new hours]
+• Extended hours. Now open [new hours]
 • Online scheduling available 24/7
 • [Any other improvements]
 
@@ -199,7 +199,7 @@ Do you have a few minutes to find a time that works?"
 
 **Handling "I'll think about it":**
 ```
-"I completely understand—life gets busy! Just so you know, we do 
+"I completely understand. Life gets busy! Just so you know, we do 
 have some openings coming up, and I'd hate for you to have to wait 
 too long once you're ready. 
 
@@ -299,7 +299,7 @@ Same appointment fee, just more thorough care."
 
 **Script:**
 ```
-"I'm sending you our guide on [relevant topic—e.g., 'Protecting Your 
+"I'm sending you our guide on [relevant topic. E.g., 'Protecting Your 
 Teeth as You Age' or 'What Your Eyes Can Tell You About Your Health']. 
 Dr. [Name] thought you'd find it valuable. We'd also love to discuss 
 any questions when you come in for your checkup."
@@ -400,7 +400,7 @@ Reactivating patients without discounts requires focus on value:
 - Redirect to value
 - Offer alternatives
 
-The practices with the best reactivation rates are not those offering the biggest discounts—they are those communicating the most compelling value.
+The practices with the best reactivation rates are not those offering the biggest discounts. They are those communicating the most compelling value.
 
 For the complete script library, see our [patient recall scripts guide](/blog/patient-recall-scripts/). For the strategic approach to dormant patients, review our [dormant patient reactivation guide](/blog/dormant-patient-reactivation/).
 

@@ -1,7 +1,7 @@
 ---
 title: "Healthcare Operations M&A Integration: Patient Retention Playbook"
 seoTitle: "Healthcare M&A Integration: Patient Retention Playbook"
-description: "The post-acquisition playbook for protecting patient retention during healthcare M&A integration. Phase-by-phase guidance for DSOs, healthcare groups, and PE-backed platforms."
+description: "Post-acquisition playbook for patient retention during M&A integration. Phase-by-phase guidance for DSOs and PE groups."
 seoDescription: "Healthcare M&A integration playbook focused on patient retention. Phase-by-phase guide for protecting patient relationships during acquisition integration for multi-location healthcare groups."
 publishDate: '2026-02-06'
 status: scheduled
@@ -23,7 +23,7 @@ relatedPosts:
   - centralized-patient-recall-multi-location
 ---
 
-The acquisition closes, the celebration happens, and then the real work begins. Healthcare M&A success is determined not by deal execution but by integration execution—and the most important integration metric is patient retention. Lose 25% of patients in the first 18 months, and you have destroyed value rather than created it. This playbook provides the phase-by-phase approach for protecting patient retention during healthcare operations integration.
+The acquisition closes, the celebration happens, and then the real work begins. Healthcare M&A success is determined not by deal execution but by integration execution, and the most important integration metric is patient retention. Lose 25% of patients in the first 18 months, and you have destroyed value rather than created it. This playbook provides the phase-by-phase approach for protecting patient retention during healthcare operations integration.
 
 ## The Integration-Retention Connection
 
@@ -55,7 +55,7 @@ Lost lifetime value: $6.25 million
 Effective price paid: $15M for $6.25M less value = acceptable
 ```
 
-The difference between 25% and 10% attrition is $9.4 million in lifetime value—in this example, more than half the purchase price.
+The difference between 25% and 10% attrition is $9.4 million in lifetime value. In this example, more than half the purchase price.
 
 ## The 90-Day Integration Framework
 

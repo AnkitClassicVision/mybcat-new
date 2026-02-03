@@ -1,7 +1,7 @@
 ---
-title: "No-Show Recovery Program: A Multi-Location Guide to Filling Schedule Gaps"
+title: "No-Show Recovery Program: Multi-Location Guide to Schedule Gaps"
 seoTitle: "No-Show Recovery Program: Fill Schedule Gaps & Recover Revenue"
-description: "No-shows cost US healthcare $150 billion annually. Multi-location groups implementing recovery programs see up to 70% reduction in missed appointments. Learn the framework that works."
+description: "No-shows cost US healthcare $150B yearly. Multi-location groups see up to 70% reduction with recovery programs. Learn the framework."
 seoDescription: "Build a no-show recovery program that reduces missed appointments by up to 70%. Includes statistics, rebooking strategies, and technology requirements for multi-location healthcare groups."
 publishDate: '2026-02-04'
 status: scheduled
@@ -44,7 +44,7 @@ Understanding the scope of no-shows helps justify investment in recovery program
 Every three no-shows in an eight-hour shift reduces productivity by 12.5%. For a multi-location group running 10 providers per day across sites, that productivity drain compounds into significant operational inefficiency.
 
 **The attrition risk:**
-Research shows patients who no-show once have a 70% higher attrition rate within 18 months compared to 19% for those who attend. A single no-show often signals the beginning of patient loss—not just one missed appointment.
+Research shows patients who no-show once have a 70% higher attrition rate within 18 months compared to 19% for those who attend. A single no-show often signals the beginning of patient loss, not just one missed appointment.
 
 ## Why No-Shows Happen
 
@@ -129,7 +129,7 @@ Advanced no-show recovery programs use predictive models to identify high-risk a
 - Distance from practice
 - Insurance type
 
-Modern predictive models achieve 85% accuracy in forecasting which appointments are at high risk for no-show. This enables targeted intervention—extra reminders, confirmation calls, or strategic overbooking.
+Modern predictive models achieve 85% accuracy in forecasting which appointments are at high risk for no-show. This enables targeted intervention: extra reminders, confirmation calls, or strategic overbooking.
 
 **Strategic overbooking:**
 Based on historical no-show rates and real-time predictions, some practices overbook by 10% to offset expected gaps. For example, if a radiology department historically sees 20% no-shows on Monday mornings, scheduling 11 patients for 10 slots maintains productivity.
@@ -230,7 +230,7 @@ No-show recovery programs protect revenue and improve patient care continuity. F
 - Predictive models achieve 85% accuracy in identifying high-risk appointments
 - Technology integration is essential for multi-location scale
 
-The practices that treat no-shows as a recoverable problem—rather than an inevitable loss—capture significant revenue that competitors leave on the table.
+The practices that treat no-shows as a recoverable problem, rather than an inevitable loss, capture significant revenue that competitors leave on the table.
 
 For strategies on bringing back patients who have already lapsed, see our [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/).
 

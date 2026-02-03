@@ -1,7 +1,7 @@
 ---
 title: "Front Desk Recall Workflow: A Simple Weekly Routine That Works"
 seoTitle: "Front Desk Recall Workflow: Weekly Checklist for Healthcare"
-description: "A practical front desk recall workflow with daily and weekly checklists that reduces no-shows by 20-50%. Includes scripts, time blocks, and tracking templates for healthcare practices."
+description: "Front desk recall workflow with daily and weekly checklists. Reduces no-shows 20-50% with scripts and tracking templates."
 seoDescription: "Front desk recall workflow with daily and weekly checklists. Practical routines that cut no-shows by 20-50% in dental, optometry, and medical practices."
 publishDate: '2026-02-23'
 status: scheduled
@@ -22,7 +22,7 @@ relatedPosts:
   - no-show-recovery-program
 ---
 
-The front desk is where recall programs succeed or fail. A practice can have the best software, the most compelling messages, and the most motivated leadership—but if the front desk team does not execute consistently, recall rates plateau. This guide provides a practical weekly workflow with daily checklists, time blocks, and scripts that front desk staff can follow to achieve 70%+ recall rates without heroic effort.
+The front desk is where recall programs succeed or fail. A practice can have the best software, the most compelling messages, and the most motivated leadership, but if the front desk team does not execute consistently, recall rates plateau. This guide provides a practical weekly workflow with daily checklists, time blocks, and scripts that front desk staff can follow to achieve 70%+ recall rates without heroic effort.
 
 ## Why Workflow Matters More Than Tools
 
@@ -146,7 +146,7 @@ Reply YES to reschedule or call [phone]. - [Practice Name]
 - Send follow-up SMS to Monday non-responders:
 ```
 [Name], following up from [Practice Name]. Your [appointment type]
-is overdue. We have openings this week—reply YES to schedule or
+is overdue. We have openings this week. Reply YES to schedule or
 call [phone]. Reply STOP to opt out.
 ```
 
@@ -174,7 +174,7 @@ call [phone]. Reply STOP to opt out.
 ```
 "Hi [Patient Name], this is [Your Name] from [Practice Name] calling
 again. I left you a message earlier this week about scheduling your
-[exam/cleaning]. I have a few openings coming up—I can get you in
+[exam/cleaning]. I have a few openings coming up, I can get you in
 [offer times]. Would any of those work for you?"
 ```
 
@@ -182,7 +182,7 @@ again. I left you a message earlier this week about scheduling your
 
 *"I'm too busy right now."*
 ```
-"I completely understand—everyone's calendar is packed. What if we
+"I completely understand. Everyone's calendar is packed. What if we
 looked at times early morning or late in the day? We also have
 [Saturday hours if applicable]. The important thing is getting you
 in when it works for your schedule."
@@ -197,7 +197,7 @@ for that day."
 
 *"I can't afford it right now."*
 ```
-"I hear you. Let me check—your insurance may cover your preventive
+"I hear you. Let me check. Your insurance may cover your preventive
 visit at little to no cost. Would it help if I looked into that
 for you? We also have payment options if needed."
 ```
@@ -266,7 +266,7 @@ The single most effective recall tactic happens at checkout, not in follow-up ca
 ```
 "Dr. [Provider] wants to see you in [6 months / 1 year] for your next
 [exam/cleaning]. Let's get that scheduled now so you don't have to
-worry about it. I have availability in [Month]—what day of the week
+worry about it. I have availability in [Month]. What day of the week
 usually works best for you?"
 ```
 
@@ -352,7 +352,7 @@ A consistent front desk recall workflow delivers better results than sporadic he
 - Pre-schedule at every checkout (80%+ target)
 - Respond to patient messages within 15 minutes
 - Track weekly metrics and review with manager
-- Protect time blocks—recall is not "when we have time"
+- Protect time blocks. Recall is not "when we have time"
 
 The practices with the best recall rates are not the ones with the best software. They are the ones with the most consistent execution of a simple weekly workflow.
 

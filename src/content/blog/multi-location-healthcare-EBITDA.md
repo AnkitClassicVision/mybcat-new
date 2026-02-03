@@ -1,7 +1,7 @@
 ---
-title: "Multi-Location Healthcare EBITDA: How Patient Retention Protects Your Margins"
+title: "Multi-Location Healthcare EBITDA: Retention Protects Margins"
 seoTitle: "Multi-Location Healthcare EBITDA: Retention Protects Margins"
-description: "Patient retention directly impacts EBITDA in multi-location healthcare. Learn how a 5% retention improvement can add 1-3 turns to your EBITDA multiple and millions to enterprise value."
+description: "5% retention improvement adds 1-3 turns to EBITDA multiple. How patient retention impacts multi-location healthcare value."
 seoDescription: "Multi-location healthcare EBITDA and patient retention. How retention improvements drive 10-20% EBITDA lift and add 1-3 turns to valuation multiples for healthcare groups."
 publishDate: '2026-02-13'
 status: scheduled
@@ -23,7 +23,7 @@ relatedPosts:
   - centralized-patient-recall-multi-location
 ---
 
-For multi-location healthcare groups, EBITDA is more than an accounting metric—it is the foundation of enterprise value. Every dollar of EBITDA multiplies into $8, $10, or $15 of value depending on your scale and operational quality. Patient retention directly impacts that EBITDA, often more powerfully than revenue growth initiatives that cost money to execute. This guide examines the specific mechanisms by which retention protects and grows EBITDA in multi-location healthcare operations.
+For multi-location healthcare groups, EBITDA is more than an accounting metric. It is the foundation of enterprise value. Every dollar of EBITDA multiplies into $8, $10, or $15 of value depending on your scale and operational quality. Patient retention directly impacts that EBITDA, often more powerfully than revenue growth initiatives that cost money to execute. This guide examines the specific mechanisms by which retention protects and grows EBITDA in multi-location healthcare operations.
 
 ## The EBITDA-Valuation Relationship
 
@@ -69,7 +69,7 @@ Patient retention affects EBITDA through multiple mechanisms:
 | 85% | Strong | +1-1.5x |
 | 90%+ | Excellent | +1.5-2x |
 
-A 15-location optometry group improved retention from 72% to 84%. Their EBITDA multiple expanded from 8x to 10x at sale—a 25% increase in valuation from the multiple alone.
+A 15-location optometry group improved retention from 72% to 84%. Their EBITDA multiple expanded from 8x to 10x at sale, a 25% increase in valuation from the multiple alone.
 
 ### Mechanism 2: Reduced Patient Acquisition Costs
 
@@ -167,7 +167,7 @@ New value: $50,625,000
 Value creation: $18,225,000 (56% increase)
 ```
 
-The 10% retention improvement (75% to 85%) created $18.2 million in enterprise value—without adding a single location.
+The 10% retention improvement (75% to 85%) created $18.2 million in enterprise value, without adding a single location.
 
 ## Retention Metrics That Impact EBITDA
 
@@ -205,7 +205,7 @@ Understanding retention variance across locations reveals improvement opportunit
 | Suburban C | 78% | $280,000 | -5% |
 | Suburban D | 72% | $240,000 | -15% |
 
-If Suburban D improved to network average (80%), their EBITDA contribution would increase by approximately $30,000—multiplied by the EBITDA multiple for total value impact.
+If Suburban D improved to network average (80%), their EBITDA contribution would increase by approximately $30,000, multiplied by the EBITDA multiple for total value impact.
 
 ## EBITDA-Focused Retention Strategies
 
@@ -425,7 +425,7 @@ Patient retention directly protects and grows EBITDA in multi-location healthcar
 - Track EBITDA impact, not just retention rates
 - Protect retention during transitions
 
-**The bottom line:** In multi-location healthcare, every percentage point of retention improvement flows through to EBITDA—and every dollar of EBITDA multiplies into enterprise value. Retention is not just a patient care metric; it is a financial lever that creates real value for owners and investors.
+**The bottom line:** In multi-location healthcare, every percentage point of retention improvement flows through to EBITDA, and every dollar of EBITDA multiplies into enterprise value. Retention is not just a patient care metric; it is a financial lever that creates real value for owners and investors.
 
 For strategies to improve retention across locations, see our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/). For the full framework on PE-backed healthcare operations, review our [PE-backed healthcare operations guide](/blog/pe-backed-healthcare-operations/).
 

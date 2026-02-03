@@ -1,7 +1,7 @@
 ---
-title: "Healthcare Group Operations Benchmarks: What Top-Performing DSOs Track"
+title: "Healthcare Operations Benchmarks: What Top DSOs Track"
 seoTitle: "Healthcare Group Operations Benchmarks: Top DSO Metrics"
-description: "The specific benchmarks that distinguish top-performing DSOs from average performers. Financial, operational, and patient metrics with target ranges for 10+ location healthcare groups."
+description: "Benchmarks that distinguish top DSOs from average. Financial, operational, and patient metrics for 10+ locations."
 seoDescription: "Healthcare group operations benchmarks for DSOs. Target ranges for EBITDA margins, provider productivity, patient retention, and revenue metrics that top-performing groups track."
 publishDate: '2026-02-11'
 status: scheduled
@@ -23,7 +23,7 @@ relatedPosts:
   - multi-location-healthcare-EBITDA
 ---
 
-The difference between a 14% EBITDA margin and a 24% EBITDA margin is not luck—it is operational discipline measured through the right benchmarks. Top-performing DSOs and healthcare groups track a specific set of metrics that reveal operational health, identify improvement opportunities, and drive accountability across locations. This guide provides the benchmark targets that distinguish elite performers from the rest.
+The difference between a 14% EBITDA margin and a 24% EBITDA margin is not luck. It is operational discipline measured through the right benchmarks. Top-performing DSOs and healthcare groups track a specific set of metrics that reveal operational health, identify improvement opportunities, and drive accountability across locations. This guide provides the benchmark targets that distinguish elite performers from the rest.
 
 ## Why Benchmarks Matter at Scale
 
@@ -45,7 +45,7 @@ Benchmarks serve multiple purposes for multi-location healthcare groups:
 | Below average | 10-15% | Multiple operational challenges |
 | Struggling | <10% | Requires intervention |
 
-A 10-percentage-point EBITDA gap on $50 million revenue represents $5 million annually—and at 10x multiple, $50 million in enterprise value.
+A 10-percentage-point EBITDA gap on $50 million revenue represents $5 million annually, and at 10x multiple, $50 million in enterprise value.
 
 ## Financial Benchmarks
 
@@ -405,7 +405,7 @@ Top-performing healthcare groups track benchmarks across three categories:
 3. Implement consistent tracking and reporting
 4. Create accountability through scorecards and incentives
 
-The groups that achieve top-quartile performance do not have better luck—they have better visibility into their operations and the discipline to act on what the data reveals.
+The groups that achieve top-quartile performance do not have better luck. They have better visibility into their operations and the discipline to act on what the data reveals.
 
 For the KPIs that drive PE valuations, see our [PE-backed healthcare operations guide](/blog/pe-backed-healthcare-operations/). For strategies to improve patient retention metrics, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
 

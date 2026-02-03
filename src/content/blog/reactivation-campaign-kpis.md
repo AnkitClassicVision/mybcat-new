@@ -1,7 +1,7 @@
 ---
-title: "Reactivation Campaign KPIs: The Metrics That Matter for Multi-Location Groups"
+title: "Reactivation Campaign KPIs: Metrics for Multi-Location Groups"
 seoTitle: "Reactivation Campaign KPIs: Weekly Metrics for Healthcare Groups"
-description: "Track these 8 KPIs weekly to optimize patient reactivation campaigns. Includes benchmarks (10-20% recovery rate, 85%+ show rate) and a dashboard template for multi-location healthcare groups."
+description: "Track these 8 KPIs weekly to optimize reactivation campaigns. Benchmarks: 10-20% recovery rate, 85%+ show rate, plus dashboard template."
 seoDescription: "Essential KPIs for patient reactivation campaigns with benchmarks: 10-20% recovery rate, 25-40% contact rate, 30-50% booking rate. Includes weekly tracking framework for healthcare groups."
 publishDate: '2026-02-06'
 status: scheduled
@@ -175,17 +175,17 @@ Operations leaders should review reactivation KPIs weekly during active campaign
 
 | Metric | Week 1 | Week 2 | Week 3 | Week 4 | Target |
 |--------|--------|--------|--------|--------|--------|
-| Patients in campaign | | | | | — |
+| Patients in campaign | | | | | N/A |
 | Outreach attempts | | | | | 100% |
 | Contact rate | | | | | 35%+ |
 | Response rate | | | | | 20%+ |
-| Appointments booked | | | | | — |
+| Appointments booked | | | | | N/A |
 | Booking rate | | | | | 40%+ |
-| Appointments completed | | | | | — |
+| Appointments completed | | | | | N/A |
 | Show rate | | | | | 85%+ |
-| Patients reactivated | | | | | — |
+| Patients reactivated | | | | | N/A |
 | Recovery rate (cumulative) | | | | | 15%+ |
-| Cost to date | | | | | — |
+| Cost to date | | | | | N/A |
 | Cost per reactivation | | | | | <$15 |
 
 ### Location-Level Benchmarking
@@ -197,7 +197,7 @@ For multi-location groups, track each site against network averages:
 | Site A | 38% | 45% | 17% | +2% |
 | Site B | 32% | 38% | 12% | -3% |
 | Site C | 41% | 52% | 21% | +6% |
-| Network Avg | 37% | 45% | 15% | — |
+| Network Avg | 37% | 45% | 15% | N/A |
 
 **Action triggers:**
 - Site performing 5%+ below network average → investigate root cause

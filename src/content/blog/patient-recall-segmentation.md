@@ -1,7 +1,7 @@
 ---
 title: "Patient Recall Segmentation: Who to Call First (and Why)"
 seoTitle: "Patient Recall Segmentation: Who to Call First (and Why)"
-description: "How to segment your patient recall list for maximum impact. Prioritization frameworks, segmentation criteria, and the data-driven approach to deciding who gets called first."
+description: "Segment your recall list for maximum impact. Prioritization frameworks and criteria for deciding who gets called first."
 seoDescription: "Patient recall segmentation and prioritization guide. Frameworks for deciding which patients to contact first based on value, recency, risk, and likelihood to respond."
 publishDate: '2026-02-22'
 status: scheduled
@@ -22,11 +22,11 @@ relatedPosts:
   - patient-recall-campaign-framework
 ---
 
-When facing a recall list of 500 overdue patients, the instinct is to start at the top and work down alphabetically. This is one of the most common—and costly—mistakes in patient recall. Not all patients are equal, and treating them as such wastes time on low-probability contacts while high-value opportunities slip away. Effective segmentation answers the fundamental question: who should we call first, and why?
+When facing a recall list of 500 overdue patients, the instinct is to start at the top and work down alphabetically. This is one of the most common, and costly. Mistakes in patient recall. Not all patients are equal, and treating them as such wastes time on low-probability contacts while high-value opportunities slip away. Effective segmentation answers the fundamental question: who should we call first, and why?
 
 ## The Case for Segmentation
 
-Recall outreach capacity is finite. Most practices can make 50-100 quality outreach attempts per day. With 500 overdue patients, that is a full week of work—and by week's end, some patients have become even harder to reach.
+Recall outreach capacity is finite. Most practices can make 50-100 quality outreach attempts per day. With 500 overdue patients, that is a full week of work, and by week's end, some patients have become even harder to reach.
 
 **The segmentation advantage:**
 
@@ -52,7 +52,7 @@ Recall outreach capacity is finite. Most practices can make 50-100 quality outre
 Same effort, nearly double the result.
 ```
 
-Segmentation is not about working harder—it is about working smarter.
+Segmentation is not about working harder. It is about working smarter.
 
 ## The Five Segmentation Dimensions
 
@@ -129,7 +129,7 @@ Some patients have clinical reasons for more urgent recall.
 | Healthy, low risk | 6-12 month | Standard |
 
 **Risk-based sequencing:**
-Patients with clinical urgency may warrant outreach even if other factors are unfavorable—but balance with practical reachability.
+Patients with clinical urgency may warrant outreach even if other factors are unfavorable, but balance with practical reachability.
 
 ### 5. Reachability: Can We Actually Contact Them?
 
@@ -235,7 +235,7 @@ Different segments warrant different approaches:
 
 ```
 SMS: "Hi [Name], it's time for your [cleaning/exam]! We have openings 
-this week—Dr. [Name] is looking forward to seeing you. Reply with a 
+this week, Dr. [Name] is looking forward to seeing you. Reply with a 
 good day/time and I'll confirm your appointment."
 
 Tone: Personal, assumes they want to come, removes friction
@@ -246,7 +246,7 @@ Tone: Personal, assumes they want to come, removes friction
 ```
 SMS: "Hi [Name], we noticed it's been a while since your last visit 
 at [Practice]. Regular [dental/eye] care helps catch small issues 
-early. We have flexible scheduling—when works best for you?"
+early. We have flexible scheduling. When works best for you?"
 
 Tone: Gentle reminder, emphasizes value of preventive care
 ```
@@ -287,8 +287,8 @@ Track performance by segment to refine your approach:
 | Tier 4 | 40 | 10 | 4 | 10% | $1,400 |
 
 **Insights from data:**
-- Tier 1 converts at 5x Tier 4—prioritization is working
-- Tier 2 volume yields high absolute numbers—capacity here is valuable
+- Tier 1 converts at 5x Tier 4. Prioritization is working
+- Tier 2 volume yields high absolute numbers. Capacity here is valuable
 - Tier 4 may need different channel or be deprioritized further
 
 ## Common Segmentation Mistakes
@@ -297,7 +297,7 @@ Track performance by segment to refine your approach:
 
 **Problem:** Analysis paralysis with 20 segmentation factors
 
-**Fix:** Start with recency and value—these drive 80% of results. Add complexity only when basic model is working.
+**Fix:** Start with recency and value. These drive 80% of results. Add complexity only when basic model is working.
 
 ### Mistake 2: Static Segmentation
 
@@ -309,7 +309,7 @@ Track performance by segment to refine your approach:
 
 **Problem:** Calling chronic no-shows before reliable patients
 
-**Fix:** Weight engagement history—a medium-value engaged patient beats a high-value non-responder.
+**Fix:** Weight engagement history (a medium-value engaged patient beats a high-value non-responder.
 
 ### Mistake 4: Same Approach for All Segments
 
@@ -343,7 +343,7 @@ Effective recall segmentation prioritizes patients based on:
 - Better allocation of limited staff time
 - More satisfied patients (right message, right time)
 
-The question is not whether to do recall—it is who to recall first. Segmentation provides the answer.
+The question is not whether to do recall. It is who to recall first. Segmentation provides the answer.
 
 For calculating the ROI of your reactivation efforts, see our [patient reactivation ROI guide](/blog/patient-reactivation-roi/). For the complete campaign framework, review our [patient recall campaign framework](/blog/patient-recall-campaign-framework/).
 
