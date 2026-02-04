@@ -17,6 +17,10 @@ tags:
 cluster: recall-reactivation
 featuredImage: /images/blog/reactivationcallcenterformedicalpractice.webp
 canonical: https://mybcat.com/blog/reactivationcallcenterformedicalpractice/
+relatedPosts:
+- reactivation-text-message-templates
+- reactivation-campaign-kpis
+- patient-recall-segmentation
 ---
 
 Multi-location medical groups lose 10% of their patient base annually to attrition. For a 15-location DSO with 6,000 patients per site, that translates to 9,000 patients walking out the door each year. A dedicated reactivation call center can recover 20-30% of those dormant patients, generating over $1 million in recaptured revenue. This guide breaks down how operations leaders at healthcare groups with 3+ locations can build, measure, and scale reactivation programs that deliver measurable EBITDA impact.
@@ -301,6 +305,13 @@ For PE-backed groups, frame the investment in terms of multiple expansion. Impro
 - Four-stage campaigns (segment, outreach, convert, retain) maximize reactivation yield
 - Cost per reactivation ($150-300) beats cost per new patient acquisition ($300-500+)
 - Measure reactivation contribution to EBITDA, not just revenue
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
+- [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
+- [Patient Recall Segmentation: Who to Call First (and Why)](/blog/patient-recall-segmentation/)
 
 ## Sources
 

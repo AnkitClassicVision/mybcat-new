@@ -1,25 +1,30 @@
 ---
-title: "Reactivation Text Templates: SMS Scripts That Work"
-seoTitle: "Reactivation Text Message Templates: HIPAA-Compliant SMS"
-description: "Reactivation text templates with 70% higher response rates. HIPAA-compliant SMS scripts that feel personal, not pushy."
-seoDescription: "HIPAA-compliant reactivation text message templates with 98% open rates. Ready-to-use SMS scripts for dormant patient reactivation in dental, optometry"
+title: 'Reactivation Text Templates: SMS Scripts That Work'
+seoTitle: 'Reactivation Text Message Templates: HIPAA-Compliant SMS'
+description: Reactivation text templates with 70% higher response rates. HIPAA-compliant
+  SMS scripts that feel personal, not pushy.
+seoDescription: HIPAA-compliant reactivation text message templates with 98% open
+  rates. Ready-to-use SMS scripts for dormant patient reactivation in dental, optometry
 publishDate: 2026-02-04
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-  - SMS templates
-  - reactivation
-  - patient recall
-  - messaging
-  - HIPAA compliance
+- SMS templates
+- reactivation
+- patient recall
+- messaging
+- HIPAA compliance
 featuredImage: /images/blog/reactivation-text-message-templates.webp
 canonical: https://mybcat.com/blog/reactivation-text-message-templates/
 cluster: recall-reactivation
 relatedPosts:
-  - patient-recall-scripts
-  - dormant-patient-reactivation
-  - patient-recall-service
+- patient-recall-scripts
+- dormant-patient-reactivation
+- patient-recall-service
+- reactivationcallcenterformedicalpractice
+- reactivation-campaign-kpis
+- patient-recall-segmentation
 ---
 
 The difference between a text message that gets ignored and one that brings a patient back often comes down to the words you choose. SMS achieves a 98% open rate (compared to 20-30% for email) and 90% of texts are read within three minutes. Yet many healthcare reactivation messages sound robotic, impersonal, or worse, like spam. This guide provides ready-to-use reactivation text message templates that feel personal, respect HIPAA compliance, and convert dormant patients back to active status.
@@ -384,6 +389,13 @@ For complete phone scripts to complement these SMS templates, see our [patient r
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
+- [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
+- [Patient Recall Segmentation: Who to Call First (and Why)](/blog/patient-recall-segmentation/)
 
 ## Sources
 

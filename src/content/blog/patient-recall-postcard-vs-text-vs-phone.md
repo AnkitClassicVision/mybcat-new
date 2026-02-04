@@ -1,25 +1,29 @@
 ---
-title: "Recall Postcard vs Text vs Phone: Channel Selection Guide"
-seoTitle: "Recall Postcard vs Text vs Phone: Which Channel Works Best?"
-description: "SMS: 98% open rates. Phone: 40-60% conversion. Compare recall postcards, texts, and calls with cost-per-contact data."
-seoDescription: "Compare patient recall channels: postcards, text messages, and phone calls. Data-driven analysis of effectiveness, cost, and when to use each"
+title: 'Recall Postcard vs Text vs Phone: Channel Selection Guide'
+seoTitle: 'Recall Postcard vs Text vs Phone: Which Channel Works Best?'
+description: 'SMS: 98% open rates. Phone: 40-60% conversion. Compare recall postcards,
+  texts, and calls with cost-per-contact data.'
+seoDescription: 'Compare patient recall channels: postcards, text messages, and phone
+  calls. Data-driven analysis of effectiveness, cost, and when to use each'
 publishDate: 2026-02-04
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-  - patient recall
-  - postcards
-  - SMS
-  - phone calls
-  - multi-channel
+- patient recall
+- postcards
+- SMS
+- phone calls
+- multi-channel
 featuredImage: /images/blog/patient-recall-postcard-vs-text-vs-phone.webp
 canonical: https://mybcat.com/blog/patient-recall-postcard-vs-text-vs-phone/
 cluster: recall-reactivation
 relatedPosts:
-  - patient-recall-scripts
-  - reactivation-text-message-templates
-  - automated-vs-human-patient-recall
+- patient-recall-scripts
+- reactivation-text-message-templates
+- automated-vs-human-patient-recall
+- reactivationcallcenterformedicalpractice
+- reactivation-campaign-kpis
 ---
 
 The debate over which patient recall channel works best misses the point. Top-performing practices do not choose one channel. They deploy all three strategically based on patient demographics, dormancy duration, and lifetime value. SMS achieves 98% open rates. Phone calls convert 40-60% of connected patients. Postcards reach patients that digital channels miss entirely. This guide provides the data to decide when to use each channel and how to combine them for maximum recall effectiveness.
@@ -304,6 +308,13 @@ For ready-to-use scripts for each channel, see our [patient recall scripts guide
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
+- [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
+- [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
 
 ## Sources
 

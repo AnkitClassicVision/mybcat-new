@@ -1,24 +1,30 @@
 ---
-title: "Reactivation Campaign KPIs: Metrics for Multi-Location Groups"
-seoTitle: "Reactivation Campaign KPIs: Weekly Metrics for Healthcare"
-description: "Track these 8 KPIs weekly to optimize reactivation campaigns. Benchmarks: 10-20% recovery rate, 85%+ show rate, plus dashboard template."
-seoDescription: "Essential KPIs for patient reactivation campaigns with benchmarks: 10-20% recovery rate, 25-40% contact rate, 30-50% booking rate. Includes weekly tracking"
+title: 'Reactivation Campaign KPIs: Metrics for Multi-Location Groups'
+seoTitle: 'Reactivation Campaign KPIs: Weekly Metrics for Healthcare'
+description: 'Track these 8 KPIs weekly to optimize reactivation campaigns. Benchmarks:
+  10-20% recovery rate, 85%+ show rate, plus dashboard template.'
+seoDescription: 'Essential KPIs for patient reactivation campaigns with benchmarks:
+  10-20% recovery rate, 25-40% contact rate, 30-50% booking rate. Includes weekly
+  tracking'
 publishDate: 2026-02-04
 status: published
 author: Ankit Patel
 category: Analytics
 tags:
-  - reactivation KPIs
-  - patient recall metrics
-  - healthcare analytics
-  - multi-location operations
+- reactivation KPIs
+- patient recall metrics
+- healthcare analytics
+- multi-location operations
 featuredImage: /images/blog/reactivation-campaign-kpis.webp
 canonical: https://mybcat.com/blog/reactivation-campaign-kpis/
 cluster: recall-reactivation
 relatedPosts:
-  - patient-reactivation-roi
-  - dormant-patient-reactivation
-  - patient-recall-service
+- patient-reactivation-roi
+- dormant-patient-reactivation
+- patient-recall-service
+- reactivationcallcenterformedicalpractice
+- reactivation-text-message-templates
+- patient-recall-segmentation
 ---
 
 Reactivation campaigns without KPI tracking are guesswork. Multi-location healthcare groups running campaigns across 10, 20, or 50 sites need standardized metrics to identify what works, where performance lags, and how to improve. This guide defines the eight KPIs that matter most for patient reactivation, provides benchmarks for each, and includes a weekly tracking framework for operations leaders.
@@ -280,6 +286,13 @@ For the complete reactivation playbook, see our [30-day dormant patient reactiva
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
+- [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
+- [Patient Recall Segmentation: Who to Call First (and Why)](/blog/patient-recall-segmentation/)
 
 ## Sources
 

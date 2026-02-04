@@ -1,25 +1,29 @@
 ---
-title: "Patient Reactivation ROI: Simple Calculation Framework"
-seoTitle: "Patient Reactivation ROI: Calculate Your Campaign Returns"
-description: "Patient reactivation costs 5-25x less than acquisition. ROI formula, benchmarks (50-140x returns), and measurement framework."
-seoDescription: "Calculate patient reactivation ROI with this simple framework. Reactivation costs 5-25x less than acquisition, with top campaigns achieving 50-140x returns."
+title: 'Patient Reactivation ROI: Simple Calculation Framework'
+seoTitle: 'Patient Reactivation ROI: Calculate Your Campaign Returns'
+description: Patient reactivation costs 5-25x less than acquisition. ROI formula,
+  benchmarks (50-140x returns), and measurement framework.
+seoDescription: Calculate patient reactivation ROI with this simple framework. Reactivation
+  costs 5-25x less than acquisition, with top campaigns achieving 50-140x returns.
 publishDate: 2026-02-04
 status: published
 author: Ankit Patel
 category: Analytics
 tags:
-  - ROI
-  - patient reactivation
-  - recall
-  - practice growth
-  - analytics
+- ROI
+- patient reactivation
+- recall
+- practice growth
+- analytics
 featuredImage: /images/blog/patient-reactivation-roi.webp
 canonical: https://mybcat.com/blog/patient-reactivation-roi/
 cluster: recall-reactivation
 relatedPosts:
-  - reactivation-campaign-kpis
-  - dormant-patient-reactivation
-  - patient-recall-service
+- reactivation-campaign-kpis
+- dormant-patient-reactivation
+- patient-recall-service
+- reactivationcallcenterformedicalpractice
+- reactivation-text-message-templates
 ---
 
 Reactivating a dormant patient costs 5-25x less than acquiring a new one. Yet most practices cannot quantify the return on their reactivation efforts. This guide provides the calculation framework to measure patient reactivation ROI, benchmark your results against top performers, and build the business case for dedicated reactivation resources.
@@ -326,6 +330,13 @@ For the metrics to track during campaigns, see our [reactivation campaign KPIs g
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
+- [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
+- [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
 
 ## Sources
 

@@ -1,24 +1,28 @@
 ---
-title: "Patient Reactivation Campaign Timeline: From 7 Days to 90 Days"
-seoTitle: "Patient Reactivation Campaign Timeline: 7-90 Day Framework"
-description: "Reactivation timeline that achieves 20-30% recovery. Day-by-day cadence from week 1 to 12 with escalation triggers."
-seoDescription: "Day-by-day patient reactivation campaign timeline from 7 to 90 days. Multi-channel outreach cadence achieving 20-30% recovery rates for healthcare practices"
+title: 'Patient Reactivation Campaign Timeline: From 7 Days to 90 Days'
+seoTitle: 'Patient Reactivation Campaign Timeline: 7-90 Day Framework'
+description: Reactivation timeline that achieves 20-30% recovery. Day-by-day cadence
+  from week 1 to 12 with escalation triggers.
+seoDescription: Day-by-day patient reactivation campaign timeline from 7 to 90 days.
+  Multi-channel outreach cadence achieving 20-30% recovery rates for healthcare practices
 publishDate: 2026-02-04
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-  - reactivation
-  - campaign
-  - timeline
-  - patient recall
+- reactivation
+- campaign
+- timeline
+- patient recall
 featuredImage: /images/blog/patient-reactivation-campaign-timeline.webp
 canonical: https://mybcat.com/blog/patient-reactivation-campaign-timeline/
 cluster: recall-reactivation
 relatedPosts:
-  - dormant-patient-reactivation
-  - reactivation-campaign-kpis
-  - patient-recall-scripts
+- dormant-patient-reactivation
+- reactivation-campaign-kpis
+- patient-recall-scripts
+- reactivationcallcenterformedicalpractice
+- reactivation-text-message-templates
 ---
 
 The difference between a 10% and 25% reactivation rate often comes down to timing and persistence. Send one message and stop. You will recover a fraction of what a structured multi-touch campaign delivers. This guide provides the day-by-day timeline for patient reactivation campaigns spanning 7 days to 90 days, with channel selection, escalation triggers, and benchmarks at each stage.
@@ -355,6 +359,13 @@ For ready-to-use scripts for each touchpoint, see our [patient recall scripts gu
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
+- [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
+- [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
 
 ## Sources
 

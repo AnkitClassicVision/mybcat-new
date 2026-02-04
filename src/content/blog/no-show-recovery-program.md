@@ -1,29 +1,27 @@
 ---
 title: 'No-Show Recovery Program: Multi-Location Guide to Schedule Gaps'
 seoTitle: 'No-Show Recovery Program: Fill Schedule Gaps & Recover'
-description: >-
-  No-shows cost US healthcare $150B yearly. Multi-location groups see up to 70%
-  reduction with recovery programs. Learn the framework.
-seoDescription: >-
-  Build a no-show recovery program that reduces missed appointments by up to
-  70%. Includes statistics, rebooking strategies, and technology requirements
+description: No-shows cost US healthcare $150B yearly. Multi-location groups see up
+  to 70% reduction with recovery programs. Learn the framework.
+seoDescription: Build a no-show recovery program that reduces missed appointments
+  by up to 70%. Includes statistics, rebooking strategies, and technology requirements
 publishDate: '2026-02-04T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - no-show recovery
-  - patient scheduling
-  - multi-location healthcare
-  - operations
-  - revenue recovery
+- no-show recovery
+- patient scheduling
+- multi-location healthcare
+- operations
+- revenue recovery
 featuredImage: /images/blog/no-show-recovery-program.webp
-canonical: 'https://mybcat.com/blog/no-show-recovery-program/'
+canonical: https://mybcat.com/blog/no-show-recovery-program/
 cluster: no-show-recovery
 relatedPosts:
-  - patient-recall-service
-  - dormant-patient-reactivation
-  - automated-vs-human-patient-recall
+- patient-recall-service
+- dormant-patient-reactivation
+- automated-vs-human-patient-recall
 ---
 
 Patient no-shows cost US healthcare $150 billion annually. For individual practices, that translates to approximately $150,000 in lost revenue each year. For multi-location groups, the math multiplies quickly. A 20-location organization with average no-show rates loses over $3 million annually in unfilled appointments. This guide provides the framework for building a no-show recovery program that fills schedule gaps fast and reduces future missed appointments.
@@ -244,6 +242,10 @@ For strategies on bringing back patients who have already lapsed, see our [dorma
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [No-Show Recovery Solution](/solutions/no-show-recovery/)
 
 ## Sources
 

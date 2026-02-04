@@ -1,25 +1,31 @@
 ---
-title: "Patient Recall Scripts: Phone and SMS Templates That Get Results"
-seoTitle: "Patient Recall Scripts: Phone & SMS Templates for Healthcare"
-description: "Patient recall scripts for phone and SMS that increase response rates by 20-30%. Includes objection handling and timing."
-seoDescription: "Copy-and-paste patient recall scripts for phone and SMS. Includes templates for overdue patients, no-shows, objection handling, and multi-location healthcare"
+title: 'Patient Recall Scripts: Phone and SMS Templates That Get Results'
+seoTitle: 'Patient Recall Scripts: Phone & SMS Templates for Healthcare'
+description: Patient recall scripts for phone and SMS that increase response rates
+  by 20-30%. Includes objection handling and timing.
+seoDescription: Copy-and-paste patient recall scripts for phone and SMS. Includes
+  templates for overdue patients, no-shows, objection handling, and multi-location
+  healthcare
 publishDate: 2026-02-04
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-  - patient recall scripts
-  - SMS templates
-  - phone scripts
-  - patient retention
-  - multi-location healthcare
+- patient recall scripts
+- SMS templates
+- phone scripts
+- patient retention
+- multi-location healthcare
 featuredImage: /images/blog/patient-recall-scripts.webp
 canonical: https://mybcat.com/blog/patient-recall-scripts/
 cluster: recall-reactivation
 relatedPosts:
-  - patient-recall-service
-  - dormant-patient-reactivation
-  - automated-vs-human-patient-recall
+- patient-recall-service
+- dormant-patient-reactivation
+- automated-vs-human-patient-recall
+- reactivationcallcenterformedicalpractice
+- reactivation-text-message-templates
+- reactivation-campaign-kpis
 ---
 
 The difference between a 15% and 30% recall booking rate often comes down to the words you use. Effective patient recall scripts increase response rates by 20-30% compared to generic "time for your appointment" messaging. This guide provides ready-to-use phone and SMS scripts for every recall scenario, with objection handling templates and adaptation guidance for multi-location healthcare groups.
@@ -368,6 +374,13 @@ For the complete framework on running recall campaigns, see our [patient recall 
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
+- [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
+- [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
+- [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
 
 ## Sources
 
