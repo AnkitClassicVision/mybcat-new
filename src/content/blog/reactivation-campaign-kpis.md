@@ -3,9 +3,8 @@ title: "Reactivation Campaign KPIs: Metrics for Multi-Location Groups"
 seoTitle: "Reactivation Campaign KPIs: Weekly Metrics for Healthcare"
 description: "Track these 8 KPIs weekly to optimize reactivation campaigns. Benchmarks: 10-20% recovery rate, 85%+ show rate, plus dashboard template."
 seoDescription: "Essential KPIs for patient reactivation campaigns with benchmarks: 10-20% recovery rate, 25-40% contact rate, 30-50% booking rate. Includes weekly tracking"
-publishDate: '2026-02-06'
-status: scheduled
-scheduledDate: '2026-02-06'
+publishDate: 2026-02-04
+status: published
 author: Ankit Patel
 category: Analytics
 tags:

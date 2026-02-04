@@ -5,9 +5,8 @@ description: Multi-location medical groups recover 20-30% of dormant patients th
   centralized reactivation call centers. Learn the metrics, staffing models, and ROI.
 seoDescription: Multi-location medical groups recover 20-30% of dormant patients through
   centralized reactivation call centers. Learn the metrics, staffing, and ROI.
-publishDate: '2026-02-18'
-status: scheduled
-scheduledDate: '2026-02-18'
+publishDate: 2026-02-04
+status: published
 author: Ankit Patel
 category: Practice Growth
 tags:

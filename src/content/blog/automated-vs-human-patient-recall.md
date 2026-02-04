@@ -237,6 +237,9 @@ For a detailed week-by-week implementation guide, see our [dormant patient react
 - [Dormant Patient Reactivation: 30-Day Multi-Location Playbook](/blog/dormant-patient-reactivation/)
 - [Patient Recall Campaign Framework: Step-by-Step Guide](/blog/patient-recall-campaign-framework/)
 
+
+Multi-location groups seeking centralized recall support can learn more about our [enterprise multi-location recall solution](/enterprise/multi-location-recall/).
+
 ## Sources
 
 - [PMC Study: Phone vs SMS Reminder Effectiveness](https://pmc.ncbi.nlm.nih.gov/articles/PMC11484181/)

@@ -265,6 +265,9 @@ This case study demonstrates several principles for dormant patient recovery:
 
 For the complete framework to run your own reactivation campaign, see our [30-day dormant patient reactivation playbook](/blog/dormant-patient-reactivation/). For ROI calculation methodology, review our [patient reactivation ROI guide](/blog/patient-reactivation-roi/).
 
+
+Enterprise groups can scale these results with our [multi-location recall solution](/enterprise/multi-location-recall/).
+
 ## Sources
 
 - [Arini AI: Improve Patient Retention and Recall Rate](https://www.arini.ai/blog/improve-patient-retention-recall-rate-dental-clinics)

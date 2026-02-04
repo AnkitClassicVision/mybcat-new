@@ -570,6 +570,9 @@ For the front desk workflow that complements centralized recall, see our [front 
 </div>
 <!-- End MyBCAT CTA Section -->
 
+
+For enterprise groups managing recall across 3+ locations, explore our [multi-location recall solution](/enterprise/multi-location-recall/).
+
 ## Sources
 
 - [AIRA: Centralized Reminder-Recall Toolkit](https://repository.immregistries.org/files/resources/5d43264137042/accords_centralized_reminder-recall_toolkit.pdf)

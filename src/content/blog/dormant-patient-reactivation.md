@@ -311,6 +311,9 @@ The difference between groups that recover dormant patients and those that do no
 </div>
 <!-- End MyBCAT CTA Section -->
 
+
+For healthcare groups with 3+ locations, our [multi-location recall solution](/enterprise/multi-location-recall/) provides centralized reactivation support.
+
 ## Sources
 
 - [MGMA Patient Access and Retention Data 2025](https://www.mgma.com/)

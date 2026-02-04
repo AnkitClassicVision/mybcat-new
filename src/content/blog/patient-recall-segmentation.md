@@ -3,9 +3,8 @@ title: "Patient Recall Segmentation: Who to Call First (and Why)"
 seoTitle: "Patient Recall Segmentation: Who to Call First (and Why)"
 description: "Segment your recall list for maximum impact. Prioritization frameworks and criteria for deciding who gets called first."
 seoDescription: "Patient recall segmentation and prioritization guide. Frameworks for deciding which patients to contact first based on value, recency, risk, and likelihood"
-publishDate: '2026-02-22'
-status: scheduled
-scheduledDate: '2026-02-22'
+publishDate: 2026-02-04
+status: published
 author: Ankit Patel
 category: Analytics
 tags:

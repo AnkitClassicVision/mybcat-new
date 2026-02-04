@@ -3,9 +3,8 @@ title: "Reactivation Text Templates: SMS Scripts That Work"
 seoTitle: "Reactivation Text Message Templates: HIPAA-Compliant SMS"
 description: "Reactivation text templates with 70% higher response rates. HIPAA-compliant SMS scripts that feel personal, not pushy."
 seoDescription: "HIPAA-compliant reactivation text message templates with 98% open rates. Ready-to-use SMS scripts for dormant patient reactivation in dental, optometry"
-publishDate: '2026-02-11'
-status: scheduled
-scheduledDate: '2026-02-11'
+publishDate: 2026-02-04
+status: published
 author: Ankit Patel
 category: Practice Growth
 tags:

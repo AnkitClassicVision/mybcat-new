@@ -3,9 +3,8 @@ title: "Recall Postcard vs Text vs Phone: Channel Selection Guide"
 seoTitle: "Recall Postcard vs Text vs Phone: Which Channel Works Best?"
 description: "SMS: 98% open rates. Phone: 40-60% conversion. Compare recall postcards, texts, and calls with cost-per-contact data."
 seoDescription: "Compare patient recall channels: postcards, text messages, and phone calls. Data-driven analysis of effectiveness, cost, and when to use each"
-publishDate: '2026-02-12'
-status: scheduled
-scheduledDate: '2026-02-12'
+publishDate: 2026-02-04
+status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
