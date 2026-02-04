@@ -1,11 +1,14 @@
 ---
-title: "No-Show Recovery Program: Multi-Location Guide to Schedule Gaps"
-seoTitle: "No-Show Recovery Program: Fill Schedule Gaps & Recover"
-description: "No-shows cost US healthcare $150B yearly. Multi-location groups see up to 70% reduction with recovery programs. Learn the framework."
-seoDescription: "Build a no-show recovery program that reduces missed appointments by up to 70%. Includes statistics, rebooking strategies, and technology requirements"
-publishDate: '2026-02-04'
-status: scheduled
-scheduledDate: '2026-02-04'
+title: 'No-Show Recovery Program: Multi-Location Guide to Schedule Gaps'
+seoTitle: 'No-Show Recovery Program: Fill Schedule Gaps & Recover'
+description: >-
+  No-shows cost US healthcare $150B yearly. Multi-location groups see up to 70%
+  reduction with recovery programs. Learn the framework.
+seoDescription: >-
+  Build a no-show recovery program that reduces missed appointments by up to
+  70%. Includes statistics, rebooking strategies, and technology requirements
+publishDate: '2026-02-04T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
@@ -15,7 +18,7 @@ tags:
   - operations
   - revenue recovery
 featuredImage: /images/blog/no-show-recovery-program.webp
-canonical: https://mybcat.com/blog/no-show-recovery-program/
+canonical: 'https://mybcat.com/blog/no-show-recovery-program/'
 cluster: no-show-recovery
 relatedPosts:
   - patient-recall-service
