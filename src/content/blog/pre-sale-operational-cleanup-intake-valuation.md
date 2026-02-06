@@ -445,7 +445,7 @@ Even at the conservative end, investing $100,000 to increase valuation by $2M de
 
 *Last Updated: January 2026*
 
-*Sources: [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/healthcare-private-equity/), [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
+*Sources: [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/topics/global-healthcare-private-equity-report/), [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Automated vs Human Patient Recall: Data-Driven Comparison'
-seoTitle: 'Automated vs Human Patient Recall: Data-Driven Comparison'
+seoTitle: 'Automated vs Human Patient Recall Compared'
 description: Live calls achieve 32% completion vs 17% for automated texts, but automation
   costs 55-65% less. Learn when to use each approach.
 seoDescription: Compare automated vs human patient recall using research-backed stats.

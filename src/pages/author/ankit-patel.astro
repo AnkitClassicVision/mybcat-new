@@ -86,12 +86,8 @@ const breadcrumbSchema = {
     {
       '@type': 'ListItem',
       position: 2,
-      name: 'Authors'
-    },
-    {
-      '@type': 'ListItem',
-      position: 3,
-      name: 'Ankit Patel'
+      name: 'Ankit Patel',
+      item: `${company.site.url}/author/ankit-patel/`
     }
   ]
 };
@@ -106,8 +102,8 @@ const combinedSchema = {
 ---
 
 <PageLayout
-  title="Ankit Patel | Healthcare Operations Expert & Founder | MyBCAT"
-  description="Ankit Patel is the founder of My Business Care Team and co-founder of Classic Vision Care. With experience at Dell and Cleveland Clinic, he brings Lean Six Sigma expertise to healthcare operations."
+  title="Ankit Patel | Healthcare Operations Expert | MyBCAT"
+  description="Ankit Patel, founder of My Business Care Team & Classic Vision Care. Dell & Cleveland Clinic alum. Lean Six Sigma healthcare operations expert."
   breadcrumbs={[
     { name: 'Home', url: '/' },
     { name: 'Authors' },

@@ -155,7 +155,8 @@ export const footerNavigation = {
     { label: 'Blog', href: '/blog/' },
     { label: 'Book', href: '/resources/book/' },
     { label: 'Podcast', href: '/resources/podcast/' },
-    { label: 'ROI Calculator', href: '/resources/roi-calculator/' }
+    { label: 'ROI Calculator', href: '/resources/roi-calculator/' },
+    { label: 'Sitemap', href: '/sitemap/' }
   ],
   legal: [
     { label: 'Privacy Policy', href: '/privacy-policy/' },

@@ -100,6 +100,25 @@ const categories = [...new Set(allPosts.map(post => post.data.category))];
       )}
     </div>
 
+    <!-- Browse by Category -->
+    <section class="blog-categories-section">
+      <div class="categories-content">
+        <h2>Browse by Category</h2>
+        <div class="categories-grid">
+          {categories.sort().map(category => {
+            const slug = category.toLowerCase().replace(/\s+/g, '-');
+            const count = allPosts.filter(p => p.data.category === category).length;
+            return (
+              <a href={`/blog/category/${slug}/`} class="category-card">
+                <span class="category-card-name">{category}</span>
+                <span class="category-card-count">{count} {count === 1 ? 'article' : 'articles'}</span>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="blog-cta">
       <div class="cta-content">
@@ -395,6 +414,63 @@ const categories = [...new Set(allPosts.map(post => post.data.category))];
   .cta-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Browse by Category */
+  .blog-categories-section {
+    background: var(--cream-200);
+    padding: 48px 24px;
+  }
+
+  .categories-content {
+    max-width: var(--container-max);
+    margin: 0 auto;
+  }
+
+  .categories-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .categories-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .category-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 999px;
+    text-decoration: none;
+    color: var(--navy-900);
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+
+  .category-card:hover {
+    background: var(--oceanic-teal);
+    color: white;
+    border-color: var(--oceanic-teal);
+  }
+
+  .category-card-count {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+
+  .category-card:hover .category-card-count {
+    color: rgba(255, 255, 255, 0.8);
   }
 
   /* Responsive */

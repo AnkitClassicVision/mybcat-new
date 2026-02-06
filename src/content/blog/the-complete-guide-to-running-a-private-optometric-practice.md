@@ -1,5 +1,6 @@
 ---
 title: The Complete Guide to Running a Private Optometric Practice
+seoTitle: Guide to Running a Private Optometry Practice
 description: Defining success in private practice ownership is a personal journey
   that reflects an individual's unique vision and professional aspirations. As [...]
 publishDate: 2023-11-13

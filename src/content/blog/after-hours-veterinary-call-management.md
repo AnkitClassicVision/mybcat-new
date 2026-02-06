@@ -1,6 +1,6 @@
 ---
 title: After-Hours Veterinary Call Management Models
-seoTitle: After-Hours Veterinary Call Management | 4 Models Compared
+seoTitle: After-Hours Vet Call Management | 4 Models
 description: 'Compare 4 after-hours vet call models: DVM on-call, answering service,
   hybrid, and AI triage. Find the right fit for your practice.'
 seoDescription: 'Compare 4 after-hours vet call models: DVM on-call, answering service,

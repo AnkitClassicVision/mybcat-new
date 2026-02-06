@@ -491,7 +491,7 @@ The Practice Manager often determines integration success or failure. They may:
 
 ## Key Takeaways
 
-- **Flip the sequence**: Standardize intake workflows first, migrate PM systems second. According to [Bain & Company's 2025 Healthcare PE Report](https://www.bain.com/insights/healthcare-private-equity/), integration speed directly correlates with deal value creation.
+- **Flip the sequence**: Standardize intake workflows first, migrate PM systems second. According to [Bain & Company's 2025 Healthcare PE Report](https://www.bain.com/insights/topics/global-healthcare-private-equity-report/), integration speed directly correlates with deal value creation.
 - **90 days is achievable**: With proper framework and focus. See our [90-day integration playbook](/blog/90-day-integration-playbook-healthcare-acquisitions/) for the detailed week-by-week timeline.
 - **People over process**: Change management is as important as process design
 - **Measure from Day 1**: You can't improve what you don't measure. Use our [KPI dashboard framework](/blog/kpi-dashboard-multi-location-intake/) to track from the start.
@@ -552,7 +552,7 @@ For PE-backed DSOs, recovered revenue from improved intake flows directly to EBI
 
 *Last Updated: January 2026*
 
-*Sources: [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/healthcare-private-equity/), [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
+*Sources: [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/topics/global-healthcare-private-equity-report/), [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
 
 ---
 

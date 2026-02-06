@@ -230,6 +230,8 @@ export default defineConfig({
         if (page.includes('/draft/')) return false;
         // Exclude empty category pages (no posts exist)
         if (page.includes('/blog/category/industry')) return false;
+        // Exclude archive pages (these return 308 redirects)
+        if (page.includes('/blog/archive/')) return false;
         // Exclude non-published blog posts (scheduled/draft)
         for (const slug of nonPublishedSlugs) {
           if (page.includes(`/blog/${slug}/`) || page.endsWith(`/blog/${slug}`)) {

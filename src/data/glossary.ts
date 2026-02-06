@@ -186,7 +186,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     slug: 'schedule-utilization',
     term: 'Schedule Utilization',
-    definition: 'The percentage of available appointment slots that are actually filled with patient visits.',
+    definition: 'The percentage of available appointment slots that are actually filled with patient visits. A key metric for measuring practice capacity and revenue.',
     detailedExplanation: 'Schedule utilization measures how effectively a practice fills its available capacity. Low utilization means empty chairs and lost revenue; high utilization maximizes provider productivity. Factors affecting utilization include no-shows, cancellations, booking gaps, and overbooking strategies. Optimal utilization balances productivity with patient access.',
     category: 'metrics',
     relatedTerms: ['no-show-rate', 'appointment-conversion'],
@@ -241,8 +241,8 @@ export const glossaryTerms: GlossaryTerm[] = [
   },
   {
     slug: 'centralized-scheduling',
-    term: 'Centralized Scheduling: Benefits, Best Practices & Tools',
-    definition: 'Learn how centralized scheduling improves workforce coordination, reduces conflicts, and boosts productivity. Discover implementation strategies and top software solutions.',
+    term: 'Centralized Scheduling',
+    definition: 'A unified scheduling model where one team manages appointments across multiple locations, improving consistency and reducing errors.',
     detailedExplanation: 'Centralized scheduling addresses the challenges of managing patient communications across multiple locations. Instead of each location independently handling calls (leading to inconsistency, training burden, and coverage gaps), a central team handles all inbound calls with unified protocols. This improves consistency, enables specialization, provides better coverage, and delivers unified reporting across all locations.',
     category: 'operations',
     relatedTerms: ['dso', 'multi-location-practice', 'call-center', 'schedule-utilization'],

@@ -1,5 +1,6 @@
 ---
 title: How to Train Virtual Assistants for Your Eye Care Practice
+seoTitle: Training Virtual Assistants for Eye Care
 description: 'Why would an optometrist hire virtual assistants from the Philippines?
   It''s simple: value for money and fluency in English. With [...]'
 publishDate: 2023-07-25

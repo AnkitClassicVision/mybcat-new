@@ -238,7 +238,7 @@ The COO expects to reach 25 locations within the next 18 months. With intake sta
 
 *Last Updated: January 2026*
 
-*Sources: [Invoca - Healthcare](https://www.invoca.com/solutions/healthcare), [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/healthcare-private-equity/), [Peerlogic - Turning Missed Dental Phone Calls Into Profit](https://www.peerlogic.com/post/turning-missed-dental-phone-calls-into-profit)*
+*Sources: [Invoca - Healthcare](https://www.invoca.com/solutions/healthcare), [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/topics/global-healthcare-private-equity-report/), [Peerlogic - Turning Missed Dental Phone Calls Into Profit](https://www.peerlogic.com/post/turning-missed-dental-phone-calls-into-profit)*
 
 ---
 

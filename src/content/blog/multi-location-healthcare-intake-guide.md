@@ -951,7 +951,7 @@ This assumes 29% missed call rate (industry average), 35% new patient call mix, 
 
 *Last Updated: January 2026*
 
-*Sources: [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/healthcare-private-equity/), [Invoca - Healthcare](https://www.invoca.com/solutions/healthcare)*
+*Sources: [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/topics/global-healthcare-private-equity-report/), [Invoca - Healthcare](https://www.invoca.com/solutions/healthcare)*
 ---
 
 <!-- MyBCAT CTA Section -->
