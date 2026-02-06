@@ -1,30 +1,27 @@
 ---
 title: 'Healthcare Operations M&A Integration: Patient Retention Playbook'
 seoTitle: 'Healthcare M&A Integration: Patient Retention Playbook'
-description: >-
-  Post-acquisition playbook for patient retention during M&A integration.
+description: Post-acquisition playbook for patient retention during M&A integration.
   Phase-by-phase guidance for DSOs and PE groups.
-seoDescription: >-
-  Healthcare M&A integration playbook focused on patient retention.
-  Phase-by-phase guide for protecting patient relationships during acquisition
-  integration
+seoDescription: Healthcare M&A integration playbook focused on patient retention.
+  Phase-by-phase guide for protecting patient relationships during acquisition integration
 publishDate: '2026-02-06T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Enterprise
 tags:
-  - M&A
-  - integration
-  - patient retention
-  - healthcare operations
-  - enterprise
+- M&A
+- integration
+- patient retention
+- healthcare operations
+- enterprise
 featuredImage: /images/blog/healthcare-operations-MA-integration.webp
-canonical: 'https://mybcat.com/blog/healthcare-operations-MA-integration/'
+canonical: https://mybcat.com/blog/healthcare-operations-MA-integration/
 cluster: enterprise
 relatedPosts:
-  - dental-group-acquisition-due-diligence
-  - dso-patient-retention-strategy
-  - centralized-patient-recall-multi-location
+- dental-group-acquisition-due-diligence
+- dso-patient-retention-strategy
+- centralized-patient-recall-multi-location
 ---
 
 The acquisition closes, the celebration happens, and then the real work begins. Healthcare M&A success is determined not by deal execution but by integration execution, and the most important integration metric is patient retention. Lose 25% of patients in the first 18 months, and you have destroyed value rather than created it. This playbook provides the phase-by-phase approach for protecting patient retention during healthcare operations integration.
