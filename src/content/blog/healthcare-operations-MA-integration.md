@@ -1,11 +1,15 @@
 ---
-title: "Healthcare Operations M&A Integration: Patient Retention Playbook"
-seoTitle: "Healthcare M&A Integration: Patient Retention Playbook"
-description: "Post-acquisition playbook for patient retention during M&A integration. Phase-by-phase guidance for DSOs and PE groups."
-seoDescription: "Healthcare M&A integration playbook focused on patient retention. Phase-by-phase guide for protecting patient relationships during acquisition integration"
-publishDate: '2026-02-06'
-status: scheduled
-scheduledDate: '2026-02-06'
+title: 'Healthcare Operations M&A Integration: Patient Retention Playbook'
+seoTitle: 'Healthcare M&A Integration: Patient Retention Playbook'
+description: >-
+  Post-acquisition playbook for patient retention during M&A integration.
+  Phase-by-phase guidance for DSOs and PE groups.
+seoDescription: >-
+  Healthcare M&A integration playbook focused on patient retention.
+  Phase-by-phase guide for protecting patient relationships during acquisition
+  integration
+publishDate: '2026-02-06T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Enterprise
 tags:
@@ -15,7 +19,7 @@ tags:
   - healthcare operations
   - enterprise
 featuredImage: /images/blog/healthcare-operations-MA-integration.webp
-canonical: https://mybcat.com/blog/healthcare-operations-MA-integration/
+canonical: 'https://mybcat.com/blog/healthcare-operations-MA-integration/'
 cluster: enterprise
 relatedPosts:
   - dental-group-acquisition-due-diligence
