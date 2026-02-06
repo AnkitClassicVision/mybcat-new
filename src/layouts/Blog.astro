@@ -165,6 +165,17 @@ const authorInfo = authorData[author] || { role: '', image: '' };
   </main>
 </Base>
 
+<script>
+  // Wrap markdown-generated tables in a scrollable container for mobile
+  document.querySelectorAll('.prose table').forEach((table) => {
+    if (table.parentElement?.classList.contains('table-wrapper')) return;
+    const wrapper = document.createElement('div');
+    wrapper.className = 'table-wrapper';
+    table.parentNode?.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+  });
+</script>
+
 <style>
   .blog-post {
     max-width: 800px;
@@ -422,18 +433,29 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     background: none;
     padding: 0;
     border: none;
+    color: inherit;
+    font-size: 0.95em;
   }
 
-  /* Modern Tables */
+  /* Modern Tables – scrollable wrapper for mobile */
+  .prose :global(.table-wrapper) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 2.5rem 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  }
+
   .prose :global(table) {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    margin: 2.5rem 0;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    margin: 0;
+    box-shadow: none;
     border-radius: 12px;
     overflow: hidden;
     font-size: 1rem;
+    min-width: 480px;
   }
 
   .prose :global(th),
