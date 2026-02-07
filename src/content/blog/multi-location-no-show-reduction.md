@@ -1,11 +1,15 @@
 ---
-title: "Multi-Location No-Show Reduction: Network Standardization"
-seoTitle: "Multi-Location No-Show Reduction: Network Standardization"
-description: "Standardize no-show reduction across multi-location networks. Protocols that achieve sub-10% no-show rates."
-seoDescription: "Multi-location healthcare no-show reduction standardization. Protocols, technology, and accountability systems achieving 8-10% no-show rates across all"
-publishDate: '2026-02-07'
-status: scheduled
-scheduledDate: '2026-02-07'
+title: 'Multi-Location No-Show Reduction: Network Standardization'
+seoTitle: 'Multi-Location No-Show Reduction: Network Standardization'
+description: >-
+  Standardize no-show reduction across multi-location networks. Protocols that
+  achieve sub-10% no-show rates.
+seoDescription: >-
+  Multi-location healthcare no-show reduction standardization. Protocols,
+  technology, and accountability systems achieving 8-10% no-show rates across
+  all
+publishDate: '2026-02-07T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Enterprise
 tags:
@@ -15,7 +19,7 @@ tags:
   - operations
   - enterprise
 featuredImage: /images/blog/multi-location-no-show-reduction.webp
-canonical: https://mybcat.com/blog/multi-location-no-show-reduction/
+canonical: 'https://mybcat.com/blog/multi-location-no-show-reduction/'
 cluster: enterprise
 relatedPosts:
   - no-show-recovery-program
