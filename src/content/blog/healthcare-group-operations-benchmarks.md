@@ -20,7 +20,7 @@ cluster: enterprise
 relatedPosts:
   - pe-backed-healthcare-operations
   - dso-patient-retention-strategy
-  - multi-location-healthcare-EBITDA
+  - multi-location-healthcare-ebitda
 ---
 
 The difference between a 14% EBITDA margin and a 24% EBITDA margin is not luck. It is operational discipline measured through the right benchmarks. Top-performing DSOs and healthcare groups track a specific set of metrics that reveal operational health, identify improvement opportunities, and drive accountability across locations. This guide provides the benchmark targets that distinguish elite performers from the rest.

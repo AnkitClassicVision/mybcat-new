@@ -10,13 +10,13 @@ status: published
 author: Ankit Patel
 category: Enterprise
 tags:
-- M&A
+- m-and-a
 - integration
 - patient retention
 - healthcare operations
 - enterprise
-featuredImage: /images/blog/healthcare-operations-MA-integration.webp
-canonical: https://mybcat.com/blog/healthcare-operations-MA-integration/
+featuredImage: /images/blog/healthcare-operations-ma-integration.webp
+canonical: https://mybcat.com/blog/healthcare-operations-ma-integration/
 cluster: enterprise
 relatedPosts:
 - dental-group-acquisition-due-diligence

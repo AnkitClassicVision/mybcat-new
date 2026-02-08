@@ -19,7 +19,7 @@ canonical: https://mybcat.com/blog/dso-patient-retention-strategy/
 cluster: enterprise
 relatedPosts:
   - centralized-patient-recall-multi-location
-  - multi-location-healthcare-EBITDA
+  - multi-location-healthcare-ebitda
   - dormant-patient-reactivation
 ---
 
@@ -517,7 +517,7 @@ DSO patient retention at scale requires:
 
 **The bottom line:** DSOs that treat retention as an enterprise capability, not a collection of local problems, achieve 5-10 percentage points higher retention than industry average. At scale, those percentage points translate to millions in retained revenue and significantly higher enterprise value.
 
-For the technical implementation of centralized recall, see our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/). For the financial impact of retention on EBITDA, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-EBITDA/).
+For the technical implementation of centralized recall, see our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/). For the financial impact of retention on EBITDA, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-ebitda/).
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

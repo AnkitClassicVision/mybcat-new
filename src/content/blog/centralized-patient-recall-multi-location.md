@@ -19,7 +19,7 @@ canonical: https://mybcat.com/blog/centralized-patient-recall-multi-location/
 cluster: enterprise
 relatedPosts:
   - dso-patient-retention-strategy
-  - multi-location-healthcare-EBITDA
+  - multi-location-healthcare-ebitda
   - front-desk-recall-workflow
 ---
 

@@ -13,14 +13,14 @@ tags:
   - due diligence
   - dental
   - patient retention
-  - M&A
+  - m-and-a
 featuredImage: /images/blog/dental-group-acquisition-due-diligence.webp
 canonical: https://mybcat.com/blog/dental-group-acquisition-due-diligence/
 cluster: enterprise
 relatedPosts:
-  - healthcare-operations-MA-integration
+  - healthcare-operations-ma-integration
   - dso-patient-retention-strategy
-  - multi-location-healthcare-EBITDA
+  - multi-location-healthcare-ebitda
 ---
 
 The purchase price of a dental practice is largely a bet on patient retention. When you acquire a practice for 70-80% of collections, you are betting that those patients will continue coming after the seller leaves. Yet many acquirers, even experienced DSOs, underweight patient retention analysis during due diligence, only to watch 20-30% of patients disappear within 18 months of closing. This guide identifies the specific patient retention red flags to look for during dental acquisition due diligence.
@@ -436,7 +436,7 @@ Patient retention analysis should be central to dental acquisition due diligence
 
 **The bottom line:** The purchase price assumes patients will stay. If your due diligence reveals retention risk, either adjust the price, structure protections, or walk away. The worst outcome is paying full price for patients who leave within 18 months.
 
-For strategies to improve retention post-acquisition, see our [healthcare operations M&A integration guide](/blog/healthcare-operations-MA-integration/). For ongoing retention benchmarks, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
+For strategies to improve retention post-acquisition, see our [healthcare operations M&A integration guide](/blog/healthcare-operations-ma-integration/). For ongoing retention benchmarks, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

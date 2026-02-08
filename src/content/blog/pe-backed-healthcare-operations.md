@@ -18,7 +18,7 @@ featuredImage: /images/blog/pe-backed-healthcare-operations.webp
 canonical: https://mybcat.com/blog/pe-backed-healthcare-operations/
 cluster: enterprise
 relatedPosts:
-  - multi-location-healthcare-EBITDA
+  - multi-location-healthcare-ebitda
   - dso-patient-retention-strategy
   - centralized-patient-recall-multi-location
 ---
@@ -427,7 +427,7 @@ Strong KPIs across all categories can expand multiples by 2-4 turns, representin
 
 **The bottom line:** The KPIs that PE firms track are not mysterious. They are the fundamental drivers of healthcare business value. Operating with PE-level KPI discipline creates value whether or not you ever engage with private equity.
 
-For detailed strategies on improving patient retention metrics, see our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/). For EBITDA optimization tactics, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-EBITDA/).
+For detailed strategies on improving patient retention metrics, see our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/). For EBITDA optimization tactics, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-ebitda/).
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

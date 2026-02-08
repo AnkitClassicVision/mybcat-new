@@ -3227,6 +3227,66 @@
       "source": "/blog/tag/healthcare-m&a/",
       "destination": "/blog/tag/healthcare-m-and-a/",
       "permanent": true
+    },
+    {
+      "source": "/industries/ent-audiology",
+      "destination": "/industries/ent/",
+      "permanent": true
+    },
+    {
+      "source": "/industries/ent-audiology/",
+      "destination": "/industries/ent/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/vs-hello-rachel",
+      "destination": "/compare/vs-hello-rache/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/vs-hello-rachel/",
+      "destination": "/compare/vs-hello-rache/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/m&a",
+      "destination": "/blog/tag/m-and-a/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/m&a/",
+      "destination": "/blog/tag/m-and-a/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/healthcare-call-center-ROI-enterprise",
+      "destination": "/blog/healthcare-call-center-roi-enterprise/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/healthcare-call-center-ROI-enterprise/",
+      "destination": "/blog/healthcare-call-center-roi-enterprise/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/healthcare-operations-MA-integration",
+      "destination": "/blog/healthcare-operations-ma-integration/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/healthcare-operations-MA-integration/",
+      "destination": "/blog/healthcare-operations-ma-integration/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/multi-location-healthcare-EBITDA",
+      "destination": "/blog/multi-location-healthcare-ebitda/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/multi-location-healthcare-EBITDA/",
+      "destination": "/blog/multi-location-healthcare-ebitda/",
+      "permanent": true
     }
   ]
 }

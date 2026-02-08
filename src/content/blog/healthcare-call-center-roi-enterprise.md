@@ -18,12 +18,12 @@ tags:
   - enterprise
   - healthcare operations
   - patient retention
-featuredImage: /images/blog/healthcare-call-center-ROI-enterprise.webp
-canonical: 'https://mybcat.com/blog/healthcare-call-center-ROI-enterprise/'
+featuredImage: /images/blog/healthcare-call-center-roi-enterprise.webp
+canonical: 'https://mybcat.com/blog/healthcare-call-center-roi-enterprise/'
 cluster: enterprise
 relatedPosts:
   - centralized-patient-recall-multi-location
-  - multi-location-healthcare-EBITDA
+  - multi-location-healthcare-ebitda
   - healthcare-group-operations-benchmarks
 ---
 
@@ -458,7 +458,7 @@ Healthcare call center ROI calculation requires comprehensive analysis:
 
 The healthcare call center is not a cost center. It is a revenue and retention engine that, when measured properly, demonstrates substantial positive ROI.
 
-For implementation of centralized call center operations, see our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/). For the impact on EBITDA, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-EBITDA/).
+For implementation of centralized call center operations, see our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/). For the impact on EBITDA, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-ebitda/).
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

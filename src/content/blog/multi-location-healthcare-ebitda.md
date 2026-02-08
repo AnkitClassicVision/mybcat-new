@@ -9,13 +9,13 @@ scheduledDate: '2026-02-13'
 author: Ankit Patel
 category: Enterprise
 tags:
-  - EBITDA
+  - ebitda
   - multi-location
   - patient retention
   - valuation
   - enterprise
-featuredImage: /images/blog/multi-location-healthcare-EBITDA.webp
-canonical: https://mybcat.com/blog/multi-location-healthcare-EBITDA/
+featuredImage: /images/blog/multi-location-healthcare-ebitda.webp
+canonical: https://mybcat.com/blog/multi-location-healthcare-ebitda/
 cluster: enterprise
 relatedPosts:
   - pe-backed-healthcare-operations
