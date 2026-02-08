@@ -65,6 +65,10 @@ const categoryMeta: Record<string, { title: string; description: string; }> = {
   'Dental': {
     title: 'Dental Practice Insights',
     description: 'Specialized content for dental practices covering patient experience, operations, and practice growth.'
+  },
+  'Enterprise': {
+    title: 'Enterprise & Multi-Location Operations',
+    description: 'Strategies for scaling healthcare operations across multiple locations, DSO management, PE-backed practice groups, and enterprise-level intake optimization.'
   }
 };
 
@@ -83,6 +87,7 @@ export function getStaticPaths() {
     { params: { category: 'case-study' } },
     { params: { category: 'optometry' } },
     { params: { category: 'dental' } },
+    { params: { category: 'enterprise' } },
   ];
 }
 
@@ -103,6 +108,7 @@ function slugToCategory(slug: string): string {
     'case-study': 'Case Study',
     'optometry': 'Optometry',
     'dental': 'Dental',
+    'enterprise': 'Enterprise',
   };
   return mapping[slug] || slug;
 }

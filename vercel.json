@@ -3177,6 +3177,56 @@
       "source": "/blog/category/industry/",
       "destination": "/blog/",
       "permanent": true
+    },
+    {
+      "source": "/itclinical-apps-support",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/itclinical-apps-support/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/revenue-calculator-embedded",
+      "destination": "/resources/roi-calculator/",
+      "permanent": true
+    },
+    {
+      "source": "/revenue-calculator-embedded/",
+      "destination": "/resources/roi-calculator/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/virtual-assistants",
+      "destination": "/blog/category/virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/virtual-assistants/",
+      "destination": "/blog/category/virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/veterinary-practice",
+      "destination": "/blog/tag/veterinary/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/veterinary-practice/",
+      "destination": "/blog/tag/veterinary/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/healthcare-m&a",
+      "destination": "/blog/tag/healthcare-m-and-a/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/healthcare-m&a/",
+      "destination": "/blog/tag/healthcare-m-and-a/",
+      "permanent": true
     }
   ]
 }

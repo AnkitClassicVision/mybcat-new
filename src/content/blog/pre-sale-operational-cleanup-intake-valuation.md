@@ -15,7 +15,7 @@ tags:
 - private-equity
 - exit-planning
 - dso
-- healthcare-m&a
+- healthcare-m-and-a
 - ebitda
 featuredImage: /images/blog/pre-sale-operational-cleanup-intake-valuation.webp
 canonical: https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/
