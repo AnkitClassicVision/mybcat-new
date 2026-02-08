@@ -1,7 +1,6 @@
 ---
 title: Managing Online Reputations in Optometry
-description: Online reviews and ratings hold tremendous influence over an optometry
-  practice's reputation and ability to attract new patients. Over 72% [...]
+description: 'Over 72% of patients check reviews before choosing a provider. Master online reputation management to attract new patients to your optometry practice.'
 publishDate: 2023-10-21
 status: published
 author: Ankit Patel

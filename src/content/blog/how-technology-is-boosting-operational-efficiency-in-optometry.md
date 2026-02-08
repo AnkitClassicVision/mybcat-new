@@ -1,7 +1,6 @@
 ---
 title: Technology Boosting Efficiency in Optometry
-description: Optometry is a tech-driven industry. After all, corrective lenses are
-  technology. So it's baffling that some clinics are still buried [...]
+description: 'From EHRs to AI-powered scheduling tools, discover which technologies save optometry clinics up to $26K annually and boost patient volume by 30%.'
 publishDate: 2023-08-16
 status: published
 author: Ankit Patel

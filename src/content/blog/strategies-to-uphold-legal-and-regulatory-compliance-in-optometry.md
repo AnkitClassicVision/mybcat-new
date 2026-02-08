@@ -1,7 +1,6 @@
 ---
 title: Legal and Regulatory Compliance in Optometry
-description: Legal and regulatory compliance is usually a fairly unexciting aspect
-  of an optometry business. Yet, it’s a really really important [...]
+description: 'Protect your optometry practice with proven compliance strategies covering HIPAA, state regulations, data security, and staff training protocols.'
 publishDate: 2023-11-10
 status: published
 author: Ankit Patel

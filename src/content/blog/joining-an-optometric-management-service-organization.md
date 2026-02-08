@@ -1,7 +1,6 @@
 ---
 title: Joining an Optometric Management Service Organization
-description: The healthcare industry is witnessing a significant expansion, underscored
-  by the growth in the global eye care market, which reached [...]
+description: Considering an MSO for your optometry practice? Evaluate the benefits, trade-offs, and key factors before joining a Management Service Organization.
 publishDate: 2023-10-17
 status: published
 author: Ankit Patel

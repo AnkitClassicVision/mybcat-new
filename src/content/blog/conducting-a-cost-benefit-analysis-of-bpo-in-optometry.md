@@ -1,7 +1,6 @@
 ---
 title: Conducting a Cost-Benefit Analysis of BPO in Optometry
-description: Business process outsourcing (BPO) has become an increasingly popular
-  option for optometry practices looking to reduce costs and improve efficiency. [...]
+description: Run a cost-benefit analysis before outsourcing. Use our framework to quantify savings, weigh risks, and decide if BPO is right for your optometry practice.
 publishDate: 2023-09-06
 status: published
 author: Ankit Patel

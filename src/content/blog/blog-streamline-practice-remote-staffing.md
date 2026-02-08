@@ -1,7 +1,6 @@
 ---
 title: Streamlining Your Practice with Remote Staffing
-description: Running a busy optometry or ophthalmology practice means constantly juggling
-  patient care and administrative tasks. What if you could focus [...]
+description: Cut overhead by 20-30% with remote staffing for your eye care practice. See which admin tasks to delegate and how to maintain quality control.
 publishDate: 2024-12-03
 status: published
 author: Ankit Patel

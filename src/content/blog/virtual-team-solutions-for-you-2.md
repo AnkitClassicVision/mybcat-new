@@ -1,7 +1,6 @@
 ---
 title: Overwhelmed? How a Virtual Team Fills the Gap
-description: Is your optometry practice currently overwhelmed and understaffed? If
-  so, there's help available in the form of a virtual team [...]
+description: 'Overwhelmed and understaffed? Virtual assistants handle scheduling, calls, and admin tasks so your optometry team can focus on patient care.'
 publishDate: 2025-06-20
 status: published
 author: Ankit Patel

@@ -1,7 +1,6 @@
 ---
 title: How to leverage outsourcing in your eye care practice
-description: Outsourcing can increase revenue for your optometry practice. It can
-  also improve its operational efficiency, reduce errors, and elevate the [...]
+description: 'A practical outsourcing primer for eye care practices: which functions deliver the highest ROI, where to start, and common pitfalls to avoid.'
 publishDate: 2023-08-08
 status: published
 author: Ankit Patel

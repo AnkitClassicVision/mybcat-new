@@ -1,7 +1,6 @@
 ---
 title: Selecting a BPO Provider for Your Optometry Practice
-description: Business process outsourcing (BPO) started in the supply chain world
-  of manufacturing and is now becoming an integral part of [...]
+description: 'Choosing the wrong BPO wastes time and money. Evaluate optometry outsourcing partners on domain expertise, cost structure, and long-term value.'
 publishDate: 2023-08-29
 status: published
 author: Ankit Patel

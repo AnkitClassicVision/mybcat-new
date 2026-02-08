@@ -1,7 +1,6 @@
 ---
 title: Better Call Support for Your Optometry Practice
-description: Call support matters when crafting a more efficient optometry practice.
-  Conversations, many of them are lengthy, between your office and [...]
+description: Strengthen patient loyalty with better call support. Get actionable tips on structured interactions, emotional intelligence, and tone for optometry teams.
 publishDate: 2023-10-20
 status: published
 author: Ankit Patel

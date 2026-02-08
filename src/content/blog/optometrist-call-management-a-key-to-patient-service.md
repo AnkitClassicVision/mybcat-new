@@ -1,7 +1,6 @@
 ---
 title: 'Optometrist Call Management: A Key to Patient Service'
-description: Effective optometrist call management is crucial for any eye care practice
-  aiming to deliver outstanding patient service. It's the backbone [...]
+description: Effective call management lets optometrists focus on patient care while ensuring every inquiry and appointment is handled with speed and professionalism.
 publishDate: 2023-12-20
 status: published
 author: Ankit Patel

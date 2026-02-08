@@ -1,7 +1,6 @@
 ---
 title: Streamlining patient intake for eye care practices
-description: Opening the doors to an optometry practice means having various processes
-  in place. If your experience was anything like ours, [...]
+description: 'Reduce wait times and boost patient satisfaction with these practical tips for streamlining your optometry intake process, from paperwork to scheduling.'
 publishDate: 2023-08-09
 status: published
 author: Ankit Patel

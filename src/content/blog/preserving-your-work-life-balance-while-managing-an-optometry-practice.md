@@ -1,7 +1,6 @@
 ---
 title: Work-Life Balance for Optometry Practice Owners
-description: For optometrists, the demands of patient care, clinic management, and
-  a thousand different things can be overwhelming and often overshadows [...]
+description: Reclaim your personal time as an optometry practice owner. Proven strategies for delegation, staff cross-training, and systems that run without constant oversight.
 publishDate: 2023-11-09
 status: published
 author: Ankit Patel

@@ -1,7 +1,6 @@
 ---
 title: Ways to Optimize Efficiency in Optometrist Offices
-description: According to recent studies, the demand for optometric services is expected
-  to rise significantly in the coming years. As the [...]
+description: 'Demand for eye care is rising fast. Optimize your optometry office with smarter scheduling, streamlined workflows, and centralized call management.'
 publishDate: 2024-04-15
 status: published
 author: Ankit Patel

@@ -1,7 +1,6 @@
 ---
 title: A Guide to Medical Receptionist Service for Optometry
-description: In the dynamic world of optometry, providing exceptional customer service
-  is crucial for building a thriving practice. Many optometrists are [...]
+description: Discover how medical receptionist services streamline scheduling, reduce missed calls, and elevate patient satisfaction for optometry practices.
 publishDate: 2024-03-18
 status: published
 author: Ankit Patel

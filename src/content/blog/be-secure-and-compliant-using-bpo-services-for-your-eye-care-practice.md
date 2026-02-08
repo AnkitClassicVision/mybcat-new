@@ -1,7 +1,6 @@
 ---
 title: BPO Security and Compliance for Eye Care
-description: To the uninitiated, all forms of outsourcing might seem alike. Virtual
-  assistants, offshore teams, and business process outsourcing (BPO) might [...]
+description: Stay HIPAA-compliant while outsourcing. See how BPO providers protect patient data, pass security audits, and keep your eye care practice safe.
 publishDate: 2023-08-21
 status: published
 author: Ankit Patel

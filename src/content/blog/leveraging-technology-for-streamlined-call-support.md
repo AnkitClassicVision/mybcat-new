@@ -1,7 +1,6 @@
 ---
 title: Leveraging Technology for Streamlined Call Support
-description: Leveraging technology is becoming increasingly crucial in enhancing eye
-  clinic customer service. In an age where efficiency and accuracy are [...]
+description: Reduce patient wait times and capture more calls with AI-driven call support technology for eye care clinics. Cut costs while improving service quality.
 publishDate: 2024-01-23
 status: published
 author: Ankit Patel

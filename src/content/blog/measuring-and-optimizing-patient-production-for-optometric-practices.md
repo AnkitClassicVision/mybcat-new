@@ -1,7 +1,6 @@
 ---
 title: Optimizing Patient Production in Optometry
-description: Patient production measures the overall volume of patients and the associated
-  revenue generation. It can be the difference between a [...]
+description: Increase patient volume and per-patient revenue with data-driven benchmarks, operational improvements, and outsourcing strategies for optometry practices.
 publishDate: 2023-11-02
 status: published
 author: Ankit Patel

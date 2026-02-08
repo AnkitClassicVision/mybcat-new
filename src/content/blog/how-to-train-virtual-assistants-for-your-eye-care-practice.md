@@ -1,8 +1,7 @@
 ---
 title: How to Train Virtual Assistants for Your Eye Care Practice
 seoTitle: Training Virtual Assistants for Eye Care
-description: 'Why would an optometrist hire virtual assistants from the Philippines?
-  It''s simple: value for money and fluency in English. With [...]'
+description: 'Train overseas VAs to deliver exceptional eye care support. Covers SOPs, cultural coaching, AOA paraoptometric materials, and ongoing performance evaluation.'
 publishDate: 2023-07-25
 status: published
 author: Ankit Patel

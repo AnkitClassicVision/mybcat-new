@@ -1,7 +1,6 @@
 ---
 title: Why Capture Rate Matters for Every Optometry Business
-description: In an optometry practice, the capture rate is one of the most crucial
-  metrics to track for ongoing business success. [...]
+description: 'Most eye clinics capture only 50-55% of eyewear sales. Proven strategies to boost your optical capture rate, revenue, and patient loyalty.'
 publishDate: 2023-10-02
 status: published
 author: Ankit Patel

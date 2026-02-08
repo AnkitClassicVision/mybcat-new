@@ -1,7 +1,6 @@
 ---
 title: Enhance Your Eye Clinic’s Service with Call Answering
-description: In this fast-paced world, maintaining an efficient and responsive clinic
-  can set your optometry practice apart. Optometry answering service is [...]
+description: Never miss a patient call again. Professional answering services help optometry clinics reduce no-shows, book after-hours appointments, and grow revenue.
 publishDate: 2023-12-15
 status: published
 author: Ankit Patel

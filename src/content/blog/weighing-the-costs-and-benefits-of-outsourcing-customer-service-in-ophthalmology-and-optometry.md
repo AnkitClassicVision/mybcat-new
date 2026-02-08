@@ -1,7 +1,6 @@
 ---
 title: Costs and Benefits of Outsourcing Customer Service
-description: We increased our revenue per patient by 33% because we took the phones
-  out of the office. Understanding how missed [...]
+description: 'One practice boosted revenue per patient by 33% through outsourcing. Weigh the real costs and benefits of BPO for your eye care clinic.'
 publishDate: 2023-07-07
 status: published
 author: Ankit Patel

@@ -1,7 +1,6 @@
 ---
 title: 'Optometry Call: Choosing Patient-Centric Support'
-description: Elevating the patient experience begins with the right call support model,
-  and optometrists' inbound call services redefine how optometry clinics [...]
+description: Choose the right call support model for your optometry clinic. Compare patient-centric features like scalability, cost efficiency, and professional image building.
 publishDate: 2024-02-12
 status: published
 author: Ankit Patel

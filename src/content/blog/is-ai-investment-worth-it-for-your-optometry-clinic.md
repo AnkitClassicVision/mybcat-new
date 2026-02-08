@@ -1,7 +1,6 @@
 ---
 title: Is AI Investment Worth It for Your Optometry Clinic?
-description: Optometry clinics can enhance operational efficiency and elevate patient
-  care by integrating artificial intelligence (AI) systems. To grasp just how [...]
+description: AI could save healthcare $360B annually. Explore practical AI applications for optometry operations, from automated scheduling to inventory management and billing.
 publishDate: 2023-09-27
 status: published
 author: Ankit Patel

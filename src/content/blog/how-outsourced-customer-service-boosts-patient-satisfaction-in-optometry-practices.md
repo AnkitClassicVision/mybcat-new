@@ -1,8 +1,7 @@
 ---
 title: How outsourced customer service boosts patient satisfaction in optometry practices
 seoTitle: Outsourcing Boosts Patient Satisfaction in Optometry
-description: Imagine an office of focused staff working diligently and providing friendly
-  patient care. The hectic pace of administrative tasks like [...]
+description: Free your clinical staff from admin overload. See how outsourcing billing, scheduling, and recall drives higher patient satisfaction and boosts revenue.
 publishDate: 2023-07-14
 status: published
 author: Ankit Patel

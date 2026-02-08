@@ -1,7 +1,6 @@
 ---
 title: What to Know About Joining an Optometric Buying Group
-description: Optometric alliances or buying groups are a useful tool for private optometry
-  practices. They are organizations for eye care professionals, [...]
+description: 'Optometric buying groups unlock volume discounts and growth support for independent practices. Compare alliance types and find the right fit for you.'
 publishDate: 2023-11-01
 status: published
 author: Ankit Patel

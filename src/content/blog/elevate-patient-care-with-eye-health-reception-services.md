@@ -1,7 +1,6 @@
 ---
 title: Elevate Patient Care with Eye Health Reception Services
-description: In the bustling realm of eye care, ensuring seamless patient experiences
-  begins right at the reception. Our optometry call service [...]
+description: Turn every patient call into a positive first impression. See how dedicated eye health reception services boost satisfaction and streamline scheduling.
 publishDate: 2024-03-13
 status: published
 author: Ankit Patel

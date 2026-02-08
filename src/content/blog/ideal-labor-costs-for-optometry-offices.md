@@ -1,7 +1,6 @@
 ---
 title: Ideal Labor Costs for Optometry Offices
-description: Finding the sweet spot for labor costs is crucial for maintaining a successful
-  optometry practice. Balancing quality patient care with [...]
+description: Optimize your optometry practice labor costs with smart staffing, efficient scheduling, and strategic outsourcing to boost profitability without sacrificing patient care.
 publishDate: 2023-09-25
 status: published
 author: Ankit Patel

@@ -1,7 +1,6 @@
 ---
 title: 'Vision Clinic Call Management: Tips for Success'
-description: Efficient call management is the cornerstone of a thriving vision clinic.
-  As the first point of contact for patients, your [...]
+description: 'Five actionable call management strategies that help vision clinics answer every patient call, reduce hold times, and deliver standout service.'
 publishDate: 2023-11-28
 status: published
 author: Ankit Patel

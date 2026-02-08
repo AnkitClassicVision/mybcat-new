@@ -1,7 +1,6 @@
 ---
 title: The Benefits of Optometry-Call Service Partnerships
-description: Did you know that efficient call management is integral to the success
-  of optometry practices? Studies show that 80% of [...]
+description: '80% of callers won''t leave a voicemail. See how optometry call service partnerships capture more patients, extend office hours, and boost revenue.'
 publishDate: 2024-04-19
 status: published
 author: Ankit Patel

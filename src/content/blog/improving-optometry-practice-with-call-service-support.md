@@ -1,8 +1,6 @@
 ---
 title: Improving Optometry Practice with Call Service Support
-description: Efficient call service support can significantly enhance the operations
-  of optometry practices. As the frontline of communication with patients, handling
-  [...]
+description: Boost patient satisfaction and capture every call with professional call service support for your optometry practice. Reduce hold times and fill more appointments.
 publishDate: 2024-04-17
 status: published
 author: Ankit Patel

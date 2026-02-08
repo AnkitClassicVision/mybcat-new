@@ -1,7 +1,6 @@
 ---
 title: Handling Challenging Customer Service Situations
-description: Handling challenging customer service situations is an inevitable aspect
-  of any business, particularly in the healthcare sector. It requires patience, [...]
+description: Equip your front desk to handle difficult patient interactions with empathy and professionalism. Conflict resolution strategies built for eye care teams.
 publishDate: 2024-01-22
 status: published
 author: Ankit Patel

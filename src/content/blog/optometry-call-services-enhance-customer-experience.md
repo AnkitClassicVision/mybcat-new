@@ -1,7 +1,6 @@
 ---
 title: Optometry Call Services Enhance Customer Experience
-description: In the world of optometry, where first impressions are vital, eye clinic
-  customer service can truly make or break the [...]
+description: Professional call services create lasting first impressions for optometry patients. Simplify scheduling, reduce wait times, and build loyalty with virtual receptionists.
 publishDate: 2023-12-18
 status: published
 author: Ankit Patel

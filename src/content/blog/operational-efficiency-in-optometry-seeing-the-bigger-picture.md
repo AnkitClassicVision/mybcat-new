@@ -1,7 +1,6 @@
 ---
 title: Operational Efficiency in Optometry
-description: Operational efficiency, a concept often touted in corporate boardrooms,
-  is equally vital in an optometrist's clinic. And the reasons are [...]
+description: Use our tiered maturity model to assess and improve your optometry clinic's operational efficiency, from reactive firefighting to innovative best practices.
 publishDate: 2023-08-11
 status: published
 author: Ankit Patel

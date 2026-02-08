@@ -1,8 +1,7 @@
 ---
 title: 6 Best Practices for Managing Your Outsourced Customer Service Team
 seoTitle: Managing Outsourced Customer Service Teams
-description: Many ODs are outsourcing tasks like scheduling appointments, billing,
-  and other administrative tasks in order to focus healthcare professionals on [...]
+description: Master the 6 best practices for managing outsourced teams in optometry, from hiring and cultural training to quality audits and compliance oversight.
 publishDate: 2023-07-20
 status: published
 author: Ankit Patel

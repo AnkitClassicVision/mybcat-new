@@ -1,7 +1,6 @@
 ---
 title: The Role of Call Support in Patient Satisfaction
-description: Patient satisfaction is paramount, and it holds equal significance in
-  eye care. Providing exceptional eye clinic customer service goes beyond [...]
+description: 'From first-call impressions to appointment reminders, strong call support drives patient satisfaction, trust, and retention at your eye care practice.'
 publishDate: 2023-08-18
 status: published
 author: Ankit Patel

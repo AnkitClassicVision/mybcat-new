@@ -1,7 +1,6 @@
 ---
 title: The Importance of Timely Appointment Scheduling
-description: Timely appointment scheduling is a fundamental aspect of any successful
-  healthcare practice. It is not just about filling the calendar [...]
+description: 'Timely scheduling reduces wait times and protects revenue. Explore how efficient call management and virtual receptionists keep your optometry calendar full.'
 publishDate: 2024-01-10
 status: published
 author: Ankit Patel

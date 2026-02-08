@@ -1,7 +1,6 @@
 ---
 title: Handling Emergency Calls in Optometry Practice
-description: In the fast-paced world of optometry, efficiently handling emergency
-  calls is paramount to providing exceptional patient care. Whether it's a [...]
+description: Ensure urgent patient calls never go unanswered. Proven protocols and virtual receptionist strategies for managing emergency calls in optometry practices.
 publishDate: 2024-03-11
 status: published
 author: Ankit Patel

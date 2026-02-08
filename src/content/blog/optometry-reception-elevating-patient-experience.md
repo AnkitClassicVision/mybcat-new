@@ -1,7 +1,6 @@
 ---
 title: 'Optometry Reception: Elevating Patient Experience'
-description: The rapidly evolving healthcare landscape has amplified the need for
-  optometrists to provide superior patient experiences. Amid this backdrop, the [...]
+description: Virtual receptionists trained in optometry deliver 24/7 patient support, seamless scheduling, and empathetic care that sets the tone for your entire practice.
 publishDate: 2023-11-16
 status: published
 author: Ankit Patel

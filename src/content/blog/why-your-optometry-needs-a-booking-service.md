@@ -1,7 +1,6 @@
 ---
 title: Why Your Optometry Needs a Booking Service?
-description: In the digital age, convenience, and efficiency are paramount to meeting
-  the expectations of modern patients. For optometrists, implementing a [...]
+description: 'Online booking gives patients 24/7 scheduling access while cutting admin work for your staff. See why every optometry practice needs a booking service.'
 publishDate: 2023-08-16
 status: published
 author: Ankit Patel

@@ -1,8 +1,7 @@
 ---
 title: Compliance and security in utilizing virtual assistants in optometry and ophthalmology
 seoTitle: HIPAA Compliance for Virtual Assistants in Eye Care
-description: Whether you're hiring a full-time employee (FTE) or virtual assistant
-  (VA), certain core aspects of compliance and security remain the [...]
+description: Protect patient data when using virtual assistants. Practical HIPAA compliance, secure communication, and cross-border data transfer guidance for eye care.
 publishDate: 2023-07-28
 status: published
 author: Ankit Patel

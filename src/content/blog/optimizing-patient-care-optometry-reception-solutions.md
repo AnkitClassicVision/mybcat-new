@@ -1,8 +1,6 @@
 ---
 title: 'Optimizing Patient Care: Optometry Reception Solutions'
-description: Navigating the day-to-day operations of an optometry office requires
-  a seamless approach to patient communication and management. Eye health reception
-  [...]
+description: Elevate patient care with dedicated optometry reception solutions that ensure every call is answered professionally and every appointment is captured on time.
 publishDate: 2023-12-22
 status: published
 author: Ankit Patel

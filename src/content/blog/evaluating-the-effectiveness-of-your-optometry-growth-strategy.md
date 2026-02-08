@@ -1,7 +1,6 @@
 ---
 title: Evaluating Your Optometry Growth Strategy
-description: Are you an optometrist or ophthalmologist seeking to grow your practice
-  but need to know which metrics indicate progress? You're [...]
+description: Measure what matters for practice growth. Use this strategic evaluation framework to track KPIs, benchmark competitors, and scale your optometry clinic.
 publishDate: 2023-09-21
 status: published
 author: Ankit Patel

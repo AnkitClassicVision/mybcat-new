@@ -1,7 +1,6 @@
 ---
 title: Streamlining Your Practice with Appointment Setting
-description: As an optometrist, providing exceptional eye care to your patients is
-  your top priority. However, efficiently managing appointments is crucial [...]
+description: 'Modern appointment-setting tools help optometry practices cut no-shows, reduce phone tag, and give patients the scheduling convenience they expect.'
 publishDate: 2023-08-11
 status: published
 author: Ankit Patel
