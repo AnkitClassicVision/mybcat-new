@@ -82,6 +82,7 @@ const articleSchema = generateArticleSchema({
           </div>
         ))}
       </div>
+      <p class="metrics-disclaimer">Results reported by {study.client} during the stated implementation period. Individual results vary based on practice size, patient volume, and market conditions.</p>
     </section>
 
     <!-- Challenge -->
@@ -177,6 +178,28 @@ const articleSchema = generateArticleSchema({
         </div>
       </section>
     )}
+
+    <!-- Trust Signals -->
+    <section class="trust-signals">
+      <div class="trust-strip">
+        <div class="trust-item">
+          <span class="trust-icon">&#x1f512;</span>
+          <span>HIPAA Compliant</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">&#x1f4cb;</span>
+          <span>BAA Provided</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">&#x1f6e1;</span>
+          <span>SOC 2 Practices</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">&#x1f91d;</span>
+          <span>Dedicated Account Manager</span>
+        </div>
+      </div>
+    </section>
 
     <!-- CTA -->
     <section class="cta-section">
@@ -453,6 +476,45 @@ const articleSchema = generateArticleSchema({
   .other-card p {
     font-size: 13px;
     color: var(--text-secondary);
+  }
+
+  /* Metrics Disclaimer */
+  .metrics-disclaimer {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: center;
+    margin-top: 12px;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  /* Trust Signals */
+  .trust-signals {
+    margin-bottom: 48px;
+  }
+
+  .trust-strip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px 24px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+  }
+
+  .trust-strip .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .trust-icon {
+    font-size: 16px;
   }
 
   /* CTA */
