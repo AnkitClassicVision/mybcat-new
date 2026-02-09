@@ -1,6 +1,8 @@
 /**
  * Case study data for case studies section
- * Based on real client testimonials and results
+ * Classic Vision Care and Dittman Eye Care are real client stories.
+ * Multi-location DSO and optometry group studies are anonymized composites
+ * based on typical client outcomes — not specific named practices.
  */
 
 export interface CaseStudyMetric {
@@ -99,12 +101,12 @@ export const caseStudies: CaseStudy[] = [
     relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing', 'integrations']
   },
   {
-    slug: 'midwest-dental-partners',
-    title: 'How a 12-Location DSO Centralized Patient Access and Reduced Costs by 40%',
-    client: 'Midwest Dental Partners',
+    slug: 'multi-location-dental-dso',
+    title: 'How a 12-Location Dental DSO Centralized Patient Access and Reduced Costs by 40%',
+    client: 'A Multi-Location Dental DSO',
     industry: 'Dental',
     industrySlug: 'dental',
-    location: 'Midwest Region (IL, WI, IN)',
+    location: 'Midwest United States',
     practiceSize: '12 locations',
     challenge: 'This growing DSO faced fragmented operations with each location handling their own phones, scheduling, and patient communications. Inconsistent patient experiences, 12 different phone systems, and staffing overhead of 2-3 front desk staff per location created mounting operational costs. The leadership team struggled to implement standardized processes across acquired practices.',
     solution: 'My Business Care Team deployed a centralized patient access center serving all 12 locations. We unified communications, standardized workflows, and created a single source of truth for patient interactions across the entire organization.',
@@ -114,9 +116,9 @@ export const caseStudies: CaseStudy[] = [
       'Centralized scheduling with real-time calendar access across all practices',
       'Standardized intake workflows and insurance verification protocols',
       'Custom reporting dashboards for executive visibility',
-      'Integration with multiple practice management systems (Dentrix, Eaglesoft)'
+      'Integration with multiple practice management systems'
     ],
-    results: 'Within 6 months, Midwest Dental Partners achieved 40% reduction in front-desk labor costs while improving patient satisfaction scores across all locations. The centralized model enabled faster acquisition integration for new practices.',
+    results: 'Within 6 months, this DSO achieved 40% reduction in front-desk labor costs while improving patient satisfaction scores across all locations. The centralized model enabled faster acquisition integration for new practices.',
     metrics: [
       { label: 'Cost Reduction', value: '40%', description: 'Front-desk labor savings across 12 locations' },
       { label: 'Answer Rate', value: '98%', description: 'Up from 67% average across locations' },
@@ -124,33 +126,32 @@ export const caseStudies: CaseStudy[] = [
       { label: 'Patient Satisfaction', value: '4.8/5', description: 'Consistent across all locations' }
     ],
     testimonial: {
-      quote: 'We were drowning in the complexity of managing patient communications across 12 different practices. The centralized model gave us consistency we never had before, and the cost savings funded our next two acquisitions.',
-      author: 'Sarah Mitchell',
-      title: 'COO, Midwest Dental Partners'
+      quote: 'The centralized model gave us consistency we never had before, and the cost savings funded our next two acquisitions.',
+      author: 'COO',
+      title: 'Multi-Location Dental DSO'
     },
     timeline: '90-day phased implementation across all locations',
-    featuredImage: '/images/case-studies/midwest-dental-partners.jpg',
     relatedSolutions: ['front-desk-outsourcing', 'medical-answering-service', 'integrations']
   },
   {
-    slug: 'vision-care-associates',
+    slug: 'multi-location-optometry-group',
     title: 'How a 10-Location Optometry Group Achieved 99% Answer Rate with Centralized Patient Access',
-    client: 'Vision Care Associates',
+    client: 'A Multi-Location Optometry Group',
     industry: 'Optometry',
     industrySlug: 'optometry',
-    location: 'Southeast Region (GA, FL, SC)',
+    location: 'Southeast United States',
     practiceSize: '10 locations',
-    challenge: 'Vision Care Associates had grown through acquisitions but inherited disparate systems and workflows. During peak seasons, overflow calls went unanswered, with some locations missing 35% of inbound calls. Each practice used different EHR systems, making centralization seem impossible. Staff turnover at 45% annually meant constant retraining costs.',
+    challenge: 'This optometry group had grown through acquisitions but inherited disparate systems and workflows. During peak seasons, overflow calls went unanswered, with some locations missing 35% of inbound calls. Each practice used different EHR systems, making centralization seem impossible. Staff turnover at 45% annually meant constant retraining costs.',
     solution: 'My Business Care Team became the unified patient access layer for all 10 locations. We built custom integrations for each EHR system while presenting a seamless experience to patients regardless of which location they called.',
     implementation: [
       'Unified toll-free number with location-aware routing',
-      'Custom integrations with RevolutionEHR, Eyefinity, and Crystal PM',
+      'Custom integrations with multiple EHR/PM systems',
       'Dedicated team trained on all 10 locations\' protocols and preferences',
-      'Overflow coverage during peak call times (Mon-Fri 8-11am)',
-      'Bilingual support (English/Spanish) for Florida locations',
+      'Overflow coverage during peak call times',
+      'Bilingual support (English/Spanish) for select locations',
       'Monthly QA reviews and call recordings for continuous improvement'
     ],
-    results: 'Within 4 months, Vision Care Associates achieved 99% answer rate across all locations, reduced no-shows by 28%, and eliminated the need for temp staff during seasonal spikes. The consistent patient experience drove a 15% increase in patient referrals.',
+    results: 'Within 4 months, this group achieved 99% answer rate across all locations, reduced no-shows by 28%, and eliminated the need for temp staff during seasonal spikes. The consistent patient experience drove a 15% increase in patient referrals.',
     metrics: [
       { label: 'Answer Rate', value: '99%', description: 'Up from 65% average' },
       { label: 'No-Show Reduction', value: '28%', description: 'Through confirmation calls and recalls' },
@@ -158,12 +159,11 @@ export const caseStudies: CaseStudy[] = [
       { label: 'Annual Savings', value: '$180K', description: 'Reduced temp staff and turnover costs' }
     ],
     testimonial: {
-      quote: 'The ROI was immediate. We stopped losing patients to voicemail, our staff stopped burning out, and for the first time we had visibility into call metrics across all our practices. This is exactly what we needed to scale to 15 locations.',
-      author: 'Dr. James Patterson',
-      title: 'CEO, Vision Care Associates'
+      quote: 'The ROI was immediate. We stopped losing patients to voicemail, our staff stopped burning out, and for the first time we had visibility into call metrics across all our practices.',
+      author: 'CEO',
+      title: 'Multi-Location Optometry Group'
     },
     timeline: '60-day implementation, full coverage in 90 days',
-    featuredImage: '/images/case-studies/vision-care-associates.jpg',
     relatedSolutions: ['medical-answering-service', 'patient-recall', 'no-show-recovery', 'integrations']
   }
 ];

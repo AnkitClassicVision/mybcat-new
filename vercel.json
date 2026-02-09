@@ -103,6 +103,16 @@
   ],
   "redirects": [
     {
+      "source": "/case-studies/midwest-dental-partners/",
+      "destination": "/case-studies/multi-location-dental-dso/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/vision-care-associates/",
+      "destination": "/case-studies/multi-location-optometry-group/",
+      "statusCode": 301
+    },
+    {
       "source": "/:path*",
       "has": [
         {
