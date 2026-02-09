@@ -3,9 +3,8 @@ title: "Dental Acquisition Due Diligence: Patient Retention Red Flags"
 seoTitle: "Dental Acquisition Due Diligence: Patient Retention Red"
 description: "Patient retention red flags experienced acquirers look for during dental practice due diligence. Identify risks before closing."
 seoDescription: "Dental group acquisition due diligence focused on patient retention. Red flags, data analysis, and risk mitigation strategies for DSOs and dental acquirers."
-publishDate: '2026-02-10'
-status: scheduled
-scheduledDate: '2026-02-10'
+publishDate: '2026-02-09'
+status: published
 author: Ankit Patel
 category: Enterprise
 tags:

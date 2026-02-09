@@ -3,9 +3,8 @@ title: "PE-Backed Healthcare Operations: KPIs That Drive Valuation"
 seoTitle: "PE-Backed Healthcare KPIs: Metrics That Drive Valuation"
 description: "KPIs that PE firms track in healthcare portfolios. Metrics that impact EBITDA multiples and exit valuations."
 seoDescription: "PE-backed healthcare operations KPIs that drive valuation. Financial, operational, and clinical metrics impacting EBITDA multiples from 10x to 15x"
-publishDate: '2026-02-14'
-status: scheduled
-scheduledDate: '2026-02-14'
+publishDate: '2026-02-09'
+status: published
 author: Ankit Patel
 category: Enterprise
 tags:
