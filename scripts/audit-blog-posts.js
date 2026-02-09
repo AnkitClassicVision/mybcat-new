@@ -319,7 +319,7 @@ async function main() {
       hasSeoDescription: Boolean(parsed.data.seoDescription),
       canonicalOk,
       featuredImage: featuredImage || '',
-      imageExists: Boolean(featuredImage) ? Boolean(imageInfo.exists) : true,
+      imageExists: featuredImage ? Boolean(imageInfo.exists) : true,
       imageOk,
       hasSources: hasSourcesSection(parsed.content),
       externalCitationCount: externalUrls.length,

@@ -3,9 +3,8 @@ title: "Front Desk Recall Workflow: A Simple Weekly Routine That Works"
 seoTitle: "Front Desk Recall Workflow: Weekly Checklist for Healthcare"
 description: "Front desk recall workflow with daily and weekly checklists. Reduces no-shows 20-50% with scripts and tracking templates."
 seoDescription: "Front desk recall workflow with daily and weekly checklists. Practical routines that cut no-shows by 20-50% in dental, optometry, and medical practices."
-publishDate: '2026-02-23'
-status: scheduled
-scheduledDate: '2026-02-23'
+publishDate: '2026-02-09'
+status: published
 author: Ankit Patel
 category: Operations
 tags:

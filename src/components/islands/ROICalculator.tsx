@@ -57,11 +57,21 @@ export default function ROICalculator() {
   });
   const [results, setResults] = useState<CalculatorResults | null>(null);
   const [showResults, setShowResults] = useState(false);
+  const [showEmailGate, setShowEmailGate] = useState(false);
+  const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [emailForm, setEmailForm] = useState({
+    firstName: '',
+    workEmail: '',
+    companyName: '',
+    numberOfLocations: '1',
+  });
+  const [emailFormError, setEmailFormError] = useState('');
 
   // Update defaults when industry changes
   useEffect(() => {
     const defaults = industryDefaults[industry];
     if (defaults) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setInputs(prev => ({
         ...prev,
         ...defaults,
@@ -94,6 +104,97 @@ export default function ROICalculator() {
       recoveredWithMybcat,
       annualRecovery,
     });
+
+    if (emailSubmitted) {
+      setShowResults(true);
+    } else {
+      setShowEmailGate(true);
+    }
+  };
+
+  const handleEmailSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setEmailFormError('');
+
+    if (!emailForm.firstName.trim() || !emailForm.workEmail.trim() || !emailForm.companyName.trim()) {
+      setEmailFormError('Please fill in all required fields.');
+      return;
+    }
+
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(emailForm.workEmail)) {
+      setEmailFormError('Please enter a valid email address.');
+      return;
+    }
+
+    // Block free email providers
+    const freeProviders = ['gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com', 'aol.com', 'icloud.com', 'mail.com', 'protonmail.com'];
+    const emailDomain = emailForm.workEmail.split('@')[1]?.toLowerCase();
+    if (freeProviders.includes(emailDomain)) {
+      setEmailFormError('Please use your work email address.');
+      return;
+    }
+
+    // Submit to HubSpot Forms API
+    const portalId = '23344341';
+    const formGuid = '51bdf1e4-ea47-48ff-8ba0-9d0e04e99bd9';
+
+    // Get HubSpot tracking cookie if available
+    const hutk = document.cookie
+      .split('; ')
+      .find((row) => row.startsWith('hubspotutk='))
+      ?.split('=')[1];
+
+    const submissionData: Record<string, unknown> = {
+      fields: [
+        { name: 'firstname', value: emailForm.firstName },
+        { name: 'email', value: emailForm.workEmail },
+        { name: 'company', value: emailForm.companyName },
+        { name: 'number_of_locations', value: emailForm.numberOfLocations },
+        // ROI calculator inputs
+        { name: 'roi_calc_industry', value: industry },
+        { name: 'roi_calc_monthly_call_volume', value: String(inputs.monthlyCallVolume) },
+        { name: 'roi_calc_missed_call_rate', value: String(inputs.missedCallPercentage) },
+        { name: 'roi_calc_avg_appointment_value', value: String(inputs.avgAppointmentValue) },
+        { name: 'roi_calc_conversion_rate', value: String(inputs.conversionRate) },
+        // ROI calculator results
+        { name: 'roi_calc_monthly_lost_revenue', value: String(results?.monthlyLostRevenue ?? 0) },
+        { name: 'roi_calc_annual_lost_revenue', value: String(results?.annualLostRevenue ?? 0) },
+        { name: 'roi_calc_monthly_recovery', value: String(results?.recoveredWithMybcat ?? 0) },
+        { name: 'roi_calc_annual_recovery', value: String(results?.annualRecovery ?? 0) },
+        { name: 'roi_calc_missed_calls_per_month', value: String(results?.missedCallsPerMonth ?? 0) },
+        { name: 'roi_calc_lost_patients_per_month', value: String(results?.lostPatientsPerMonth ?? 0) },
+      ],
+      context: {
+        pageUri: window.location.href,
+        pageName: 'ROI Calculator',
+      },
+    };
+
+    if (hutk) {
+      submissionData.context = { ...submissionData.context as Record<string, string>, hutk };
+    }
+
+    try {
+      const response = await fetch(
+        `https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formGuid}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(submissionData),
+        }
+      );
+
+      if (!response.ok) {
+        console.error('HubSpot submission failed:', await response.text());
+      }
+    } catch (err) {
+      // Don't block the user experience if HubSpot submission fails
+      console.error('HubSpot submission error:', err);
+    }
+
+    setEmailSubmitted(true);
+    setShowEmailGate(false);
     setShowResults(true);
   };
 
@@ -208,6 +309,79 @@ export default function ROICalculator() {
           Calculate My Potential ROI
         </button>
       </div>
+
+      {showEmailGate && !emailSubmitted && (
+        <div className="email-gate-section">
+          <div className="email-gate-header">
+            <div className="email-gate-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#006064" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+              </svg>
+            </div>
+            <h3>Your Results Are Ready!</h3>
+            <p>Enter your details below to unlock your personalized ROI report.</p>
+          </div>
+          <form onSubmit={handleEmailSubmit} className="email-gate-form">
+            <div className="gate-form-row">
+              <div className="gate-form-field">
+                <label htmlFor="firstName">First Name *</label>
+                <input
+                  type="text"
+                  id="firstName"
+                  placeholder="Jane"
+                  value={emailForm.firstName}
+                  onChange={(e) => setEmailForm({ ...emailForm, firstName: e.target.value })}
+                />
+              </div>
+              <div className="gate-form-field">
+                <label htmlFor="workEmail">Work Email *</label>
+                <input
+                  type="email"
+                  id="workEmail"
+                  placeholder="jane@yourpractice.com"
+                  value={emailForm.workEmail}
+                  onChange={(e) => setEmailForm({ ...emailForm, workEmail: e.target.value })}
+                />
+              </div>
+            </div>
+            <div className="gate-form-row">
+              <div className="gate-form-field">
+                <label htmlFor="companyName">Company / Practice Name *</label>
+                <input
+                  type="text"
+                  id="companyName"
+                  placeholder="Bright Eyes Optometry"
+                  value={emailForm.companyName}
+                  onChange={(e) => setEmailForm({ ...emailForm, companyName: e.target.value })}
+                />
+              </div>
+              <div className="gate-form-field">
+                <label htmlFor="numberOfLocations">Number of Locations</label>
+                <select
+                  id="numberOfLocations"
+                  value={emailForm.numberOfLocations}
+                  onChange={(e) => setEmailForm({ ...emailForm, numberOfLocations: e.target.value })}
+                >
+                  <option value="1">1</option>
+                  <option value="2-5">2 - 5</option>
+                  <option value="6-10">6 - 10</option>
+                  <option value="11-25">11 - 25</option>
+                  <option value="26-50">26 - 50</option>
+                  <option value="50+">50+</option>
+                </select>
+              </div>
+            </div>
+            {emailFormError && <p className="gate-form-error">{emailFormError}</p>}
+            <button type="submit" className="gate-submit-btn">
+              Unlock My ROI Report
+            </button>
+            <p className="gate-privacy">
+              We respect your privacy. Your data is never shared with third parties.
+            </p>
+          </form>
+        </div>
+      )}
 
       {showResults && results && (
         <div className="results-section">
@@ -513,6 +687,119 @@ export default function ROICalculator() {
           background: #004d51;
         }
 
+        .email-gate-section {
+          background: rgba(255, 255, 255, 0.95);
+          border: 2px solid rgba(0, 96, 100, 0.2);
+          border-radius: 20px;
+          padding: 36px 32px;
+          margin-bottom: 32px;
+          text-align: center;
+        }
+
+        .email-gate-header {
+          margin-bottom: 24px;
+        }
+
+        .email-gate-icon {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 56px;
+          height: 56px;
+          background: rgba(0, 96, 100, 0.08);
+          border-radius: 50%;
+          margin-bottom: 12px;
+        }
+
+        .email-gate-header h3 {
+          font-size: 1.4rem;
+          font-weight: 700;
+          color: #1a2d3d;
+          margin: 0 0 8px 0;
+        }
+
+        .email-gate-header p {
+          font-size: 15px;
+          color: #6c7a88;
+          margin: 0;
+        }
+
+        .email-gate-form {
+          text-align: left;
+        }
+
+        .gate-form-row {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 16px;
+          margin-bottom: 16px;
+        }
+
+        .gate-form-field label {
+          display: block;
+          font-size: 13px;
+          font-weight: 600;
+          color: #1a2d3d;
+          margin-bottom: 6px;
+        }
+
+        .gate-form-field input,
+        .gate-form-field select {
+          width: 100%;
+          padding: 11px 14px;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          border-radius: 10px;
+          font-size: 14px;
+          background: white;
+          color: #1a2d3d;
+          box-sizing: border-box;
+          transition: border-color 0.2s;
+        }
+
+        .gate-form-field input:focus,
+        .gate-form-field select:focus {
+          outline: none;
+          border-color: #006064;
+          box-shadow: 0 0 0 3px rgba(0, 96, 100, 0.1);
+        }
+
+        .gate-form-field input::placeholder {
+          color: #aab4be;
+        }
+
+        .gate-form-error {
+          color: #b95450;
+          font-size: 13px;
+          font-weight: 500;
+          margin: 0 0 12px 0;
+          text-align: center;
+        }
+
+        .gate-submit-btn {
+          width: 100%;
+          padding: 15px 32px;
+          background: #006064;
+          color: white;
+          border: none;
+          border-radius: 12px;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+          transition: background 0.2s;
+          margin-bottom: 12px;
+        }
+
+        .gate-submit-btn:hover {
+          background: #004d51;
+        }
+
+        .gate-privacy {
+          text-align: center;
+          font-size: 12px;
+          color: #9aa5b0;
+          margin: 0;
+        }
+
         @media (max-width: 640px) {
           .results-grid {
             grid-template-columns: 1fr;
@@ -520,6 +807,14 @@ export default function ROICalculator() {
 
           .result-value {
             font-size: 1.5rem;
+          }
+
+          .gate-form-row {
+            grid-template-columns: 1fr;
+          }
+
+          .email-gate-section {
+            padding: 24px 20px;
           }
         }
       `}</style>

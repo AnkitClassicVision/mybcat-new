@@ -4,12 +4,11 @@
  * Detailed overview of mybcat's onboarding process and service model
  */
 import PageLayout from '@/layouts/PageLayout.astro';
-import Card from '@/components/Card.astro';
 import Button from '@/components/Button.astro';
 import Stats from '@/components/sections/Stats.astro';
 import FAQ from '@/components/sections/FAQ.astro';
 import CTA from '@/components/sections/CTA.astro';
-import { faqs, getFAQsByCategory } from '@data/faq';
+import { getFAQsByCategory } from '@data/faq';
 import { generateServiceSchema, generateFAQSchema, generateHowToSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
 

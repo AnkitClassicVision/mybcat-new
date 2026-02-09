@@ -67,6 +67,7 @@ const categoryLabels: Record<string, string> = {
       <h2>Browse by Category</h2>
       <div class="category-tags">
         {Object.entries(categoryLabels).map(([key, label]) => {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           const count = getGlossaryTermsByCategory(key as any).length;
           return (
             <span class="category-tag" data-category={key}>

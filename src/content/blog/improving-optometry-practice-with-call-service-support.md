@@ -1,6 +1,6 @@
 ---
 title: Improving Optometry Practice with Call Service Support
-description: Boost patient satisfaction and capture every call with professional call service support for your optometry practice. Reduce hold times and fill more appointments.
+description: Boost patient satisfaction and capture every call with professional call service support for your optometry practice. Reduce hold times and fill appointments.
 publishDate: 2024-04-17
 status: published
 author: Ankit Patel

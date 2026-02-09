@@ -3,9 +3,8 @@ title: "Centralized Patient Recall for Multi-Location Healthcare"
 seoTitle: "Centralized Patient Recall Multi-Location: Implementation"
 description: "Implementation guide for centralizing patient recall. Tech, workflows, and governance for 80%+ recall rates."
 seoDescription: "Centralized patient recall implementation for multi-location healthcare groups. Technology architecture, workflows, staffing, and governance achieving 80%+"
-publishDate: '2026-02-12'
-status: scheduled
-scheduledDate: '2026-02-12'
+publishDate: '2026-02-09'
+status: published
 author: Ankit Patel
 category: Enterprise
 tags:

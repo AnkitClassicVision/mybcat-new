@@ -65,7 +65,7 @@ const isHomepage = pathname === '/';
     <script is:inline>
       (function () {
         try {
-          var original = HTMLHeadElement.prototype.appendChild;
+          const original = HTMLHeadElement.prototype.appendChild;
           HTMLHeadElement.prototype.appendChild = function (node) {
             try {
               if (
@@ -76,10 +76,10 @@ const isHomepage = pathname === '/';
               ) {
                 return node;
               }
-            } catch (e) {}
+            } catch (_e) { /* empty */ }
             return original.call(this, node);
           };
-        } catch (e) {}
+        } catch (_e) { /* empty */ }
       })();
     </script>
   )}
@@ -193,6 +193,28 @@ const isHomepage = pathname === '/';
   <Footer />
 
   <slot name="footer-scripts" />
+
+  {/* Block Vector.co pixel - misconfigured in GTM, causes console errors */}
+  <script is:inline>
+    (function () {
+      try {
+        const origAppend = HTMLHeadElement.prototype.appendChild;
+        HTMLHeadElement.prototype.appendChild = function (node) {
+          try {
+            if (
+              node &&
+              node.tagName === 'SCRIPT' &&
+              typeof node.src === 'string' &&
+              node.src.indexOf('vector.co') !== -1
+            ) {
+              return node;
+            }
+          } catch (_e) { /* empty */ }
+          return origAppend.call(this, node);
+        };
+      } catch (_e) { /* empty */ }
+    })();
+  </script>
 
   {/* GTM moved to end of body for better FCP */}
   {!disableTracking && <GoogleTagManager />}

@@ -1,0 +1,517 @@
+---
+/**
+ * Enterprise Implementation Timeline Page
+ * Detailed rollout plan for multi-location onboarding
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Button from '@/components/Button.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { enterpriseRolloutTimeline } from '@data/enterprise';
+---
+
+<PageLayout
+  title="Enterprise Implementation Timeline | MyBCAT"
+  description="Phased implementation plan for multi-location healthcare groups. From discovery to full deployment in 90 days with minimal disruption to your operations."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Enterprise', url: '/enterprise/' },
+    { name: 'Implementation' }
+  ]}
+>
+  <div class="implementation-page">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-eyebrow">Enterprise Onboarding</div>
+      <h1>From Discovery to Full Deployment</h1>
+      <p class="hero-tagline">A phased approach that minimizes disruption and maximizes results. Most groups are fully operational across all locations within 90 days.</p>
+      <div class="hero-ctas">
+        <Button href="/contact/" variant="primary">Start Your Implementation</Button>
+        <Button href="/enterprise/" variant="secondary">Back to Enterprise</Button>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="timeline-section">
+      <div class="timeline">
+        {enterpriseRolloutTimeline.phases.map((phase, index) => (
+          <div class="timeline-phase">
+            <div class="phase-marker">
+              <div class="phase-number">{index + 1}</div>
+              {index < enterpriseRolloutTimeline.phases.length - 1 && <div class="phase-line" />}
+            </div>
+            <div class="phase-content">
+              <div class="phase-header">
+                <span class="phase-duration">{phase.duration}</span>
+                <h2>{phase.phase}</h2>
+              </div>
+              <p class="phase-description">{phase.description}</p>
+              <ul class="phase-activities">
+                {phase.activities.map(activity => (
+                  <li>
+                    <span class="check-icon">&#x2713;</span>
+                    <span>{activity}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Success Metrics -->
+    <section class="metrics-section">
+      <div class="section-header">
+        <div class="eyebrow">What to Expect</div>
+        <h2>Success Milestones</h2>
+        <p class="section-subtitle">Clear benchmarks at every stage of your implementation.</p>
+      </div>
+
+      <div class="milestones-grid">
+        <div class="milestone-card day30">
+          <div class="milestone-header">
+            <span class="milestone-badge">Day 30</span>
+            <h3>Pilot Complete</h3>
+          </div>
+          <ul>
+            {enterpriseRolloutTimeline.successMetrics.day30.map(metric => (
+              <li>{metric}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="milestone-card day60">
+          <div class="milestone-header">
+            <span class="milestone-badge">Day 60</span>
+            <h3>Scaling Up</h3>
+          </div>
+          <ul>
+            {enterpriseRolloutTimeline.successMetrics.day60.map(metric => (
+              <li>{metric}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="milestone-card day90">
+          <div class="milestone-header">
+            <span class="milestone-badge">Day 90</span>
+            <h3>Full Operations</h3>
+          </div>
+          <ul>
+            {enterpriseRolloutTimeline.successMetrics.day90.map(metric => (
+              <li>{metric}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <p class="metrics-disclaimer">Timelines based on typical multi-location implementations. Actual timelines vary based on number of locations, EHR systems, and organizational complexity.</p>
+    </section>
+
+    <!-- What We Need From You -->
+    <section class="requirements-section">
+      <Card variant="feature">
+        <div class="requirements-content">
+          <h2>What We Need From You</h2>
+          <p class="requirements-intro">A successful implementation is a partnership. Here's what your team provides:</p>
+          <div class="requirements-grid">
+            <div class="requirement">
+              <h3>EHR/PM System Access</h3>
+              <p>Login credentials and training on your specific system configuration for each location.</p>
+            </div>
+            <div class="requirement">
+              <h3>Protocol Documentation</h3>
+              <p>Provider preferences, scheduling rules, and any location-specific procedures.</p>
+            </div>
+            <div class="requirement">
+              <h3>Point of Contact</h3>
+              <p>A dedicated liaison from your operations team for the implementation period.</p>
+            </div>
+            <div class="requirement">
+              <h3>BAA Execution</h3>
+              <p>Signed Business Associate Agreement before any PHI access is granted.</p>
+            </div>
+          </div>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Trust Signals -->
+    <section class="trust-section">
+      <div class="trust-strip">
+        <div class="trust-item">
+          <span class="trust-icon">&#x1f512;</span>
+          <span>HIPAA Compliant</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">&#x1f4cb;</span>
+          <span>BAA Before Go-Live</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">&#x1f6e1;</span>
+          <span>SOC 2 Practices</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">&#x1f91d;</span>
+          <span>Dedicated Success Manager</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <CTA
+      title="Ready to Get Started?"
+      subtitle="Book a discovery call to map your locations, systems, and rollout plan."
+      buttonText="Schedule Discovery Call"
+      buttonHref="/contact/"
+    />
+  </div>
+</PageLayout>
+
+<style>
+  .implementation-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .eyebrow,
+  .hero-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .section-header h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .section-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 550px;
+    margin: 0 auto;
+  }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 40px 0 60px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+
+  .hero-tagline {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 32px;
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Timeline */
+  .timeline-section {
+    margin-bottom: 60px;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .timeline-phase {
+    display: flex;
+    gap: 24px;
+  }
+
+  .phase-marker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .phase-number {
+    width: 48px;
+    height: 48px;
+    background: var(--oceanic-teal);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .phase-line {
+    width: 3px;
+    flex: 1;
+    background: linear-gradient(to bottom, var(--oceanic-teal), var(--glass-border));
+    min-height: 40px;
+  }
+
+  .phase-content {
+    padding-bottom: 40px;
+    flex: 1;
+  }
+
+  .phase-header {
+    margin-bottom: 12px;
+  }
+
+  .phase-duration {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--glass-teal);
+    color: var(--oceanic-teal);
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .phase-header h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin: 0;
+  }
+
+  .phase-description {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .phase-activities {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .phase-activities li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 8px 14px;
+    background: var(--spatial-glass);
+    border-radius: 8px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .check-icon {
+    color: var(--oceanic-teal);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  /* Success Metrics */
+  .metrics-section {
+    margin-bottom: 60px;
+  }
+
+  .milestones-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .milestone-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 24px;
+    border-top: 3px solid var(--oceanic-teal);
+  }
+
+  .milestone-card.day60 {
+    border-top-color: var(--revenue-gold);
+  }
+
+  .milestone-card.day90 {
+    border-top-color: var(--copper-500);
+  }
+
+  .milestone-header {
+    margin-bottom: 16px;
+  }
+
+  .milestone-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    background: var(--glass-teal);
+    color: var(--oceanic-teal);
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+  }
+
+  .milestone-card.day60 .milestone-badge {
+    background: rgba(211, 175, 94, 0.15);
+    color: var(--revenue-gold);
+  }
+
+  .milestone-card.day90 .milestone-badge {
+    background: rgba(193, 121, 97, 0.15);
+    color: var(--copper-500);
+  }
+
+  .milestone-header h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin: 0;
+  }
+
+  .milestone-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .milestone-card li {
+    padding: 8px 0;
+    font-size: 13px;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--glass-border);
+    line-height: 1.5;
+  }
+
+  .milestone-card li:last-child {
+    border-bottom: none;
+  }
+
+  .metrics-disclaimer {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: center;
+    margin-top: 16px;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  /* Requirements */
+  .requirements-section {
+    margin-bottom: 60px;
+  }
+
+  .requirements-content {
+    text-align: center;
+  }
+
+  .requirements-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .requirements-intro {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+  }
+
+  .requirements-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: left;
+  }
+
+  .requirement {
+    padding: 20px;
+    background: var(--spatial-glass);
+    border-radius: 12px;
+  }
+
+  .requirement h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 6px;
+  }
+
+  .requirement p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* Trust Signals */
+  .trust-section {
+    margin-bottom: 48px;
+  }
+
+  .trust-strip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px 24px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+  }
+
+  .trust-strip .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .trust-icon {
+    font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+    .milestones-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .requirements-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .timeline-phase {
+      gap: 16px;
+    }
+  }
+</style>
