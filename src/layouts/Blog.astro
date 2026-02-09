@@ -2,6 +2,7 @@
 import Base from './Base.astro';
 import AuthorBio from '@/components/blog/AuthorBio.astro';
 import RelatedPosts from '@/components/blog/RelatedPosts.astro';
+import NewsletterSignup from '@/components/blog/NewsletterSignup.astro';
 import { generateArticleSchema, generateBreadcrumbSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
 import type { CollectionEntry } from 'astro:content';
@@ -140,6 +141,9 @@ const authorInfo = authorData[author] || { role: '', image: '' };
       relatedSlugs={relatedPosts || []}
       maxPosts={3}
     />
+
+    <!-- Newsletter Signup -->
+    <NewsletterSignup />
 
     <!-- Blog Post CTA -->
     <section class="post-cta">
