@@ -127,7 +127,7 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
   <script is:inline>
     (function () {
       try {
-        var origAppend = HTMLHeadElement.prototype.appendChild;
+        const origAppend = HTMLHeadElement.prototype.appendChild;
         HTMLHeadElement.prototype.appendChild = function (node) {
           try {
             if (
@@ -138,10 +138,10 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
             ) {
               return node;
             }
-          } catch (e) {}
+          } catch (_e) { /* empty */ }
           return origAppend.call(this, node);
         };
-      } catch (e) {}
+      } catch (_e) { /* empty */ }
     })();
   </script>
 

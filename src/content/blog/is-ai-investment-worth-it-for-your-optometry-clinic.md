@@ -1,6 +1,6 @@
 ---
 title: Is AI Investment Worth It for Your Optometry Clinic?
-description: AI could save healthcare $360B annually. Explore practical AI applications for optometry operations, from automated scheduling to inventory management and billing.
+description: AI could save healthcare $360B annually. Explore practical AI applications for optometry, from automated scheduling to inventory management and billing.
 publishDate: 2023-09-27
 status: published
 author: Ankit Patel

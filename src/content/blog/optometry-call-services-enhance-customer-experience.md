@@ -1,6 +1,6 @@
 ---
 title: Optometry Call Services Enhance Customer Experience
-description: Professional call services create lasting first impressions for optometry patients. Simplify scheduling, reduce wait times, and build loyalty with virtual receptionists.
+description: Professional call services create lasting first impressions for optometry patients. Simplify scheduling, reduce wait times, and build loyalty.
 publishDate: 2023-12-18
 status: published
 author: Ankit Patel

@@ -71,6 +71,7 @@ export default function ROICalculator() {
   useEffect(() => {
     const defaults = industryDefaults[industry];
     if (defaults) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setInputs(prev => ({
         ...prev,
         ...defaults,

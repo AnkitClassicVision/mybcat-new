@@ -1,6 +1,6 @@
 ---
 title: AI Ethics in Ophthalmology and Optometry
-description: Navigate AI ethics in eye care, from scheduling algorithms and billing automation to chatbot transparency. A practical guide for optometry and ophthalmology leaders.
+description: Navigate AI ethics in eye care, from scheduling algorithms and billing automation to chatbot transparency. A guide for optometry and ophthalmology leaders.
 publishDate: 2023-09-25
 status: published
 author: Ankit Patel

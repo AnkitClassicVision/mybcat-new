@@ -6,7 +6,6 @@
  */
 import PageLayout from '@/layouts/PageLayout.astro';
 import Button from '@/components/Button.astro';
-import Card from '@/components/Card.astro';
 import { company } from '@data/company';
 import { getCollection } from 'astro:content';
 import { serializeSchema } from '@utils/schema';
@@ -252,7 +251,6 @@ const combinedSchema = {
 
         <div class="articles-grid">
           {recentPosts.map((post) => {
-            const categorySlug = post.data.category.toLowerCase().replace(/\s+/g, '-');
             return (
               <a href={`/blog/${post.slug}/`} class="article-card">
                 {post.data.featuredImage && (

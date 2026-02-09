@@ -13,9 +13,6 @@ import { isPostVisible } from '@utils/blog';
 // Get all visible posts
 const allPosts = await getCollection('blog', ({ data }) => isPostVisible(data));
 
-// Get unique categories
-const categories = [...new Set(allPosts.map(post => post.data.category))];
-
 // Category metadata for SEO and display
 const categoryMeta: Record<string, { title: string; description: string; }> = {
   'Technology': {

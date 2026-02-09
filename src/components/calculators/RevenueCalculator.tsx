@@ -42,6 +42,7 @@ export default function RevenueCalculator() {
     const ebitdaImpact = Math.round(annualRevenue * 0.25);
     const valuation = Math.round(ebitdaImpact * 8);
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setResults({ dailyMissed, monthlyOpps, annualRevenue, fiveYearLoss, ebitdaImpact, valuation });
   }, [locations, specialty, dailyCalls, missedRate, newPatientRate]);
 

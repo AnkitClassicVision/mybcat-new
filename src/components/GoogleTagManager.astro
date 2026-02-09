@@ -21,7 +21,7 @@ const GTM_ID = 'GTM-MFK3VKPN';
 
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
-    var script = document.createElement('script');
+    const script = document.createElement('script');
     script.async = true;
     script.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
     document.head.appendChild(script);
@@ -32,10 +32,10 @@ const GTM_ID = 'GTM-MFK3VKPN';
   function initGTMAfterLCP() {
     // Use PerformanceObserver to detect when LCP has been measured
     if ('PerformanceObserver' in window) {
-      var lcpObserved = false;
+      let lcpObserved = false;
 
-      var observer = new PerformanceObserver(function(list) {
-        var entries = list.getEntries();
+      const observer = new PerformanceObserver(function(list) {
+        const entries = list.getEntries();
         if (entries.length > 0) {
           lcpObserved = true;
           observer.disconnect();

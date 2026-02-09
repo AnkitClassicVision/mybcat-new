@@ -4,15 +4,13 @@
  * Generates pages for each solution we offer
  */
 import LandingLayout from '@/layouts/LandingLayout.astro';
-import Card from '@/components/Card.astro';
 import Button from '@/components/Button.astro';
 import Features from '@/components/sections/Features.astro';
-import Stats from '@/components/sections/Stats.astro';
 import ProcessSteps from '@/components/sections/ProcessSteps.astro';
 import Testimonials from '@/components/sections/Testimonials.astro';
 import FAQ from '@/components/sections/FAQ.astro';
 import CTA from '@/components/sections/CTA.astro';
-import { solutions, getAllSolutionSlugs, getSolutionBySlug, type Solution } from '@data/solutions';
+import { solutions, type Solution } from '@data/solutions';
 import { getCaseStudiesBySolution } from '@data/case-studies';
 import { faqs } from '@data/faq';
 import { testimonials } from '@data/testimonials';

@@ -62,6 +62,7 @@ export default function EBITDACalculator() {
     // Monthly investment threshold for 3x ROI
     const monthlyThreshold = (ebitdaImprovement / 12) / 3;
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setResults({
       currentEBITDA: Math.round(currentEBITDA),
       revenueRecovered: Math.round(revenueRecovered),

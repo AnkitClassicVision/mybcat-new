@@ -73,7 +73,7 @@ function getGitLastModDate(filePath, skipRecentDates = true) {
       }
       return dateStr;
     }
-  } catch (e) {
+  } catch {
     // Git command failed
   }
 
