@@ -1,11 +1,15 @@
 ---
-title: "Scaling Optometry Network Operations: 5 to 50 Locations"
-seoTitle: "Scaling Optometry Network Operations: 5 to 50 Locations"
-description: "Playbook for scaling optometry networks from 5 to 50+ locations. Tech, staffing, and retention strategies."
-seoDescription: "Scaling optometry network operations from 5 to 50 locations. Technology infrastructure, standardization, patient retention, and operational playbook for vision"
-publishDate: '2026-02-09'
-status: scheduled
-scheduledDate: '2026-02-09'
+title: 'Scaling Optometry Network Operations: 5 to 50 Locations'
+seoTitle: 'Scaling Optometry Network Operations: 5 to 50 Locations'
+description: >-
+  Playbook for scaling optometry networks from 5 to 50+ locations. Tech,
+  staffing, and retention strategies.
+seoDescription: >-
+  Scaling optometry network operations from 5 to 50 locations. Technology
+  infrastructure, standardization, patient retention, and operational playbook
+  for vision
+publishDate: '2026-02-09T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Enterprise
 tags:
@@ -15,7 +19,7 @@ tags:
   - operations
   - enterprise
 featuredImage: /images/blog/optometry-network-operations-scale.webp
-canonical: https://mybcat.com/blog/optometry-network-operations-scale/
+canonical: 'https://mybcat.com/blog/optometry-network-operations-scale/'
 cluster: enterprise
 relatedPosts:
   - dso-patient-retention-strategy

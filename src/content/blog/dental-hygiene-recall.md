@@ -1,11 +1,15 @@
 ---
-title: "Dental Hygiene Recall: The DSO Valuation Driver"
-seoTitle: "Dental Hygiene Recall: The DSO Valuation Driver"
-description: "Hygiene recall rates separate $500K from $1M practices. Only 17% have patients on 6-month recall. Benchmarks and strategies."
-seoDescription: "Dental hygiene recall rates are the #1 driver of practice valuation. Learn benchmarks (65-74% average, 85%+ optimal), revenue impact, and strategies for DSO"
-publishDate: '2026-02-09'
-status: scheduled
-scheduledDate: '2026-02-09'
+title: 'Dental Hygiene Recall: The DSO Valuation Driver'
+seoTitle: 'Dental Hygiene Recall: The DSO Valuation Driver'
+description: >-
+  Hygiene recall rates separate $500K from $1M practices. Only 17% have patients
+  on 6-month recall. Benchmarks and strategies.
+seoDescription: >-
+  Dental hygiene recall rates are the #1 driver of practice valuation. Learn
+  benchmarks (65-74% average, 85%+ optimal), revenue impact, and strategies for
+  DSO
+publishDate: '2026-02-09T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Dental
 tags:
@@ -14,7 +18,7 @@ tags:
   - practice valuation
   - patient retention
 featuredImage: /images/blog/dental-hygiene-recall.webp
-canonical: https://mybcat.com/blog/dental-hygiene-recall/
+canonical: 'https://mybcat.com/blog/dental-hygiene-recall/'
 cluster: dental-recall
 relatedPosts:
   - patient-recall-service
