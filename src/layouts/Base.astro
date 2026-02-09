@@ -123,6 +123,28 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
 
   <slot name="footer-scripts" />
 
+  {/* Block Vector.co pixel - misconfigured in GTM, causes console errors */}
+  <script is:inline>
+    (function () {
+      try {
+        var origAppend = HTMLHeadElement.prototype.appendChild;
+        HTMLHeadElement.prototype.appendChild = function (node) {
+          try {
+            if (
+              node &&
+              node.tagName === 'SCRIPT' &&
+              typeof node.src === 'string' &&
+              node.src.indexOf('vector.co') !== -1
+            ) {
+              return node;
+            }
+          } catch (e) {}
+          return origAppend.call(this, node);
+        };
+      } catch (e) {}
+    })();
+  </script>
+
   {/* GTM moved to end of body for better FCP */}
   <GoogleTagManager />
 </body>
