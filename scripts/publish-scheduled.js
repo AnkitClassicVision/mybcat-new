@@ -72,6 +72,34 @@ files.forEach(file => {
 
 if (publishedCount > 0) {
   console.log(`Successfully published ${publishedCount} post(s).`);
+
+  // Ping IndexNow to notify Bing/Yandex of new content
+  const INDEXNOW_KEY = 'd0fa8fc9f2c9f1eddea0d7f5ba4163e8';
+  const SITE_URL = 'https://mybcat.com';
+  const publishedUrls = files
+    .filter(f => {
+      const content = fs.readFileSync(path.join(BLOG_DIR, f), 'utf8');
+      const { data } = matter(content);
+      return data.status === 'published' && data.publishDate &&
+        new Date(data.publishDate).toISOString().split('T')[0] === today;
+    })
+    .map(f => `${SITE_URL}/blog/${f.replace(/\.(md|mdx)$/, '')}/`);
+
+  if (publishedUrls.length > 0) {
+    console.log(`Pinging IndexNow for ${publishedUrls.length} URL(s)...`);
+    fetch('https://api.indexnow.org/indexnow', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        host: 'mybcat.com',
+        key: INDEXNOW_KEY,
+        keyLocation: `${SITE_URL}/${INDEXNOW_KEY}.txt`,
+        urlList: publishedUrls
+      })
+    })
+      .then(res => console.log(`IndexNow response: ${res.status}`))
+      .catch(err => console.log(`IndexNow ping failed (non-blocking): ${err.message}`));
+  }
 } else {
   console.log('No posts scheduled for today.');
 }
