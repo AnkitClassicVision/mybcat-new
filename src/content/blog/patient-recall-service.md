@@ -15,13 +15,12 @@ tags:
   - healthcare outsourcing
 featuredImage: /images/blog/patient-recall-service.webp
 canonical: https://mybcat.com/blog/patient-recall-service/
-cluster: recall-reactivation
+cluster: patient-recall
 relatedPosts:
-  - dormant-patient-reactivation
   - patient-recall-campaign-framework
 ---
 
-A patient recall service systematically contacts patients who are due or overdue for appointments, bringing them back into your practice. For multi-location healthcare groups, existing patients generate up to 80% of practice revenue, making recall one of the highest-ROI activities available. This guide explains what patient recall services do, when practices should consider outsourcing recall, and how to evaluate providers.
+A patient recall service systematically contacts patients who are due or overdue for appointments, bringing them back into your practice. For multi-location healthcare groups, existing patients generate up to 80% of practice revenue, making recall one of the highest-ROI activities available. Before evaluating services, it helps to understand the broader [patient recall campaign framework](/blog/patient-recall-campaign-framework/) that guides how outreach programs should be structured. This guide explains what patient recall services do, when practices should consider outsourcing recall, and how to evaluate providers.
 
 ## What Is a Patient Recall Service?
 

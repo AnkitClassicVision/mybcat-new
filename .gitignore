@@ -67,5 +67,12 @@ wp_*.json
 playwright-report/
 test-results/
 
+# Local audit artifacts
+.playwright-mcp/
+reports/squirrel/
+screenshots/
+*.skill
+/roi-calc-live-*.png
+
 # ESLint
 .eslintcache

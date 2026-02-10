@@ -24,10 +24,10 @@ interface Props {
 const { page } = Astro.props;
 
 // Build pagination URLs
-const baseUrl = 'https://mybcat.com/blog/archive';
-const currentUrl = page.currentPage === 1 ? `${baseUrl}/` : `${baseUrl}/${page.currentPage}/`;
-const prevUrl = page.url.prev ? (page.currentPage === 2 ? `${baseUrl}/` : `${baseUrl}/${page.currentPage - 1}/`) : null;
-const nextUrl = page.url.next ? `${baseUrl}/${page.currentPage + 1}/` : null;
+const baseUrl = 'https://mybcat.com/blog/archive/';
+const currentUrl = page.currentPage === 1 ? baseUrl : `${baseUrl}${page.currentPage}/`;
+const prevUrl = page.url.prev ? (page.currentPage === 2 ? baseUrl : `${baseUrl}${page.currentPage - 1}/`) : null;
+const nextUrl = page.url.next ? `${baseUrl}${page.currentPage + 1}/` : null;
 
 // Build page numbers array for pagination display
 type PageItem = { type: 'page'; num: number; url: string; current: boolean } | { type: 'ellipsis' };
@@ -55,10 +55,15 @@ for (let i = 1; i <= page.lastPage; i++) {
     ? "Browse all healthcare practice insights and articles from MyBCAT."
     : `Browse healthcare practice insights - page ${page.currentPage} of ${page.lastPage}.`}
   canonical={currentUrl}
+  publishDate={page.data[0]?.data.publishDate}
+  ogType="article"
 >
   <Fragment slot="head">
     {prevUrl && <link rel="prev" href={prevUrl} />}
     {nextUrl && <link rel="next" href={nextUrl} />}
+    <meta name="author" content="MyBCAT Editorial" />
+    <meta name="date" content={page.data[0]?.data.publishDate.toISOString()} />
+    <link rel="privacy-policy" href="/privacy-policy/" />
   </Fragment>
 
   <main id="main-content" class="archive-page">
@@ -69,6 +74,7 @@ for (let i = 1; i <= page.lastPage; i++) {
       {page.lastPage > 1 && (
         <p class="page-indicator">Page {page.currentPage} of {page.lastPage}</p>
       )}
+      <p class="archive-privacy">Looking for data practices? Read our <a href="/privacy-policy/">Privacy Policy</a>.</p>
     </header>
 
     <div class="archive-container">

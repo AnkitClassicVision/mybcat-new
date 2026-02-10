@@ -2,7 +2,7 @@
 title: 'Vision Clinic Call Management: Tips for Success'
 description: 'Five actionable call management strategies that help vision clinics answer every patient call, reduce hold times, and deliver standout service.'
 publishDate: 2023-11-28
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/vision-clinic-call-management-tips-for-success.webp
 canonical: https://mybcat.com/blog/vision-clinic-call-management-tips-for-success/
+redirectTo: /blog/call-management-best-practices-optometry/
 relatedPosts: []
 ---
 

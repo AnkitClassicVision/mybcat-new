@@ -16,14 +16,12 @@ tags:
   - optometry
 featuredImage: /images/blog/case-study-dormant-patient-recovery.webp
 canonical: https://mybcat.com/blog/case-study-dormant-patient-recovery/
-cluster: recall-reactivation
+cluster: patient-recall
 relatedPosts:
   - dormant-patient-reactivation
-  - patient-reactivation-roi
-  - optometry-recall-campaign
 ---
 
-When Vision Care Partners (name changed for confidentiality) analyzed their patient data across 12 optometry locations, they found a problem hiding in plain sight: 4,200 patients who had not visited in 12-24 months. At an average lifetime value of $2,800 per patient, they were looking at $11.7 million in at-risk revenue slowly walking out the door. This case study documents how they recovered 847 of those patients and generated $312,000 in first-year revenue using a systematic reactivation campaign, without offering a single discount.
+When Vision Care Partners (name changed for confidentiality) analyzed their patient data across 12 optometry locations, they found a problem hiding in plain sight: 4,200 patients who had not visited in 12-24 months. At an average lifetime value of $2,800 per patient, they were looking at $11.7 million in at-risk revenue slowly walking out the door. This case study documents how they recovered 847 of those patients and generated $312,000 in first-year revenue using a systematic [dormant patient reactivation](/blog/dormant-patient-reactivation/) campaign, without offering a single discount.
 
 ## The Challenge
 

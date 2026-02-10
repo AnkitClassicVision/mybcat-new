@@ -3,7 +3,7 @@ title: 'Optometry Access: Elevating Patient Care'
 description: Unlock the full potential of patient access in your optometry practice.
   Improve scheduling, communication, and patient satisfaction.
 publishDate: 2024-02-20
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -14,6 +14,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/optometry-access-elevating-patient-care.webp
 canonical: https://mybcat.com/blog/optometry-access-elevating-patient-care/
+redirectTo: /blog/call-handling-patient-experience-eye-care/
 relatedPosts: []
 ---
 

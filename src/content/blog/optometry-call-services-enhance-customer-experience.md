@@ -2,7 +2,7 @@
 title: Optometry Call Services Enhance Customer Experience
 description: Professional call services create lasting first impressions for optometry patients. Simplify scheduling, reduce wait times, and build loyalty.
 publishDate: 2023-12-18
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/optometry-call-services-enhance-customer-experience.webp
 canonical: https://mybcat.com/blog/optometry-call-services-enhance-customer-experience/
+redirectTo: /blog/medical-answering-services-eye-care-guide/
 relatedPosts: []
 ---
 

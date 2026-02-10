@@ -116,6 +116,10 @@ export default function EBITDACalculator() {
           outline: none;
           touch-action: manipulation;
         }
+        .ebitda-calc-slider:focus-visible {
+          outline: 3px solid rgba(77, 208, 225, 0.95);
+          outline-offset: 2px;
+        }
         .ebitda-calc-slider::-webkit-slider-thumb {
           -webkit-appearance: none;
           width: 44px;
@@ -266,7 +270,6 @@ export default function EBITDACalculator() {
               id="ebitda-multiple"
               value={multiple}
               onChange={(e) => setMultiple(Number(e.target.value))}
-              aria-label="Expected Valuation Multiple"
               style={{
                 width: '100%',
                 padding: '14px 40px 14px 16px',
@@ -301,12 +304,12 @@ export default function EBITDACalculator() {
           {/* Current vs Optimized */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', marginBottom: '20px' }}>
             <div style={{ background: 'rgba(255,255,255,0.08)', padding: '20px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Current EBITDA</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Current EBITDA</div>
               <div style={{ fontSize: '28px', fontWeight: 700, color: '#999' }}>{formatCurrency(results.currentEBITDA)}</div>
               <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.5)', marginTop: '4px' }}>{currentMargin}% margin</div>
             </div>
             <div style={{ background: 'rgba(77,208,225,0.15)', border: '1px solid rgba(77,208,225,0.3)', padding: '20px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Optimized EBITDA</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Optimized EBITDA</div>
               <div style={{ fontSize: '28px', fontWeight: 700, color: '#4DD0E1' }}>{formatCurrency(results.newEBITDA)}</div>
               <div style={{ fontSize: '13px', color: '#4DD0E1', marginTop: '4px' }}>{formatPercent(results.newMargin)} margin</div>
             </div>
@@ -315,15 +318,15 @@ export default function EBITDACalculator() {
           {/* Key Metrics */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px', marginBottom: '20px' }}>
             <div style={{ background: 'rgba(255,255,255,0.08)', padding: '16px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Revenue Recovered</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Revenue Recovered</div>
               <div style={{ fontSize: '22px', fontWeight: 700, color: '#4DD0E1' }}>{formatCurrency(results.revenueRecovered)}</div>
             </div>
             <div style={{ background: 'rgba(255,255,255,0.08)', padding: '16px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>EBITDA Improvement</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>EBITDA Improvement</div>
               <div style={{ fontSize: '22px', fontWeight: 700, color: '#4DD0E1' }}>+{formatCurrency(results.ebitdaImprovement)}</div>
             </div>
             <div style={{ background: 'rgba(211,175,94,0.2)', border: '1px solid rgba(211,175,94,0.3)', padding: '16px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Valuation Increase</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Valuation Increase</div>
               <div style={{ fontSize: '22px', fontWeight: 700, color: '#D3AF5E' }}>+{formatCurrency(results.valuationIncrease)}</div>
             </div>
           </div>
@@ -331,16 +334,16 @@ export default function EBITDACalculator() {
           {/* Bottom Row */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px' }}>
             <div style={{ background: 'rgba(255,255,255,0.08)', padding: '16px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>3-Year Cumulative EBITDA</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>3-Year Cumulative EBITDA</div>
               <div style={{ fontSize: '22px', fontWeight: 700, color: '#4DD0E1' }}>{formatCurrency(results.threeYearImpact)}</div>
             </div>
             <div style={{ background: 'rgba(40,167,69,0.2)', border: '1px solid rgba(40,167,69,0.3)', padding: '16px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Monthly Investment Threshold*</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Monthly Investment Threshold*</div>
               <div style={{ fontSize: '22px', fontWeight: 700, color: '#28a745' }}>{formatCurrency(results.monthlyThreshold)}</div>
             </div>
           </div>
 
-          <p style={{ margin: '20px 0 0', fontSize: '11px', color: 'rgba(255,255,255,0.5)', textAlign: 'center', lineHeight: '1.5' }}>
+          <p style={{ margin: '20px 0 0', fontSize: '12px', color: 'rgba(255,255,255,0.5)', textAlign: 'center', lineHeight: '1.5' }}>
             *Max monthly spend for 3x ROI | Assumptions: 25% EBITDA flow-through, 50% call-to-patient conversion, phone-driven new patient revenue only.<br/>
             Actual results vary by practice capacity, payer mix, and cost structure. For precise analysis, use your actual call data.
           </p>

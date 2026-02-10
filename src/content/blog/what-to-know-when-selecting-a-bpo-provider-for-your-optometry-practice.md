@@ -13,7 +13,12 @@ tags:
 - growth
 featuredImage: /images/blog/selecting-bpo-provider.webp
 canonical: https://mybcat.com/blog/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice/
-relatedPosts: []
+cluster: bpo-outsourcing
+isPillar: true
+relatedPosts:
+- avoid-outsourcing-mistakes-in-optometry
+- conducting-a-cost-benefit-analysis-of-bpo-in-optometry
+- successfully-transitioning-to-a-bpo-model-in-optometry
 ---
 
 Business process outsourcing (BPO) started in the supply chain world of manufacturing and is now becoming an integral part of the optometry landscape. As optometry practices focus more on optimizing operations and delivering excellent patient care, the allure of BPO has never been stronger. According to Coherent Market Insights, the global healthcare BPO market is estimated to be valued at US$ 298.15 billion in 2023 and is expected to exhibit a CAGR of 8.8% during the forecast period (2023-2030). The rise of BPO in healthcare underscores the growing recognition of its value in cost-saving and streamlining services and processes. Selecting the right optometry BPO is the first step toward leveraging this growing trend for optometry practices.

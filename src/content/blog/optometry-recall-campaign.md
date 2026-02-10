@@ -16,14 +16,15 @@ tags:
 - vision practice growth
 featuredImage: /images/blog/optometry-recall-campaign.webp
 canonical: https://mybcat.com/blog/optometry-recall-campaign/
-cluster: optometry-recall
+cluster: patient-recall
 relatedPosts:
-- patient-recall-service
-- dormant-patient-reactivation
-- patient-recall-scripts
+  - patient-recall-campaign-framework
+  - patient-recall-service
+  - dormant-patient-reactivation
+  - patient-recall-scripts
 ---
 
-The January slump hits optometry practices hard. Post-holiday slowdowns leave schedules with gaps and revenue unpredictable. Yet top-performing practices use this exact period to run recall campaigns that generate 50x+ ROI and achieve 85-87% recall rates. One practice reported gaining $49,000 in revenue from 59 reactivated patients in just 90 days (a 140x return on their campaign investment). This guide provides the specific strategies optometry practices use to fill the January slump and maintain consistent patient flow year-round.
+The January slump hits optometry practices hard. Post-holiday slowdowns leave schedules with gaps and revenue unpredictable. Yet top-performing practices use this exact period to run [recall campaigns](/blog/patient-recall-campaign-framework/) that generate 50x+ ROI and achieve 85-87% recall rates. One practice reported gaining $49,000 in revenue from 59 reactivated patients in just 90 days (a 140x return on their campaign investment). This guide provides the specific strategies optometry practices use to fill the January slump and maintain consistent patient flow year-round.
 
 ## The Cost of Ignoring Optometry Recall
 

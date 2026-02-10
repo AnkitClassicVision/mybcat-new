@@ -2,7 +2,7 @@
 title: Elevate Patient Care with Eye Health Reception Services
 description: Turn every patient call into a positive first impression. See how dedicated eye health reception services boost satisfaction and streamline scheduling.
 publishDate: 2024-03-13
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/elevate-patient-care-with-eye-health-reception-services.webp
 canonical: https://mybcat.com/blog/elevate-patient-care-with-eye-health-reception-services/
+redirectTo: /blog/call-handling-patient-experience-eye-care/
 relatedPosts: []
 ---
 

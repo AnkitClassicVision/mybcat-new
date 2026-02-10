@@ -16,16 +16,12 @@ tags:
 - analytics
 featuredImage: /images/blog/patient-recall-segmentation.webp
 canonical: https://mybcat.com/blog/patient-recall-segmentation/
-cluster: recall-reactivation
+cluster: patient-recall
 relatedPosts:
-- patient-reactivation-roi
-- reactivation-campaign-kpis
 - patient-recall-campaign-framework
-- reactivationcallcenterformedicalpractice
-- reactivation-text-message-templates
 ---
 
-When facing a recall list of 500 overdue patients, the instinct is to start at the top and work down alphabetically. This is one of the most common, and costly, mistakes in patient recall. Not all patients are equal, and treating them as such wastes time on low-probability contacts while high-value opportunities slip away. Effective segmentation answers the fundamental question: who should we call first, and why?
+When facing a recall list of 500 overdue patients, the instinct is to start at the top and work down alphabetically. This is one of the most common, and costly, mistakes in patient recall. Not all patients are equal, and treating them as such wastes time on low-probability contacts while high-value opportunities slip away. Segmentation is a critical step within any [recall campaign framework](/blog/patient-recall-campaign-framework/), and it answers the fundamental question: who should we call first, and why?
 
 ## The Case for Segmentation
 

@@ -3,7 +3,7 @@ title: 'Optometry Care: Answering Service Advantages'
 description: Navigating the fast-paced world of optometry requires innovative solutions
   to ensure excellent patient care, especially when scheduling an optometrist...
 publishDate: 2024-02-19
-status: published
+status: draft
 author: Ankit Patel
 category: Virtual Staffing
 tags:
@@ -14,6 +14,7 @@ tags:
 - scheduling
 featuredImage: /images/blog/optometry-care-answering-service-advantages.webp
 canonical: https://mybcat.com/blog/optometry-care-answering-service-advantages/
+redirectTo: /blog/medical-answering-services-eye-care-guide/
 relatedPosts: []
 ---
 

@@ -16,14 +16,16 @@ tags:
 - efficiency
 featuredImage: /images/blog/outsourcing-myths-eye-care.webp
 canonical: https://mybcat.com/blog/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care/
-relatedPosts: []
+cluster: bpo-outsourcing
+relatedPosts:
+  - how-to-leverage-outsourcing-in-your-eye-care-practice
 ---
 
 To be an optometrist or ophthalmologist, you need to understand the human eye. But, to run an eye care clinic, you need to understand business management. As a practice owner, you're not just a healthcare provider but also a team leader, a customer service champion, a data security guardian, and an efficiency engineer. 
 
 Properly managing an eye care clinic means delivering the kind of top-tier service that leaves people not just seeing better but feeling better too. And that's hard to do well.
 
-When operations are not running smoothly, you can feel it. Accounts receivable might be piling up because billing is bogged down as a new hire learns medical codes. Tasks like updating your website's privacy policy sit on a to-do list for weeks as higher-priority work takes precedence. These kinds of moments lead us to start thinking about outsourcing. If you're like us, we had never done that before, and it was a bit scary at first. 
+When operations are not running smoothly, you can feel it. Accounts receivable might be piling up because billing is bogged down as a new hire learns medical codes. Tasks like updating your website's privacy policy sit on a to-do list for weeks as higher-priority work takes precedence. These kinds of moments lead us to start thinking about outsourcing. If you're like us, we had never done that before, and it was a bit scary at first. Understanding [how to leverage outsourcing in your eye care practice](/blog/how-to-leverage-outsourcing-in-your-eye-care-practice/) can help ease those concerns. 
 
 We want to share our experience to help those of you with concerns about outsourcing for an eye care clinic. First, we'll share some signs that outsourcing could be needed. Then, we'll talk about fears that could be holding you back. Let's be real. It's scary because outsourcing is a big decision. But, we have some insights on preventing those fears from becoming a reality. This information will help you contemplate whether a significant operational change is the right decision.
 

@@ -18,14 +18,13 @@ tags:
 - multi-location healthcare
 featuredImage: /images/blog/patient-recall-scripts.webp
 canonical: https://mybcat.com/blog/patient-recall-scripts/
-cluster: recall-reactivation
+cluster: patient-recall
+isPillar: true
 relatedPosts:
-- patient-recall-service
-- dormant-patient-reactivation
-- automated-vs-human-patient-recall
-- reactivationcallcenterformedicalpractice
 - reactivation-text-message-templates
-- reactivation-campaign-kpis
+- reactivation-without-discounts
+- patient-recall-postcard-vs-text-vs-phone
+- dormant-patient-reactivation
 ---
 
 The difference between a 15% and 30% recall booking rate often comes down to the words you use. Effective patient recall scripts increase response rates by 20-30% compared to generic "time for your appointment" messaging. This guide provides ready-to-use phone and SMS scripts for every recall scenario, with objection handling templates and adaptation guidance for multi-location healthcare groups.

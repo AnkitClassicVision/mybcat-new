@@ -268,13 +268,16 @@ const { currentPath = '/' } = Astro.props;
     background: rgba(10, 22, 40, 0.6);
     z-index: 999;
     opacity: 0;
+    visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
   }
 
   .mobile-menu-overlay.active {
     opacity: 1;
+    visibility: visible;
     pointer-events: auto;
+    transition: opacity 0.3s ease, visibility 0s;
   }
 
   /* Mobile Menu Panel - reduced blur for performance */
@@ -292,12 +295,18 @@ const { currentPath = '/' } = Astro.props;
     z-index: 1000;
     flex-direction: column;
     padding: 80px 20px 20px;
-    transition: right 0.3s ease;
+    gap: 8px;
+    visibility: hidden;
+    pointer-events: none;
+    transition: right 0.3s ease, visibility 0s linear 0.3s;
     overflow-y: auto;
   }
 
   .mobile-menu.active {
     right: 0;
+    visibility: visible;
+    pointer-events: auto;
+    transition: right 0.3s ease, visibility 0s;
   }
 
   .mobile-menu a {
@@ -538,6 +547,7 @@ const { currentPath = '/' } = Astro.props;
   .mobile-section-content {
     display: none;
     flex-direction: column;
+    gap: 8px;
     padding-left: 16px;
     margin-bottom: 8px;
   }
@@ -576,7 +586,11 @@ const { currentPath = '/' } = Astro.props;
     menuToggle?.classList.toggle('active');
     mobileMenu?.classList.toggle('active');
     menuOverlay?.classList.toggle('active');
-    document.body.style.overflow = mobileMenu?.classList.contains('active') ? 'hidden' : '';
+
+    const isOpen = Boolean(mobileMenu?.classList.contains('active'));
+    menuToggle?.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+
+    document.body.style.overflow = isOpen ? 'hidden' : '';
   }
 
   menuToggle?.addEventListener('click', toggleMenu);

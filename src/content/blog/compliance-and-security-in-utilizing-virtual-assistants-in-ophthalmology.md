@@ -14,14 +14,16 @@ tags:
 - outsourcing
 featuredImage: /images/blog/virtual-assistant-compliance-ophthalmology.webp
 canonical: https://mybcat.com/blog/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology/
-relatedPosts: []
+cluster: compliance
+relatedPosts:
+  - strategies-to-uphold-legal-and-regulatory-compliance-in-optometry
 ---
 
 Whether you're hiring a full-time employee (FTE) or virtual assistant (VA), certain core aspects of compliance and security remain the same. After all, regulations like the Health Insurance Portability and Accountability Act (HIPAA) apply to all healthcare personnel, irrespective of their geographic location or employment status. Similarly, data security principles, such as encryption and secure access controls, are universally applicable.
 
 However, there are additional complexities when dealing with VAs, particularly those overseas. For instance, cross-border data transfers could potentially expose patient records to different jurisdictions and varying degrees of data protection standards. Time zone differences might also affect how promptly VAs can respond to security incidents or compliance inquiries.
 
-Eye care practice owners must consider nuances such as their VAs' roles and impact on data management, ensuring continuity of health care, and more. Our practical insights below will help you get a sense of how your clinic can remain compliant and secure when using VAs. It's a good primer before a discussion with your legal and IT teams/partners.
+Eye care practice owners must consider nuances such as their VAs' roles and impact on data management, ensuring continuity of health care, and more. For a broader look at meeting regulatory requirements, see our guide on [strategies to uphold legal and regulatory compliance in optometry](/blog/strategies-to-uphold-legal-and-regulatory-compliance-in-optometry/). Our practical insights below will help you get a sense of how your clinic can remain compliant and secure when using VAs. It's a good primer before a discussion with your legal and IT teams/partners.
 
 ## **Understanding How the Role of Virtual Assistants Impacts Data**
 

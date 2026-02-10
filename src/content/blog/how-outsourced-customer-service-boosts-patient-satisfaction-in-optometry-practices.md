@@ -14,7 +14,9 @@ tags:
 - outsourcing
 featuredImage: /images/blog/outsourced-customer-service.webp
 canonical: https://mybcat.com/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices/
-relatedPosts: []
+cluster: bpo-outsourcing
+relatedPosts:
+  - how-to-leverage-outsourcing-in-your-eye-care-practice
 ---
 
 Imagine an office of focused staff working diligently and providing friendly patient care. The hectic pace of administrative tasks like managing patient recall, medical billing, and appointment scheduling—including [preventing costly missed calls](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) isn't part of this scene. It's not that these tasks have disappeared—they're simply happening elsewhere, out of sight and out of mind. The reality is that the repetitive admin work so familiar to clinic operations does not have to take place within the office walls.
@@ -23,7 +25,7 @@ In many clinics, it's all too common to see patient care staff members burdened 
 
 Outsourcing enters the picture, freeing your team to concentrate on patient care. Not only does your staff get to work more effectively, but your patients feel that. They feel the shift in focus, which we've seen many times, has an unmistakable positive impact on patient satisfaction.
 
-But we're clinic owners, and we've been trained to know when something sounds too good to be true. And, for good reason! Getting outsourcing wrong can be quite painful and costly. If you leverage specialized expertise, you have a much better chance of realizing the benefits that outsourcing brings.
+But we're clinic owners, and we've been trained to know when something sounds too good to be true. And, for good reason! Getting outsourcing wrong can be quite painful and costly. If you [leverage specialized expertise](/blog/how-to-leverage-outsourcing-in-your-eye-care-practice/), you have a much better chance of realizing the benefits that outsourcing brings.
 
 ## **Understanding the Landscape of Outsourcing in the Healthcare Industry**
 

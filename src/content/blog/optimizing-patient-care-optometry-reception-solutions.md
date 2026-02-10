@@ -2,7 +2,7 @@
 title: 'Optimizing Patient Care: Optometry Reception Solutions'
 description: Elevate patient care with dedicated optometry reception solutions that ensure every call is answered professionally and every appointment is captured on time.
 publishDate: 2023-12-22
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -12,6 +12,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/optimizing-patient-care-optometry-reception-solutions.webp
 canonical: https://mybcat.com/blog/optimizing-patient-care-optometry-reception-solutions/
+redirectTo: /blog/medical-answering-services-eye-care-guide/
 relatedPosts: []
 ---
 

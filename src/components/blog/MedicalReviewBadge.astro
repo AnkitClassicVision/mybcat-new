@@ -1,0 +1,65 @@
+---
+/**
+ * MedicalReviewBadge - E-E-A-T signal for clinical blog posts
+ * Shows "Reviewed by" badge with clinician name and credentials
+ */
+interface Props {
+  reviewerName: string;
+  credential: string;
+  reviewerUrl?: string;
+}
+
+const { reviewerName, credential, reviewerUrl } = Astro.props;
+---
+
+<div class="medical-review-badge">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+    <polyline points="9 12 11 14 15 10"/>
+  </svg>
+  <span class="badge-label">Reviewed by</span>
+  {reviewerUrl ? (
+    <a href={reviewerUrl} class="badge-name" rel="author">{reviewerName}, {credential}</a>
+  ) : (
+    <span class="badge-name">{reviewerName}, {credential}</span>
+  )}
+</div>
+
+<style>
+  .medical-review-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background: rgba(0, 96, 100, 0.06);
+    border: 1px solid rgba(0, 96, 100, 0.15);
+    border-radius: 999px;
+    font-size: 13px;
+    color: var(--oceanic-teal, #006064);
+    margin-top: 12px;
+  }
+
+  .medical-review-badge svg {
+    flex-shrink: 0;
+    color: var(--oceanic-teal, #006064);
+  }
+
+  .badge-label {
+    color: var(--text-muted, #718096);
+    font-weight: 500;
+  }
+
+  .badge-name {
+    font-weight: 600;
+    color: var(--oceanic-teal, #006064);
+  }
+
+  a.badge-name {
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  a.badge-name:hover {
+    color: var(--navy-900, #1A242C);
+  }
+</style>

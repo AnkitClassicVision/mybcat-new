@@ -2,7 +2,7 @@
 title: The Role of Call Support in Patient Satisfaction
 description: 'From first-call impressions to appointment reminders, strong call support drives patient satisfaction, trust, and retention at your eye care practice.'
 publishDate: 2023-08-18
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/the-role-of-call-support-in-patient-satisfaction.webp
 canonical: https://mybcat.com/blog/the-role-of-call-support-in-patient-satisfaction/
+redirectTo: /blog/call-handling-patient-experience-eye-care/
 relatedPosts: []
 ---
 

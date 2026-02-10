@@ -2,7 +2,7 @@
 title: Improving Optometry Practice with Call Service Support
 description: Boost patient satisfaction and capture every call with professional call service support for your optometry practice. Reduce hold times and fill appointments.
 publishDate: 2024-04-17
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/improving-optometry-practice-with-call-service-support.webp
 canonical: https://mybcat.com/blog/improving-optometry-practice-with-call-service-support/
+redirectTo: /blog/medical-answering-services-eye-care-guide/
 relatedPosts: []
 ---
 

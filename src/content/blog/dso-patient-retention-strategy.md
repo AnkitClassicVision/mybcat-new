@@ -538,10 +538,6 @@ For the technical implementation of centralized recall, see our [centralized pat
 
 ## Sources
 
-- [Dental Intelligence: DSO Performance Benchmarks](https://www.dentalintel.com/blog/dso-performance-benchmarks)
-- [Group Dentistry Now: Retention Strategies for DSOs](https://groupdentistrynow.com/dso-group-blog/patient-retention-strategies-dsos/)
-- [Dental Economics: The Business Case for Patient Retention](https://www.dentaleconomics.com/practice/article/patient-retention-business-case)
 - [DSO News: Technology Strategies for Multi-Location Dental](https://dsonews.com/technology-strategies-multi-location/)
 - [American Dental Association: Practice Management Resources](https://www.ada.org/resources/practice)
 - [Becker's Dental Review: DSO Growth and Operations](https://www.beckersdental.com/dso-dpms.html)
-

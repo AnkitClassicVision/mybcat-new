@@ -1,6 +1,6 @@
 ---
 title: 'Benchmark Report: Revenue Per Call by Healthcare Specialty (2025 Data)'
-seoTitle: Revenue Per Call Benchmarks by Healthcare Specialty 2025
+seoTitle: Healthcare Revenue Per Call Benchmarks 2025
 description: Original research on revenue per call benchmarks for dental, optometry,
   veterinary, and medical practices. Based on data from 150+ multi-location healthcare
   groups.

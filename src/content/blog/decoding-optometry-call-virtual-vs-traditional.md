@@ -3,7 +3,7 @@ title: 'Decoding Optometry Call: Virtual vs. Traditional'
 description: Compare virtual vs traditional receptionists for optometry. Learn which
   solution best fits your practice needs and budget.
 publishDate: 2024-02-15
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -14,6 +14,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/decoding-optometry-call-virtual-vs-traditional.webp
 canonical: https://mybcat.com/blog/decoding-optometry-call-virtual-vs-traditional/
+redirectTo: /blog/virtual-receptionist-vs-front-desk-optometry/
 relatedPosts: []
 ---
 

@@ -29,6 +29,8 @@ interface Props {
 
 const { solution } = Astro.props;
 
+const metaTitle = `${solution.name} for Healthcare Practices`;
+
 // Get relevant FAQs - prefer solution-specific FAQs if available
 const solutionFaqs = solution.extendedContent?.faqs || [];
 const generalFaqs = faqs.filter(f => f.category === 'general' || f.category === 'onboarding').slice(0, 4);
@@ -58,7 +60,7 @@ const relatedCaseStudies = getCaseStudiesBySolution(solution.slug);
 ---
 
 <LandingLayout
-  title={`${solution.name} | MyBCAT`}
+  title={`${metaTitle} | MyBCAT`}
   description={solution.metaDescription}
   serviceName={solution.name}
   serviceDescription={solution.description}

@@ -167,6 +167,30 @@ const currentYear = new Date().getFullYear();
     color: var(--copper-500);
   }
 
+  /* Touch-friendly footer tap targets (mobile/tablet + audit tools) */
+  @media (max-width: 1024px), (pointer: coarse) {
+    .footer-column a {
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+    }
+
+    /* Ensure 8px spacing between stacked footer links */
+    .footer-column a + a {
+      margin-top: 8px;
+    }
+
+    .footer-social a {
+      width: 44px;
+      height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+    }
+  }
+
   .footer-copyright {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.5);

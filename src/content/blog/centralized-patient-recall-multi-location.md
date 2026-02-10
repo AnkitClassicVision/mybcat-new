@@ -17,16 +17,16 @@ tags:
 - enterprise
 featuredImage: /images/blog/centralized-patient-recall-multi-location.webp
 canonical: https://mybcat.com/blog/centralized-patient-recall-multi-location/
-cluster: enterprise
+cluster: patient-recall
 relatedPosts:
-- dso-patient-retention-strategy
-- multi-location-healthcare-ebitda
-- front-desk-recall-workflow
-- pe-backed-healthcare-operations
-- optometry-network-operations-scale
+  - patient-recall-campaign-framework
+  - front-desk-recall-workflow
+  - dso-patient-retention-strategy
+  - multi-location-healthcare-ebitda
+  - pe-backed-healthcare-operations
 ---
 
-When patient recall operates independently at each location, performance varies widely. Top locations achieve 80%+ recall rates while struggling sites hover at 55%. Centralization addresses this variance through standardized technology, unified workflows, and network-wide accountability. This guide provides the implementation roadmap for centralizing patient recall across multiple healthcare locations from technology architecture to change management.
+When patient recall operates independently at each location, performance varies widely. Top locations achieve 80%+ recall rates while struggling sites hover at 55%. Centralization addresses this variance through standardized technology, unified workflows, and network-wide accountability. For the foundational campaign structure, see our [patient recall campaign framework](/blog/patient-recall-campaign-framework/). This guide provides the implementation roadmap for centralizing patient recall across multiple healthcare locations from technology architecture to change management.
 
 ## Why Centralize Patient Recall
 
@@ -584,11 +584,10 @@ For enterprise groups managing recall across 3+ locations, explore our [multi-lo
 
 ## Sources
 
-- [AIRA: Centralized Reminder-Recall Toolkit](https://repository.immregistries.org/files/resources/5d43264137042/accords_centralized_reminder-recall_toolkit.pdf)
+- [AIRA: Centralized Reminder-Recall Toolkit](https://web.archive.org/web/20240730065902/https://repository.immregistries.org/files/resources/5d43264137042/accords_centralized_reminder-recall_toolkit.pdf)
 - [Relatient: Patient Recalls and Automated Scheduling](https://www.relatient.com/patient-recalls-automated-scheduling/)
 - [Kermit PPI: Hospital Recall Management Process](https://blog.kermitppi.com/kermit-blog/how-to-improve-your-hospitals-recall-management-process)
 - [AJMC: Cost of Centralized vs Decentralized Recall](https://www.ajmc.com/view/cost-of-delivering-centralized-and-decentralized-reminderrecall-for-vaccinations-to-children-and-adolescents-in-an-aco)
 - [Medsphere: Automating Patient Recall Systems](https://www.medsphere.com/blog/automating-a-patient-recall-system/)
 - [PMC: Centralized Recall Implementation](https://pmc.ncbi.nlm.nih.gov/articles/PMC7477484/)
 - [Artera: Automated Patient Recall System](https://artera.io/blog/automated-patient-recall-system/)
-

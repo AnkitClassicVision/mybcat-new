@@ -453,5 +453,3 @@ For strategies to improve retention across locations, see our [DSO patient reten
 - [Focus Bankers: Medical Practice Valuation](https://focusbankers.com/what-is-the-value-of-my-medical-practice/)
 - [Raincatcher: Healthcare Company Valuation Multiples](https://raincatcher.com/healthcare-company-valuation-multiples/)
 - [Physician Side Gigs: EBITDA Multiples in Private Practice](https://www.physiciansidegigs.com/ebitda-multiples-in-private-practice-valuation)
-- [Helix Health Capital: EBITDA in Healthcare](https://www.helixhealthcapital.com/insights-blog/blog-post-title-four-xxrhc)
-

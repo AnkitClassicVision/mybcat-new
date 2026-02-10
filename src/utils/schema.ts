@@ -17,6 +17,12 @@ interface FAQItem {
   answer: string;
 }
 
+interface ReviewedByPerson {
+  name: string;
+  url?: string;
+  credential?: string;
+}
+
 interface ArticleMeta {
   headline: string;
   description: string;
@@ -29,6 +35,7 @@ interface ArticleMeta {
   wordCount?: number;
   section?: string;
   keywords?: string[];
+  reviewedBy?: ReviewedByPerson;
 }
 
 interface ServiceMeta {
@@ -348,6 +355,20 @@ export function generateArticleSchema(meta: ArticleMeta) {
     ...(meta.wordCount && { wordCount: meta.wordCount }),
     ...(meta.section && { articleSection: meta.section }),
     ...(meta.keywords && { keywords: meta.keywords.join(', ') }),
+    ...(meta.reviewedBy && {
+      reviewedBy: {
+        '@type': 'Person',
+        name: meta.reviewedBy.name,
+        ...(meta.reviewedBy.url && { url: meta.reviewedBy.url }),
+        ...(meta.reviewedBy.credential && {
+          hasCredential: {
+            '@type': 'EducationalOccupationalCredential',
+            credentialCategory: 'degree',
+            name: meta.reviewedBy.credential
+          }
+        })
+      }
+    }),
     isPartOf: {
       '@type': 'Blog',
       '@id': `${company.site.url}/blog/#blog`,

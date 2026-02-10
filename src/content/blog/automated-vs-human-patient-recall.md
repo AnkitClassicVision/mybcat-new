@@ -17,15 +17,12 @@ tags:
 - DSO operations
 featuredImage: /images/blog/automated-vs-human-patient-recall.webp
 canonical: https://mybcat.com/blog/automated-vs-human-patient-recall/
-cluster: recall-reactivation
+cluster: patient-recall
 relatedPosts:
-- patient-recall-service
-- dormant-patient-reactivation
-- patient-recall-scripts
 - patient-recall-campaign-framework
 ---
 
-Multi-location healthcare groups face a fundamental question when building recall programs: should patient outreach be automated, handled by live agents, or a combination of both? Research shows the answer depends on patient demographics, appointment type, and operational scale. Live phone calls achieve 32% completion rates compared to 17% for automated texts in preventive care contexts, yet automation costs 55-65% less per message. This guide presents the data and decision framework operations leaders need to choose the right approach.
+Multi-location healthcare groups face a fundamental question when building their [recall campaign framework](/blog/patient-recall-campaign-framework/): should patient outreach be automated, handled by live agents, or a combination of both? Research shows the answer depends on patient demographics, appointment type, and operational scale. Live phone calls achieve 32% completion rates compared to 17% for automated texts in preventive care contexts, yet automation costs 55-65% less per message. This guide presents the data and decision framework operations leaders need to choose the right approach.
 
 ## The Core Question: Efficiency vs. Effectiveness
 
@@ -246,5 +243,4 @@ Multi-location groups seeking centralized recall support can learn more about ou
 - [Kaiser Permanente Research: Live Calls vs Text for Cancer Screening](https://research.kpchr.org/News/Press-Releases/Live-Phone-Calls-Better-Than-Text-Messages-to-Remind-People-About-Colon-Cancer-Screening)
 - [Penn LDI: Automated Texting Reduces Readmissions](https://ldi.upenn.edu/our-work/research-updates/automated-texting-shows-promise-to-reduce-hospital-readmissions/)
 - [Medical Economics: Texting vs Phone Calls for Discharge Follow-ups](https://www.medicaleconomics.com/view/texting-found-more-effective-than-phone-calls-for-hospital-discharge-follow-ups)
-- [GWU: Automated Post-Discharge Program Results](https://hsrc.himmelfarb.gwu.edu/cgi/viewcontent.cgi?article=1122&context=son_dnp)
 - [DoctorConnect: Patient Recall Automation ROI](https://doctorconnect.net/patient-recall-messaging-automate-revolutionize/)

@@ -17,17 +17,12 @@ tags:
 - HIPAA compliance
 featuredImage: /images/blog/reactivation-text-message-templates.webp
 canonical: https://mybcat.com/blog/reactivation-text-message-templates/
-cluster: recall-reactivation
+cluster: patient-recall
 relatedPosts:
 - patient-recall-scripts
-- dormant-patient-reactivation
-- patient-recall-service
-- reactivationcallcenterformedicalpractice
-- reactivation-campaign-kpis
-- patient-recall-segmentation
 ---
 
-The difference between a text message that gets ignored and one that brings a patient back often comes down to the words you choose. SMS achieves a 98% open rate (compared to 20-30% for email) and 90% of texts are read within three minutes. Yet many healthcare reactivation messages sound robotic, impersonal, or worse, like spam. This guide provides ready-to-use reactivation text message templates that feel personal, respect HIPAA compliance, and convert dormant patients back to active status.
+The difference between a text message that gets ignored and one that brings a patient back often comes down to the words you choose. SMS achieves a 98% open rate (compared to 20-30% for email) and 90% of texts are read within three minutes. Yet many healthcare reactivation messages sound robotic, impersonal, or worse, like spam. These templates complement our broader [patient recall scripts guide](/blog/patient-recall-scripts/), focusing specifically on SMS. This guide provides ready-to-use reactivation text message templates that feel personal, respect HIPAA compliance, and convert dormant patients back to active status.
 
 ## Why SMS Works for Patient Reactivation
 

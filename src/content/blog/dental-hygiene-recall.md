@@ -19,14 +19,12 @@ tags:
   - patient retention
 featuredImage: /images/blog/dental-hygiene-recall.webp
 canonical: 'https://mybcat.com/blog/dental-hygiene-recall/'
-cluster: dental-recall
+cluster: patient-recall
 relatedPosts:
-  - patient-recall-service
-  - dormant-patient-reactivation
-  - reactivation-campaign-kpis
+  - patient-recall-campaign-framework
 ---
 
-Hygiene recall rates are the single metric that most frequently separates $500,000 dental practices from $1,000,000 practices. Yet only 17% of dentists report that most of their active patients receive hygiene treatment every six months. For DSOs pursuing growth through acquisition or organic expansion, hygiene recall represents the highest-ROI operational lever available. This guide explains why hygiene recall drives valuation, provides benchmarks, and outlines strategies for improvement.
+Hygiene recall rates are the single metric that most frequently separates $500,000 dental practices from $1,000,000 practices. Yet only 17% of dentists report that most of their active patients receive hygiene treatment every six months. For DSOs pursuing growth through acquisition or organic expansion, hygiene recall represents the highest-ROI operational lever available. Building on the principles in our [patient recall campaign framework](/blog/patient-recall-campaign-framework/), this guide explains why hygiene recall drives valuation, provides benchmarks, and outlines strategies for improvement.
 
 ## Why Hygiene Recall Matters for Valuation
 

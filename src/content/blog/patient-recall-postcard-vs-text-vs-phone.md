@@ -17,16 +17,13 @@ tags:
 - multi-channel
 featuredImage: /images/blog/patient-recall-postcard-vs-text-vs-phone.webp
 canonical: https://mybcat.com/blog/patient-recall-postcard-vs-text-vs-phone/
-cluster: recall-reactivation
+cluster: patient-recall
 relatedPosts:
+- patient-recall-campaign-framework
 - patient-recall-scripts
-- reactivation-text-message-templates
-- automated-vs-human-patient-recall
-- reactivationcallcenterformedicalpractice
-- reactivation-campaign-kpis
 ---
 
-The debate over which patient recall channel works best misses the point. Top-performing practices do not choose one channel. They deploy all three strategically based on patient demographics, dormancy duration, and lifetime value. SMS achieves 98% open rates. Phone calls convert 40-60% of connected patients. Postcards reach patients that digital channels miss entirely. This guide provides the data to decide when to use each channel and how to combine them for maximum recall effectiveness.
+The debate over which patient recall channel works best misses the point. Top-performing practices do not choose one channel. They deploy all three strategically as part of a structured [recall campaign framework](/blog/patient-recall-campaign-framework/), selecting channels based on patient demographics, dormancy duration, and lifetime value. SMS achieves 98% open rates. Phone calls convert 40-60% of connected patients. Postcards reach patients that digital channels miss entirely. This guide provides the data to decide when to use each channel and how to combine them for maximum recall effectiveness.
 
 ## Channel Performance Overview
 

@@ -14,6 +14,10 @@ const blog = defineCollection({
     featuredImage: z.string().optional(),
     ogImage: z.string().optional(),
     relatedPosts: z.array(z.string()).default([]),
+    // Content clustering & pillar page support
+    cluster: z.string().optional(),
+    isPillar: z.boolean().default(false),
+    redirectTo: z.string().optional(),
     // SEO overrides
     seoTitle: z.string().optional(),
     seoDescription: z.string().optional(),

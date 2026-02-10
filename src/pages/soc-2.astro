@@ -1,0 +1,589 @@
+---
+/**
+ * SOC 2 Compliance Page
+ * SOC 2 Type II compliance framework, trust services criteria, and enterprise security controls
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+import CTA from '@/components/sections/CTA.astro';
+---
+
+<PageLayout
+  title="SOC 2 Compliance | Enterprise Security Controls | MyBCAT"
+  description="MyBCAT's SOC 2 compliance framework: enterprise-grade security controls, continuous monitoring, and audit-ready documentation for multi-location healthcare groups."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'SOC 2 Compliance' }
+  ]}
+  heroEyebrow="SOC 2 Type II Compliance"
+  heroTitle="SOC 2 Compliant Healthcare Operations"
+  heroSubtitle="Enterprise security controls that meet the rigorous requirements of multi-location healthcare groups. Our SOC 2 framework ensures your patient operations data is protected at every level."
+>
+  <div class="security-page">
+    <!-- Trust Badges -->
+    <section class="trust-badges">
+      <div class="badge-grid">
+        <div class="trust-badge">
+          <div class="badge-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <polyline points="9 12 11 14 15 10"/>
+            </svg>
+          </div>
+          <h3>SOC 2 Type II</h3>
+          <p>Audited against AICPA Trust Services Criteria</p>
+        </div>
+
+        <div class="trust-badge">
+          <div class="badge-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <h3>Continuous Monitoring</h3>
+          <p>24/7 security monitoring and automated alerting</p>
+        </div>
+
+        <div class="trust-badge">
+          <div class="badge-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <h3>Encryption at Rest & Transit</h3>
+          <p>AES-256 encryption for all data handling</p>
+        </div>
+
+        <div class="trust-badge">
+          <div class="badge-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <path d="M9 15l2 2 4-4"/>
+            </svg>
+          </div>
+          <h3>Annual Audit Cycle</h3>
+          <p>Independent third-party audits on annual basis</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Security Practices -->
+    <section class="practices-section">
+      <div class="section-header">
+        <h2>SOC 2 Trust Services Criteria</h2>
+        <p>Our controls mapped to the AICPA Trust Services framework</p>
+      </div>
+
+      <div class="practices-grid">
+        <Card variant="feature" class="practice-card">
+          <h3>Security (Common Criteria)</h3>
+          <ul>
+            <li>Logical & physical access controls</li>
+            <li>Firewalls and intrusion detection</li>
+            <li>Vulnerability management program</li>
+            <li>Incident response procedures</li>
+            <li>Employee security awareness training</li>
+          </ul>
+        </Card>
+
+        <Card variant="feature" class="practice-card">
+          <h3>Availability</h3>
+          <ul>
+            <li>99.9% uptime SLA for call handling</li>
+            <li>Redundant infrastructure</li>
+            <li>Disaster recovery procedures</li>
+            <li>Business continuity planning</li>
+            <li>Real-time system health monitoring</li>
+          </ul>
+        </Card>
+
+        <Card variant="feature" class="practice-card">
+          <h3>Confidentiality</h3>
+          <ul>
+            <li>Data classification policies</li>
+            <li>Access restricted to authorized personnel</li>
+            <li>Confidential data encryption</li>
+            <li>Secure data disposal procedures</li>
+            <li>NDA requirements for all staff</li>
+          </ul>
+        </Card>
+
+        <Card variant="feature" class="practice-card">
+          <h3>Privacy</h3>
+          <ul>
+            <li>Patient data handling per HIPAA requirements</li>
+            <li>Purpose limitation on data collection</li>
+            <li>Consent management</li>
+            <li>Data retention and deletion policies</li>
+            <li>Privacy impact assessments</li>
+          </ul>
+        </Card>
+      </div>
+    </section>
+
+    <!-- SOC 2 Audit Process (Info Card) -->
+    <section class="baa-section">
+      <Card variant="pricing" class="baa-card">
+        <div class="baa-content">
+          <h2>Our SOC 2 Audit Process</h2>
+          <p>MyBCAT undergoes an annual SOC 2 Type II audit conducted by an independent, certified public accounting firm. The audit evaluates the design and operating effectiveness of our controls over a 12-month observation period, covering security, availability, and confidentiality. Enterprise clients and qualified prospects can request our full SOC 2 report under NDA.</p>
+          <ul class="baa-list">
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Annual independent audit by certified firm</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Report covers Security, Availability, Confidentiality</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Designed to meet AICPA Trust Services Criteria</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Report available to qualified enterprise prospects under NDA</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span>
+              <span>Remediation tracking for any findings</span>
+            </li>
+          </ul>
+          <p class="baa-note">SOC 2 reports are confidential documents shared only under executed non-disclosure agreements.</p>
+        </div>
+      </Card>
+    </section>
+
+    <!-- Enterprise Compliance Section -->
+    <section class="enterprise-compliance">
+      <div class="section-header">
+        <span class="eyebrow">Enterprise Security</span>
+        <h2>Enterprise-Grade Compliance Controls</h2>
+        <p>Additional operational controls for multi-location healthcare groups</p>
+      </div>
+
+      <div class="compliance-grid">
+        <!-- Change Management -->
+        <div class="compliance-card" id="change-management">
+          <div class="compliance-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="16 3 21 3 21 8"/>
+              <line x1="4" y1="20" x2="21" y2="3"/>
+              <polyline points="21 16 21 21 16 21"/>
+              <line x1="15" y1="15" x2="21" y2="21"/>
+              <line x1="4" y1="4" x2="9" y2="9"/>
+            </svg>
+          </div>
+          <h3>Change Management</h3>
+          <p class="compliance-intro">Structured processes for all system and configuration changes.</p>
+          <ul class="compliance-list">
+            <li><strong>Change Request Process:</strong> All changes documented, reviewed, and approved before implementation</li>
+            <li><strong>Impact Assessment:</strong> Security and operational impact evaluated for every change</li>
+            <li><strong>Testing Requirements:</strong> Changes tested in staging environment before production deployment</li>
+            <li><strong>Rollback Plans:</strong> Every change includes a documented rollback procedure</li>
+            <li><strong>Post-Change Review:</strong> Changes verified and monitored after implementation</li>
+          </ul>
+        </div>
+
+        <!-- Vendor Risk Management -->
+        <div class="compliance-card" id="vendor-risk">
+          <div class="compliance-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3>Vendor Risk Management</h3>
+          <p class="compliance-intro">Third-party vendors assessed and monitored for security compliance.</p>
+          <ul class="compliance-list">
+            <li><strong>Vendor Assessment:</strong> Security questionnaires and due diligence before onboarding</li>
+            <li><strong>Contractual Controls:</strong> Security and data protection requirements in all vendor agreements</li>
+            <li><strong>Ongoing Monitoring:</strong> Periodic review of vendor security posture and compliance</li>
+            <li><strong>Access Restrictions:</strong> Vendors granted minimum necessary access with audit logging</li>
+            <li><strong>Incident Coordination:</strong> Documented procedures for vendor-related security events</li>
+          </ul>
+        </div>
+
+        <!-- Data Backup & Recovery -->
+        <div class="compliance-card" id="backup-recovery">
+          <div class="compliance-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <ellipse cx="12" cy="5" rx="9" ry="3"/>
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+            </svg>
+          </div>
+          <h3>Data Backup & Recovery</h3>
+          <p class="compliance-intro">Resilient backup and recovery procedures to ensure data availability.</p>
+          <ul class="compliance-list">
+            <li><strong>Automated Backups:</strong> Regular encrypted backups of all critical systems and data</li>
+            <li><strong>Geographic Redundancy:</strong> Backups stored in separate geographic locations</li>
+            <li><strong>Recovery Testing:</strong> Backup restoration tested on a scheduled basis</li>
+            <li><strong>RTO & RPO Targets:</strong> Defined recovery time and recovery point objectives</li>
+            <li><strong>Disaster Recovery Plan:</strong> Documented and tested DR procedures for all critical systems</li>
+          </ul>
+        </div>
+
+        <!-- Employee Lifecycle -->
+        <div class="compliance-card" id="employee-lifecycle">
+          <div class="compliance-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="8.5" cy="7" r="4"/>
+              <line x1="20" y1="8" x2="20" y2="14"/>
+              <line x1="23" y1="11" x2="17" y2="11"/>
+            </svg>
+          </div>
+          <h3>Employee Lifecycle</h3>
+          <p class="compliance-intro">Security controls throughout the employee lifecycle from hire to separation.</p>
+          <ul class="compliance-list">
+            <li><strong>Background Checks:</strong> Pre-employment screening for all team members with data access</li>
+            <li><strong>Security Training:</strong> Mandatory security awareness training during onboarding and annually</li>
+            <li><strong>Confidentiality Agreements:</strong> NDAs and acceptable use policies signed before access granted</li>
+            <li><strong>Access Reviews:</strong> Periodic review of access rights to ensure appropriateness</li>
+            <li><strong>Offboarding Procedures:</strong> Immediate access revocation and asset recovery upon separation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIPAA Cross-Link -->
+    <section class="hipaa-link-section">
+      <div class="hipaa-link-card">
+        <p>SOC 2 works alongside our HIPAA compliance program to provide comprehensive security coverage for healthcare operations. Our SOC 2 controls complement and reinforce the safeguards required under HIPAA.</p>
+        <a href="/hipaa-compliance/" class="hipaa-link">Learn about our HIPAA compliance program &rarr;</a>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <CTA
+        title="Ready to Review Our Security Documentation?"
+        description="Enterprise prospects can request our SOC 2 report and security documentation package."
+        buttonText="Request Security Package"
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .security-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .trust-badges {
+    margin-bottom: 60px;
+  }
+
+  .badge-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .trust-badge {
+    text-align: center;
+    padding: 32px 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+  }
+
+  .badge-icon {
+    width: 64px;
+    height: 64px;
+    background: var(--glass-teal);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .trust-badge h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .trust-badge p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  .practices-section {
+    margin-bottom: 60px;
+  }
+
+  .practices-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  :global(.practice-card) {
+    padding: 32px;
+  }
+
+  :global(.practice-card) h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--glass-teal);
+  }
+
+  :global(.practice-card) ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  :global(.practice-card) li {
+    padding: 8px 0;
+    font-size: 15px;
+    color: var(--text-secondary);
+    padding-left: 24px;
+    position: relative;
+  }
+
+  :global(.practice-card) li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+  }
+
+  .baa-section {
+    margin-bottom: 60px;
+  }
+
+  :global(.baa-card) {
+    padding: 48px;
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+  }
+
+  .baa-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .baa-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .baa-content > p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .baa-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+  }
+
+  .baa-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 0;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .baa-list li:last-child {
+    border-bottom: none;
+  }
+
+  .baa-list .check {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+
+  .baa-note {
+    font-size: 14px;
+    color: var(--text-muted);
+    text-align: center;
+    font-style: italic;
+  }
+
+  /* Enterprise Compliance Section */
+  .enterprise-compliance {
+    margin-bottom: 60px;
+  }
+
+  .enterprise-compliance .eyebrow {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .compliance-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .compliance-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 28px;
+  }
+
+  .compliance-card.full-width {
+    grid-column: 1 / -1;
+  }
+
+  .compliance-icon {
+    width: 56px;
+    height: 56px;
+    background: var(--glass-teal);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .compliance-card h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .compliance-intro {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+
+  .compliance-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .compliance-list li {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    padding: 8px 0;
+    border-bottom: 1px solid var(--glass-border);
+    line-height: 1.5;
+  }
+
+  .compliance-list li:last-child {
+    border-bottom: none;
+  }
+
+  .compliance-list strong {
+    color: var(--navy-900);
+  }
+
+  /* HIPAA Cross-Link Section */
+  .hipaa-link-section {
+    margin-bottom: 60px;
+  }
+
+  .hipaa-link-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+  }
+
+  .hipaa-link-card p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hipaa-link {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--oceanic-teal);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .hipaa-link:hover {
+    color: var(--navy-900);
+  }
+
+  .cta-section {
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 900px) {
+    .compliance-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .badge-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .practices-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .badge-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

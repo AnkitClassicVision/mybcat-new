@@ -26,6 +26,8 @@ interface Props {
 
 const { competitor } = Astro.props;
 
+const metaTitle = `MyBCAT vs ${competitor.name} Comparison`;
+
 // Generate schemas
 const pageUrl = `${company.site.url}/compare/${competitor.slug}/`;
 const serviceSchema = generateServiceSchema({
@@ -46,7 +48,7 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
 ---
 
 <LandingLayout
-  title={`${competitor.headline} | MyBCAT`}
+  title={`${metaTitle} | MyBCAT`}
   description={competitor.metaDescription}
   serviceName={`MyBCAT vs ${competitor.name}`}
   serviceDescription={competitor.description}
@@ -102,10 +104,10 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
         <p>See exactly how My Business Care Team and {competitor.name} stack up across key areas.</p>
       </div>
 
-      {competitor.features.map(category => (
+      {competitor.features.map((category, categoryIndex) => (
         <div class="feature-category">
-          <h3>{category.category}</h3>
-          <table class="feature-table" role="table">
+          <h3 id={`feature-category-${categoryIndex}`}>{category.category}</h3>
+          <table class="feature-table" role="table" aria-labelledby={`feature-category-${categoryIndex}`}>
             <thead>
               <tr class="table-header">
                 <th scope="col" class="feature-name">Feature</th>

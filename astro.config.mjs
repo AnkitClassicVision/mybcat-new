@@ -8,6 +8,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { execSync } from 'child_process';
+import rehypeA11y from './scripts/rehype-a11y.js';
 
 // Get non-published blog post slugs at build time
 function getNonPublishedSlugs() {
@@ -298,7 +299,9 @@ export default defineConfig({
           // Apply to all external links including hubspot subdomain
           return true;
         }
-      }]
+      }],
+      // Build-time accessibility fixes for Markdown content (tables + task lists).
+      rehypeA11y,
     ]
   }
 });

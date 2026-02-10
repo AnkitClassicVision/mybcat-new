@@ -2,7 +2,7 @@
 title: A Guide to Medical Receptionist Service for Optometry
 description: Discover how medical receptionist services streamline scheduling, reduce missed calls, and elevate patient satisfaction for optometry practices.
 publishDate: 2024-03-18
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/a-guide-to-medical-receptionist-service-for-optometry.webp
 canonical: https://mybcat.com/blog/a-guide-to-medical-receptionist-service-for-optometry/
+redirectTo: /blog/virtual-receptionist-vs-front-desk-optometry/
 relatedPosts: []
 ---
 

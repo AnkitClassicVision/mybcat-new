@@ -2,7 +2,7 @@
 title: 'Optometry Call: Choosing Patient-Centric Support'
 description: Choose the right call support model for your optometry clinic. Compare patient-centric features like scalability, cost efficiency, and professional image.
 publishDate: 2024-02-12
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/optometry-call-choosing-patient-centric-support.webp
 canonical: https://mybcat.com/blog/optometry-call-choosing-patient-centric-support/
+redirectTo: /blog/call-management-best-practices-optometry/
 relatedPosts: []
 ---
 

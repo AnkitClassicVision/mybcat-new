@@ -155,7 +155,7 @@ export const competitors: Competitor[] = [
     slug: 'vs-hireteem',
     name: 'HireTeem',
     tagline: 'Managed Platform vs Hourly VA Model',
-    headline: 'HireTeem Alternative: B2B Call Center Software | MyBCAT',
+    headline: 'HireTeem Alternative: B2B Call Center Software',
     description: 'Compare My Business Care Team\'s managed patient acquisition platform with HireTeem\'s hourly virtual assistant staffing. Learn which approach best fits your practice\'s needs and growth goals.',
     metaDescription: 'Looking for a HireTeem alternative? MyBCAT offers enterprise call center solutions with advanced analytics and seamless CRM integration. Compare features today.',
     pricing: '$11/hour',

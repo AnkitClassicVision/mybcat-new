@@ -1,0 +1,713 @@
+---
+/**
+ * Author Page: Dr. Mital Patel
+ * Dedicated author page for E-A-T signals
+ * URL: /author/dr-mital-patel/
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Button from '@/components/Button.astro';
+import { company } from '@data/company';
+import { getCollection } from 'astro:content';
+import { serializeSchema } from '@utils/schema';
+
+// Get all published blog posts by Dr. Mital (exclude future-dated posts)
+const now = new Date();
+const allPosts = await getCollection('blog', ({ data }) =>
+  data.status === 'published' && data.author === 'Dr. Mital Patel' && data.publishDate <= now
+);
+const recentPosts = allPosts
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
+  .slice(0, 6);
+
+// Person schema for author page - critical for E-A-T
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': `${company.site.url}/author/dr-mital-patel/#person`,
+  name: 'Dr. Mital Patel',
+  givenName: 'Mital',
+  familyName: 'Patel',
+  jobTitle: 'Doctor of Optometry & Clinical Advisor',
+  description: 'Doctor of Optometry and co-founder of Classic Vision Care. Clinical advisor to MyBCAT, bringing firsthand patient care experience to operational best practices for eye care practices.',
+  image: `${company.site.url}/images/dr-mital-patel-headshot.webp`,
+  url: `${company.site.url}/author/dr-mital-patel/`,
+  sameAs: [],
+  worksFor: {
+    '@type': 'Organization',
+    '@id': `${company.site.url}/#organization`,
+    name: company.name
+  },
+  alumniOf: [
+    {
+      '@type': 'CollegeOrUniversity',
+      name: 'Southern College of Optometry'
+    }
+  ],
+  knowsAbout: [
+    'Optometry',
+    'Comprehensive Eye Exams',
+    'Contact Lens Fitting',
+    'Ocular Disease Management',
+    'Patient Recall Best Practices',
+    'Patient Communication',
+    'Clinical Workflow Optimization',
+    'Eye Care Patient Experience'
+  ],
+  hasCredential: [
+    {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'degree',
+      name: 'Doctor of Optometry (OD)'
+    }
+  ]
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: company.site.url
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Dr. Mital Patel',
+      item: `${company.site.url}/author/dr-mital-patel/`
+    }
+  ]
+};
+
+const combinedSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { ...personSchema, '@context': undefined },
+    { ...breadcrumbSchema, '@context': undefined }
+  ]
+};
+---
+
+<PageLayout
+  title="Dr. Mital Patel | Clinical Advisor, OD | MyBCAT"
+  description="Dr. Mital Patel, OD, co-founder of Classic Vision Care. Clinical advisor to MyBCAT, bringing real-world optometry expertise to healthcare operations."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Authors' },
+    { name: 'Dr. Mital Patel' }
+  ]}
+>
+  <script type="application/ld+json" set:html={serializeSchema(combinedSchema)} slot="head" />
+
+  <div class="author-page">
+    <!-- Hero Section -->
+    <section class="author-hero">
+      <div class="container">
+        <div class="author-hero-grid">
+          <div class="author-hero-image">
+            <img
+              src="/images/dr-mital-patel-headshot.webp"
+              alt="Dr. Mital Patel - Clinical Advisor at MyBCAT"
+              width="400"
+              height="500"
+              loading="eager"
+            />
+          </div>
+          <div class="author-hero-content">
+            <div class="eyebrow">Clinical Advisor & Author</div>
+            <h1>Dr. Mital Patel, OD</h1>
+            <p class="author-title">Co-Founder, Classic Vision Care</p>
+            <p class="author-bio">
+	              As a practicing optometrist and co-founder of Classic Vision Care, Dr. Mital Patel sees patients every day. That frontline clinical experience shapes how MyBCAT approaches patient recall, communication, and the full patient journey—ensuring every operational recommendation is grounded in real clinical outcomes.
+            </p>
+
+            <div class="author-credentials">
+              <span class="credential">Doctor of Optometry (OD)</span>
+              <span class="credential">Classic Vision Care Co-Founder</span>
+              <span class="credential">Clinical Practice Owner</span>
+            </div>
+
+            <div class="author-social">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="expertise-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Areas of Expertise</div>
+          <h2>What I Write About</h2>
+        </div>
+
+        <div class="expertise-grid">
+          <div class="expertise-item">
+            <div class="expertise-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <h3>Patient Recall & Reactivation</h3>
+            <p>Clinical perspectives on why patients lapse and evidence-based strategies to bring them back.</p>
+          </div>
+          <div class="expertise-item">
+            <div class="expertise-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3>Patient Communication</h3>
+            <p>Best practices for patient messaging that improves compliance and builds trust.</p>
+          </div>
+          <div class="expertise-item">
+            <div class="expertise-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <h3>Eye Care Clinical Operations</h3>
+            <p>Workflow optimization from the clinician's perspective to maximize chair time.</p>
+          </div>
+          <div class="expertise-item">
+            <div class="expertise-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+            </div>
+            <h3>Patient Experience</h3>
+            <p>Ensuring every patient touchpoint—from first call to follow-up—meets clinical standards.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Background Section -->
+    <section class="background-section">
+      <div class="container">
+        <div class="background-content">
+          <div class="section-header">
+            <div class="eyebrow">Background</div>
+            <h2>From Chair-Side to Operations</h2>
+          </div>
+
+          <div class="background-text">
+            <p>
+	              Dr. Mital Patel co-founded <strong>Classic Vision Care</strong> alongside Ankit Patel, combining clinical excellence with operational discipline from day one. As the practice's primary optometrist, she sees patients daily—performing comprehensive eye exams, managing ocular disease, and fitting specialty contact lenses.
+            </p>
+            <p>
+              That daily chair-side experience gives her a perspective most operations consultants simply do not have. She understands why patients cancel, what motivates them to return, and where communication breaks down between the front desk and the exam room. Her clinical insights directly inform the <strong>patient recall strategies</strong> and <strong>communication templates</strong> that MyBCAT deploys for practices nationwide.
+            </p>
+            <p>
+              Classic Vision Care serves as the <strong>real-world testing ground</strong> for every process MyBCAT builds. Before a recall sequence, phone script, or patient workflow is recommended to a client, it has already been validated in Dr. Mital's practice—with real patients and measurable outcomes.
+            </p>
+            <p>
+              As Clinical Advisor to MyBCAT, Dr. Mital ensures that operational efficiency never comes at the cost of patient care. Every recommendation is filtered through the lens of a practicing clinician who knows what works in the exam lane.
+            </p>
+          </div>
+
+          <div class="background-cta">
+            <Button href="/about/">Learn More About MyBCAT</Button>
+            <Button href="/contact/" variant="secondary">Let's Talk</Button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="articles-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Recent Writing</div>
+          <h2>Articles by Dr. Mital</h2>
+          <p class="section-description">Clinical insights on patient recall, communication, and the eye care patient experience.</p>
+        </div>
+
+        <div class="articles-grid">
+          {recentPosts.map((post) => {
+            return (
+              <a href={`/blog/${post.slug}/`} class="article-card">
+                {post.data.featuredImage && (
+                  <div class="article-image">
+                    <img src={post.data.featuredImage} alt={post.data.title} loading="lazy" />
+                  </div>
+                )}
+                <div class="article-content">
+                  <span class="article-category">{post.data.category}</span>
+                  <h3>{post.data.title}</h3>
+                  <p>{post.data.description}</p>
+                  <time datetime={post.data.publishDate.toISOString()}>
+                    {post.data.publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                  </time>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+
+        <div class="articles-cta">
+          <Button href="/blog/" variant="secondary">View All Articles</Button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">More from Dr. Mital</div>
+          <h2>Books & Podcast</h2>
+        </div>
+
+        <div class="resources-grid">
+          <a href="/resources/podcast/" class="resource-card">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+              </svg>
+            </div>
+            <div class="resource-details">
+              <h3>Optometrists Building Empires</h3>
+              <p>Weekly podcast on scaling your practice</p>
+            </div>
+          </a>
+
+          <a href="/resources/book/" class="resource-card">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <div class="resource-details">
+              <h3>The Eye Care Entrepreneur</h3>
+              <p>The complete guide to practice management</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .author-page {
+    padding-bottom: 60px;
+  }
+
+  .container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
+  }
+
+  .section-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 48px;
+  }
+
+  .section-header h2 {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+  }
+
+  .section-description {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+  }
+
+  /* Hero Section */
+  .author-hero {
+    padding: 60px 0 80px;
+    background: linear-gradient(135deg, var(--cream-200) 0%, rgba(255, 253, 245, 0.8) 100%);
+  }
+
+  .author-hero-grid {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .author-hero-image img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .author-hero h1 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+
+  .author-title {
+    font-size: 1.25rem;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .author-bio {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+
+  .author-credentials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  .credential {
+    display: inline-block;
+    background: var(--glass-teal);
+    color: var(--oceanic-teal);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .author-social {
+    display: flex;
+    gap: 12px;
+  }
+
+  .social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: var(--glass-navy);
+    color: var(--navy-800);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+
+  .social-link:hover {
+    background: var(--oceanic-teal);
+    color: white;
+  }
+
+  /* Expertise Section */
+  .expertise-section {
+    padding: 80px 0;
+  }
+
+  .expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .expertise-item {
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 28px;
+    text-align: center;
+    transition: all 0.2s;
+  }
+
+  .expertise-item:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .expertise-icon {
+    width: 56px;
+    height: 56px;
+    background: var(--glass-teal);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    color: var(--oceanic-teal);
+  }
+
+  .expertise-item h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .expertise-item p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* Background Section */
+  .background-section {
+    padding: 80px 0;
+    background: var(--spatial-glass);
+  }
+
+  .background-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .background-text {
+    margin-bottom: 32px;
+  }
+
+  .background-text p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+
+  .background-text strong {
+    color: var(--navy-900);
+    font-weight: 600;
+  }
+
+  .background-cta {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  /* Articles Section */
+  .articles-section {
+    padding: 80px 0;
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  .article-card {
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .article-image {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+  }
+
+  .article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  .article-card:hover .article-image img {
+    transform: scale(1.05);
+  }
+
+  .article-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-category {
+    display: inline-block;
+    background: var(--glass-copper);
+    color: var(--copper-700);
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+    width: fit-content;
+  }
+
+  .article-content h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+
+  .article-content p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 12px;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .article-content time {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .articles-cta {
+    text-align: center;
+  }
+
+  /* Resources Section */
+  .resources-section {
+    padding: 80px 0;
+    background: var(--spatial-glass);
+  }
+
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .resource-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 28px;
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .resource-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .resource-icon {
+    width: 64px;
+    height: 64px;
+    background: var(--glass-teal);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--oceanic-teal);
+    flex-shrink: 0;
+  }
+
+  .resource-details h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 4px;
+  }
+
+  .resource-details p {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .expertise-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .articles-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .author-hero-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+      text-align: center;
+    }
+
+    .author-hero-image {
+      order: -1;
+    }
+
+    .author-hero-image img {
+      max-width: 250px;
+      margin: 0 auto;
+    }
+
+    .author-credentials {
+      justify-content: center;
+    }
+
+    .author-social {
+      justify-content: center;
+    }
+
+    .expertise-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .articles-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .resources-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .background-cta {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>

@@ -6,13 +6,10 @@
 import { getCollection } from 'astro:content';
 import Base from '@/layouts/Base.astro';
 import { company } from '@data/company';
+import { isPostVisible } from '@utils/blog';
 
 export async function getStaticPaths() {
-  const now = new Date();
-  const posts = await getCollection('blog', ({ data }) => {
-    if (data.status !== 'published') return false;
-    return data.publishDate <= now;
-  });
+  const posts = await getCollection('blog', ({ data }) => isPostVisible(data));
 
   // Collect all unique tags from all posts
   const tagSet = new Set<string>();
@@ -34,12 +31,8 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.props;
 
-// Get all published posts with this tag (exclude future-dated posts)
-const now = new Date();
-const allPosts = await getCollection('blog', ({ data }) => {
-  if (data.status !== 'published') return false;
-  return data.publishDate <= now;
-});
+// Get all visible posts with this tag
+const allPosts = await getCollection('blog', ({ data }) => isPostVisible(data));
 
 // Filter posts that have this tag (case-insensitive match)
 const tagPosts = allPosts.filter(post => {

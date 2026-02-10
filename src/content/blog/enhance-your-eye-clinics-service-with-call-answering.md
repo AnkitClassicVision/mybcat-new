@@ -2,7 +2,7 @@
 title: Enhance Your Eye Clinic’s Service with Call Answering
 description: Never miss a patient call again. Professional answering services help optometry clinics reduce no-shows, book after-hours appointments, and grow revenue.
 publishDate: 2023-12-15
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/enhance-your-eye-clinics-service-with-call-answering.webp
 canonical: https://mybcat.com/blog/enhance-your-eye-clinics-service-with-call-answering/
+redirectTo: /blog/medical-answering-services-eye-care-guide/
 relatedPosts: []
 ---
 

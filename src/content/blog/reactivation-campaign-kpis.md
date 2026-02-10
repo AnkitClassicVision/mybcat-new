@@ -17,17 +17,12 @@ tags:
 - multi-location operations
 featuredImage: /images/blog/reactivation-campaign-kpis.webp
 canonical: https://mybcat.com/blog/reactivation-campaign-kpis/
-cluster: recall-reactivation
+cluster: patient-recall
 relatedPosts:
-- patient-reactivation-roi
 - dormant-patient-reactivation
-- patient-recall-service
-- reactivationcallcenterformedicalpractice
-- reactivation-text-message-templates
-- patient-recall-segmentation
 ---
 
-Reactivation campaigns without KPI tracking are guesswork. Multi-location healthcare groups running campaigns across 10, 20, or 50 sites need standardized metrics to identify what works, where performance lags, and how to improve. This guide defines the eight KPIs that matter most for patient reactivation, provides benchmarks for each, and includes a weekly tracking framework for operations leaders.
+Reactivation campaigns without KPI tracking are guesswork. Multi-location healthcare groups running campaigns across 10, 20, or 50 sites need standardized metrics to identify what works, where performance lags, and how to improve. If you are building a campaign from scratch, start with the [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/) for the full strategic framework. This guide defines the eight KPIs that matter most for patient reactivation, provides benchmarks for each, and includes a weekly tracking framework for operations leaders.
 
 ## Why KPIs Matter for Reactivation
 

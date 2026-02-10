@@ -38,6 +38,9 @@ const {
 
 const hasBreadcrumbs = breadcrumbs.length > 0;
 const hasService = serviceName && serviceDescription;
+const trailingPath = Astro.url.pathname.endsWith('/') || Astro.url.pathname.includes('.')
+  ? Astro.url.pathname
+  : `${Astro.url.pathname}/`;
 
 // Build combined schema
 const schemas: object[] = [];
@@ -45,9 +48,7 @@ if (hasBreadcrumbs) {
   schemas.push(generateBreadcrumbSchema(breadcrumbs));
 }
 if (hasService) {
-  const currentUrl = Astro.url.pathname.endsWith('/')
-    ? `https://mybcat.com${Astro.url.pathname}`
-    : `https://mybcat.com${Astro.url.pathname}/`;
+  const currentUrl = `https://mybcat.com${trailingPath}`;
   schemas.push(generateServiceSchema({
     name: serviceName,
     description: serviceDescription,

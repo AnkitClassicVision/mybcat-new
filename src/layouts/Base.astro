@@ -96,11 +96,81 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
   {author && ogType === 'article' && (
     <meta property="article:author" content={author}>
   )}
+  {author && (
+    <meta name="author" content={author}>
+  )}
 
   <!-- Self-hosted fonts - preload critical weights only (400 for body, 700 for headings) -->
   <!-- Other weights (600, 800) load on-demand via @font-face in global.css -->
   <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- LCP hint: logo is commonly the first painted image on key pages -->
+  <link rel="preload" href="/images/logo-optimized.webp" as="image" type="image/webp">
+
+  <!-- Some audit tools rely on CSS.escape; polyfill defensively for older runtimes -->
+  <script is:inline>
+    (function () {
+      try {
+        if (typeof window === 'undefined') return;
+        if (typeof window.CSS === 'undefined') window.CSS = {};
+        if (typeof window.CSS.escape === 'function') return;
+        // Minimal CSS.escape polyfill (MDN-inspired) for safe selector escaping.
+        window.CSS.escape = function (value) {
+          const string = String(value);
+          const length = string.length;
+          let index = -1;
+          let output = '';
+          let codeUnit;
+          const firstCodeUnit = string.charCodeAt(0);
+
+          while (++index < length) {
+            codeUnit = string.charCodeAt(index);
+            // Note: there is no need to special-case astral symbols, surrogate pairs, or lone surrogates.
+            if (codeUnit === 0x0000) {
+              output += '\uFFFD';
+              continue;
+            }
+
+            if (
+              (codeUnit >= 0x0001 && codeUnit <= 0x001f) ||
+              codeUnit === 0x007f ||
+              (index === 0 && codeUnit >= 0x0030 && codeUnit <= 0x0039) ||
+              (index === 1 && codeUnit >= 0x0030 && codeUnit <= 0x0039 && firstCodeUnit === 0x002d)
+            ) {
+              output += '\\\\' + codeUnit.toString(16) + ' ';
+              continue;
+            }
+
+            if (
+              index === 0 &&
+              length === 1 &&
+              codeUnit === 0x002d
+            ) {
+              output += '\\\\' + string.charAt(index);
+              continue;
+            }
+
+            if (
+              codeUnit >= 0x0080 ||
+              codeUnit === 0x002d ||
+              codeUnit === 0x005f ||
+              (codeUnit >= 0x0030 && codeUnit <= 0x0039) ||
+              (codeUnit >= 0x0041 && codeUnit <= 0x005a) ||
+              (codeUnit >= 0x0061 && codeUnit <= 0x007a)
+            ) {
+              output += string.charAt(index);
+              continue;
+            }
+
+            output += '\\\\' + string.charAt(index);
+          }
+
+          return output;
+        };
+      } catch (_e) { /* empty */ }
+    })();
+  </script>
 
   <!-- DNS prefetch for third-party resources -->
   <link rel="dns-prefetch" href="https://js.hsforms.net">

@@ -13,7 +13,9 @@ tags:
 - outsourcing
 featuredImage: /images/blog/costs-benefits-outsourcing.webp
 canonical: https://mybcat.com/blog/weighing-the-costs-and-benefits-of-outsourcing-customer-service-in-ophthalmology-and-optometry/
-relatedPosts: []
+cluster: bpo-outsourcing
+relatedPosts:
+  - conducting-a-cost-benefit-analysis-of-bpo-in-optometry
 ---
 
 We increased our revenue per patient by 33% because we took the phones out of the office. Understanding [how missed calls impact revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) was a key insight in this journey. We took the admin tasks out of the office too. And we started doing recalls. But we didn't set out to be experts in outsourcing customer service in ophthalmology and optometry. We began by focusing on things like reducing staff turnover. And we wanted to spend less time supervising and managing staff without hurting our patient experience. To make those areas more efficient, we focused on process improvements. Once we had refined things into a tight, well-documented process, it was apparent that we could outsource the repetitive admin tasks.
@@ -44,7 +46,7 @@ When we first started, we weren't planning to go all in on outsourcing our busin
 
 - **IT Services and Support:** Almost every business today needs some level of IT support, be it for software management, hardware maintenance, cybersecurity, or general tech support.
 
-Then, we listed the costs and benefits of outsourcing our optometry clinic.
+Then, we listed the costs and benefits of outsourcing our optometry clinic. For a deeper look at this analysis, see our guide on [conducting a cost-benefit analysis of BPO in optometry](/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry/).
 
 ### **In-House Staffing for Front Office**
 

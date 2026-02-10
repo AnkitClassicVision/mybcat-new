@@ -14,10 +14,12 @@ tags:
 - outsourcing
 featuredImage: /images/blog/ensuring-compliance-security-outsourced-team.webp
 canonical: https://mybcat.com/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team-2/
-relatedPosts: []
+cluster: compliance
+relatedPosts:
+  - strategies-to-uphold-legal-and-regulatory-compliance-in-optometry
 ---
 
-Many ODs are outsourcing tasks like scheduling appointments, billing, and other administrative tasks in order to focus healthcare professionals on patient care. No doubt there are significant challenges to overcome. From hiring competent individuals to maintaining consistent quality of customer service, we've identified six major factors to address. This article captures our key learnings in helping hundreds of clinics with Business Process Outsourcing (BPO). Whether you're already using virtual assistants or considering incorporating them into your eye care clinic, these tips and best practices can help your optometry practice overcome the hurdles and achieve more effective operations.
+Many ODs are outsourcing tasks like scheduling appointments, billing, and other administrative tasks in order to focus healthcare professionals on patient care. No doubt there are significant challenges to overcome. From hiring competent individuals to maintaining consistent quality of customer service, we've identified six major factors to address. This article captures our key learnings in helping hundreds of clinics with Business Process Outsourcing (BPO). For a comprehensive overview of regulatory requirements, see our guide on [strategies to uphold legal and regulatory compliance in optometry](/blog/strategies-to-uphold-legal-and-regulatory-compliance-in-optometry/). Whether you're already using virtual assistants or considering incorporating them into your eye care clinic, these tips and best practices can help your optometry practice overcome the hurdles and achieve more effective operations.
 
 ## **1. Overcoming Hiring Challenges**
 

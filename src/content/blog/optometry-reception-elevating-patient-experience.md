@@ -2,7 +2,7 @@
 title: 'Optometry Reception: Elevating Patient Experience'
 description: Virtual receptionists trained in optometry deliver 24/7 patient support, seamless scheduling, and empathetic care that sets the tone for your entire practice.
 publishDate: 2023-11-16
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/optometry-reception-elevating-patient-experience.webp
 canonical: https://mybcat.com/blog/optometry-reception-elevating-patient-experience/
+redirectTo: /blog/call-handling-patient-experience-eye-care/
 relatedPosts: []
 ---
 

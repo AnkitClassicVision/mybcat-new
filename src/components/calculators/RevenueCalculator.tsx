@@ -58,6 +58,10 @@ export default function RevenueCalculator() {
           outline: none;
           touch-action: manipulation;
         }
+        .revenue-calc-slider:focus-visible {
+          outline: 3px solid rgba(77, 208, 225, 0.95);
+          outline-offset: 2px;
+        }
         .revenue-calc-slider::-webkit-slider-thumb {
           -webkit-appearance: none;
           width: 44px;
@@ -94,7 +98,6 @@ export default function RevenueCalculator() {
               id="revenue-locations"
               value={locations}
               onChange={(e) => setLocations(Number(e.target.value))}
-              aria-label="Number of Locations"
               style={{
                 width: '100%',
                 padding: '14px 40px 14px 16px',
@@ -127,7 +130,6 @@ export default function RevenueCalculator() {
               id="revenue-specialty"
               value={specialty}
               onChange={(e) => setSpecialty(e.target.value)}
-              aria-label="Your Specialty"
               style={{
                 width: '100%',
                 padding: '14px 40px 14px 16px',
@@ -225,27 +227,27 @@ export default function RevenueCalculator() {
           </h3>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px' }}>
             <div style={{ background: 'rgba(255,255,255,0.08)', padding: '20px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Daily Missed</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Daily Missed</div>
               <div style={{ fontSize: '24px', fontWeight: 700, color: '#4DD0E1' }}>{results.dailyMissed.toLocaleString()}</div>
             </div>
             <div style={{ background: 'rgba(255,255,255,0.08)', padding: '20px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Monthly Opps Lost</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Monthly Opps Lost</div>
               <div style={{ fontSize: '24px', fontWeight: 700, color: '#4DD0E1' }}>{results.monthlyOpps.toLocaleString()}</div>
             </div>
             <div style={{ background: 'rgba(211,175,94,0.2)', border: '1px solid rgba(211,175,94,0.3)', padding: '20px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Annual Revenue</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Annual Revenue</div>
               <div style={{ fontSize: '24px', fontWeight: 700, color: '#D3AF5E' }}>{formatNumber(results.annualRevenue)}</div>
             </div>
             <div style={{ background: 'rgba(255,255,255,0.08)', padding: '20px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>5-Year Loss</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>5-Year Loss</div>
               <div style={{ fontSize: '24px', fontWeight: 700, color: '#4DD0E1' }}>{formatNumber(results.fiveYearLoss)}</div>
             </div>
             <div style={{ background: 'rgba(255,255,255,0.08)', padding: '20px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>EBITDA Impact</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>EBITDA Impact</div>
               <div style={{ fontSize: '24px', fontWeight: 700, color: '#4DD0E1' }}>{formatNumber(results.ebitdaImpact)}</div>
             </div>
             <div style={{ background: 'rgba(211,175,94,0.2)', border: '1px solid rgba(211,175,94,0.3)', padding: '20px 12px', borderRadius: '10px', textAlign: 'center' }}>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Valuation (8x)</div>
+              <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>Valuation (8x)</div>
               <div style={{ fontSize: '24px', fontWeight: 700, color: '#D3AF5E' }}>{formatNumber(results.valuation)}</div>
             </div>
           </div>

@@ -14,16 +14,14 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: recall-reactivation
 featuredImage: /images/blog/reactivationcallcenterformedicalpractice.webp
 canonical: https://mybcat.com/blog/reactivationcallcenterformedicalpractice/
+cluster: patient-recall
 relatedPosts:
-- reactivation-text-message-templates
-- reactivation-campaign-kpis
-- patient-recall-segmentation
+- patient-recall-campaign-framework
 ---
 
-Multi-location medical groups lose 10% of their patient base annually to attrition. For a 15-location DSO with 6,000 patients per site, that translates to 9,000 patients walking out the door each year. A dedicated reactivation call center can recover 20-30% of those dormant patients, generating over $1 million in recaptured revenue. This guide breaks down how operations leaders at healthcare groups with 3+ locations can build, measure, and scale reactivation programs that deliver measurable EBITDA impact.
+Multi-location medical groups lose 10% of their patient base annually to attrition. For a 15-location DSO with 6,000 patients per site, that translates to 9,000 patients walking out the door each year. A dedicated reactivation call center can recover 20-30% of those dormant patients, generating over $1 million in recaptured revenue. Building this capability starts with a solid [patient recall campaign framework](/blog/patient-recall-campaign-framework/). This guide breaks down how operations leaders at healthcare groups with 3+ locations can build, measure, and scale reactivation programs that deliver measurable EBITDA impact.
 
 ## Why Reactivation Matters More at Scale
 

@@ -16,14 +16,15 @@ tags:
 - operations
 featuredImage: /images/blog/front-desk-recall-workflow.webp
 canonical: https://mybcat.com/blog/front-desk-recall-workflow/
-cluster: operations
+cluster: patient-recall
 relatedPosts:
-- patient-recall-scripts
-- appointment-reminder-best-practices
-- no-show-recovery-program
+  - patient-recall-campaign-framework
+  - patient-recall-scripts
+  - appointment-reminder-best-practices
+  - no-show-recovery-program
 ---
 
-The front desk is where recall programs succeed or fail. A practice can have the best software, the most compelling messages, and the most motivated leadership, but if the front desk team does not execute consistently, recall rates plateau. This guide provides a practical weekly workflow with daily checklists, time blocks, and scripts that front desk staff can follow to achieve 70%+ recall rates without heroic effort.
+The front desk is where recall programs succeed or fail. A practice can have the best software, the most compelling messages, and the most motivated leadership, but if the front desk team does not execute consistently, recall rates plateau. This workflow operationalizes the broader [patient recall campaign framework](/blog/patient-recall-campaign-framework/) into daily and weekly routines. This guide provides a practical weekly workflow with daily checklists, time blocks, and scripts that front desk staff can follow to achieve 70%+ recall rates without heroic effort.
 
 ## Why Workflow Matters More Than Tools
 

@@ -15,14 +15,13 @@ tags:
   - practice growth
 featuredImage: /images/blog/reactivation-without-discounts.webp
 canonical: https://mybcat.com/blog/reactivation-without-discounts/
-cluster: recall-reactivation
+cluster: patient-recall
 relatedPosts:
   - patient-recall-scripts
   - dormant-patient-reactivation
-  - patient-reactivation-roi
 ---
 
-The instinct when patients stop coming is to offer a discount. "20% off your next cleaning" feels like an easy win. But discounting trains patients to wait for deals, erodes your margins, and devalues the care you provide. The good news: the most effective reactivation strategies do not rely on discounts at all. This guide provides the scripts, offers, and approaches that bring patients back while protecting your practice's value.
+The instinct when patients stop coming is to offer a discount. "20% off your next cleaning" feels like an easy win. But discounting trains patients to wait for deals, erodes your margins, and devalues the care you provide. The good news: the most effective [dormant patient reactivation](/blog/dormant-patient-reactivation/) strategies do not rely on discounts at all. This guide provides the scripts, offers, and approaches -- complementing our [patient recall scripts library](/blog/patient-recall-scripts/) -- that bring patients back while protecting your practice's value.
 
 ## The Problem with Discounting
 

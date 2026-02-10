@@ -2,7 +2,7 @@
 title: 'Optometrist Call Management: A Key to Patient Service'
 description: Effective call management lets optometrists focus on patient care while ensuring every inquiry and appointment is handled with speed and professionalism.
 publishDate: 2023-12-20
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - efficiency
 featuredImage: /images/blog/optometrist-call-management-a-key-to-patient-service.webp
 canonical: https://mybcat.com/blog/optometrist-call-management-a-key-to-patient-service/
+redirectTo: /blog/call-management-best-practices-optometry/
 relatedPosts: []
 ---
 

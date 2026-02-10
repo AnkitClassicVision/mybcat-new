@@ -3,7 +3,7 @@ title: 'Optometry Calls: Expert 24/7 Virtual Reception'
 description: In the fast-paced world of optometry, patient service should never lag.
   Discover how optometry virtual receptionists provide 24/7 support for your practice.
 publishDate: 2023-11-14
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/optometry-calls-expert-24-7-virtual-reception.webp
 canonical: https://mybcat.com/blog/optometry-calls-expert-24-7-virtual-reception/
+redirectTo: /blog/virtual-receptionist-vs-front-desk-optometry/
 relatedPosts: []
 ---
 

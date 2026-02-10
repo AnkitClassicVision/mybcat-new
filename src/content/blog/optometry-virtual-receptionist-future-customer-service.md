@@ -3,7 +3,7 @@ title: 'Optometry Virtual Receptionist: Future Customer Service'
 description: Virtual receptionists are transforming optometry practices. Learn how
   they improve patient care and reduce administrative burden.
 publishDate: 2024-03-15
-status: published
+status: draft
 author: Ankit Patel
 category: Patient Experience
 tags:
@@ -14,6 +14,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/optometry-virtual-receptionist-future-customer-service.webp
 canonical: https://mybcat.com/blog/optometry-virtual-receptionist-future-customer-service/
+redirectTo: /blog/virtual-receptionist-vs-front-desk-optometry/
 relatedPosts: []
 ---
 

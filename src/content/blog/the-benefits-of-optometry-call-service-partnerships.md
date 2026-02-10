@@ -2,7 +2,7 @@
 title: The Benefits of Optometry-Call Service Partnerships
 description: '80% of callers won''t leave a voicemail. See how optometry call service partnerships capture more patients, extend office hours, and boost revenue.'
 publishDate: 2024-04-19
-status: published
+status: draft
 author: Ankit Patel
 category: Technology
 tags:
@@ -13,6 +13,7 @@ tags:
 - outsourcing
 featuredImage: /images/blog/the-benefits-of-optometry-call-service-partnerships.webp
 canonical: https://mybcat.com/blog/the-benefits-of-optometry-call-service-partnerships/
+redirectTo: /blog/medical-answering-services-eye-care-guide/
 relatedPosts: []
 ---
 

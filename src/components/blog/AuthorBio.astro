@@ -24,6 +24,12 @@ const defaultBios: Record<string, { role: string; bio: string; image?: string; l
     linkedin: 'https://www.linkedin.com/in/ankitpatelcvc/',
     authorPage: '/author/ankit-patel/'
   },
+  'Dr. Mital Patel': {
+    role: 'Clinical Advisor, OD',
+    bio: 'Dr. Mital Patel is the co-founder and optometrist at Classic Vision Care in Atlanta, GA. With extensive clinical experience in comprehensive eye exams, contact lens fittings, and ocular disease management, she provides the clinical lens that shapes MyBCAT\'s patient recall and communication best practices. Her firsthand work with patients grounds every operational recommendation in real clinical outcomes.',
+    image: '/images/dr-mital-patel-headshot.webp',
+    authorPage: '/author/dr-mital-patel/'
+  },
   'MyBCAT Team': {
     role: 'Healthcare Operations Experts',
     bio: 'The MyBCAT team brings together expertise in healthcare operations, patient communication, and practice management to help practices thrive.'
@@ -139,6 +145,8 @@ const initials = name.split(' ').map(n => n[0]).join('');
   }
 
   .author-name-link {
+    display: inline-block;
+    padding: 10px 0;
     text-decoration: none;
   }
 
@@ -177,8 +185,8 @@ const initials = name.split(' ').map(n => n[0]).join('');
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background: var(--glass-navy, rgba(10, 22, 40, 0.05));
     color: var(--navy-800, #1a365d);

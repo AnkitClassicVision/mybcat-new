@@ -14,7 +14,9 @@ tags:
 - efficiency
 featuredImage: /images/blog/compliance-security-data-protection.webp
 canonical: https://mybcat.com/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team/
-relatedPosts: []
+cluster: compliance
+relatedPosts:
+  - strategies-to-uphold-legal-and-regulatory-compliance-in-optometry
 ---
 
 If you're like us, you didn't get a degree in ophthalmology or optometry because you were passionate about data security and compliance. You chose this path because you're passionate about improving people's lives, about bringing clarity of sight to your patients. Yet here you are, reading the article we wrote about data security and compliance for an outsourced customer service team. Something likely neither of us would have chosen to do when we first aspired to run our own eye care clinic. 
@@ -23,7 +25,7 @@ But a security breach can happen. And letters of non-compliance show up in our m
 
 You may have already outsourced your customer service team, and now you want to ensure you are compliant and secure. Or you're considering outsourcing to lighten your administrative burden. Yet, you are concerned about security and compliance, making the decision unclear.
 
-Through this article, let's clarify the key aspects of security and compliance in outsourcing. We'll look at the security standards that a Business Process Outsourcing, aka a BPO company, would provide so you can either apply them to your existing outsourcing or know what to look for when you do.
+Through this article, let's clarify the key aspects of security and compliance in outsourcing. For a broader view, see our guide on [strategies to uphold legal and regulatory compliance in optometry](/blog/strategies-to-uphold-legal-and-regulatory-compliance-in-optometry/). We'll look at the security standards that a Business Process Outsourcing, aka a BPO company, would provide so you can either apply them to your existing outsourcing or know what to look for when you do.
 
 **The Challenges of Keeping Up with Security and Compliance**
 
