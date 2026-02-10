@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "prebuild": "node scripts/check-missing-webp.js",
+    "prebuild": "node scripts/check-missing-webp.js && node scripts/validators/validate-images.js",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",

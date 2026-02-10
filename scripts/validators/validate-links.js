@@ -14,7 +14,9 @@ import fs from 'fs';
 import path from 'path';
 import { glob } from 'glob';
 
-const DIST_DIR = './dist';
+// Astro builds to `dist/` by default, but when using the Vercel adapter it
+// writes build output to `.vercel/output/static/`.
+const DIST_DIR = fs.existsSync('./.vercel/output/static') ? './.vercel/output/static' : './dist';
 const SITE_BASE = 'https://mybcat.com';
 
 const colors = {

@@ -34,6 +34,11 @@ const VALIDATORS = [
     requiresBuild: false
   },
   {
+    name: 'Image References',
+    script: 'validate-images.js',
+    requiresBuild: false
+  },
+  {
     name: 'Meta Tags',
     script: 'validate-meta.js',
     requiresBuild: false

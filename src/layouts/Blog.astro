@@ -13,7 +13,7 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, publishDate, author, category, tags, featuredImage, relatedPosts, status, seoTitle, seoDescription } = post.data;
+const { title, description, publishDate, author, category, tags, featuredImage, relatedPosts, seoTitle, seoDescription } = post.data;
 
 // Generate category slug for linking
 const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
