@@ -1,25 +1,28 @@
 ---
-title: "Multi-Location Healthcare EBITDA: Retention Protects Margins"
-seoTitle: "Multi-Location Healthcare EBITDA: Retention Protects Margins"
-description: "10% retention improvement can add 1-2 turns to EBITDA multiple. How patient retention impacts multi-location healthcare value."
-seoDescription: "Multi-location healthcare EBITDA and patient retention. How retention improvements drive 10-20% EBITDA lift and add 1-2 turns to valuation multiples"
+title: 'Multi-Location Healthcare EBITDA: Retention Protects Margins'
+seoTitle: 'Multi-Location Healthcare EBITDA: Retention Protects Margins'
+description: 10% retention improvement can add 1-2 turns to EBITDA multiple. How patient
+  retention impacts multi-location healthcare value.
+seoDescription: Multi-location healthcare EBITDA and patient retention. How retention
+  improvements drive 10-20% EBITDA lift and add 1-2 turns to valuation multiples
 publishDate: '2026-02-09'
 status: published
 author: Ankit Patel
 category: Enterprise
 tags:
-  - ebitda
-  - multi-location
-  - patient retention
-  - valuation
-  - enterprise
+- ebitda
+- multi-location
+- patient retention
+- valuation
+- enterprise
 featuredImage: /images/blog/multi-location-healthcare-ebitda.webp
 canonical: https://mybcat.com/blog/multi-location-healthcare-ebitda/
 cluster: enterprise
 relatedPosts:
-  - pe-backed-healthcare-operations
-  - dso-patient-retention-strategy
-  - centralized-patient-recall-multi-location
+- pe-backed-healthcare-operations
+- dso-patient-retention-strategy
+- centralized-patient-recall-multi-location
+- optometry-network-operations-scale
 ---
 
 For multi-location healthcare groups, EBITDA is more than an accounting metric. It is the foundation of enterprise value. Every dollar of EBITDA multiplies into $8, $10, or $15 of value depending on your scale and operational quality. Patient retention directly impacts that EBITDA, often more powerfully than revenue growth initiatives that cost money to execute. This guide examines the specific mechanisms by which retention protects and grows EBITDA in multi-location healthcare operations.
@@ -435,6 +438,12 @@ For strategies to improve retention across locations, see our [DSO patient reten
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)
+- [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
+- [DSO Patient Retention Strategy: Scaling to 10+ Locations](/blog/dso-patient-retention-strategy/)
 
 ## Sources
 

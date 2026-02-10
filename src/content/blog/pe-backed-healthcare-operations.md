@@ -1,25 +1,28 @@
 ---
-title: "PE-Backed Healthcare Operations: KPIs That Drive Valuation"
-seoTitle: "PE-Backed Healthcare KPIs: Metrics That Drive Valuation"
-description: "KPIs that PE firms track in healthcare portfolios. Metrics that impact EBITDA multiples and exit valuations."
-seoDescription: "PE-backed healthcare operations KPIs that drive valuation. Financial, operational, and clinical metrics impacting EBITDA multiples from 10x to 15x"
+title: 'PE-Backed Healthcare Operations: KPIs That Drive Valuation'
+seoTitle: 'PE-Backed Healthcare KPIs: Metrics That Drive Valuation'
+description: KPIs that PE firms track in healthcare portfolios. Metrics that impact
+  EBITDA multiples and exit valuations.
+seoDescription: PE-backed healthcare operations KPIs that drive valuation. Financial,
+  operational, and clinical metrics impacting EBITDA multiples from 10x to 15x
 publishDate: '2026-02-09'
 status: published
 author: Ankit Patel
 category: Enterprise
 tags:
-  - private equity
-  - healthcare operations
-  - KPIs
-  - valuation
-  - EBITDA
+- private equity
+- healthcare operations
+- KPIs
+- valuation
+- EBITDA
 featuredImage: /images/blog/pe-backed-healthcare-operations.webp
 canonical: https://mybcat.com/blog/pe-backed-healthcare-operations/
 cluster: enterprise
 relatedPosts:
-  - multi-location-healthcare-ebitda
-  - dso-patient-retention-strategy
-  - centralized-patient-recall-multi-location
+- multi-location-healthcare-ebitda
+- dso-patient-retention-strategy
+- centralized-patient-recall-multi-location
+- optometry-network-operations-scale
 ---
 
 Private equity firms have invested over $200 billion in healthcare over the past decade, and the KPIs they track tell a clear story about what drives valuation. Whether you are operating a PE-backed healthcare platform, preparing for a PE transaction, or simply want to run your multi-location practice with PE-level discipline, understanding these metrics is essential. This guide details the specific KPIs that PE firms monitor, how they impact valuation multiples, and how to optimize them at every stage of the investment lifecycle.
@@ -435,6 +438,12 @@ For detailed strategies on improving patient retention metrics, see our [DSO pat
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
+- [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
+- [DSO Patient Retention Strategy: Scaling to 10+ Locations](/blog/dso-patient-retention-strategy/)
 
 ## Sources
 

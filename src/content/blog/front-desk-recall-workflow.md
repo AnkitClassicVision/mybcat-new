@@ -1,24 +1,26 @@
 ---
-title: "Front Desk Recall Workflow: A Simple Weekly Routine That Works"
-seoTitle: "Front Desk Recall Workflow: Weekly Checklist for Healthcare"
-description: "Front desk recall workflow with daily and weekly checklists. Reduces no-shows 20-50% with scripts and tracking templates."
-seoDescription: "Front desk recall workflow with daily and weekly checklists. Practical routines that cut no-shows by 20-50% in dental, optometry, and medical practices."
+title: 'Front Desk Recall Workflow: A Simple Weekly Routine That Works'
+seoTitle: 'Front Desk Recall Workflow: Weekly Checklist for Healthcare'
+description: Front desk recall workflow with daily and weekly checklists. Reduces
+  no-shows 20-50% with scripts and tracking templates.
+seoDescription: Front desk recall workflow with daily and weekly checklists. Practical
+  routines that cut no-shows by 20-50% in dental, optometry, and medical practices.
 publishDate: '2026-02-09'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - front desk
-  - workflow
-  - patient recall
-  - operations
+- front desk
+- workflow
+- patient recall
+- operations
 featuredImage: /images/blog/front-desk-recall-workflow.webp
 canonical: https://mybcat.com/blog/front-desk-recall-workflow/
 cluster: operations
 relatedPosts:
-  - patient-recall-scripts
-  - appointment-reminder-best-practices
-  - no-show-recovery-program
+- patient-recall-scripts
+- appointment-reminder-best-practices
+- no-show-recovery-program
 ---
 
 The front desk is where recall programs succeed or fail. A practice can have the best software, the most compelling messages, and the most motivated leadership, but if the front desk team does not execute consistently, recall rates plateau. This guide provides a practical weekly workflow with daily checklists, time blocks, and scripts that front desk staff can follow to achieve 70%+ recall rates without heroic effort.

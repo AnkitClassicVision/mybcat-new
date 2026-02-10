@@ -1,25 +1,29 @@
 ---
-title: "DSO Patient Retention Strategy: Scaling to 10+ Locations"
-seoTitle: "DSO Patient Retention Strategy: Scaling Recall for 10+"
-description: "DSOs with 10+ locations build retention systems that achieve 80%+ recall rates. Centralized tech and standardized workflows."
-seoDescription: "DSO patient retention strategy for 10+ locations. Benchmarks, centralized tech stacks, standardized workflows, and accountability frameworks achieving 80%+"
+title: 'DSO Patient Retention Strategy: Scaling to 10+ Locations'
+seoTitle: 'DSO Patient Retention Strategy: Scaling Recall for 10+'
+description: DSOs with 10+ locations build retention systems that achieve 80%+ recall
+  rates. Centralized tech and standardized workflows.
+seoDescription: DSO patient retention strategy for 10+ locations. Benchmarks, centralized
+  tech stacks, standardized workflows, and accountability frameworks achieving 80%+
 publishDate: '2026-02-09'
 status: published
 author: Ankit Patel
 category: Enterprise
 tags:
-  - DSO
-  - patient retention
-  - multi-location
-  - enterprise
-  - dental
+- DSO
+- patient retention
+- multi-location
+- enterprise
+- dental
 featuredImage: /images/blog/dso-patient-retention-strategy.webp
 canonical: https://mybcat.com/blog/dso-patient-retention-strategy/
 cluster: enterprise
 relatedPosts:
-  - centralized-patient-recall-multi-location
-  - multi-location-healthcare-ebitda
-  - dormant-patient-reactivation
+- centralized-patient-recall-multi-location
+- multi-location-healthcare-ebitda
+- dormant-patient-reactivation
+- pe-backed-healthcare-operations
+- optometry-network-operations-scale
 ---
 
 Dental Service Organizations face a unique challenge: maintaining the personalized care that keeps patients coming back while operating at scale across dozens or hundreds of locations. The DSOs that achieve sustainable growth understand that patient retention is not a local problem to be solved independently at each practice. It is an enterprise capability requiring centralized systems, standardized processes, and location-level accountability. This guide provides the framework for building retention systems that scale.
@@ -525,6 +529,12 @@ For the technical implementation of centralized recall, see our [centralized pat
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)
+- [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
+- [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
 
 ## Sources
 

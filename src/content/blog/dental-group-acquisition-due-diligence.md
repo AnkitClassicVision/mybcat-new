@@ -1,25 +1,29 @@
 ---
-title: "Dental Acquisition Due Diligence: Patient Retention Red Flags"
-seoTitle: "Dental Acquisition Due Diligence: Patient Retention Red"
-description: "Patient retention red flags experienced acquirers look for during dental practice due diligence. Identify risks before closing."
-seoDescription: "Dental group acquisition due diligence focused on patient retention. Red flags, data analysis, and risk mitigation strategies for DSOs and dental acquirers."
+title: 'Dental Acquisition Due Diligence: Patient Retention Red Flags'
+seoTitle: 'Dental Acquisition Due Diligence: Patient Retention Red'
+description: Patient retention red flags experienced acquirers look for during dental
+  practice due diligence. Identify risks before closing.
+seoDescription: Dental group acquisition due diligence focused on patient retention.
+  Red flags, data analysis, and risk mitigation strategies for DSOs and dental acquirers.
 publishDate: '2026-02-09'
 status: published
 author: Ankit Patel
 category: Enterprise
 tags:
-  - acquisition
-  - due diligence
-  - dental
-  - patient retention
-  - m-and-a
+- acquisition
+- due diligence
+- dental
+- patient retention
+- m-and-a
 featuredImage: /images/blog/dental-group-acquisition-due-diligence.webp
 canonical: https://mybcat.com/blog/dental-group-acquisition-due-diligence/
 cluster: enterprise
 relatedPosts:
-  - healthcare-operations-ma-integration
-  - dso-patient-retention-strategy
-  - multi-location-healthcare-ebitda
+- healthcare-operations-ma-integration
+- dso-patient-retention-strategy
+- multi-location-healthcare-ebitda
+- pe-backed-healthcare-operations
+- optometry-network-operations-scale
 ---
 
 The purchase price of a dental practice is largely a bet on patient retention. When you acquire a practice for 70-80% of collections, you are betting that those patients will continue coming after the seller leaves. Yet many acquirers, even experienced DSOs, underweight patient retention analysis during due diligence, only to watch 20-30% of patients disappear within 18 months of closing. This guide identifies the specific patient retention red flags to look for during dental acquisition due diligence.
@@ -444,6 +448,12 @@ For strategies to improve retention post-acquisition, see our [healthcare operat
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)
+- [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
+- [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
 
 ## Sources
 

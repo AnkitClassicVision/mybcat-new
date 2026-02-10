@@ -1,28 +1,26 @@
 ---
 title: 'Optometry Recall Campaign: Beat the January Slump'
 seoTitle: 'Optometry Recall Campaign: Beat the January Slump'
-description: >-
-  Top optometry practices achieve 85-87% recall rates and 140x ROI. Strategies
+description: Top optometry practices achieve 85-87% recall rates and 140x ROI. Strategies
   to fill schedules during the January slump.
-seoDescription: >-
-  Optometry recall campaigns can achieve 85% recall rates and 50x+ ROI. Learn
-  timing, messaging, and multi-channel strategies to fill the January slump
+seoDescription: Optometry recall campaigns can achieve 85% recall rates and 50x+ ROI.
+  Learn timing, messaging, and multi-channel strategies to fill the January slump
 publishDate: '2026-02-10T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Optometry
 tags:
-  - optometry recall
-  - patient retention
-  - January slump
-  - vision practice growth
+- optometry recall
+- patient retention
+- January slump
+- vision practice growth
 featuredImage: /images/blog/optometry-recall-campaign.webp
-canonical: 'https://mybcat.com/blog/optometry-recall-campaign/'
+canonical: https://mybcat.com/blog/optometry-recall-campaign/
 cluster: optometry-recall
 relatedPosts:
-  - patient-recall-service
-  - dormant-patient-reactivation
-  - patient-recall-scripts
+- patient-recall-service
+- dormant-patient-reactivation
+- patient-recall-scripts
 ---
 
 The January slump hits optometry practices hard. Post-holiday slowdowns leave schedules with gaps and revenue unpredictable. Yet top-performing practices use this exact period to run recall campaigns that generate 50x+ ROI and achieve 85-87% recall rates. One practice reported gaining $49,000 in revenue from 59 reactivated patients in just 90 days (a 140x return on their campaign investment). This guide provides the specific strategies optometry practices use to fill the January slump and maintain consistent patient flow year-round.
@@ -277,6 +275,10 @@ For scripts to use during recall outreach, see our [patient recall scripts guide
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Optometry Answering Services](/industries/optometry/)
 
 ## Sources
 

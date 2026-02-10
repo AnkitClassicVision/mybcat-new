@@ -1,25 +1,29 @@
 ---
-title: "Centralized Patient Recall for Multi-Location Healthcare"
-seoTitle: "Centralized Patient Recall Multi-Location: Implementation"
-description: "Implementation guide for centralizing patient recall. Tech, workflows, and governance for 80%+ recall rates."
-seoDescription: "Centralized patient recall implementation for multi-location healthcare groups. Technology architecture, workflows, staffing, and governance achieving 80%+"
+title: Centralized Patient Recall for Multi-Location Healthcare
+seoTitle: 'Centralized Patient Recall Multi-Location: Implementation'
+description: Implementation guide for centralizing patient recall. Tech, workflows,
+  and governance for 80%+ recall rates.
+seoDescription: Centralized patient recall implementation for multi-location healthcare
+  groups. Technology architecture, workflows, staffing, and governance achieving 80%+
 publishDate: '2026-02-09'
 status: published
 author: Ankit Patel
 category: Enterprise
 tags:
-  - centralized recall
-  - multi-location
-  - implementation
-  - operations
-  - enterprise
+- centralized recall
+- multi-location
+- implementation
+- operations
+- enterprise
 featuredImage: /images/blog/centralized-patient-recall-multi-location.webp
 canonical: https://mybcat.com/blog/centralized-patient-recall-multi-location/
 cluster: enterprise
 relatedPosts:
-  - dso-patient-retention-strategy
-  - multi-location-healthcare-ebitda
-  - front-desk-recall-workflow
+- dso-patient-retention-strategy
+- multi-location-healthcare-ebitda
+- front-desk-recall-workflow
+- pe-backed-healthcare-operations
+- optometry-network-operations-scale
 ---
 
 When patient recall operates independently at each location, performance varies widely. Top locations achieve 80%+ recall rates while struggling sites hover at 55%. Centralization addresses this variance through standardized technology, unified workflows, and network-wide accountability. This guide provides the implementation roadmap for centralizing patient recall across multiple healthcare locations from technology architecture to change management.
@@ -571,6 +575,12 @@ For the front desk workflow that complements centralized recall, see our [front 
 
 
 For enterprise groups managing recall across 3+ locations, explore our [multi-location recall solution](/enterprise/multi-location-recall/).
+
+## Related Reading
+
+- [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)
+- [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
+- [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
 
 ## Sources
 
