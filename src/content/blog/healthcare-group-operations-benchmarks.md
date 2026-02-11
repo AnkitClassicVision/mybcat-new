@@ -1,11 +1,14 @@
 ---
-title: "Healthcare Operations Benchmarks: What Top DSOs Track"
-seoTitle: "Healthcare Group Operations Benchmarks: Top DSO Metrics"
-description: "Benchmarks that distinguish top DSOs from average. Financial, operational, and patient metrics for 10+ locations."
-seoDescription: "Healthcare group operations benchmarks for DSOs. Target ranges for EBITDA margins, provider productivity, patient retention, and revenue metrics that"
-publishDate: '2026-02-11'
-status: scheduled
-scheduledDate: '2026-02-11'
+title: 'Healthcare Operations Benchmarks: What Top DSOs Track'
+seoTitle: 'Healthcare Group Operations Benchmarks: Top DSO Metrics'
+description: >-
+  Benchmarks that distinguish top DSOs from average. Financial, operational, and
+  patient metrics for 10+ locations.
+seoDescription: >-
+  Healthcare group operations benchmarks for DSOs. Target ranges for EBITDA
+  margins, provider productivity, patient retention, and revenue metrics that
+publishDate: '2026-02-11T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Enterprise
 tags:
@@ -15,7 +18,7 @@ tags:
   - KPIs
   - enterprise
 featuredImage: /images/blog/healthcare-group-operations-benchmarks.webp
-canonical: https://mybcat.com/blog/healthcare-group-operations-benchmarks/
+canonical: 'https://mybcat.com/blog/healthcare-group-operations-benchmarks/'
 cluster: enterprise
 relatedPosts:
   - pe-backed-healthcare-operations
