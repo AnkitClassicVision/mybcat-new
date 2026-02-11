@@ -92,9 +92,11 @@ function buildMetaDescription(definition: string): string {
   }
 
   if (out.length > 160) {
-    out = clampWords(out, 160).replace(/[\s.,;:!?]+$/, '');
-    if (out && !/[.!?]$/.test(out)) out = `${out}.`;
+    out = clampWords(out, 160);
   }
+
+  out = out.replace(/[\s.,;:!?]+$/, '');
+  if (out && !/[.!?]$/.test(out) && out.length < 160) out = `${out}.`;
 
   return out;
 }

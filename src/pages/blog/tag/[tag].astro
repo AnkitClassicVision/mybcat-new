@@ -103,9 +103,11 @@ function ensureMetaDescriptionLength(description: string, min: number, max: numb
   let out = normalizeSpaces(description);
 
   if (out.length > max) {
-    out = clampWords(out, max).replace(/[\s.,;:!?]+$/, '');
-    if (out && !/[.!?]$/.test(out)) out = `${out}.`;
+    out = clampWords(out, max);
   }
+
+  out = out.replace(/[\s.,;:!?]+$/, '');
+  if (out && !/[.!?]$/.test(out) && out.length < max) out = `${out}.`;
 
   if (out.length < min) {
     const suffixes = [
@@ -159,6 +161,8 @@ const metaDescription = ensureMetaDescriptionLength(
       <div class="header-content">
         <nav class="breadcrumb" aria-label="Breadcrumb">
           <a href="/blog/">Blog</a>
+          <span class="separator">/</span>
+          <a href="/blog/tags/">Tags</a>
           <span class="separator">/</span>
           <span class="current">Tag: {displayTag}</span>
         </nav>
