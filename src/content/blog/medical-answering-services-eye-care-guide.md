@@ -3,8 +3,9 @@ title: "Complete Guide to Medical Answering Services for Eye Care Practices"
 seoTitle: "Medical Answering Services for Eye Care"
 description: "Medical answering services help eye care practices capture every call, reduce no-shows, and grow revenue with after-hours coverage and scheduling integration."
 seoDescription: "Medical answering services for optometry and ophthalmology: reduce missed calls, improve patient experience, and protect practice revenue."
-publishDate: 2026-02-09
-status: published
+publishDate: '2026-02-22'
+status: scheduled
+scheduledDate: '2026-02-22'
 author: Ankit Patel
 category: Technology
 tags:

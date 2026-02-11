@@ -3,8 +3,9 @@ title: "Virtual Receptionist vs Traditional Front Desk: What Works for Optometry
 seoTitle: "Virtual Receptionist vs Front Desk for Optometry Practices"
 description: "Compare virtual receptionists and traditional front desk staff for optometry practices. Costs, capabilities, scalability, and when each makes sense."
 seoDescription: "Virtual receptionist vs front desk in optometry: compare costs, patient experience, scalability, and when a hybrid call-handling model wins."
-publishDate: 2026-02-09
-status: published
+publishDate: '2026-02-24'
+status: scheduled
+scheduledDate: '2026-02-24'
 author: Ankit Patel
 category: Technology
 tags:

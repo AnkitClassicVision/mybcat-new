@@ -3,8 +3,9 @@ title: "Call Management Best Practices for Optometry Offices"
 seoTitle: "Call Management Best Practices for Optometry Offices"
 description: "Practical call management strategies for optometry offices. Reduce hold times, capture every patient inquiry, and implement systems that scale with your practice."
 seoDescription: "Call management best practices for optometry practices. Actionable strategies to reduce hold times, eliminate missed calls, and improve patient service quality."
-publishDate: 2026-02-09
-status: published
+publishDate: '2026-02-20'
+status: scheduled
+scheduledDate: '2026-02-20'
 author: Ankit Patel
 category: Technology
 tags:

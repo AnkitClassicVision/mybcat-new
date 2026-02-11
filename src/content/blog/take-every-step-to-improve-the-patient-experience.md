@@ -30,7 +30,7 @@ Applying people skills in every [client interaction](https://ca.indeed.com/caree
 
 - **Learn from Your Patients**
 
-Even an eye clinic won't be immune from client feedback. Like all healthcare operations, the well-being of every patient should come first. Take the time to listen to what your clients are saying about your operations. Utilize [call support](/blog/call-handling-patient-experience-eye-care/) functions for feedback collection. Making the right adjustments to your operations should hinge on constructive feedback from the people you serve.
+Even an eye clinic won't be immune from client feedback. Like all healthcare operations, the well-being of every patient should come first. Take the time to listen to what your clients are saying about your operations. Utilize call support functions for feedback collection. Making the right adjustments to your operations should hinge on constructive feedback from the people you serve.
 
 You can serve your patients better when you give them your full attention. Through our services, we can give you more time and energy to focus on your patients. [Contact us](/contact/) to learn more about our services.
 

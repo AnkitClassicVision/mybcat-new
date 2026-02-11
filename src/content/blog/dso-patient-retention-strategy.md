@@ -5,8 +5,9 @@ description: DSOs with 10+ locations build retention systems that achieve 80%+ r
   rates. Centralized tech and standardized workflows.
 seoDescription: DSO patient retention strategy for 10+ locations. Benchmarks, centralized
   tech stacks, standardized workflows, and accountability frameworks achieving 80%+
-publishDate: '2026-02-09'
-status: published
+publishDate: '2026-02-15'
+status: scheduled
+scheduledDate: '2026-02-15'
 author: Ankit Patel
 category: Enterprise
 tags:
@@ -520,7 +521,7 @@ DSO patient retention at scale requires:
 
 **The bottom line:** DSOs that treat retention as an enterprise capability, not a collection of local problems, achieve 5-10 percentage points higher retention than industry average. At scale, those percentage points translate to millions in retained revenue and significantly higher enterprise value.
 
-For the technical implementation of centralized recall, see our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/). For the financial impact of retention on EBITDA, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-ebitda/).
+For the technical implementation of centralized recall, see our centralized patient recall guide. For the financial impact of retention on EBITDA, review our multi-location healthcare EBITDA guide.
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
@@ -532,9 +533,9 @@ For the technical implementation of centralized recall, see our [centralized pat
 
 ## Related Reading
 
-- [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)
+- PE-Backed Healthcare Operations: KPIs That Drive Valuation
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
-- [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
+- Multi-Location Healthcare EBITDA: Retention Protects Margins
 
 ## Sources
 

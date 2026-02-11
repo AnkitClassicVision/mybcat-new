@@ -5,8 +5,9 @@ description: Implementation guide for centralizing patient recall. Tech, workflo
   and governance for 80%+ recall rates.
 seoDescription: Centralized patient recall implementation for multi-location healthcare
   groups. Technology architecture, workflows, staffing, and governance achieving 80%+
-publishDate: '2026-02-09'
-status: published
+publishDate: '2026-02-12'
+status: scheduled
+scheduledDate: '2026-02-12'
 author: Ankit Patel
 category: Enterprise
 tags:
@@ -563,7 +564,7 @@ Centralizing patient recall across multiple locations delivers measurable improv
 
 **The bottom line:** Centralized recall is not about removing local ownership. It is about providing every location with enterprise-grade tools, expertise, and support to achieve consistently excellent results.
 
-For the front desk workflow that complements centralized recall, see our [front desk recall workflow guide](/blog/front-desk-recall-workflow/). For strategies specific to DSOs, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
+For the front desk workflow that complements centralized recall, see our front desk recall workflow guide. For strategies specific to DSOs, review our DSO patient retention strategy guide.
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
@@ -578,9 +579,9 @@ For enterprise groups managing recall across 3+ locations, explore our [multi-lo
 
 ## Related Reading
 
-- [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)
+- PE-Backed Healthcare Operations: KPIs That Drive Valuation
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
-- [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
+- Multi-Location Healthcare EBITDA: Retention Protects Margins
 
 ## Sources
 

@@ -5,8 +5,9 @@ description: 10% retention improvement can add 1-2 turns to EBITDA multiple. How
   retention impacts multi-location healthcare value.
 seoDescription: Multi-location healthcare EBITDA and patient retention. How retention
   improvements drive 10-20% EBITDA lift and add 1-2 turns to valuation multiples
-publishDate: '2026-02-09'
-status: published
+publishDate: '2026-02-13'
+status: scheduled
+scheduledDate: '2026-02-13'
 author: Ankit Patel
 category: Enterprise
 tags:
@@ -429,7 +430,7 @@ Patient retention directly protects and grows EBITDA in multi-location healthcar
 
 **The bottom line:** In multi-location healthcare, every percentage point of retention improvement flows through to EBITDA, and every dollar of EBITDA multiplies into enterprise value. Retention is not just a patient care metric; it is a financial lever that creates real value for owners and investors.
 
-For strategies to improve retention across locations, see our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/). For the full framework on PE-backed healthcare operations, review our [PE-backed healthcare operations guide](/blog/pe-backed-healthcare-operations/).
+For strategies to improve retention across locations, see our DSO patient retention strategy guide. For the full framework on PE-backed healthcare operations, review our PE-backed healthcare operations guide.
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
@@ -441,9 +442,9 @@ For strategies to improve retention across locations, see our [DSO patient reten
 
 ## Related Reading
 
-- [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)
+- PE-Backed Healthcare Operations: KPIs That Drive Valuation
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
-- [DSO Patient Retention Strategy: Scaling to 10+ Locations](/blog/dso-patient-retention-strategy/)
+- DSO Patient Retention Strategy: Scaling to 10+ Locations
 
 ## Sources
 

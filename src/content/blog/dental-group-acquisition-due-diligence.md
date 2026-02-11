@@ -5,8 +5,9 @@ description: Patient retention red flags experienced acquirers look for during d
   practice due diligence. Identify risks before closing.
 seoDescription: Dental group acquisition due diligence focused on patient retention.
   Red flags, data analysis, and risk mitigation strategies for DSOs and dental acquirers.
-publishDate: '2026-02-09'
-status: published
+publishDate: '2026-02-18'
+status: scheduled
+scheduledDate: '2026-02-18'
 author: Ankit Patel
 category: Enterprise
 tags:
@@ -439,7 +440,7 @@ Patient retention analysis should be central to dental acquisition due diligence
 
 **The bottom line:** The purchase price assumes patients will stay. If your due diligence reveals retention risk, either adjust the price, structure protections, or walk away. The worst outcome is paying full price for patients who leave within 18 months.
 
-For strategies to improve retention post-acquisition, see our [healthcare operations M&A integration guide](/blog/healthcare-operations-ma-integration/). For ongoing retention benchmarks, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
+For strategies to improve retention post-acquisition, see our [healthcare operations M&A integration guide](/blog/healthcare-operations-ma-integration/). For ongoing retention benchmarks, review our DSO patient retention strategy guide.
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
@@ -451,9 +452,9 @@ For strategies to improve retention post-acquisition, see our [healthcare operat
 
 ## Related Reading
 
-- [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)
+- PE-Backed Healthcare Operations: KPIs That Drive Valuation
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
-- [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
+- Multi-Location Healthcare EBITDA: Retention Protects Margins
 
 ## Sources
 

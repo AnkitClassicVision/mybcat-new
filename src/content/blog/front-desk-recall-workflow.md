@@ -5,8 +5,9 @@ description: Front desk recall workflow with daily and weekly checklists. Reduce
   no-shows 20-50% with scripts and tracking templates.
 seoDescription: Front desk recall workflow with daily and weekly checklists. Practical
   routines that cut no-shows by 20-50% in dental, optometry, and medical practices.
-publishDate: '2026-02-09'
-status: published
+publishDate: '2026-02-25'
+status: scheduled
+scheduledDate: '2026-02-25'
 author: Ankit Patel
 category: Operations
 tags:

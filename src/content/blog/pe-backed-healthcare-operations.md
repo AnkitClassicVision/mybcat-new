@@ -5,8 +5,9 @@ description: KPIs that PE firms track in healthcare portfolios. Metrics that imp
   EBITDA multiples and exit valuations.
 seoDescription: PE-backed healthcare operations KPIs that drive valuation. Financial,
   operational, and clinical metrics impacting EBITDA multiples from 10x to 15x
-publishDate: '2026-02-09'
-status: published
+publishDate: '2026-02-14'
+status: scheduled
+scheduledDate: '2026-02-14'
 author: Ankit Patel
 category: Enterprise
 tags:
@@ -429,7 +430,7 @@ Strong KPIs across all categories can expand multiples by 2-4 turns, representin
 
 **The bottom line:** The KPIs that PE firms track are not mysterious. They are the fundamental drivers of healthcare business value. Operating with PE-level KPI discipline creates value whether or not you ever engage with private equity.
 
-For detailed strategies on improving patient retention metrics, see our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/). For EBITDA optimization tactics, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-ebitda/).
+For detailed strategies on improving patient retention metrics, see our DSO patient retention strategy guide. For EBITDA optimization tactics, review our multi-location healthcare EBITDA guide.
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
@@ -442,8 +443,8 @@ For detailed strategies on improving patient retention metrics, see our [DSO pat
 ## Related Reading
 
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
-- [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
-- [DSO Patient Retention Strategy: Scaling to 10+ Locations](/blog/dso-patient-retention-strategy/)
+- Multi-Location Healthcare EBITDA: Retention Protects Margins
+- DSO Patient Retention Strategy: Scaling to 10+ Locations
 
 ## Sources
 

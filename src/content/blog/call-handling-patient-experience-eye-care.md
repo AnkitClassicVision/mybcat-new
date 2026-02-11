@@ -3,8 +3,9 @@ title: "How Better Call Handling Improves Patient Experience in Eye Care"
 seoTitle: "Call Handling Improves Eye Care Patient Experience"
 description: "Better call handling improves patient experience in eye care. Learn how first impressions, empathy, and fast responses drive satisfaction and retention."
 seoDescription: "Call handling in optometry and ophthalmology: first impressions, empathetic communication, and service standards that improve patient loyalty."
-publishDate: 2026-02-09
-status: published
+publishDate: '2026-02-21'
+status: scheduled
+scheduledDate: '2026-02-21'
 author: Ankit Patel
 category: Patient Experience
 tags:
