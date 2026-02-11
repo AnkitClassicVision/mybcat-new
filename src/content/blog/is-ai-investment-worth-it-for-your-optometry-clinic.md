@@ -100,10 +100,6 @@ Opting for a BPO partnership shifts the paradigm. While a direct investment in A
 
 To truly understand the project costs of implementing AI, consider all relevant factors, gather sufficient information, and critically analyze the available options before concluding. Stay open to new evidence and perspectives that may shape or alter the conclusion over time, too. For a practical starting point, explore how [AI voice agents can transform your optometry practice](https://mybcat.com/industries/optometry/) without the complexity of full AI implementation.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -295,10 +295,6 @@ Implemented multi-location intake solution with:
 - **Integration capability**: Work with the PM systems California practices use
 - **Compliance understanding**: Know California's specific regulatory requirements
 
----
-
-*Ready to improve intake across your California dental group? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for a free California market assessment.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

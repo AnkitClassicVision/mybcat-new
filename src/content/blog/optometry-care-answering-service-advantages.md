@@ -46,12 +46,8 @@ Various practices recognize the significance of [optometry virtual receptionists
 
 To experience the full spectrum of optometry answering service benefits, consider partnering with a comprehensive [specialized optometry patient intake service](https://mybcat.com/about/) to optimize patient care and streamline practice operations. 
 
-[Contact](https://mybcat.com/contact/) My Business  Care Team today and embark on a journey towards efficient, patient-centric answering services. Empower your practice with innovative solutions, prioritizing patient satisfaction while achieving operational excellence. At My Business Care Team, we are committed to delivering exceptional service, making your practice's growth and patient care our top priorities.
+[Contact](https://mybcat.com/contact/) My Business Care Team today and embark on a journey towards efficient, patient-centric answering services. Empower your practice with innovative solutions, prioritizing patient satisfaction while achieving operational excellence. At My Business Care Team, we are committed to delivering exceptional service, making your practice's growth and patient care our top priorities.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

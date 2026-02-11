@@ -218,10 +218,6 @@ With commitment, innovation, and a patient-centric approach, the sky's the limit
 
 If you find yourself wondering how to take the next step on your operational efficiency journey, know that you're not alone. At My Business Care Team, we're passionate about assisting [optometry practices](/industries/optometry/) in reaching their fullest potential. Our [medical answering service](/solutions/medical-answering-service/) delivers proven results - see how one practice achieved a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). Should you ever need a guiding hand or just want to discuss strategies, we're here to help. We believe in better care, not just for patients but for the practices that serve them.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

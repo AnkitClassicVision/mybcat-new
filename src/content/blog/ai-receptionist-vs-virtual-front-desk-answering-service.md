@@ -1200,18 +1200,12 @@ Veterinary practices should **not rely on pure AI for emergency calls**. Pet own
 
 - [Multi-Location Healthcare Intake Solutions: The Complete Guide](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) – Comprehensive framework for evaluating intake solutions
 
-- [Schedule a Custom Intake Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) – Get personalized recommendations for your group
-
 ---
 
 *Last Updated: December 2025*
 
 *Sources: [Invoca - Healthcare](https://www.invoca.com/solutions/healthcare), [Peerlogic - Turning Missed Dental Phone Calls Into Profit](https://www.peerlogic.com/post/turning-missed-dental-phone-calls-into-profit), [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026)*
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -45,10 +45,6 @@ Optometry clinics find a reliable partner in a [managed healthcare intake partne
 
 For optometry clinics seeking the right call support model, My Business Care Team offers unparalleled [eye care call support](https://mybcat.com/blog/). Elevate your patient communication, optimize appointment management, and enhance the overall clinic experience. [Contact us](https://mybcat.com/contact/) today and embark on a journey toward patient-centric call support for your optometry clinic.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

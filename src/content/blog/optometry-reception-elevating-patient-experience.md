@@ -41,10 +41,6 @@ The nuanced world of optometry demands a reception service that is both technica
 
 For optometrists looking to redefine the patient experience, the path is clear. My Business Care Team offers unparalleled support. We ensure every [optometrist appointment](https://mybcat.com/blog/) is managed. Step into the future of optometric care with us. Let's collaboratively ensure that every patient's first [contact](/contact/) is the beginning of a lasting, positive relationship.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

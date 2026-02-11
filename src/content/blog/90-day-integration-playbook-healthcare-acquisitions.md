@@ -706,10 +706,6 @@ Watch for:
 
 For healthcare groups managing 10+ locations, a [centralized scheduling](/enterprise/centralized-scheduling/) approach combined with [enterprise-grade reporting and QA](/enterprise/reporting-qa/) transforms integration from a challenge into a competitive advantage.
 
----
-
-*Planning a healthcare acquisition? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to get a custom integration timeline and assessment.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

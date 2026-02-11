@@ -343,10 +343,6 @@ During a 2025 winter storm:
 - **Multi-location experience**: Designed for groups managing 5+ Texas locations
 - **Veterinary PM integration**: Real-time scheduling with the systems Texas practices use
 
----
-
-*Ready to improve intake across your Texas veterinary group? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for a free Texas market assessment.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -26,10 +26,6 @@ Another effective way to optimize efficiency is to establish transparent workflo
 
 In conclusion, optimizing efficiency in optometrist offices is essential for meeting the growing demand for eye care services. Optometrists can streamline operations and deliver outstanding patient care by investing in technology solutions such as [eye clinic customer service](https://mybcat.com/blog/). Ready to take your office efficiency to the next level? [Contact](https://mybcat.com/contact/) My Business Care Team today for tailored solutions to support your practice's communication needs.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

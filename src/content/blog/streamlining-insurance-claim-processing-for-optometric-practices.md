@@ -114,10 +114,6 @@ One alternative to [consider is the use of Business Process Outsourcing (BPO) co
 
 It's clear that the introduction of advanced software and technology, alongside the strategic use of Business Process Outsourcing (BPO) services like My Business Care Team, represents a significant shift in claim processing. These solutions transform what was once a time-intensive grind into an efficient, streamlined process. Just as we began with the acknowledgment of the challenges inherent in optometric claim processing, we conclude with a note of optimism, highlighting that with the right tools and partnerships, these challenges can not only be met but turned into opportunities for enhanced efficiency and improved patient care.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

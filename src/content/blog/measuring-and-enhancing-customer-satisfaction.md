@@ -27,10 +27,6 @@ Measuring customer satisfaction involves gathering feedback, analyzing patient i
 
 For optometrists looking to measure and enhance customer satisfaction, My Business Care Team provides a comprehensive solution with their [optometrist appointment scheduling](https://mybcat.com/about/) services. Our team of skilled virtual receptionists ensures that your patients receive the best possible service, enhancing overall patient satisfaction.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

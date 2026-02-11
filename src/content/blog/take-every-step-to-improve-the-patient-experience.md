@@ -34,10 +34,6 @@ Even an eye clinic won't be immune from client feedback. Like all healthcare ope
 
 You can serve your patients better when you give them your full attention. Through our services, we can give you more time and energy to focus on your patients. [Contact us](/contact/) to learn more about our services.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

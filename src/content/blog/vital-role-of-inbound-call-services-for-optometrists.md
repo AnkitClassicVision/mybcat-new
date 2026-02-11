@@ -43,10 +43,6 @@ Multilingual call agents accommodate diverse patient populations, breaking langu
 
 Are you looking for a [managed healthcare intake partner?](https://mybcat.com/industries/optometry/) Learn how we [compare to other virtual assistant services](/compare/vs-virtual-assistants/) or see why practices choose us [over Hello Rache](/compare/vs-hello-rache/). [Contact us](/contact/) today to learn more.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

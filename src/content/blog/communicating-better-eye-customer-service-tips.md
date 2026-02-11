@@ -168,10 +168,6 @@ At the end of the day, great communication creates great patient experiences. An
 
 [If you'd like to talk about how we approach communication training and quality](https://mybcat.com/contact/), we're happy to share what we've learned.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

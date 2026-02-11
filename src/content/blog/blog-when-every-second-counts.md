@@ -94,10 +94,6 @@ And when something serious comes throughâ€”when someone's vision is on the lineâ
 
 [Want to see how this would work for your practice?](https://mybcat.com/contact/) We're happy to walk through your specific protocols and show you exactly how we'd handle your calls.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

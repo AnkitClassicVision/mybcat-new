@@ -134,10 +134,6 @@ Depending on the clinic, they may care about their performance compared to other
 
 In our upcoming posts, we will detail the options available to eye care clinics. We'll cover [comparing virtual assistant options](/compare/vs-virtual-assistants/) and how they differ from BPOs. You can also learn more about our [front desk outsourcing](/solutions/front-desk-outsourcing/) solutions. In the meantime, don't hesitate to ask if you have any questions about outsourcing admin work for your eye care clinic. We like to share tools and best practices. We're constantly giving tips, advice, and tricks that we should all be discussing more in our industry.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -26,10 +26,6 @@ A [managed healthcare intake partner](https://mybcat.com/industries/optometry/) 
 
 My Business Care Team stands at the forefront of this technological evolution in healthcare customer service. Specializing in [eye care call support](https://mybcat.com/blog/), we provide eye clinics with the latest call support technology, ensuring that your patients receive the best possible service. Partner with us and take your eye clinic's customer service to the next level.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

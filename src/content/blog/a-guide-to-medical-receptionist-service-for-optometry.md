@@ -29,10 +29,6 @@ Optometrists focus on streamlining communication channels. These services not on
 
 In conclusion, embracing specialized medical receptionist services is a strategic move for optometrists aiming to enhance their patient experience. Consider partnering with a managed intake provider to leverage and streamline your [optometrist inbound call services](https://mybcat.com/blog/). Optimize and watch your practice flourish. For further details, [contact our team](/contact/) today.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -155,10 +155,6 @@ For administrative applications, absolutely. The tools are mature, affordable, a
 **What should I worry about regarding patient privacy?**
 Only work with vendors who are explicitly HIPAA compliant and can document their security practices. Ask where data is stored, who has access to it, and what happens if there's a breach. If they can't answer these questions clearly, move on.
 
----
-
-*Want to talk about how AI-powered solutions could help your practice? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) and let's figure out what makes sense for your situation.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

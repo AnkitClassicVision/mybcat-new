@@ -25,10 +25,6 @@ In this digital age, [optometry virtual receptionists](https://mybcat.com/indust
 
 Are you looking to elevate your patient care experience? Let My Business Care Team be your partner in excellence. Our [specialized optometry patient intake services](https://mybcat.com/about/) are dedicated to helping your practice grow by improving patient satisfaction through seamless communication. [Contact us](https://mybcat.com/contact/) today and take the first step towards transforming your optometry practice with our expert virtual receptionist services.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

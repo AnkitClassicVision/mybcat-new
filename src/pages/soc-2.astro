@@ -1,7 +1,7 @@
 ---
 /**
- * SOC 2 Compliance Page
- * SOC 2 Type II compliance framework, trust services criteria, and enterprise security controls
+ * Enterprise Security Controls Page
+ * Security controls aligned to common enterprise due diligence expectations.
  */
 import PageLayout from '@/layouts/PageLayout.astro';
 import Card from '@/components/Card.astro';
@@ -9,30 +9,30 @@ import CTA from '@/components/sections/CTA.astro';
 ---
 
 <PageLayout
-  title="SOC 2 Compliance | Enterprise Security Controls | MyBCAT"
-  description="MyBCAT's SOC 2 compliance framework: enterprise-grade security controls, continuous monitoring, and audit-ready documentation for multi-location healthcare groups."
+  title="Enterprise Security Controls | MyBCAT"
+  description="Enterprise-grade security controls, monitoring, and documentation for multi-location healthcare operations."
   breadcrumbs={[
     { name: 'Home', url: '/' },
-    { name: 'SOC 2 Compliance' }
+    { name: 'Security Controls' }
   ]}
-  heroEyebrow="SOC 2 Type II Compliance"
-  heroTitle="SOC 2 Compliant Healthcare Operations"
-  heroSubtitle="Enterprise security controls that meet the rigorous requirements of multi-location healthcare groups. Our SOC 2 framework ensures your patient operations data is protected at every level."
+  heroEyebrow="Enterprise Security"
+  heroTitle="Enterprise Security Controls"
+  heroSubtitle="Security practices designed for healthcare operations and enterprise due diligence."
 >
   <div class="security-page">
     <!-- Trust Badges -->
     <section class="trust-badges">
       <div class="badge-grid">
-        <div class="trust-badge">
-          <div class="badge-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-              <polyline points="9 12 11 14 15 10"/>
-            </svg>
-          </div>
-          <h3>SOC 2 Type II</h3>
-          <p>Audited against AICPA Trust Services Criteria</p>
-        </div>
+	        <div class="trust-badge">
+	          <div class="badge-icon">
+	            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+	              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+	              <polyline points="9 12 11 14 15 10"/>
+	            </svg>
+	          </div>
+	          <h3>SOC 2-Aligned Controls</h3>
+	          <p>Controls mapped to AICPA Trust Services Criteria</p>
+	        </div>
 
         <div class="trust-badge">
           <div class="badge-icon">
@@ -45,37 +45,37 @@ import CTA from '@/components/sections/CTA.astro';
           <p>24/7 security monitoring and automated alerting</p>
         </div>
 
-        <div class="trust-badge">
-          <div class="badge-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
-            </svg>
-          </div>
-          <h3>Encryption at Rest & Transit</h3>
-          <p>AES-256 encryption for all data handling</p>
-        </div>
+	        <div class="trust-badge">
+	          <div class="badge-icon">
+	            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+	              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+	              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+	            </svg>
+	          </div>
+	          <h3>Encryption at Rest & Transit</h3>
+	          <p>Encryption in transit and at rest where supported</p>
+	        </div>
 
-        <div class="trust-badge">
-          <div class="badge-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-              <polyline points="14 2 14 8 20 8"/>
-              <path d="M9 15l2 2 4-4"/>
-            </svg>
-          </div>
-          <h3>Annual Audit Cycle</h3>
-          <p>Independent third-party audits on annual basis</p>
-        </div>
+	        <div class="trust-badge">
+	          <div class="badge-icon">
+	            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+	              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+	              <polyline points="14 2 14 8 20 8"/>
+	              <path d="M9 15l2 2 4-4"/>
+	            </svg>
+	          </div>
+	          <h3>Security Documentation</h3>
+	          <p>Security overview available for enterprise due diligence</p>
+	        </div>
       </div>
     </section>
 
     <!-- Detailed Security Practices -->
-    <section class="practices-section">
-      <div class="section-header">
-        <h2>SOC 2 Trust Services Criteria</h2>
-        <p>Our controls mapped to the AICPA Trust Services framework</p>
-      </div>
+	    <section class="practices-section">
+	      <div class="section-header">
+	        <h2>Trust Services Criteria Framework</h2>
+	        <p>Controls aligned to the AICPA Trust Services Criteria used in SOC 2</p>
+	      </div>
 
       <div class="practices-grid">
         <Card variant="feature" class="practice-card">
@@ -89,16 +89,16 @@ import CTA from '@/components/sections/CTA.astro';
           </ul>
         </Card>
 
-        <Card variant="feature" class="practice-card">
-          <h3>Availability</h3>
-          <ul>
-            <li>99.9% uptime SLA for call handling</li>
-            <li>Redundant infrastructure</li>
-            <li>Disaster recovery procedures</li>
-            <li>Business continuity planning</li>
-            <li>Real-time system health monitoring</li>
-          </ul>
-        </Card>
+	        <Card variant="feature" class="practice-card">
+	          <h3>Availability</h3>
+	          <ul>
+	            <li>High-availability call routing and monitoring</li>
+	            <li>Redundant infrastructure</li>
+	            <li>Disaster recovery procedures</li>
+	            <li>Business continuity planning</li>
+	            <li>Real-time system health monitoring</li>
+	          </ul>
+	        </Card>
 
         <Card variant="feature" class="practice-card">
           <h3>Confidentiality</h3>
@@ -124,38 +124,38 @@ import CTA from '@/components/sections/CTA.astro';
       </div>
     </section>
 
-    <!-- SOC 2 Audit Process (Info Card) -->
-    <section class="baa-section">
-      <Card variant="pricing" class="baa-card">
-        <div class="baa-content">
-          <h2>Our SOC 2 Audit Process</h2>
-          <p>MyBCAT undergoes an annual SOC 2 Type II audit conducted by an independent, certified public accounting firm. The audit evaluates the design and operating effectiveness of our controls over a 12-month observation period, covering security, availability, and confidentiality. Enterprise clients and qualified prospects can request our full SOC 2 report under NDA.</p>
-          <ul class="baa-list">
-            <li>
-              <span class="check">&#10003;</span>
-              <span>Annual independent audit by certified firm</span>
-            </li>
-            <li>
-              <span class="check">&#10003;</span>
-              <span>Report covers Security, Availability, Confidentiality</span>
-            </li>
-            <li>
-              <span class="check">&#10003;</span>
-              <span>Designed to meet AICPA Trust Services Criteria</span>
-            </li>
-            <li>
-              <span class="check">&#10003;</span>
-              <span>Report available to qualified enterprise prospects under NDA</span>
-            </li>
-            <li>
-              <span class="check">&#10003;</span>
-              <span>Remediation tracking for any findings</span>
-            </li>
-          </ul>
-          <p class="baa-note">SOC 2 reports are confidential documents shared only under executed non-disclosure agreements.</p>
-        </div>
-      </Card>
-    </section>
+	    <!-- Security Documentation (Info Card) -->
+	    <section class="baa-section">
+	      <Card variant="pricing" class="baa-card">
+	        <div class="baa-content">
+	          <h2>Security Documentation Package</h2>
+	          <p>Enterprise clients and qualified prospects can request our security documentation package under NDA.</p>
+	          <ul class="baa-list">
+	            <li>
+	              <span class="check">&#10003;</span>
+	              <span>Security controls overview (access, monitoring, and incident response)</span>
+	            </li>
+	            <li>
+	              <span class="check">&#10003;</span>
+	              <span>Access control model and audit logging summary</span>
+	            </li>
+	            <li>
+	              <span class="check">&#10003;</span>
+	              <span>Change management and vendor risk practices overview</span>
+	            </li>
+	            <li>
+	              <span class="check">&#10003;</span>
+	              <span>Documentation shared with qualified enterprise prospects under NDA</span>
+	            </li>
+	            <li>
+	              <span class="check">&#10003;</span>
+	              <span>Scope and availability may vary by engagement</span>
+	            </li>
+	          </ul>
+	          <p class="baa-note">Security documentation is shared only under executed non-disclosure agreements.</p>
+	        </div>
+	      </Card>
+	    </section>
 
     <!-- Enterprise Compliance Section -->
     <section class="enterprise-compliance">
@@ -253,21 +253,21 @@ import CTA from '@/components/sections/CTA.astro';
     </section>
 
     <!-- HIPAA Cross-Link -->
-    <section class="hipaa-link-section">
-      <div class="hipaa-link-card">
-        <p>SOC 2 works alongside our HIPAA compliance program to provide comprehensive security coverage for healthcare operations. Our SOC 2 controls complement and reinforce the safeguards required under HIPAA.</p>
-        <a href="/hipaa-compliance/" class="hipaa-link">Learn about our HIPAA compliance program &rarr;</a>
-      </div>
-    </section>
+	    <section class="hipaa-link-section">
+	      <div class="hipaa-link-card">
+	        <p>Our security controls work alongside our HIPAA compliance program to protect healthcare operations data.</p>
+	        <a href="/hipaa-compliance/" class="hipaa-link">Learn about our HIPAA compliance program &rarr;</a>
+	      </div>
+	    </section>
 
     <!-- CTA -->
-    <section class="cta-section">
-      <CTA
-        title="Ready to Review Our Security Documentation?"
-        description="Enterprise prospects can request our SOC 2 report and security documentation package."
-        buttonText="Request Security Package"
-      />
-    </section>
+	    <section class="cta-section">
+	      <CTA
+	        title="Ready to Review Our Security Documentation?"
+	        description="Enterprise prospects can request our security documentation package under NDA."
+	        buttonText="Request Security Package"
+	      />
+	    </section>
   </div>
 </PageLayout>
 

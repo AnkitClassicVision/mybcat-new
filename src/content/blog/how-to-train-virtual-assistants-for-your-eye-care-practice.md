@@ -109,10 +109,6 @@ This investment will bear fruit in several ways. It will increase revenues and o
 
 Your patients deserve the best care, and that starts with an optimally trained and empowered VA, serving as an integral part of your clinic's journey to success. Take that first step towards addressing staffing issues, improving efficiency, and enhancing patient experience.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

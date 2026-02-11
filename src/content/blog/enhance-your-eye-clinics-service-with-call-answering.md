@@ -27,10 +27,6 @@ Scheduling an [optometrist appointment](https://mybcat.com/about/) should be a h
 
 Ready to take your patient service to the next level? Partner with My Business Care Team for unparalleled [optometry virtual receptionists](https://mybcat.com/industries/optometry/). Do not let another missed call be a missed opportunity – [contact us](https://mybcat.com/contact/) today and experience the transformative impact of our virtual receptionists on your optometry practice.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

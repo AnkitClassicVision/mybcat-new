@@ -423,10 +423,6 @@ Effective after-hours management requires coordination with emergency hospitals.
 
 - **Measure from day one.** Track answer rate, appointment capture, DVM contact rate, and triage accuracy to demonstrate value and identify improvement opportunities.
 
----
-
-*Want to evaluate after-hours models for your veterinary group? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for a custom assessment.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

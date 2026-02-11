@@ -342,10 +342,6 @@ Revenue Per Call = Total Revenue (Period) / Total Incoming Calls (Period)
 
 According to [MGMA benchmarks](https://www.mgma.com/benchmarking), practices with systematic call tracking outperform those without by 15-25%. For optometry groups specifically, see our [retail-clinical intake guide](/blog/optometry-retail-clinical-intake-guide/) for specialty-specific optimization. Multi-location groups should also review our [centralized vs. distributed framework](/blog/centralized-vs-distributed-intake-framework/) for intake structure decisions.
 
----
-
-*Want to see how your practice compares? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for a custom benchmark analysis.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

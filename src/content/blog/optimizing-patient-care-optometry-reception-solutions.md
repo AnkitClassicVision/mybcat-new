@@ -26,10 +26,6 @@ My Business Care Team specializes in providing top-tier medical receptionist ser
 
 Elevate your optometry practice with the unparalleled support of My Business Care Team. [Contact us](https://mybcat.com/contact/) today to learn more about how our medical receptionist services can benefit your practice and help you provide exceptional care to every patient.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

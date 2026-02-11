@@ -394,18 +394,12 @@ The solution isn't hiring more staff. It's implementing systematic intake operat
 
 - [Never Miss an Appointment](https://mybcat.com/solutions/patient-recall/) – Our solution for multi-location healthcare call handling
 
-- [Schedule a Revenue Leak Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) – Calculate your specific missed call cost
-
 ---
 
 *Last Updated: December 2025*
 
 *Sources: [Invoca Healthcare Call Tracking](https://www.invoca.com/solutions/healthcare), Peerlogic Dental Call Analysis 2024, BIA/Kelsey Consumer Calling Behavior Study, Podium Healthcare Consumer Survey 2023, [MGMA Staff Turnover Data](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), AVMA Veterinary Industry Statistics, Review of Optometric Business, Dental Economics Valuation Trends 2024*
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

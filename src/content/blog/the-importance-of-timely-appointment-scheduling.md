@@ -26,10 +26,6 @@ Effective [optometrist call management](https://mybcat.com/about/) is a key elem
 
 For optometrists looking to improve their appointment scheduling and patient service, My Business Care Team offers the ideal solution with their [specialized optometry patient intake services](https://mybcat.com/about/). Our experienced team ensures your patients are scheduled efficiently and professionally, enhancing their overall experience with your practice.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

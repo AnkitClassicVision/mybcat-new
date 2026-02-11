@@ -220,16 +220,6 @@ This case study reflects results for a specific group with specific challenges. 
 - Front desk staff seem overwhelmed
 - Capture rate is stagnant despite marketing investment
 
----
-
-## See What's Possible for Your Optometry Group
-
-Schedule a consultation to understand how these results translate to your specific situation. We will analyze your current operations and identify specific improvement opportunities.
-
-[Schedule Your Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)
-
----
-
 *Want to understand the clinical-retail routing framework in detail? Read our complete [Optometry Intake Guide](/blog/optometry-retail-clinical-intake-guide/).*
 
 ---

@@ -69,10 +69,6 @@ Ultimately, the decision to outsource rests with you. Gathering all the necessar
 
 Remember, we're in this together. As owners of our own eye care clinics, our primary goal is always the well-being of our patients. Let us know if you have any questions or if we can do anything to help you boost patient satisfaction by outsourcing customer service.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

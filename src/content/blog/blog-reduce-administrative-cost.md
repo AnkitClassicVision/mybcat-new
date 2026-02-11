@@ -146,10 +146,6 @@ Outsourcing isn't about cutting corners. It's about putting the right resources 
 
 [If you're curious what this might look like for your practice](https://mybcat.com/contact/), let's talk. I'll walk you through exactly how we'd handle your workflows and what the numbers might look like.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

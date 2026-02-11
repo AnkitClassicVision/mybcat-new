@@ -161,10 +161,6 @@ If your phones are ringing to voicemail, if your front desk is overwhelmed, or i
 
 [Schedule a consultation](/contact/) to learn how a medical answering service can work for your eye care practice. No commitment required. Just data and a clear picture of the opportunity.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

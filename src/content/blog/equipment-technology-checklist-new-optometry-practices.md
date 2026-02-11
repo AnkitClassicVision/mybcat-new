@@ -182,18 +182,12 @@ The optical generates significant revenue in most practices. A poorly equipped o
 
 Equipment selection is one component of launching a successful practice. For guidance on the broader picture including business planning, compliance, staffing, and marketing, review our comprehensive [Starting an Optometric Practice 101](/blog/starting-an-optometric-practice-101/) guide.
 
-If you are planning a multi-location expansion or need help with patient intake systems, [schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss how MyBCAT can support your growth.
-
 ---
 
 *Last Updated: January 2026*
 
 *Sources: [SBA - Loans](https://www.sba.gov/funding-programs/loans), [Review of Optometric Business](https://reviewob.com/3-metrics-that-reveal-the-true-financial-health-of-your-practice/)*
 
----
-
-*Need help managing calls while you focus on patient care? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT handles patient communication for optometry practices.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

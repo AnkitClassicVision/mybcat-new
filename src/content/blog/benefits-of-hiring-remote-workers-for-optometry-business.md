@@ -125,10 +125,6 @@ We handle the recruiting, training, management, and quality control. You get ded
 
 We've helped [optometry practices](/industries/optometry/) achieve remarkable results - see how one practice reached a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). [If you want to explore what this might look like for your practice](https://mybcat.com/contact/), let's talk. I've been in your shoes. I know what works.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

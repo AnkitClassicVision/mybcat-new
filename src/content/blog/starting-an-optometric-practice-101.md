@@ -180,10 +180,6 @@ Explore these detailed guides on specific aspects of starting your practice:
 
 The journey towards establishing a thriving optometry practice is a story of nurturing a vision, literal and metaphorical, into a tangible reality. The concepts shared through this guide seek to serve as a simple frame upon which aspiring optometrists can build their company. Remember, no one can do everything perfectly, but having an understanding of each piece and giving it a baseline of effort will make a big difference when the pieces start coming together and the opening day draws near. Use this guide to make sure there are no unexpected surprises or missed opportunities that seem obvious in hindsight. 
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

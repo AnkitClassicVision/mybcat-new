@@ -96,10 +96,6 @@ This is where BPOs, with their structured agreements and robust operations, come
 
 As a BPO specializing in optometry and ophthalmology clinics, [My Business Care Team is ready to be your partner to usher in a new era of excellence for your eye care clinic.](https://mybcat.com/contact/)
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -25,10 +25,6 @@ Similarly, [optometrist inbound call services](https://mybcat.com/about/) play a
 
 For optometry practices looking to enhance their customer service capabilities, My Business Care Team is an ideal partner. As a leading [managed healthcare intake partner](https://mybcat.com/industries/optometry/), we specialize in managing challenging customer service situations, ensuring your patients always have a positive experience with your practice.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -93,10 +93,6 @@ Look for vendors who not only provide satisfactory answers to these questions bu
 
 As you progress with compliance and security for VAs, let us know if we can answer any of your questions about the process or help in any way.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

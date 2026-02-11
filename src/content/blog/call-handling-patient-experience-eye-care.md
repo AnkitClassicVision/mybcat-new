@@ -131,10 +131,6 @@ If you are unsure where your practice stands, an honest assessment of your curre
 
 Ready to assess your call handling and improve patient experience? [Contact our team](/contact/) to learn how dedicated call support can transform your practice's front door.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -287,10 +287,6 @@ If your staff can't function when you take a two-week vacation, buyers will noti
 
 ---
 
-**Ready to see how your operations stack up?** The intake systems, call handling, and patient communication processes are exactly what buyers scrutinize during due diligence. [Schedule a free operational assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to identify gaps that could affect your valuation—and fix them before you go to market.
-
----
-
 ## Asset Sale vs Stock Sale: Tax Implications Explained
 
 How you structure the sale dramatically affects your after-tax proceeds.
@@ -516,10 +512,6 @@ Start earlier than you think you need to. Document more than you think matters. 
 
 The practices that sell for premium multiples in 2025-2026 are the ones that look transferable, predictable, and professionally operated. If your practice depends entirely on you—for patient relationships, for daily decisions, for answering the phones—that's the first thing to fix.
 
----
-
-*Wondering how your intake operations would look to a buyer? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to see how MyBCAT can help you build more transferable, valuable operations—whether you're selling next year or in ten.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

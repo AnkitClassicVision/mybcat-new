@@ -501,13 +501,7 @@ The Practice Manager often determines integration success or failure. They may:
 
 ## Next Steps
 
-Ready to implement this playbook in your next acquisition?
-
-### For DSO Operators
-[Download the Complete DSO Integration Toolkit](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) - Includes all checklists, templates, and scripts referenced in this guide.
-
-### For PE Operating Partners
-[Schedule a Portfolio Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) - We'll evaluate intake operations across your dental investments and identify the highest-impact opportunities.
+If you're planning an acquisition this quarter, start by standardizing intake workflows using this guide and tracking KPIs from Day 1.
 
 Our [Never Miss an Appointment](https://mybcat.com/solutions/patient-recall/) solution is specifically designed for multi-location healthcare groups, combining trained healthcare specialists with technology that integrates directly into your practice management systems, including Dentrix, Eaglesoft, and Open Dental.
 
@@ -554,10 +548,6 @@ For PE-backed DSOs, recovered revenue from improved intake flows directly to EBI
 
 *Sources: [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/topics/global-healthcare-private-equity-report/), [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
 
----
-
-*Need help standardizing intake across your DSO? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can accelerate your integration timeline.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -423,10 +423,6 @@ Measuring only efficiency metrics (calls per hour, handle time) while ignoring e
 
 - **Plan implementation carefully.** Both centralization and hybrid require 4-12 months for proper implementation with clear milestones and success factors.
 
----
-
-*Not sure which model fits your group? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for a custom intake architecture assessment.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -393,10 +393,6 @@ Financial planning is one component of launching a successful practice. For guid
 
 *Sources: [SBA - Manage Your Finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances), [Review of Optometric Business](https://reviewob.com/3-metrics-that-reveal-the-true-financial-health-of-your-practice/)*
 
----
-
-*Need help managing patient calls during your crucial first year? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT supports new optometry practices with professional call handling.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -164,10 +164,6 @@ The right front desk model for your optometry practice depends on your specific 
 
 If you are ready to explore what virtual reception could look like for your practice, or if you just want to understand your options better, we are happy to walk you through it. [Reach out to our team](/contact/) for a no-pressure conversation about your specific situation.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -143,10 +143,6 @@ That's how you build a practice known for exceptional care—not just clinically
 
 [Want to talk about how we approach staff performance and patient experience?](https://mybcat.com/contact/) Happy to share what we've learned.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

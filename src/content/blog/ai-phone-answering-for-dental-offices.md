@@ -80,11 +80,11 @@ Effective AI phone systems for dental offices follow specific conversation patte
 
 Any system handling patient information must meet HIPAA requirements. Compliant AI phone systems implement multiple safeguards:
 
-**Technical protections:** End-to-end encryption using TLS 1.2 or higher for data in transit and AES-256 encryption for stored data. Call recordings, logs, and patient information receive the same protection as any other electronic protected health information.
+**Technical protections:** Encryption in transit for data exchange and secure configuration for stored data. Call recordings and logs should be protected with access controls and retention policies.
 
 **Access controls:** Role-based permissions limit who can access call data. Multi-factor authentication and comprehensive audit logs track all system activity.
 
-**Business Associate Agreements:** Legitimate vendors provide HIPAA-ready BAAs before implementation. They should also hold SOC 2 Type II certification from an accredited auditor.
+**Business Associate Agreements:** Legitimate vendors provide HIPAA-ready BAAs before implementation. They should also be able to describe their security controls and provide relevant documentation on request.
 
 **Staff training:** Your team needs to understand how the AI system handles patient data, when escalation occurs, and how to document interactions appropriately.
 
@@ -166,7 +166,7 @@ Before selecting an AI phone answering provider, get clear answers:
 5. Can I review call recordings for quality and compliance?
 6. What is the implementation timeline and training process?
 7. Will you provide a signed Business Associate Agreement?
-8. Do you hold current SOC 2 Type II certification?
+8. What security documentation can you provide (policies, controls, assessments)?
 9. What happens if the system experiences downtime?
 10. How are your AI models trained, and is patient data used in training?
 
@@ -193,6 +193,6 @@ The practices capturing the most value approach this as a revenue opportunity ra
 - Dental practices miss 30 to 35 percent of calls during business hours, costing over $100,000 annually in lost patient revenue
 - AI phone answering systems achieve 90 to 95 percent answer rates and handle 75 to 85 percent of calls without human intervention
 - Implementation costs range from $2,400 to $12,000 annually, compared to $55,000 or more for additional front desk staff
-- HIPAA compliance requires encryption, access controls, Business Associate Agreements, and SOC 2 certification from vendors
+- HIPAA compliance typically includes administrative safeguards, technical controls, and a signed Business Associate Agreement (BAA) when vendors handle PHI
 - The technology works best as augmentation, handling routine calls while staff focuses on complex patient needs
 - Track answer rates, conversion rates, and hold times to measure ROI against your baseline performance

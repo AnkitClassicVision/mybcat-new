@@ -48,10 +48,6 @@ As you navigate the decision between optometry virtual receptionists and traditi
 
 Empower your practice with innovation, prioritizing your patients' well-being and achieving operational excellence. At My Business Care Team, we are committed to delivering outstanding patient experiences, making your journey towards enhanced reception services a reality.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

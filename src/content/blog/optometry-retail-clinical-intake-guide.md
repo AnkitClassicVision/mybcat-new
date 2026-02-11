@@ -436,10 +436,6 @@ Effective optometry intake requires integration across multiple systems.
 
 *Sources: [Review of Optometric Business](https://reviewob.com/3-metrics-that-reveal-the-true-financial-health-of-your-practice/), [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026)*
 
----
-
-*Want to see how your optometry group's intake compares to top performers? [Schedule an assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to identify opportunities for clinical and optical revenue capture.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

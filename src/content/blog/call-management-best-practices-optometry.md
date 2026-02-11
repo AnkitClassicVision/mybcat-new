@@ -138,10 +138,6 @@ Small improvements in call management compound quickly. A 10% improvement in ans
 
 If your practice needs help building or scaling a call management system, [we can help](/contact/). MyBCAT provides managed call support, virtual receptionist services, and patient access solutions designed specifically for optometry and healthcare practices.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

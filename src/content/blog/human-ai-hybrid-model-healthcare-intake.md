@@ -320,10 +320,6 @@ Administrative work is a meaningful share of U.S. healthcare spending. Estimates
 
 *Sources: [PMC - Patient administrative burden in the US health care system](https://pmc.ncbi.nlm.nih.gov/articles/PMC8522562/), [American Hospital Association - AI Market Insights Report (PDF)](https://www.aha.org/system/files/media/file/2025/01/Market_Insights_AI_Report-2025.pdf)*
 
----
-
-*Want to see how a hybrid model would work for your practice? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to get a custom analysis of your call volume and optimal routing strategy.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

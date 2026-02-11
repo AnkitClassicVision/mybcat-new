@@ -128,10 +128,6 @@ Do those things, and outsourcing becomes a competitive advantage. Skip them, and
 
 We've helped [optometry practices](/industries/optometry/) achieve remarkable results - see how one practice reached a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). If you want to talk through what outsourcing might look like for your specific practice, [reach out](https://mybcat.com/contact/). We've done this enough times to know what works and what doesn't.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

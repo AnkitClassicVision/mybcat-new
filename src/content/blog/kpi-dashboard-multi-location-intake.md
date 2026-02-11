@@ -434,10 +434,6 @@ For conversion tracking, your phone system must pass caller information to your 
 
 For healthcare groups ready to implement enterprise-grade intake measurement, a [patient access center](/enterprise/patient-access-center/) with [centralized scheduling](/enterprise/centralized-scheduling/) provides the infrastructure for consistent, measurable performance across all locations.
 
----
-
-*Want to see how your intake metrics compare to industry benchmarks? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to get a custom analysis for your group.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

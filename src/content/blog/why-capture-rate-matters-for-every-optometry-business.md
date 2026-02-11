@@ -80,10 +80,6 @@ The BPO partnership advantage stems from optimized space, workflows, and workloa
 
 This article has covered the essential importance of capture rate to the success of an optometry practice. While various strategies for improving capture rate exist, partnering with a business process outsourcing provider enables comprehensive operational optimization to boost this metric. By outsourcing administrative tasks, the optometrist or business owner can expand frame inventory selection, streamline workflows, reconfigure layouts, and empower staff to provide attentive service. This environment transformation unlocks an optometry clinic's potential for higher capture rates and revenue. To explore how outsourcing with our dedicated BPO can positively impact your bottom line through recaptured prescription fulfillment, please reach out today. The potential growth for your existing practice lies in optimizing operations for the patient experience.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

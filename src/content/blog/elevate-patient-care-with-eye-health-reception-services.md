@@ -29,10 +29,6 @@ We take pride in our responsive and knowledgeable staff. Your queries won't go u
 
 To experience the difference in patient care, [contact us](/contact/) today to elevate your eye health journey with our comprehensive eye health reception services. Schedule your optometris appointment and discover the convenience and excellence that define our services. Your vision is our priority.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

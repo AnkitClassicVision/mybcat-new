@@ -45,10 +45,6 @@ In an ever-diverse world, speaking your patient's language can make all the diff
 
 Lastly, if you need a trustworthy partner for this crucial service, look no further. My Business Care Team provides [specialized optometry patient intake services](https://mybcat.com/industries/optometry/). Our dedicated professionals ensure your patients hear a friendly, knowledgeable voice on the other end. [Connect with us](https://mybcat.com/contact/) and elevate your patient service experience today!
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

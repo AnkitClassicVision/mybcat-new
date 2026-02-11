@@ -30,10 +30,6 @@ A simple step to experience the future is to call My Business Care Team. This is
 
 In conclusion, the Optometry virtual receptionist is not just a feature; it's the future of customer service in the realm of eye care. Embrace the evolution, [schedule](https://mybcat.com/contact/) your [optometrist appointment](https://mybcat.com/blog/), and discover unparalleled support.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

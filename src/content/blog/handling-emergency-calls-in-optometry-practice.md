@@ -26,10 +26,6 @@ By partnering with a [managed healthcare intake partner](https://mybcat.com/abou
 
 [Optometrist inbound call services](https://mybcat.com/industries/optometry/) are an indispensable asset for optometry practices looking to excel in handling emergency calls. This strategic approach not only enhances patient care but also contributes to the overall efficiency of the practice. For personalized assistance tailored to your optometry practice's unique needs, [contact us](/contact/) today. Your patients deserve the best; we are here to help you deliver just that.
 
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
----
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
