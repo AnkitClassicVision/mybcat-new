@@ -54,6 +54,16 @@ const VALIDATORS = [
     requiresBuild: false
   },
   {
+    name: 'Content Quality',
+    script: 'validate-content-quality.js',
+    requiresBuild: false
+  },
+  {
+    name: 'Cross-Link Safety',
+    script: 'validate-cross-links.js',
+    requiresBuild: false
+  },
+  {
     name: 'Schema Markup',
     script: 'validate-schema.js',
     requiresBuild: true

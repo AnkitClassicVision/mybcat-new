@@ -1,0 +1,50 @@
+{
+  "thresholds": {
+    "minWordCount": 1500,
+    "minProseDensity": 0.6,
+    "minExternalCitations": 2,
+    "minInternalLinks": 5,
+    "legacyCutoffDate": "2026-01-01"
+  },
+  "requiredSections": {
+    "sources": "## Sources"
+  },
+  "ctaPatterns": [
+    "hubspot.com",
+    "/contact/",
+    "meetings.hubspot.com"
+  ],
+  "bannedPhrases": {
+    "hardFail": [],
+    "softFail": [
+      "dive into",
+      "dive deep",
+      "seamless",
+      "seamlessly",
+      "navigate",
+      "leverage",
+      "leveraging",
+      "in today's",
+      "game-changer",
+      "game changer",
+      "it's important to note",
+      "it's worth noting",
+      "at the end of the day",
+      "in conclusion",
+      "without further ado",
+      "let's explore",
+      "let's delve",
+      "comprehensive guide",
+      "unlock",
+      "empower",
+      "harness",
+      "revolutionize",
+      "cutting-edge",
+      "robust"
+    ]
+  },
+  "punctuation": {
+    "warnOnEmDash": true,
+    "emDashChar": "\u2014"
+  }
+}

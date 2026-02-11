@@ -29,6 +29,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Pre-publish quality check
+        run: node scripts/validators/validate-content-quality.js --scheduled-only
+        continue-on-error: true
+
       - name: Run publish script
         run: node scripts/publish-scheduled.js
 

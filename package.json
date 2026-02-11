@@ -29,6 +29,9 @@
     "validate:links": "node scripts/validators/validate-links.js",
     "validate:schema": "node scripts/validators/validate-schema.js",
     "validate:enterprise-links": "node scripts/validators/validate-enterprise-links.js",
+    "validate:content-quality": "node scripts/validators/validate-content-quality.js",
+    "validate:cross-links": "node scripts/validators/validate-cross-links.js",
+    "validate:pipeline-stages": "node scripts/validators/validate-pipeline-stages.js",
     "validate:all": "node scripts/validators/validate-all.js",
     "audit:seo": "npm run validate:all -- --verbose"
   },
