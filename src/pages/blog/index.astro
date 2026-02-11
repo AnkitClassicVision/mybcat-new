@@ -1,6 +1,7 @@
 ---
 import Base from '@/layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import Pagination from '@/components/blog/Pagination.astro';
 
 // Use centralized visibility logic from utils
 import { isPostVisible } from '@utils/blog';
@@ -12,7 +13,7 @@ const allPosts = (await getCollection('blog'))
 
 // Show first 18 posts on main page for faster loading
 const posts = allPosts.slice(0, 18);
-const hasMorePosts = allPosts.length > 18;
+const totalPages = Math.ceil(allPosts.length / 18);
 
 // Get unique categories
 const categories = [...new Set(allPosts.map(post => post.data.category))];
@@ -22,6 +23,9 @@ const categories = [...new Set(allPosts.map(post => post.data.category))];
   title="Healthcare Practice Growth Blog | MyBCAT"
   description="Expert insights on patient intake, practice growth, and healthcare operations. Learn how to fill your appointment book and scale your multi-location practice."
 >
+  <Fragment slot="head">
+    {totalPages > 1 && <link rel="next" href="/blog/page/2/" />}
+  </Fragment>
   <main id="main-content" class="blog-page">
     <header class="blog-header">
       <div class="header-content">
@@ -92,11 +96,7 @@ const categories = [...new Set(allPosts.map(post => post.data.category))];
         </div>
       )}
 
-      {hasMorePosts && (
-        <div class="load-more">
-          <a href="/blog/archive/" class="load-more-button">View All {allPosts.length} Posts</a>
-        </div>
-      )}
+      <Pagination currentPage={1} totalPages={totalPages} basePath="/blog/" pagePathPrefix="page/" />
     </div>
 
     <!-- Browse by Category -->

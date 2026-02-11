@@ -255,7 +255,20 @@ const combinedSchema = {
               <a href={`/blog/${post.slug}/`} class="article-card">
                 {post.data.featuredImage && (
                   <div class="article-image">
-                    <img src={post.data.featuredImage} alt={post.data.title} loading="lazy" />
+                    <picture>
+                      <source
+                        srcset={post.data.featuredImage.replace(/\.(png|jpg|jpeg)$/i, '.webp')}
+                        type="image/webp"
+                      />
+                      <img
+                        src={post.data.featuredImage}
+                        alt={post.data.title}
+                        width="320"
+                        height="180"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </picture>
                   </div>
                 )}
                 <div class="article-content">

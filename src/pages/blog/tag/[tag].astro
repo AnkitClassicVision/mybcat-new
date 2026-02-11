@@ -43,13 +43,82 @@ const tagPosts = allPosts.filter(post => {
 // Sort by publish date descending
 tagPosts.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
 
-// Convert slug back to display name (capitalize words)
-const displayTag = tag.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+const acronymMap: Record<string, string> = {
+  ai: 'AI',
+  baa: 'BAA',
+  bpo: 'BPO',
+  cls: 'CLS',
+  dso: 'DSO',
+  ehr: 'EHR',
+  ent: 'ENT',
+  gdpr: 'GDPR',
+  hipaa: 'HIPAA',
+  kpi: 'KPI',
+  kpis: 'KPIs',
+  pe: 'PE',
+  roi: 'ROI',
+  sla: 'SLA',
+  sms: 'SMS',
+  vsp: 'VSP',
+};
+
+function toDisplayTag(slug: string): string {
+  const normalized = slug.toLowerCase();
+  if (normalized === 'm-and-a') return 'M&A';
+
+  return normalized
+    .split('-')
+    .map((word) => acronymMap[word] || (word.charAt(0).toUpperCase() + word.slice(1)))
+    .join(' ');
+}
+
+function pickBestMeta(options: string[], min: number, max: number): string {
+  for (const option of options) {
+    const trimmed = option.trim();
+    if (trimmed.length >= min && trimmed.length <= max) return trimmed;
+  }
+
+  // If nothing fits, prefer the shortest option under max; otherwise, fall back to the first option.
+  const underMax = options.map(o => o.trim()).filter(o => o.length <= max).sort((a, b) => a.length - b.length);
+  return underMax[0] || options[0].trim();
+}
+
+function clampWords(text: string, maxLen: number): string {
+  if (text.length <= maxLen) return text;
+  const words = text.split(/\s+/);
+  let out = '';
+  for (const word of words) {
+    const next = out ? `${out} ${word}` : word;
+    if (next.length > maxLen) break;
+    out = next;
+  }
+  return out || text.slice(0, maxLen);
+}
+
+// Convert slug back to display name (with acronym handling).
+const displayTag = toDisplayTag(tag);
+const shortTag = clampWords(displayTag, 40);
+
+const titleOptions = [
+  `${shortTag} Articles for Healthcare Practices | ${company.shortName}`,
+  `Healthcare ${shortTag} Articles | ${company.shortName}`,
+  `${shortTag} Articles | ${company.shortName}`,
+  `${shortTag} | ${company.shortName}`,
+];
+
+const descriptionOptions = [
+  `Expert articles on ${shortTag} for healthcare practices. Workflows and tactics to improve intake, scheduling, and recall.`,
+  `Browse ${tagPosts.length} articles on ${shortTag}. Playbooks for multi-location healthcare groups to improve patient access and revenue.`,
+  `${company.shortName} insights on ${shortTag}. Strategies and templates to reduce missed calls and fill schedules across every location.`,
+];
+
+const metaTitle = pickBestMeta(titleOptions, 30, 60);
+const metaDescription = pickBestMeta(descriptionOptions, 120, 160);
 ---
 
 <Base
-  title={`${displayTag} Articles | ${company.shortName} Blog`}
-  description={`Explore expert articles about ${displayTag} for healthcare practices. Strategies, tips, and case studies to improve operations and grow your practice.`}
+  title={metaTitle}
+  description={metaDescription}
 >
   <main id="main-content" class="tag-page">
     <header class="tag-header">

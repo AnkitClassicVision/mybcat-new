@@ -122,7 +122,6 @@ const description = 'Complete sitemap of MyBCAT website. Find all pages includin
           <h2>Blog Categories</h2>
           <ul>
             <li><a href="/blog/">All Blog Posts</a></li>
-            <li><a href="/blog/archive/">Blog Archive</a></li>
             {blogCategories.map(category => (
               <li><a href={`/blog/category/${category.toLowerCase().replace(/\s+/g, '-')}/`}>{category}</a></li>
             ))}
@@ -137,7 +136,7 @@ const description = 'Complete sitemap of MyBCAT website. Find all pages includin
               <li><a href={`/blog/${post.slug}/`}>{post.data.title}</a></li>
             ))}
           </ul>
-          <p class="more-link"><a href="/blog/archive/">View all blog posts →</a></p>
+          <p class="more-link"><a href="/blog/">View all blog posts →</a></p>
         </section>
 
         <!-- Glossary -->

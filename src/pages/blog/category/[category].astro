@@ -33,15 +33,15 @@ const categoryMeta: Record<string, { title: string; description: string; }> = {
   },
   'Growth': {
     title: 'Practice Growth & Revenue',
-    description: 'Strategies for growing your healthcare practice, increasing patient acquisition, and maximizing revenue opportunities.'
+    description: 'Strategies for growing your healthcare practice, increasing patient acquisition, and maximizing revenue opportunities across every location.'
   },
   'Practice Growth': {
     title: 'Practice Growth Strategies',
-    description: 'Proven strategies for scaling your healthcare practice, from patient acquisition to revenue optimization.'
+    description: 'Proven strategies for scaling your healthcare practice, from patient acquisition to revenue optimization. Built for multi-location healthcare groups.'
   },
   'Industry': {
     title: 'Industry News & Trends',
-    description: 'Stay updated on healthcare industry trends, regulations, and developments affecting medical and specialty practices.'
+    description: 'Stay updated on healthcare industry trends, regulations, and developments affecting medical and specialty practices across the U.S.'
   },
   'Practice Management': {
     title: 'Practice Management',
@@ -49,19 +49,19 @@ const categoryMeta: Record<string, { title: string; description: string; }> = {
   },
   'Analytics': {
     title: 'Analytics & Data Insights',
-    description: 'Data-driven insights, KPI tracking, and analytics strategies for optimizing healthcare practice performance.'
+    description: 'Data-driven insights, KPI tracking, and analytics strategies for optimizing healthcare practice performance and patient access operations.'
   },
   'Case Study': {
-    title: 'Case Studies',
+    title: 'Healthcare Practice Case Studies',
     description: 'Real-world success stories and detailed case studies from healthcare practices using MyBCAT solutions to improve patient intake and grow revenue.'
   },
   'Optometry': {
     title: 'Optometry Practice Insights',
-    description: 'Specialized content for optometry practices covering patient care, operations, and growth strategies.'
+    description: 'Specialized content for optometry practices covering patient care, operations, and growth strategies to help fill schedules and reduce missed calls.'
   },
   'Dental': {
     title: 'Dental Practice Insights',
-    description: 'Specialized content for dental practices covering patient experience, operations, and practice growth.'
+    description: 'Specialized content for dental practices covering patient experience, operations, and practice growth to capture more calls and appointments.'
   },
   'Enterprise': {
     title: 'Enterprise & Multi-Location Operations',
@@ -184,7 +184,20 @@ const categoryCounts = allPosts.reduce((acc, post) => {
             <article class="post-card">
               {post.data.featuredImage && (
                 <a href={`/blog/${post.slug}/`} class="post-image">
-                  <img src={post.data.featuredImage} alt={post.data.title} loading="lazy" />
+                  <picture>
+                    <source
+                      srcset={post.data.featuredImage.replace(/\.(png|jpg|jpeg)$/i, '.webp')}
+                      type="image/webp"
+                    />
+                    <img
+                      src={post.data.featuredImage}
+                      alt={post.data.title}
+                      width="400"
+                      height="250"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
                 </a>
               )}
               <div class="post-content">

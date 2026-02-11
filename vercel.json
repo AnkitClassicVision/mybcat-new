@@ -103,6 +103,46 @@
   ],
   "redirects": [
     {
+      "source": "/blog/archive",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/archive/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/archive/:page(\\d+)",
+      "destination": "/blog/page/:page/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/archive/:page(\\d+)/",
+      "destination": "/blog/page/:page/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/1",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/1/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
       "source": "/case-studies/midwest-dental-partners/",
       "destination": "/case-studies/multi-location-dental-dso/",
       "statusCode": 301

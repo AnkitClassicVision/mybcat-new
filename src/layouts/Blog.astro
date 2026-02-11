@@ -26,6 +26,12 @@ const shouldNoindex = !isPostVisible(post.data);
 // This allows short, keyword-optimized titles for search results
 // while keeping descriptive titles on the page
 const pageTitle = seoTitle || title;
+
+// Keep the rendered <title> within common SEO length guidance (30–60 chars).
+// Prefer including the brand suffix, but avoid pushing otherwise-good titles over the limit.
+const brandSuffix = ' | MyBCAT';
+const titleWithBrand = `${pageTitle}${brandSuffix}`;
+const metaTitle = titleWithBrand.length <= 60 ? titleWithBrand : pageTitle;
 const metaDescription = seoDescription || description;
 
 // Calculate reading time and word count (rough estimate: 200 words per minute)
@@ -87,7 +93,7 @@ const authorInfo = authorData[author] || { role: '', image: '' };
 ---
 
 <Base
-  title={`${pageTitle} | MyBCAT`}
+  title={metaTitle}
   description={metaDescription}
   ogType="article"
   ogImage={featuredImage}
