@@ -8,6 +8,7 @@ import Card from '@/components/Card.astro';
 import CTA from '@/components/sections/CTA.astro';
 import { glossaryTerms, getRelatedTerms, type GlossaryTerm } from '@data/glossary';
 import { solutions } from '@data/solutions';
+import { company } from '@data/company';
 
 export function getStaticPaths() {
   return glossaryTerms.map(term => ({
@@ -44,11 +45,74 @@ const otherTerms = glossaryTerms
   .filter(t => t.slug !== term.slug)
   .sort(() => Math.random() - 0.5)
   .slice(0, 4);
+
+function pickBestMeta(options: string[], min: number, max: number): string {
+  for (const option of options) {
+    const trimmed = option.trim();
+    if (trimmed.length >= min && trimmed.length <= max) return trimmed;
+  }
+
+  // Prefer the shortest option under max; otherwise fall back to the first option.
+  const underMax = options
+    .map(o => o.trim())
+    .filter(o => o.length <= max)
+    .sort((a, b) => a.length - b.length);
+  return underMax[0] || options[0].trim();
+}
+
+function clampWords(text: string, maxLen: number): string {
+  if (text.length <= maxLen) return text;
+  const words = text.split(/\s+/);
+  let out = '';
+  for (const word of words) {
+    const next = out ? `${out} ${word}` : word;
+    if (next.length > maxLen) break;
+    out = next;
+  }
+  return out || text.slice(0, maxLen);
+}
+
+function normalizeSpaces(text: string): string {
+  return text.trim().replace(/\s+/g, ' ');
+}
+
+function buildMetaDescription(definition: string): string {
+  let out = normalizeSpaces(definition);
+
+  const suffixes = [
+    ' Learn how it affects patient intake and operations.',
+    ' Learn why it matters for healthcare practices.',
+    ' See a clear definition and examples.',
+  ];
+
+  for (const suffix of suffixes) {
+    if (out.length >= 120) break;
+    const candidate = `${out}${suffix}`;
+    if (candidate.length <= 160) out = candidate;
+  }
+
+  if (out.length > 160) {
+    out = clampWords(out, 160).replace(/[\s.,;:!?]+$/, '');
+    if (out && !/[.!?]$/.test(out)) out = `${out}.`;
+  }
+
+  return out;
+}
+
+const titleOptions = [
+  `${term.term} in Healthcare: Definition | ${company.shortName}`,
+  `${term.term} Definition | ${company.shortName}`,
+  `${term.term} Meaning | ${company.shortName}`,
+  `${term.term} | ${company.shortName} Glossary`,
+];
+
+const metaTitle = pickBestMeta(titleOptions, 30, 60);
+const metaDescription = buildMetaDescription(term.definition);
 ---
 
 <PageLayout
-  title={`${term.term} - Definition | MyBCAT Glossary`}
-  description={term.definition.length > 155 ? term.definition.slice(0, 152) + '...' : term.definition}
+  title={metaTitle}
+  description={metaDescription}
   breadcrumbs={[
     { name: 'Home', url: '/' },
     { name: 'Glossary', url: '/glossary/' },

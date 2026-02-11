@@ -46,7 +46,7 @@ export const enterpriseHub = {
   title: 'Multi-Location Patient Operations',
   headline: 'One Team. Every Location. Every Call.',
   tagline: 'Centralized patient operations for healthcare groups scaling from 3 to 300 locations',
-  metaDescription: 'Centralized patient operations for DSOs and multi-location practices. One team for calls, scheduling, intake.',
+  metaDescription: 'Centralized patient operations for DSOs and multi-location healthcare groups. One team handles calls, scheduling, intake, and reporting across your locations.',
   primaryKeyword: 'centralized healthcare call center',
   secondaryKeywords: [
     'multi-location medical answering service',

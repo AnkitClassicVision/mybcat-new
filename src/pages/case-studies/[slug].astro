@@ -33,6 +33,46 @@ const relatedSolutions = study.relatedSolutions
   .map(slug => getSolutionBySlug(slug))
   .filter(Boolean);
 
+function normalizeSpaces(text: string): string {
+  return text.trim().replace(/\s+/g, ' ');
+}
+
+function clampWords(text: string, maxLen: number): string {
+  if (text.length <= maxLen) return text;
+  const words = text.split(/\s+/);
+  let out = '';
+  for (const word of words) {
+    const next = out ? `${out} ${word}` : word;
+    if (next.length > maxLen) break;
+    out = next;
+  }
+  return out || text.slice(0, maxLen);
+}
+
+function buildMetaDescription(): string {
+  let out = normalizeSpaces(`${study.client} case study: ${study.challenge}`);
+
+  const suffixes = [
+    ' See what we implemented and the results.',
+    ` Built for ${study.industry.toLowerCase()} groups and multi-location operations.`,
+  ];
+
+  for (const suffix of suffixes) {
+    if (out.length >= 120) break;
+    const candidate = `${out}${suffix}`;
+    if (candidate.length <= 160) out = candidate;
+  }
+
+  if (out.length > 160) {
+    out = clampWords(out, 160).replace(/[\s.,;:!?]+$/, '');
+    if (out && !/[.!?]$/.test(out)) out = `${out}.`;
+  }
+
+  return out;
+}
+
+const metaDescription = buildMetaDescription();
+
 // Generate schema
 const articleSchema = generateArticleSchema({
   headline: study.title,
@@ -46,7 +86,7 @@ const articleSchema = generateArticleSchema({
 
 <PageLayout
   title={`${study.client} Case Study | MyBCAT`}
-  description={`${study.client} case study: ${study.challenge.slice(0, 115)}...`}
+  description={metaDescription}
   breadcrumbs={[
     { name: 'Home', url: '/' },
     { name: 'Case Studies', url: '/case-studies/' },

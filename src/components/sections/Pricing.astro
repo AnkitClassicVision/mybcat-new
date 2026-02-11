@@ -18,13 +18,19 @@ const {
   title = 'Plans That Scale With You',
   eyebrow = 'Transparent Pricing'
 } = Astro.props;
+
+const titleText = title.trim();
+const eyebrowText = eyebrow.trim();
+const showIntro = Boolean(titleText) || Boolean(eyebrowText);
 ---
 
 <section class="pricing-section" id="pricing">
-  <div class="section-intro">
-    <div class="section-intro-eyebrow">{eyebrow}</div>
-    <h2 class="section-intro-title">{title}</h2>
-  </div>
+  {showIntro && (
+    <div class="section-intro">
+      {eyebrowText && <div class="section-intro-eyebrow">{eyebrowText}</div>}
+      {titleText && <h2 class="section-intro-title">{titleText}</h2>}
+    </div>
+  )}
 
   <div class="pricing-grid">
     {tiers.map(tier => (

@@ -95,6 +95,36 @@ function clampWords(text: string, maxLen: number): string {
   return out || text.slice(0, maxLen);
 }
 
+function normalizeSpaces(text: string): string {
+  return text.trim().replace(/\s+/g, ' ');
+}
+
+function ensureMetaDescriptionLength(description: string, min: number, max: number): string {
+  let out = normalizeSpaces(description);
+
+  if (out.length > max) {
+    out = clampWords(out, max).replace(/[\s.,;:!?]+$/, '');
+    if (out && !/[.!?]$/.test(out)) out = `${out}.`;
+  }
+
+  if (out.length < min) {
+    const suffixes = [
+      ' Built for multi-location healthcare teams.',
+      ' Practical templates and benchmarks included.',
+      ' See workflows you can apply this week.',
+    ];
+
+    for (const suffix of suffixes) {
+      const candidate = `${out}${suffix}`;
+      if (candidate.length > max) continue;
+      out = candidate;
+      if (out.length >= min) break;
+    }
+  }
+
+  return out;
+}
+
 // Convert slug back to display name (with acronym handling).
 const displayTag = toDisplayTag(tag);
 const shortTag = clampWords(displayTag, 40);
@@ -107,13 +137,17 @@ const titleOptions = [
 ];
 
 const descriptionOptions = [
-  `Expert articles on ${shortTag} for healthcare practices. Workflows and tactics to improve intake, scheduling, and recall.`,
-  `Browse ${tagPosts.length} articles on ${shortTag}. Playbooks for multi-location healthcare groups to improve patient access and revenue.`,
-  `${company.shortName} insights on ${shortTag}. Strategies and templates to reduce missed calls and fill schedules across every location.`,
+  `Browse ${tagPosts.length} ${tagPosts.length === 1 ? 'article' : 'articles'} on ${shortTag}. Practical playbooks and templates to improve intake, scheduling, recall, and revenue for healthcare practices.`,
+  `${company.shortName} insights on ${shortTag} for multi-location healthcare groups. Benchmarks and workflows to improve patient access and reduce missed calls.`,
+  `Articles on ${shortTag} from ${company.shortName}. Strategies and checklists to improve patient intake operations across optometry, dental, veterinary, and more.`,
 ];
 
 const metaTitle = pickBestMeta(titleOptions, 30, 60);
-const metaDescription = pickBestMeta(descriptionOptions, 120, 160);
+const metaDescription = ensureMetaDescriptionLength(
+  pickBestMeta(descriptionOptions, 120, 160),
+  120,
+  160
+);
 ---
 
 <Base

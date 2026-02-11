@@ -51,11 +51,13 @@ const categories = [...new Set(allPosts.map(post => post.data.category))];
 const prevUrl = pageNum === 2 ? '/blog/' : `/blog/page/${pageNum - 1}/`;
 const nextUrl = pageNum < totalPages ? `/blog/page/${pageNum + 1}/` : null;
 const canonical = `https://mybcat.com/blog/page/${pageNum}/`;
+
+const metaDescription = `Expert insights on patient intake, practice growth, and healthcare operations. Page ${pageNum} of ${totalPages}: browse older playbooks to fill schedules and scale.`;
 ---
 
 <Base
   title={`Healthcare Practice Growth Blog - Page ${pageNum} | MyBCAT`}
-  description="Expert insights on patient intake, practice growth, and healthcare operations. Learn how to fill your appointment book and scale your multi-location practice."
+  description={metaDescription}
   canonical={canonical}
 >
   <Fragment slot="head">

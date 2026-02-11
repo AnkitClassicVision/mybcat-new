@@ -115,6 +115,9 @@ const categories = [...new Set(allPosts.map(post => post.data.category))];
             );
           })}
         </div>
+        <div class="browse-tags-row">
+          <a href="/blog/tags/" class="browse-tags-link">Browse by tag →</a>
+        </div>
       </div>
     </section>
 
@@ -470,6 +473,32 @@ const categories = [...new Set(allPosts.map(post => post.data.category))];
 
   .category-card:hover .category-card-count {
     color: rgba(255, 255, 255, 0.8);
+  }
+
+  .browse-tags-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+  }
+
+  .browse-tags-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid var(--glass-border);
+    color: var(--navy-900);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+
+  .browse-tags-link:hover {
+    background: var(--navy-900);
+    color: white;
+    border-color: var(--navy-900);
   }
 
   /* Responsive */

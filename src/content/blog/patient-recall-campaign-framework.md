@@ -24,7 +24,7 @@ relatedPosts:
   - centralized-patient-recall-multi-location
 ---
 
-Healthcare practices lose 10-17% of their patient base every year to attrition. For a practice with 2,000 active patients and an average lifetime value of $4,200, that translates to $840,000 walking out the door annually. The solution is not more marketing spend on new patient acquisition. It is a systematic patient recall campaign that brings dormant patients back at a fraction of the cost.
+Healthcare practices lose 10-17% of their patient base every year to attrition. For a practice with 2,000 active patients and an average patient lifetime value of about $4,200 (often cited in the $2,000-$5,000 range for dental), that can translate to roughly $840,000 walking out the door annually. The solution is not more marketing spend on new patient acquisition. It is a systematic patient recall campaign that brings dormant patients back at a fraction of the cost.
 
 This framework breaks down exactly how to build recall campaigns that work, including the channel mix, timing sequences, and messaging strategies that top-performing practices use to achieve reactivation rates of 20-30%.
 
@@ -291,7 +291,7 @@ Patient recall does not exist in isolation. It connects to every other aspect of
 
 ## Sources
 
-- [Delmain: Average Lifetime Value of a Dental Patient](https://delmain.co/blog/average-lifetime-value-dental-patient/)
+- [Overjet: Boost Patient Lifetime Value With Dental AI](https://www.overjet.com/blog/boost-patient-lifetime-value-with-dental-ai)
 - [Artisan Growth Strategies: Healthcare Patient Acquisition and Retention Costs](https://www.artisangrowthstrategies.com/blog/healthcare-patient-acquisition-retention-costs-statistics-trends)
 - [Arini AI: Improve Patient Retention and Recall Rate](https://www.arini.ai/blog/improve-patient-retention-recall-rate-dental-clinics)
 - [Dentx: Dental Recall Rate Benchmarks](https://dentx.ca/blog/dental-recall-rate-benchmarks/)
@@ -302,13 +302,5 @@ Patient recall does not exist in isolation. It connects to every other aspect of
 - [Dental Tribune: Automated Appointment Reminders Study](https://us.dental-tribune.com/news/study-reveals-how-automated-patient-appointment-reminders-affect-dental-practice-no-show-rates-and-production/)
 
 ---
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Reactivate Your Dormant Patients?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices recover revenue from dormant patients with automated recall campaigns and 24/7 call answering.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
 
 > **Losing patients to poor recall?** [See our multi-location recall solution](/enterprise/multi-location-recall/)
