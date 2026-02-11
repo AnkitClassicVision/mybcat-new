@@ -491,7 +491,7 @@ The Practice Manager often determines integration success or failure. They may:
 
 ## Key Takeaways
 
-- **Flip the sequence**: Standardize intake workflows first, migrate PM systems second. According to [Bain & Company's 2025 Healthcare PE Report](https://www.bain.com/insights/topics/global-healthcare-private-equity-report/), integration speed directly correlates with deal value creation.
+- **Flip the sequence**: Standardize intake workflows first, migrate PM systems second. Faster operational integration accelerates value capture without disrupting patient-facing operations.
 - **90 days is achievable**: With proper framework and focus. See our [90-day integration playbook](/blog/90-day-integration-playbook-healthcare-acquisitions/) for the detailed week-by-week timeline.
 - **People over process**: Change management is as important as process design
 - **Measure from Day 1**: You can't improve what you don't measure. Use our [KPI dashboard framework](/blog/kpi-dashboard-multi-location-intake/) to track from the start.
@@ -546,13 +546,13 @@ For PE-backed DSOs, recovered revenue from improved intake flows directly to EBI
 
 *Last Updated: January 2026*
 
-*Sources: [Bain & Company - Healthcare Private Equity](https://www.bain.com/insights/topics/global-healthcare-private-equity-report/), [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
+*Sources: [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
 
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
   <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Scale Your Intake Operations?</h3>
   <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps multi-location healthcare groups achieve 95%+ answer rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
+  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->

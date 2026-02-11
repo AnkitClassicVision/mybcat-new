@@ -93,4 +93,4 @@ When integrating virtual assistants into your optometry practice, use audits and
 
 ---
 
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
+*Need help managing your practice's calls and scheduling? [Book a discovery call](/contact/) to learn how MyBCAT can help.*

@@ -199,7 +199,7 @@ function normalizeUrl(url: string | undefined): string | undefined {
  *   { name: 'Medical Answering Service' }
  * ])
  */
-export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
+export function generateBreadcrumbSchema(items: BreadcrumbItem[], currentUrl?: string) {
   const homeItem = { name: 'Home', url: company.site.url };
 
   // Skip adding Home if it's already the first item (prevents "Home > Home" duplication)
@@ -211,19 +211,22 @@ export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
     allItems = [homeItem, ...items];
   }
 
+  const normalizedCurrentUrl = normalizeUrl(currentUrl);
+
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: allItems.map((item, index) => {
       const isLastItem = index === allItems.length - 1;
       const normalizedUrl = normalizeUrl(item.url);
+      const itemUrl = normalizedUrl || (isLastItem ? normalizedCurrentUrl : undefined);
 
       return {
         '@type': 'ListItem',
         position: index + 1,
         name: item.name,
-        // Only include 'item' URL for non-last items that have a URL
-        ...(normalizedUrl && !isLastItem && { item: normalizedUrl })
+        // Include `item` for every crumb (including the current page) to satisfy common validators.
+        ...(itemUrl && { item: itemUrl })
       };
     })
   };

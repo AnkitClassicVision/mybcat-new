@@ -74,7 +74,7 @@ const articleSchema = generateArticleSchema({
 const breadcrumbSchema = generateBreadcrumbSchema([
   { name: 'Blog', url: '/blog/' },
   { name: title }
-]);
+], articleUrl);
 
 const schema = combineSchemas(articleSchema, breadcrumbSchema);
 

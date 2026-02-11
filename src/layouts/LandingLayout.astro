@@ -6,6 +6,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumb from '@/components/common/Breadcrumb.astro';
 import { generateBreadcrumbSchema, generateServiceSchema, serializeSchema, combineSchemas } from '@utils/schema';
+import { company } from '@data/company';
 
 interface BreadcrumbItem {
   name: string;
@@ -38,21 +39,24 @@ const {
 
 const hasBreadcrumbs = breadcrumbs.length > 0;
 const hasService = serviceName && serviceDescription;
-const trailingPath = Astro.url.pathname.endsWith('/') || Astro.url.pathname.includes('.')
-  ? Astro.url.pathname
-  : `${Astro.url.pathname}/`;
+
+const siteUrl = company.site.url;
+let pathname = Astro.url.pathname;
+if (!pathname.endsWith('/') && !pathname.includes('.')) {
+  pathname += '/';
+}
+const canonicalUrl = canonical || new URL(pathname, siteUrl).href;
 
 // Build combined schema
 const schemas: object[] = [];
 if (hasBreadcrumbs) {
-  schemas.push(generateBreadcrumbSchema(breadcrumbs));
+  schemas.push(generateBreadcrumbSchema(breadcrumbs, canonicalUrl));
 }
 if (hasService) {
-  const currentUrl = `https://mybcat.com${trailingPath}`;
   schemas.push(generateServiceSchema({
     name: serviceName,
     description: serviceDescription,
-    url: currentUrl,
+    url: canonicalUrl,
     serviceType
   }));
 }

@@ -48,7 +48,7 @@ const breadcrumbs = [
 
 // Schemas
 const schemas = combineSchemas(
-  generateBreadcrumbSchema(breadcrumbs),
+  generateBreadcrumbSchema(breadcrumbs, postUrl),
   generateArticleSchema({
     headline: title,
     description,

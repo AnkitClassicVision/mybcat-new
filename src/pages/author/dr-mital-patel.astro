@@ -61,45 +61,14 @@ const personSchema = {
     }
   ]
 };
-
-const breadcrumbSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      name: 'Home',
-      item: company.site.url
-    },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      name: 'Dr. Mital Patel',
-      item: `${company.site.url}/author/dr-mital-patel/`
-    }
-  ]
-};
-
-const combinedSchema = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    { ...personSchema, '@context': undefined },
-    { ...breadcrumbSchema, '@context': undefined }
-  ]
-};
 ---
 
 <PageLayout
   title="Dr. Mital Patel | Clinical Advisor, OD | MyBCAT"
   description="Dr. Mital Patel, OD, co-founder of Classic Vision Care. Clinical advisor to MyBCAT, bringing real-world optometry expertise to healthcare operations."
-  breadcrumbs={[
-    { name: 'Home', url: '/' },
-    { name: 'Authors' },
-    { name: 'Dr. Mital Patel' }
-  ]}
+  breadcrumbs={[{ name: 'Dr. Mital Patel' }]}
 >
-  <script type="application/ld+json" set:html={serializeSchema(combinedSchema)} slot="head" />
+  <script type="application/ld+json" set:html={serializeSchema(personSchema)} slot="head" />
 
   <div class="author-page">
     <!-- Hero Section -->

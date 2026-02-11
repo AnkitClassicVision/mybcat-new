@@ -6,6 +6,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumb from '@/components/common/Breadcrumb.astro';
 import { generateBreadcrumbSchema, serializeSchema } from '@utils/schema';
+import { company } from '@data/company';
 
 interface BreadcrumbItem {
   name: string;
@@ -40,6 +41,13 @@ const {
 
 const hasBreadcrumbs = showBreadcrumb && breadcrumbs.length > 0;
 const hasHero = heroTitle || heroSubtitle;
+
+const siteUrl = company.site.url;
+let pathname = Astro.url.pathname;
+if (!pathname.endsWith('/') && !pathname.includes('.')) {
+  pathname += '/';
+}
+const canonicalUrl = canonical || new URL(pathname, siteUrl).href;
 ---
 
 <BaseLayout
@@ -52,7 +60,7 @@ const hasHero = heroTitle || heroSubtitle;
   <slot name="head" slot="head" />
 
   {hasBreadcrumbs && (
-    <script type="application/ld+json" set:html={serializeSchema(generateBreadcrumbSchema(breadcrumbs))} />
+    <script type="application/ld+json" set:html={serializeSchema(generateBreadcrumbSchema(breadcrumbs, canonicalUrl))} />
   )}
 
   <main id="main-content" class="page-main">
