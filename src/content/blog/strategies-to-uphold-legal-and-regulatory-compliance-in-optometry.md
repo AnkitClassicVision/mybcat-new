@@ -47,7 +47,7 @@ Regular staff training to maintain compliance is an important consideration for 
 
 In addition to training, it’s useful to create a culture of compliance within the clinic. When compliance is part of the practice's core ethos it reinforces the importance of these measures every day. For instance, management can introduce 'Compliance Champions' within teams or employ internal auditing systems that allow staff to report non-compliance without repercussions.
 
-**Strategy 1**: Implement a [Learning Management System](https://www.relias.com/solutions/learning-performance) (LMS) focused on healthcare compliance. These platforms offer tailored modules that educate staff on various aspects of compliance, from data security to patient interaction.
+**Strategy 1**: Implement a [Learning Management System](https://www.relias.com/solutions/healthcare-learning) (LMS) focused on healthcare compliance. These platforms offer tailored modules that educate staff on various aspects of compliance, from data security to patient interaction.
 
 **Strategy 2**: Introduce an internal reward system for 'Compliance Champions.' Staff who identify and report non-compliance issues can be rewarded, fostering a culture of proactive compliance.
 

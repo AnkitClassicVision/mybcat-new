@@ -33,7 +33,7 @@ Administrative duties can become growing distractions that internally affect how
 
 - **Focusing On Two Things at Once**
 
-As mentioned, administrative tasks require a different set of skills. Attending these future events can split your focus, compromising your quality of care and putting you and your health team at a higher risk of [burnout](https://www.mindtools.com/apt37nj/avoiding-burnout). Outsourcing these duties allows you to focus on your level of service. For practices with [multiple locations, centralized intake systems](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) can distribute this administrative burden efficiently.
+As mentioned, administrative tasks require a different set of skills. Attending these future events can split your focus, compromising your quality of care and putting you and your health team at a higher risk of [burnout](https://www.mindtools.com/apt37nj/avoiding-burnout/). Outsourcing these duties allows you to focus on your level of service. For practices with [multiple locations, centralized intake systems](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) can distribute this administrative burden efficiently.
 
 We want your optometry practice to flourish. Learn more about how we can help you achieve this goal. [Contact us](/contact/) today!
 

@@ -24,7 +24,7 @@ High in-house capture rates also foster patient loyalty, retention, and positive
 
 ## How to Improve Capture Rate  
 
-With [capture rates typically between 50-55% for most eye clinics](https://www.first-insight.com/blog/calculate-increase-optical-capture-rate/), there’s lots of room to improve. Here are several key strategies a small business or private practice can implement to boost capture rates.
+With [capture rates typically between 50-55% for most eye clinics](https://www.maximeyes.com/blog/calculate-increase-optical-capture-rate/), there’s lots of room to improve. Here are several key strategies a small business or private practice can implement to boost capture rates.
 
 ### Educate staff on the latest lens options and new frames
 

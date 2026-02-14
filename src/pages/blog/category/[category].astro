@@ -133,6 +133,7 @@ const categoryCounts = allPosts.reduce((acc, post) => {
 <Base
   title={`${meta.title} | MyBCAT Blog`}
   description={meta.description}
+  noindex={categoryPosts.length === 0}
 >
   <main id="main-content" class="category-page">
     <header class="category-header">

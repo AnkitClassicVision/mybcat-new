@@ -470,11 +470,11 @@ For implementation of centralized call center operations, see our centralized pa
 
 ## Sources
 
-- [Call Criteria: Call Center ROI](https://callcriteria.com/call-center-roi/)
+- [Call Criteria: Call Center ROI](https://capacity.com/qa-agent-tools/?company=callcriteria.com)
 - [Kimedics: Calculating ROI of Clinical Operations](https://www.kimedics.com/blog/calculating-the-roi-of-modern-clinical-operations)
 - [K38 Consulting: Healthcare Technology ROI](https://k38consulting.com/how-to-calculate-healthcare-technology-roi/)
 - [Invensis: Measuring Call Center ROI](https://www.invensis.net/blog/how-to-measure-and-boost-the-roi-of-your-call-center)
 - [Balto: Measuring ROI of Customer Service](https://www.balto.ai/blog/measure-roi-of-customer-service/)
 - [Genesys: Call Center Solution ROI](https://www.genesys.com/blog/post/calculate-your-call-center-solution-roi-in-5-minutes-or-less)
-- [ROI Institute: Measuring ROI in Healthcare](https://roiinstitute.net/wp-content/uploads/2021/09/Measuring-ROI-in-Healthcare_chapter-one.pdf)
+- ROI Institute: Measuring ROI in Healthcare
 

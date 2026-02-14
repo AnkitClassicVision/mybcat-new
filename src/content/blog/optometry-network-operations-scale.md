@@ -450,6 +450,6 @@ For retention strategies at scale, see our DSO patient retention strategy guide.
 - [Adams Brown: Smarter Tech for Eye Care Practice](https://www.adamsbrowntech.com/blog/smarter-tech-for-your-eye-care-practice/)
 - [Your Total Vision: Streamlining Optometry Operations](https://yourtotalvision.com/10-tips-to-streamline-business-operations-in-your-optometry-practice/)
 - [Simbo AI: IT Management in Optometry](https://www.simbo.ai/blog/it-management-in-optometry-practices-a-comprehensive-guide/)
-- [Review of Optometric Business: Multi-Location Management](https://www.reviewob.com)
+- [Review of Optometric Business: Multi-Location Management](https://reviewob.com/)
 - [Vision Monday: Eye Care Industry Trends](https://www.visionmonday.com)
 

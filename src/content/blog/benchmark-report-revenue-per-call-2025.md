@@ -340,7 +340,7 @@ Revenue Per Call = Total Revenue (Period) / Total Incoming Calls (Period)
 
 - **Calculate your own benchmark.** Total revenue divided by total calls gives your baseline. Compare to specialty benchmarks to identify opportunity. Our [KPI dashboard guide](/blog/kpi-dashboard-multi-location-intake/) shows how to track these metrics systematically.
 
-According to [MGMA benchmarks](https://www.mgma.com/benchmarking), practices with systematic call tracking outperform those without by 15-25%. For optometry groups specifically, see our [retail-clinical intake guide](/blog/optometry-retail-clinical-intake-guide/) for specialty-specific optimization. Multi-location groups should also review our [centralized vs. distributed framework](/blog/centralized-vs-distributed-intake-framework/) for intake structure decisions.
+According to [MGMA benchmarks](https://www.mgma.com/datadive-data-collection-smallpractice), practices with systematic call tracking outperform those without by 15-25%. For optometry groups specifically, see our [retail-clinical intake guide](/blog/optometry-retail-clinical-intake-guide/) for specialty-specific optimization. Multi-location groups should also review our [centralized vs. distributed framework](/blog/centralized-vs-distributed-intake-framework/) for intake structure decisions.
 
 
 <!-- MyBCAT CTA Section -->

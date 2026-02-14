@@ -209,6 +209,34 @@ const nonPublishedSlugs = getNonPublishedSlugs();
 const blogLastModDates = getBlogLastModDates();
 const pageLastModDates = getPageLastModDates();
 
+// Get categories that have published posts (to exclude empty category pages from sitemap)
+function getEmptyCategorySlugs() {
+  const blogDir = path.join(process.cwd(), 'src/content/blog');
+  if (!fs.existsSync(blogDir)) return [];
+
+  const files = fs.readdirSync(blogDir).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+  const categoriesWithPosts = new Set();
+
+  files.forEach(file => {
+    const content = fs.readFileSync(path.join(blogDir, file), 'utf8');
+    const { data } = matter(content);
+    if (data.status === 'published' && data.category) {
+      categoriesWithPosts.add(data.category.toLowerCase().replace(/\s+/g, '-'));
+    }
+  });
+
+  // All possible category slugs from the [category].astro static paths
+  const allCategorySlugs = [
+    'technology', 'virtual-staffing', 'patient-experience', 'operations',
+    'growth', 'practice-growth', 'practice-management', 'analytics',
+    'case-study', 'optometry', 'dental', 'enterprise'
+  ];
+
+  return allCategorySlugs.filter(slug => !categoriesWithPosts.has(slug));
+}
+
+const emptyCategorySlugs = getEmptyCategorySlugs();
+
 // Default lastmod only used as absolute fallback
 const defaultLastMod = '2025-01-01';
 
@@ -228,8 +256,10 @@ export default defineConfig({
         if (page.includes('/idoc-connections-2026/')) return false;
         // Exclude drafts
         if (page.includes('/draft/')) return false;
-        // Exclude empty category pages (no posts exist)
-        if (page.includes('/blog/category/industry')) return false;
+        // Exclude empty category pages (no published posts exist)
+        for (const slug of emptyCategorySlugs) {
+          if (page.includes(`/blog/category/${slug}`)) return false;
+        }
         // Exclude archive pages (these return 308 redirects)
         if (page.includes('/blog/archive/')) return false;
         // Exclude non-published blog posts (scheduled/draft)

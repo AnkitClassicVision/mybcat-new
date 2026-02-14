@@ -32,7 +32,7 @@ Alliances like [Vision Source](https://visionsource.com/), on the other hand, pr
 
 ## **Considerations Before Joining**
 
-When deciding to join an alliance, you ought to consider factors such as cost structures, coverage, vendor relationships, and the group's credibility in the optometry sphere. It's also important to consider your practice's specific needs and whether the alliance caters to them. Joining a buying group often comes with membership dues, such as[ IDOC which charges between $150-450/mo](https://odsonfinance.com/optometry-alliances-buying-groups-who-to-choose-and-why/). However, compare these costs with the potential discounts and benefits you'll gain. Optometric alliances should also maintain solid relationships with reputable vendors, including lens and frame suppliers or even clinical research institutions.
+When deciding to join an alliance, you ought to consider factors such as cost structures, coverage, vendor relationships, and the group's credibility in the optometry sphere. It's also important to consider your practice's specific needs and whether the alliance caters to them. Joining a buying group often comes with membership dues, such as[ IDOC which charges between $150-450/mo](https://practice.odsonfinance.com/practice-consulting/). However, compare these costs with the potential discounts and benefits you'll gain. Optometric alliances should also maintain solid relationships with reputable vendors, including lens and frame suppliers or even clinical research institutions.
 
 ## **Testimonials and First-Hand Experiences**
 

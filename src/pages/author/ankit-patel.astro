@@ -45,7 +45,10 @@ const personSchema = {
     {
       '@type': 'CollegeOrUniversity',
       name: 'Case Western Reserve University',
-      department: 'Weatherhead School of Management'
+      department: {
+        '@type': 'Organization',
+        name: 'Weatherhead School of Management'
+      }
     }
   ],
   knowsAbout: [
