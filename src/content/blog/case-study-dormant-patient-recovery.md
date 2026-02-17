@@ -1,11 +1,14 @@
 ---
-title: "Case Study: 12-Location Optometry Group Recovered $312K"
-seoTitle: "Case Study: Dormant Patient Recovery Without Discounting"
-description: "12-location optometry group recovered 847 dormant patients, $312K revenue in 90 days, no discounts. The exact playbook."
-seoDescription: "Real case study: 12-location optometry group reactivated 847 dormant patients, generated $312K revenue in 90 days without discounting. See the exact campaign"
-publishDate: '2026-02-17'
-status: scheduled
-scheduledDate: '2026-02-17'
+title: 'Case Study: 12-Location Optometry Group Recovered $312K'
+seoTitle: 'Case Study: Dormant Patient Recovery Without Discounting'
+description: >-
+  12-location optometry group recovered 847 dormant patients, $312K revenue in
+  90 days, no discounts. The exact playbook.
+seoDescription: >-
+  Real case study: 12-location optometry group reactivated 847 dormant patients,
+  generated $312K revenue in 90 days without discounting. See the exact campaign
+publishDate: '2026-02-17T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Case Study
 tags:
@@ -15,7 +18,7 @@ tags:
   - practice growth
   - optometry
 featuredImage: /images/blog/case-study-dormant-patient-recovery.webp
-canonical: https://mybcat.com/blog/case-study-dormant-patient-recovery/
+canonical: 'https://mybcat.com/blog/case-study-dormant-patient-recovery/'
 cluster: patient-recall
 relatedPosts:
   - dormant-patient-reactivation
@@ -25,44 +28,21 @@ When Vision Care Partners (name changed for confidentiality) analyzed their pati
 
 ## The Challenge
 
-**Company profile:**
-- 12 optometry locations across three metropolitan areas
-- 28,000 active patients (seen within 18 months)
-- Average revenue per patient: $520 annually
-- Average patient tenure: 5.4 years
-- Existing marketing budget focused on new patient acquisition
+Vision Care Partners operates 12 optometry locations across three metropolitan areas, serving 28,000 active patients who had been seen within the previous 18 months. Their average revenue per patient runs $520 annually, with an average patient tenure of 5.4 years. Like many growing healthcare groups, their marketing budget was focused almost entirely on new patient acquisition.
 
-**The dormant patient problem:**
-A data audit revealed:
-- 4,200 patients not seen in 12-24 months (dormant)
-- 2,100 additional patients not seen in 24+ months (lapsed)
-- Combined: 22% of their "database" was inactive
-- Annual attrition creating a replacement treadmill
+The dormant patient problem became visible during a routine data audit. The team discovered 4,200 patients who had not been seen in 12-24 months and an additional 2,100 patients inactive for more than 24 months. Combined, 22% of their patient database was inactive. The practice was spending heavily to acquire new patients while simultaneously losing existing ones through the back door, creating the classic replacement treadmill that erodes growth.
 
-**What they had tried:**
-- Generic "we miss you" postcards (2% response)
-- Birthday and anniversary emails (minimal engagement)
-- Front desk "call the recall list" initiative (abandoned after 2 weeks)
-
-None of these efforts moved the needle. The practice managers were too busy with daily operations, and the outreach lacked consistency and follow-through.
+Previous efforts to address the problem had produced disappointing results. Generic "we miss you" postcards generated a 2% response rate. Birthday and anniversary emails saw minimal engagement. A front desk initiative to "call the recall list" was abandoned after two weeks because practice managers were too consumed with daily operations to sustain the effort. The outreach lacked consistency, follow-through, and any real measurement of what was working.
 
 ## The Approach
 
-Vision Care Partners engaged a dedicated reactivation team to execute a 90-day campaign targeting their 4,200 dormant patients (12-24 months inactive). The approach focused on three principles:
+Vision Care Partners engaged a dedicated reactivation team to execute a 90-day campaign targeting their 4,200 dormant patients (12-24 months inactive). Rather than trying another generic outreach blast, they designed the campaign around three core principles that addressed the specific reasons their previous attempts had failed. Each principle targeted a different failure mode: discounting devalued the service, single-channel outreach missed patients, and lack of accountability let effort fade.
 
 ### Principle 1: No Discounts
 
-The leadership team made a deliberate decision: no discounts, no promotions, no "special offers." Their reasoning:
-- Discounting trains patients to wait for deals
-- It devalues the clinical service
-- Patients who return for discounts often do not convert to full-price services
-- The value proposition should be the care itself
+The leadership team made a deliberate decision: no discounts, no promotions, no "special offers." This was counterintuitive to some on the team, but the reasoning was sound. Discounting trains patients to wait for deals before booking. It devalues the clinical service in the patient's mind. And patients who return for a discount often do not convert to full-price services on subsequent visits, creating a revolving door of discount-seekers rather than loyal patients. The full framework behind this approach is detailed in our guide to [reactivation without discounts](/blog/reactivation-without-discounts/).
 
-Instead, the messaging emphasized:
-- Health benefits of annual comprehensive eye exams
-- Vision insurance benefits (many patients did not realize coverage had renewed)
-- Doctor-patient relationship ("Dr. [Name] would like to see you")
-- Convenience (new online scheduling, extended hours)
+Instead of leading with price, the messaging emphasized the value of the care itself. Texts and emails highlighted the health benefits of annual comprehensive eye exams. They reminded patients that vision insurance benefits had renewed and were available to use. Messages were personalized with the provider's name ("Dr. [Name] would like to see you") to reinforce the doctor-patient relationship. And they promoted convenience factors like new online scheduling and extended hours that removed friction from the booking process.
 
 ### Principle 2: Multi-Channel, Multi-Touch
 
@@ -94,7 +74,7 @@ Reply YES to schedule or call [phone]. Reply STOP to opt out.
 
 ### Principle 3: Location-Level Accountability
 
-Each of the 12 locations received weekly performance reports:
+One of the biggest reasons previous recall efforts failed was the absence of location-level tracking. When performance is measured only at the network level, underperforming locations hide behind the average. This is a common pattern in [multi-location healthcare operations](/blog/healthcare-group-operations-benchmarks/) where standardization gaps erode overall results. Each of the 12 locations received weekly performance reports:
 
 | Metric | Tracked | Why |
 |--------|---------|-----|
@@ -108,6 +88,8 @@ Each of the 12 locations received weekly performance reports:
 This created healthy competition between locations and surfaced best practices from top performers.
 
 ## The Results
+
+The 90-day campaign produced results that exceeded expectations across every metric. The combination of no-discount messaging, multi-channel sequencing, and location-level accountability created a system where each component reinforced the others.
 
 ### 90-Day Campaign Summary
 
@@ -142,17 +124,13 @@ This created healthy competition between locations and surfaced best practices f
 
 ### ROI Calculation
 
-```
-First-year ROI = ($312,275 - $6,992) / $6,992 × 100 = 4,365%
-```
+The return on investment calculation tells a compelling story. With $312,275 in first-year revenue against a total campaign cost of $6,992, the first-year ROI comes to 4,365%, a return multiple of 44.7x. For every dollar invested in the campaign, the practice recovered nearly $45.
 
-**Return multiple: 44.7x**
-
-At an average patient lifetime value of $2,800 over 5.4 years, the 847 reactivated patients represent **$2.37 million in recovered lifetime value**.
+The lifetime value math is even more striking. At an average patient lifetime value of $2,800 over 5.4 years, the 847 reactivated patients represent $2.37 million in recovered lifetime value. This is revenue that was walking out the door before the campaign and would have required significant new patient acquisition spend to replace. For a detailed methodology on calculating these returns, see our [patient reactivation ROI guide](/blog/patient-reactivation-roi/).
 
 ## Location-Level Performance
 
-Performance varied significantly across the 12 locations:
+Performance varied significantly across the 12 locations, reinforcing the importance of tracking results at the individual site level rather than relying on network averages. The spread between the best and worst performing locations was nearly 8 percentage points, which translated to meaningful revenue differences.
 
 | Location | Targeted | Reactivated | Rate | Revenue |
 |----------|----------|-------------|------|---------|
@@ -169,12 +147,9 @@ Performance varied significantly across the 12 locations:
 | Oakwood | 320 | 51 | 15.9% | $18,800 |
 | Meadowview | 320 | 72 | 22.5% | $26,500 |
 
-**Analysis of variance:**
-- Top performers (23-24%): Strong provider-patient relationships, consistent messaging
-- Mid performers (17-20%): Standard execution, room for improvement
-- Below average (15-17%): Investigated root causes and found stale contact data, inconsistent follow-up
+When the team analyzed why some locations outperformed others, clear patterns emerged. The top performers, with reactivation rates of 23-24%, shared two characteristics: strong existing provider-patient relationships and consistent messaging execution across all channels. Staff at these locations followed the scripts, made timely follow-up calls, and treated the campaign as a priority rather than a distraction.
 
-The network average of 20.2% masked significant variation, highlighting the importance of location-level tracking.
+Mid-range performers at 17-20% executed the basics but lacked the consistency and follow-through of the top tier. Below-average performers at 15-17% turned out to have practical problems: stale contact data that reduced reach and inconsistent follow-up that allowed warm leads to cool. The network average of 20.2% masked these differences, which is precisely why location-level tracking proved so important. For more on how [healthcare operations benchmarks](/blog/healthcare-group-operations-benchmarks/) reveal performance gaps, see our benchmarking guide.
 
 ## What Worked: Key Success Factors
 
@@ -211,37 +186,23 @@ Booking appointments meant nothing without showing up. The campaign included:
 
 ## What They Would Do Differently
 
-Post-campaign review identified improvements for future efforts:
+The post-campaign review was candid about what could have been better. These lessons apply to any practice considering a similar effort.
 
-**Start with data cleaning:**
-12% of phone numbers and 18% of emails were invalid. Cleaning data before launch would have improved contact rates and reduced wasted effort.
+The biggest regret was not starting with data cleaning. Twelve percent of phone numbers and 18% of emails in the dormant list were invalid, which meant the campaign was wasting effort on unreachable patients from day one. Running a data hygiene pass before launch would have improved contact rates and allowed the team to focus resources on patients they could actually reach.
 
-**Segment more aggressively:**
-Patients dormant 12-18 months responded at 24% vs. 15% for 18-24 month dormant. Earlier intervention would have yielded higher overall reactivation.
+The team also wished they had segmented more aggressively from the start. Patients dormant for 12-18 months responded at 24%, while those dormant for 18-24 months responded at just 15%. This nine-point gap suggests that earlier intervention produces significantly better results. Practices that implement [automated patient recall segmentation](/blog/patient-recall-segmentation/) can catch patients before they drift into the harder-to-reach longer-dormant category.
 
-**Extend the calling window:**
-The 8-week phone campaign could have been extended to 10-12 weeks with diminishing returns but additional reactivations.
+The 8-week phone campaign could have been extended to 10-12 weeks. Returns would have diminished, but the marginal cost of additional calls was low relative to the value of each reactivated patient.
 
-**Implement ongoing recall:**
-The campaign was a point-in-time effort. Establishing an ongoing monthly reactivation process would prevent the dormant list from accumulating again.
+Perhaps most importantly, the campaign was a one-time effort when it should have been the foundation for an ongoing process. Establishing a monthly reactivation cadence would prevent the dormant list from accumulating again and turn patient recovery into a predictable revenue stream rather than a periodic project.
 
 ## Ongoing Impact
 
-Six months post-campaign:
+The six-month follow-up data told an encouraging story about the quality of the reactivated patients. Seventy-eight percent of them returned for a second visit or purchase within six months, which is higher than the typical patient retention rate for the network. Average revenue per reactivated patient reached $680, compared to $520 for the network average. This makes sense: these patients already had a relationship with the practice and were returning to a provider they knew, which made them more likely to proceed with recommended eyewear and follow-up care.
 
-**Retention of reactivated patients:**
-- 78% of reactivated patients had a second visit or purchase within 6 months
-- Average revenue per reactivated patient: $680 (vs. $520 network average)
-- Reactivated patients showed higher engagement than typical patients
+The campaign also catalyzed lasting operational changes. Vision Care Partners implemented monthly reactivation runs targeting newly dormant patients before they drift past the 12-month mark. They built automated SMS sequences that trigger at 6, 9, and 12 months of inactivity. Location-level accountability dashboards became a permanent fixture in monthly operations reviews. And they added quarterly deep-dive campaigns targeting long-dormant patients who need more intensive outreach.
 
-**System changes implemented:**
-- Monthly reactivation runs targeting newly dormant patients
-- Automated SMS sequences at 6, 9, and 12-month marks
-- Location-level accountability dashboards
-- Quarterly deep-dive campaigns for long-dormant patients
-
-**Projected annual impact:**
-With ongoing reactivation processes, the group projects recovering 1,200+ dormant patients annually, representing $400,000+ in additional revenue, without increasing marketing spend on new patient acquisition.
+With these ongoing processes in place, the group projects recovering 1,200 or more dormant patients annually, representing $400,000 or more in additional revenue. All of this comes without increasing the marketing spend on new patient acquisition, making it one of the most capital-efficient growth strategies available to multi-location healthcare groups.
 
 ## Key Takeaways
 
