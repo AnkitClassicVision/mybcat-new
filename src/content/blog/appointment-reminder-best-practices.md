@@ -1,28 +1,26 @@
 ---
 title: 'Appointment Reminder Best Practices: Reduce No-Shows 20-50%'
 seoTitle: 'Appointment Reminder Best Practices: Reduce No-Shows'
-description: >-
-  64% of patients prefer text reminders. Timing, frequency, and strategies that
-  reduce no-shows 20-50% without annoying patients.
-seoDescription: >-
-  Appointment reminder best practices that reduce healthcare no-shows by 20-50%.
-  Optimal timing (3-day, 1-day, same-day), channel preferences
+description: 64% of patients prefer text reminders. Timing, frequency, and strategies
+  that reduce no-shows 20-50% without annoying patients.
+seoDescription: Appointment reminder best practices that reduce healthcare no-shows
+  by 20-50%. Optimal timing (3-day, 1-day, same-day), channel preferences
 publishDate: '2026-02-16T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - appointment reminders
-  - no-shows
-  - patient communication
-  - operations
+- appointment reminders
+- no-shows
+- patient communication
+- operations
 featuredImage: /images/blog/appointment-reminder-best-practices.webp
-canonical: 'https://mybcat.com/blog/appointment-reminder-best-practices/'
+canonical: https://mybcat.com/blog/appointment-reminder-best-practices/
 cluster: patient-communications
 relatedPosts:
-  - no-show-recovery-program
-  - reactivation-text-message-templates
-  - patient-recall-scripts
+- no-show-recovery-program
+- reactivation-text-message-templates
+- patient-recall-scripts
 ---
 
 Appointment reminders seem simple until you get them wrong. Too few reminders and patients forget. Too many and they opt out. The wrong channel and they never see them. This guide covers the timing, frequency, and channel strategies that reduce no-shows by 20-50% while respecting patient preferences. The best reminder is one that works without being intrusive.
@@ -312,6 +310,10 @@ For strategies to recover when reminders fail and no-shows still occur, see our 
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Patient Recall Solution](/solutions/patient-recall/)
 
 ## Sources
 

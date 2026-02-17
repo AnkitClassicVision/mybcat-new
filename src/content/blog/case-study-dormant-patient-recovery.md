@@ -1,27 +1,29 @@
 ---
 title: 'Case Study: 12-Location Optometry Group Recovered $312K'
 seoTitle: 'Case Study: Dormant Patient Recovery Without Discounting'
-description: >-
-  12-location optometry group recovered 847 dormant patients, $312K revenue in
-  90 days, no discounts. The exact playbook.
-seoDescription: >-
-  Real case study: 12-location optometry group reactivated 847 dormant patients,
-  generated $312K revenue in 90 days without discounting. See the exact campaign
+description: 12-location optometry group recovered 847 dormant patients, $312K revenue
+  in 90 days, no discounts. The exact playbook.
+seoDescription: 'Real case study: 12-location optometry group reactivated 847 dormant
+  patients, generated $312K revenue in 90 days without discounting. See the exact
+  campaign'
 publishDate: '2026-02-17T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Case Study
 tags:
-  - case study
-  - dormant patients
-  - reactivation
-  - practice growth
-  - optometry
+- case study
+- dormant patients
+- reactivation
+- practice growth
+- optometry
 featuredImage: /images/blog/case-study-dormant-patient-recovery.webp
-canonical: 'https://mybcat.com/blog/case-study-dormant-patient-recovery/'
+canonical: https://mybcat.com/blog/case-study-dormant-patient-recovery/
 cluster: patient-recall
 relatedPosts:
-  - dormant-patient-reactivation
+- dormant-patient-reactivation
+- centralized-patient-recall-multi-location
+- optometry-recall-campaign
+- dental-hygiene-recall
 ---
 
 When Vision Care Partners (name changed for confidentiality) analyzed their patient data across 12 optometry locations, they found a problem hiding in plain sight: 4,200 patients who had not visited in 12-24 months. At an average lifetime value of $2,800 per patient, they were looking at $11.7 million in at-risk revenue slowly walking out the door. This case study documents how they recovered 847 of those patients and generated $312,000 in first-year revenue using a systematic [dormant patient reactivation](/blog/dormant-patient-reactivation/) campaign, without offering a single discount.
@@ -226,6 +228,12 @@ For the complete framework to run your own reactivation campaign, see our [30-da
 
 
 Enterprise groups can scale these results with our [multi-location recall solution](/enterprise/multi-location-recall/).
+
+## Related Reading
+
+- [Centralized Patient Recall for Multi-Location Healthcare](/blog/centralized-patient-recall-multi-location/)
+- [Optometry Recall Campaign: Beat the January Slump](/blog/optometry-recall-campaign/)
+- [Dental Hygiene Recall: The DSO Valuation Driver](/blog/dental-hygiene-recall/)
 
 ## Sources
 
