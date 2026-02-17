@@ -9,6 +9,7 @@ import CTA from '@/components/sections/CTA.astro';
 import { glossaryTerms, getRelatedTerms, type GlossaryTerm } from '@data/glossary';
 import { solutions } from '@data/solutions';
 import { company } from '@data/company';
+import { serializeSchema } from '@/utils/schema';
 
 export function getStaticPaths() {
   return glossaryTerms.map(term => ({
@@ -110,6 +111,18 @@ const titleOptions = [
 
 const metaTitle = pickBestMeta(titleOptions, 30, 60);
 const metaDescription = buildMetaDescription(term.definition);
+
+const termUrl = `${company.site.url}/glossary/${term.slug}/`;
+const definedTermSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTerm',
+  '@id': `${termUrl}#definedterm`,
+  name: term.term,
+  description: term.definition,
+  url: termUrl,
+  termCode: term.slug,
+  inDefinedTermSet: `${company.site.url}/glossary/`,
+};
 ---
 
 <PageLayout
@@ -121,6 +134,8 @@ const metaDescription = buildMetaDescription(term.definition);
     { name: term.term }
   ]}
 >
+  <script type="application/ld+json" set:html={serializeSchema(definedTermSchema)} slot="head" />
+
   <div class="term-page">
     <!-- Term Header -->
     <section class="term-header">

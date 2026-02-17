@@ -252,6 +252,8 @@ export default defineConfig({
     mdx(),
     sitemap({
       filter: (page) => {
+        // Exclude API endpoints from sitemap
+        if (page.includes('/api/')) return false;
         // Exclude conference landing pages (non-indexable / not in sitemap)
         if (page.includes('/idoc-connections-2026/')) return false;
         // Exclude drafts

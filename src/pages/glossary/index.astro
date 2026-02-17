@@ -7,6 +7,8 @@ import PageLayout from '@/layouts/PageLayout.astro';
 import Card from '@/components/Card.astro';
 import CTA from '@/components/sections/CTA.astro';
 import { glossaryTerms, getGlossaryTermsByCategory } from '@data/glossary';
+import { company } from '@data/company';
+import { serializeSchema } from '@/utils/schema';
 
 const pageTitle = 'Healthcare Practice Glossary';
 const pageDescription = 'Definitions and explanations of key terms in healthcare practice management, patient acquisition, and medical office operations.';
@@ -32,6 +34,24 @@ const categoryLabels: Record<string, string> = {
   metrics: 'Metrics',
   marketing: 'Marketing'
 };
+
+const glossaryUrl = `${company.site.url}/glossary/`;
+const definedTermSetSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTermSet',
+  '@id': `${glossaryUrl}#definedtermset`,
+  name: `${company.shortName} Glossary`,
+  description: pageDescription,
+  url: glossaryUrl,
+  hasDefinedTerm: sortedTerms.map((term) => ({
+    '@type': 'DefinedTerm',
+    '@id': `${company.site.url}/glossary/${term.slug}/#definedterm`,
+    name: term.term,
+    description: term.definition,
+    url: `${company.site.url}/glossary/${term.slug}/`,
+    termCode: term.slug,
+  })),
+};
 ---
 
 <PageLayout
@@ -42,6 +62,8 @@ const categoryLabels: Record<string, string> = {
     { name: 'Glossary' }
   ]}
 >
+  <script type="application/ld+json" set:html={serializeSchema(definedTermSetSchema)} slot="head" />
+
   <div class="glossary-hub">
     <!-- Hero -->
     <section class="hub-hero">

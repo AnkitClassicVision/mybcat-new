@@ -6,10 +6,32 @@ Allow: /
 
 # Block non-public paths
 Disallow: /draft/
-Disallow: /api/
 Disallow: /admin/
 Disallow: /preview/
 Disallow: /search
+
+# API policy: keep internal APIs blocked but allow the public catalog endpoints
+Disallow: /api/
+Allow: /api/public/
+
+# OpenAI
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /draft/
+Disallow: /admin/
+Disallow: /preview/
+Disallow: /search
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /draft/
+Disallow: /admin/
+Disallow: /preview/
+Disallow: /search
+Disallow: /api/
+Allow: /api/public/
 
 # Note: /_astro/ is ALLOWED - blocking it breaks CSS/JS rendering
 # which hurts mobile-first indexing scores

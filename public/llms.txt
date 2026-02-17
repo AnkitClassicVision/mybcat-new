@@ -1,0 +1,29 @@
+# mybcat.com — My Business Care Team (MyBCAT)
+
+## What this site is
+My Business Care Team (MyBCAT) provides managed patient access and front desk operations for healthcare practices and multi-location groups.
+
+## Canonical URL rules
+- Primary domain: https://mybcat.com
+- Trailing slashes are canonical (e.g., /about/ not /about)
+
+## Start here
+- Enterprise: https://mybcat.com/enterprise/
+- Solutions: https://mybcat.com/solutions/
+- Industries: https://mybcat.com/industries/
+- How it works: https://mybcat.com/how-it-works/
+- Pricing: https://mybcat.com/pricing/
+- Case studies: https://mybcat.com/case-studies/
+- Glossary: https://mybcat.com/glossary/
+- FAQ: https://mybcat.com/faq/
+- Contact: https://mybcat.com/contact/
+- Trust & compliance: https://mybcat.com/hipaa-compliance/
+
+## Machine-readable catalog
+- OpenAPI: https://mybcat.com/.well-known/openapi.json
+- Solutions JSON: https://mybcat.com/api/public/solutions.json
+- Industries JSON: https://mybcat.com/api/public/industries.json
+- Comparisons JSON: https://mybcat.com/api/public/comparisons.json
+- Case studies JSON: https://mybcat.com/api/public/case-studies.json
+- Glossary JSON: https://mybcat.com/api/public/glossary.json
+

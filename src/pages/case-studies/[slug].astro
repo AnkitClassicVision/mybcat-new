@@ -11,6 +11,7 @@ import { caseStudies, type CaseStudy } from '@data/case-studies';
 import { getSolutionBySlug } from '@data/solutions';
 import { generateArticleSchema, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
+import { execSync } from 'node:child_process';
 
 export function getStaticPaths() {
   return caseStudies.map(study => ({
@@ -75,13 +76,29 @@ function buildMetaDescription(): string {
 
 const metaDescription = buildMetaDescription();
 
+function getGitLastModDate(filePath: string): string | null {
+  try {
+    const result = execSync(`git log -1 --format=%cI -- "${filePath}"`, {
+      encoding: 'utf8',
+      stdio: ['pipe', 'pipe', 'pipe'],
+    }).trim();
+    if (!result) return null;
+    return result.split('T')[0];
+  } catch {
+    return null;
+  }
+}
+
+const caseStudiesLastMod = getGitLastModDate('src/data/case-studies.ts') ?? '2025-01-01';
+
 // Generate schema
 const articleSchema = generateArticleSchema({
   headline: study.title,
   description: study.challenge.slice(0, 160),
   image: study.featuredImage || '/images/og-home.jpg',
   author: 'mybcat Team',
-  datePublished: '2024-01-01',
+  datePublished: caseStudiesLastMod,
+  dateModified: caseStudiesLastMod,
   url: `${company.site.url}/case-studies/${study.slug}/`
 });
 ---

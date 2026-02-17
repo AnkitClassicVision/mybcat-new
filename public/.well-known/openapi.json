@@ -1,0 +1,234 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "MyBCAT Public Catalog API",
+    "version": "1.0.0",
+    "description": "Read-only, public catalog endpoints for mybcat.com content (solutions, industries, comparisons, case studies, glossary)."
+  },
+  "servers": [
+    {
+      "url": "https://mybcat.com"
+    }
+  ],
+  "paths": {
+    "/api/public/solutions.json": {
+      "get": {
+        "summary": "List solutions",
+        "responses": {
+          "200": {
+            "description": "Solutions list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SolutionsResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/public/industries.json": {
+      "get": {
+        "summary": "List industries",
+        "responses": {
+          "200": {
+            "description": "Industries list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IndustriesResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/public/comparisons.json": {
+      "get": {
+        "summary": "List comparisons",
+        "responses": {
+          "200": {
+            "description": "Comparisons list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComparisonsResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/public/case-studies.json": {
+      "get": {
+        "summary": "List case studies",
+        "responses": {
+          "200": {
+            "description": "Case studies list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CaseStudiesResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/public/glossary.json": {
+      "get": {
+        "summary": "List glossary terms",
+        "responses": {
+          "200": {
+            "description": "Glossary terms list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GlossaryResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SolutionsResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Solution" }
+          }
+        },
+        "required": ["items"]
+      },
+      "IndustriesResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Industry" }
+          }
+        },
+        "required": ["items"]
+      },
+      "ComparisonsResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Comparison" }
+          }
+        },
+        "required": ["items"]
+      },
+      "CaseStudiesResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/CaseStudy" }
+          }
+        },
+        "required": ["items"]
+      },
+      "GlossaryResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/GlossaryTerm" }
+          }
+        },
+        "required": ["items"]
+      },
+      "Solution": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "slug": { "type": "string" },
+          "name": { "type": "string" },
+          "tagline": { "type": "string" },
+          "headline": { "type": "string" },
+          "description": { "type": "string" },
+          "tldr": { "type": "string" },
+          "metaDescription": { "type": "string" },
+          "serviceType": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        },
+        "required": ["slug", "name", "url"]
+      },
+      "Industry": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "slug": { "type": "string" },
+          "name": { "type": "string" },
+          "shortName": { "type": "string" },
+          "description": { "type": "string" },
+          "tldr": { "type": "string" },
+          "metaDescription": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        },
+        "required": ["slug", "name", "url"]
+      },
+      "Comparison": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "slug": { "type": "string" },
+          "name": { "type": "string" },
+          "tagline": { "type": "string" },
+          "headline": { "type": "string" },
+          "description": { "type": "string" },
+          "metaDescription": { "type": "string" },
+          "pricing": { "type": "string" },
+          "model": { "type": "string" },
+          "website": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        },
+        "required": ["slug", "name", "url"]
+      },
+      "CaseStudy": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "slug": { "type": "string" },
+          "title": { "type": "string" },
+          "client": { "type": "string" },
+          "industry": { "type": "string" },
+          "location": { "type": "string" },
+          "practiceSize": { "type": "string" },
+          "results": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        },
+        "required": ["slug", "title", "url"]
+      },
+      "GlossaryTerm": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "slug": { "type": "string" },
+          "term": { "type": "string" },
+          "definition": { "type": "string" },
+          "category": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        },
+        "required": ["slug", "term", "url"]
+      }
+    }
+  }
+}
+

@@ -1,0 +1,110 @@
+# mybcat.com — My Business Care Team (MyBCAT)
+
+## What this site is
+My Business Care Team (MyBCAT) provides managed patient access and front desk operations for healthcare practices and multi-location groups.
+
+## Canonical URL rules
+- Primary domain: https://mybcat.com
+- Trailing slashes are canonical (e.g., /about/ not /about)
+
+## Core pages
+- Home: https://mybcat.com/
+- Enterprise: https://mybcat.com/enterprise/
+- Solutions: https://mybcat.com/solutions/
+- Industries: https://mybcat.com/industries/
+- Compare: https://mybcat.com/compare/
+- Case studies: https://mybcat.com/case-studies/
+- How it works: https://mybcat.com/how-it-works/
+- Pricing: https://mybcat.com/pricing/
+- About: https://mybcat.com/about/
+- Contact: https://mybcat.com/contact/
+- FAQ: https://mybcat.com/faq/
+- Blog: https://mybcat.com/blog/
+- RSS: https://mybcat.com/rss.xml
+- HTML sitemap: https://mybcat.com/sitemap/
+- XML sitemap index: https://mybcat.com/sitemap-index.xml
+
+## Machine-readable catalog
+- OpenAPI: https://mybcat.com/.well-known/openapi.json
+- Solutions JSON: https://mybcat.com/api/public/solutions.json
+- Industries JSON: https://mybcat.com/api/public/industries.json
+- Comparisons JSON: https://mybcat.com/api/public/comparisons.json
+- Case studies JSON: https://mybcat.com/api/public/case-studies.json
+- Glossary JSON: https://mybcat.com/api/public/glossary.json
+
+## Enterprise
+- Enterprise overview: https://mybcat.com/enterprise/
+- Patient access center: https://mybcat.com/enterprise/patient-access-center/
+- Centralized scheduling: https://mybcat.com/enterprise/centralized-scheduling/
+- Multi-location recall: https://mybcat.com/enterprise/multi-location-recall/
+- Reporting & QA: https://mybcat.com/enterprise/reporting-qa/
+- DSOs & dental groups: https://mybcat.com/enterprise/dso/
+- Optometry groups: https://mybcat.com/enterprise/optometry-groups/
+- Veterinary groups: https://mybcat.com/enterprise/veterinary-groups/
+- Urgent care chains: https://mybcat.com/enterprise/urgent-care-chains/
+
+## Solutions
+- Medical answering service: https://mybcat.com/solutions/medical-answering-service/
+- Patient recall: https://mybcat.com/solutions/patient-recall/
+- No-show recovery: https://mybcat.com/solutions/no-show-recovery/
+- Front desk outsourcing: https://mybcat.com/solutions/front-desk-outsourcing/
+- Integrations: https://mybcat.com/solutions/integrations/
+- Virtual medical scribe: https://mybcat.com/solutions/virtual-medical-scribe/
+- Medical virtual assistant: https://mybcat.com/solutions/medical-virtual-assistant/
+
+## Industries
+- Optometry: https://mybcat.com/industries/optometry/
+- Dental: https://mybcat.com/industries/dental/
+- Veterinary: https://mybcat.com/industries/veterinary/
+- MedSpa: https://mybcat.com/industries/medspa/
+- Dermatology: https://mybcat.com/industries/dermatology/
+- Urgent care: https://mybcat.com/industries/urgent-care/
+- ENT & audiology: https://mybcat.com/industries/ent/
+
+## Compare
+- All comparisons: https://mybcat.com/compare/
+- Build vs buy: https://mybcat.com/compare/build-vs-buy/
+- vs Hello Rache: https://mybcat.com/compare/vs-hello-rache/
+- vs HireTeem: https://mybcat.com/compare/vs-hireteem/
+- vs Virtual Assistants: https://mybcat.com/compare/vs-virtual-assistants/
+- vs Call Centers: https://mybcat.com/compare/vs-call-centers/
+- vs AI Receptionists: https://mybcat.com/compare/vs-ai-receptionists/
+
+## Case studies
+- Classic Vision Care: https://mybcat.com/case-studies/classic-vision-care/
+- Dittman Eye Care: https://mybcat.com/case-studies/dittman-eye-care/
+- Multi-Location Dental DSO: https://mybcat.com/case-studies/multi-location-dental-dso/
+- Multi-Location Optometry Group: https://mybcat.com/case-studies/multi-location-optometry-group/
+
+## Glossary
+- Patient acquisition: https://mybcat.com/glossary/patient-acquisition/
+- Patient retention: https://mybcat.com/glossary/patient-retention/
+- No-show rate: https://mybcat.com/glossary/no-show-rate/
+- Recall rate: https://mybcat.com/glossary/recall-rate/
+- Appointment conversion: https://mybcat.com/glossary/appointment-conversion/
+- Patient lifetime value: https://mybcat.com/glossary/patient-lifetime-value/
+- HIPAA compliance: https://mybcat.com/glossary/hipaa-compliance/
+- BAA: https://mybcat.com/glossary/baa/
+- EHR: https://mybcat.com/glossary/ehr/
+- PMS: https://mybcat.com/glossary/pms/
+- Virtual receptionist: https://mybcat.com/glossary/virtual-receptionist/
+- Call center: https://mybcat.com/glossary/call-center/
+- Schedule utilization: https://mybcat.com/glossary/schedule-utilization/
+- Insurance verification: https://mybcat.com/glossary/insurance-verification/
+- Patient intake: https://mybcat.com/glossary/patient-intake/
+- DSO: https://mybcat.com/glossary/dso/
+- Centralized scheduling: https://mybcat.com/glossary/centralized-scheduling/
+- Multi-location practice: https://mybcat.com/glossary/multi-location-practice/
+
+## Trust & compliance
+- HIPAA compliance: https://mybcat.com/hipaa-compliance/
+- SOC 2: https://mybcat.com/soc-2/
+- Privacy policy: https://mybcat.com/privacy-policy/
+- Terms: https://mybcat.com/terms/
+- GDPR: https://mybcat.com/gdpr/
+
+## Resources
+- ROI calculator: https://mybcat.com/resources/roi-calculator/
+- Book: https://mybcat.com/resources/book/
+- Podcast: https://mybcat.com/resources/podcast/
+
