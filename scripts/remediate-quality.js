@@ -250,10 +250,13 @@ title: ${frontmatter.title || ''}
 CURRENT POST BODY:
 ${content}
 
-CRITICAL: Output ONLY the corrected markdown body. No preamble, no explanation, no commentary.
-Start your response with the first line of the corrected post body.
-Do NOT say things like "Here is the corrected post" or "I'll fix this".
-If you have FRONTMATTER_UPDATE lines, put them at the very end after a blank line.`;
+OUTPUT FORMAT (you MUST follow this exactly):
+1. Print the line: <<<CONTENT_START>>>
+2. Print the corrected markdown body (no frontmatter fences, just body text)
+3. Print the line: <<<CONTENT_END>>>
+4. If you have FRONTMATTER_UPDATE lines, print them AFTER <<<CONTENT_END>>>
+
+Do NOT include any text before <<<CONTENT_START>>>. Do NOT include any explanations.`;
 
   return prompt;
 }
@@ -292,6 +295,8 @@ async function callClaude(prompt) {
       });
       const text = output.toString('utf-8').trim();
       if (!text) throw new Error('Empty response from Claude CLI');
+      console.log(`  [debug] CLI output: ${text.length} chars`);
+      console.log(`  [debug] First 200: ${text.slice(0, 200).replace(/\n/g, '\\n')}`);
       return text;
     } finally {
       try { fs.unlinkSync(promptFile); } catch { /* ignore */ }
@@ -331,24 +336,35 @@ async function callClaude(prompt) {
 }
 
 /**
- * Strip LLM preamble (e.g. "I'll fix this post...") from output.
- * Looks for the first line that looks like actual post content.
+ * Extract content between <<<CONTENT_START>>> and <<<CONTENT_END>>> markers.
+ * Falls back to stripping preamble heuristically if markers are missing.
  */
-function stripPreamble(text) {
+function extractContent(text) {
+  const startMarker = '<<<CONTENT_START>>>';
+  const endMarker = '<<<CONTENT_END>>>';
+
+  const startIdx = text.indexOf(startMarker);
+  const endIdx = text.indexOf(endMarker);
+
+  if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
+    const body = text.slice(startIdx + startMarker.length, endIdx).trim();
+    const afterEnd = text.slice(endIdx + endMarker.length);
+    // FRONTMATTER_UPDATE lines come after the end marker
+    return { body, suffix: afterEnd };
+  }
+
+  // Fallback: strip preamble heuristically
+  console.log('  [debug] Content markers not found, using fallback preamble stripping');
   const lines = text.split('\n');
-  // Find first line that looks like post content (not conversational)
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
-    // Skip empty lines at start
     if (!line) continue;
-    // Conversational preambles: "I'll...", "Here is...", "Let me...", "Sure,...", etc.
     if (/^(I'll |I will |Here is|Here's|Let me|Sure|Ok|Okay|Got it|Understood)/i.test(line)) continue;
-    // Markdown code fence wrapping the whole response
     if (line === '```markdown' || line === '```md') continue;
-    // This line looks like real content - return from here
-    return lines.slice(i).join('\n').replace(/\n```\s*$/, '');
+    const body = lines.slice(i).join('\n').replace(/\n```\s*$/, '');
+    return { body, suffix: '' };
   }
-  return text;
+  return { body: text, suffix: '' };
 }
 
 /**
@@ -356,12 +372,14 @@ function stripPreamble(text) {
  * Returns { body, updatedFields } where body has the update lines stripped.
  */
 function parseFrontmatterUpdates(llmOutput, frontmatter) {
-  const cleaned = stripPreamble(llmOutput);
-  const lines = cleaned.split('\n');
-  const bodyLines = [];
+  const { body: contentBody, suffix } = extractContent(llmOutput);
   const updatedFields = {};
 
-  for (const line of lines) {
+  // Parse FRONTMATTER_UPDATE lines from both the body and the suffix
+  const allText = contentBody + '\n' + suffix;
+  const bodyLines = [];
+
+  for (const line of allText.split('\n')) {
     const match = line.match(/^FRONTMATTER_UPDATE:\s*(\w+):\s*(.+)$/);
     if (match) {
       updatedFields[match[1]] = match[2].trim();
@@ -375,7 +393,10 @@ function parseFrontmatterUpdates(llmOutput, frontmatter) {
     frontmatter[key] = value;
   }
 
-  return { body: bodyLines.join('\n').trim(), updatedFields };
+  const body = bodyLines.join('\n').trim();
+  console.log(`  [debug] Extracted body: ${body.length} chars, ${body.split(/\s+/).length} words`);
+
+  return { body, updatedFields };
 }
 
 // ── Orchestrator ─────────────────────────────────────────────────────────
