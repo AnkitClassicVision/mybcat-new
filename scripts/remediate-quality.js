@@ -275,16 +275,16 @@ async function callClaude(prompt) {
   // Strategy 1: Claude CLI (VPS with subscription)
   if (hasClaudeCLI()) {
     console.log(`  Using Claude CLI (subscription)`);
+    // Write prompt to a temp file and pass via stdin to avoid arg length limits
     const promptFile = path.join(__dirname, '..', '.tmp-remediate-prompt.txt');
     try {
       fs.writeFileSync(promptFile, prompt);
-      const output = execFileSync('claude', [
-        '-p', '--output-format', 'text',
-        '--max-turns', '1',
+      const output = execFileSync('bash', [
+        '-c',
+        `cat "${promptFile}" | claude -p --output-format text --max-turns 1`,
       ], {
-        input: prompt,
         stdio: ['pipe', 'pipe', 'pipe'],
-        timeout: 120_000,
+        timeout: 180_000,
         maxBuffer: 10 * 1024 * 1024,
       });
       const text = output.toString('utf-8').trim();
