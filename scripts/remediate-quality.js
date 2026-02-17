@@ -287,7 +287,7 @@ async function callClaude(prompt) {
       fs.writeFileSync(promptFile, prompt);
       const output = execFileSync('bash', [
         '-c',
-        `cat "${promptFile}" | claude -p --output-format text --max-turns 1`,
+        `cat "${promptFile}" | claude -p --output-format text --max-turns 5`,
       ], {
         stdio: ['pipe', 'pipe', 'pipe'],
         timeout: 180_000,
