@@ -21,6 +21,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { execFileSync } from 'child_process';
 import matter from 'gray-matter';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { validateFile } from './validators/validate-content-quality.js';
@@ -255,12 +256,50 @@ Return ONLY the corrected post body (no frontmatter). If you have FRONTMATTER_UP
 }
 
 /**
- * Call the Anthropic Messages API using native fetch (Node 20+).
+ * Check if the `claude` CLI is available on the system.
  */
-async function callClaudeAPI(prompt) {
+function hasClaudeCLI() {
+  try {
+    execFileSync('claude', ['--version'], { stdio: 'pipe', timeout: 5000 });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Call Claude via the CLI (uses Claude Code subscription, no API key needed).
+ * Falls back to the Anthropic Messages API if CLI is not available.
+ */
+async function callClaude(prompt) {
+  // Strategy 1: Claude CLI (VPS with subscription)
+  if (hasClaudeCLI()) {
+    console.log(`  Using Claude CLI (subscription)`);
+    const promptFile = path.join(__dirname, '..', '.tmp-remediate-prompt.txt');
+    try {
+      fs.writeFileSync(promptFile, prompt);
+      const output = execFileSync('claude', [
+        '-p', '--output-format', 'text',
+        '--max-turns', '1',
+      ], {
+        input: prompt,
+        stdio: ['pipe', 'pipe', 'pipe'],
+        timeout: 120_000,
+        maxBuffer: 10 * 1024 * 1024,
+      });
+      const text = output.toString('utf-8').trim();
+      if (!text) throw new Error('Empty response from Claude CLI');
+      return text;
+    } finally {
+      try { fs.unlinkSync(promptFile); } catch { /* ignore */ }
+    }
+  }
+
+  // Strategy 2: Anthropic Messages API (GitHub Actions with secret)
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return null;
 
+  console.log(`  Using Anthropic API`);
   const response = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -361,11 +400,10 @@ async function remediatePost(filePath, config, blogIndex, ctaTemplate) {
 
   console.log(`  After deterministic fixes: ${afterDeterministic.errors.join('; ')}`);
 
-  // Step 3: LLM remediation (if API key available)
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
-    console.log(`  ANTHROPIC_API_KEY not set — skipping LLM remediation`);
-    return { status: 'partial', file, actions: [...actions, 'LLM skipped (no API key)'] };
+  // Step 3: LLM remediation (Claude CLI or API)
+  if (!hasClaudeCLI() && !process.env.ANTHROPIC_API_KEY) {
+    console.log(`  No Claude CLI or ANTHROPIC_API_KEY — skipping LLM remediation`);
+    return { status: 'partial', file, actions: [...actions, 'LLM skipped (no CLI or API key)'] };
   }
 
   const prompt = buildLLMPrompt(fixedBody, frontmatter, afterDeterministic.errors, blogIndex);
@@ -374,12 +412,12 @@ async function remediatePost(filePath, config, blogIndex, ctaTemplate) {
     return { status: 'partial', file, actions: [...actions, 'No LLM-fixable errors'] };
   }
 
-  actions.push('callClaudeAPI');
-  console.log(`  Calling Claude API for content fixes...`);
+  actions.push('callClaude');
+  console.log(`  Calling Claude for content fixes...`);
 
   let llmBody;
   try {
-    const llmOutput = await callClaudeAPI(prompt);
+    const llmOutput = await callClaude(prompt);
     if (!llmOutput) {
       return { status: 'partial', file, actions: [...actions, 'LLM returned empty'] };
     }
@@ -391,7 +429,7 @@ async function remediatePost(filePath, config, blogIndex, ctaTemplate) {
       actions.push(`frontmatter updates: ${Object.keys(parsed.updatedFields).join(', ')}`);
     }
   } catch (err) {
-    console.log(`  Claude API error: ${err.message}`);
+    console.log(`  Claude error: ${err.message}`);
     // Keep deterministic-fixed version
     return { status: 'partial', file, actions: [...actions, `LLM error: ${err.message}`] };
   }
@@ -438,8 +476,10 @@ async function main() {
   console.log(`Found ${posts.length} scheduled post(s) due for publishing.`);
   console.log(`Blog index: ${blogIndex.length} published posts available for linking.\n`);
 
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.log('Warning: ANTHROPIC_API_KEY not set. LLM remediation will be skipped.\n');
+  if (!hasClaudeCLI() && !process.env.ANTHROPIC_API_KEY) {
+    console.log('Warning: No Claude CLI or ANTHROPIC_API_KEY found. LLM remediation will be skipped.\n');
+  } else if (hasClaudeCLI()) {
+    console.log('Claude CLI detected — will use subscription for LLM remediation.\n');
   }
 
   const results = [];
