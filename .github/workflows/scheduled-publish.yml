@@ -33,6 +33,22 @@ jobs:
         run: node scripts/validators/validate-content-quality.js --scheduled-only
         continue-on-error: true
 
+      - name: Auto-remediate quality failures
+        run: node scripts/remediate-quality.js
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit remediation changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-remediate quality gate failures for $(date +%Y-%m-%d)"
+            git push
+          fi
+
       - name: Run publish script
         run: node scripts/publish-scheduled.js
 

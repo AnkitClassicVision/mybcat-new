@@ -20,6 +20,7 @@
     "test": "playwright test",
     "test:ui": "playwright test --ui",
     "publish-scheduled": "node scripts/publish-scheduled.js",
+    "remediate-quality": "node scripts/remediate-quality.js",
     "images:optimize": "node scripts/optimize-images.js",
     "images:check": "node scripts/check-missing-webp.js",
     "images:check:fix": "node scripts/check-missing-webp.js --fix",
