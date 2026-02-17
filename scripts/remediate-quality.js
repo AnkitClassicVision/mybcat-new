@@ -250,7 +250,10 @@ title: ${frontmatter.title || ''}
 CURRENT POST BODY:
 ${content}
 
-Return ONLY the corrected post body (no frontmatter). If you have FRONTMATTER_UPDATE lines, put them at the very end after a blank line.`;
+CRITICAL: Output ONLY the corrected markdown body. No preamble, no explanation, no commentary.
+Start your response with the first line of the corrected post body.
+Do NOT say things like "Here is the corrected post" or "I'll fix this".
+If you have FRONTMATTER_UPDATE lines, put them at the very end after a blank line.`;
 
   return prompt;
 }
@@ -328,11 +331,33 @@ async function callClaude(prompt) {
 }
 
 /**
+ * Strip LLM preamble (e.g. "I'll fix this post...") from output.
+ * Looks for the first line that looks like actual post content.
+ */
+function stripPreamble(text) {
+  const lines = text.split('\n');
+  // Find first line that looks like post content (not conversational)
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    // Skip empty lines at start
+    if (!line) continue;
+    // Conversational preambles: "I'll...", "Here is...", "Let me...", "Sure,...", etc.
+    if (/^(I'll |I will |Here is|Here's|Let me|Sure|Ok|Okay|Got it|Understood)/i.test(line)) continue;
+    // Markdown code fence wrapping the whole response
+    if (line === '```markdown' || line === '```md') continue;
+    // This line looks like real content - return from here
+    return lines.slice(i).join('\n').replace(/\n```\s*$/, '');
+  }
+  return text;
+}
+
+/**
  * Parse FRONTMATTER_UPDATE lines from LLM output and apply to frontmatter.
  * Returns { body, updatedFields } where body has the update lines stripped.
  */
 function parseFrontmatterUpdates(llmOutput, frontmatter) {
-  const lines = llmOutput.split('\n');
+  const cleaned = stripPreamble(llmOutput);
+  const lines = cleaned.split('\n');
   const bodyLines = [];
   const updatedFields = {};
 
