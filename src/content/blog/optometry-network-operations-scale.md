@@ -433,7 +433,7 @@ Scaling optometry operations from 5 to 50 locations requires phase-appropriate s
 
 The networks that successfully scale are those that recognize when their current approach has reached its limits and proactively build the infrastructure for the next phase.
 
-For retention strategies at scale, see our DSO patient retention strategy guide. For centralized operations implementation, review our centralized patient recall guide.
+For retention strategies at scale, see our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/). For centralized operations implementation, review our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/).
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

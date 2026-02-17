@@ -411,7 +411,7 @@ Top-performing healthcare groups track benchmarks across three categories:
 
 The groups that achieve top-quartile performance do not have better luck. They have better visibility into their operations and the discipline to act on what the data reveals.
 
-For the KPIs that drive PE valuations, see our PE-backed healthcare operations guide. For strategies to improve patient retention metrics, review our DSO patient retention strategy guide.
+For the KPIs that drive PE valuations, see our [PE-backed healthcare operations guide](/blog/pe-backed-healthcare-operations/). For strategies to improve patient retention metrics, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

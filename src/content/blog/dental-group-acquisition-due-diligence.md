@@ -440,7 +440,7 @@ Patient retention analysis should be central to dental acquisition due diligence
 
 **The bottom line:** The purchase price assumes patients will stay. If your due diligence reveals retention risk, either adjust the price, structure protections, or walk away. The worst outcome is paying full price for patients who leave within 18 months.
 
-For strategies to improve retention post-acquisition, see our [healthcare operations M&A integration guide](/blog/healthcare-operations-ma-integration/). For ongoing retention benchmarks, review our DSO patient retention strategy guide.
+For strategies to improve retention post-acquisition, see our [healthcare operations M&A integration guide](/blog/healthcare-operations-ma-integration/). For ongoing retention benchmarks, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
@@ -452,9 +452,9 @@ For strategies to improve retention post-acquisition, see our [healthcare operat
 
 ## Related Reading
 
-- PE-Backed Healthcare Operations: KPIs That Drive Valuation
+- [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
-- Multi-Location Healthcare EBITDA: Retention Protects Margins
+- [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
 
 ## Sources
 

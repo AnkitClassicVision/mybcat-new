@@ -440,7 +440,7 @@ Protecting patient retention during healthcare M&A integration requires:
 
 **The bottom line:** The acquisition thesis assumes patients will stay. A disciplined integration playbook with retention at its core is the only way to deliver on that assumption.
 
-For due diligence focused on retention risks, see our dental group acquisition due diligence guide. For ongoing retention strategies, review our DSO patient retention strategy guide.
+For due diligence focused on retention risks, see our dental group acquisition due diligence guide. For ongoing retention strategies, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

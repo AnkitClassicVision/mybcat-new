@@ -419,7 +419,7 @@ Standardizing no-show reduction across multiple locations requires:
 
 The locations that achieve the best no-show rates are not lucky. They follow disciplined, standardized processes. When you standardize those processes across your network, every location can perform like the best.
 
-For the recovery protocols that complement no-show reduction, see our [no-show recovery program guide](/blog/no-show-recovery-program/). For centralized implementation, review our centralized patient recall guide.
+For the recovery protocols that complement no-show reduction, see our [no-show recovery program guide](/blog/no-show-recovery-program/). For centralized implementation, review our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/).
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
