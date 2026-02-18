@@ -38,3 +38,4 @@ Allow: /api/public/
 
 # Sitemap location
 Sitemap: https://mybcat.com/sitemap-index.xml
+
