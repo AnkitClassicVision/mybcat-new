@@ -8,9 +8,8 @@ seoDescription: >-
   Dental group acquisition due diligence focused on patient retention. Red
   flags, data analysis, and risk mitigation strategies for DSOs and dental
   acquirers.
-publishDate: '2026-02-18'
-status: scheduled
-scheduledDate: '2026-02-18'
+publishDate: '2026-02-18T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Enterprise
 tags:
