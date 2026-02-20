@@ -1,8 +1,14 @@
 ---
-title: "Call Management Best Practices for Optometry Offices"
-seoTitle: "Call Management Best Practices for Optometry Offices"
-description: "Practical call management strategies for optometry offices. Reduce hold times, capture every patient inquiry, and implement systems that scale with your practice."
-seoDescription: "Call management best practices for optometry practices. Actionable strategies to reduce hold times, eliminate missed calls, and improve patient service quality."
+title: Call Management Best Practices for Optometry Offices
+seoTitle: Call Management Best Practices for Optometry Offices
+description: >-
+  Practical call management strategies for optometry offices. Reduce hold times,
+  capture every patient inquiry, and implement systems that scale with your
+  practice.
+seoDescription: >-
+  Call management best practices for optometry practices. Actionable strategies
+  to reduce hold times, eliminate missed calls, and improve patient service
+  quality.
 publishDate: '2026-02-20'
 status: scheduled
 scheduledDate: '2026-02-20'
@@ -15,7 +21,7 @@ tags:
   - patient service
   - front desk efficiency
 featuredImage: /images/blog/call-management-best-practices-optometry.webp
-canonical: https://mybcat.com/blog/call-management-best-practices-optometry/
+canonical: 'https://mybcat.com/blog/call-management-best-practices-optometry/'
 relatedPosts:
   - medical-answering-services-eye-care-guide
   - virtual-receptionist-vs-front-desk-optometry
