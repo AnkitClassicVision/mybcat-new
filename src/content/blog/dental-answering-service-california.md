@@ -266,10 +266,6 @@ Dental practices operating across multiple locations face a unique set of operat
 
 Dental groups that answer every call book more patients. [Talk to our team](/contact/) about how MyBCAT helps dental practices capture every opportunity.
 
-## Related Reading
-
-- [AI phone answering for dental offices](/blog/ai-phone-answering-for-dental-offices/)
-
 ## Sources
 
 - [ADA: Practice Management Resources](https://www.ada.org/resources/practice)

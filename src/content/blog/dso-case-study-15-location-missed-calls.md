@@ -236,7 +236,6 @@ Dental groups that answer every call book more patients. [Talk to our team](/con
 
 ## Related Reading
 
-- [AI phone answering for dental offices](/blog/ai-phone-answering-for-dental-offices/)
 - [dental answering service California](/blog/dental-answering-service-california/)
 
 ## Sources

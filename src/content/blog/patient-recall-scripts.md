@@ -24,7 +24,6 @@ cluster: patient-recall
 isPillar: true
 relatedPosts:
   - reactivation-text-message-templates
-  - reactivation-without-discounts
   - patient-recall-postcard-vs-text-vs-phone
   - dormant-patient-reactivation
 ---

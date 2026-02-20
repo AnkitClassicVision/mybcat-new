@@ -53,6 +53,13 @@
       "reason": "Resource page - references podcast location",
       "approvedBy": "SEO Lead",
       "approvedDate": "2026-01-30"
+    },
+    {
+      "file": "src/pages/ai-profile.astro",
+      "terms": ["Georgia", "Marietta"],
+      "reason": "AI profile page - company headquarters location is factual business information",
+      "approvedBy": "SEO Lead",
+      "approvedDate": "2026-02-20"
     }
   ],
 

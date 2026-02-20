@@ -217,10 +217,6 @@ For general recall strategies applicable across healthcare, see our [patient rec
 Dental groups that answer every call book more patients. [Talk to our team](/contact/) about how MyBCAT helps dental practices capture every opportunity.
 
 
-## Related Reading
-
-- [AI phone answering for dental offices](/blog/ai-phone-answering-for-dental-offices/)
-
 ## Sources
 
 - [DentistryIQ: Improving Dental Hygiene Recall Rates](https://www.dentistryiq.com/practice-management/industry/article/16366863/data-bite-survey-finds-improving-dental-hygiene-recall-rates-a-primary-growth-opportunity-for-practices-in-2017)

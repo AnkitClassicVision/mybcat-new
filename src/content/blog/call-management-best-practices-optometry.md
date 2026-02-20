@@ -111,7 +111,7 @@ Schedule quarterly refresher sessions. Skills degrade over time, especially unde
 
 Modern cloud phone systems offer capabilities that were unavailable even five years ago. Call recording lets you review and coach on real interactions. CRM integration surfaces patient context the moment a call comes in, so your team can greet callers by name and reference their last visit. AI-assisted call routing directs patients to the right person based on the reason for their call, reducing transfers and hold times.
 
-Transcription and analytics tools can automatically flag calls that went poorly, identify common patient questions that your website should address, and quantify the revenue impact of your phone operations. For more on how technology can transform your call operations, see our post on [using technology for streamlined call support](/blog/using-technology-for-streamlined-call-support/).
+Transcription and analytics tools can automatically flag calls that went poorly, identify common patient questions that your website should address, and quantify the revenue impact of your phone operations. For more on how technology can transform your call operations, see our post on [leveraging technology for streamlined call support](/blog/leveraging-technology-for-streamlined-call-support/).
 
 The goal is not to replace your team with technology. It is to give your team better tools so they can focus on what they do best: building relationships with patients and converting inquiries into appointments.
 

@@ -27,7 +27,6 @@ relatedPosts:
   - patient-reactivation-roi
   - reactivation-campaign-kpis
   - case-study-dormant-patient-recovery
-  - reactivation-without-discounts
 ---
 
 Multi-location healthcare groups recover 15-25% of dormant patients when they follow a structured reactivation playbook. For a 10-location group with 500 dormant patients per site, that translates to 750 to 1,250 recovered patients. At an average patient lifetime value of $3,500, a successful 30-day reactivation campaign generates $2.6 million to $4.4 million in recovered revenue. This playbook provides the exact framework operations leaders use to execute reactivation at scale.

@@ -74,7 +74,7 @@ const ARCHIVE_DOMAINS = [
  * Extract all URLs from the ## Sources section of a markdown file.
  */
 function extractSourceURLs(body) {
-  const sourcesMatch = body.match(/^## Sources\s*\n([\s\S]*?)(?=\n## |\n---|\Z)/m);
+  const sourcesMatch = body.match(/^## Sources\s*\n([\s\S]*?)(?=\n## |\n---|(?![\s\S]))/m);
   if (!sourcesMatch) return [];
 
   const sourcesBlock = sourcesMatch[1];
