@@ -1,24 +1,27 @@
 ---
 title: Reactivation Call Centers for Multi-Location Medical Groups
 seoTitle: Reactivation Call Center for Medical Practices | Scale
-description: Multi-location medical groups recover 20-30% of dormant patients through
-  centralized reactivation call centers. Learn the metrics, staffing models, and ROI.
-seoDescription: Multi-location medical groups recover 20-30% of dormant patients through
+description: >-
+  Multi-location medical groups recover 20-30% of dormant patients through
+  centralized reactivation call centers. Learn the metrics, staffing models, and
+  ROI.
+seoDescription: >-
+  Multi-location medical groups recover 20-30% of dormant patients through
   centralized reactivation call centers. Learn the metrics, staffing, and ROI.
-publishDate: 2026-02-04
+publishDate: 2026-02-04T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-- reactivation call center for medical practices
-- multi-location
-- enterprise operations
-- healthcare scale
+  - reactivation call center for medical practices
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 featuredImage: /images/blog/reactivationcallcenterformedicalpractice.webp
-canonical: https://mybcat.com/blog/reactivationcallcenterformedicalpractice/
+canonical: 'https://mybcat.com/blog/reactivationcallcenterformedicalpractice/'
 cluster: patient-recall
 relatedPosts:
-- patient-recall-campaign-framework
+  - patient-recall-campaign-framework
 ---
 
 Multi-location medical groups lose 10% of their patient base annually to attrition. For a 15-location DSO with 6,000 patients per site, that translates to 9,000 patients walking out the door each year. A dedicated reactivation call center can recover 20-30% of those dormant patients, generating over $1 million in recaptured revenue. Building this capability starts with a solid [patient recall campaign framework](/blog/patient-recall-campaign-framework/). This guide breaks down how operations leaders at healthcare groups with 3+ locations can build, measure, and scale reactivation programs that deliver measurable EBITDA impact.
@@ -66,32 +69,18 @@ Operations leaders face a structural decision: centralize reactivation calling o
 
 A dedicated reactivation team handles outbound campaigns for all locations from a single hub. This approach works best for groups with 10+ locations where standardization and scale economics matter most.
 
-Advantages:
-- Consistent messaging and scripting across all sites
-- Single technology stack (dialer, CRM, analytics)
-- Easier quality assurance and compliance monitoring
-- Lower cost per call through volume efficiency
-- Unified reporting and benchmarking
+Advantages include consistent messaging and scripting across all sites, single technology stack (dialer, crm, analytics), easier quality assurance and compliance monitoring, lower cost per call through volume efficiency, and unified reporting and benchmarking.
 
 Disadvantages:
-- Less local context (agents may not know specific providers)
-- Requires integration with multiple practice management systems
-- Initial setup investment in technology and training
+Less local context (agents may not know specific providers). Requires integration with multiple practice management systems. Initial setup investment in technology and training.
 
 **Distributed Model**
 
 Front desk staff at each location handle reactivation calls during downtime. This approach suits smaller groups (3-5 locations) with lower call volumes.
 
-Advantages:
-- Local knowledge of patients and providers
-- No additional staffing costs
-- Staff already have system access
+Advantages include local knowledge of patients and providers, no additional staffing costs, and staff already have system access.
 
-Disadvantages:
-- Inconsistent execution based on location priorities
-- Competes with inbound call handling
-- Difficult to track and optimize
-- Higher effective cost per call
+Disadvantages include inconsistent execution based on location priorities, competes with inbound call handling, difficult to track and optimize, and higher effective cost per call.
 
 **Hybrid Model**
 
@@ -109,11 +98,7 @@ Reactivation calling requires different skills than inbound patient service. Out
 
 The standard formula starts with call volume targets. For a 15-location group with 9,000 dormant patients:
 
-- Target contact rate: 25% (2,250 live conversations)
-- Calls required to reach target: 9,000 attempts
-- Calls per agent per day: 80-100 outbound
-- Campaign duration: 20 business days
-- Agents needed: 4-5 FTEs dedicated to reactivation
+Target contact rate: 25% (2,250 live conversations). Calls required to reach target: 9,000 attempts. Calls per agent per day: 80-100 outbound. Campaign duration: 20 business days. Agents needed: 4-5 FTEs dedicated to reactivation.
 
 Add 30-35% shrinkage factor for breaks, training, and turnover. Your actual staffing requirement becomes 6-7 FTEs for this campaign volume.
 
@@ -134,11 +119,7 @@ Compare these metrics across locations to identify performance gaps. A location 
 **Technology Stack**
 
 Centralized reactivation requires:
-- Power dialer with local caller ID presentation
-- Integration with practice management systems across all locations
-- Call recording for compliance and quality review
-- Real-time dashboard showing campaign progress
-- Scheduling capability to book directly into provider calendars
+Power dialer with local caller ID presentation. Integration with practice management systems across all locations. Call recording for compliance and quality review. Real-time dashboard showing campaign progress. Scheduling capability to book directly into provider calendars.
 
 The [KPI dashboard for multi-location intake](/blog/kpi-dashboard-multi-location-intake/) provides a framework for building unified reporting across your network.
 
@@ -323,6 +304,8 @@ For PE-backed groups, frame the investment in terms of multiple expansion. Impro
 - [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
 - [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
 - [Patient Recall Segmentation: Who to Call First (and Why)](/blog/patient-recall-segmentation/)
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

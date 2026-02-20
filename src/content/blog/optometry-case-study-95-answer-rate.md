@@ -1,31 +1,34 @@
 ---
-title: 'Case Study: How a Regional Optometry Group Achieved 95% Answer Rate (And What
-  It Meant for Revenue)'
+title: >-
+  Case Study: How a Regional Optometry Group Achieved 95% Answer Rate (And What
+  It Meant for Revenue)
 seoTitle: 'Optometry Case Study: 95% Answer Rate Results'
-description: 'A regional optometry group transformed their intake operations from
-  72% to 95% answer rate. The result: 44% more new patients and $787,000 in annual
-  revenue growth.'
-seoDescription: See how a regional optometry group went from 72% to 95% answer rate,
-  adding 44% more new patients and $787,000 in annual revenue. Full case study with
+description: >-
+  A regional optometry group transformed their intake operations from 72% to 95%
+  answer rate. The result: 44% more new patients and $787,000 in annual revenue
+  growth.
+seoDescription: >-
+  See how a regional optometry group went from 72% to 95% answer rate, adding
+  44% more new patients and $787,000 in annual revenue. Full case study with
   results.
-publishDate: 2026-01-21 00:00:00+00:00
+publishDate: 2026-01-21T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Growth
 tags:
-- case-study
-- optometry
-- answer-rate
-- revenue
-- capture-rate
-- multi-location
+  - case-study
+  - optometry
+  - answer-rate
+  - revenue
+  - capture-rate
+  - multi-location
 featuredImage: /images/blog/optometry-case-study-95-answer-rate.webp
-canonical: https://mybcat.com/blog/optometry-case-study-95-answer-rate/
+canonical: 'https://mybcat.com/blog/optometry-case-study-95-answer-rate/'
 relatedPosts:
-- optometry-retail-clinical-intake-guide
-- missed-calls-revenue-leak-multi-location-healthcare
-- ebitda-impact-calculator
-- multi-location-healthcare-intake-guide
+  - optometry-retail-clinical-intake-guide
+  - missed-calls-revenue-leak-multi-location-healthcare
+  - ebitda-impact-calculator
+  - multi-location-healthcare-intake-guide
 ---
 
 A regional optometry group was growing fast but losing patients to unanswered calls. With private equity interest on the horizon, they needed operational excellence. Here is how they transformed their intake operations and the measurable impact on revenue.
@@ -42,10 +45,7 @@ A regional optometry group was growing fast but losing patients to unanswered ca
 ## What Was the Challenge Before PE?
 
 **Company profile:**
-- 8 locations across 2 states
-- $12M annual revenue
-- 52 employees including 10 front desk staff
-- Organic growth with PE partnership exploration
+8 locations across 2 states. $12M annual revenue. 52 employees including 10 front desk staff. Organic growth with PE partnership exploration.
 
 The group had built a strong clinical reputation. Patients loved their doctors. But operational cracks were showing.
 
@@ -69,10 +69,7 @@ After evaluating several options, the group implemented MyBCAT across all 8 loca
 
 The first step was solving the optometry-specific routing challenge. Calls were classified within 15 seconds:
 
-- Clinical appointment requests → scheduling team
-- Optical inquiries (frames, contacts) → optical specialists
-- Insurance verification → dedicated verification queue
-- Hybrid needs → appropriate primary handler with warm transfer capability
+Clinical appointment requests → scheduling team. Optical inquiries (frames, contacts) → optical specialists. Insurance verification → dedicated verification queue. Hybrid needs → appropriate primary handler with warm transfer capability.
 
 This reduced average call time while improving first-call resolution.
 
@@ -80,38 +77,25 @@ This reduced average call time while improving first-call resolution.
 
 Insurance verification was moved off the main phone lines:
 
-- Online verification tools became primary method
-- Pre-appointment verification batched during off-peak hours
-- Dedicated verification specialists for complex cases
-- Reduced verification call time from 8 minutes to 3 minutes average
+Online verification tools became primary method. Pre-appointment verification batched during off-peak hours. Dedicated verification specialists for complex cases. Reduced verification call time from 8 minutes to 3 minutes average.
 
 ### How Was Bilingual Support Added?
 
 Spanish-language capability was added without hiring additional staff:
 
-- Spanish-speaking callers identified and routed appropriately
-- Full scheduling and optical support in Spanish
-- Insurance verification available in Spanish
-- No more relying on which location happened to have a bilingual employee working
+Spanish-speaking callers identified and routed appropriately. Full scheduling and optical support in Spanish. Insurance verification available in Spanish. No more relying on which location happened to have a bilingual employee working.
 
 ### How Did Peak Hour Overflow Change?
 
 Instead of calls going to voicemail during busy periods:
 
-- Overflow routing activated automatically based on wait times
-- Calls handled to completion, not just messages taken
-- Real-time scheduling access across all locations
-- Seamless experience regardless of call volume
+Overflow routing activated automatically based on wait times. Calls handled to completion, not just messages taken. Real-time scheduling access across all locations. Smooth experience regardless of call volume.
 
 ### What Did the Unified Dashboard Provide?
 
 Leadership gained visibility into operations:
 
-- Real-time call metrics by location
-- Answer rate tracking
-- Average handling time
-- Optical opportunity flagging
-- Patient satisfaction indicators
+Real-time call metrics by location. Answer rate tracking. Average handling time. Optical opportunity flagging. Patient satisfaction indicators.
 
 ## What Were the Results After 6 Months?
 
@@ -150,10 +134,7 @@ This was the unexpected win. By routing optical inquiries correctly and proactiv
 
 **The math:**
 
-- Additional new patients per month: 82
-- Average new patient lifetime value: $800
-- Monthly revenue increase: $65,600
-- Annual revenue increase: $787,200
+Additional new patients per month: 82. Average new patient lifetime value: $800. Monthly revenue increase: $65,600. Annual revenue increase: $787,200.
 
 The capture rate improvement added further revenue not included in this calculation.
 
@@ -216,11 +197,7 @@ You cannot improve what you cannot see. Real-time metrics across locations made 
 This case study reflects results for a specific group with specific challenges. Your situation may differ. However, the underlying principles apply broadly:
 
 **Good candidates for this approach:**
-- Multi-location optometry groups (4+ locations)
-- Groups experiencing answer rate below 85%
-- Groups with significant optical revenue opportunity
-- Groups preparing for growth or transactions
-- Groups with inconsistent coverage across locations
+Multi-location optometry groups (4+ locations). Groups experiencing answer rate below 85%. Groups with significant optical revenue opportunity. Groups preparing for growth or transactions. Groups with inconsistent coverage across locations.
 
 **Signals that intake optimization could help:**
 - You do not know your current answer rate
@@ -241,3 +218,20 @@ This case study reflects results for a specific group with specific challenges. 
 
 *Sources: [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), [CallRail Healthcare Marketing Challenges](https://www.callrail.com/blog/healthcare-marketing-challenges)*
 ---
+
+
+
+The operational foundation of a successful optometry practice extends beyond clinical excellence. Practices that track their key performance indicators consistently outperform those that rely on intuition alone. Metrics like patient conversion rate, average revenue per visit, optical capture rate, and recall compliance rate provide the data needed to make informed decisions. When these numbers are visible to the entire team, accountability improves naturally. Staff members who understand how their daily work connects to practice performance tend to take more ownership of outcomes. The practices achieving the strongest results are those that combine rigorous measurement with a patient-centered culture, creating an environment where both clinical quality and operational efficiency reinforce each other.
+
+Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
+
+## Related Reading
+
+- [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/)
+- [the importance of timely appointment scheduling](/blog/the-importance-of-timely-appointment-scheduling/)
+
+## Sources
+
+- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)
+- [Review of Optometric Business: Practice Growth](https://reviewob.com/)
+- [MGMA: Medical Practice Operations](https://www.mgma.com/)

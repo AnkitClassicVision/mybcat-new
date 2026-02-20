@@ -1,22 +1,25 @@
 ---
 title: First-Year Financial Planning for New Optometry Practices
 seoTitle: First-Year Financial Planning for Optometry Practices
-description: A practical guide to budgeting, cash flow management, and financial milestones
+description: >-
+  A practical guide to budgeting, cash flow management, and financial milestones
   for your first year as an optometry practice owner.
-seoDescription: First-year financial planning guide for new optometry practices. Learn
-  budgeting, cash flow management, and milestones to survive year one and thrive.
-publishDate: 2026-01-24 00:00:00+00:00
+seoDescription: >-
+  First-year financial planning guide for new optometry practices. Learn
+  budgeting, cash flow management, and milestones to survive year one and
+  thrive.
+publishDate: 2026-01-24T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Practice Management
 tags:
-- optometry
-- financial-planning
-- startup
-- budgeting
-- practice-management
+  - optometry
+  - financial-planning
+  - startup
+  - budgeting
+  - practice-management
 featuredImage: /images/blog/first-year-financial-planning-optometry.webp
-canonical: https://mybcat.com/blog/first-year-financial-planning-optometry/
+canonical: 'https://mybcat.com/blog/first-year-financial-planning-optometry/'
 relatedPosts: []
 ---
 
@@ -61,11 +64,7 @@ These figures assume a general private practice model. Specialty practices, cold
 The challenge: expenses start at full levels while revenue builds gradually.
 
 **Fixed monthly expenses start immediately:**
-- Rent: $4,000-8,000
-- Staff payroll: $8,000-15,000
-- Loan payments: $3,000-8,000
-- Insurance: $800-1,500
-- Utilities and services: $1,000-2,000
+Rent: $4,000-8,000. Staff payroll: $8,000-15,000. Loan payments: $3,000-8,000. Insurance: $800-1,500. Utilities and services: $1,000-2,000.
 
 **Total monthly fixed costs:** $17,000-35,000
 
@@ -99,30 +98,13 @@ This is why most new practices use SBA loans, equipment financing, or combinatio
 Build a detailed monthly budget before opening:
 
 **Revenue projections:**
-- Professional services (exams): ________
-- Contact lens sales: ________
-- Spectacle sales: ________
-- Other: ________
-- **Total projected revenue:** ________
+Professional services (exams): ________. Contact lens sales: ________. Spectacle sales: ________. Other: ________. **Total projected revenue:** ________.
 
 **Cost of goods sold:**
-- Frames and lenses: ________ (target 30-35% of optical revenue)
-- Contact lenses: ________ (target 60-65% of CL revenue)
-- Lab fees: ________
-- **Total COGS:** ________
+Frames and lenses: ________ (target 30-35% of optical revenue). Contact lenses: ________ (target 60-65% of CL revenue). Lab fees: ________. **Total COGS:** ________.
 
 **Operating expenses:**
-- Rent and occupancy: ________
-- Payroll and benefits: ________
-- Equipment loan payments: ________
-- Insurance (malpractice, liability): ________
-- Marketing: ________
-- Technology and software: ________
-- Office supplies: ________
-- Utilities: ________
-- Professional services: ________
-- Miscellaneous: ________
-- **Total operating expenses:** ________
+Rent and occupancy: ________. Payroll and benefits: ________. Equipment loan payments: ________. Insurance (malpractice, liability): ________. Marketing: ________. Technology and software: ________. Office supplies: ________. Utilities: ________. Professional services: ________. Miscellaneous: ________. **Total operating expenses:** ________.
 
 **Net operating income:** Revenue - COGS - Operating expenses = ________
 
@@ -167,26 +149,16 @@ Track these metrics weekly:
 ### How Can You Improve Cash Flow?
 
 **Speed up collections:**
-- Submit claims same day
-- Follow up on denials within 48 hours
-- Collect patient responsibility at time of service
-- Offer payment plans for large balances
+Submit claims same day. Follow up on denials within 48 hours. Collect patient responsibility at time of service. Offer payment plans for large balances.
 
 **Manage payables strategically:**
-- Pay bills on due date, not early
-- Negotiate extended terms with vendors
-- Use credit cards for float (pay in full monthly)
-- Prioritize payments that affect credit or operations
+Pay bills on due date, not early. Negotiate extended terms with vendors. Use credit cards for float (pay in full monthly). Prioritize payments that affect credit or operations.
 
 **Control inventory:**
-- Start with lean frame inventory, expand as sales prove demand
-- Use consignment arrangements where available
-- Monitor inventory turns, liquidate slow movers
+Start with lean frame inventory, expand as sales prove demand. Use consignment arrangements where available. Monitor inventory turns, liquidate slow movers.
 
 **Flex expenses when needed:**
-- Reduce marketing during cash crunches (temporarily)
-- Delay non-essential purchases
-- Consider temporary staff reductions as last resort
+Reduce marketing during cash crunches (temporarily). Delay non-essential purchases. Consider temporary staff reductions as last resort.
 
 ## What Revenue Optimization Strategies Should You Use?
 
@@ -195,48 +167,29 @@ Improving revenue accelerates the path to profitability.
 ### How Do You Maximize Professional Services Revenue?
 
 **Exam fee optimization:**
-- Research local market rates
-- Do not undercut established practices
-- Charge appropriately for specialized services
-- Review and adjust fees annually
+Research local market rates. Do not undercut established practices. Charge appropriately for specialized services. Review and adjust fees annually.
 
 **Service mix expansion:**
-- Medical optometry (if licensed and competent)
-- Specialty contact lenses
-- Dry eye treatment
-- Myopia management
-- Co-management agreements
+Medical optometry (if licensed and competent). Specialty contact lenses. Dry eye treatment. Myopia management. Co-management agreements.
 
 ### How Do You Optimize Optical Revenue?
 
 Optical often determines practice profitability.
 
 **Capture rate focus:**
-- Target 65%+ capture rate
-- See our [intake guide](/blog/optometry-retail-clinical-intake-guide/) for improving capture
-- Staff training on optical sales
-- Frame selection for your patient demographic
+Target 65%+ capture rate. See our [intake guide](/blog/optometry-retail-clinical-intake-guide/) for improving capture. Staff training on optical sales. Frame selection for your patient demographic.
 
 **Average sale improvement:**
-- Premium lens options education
-- Second-pair programs
-- Sunwear promotion
-- Protection plans
+Premium lens options education. Second-pair programs. Sunwear promotion. Protection plans.
 
 **Margin management:**
-- Target 60-65% gross margin on optical
-- Negotiate vendor terms
-- Monitor lab costs
-- Consider in-house edging as volume grows
+Target 60-65% gross margin on optical. Negotiate vendor terms. Monitor lab costs. Consider in-house edging as volume grows.
 
 ### How Do You Build Contact Lens Revenue?
 
 Contact lenses offer recurring revenue potential:
 
-- Annual supply incentives
-- Subscription/auto-ship programs
-- Specialty lens fitting fees
-- Follow-up exam bundling
+Annual supply incentives. Subscription/auto-ship programs. Specialty lens fitting fees. Follow-up exam bundling.
 
 ## How Do You Control Expenses?
 
@@ -246,10 +199,7 @@ Controlling expenses without compromising quality requires discipline.
 
 Payroll is typically the largest expense. Manage carefully:
 
-- Right-size staffing for current volume, not projected volume
-- Cross-train for flexibility
-- Use part-time staff during ramp-up
-- Add hours before adding headcount
+Right-size staffing for current volume, not projected volume. Cross-train for flexibility. Use part-time staff during ramp-up. Add hours before adding headcount.
 
 ### How Much Should You Spend on Marketing?
 
@@ -258,24 +208,16 @@ Marketing is essential but easy to overspend:
 **First-year marketing budget:** 8-12% of revenue initially, declining to 3-5% as practice establishes.
 
 **Prioritize measurable tactics:**
-- Google Business Profile optimization (free)
-- Website and local SEO (moderate cost, long-term value)
-- Google Ads for immediate patient generation (variable cost, trackable)
-- Community involvement (low cost, relationship building)
+Google Business Profile optimization (free). Website and local SEO (moderate cost, long-term value). Google Ads for immediate patient generation (variable cost, trackable). Community involvement (low cost, relationship building).
 
 **Avoid:**
-- Long-term advertising contracts
-- Expensive brand campaigns before you have patients to serve
-- Marketing that cannot be tracked
+Long-term advertising contracts. Expensive brand campaigns before you have patients to serve. Marketing that cannot be tracked.
 
 ### How Do You Negotiate With Vendors?
 
-New practices have less leverage, but still negotiate:
+New practices have less use, but still negotiate:
 
-- Ask for new practice discounts
-- Request extended payment terms
-- Compare multiple vendors before committing
-- Review costs quarterly
+Ask for new practice discounts. Request extended payment terms. Compare multiple vendors before committing. Review costs quarterly.
 
 ## What Financial Milestones Should You Track?
 
@@ -283,31 +225,19 @@ Track progress against these benchmarks:
 
 ### Month 3 Milestones
 
-- ☐ Seeing 8+ patients per day consistently
-- ☐ Cash flow still negative but within projections
-- ☐ Insurance credentialing complete
-- ☐ Claims being paid within 30 days
+☐ Seeing 8+ patients per day consistently. ☐ Cash flow still negative but within projections. ☐ Insurance credentialing complete. ☐ Claims being paid within 30 days.
 
 ### Month 6 Milestones
 
-- ☐ Seeing 12+ patients per day
-- ☐ Cash flow approaching break-even
-- ☐ Capture rate above 50%
-- ☐ No aging receivables over 90 days
+☐ Seeing 12+ patients per day. ☐ Cash flow approaching break-even. ☐ Capture rate above 50%. ☐ No aging receivables over 90 days.
 
 ### Month 9 Milestones
 
-- ☐ Seeing 15+ patients per day
-- ☐ Cash flow positive (before owner compensation)
-- ☐ Optical revenue growing monthly
-- ☐ Beginning to rebuild reserves
+☐ Seeing 15+ patients per day. ☐ Cash flow positive (before owner compensation). ☐ Optical revenue growing monthly. ☐ Beginning to rebuild reserves.
 
 ### Month 12 Milestones
 
-- ☐ Seeing 18+ patients per day
-- ☐ Taking reasonable owner draws
-- ☐ 3 months operating reserves rebuilt
-- ☐ Clear path to profitability year two
+☐ Seeing 18+ patients per day. ☐ Taking reasonable owner draws. ☐ 3 months operating reserves rebuilt. ☐ Clear path to profitability year two.
 
 Missing milestones is not failure. It signals need for adjustment. Identify the constraint and address it.
 
@@ -318,26 +248,16 @@ You need professional support:
 ### Accountant/CPA
 
 **Services needed:**
-- Monthly bookkeeping (can be outsourced)
-- Quarterly financial review
-- Tax planning
-- Payroll processing
+Monthly bookkeeping (can be outsourced). Quarterly financial review. Tax planning. Payroll processing.
 
 **Selection criteria:**
-- Healthcare practice experience
-- Optometry clients ideally
-- Responsive communication
-- Reasonable fees for practice size
+Healthcare practice experience. Optometry clients ideally. Responsive communication. Reasonable fees for practice size.
 
 **Cost:** $300-800/month for bookkeeping and basic services, plus tax preparation.
 
 ### Financial Advisor
 
-As income grows, consider:
-- Student loan optimization
-- Retirement planning
-- Insurance needs analysis
-- Investment strategy
+As income grows, consider include student loan optimization, retirement planning, insurance needs analysis, and investment strategy.
 
 ### Banker
 
@@ -395,12 +315,14 @@ As year one ends, plan for year two:
 
 Year two should be the year of profitability and stability, setting up year three and beyond for growth and owner wealth building.
 
+Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
+
 ## Next Steps
 
 Financial planning is one component of launching a successful practice. For guidance on equipment, staffing, location, and operations, review our comprehensive [Starting an Optometric Practice 101](/blog/starting-an-optometric-practice-101/) guide.
 
----
+## Sources
 
-*Last Updated: January 2026*
-
-*Sources: [SBA - Manage Your Finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances), [Review of Optometric Business](https://reviewob.com/3-metrics-that-reveal-the-true-financial-health-of-your-practice/)*
+- [SBA - Manage Your Finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
+- [Review of Optometric Business](https://reviewob.com/3-metrics-that-reveal-the-true-financial-health-of-your-practice/)
+- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)

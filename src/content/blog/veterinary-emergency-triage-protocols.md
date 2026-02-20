@@ -1,29 +1,30 @@
 ---
 title: 'Veterinary Emergency Triage: Phone Protocols That Save Lives and Staff Time'
 seoTitle: Veterinary Emergency Triage Protocols for Vet Groups
-description: A complete phone triage protocol framework for multi-location veterinary
-  groups. Includes decision trees for 15 common scenarios, staff training guidelines,
-  and after-hours integration.
-seoDescription: Phone triage protocols for veterinary groups. Decision trees for 15
-  scenarios, 3-tier framework, and staff training. Reduce DVM burnout and improve
-  outcomes.
-publishDate: 2026-01-09
+description: >-
+  A complete phone triage protocol framework for multi-location veterinary
+  groups. Includes decision trees for 15 common scenarios, staff training
+  guidelines, and after-hours integration.
+seoDescription: >-
+  Phone triage protocols for veterinary groups. Decision trees for 15 scenarios,
+  3-tier framework, and staff training. Reduce DVM burnout and improve outcomes.
+publishDate: 2026-01-09T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-- veterinary
-- emergency-triage
-- phone-protocols
-- multi-location
-- after-hours
-- staff-training
+  - veterinary
+  - emergency-triage
+  - phone-protocols
+  - multi-location
+  - after-hours
+  - staff-training
 featuredImage: /images/blog/veterinary-emergency-triage-protocols.webp
-canonical: https://mybcat.com/blog/veterinary-emergency-triage-protocols/
+canonical: 'https://mybcat.com/blog/veterinary-emergency-triage-protocols/'
 relatedPosts:
-- multi-location-healthcare-intake-guide
-- after-hours-veterinary-call-management
-- healthcare-front-desk-staffing-crisis-2025
+  - multi-location-healthcare-intake-guide
+  - after-hours-veterinary-call-management
+  - healthcare-front-desk-staffing-crisis-2025
 ---
 
 A panicked client calls at 2 PM about a dog that "isn't acting right." Is it an emergency requiring immediate action, an urgent situation needing same-day attention, or a routine concern for the next available appointment? For multi-location veterinary groups, getting this decision wrong has consequences: for the patient, the client relationship, and your staff's well-being.
@@ -80,14 +81,7 @@ Every incoming call should be categorized into one of three tiers. Clear definit
 **Action:** Transfer to DVM (Doctor of Veterinary Medicine) or emergency technician immediately. If after-hours, direct to emergency clinic or on-call DVM.
 
 **Examples:**
-- Difficulty breathing
-- Collapse or inability to stand
-- Uncontrolled bleeding
-- Suspected toxin ingestion within the past 2 hours
-- Bloated abdomen with retching (potential GDV)
-- Seizures (ongoing or multiple)
-- Trauma (hit by car, severe fall, animal attack)
-- Labor complications (more than 2 hours between puppies/kittens)
+Difficulty breathing. Collapse or inability to stand. Uncontrolled bleeding. Suspected toxin ingestion within the past 2 hours. Bloated abdomen with retching (potential GDV). Seizures (ongoing or multiple). Trauma (hit by car, severe fall, animal attack). Labor complications (more than 2 hours between puppies/kittens).
 
 ### Tier 2: Urgent (Same-Day Attention Needed)
 
@@ -96,13 +90,7 @@ Every incoming call should be categorized into one of three tiers. Clear definit
 **Action:** Schedule same-day appointment. If no availability, escalate to practice manager to create capacity. After-hours, assess whether the patient can wait until morning or needs emergency referral.
 
 **Examples:**
-- Vomiting or diarrhea (more than 2 episodes, or with blood)
-- Not eating for 24+ hours
-- Limping (non-weight-bearing)
-- Eye injury or sudden squinting
-- Urinary issues (especially male cats)
-- Allergic reaction with facial swelling
-- Behavioral changes (sudden aggression, hiding, lethargy)
+Vomiting or diarrhea (more than 2 episodes, or with blood). Not eating for 24+ hours. Limping (non-weight-bearing). Eye injury or sudden squinting. Urinary issues (especially male cats). Allergic reaction with facial swelling. Behavioral changes (sudden aggression, hiding, lethargy).
 
 ### Tier 3: Routine (Next Available Appointment)
 
@@ -111,12 +99,7 @@ Every incoming call should be categorized into one of three tiers. Clear definit
 **Action:** Book next available appointment. Provide basic home care guidance if appropriate.
 
 **Examples:**
-- Mild limping (still weight-bearing)
-- Minor skin issues or ear scratching
-- Gradual weight changes
-- Wellness and vaccination appointments
-- Refill requests
-- Elective procedures consultation
+Mild limping (still weight-bearing). Minor skin issues or ear scratching. Gradual weight changes. Wellness and vaccination appointments. Refill requests. Elective procedures consultation.
 
 ---
 
@@ -127,100 +110,63 @@ The following scenarios represent the most common triage decisions. Staff should
 ### 1. Potential Toxin Ingestion
 
 **Questions to ask:**
-- What substance did they get into?
-- How much was consumed?
-- When did this happen?
-- What is the pet's weight?
+What substance did they get into? How much was consumed? When did this happen? What is the pet's weight?
 
 **Triage:**
-- Chocolate, grapes/raisins, xylitol, medications, antifreeze, rat poison: **EMERGENCY** if within 2 hours
-- Unknown substance: **URGENT**, escalate to DVM for guidance
-- Small amount of non-toxic item: **ROUTINE**
+Chocolate, grapes/raisins, xylitol, medications, antifreeze, rat poison: **EMERGENCY** if within 2 hours. Unknown substance: **URGENT**, escalate to DVM for guidance. Small amount of non-toxic item: **ROUTINE**.
 
 ### 2. Difficulty Breathing
 
 **Questions to ask:**
-- Is the pet's tongue or gums blue/purple?
-- Is the pet making unusual sounds when breathing?
-- How long has this been happening?
+Is the pet's tongue or gums blue/purple? Is the pet making unusual sounds when breathing? How long has this been happening?
 
 **Triage:**
-- Blue/purple gums, gasping, or collapsing: **EMERGENCY**
-- Labored breathing but alert and pink gums: **URGENT**
-- Mild panting in stressed/hot conditions: Assess context, may be **ROUTINE**
+Blue/purple gums, gasping, or collapsing: **EMERGENCY**. Labored breathing but alert and pink gums: **URGENT**. Mild panting in stressed/hot conditions: Assess context, may be **ROUTINE**.
 
 ### 3. Bloated Abdomen
 
 **Questions to ask:**
-- What breed/size is the dog?
-- Is the abdomen hard or soft?
-- Is the pet trying to vomit without producing anything?
-- When did they last eat?
+What breed/size is the dog? Is the abdomen hard or soft? Is the pet trying to vomit without producing anything? When did they last eat?
 
 **Triage:**
-- Deep-chested breed + hard belly + non-productive retching: **EMERGENCY** (potential GDV)
-- Gradual distension over days: **URGENT**
-- After a large meal, soft belly, acting normal: **ROUTINE**
+Deep-chested breed + hard belly + non-productive retching: **EMERGENCY** (potential GDV). Gradual distension over days: **URGENT**. After a large meal, soft belly, acting normal: **ROUTINE**.
 
 ### 4. Not Eating or Drinking
 
 **Questions to ask:**
-- How long has this been going on?
-- Any vomiting or diarrhea?
-- Is the pet still drinking water?
-- Any other behavioral changes?
+How long has this been going on? Any vomiting or diarrhea? Is the pet still drinking water? Any other behavioral changes?
 
 **Triage:**
-- Cat not eating for 48+ hours: **URGENT** (risk of hepatic lipidosis)
-- Dog not eating for 24+ hours with other symptoms: **URGENT**
-- Skipped one meal but otherwise normal: **ROUTINE**
+Cat not eating for 48+ hours: **URGENT** (risk of hepatic lipidosis). Dog not eating for 24+ hours with other symptoms: **URGENT**. Skipped one meal but otherwise normal: **ROUTINE**.
 
 ### 5. Limping or Suspected Fracture
 
 **Questions to ask:**
-- Is the pet bearing weight on the leg?
-- Was there any trauma or fall?
-- Is there visible swelling or deformity?
-- How long has this been happening?
+Is the pet bearing weight on the leg? Was there any trauma or fall? Is there visible swelling or deformity? How long has this been happening?
 
 **Triage:**
-- Visible bone, severe swelling, or non-weight-bearing after trauma: **EMERGENCY**
-- Non-weight-bearing but no visible injury: **URGENT**
-- Mild limp, still using the leg: **ROUTINE**
+Visible bone, severe swelling, or non-weight-bearing after trauma: **EMERGENCY**. Non-weight-bearing but no visible injury: **URGENT**. Mild limp, still using the leg: **ROUTINE**.
 
 ### 6. Vomiting and/or Diarrhea
 
 **Questions to ask:**
-- How many episodes in the past 24 hours?
-- Is there blood in the vomit or stool?
-- Is the pet still drinking water?
-- Any known dietary indiscretion?
+How many episodes in the past 24 hours? Is there blood in the vomit or stool? Is the pet still drinking water? Any known dietary indiscretion?
 
 **Triage:**
-- Blood present, or more than 4-5 episodes: **URGENT**
-- Young puppy/kitten or senior pet with multiple episodes: **URGENT**
-- Single episode, otherwise normal: **ROUTINE**
+Blood present, or more than 4-5 episodes: **URGENT**. Young puppy/kitten or senior pet with multiple episodes: **URGENT**. Single episode, otherwise normal: **ROUTINE**.
 
 ### 7. Seizures
 
 **Questions to ask:**
-- Is the seizure happening right now?
-- How long did it last?
-- Has this happened before?
-- Is the pet recovering or still confused?
+Is the seizure happening right now? How long did it last? Has this happened before? Is the pet recovering or still confused?
 
 **Triage:**
-- Ongoing seizure or multiple seizures in one hour: **EMERGENCY**
-- First-time seizure, now recovered: **URGENT** (same-day evaluation)
-- Known epileptic, breakthrough seizure, now normal: **URGENT** (medication review)
+Ongoing seizure or multiple seizures in one hour: **EMERGENCY**. First-time seizure, now recovered: **URGENT** (same-day evaluation). Known epileptic, breakthrough seizure, now normal: **URGENT** (medication review).
 
 ### 8. Trauma (Hit by Car, Fall, Animal Attack)
 
 **Questions to ask:**
-- Is there visible bleeding?
-- Is the pet able to walk?
-- Is the pet conscious and responsive?
-- How long ago did this happen?
+Is there visible bleeding? Is the pet able to walk? Is the pet conscious and responsive? How long ago did this happen?
 
 **Triage:**
 - All trauma cases: **EMERGENCY** regardless of visible injury. Internal injuries may not be apparent.
@@ -228,93 +174,58 @@ The following scenarios represent the most common triage decisions. Staff should
 ### 9. Eye Injury or Sudden Vision Changes
 
 **Questions to ask:**
-- Is the eye swollen, bulging, or bleeding?
-- Can you see any foreign object?
-- Is the pet pawing at the eye?
-- Was there any trauma?
+Is the eye swollen, bulging, or bleeding? Can you see any foreign object? Is the pet pawing at the eye? Was there any trauma?
 
 **Triage:**
-- Bulging eye, visible injury, or trauma: **EMERGENCY**
-- Sudden squinting, redness, or discharge: **URGENT**
-- Mild eye discharge, no behavioral change: **ROUTINE**
+Bulging eye, visible injury, or trauma: **EMERGENCY**. Sudden squinting, redness, or discharge: **URGENT**. Mild eye discharge, no behavioral change: **ROUTINE**.
 
 ### 10. Behavioral Change ("Not Acting Right")
 
 **Questions to ask:**
-- Can you describe specifically what's different?
-- When did you first notice this?
-- Is the pet eating and drinking normally?
-- Any vomiting, diarrhea, or changes in urination?
+Can you describe specifically what's different? When did you first notice this? Is the pet eating and drinking normally? Any vomiting, diarrhea, or changes in urination?
 
 **Triage:**
-- Collapse, extreme lethargy, or unresponsiveness: **EMERGENCY**
-- Notable change with other symptoms: **URGENT**
-- Mild change, eating/drinking normal: **ROUTINE** (but don't dismiss; schedule soon)
+Collapse, extreme lethargy, or unresponsiveness: **EMERGENCY**. Notable change with other symptoms: **URGENT**. Mild change, eating/drinking normal: **ROUTINE** (but don't dismiss; schedule soon).
 
 ### 11. Labor and Delivery Complications
 
 **Questions to ask:**
-- How long has the pet been in active labor?
-- How much time between the last birth and now?
-- Is there visible straining without delivery?
-- Any unusual discharge?
+How long has the pet been in active labor? How much time between the last birth and now? Is there visible straining without delivery? Any unusual discharge?
 
 **Triage:**
-- More than 2 hours between puppies/kittens with straining: **EMERGENCY**
-- Green/black discharge without delivery: **EMERGENCY**
-- Early labor signs, progressing normally: Provide guidance, schedule callback
+More than 2 hours between puppies/kittens with straining: **EMERGENCY**. Green/black discharge without delivery: **EMERGENCY**. Early labor signs, progressing normally: Provide guidance, schedule callback.
 
 ### 12. Allergic Reaction or Swelling
 
 **Questions to ask:**
-- Where is the swelling?
-- Is the pet having difficulty breathing?
-- Any known exposure (bee sting, new food, medication)?
-- How quickly did the swelling develop?
+Where is the swelling? Is the pet having difficulty breathing? Any known exposure (bee sting, new food, medication)? How quickly did the swelling develop?
 
 **Triage:**
-- Throat swelling or breathing difficulty: **EMERGENCY**
-- Facial swelling without breathing issues: **URGENT**
-- Localized swelling from known insect bite, no progression: **ROUTINE**
+Throat swelling or breathing difficulty: **EMERGENCY**. Facial swelling without breathing issues: **URGENT**. Localized swelling from known insect bite, no progression: **ROUTINE**.
 
 ### 13. Urinary Blockage (Especially Male Cats)
 
 **Questions to ask:**
-- Is the pet attempting to urinate?
-- Is anything coming out?
-- How long since they last urinated normally?
-- Male or female? (Male cats at highest risk)
+Is the pet attempting to urinate? Is anything coming out? How long since they last urinated normally? Male or female? (Male cats at highest risk).
 
 **Triage:**
-- Male cat straining with no urine production for 12+ hours: **EMERGENCY**
-- Frequent small urinations, blood in urine: **URGENT**
-- Increased frequency but producing urine: **URGENT** for same-day or next-day
+Male cat straining with no urine production for 12+ hours: **EMERGENCY**. Frequent small urinations, blood in urine: **URGENT**. Increased frequency but producing urine: **URGENT** for same-day or next-day.
 
 ### 14. Uncontrolled Bleeding
 
 **Questions to ask:**
-- Where is the bleeding from?
-- Can you apply pressure to stop it?
-- How long has it been bleeding?
-- Is the blood bright red or dark?
+Where is the bleeding from? Can you apply pressure to stop it? How long has it been bleeding? Is the blood bright red or dark?
 
 **Triage:**
-- Arterial bleeding (spurting), or bleeding that won't stop with pressure: **EMERGENCY**
-- Significant laceration requiring sutures: **URGENT**
-- Minor cut, bleeding controlled: **ROUTINE** (may need sutures but not emergent)
+Arterial bleeding (spurting), or bleeding that won't stop with pressure: **EMERGENCY**. Significant laceration requiring sutures: **URGENT**. Minor cut, bleeding controlled: **ROUTINE** (may need sutures but not emergent).
 
 ### 15. Collapse or Weakness
 
 **Questions to ask:**
-- Did the pet completely collapse or just seem weak?
-- Are they responsive?
-- How long have they been like this?
-- Any known heart or other conditions?
+Did the pet completely collapse or just seem weak? Are they responsive? How long have they been like this? Any known heart or other conditions?
 
 **Triage:**
-- Complete collapse, unresponsive or minimally responsive: **EMERGENCY**
-- Weakness, unable to stand but alert: **URGENT** to **EMERGENCY** depending on progression
-- Mild weakness after exertion in heat: Assess, may be **URGENT**
+Complete collapse, unresponsive or minimally responsive: **EMERGENCY**. Weakness, unable to stand but alert: **URGENT** to **EMERGENCY** depending on progression. Mild weakness after exertion in heat: Assess, may be **URGENT**.
 
 ---
 
@@ -330,11 +241,7 @@ Having a script reduces cognitive load during stressful calls. Adapt this framew
 
 "I want to make sure [pet name] gets the right care. Can I ask you a few quick questions?"
 
-1. "What's happening with [pet name] right now?"
-2. "When did you first notice this?"
-3. "Has anything changed or gotten worse since it started?"
-4. "Is [pet name] eating and drinking normally?"
-5. "Any other symptoms you've noticed?"
+"What's happening with [pet name] right now?". "When did you first notice this?". "Has anything changed or gotten worse since it started?". "Is [pet name] eating and drinking normally?". "Any other symptoms you've noticed?".
 
 ### Triage Decision
 
@@ -372,7 +279,7 @@ A protocol on paper is insufficient if staff lack confidence to use it. Training
 
 ### Confidence Building
 
-**Empower decision-making.** Staff should feel supported, not second-guessed. When they escalate appropriately, thank them. When they handle a situation well, recognize it.
+**Enable decision-making.** Staff should feel supported, not second-guessed. When they escalate appropriately, thank them. When they handle a situation well, recognize it.
 
 **Provide "always escalate" safety valves.** Staff should know they can always escalate to a DVM if uncertain. A false escalation is far better than a missed emergency.
 
@@ -568,3 +475,9 @@ If you want help standardizing triage across locations (including after-hours ro
 *Sources: [VetFolio - Implementing a Triage Protocol](https://www.vetfolio.com/learn/article/back-to-basics-implementing-a-triage-protocol), [Dispomed - Veterinary Triage Protocol Best Practices](https://www.dispomed.com/veterinary-triage-protocol-best-practices-for-front-office-staff/)*
 ---
 > **Struggling with scheduling across locations?** [Explore centralized scheduling](/enterprise/centralized-scheduling/)
+
+## Sources
+
+- [AVMA: Practice Management](https://www.avma.org/resources-tools/practice-management)
+- [Today's Veterinary Business: Operations](https://todaysveterinarybusiness.com/)
+- [Veterinary Practice News: Industry Trends](https://www.veterinarypracticenews.com/)

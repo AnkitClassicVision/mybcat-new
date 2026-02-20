@@ -1,25 +1,27 @@
 ---
 title: 'Reactivation Campaign KPIs: Metrics for Multi-Location Groups'
 seoTitle: 'Reactivation Campaign KPIs: Weekly Metrics for Healthcare'
-description: 'Track these 8 KPIs weekly to optimize reactivation campaigns. Benchmarks:
-  10-20% recovery rate, 85%+ show rate, plus dashboard template.'
-seoDescription: 'Essential KPIs for patient reactivation campaigns with benchmarks:
-  10-20% recovery rate, 25-40% contact rate, 30-50% booking rate. Includes weekly
-  tracking'
-publishDate: 2026-02-04
+description: >-
+  Track these 8 KPIs weekly to optimize reactivation campaigns. Benchmarks:
+  10-20% recovery rate, 85%+ show rate, plus dashboard template.
+seoDescription: >-
+  Essential KPIs for patient reactivation campaigns with benchmarks: 10-20%
+  recovery rate, 25-40% contact rate, 30-50% booking rate. Includes weekly
+  tracking
+publishDate: 2026-02-04T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Analytics
 tags:
-- reactivation KPIs
-- patient recall metrics
-- healthcare analytics
-- multi-location operations
+  - reactivation KPIs
+  - patient recall metrics
+  - healthcare analytics
+  - multi-location operations
 featuredImage: /images/blog/reactivation-campaign-kpis.webp
-canonical: https://mybcat.com/blog/reactivation-campaign-kpis/
+canonical: 'https://mybcat.com/blog/reactivation-campaign-kpis/'
 cluster: patient-recall
 relatedPosts:
-- dormant-patient-reactivation
+  - dormant-patient-reactivation
 ---
 
 Reactivation campaigns without KPI tracking are guesswork. Multi-location healthcare groups running campaigns across 10, 20, or 50 sites need standardized metrics to identify what works, where performance lags, and how to improve. If you are building a campaign from scratch, start with the [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/) for the full strategic framework. This guide defines the eight KPIs that matter most for patient reactivation, provides benchmarks for each, and includes a weekly tracking framework for operations leaders.
@@ -158,17 +160,17 @@ Understanding how metrics flow through the funnel helps diagnose problems:
 <div style="display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0;">
   <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Dormant Patient List (1,000 patients)</div>
   <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
-  <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Attempted (1,000) — Attempt Rate</div>
+  <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Attempted (1,000) -- Attempt Rate</div>
   <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
-  <div style="background: #2563eb; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Contacted (350) — Contact Rate (35%)</div>
+  <div style="background: #2563eb; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Contacted (350) -- Contact Rate (35%)</div>
   <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
-  <div style="background: #7c3aed; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Responded (175) — Response Rate (50%)</div>
+  <div style="background: #7c3aed; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Responded (175) -- Response Rate (50%)</div>
   <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
-  <div style="background: #0891b2; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Booked (150) — Booking Rate (43%)</div>
+  <div style="background: #0891b2; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Booked (150) -- Booking Rate (43%)</div>
   <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
-  <div style="background: #0d9488; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Showed (130) — Show Rate (87%)</div>
+  <div style="background: #0d9488; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Showed (130) -- Show Rate (87%)</div>
   <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
-  <div style="background: #059669; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Reactivated (130) — Recovery Rate (13%)</div>
+  <div style="background: #059669; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Reactivated (130) -- Recovery Rate (13%)</div>
 </div>
 
 **Funnel diagnosis:**
@@ -289,6 +291,8 @@ For the complete reactivation playbook, see our [30-day dormant patient reactiva
 - [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
 - [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
 - [Patient Recall Segmentation: Who to Call First (and Why)](/blog/patient-recall-segmentation/)
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

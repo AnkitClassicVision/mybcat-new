@@ -1,29 +1,31 @@
 ---
 title: 'Case Study: How a 15-Location DSO Reduced Missed Calls by 81% Post-Acquisition'
 seoTitle: 'DSO Case Study: 81% Fewer Missed Calls, $108K/Mo'
-description: A PE-backed dental group recovering $108,000 monthly by standardizing
-  intake across 15 locations. Real metrics, implementation timeline, and lessons for
+description: >-
+  A PE-backed dental group recovering $108,000 monthly by standardizing intake
+  across 15 locations. Real metrics, implementation timeline, and lessons for
   DSO operators.
-seoDescription: See how a 15-location DSO recovered $108,000/month by reducing missed
-  calls 81%. Real metrics and 90-day implementation timeline for dental groups.
-publishDate: 2026-01-10 00:00:00+00:00
+seoDescription: >-
+  See how a 15-location DSO recovered $108,000/month by reducing missed calls
+  81%. Real metrics and 90-day implementation timeline for dental groups.
+publishDate: 2026-01-10T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Growth
 tags:
-- dso
-- case-study
-- dental
-- multi-location
-- private-equity
-- intake-optimization
+  - dso
+  - case-study
+  - dental
+  - multi-location
+  - private-equity
+  - intake-optimization
 featuredImage: /images/blog/dso-case-study-15-location-missed-calls.webp
-canonical: https://mybcat.com/blog/dso-case-study-15-location-missed-calls/
+canonical: 'https://mybcat.com/blog/dso-case-study-15-location-missed-calls/'
 relatedPosts:
-- dso-integration-playbook
-- ebitda-impact-calculator
-- multi-location-healthcare-intake-guide
-- missed-calls-revenue-leak-multi-location-healthcare
+  - dso-integration-playbook
+  - ebitda-impact-calculator
+  - multi-location-healthcare-intake-guide
+  - missed-calls-revenue-leak-multi-location-healthcare
 ---
 
 *This case study illustrates the potential impact of centralized intake optimization, using realistic metrics based on industry data and typical DSO performance patterns. While not a specific MyBCAT client engagement, it demonstrates what multi-location dental groups can achieve with a solution like ours.*
@@ -96,24 +98,15 @@ The implementation followed a 90-day rollout across all 15 locations:
 
 ### Phase 1: Discovery and Configuration (Days 1-14)
 
-- Mapped call patterns across all locations to identify peak times and coverage gaps
-- Integrated with all three practice management systems (Dentrix, Eaglesoft, and Open Dental)
-- Configured location-specific scheduling rules and appointment types
-- Set up real-time dashboard for COO and regional directors
+Mapped call patterns across all locations to identify peak times and coverage gaps. Integrated with all three practice management systems (Dentrix, Eaglesoft, and Open Dental). Configured location-specific scheduling rules and appointment types. Set up real-time dashboard for COO and regional directors.
 
 ### Phase 2: Staged Rollout (Days 15-45)
 
-- Launched at three pilot locations first
-- Refined call scripts based on actual patient interactions
-- Trained front desk teams on the hybrid workflow (when to transfer, when to let the intake service handle)
-- Extended to remaining 12 locations in waves
+Launched at three pilot locations first. Refined call scripts based on actual patient interactions. Trained front desk teams on the hybrid workflow (when to transfer, when to let the intake service handle). Extended to remaining 12 locations in waves.
 
 ### Phase 3: Optimization (Days 46-90)
 
-- Analyzed call recordings to improve conversion scripts
-- Added Spanish-language support at four locations with high Hispanic patient populations
-- Implemented after-hours booking capability
-- Tuned overflow triggers based on hold time data
+Analyzed call recordings to improve conversion scripts. Added Spanish-language support at four locations with high Hispanic patient populations. Implemented after-hours booking capability. Tuned overflow triggers based on hold time data.
 
 **The model:**
 
@@ -219,8 +212,9 @@ The COO expects to reach 25 locations within the next 18 months. With intake sta
 
 ---
 
-
 ---
+
+Dental groups that answer every call book more patients. [Talk to our team](/contact/) about how MyBCAT helps dental practices capture every opportunity.
 
 ## Key Takeaways
 
@@ -239,3 +233,14 @@ The COO expects to reach 25 locations within the next 18 months. With intake sta
 *Last Updated: January 2026*
 
 *Sources: [Invoca - Healthcare](https://www.invoca.com/solutions/healthcare), [Peerlogic - Turning Missed Dental Phone Calls Into Profit](https://www.peerlogic.com/post/turning-missed-dental-phone-calls-into-profit)*
+
+## Related Reading
+
+- [AI phone answering for dental offices](/blog/ai-phone-answering-for-dental-offices/)
+- [dental answering service California](/blog/dental-answering-service-california/)
+
+## Sources
+
+- [ADA: Practice Management Resources](https://www.ada.org/resources/practice)
+- [Dental Economics: Practice Growth](https://www.dentaleconomics.com/)
+- [Becker's Dental Review: DSO News](https://www.beckersdental.com/)

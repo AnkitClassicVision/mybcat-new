@@ -1,26 +1,28 @@
 ---
 title: 'Appointment Reminder Best Practices: Reduce No-Shows 20-50%'
 seoTitle: 'Appointment Reminder Best Practices: Reduce No-Shows'
-description: 64% of patients prefer text reminders. Timing, frequency, and strategies
-  that reduce no-shows 20-50% without annoying patients.
-seoDescription: Appointment reminder best practices that reduce healthcare no-shows
-  by 20-50%. Optimal timing (3-day, 1-day, same-day), channel preferences
+description: >-
+  64% of patients prefer text reminders. Timing, frequency, and strategies that
+  reduce no-shows 20-50% without annoying patients.
+seoDescription: >-
+  Appointment reminder best practices that reduce healthcare no-shows by 20-50%.
+  Optimal timing (3-day, 1-day, same-day), channel preferences
 publishDate: '2026-02-16T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-- appointment reminders
-- no-shows
-- patient communication
-- operations
+  - appointment reminders
+  - no-shows
+  - patient communication
+  - operations
 featuredImage: /images/blog/appointment-reminder-best-practices.webp
-canonical: https://mybcat.com/blog/appointment-reminder-best-practices/
+canonical: 'https://mybcat.com/blog/appointment-reminder-best-practices/'
 cluster: patient-communications
 relatedPosts:
-- no-show-recovery-program
-- reactivation-text-message-templates
-- patient-recall-scripts
+  - no-show-recovery-program
+  - reactivation-text-message-templates
+  - patient-recall-scripts
 ---
 
 Appointment reminders seem simple until you get them wrong. Too few reminders and patients forget. Too many and they opt out. The wrong channel and they never see them. This guide covers the timing, frequency, and channel strategies that reduce no-shows by 20-50% while respecting patient preferences. The best reminder is one that works without being intrusive.
@@ -320,6 +322,8 @@ For strategies to recover when reminders fail and no-shows still occur, see our 
 ## Related Reading
 
 - [Patient Recall Solution](/solutions/patient-recall/)
+
+Every missed call costs your practice revenue. [Talk to our team](/contact/) about how MyBCAT helps healthcare practices answer every call and keep schedules full.
 
 ## Sources
 

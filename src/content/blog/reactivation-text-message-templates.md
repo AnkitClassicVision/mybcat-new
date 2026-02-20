@@ -1,25 +1,27 @@
 ---
 title: 'Reactivation Text Templates: SMS Scripts That Work'
 seoTitle: 'Reactivation Text Message Templates: HIPAA-Compliant SMS'
-description: Reactivation text templates with 70% higher response rates. HIPAA-compliant
+description: >-
+  Reactivation text templates with 70% higher response rates. HIPAA-compliant
   SMS scripts that feel personal, not pushy.
-seoDescription: HIPAA-compliant reactivation text message templates with 98% open
-  rates. Ready-to-use SMS scripts for dormant patient reactivation in dental, optometry
-publishDate: 2026-02-04
+seoDescription: >-
+  HIPAA-compliant reactivation text message templates with 98% open rates.
+  Ready-to-use SMS scripts for dormant patient reactivation in dental, optometry
+publishDate: 2026-02-04T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-- SMS templates
-- reactivation
-- patient recall
-- messaging
-- HIPAA compliance
+  - SMS templates
+  - reactivation
+  - patient recall
+  - messaging
+  - HIPAA compliance
 featuredImage: /images/blog/reactivation-text-message-templates.webp
-canonical: https://mybcat.com/blog/reactivation-text-message-templates/
+canonical: 'https://mybcat.com/blog/reactivation-text-message-templates/'
 cluster: patient-recall
 relatedPosts:
-- patient-recall-scripts
+  - patient-recall-scripts
 ---
 
 The difference between a text message that gets ignored and one that brings a patient back often comes down to the words you choose. SMS achieves a 98% open rate (compared to 20-30% for email) and 90% of texts are read within three minutes. Yet many healthcare reactivation messages sound robotic, impersonal, or worse, like spam. These templates complement our broader [patient recall scripts guide](/blog/patient-recall-scripts/), focusing specifically on SMS. This guide provides ready-to-use reactivation text message templates that feel personal, respect HIPAA compliance, and convert dormant patients back to active status.
@@ -202,21 +204,21 @@ For patients who have been away longer, acknowledge the gap and offer a fresh st
 **Dental Reactivation:**
 
 <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
-  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Dental</p>
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template -- Dental</p>
   <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, <b>[Practice Name]</b> here. Your 6-month cleaning helps prevent costly issues later. We have hygiene openings this week. Reply YES to book. Reply STOP to opt out.</p>
 </div>
 
 **Optometry Reactivation:**
 
 <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
-  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Optometry</p>
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template -- Optometry</p>
   <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><b>[First Name]</b>, when was your last eye exam? Annual exams catch vision changes and eye health issues early. <b>[Practice Name]</b> has openings. Reply YES to schedule. Reply STOP to opt out.</p>
 </div>
 
 **Medical Practice Reactivation:**
 
 <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
-  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Medical Practice</p>
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template -- Medical Practice</p>
   <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, <b>[Practice Name]</b> here. Preventive care helps you stay healthy. You're due for your annual wellness visit. Reply YES to schedule or call <b>[phone]</b>. Reply STOP to opt out.</p>
 </div>
 
@@ -227,28 +229,28 @@ The most effective reactivation uses a sequence of 3-4 messages spaced appropria
 **Sequence Day 1 (Initial):**
 
 <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
-  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Day 1</p>
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template -- Day 1</p>
   <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, this is <b>[Practice Name]</b>. Your <b>[exam/cleaning/checkup]</b> is overdue. Just wanted to make sure you knew! Reply YES to schedule or call <b>[phone]</b>. Reply STOP to opt out.</p>
 </div>
 
 **Sequence Day 5 (Gentle Follow-Up):**
 
 <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
-  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Day 5</p>
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template -- Day 5</p>
   <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><b>[First Name]</b>, just following up from <b>[Practice Name]</b>. We have openings this week if you'd like to get your <b>[appointment type]</b> scheduled. Reply YES or call <b>[phone]</b>. Reply STOP to opt out.</p>
 </div>
 
 **Sequence Day 10 (Value Add):**
 
 <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
-  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Day 10</p>
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template -- Day 10</p>
   <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, one more note from <b>[Practice Name]</b>. Your <b>[preventive visit]</b> may be covered by insurance at no cost. Want to check? Reply YES to schedule. Reply STOP to opt out.</p>
 </div>
 
 **Sequence Day 21 (Final):**
 
 <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
-  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Day 21 (Final)</p>
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template -- Day 21 (Final)</p>
   <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><b>[First Name]</b>, this is our last message about scheduling. We're here when you're ready. Just reply or call <b>[phone]</b>. Take care! - <b>[Practice Name]</b> Reply STOP to opt out.</p>
 </div>
 
@@ -359,7 +361,7 @@ For healthcare groups operating multiple sites:
 **Template with location variable:**
 
 <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
-  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Multi-Location</p>
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template -- Multi-Location</p>
   <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, this is <b>[Practice Name]</b> <b>[City/Location]</b>. You're due for your annual <b>[checkup]</b>. We have openings at our <b>[specific location]</b> this week. Reply YES to book. Reply STOP to opt out.</p>
 </div>
 
@@ -408,6 +410,8 @@ For complete phone scripts to complement these SMS templates, see our [patient r
 - [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
 - [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
 - [Patient Recall Segmentation: Who to Call First (and Why)](/blog/patient-recall-segmentation/)
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

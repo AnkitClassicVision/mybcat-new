@@ -1,30 +1,32 @@
 ---
 title: 'Patient Recall Scripts: Phone and SMS Templates That Get Results'
 seoTitle: 'Patient Recall Scripts: Phone & SMS Templates for Healthcare'
-description: Patient recall scripts for phone and SMS that increase response rates
-  by 20-30%. Includes objection handling and timing.
-seoDescription: Copy-and-paste patient recall scripts for phone and SMS. Includes
-  templates for overdue patients, no-shows, objection handling, and multi-location
+description: >-
+  Patient recall scripts for phone and SMS that increase response rates by
+  20-30%. Includes objection handling and timing.
+seoDescription: >-
+  Copy-and-paste patient recall scripts for phone and SMS. Includes templates
+  for overdue patients, no-shows, objection handling, and multi-location
   healthcare
-publishDate: 2026-02-04
+publishDate: 2026-02-04T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-- patient recall scripts
-- SMS templates
-- phone scripts
-- patient retention
-- multi-location healthcare
+  - patient recall scripts
+  - SMS templates
+  - phone scripts
+  - patient retention
+  - multi-location healthcare
 featuredImage: /images/blog/patient-recall-scripts.webp
-canonical: https://mybcat.com/blog/patient-recall-scripts/
+canonical: 'https://mybcat.com/blog/patient-recall-scripts/'
 cluster: patient-recall
 isPillar: true
 relatedPosts:
-- reactivation-text-message-templates
-- reactivation-without-discounts
-- patient-recall-postcard-vs-text-vs-phone
-- dormant-patient-reactivation
+  - reactivation-text-message-templates
+  - reactivation-without-discounts
+  - patient-recall-postcard-vs-text-vs-phone
+  - dormant-patient-reactivation
 ---
 
 The difference between a 15% and 30% recall booking rate often comes down to the words you use. Effective patient recall scripts increase response rates by 20-30% compared to generic "time for your appointment" messaging. This guide provides ready-to-use phone and SMS scripts for every recall scenario, with objection handling templates and adaptation guidance for multi-location healthcare groups.
@@ -44,11 +46,7 @@ The difference between a 15% and 30% recall booking rate often comes down to the
 Scripts ensure consistency, train new staff quickly, and capture best practices that drive results.
 
 **Benefits of structured recall scripts:**
-- Consistent patient experience across all staff members
-- Faster onboarding for new team members
-- Higher conversion rates from proven language
-- Reduced awkwardness in difficult conversations (objections, no-shows)
-- Scalable execution across multiple locations
+Consistent patient experience across all staff members. Faster onboarding for new team members. Higher conversion rates from proven language. Reduced awkwardness in difficult conversations (objections, no-shows). Scalable execution across multiple locations.
 
 Research shows personalized messages generate 3-4x higher response rates than generic reminders. Scripts provide the framework for personalization at scale.
 
@@ -66,9 +64,7 @@ Phone calls remain the most effective channel for high-value patients and those 
 </div>
 
 **Key elements:**
-- Reference the specific provider by name (builds relationship)
-- Offer specific times rather than open-ended "when works for you"
-- Provide an easy fallback (text with booking link)
+Reference the specific provider by name (builds relationship). Offer specific times rather than open-ended "when works for you". Provide an easy fallback (text with booking link).
 
 ### Script 2: Overdue Patient (3-6 Months Past Due)
 
@@ -80,9 +76,7 @@ Phone calls remain the most effective channel for high-value patients and those 
 </div>
 
 **Key elements:**
-- Acknowledge the gap without judgment ("life gets busy")
-- Proactively surface common objections
-- Show willingness to address concerns
+Acknowledge the gap without judgment ("life gets busy"). Proactively surface common objections. Show willingness to address concerns.
 
 ### Script 3: Long-Dormant Patient (12+ Months)
 
@@ -94,10 +88,7 @@ Phone calls remain the most effective channel for high-value patients and those 
 </div>
 
 **Key elements:**
-- "Personally reach out" language elevates importance
-- Acknowledge the gap directly
-- Ask for feedback (shows you care)
-- Frame as "giving us another chance"
+"Personally reach out" language elevates importance. Acknowledge the gap directly. Ask for feedback (shows you care). Frame as "giving us another chance".
 
 ### Script 4: No-Show Follow-Up (Same Day or Next Day)
 
@@ -109,9 +100,7 @@ Phone calls remain the most effective channel for high-value patients and those 
 </div>
 
 **Key elements:**
-- Express concern for their wellbeing first
-- Gently note the reserved time (accountability without guilt)
-- Focus on rescheduling, not the missed appointment
+Express concern for their wellbeing first. Gently note the reserved time (accountability without guilt). Focus on rescheduling, not the missed appointment.
 
 ## What Are the Best SMS Templates for Patient Recall?
 
@@ -222,9 +211,7 @@ Patients give objections. How you respond determines whether they book or diseng
 When you reach out matters as much as what you say.
 
 **Optimal call times:**
-- Tuesday-Thursday, 10am-12pm and 2pm-4pm
-- Avoid Monday mornings and Friday afternoons
-- For working professionals: early morning (8-9am) or after 5pm
+Tuesday-Thursday, 10am-12pm and 2pm-4pm. Avoid Monday mornings and Friday afternoons. For working professionals: early morning (8-9am) or after 5pm.
 
 **Optimal text times:**
 - Tuesday-Thursday, 9am-11am or 1pm-3pm
@@ -300,6 +287,8 @@ For the complete framework on running recall campaigns, see our [patient recall 
 - [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
 - [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
 - [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

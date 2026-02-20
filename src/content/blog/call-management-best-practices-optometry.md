@@ -82,7 +82,7 @@ The most damaging gap in most call management systems is what happens when the f
 
 Overflow protocols define what happens when your primary team cannot answer. Options include routing to a secondary team member, forwarding to a [medical answering service](/solutions/medical-answering-service/), or deploying a virtual receptionist team that handles overflow during peak periods.
 
-The key is that overflow must be seamless. The patient should not be able to tell the difference between your in-house team and your overflow partner. That means shared access to your scheduling system, familiarity with your office procedures, and consistent greeting scripts.
+The key is that overflow must be smooth. The patient should not be able to tell the difference between your in-house team and your overflow partner. That means shared access to your scheduling system, familiarity with your office procedures, and consistent greeting scripts.
 
 ### 5. What Should You Track and Measure?
 
@@ -107,11 +107,11 @@ Invest in role-play training that covers difficult scenarios: the frustrated pat
 
 Schedule quarterly refresher sessions. Skills degrade over time, especially under the pressure of high call volume. Regular training keeps your standards from drifting. For a deeper look at building a patient-centered phone culture, see our guide to [better call support for your optometry practice](/blog/better-call-support-for-your-optometry-practice/).
 
-### 7. How Can You Leverage Technology?
+### 7. How Can You Use Technology?
 
 Modern cloud phone systems offer capabilities that were unavailable even five years ago. Call recording lets you review and coach on real interactions. CRM integration surfaces patient context the moment a call comes in, so your team can greet callers by name and reference their last visit. AI-assisted call routing directs patients to the right person based on the reason for their call, reducing transfers and hold times.
 
-Transcription and analytics tools can automatically flag calls that went poorly, identify common patient questions that your website should address, and quantify the revenue impact of your phone operations. For more on how technology can transform your call operations, see our post on [leveraging technology for streamlined call support](/blog/leveraging-technology-for-streamlined-call-support/).
+Transcription and analytics tools can automatically flag calls that went poorly, identify common patient questions that your website should address, and quantify the revenue impact of your phone operations. For more on how technology can transform your call operations, see our post on [using technology for streamlined call support](/blog/using-technology-for-streamlined-call-support/).
 
 The goal is not to replace your team with technology. It is to give your team better tools so they can focus on what they do best: building relationships with patients and converting inquiries into appointments.
 
@@ -144,3 +144,9 @@ You do not need to overhaul your entire call management system overnight. Start 
 Small improvements in call management compound quickly. A 10% improvement in answer rate, combined with better call handling and faster follow-up on missed calls, can translate to dozens of additional appointments per month. Over the course of a year, that is a significant impact on both revenue and patient satisfaction.
 
 If your practice needs help building or scaling a call management system, [we can help](/contact/). MyBCAT provides managed call support, virtual receptionist services, and patient access solutions designed specifically for optometry and healthcare practices.
+
+## Sources
+
+- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)
+- [Review of Optometric Business: Practice Growth](https://reviewob.com/)
+- [MGMA: Medical Practice Operations](https://www.mgma.com/)

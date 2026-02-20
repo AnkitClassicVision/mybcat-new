@@ -144,7 +144,7 @@ Retained patients cost less to serve:
 | Provider introduction | Required | Established | 100% |
 | Treatment acceptance | 45-55% | 65-75% | 20-30% |
 
-These efficiencies directly impact labor costs and provider productivity, flowing through to EBITDA. When a practice can see more patients per day because each visit takes less administrative time, the fixed costs of rent, equipment, and staffing are spread across more revenue-generating encounters. This is the operational leverage that makes retention such a powerful EBITDA driver in multi-location healthcare.
+These efficiencies directly impact labor costs and provider productivity, flowing through to EBITDA. When a practice can see more patients per day because each visit takes less administrative time, the fixed costs of rent, equipment, and staffing are spread across more revenue-generating encounters. This is the operational use that makes retention such a powerful EBITDA driver in multi-location healthcare.
 
 ## What Does the Retention-EBITDA Model Show?
 
@@ -412,6 +412,8 @@ For strategies to improve retention across locations, see our [DSO patient reten
 - [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
 - [DSO Patient Retention Strategy: Scaling to 10+ Locations](/blog/dso-patient-retention-strategy/)
+
+Multi-location healthcare groups need standardized intake across every site. [Talk to our team](/contact/) about how MyBCAT provides centralized call answering and patient access for growing organizations.
 
 ## Sources
 

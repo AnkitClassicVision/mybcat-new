@@ -1,30 +1,32 @@
 ---
 title: 'Healthcare Operations Benchmarks: What Top DSOs Track'
 seoTitle: 'Healthcare Group Operations Benchmarks: Top DSO Metrics'
-description: Benchmarks that distinguish top DSOs from average. Financial, operational,
-  and patient metrics for 10+ locations.
-seoDescription: Healthcare group operations benchmarks for DSOs. Target ranges for
-  EBITDA margins, provider productivity, patient retention, and revenue metrics that
+description: >-
+  Benchmarks that distinguish top DSOs from average. Financial, operational, and
+  patient metrics for 10+ locations.
+seoDescription: >-
+  Healthcare group operations benchmarks for DSOs. Target ranges for EBITDA
+  margins, provider productivity, patient retention, and revenue metrics that
 publishDate: '2026-02-11T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Enterprise
 tags:
-- benchmarks
-- DSO
-- operations
-- KPIs
-- enterprise
+  - benchmarks
+  - DSO
+  - operations
+  - KPIs
+  - enterprise
 featuredImage: /images/blog/healthcare-group-operations-benchmarks.webp
-canonical: https://mybcat.com/blog/healthcare-group-operations-benchmarks/
+canonical: 'https://mybcat.com/blog/healthcare-group-operations-benchmarks/'
 cluster: enterprise
 relatedPosts:
-- pe-backed-healthcare-operations
-- dso-patient-retention-strategy
-- multi-location-healthcare-ebitda
-- optometry-network-operations-scale
-- healthcare-call-center-roi-enterprise
-- multi-location-no-show-reduction
+  - pe-backed-healthcare-operations
+  - dso-patient-retention-strategy
+  - multi-location-healthcare-ebitda
+  - optometry-network-operations-scale
+  - healthcare-call-center-roi-enterprise
+  - multi-location-no-show-reduction
 ---
 
 The difference between a 14% EBITDA margin and a 24% EBITDA margin is not luck. It is operational discipline measured through the right benchmarks. Top-performing DSOs and healthcare groups track a specific set of metrics that reveal operational health, identify improvement opportunities, and drive accountability across locations. This guide provides the benchmark targets that distinguish elite performers from the rest.
@@ -428,6 +430,8 @@ For the KPIs that drive PE valuations, see our [PE-backed healthcare operations 
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
 - [Healthcare Call Center ROI: Enterprise Calculation Framework](/blog/healthcare-call-center-roi-enterprise/)
 - [Multi-Location No-Show Reduction: Network Standardization](/blog/multi-location-no-show-reduction/)
+
+Dental groups that answer every call book more patients. [Talk to our team](/contact/) about how MyBCAT helps dental practices capture every opportunity.
 
 ## Sources
 

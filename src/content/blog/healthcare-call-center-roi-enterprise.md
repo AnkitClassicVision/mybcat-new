@@ -560,6 +560,14 @@ Healthcare call center ROI calculation requires comprehensive analysis:
 The healthcare call center is not a cost center. It is a revenue and retention engine that, when measured properly, demonstrates substantial positive ROI.
 
 For implementation of centralized call center operations, see our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/). For the impact on EBITDA, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-ebitda/).
+Multi-location healthcare groups need standardized intake across every site. [Talk to our team](/contact/) about how MyBCAT provides centralized call answering and patient access for growing organizations.
+
+
+## Related Reading
+
+- [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/)
+- [PE-backed healthcare operations](/blog/pe-backed-healthcare-operations/)
+
 ## Sources
 
 - [Call Criteria: Call Center ROI](https://capacity.com/qa-agent-tools/?company=callcriteria.com)

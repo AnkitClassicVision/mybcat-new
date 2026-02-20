@@ -1,25 +1,28 @@
 ---
 title: 'Automated vs Human Patient Recall: Data-Driven Comparison'
-seoTitle: 'Automated vs Human Patient Recall Compared'
-description: Live calls achieve 32% completion vs 17% for automated texts, but automation
+seoTitle: Automated vs Human Patient Recall Compared
+description: >-
+  Live calls achieve 32% completion vs 17% for automated texts, but automation
   costs 55-65% less. Learn when to use each approach.
-seoDescription: Compare automated vs human patient recall using research-backed stats.
-  Learn what works for multi-location healthcare groups and when to use a hybrid approach.
+seoDescription: >-
+  Compare automated vs human patient recall using research-backed stats. Learn
+  what works for multi-location healthcare groups and when to use a hybrid
+  approach.
 publishDate: '2026-02-03T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-- patient recall
-- automation
-- call center
-- multi-location healthcare
-- DSO operations
+  - patient recall
+  - automation
+  - call center
+  - multi-location healthcare
+  - DSO operations
 featuredImage: /images/blog/automated-vs-human-patient-recall.webp
-canonical: https://mybcat.com/blog/automated-vs-human-patient-recall/
+canonical: 'https://mybcat.com/blog/automated-vs-human-patient-recall/'
 cluster: patient-recall
 relatedPosts:
-- patient-recall-campaign-framework
+  - patient-recall-campaign-framework
 ---
 
 Multi-location healthcare groups face a fundamental question when building their [recall campaign framework](/blog/patient-recall-campaign-framework/): should patient outreach be automated, handled by live agents, or a combination of both? Research shows the answer depends on patient demographics, appointment type, and operational scale. Live phone calls achieve 32% completion rates compared to 17% for automated texts in preventive care contexts, yet automation costs 55-65% less per message. This guide presents the data and decision framework operations leaders need to choose the right approach.
@@ -38,14 +41,10 @@ Multi-location healthcare groups face a fundamental question when building their
 The automated vs human recall debate centers on a tradeoff between scalability and conversion rates.
 
 **The efficiency argument for automation:**
-- Text messaging costs 55-65% less per message than phone calls
-- Automated systems reach more patients with less staff time
-- One study found automated texting reduced acute care resource use by 41% compared to phone interventions for post-discharge follow-up
+Text messaging costs 55-65% less per message than phone calls. Automated systems reach more patients with less staff time. One study found automated texting reduced acute care resource use by 41% compared to phone interventions for post-discharge follow-up.
 
 **The effectiveness argument for human outreach:**
-- Live phone calls achieve 32% completion rates vs 17% for text messages in colorectal cancer screening studies
-- Phone call reminders achieved 35-85% attendance rates compared to 15-65% for SMS in radiology
-- Personalized messages generate 3-4x higher response rates than generic automated reminders
+Live phone calls achieve 32% completion rates vs 17% for text messages in colorectal cancer screening studies. Phone call reminders achieved 35-85% attendance rates compared to 15-65% for SMS in radiology. Personalized messages generate 3-4x higher response rates than generic automated reminders.
 
 The research suggests neither approach wins universally. The optimal choice depends on specific factors.
 
@@ -102,12 +101,7 @@ Research supports this sequenced approach. One study found nurses needed to make
 **The math for a 10-location group:**
 
 A group with 5,000 dormant patients per year:
-- Automated SMS to all 5,000: ~$250 (at $0.05/message)
-- 15% response rate: 750 patients engaged
-- Live calls to 4,250 non-responders (high-value only, ~1,000): $3,000-$5,000
-- Additional 20% conversion from calls: 200 patients
-- Total patients reactivated: 950 (19% overall)
-- Revenue at $3,000 average patient value: $2.85 million recovered
+Automated SMS to all 5,000: ~$250 (at $0.05/message). 15% response rate: 750 patients engaged. Live calls to 4,250 non-responders (high-value only, ~1,000): $3,000-$5,000. Additional 20% conversion from calls: 200 patients. Total patients reactivated: 950 (19% overall). Revenue at $3,000 average patient value: $2.85 million recovered.
 
 Compared to all-automated approach (15% = 750 patients = $2.25M) or all-human approach (higher cost, limited scalability), the hybrid model optimizes both reach and conversion.
 
@@ -234,8 +228,9 @@ For a detailed week-by-week implementation guide, see our [dormant patient react
 - [Dormant Patient Reactivation: 30-Day Multi-Location Playbook](/blog/dormant-patient-reactivation/)
 - [Patient Recall Campaign Framework: Step-by-Step Guide](/blog/patient-recall-campaign-framework/)
 
-
 Multi-location groups seeking centralized recall support can learn more about our [enterprise multi-location recall solution](/enterprise/multi-location-recall/).
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 
@@ -243,4 +238,4 @@ Multi-location groups seeking centralized recall support can learn more about ou
 - [Kaiser Permanente Research: Live Calls vs Text for Cancer Screening](https://research.kpchr.org/News/Press-Releases/Live-Phone-Calls-Better-Than-Text-Messages-to-Remind-People-About-Colon-Cancer-Screening)
 - [Penn LDI: Automated Texting Reduces Readmissions](https://ldi.upenn.edu/our-work/research-updates/automated-texting-shows-promise-to-reduce-hospital-readmissions/)
 - [Medical Economics: Texting vs Phone Calls for Discharge Follow-ups](https://www.medicaleconomics.com/view/texting-found-more-effective-than-phone-calls-for-hospital-discharge-follow-ups)
-- [DoctorConnect: Patient Recall Automation ROI](https://doctorconnect.net/patient-recall-messaging-automate-revolutionize/)
+- [DoctorConnect: Patient Recall Automation ROI](https://doctorconnect.net/patient-recall-messaging-automate-transform/)

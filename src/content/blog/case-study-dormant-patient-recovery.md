@@ -1,29 +1,30 @@
 ---
 title: 'Case Study: 12-Location Optometry Group Recovered $312K'
 seoTitle: 'Case Study: Dormant Patient Recovery Without Discounting'
-description: 12-location optometry group recovered 847 dormant patients, $312K revenue
-  in 90 days, no discounts. The exact playbook.
-seoDescription: 'Real case study: 12-location optometry group reactivated 847 dormant
-  patients, generated $312K revenue in 90 days without discounting. See the exact
-  campaign'
+description: >-
+  12-location optometry group recovered 847 dormant patients, $312K revenue in
+  90 days, no discounts. The exact playbook.
+seoDescription: >-
+  Real case study: 12-location optometry group reactivated 847 dormant patients,
+  generated $312K revenue in 90 days without discounting. See the exact campaign
 publishDate: '2026-02-17T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Case Study
 tags:
-- case study
-- dormant patients
-- reactivation
-- practice growth
-- optometry
+  - case study
+  - dormant patients
+  - reactivation
+  - practice growth
+  - optometry
 featuredImage: /images/blog/case-study-dormant-patient-recovery.webp
-canonical: https://mybcat.com/blog/case-study-dormant-patient-recovery/
+canonical: 'https://mybcat.com/blog/case-study-dormant-patient-recovery/'
 cluster: patient-recall
 relatedPosts:
-- dormant-patient-reactivation
-- centralized-patient-recall-multi-location
-- optometry-recall-campaign
-- dental-hygiene-recall
+  - dormant-patient-reactivation
+  - centralized-patient-recall-multi-location
+  - optometry-recall-campaign
+  - dental-hygiene-recall
 ---
 
 When Vision Care Partners (name changed for confidentiality) analyzed their patient data across 12 optometry locations, they found a problem hiding in plain sight: 4,200 patients who had not visited in 12-24 months. At an average lifetime value of $2,800 per patient, they were looking at $11.7 million in at-risk revenue slowly walking out the door. This case study documents how they recovered 847 of those patients and generated $312,000 in first-year revenue using a systematic [dormant patient reactivation](/blog/dormant-patient-reactivation/) campaign, without offering a single discount.
@@ -68,21 +69,13 @@ The campaign used a sequenced approach across channels:
 </div>
 
 **Week 3-4:** Email follow-up to non-responders (3,100 patients)
-- Subject: "[Name], your annual eye exam is due"
-- Emphasized vision benefit utilization
-- One-click scheduling link
-- Provider photo to reinforce relationship
+Subject: "[Name], your annual eye exam is due". Emphasized vision benefit utilization. One-click scheduling link. Provider photo to reinforce relationship.
 
 **Week 5-8:** Phone outreach to high-value non-responders (1,200 patients)
-- Prioritized by estimated lifetime value
-- Scripted calls with objection handling
-- Specific appointment times offered
-- Voicemail with callback number
+Prioritized by estimated lifetime value. Scripted calls with objection handling. Specific appointment times offered. Voicemail with callback number.
 
 **Week 9-12:** Final push and postcard to unreachables (400 patients)
-- Second phone attempt
-- Postcard to patients with no valid phone/email
-- "Last chance" SMS to mobile-reachable non-responders
+Second phone attempt. Postcard to patients with no valid phone/email. "Last chance" SMS to mobile-reachable non-responders.
 
 ### Principle 3: Location-Level Accountability
 
@@ -171,10 +164,7 @@ Messages that referenced the specific doctor by name ("Dr. [Provider] noticed yo
 
 ### How Did Vision Benefit Reminders Help?
 
-Many patients did not realize their vision insurance had renewed and their benefits were available. The benefit-focused messaging resonated:
-- "Your vision benefits are ready to use"
-- "Your plan covers an annual exam at no additional cost"
-- "Use your benefits before they expire"
+Many patients did not realize their vision insurance had renewed and their benefits were available. The benefit-focused messaging resonated include "your vision benefits are ready to use", "your plan covers an annual exam at no additional cost", and "use your benefits before they expire".
 
 ### Why Did Specific Appointment Offers Convert Better?
 
@@ -236,7 +226,6 @@ This case study demonstrates several principles for dormant patient recovery:
 
 For the complete framework to run your own reactivation campaign, see our [30-day dormant patient reactivation playbook](/blog/dormant-patient-reactivation/). For ROI calculation methodology, review our [patient reactivation ROI guide](/blog/patient-reactivation-roi/).
 
-
 Enterprise groups can scale these results with our [multi-location recall solution](/enterprise/multi-location-recall/).
 
 ## Related Reading
@@ -244,6 +233,8 @@ Enterprise groups can scale these results with our [multi-location recall soluti
 - [Centralized Patient Recall for Multi-Location Healthcare](/blog/centralized-patient-recall-multi-location/)
 - [Optometry Recall Campaign: Beat the January Slump](/blog/optometry-recall-campaign/)
 - [Dental Hygiene Recall: The DSO Valuation Driver](/blog/dental-hygiene-recall/)
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

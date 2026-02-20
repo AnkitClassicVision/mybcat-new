@@ -1,8 +1,13 @@
 ---
-title: "Patient Recall Service: What It Is and When You Need It"
-seoTitle: "Patient Recall Service: Multi-Location Guide"
-description: "Patient recall services help healthcare groups recover 15-30% more revenue. Learn when to use in-house vs outsourced recall and how to evaluate providers."
-seoDescription: "Learn what patient recall services are, when multi-location healthcare groups should outsource recall, and how to evaluate providers. Includes ROI benchmarks"
+title: 'Patient Recall Service: What It Is and When You Need It'
+seoTitle: 'Patient Recall Service: Multi-Location Guide'
+description: >-
+  Patient recall services help healthcare groups recover 15-30% more revenue.
+  Learn when to use in-house vs outsourced recall and how to evaluate providers.
+seoDescription: >-
+  Learn what patient recall services are, when multi-location healthcare groups
+  should outsource recall, and how to evaluate providers. Includes ROI
+  benchmarks
 publishDate: '2026-02-02'
 status: published
 author: Ankit Patel
@@ -14,7 +19,7 @@ tags:
   - DSO operations
   - healthcare outsourcing
 featuredImage: /images/blog/patient-recall-service.webp
-canonical: https://mybcat.com/blog/patient-recall-service/
+canonical: 'https://mybcat.com/blog/patient-recall-service/'
 cluster: patient-recall
 relatedPosts:
   - patient-recall-campaign-framework
@@ -53,19 +58,13 @@ The service uses multiple contact methods (phone calls, text messages, emails) t
 Single-location practices can manage recall informally. Multi-location healthcare groups face structural challenges that make systematic recall essential:
 
 **Scale creates inconsistency:**
-- Staff at Location A may call overdue patients weekly while Location B does it monthly (or never)
-- Different locations use different scripts, messaging, and follow-up sequences
-- No visibility into which locations execute recall effectively
+Staff at Location A may call overdue patients weekly while Location B does it monthly (or never). Different locations use different scripts, messaging, and follow-up sequences. No visibility into which locations execute recall effectively.
 
 **Staff competing priorities:**
-- Front desk teams prioritize patients physically present over outbound calling
-- Recall calls get deprioritized during busy periods and never catch up
-- Phone tag with patients takes time staff does not have
+Front desk teams prioritize patients physically present over outbound calling. Recall calls get deprioritized during busy periods and never catch up. Phone tag with patients takes time staff does not have.
 
 **Attrition compounds across locations:**
-- Industry average attrition runs 15-20% annually
-- For a 20-location group with 2,000 active patients per site, that represents 6,000-8,000 lost patients each year
-- Without systematic recall, attrition accelerates as patients forget about your practice
+Industry average attrition runs 15-20% annually. For a 20-location group with 2,000 active patients per site, that represents 6,000-8,000 lost patients each year. Without systematic recall, attrition accelerates as patients forget about your practice.
 
 According to research from Jarvis Analytics, hygiene recalls represent the "heartbeat" of practice profitability for DSOs, outpacing new patient acquisition in revenue impact.
 
@@ -86,10 +85,7 @@ The financial impact of recall performance is significant and measurable.
 **Revenue impact example:**
 
 A practice with 4,000 annual hygiene visit opportunities (2,000 patients eligible for 6-month recalls) at 70% recall rate:
-- 1,200 missed visits annually (30% of 4,000)
-- At $175 average hygiene revenue: **$210,000 in lost hygiene production**
-- Plus missed restorative treatment identified during hygiene exams
-- Plus lost referrals from disengaged patients
+1,200 missed visits annually (30% of 4,000). At $175 average hygiene revenue: **$210,000 in lost hygiene production**. Plus missed restorative treatment identified during hygiene exams. Plus lost referrals from disengaged patients.
 
 Industry research indicates that improving recall rate by 10 percentage points adds $50,000-$100,000 in annual revenue for a typical dental practice. For multi-location groups, multiply that across every site.
 
@@ -102,10 +98,7 @@ Patient recall services fall into three categories, each with distinct character
 Your staff handles all patient outreach using your existing phone system and PM software.
 
 **Characteristics:**
-- Staff make calls during gaps between patient care
-- Relies on PM system reports to identify due patients
-- Scripts and processes vary by employee
-- No additional vendor cost
+Staff make calls during gaps between patient care. Relies on PM system reports to identify due patients. Scripts and processes vary by employee. No additional vendor cost.
 
 **Best for:** Small practices with low patient volume and available staff capacity
 
@@ -114,10 +107,7 @@ Your staff handles all patient outreach using your existing phone system and PM 
 Software platforms send text messages, emails, and automated calls based on PM system data.
 
 **Characteristics:**
-- Triggers automatically when patients reach due dates
-- Patients self-schedule via online booking links
-- Minimal staff involvement required
-- Monthly software subscription cost
+Triggers automatically when patients reach due dates. Patients self-schedule via online booking links. Minimal staff involvement required. Monthly software subscription cost.
 
 **Best for:** Practices wanting to reduce manual effort with moderate patient engagement
 
@@ -126,10 +116,7 @@ Software platforms send text messages, emails, and automated calls based on PM s
 A dedicated external team makes live phone calls to your patients using your practice identity.
 
 **Characteristics:**
-- Trained healthcare communicators handle conversations
-- Integrates with your scheduling system for direct booking
-- Performance-based pricing models available (pay per appointment booked)
-- Handles objections and complex patient situations
+Trained healthcare communicators handle conversations. Integrates with your scheduling system for direct booking. Performance-based pricing models available (pay per appointment booked). Handles objections and complex patient situations.
 
 **Best for:** Multi-location groups needing consistent, scaled execution
 
@@ -149,35 +136,23 @@ The choice between in-house and outsourced recall depends on your operational re
 | **Tech infrastructure** | Integrated PM/phone/reporting | Fragmented systems |
 
 **In-house works when:**
-- You have dedicated staff whose primary job is patient outreach
-- You can maintain consistent processes across all locations
-- Your current recall rate exceeds industry benchmarks
-- You have systems to track and improve performance
+You have dedicated staff whose primary job is patient outreach. You can maintain consistent processes across all locations. Your current recall rate exceeds industry benchmarks. You have systems to track and improve performance.
 
 **Outsourced works when:**
-- Staff are overwhelmed and recall competes with other priorities
-- Execution varies significantly across locations
-- You need to scale quickly without adding headcount
-- Performance-based pricing aligns vendor incentives with your goals
+Staff are overwhelmed and recall competes with other priorities. Execution varies significantly across locations. You need to scale quickly without adding headcount. Performance-based pricing aligns vendor incentives with your goals.
 
 ## When Should You Consider Outsourcing Your Patient Recall?
 
 Consider outsourcing patient recall when you observe these signals:
 
 **Capacity signals:**
-- Front desk staff consistently work through lunch or stay late
-- Call-back lists grow faster than staff can work them
-- New patient inquiries compete with recall calls for attention
+Front desk staff consistently work through lunch or stay late. Call-back lists grow faster than staff can work them. New patient inquiries compete with recall calls for attention.
 
 **Performance signals:**
-- Recall rate below 65% despite having a process in place
-- Significant variation in recall rates between locations (10+ point spread)
-- Overdue patient list growing month over month
+Recall rate below 65% despite having a process in place. Significant variation in recall rates between locations (10+ point spread). Overdue patient list growing month over month.
 
 **Operational signals:**
-- Acquiring practices with different systems and processes
-- Opening new locations without trained staff
-- Seasonal volume spikes overwhelm existing capacity
+Acquiring practices with different systems and processes. Opening new locations without trained staff. Seasonal volume spikes overwhelm existing capacity.
 
 **Financial signals:**
 - Clear ROI: If outsourced recall costs $3-5 per appointment booked and your average appointment value exceeds $150, the math works
@@ -192,9 +167,7 @@ When selecting an outsourced recall service, evaluate providers on these criteri
 ### Integration Capabilities
 
 **Questions to ask:**
-- Does the service integrate directly with your PM system?
-- Can agents book appointments in real-time or do they create callbacks?
-- How does data flow between systems (patient lists, appointment status)?
+Does the service integrate directly with your PM system? Can agents book appointments in real-time or do they create callbacks? How does data flow between systems (patient lists, appointment status)?
 
 **Why it matters:** Manual data transfer creates delays, errors, and staff work. Direct integration enables immediate booking and accurate reporting.
 
@@ -212,32 +185,22 @@ When selecting an outsourced recall service, evaluate providers on these criteri
 ### Healthcare Experience
 
 **Questions to ask:**
-- Does the team have healthcare-specific training?
-- Do they understand HIPAA requirements?
-- Can they handle clinical questions appropriately (escalating when needed)?
+Does the team have healthcare-specific training? Do they understand HIPAA requirements? Can they handle clinical questions appropriately (escalating when needed)?
 
 **Why it matters:** Healthcare conversations differ from general customer service. Patients have questions about insurance, procedures, and scheduling that require appropriate handling.
 
 ### Reporting and Visibility
 
 **Questions to ask:**
-- What metrics are tracked and reported?
-- Can you see performance by location, by time period, by patient segment?
-- How quickly do you receive reporting?
+What metrics are tracked and reported? Can you see performance by location, by time period, by patient segment? How quickly do you receive reporting?
 
 **Key metrics to expect:**
-- Attempts per patient
-- Contact rate (patients reached / patients attempted)
-- Booking rate (appointments / patients contacted)
-- Show rate (appointments completed / appointments booked)
-- Revenue recovered
+Attempts per patient. Contact rate (patients reached / patients attempted). Booking rate (appointments / patients contacted). Show rate (appointments completed / appointments booked). Revenue recovered.
 
 ### Scalability
 
 **Questions to ask:**
-- Can the service handle volume fluctuations?
-- How quickly can they onboard new locations?
-- What happens during your peak seasons?
+Can the service handle volume fluctuations? How quickly can they onboard new locations? What happens during your peak seasons?
 
 **Why it matters:** Multi-location groups need partners who can scale with growth and handle operational variability.
 
@@ -248,26 +211,17 @@ Successfully deploying a patient recall service across multiple locations requir
 ### Standardize before you outsource
 
 Before engaging an external service:
-- Define what "due" and "overdue" mean across all locations
-- Establish standard care intervals by patient type
-- Clean patient data (valid phone numbers, current information)
-- Align scheduling availability across sites
+Define what "due" and "overdue" mean across all locations. Establish standard care intervals by patient type. Clean patient data (valid phone numbers, current information). Align scheduling availability across sites.
 
 ### Start with a pilot
 
 Rather than rolling out to all locations simultaneously:
-- Select 2-3 representative locations for initial deployment
-- Run for 60-90 days to establish baseline performance
-- Refine scripts, processes, and integration based on learnings
-- Scale to remaining locations with proven playbook
+Select 2-3 representative locations for initial deployment. Run for 60-90 days to establish baseline performance. Refine scripts, processes, and integration based on learnings. Scale to remaining locations with proven playbook.
 
 ### Maintain oversight
 
 Even with outsourced recall:
-- Review reporting weekly during initial rollout, monthly ongoing
-- Listen to call recordings periodically for quality
-- Track patient feedback about the outreach experience
-- Monitor appointment show rates (not just bookings)
+Review reporting weekly during initial rollout, monthly ongoing. Listen to call recordings periodically for quality. Track patient feedback about the outreach experience. Monitor appointment show rates (not just bookings).
 
 ### Integrate with your retention strategy
 
@@ -310,6 +264,14 @@ Patient recall services help healthcare practices bring back patients who are du
 - Start with a pilot before full rollout to refine processes
 
 The question is not whether recall matters. The question is whether your current approach captures the revenue opportunity available from your existing patient base.
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
+
+
+## Related Reading
+
+- [patient reactivation ROI](/blog/patient-reactivation-roi/)
+- [patient recall scripts](/blog/patient-recall-scripts/)
+
 ## Sources
 
 - [Jarvis Analytics: Hygiene Recalls for DSOs](https://www.jarvisanalytics.com/blog/hygiene-recalls/)

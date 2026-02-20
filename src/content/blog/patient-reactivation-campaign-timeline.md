@@ -1,24 +1,27 @@
 ---
 title: 'Patient Reactivation Campaign Timeline: From 7 Days to 90 Days'
 seoTitle: 'Patient Reactivation Campaign Timeline: 7-90 Day Framework'
-description: Reactivation timeline that achieves 20-30% recovery. Day-by-day cadence
-  from week 1 to 12 with escalation triggers.
-seoDescription: Day-by-day patient reactivation campaign timeline from 7 to 90 days.
-  Multi-channel outreach cadence achieving 20-30% recovery rates for healthcare practices
-publishDate: 2026-02-04
+description: >-
+  Reactivation timeline that achieves 20-30% recovery. Day-by-day cadence from
+  week 1 to 12 with escalation triggers.
+seoDescription: >-
+  Day-by-day patient reactivation campaign timeline from 7 to 90 days.
+  Multi-channel outreach cadence achieving 20-30% recovery rates for healthcare
+  practices
+publishDate: 2026-02-04T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-- reactivation
-- campaign
-- timeline
-- patient recall
+  - reactivation
+  - campaign
+  - timeline
+  - patient recall
 featuredImage: /images/blog/patient-reactivation-campaign-timeline.webp
-canonical: https://mybcat.com/blog/patient-reactivation-campaign-timeline/
+canonical: 'https://mybcat.com/blog/patient-reactivation-campaign-timeline/'
 cluster: patient-recall
 relatedPosts:
-- dormant-patient-reactivation
+  - dormant-patient-reactivation
 ---
 
 The difference between a 10% and 25% reactivation rate often comes down to timing and persistence. Send one message and stop. You will recover a fraction of what a structured multi-touch campaign delivers. For the strategic foundation behind these timelines, see our [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/). This guide provides the day-by-day timeline for patient reactivation campaigns spanning 7 days to 90 days, with channel selection, escalation triggers, and benchmarks at each stage.
@@ -48,10 +51,7 @@ Research shows reactivation requires multiple touches across multiple channels:
 | 5th+ touch | 22-28% | Reserved for high-value |
 
 **Why most campaigns fail:**
-- 62% of practices stop after one contact attempt
-- Single-channel campaigns miss 30-40% of reachable patients
-- No escalation strategy for non-responders
-- Lack of persistence on high-value dormant patients
+62% of practices stop after one contact attempt. Single-channel campaigns miss 30-40% of reachable patients. No escalation strategy for non-responders. Lack of persistence on high-value dormant patients.
 
 ## What Is the 7-Day Sprint for Quick Wins?
 
@@ -93,10 +93,7 @@ Subject: [Name], your appointment is overdue
 </div>
 
 **7-day sprint benchmarks:**
-- Contact rate: 75-85%
-- Response rate: 15-20%
-- Booking rate: 10-15%
-- Best for: Recently dormant, high urgency
+Contact rate: 75-85%. Response rate: 15-20%. Booking rate: 10-15%. Best for: Recently dormant, high urgency.
 
 ## What Is the 30-Day Standard Campaign?
 
@@ -129,12 +126,7 @@ The 30-day campaign is the workhorse for most reactivation efforts, providing en
 **Day 3 Email (All patients):**
 Subject: [Name], Dr. [Provider] would like to see you
 
-Include:
-- Personal greeting
-- Specific appointment type due
-- Why it matters (preventive benefits)
-- One-click booking link
-- Practice contact info
+Include include personal greeting, specific appointment type due, why it matters (preventive benefits), one-click booking link, and practice contact info.
 
 **Day 7 SMS (Non-responders only):**
 
@@ -158,17 +150,10 @@ Include:
 </div>
 
 **Day 28 Postcard (Unreachables):**
-- Eye-catching design with practice branding
-- Clear "We miss you!" message
-- Phone number and QR code to online scheduling
-- Reminder of services/benefits
+Eye-catching design with practice branding. Clear "We miss you!" message. Phone number and QR code to online scheduling. Reminder of services/benefits.
 
 **30-day campaign benchmarks:**
-- Overall contact rate: 85-90%
-- Response rate: 20-28%
-- Booking rate: 15-22%
-- Reactivation rate: 15-20%
-- Best for: Standard quarterly campaigns
+Overall contact rate: 85-90%. Response rate: 20-28%. Booking rate: 15-22%. Reactivation rate: 15-20%. Best for: Standard quarterly campaigns.
 
 ## What Is the 90-Day Comprehensive Campaign?
 
@@ -177,22 +162,13 @@ The 90-day campaign maximizes reactivation from a dormant list through sustained
 ### What Is the 90-Day Phase Structure?
 
 **Phase 1: Weeks 1-2 (Preparation)**
-- Segment dormant patients by dormancy duration, value, demographics
-- Clean contact data (verify phones, emails)
-- Prepare messaging templates
-- Set up tracking and reporting
+Segment dormant patients by dormancy duration, value, demographics. Clean contact data (verify phones, emails). Prepare messaging templates. Set up tracking and reporting.
 
 **Phase 2: Weeks 3-4 (High-Priority Outreach)**
-- Target recently dormant (12-18 months)
-- Target high-value patients ($2,000+ LTV)
-- Multi-channel digital outreach
-- Begin phone outreach for top tier
+Target recently dormant (12-18 months). Target high-value patients ($2,000+ LTV). Multi-channel digital outreach. Begin phone outreach for top tier.
 
 **Phase 3: Weeks 5-8 (Expand and Persist)**
-- Extend to longer-dormant patients
-- Increase phone outreach for non-responders
-- Deploy direct mail
-- Mid-campaign optimization based on results
+Extend to longer-dormant patients. Increase phone outreach for non-responders. Deploy direct mail. Mid-campaign optimization based on results.
 
 **Phase 4: Weeks 9-12 (Final Push and Analysis)**
 - Final outreach attempts
@@ -346,6 +322,8 @@ For ready-to-use scripts for each touchpoint, see our [patient recall scripts gu
 - [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
 - [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
 - [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

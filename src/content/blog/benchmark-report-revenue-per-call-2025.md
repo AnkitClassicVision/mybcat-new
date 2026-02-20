@@ -1,28 +1,30 @@
 ---
 title: 'Benchmark Report: Revenue Per Call by Healthcare Specialty (2025 Data)'
 seoTitle: Healthcare Revenue Per Call Benchmarks 2025
-description: Original research on revenue per call benchmarks for dental, optometry,
-  veterinary, and medical practices. Based on data from 150+ multi-location healthcare
-  groups.
-seoDescription: '2025 revenue per call benchmarks: Dental $47, Optometry $38, Veterinary
-  $78. Original research from 150+ multi-location healthcare groups reveals ROI.'
-publishDate: 2026-01-17 00:00:00+00:00
+description: >-
+  Original research on revenue per call benchmarks for dental, optometry,
+  veterinary, and medical practices. Based on data from 150+ multi-location
+  healthcare groups.
+seoDescription: >-
+  2025 revenue per call benchmarks: Dental $47, Optometry $38, Veterinary $78.
+  Original research from 150+ multi-location healthcare groups reveals ROI.
+publishDate: 2026-01-17T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Growth
 tags:
-- benchmarks
-- revenue-per-call
-- data
-- research
-- roi
-- multi-location
+  - benchmarks
+  - revenue-per-call
+  - data
+  - research
+  - roi
+  - multi-location
 featuredImage: /images/blog/benchmark-report-revenue-per-call-2025.webp
-canonical: https://mybcat.com/blog/benchmark-report-revenue-per-call-2025/
+canonical: 'https://mybcat.com/blog/benchmark-report-revenue-per-call-2025/'
 relatedPosts:
-- missed-calls-revenue-leak-multi-location-healthcare
-- dso-case-study-15-location-missed-calls
-- kpi-dashboard-multi-location-intake
+  - missed-calls-revenue-leak-multi-location-healthcare
+  - dso-case-study-15-location-missed-calls
+  - kpi-dashboard-multi-location-intake
 ---
 
 How much is each phone call worth to your healthcare practice? The answer varies dramatically by specialty: dental groups average $47 in revenue per call, while veterinary practices average $78. These benchmarks, based on 2025 data from 150+ multi-location healthcare groups, reveal why intake optimization delivers different ROI by specialty and what you should target for your group.
@@ -243,7 +245,7 @@ Groups offering more comprehensive services within their specialty generate high
 
 ## How Do Benchmarks Vary by Practice Size?
 
-Revenue per call generally increases with practice size due to operational leverage and service breadth.
+Revenue per call generally increases with practice size due to operational use and service breadth.
 
 | Location Count | Revenue Per Call | Variance from Average |
 |---------------|-----------------|----------------------|
@@ -260,7 +262,7 @@ Revenue per call generally increases with practice size due to operational lever
 
 **Stronger negotiating power:** Better payer contracts improve per-visit revenue.
 
-**Operational leverage:** Fixed costs spread across more patients increase net revenue per interaction.
+**Operational use:** Fixed costs spread across more patients increase net revenue per interaction.
 
 ---
 
@@ -329,6 +331,8 @@ Revenue per call also quantifies the cost of missed calls.
 
 ---
 
+Multi-location healthcare groups need standardized intake across every site. [Talk to our team](/contact/) about how MyBCAT provides centralized call answering and patient access for growing organizations.
+
 ## Key Takeaways
 
 - **Revenue per call varies dramatically by specialty.** Veterinary ($78) and dermatology ($95) generate nearly double dental ($47) and optometry ($38).
@@ -344,3 +348,9 @@ Revenue per call also quantifies the cost of missed calls.
 - **Calculate your own benchmark.** Total revenue divided by total calls gives your baseline. Compare to specialty benchmarks to identify opportunity. Our [KPI dashboard guide](/blog/kpi-dashboard-multi-location-intake/) shows how to track these metrics systematically.
 
 According to [MGMA benchmarks](https://www.mgma.com/datadive-data-collection-smallpractice), practices with systematic call tracking outperform those without by 15-25%. For optometry groups specifically, see our [retail-clinical intake guide](/blog/optometry-retail-clinical-intake-guide/) for specialty-specific optimization. Multi-location groups should also review our [centralized vs. distributed framework](/blog/centralized-vs-distributed-intake-framework/) for intake structure decisions.
+
+## Sources
+
+- [Becker's Dental Review: DSO Market](https://www.beckersdental.com/)
+- [Group Dentistry Now: Industry Analysis](https://groupdentistrynow.com/)
+- [PitchBook: Healthcare PE Data](https://pitchbook.com/)

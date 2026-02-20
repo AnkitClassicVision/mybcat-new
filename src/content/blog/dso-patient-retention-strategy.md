@@ -451,6 +451,8 @@ For the technical implementation of centralized recall, see our [centralized pat
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
 - [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
 
+Dental groups that answer every call book more patients. [Talk to our team](/contact/) about how MyBCAT helps dental practices capture every opportunity.
+
 ## Sources
 
 - [DSO News: Technology Strategies for Multi-Location Dental](https://dsonews.com/technology-strategies-multi-location/)

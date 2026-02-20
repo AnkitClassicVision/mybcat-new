@@ -1,24 +1,26 @@
 ---
 title: 'Patient Recall Segmentation: Who to Call First (and Why)'
 seoTitle: 'Patient Recall Segmentation: Who to Call First (and Why)'
-description: Segment your recall list for maximum impact. Prioritization frameworks
-  and criteria for deciding who gets called first.
-seoDescription: Patient recall segmentation and prioritization guide. Frameworks for
-  deciding which patients to contact first based on value, recency, risk, and likelihood
-publishDate: 2026-02-04
+description: >-
+  Segment your recall list for maximum impact. Prioritization frameworks and
+  criteria for deciding who gets called first.
+seoDescription: >-
+  Patient recall segmentation and prioritization guide. Frameworks for deciding
+  which patients to contact first based on value, recency, risk, and likelihood
+publishDate: 2026-02-04T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Analytics
 tags:
-- segmentation
-- patient recall
-- reactivation
-- analytics
+  - segmentation
+  - patient recall
+  - reactivation
+  - analytics
 featuredImage: /images/blog/patient-recall-segmentation.webp
-canonical: https://mybcat.com/blog/patient-recall-segmentation/
+canonical: 'https://mybcat.com/blog/patient-recall-segmentation/'
 cluster: patient-recall
 relatedPosts:
-- patient-recall-campaign-framework
+  - patient-recall-campaign-framework
 ---
 
 When facing a recall list of 500 overdue patients, the instinct is to start at the top and work down alphabetically. This is one of the most common, and costly, mistakes in patient recall. Not all patients are equal, and treating them as such wastes time on low-probability contacts while high-value opportunities slip away. Segmentation is a critical step within any [recall campaign framework](/blog/patient-recall-campaign-framework/), and it answers the fundamental question: who should we call first, and why?
@@ -364,6 +366,8 @@ For calculating the ROI of your reactivation efforts, see our [patient reactivat
 - [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
 - [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
 - [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

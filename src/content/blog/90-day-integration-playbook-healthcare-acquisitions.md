@@ -1,30 +1,32 @@
 ---
 title: '90-Day Integration Playbook for Healthcare Acquisitions: The Intake Sprint'
 seoTitle: 90-Day Healthcare Acquisition Integration Playbook
-description: Week-by-week guide for integrating patient intake operations after healthcare
-  practice acquisition. Tactical playbook for PE operating partners and DSO integration
-  teams.
-seoDescription: Week-by-week intake integration playbook for healthcare acquisitions.
-  Tactical guide for PE operating partners and DSO teams to integrate in 90 days.
-publishDate: 2026-01-20 00:00:00+00:00
+description: >-
+  Week-by-week guide for integrating patient intake operations after healthcare
+  practice acquisition. Tactical playbook for PE operating partners and DSO
+  integration teams.
+seoDescription: >-
+  Week-by-week intake integration playbook for healthcare acquisitions. Tactical
+  guide for PE operating partners and DSO teams to integrate in 90 days.
+publishDate: 2026-01-20T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-- integration
-- acquisition
-- playbook
-- pe
-- dso
-- m-and-a
-- multi-location
+  - integration
+  - acquisition
+  - playbook
+  - pe
+  - dso
+  - m-and-a
+  - multi-location
 featuredImage: /images/blog/90-day-integration-playbook-healthcare-acquisitions.webp
-canonical: https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions/
+canonical: 'https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions/'
 relatedPosts:
-- dso-integration-playbook
-- pre-sale-operational-cleanup-intake-valuation
-- multi-location-healthcare-intake-guide
-- kpi-dashboard-multi-location-intake
+  - dso-integration-playbook
+  - pre-sale-operational-cleanup-intake-valuation
+  - multi-location-healthcare-intake-guide
+  - kpi-dashboard-multi-location-intake
 ---
 
 PE-backed healthcare groups target 90-day integration timelines, but most acquisitions take 12-18 months to fully integrate, destroying value and burning out staff in the process. The difference between fast and slow integrators? Successful groups focus on intake operations first, creating visibility and standardization before tackling deeper integration challenges. Here is the 90-day intake integration sprint that turns add-on chaos into repeatable platform building. For groups seeking a turnkey solution, a [patient access center](/enterprise/patient-access-center/) can accelerate integration timelines significantly.
@@ -121,49 +123,29 @@ Integration does not start at close. It starts in due diligence. Use the period 
 
 During due diligence, gather:
 
-- **Call volume data**: Monthly incoming calls by location
-- **Answer rate (if available)**: What percentage of calls are answered?
-- **Staffing model**: How many front desk staff? What hours?
-- **Technology stack**: What phone system? What practice management system?
-- **Current pain points**: What does seller identify as intake challenges?
+**Call volume data**: Monthly incoming calls by location. **Answer rate (if available)**: What percentage of calls are answered? **Staffing model**: How many front desk staff? What hours? **Technology stack**: What phone system? What practice management system? **Current pain points**: What does seller identify as intake challenges?
 
 ### Day 1 Communication Plan
 
 Prepare communications for:
 
-- **Front desk staff**: What changes? What stays the same? What support?
-- **Clinical staff**: How will their workflow be affected?
-- **Patients**: Any changes they will notice?
-- **Referring partners**: Continuity message
+**Front desk staff**: What changes? What stays the same? What support? **Clinical staff**: How will their workflow be affected? **Patients**: Any changes they will notice? **Referring partners**: Continuity message.
 
 ### What Goes Into the Preliminary Integration Plan?
 
 Draft the 90-day plan before close:
 
-- Timeline with milestones
-- Resource requirements (people, technology, budget)
-- Risk assessment and mitigation
-- Success metrics and targets
+Timeline with milestones. Resource requirements (people, technology, budget). Risk assessment and mitigation. Success metrics and targets.
 
 ### Which Key Staff Should You Identify?
 
 Identify before close:
 
-- **Integration lead**: Who owns this at the acquired practice?
-- **Key performers**: Which staff are critical to retain?
-- **Potential issues**: Any staff concerns flagged during diligence?
+**Integration lead**: Who owns this at the acquired practice? **Key performers**: Which staff are critical to retain? **Potential issues**: Any staff concerns flagged during diligence?
 
 ### Pre-Close Checklist
 
-- ☐ Call volume data obtained
-- ☐ Current answer rate estimated
-- ☐ Phone system identified
-- ☐ PM system documented
-- ☐ Staffing model understood
-- ☐ Day 1 communication drafted
-- ☐ Integration lead identified
-- ☐ 90-day plan outlined
-- ☐ Success metrics defined
+☐ Call volume data obtained. ☐ Current answer rate estimated. ☐ Phone system identified. ☐ PM system documented. ☐ Staffing model understood. ☐ Day 1 communication drafted. ☐ Integration lead identified. ☐ 90-day plan outlined. ☐ Success metrics defined.
 
 ---
 
@@ -171,49 +153,29 @@ Identify before close:
 
 ### Goals
 
-- Complete understanding of current intake operations
-- Baseline metrics established
-- Staff relationships initiated
-- Quick win opportunities identified
+Complete understanding of current intake operations. Baseline metrics established. Staff relationships initiated. Quick win opportunities identified.
 
 ### Day 1-3: Initial Assessment
 
 **Phone system audit**
-- How are calls routed?
-- What happens when staff are unavailable?
-- Is there after-hours coverage?
-- What reporting exists?
+How are calls routed? What happens when staff are unavailable? Is there after-hours coverage? What reporting exists?
 
 **Process observation**
-- Spend time at front desk observing
-- Document how calls are handled
-- Note variations between staff
-- Identify obvious bottlenecks
+Spend time at front desk observing. Document how calls are handled. Note variations between staff. Identify obvious bottlenecks.
 
 **Staff conversations**
-- Meet each front desk staff member
-- Ask about challenges they face
-- Understand their perspective on what works
-- Assess skill levels and training needs
+Meet each front desk staff member. Ask about challenges they face. Understand their perspective on what works. Assess skill levels and training needs.
 
 ### Day 4-7: Deep Dive
 
 **Call type mapping**
-- What types of calls come in?
-- How is each type handled?
-- Where do calls get stuck or mishandled?
-- What questions can staff not answer?
+What types of calls come in? How is each type handled? Where do calls get stuck or mishandled? What questions can staff not answer?
 
 **PM system workflow review**
-- How do staff navigate scheduling?
-- What information do they capture?
-- How long do common tasks take?
-- What workarounds exist?
+How do staff manage scheduling? What information do they capture? How long do common tasks take? What workarounds exist?
 
 **Patient journey mapping**
-- From first call to scheduled appointment
-- Where are drop-off points?
-- What causes friction?
+From first call to scheduled appointment. Where are drop-off points? What causes friction?
 
 ### Week 2: Baseline Metrics
 
@@ -229,12 +191,7 @@ Establish baseline measurements for:
 
 ### Week 1-2 Deliverables
 
-- ☐ Complete intake process documentation
-- ☐ Call type and volume analysis
-- ☐ Baseline KPI report
-- ☐ Staff assessment summary
-- ☐ Quick win opportunity list
-- ☐ Risk register (potential integration issues)
+☐ Complete intake process documentation. ☐ Call type and volume analysis. ☐ Baseline KPI report. ☐ Staff assessment summary. ☐ Quick win opportunity list. ☐ Risk register (potential integration issues).
 
 ---
 
@@ -242,23 +199,15 @@ Establish baseline measurements for:
 
 ### Goals
 
-- Implement changes that show immediate improvement
-- Establish daily visibility into performance
-- Build staff confidence through early success
-- Address obvious bottlenecks
+Implement changes that show immediate improvement. Establish daily visibility into performance. Build staff confidence through early success. Address obvious bottlenecks.
 
 ### What Are the Quick Win Categories?
 
 **Immediate impact (Days 1-3)**
-- Phone tree optimization (reduce rings, simplify menu)
-- Script updates (consistent greeting, key questions)
-- Coverage adjustments (lunch coverage, peak hour staffing)
+Phone tree optimization (reduce rings, simplify menu). Script updates (consistent greeting, key questions). Coverage adjustments (lunch coverage, peak hour staffing).
 
 **Short-term impact (Days 4-14)**
-- Call tracking implementation
-- Daily reporting establishment
-- Basic training on platform standards
-- Overflow routing setup through a [medical answering service](/solutions/medical-answering-service/)
+Call tracking implementation. Daily reporting establishment. Basic training on platform standards. Overflow routing setup through a [medical answering service](/solutions/medical-answering-service/).
 
 ### How Should You Set Up Daily Reporting?
 
@@ -276,11 +225,7 @@ Establish a daily dashboard including:
 
 Week 3-4 training focuses on:
 
-- Platform greeting and scripts
-- Key questions for every call type
-- When to escalate vs. handle
-- How to use new tracking tools
-- What metrics are being tracked and why
+Platform greeting and scripts. Key questions for every call type. When to escalate vs. handle. How to use new tracking tools. What metrics are being tracked and why.
 
 ### What Are Some Quick Win Examples?
 
@@ -294,12 +239,7 @@ Week 3-4 training focuses on:
 
 ### Week 3-4 Deliverables
 
-- ☐ Call tracking operational
-- ☐ Daily reporting implemented
-- ☐ Quick wins implemented and measured
-- ☐ Foundation training completed
-- ☐ Baseline to Week 4 comparison report
-- ☐ Week 5-6 standardization plan confirmed
+☐ Call tracking operational. ☐ Daily reporting implemented. ☐ Quick wins implemented and measured. ☐ Foundation training completed. ☐ Baseline to Week 4 comparison report. ☐ Week 5-6 standardization plan confirmed.
 
 ---
 
@@ -307,69 +247,41 @@ Week 3-4 training focuses on:
 
 ### Goals
 
-- Align acquired practice processes to platform standards
-- Implement consistent protocols across all call types
-- Integrate overflow and backup support
-- Establish escalation pathways
+Align acquired practice processes to platform standards. Implement consistent protocols across all call types. Integrate overflow and backup support. Establish escalation pathways.
 
 ### What Are the Process Alignment Areas?
 
 **Scheduling protocols**
-- Appointment types and durations
-- Availability rules
-- Overbooking policies
-- Cancellation handling
+Appointment types and durations. Availability rules. Overbooking policies. Cancellation handling.
 
 **Call handling scripts**
-- New patient inquiry script
-- Insurance verification process
-- Appointment change protocol
-- Clinical question routing
+New patient inquiry script. Insurance verification process. Appointment change protocol. Clinical question routing.
 
 **Escalation procedures**
-- When to escalate to clinical
-- When to escalate to management
-- After-hours protocols
-- Emergency handling
+When to escalate to clinical. When to escalate to management. After-hours protocols. Emergency handling.
 
 ### How Do You Handle Platform Integration?
 
 Connect acquired practice to platform resources:
 
 **Overflow support**
-- Route overflow to centralized support through [front desk outsourcing](/solutions/front-desk-outsourcing/)
-- Establish triggers (rings, wait time)
-- Train central team on location specifics
+Route overflow to centralized support through [front desk outsourcing](/solutions/front-desk-outsourcing/). Establish triggers (rings, wait time). Train central team on location specifics.
 
 **After-hours coverage**
-- Integrate with platform after-hours solution
-- Customize protocols for location
-- Test handoffs and escalations
+Integrate with platform after-hours solution. Customize protocols for location. Test handoffs and escalations.
 
 **Reporting integration**
-- Connect to centralized dashboards
-- Establish comparison metrics
-- Enable location-to-location benchmarking
+Connect to centralized dashboards. Establish comparison metrics. Enable location-to-location benchmarking.
 
 ### Compliance Checkpoint
 
 Verify:
 
-- ☐ All call types following platform protocols
-- ☐ Scripts deployed and being used
-- ☐ Overflow routing functional
-- ☐ After-hours integration complete
-- ☐ Escalation paths documented and working
-- ☐ Staff can articulate procedures
+☐ All call types following platform protocols. ☐ Scripts deployed and being used. ☐ Overflow routing functional. ☐ After-hours integration complete. ☐ Escalation paths documented and working. ☐ Staff can articulate procedures.
 
 ### Week 5-6 Deliverables
 
-- ☐ Process alignment documentation complete
-- ☐ Platform protocols implemented
-- ☐ Overflow routing operational
-- ☐ After-hours integrated
-- ☐ Escalation procedures documented
-- ☐ Mid-integration performance report
+☐ Process alignment documentation complete. ☐ Platform protocols implemented. ☐ Overflow routing operational. ☐ After-hours integrated. ☐ Escalation procedures documented. ☐ Mid-integration performance report.
 
 ---
 
@@ -377,36 +289,23 @@ Verify:
 
 ### Goals
 
-- Complete any remaining system integrations
-- Advanced staff training
-- Dashboard and reporting optimization
-- Feature rollout for full capability
+Complete any remaining system integrations. Advanced staff training. Dashboard and reporting optimization. Feature rollout for full capability.
 
 ### How Do You Handle System Integration?
 
 If phone system or PM changes are required:
 
 **Phone system integration**
-- Port numbers if changing systems
-- Configure new routing rules
-- Implement call recording
-- Test all scenarios
+Port numbers if changing systems. Configure new routing rules. Implement call recording. Test all scenarios.
 
 **PM system optimization**
-- Workflow configuration
-- Template setup
-- Integration with phone (if applicable)
-- Reporting setup
+Workflow configuration. Template setup. Integration with phone (if applicable). Reporting setup.
 
 ### What Should Advanced Training Cover?
 
 Week 7-8 training focuses on:
 
-- Advanced scheduling scenarios
-- Complex insurance situations
-- Difficult caller handling
-- Using analytics for self-improvement
-- Platform tools and features
+Advanced scheduling scenarios. Complex insurance situations. Difficult caller handling. Using analytics for self-improvement. Platform tools and features.
 
 ### How Do You Deploy Dashboards?
 
@@ -423,19 +322,11 @@ Implement full dashboard visibility:
 
 Verify competency through:
 
-- Call monitoring and scoring
-- Knowledge checks
-- Scenario role-plays
-- Peer feedback
+Call monitoring and scoring. Knowledge checks. Scenario role-plays. Peer feedback.
 
 ### Week 7-8 Deliverables
 
-- ☐ Technology integration complete
-- ☐ Advanced training delivered
-- ☐ Dashboards operational
-- ☐ Staff competency verified
-- ☐ System documentation complete
-- ☐ Week 9-10 optimization plan
+☐ Technology integration complete. ☐ Advanced training delivered. ☐ Dashboards operational. ☐ Staff competency verified. ☐ System documentation complete. ☐ Week 9-10 optimization plan.
 
 ---
 
@@ -443,10 +334,7 @@ Verify competency through:
 
 ### Goals
 
-- Fine-tune based on actual performance
-- Close remaining gaps to target metrics
-- Address staff feedback
-- Prepare for handoff to ongoing operations
+Fine-tune based on actual performance. Close remaining gaps to target metrics. Address staff feedback. Prepare for handoff to ongoing operations.
 
 ### How Do You Conduct a Performance Gap Analysis?
 
@@ -463,36 +351,23 @@ Compare Week 10 metrics to targets:
 
 For metrics not at target:
 
-- **Answer rate gap**: Additional staffing? Routing optimization? Training needs?
-- **Conversion gap**: Script refinement? Objection handling? Competitive factors?
-- **Speed gap**: Technology tuning? Staff efficiency? Volume spikes?
+**Answer rate gap**: Additional staffing? Routing optimization? Training needs? **Conversion gap**: Script refinement? Objection handling? Competitive factors? **Speed gap**: Technology tuning? Staff efficiency? Volume spikes?
 
 ### How Do You Integrate Staff Feedback?
 
 Gather and incorporate:
 
-- What is working well?
-- What is still frustrating?
-- What tools or training would help?
-- What are patients saying?
+What is working well? What is still frustrating? What tools or training would help? What are patients saying?
 
 ### How Do You Implement Quality Monitoring?
 
 Implement ongoing quality program:
 
-- Call recording review schedule
-- Scoring criteria and standards
-- Feedback and coaching process
-- Recognition for excellence
+Call recording review schedule. Scoring criteria and standards. Feedback and coaching process. Recognition for excellence.
 
 ### Week 9-10 Deliverables
 
-- ☐ Gap analysis completed
-- ☐ Gap closure actions implemented
-- ☐ Staff feedback collected and addressed
-- ☐ Quality monitoring operational
-- ☐ Week 11-12 documentation plan
-- ☐ Handoff preparation started
+☐ Gap analysis completed. ☐ Gap closure actions implemented. ☐ Staff feedback collected and addressed. ☐ Quality monitoring operational. ☐ Week 11-12 documentation plan. ☐ Handoff preparation started.
 
 ---
 
@@ -500,30 +375,18 @@ Implement ongoing quality program:
 
 ### Goals
 
-- Complete all documentation for ongoing operations
-- Transition from integration team to operations team
-- Capture lessons learned
-- Declare integration complete
+Complete all documentation for ongoing operations. Transition from integration team to operations team. Capture lessons learned. Declare integration complete.
 
 ### What Goes Into the Documentation Package?
 
 **Standard operating procedures**
-- Daily opening/closing procedures
-- Call handling for each type
-- Escalation procedures
-- Emergency protocols
+Daily opening/closing procedures. Call handling for each type. Escalation procedures. Emergency protocols.
 
 **Training materials**
-- New hire training guide
-- Refresher training content
-- Quick reference guides
-- FAQ document
+New hire training guide. Refresher training content. Quick reference guides. FAQ document.
 
 **Technical documentation**
-- Phone system configuration
-- PM system setup
-- Dashboard access and use
-- Troubleshooting guide
+Phone system configuration. PM system setup. Dashboard access and use. Troubleshooting guide.
 
 ### How Does the Handoff Process Work?
 
@@ -540,22 +403,13 @@ Transition ownership to:
 
 Capture for future integrations:
 
-- What went well?
-- What would we do differently?
-- What tools or resources were missing?
-- What took longer than expected?
-- What was easier than expected?
+What went well? What would we do differently? What tools or resources were missing? What took longer than expected? What was easier than expected?
 
 ### What Should the Success Metrics Report Include?
 
 Final integration report including:
 
-- Baseline to final metric comparison
-- ROI calculation
-- Timeline adherence
-- Staff retention
-- Patient feedback
-- Recommendations for future
+Baseline to final metric comparison. ROI calculation. Timeline adherence. Staff retention. Patient feedback. Recommendations for future.
 
 ### Week 11-12 Deliverables
 
@@ -683,8 +537,9 @@ Watch for:
 
 ---
 
-
 ---
+
+Dental groups that answer every call book more patients. [Talk to our team](/contact/) about how MyBCAT helps dental practices capture every opportunity.
 
 ## Key Takeaways
 
@@ -705,3 +560,9 @@ Watch for:
 - **90 days is achievable.** With the right approach, full intake integration in 90 days is realistic. 12-18 months is a choice, not an inevitability.
 
 For healthcare groups managing 10+ locations, a [centralized scheduling](/enterprise/centralized-scheduling/) approach combined with [enterprise-grade reporting and QA](/enterprise/reporting-qa/) transforms integration from a challenge into a competitive advantage.
+
+## Sources
+
+- [ADA: Practice Management Resources](https://www.ada.org/resources/practice)
+- [Dental Economics: Practice Growth](https://www.dentaleconomics.com/)
+- [Becker's Dental Review: DSO News](https://www.beckersdental.com/)

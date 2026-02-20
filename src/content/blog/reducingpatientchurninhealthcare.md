@@ -31,9 +31,7 @@ Single-location practices lose patients one at a time. Multi-location groups fac
 
 **The scale problem:**
 
-- A 5% difference in retention rates between your best and worst locations creates a 25% revenue gap over five years
-- Staff turnover at individual sites disrupts care continuity, with healthcare employee turnover averaging 22.7% annually
-- Patients who leave one location rarely transfer to another in your network. They leave the system entirely.
+A 5% difference in retention rates between your best and worst locations creates a 25% revenue gap over five years. Staff turnover at individual sites disrupts care continuity, with healthcare employee turnover averaging 22.7% annually. Patients who leave one location rarely transfer to another in your network. They leave the system entirely.
 
 According to MGMA's 2025 patient access data, 27% of healthcare practice leaders identified no-show rates as their top priority for 2026. That signals widespread recognition that patient attrition demands operational attention.
 
@@ -58,10 +56,7 @@ Patient churn in healthcare networks stems from operational gaps that single pra
 
 **Primary drivers:**
 
-1. **Access friction**: Long wait times for appointments, unreturned calls, and complicated scheduling processes push patients toward competitors
-2. **Inconsistent experiences**: A patient who receives excellent care at Location A expects the same at Location B. Variability erodes trust.
-3. **Poor follow-up**: Patients fall through the cracks when recall systems operate in silos at each location
-4. **Staff turnover**: Healthcare faces a projected shortage of 86,000 physicians by 2036, and current RN shortfalls already impact patient relationships
+**Access friction**: Long wait times for appointments, unreturned calls, and complicated scheduling processes push patients toward competitors. **Inconsistent experiences**: A patient who receives excellent care at Location A expects the same at Location B. Variability erodes trust. **Poor follow-up**: Patients fall through the cracks when recall systems operate in silos at each location. **Staff turnover**: Healthcare faces a projected shortage of 86,000 physicians by 2036, and current RN shortfalls already impact patient relationships.
 
 MGMA's research shows that 33% of healthcare groups reported worsening new-patient wait times in 2025. When patients cannot get timely appointments, they find providers who can accommodate them.
 
@@ -71,17 +66,11 @@ Multi-location groups face a fundamental choice in how they structure patient re
 
 **Distributed model:**
 
-- Each location manages its own recall systems
-- Site managers control patient communication
-- Local staff handle follow-up calls
-- **Problem**: Inconsistent execution, no visibility into network-wide performance
+Each location manages its own recall systems. Site managers control patient communication. Local staff handle follow-up calls. **Problem**: Inconsistent execution, no visibility into network-wide performance.
 
 **Centralized model:**
 
-- Unified recall platform across all locations
-- Standardized communication protocols
-- Central team handles high-volume outreach
-- **Advantage**: Consistent patient experience, measurable KPIs, economies of scale
+Unified recall platform across all locations. Standardized communication protocols. Central team handles high-volume outreach. **Advantage**: Consistent patient experience, measurable KPIs, economies of scale.
 
 The centralized approach works for groups managing 3+ locations because it creates accountability. You can benchmark Location 7 against Location 10 using the same metrics. You can identify underperforming sites before churn becomes critical.
 
@@ -95,10 +84,7 @@ A case study from AMSURG showed that implementing a consistent patient recall pr
 
 **For multi-location groups:**
 
-- Deploy a single recall platform that integrates with PM systems at every location
-- Create templated outreach sequences that local staff can customize
-- Track recall completion rates by location and provider
-- Establish SLAs for patient follow-up timing
+Deploy a single recall platform that integrates with PM systems at every location. Create templated outreach sequences that local staff can customize. Track recall completion rates by location and provider. Establish SLAs for patient follow-up timing.
 
 Our [patient recall campaign framework](/blog/patient-recall-campaign-framework/) provides templates you can adapt for your network.
 
@@ -108,10 +94,7 @@ Our [patient recall campaign framework](/blog/patient-recall-campaign-framework/
 
 **Actionable steps:**
 
-- Audit call answer rates across all locations. Aim for 95%+ answer rate during business hours.
-- Implement callback systems for peak-volume periods
-- Deploy online scheduling that shows real-time availability across your network
-- Monitor time-to-third-available-appointment as a leading indicator of access problems
+Audit call answer rates across all locations. Aim for 95%+ answer rate during business hours. Implement callback systems for peak-volume periods. Deploy online scheduling that shows real-time availability across your network. Monitor time-to-third-available-appointment as a leading indicator of access problems.
 
 Groups struggling with missed calls should review our analysis of [how missed calls create revenue leaks in multi-location healthcare](/blog/missed-calls-revenue-leak-multi-location-healthcare/).
 
@@ -121,10 +104,7 @@ Not every patient requires the same level of retention effort. Predictive models
 
 **Indicators of churn risk:**
 
-- Missed or canceled appointments without rescheduling
-- Declining visit frequency compared to their historical pattern
-- Negative survey responses or complaints
-- Long gaps since last contact
+Missed or canceled appointments without rescheduling. Declining visit frequency compared to their historical pattern. Negative survey responses or complaints. Long gaps since last contact.
 
 ISG research on healthcare IT found that practices using data-driven targeting for patient outreach achieved better retention results than those using blanket communication strategies.
 
@@ -134,10 +114,7 @@ Patients expect consistency. A 2025 review of DSO patient retention strategies i
 
 **Standardization checklist:**
 
-- [ ] Phone greeting scripts match across all locations
-- [ ] Appointment confirmation and reminder sequences are identical
-- [ ] Post-visit follow-up occurs within the same timeframe everywhere
-- [ ] Patient portals and digital tools work the same at every site
+[ ] Phone greeting scripts match across all locations. [ ] Appointment confirmation and reminder sequences are identical. [ ] Post-visit follow-up occurs within the same timeframe everywhere. [ ] Patient portals and digital tools work the same at every site.
 
 For intake-specific standardization, our [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/) covers implementation in detail.
 
@@ -147,11 +124,7 @@ You cannot improve what you do not measure. Operations leaders need real-time vi
 
 **Key metrics to track:**
 
-- Patient retention rate (monthly, quarterly, annual)
-- Recall completion rate
-- Time between recommended and actual appointments
-- Net Promoter Score by location
-- Reactivation rate for dormant patients
+Patient retention rate (monthly, quarterly, annual). Recall completion rate. Time between recommended and actual appointments. Net Promoter Score by location. Reactivation rate for dormant patients.
 
 Our [KPI dashboard guide for multi-location intake](/blog/kpi-dashboard-multi-location-intake/) explains which metrics matter most and how to benchmark performance.
 
@@ -248,6 +221,7 @@ Reducing patient churn in multi-location healthcare groups requires operational 
 - Location-level visibility into retention metrics enables targeted intervention
 - A 10% improvement in retention creates substantial EBITDA impact without requiring perfection
 
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

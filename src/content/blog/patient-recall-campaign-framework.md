@@ -1,8 +1,13 @@
 ---
-title: "Patient Recall Campaign Framework: Step-by-Step Guide"
-seoTitle: "Patient Recall Campaign Framework: Step-by-Step Guide"
-description: "Build a patient recall campaign that works. Complete 6-phase framework for multi-channel outreach, messaging, and achieving 20%+ reactivation rates."
-seoDescription: "Patient recall campaign framework with step-by-step implementation. Multi-channel sequencing, messaging templates, and metrics for healthcare practices."
+title: 'Patient Recall Campaign Framework: Step-by-Step Guide'
+seoTitle: 'Patient Recall Campaign Framework: Step-by-Step Guide'
+description: >-
+  Build a patient recall campaign that works. Complete 6-phase framework for
+  multi-channel outreach, messaging, and achieving 20%+ reactivation rates.
+seoDescription: >-
+  Patient recall campaign framework with step-by-step implementation.
+  Multi-channel sequencing, messaging templates, and metrics for healthcare
+  practices.
 publishDate: '2026-01-29'
 status: published
 author: Ankit Patel
@@ -13,7 +18,7 @@ tags:
   - practice growth
   - healthcare
 featuredImage: /images/blog/patient-recall-campaign-framework.webp
-canonical: https://mybcat.com/blog/patient-recall-campaign-framework/
+canonical: 'https://mybcat.com/blog/patient-recall-campaign-framework/'
 cluster: patient-recall
 isPillar: true
 relatedPosts:
@@ -56,9 +61,7 @@ Existing patients already know your practice, trust your team, and have a histor
 
 Consider what happens when a dental practice with 3,000 patients experiences the industry-average 17% annual attrition:
 
-- **510 patients lost per year**
-- **Average production per patient: $4,200**
-- **Annual revenue loss: $2.14 million**
+**510 patients lost per year**. **Average production per patient: $4,200**. **Annual revenue loss: $2.14 million**.
 
 Even recovering 20% of those patients through a systematic recall campaign would add $428,000 in revenue. That is the business case for making patient recall a priority.
 
@@ -84,20 +87,13 @@ Pull a report from your practice management system showing all patients who meet
 Not all dormant patients deserve equal attention. Segment your list based on:
 
 **High Priority (Contact First)**
-- Patients with incomplete treatment plans
-- Patients with chronic conditions requiring monitoring
-- High-value patients (top 20% by historical spend)
-- Patients who left due to scheduling issues (not dissatisfaction)
+Patients with incomplete treatment plans. Patients with chronic conditions requiring monitoring. High-value patients (top 20% by historical spend). Patients who left due to scheduling issues (not dissatisfaction).
 
 **Medium Priority**
-- Patients with no outstanding treatment needs
-- Patients who moved or changed insurance
-- Patients with average historical value
+Patients with no outstanding treatment needs. Patients who moved or changed insurance. Patients with average historical value.
 
 **Low Priority (May Not Be Worth Pursuing)**
-- Patients who explicitly requested removal
-- Patients with outstanding balances and no payment history
-- Patients outside your service area
+Patients who explicitly requested removal. Patients with outstanding balances and no payment history. Patients outside your service area.
 
 This segmentation ensures your team spends time on patients most likely to return and generate value.
 
@@ -125,10 +121,7 @@ Personalization is not optional. Research shows 96% of consumers act on personal
 
 **Effective recall messages include:**
 
-1. **Patient name and specific context** (last visit date, last treatment)
-2. **Clear reason to return** (overdue for cleaning, prescription expiring)
-3. **Easy scheduling path** (link, phone number, or reply option)
-4. **Sense of appropriate urgency** (without being pushy)
+**Patient name and specific context** (last visit date, last treatment). **Clear reason to return** (overdue for cleaning, prescription expiring). **Easy scheduling path** (link, phone number, or reply option). **Sense of appropriate urgency** (without being pushy).
 
 **Example SMS Sequence:**
 
@@ -147,9 +140,7 @@ For more message templates, consider developing scripts tailored to your practic
 
 Timing affects response rates more than most practices realize. Research shows:
 
-- **SMS sent at 6 PM achieves 41% higher confirmation rates** than messages sent at noon
-- **Emails perform best between 5 AM and 10 AM**
-- **Start outreach 30 days before the patient's ideal return date** for preventive visits
+**SMS sent at 6 PM achieves 41% higher confirmation rates** than messages sent at noon. **Emails perform best between 5 AM and 10 AM**. **Start outreach 30 days before the patient's ideal return date** for preventive visits.
 
 **Recommended Cadence:**
 
@@ -169,16 +160,10 @@ For practices running campaigns at scale, automation is essential. Manual outrea
 Track these KPIs to evaluate campaign performance:
 
 **Primary Metrics:**
-- **Reactivation Rate**: Percentage of contacted patients who schedule
-- **Cost Per Reactivation**: Total campaign cost divided by reactivated patients
-- **Revenue Recovered**: Production from reactivated patients over 12 months
-- **ROI**: Revenue recovered divided by campaign cost
+**Reactivation Rate**: Percentage of contacted patients who schedule. **Cost Per Reactivation**: Total campaign cost divided by reactivated patients. **Revenue Recovered**: Production from reactivated patients over 12 months. **ROI**: Revenue recovered divided by campaign cost.
 
 **Secondary Metrics:**
-- Open rates by channel
-- Response rates by segment
-- Time from outreach to appointment
-- No-show rate for reactivated patients
+Open rates by channel. Response rates by segment. Time from outreach to appointment. No-show rate for reactivated patients.
 
 **Benchmark Targets:**
 
@@ -227,25 +212,16 @@ Paper-based tracking creates knowledge gaps. Staff turnover means institutional 
 Here is a practical timeline for launching your first systematic recall campaign:
 
 **Week 1-2: Foundation**
-- Pull dormant patient list from PMS
-- Segment by priority (high/medium/low)
-- Define channel strategy and message templates
-- Set up tracking in spreadsheet or software
+Pull dormant patient list from PMS. Segment by priority (high/medium/low). Define channel strategy and message templates. Set up tracking in spreadsheet or software.
 
 **Week 3-4: High-Priority Launch**
-- Begin outreach to high-priority segment
-- Monitor response rates and adjust messaging
-- Train staff on handling inbound scheduling requests
+Begin outreach to high-priority segment. Monitor response rates and adjust messaging. Train staff on handling inbound scheduling requests.
 
 **Week 5-8: Expand and Optimize**
-- Roll out to medium-priority segment
-- A/B test message variations
-- Add phone outreach for non-responders
+Roll out to medium-priority segment. A/B test message variations. Add phone outreach for non-responders.
 
 **Week 9-12: Measure and Systematize**
-- Calculate ROI and cost per reactivation
-- Document what worked and what did not
-- Establish recurring campaign cadence (monthly or quarterly)
+Calculate ROI and cost per reactivation. Document what worked and what did not. Establish recurring campaign cadence (monthly or quarterly).
 
 For practices joining larger organizations or managing multiple locations, [integrating recall systems during acquisition](/blog/90-day-integration-playbook-healthcare-acquisitions/) creates consistency across the network.
 
@@ -254,11 +230,7 @@ For practices joining larger organizations or managing multiple locations, [inte
 Small practices with under 50 dormant patients can manage recall manually. Beyond that threshold, automation becomes essential.
 
 **Automation handles:**
-- Patient identification and segmentation
-- Multi-channel message delivery
-- Response tracking and follow-up triggers
-- Appointment booking integration
-- Performance reporting
+Patient identification and segmentation. Multi-channel message delivery. Response tracking and follow-up triggers. Appointment booking integration. Performance reporting.
 
 **Humans should handle:**
 - High-value patient phone calls
@@ -297,6 +269,8 @@ Patient recall does not exist in isolation. It connects to every other aspect of
 - [Patient Recall Service: What It Is and When You Need It](/blog/patient-recall-service/)
 - [Dormant Patient Reactivation: A 30-Day Playbook](/blog/dormant-patient-reactivation/)
 - [Patient Reactivation Campaign Timeline: 7 Days to 90 Days](/blog/patient-reactivation-campaign-timeline/)
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

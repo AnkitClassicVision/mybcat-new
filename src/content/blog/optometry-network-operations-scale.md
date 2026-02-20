@@ -47,44 +47,26 @@ Optometry network scaling typically follows three distinct phases, each with dif
 ### Phase 1: Foundation (5-15 Locations)
 
 **Characteristics:**
-- Founders still directly involved in operations
-- Mixed systems across locations (legacy from acquisitions)
-- Informal processes, tribal knowledge
-- Relationship-based management
+Founders still directly involved in operations. Mixed systems across locations (legacy from acquisitions). Informal processes, tribal knowledge. Relationship-based management.
 
 **Primary challenges:**
-- Standardizing operations across acquired practices
-- Building management layer below founders
-- Implementing consistent technology
-- Maintaining culture while adding locations
+Standardizing operations across acquired practices. Building management layer below founders. Implementing consistent technology. Maintaining culture while adding locations.
 
 ### Phase 2: Professionalization (15-30 Locations)
 
 **Characteristics:**
-- Professional management required
-- Systems become critical infrastructure
-- Formal policies and procedures
-- Regional management structure emerges
+Professional management required. Systems become critical infrastructure. Formal policies and procedures. Regional management structure emerges.
 
 **Primary challenges:**
-- Reducing founder dependency
-- Scaling training and onboarding
-- Managing complexity without bureaucracy
-- Maintaining patient experience consistency
+Reducing founder dependency. Scaling training and onboarding. Managing complexity without bureaucracy. Maintaining patient experience consistency.
 
 ### Phase 3: Enterprise (30-50+ Locations)
 
 **Characteristics:**
-- Corporate functions fully developed
-- Data-driven decision making
-- Mature technology stack
-- Clear career paths and org structure
+Corporate functions fully developed. Data-driven decision making. Mature technology stack. Clear career paths and org structure.
 
 **Primary challenges:**
-- Preventing bureaucratic slowdown
-- Maintaining entrepreneurial culture
-- Continuous improvement at scale
-- Integration of continued acquisitions
+Preventing bureaucratic slowdown. Maintaining entrepreneurial culture. Continuous improvement at scale. Integration of continued acquisitions.
 
 ## What Technology Infrastructure Does Each Phase Require?
 
@@ -114,10 +96,7 @@ The most critical decision is consolidating to a single PMS:
 
 **Priority 3: Communication Infrastructure**
 
-- VoIP phone system across all locations
-- Unified messaging platform
-- Shared calendar/scheduling visibility
-- Basic reporting dashboard
+VoIP phone system across all locations. Unified messaging platform. Shared calendar/scheduling visibility. Basic reporting dashboard.
 
 ### Phase 2: Professionalization (15-30 Locations)
 
@@ -150,11 +129,7 @@ Centralized patient communication becomes essential:
 
 **Priority 3: Inventory Management**
 
-Optical inventory across 15+ locations requires:
-- Real-time inventory visibility
-- Centralized purchasing
-- Inter-location transfers
-- Demand forecasting
+Optical inventory across 15+ locations requires include real-time inventory visibility, centralized purchasing, inter-location transfers, and demand forecasting.
 
 ### Phase 3: Enterprise (30-50+ Locations)
 
@@ -427,6 +402,14 @@ Scaling optometry operations from 5 to 50 locations requires phase-appropriate s
 The networks that successfully scale are those that recognize when their current approach has reached its limits and proactively build the infrastructure for the next phase.
 
 For retention strategies at scale, see our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/). For centralized operations implementation, review our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/).
+Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
+
+
+## Related Reading
+
+- [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/)
+- [the importance of timely appointment scheduling](/blog/the-importance-of-timely-appointment-scheduling/)
+
 ## Sources
 
 - [MyBCAT: Operational Efficiency in Optometry](https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture/)

@@ -1,29 +1,31 @@
 ---
 title: 'Pre-Sale Operational Cleanup: Intake Systems That Boost Valuation'
 seoTitle: Pre-Sale Intake Cleanup to Boost Practice Valuation
-description: What PE buyers actually evaluate in healthcare intake operations. A 12-month
-  roadmap for practice owners preparing for exit, with specific metrics and improvements
-  that increase valuation multiples.
-seoDescription: 12-month roadmap to optimize intake operations before selling your
-  practice. Learn what PE buyers evaluate and how to increase valuation multiples.
-publishDate: 2026-01-12 00:00:00+00:00
+description: >-
+  What PE buyers actually evaluate in healthcare intake operations. A 12-month
+  roadmap for practice owners preparing for exit, with specific metrics and
+  improvements that increase valuation multiples.
+seoDescription: >-
+  12-month roadmap to optimize intake operations before selling your practice.
+  Learn what PE buyers evaluate and how to increase valuation multiples.
+publishDate: 2026-01-12T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Growth
 tags:
-- valuation
-- private-equity
-- exit-planning
-- dso
-- healthcare-m-and-a
-- ebitda
+  - valuation
+  - private-equity
+  - exit-planning
+  - dso
+  - healthcare-m-and-a
+  - ebitda
 featuredImage: /images/blog/pre-sale-operational-cleanup-intake-valuation.webp
-canonical: https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/
+canonical: 'https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/'
 relatedPosts:
-- ebitda-impact-calculator
-- multi-location-healthcare-intake-guide
-- missed-calls-revenue-leak-multi-location-healthcare
-- dso-case-study-15-location-missed-calls
+  - ebitda-impact-calculator
+  - multi-location-healthcare-intake-guide
+  - missed-calls-revenue-leak-multi-location-healthcare
+  - dso-case-study-15-location-missed-calls
 ---
 
 PE buyers evaluating your healthcare practice are not just looking at EBITDA. They are modeling integration costs. A practice with fragmented intake operations, owner-dependent processes, and no visibility into call conversion represents risk. A practice with standardized, documented, scalable intake systems represents a platform asset that commands premium multiples.
@@ -57,16 +59,13 @@ During operational due diligence, PE buyers and their consultants evaluate far m
 
 Every PE buyer builds an integration cost model. They estimate what it will take to:
 
-- Standardize your operations with their existing portfolio practices
-- Implement their technology stack and reporting systems
-- Train or replace staff on their processes
-- Achieve their target KPIs across your locations
+Standardize your operations with their existing portfolio practices. Implement their technology stack and reporting systems. Train or replace staff on their processes. Achieve their target KPIs across your locations.
 
 Practices with strong, standardized intake operations present lower integration costs. Lower costs mean higher valuations.
 
 ### What Do Buyers Look For Specifically?
 
-**Scalability**: Can your intake model handle growth? If adding locations means adding proportional front desk headcount, buyers see a cost structure that does not scale. If your intake system can absorb volume increases with minimal additional cost, buyers see operating leverage.
+**Scalability**: Can your intake model handle growth? If adding locations means adding proportional front desk headcount, buyers see a cost structure that does not scale. If your intake system can absorb volume increases with minimal additional cost, buyers see operating use.
 
 **Consistency**: Do all locations operate the same way? Inconsistent processes across locations signal integration work. Standardized protocols signal platform readiness.
 
@@ -142,12 +141,7 @@ The most common valuation discount in healthcare practice sales is owner depende
 
 ### What Are the Signs of Owner Dependency in Intake?
 
-- You personally handle patient complaints that come through the phone
-- Staff escalate scheduling exceptions to you for decisions
-- You are the only one who knows how certain insurance plans work
-- Training new staff requires your personal involvement
-- You approve all scripts and protocol changes
-- No one else can access or interpret intake reports
+You personally handle patient complaints that come through the phone. Staff escalate scheduling exceptions to you for decisions. You are the only one who knows how certain insurance plans work. Training new staff requires your personal involvement. You approve all scripts and protocol changes. No one else can access or interpret intake reports.
 
 ### How Do You Reduce Owner Dependency?
 
@@ -172,45 +166,25 @@ Buyers love documentation. It signals that your practice can be transferred to n
 ### What Is the Essential Documentation for Intake Operations?
 
 **Call Scripts (by Call Type)**
-- New patient inquiry script
-- Existing patient scheduling script
-- Insurance question handling script
-- Appointment confirmation script
-- Complaint/concern escalation script
+New patient inquiry script. Existing patient scheduling script. Insurance question handling script. Appointment confirmation script. Complaint/concern escalation script.
 
 **Scheduling Protocols**
-- Appointment type definitions and durations
-- Provider availability rules
-- Same-day/urgent scheduling criteria
-- Multi-location booking protocols
-- Cancellation and rescheduling policies
+Appointment type definitions and durations. Provider availability rules. Same-day/urgent scheduling criteria. Multi-location booking protocols. Cancellation and rescheduling policies.
 
 **Escalation Procedures**
-- When to escalate vs. handle independently
-- Who to escalate to (and backup contacts)
-- Emergency protocol
-- Complaint handling procedure
+When to escalate vs. handle independently. Who to escalate to (and backup contacts). Emergency protocol. Complaint handling procedure.
 
 **Training Materials**
-- New hire training curriculum (with timeline)
-- System training guides (PMS, phone, etc.)
-- Role-specific competency checklists
-- Ongoing training and refresher schedule
+New hire training curriculum (with timeline). System training guides (PMS, phone, etc.). Role-specific competency checklists. Ongoing training and refresher schedule.
 
 **Performance Standards**
-- KPI definitions and targets
-- Quality monitoring process
-- Coaching and feedback protocols
-- Performance review criteria
+KPI definitions and targets. Quality monitoring process. Coaching and feedback protocols. Performance review criteria.
 
 ### Does Documentation Quality Matter?
 
 Poor documentation is worse than no documentation because it creates false confidence. Your documentation should be:
 
-- **Current**: Updated within the last 6 months
-- **Specific**: Step-by-step instructions, not vague guidelines
-- **Accessible**: Stored where staff can find it
-- **Used**: Staff actually reference it, not just ignore it
+**Current**: Updated within the last 6 months. **Specific**: Step-by-step instructions, not vague guidelines. **Accessible**: Stored where staff can find it. **Used**: Staff actually reference it, not just ignore it.
 
 ---
 
@@ -237,12 +211,7 @@ Systems should produce the metrics buyers will request: call volume, answer rate
 
 ### What Are the Red Flag Technology Situations?
 
-- Different PMS at different locations
-- Phone systems with no call tracking or reporting
-- No after-hours answering solution
-- Paper-based scheduling or waitlist management
-- No electronic insurance verification
-- Systems that require on-site IT support
+Different PMS at different locations. Phone systems with no call tracking or reporting. No after-hours answering solution. Paper-based scheduling or waitlist management. No electronic insurance verification. Systems that require on-site IT support.
 
 ---
 
@@ -253,53 +222,29 @@ A structured approach to pre-sale preparation maximizes valuation while maintain
 ### Months 1-3: Assessment and Quick Wins
 
 **Assessment Tasks:**
-- Audit current intake operations across all locations
-- Document existing processes (even if informal)
-- Identify owner-dependency points
-- Benchmark current metrics against targets
-- Catalog technology systems and integration status
-- List all documentation gaps
+Audit current intake operations across all locations. Document existing processes (even if informal). Identify owner-dependency points. Benchmark current metrics against targets. Catalog technology systems and integration status. List all documentation gaps.
 
 **Quick Win Tasks:**
-- Implement call tracking if not present
-- Create basic scripts for most common call types
-- Establish daily/weekly KPI reporting
-- Identify and address obvious training gaps
-- Fix any broken technology integrations
+Implement call tracking if not present. Create basic scripts for most common call types. Establish daily/weekly KPI reporting. Identify and address obvious training gaps. Fix any broken technology integrations.
 
 **Deliverables:**
-- Intake operations assessment report
-- Quick wins implementation summary
-- Gap analysis for months 4-12
+Intake operations assessment report. Quick wins implementation summary. Gap analysis for months 4-12.
 
 ### Months 4-6: Documentation and Standardization
 
 **Documentation Tasks:**
-- Develop complete call scripts for all call types
-- Create scheduling protocols and decision trees
-- Document escalation procedures
-- Build training curriculum and materials
-- Write performance standards and metrics definitions
+Develop complete call scripts for all call types. Create scheduling protocols and decision trees. Document escalation procedures. Build training curriculum and materials. Write performance standards and metrics definitions.
 
 **Standardization Tasks:**
-- Align processes across all locations
-- Standardize scripts and scheduling rules
-- Implement consistent reporting across locations
-- Create cross-location backup protocols
+Align processes across all locations. Standardize scripts and scheduling rules. Implement consistent reporting across locations. Create cross-location backup protocols.
 
 **Deliverables:**
-- Complete intake operations manual
-- Training materials and curriculum
-- Standardized processes across all locations
+Complete intake operations manual. Training materials and curriculum. Standardized processes across all locations.
 
 ### Months 7-9: Technology and Training
 
 **Technology Tasks:**
-- Upgrade or replace outdated systems
-- Implement call analytics and dashboards
-- Integrate systems that should be connected
-- Deploy after-hours coverage solution
-- Build real-time visibility dashboards
+Upgrade or replace outdated systems. Implement call analytics and dashboards. Integrate systems that should be connected. Deploy after-hours coverage solution. Build real-time visibility dashboards.
 
 **Training Tasks:**
 - Roll out new documentation to all staff
@@ -422,8 +367,9 @@ Even at the conservative end, investing $100,000 to increase valuation by $2M de
 
 ---
 
-
 ---
+
+Dental groups that answer every call book more patients. [Talk to our team](/contact/) about how MyBCAT helps dental practices capture every opportunity.
 
 ## Key Takeaways
 
@@ -447,3 +393,15 @@ Even at the conservative end, investing $100,000 to increase valuation by $2M de
 
 *Sources: [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
 > **Need visibility across locations?** [Check out enterprise reporting & QA](/enterprise/reporting-qa/)
+
+## Related Reading
+
+- [AI phone answering for dental offices](/blog/ai-phone-answering-for-dental-offices/)
+- [dental answering service California](/blog/dental-answering-service-california/)
+- [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/)
+
+## Sources
+
+- [ADA: Practice Management Resources](https://www.ada.org/resources/practice)
+- [Dental Economics: Practice Growth](https://www.dentaleconomics.com/)
+- [Becker's Dental Review: DSO News](https://www.beckersdental.com/)

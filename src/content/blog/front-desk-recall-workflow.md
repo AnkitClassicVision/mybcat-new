@@ -1,22 +1,25 @@
 ---
 title: 'Front Desk Recall Workflow: A Simple Weekly Routine That Works'
 seoTitle: 'Front Desk Recall Workflow: Weekly Checklist for Healthcare'
-description: Front desk recall workflow with daily and weekly checklists. Reduces
-  no-shows 20-50% with scripts and tracking templates.
-seoDescription: Front desk recall workflow with daily and weekly checklists. Practical
-  routines that cut no-shows by 20-50% in dental, optometry, and medical practices.
+description: >-
+  Front desk recall workflow with daily and weekly checklists. Reduces no-shows
+  20-50% with scripts and tracking templates.
+seoDescription: >-
+  Front desk recall workflow with daily and weekly checklists. Practical
+  routines that cut no-shows by 20-50% in dental, optometry, and medical
+  practices.
 publishDate: '2026-02-25'
 status: scheduled
 scheduledDate: '2026-02-25'
 author: Ankit Patel
 category: Operations
 tags:
-- front desk
-- workflow
-- patient recall
-- operations
+  - front desk
+  - workflow
+  - patient recall
+  - operations
 featuredImage: /images/blog/front-desk-recall-workflow.webp
-canonical: https://mybcat.com/blog/front-desk-recall-workflow/
+canonical: 'https://mybcat.com/blog/front-desk-recall-workflow/'
 cluster: patient-recall
 relatedPosts:
   - patient-recall-campaign-framework
@@ -42,16 +45,10 @@ The front desk is where recall programs succeed or fail. A practice can have the
 Many practices invest in recall software but see disappointing results. The problem is rarely the technology:
 
 **Common failure modes:**
-- Software generates lists, but no one works them
-- Outreach happens inconsistently (busy days skipped)
-- Non-responders fall through the cracks
-- No one tracks or measures results
+Software generates lists, but no one works them. Outreach happens inconsistently (busy days skipped). Non-responders fall through the cracks. No one tracks or measures results.
 
 **What consistent workflow delivers:**
-- 20-50% reduction in no-shows
-- 10-15% increase in hygiene/exam production
-- Predictable patient flow
-- Front desk staff confidence and competence
+20-50% reduction in no-shows. 10-15% increase in hygiene/exam production. Predictable patient flow. Front desk staff confidence and competence.
 
 ## What Does the Weekly Recall Workflow Look Like?
 
@@ -70,9 +67,7 @@ Many practices invest in recall software but see disappointing results. The prob
 **Morning routine (30-60 minutes):**
 
 **Step 1: Run recall reports (10 minutes)**
-- Pull list of patients due this week
-- Pull list of patients overdue (past due date)
-- Sort by priority: high-value, insurance expiring, chronic conditions
+Pull list of patients due this week. Pull list of patients overdue (past due date). Sort by priority: high-value, insurance expiring, chronic conditions.
 
 **Step 2: Review and segment (10 minutes)**
 - Color-code or tag patients:
@@ -81,32 +76,20 @@ Many practices invest in recall software but see disappointing results. The prob
   - Red: No valid contact info (needs research)
 
 **Step 3: Launch automated outreach (10 minutes)**
-- Trigger SMS reminders to all due patients
-- Trigger email sequence to all due patients
-- Confirm messages are queued/sent
+Trigger SMS reminders to all due patients. Trigger email sequence to all due patients. Confirm messages are queued/sent.
 
 **Step 4: Document and assign (10 minutes)**
-- Note any special situations (patient preferences, previous issues)
-- Assign phone call lists to team members
-- Set follow-up tasks in PM system
+Note any special situations (patient preferences, previous issues). Assign phone call lists to team members. Set follow-up tasks in PM system.
 
 **Monday checklist:**
-- [ ] Ran recall report for due patients
-- [ ] Ran overdue patient report
-- [ ] Segmented by contact availability
-- [ ] Launched automated SMS/email
-- [ ] Assigned phone lists to team
-- [ ] Documented special patient notes
+[ ] Ran recall report for due patients. [ ] Ran overdue patient report. [ ] Segmented by contact availability. [ ] Launched automated SMS/email. [ ] Assigned phone lists to team. [ ] Documented special patient notes.
 
 ### Tuesday: Phone Outreach Day 1
 
 **Phone block (60-90 minutes, ideally 10am-12pm):**
 
 **Prioritization order:**
-1. High-value patients who have not responded to SMS/email
-2. Patients with insurance benefits expiring soon
-3. Patients with chronic conditions requiring regular care
-4. Standard recall patients by due date
+High-value patients who have not responded to SMS/email. Patients with insurance benefits expiring soon. Patients with chronic conditions requiring regular care. Standard recall patients by due date.
 
 **Phone script template:**
 
@@ -117,25 +100,17 @@ Many practices invest in recall software but see disappointing results. The prob
 
 **Call tracking:**
 For each call, record:
-- Date and time of attempt
-- Outcome: Booked / Left VM / No Answer / Wrong Number / Declined
-- Next action needed
+Date and time of attempt. Outcome: Booked / Left VM / No Answer / Wrong Number / Declined. Next action needed.
 
 **Tuesday checklist:**
-- [ ] Made calls to high-priority list
-- [ ] Logged all call outcomes
-- [ ] Scheduled appointments for responders
-- [ ] Left voicemails with callback info
-- [ ] Flagged wrong numbers for data cleanup
+[ ] Made calls to high-priority list. [ ] Logged all call outcomes. [ ] Scheduled appointments for responders. [ ] Left voicemails with callback info. [ ] Flagged wrong numbers for data cleanup.
 
 ### Wednesday: Follow-Up and Recovery
 
 **Follow-up block (45-60 minutes):**
 
 **Step 1: Process responses (15 minutes)**
-- Check for SMS replies from Monday outreach
-- Check for email click-throughs and form submissions
-- Book appointments from all responses
+Check for SMS replies from Monday outreach. Check for email click-throughs and form submissions. Book appointments from all responses.
 
 **Step 2: No-show recovery (20 minutes)**
 - Review yesterday's no-shows
@@ -160,20 +135,14 @@ For each call, record:
 - Match any cancellations with waitlist patients
 
 **Wednesday checklist:**
-- [ ] Processed all SMS/email responses
-- [ ] Booked appointments from responses
-- [ ] Contacted yesterday's no-shows
-- [ ] Sent second-touch SMS to non-responders
-- [ ] Checked waitlist for fill opportunities
+[ ] Processed all SMS/email responses. [ ] Booked appointments from responses. [ ] Contacted yesterday's no-shows. [ ] Sent second-touch SMS to non-responders. [ ] Checked waitlist for fill opportunities.
 
 ### Thursday: Phone Outreach Day 2
 
 **Phone block (60-90 minutes):**
 
 **Focus areas:**
-1. Second attempt on Tuesday voicemails
-2. Non-responders to all digital outreach
-3. Overdue patients (past due date)
+Second attempt on Tuesday voicemails. Non-responders to all digital outreach. Overdue patients (past due date).
 
 **Second-call script:**
 
@@ -206,41 +175,23 @@ For each call, record:
 </div>
 
 **Thursday checklist:**
-- [ ] Made second-attempt calls
-- [ ] Called digital non-responders
-- [ ] Called overdue patients
-- [ ] Handled objections with scripts
-- [ ] Logged all outcomes
-- [ ] Escalated any issues to manager
+[ ] Made second-attempt calls. [ ] Called digital non-responders. [ ] Called overdue patients. [ ] Handled objections with scripts. [ ] Logged all outcomes. [ ] Escalated any issues to manager.
 
 ### Friday: Week Closeout
 
 **Closeout block (30-45 minutes):**
 
 **Step 1: Week performance review (15 minutes)**
-- Count total patients due this week
-- Count appointments booked
-- Calculate recall rate: Booked / Due × 100
-- Note any patterns or issues
+Count total patients due this week. Count appointments booked. Calculate recall rate: Booked / Due × 100. Note any patterns or issues.
 
 **Step 2: Data cleanup (10 minutes)**
-- Update wrong phone numbers identified
-- Note patients who requested no further contact
-- Flag patients needing address verification
+Update wrong phone numbers identified. Note patients who requested no further contact. Flag patients needing address verification.
 
 **Step 3: Next week preparation (15 minutes)**
-- Pull next week's due list
-- Identify any high-priority patients
-- Note any special circumstances (benefits expiring, etc.)
-- Prepare assignments for Monday
+Pull next week's due list. Identify any high-priority patients. Note any special circumstances (benefits expiring, etc.). Prepare assignments for Monday.
 
 **Friday checklist:**
-- [ ] Calculated week's recall rate
-- [ ] Updated contact data issues
-- [ ] Pulled next week's recall list
-- [ ] Identified high-priority patients
-- [ ] Prepared Monday assignments
-- [ ] Reported results to manager
+[ ] Calculated week's recall rate. [ ] Updated contact data issues. [ ] Pulled next week's recall list. [ ] Identified high-priority patients. [ ] Prepared Monday assignments. [ ] Reported results to manager.
 
 ## What Daily Micro-Tasks Keep Recall on Track?
 
@@ -359,6 +310,13 @@ A consistent front desk recall workflow delivers better results than sporadic he
 The practices with the best recall rates are not the ones with the best software. They are the ones with the most consistent execution of a simple weekly workflow.
 
 For scripts to use during recall calls, see our [patient recall scripts guide](/blog/patient-recall-scripts/). For strategies on recovering no-shows, review our [no-show recovery program guide](/blog/no-show-recovery-program/).
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
+
+
+## Related Reading
+
+- [dormant patient reactivation](/blog/dormant-patient-reactivation/)
+
 ## Sources
 
 - [Open Dental Blog: Recall Management](https://opendental.blog/recall-management-patient-and-practice-health/)

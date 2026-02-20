@@ -1,37 +1,36 @@
 ---
-title: 'How to Sell Your Optometry Practice in 2025-2026: The Complete Exit Strategy
-  Guide'
-description: Current valuation multiples, PE acquirer landscape, tax implications,
-  and a 1-3 year preparation timeline for optometry practice owners planning their
+title: >-
+  How to Sell Your Optometry Practice in 2025-2026: The Complete Exit Strategy
+  Guide
+description: >-
+  Current valuation multiples, PE acquirer landscape, tax implications, and a
+  1-3 year preparation timeline for optometry practice owners planning their
   exit.
-publishDate: 2026-01-20
+publishDate: 2026-01-20T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Practice Management
 tags:
-- optometry
-- practice-sale
-- valuation
-- private-equity
-- exit-strategy
+  - optometry
+  - practice-sale
+  - valuation
+  - private-equity
+  - exit-strategy
 featuredImage: /images/blog/selling-optometry-practice.webp
-canonical: https://mybcat.com/blog/guide-for-selling-your-optometry-practice/
+canonical: 'https://mybcat.com/blog/guide-for-selling-your-optometry-practice/'
 seoTitle: How to Sell Your Optometry Practice (2025-2026 Guide)
-seoDescription: 'Complete guide to selling your optometry practice: current valuation
-  multiples (2-3.5x SDE), PE acquirers, tax implications, and preparation timeline.'
+seoDescription: >-
+  Complete guide to selling your optometry practice: current valuation multiples
+  (2-3.5x SDE), PE acquirers, tax implications, and preparation timeline.
 relatedPosts:
-- the-optometric-practice-valuation-guide-for-buyers-and-sellers
-- pre-sale-operational-cleanup-intake-valuation
+  - the-optometric-practice-valuation-guide-for-buyers-and-sellers
+  - pre-sale-operational-cleanup-intake-valuation
 ---
 
-Optometry practices typically sell for 2.0x-3.5x seller's discretionary earnings (SDE) or 0.43x-0.75x revenue—though exceptional practices with strong operations can reach 4x+ SDE. A $1 million revenue practice might sell for $430,000 or $750,000 depending on operations, buyer type, and preparation. The difference? Usually not the practice itself, but how transferable and predictable the business looks to buyers.
+Optometry practices typically sell for 2.0x-3.5x seller's discretionary earnings (SDE) or 0.43x-0.75x revenue--though exceptional practices with strong operations can reach 4x+ SDE. A $1 million revenue practice might sell for $430,000 or $750,000 depending on operations, buyer type, and preparation. The difference? Usually not the practice itself, but how transferable and predictable the business looks to buyers.
 
 **Quick takeaways for optometrists considering a sale:**
-- Most practices sell for **2.0x-3.5x SDE** or **0.43x-0.75x revenue**; PE-ready practices can reach 6x-8x EBITDA
-- Start preparing **1-3 years** before you want to sell—earlier is better
-- Operations and documentation matter as much as revenue for valuation
-- Individual buyers, PE firms, and strategic acquirers each offer different tradeoffs
-- Structure (asset vs. stock sale) significantly impacts your after-tax proceeds
+Most practices sell for **2.0x-3.5x SDE** or **0.43x-0.75x revenue**; PE-ready practices can reach 6x-8x EBITDA. Start preparing **1-3 years** before you want to sell--earlier is better. Operations and documentation matter as much as revenue for valuation. Individual buyers, PE firms, and strategic acquirers each offer different tradeoffs. Structure (asset vs. stock sale) significantly impacts your after-tax proceeds.
 
 This guide covers everything you need to know about selling your optometry practice in 2025-2026: current valuation multiples, the private equity landscape, tax implications, and a realistic preparation timeline.
 
@@ -52,7 +51,7 @@ This guide covers everything you need to know about selling your optometry pract
 
 ## What Is Your Optometry Practice Actually Worth in 2025?
 
-The old rule of thumb—practices sell for 100% of gross revenue—is increasingly unreliable. While some PE-ready practices with exceptional EBITDA margins still command 1x revenue or higher, most transactions today are valued on earnings multiples. Profitability matters more than top-line numbers.
+The old rule of thumb--practices sell for 100% of gross revenue--is increasingly unreliable. While some PE-ready practices with exceptional EBITDA margins still command 1x revenue or higher, most transactions today are valued on earnings multiples. Profitability matters more than top-line numbers.
 
 ### What Are the Three Valuation Methods?
 
@@ -73,44 +72,24 @@ Example: $1,000,000 revenue × 0.6x = $600,000 valuation
 
 ### What Is Typically Included and Excluded?
 
-Valuation multiples usually apply to the *operating business*—not necessarily everything you own. Clarify these items early:
+Valuation multiples usually apply to the *operating business*--not necessarily everything you own. Clarify these items early:
 
 **Often included in the sale:**
-- Goodwill (patient relationships, reputation, brand)
-- Equipment and furniture (at fair market value)
-- Leasehold improvements
-- Operating systems and software licenses
+Goodwill (patient relationships, reputation, brand). Equipment and furniture (at fair market value). Leasehold improvements. Operating systems and software licenses.
 
 **Often handled separately:**
-- **Accounts receivable:** Usually retained by seller or purchased at a discount
-- **Frame and contact lens inventory:** Often purchased at cost, separate from the multiple
-- **Working capital:** May require minimum balance at closing
-- **Equipment leases:** Transfer or buyout negotiated separately
-- **Real estate:** If you own the building, that's typically a separate transaction or lease
+**Accounts receivable:** Usually retained by seller or purchased at a discount. **Frame and contact lens inventory:** Often purchased at cost, separate from the multiple. **Working capital:** May require minimum balance at closing. **Equipment leases:** Transfer or buyout negotiated separately. **Real estate:** If you own the building, that's typically a separate transaction or lease.
 
 The "valuation" number and your "cash at closing" number can differ significantly once these items are sorted out.
 
-For a deeper dive into valuation methods, see our [complete optometric practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/). You can also use our [EBITDA impact calculator](/blog/ebitda-impact-calculator/) to model how operational improvements affect your multiple.
+For a deeper examine valuation methods, see our [complete optometric practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/). You can also use our [EBITDA impact calculator](/blog/ebitda-impact-calculator/) to model how operational improvements affect your multiple.
 
 ### What Moves You Up or Down the Multiple Range?
 
 Higher multiples go to practices with:
-- Multiple revenue streams (exams, glasses, contacts, medical)
-- Strong patient retention and recall rates
-- Documented systems and SOPs
-- Staff that operates independently of the owner
-- Growing revenue trend (not declining)
-- Modern equipment and technology
-- Prime location with favorable lease terms
+Multiple revenue streams (exams, glasses, contacts, medical). Strong patient retention and recall rates. Documented systems and SOPs. Staff that operates independently of the owner. Growing revenue trend (not declining). Modern equipment and technology. Prime location with favorable lease terms.
 
-Lower multiples hit practices with:
-- Revenue dependent on a single OD
-- No documented processes
-- Declining patient counts
-- Outdated equipment
-- Lease issues or poor location
-- Staff turnover problems
-- Owner doing everything
+Lower multiples hit practices with include revenue dependent on a single od, no documented processes, declining patient counts, outdated equipment, lease issues or poor location, staff turnover problems, and owner doing everything.
 
 The uncomfortable truth: buyers don't just buy revenue. They buy a business that works. The more your practice depends on you personally, the less it's worth to someone else.
 
@@ -134,7 +113,7 @@ Understanding who might buy your practice helps you prepare for what they'll wan
 
 **Who they are:** Investment firms building platforms of optometry practices through DSOs (Dental/Doctor Service Organizations) or MSOs (Management Service Organizations). These structures allow PE firms to invest in healthcare practices while complying with state corporate practice laws. Currently, dozens of PE firms are actively acquiring in eye care.
 
-**What they pay:** Premium multiples for the right practices—sometimes **6x-8x EBITDA** or 100%+ of gross revenue for PE-ready practices.
+**What they pay:** Premium multiples for the right practices--sometimes **6x-8x EBITDA** or 100%+ of gross revenue for PE-ready practices.
 
 **What they want:** Scale potential, strong EBITDA margins, multiple revenue streams, experienced staff, systems that can replicate across locations.
 
@@ -146,7 +125,7 @@ Understanding who might buy your practice helps you prepare for what they'll wan
 
 **Who they are:** Another optometry group or DSO expanding into your market. Could be a regional competitor or a practice in an adjacent area.
 
-**What they pay:** Variable—depends on strategic value. Sometimes pay premiums for market access.
+**What they pay:** Variable--depends on strategic value. Sometimes pay premiums for market access.
 
 **What they want:** Geographic expansion, patient base, elimination of competition, staff and talent acquisition.
 
@@ -174,13 +153,9 @@ Private equity has transformed optometry transactions. If you're considering sel
 
 ### What Do PE Buyers Look For?
 
-PE firms aren't just buying practices—they're buying EBITDA that they can scale. They want:
+PE firms aren't just buying practices--they're buying EBITDA that they can scale. They want:
 
-- **Minimum EBITDA:** Usually $150K+ for standalone acquisitions, though add-ons can be smaller
-- **Revenue mix:** Medical services increasingly valued (not just glasses/contacts)
-- **Staff depth:** Practices that don't collapse when the owner leaves
-- **Systems:** Documented SOPs, modern PM software, trackable metrics
-- **Geography:** Southern U.S. practices currently in highest demand (50% of post-2022 acquisitions)
+**Minimum EBITDA:** Usually $150K+ for standalone acquisitions, though add-ons can be smaller. **Revenue mix:** Medical services increasingly valued (not just glasses/contacts). **Staff depth:** Practices that don't collapse when the owner leaves. **Systems:** Documented SOPs, modern PM software, trackable metrics. **Geography:** Southern U.S. practices currently in highest demand (50% of post-2022 acquisitions).
 
 ### What Is the Reality Check on PE Acquisitions?
 
@@ -196,37 +171,21 @@ The best time to start preparing was three years ago. The second best time is no
 
 ### 3+ Years Out: Foundation Building
 
-- Get a preliminary valuation to understand your baseline
-- Identify the "you-dependent" parts of your practice
-- Begin documenting SOPs for every major process
-- Start tracking key metrics if you're not already
-- Evaluate and upgrade equipment strategically
-- Review your lease—terms matter to buyers
+Get a preliminary valuation to understand your baseline. Identify the "you-dependent" parts of your practice. Begin documenting SOPs for every major process. Start tracking key metrics if you're not already. Evaluate and upgrade equipment strategically. Review your lease--terms matter to buyers.
 
 ### 1-2 Years Out: Optimization Phase
 
-- Engage a broker or M&A advisor
-- Clean up your financials—buyers look at 3 years of statements
-- Control expenses aggressively (buyers scrutinize recent P&L)
-- Document add-backs clearly (owner perks, one-time expenses)
-- Build staff capability to operate without you
-- Modernize technology and systems
-- Optimize patient recall and retention rates
+Engage a broker or M&A advisor. Clean up your financials--buyers look at 3 years of statements. Control expenses aggressively (buyers scrutinize recent P&L). Document add-backs clearly (owner perks, one-time expenses). Build staff capability to operate without you. Modernize technology and systems. Optimize patient recall and retention rates.
 
 ### 6-12 Months Out: Go-to-Market
 
-- Get a formal valuation from a qualified appraiser ($1,000-$5,000)
-- Prepare your data room (financials, contracts, patient stats)
-- Identify and approach potential buyers
-- Negotiate LOIs (Letters of Intent) and begin due diligence
-- Engage attorney for purchase agreement review
-- Plan transition logistics
+Get a formal valuation from a qualified appraiser ($1,000-$5,000). Prepare your data room (financials, contracts, patient stats). Identify and approach potential buyers. Negotiate LOIs (Letters of Intent) and begin due diligence. Engage attorney for purchase agreement review. Plan transition logistics.
 
 ### What Is the Critical Insight?
 
 Most sellers wait too long to start. By the time they're burned out and ready to exit, they're also too tired to optimize. The practice sells for less than it could have.
 
-Start early. The improvements you make in years 1-2 don't just help the sale—they make your practice more profitable and less stressful to run right now.
+Start early. The improvements you make in years 1-2 don't just help the sale--they make your practice more profitable and less stressful to run right now.
 
 ## What Do Buyers Actually Look For in Due Diligence?
 
@@ -234,71 +193,43 @@ Buyers will dig into everything. Here's what moves the needle.
 
 ### What Financial Metrics Will They Scrutinize?
 
-- **Revenue trend:** Growing, flat, or declining over 3 years
-- **EBITDA/SDE margins:** Higher is better, but consistency matters more than spikes
-- **Revenue per exam:** Industry average is ~$350-400
-- **Payer mix:** Too dependent on one insurance? Risk.
-- **Accounts receivable:** Clean AR signals good operations
+**Revenue trend:** Growing, flat, or declining over 3 years. **EBITDA/SDE margins:** Higher is better, but consistency matters more than spikes. **Revenue per exam:** Industry average is ~$350-400. **Payer mix:** Too dependent on one insurance? Risk. **Accounts receivable:** Clean AR signals good operations.
 
 ### Which Operational Metrics Signal Quality?
 
-- **Patient retention rate:** What percentage return annually?
-- **No-show rate:** High no-shows signal process problems
-- **Capture rate:** Are patients buying glasses/contacts from you or walking?
-- **New patient acquisition:** Where do new patients come from?
-- **Call answer rate:** [Missed calls directly impact revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/)—and buyers know it
-- **Staff turnover:** High turnover raises transition risk
+**Patient retention rate:** What percentage return annually? **No-show rate:** High no-shows signal process problems. **Capture rate:** Are patients buying glasses/contacts from you or walking? **New patient acquisition:** Where do new patients come from? **Call answer rate:** [Missed calls directly impact revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/)--and buyers know it. **Staff turnover:** High turnover raises transition risk.
 
 If you're not already tracking these metrics, our guide to [building a KPI dashboard for multi-location intake](/blog/kpi-dashboard-multi-location-intake/) shows exactly what to measure and how.
 
 ### What Documentation Do Buyers Expect?
 
-- 3 years of tax returns
-- Monthly P&L statements
-- Balance sheets
-- Patient volume reports
-- Staff roster with compensation
-- Lease agreement
-- Equipment list with ages
-- Insurance contracts
-- Vendor agreements
+3 years of tax returns. Monthly P&L statements. Balance sheets. Patient volume reports. Staff roster with compensation. Lease agreement. Equipment list with ages. Insurance contracts. Vendor agreements.
 
-The practice with organized documentation closes faster and often at a better price. Chaos in due diligence makes buyers nervous—and nervous buyers either walk or reduce their offer.
+The practice with organized documentation closes faster and often at a better price. Chaos in due diligence makes buyers nervous--and nervous buyers either walk or reduce their offer.
 
 ## How Do Operations Affect Your Valuation Multiple?
 
-Here's what most sellers miss: **the difference between a 2.5x and a 4x multiple often isn't revenue or profit—it's operations.**
+Here's what most sellers miss: **the difference between a 2.5x and a 4x multiple often isn't revenue or profit--it's operations.**
 
 Buyers are acquiring a business, not a job. They need to believe the practice will perform after you leave. That means:
 
 ### How Do Intake and Phone Systems Affect Value?
 
-How calls are handled signals operational maturity. Buyers ask:
-- What's your call answer rate?
-- How are appointments scheduled?
-- Who handles patient inquiries?
-- What happens after hours?
+How calls are handled signals operational maturity. Buyers ask include what's your call answer rate?, how are appointments scheduled?, who handles patient inquiries?, and what happens after hours?.
 
 A practice where calls go to voicemail and the owner personally handles complaints is worth less than one with professional intake operations, documented scripts, and trained staff.
 
-This is exactly why practices that [optimize intake operations before a sale](https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/) often see significant valuation improvements. It's not just about revenue—it's about demonstrating that the business runs without the owner.
+This is exactly why practices that [optimize intake operations before a sale](https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/) often see significant valuation improvements. It's not just about revenue--it's about demonstrating that the business runs without the owner.
 
 ### Why Are Documented Systems Critical?
 
 Can someone else run your practice using your playbook? If the answer is "they'd have to shadow me for six months," that's a problem.
 
-Buyers want:
-- Written SOPs for patient flow
-- Training documentation for staff roles
-- Defined processes for billing, recalls, inventory
-- Metrics dashboards they can monitor
+Buyers want include written sops for patient flow, training documentation for staff roles, defined processes for billing, recalls, inventory, and metrics dashboards they can monitor.
 
 ### How Important Is Staff Independence?
 
-If your staff can't function when you take a two-week vacation, buyers will notice. The practices that command premiums have:
-- Office managers who handle daily operations
-- Staff cross-trained on multiple functions
-- Clear accountability without owner micromanagement
+If your staff can't function when you take a two-week vacation, buyers will notice. The practices that command premiums have include office managers who handle daily operations, staff cross-trained on multiple functions, and clear accountability without owner micromanagement.
 
 ---
 
@@ -308,32 +239,27 @@ How you structure the sale dramatically affects your after-tax proceeds.
 
 ### Asset Sale (More Common)
 
-In an asset sale, you sell the individual assets of the practice—equipment, patient records, goodwill, non-compete—and the buyer starts a new entity.
+In an asset sale, you sell the individual assets of the practice--equipment, patient records, goodwill, non-compete--and the buyer starts a new entity.
 
 **Tax treatment for sellers:**
-- Goodwill: Taxed at long-term capital gains rates (0-20%, plus 3.8% Net Investment Income Tax for high earners, plus state taxes)
-- Equipment: Depreciation recapture taxed as ordinary income (up to 37%)
-- Non-compete payments: Taxed as ordinary income
-- Real estate (if owned): Capital gains or 1031 exchange options
+Goodwill: Taxed at long-term capital gains rates (0-20%, plus 3.8% Net Investment Income Tax for high earners, plus state taxes). Equipment: Depreciation recapture taxed as ordinary income (up to 37%). Non-compete payments: Taxed as ordinary income. Real estate (if owned): Capital gains or 1031 exchange options.
 
 *Note: Tax rates and treatment vary by state. Some states have no income tax; others tax capital gains as ordinary income. Work with a CPA who understands your specific situation.*
 
 **Buyer preference:** High. Buyers like asset sales because they get a stepped-up basis (better depreciation) and avoid inheriting unknown liabilities.
 
-**Seller implication:** Mixed—favorable treatment on goodwill but ordinary income on recapture and non-competes often results in higher overall tax.
+**Seller implication:** Mixed--favorable treatment on goodwill but ordinary income on recapture and non-competes often results in higher overall tax.
 
 ### Stock Sale
 
 In a stock sale, you sell your ownership interest in the legal entity. The buyer acquires the company including all assets and liabilities.
 
 **Tax treatment for sellers:**
-- Entire proceeds taxed at long-term capital gains rates
-- No depreciation recapture (it stays with the company)
-- Potentially significant tax savings vs. asset sale
+Entire proceeds taxed at long-term capital gains rates. No depreciation recapture (it stays with the company). Potentially significant tax savings vs. asset sale.
 
 **Buyer preference:** Low. Buyers inherit unknown liabilities and can't step up asset basis.
 
-**Seller implication:** Better tax treatment but harder to negotiate—buyers often discount price or require indemnification.
+**Seller implication:** Better tax treatment but harder to negotiate--buyers often discount price or require indemnification.
 
 ### Quick Comparison
 
@@ -341,14 +267,14 @@ In a stock sale, you sell your ownership interest in the legal entity. The buyer
 |--------|-----------|------------|
 | Seller tax treatment | Mixed (gains + ordinary income) | Mostly capital gains |
 | Buyer preference | Strong | Weak |
-| Liability transfer | Clean—stays with seller | Full—transfers to buyer |
+| Liability transfer | Clean--stays with seller | Full--transfers to buyer |
 | Typical structure | Most common | Less common |
 
 ### How Do You Negotiate the Sale Structure?
 
 Because buyers prefer asset sales and sellers prefer stock sales, the structure becomes a negotiation point. Sellers sometimes accept asset structure in exchange for higher purchase price.
 
-Work with a CPA who understands practice sales. The structure decision should happen early—not during final negotiations.
+Work with a CPA who understands practice sales. The structure decision should happen early--not during final negotiations.
 
 ## What Are the 5 Costly Mistakes That Kill Deals?
 
@@ -362,11 +288,7 @@ No. A $1.2M practice with 35% margins, documented systems, and growing patient c
 
 ### 2. Suppressing Earnings Unintentionally
 
-Every expense that's not essential to operations suppresses your EBITDA—and your valuation. Common culprits:
-- Overstaffing "just in case"
-- Not renegotiating vendor contracts
-- High COGS without shopping suppliers
-- Personal expenses run through the business
+Every expense that's not essential to operations suppresses your EBITDA--and your valuation. Common culprits include overstaffing "just in case", not renegotiating vendor contracts, high cogs without shopping suppliers, and personal expenses run through the business.
 
 Review expenses with a "buyer's eye" 2 years before selling.
 
@@ -380,46 +302,27 @@ Practices that come to market with "I need to sell in 6 months" get lower offers
 
 ### 5. Choosing the Wrong Buyer for the Wrong Reasons
 
-The highest offer isn't always the best deal. Consider:
-- Deal structure (cash vs. terms vs. equity rollover)
-- Transition requirements (how long must you stay?)
-- Staff treatment post-sale
-- Patient care continuity
-- Your own post-sale restrictions (non-compete scope)
+The highest offer isn't always the best deal. Consider include deal structure (cash vs. terms vs. equity rollover), transition requirements (how long must you stay?), staff treatment post-sale, patient care continuity, and your own post-sale restrictions (non-compete scope).
 
 ## How Do You Build Your Advisory Team?
 
-You need three key advisors—get them in place early.
+You need three key advisors--get them in place early.
 
 ### Broker / M&A Advisor
 
-A good broker who specializes in optometry practices will:
-- Provide realistic valuation expectations
-- Identify and vet potential buyers
-- Manage the confidential marketing process
-- Negotiate on your behalf
-- Coordinate due diligence
+A good broker who specializes in optometry practices will include provide realistic valuation expectations, identify and vet potential buyers, manage the confidential marketing process, negotiate on your behalf, and coordinate due diligence.
 
 Broker fees typically run 8-12% of sale price for smaller practices, less for larger deals. Worth it for most sellers.
 
 ### CPA / Tax Advisor
 
-Your CPA should:
-- Help normalize financials for valuation
-- Identify and document add-backs
-- Advise on sale structure (asset vs. stock)
-- Project tax implications of various scenarios
-- Coordinate with your broker and attorney
+Your CPA should include help normalize financials for valuation, identify and document add-backs, advise on sale structure (asset vs. stock), project tax implications of various scenarios, and coordinate with your broker and attorney.
 
 Ideally, find a CPA with healthcare practice transaction experience.
 
 ### Attorney
 
-Your attorney should:
-- Review and negotiate the purchase agreement
-- Protect you on representations and warranties
-- Handle non-compete and transition provisions
-- Manage closing mechanics
+Your attorney should include review and negotiate the purchase agreement, protect you on representations and warranties, handle non-compete and transition provisions, and manage closing mechanics.
 
 Don't use your general business attorney if they've never done a practice sale. The nuances matter.
 
@@ -429,33 +332,21 @@ Almost everything. The purchase price gets the attention, but these terms matter
 
 ### Purchase Price and Terms
 
-- Cash at closing vs. seller financing vs. earnouts
-- Equity rollover (common with PE—you keep 20-30% stake)
-- Working capital adjustments
-- Escrow/holdback for indemnification
+Cash at closing vs. seller financing vs. earnouts. Equity rollover (common with PE--you keep 20-30% stake). Working capital adjustments. Escrow/holdback for indemnification.
 
 ### Transition Period
 
-- Duration (typically 6 months to 2 years)
-- Your role (full-time clinical vs. consulting)
-- Compensation during transition
-- Handoff responsibilities
+Duration (typically 6 months to 2 years). Your role (full-time clinical vs. consulting). Compensation during transition. Handoff responsibilities.
 
 ### Non-Compete Provisions
 
-- Geographic scope (radius from practice)
-- Duration (typically 2-5 years, though enforceability varies significantly by state)
-- Scope of restricted activities
-- Carve-outs (teaching, non-clinical work)
+Geographic scope (radius from practice). Duration (typically 2-5 years, though enforceability varies significantly by state). Scope of restricted activities. Carve-outs (teaching, non-clinical work).
 
-*Note: Non-compete enforceability varies dramatically by state. California largely prohibits them; other states enforce them strictly. The legal landscape is evolving—your attorney should advise on what's enforceable in your jurisdiction.*
+*Note: Non-compete enforceability varies dramatically by state. California largely prohibits them; other states enforce them strictly. The legal landscape is evolving--your attorney should advise on what's enforceable in your jurisdiction.*
 
 ### Staff and Operations
 
-- Staff retention commitments
-- Compensation guarantees for key employees
-- Practice name and branding
-- Operational autonomy (or lack thereof)
+Staff retention commitments. Compensation guarantees for key employees. Practice name and branding. Operational autonomy (or lack thereof).
 
 Get everything in writing. Verbal assurances during negotiations don't survive closing.
 
@@ -488,12 +379,7 @@ You sell a majority stake but retain minority ownership. Common with PE deals (e
 Use this as a starting point for your preparation:
 
 **2-3 Years Before Sale:**
-- ☐ Get preliminary valuation
-- ☐ Identify owner-dependent processes
-- ☐ Begin documenting SOPs
-- ☐ Start tracking key metrics
-- ☐ Review lease terms
-- ☐ Evaluate equipment needs
+☐ Get preliminary valuation. ☐ Identify owner-dependent processes. ☐ Begin documenting SOPs. ☐ Start tracking key metrics. ☐ Review lease terms. ☐ Evaluate equipment needs.
 
 **1-2 Years Before Sale:**
 - ☐ Engage broker/advisor
@@ -525,4 +411,12 @@ Selling your optometry practice is likely the largest financial transaction of y
 
 Start earlier than you think you need to. Document more than you think matters. And remember: buyers aren't just buying your revenue. They're buying a business that works without you.
 
-The practices that sell for premium multiples in 2025-2026 are the ones that look transferable, predictable, and professionally operated. If your practice depends entirely on you—for patient relationships, for daily decisions, for answering the phones—that's the first thing to fix.
+The practices that sell for premium multiples in 2025-2026 are the ones that look transferable, predictable, and professionally operated. If your practice depends entirely on you--for patient relationships, for daily decisions, for answering the phones--that's the first thing to fix.
+
+Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
+
+## Sources
+
+- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)
+- [Review of Optometric Business: Practice Growth](https://reviewob.com/)
+- [MGMA: Medical Practice Operations](https://www.mgma.com/)

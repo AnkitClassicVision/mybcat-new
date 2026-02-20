@@ -1,27 +1,30 @@
 ---
 title: 'Healthcare Operations M&A Integration: Patient Retention Playbook'
 seoTitle: 'Healthcare M&A Integration: Patient Retention Playbook'
-description: Post-acquisition playbook for patient retention during M&A integration.
+description: >-
+  Post-acquisition playbook for patient retention during M&A integration.
   Phase-by-phase guidance for DSOs and PE groups.
-seoDescription: Healthcare M&A integration playbook focused on patient retention.
-  Phase-by-phase guide for protecting patient relationships during acquisition integration
+seoDescription: >-
+  Healthcare M&A integration playbook focused on patient retention.
+  Phase-by-phase guide for protecting patient relationships during acquisition
+  integration
 publishDate: '2026-02-06T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Enterprise
 tags:
-- m-and-a
-- integration
-- patient retention
-- healthcare operations
-- enterprise
+  - m-and-a
+  - integration
+  - patient retention
+  - healthcare operations
+  - enterprise
 featuredImage: /images/blog/healthcare-operations-ma-integration.webp
-canonical: https://mybcat.com/blog/healthcare-operations-ma-integration/
+canonical: 'https://mybcat.com/blog/healthcare-operations-ma-integration/'
 cluster: enterprise
 relatedPosts:
-- dental-group-acquisition-due-diligence
-- dso-patient-retention-strategy
-- centralized-patient-recall-multi-location
+  - dental-group-acquisition-due-diligence
+  - dso-patient-retention-strategy
+  - centralized-patient-recall-multi-location
 ---
 
 The acquisition closes, the celebration happens, and then the real work begins. Healthcare M&A success is determined not by deal execution but by integration execution, and the most important integration metric is patient retention. Lose 25% of patients in the first 18 months, and you have destroyed value rather than created it. This playbook provides the phase-by-phase approach for protecting patient retention during healthcare operations integration.
@@ -114,11 +117,7 @@ Integration planning should follow a structured 90-day framework with retention 
 **Retention priority: Minimize disruption**
 
 **Day 1 activities:**
-- [ ] Internal announcement to all staff
-- [ ] Patient communication sent (email/letter)
-- [ ] Phones answered with updated greeting
-- [ ] Scheduling systems functional
-- [ ] All patient-facing operations continue normally
+[ ] Internal announcement to all staff. [ ] Patient communication sent (email/letter). [ ] Phones answered with updated greeting. [ ] Scheduling systems functional. [ ] All patient-facing operations continue normally.
 
 **Patient communication template (Day 1):**
 
@@ -148,21 +147,13 @@ Integration planning should follow a structured 90-day framework with retention 
 | Week 4 | Process alignment | Improved service delivery |
 
 **Provider engagement protocol:**
-- Individual meetings with each provider
-- Address concerns and questions
-- Clarify compensation and expectations
-- Reinforce commitment to patient care
+Individual meetings with each provider. Address concerns and questions. Clarify compensation and expectations. Reinforce commitment to patient care.
 
 **Staff communication cadence:**
-- Daily huddles (Week 1-2)
-- Weekly town halls (Week 2-4)
-- Regular 1:1s with key staff
+Daily huddles (Week 1-2). Weekly town halls (Week 2-4). Regular 1:1s with key staff.
 
 **Patient touchpoints:**
-- Follow-up communication (Day 14) for active patients
-- Personal calls to VIP/high-value patients
-- Monitor online reviews closely
-- Respond to all patient feedback
+Follow-up communication (Day 14) for active patients. Personal calls to VIP/high-value patients. Monitor online reviews closely. Respond to all patient feedback.
 
 ### Days 31-60: Phase 2 (Integration)
 
@@ -181,10 +172,7 @@ Integration planning should follow a structured 90-day framework with retention 
 **Integration sequencing principle:** Back office first, patient-facing last.
 
 **Technology integration:**
-- Maintain legacy systems initially
-- Plan migrations for low-volume periods
-- Test extensively before patient-facing changes
-- Have rollback plans for all changes
+Maintain legacy systems initially. Plan migrations for low-volume periods. Test extensively before patient-facing changes. Have rollback plans for all changes.
 
 **Patient retention monitoring:**
 | Metric | Weekly Target | Action Trigger |
@@ -236,11 +224,7 @@ Integration planning should follow a structured 90-day framework with retention 
 | Providers | Weekly | Daily | 2x/week | Weekly |
 
 **Key messages:**
-1. Patient care remains the priority
-2. Jobs are secure (if true)
-3. Here is the plan and timeline
-4. Here is how to get answers
-5. Here is what is expected
+Patient care remains the priority. Jobs are secure (if true). Here is the plan and timeline. Here is how to get answers. Here is what is expected.
 
 ### How Should You Handle Patient Communication?
 
@@ -254,9 +238,7 @@ Integration planning should follow a structured 90-day framework with retention 
 | Day 90 | Email | Celebrate milestone |
 
 **High-touch for high-risk patients:**
-- Personal calls to VIP patients (top 5% by value)
-- Provider-to-patient calls for relationship-dependent patients
-- Proactive outreach to patients with upcoming appointments
+Personal calls to VIP patients (top 5% by value). Provider-to-patient calls for relationship-dependent patients. Proactive outreach to patients with upcoming appointments.
 
 ### How Should You Handle External Communication?
 
@@ -273,19 +255,13 @@ Integration planning should follow a structured 90-day framework with retention 
 ### How Should You Sequence Integration?
 
 **Phase 1 (Days 1-30): Maintain and stabilize**
-- Keep existing systems operational
-- Establish connectivity for reporting
-- No patient-facing system changes
+Keep existing systems operational. Establish connectivity for reporting. No patient-facing system changes.
 
 **Phase 2 (Days 31-60): Back-office integration**
-- Financial system integration
-- HR/payroll consolidation
-- Procurement centralization
+Financial system integration. HR/payroll consolidation. Procurement centralization.
 
 **Phase 3 (Days 61-90): Selective patient-facing**
-- Patient portal migration (if necessary)
-- Communication platform integration
-- Scheduling system alignment
+Patient portal migration (if necessary). Communication platform integration. Scheduling system alignment.
 
 **Phase 4 (Days 90+): Full integration**
 - PMS migration (if changing)
@@ -436,6 +412,14 @@ Protecting patient retention during healthcare M&A integration requires:
 **The bottom line:** The acquisition thesis assumes patients will stay. A disciplined integration playbook with retention at its core is the only way to deliver on that assumption.
 
 For due diligence focused on retention risks, see our [dental group acquisition due diligence guide](/blog/dental-group-acquisition-due-diligence/). For ongoing retention strategies, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
+Multi-location healthcare groups need standardized intake across every site. [Talk to our team](/contact/) about how MyBCAT provides centralized call answering and patient access for growing organizations.
+
+
+## Related Reading
+
+- [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/)
+- [healthcare call center ROI for enterprise](/blog/healthcare-call-center-roi-enterprise/)
+
 ## Sources
 
 - [Hall Render: Integration Playbook for Healthcare M&A](https://hallrender.com/2025/06/02/integration-playbook-for-health-care-mergers-and-acquisitions-a-guide-for-hospitals-and-medium-to-large-provider-practices/)

@@ -1,22 +1,26 @@
 ---
 title: 'Location Selection for Optometric Practices: What to Consider'
 seoTitle: Optometric Practice Location Selection Framework
-description: A practical framework for choosing the right location for your optometry
-  practice, including demographics, competition, visibility, and lease considerations.
-seoDescription: Practical framework for optometric practice location selection. Evaluate
-  demographics, competition, visibility, and lease terms to choose the right site.
-publishDate: 2026-01-23 00:00:00+00:00
+description: >-
+  A practical framework for choosing the right location for your optometry
+  practice, including demographics, competition, visibility, and lease
+  considerations.
+seoDescription: >-
+  Practical framework for optometric practice location selection. Evaluate
+  demographics, competition, visibility, and lease terms to choose the right
+  site.
+publishDate: 2026-01-23T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Practice Management
 tags:
-- optometry
-- location
-- real-estate
-- startup
-- practice-management
+  - optometry
+  - location
+  - real-estate
+  - startup
+  - practice-management
 featuredImage: /images/blog/location-selection-optometric-practices.webp
-canonical: https://mybcat.com/blog/location-selection-optometric-practices/
+canonical: 'https://mybcat.com/blog/location-selection-optometric-practices/'
 relatedPosts: []
 ---
 
@@ -40,11 +44,7 @@ For the complete picture on launching your practice, see our guide on [starting 
 
 Every potential location should be evaluated across five dimensions:
 
-1. **Demographics:** Who lives and works nearby?
-2. **Competition:** What other options do patients have?
-3. **Visibility and Access:** Can patients find and reach you easily?
-4. **Physical Space:** Does the space work for optometry?
-5. **Financial Terms:** Do the numbers make sense?
+**Demographics:** Who lives and works nearby? **Competition:** What other options do patients have? **Visibility and Access:** Can patients find and reach you easily? **Physical Space:** Does the space work for optometry? **Financial Terms:** Do the numbers make sense?
 
 No location scores perfectly on all dimensions. Your job is finding the best overall fit for your practice model and goals.
 
@@ -55,17 +55,12 @@ Demographics determine your ceiling. Even perfect execution cannot overcome a lo
 ### What Should You Know About Population Density and Growth?
 
 **Key questions:**
-- How many people live within 5 miles? 10 miles?
-- Is the population growing, stable, or declining?
-- What is the daytime population (workers) versus residential population?
+How many people live within 5 miles? 10 miles? Is the population growing, stable, or declining? What is the daytime population (workers) versus residential population?
 
 **Rule of thumb:** One OD can typically support a practice with 15,000-25,000 people in the primary service area. More competition requires larger populations.
 
 **Data sources:**
-- U.S. Census Bureau
-- Local economic development agencies
-- Commercial real estate brokers
-- Demographics providers like ESRI
+U.S. Census Bureau. Local economic development agencies. Commercial real estate brokers. Demographics providers like ESRI.
 
 ### How Does Age Distribution Affect Your Practice?
 
@@ -82,20 +77,14 @@ A location near retirement communities offers different opportunities than one n
 
 ### How Do Income Levels Impact Your Practice Model?
 
-Income affects:
-- Insurance mix (private pay vs. VSP vs. Medicaid)
-- Frame price points patients will consider
-- Willingness to pay for premium lens options
-- Demand for specialty services
+Income affects include insurance mix (private pay vs. vsp vs. medicaid), frame price points patients will consider, willingness to pay for premium lens options, and demand for specialty services.
 
 **Data point:** Median household income should generally be at least $50,000 for a full-service private practice model. Lower income areas can work with different service and pricing approaches.
 
 ### What Should You Know About the Insurance Landscape?
 
 Understand the dominant insurance patterns:
-- What percentage have vision insurance vs. medical only?
-- Which vision plans dominate (VSP, EyeMed, other)?
-- What is the employer landscape (large employers with benefits vs. many small businesses)?
+What percentage have vision insurance vs. medical only? Which vision plans dominate (VSP, EyeMed, other)? What is the employer landscape (large employers with benefits vs. many small businesses)?
 
 Matching your insurance participation to local patterns affects patient access.
 
@@ -105,39 +94,25 @@ Understanding existing options helps you position effectively.
 
 ### How Should You Map Competitors?
 
-Create a map showing:
-- All optometry practices within 5 miles
-- Ophthalmology practices
-- Optical retail (LensCrafters, Pearle, Costco, Walmart)
-- Online competitors' market share
+Create a map showing include all optometry practices within 5 miles, ophthalmology practices, optical retail (lenscrafters, pearle, costco, walmart), and online competitors' market share.
 
 ### How Do You Evaluate Competitor Strength?
 
 Not all competition is equal. Assess:
 
 **Established private practices:**
-- How long have they been there?
-- What is their reputation?
-- Are they accepting new patients?
-- What services do they emphasize?
+How long have they been there? What is their reputation? Are they accepting new patients? What services do they emphasize?
 
 **Retail optical:**
-- What is their price positioning?
-- How is their service quality?
-- Are they focused on speed or relationships?
+What is their price positioning? How is their service quality? Are they focused on speed or relationships?
 
 **Corporate chains:**
-- How aggressive is their marketing?
-- What is their patient experience?
-- Are they expanding or contracting?
+How aggressive is their marketing? What is their patient experience? Are they expanding or contracting?
 
 ### How Do You Find the Gap?
 
 Look for underserved needs:
-- Are existing practices accepting new patients promptly?
-- Is there a wait time problem in the area?
-- Are certain services (pediatric, specialty contacts, medical) underrepresented?
-- Is there a price tier (premium or value) without good options?
+Are existing practices accepting new patients promptly? Is there a wait time problem in the area? Are certain services (pediatric, specialty contacts, medical) underrepresented? Is there a price tier (premium or value) without good options?
 
 The best locations have enough demand for another practice, not markets where existing providers struggle to fill schedules.
 
@@ -148,49 +123,28 @@ Patients cannot visit if they cannot find you or get there conveniently.
 ### What Makes for Ideal Street Visibility?
 
 **Ideal characteristics:**
-- Located on or near a main road
-- Visible signage from traffic flow
-- Not hidden behind other buildings
-- Easy to identify from the street
+Located on or near a main road. Visible signage from traffic flow. Not hidden behind other buildings. Easy to identify from the street.
 
 **Reality:** Prime visibility costs more. Balance visibility value against lease costs.
 
 ### How Do Traffic Patterns Affect Your Location?
 
-Consider both vehicle and foot traffic:
-- Is this a commuter route?
-- Is there lunchtime foot traffic?
-- What is the traffic flow at different times?
-- Is traffic primarily passing through or stopping nearby?
+Consider both vehicle and foot traffic include is this a commuter route?, is there lunchtime foot traffic?, what is the traffic flow at different times?, and is traffic primarily passing through or stopping nearby?.
 
 ### What Are the Parking Requirements?
 
 Optometry patients often bring family members and leave with dilated eyes or new glasses:
-- Is parking adequate and convenient?
-- Is it free or paid?
-- Is it shared with high-turnover uses (restaurants) that compete for spots?
-- Can patients exit safely with dilated pupils?
+Is parking adequate and convenient? Is it free or paid? Is it shared with high-turnover uses (restaurants) that compete for spots? Can patients exit safely with dilated pupils?
 
 ### What Accessibility Factors Should You Consider?
 
-Consider patient accessibility:
-- ADA compliance (required)
-- Proximity to public transit (if relevant in your market)
-- Ease of navigation for elderly patients
-- Stroller/wheelchair accessibility
+Consider patient accessibility include ada compliance (required), proximity to public transit (if relevant in your market), ease of navigation for elderly patients, and stroller/wheelchair accessibility.
 
 ### How Does Co-tenancy Influence Your Location?
 
-Who are your neighbors? Beneficial neighbors include:
-- Primary care physicians
-- Pediatricians
-- Pharmacies
-- General retail that draws your demographic
+Who are your neighbors? Beneficial neighbors include include primary care physicians, pediatricians, pharmacies, and general retail that draws your demographic.
 
-Challenging neighbors:
-- Direct competitors
-- High-noise businesses
-- Uses that make parking difficult
+Challenging neighbors include direct competitors, high-noise businesses, and uses that make parking difficult.
 
 ## What Are the Physical Space Requirements?
 
@@ -208,45 +162,26 @@ Optometry practices have specific space needs.
 ### What Are the Essential Areas?
 
 **Reception and waiting:**
-- 150-250 square feet minimum
-- Comfortable seating for 6-10 patients
-- Clear sight lines to front desk
+150-250 square feet minimum. Comfortable seating for 6-10 patients. Clear sight lines to front desk.
 
 **Exam lanes:**
-- 100-120 square feet per lane
-- Minimum 20 feet length (10 feet with mirrors)
-- Proper electrical and data infrastructure
+100-120 square feet per lane. Minimum 20 feet length (10 feet with mirrors). Proper electrical and data infrastructure.
 
 **Pre-testing area:**
-- 100-150 square feet
-- Space for auto-refractor, tonometer, visual fields
-- Patient flow consideration
+100-150 square feet. Space for auto-refractor, tonometer, visual fields. Patient flow consideration.
 
 **Optical dispensary:**
-- 200-400 square feet minimum
-- Good lighting for frame selection
-- Mirror placement
-- Seating for fittings
+200-400 square feet minimum. Good lighting for frame selection. Mirror placement. Seating for fittings.
 
 **Contact lens area:**
-- Training space
-- Inventory storage
-- Sink access
+Training space. Inventory storage. Sink access.
 
 **Office/administrative:**
-- Provider office
-- Staff break area
-- Storage
-- Server/IT room
+Provider office. Staff break area. Storage. Server/IT room.
 
 ### What Infrastructure Should You Verify?
 
-Verify before signing a lease:
-- Electrical capacity for equipment
-- Plumbing for contact lens area
-- HVAC adequacy
-- Data/internet infrastructure
-- Soundproofing potential (exam room privacy)
+Verify before signing a lease include electrical capacity for equipment, plumbing for contact lens area, hvac adequacy, data/internet infrastructure, and soundproofing potential (exam room privacy).
 
 ### What Should You Know About Build-Out?
 
@@ -281,102 +216,63 @@ The lease is a major financial commitment. Understand the terms fully.
 Before committing, model the location's economics:
 
 **Break-even analysis:**
-- Total monthly occupancy cost (rent + NNN + utilities)
-- Revenue needed to cover occupancy at 10-12% of revenue target
-- Patient volume required to generate that revenue
+Total monthly occupancy cost (rent + NNN + utilities). Revenue needed to cover occupancy at 10-12% of revenue target. Patient volume required to generate that revenue.
 
 **Example:**
-- 1,800 sq ft at $22/sq ft NNN = $39,600 annual rent
-- NNN adds $7/sq ft = $12,600 annually
-- Total occupancy: $52,200/year or $4,350/month
-- At 10% of revenue, requires $522,000 annual revenue to be sustainable
+1,800 sq ft at $22/sq ft NNN = $39,600 annual rent. NNN adds $7/sq ft = $12,600 annually. Total occupancy: $52,200/year or $4,350/month. At 10% of revenue, requires $522,000 annual revenue to be sustainable.
 
 **Growth scenarios:**
-- Can this location support your year-3 and year-5 goals?
-- Is there expansion potential?
-- What happens if a competitor opens nearby?
+Can this location support your year-3 and year-5 goals? Is there expansion potential? What happens if a competitor opens nearby?
 
 ### What Negotiation Strategies Work Best?
 
 Landlords negotiate, especially for good tenants:
 
-**Leverage points:**
-- Healthcare tenants are stable and desirable
-- Longer lease terms earn better rates
-- Multiple location potential (if you might grow)
-- Credit strength and business plan
+**Use points:**
+Healthcare tenants are stable and desirable. Longer lease terms earn better rates. Multiple location potential (if you might grow). Credit strength and business plan.
 
 **What to negotiate:**
-- Free rent period (1-3 months for build-out)
-- Tenant improvement allowance
-- Capped NNN increases
-- First right of refusal on adjacent space
-- Signage rights
-- Parking allocation
+Free rent period (1-3 months for build-out). Tenant improvement allowance. Capped NNN increases. First right of refusal on adjacent space. Signage rights. Parking allocation.
 
 ## What Are the Pros and Cons of Each Location Type?
 
 ### Medical Office Buildings
 
 **Pros:**
-- Built-in referral relationships
-- Professional environment
-- Shared services possible
-- Patients already coming for healthcare
+Built-in referral relationships. Professional environment. Shared services possible. Patients already coming for healthcare.
 
 **Cons:**
-- Often limited optical visibility
-- Strict use restrictions
-- Higher rents
-- Less retail foot traffic
+Often limited optical visibility. Strict use restrictions. Higher rents. Less retail foot traffic.
 
 **Best for:** Practices emphasizing medical optometry or ophthalmology referral relationships.
 
 ### Retail Strip Centers
 
 **Pros:**
-- High visibility
-- Foot traffic
-- Parking usually adequate
-- Co-tenancy with complementary retail
+High visibility. Foot traffic. Parking usually adequate. Co-tenancy with complementary retail.
 
 **Cons:**
-- Less professional image (perception)
-- Turnover in neighboring tenants
-- Signage restrictions may apply
-- Evening/weekend hours expected
+Less professional image (perception). Turnover in neighboring tenants. Signage restrictions may apply. Evening/weekend hours expected.
 
 **Best for:** Full-service practices with strong optical focus.
 
 ### Standalone Buildings
 
 **Pros:**
-- Maximum control
-- Prominent signage
-- Expansion flexibility
-- Build practice identity
+Maximum control. Prominent signage. Expansion flexibility. Build practice identity.
 
 **Cons:**
-- Higher cost (often purchase required)
-- All maintenance responsibility
-- More complex financing
-- May be overbuilt for early-stage practice
+Higher cost (often purchase required). All maintenance responsibility. More complex financing. May be overbuilt for early-stage practice.
 
 **Best for:** Established practices or practitioners with significant capital.
 
 ### Professional Office Parks
 
 **Pros:**
-- Professional environment
-- Often good parking
-- Reasonable rents
-- Stable tenant mix
+Professional environment. Often good parking. Reasonable rents. Stable tenant mix.
 
 **Cons:**
-- Lower visibility
-- Limited walk-in potential
-- May lack retail energy
-- Location may be off main roads
+Lower visibility. Limited walk-in potential. May lack retail energy. Location may be off main roads.
 
 **Best for:** Practices relying primarily on referrals and appointments rather than walk-ins.
 
@@ -434,6 +330,8 @@ With your preferred location:
 
 **Personal preference over business logic:** The charming Victorian building downtown may not be where your target patients shop.
 
+Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
+
 ## Next Steps
 
 Location is one component of launching a successful practice. For guidance on equipment, staffing, compliance, and operations, review our comprehensive [Starting an Optometric Practice 101](/blog/starting-an-optometric-practice-101/) guide.
@@ -447,3 +345,13 @@ Location is one component of launching a successful practice. For guidance on eq
 *Last Updated: January 2026*
 
 *Sources: [SBA - Pick Your Business Location](https://www.sba.gov/business-guide/launch-your-business/pick-your-business-location), [Review of Optometric Business](https://reviewob.com/from-1-to-16-locations-a-practice-setting-fueling-my-optometry-practice-growth/)*
+
+## Related Reading
+
+- [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/)
+
+## Sources
+
+- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)
+- [Review of Optometric Business: Practice Growth](https://reviewob.com/)
+- [MGMA: Medical Practice Operations](https://www.mgma.com/)

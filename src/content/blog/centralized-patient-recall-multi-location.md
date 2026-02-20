@@ -559,6 +559,8 @@ For enterprise groups managing recall across 3+ locations, explore our [multi-lo
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
 - [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
 
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
+
 ## Sources
 
 - [AIRA: Centralized Reminder-Recall Toolkit](https://web.archive.org/web/20240730065902/https://repository.immregistries.org/files/resources/5d43264137042/accords_centralized_reminder-recall_toolkit.pdf)

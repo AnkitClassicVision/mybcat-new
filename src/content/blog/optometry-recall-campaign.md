@@ -1,21 +1,23 @@
 ---
 title: 'Optometry Recall Campaign: Beat the January Slump'
 seoTitle: 'Optometry Recall Campaign: Beat the January Slump'
-description: Top optometry practices achieve 85-87% recall rates and 140x ROI. Strategies
+description: >-
+  Top optometry practices achieve 85-87% recall rates and 140x ROI. Strategies
   to fill schedules during the January slump.
-seoDescription: Optometry recall campaigns can achieve 85% recall rates and 50x+ ROI.
-  Learn timing, messaging, and multi-channel strategies to fill the January slump
+seoDescription: >-
+  Optometry recall campaigns can achieve 85% recall rates and 50x+ ROI. Learn
+  timing, messaging, and multi-channel strategies to fill the January slump
 publishDate: '2026-02-10T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Optometry
 tags:
-- optometry recall
-- patient retention
-- January slump
-- vision practice growth
+  - optometry recall
+  - patient retention
+  - January slump
+  - vision practice growth
 featuredImage: /images/blog/optometry-recall-campaign.webp
-canonical: https://mybcat.com/blog/optometry-recall-campaign/
+canonical: 'https://mybcat.com/blog/optometry-recall-campaign/'
 cluster: patient-recall
 relatedPosts:
   - patient-recall-campaign-framework
@@ -59,17 +61,10 @@ Recall does not just recover exam revenue. Patients who return for annual exams 
 The post-holiday slowdown affects optometry practices for predictable reasons:
 
 **Why January is slow:**
-- Patients used vision benefits in Q4 (use-it-or-lose-it behavior)
-- Holiday spending reduces discretionary purchases
-- New Year resolutions prioritize other health goals
-- Weather and illness reduce appointment-keeping
+Patients used vision benefits in Q4 (use-it-or-lose-it behavior). Holiday spending reduces discretionary purchases. New Year resolutions prioritize other health goals. Weather and illness reduce appointment-keeping.
 
 **The opportunity:**
-January's slow period is actually ideal for recall campaigns because:
-- Staff have capacity for outbound calling
-- Appointment availability is high (easy to schedule)
-- Patients with January benefit renewals need reminders
-- The "new year, new health" messaging resonates
+January's slow period is actually ideal for recall campaigns because include staff have capacity for outbound calling, appointment availability is high (easy to schedule), patients with january benefit renewals need reminders, and the "new year, new health" messaging resonates.
 
 ## The January Recall Campaign Framework
 
@@ -85,15 +80,10 @@ January's slow period is actually ideal for recall campaigns because:
 | Very long lapsed (12+ months) | Last exam 2+ years ago | Lower | Phone (personal) |
 
 **Clean your data:**
-- Verify phone numbers and email addresses
-- Update insurance information where possible
-- Flag patients with vision plans renewing in January
+Verify phone numbers and email addresses. Update insurance information where possible. Flag patients with vision plans renewing in January.
 
 **Prepare messaging:**
-Draft campaign messages that acknowledge the new year and tie to annual eye health:
-- "New year, clear vision" theme
-- Insurance/vision plan benefit reminders
-- Any January-specific promotions
+Draft campaign messages that acknowledge the new year and tie to annual eye health include "new year, clear vision" theme, insurance/vision plan benefit reminders, and any january-specific promotions.
 
 ### Phase 2: Campaign Launch (First Two Weeks of January)
 
@@ -106,17 +96,12 @@ Draft campaign messages that acknowledge the new year and tie to annual eye heal
 
 **Day 4-7: Email campaign to full list**
 
-Subject lines that work:
-- "Your vision benefits reset. Schedule your 2026 exam"
-- "[Name], your annual eye exam is due"
-- "Start the new year seeing clearly"
+Subject lines that work include "your vision benefits reset. schedule your 2026 exam", "[name], your annual eye exam is due", and "start the new year seeing clearly".
 
 **Day 8-14: Phone calls to non-responders**
 
 Prioritize:
-1. High-value patients who did not respond to SMS/email
-2. Patients with insurance requiring annual exams
-3. Patients with progressive conditions (diabetics, glaucoma suspects)
+High-value patients who did not respond to SMS/email. Patients with insurance requiring annual exams. Patients with progressive conditions (diabetics, glaucoma suspects).
 
 Phone script:
 
@@ -135,11 +120,7 @@ Phone script:
 </div>
 
 **Direct mail to unreachables:**
-For patients with no valid phone/email, send a postcard:
-- Eye-catching design with practice branding
-- Clear call-to-action with phone number
-- Mention vision plan benefits
-- QR code to online scheduling
+For patients with no valid phone/email, send a postcard include eye-catching design with practice branding, clear call-to-action with phone number, mention vision plan benefits, and qr code to online scheduling.
 
 ## How Should You Build a Multi-Channel Campaign Strategy?
 
@@ -148,54 +129,34 @@ Industry data shows multi-channel campaigns typically outperform single-channel 
 ### SMS (Highest Engagement)
 
 **Best practices:**
-- Send at 6 PM when patients are available
-- Keep under 160 characters when possible
-- Include clear call-to-action (reply YES, call number)
-- Personalize with first name and specific due service
+Send at 6 PM when patients are available. Keep under 160 characters when possible. Include clear call-to-action (reply YES, call number). Personalize with first name and specific due service.
 
 **Expected results:**
-- 95%+ delivery rate
-- 15-25% response rate
-- 50-85% no-show reduction when used for confirmations
+95%+ delivery rate. 15-25% response rate. 50-85% no-show reduction when used for confirmations.
 
 ### Email (Reach and Documentation)
 
 **Best practices:**
-- Send mornings (Tuesday-Thursday optimal)
-- Subject line with patient name increases opens 26%
-- Include one-click scheduling link
-- Mobile-optimized design
+Send mornings (Tuesday-Thursday optimal). Subject line with patient name increases opens 26%. Include one-click scheduling link. Mobile-optimized design.
 
 **Expected results:**
-- 20-30% open rate
-- 5-10% click-through rate
-- Provides paper trail for patient communication
+20-30% open rate. 5-10% click-through rate. Provides paper trail for patient communication.
 
 ### Phone (Highest Conversion)
 
 **Best practices:**
-- Call Tuesday-Thursday, 10am-12pm or 2pm-4pm
-- Leave voicemail with callback number and reason
-- Have specific appointment times ready to offer
-- Log all attempts in PM system
+Call Tuesday-Thursday, 10am-12pm or 2pm-4pm. Leave voicemail with callback number and reason. Have specific appointment times ready to offer. Log all attempts in PM system.
 
 **Expected results:**
-- 25-35% answer rate
-- 40-60% booking rate when connected
-- Essential for high-value and complex patients
+25-35% answer rate. 40-60% booking rate when connected. Essential for high-value and complex patients.
 
 ### Direct Mail (Unreachables)
 
 **Best practices:**
-- Use for patients without valid digital contact
-- Eye-catching design that stands out
-- Clear call-to-action with multiple response options
-- Send in branded envelope (higher open rate)
+Use for patients without valid digital contact. Eye-catching design that stands out. Clear call-to-action with multiple response options. Send in branded envelope (higher open rate).
 
 **Expected results:**
-- 1-3% response rate
-- Higher cost but reaches patients others miss
-- Effective for older patient demographics
+1-3% response rate. Higher cost but reaches patients others miss. Effective for older patient demographics.
 
 ## How Do You Measure Campaign Success?
 
@@ -212,11 +173,7 @@ Track these KPIs weekly during your January campaign:
 | Campaign ROI | 20x+ | Revenue recovered / Campaign cost |
 
 **Real-world benchmark:**
-One optometry practice achieved:
-- 59 patients reactivated in 90 days
-- $49,000 in recovered revenue
-- Campaign cost: ~$350
-- ROI: 140x
+One optometry practice achieved include 59 patients reactivated in 90 days, $49,000 in recovered revenue, campaign cost: ~$350, and ROI: 140x.
 
 ## How Do You Build a Year-Round Recall Strategy Beyond January?
 
@@ -276,6 +233,8 @@ For scripts to use during recall outreach, see our [patient recall scripts guide
 ## Related Reading
 
 - [Optometry Answering Services](/industries/optometry/)
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

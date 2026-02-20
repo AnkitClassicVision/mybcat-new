@@ -1,25 +1,27 @@
 ---
 title: 'Optometry Practice Location: How to Choose the Right Site'
 seoTitle: Optometry Practice Location | Site Selection Guide
-description: Learn how to select the ideal optometry practice location. Site selection
+description: >-
+  Learn how to select the ideal optometry practice location. Site selection
   factors, demographics, costs, and visibility tips for practice success.
-seoDescription: Choose the ideal optometry practice location with our site selection
-  guide. Covers demographics, visibility, costs, and lease tips for long-term success.
+seoDescription: >-
+  Choose the ideal optometry practice location with our site selection guide.
+  Covers demographics, visibility, costs, and lease tips for long-term success.
 publishDate: '2026-01-10'
 author: MyBCAT Team
 status: published
 featuredImage: /images/blog/optometry-practice-location.webp
 keywords:
-- optometry practice location
-- optometry
-- practice management
-- healthcare
+  - optometry practice location
+  - optometry
+  - practice management
+  - healthcare
 cluster: starting-practice
 category: Practice Management
 relatedPosts:
-- optometry-practice-staffing
-- optometry-practice-finances
-- optometric-practice-equipment
+  - optometry-practice-staffing
+  - optometry-practice-finances
+  - optometric-practice-equipment
 ---
 
 ## Optometry Practice Location: How to Choose the Right Site for Long-Term Success
@@ -46,10 +48,7 @@ The healthcare real estate market operates differently than standard commercial 
 
 Consider these statistics from recent healthcare facility studies:
 
-- 73% of patients choose their eye care provider based on location convenience
-- Practices within 0.5 miles of major retail anchors see 35% higher walk-in traffic
-- Corner locations with two-street visibility command 15-20% higher patient volumes
-- Practices with dedicated parking average 28% better patient satisfaction scores
+73% of patients choose their eye care provider based on location convenience. Practices within 0.5 miles of major retail anchors see 35% higher walk-in traffic. Corner locations with two-street visibility command 15-20% higher patient volumes. Practices with dedicated parking average 28% better patient satisfaction scores.
 
 The financial implications compound over time. A practice generating 20 new patients per month versus 30 new patients per month, a gap often attributable to location quality, will see a revenue difference of $180,000 to $240,000 annually. Over a 10-year lease, that location decision represents a multi-million dollar variable.
 
@@ -94,9 +93,7 @@ An area with excellent demographics but eight optometrists per 10,000 residents 
 
 The national average sits at approximately one optometrist per 10,000 people. In your target trade area:
 
-1. Identify all ODs within the primary radius using Google Maps, Yelp, and insurance provider directories
-2. Count total optometrists, including those in retail settings like LensCrafters or Walmart Vision
-3. Divide your trade area population by total ODs
+Identify all ODs within the primary radius using Google Maps, Yelp, and insurance provider directories. Count total optometrists, including those in retail settings like LensCrafters or Walmart Vision. Divide your trade area population by total ODs.
 
 A ratio below 8,000:1 indicates potential oversaturation. Ratios above 12,000:1 suggest underserved markets with expansion opportunity.
 
@@ -104,11 +101,7 @@ A ratio below 8,000:1 indicates potential oversaturation. Ratios above 12,000:1 
 
 Not all competition is equal. A solo practitioner approaching retirement represents different competitive pressure than a newly opened multi-doctor practice with aggressive marketing. Drive by competitor locations and evaluate:
 
-- Facility condition and curb appeal
-- Parking availability and convenience
-- Hours of operation (gaps you could fill)
-- Online reviews and reputation scores
-- Whether they accept the same insurance plans you'll accept
+Facility condition and curb appeal. Parking availability and convenience. Hours of operation (gaps you could fill). Online reviews and reputation scores. Whether they accept the same insurance plans you'll accept.
 
 Weak competitors in good locations often indicate patients seeking alternatives. This creates opportunity if you offer a superior experience.
 
@@ -120,14 +113,7 @@ Your optometry practice location must accommodate clinical needs, patient comfor
 
 A full-scope optometry practice typically requires 1,500 to 2,500 square feet to function effectively. Budget approximately:
 
-- **Reception and waiting area:** 150-250 sq ft
-- **Pretesting room:** 100-150 sq ft  
-- **Exam lanes (two minimum):** 120-150 sq ft each
-- **Optical dispensary:** 400-600 sq ft
-- **Contact lens fitting area:** 80-120 sq ft
-- **Private office:** 100-150 sq ft
-- **Break room and storage:** 150-200 sq ft
-- **Restrooms:** 100 sq ft (ADA compliance required)
+**Reception and waiting area:** 150-250 sq ft. **Pretesting room:** 100-150 sq ft. **Exam lanes (two minimum):** 120-150 sq ft each. **Optical dispensary:** 400-600 sq ft. **Contact lens fitting area:** 80-120 sq ft. **Private office:** 100-150 sq ft. **Break room and storage:** 150-200 sq ft. **Restrooms:** 100 sq ft (ADA compliance required).
 
 ### What Infrastructure Does a Medical Office Need?
 
@@ -149,10 +135,7 @@ The best demographics and perfect space mean nothing if patients cannot find you
 
 Your optometry practice location should offer clear sightlines from the primary traffic artery. Consider:
 
-- Can drivers see your signage at 35 mph with enough time to safely turn in?
-- Do trees, utility poles, or adjacent buildings block your storefront?
-- What signage does the landlord permit, and are there local ordinances limiting size or illumination?
-- Will seasonal changes (snow removal berms, summer foliage) affect visibility?
+Can drivers see your signage at 35 mph with enough time to safely turn in? Do trees, utility poles, or adjacent buildings block your storefront? What signage does the landlord permit, and are there local ordinances limiting size or illumination? Will seasonal changes (snow removal berms, summer foliage) affect visibility?
 
 Corner locations at signalized intersections provide maximum exposure. Patients stopped at red lights notice businesses they might miss at full speed.
 
@@ -162,11 +145,7 @@ Healthcare practices require more parking per square foot than typical retail. Y
 
 Evaluate:
 
-- Total dedicated spaces for your suite
-- Proximity of spaces to your entrance
-- Whether parking is shared with high-turnover businesses (restaurants, salons)
-- Accessibility for disabled patients (ADA spaces near entrance)
-- Ease of navigation for patients with dilated pupils
+Total dedicated spaces for your suite. Proximity of spaces to your entrance. Whether parking is shared with high-turnover businesses (restaurants, salons). Accessibility for disabled patients (ADA spaces near entrance). Ease of navigation for patients with dilated pupils.
 
 ### Ingress and Egress
 
@@ -202,23 +181,13 @@ First-time practice owners often accept initial lease drafts without negotiation
 
 Some location problems cannot be solved with marketing or operational adjustments. Walk away from properties with:
 
-- **Declining anchor tenants:** If the grocery store or major retailer is closing, the center will lose foot traffic
-- **Deferred maintenance:** Neglected parking lots, broken fixtures, and worn common areas signal ownership problems
-- **Restrictive signage rules:** If you cannot adequately identify your practice from the street, patients will struggle to find you
-- **Inadequate parking ratios:** Medical practices cannot thrive with limited parking, regardless of other positives
-- **Environmental concerns:** Former dry cleaners, gas stations, or industrial sites may have contamination issues
-- **Zoning complications:** Verify medical office use is permitted by right, not by variance
+**Declining anchor tenants:** If the grocery store or major retailer is closing, the center will lose foot traffic. **Deferred maintenance:** Neglected parking lots, broken fixtures, and worn common areas signal ownership problems. **Restrictive signage rules:** If you cannot adequately identify your practice from the street, patients will struggle to find you. **Inadequate parking ratios:** Medical practices cannot thrive with limited parking, regardless of other positives. **Environmental concerns:** Former dry cleaners, gas stations, or industrial sites may have contamination issues. **Zoning complications:** Verify medical office use is permitted by right, not by variance.
 
 ## How Do You Score and Compare Location Options?
 
 Create a weighted evaluation matrix to compare potential locations objectively. Score each site on a 1-10 scale for:
 
-1. **Demographics (weight: 25%):** Population, income, age distribution, growth trends
-2. **Competition (weight: 20%):** Market saturation, competitor quality, differentiation opportunity  
-3. **Visibility (weight: 15%):** Signage potential, street exposure, landmark quality
-4. **Accessibility (weight: 15%):** Parking, traffic patterns, public transit
-5. **Space quality (weight: 15%):** Layout, infrastructure, buildout requirements
-6. **Financial terms (weight: 10%):** Rent, TI allowance, lease flexibility
+**Demographics (weight: 25%):** Population, income, age distribution, growth trends. **Competition (weight: 20%):** Market saturation, competitor quality, differentiation opportunity. **Visibility (weight: 15%):** Signage potential, street exposure, landmark quality. **Accessibility (weight: 15%):** Parking, traffic patterns, public transit. **Space quality (weight: 15%):** Layout, infrastructure, buildout requirements. **Financial terms (weight: 10%):** Rent, TI allowance, lease flexibility.
 
 Multiply each score by its weight and sum for a composite rating. This forces systematic comparison rather than gut reactions to whichever property you toured most recently.
 
@@ -229,6 +198,8 @@ Once you've signed a lease for your optometry practice location, patient communi
 Consider that 23% of all calls to healthcare practices go unanswered during business hours. For new practices still building reputation, every missed call represents a potential patient choosing a competitor. Your visibility advantage disappears if patients calling for appointments reach voicemail.
 
 Modern practices implement AI-powered communication systems that ensure 24/7 call answering, appointment scheduling, and patient follow-up. These technologies protect the investment you've made in selecting a premium location by converting location-driven inquiries into actual patient relationships.
+
+The location decision also affects your ability to recruit and retain quality staff. Practices in convenient, well-maintained locations with adequate parking and nearby amenities attract stronger candidates than those in isolated or difficult-to-reach sites. Staff commute patterns matter because employees who face long or frustrating drives to work are more likely to leave for comparable positions closer to home. When evaluating a potential site, consider not just patient accessibility but also the employee experience of working there every day.
 
 ## Key Takeaways
 
@@ -244,9 +215,18 @@ Selecting your optometry practice location requires balancing multiple factors a
 
 Your location decision will shape your practice for a decade or more. Invest the time and research required to choose wisely. The difference between a good location and a great location compounds every month you operate, translating directly to practice value and professional satisfaction.
 ---
+Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
+
 ## Related Reading
 
 - [Optometry Practice Staffing: Build Your Dream Team](/blog/optometry-practice-staffing/)
 - [Optometry Practice Finances: A Complete Guide](/blog/optometry-practice-finances/)
 - [Essential Optometric Practice Equipment: A Complete Guide](/blog/optometric-practice-equipment/)
 
+- [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/)
+
+## Sources
+
+- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)
+- [Review of Optometric Business: Practice Growth](https://reviewob.com/)
+- [MGMA: Medical Practice Operations](https://www.mgma.com/)

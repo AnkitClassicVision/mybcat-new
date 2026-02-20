@@ -60,7 +60,7 @@ The multiple is driven by several interconnected factors. Consistent revenue and
 | Elite platforms | 12-15x | 85%+ occupancy, under 5% readmissions, 20%+ margins |
 | Strong performers | 10-12x | Consistent growth, solid operations |
 | Average | 8-10x | Stable but undifferentiated |
-| Underperformers | 6-8x | Operational challenges, high leverage |
+| Underperformers | 6-8x | Operational challenges, high use |
 
 A 50-location dental group generating $10 million EBITDA at a 10x multiple is worth $100 million. Improve operations to command 12x and value increases to $120 million (a $20 million gain from operational excellence alone).
 
@@ -82,7 +82,7 @@ Financial metrics measure profitability, cash generation, and capital efficiency
 | Revenue per Location | Total Revenue / Locations | Varies by specialty | Scale efficiency |
 | Revenue per Provider | Total Revenue / FTE Providers | $400K-800K+ | Provider productivity |
 
-**Leverage and Liquidity KPIs:**
+**Use and Liquidity KPIs:**
 
 | KPI | Formula | Target | Risk Threshold |
 |-----|---------|--------|----------------|
@@ -91,7 +91,7 @@ Financial metrics measure profitability, cash generation, and capital efficiency
 | CFO/Total Debt | Cash Flow from Operations / Total Debt | Above 25% | Under 15% = liquidity risk |
 | Days Cash on Hand | Cash / (Operating Expenses / 365) | 45-90 days | Under 30 days = stress |
 
-These financial KPIs matter because they address the fundamental questions buyers ask. EBITDA margin directly impacts the numerator of enterprise value, making it the single most scrutinized metric in any healthcare transaction. Growth rate affects buyer confidence in forward projections, which determine how much they are willing to pay today for future cash flows. Leverage ratios impact risk assessment and purchase structure, since high debt levels constrain deal flexibility and increase buyer risk. Liquidity metrics signal operational stability, and practices that struggle with cash flow are perceived as higher risk regardless of their profitability on paper.
+These financial KPIs matter because they address the fundamental questions buyers ask. EBITDA margin directly impacts the numerator of enterprise value, making it the single most scrutinized metric in any healthcare transaction. Growth rate affects buyer confidence in forward projections, which determine how much they are willing to pay today for future cash flows. Use ratios impact risk assessment and purchase structure, since high debt levels constrain deal flexibility and increase buyer risk. Liquidity metrics signal operational stability, and practices that struggle with cash flow are perceived as higher risk regardless of their profitability on paper.
 
 ### Category 2: Operational KPIs
 
@@ -104,7 +104,7 @@ Operational metrics measure how efficiently the business converts resources into
 | Patient Volume | Visits or encounters per period | Growth trend | Leading indicator |
 | Capacity Utilization | Actual Volume / Max Capacity x 100 | 75-85% | Balance efficiency vs. access |
 | Provider Utilization | Productive Hours / Available Hours x 100 | 80-90% | Revenue driver |
-| Chair/Bed Occupancy | Filled Units / Total Units x 100 | 80%+ | Fixed cost leverage |
+| Chair/Bed Occupancy | Filled Units / Total Units x 100 | 80%+ | Fixed cost use |
 
 **Efficiency KPIs:**
 
@@ -186,7 +186,7 @@ Typical early-investment initiatives focus on creating the infrastructure for me
 |-----|-----|--------|
 | Same-store growth | Prove organic value creation | 5-8%+ annually |
 | New location ramp | M&A execution | 80%+ of pro forma within 12 months |
-| EBITDA margin expansion | Operational leverage | 200-400 bps improvement |
+| EBITDA margin expansion | Operational use | 200-400 bps improvement |
 | Integration metrics | M&A synergy capture | Synergy realization 90%+ |
 
 Growth-phase initiatives shift toward scaling the platform. Tuck-in acquisitions add locations and patient volume at attractive multiples, with detailed [acquisition due diligence](/blog/dental-group-acquisition-due-diligence/) ensuring each deal meets return thresholds. Centralizing services like billing, HR, and procurement captures economies of scale that improve margins across every location. Provider recruitment and retention programs ensure that clinical capacity keeps pace with growing patient demand. Technology and systems upgrades enable the platform to manage complexity as it scales from a handful of locations to dozens.
@@ -265,7 +265,7 @@ PE-backed healthcare companies need dashboards that serve multiple stakeholders:
 
 **Improvement strategies:**
 - Schedule optimization
-- Support staff leverage (extended team)
+- Support staff use (extended team)
 - No-show and cancellation management
 - Administrative burden reduction
 
@@ -394,7 +394,7 @@ PE-backed healthcare operations succeed by tracking and optimizing the right KPI
 
 **Financial KPIs (the foundation):**
 - EBITDA and margins drive valuation numerator
-- Leverage ratios affect risk and structure
+- Use ratios affect risk and structure
 - Cash flow ensures operational stability
 
 **Operational KPIs (the engine):**
@@ -418,6 +418,8 @@ For detailed strategies on improving patient retention metrics, see our [DSO pat
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
 - [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
 - [DSO Patient Retention Strategy: Scaling to 10+ Locations](/blog/dso-patient-retention-strategy/)
+
+Multi-location healthcare groups need standardized intake across every site. [Talk to our team](/contact/) about how MyBCAT provides centralized call answering and patient access for growing organizations.
 
 ## Sources
 

@@ -1,8 +1,13 @@
 ---
-title: "Dormant Patient Reactivation: 30-Day Multi-Location Playbook"
-seoTitle: "Dormant Patient Reactivation: 30-Day Playbook"
-description: "Multi-location healthcare groups recover 15-25% of dormant patients with this 30-day reactivation playbook. Steps for DSOs and healthcare networks."
-seoDescription: "A proven 30-day playbook for dormant patient reactivation at multi-location healthcare groups. Includes scripts, timing sequences, and KPIs that drive results."
+title: 'Dormant Patient Reactivation: 30-Day Multi-Location Playbook'
+seoTitle: 'Dormant Patient Reactivation: 30-Day Playbook'
+description: >-
+  Multi-location healthcare groups recover 15-25% of dormant patients with this
+  30-day reactivation playbook. Steps for DSOs and healthcare networks.
+seoDescription: >-
+  A proven 30-day playbook for dormant patient reactivation at multi-location
+  healthcare groups. Includes scripts, timing sequences, and KPIs that drive
+  results.
 publishDate: '2026-01-30'
 status: published
 author: Ankit Patel
@@ -14,7 +19,7 @@ tags:
   - DSO operations
   - practice growth
 featuredImage: /images/blog/dormant-patient-reactivation.webp
-canonical: https://mybcat.com/blog/dormant-patient-reactivation/
+canonical: 'https://mybcat.com/blog/dormant-patient-reactivation/'
 cluster: patient-recall
 isPillar: true
 relatedPosts:
@@ -60,14 +65,10 @@ According to healthcare retention research, practices lose approximately 10-15% 
 Single practices can manage dormant patient outreach informally. Multi-location groups face structural challenges that require systematized reactivation:
 
 **Scale complexity:**
-- A 20-location dental group with 2,000 active patients per site has approximately 4,000 dormant patients across the network at any given time
-- Staff turnover means reactivation knowledge walks out the door with each departure
-- Variable performance creates retention gaps where strong locations subsidize weak ones
+A 20-location dental group with 2,000 active patients per site has approximately 4,000 dormant patients across the network at any given time. Staff turnover means reactivation knowledge walks out the door with each departure. Variable performance creates retention gaps where strong locations subsidize weak ones.
 
 **Operational fragmentation:**
-- Each location may define "dormant" differently
-- Outreach happens inconsistently or not at all
-- No centralized visibility into dormant patient volume or recovery rates
+Each location may define "dormant" differently. Outreach happens inconsistently or not at all. No centralized visibility into dormant patient volume or recovery rates.
 
 The solution is a standardized playbook that works across all locations with centralized tracking and accountability.
 
@@ -82,9 +83,7 @@ Before any outreach begins, you need clean data and strategic segmentation.
 **Day 1-2: Pull and clean the dormant patient list**
 
 Extract patients from your PM system who meet your dormancy threshold. For most practices, this means:
-- No completed appointment in the past 12-18 months
-- Active patient status (not deceased, moved, or explicitly opted out)
-- Valid contact information on file
+No completed appointment in the past 12-18 months. Active patient status (not deceased, moved, or explicitly opted out). Valid contact information on file.
 
 **Day 3-4: Segment by value and recency**
 
@@ -99,9 +98,7 @@ Not all dormant patients deserve equal effort. Create three tiers:
 **Day 5-7: Verify contact information**
 
 Phone numbers and emails decay at approximately 3% per month. Before launching outreach:
-- Run phone numbers through a validation service
-- Check email deliverability
-- Identify patients with no valid contact method for direct mail outreach
+Run phone numbers through a validation service. Check email deliverability. Identify patients with no valid contact method for direct mail outreach.
 
 For detailed guidance on prioritizing your outreach list, see our guide on [patient recall segmentation](/blog/patient-recall-segmentation/).
 
@@ -119,9 +116,7 @@ Text messages achieve the highest response rates for healthcare outreach. Accord
 **Day 9-10: Follow up with phone calls to Tier 1 (High Value)**
 
 High-value patients justify personal outreach. Staff should:
-- Reference specific treatment history when possible
-- Emphasize any new services or technology since their last visit
-- Offer convenient scheduling options including extended hours
+Reference specific treatment history when possible. Emphasize any new services or technology since their last visit. Offer convenient scheduling options including extended hours.
 
 **Sample phone script:**
 > "Hi [Name], this is [Caller] from [Practice Name]. Dr. [Provider] noticed it's been over a year since your last visit and wanted me to personally reach out. We've added [new service] since you were here last. Do you have a few minutes to find a time that works for you?"
@@ -132,10 +127,7 @@ Email serves as a supporting channel, not primary outreach. Keep emails short wi
 
 **Day 13-14: Review initial response data**
 
-By the end of Week 2, you should see:
-- 10-15% response rate on SMS
-- 30-40% contact rate on phone calls
-- 2-5% click-through on email
+By the end of Week 2, you should see include 10-15% response rate on sms, 30-40% contact rate on phone calls, and 2-5% click-through on email.
 
 Track appointments booked, not just responses. A response without a booking requires follow-up.
 
@@ -320,6 +312,8 @@ Dormant patient reactivation represents one of the highest-ROI activities for mu
 
 The difference between groups that recover dormant patients and those that do not is simply execution discipline. This playbook provides the structure. The results depend on consistent follow-through.
 For healthcare groups with 3+ locations, our [multi-location recall solution](/enterprise/multi-location-recall/) provides centralized reactivation support.
+
+Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 
 ## Sources
 

@@ -43,11 +43,7 @@ Hygiene recall rates are the single metric that most frequently separates $500,0
 Dental practice valuations depend heavily on predictable, recurring revenue. Hygiene appointments provide exactly that: scheduled, repeating visits that generate both direct revenue and downstream treatment opportunities.
 
 **The financial math:**
-- Average hygiene appointment produces approximately $175-200 in direct hygiene production
-- Including doctor exam and treatment acceptance, total visit value reaches $350-450
-- A new patient generates at least $4,500 in lifetime revenue with the practice
-- 20% of hygiene exams result in restorative treatment averaging $500 per patient
-- Practices with strong recall systems retain patients 10-15% longer than those without
+Average hygiene appointment produces approximately $175-200 in direct hygiene production. Including doctor exam and treatment acceptance, total visit value reaches $350-450. A new patient generates at least $4,500 in lifetime revenue with the practice. 20% of hygiene exams result in restorative treatment averaging $500 per patient. Practices with strong recall systems retain patients 10-15% longer than those without.
 
 **Why it separates practices:**
 Research shows hygiene reappointment rates "most frequently separate $500,000 practices from $1,000,000 practices." The difference is not location, demographics, or marketing spend. It is systematic execution of patient retention through hygiene recall.
@@ -80,9 +76,7 @@ A 10-15% increase in patient retention ties directly to improvements in a practi
 | **Annual improvement** | **+$84,000-108,000** |
 
 **For a 20-location DSO improving recall by 10%:**
-- If each location adds $7,000/month: $140,000/month network-wide
-- Annual impact: $1.68 million in additional production
-- Plus improved valuation multiple from demonstrating operational excellence
+If each location adds $7,000/month: $140,000/month network-wide. Annual impact: $1.68 million in additional production. Plus improved valuation multiple from demonstrating operational excellence.
 
 **Revenue scaling potential:**
 Practices using optimized recall solutions report significant improvements in patient return rates, with top performers adding $15,000-25,000 in monthly revenue depending on practice size and baseline recall rate.
@@ -98,10 +92,7 @@ Practices using optimized recall solutions report significant improvements in pa
 | Excellent | 85-90%+ | Best-in-class |
 
 **Where to focus improvement:**
-- Practices below 65%: Fundamental process issues need addressing
-- Practices at 65-75%: Incremental improvements yield significant gains
-- Practices at 75-85%: Optimization and consistency across all team members
-- Practices above 85%: Maintain through systematic monitoring
+Practices below 65%: Fundamental process issues need addressing. Practices at 65-75%: Incremental improvements yield significant gains. Practices at 75-85%: Optimization and consistency across all team members. Practices above 85%: Maintain through systematic monitoring.
 
 ## Why Is the Six-Month Recall Still the Standard?
 
@@ -111,30 +102,20 @@ The traditional six-month recall interval remains the industry standard, though 
 A study comparing risk-based, 6-monthly, and 24-monthly dental check-ups found that 6-month recalls were the most efficient strategy under a net societal benefit framework, with a probability of positive net benefit ranging from 78% to 100%.
 
 **Practical implications:**
-- Six-month recall works for most patients and simplifies operations
-- Risk-based intervals (longer for low-risk, shorter for high-risk) optimize clinical outcomes
-- For DSO operations, standardizing on six-month recall provides consistency across locations
-- Some patients may benefit from 3-4 month intervals (periodontal cases, high-risk patients)
+Six-month recall works for most patients and simplifies operations. Risk-based intervals (longer for low-risk, shorter for high-risk) optimize clinical outcomes. For DSO operations, standardizing on six-month recall provides consistency across locations. Some patients may benefit from 3-4 month intervals (periodontal cases, high-risk patients).
 
 ## Why Does Recall Fail? Common Breakdown Points
 
 Understanding where recall systems fail helps target improvements:
 
 **At the appointment:**
-- Hygienist or front desk does not schedule next appointment before patient leaves
-- Patient says "I'll call to schedule" and never does
-- No standard process for pre-scheduling
+Hygienist or front desk does not schedule next appointment before patient leaves. Patient says "I'll call to schedule" and never does. No standard process for pre-scheduling.
 
 **After the appointment:**
-- No systematic outreach to patients approaching due date
-- Single-channel reminders (phone only) fail to reach patients
-- Inconsistent follow-up on non-responders
-- Staff too busy with incoming patients to make outbound calls
+No systematic outreach to patients approaching due date. Single-channel reminders (phone only) fail to reach patients. Inconsistent follow-up on non-responders. Staff too busy with incoming patients to make outbound calls.
 
 **Data and tracking:**
-- PM system not configured to identify due patients accurately
-- No visibility into recall rate by hygienist, day, or patient segment
-- Management unaware of declining performance until revenue drops
+PM system not configured to identify due patients accurately. No visibility into recall rate by hygienist, day, or patient segment. Management unaware of declining performance until revenue drops.
 
 ## What Are the Best Strategies for Improving Hygiene Recall?
 
@@ -143,10 +124,7 @@ Understanding where recall systems fail helps target improvements:
 The highest-performing practices schedule the next hygiene appointment before the patient leaves the chair.
 
 **Implementation:**
-- Hygienist mentions the next visit date during the appointment
-- Front desk confirms and schedules before checkout
-- Patient leaves with next appointment card/text confirmation
-- Target: 90%+ pre-scheduling rate
+Hygienist mentions the next visit date during the appointment. Front desk confirms and schedules before checkout. Patient leaves with next appointment card/text confirmation. Target: 90%+ pre-scheduling rate.
 
 **Impact:** Practices that pre-schedule consistently report 15-20% higher recall rates than those relying on outbound reminders alone.
 
@@ -155,36 +133,24 @@ The highest-performing practices schedule the next hygiene appointment before th
 Different patients respond to different channels. A single phone call is not sufficient.
 
 **Recommended sequence:**
-1. **4 weeks before:** Email reminder with online rescheduling link
-2. **2 weeks before:** Text message confirmation request
-3. **1 week before:** Phone call for non-confirmed appointments
-4. **48 hours before:** Final text reminder
+**4 weeks before:** Email reminder with online rescheduling link. **2 weeks before:** Text message confirmation request. **1 week before:** Phone call for non-confirmed appointments. **48 hours before:** Final text reminder.
 
 **Channel effectiveness:**
-- Text messages: 95%+ open rate
-- Phone calls: Only effective if patient answers (many don't)
-- Email: Lower engagement but provides documentation
-- Combination approach outperforms any single channel
+Text messages: 95%+ open rate. Phone calls: Only effective if patient answers (many don't). Email: Lower engagement but provides documentation. Combination approach outperforms any single channel.
 
 ### Strategy 3: Same-Day Contact for Cancellations
 
 When a patient cancels or no-shows, immediate follow-up prevents permanent loss.
 
 **Protocol:**
-- Contact within 4 hours of cancellation/no-show
-- Offer rescheduling immediately (not "call us back")
-- Have specific time slots ready to offer
-- Log all contact attempts for non-responders
+Contact within 4 hours of cancellation/no-show. Offer rescheduling immediately (not "call us back"). Have specific time slots ready to offer. Log all contact attempts for non-responders.
 
 ### Strategy 4: Waitlist Management for Fill-Ins
 
 Cancellations create revenue gaps. Active waitlists recover them.
 
 **System requirements:**
-- Maintain list of patients wanting earlier appointments
-- Automated notification when slots open
-- Staff empowered to offer same-day or next-day openings
-- Target: Fill 50%+ of last-minute cancellations
+Maintain list of patients wanting earlier appointments. Automated notification when slots open. Staff enableed to offer same-day or next-day openings. Target: Fill 50%+ of last-minute cancellations.
 
 ### Strategy 5: Tracking and Accountability
 
@@ -206,11 +172,7 @@ What gets measured gets managed. Track recall metrics at multiple levels.
 Effective hygiene recall at scale requires integrated technology:
 
 **Essential capabilities:**
-- PM system that accurately identifies due patients
-- Automated multi-channel reminder sequences
-- Two-way texting for patient responses
-- Online self-scheduling for easy rebooking
-- Dashboard tracking recall metrics by location, hygienist, time period
+PM system that accurately identifies due patients. Automated multi-channel reminder sequences. Two-way texting for patient responses. Online self-scheduling for easy rebooking. Dashboard tracking recall metrics by location, hygienist, time period.
 
 **Integration matters:**
 Disconnected systems (separate PM, reminder, and scheduling tools) create data gaps and staff friction. Integrated platforms that connect patient data, outreach, and scheduling drive higher performance.
@@ -252,6 +214,13 @@ Dental hygiene recall is the operational lever with the highest impact on practi
 The hygiene department is the "unsung hero" of successful dental practices. Investment in recall systems delivers returns that exceed most marketing or patient acquisition initiatives.
 
 For general recall strategies applicable across healthcare, see our [patient recall service guide](/blog/patient-recall-service/). For reactivation of long-dormant patients, review our [30-day reactivation playbook](/blog/dormant-patient-reactivation/).
+Dental groups that answer every call book more patients. [Talk to our team](/contact/) about how MyBCAT helps dental practices capture every opportunity.
+
+
+## Related Reading
+
+- [AI phone answering for dental offices](/blog/ai-phone-answering-for-dental-offices/)
+
 ## Sources
 
 - [DentistryIQ: Improving Dental Hygiene Recall Rates](https://www.dentistryiq.com/practice-management/industry/article/16366863/data-bite-survey-finds-improving-dental-hygiene-recall-rates-a-primary-growth-opportunity-for-practices-in-2017)

@@ -353,6 +353,8 @@ For strategies to improve retention post-acquisition, see our [healthcare operat
 - [Scaling Optometry Network Operations: 5 to 50 Locations](/blog/optometry-network-operations-scale/)
 - [Multi-Location Healthcare EBITDA: Retention Protects Margins](/blog/multi-location-healthcare-ebitda/)
 
+Dental groups that answer every call book more patients. [Talk to our team](/contact/) about how MyBCAT helps dental practices capture every opportunity.
+
 ## Sources
 
 - [Dental Attorneys: Mergers and Acquisitions](https://dentalattorneys.com/2025/01/21/what-every-dental-business-owner-should-know-about-mergers-and-acquisitions/)

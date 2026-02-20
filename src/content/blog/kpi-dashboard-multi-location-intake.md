@@ -1,30 +1,32 @@
 ---
 title: 'KPI Dashboard for Multi-Location Intake: What to Measure (With Benchmarks)'
 seoTitle: Multi-Location Intake KPI Dashboard + Benchmarks
-description: The 10 essential intake KPIs every multi-location healthcare group should
-  track, with benchmarks for dental, optometry, and veterinary practices. Includes
-  dashboard template.
-seoDescription: 10 essential intake KPIs for multi-location healthcare with industry
-  benchmarks. Track answer rates, conversion, and more for dental, optometry, and
-  vet.
-publishDate: 2026-01-13 00:00:00+00:00
+description: >-
+  The 10 essential intake KPIs every multi-location healthcare group should
+  track, with benchmarks for dental, optometry, and veterinary practices.
+  Includes dashboard template.
+seoDescription: >-
+  10 essential intake KPIs for multi-location healthcare with industry
+  benchmarks. Track answer rates, conversion, and more for dental, optometry,
+  and vet.
+publishDate: 2026-01-13T00:00:00.000Z
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-- kpis
-- dashboard
-- multi-location
-- benchmarks
-- analytics
-- intake-metrics
+  - kpis
+  - dashboard
+  - multi-location
+  - benchmarks
+  - analytics
+  - intake-metrics
 featuredImage: /images/blog/kpi-dashboard-multi-location-intake.webp
-canonical: https://mybcat.com/blog/kpi-dashboard-multi-location-intake/
+canonical: 'https://mybcat.com/blog/kpi-dashboard-multi-location-intake/'
 relatedPosts:
-- multi-location-healthcare-intake-guide
-- ebitda-impact-calculator
-- missed-calls-revenue-leak-multi-location-healthcare
-- dso-integration-playbook
+  - multi-location-healthcare-intake-guide
+  - ebitda-impact-calculator
+  - missed-calls-revenue-leak-multi-location-healthcare
+  - dso-integration-playbook
 ---
 
 Most multi-location healthcare groups track revenue per location but cannot tell you their call answer rate, new patient conversion rate, or average time to appointment. The result: marketing spend increases while patient acquisition efficiency stays flat. Here are the 10 intake KPIs that top-performing groups track, with benchmarks for dental, optometry, and veterinary practices. For groups seeking comprehensive intake visibility, our [enterprise reporting and QA](/enterprise/reporting-qa/) solution delivers real-time dashboards across all locations.
@@ -215,7 +217,7 @@ Veterinary practices face higher after-hours volume due to emergency nature. Tri
 
 ## What Are the Benchmarks by Location Count?
 
-Scale changes expectations. Larger groups should achieve better metrics through standardization and resource leverage.
+Scale changes expectations. Larger groups should achieve better metrics through standardization and resource use.
 
 | KPI | 5 Locations | 10 Locations | 25+ Locations |
 |-----|-------------|--------------|---------------|
@@ -416,6 +418,8 @@ For conversion tracking, your phone system must pass caller information to your 
 
 ---
 
+Multi-location healthcare groups need standardized intake across every site. [Talk to our team](/contact/) about how MyBCAT provides centralized call answering and patient access for growing organizations.
+
 ## Key Takeaways
 
 - **Track 10 essential KPIs** covering call handling (answer rate, abandonment, speed), conversion (new patient conversion, fill rate), capacity (after-hours volume, time to first available), and efficiency (revenue per call, handle time).
@@ -433,3 +437,13 @@ For conversion tracking, your phone system must pass caller information to your 
 - **Avoid common mistakes.** Measure conversion (not just calls), set realistic targets, include context, and ensure metrics drive action rather than gaming.
 
 For healthcare groups ready to implement enterprise-grade intake measurement, a [patient access center](/enterprise/patient-access-center/) with [centralized scheduling](/enterprise/centralized-scheduling/) provides the infrastructure for consistent, measurable performance across all locations.
+
+## Related Reading
+
+- [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/)
+
+## Sources
+
+- [Becker's Dental Review: DSO Market](https://www.beckersdental.com/)
+- [Group Dentistry Now: Industry Analysis](https://groupdentistrynow.com/)
+- [PitchBook: Healthcare PE Data](https://pitchbook.com/)
