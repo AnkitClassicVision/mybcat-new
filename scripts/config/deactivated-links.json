@@ -28,5 +28,23 @@
     "targetSlug": "call-handling-patient-experience-eye-care",
     "originalMarkdown": "[patient satisfaction](/blog/call-handling-patient-experience-eye-care/)",
     "plainText": "patient satisfaction"
+  },
+  {
+    "sourceSlug": "multi-location-healthcare-ebitda",
+    "targetSlug": "front-desk-recall-workflow",
+    "originalMarkdown": "[front desk recall workflows](/blog/front-desk-recall-workflow/)",
+    "plainText": "front desk recall workflows"
+  },
+  {
+    "sourceSlug": "appointment-reminder-best-practices",
+    "targetSlug": "front-desk-recall-workflow",
+    "originalMarkdown": "[patient recall workflow](/blog/front-desk-recall-workflow/)",
+    "plainText": "patient recall workflow"
+  },
+  {
+    "sourceSlug": "case-study-dormant-patient-recovery",
+    "targetSlug": "reactivation-without-discounts",
+    "originalMarkdown": "[reactivation without discounts](/blog/reactivation-without-discounts/)",
+    "plainText": "reactivation without discounts"
   }
 ]

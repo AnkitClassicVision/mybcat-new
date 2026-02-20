@@ -301,7 +301,7 @@ Effective appointment reminders balance persistence with respect for patient pre
 
 The goal is not to send more reminders. It is to send the right reminders at the right time through the right channel. Patients who feel informed rather than nagged show up more often and stay with your practice longer. A well-tuned reminder system pays for itself within weeks and compounds its impact every month as patient habits shift toward reliable attendance.
 
-For strategies to recover when reminders fail and no-shows still occur, see our [no-show recovery program guide](/blog/no-show-recovery-program/). And for the broader picture of how reminders fit into a complete [patient recall workflow](/blog/front-desk-recall-workflow/), start with our front desk recall guide.
+For strategies to recover when reminders fail and no-shows still occur, see our [no-show recovery program guide](/blog/no-show-recovery-program/). And for the broader picture of how reminders fit into a complete patient recall workflow, start with our front desk recall guide.
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

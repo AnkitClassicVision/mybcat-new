@@ -71,11 +71,24 @@ function extractBlogLinks(body) {
 }
 
 function isPublishedOrLiveToday(entry, today) {
-  if (entry.status === 'published') return true;
-  if (entry.status === 'scheduled' && entry.scheduledDate) {
-    const sd = new Date(entry.scheduledDate).toISOString().split('T')[0];
-    return sd <= today;
+  const coerceDate = (value) => {
+    if (!value) return null;
+    const date = value instanceof Date ? value : new Date(value);
+    if (Number.isNaN(date.getTime())) return null;
+    return date.toISOString().split('T')[0];
+  };
+
+  if (entry.status === 'published') {
+    // Align with site behavior: published posts are only live if publishDate is not in the future.
+    const pd = coerceDate(entry.publishDate);
+    return !pd || pd <= today;
   }
+
+  if (entry.status === 'scheduled') {
+    const sd = coerceDate(entry.scheduledDate);
+    return !!sd && sd <= today;
+  }
+
   return false;
 }
 
