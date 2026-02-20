@@ -21,6 +21,7 @@ tags:
   - practice growth
 featuredImage: /images/blog/medical-answering-services-eye-care-guide.webp
 canonical: 'https://mybcat.com/blog/medical-answering-services-eye-care-guide/'
+cluster: patient-communications
 relatedPosts:
   - virtual-receptionist-vs-front-desk-optometry
   - call-handling-patient-experience-eye-care
@@ -34,6 +35,14 @@ The data behind this problem is sobering. Research consistently shows that rough
 This is not a staffing failure. It is a capacity problem. Front desk teams are asked to do too many things at once, and the phone is always the task that gets deprioritized when a patient is standing right in front of them. Medical answering services exist to bridge this gap, ensuring that every patient call is answered by a trained professional while your in-office team focuses on the people in your waiting room.
 
 This guide covers everything eye care practice owners and administrators need to know about medical answering services: what they are, why they matter for optometry and ophthalmology specifically, and how to evaluate whether one is right for your practice.
+
+## Table of Contents
+
+- [What Is a Medical Answering Service?](#what-is-a-medical-answering-service)
+- [Why Do Eye Care Practices Need Dedicated Call Support?](#why-do-eye-care-practices-need-dedicated-call-support)
+- [What Are the 5 Key Benefits of Professional Answering Services?](#what-are-the-5-key-benefits-of-professional-answering-services)
+- [How Do You Choose the Right Medical Answering Service?](#how-do-you-choose-the-right-medical-answering-service)
+- [What Should You Expect During Implementation?](#what-should-you-expect-during-implementation)
 
 ---
 
@@ -73,7 +82,7 @@ For multi-location eye care groups, these losses compound across every site. A 5
 
 ---
 
-## 5 Key Benefits of Professional Answering Services
+## What Are the 5 Key Benefits of Professional Answering Services?
 
 ### 1. Capture Every Patient Opportunity
 

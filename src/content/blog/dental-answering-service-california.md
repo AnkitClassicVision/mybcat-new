@@ -20,6 +20,7 @@ tags:
   - geo-landing
 featuredImage: /images/blog/dental-answering-service-california.webp
 canonical: 'https://mybcat.com/blog/dental-answering-service-california/'
+cluster: dental
 relatedPosts:
   - multi-location-healthcare-intake-guide
   - dso-integration-playbook
@@ -57,7 +58,7 @@ California leads the nation in dental practice density and DSO activity. The sta
 
 ### What Does This Mean for Intake?
 
-High practice density means patients have options. When a caller reaches voicemail at one practice, they call the next one on the list. California DSOs cannot afford the 20-30% missed call rates that might be tolerable in less competitive markets.
+High practice density means patients have options. When a caller reaches voicemail at one practice, they call the next one on the list. California DSOs cannot afford the [20-30% missed call rates](/blog/missed-calls-revenue-leak-multi-location-healthcare/) that might be tolerable in less competitive markets.
 
 **The California standard**: Answer 95%+ of calls, convert 70%+ of new patient inquiries, or lose patients to competitors who do.
 

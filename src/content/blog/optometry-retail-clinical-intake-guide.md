@@ -20,6 +20,7 @@ tags:
   - vsp
 featuredImage: /images/blog/optometry-retail-clinical-intake-guide.webp
 canonical: 'https://mybcat.com/blog/optometry-retail-clinical-intake-guide/'
+cluster: optometry
 relatedPosts:
   - multi-location-healthcare-intake-guide
   - kpi-dashboard-multi-location-intake

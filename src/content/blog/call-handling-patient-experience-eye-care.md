@@ -20,6 +20,7 @@ tags:
   - healthcare communication
 featuredImage: /images/blog/call-handling-patient-experience-eye-care.webp
 canonical: 'https://mybcat.com/blog/call-handling-patient-experience-eye-care/'
+cluster: patient-communications
 relatedPosts:
   - medical-answering-services-eye-care-guide
   - virtual-receptionist-vs-front-desk-optometry
@@ -33,6 +34,13 @@ Consider this: research consistently shows that 96% of unhappy patients never co
 The phone remains the most frequent touchpoint between patients and eye care practices. It is used for scheduling, rescheduling, insurance questions, prescription inquiries, post-operative concerns, and urgent care needs. Yet many practices treat call handling as a purely administrative function rather than what it actually is: the single most underestimated driver of patient satisfaction. When you improve how your phones are answered, you improve the entire patient journey downstream.
 
 This guide examines how call handling shapes patient experience in eye care and provides a practical framework for building a phone culture that retains patients and strengthens your practice.
+
+## Table of Contents
+
+- [Why Does the First-Call Impression Matter?](#why-does-the-first-call-impression-matter)
+- [What Are the 5 Ways Call Handling Shapes Patient Experience?](#what-are-the-5-ways-call-handling-shapes-patient-experience)
+- [How Do You Measure Patient Experience Through Call Metrics?](#how-do-you-measure-patient-experience-through-call-metrics)
+- [How Do You Build a Patient-Centric Call Culture?](#how-do-you-build-a-patient-centric-call-culture)
 
 ## Why Does the First-Call Impression Matter?
 

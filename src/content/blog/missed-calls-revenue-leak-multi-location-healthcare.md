@@ -10,6 +10,7 @@ category: "Technology"
 tags: ["optometry","patient-care","scheduling","outsourcing","growth"]
 featuredImage: "/images/blog/01-the-1.2m-leak-featured-v5.webp"
 canonical: "https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/"
+cluster: enterprise
 relatedPosts: ["multi-location-healthcare-intake-guide", "5-signs-youre-ready-to-scale", "scaling-up-operations-to-grow-your-eye-care-clinic"]
 ---
 

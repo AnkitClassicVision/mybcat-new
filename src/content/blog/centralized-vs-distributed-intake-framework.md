@@ -20,6 +20,7 @@ tags:
   - operations-strategy
 featuredImage: /images/blog/centralized-vs-distributed-intake-framework.webp
 canonical: 'https://mybcat.com/blog/centralized-vs-distributed-intake-framework/'
+cluster: enterprise
 relatedPosts:
   - multi-location-healthcare-intake-guide
   - human-ai-hybrid-model-healthcare-intake

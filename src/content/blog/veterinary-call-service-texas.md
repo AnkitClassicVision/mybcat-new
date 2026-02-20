@@ -20,6 +20,7 @@ tags:
   - geo-landing
 featuredImage: /images/blog/veterinary-call-service-texas.webp
 canonical: 'https://mybcat.com/blog/veterinary-call-service-texas/'
+cluster: veterinary
 relatedPosts:
   - veterinary-emergency-triage-protocols
   - after-hours-veterinary-call-management

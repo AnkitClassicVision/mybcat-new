@@ -70,7 +70,7 @@ Preventing bureaucratic slowdown. Maintaining entrepreneurial culture. Continuou
 
 ## What Technology Infrastructure Does Each Phase Require?
 
-### Phase 1: Foundation (5-15 Locations)
+### Technology for Phase 1: Foundation (5-15 Locations)
 
 **Priority 1: Practice Management System Standardization**
 
@@ -98,7 +98,7 @@ The most critical decision is consolidating to a single PMS:
 
 VoIP phone system across all locations. Unified messaging platform. Shared calendar/scheduling visibility. Basic reporting dashboard.
 
-### Phase 2: Professionalization (15-30 Locations)
+### Technology for Phase 2: Professionalization (15-30 Locations)
 
 **Priority 1: Enterprise Data Platform**
 
@@ -131,7 +131,7 @@ Centralized patient communication becomes essential:
 
 Optical inventory across 15+ locations requires include real-time inventory visibility, centralized purchasing, inter-location transfers, and demand forecasting.
 
-### Phase 3: Enterprise (30-50+ Locations)
+### Technology for Phase 3: Enterprise (30-50+ Locations)
 
 **Priority 1: Integration Platform**
 
@@ -160,7 +160,7 @@ Reduce central team burden:
 
 ## How Should Organizational Structure Evolve by Phase?
 
-### Phase 1: Founder-Led (5-15 Locations)
+### Org Structure Phase 1: Founder-Led (5-15 Locations)
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0;">
   <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Founder/CEO</div>
@@ -175,7 +175,7 @@ Reduce central team burden:
 - Regional Managers (when approaching 10 locations)
 - Finance Manager
 
-### Phase 2: Professional Management (15-30 Locations)
+### Org Structure Phase 2: Professional Management (15-30 Locations)
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0;">
   <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">CEO</div>
@@ -192,7 +192,7 @@ Reduce central team burden:
 - Regional Director layer critical for span of control
 - Central functions become departments
 
-### Phase 3: Enterprise (30-50+ Locations)
+### Org Structure Phase 3: Enterprise (30-50+ Locations)
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0;">
   <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">CEO</div>
@@ -255,7 +255,7 @@ Retention often declines as networks scale due to:
 
 ## What Should You Standardize and When?
 
-### What Should You Standardize (and When)?
+### Key Standardization Principles and Timing
 
 | Area | Phase 1 | Phase 2 | Phase 3 |
 |------|---------|---------|---------|

@@ -21,6 +21,7 @@ tags:
   - practice-management
 featuredImage: /images/blog/staffing-new-optometry-practice.webp
 canonical: 'https://mybcat.com/blog/staffing-new-optometry-practice/'
+cluster: starting-practice
 relatedPosts:
   - optometry-practice-staffing
   - first-year-financial-planning-optometry

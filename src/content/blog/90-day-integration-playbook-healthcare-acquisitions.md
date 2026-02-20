@@ -22,6 +22,7 @@ tags:
   - multi-location
 featuredImage: /images/blog/90-day-integration-playbook-healthcare-acquisitions.webp
 canonical: 'https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions/'
+cluster: enterprise
 relatedPosts:
   - dso-integration-playbook
   - pre-sale-operational-cleanup-intake-valuation
@@ -38,12 +39,12 @@ PE-backed healthcare groups target 90-day integration timelines, but most acquis
 1. [Why Does Intake-First Integration Win?](#why-does-intake-first-integration-win)
 2. [What Does the 90-Day Integration Timeline Look Like?](#what-does-the-90-day-integration-timeline-look-like)
 3. [How Do You Set Up for Day 1 Before Close?](#how-do-you-set-up-for-day-1-before-close)
-4. [Week 1-2: Discovery and Baseline](#week-1-2-discovery-and-baseline)
-5. [Week 3-4: Quick Wins and Visibility](#week-3-4-quick-wins-and-visibility)
-6. [Week 5-6: Process Standardization](#week-5-6-process-standardization)
-7. [Week 7-8: Technology and Training](#week-7-8-technology-and-training)
-8. [Week 9-10: Optimization and Monitoring](#week-9-10-optimization-and-monitoring)
-9. [Week 11-12: Documentation and Handoff](#week-11-12-documentation-and-handoff)
+4. [What Should You Do in Week 1-2: Discovery and Baseline?](#what-should-you-do-in-week-1-2-discovery-and-baseline)
+5. [What Should You Do in Week 3-4: Quick Wins and Visibility?](#what-should-you-do-in-week-3-4-quick-wins-and-visibility)
+6. [What Should You Do in Week 5-6: Process Standardization?](#what-should-you-do-in-week-5-6-process-standardization)
+7. [What Should You Do in Week 7-8: Technology and Training?](#what-should-you-do-in-week-7-8-technology-and-training)
+8. [What Should You Do in Week 9-10: Optimization and Monitoring?](#what-should-you-do-in-week-9-10-optimization-and-monitoring)
+9. [What Should You Do in Week 11-12: Documentation and Handoff?](#what-should-you-do-in-week-11-12-documentation-and-handoff)
 10. [What Integration KPIs Should You Track?](#what-integration-kpis-should-you-track)
 11. [How Do You Manage Staff Through Integration?](#how-do-you-manage-staff-through-integration)
 12. [What Are the Most Common Integration Failures?](#what-are-the-most-common-integration-failures)
@@ -149,9 +150,9 @@ Identify before close:
 
 ---
 
-## Week 1-2: Discovery and Baseline
+## What Should You Do in Week 1-2: Discovery and Baseline?
 
-### Goals
+### Week 1-2 Goals
 
 Complete understanding of current intake operations. Baseline metrics established. Staff relationships initiated. Quick win opportunities identified.
 
@@ -195,9 +196,9 @@ Establish baseline measurements for:
 
 ---
 
-## Week 3-4: Quick Wins and Visibility
+## What Should You Do in Week 3-4: Quick Wins and Visibility?
 
-### Goals
+### Week 3-4 Goals
 
 Implement changes that show immediate improvement. Establish daily visibility into performance. Build staff confidence through early success. Address obvious bottlenecks.
 
@@ -243,9 +244,9 @@ Platform greeting and scripts. Key questions for every call type. When to escala
 
 ---
 
-## Week 5-6: Process Standardization
+## What Should You Do in Week 5-6: Process Standardization?
 
-### Goals
+### Week 5-6 Goals
 
 Align acquired practice processes to platform standards. Implement consistent protocols across all call types. Integrate overflow and backup support. Establish escalation pathways.
 
@@ -285,9 +286,9 @@ Verify:
 
 ---
 
-## Week 7-8: Technology and Training
+## What Should You Do in Week 7-8: Technology and Training?
 
-### Goals
+### Week 7-8 Goals
 
 Complete any remaining system integrations. Advanced staff training. Dashboard and reporting optimization. Feature rollout for full capability.
 
@@ -330,9 +331,9 @@ Call monitoring and scoring. Knowledge checks. Scenario role-plays. Peer feedbac
 
 ---
 
-## Week 9-10: Optimization and Monitoring
+## What Should You Do in Week 9-10: Optimization and Monitoring?
 
-### Goals
+### Week 9-10 Goals
 
 Fine-tune based on actual performance. Close remaining gaps to target metrics. Address staff feedback. Prepare for handoff to ongoing operations.
 
@@ -371,9 +372,9 @@ Call recording review schedule. Scoring criteria and standards. Feedback and coa
 
 ---
 
-## Week 11-12: Documentation and Handoff
+## What Should You Do in Week 11-12: Documentation and Handoff?
 
-### Goals
+### Week 11-12 Goals
 
 Complete all documentation for ongoing operations. Transition from integration team to operations team. Capture lessons learned. Declare integration complete.
 

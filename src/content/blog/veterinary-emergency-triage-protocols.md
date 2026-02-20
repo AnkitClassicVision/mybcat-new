@@ -21,6 +21,7 @@ tags:
   - staff-training
 featuredImage: /images/blog/veterinary-emergency-triage-protocols.webp
 canonical: 'https://mybcat.com/blog/veterinary-emergency-triage-protocols/'
+cluster: veterinary
 relatedPosts:
   - multi-location-healthcare-intake-guide
   - after-hours-veterinary-call-management

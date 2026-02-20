@@ -24,6 +24,7 @@ tags:
   - multi-location
 featuredImage: /images/blog/optometry-case-study-95-answer-rate.webp
 canonical: 'https://mybcat.com/blog/optometry-case-study-95-answer-rate/'
+cluster: optometry
 relatedPosts:
   - optometry-retail-clinical-intake-guide
   - missed-calls-revenue-leak-multi-location-healthcare

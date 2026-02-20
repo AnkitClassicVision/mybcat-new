@@ -21,6 +21,7 @@ tags:
   - practice-management
 featuredImage: /images/blog/location-selection-optometric-practices.webp
 canonical: 'https://mybcat.com/blog/location-selection-optometric-practices/'
+cluster: starting-practice
 relatedPosts: []
 ---
 

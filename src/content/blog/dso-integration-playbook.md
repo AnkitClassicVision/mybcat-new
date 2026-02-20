@@ -23,6 +23,7 @@ tags:
   - operations
 featuredImage: /images/blog/dso-integration-playbook.webp
 canonical: 'https://mybcat.com/blog/dso-integration-playbook/'
+cluster: enterprise
 relatedPosts:
   - dso-case-study-15-location-missed-calls
   - 90-day-integration-playbook-healthcare-acquisitions
@@ -39,12 +40,12 @@ Whether you're a [DSO](/enterprise/dso/) COO hitting integration timelines, a PE
 
 - [Why Does DSO Intake Integration Fail?](#why-does-dso-intake-integration-fail)
 - [What Is the Workflow-First Integration Framework?](#what-is-the-workflow-first-integration-framework)
-- [Pre-Close: Intake Assessment (Weeks -4 to 0)](#pre-close-intake-assessment-weeks--4-to-0)
-- [Week 1-2: Process Mapping and Gap Analysis](#week-1-2-process-mapping-and-gap-analysis)
-- [Week 3-4: Standardization Design](#week-3-4-standardization-design)
-- [Week 5-6: Staff Training and Rollout](#week-5-6-staff-training-and-rollout)
-- [Week 7-8: Parallel Operations and Monitoring](#week-7-8-parallel-operations-and-monitoring)
-- [Week 9-12: Optimization and Documentation](#week-9-12-optimization-and-documentation)
+- [What Should You Assess Pre-Close (Weeks -4 to 0)?](#what-should-you-assess-pre-close-weeks--4-to-0)
+- [What Should You Do in Week 1-2: Process Mapping and Gap Analysis?](#what-should-you-do-in-week-1-2-process-mapping-and-gap-analysis)
+- [What Should You Do in Week 3-4: Standardization Design?](#what-should-you-do-in-week-3-4-standardization-design)
+- [What Should You Do in Week 5-6: Staff Training and Rollout?](#what-should-you-do-in-week-5-6-staff-training-and-rollout)
+- [What Should You Do in Week 7-8: Parallel Operations and Monitoring?](#what-should-you-do-in-week-7-8-parallel-operations-and-monitoring)
+- [What Should You Do in Week 9-12: Optimization and Documentation?](#what-should-you-do-in-week-9-12-optimization-and-documentation)
 - [What PM System Considerations Apply?](#what-pm-system-considerations-apply)
 - [What KPIs Should You Track During Integration?](#what-kpis-should-you-track-during-integration)
 - [How Do You Manage Staff Resistance?](#how-do-you-manage-staff-resistance)
@@ -87,7 +88,7 @@ The key insight: **you can standardize intake workflows independent of which PM 
 
 Standardize the human workflows first. Migrate systems around a proven process later. A [medical answering service](/solutions/medical-answering-service/) can provide consistent call coverage during this transition period.
 
-## Pre-Close: Intake Assessment (Weeks -4 to 0)
+## What Should You Assess Pre-Close (Weeks -4 to 0)?
 
 Integration starts before the deal closes. Use due diligence to assess intake operations.
 
@@ -114,7 +115,7 @@ Answer rate below 70%. Single person who "knows everything". No documented proce
 
 These don't disqualify an acquisition, but they indicate higher integration lift.
 
-## Week 1-2: Process Mapping and Gap Analysis
+## What Should You Do in Week 1-2: Process Mapping and Gap Analysis?
 
 Day 1 readiness means understanding exactly how the practice operates today.
 
@@ -149,7 +150,7 @@ Compare current state to your DSO standard (or create one if you don't have it):
 
 By end of Week 2, you should have include documented current workflows, identified gaps vs. standard, ranked gaps by impact and effort, and preliminary integration roadmap.
 
-## Week 3-4: Standardization Design
+## What Should You Do in Week 3-4: Standardization Design?
 
 Now design the target workflows. The goal: create processes that work regardless of PM system.
 
@@ -184,7 +185,7 @@ Answer within 3 rings using standard greeting. Collect caller name and callback 
 
 Create scripts for common scenarios include new patient inquiry, existing patient scheduling, insurance questions, emergency triage, after-hours voicemail, hold messaging, and transfer language.
 
-## Week 5-6: Staff Training and Rollout
+## What Should You Do in Week 5-6: Staff Training and Rollout?
 
 This is where most integrations fail. Perfect processes mean nothing if staff don't adopt them.
 
@@ -227,7 +228,7 @@ Response: "It might feel that way at first. Most teams find it actually saves ti
 **"Our patients won't like this."**
 Response: "Let's try it for two weeks and measure patient feedback. If patients genuinely prefer the old way, we'll adapt."
 
-## Week 7-8: Parallel Operations and Monitoring
+## What Should You Do in Week 7-8: Parallel Operations and Monitoring?
 
 Don't flip a switch. Run parallel operations to ensure smooth transition.
 
@@ -253,7 +254,7 @@ When problems arise (and they will):
 
 **Document the issue** - What happened, when, who was involved. **Identify root cause** - Process gap? Training gap? Tool limitation? **Implement fix** - Update SOP, provide additional training, or adjust process. **Communicate change** - Let all staff know about the adjustment.
 
-## Week 9-12: Optimization and Documentation
+## What Should You Do in Week 9-12: Optimization and Documentation?
 
 The final phase: refine based on data and lock in the gains.
 

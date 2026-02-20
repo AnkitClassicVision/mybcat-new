@@ -21,6 +21,7 @@ tags:
   - intake-optimization
 featuredImage: /images/blog/dso-case-study-15-location-missed-calls.webp
 canonical: 'https://mybcat.com/blog/dso-case-study-15-location-missed-calls/'
+cluster: dental
 relatedPosts:
   - dso-integration-playbook
   - ebitda-impact-calculator
@@ -206,7 +207,7 @@ Answer rate is a leading indicator, but same-store revenue growth is what PE spo
 
 ## What Is Next for Scaling to 25+ Locations?
 
-The group is now applying the same intake model to new acquisitions from day one. Rather than inheriting each practice's phone chaos and fixing it later, they integrate centralized intake as part of the standard acquisition playbook.
+The group is now applying the same intake model to new acquisitions from day one. Rather than inheriting each practice's phone chaos and fixing it later, they integrate centralized intake as part of the standard [acquisition playbook](/blog/dso-integration-playbook/).
 
 The COO expects to reach 25 locations within the next 18 months. With intake standardized, each new acquisition can be operationally integrated faster, and the same-store growth playbook can be applied immediately.
 

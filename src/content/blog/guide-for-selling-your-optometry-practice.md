@@ -22,6 +22,7 @@ seoTitle: How to Sell Your Optometry Practice (2025-2026 Guide)
 seoDescription: >-
   Complete guide to selling your optometry practice: current valuation multiples
   (2-3.5x SDE), PE acquirers, tax implications, and preparation timeline.
+cluster: private-practice
 relatedPosts:
   - the-optometric-practice-valuation-guide-for-buyers-and-sellers
   - pre-sale-operational-cleanup-intake-valuation

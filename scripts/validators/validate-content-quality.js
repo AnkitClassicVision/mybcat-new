@@ -72,6 +72,7 @@ function calculateProseDensity(body) {
   let bullet = 0;
   let heading = 0;
   let inCodeFence = false;
+  let inTOC = false;
 
   for (const line of lines) {
     const type = classifyLine(line);
@@ -81,6 +82,17 @@ function calculateProseDensity(body) {
       continue;
     }
     if (inCodeFence) continue;
+
+    // Skip Table of Contents section (navigational, not content)
+    if (type === 'heading' && /^##\s+table of contents/i.test(line.trim())) {
+      inTOC = true;
+      continue;
+    }
+    if (inTOC && type === 'heading') {
+      inTOC = false; // next heading ends TOC section
+    }
+    if (inTOC) continue;
+
     if (type === 'empty' || type === 'blockquote') continue;
 
     if (type === 'prose') prose++;
@@ -149,7 +161,9 @@ function hasCTA(body, ctaPatterns) {
  * Find banned phrases in body text.
  */
 function findBannedPhrases(body, phrases) {
-  const lowerBody = body.toLowerCase();
+  // Strip URLs from markdown links so we only check visible text
+  const textOnly = body.replace(/\]\([^)]*\)/g, ']()')
+  const lowerBody = textOnly.toLowerCase();
   const found = [];
   for (const phrase of phrases) {
     if (lowerBody.includes(phrase.toLowerCase())) {

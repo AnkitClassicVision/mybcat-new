@@ -20,6 +20,7 @@ tags:
   - practice-management
 featuredImage: /images/blog/first-year-financial-planning-optometry.webp
 canonical: 'https://mybcat.com/blog/first-year-financial-planning-optometry/'
+cluster: starting-practice
 relatedPosts: []
 ---
 

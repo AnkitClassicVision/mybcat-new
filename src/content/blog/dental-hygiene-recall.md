@@ -24,7 +24,7 @@ relatedPosts:
   - patient-recall-campaign-framework
 ---
 
-Hygiene recall rates are the single metric that most frequently separates $500,000 dental practices from $1,000,000 practices. Yet only 17% of dentists report that most of their active patients receive hygiene treatment every six months. For DSOs pursuing growth through acquisition or organic expansion, hygiene recall represents the highest-ROI operational lever available. Building on the principles in our [patient recall campaign framework](/blog/patient-recall-campaign-framework/), this guide explains why hygiene recall drives valuation, provides benchmarks, and outlines strategies for improvement.
+Hygiene recall rates are the single metric that most frequently separates $500,000 dental practices from $1,000,000 practices. Yet only 17% of dentists report that most of their active patients receive hygiene treatment every six months. For [DSOs](/industries/dental/) pursuing growth through acquisition or organic expansion, hygiene recall represents the highest-ROI operational lever available. Building on the principles in our [patient recall campaign framework](/blog/patient-recall-campaign-framework/), this guide explains why hygiene recall drives valuation, provides benchmarks, and outlines strategies for improvement.
 
 ## Table of Contents
 

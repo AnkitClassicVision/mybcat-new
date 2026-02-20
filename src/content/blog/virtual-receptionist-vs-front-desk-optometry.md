@@ -20,6 +20,7 @@ tags:
   - practice operations
 featuredImage: /images/blog/virtual-receptionist-vs-front-desk-optometry.webp
 canonical: 'https://mybcat.com/blog/virtual-receptionist-vs-front-desk-optometry/'
+cluster: optometry
 relatedPosts:
   - medical-answering-services-eye-care-guide
   - call-handling-patient-experience-eye-care
@@ -33,6 +34,15 @@ That model is under pressure. The average front desk employee in healthcare turn
 Meanwhile, virtual reception has matured from a novelty into a legitimate operational model. Remote-based receptionists, trained in optometry-specific protocols, can handle calls, schedule appointments, and manage patient intake without ever setting foot in your office. The technology and workflows have caught up to the point where patients often cannot tell the difference.
 
 So which model is right for your practice? The honest answer: neither is universally better. The best choice depends on your call volume, location count, patient demographics, and how much your front desk handles beyond the phones. This guide breaks down the comparison so you can make an informed decision.
+
+## Table of Contents
+
+- [What Are Your Options?](#what-are-your-options)
+- [How Do the Two Models Compare Head to Head?](#how-do-the-two-models-compare-head-to-head)
+- [When Does a Traditional Front Desk Make Sense?](#when-does-a-traditional-front-desk-make-sense)
+- [When Is Virtual Reception the Better Fit?](#when-is-virtual-reception-the-better-fit)
+- [Is the Hybrid Model the Best of Both Worlds?](#is-the-hybrid-model-the-best-of-both-worlds)
+- [How Do You Make the Transition?](#how-do-you-make-the-transition)
 
 ---
 

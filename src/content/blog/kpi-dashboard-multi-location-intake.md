@@ -22,6 +22,7 @@ tags:
   - intake-metrics
 featuredImage: /images/blog/kpi-dashboard-multi-location-intake.webp
 canonical: 'https://mybcat.com/blog/kpi-dashboard-multi-location-intake/'
+cluster: enterprise
 relatedPosts:
   - multi-location-healthcare-intake-guide
   - ebitda-impact-calculator

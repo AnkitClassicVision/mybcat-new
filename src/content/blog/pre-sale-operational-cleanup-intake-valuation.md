@@ -21,6 +21,7 @@ tags:
   - ebitda
 featuredImage: /images/blog/pre-sale-operational-cleanup-intake-valuation.webp
 canonical: 'https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/'
+cluster: enterprise
 relatedPosts:
   - ebitda-impact-calculator
   - multi-location-healthcare-intake-guide
@@ -155,7 +156,7 @@ You personally handle patient complaints that come through the phone. Staff esca
 
 ### What Is the Valuation Math?
 
-A practice with heavy owner dependency often trades at 1-2x lower EBITDA multiple than a comparable practice with transferable operations. On a practice with $2M EBITDA, that is $2-4M in lost valuation. Worth fixing.
+A practice with heavy owner dependency often trades at 1-2x lower EBITDA multiple than a comparable practice with transferable operations. On a practice with $2M EBITDA, that is $2-4M in lost valuation. Use our [EBITDA impact calculator](/blog/ebitda-impact-calculator/) to quantify your gap.
 
 ---
 

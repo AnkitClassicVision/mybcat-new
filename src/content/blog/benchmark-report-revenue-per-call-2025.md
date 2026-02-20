@@ -21,6 +21,7 @@ tags:
   - multi-location
 featuredImage: /images/blog/benchmark-report-revenue-per-call-2025.webp
 canonical: 'https://mybcat.com/blog/benchmark-report-revenue-per-call-2025/'
+cluster: enterprise
 relatedPosts:
   - missed-calls-revenue-leak-multi-location-healthcare
   - dso-case-study-15-location-missed-calls
@@ -103,7 +104,7 @@ This benchmark report combines three data sources:
 
 ## What Is the Dental Revenue Per Call?
 
-### Benchmark Data
+### Dental Benchmark Data
 
 | Metric | Median | Top Quartile | Bottom Quartile |
 |--------|--------|--------------|-----------------|
@@ -133,7 +134,7 @@ This benchmark report combines three data sources:
 
 ## What Is the Optometry Revenue Per Call?
 
-### Benchmark Data
+### Optometry Benchmark Data
 
 | Metric | Median | Top Quartile | Bottom Quartile |
 |--------|--------|--------------|-----------------|
@@ -163,7 +164,7 @@ This benchmark report combines three data sources:
 
 ## What Is the Veterinary Revenue Per Call?
 
-### Benchmark Data
+### Veterinary Benchmark Data
 
 | Metric | Median | Top Quartile | Bottom Quartile |
 |--------|--------|--------------|-----------------|
@@ -193,7 +194,7 @@ This benchmark report combines three data sources:
 
 ## What Is the Medical Practice Revenue Per Call?
 
-### Benchmark Data
+### Medical Practice Benchmark Data
 
 | Metric | Primary Care | Dermatology | Orthopedics |
 |--------|-------------|-------------|-------------|

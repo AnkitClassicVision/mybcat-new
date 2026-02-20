@@ -21,6 +21,7 @@ tags:
   - multi-location
 featuredImage: /images/blog/human-ai-hybrid-model-healthcare-intake.webp
 canonical: 'https://mybcat.com/blog/human-ai-hybrid-model-healthcare-intake/'
+cluster: ai-technology
 relatedPosts:
   - ai-receptionist-vs-virtual-front-desk-answering-service
   - multi-location-healthcare-intake-guide
@@ -38,7 +39,7 @@ This guide explains how to architect a hybrid model that delivers AI efficiency 
 1. [The False Choice: Why AI vs. Human Is Wrong](#the-false-choice-why-ai-vs-human-is-wrong)
 2. [When Does AI Excel in Healthcare Intake?](#when-does-ai-excel-in-healthcare-intake)
 3. [When Is Human Judgment Non-Negotiable?](#when-is-human-judgment-non-negotiable)
-4. [The Call Importance Matrix](#the-call-importance-matrix)
+4. [What Is the Call Importance Matrix?](#what-is-the-call-importance-matrix)
 5. [What Is the Hybrid Model Architecture?](#what-is-the-hybrid-model-architecture)
 6. [How Does Intelligent Routing Work?](#how-does-intelligent-routing-work)
 7. [How Do You Optimize Cost and Quality?](#how-do-you-optimize-cost-and-quality)
@@ -116,7 +117,7 @@ When these factors are present, human judgment is not a luxury. It is a requirem
 
 ---
 
-## The Call Importance Matrix
+## What Is the Call Importance Matrix?
 
 The hybrid model starts with a framework for categorizing calls. We call this the Call Importance Matrix.
 

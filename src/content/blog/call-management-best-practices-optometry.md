@@ -22,6 +22,7 @@ tags:
   - front desk efficiency
 featuredImage: /images/blog/call-management-best-practices-optometry.webp
 canonical: 'https://mybcat.com/blog/call-management-best-practices-optometry/'
+cluster: optometry
 relatedPosts:
   - medical-answering-services-eye-care-guide
   - virtual-receptionist-vs-front-desk-optometry
@@ -33,6 +34,13 @@ Every optometry practice depends on the phone. It is how patients book exams, as
 The consequences are measurable. Industry data suggests that practices with no formal call management process miss between 20% and 35% of inbound calls during business hours. Each missed call represents a patient who may never call back. When you consider that a single new patient is worth thousands of dollars in lifetime value, the math becomes impossible to ignore. Missed calls are a [direct revenue leak for multi-location healthcare groups](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) and solo practices alike.
 
 This guide lays out a practical, step-by-step approach to call management that any optometry office can implement, whether you have one front desk employee or a team of ten.
+
+## Table of Contents
+
+- [How Do You Audit Your Current Call Flow?](#how-do-you-audit-your-current-call-flow)
+- [What Are the 7 Best Practices for Optometry Call Management?](#what-are-the-7-best-practices-for-optometry-call-management)
+- [What Are the Most Common Call Management Mistakes?](#what-are-the-most-common-call-management-mistakes)
+- [How Do You Scale Call Management for Multi-Location Practices?](#how-do-you-scale-call-management-for-multi-location-practices)
 
 ## How Do You Audit Your Current Call Flow?
 
@@ -111,7 +119,7 @@ Schedule quarterly refresher sessions. Skills degrade over time, especially unde
 
 Modern cloud phone systems offer capabilities that were unavailable even five years ago. Call recording lets you review and coach on real interactions. CRM integration surfaces patient context the moment a call comes in, so your team can greet callers by name and reference their last visit. AI-assisted call routing directs patients to the right person based on the reason for their call, reducing transfers and hold times.
 
-Transcription and analytics tools can automatically flag calls that went poorly, identify common patient questions that your website should address, and quantify the revenue impact of your phone operations. For more on how technology can transform your call operations, see our post on [leveraging technology for streamlined call support](/blog/leveraging-technology-for-streamlined-call-support/).
+Transcription and analytics tools can automatically flag calls that went poorly, identify common patient questions that your website should address, and quantify the revenue impact of your phone operations. For more on how technology can transform your call operations, see our post on [using technology for streamlined call support](/blog/leveraging-technology-for-streamlined-call-support/).
 
 The goal is not to replace your team with technology. It is to give your team better tools so they can focus on what they do best: building relationships with patients and converting inquiries into appointments.
 
