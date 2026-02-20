@@ -1,7 +1,6 @@
 # mybcat.com — My Business Care Team (MyBCAT)
 
-## What this site is
-My Business Care Team (MyBCAT) provides managed patient access and front desk operations for healthcare practices and multi-location groups.
+> My Business Care Team (MyBCAT) provides centralized patient access operations for healthcare practices and multi-location groups. We handle inbound calls, scheduling, intake, recalls, and front-desk workflows with direct EHR/PMS scheduling and HIPAA-aligned processes. Founded 2018, headquartered in Marietta, GA. Serving 70+ practices nationwide.
 
 ## Canonical URL rules
 - Primary domain: https://mybcat.com
@@ -9,14 +8,9 @@ My Business Care Team (MyBCAT) provides managed patient access and front desk op
 
 ## Core pages
 - Home: https://mybcat.com/
-- Enterprise: https://mybcat.com/enterprise/
-- Solutions: https://mybcat.com/solutions/
-- Industries: https://mybcat.com/industries/
-- Compare: https://mybcat.com/compare/
-- Case studies: https://mybcat.com/case-studies/
+- About: https://mybcat.com/about/
 - How it works: https://mybcat.com/how-it-works/
 - Pricing: https://mybcat.com/pricing/
-- About: https://mybcat.com/about/
 - Contact: https://mybcat.com/contact/
 - FAQ: https://mybcat.com/faq/
 - Blog: https://mybcat.com/blog/
@@ -32,6 +26,15 @@ My Business Care Team (MyBCAT) provides managed patient access and front desk op
 - Case studies JSON: https://mybcat.com/api/public/case-studies.json
 - Glossary JSON: https://mybcat.com/api/public/glossary.json
 
+## Solutions
+- Medical answering service: https://mybcat.com/solutions/medical-answering-service/
+- Patient recall: https://mybcat.com/solutions/patient-recall/
+- No-show recovery: https://mybcat.com/solutions/no-show-recovery/
+- Front desk outsourcing: https://mybcat.com/solutions/front-desk-outsourcing/
+- Virtual medical scribe: https://mybcat.com/solutions/virtual-medical-scribe/
+- Medical virtual assistant: https://mybcat.com/solutions/medical-virtual-assistant/
+- Integrations: https://mybcat.com/solutions/integrations/
+
 ## Enterprise
 - Enterprise overview: https://mybcat.com/enterprise/
 - Patient access center: https://mybcat.com/enterprise/patient-access-center/
@@ -42,15 +45,6 @@ My Business Care Team (MyBCAT) provides managed patient access and front desk op
 - Optometry groups: https://mybcat.com/enterprise/optometry-groups/
 - Veterinary groups: https://mybcat.com/enterprise/veterinary-groups/
 - Urgent care chains: https://mybcat.com/enterprise/urgent-care-chains/
-
-## Solutions
-- Medical answering service: https://mybcat.com/solutions/medical-answering-service/
-- Patient recall: https://mybcat.com/solutions/patient-recall/
-- No-show recovery: https://mybcat.com/solutions/no-show-recovery/
-- Front desk outsourcing: https://mybcat.com/solutions/front-desk-outsourcing/
-- Integrations: https://mybcat.com/solutions/integrations/
-- Virtual medical scribe: https://mybcat.com/solutions/virtual-medical-scribe/
-- Medical virtual assistant: https://mybcat.com/solutions/medical-virtual-assistant/
 
 ## Industries
 - Optometry: https://mybcat.com/industries/optometry/
@@ -76,6 +70,18 @@ My Business Care Team (MyBCAT) provides managed patient access and front desk op
 - Multi-Location Dental DSO: https://mybcat.com/case-studies/multi-location-dental-dso/
 - Multi-Location Optometry Group: https://mybcat.com/case-studies/multi-location-optometry-group/
 
+## Trust & compliance
+- HIPAA compliance: https://mybcat.com/hipaa-compliance/
+- SOC 2: https://mybcat.com/soc-2/
+- Privacy policy: https://mybcat.com/privacy-policy/
+- Terms: https://mybcat.com/terms/
+- GDPR: https://mybcat.com/gdpr/
+
+## Resources
+- ROI calculator: https://mybcat.com/resources/roi-calculator/
+- Book (Optometry Redefined): https://mybcat.com/resources/book/
+- Podcast (Optometrists Building Empires): https://mybcat.com/resources/podcast/
+
 ## Glossary
 - Patient acquisition: https://mybcat.com/glossary/patient-acquisition/
 - Patient retention: https://mybcat.com/glossary/patient-retention/
@@ -96,15 +102,60 @@ My Business Care Team (MyBCAT) provides managed patient access and front desk op
 - Centralized scheduling: https://mybcat.com/glossary/centralized-scheduling/
 - Multi-location practice: https://mybcat.com/glossary/multi-location-practice/
 
-## Trust & compliance
-- HIPAA compliance: https://mybcat.com/hipaa-compliance/
-- SOC 2: https://mybcat.com/soc-2/
-- Privacy policy: https://mybcat.com/privacy-policy/
-- Terms: https://mybcat.com/terms/
-- GDPR: https://mybcat.com/gdpr/
+## Blog — Enterprise & multi-location operations
+- Multi-location healthcare intake guide: https://mybcat.com/blog/multi-location-healthcare-intake-guide/
+- Centralized vs distributed intake framework: https://mybcat.com/blog/centralized-vs-distributed-intake-framework/
+- Healthcare group operations benchmarks: https://mybcat.com/blog/healthcare-group-operations-benchmarks/
+- KPI dashboard for multi-location intake: https://mybcat.com/blog/kpi-dashboard-multi-location-intake/
+- Multi-location healthcare EBITDA: https://mybcat.com/blog/multi-location-healthcare-ebitda/
+- PE-backed healthcare operations: https://mybcat.com/blog/pe-backed-healthcare-operations/
+- Healthcare operations M&A integration: https://mybcat.com/blog/healthcare-operations-ma-integration/
+- Pre-sale operational cleanup: https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/
+- DSO integration playbook: https://mybcat.com/blog/dso-integration-playbook/
+- DSO patient retention strategy: https://mybcat.com/blog/dso-patient-retention-strategy/
+- 90-day integration playbook for acquisitions: https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions/
+- Optometry network operations at scale: https://mybcat.com/blog/optometry-network-operations-scale/
 
-## Resources
-- ROI calculator: https://mybcat.com/resources/roi-calculator/
-- Book: https://mybcat.com/resources/book/
-- Podcast: https://mybcat.com/resources/podcast/
+## Blog — Patient recall & reactivation
+- Centralized patient recall multi-location: https://mybcat.com/blog/centralized-patient-recall-multi-location/
+- Patient recall campaign framework: https://mybcat.com/blog/patient-recall-campaign-framework/
+- Patient recall segmentation: https://mybcat.com/blog/patient-recall-segmentation/
+- Patient recall scripts: https://mybcat.com/blog/patient-recall-scripts/
+- Postcard vs text vs phone for recall: https://mybcat.com/blog/patient-recall-postcard-vs-text-vs-phone/
+- Dormant patient reactivation: https://mybcat.com/blog/dormant-patient-reactivation/
+- Patient reactivation campaign timeline: https://mybcat.com/blog/patient-reactivation-campaign-timeline/
+- Reactivation campaign KPIs: https://mybcat.com/blog/reactivation-campaign-kpis/
+- Patient reactivation ROI: https://mybcat.com/blog/patient-reactivation-roi/
+- Case study — dormant patient recovery: https://mybcat.com/blog/case-study-dormant-patient-recovery/
+- Automated vs human patient recall: https://mybcat.com/blog/automated-vs-human-patient-recall/
 
+## Blog — No-show reduction & scheduling
+- Multi-location no-show reduction: https://mybcat.com/blog/multi-location-no-show-reduction/
+- No-show recovery program: https://mybcat.com/blog/no-show-recovery-program/
+- Appointment reminder best practices: https://mybcat.com/blog/appointment-reminder-best-practices/
+
+## Blog — Revenue & ROI
+- Missed calls as revenue leak: https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/
+- Benchmark report — revenue per call: https://mybcat.com/blog/benchmark-report-revenue-per-call-2025/
+- Healthcare call center ROI for enterprise: https://mybcat.com/blog/healthcare-call-center-roi-enterprise/
+- EBITDA impact calculator: https://mybcat.com/blog/ebitda-impact-calculator/
+- Missed call revenue calculator: https://mybcat.com/blog/missed-call-revenue-calculator/
+- DSO case study — 15-location missed calls: https://mybcat.com/blog/dso-case-study-15-location-missed-calls/
+- Optometry case study — 95% answer rate: https://mybcat.com/blog/optometry-case-study-95-answer-rate/
+
+## Blog — Staffing & operations
+- Healthcare front desk staffing crisis: https://mybcat.com/blog/healthcare-front-desk-staffing-crisis-2025/
+- Human-AI hybrid model for healthcare intake: https://mybcat.com/blog/human-ai-hybrid-model-healthcare-intake/
+- AI receptionist vs virtual front desk: https://mybcat.com/blog/ai-receptionist-vs-virtual-front-desk-answering-service/
+- 5 signs you're ready to scale: https://mybcat.com/blog/5-signs-youre-ready-to-scale/
+
+## Blog — Industry-specific
+- Dental answering service California: https://mybcat.com/blog/dental-answering-service-california/
+- Dental group acquisition due diligence: https://mybcat.com/blog/dental-group-acquisition-due-diligence/
+- Dental hygiene recall: https://mybcat.com/blog/dental-hygiene-recall/
+- After-hours veterinary call management: https://mybcat.com/blog/after-hours-veterinary-call-management/
+- Veterinary call service Texas: https://mybcat.com/blog/veterinary-call-service-texas/
+- Veterinary emergency triage protocols: https://mybcat.com/blog/veterinary-emergency-triage-protocols/
+- Animal hospital patient intake: https://mybcat.com/blog/animal-hospital-patient-intake/
+- Optometry retail clinical intake guide: https://mybcat.com/blog/optometry-retail-clinical-intake-guide/
+- Optometry recall campaign: https://mybcat.com/blog/optometry-recall-campaign/

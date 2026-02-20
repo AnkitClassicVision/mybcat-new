@@ -1,23 +1,64 @@
-# mybcat.com — My Business Care Team (MyBCAT)
+# My Business Care Team (MyBCAT)
 
-## What this site is
-My Business Care Team (MyBCAT) provides managed patient access and front desk operations for healthcare practices and multi-location groups.
+> My Business Care Team (MyBCAT) provides centralized patient access operations for healthcare practices and multi-location groups. We handle inbound calls, scheduling, intake, recalls, and front-desk workflows with direct EHR/PMS scheduling and HIPAA-aligned processes. Founded 2018, headquartered in Marietta, GA. Serving 70+ practices nationwide.
 
 ## Canonical URL rules
 - Primary domain: https://mybcat.com
-- Trailing slashes are canonical (e.g., /about/ not /about)
+- Trailing slashes are canonical (e.g., /solutions/ not /solutions)
 
-## Start here
-- Enterprise: https://mybcat.com/enterprise/
-- Solutions: https://mybcat.com/solutions/
-- Industries: https://mybcat.com/industries/
+## Start here (core)
+- Home: https://mybcat.com/
 - How it works: https://mybcat.com/how-it-works/
 - Pricing: https://mybcat.com/pricing/
-- Case studies: https://mybcat.com/case-studies/
-- Glossary: https://mybcat.com/glossary/
-- FAQ: https://mybcat.com/faq/
 - Contact: https://mybcat.com/contact/
-- Trust & compliance: https://mybcat.com/hipaa-compliance/
+- FAQ: https://mybcat.com/faq/
+- About: https://mybcat.com/about/
+
+## Solutions (what we do)
+- Medical Answering Service: https://mybcat.com/solutions/medical-answering-service/
+- Patient Recall: https://mybcat.com/solutions/patient-recall/
+- No-Show Recovery: https://mybcat.com/solutions/no-show-recovery/
+- Front Desk Outsourcing: https://mybcat.com/solutions/front-desk-outsourcing/
+- Virtual Medical Scribe: https://mybcat.com/solutions/virtual-medical-scribe/
+- Medical Virtual Assistant: https://mybcat.com/solutions/medical-virtual-assistant/
+- EHR & PMS Integrations: https://mybcat.com/solutions/integrations/
+
+## Enterprise (multi-location)
+- Enterprise overview: https://mybcat.com/enterprise/
+- Patient access center: https://mybcat.com/enterprise/patient-access-center/
+- Centralized scheduling: https://mybcat.com/enterprise/centralized-scheduling/
+- Multi-location recall: https://mybcat.com/enterprise/multi-location-recall/
+- Reporting & QA: https://mybcat.com/enterprise/reporting-qa/
+
+## Industries
+- Optometry & Ophthalmology: https://mybcat.com/industries/optometry/
+- Dental: https://mybcat.com/industries/dental/
+- Veterinary: https://mybcat.com/industries/veterinary/
+- MedSpa & Aesthetics: https://mybcat.com/industries/medspa/
+- Dermatology: https://mybcat.com/industries/dermatology/
+- Urgent Care: https://mybcat.com/industries/urgent-care/
+- ENT & Audiology: https://mybcat.com/industries/ent/
+
+## Proof (results + case studies)
+- Case studies hub: https://mybcat.com/case-studies/
+- Classic Vision Care: https://mybcat.com/case-studies/classic-vision-care/
+- Dittman Eye Care: https://mybcat.com/case-studies/dittman-eye-care/
+- Multi-Location Dental DSO: https://mybcat.com/case-studies/multi-location-dental-dso/
+- Multi-Location Optometry Group: https://mybcat.com/case-studies/multi-location-optometry-group/
+
+## Trust & compliance
+- HIPAA compliance: https://mybcat.com/hipaa-compliance/
+- Security controls (SOC 2): https://mybcat.com/soc-2/
+- Privacy policy: https://mybcat.com/privacy-policy/
+- Terms: https://mybcat.com/terms/
+- GDPR: https://mybcat.com/gdpr/
+
+## Resources
+- ROI calculator: https://mybcat.com/resources/roi-calculator/
+- Book (Optometry Redefined): https://mybcat.com/resources/book/
+- Podcast (Optometrists Building Empires): https://mybcat.com/resources/podcast/
+- Blog: https://mybcat.com/blog/
+- Glossary: https://mybcat.com/glossary/
 
 ## Machine-readable catalog
 - OpenAPI: https://mybcat.com/.well-known/openapi.json
@@ -26,4 +67,6 @@ My Business Care Team (MyBCAT) provides managed patient access and front desk op
 - Comparisons JSON: https://mybcat.com/api/public/comparisons.json
 - Case studies JSON: https://mybcat.com/api/public/case-studies.json
 - Glossary JSON: https://mybcat.com/api/public/glossary.json
-
+- RSS feed: https://mybcat.com/rss.xml
+- XML sitemap: https://mybcat.com/sitemap-index.xml
+- Full site map for LLMs: https://mybcat.com/llms-full.txt

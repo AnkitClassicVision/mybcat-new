@@ -576,6 +576,79 @@ export function generatePersonSchema(person: {
 }
 
 /**
+ * PodcastSeries schema for the podcast page
+ */
+export function generatePodcastSeriesSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'PodcastSeries',
+    '@id': `${company.site.url}/resources/podcast/#podcastseries`,
+    name: 'Optometrists Building Empires',
+    description: 'Weekly conversations with practice owners who are scaling, selling, and succeeding. Real stories from the trenches of multi-location optometry ownership.',
+    url: 'https://buildingempires.live',
+    webFeed: 'https://buildingempires.live',
+    author: {
+      '@type': 'Person',
+      name: company.ownership.founder,
+      jobTitle: company.ownership.founderTitle,
+      url: `${company.site.url}/about/`,
+      worksFor: {
+        '@id': `${company.site.url}/#organization`
+      }
+    },
+    productionCompany: {
+      '@id': `${company.site.url}/#organization`
+    },
+    inLanguage: 'en-US',
+    genre: ['Business', 'Healthcare', 'Optometry'],
+    sameAs: [
+      'https://podcasts.apple.com/us/podcast/optometrists-building-empires/id1762685070',
+      'https://open.spotify.com/show/5w1H9BBwRXvBSSkexePYxG'
+    ]
+  };
+}
+
+/**
+ * Book schema for the book page
+ */
+export function generateBookSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Book',
+    '@id': `${company.site.url}/resources/book/#book`,
+    name: 'Optometry Redefined: Master Global Resourcing for Peak Performance',
+    author: {
+      '@type': 'Person',
+      name: company.ownership.founder,
+      jobTitle: company.ownership.founderTitle,
+      url: `${company.site.url}/about/`,
+      worksFor: {
+        '@id': `${company.site.url}/#organization`
+      }
+    },
+    publisher: {
+      '@id': `${company.site.url}/#organization`
+    },
+    description: 'The definitive playbook for practice owners seeking to scale without sacrificing margins, sanity, or patient experience. Drawing from operational systems at Classic Vision Care and multi-location practices nationwide.',
+    url: `${company.site.url}/resources/book/`,
+    bookFormat: 'https://schema.org/EBook',
+    numberOfPages: 200,
+    inLanguage: 'en-US',
+    genre: ['Business', 'Healthcare Management', 'Optometry'],
+    about: [
+      'Healthcare Practice Operations',
+      'Global Resourcing',
+      'Multi-Location Practice Management',
+      'Lean Six Sigma for Healthcare',
+      'EBITDA Optimization'
+    ],
+    sameAs: [
+      'https://www.amazon.com/Optometry-Redefined-Master-Resourcing-Performance-ebook/dp/B0FKK13S4Z/'
+    ]
+  };
+}
+
+/**
  * Serialize schema to JSON string for embedding
  */
 export function serializeSchema(schema: object): string {

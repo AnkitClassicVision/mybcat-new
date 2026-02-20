@@ -1,5 +1,6 @@
 # robots.txt for mybcat.com
-# Consolidated rules for all crawlers
+# Policy: Visibility-first (search bots allowed), training bots blocked by default
+# Updated 2026-02-20 for AI search/training crawler differentiation
 
 User-agent: *
 Allow: /
@@ -10,11 +11,12 @@ Disallow: /admin/
 Disallow: /preview/
 Disallow: /search
 
-# API policy: keep internal APIs blocked but allow the public catalog endpoints
+# API policy: block internal APIs, allow public catalog endpoints
 Disallow: /api/
 Allow: /api/public/
 
-# OpenAI
+# --- OpenAI ---
+# OAI-SearchBot: controls visibility in ChatGPT search results
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /draft/
@@ -24,7 +26,13 @@ Disallow: /search
 Disallow: /api/
 Allow: /api/public/
 
+# GPTBot: training crawler (blocked — opt out of training data usage)
 User-agent: GPTBot
+Disallow: /
+
+# --- Anthropic ---
+# Claude-SearchBot: controls visibility in Claude search results
+User-agent: Claude-SearchBot
 Allow: /
 Disallow: /draft/
 Disallow: /admin/
@@ -33,9 +41,36 @@ Disallow: /search
 Disallow: /api/
 Allow: /api/public/
 
-# Note: /_astro/ is ALLOWED - blocking it breaks CSS/JS rendering
+# ClaudeBot: training crawler (blocked — opt out of training data usage)
+User-agent: ClaudeBot
+Disallow: /
+
+# --- Perplexity ---
+# PerplexityBot: search visibility in Perplexity answers
+User-agent: PerplexityBot
+Allow: /
+Disallow: /draft/
+Disallow: /admin/
+Disallow: /preview/
+Disallow: /search
+Disallow: /api/
+Allow: /api/public/
+
+# --- Google AI training controls ---
+# Google-Extended: controls Gemini training/grounding usage (does NOT affect Search ranking)
+User-agent: Google-Extended
+Disallow: /
+
+# --- Apple AI training controls ---
+# Applebot-Extended: controls Apple AI training usage (does NOT affect search inclusion)
+User-agent: Applebot-Extended
+Disallow: /
+
+# Note: /_astro/ is ALLOWED — blocking it breaks CSS/JS rendering
 # which hurts mobile-first indexing scores
+
+# Note: ChatGPT-User and Perplexity-User are user-initiated fetchers
+# and may not respect robots.txt per provider documentation
 
 # Sitemap location
 Sitemap: https://mybcat.com/sitemap-index.xml
-
