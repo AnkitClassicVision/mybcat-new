@@ -4,6 +4,8 @@
     "minProseDensity": 0.6,
     "minExternalCitations": 2,
     "minInternalLinks": 5,
+    "minWordCountForTOC": 2000,
+    "minH2QuestionRatio": 0.70,
     "legacyCutoffDate": "2026-01-01"
   },
   "requiredSections": {

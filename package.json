@@ -33,6 +33,8 @@
     "validate:content-quality": "node scripts/validators/validate-content-quality.js",
     "validate:cross-links": "node scripts/validators/validate-cross-links.js",
     "validate:pipeline-stages": "node scripts/validators/validate-pipeline-stages.js",
+    "validate:citations": "node scripts/validators/validate-citations.js",
+    "evaluate-post": "node scripts/evaluate-post.js",
     "validate:all": "node scripts/validators/validate-all.js",
     "audit:seo": "npm run validate:all -- --verbose"
   },

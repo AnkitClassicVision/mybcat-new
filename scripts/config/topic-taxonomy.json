@@ -1,0 +1,58 @@
+{
+  "description": "Approved topic clusters for blog content. Every post should map to one cluster.",
+  "strategy": "broad-multi-vertical",
+  "clusters": {
+    "patient-recall": {
+      "pillar": "/solutions/patient-recall/",
+      "description": "Patient recall campaigns, reactivation, dormant patient recovery"
+    },
+    "no-show-recovery": {
+      "pillar": "/solutions/no-show-recovery/",
+      "description": "No-show reduction, appointment adherence, cancellation recovery"
+    },
+    "enterprise": {
+      "pillar": "/enterprise/",
+      "description": "Multi-location operations, PE-backed groups, DSO/MSO strategy, centralized intake"
+    },
+    "bpo-outsourcing": {
+      "pillar": "/solutions/front-desk-outsourcing/",
+      "description": "Front desk outsourcing, virtual staffing, call handling, BPO for healthcare"
+    },
+    "starting-practice": {
+      "pillar": "/blog/",
+      "description": "New practice startup: equipment, location, staffing, finances"
+    },
+    "compliance": {
+      "pillar": "/hipaa-compliance/",
+      "description": "HIPAA, SOC 2, security, regulatory compliance for healthcare operations"
+    },
+    "ai-technology": {
+      "pillar": "/blog/",
+      "description": "AI in healthcare operations, virtual receptionists, automation"
+    },
+    "patient-communications": {
+      "pillar": "/solutions/medical-answering-service/",
+      "description": "Phone systems, call management, patient communication channels"
+    },
+    "retention": {
+      "pillar": "/blog/",
+      "description": "Patient retention, churn reduction, loyalty strategies"
+    },
+    "private-practice": {
+      "pillar": "/blog/",
+      "description": "Independent practice operations, growth, acquisition prep"
+    },
+    "veterinary": {
+      "pillar": "/industries/veterinary/",
+      "description": "Veterinary-specific intake, triage, after-hours, emergency protocols"
+    },
+    "optometry": {
+      "pillar": "/industries/optometry/",
+      "description": "Optometry-specific operations, eye care practice management"
+    },
+    "dental": {
+      "pillar": "/industries/dental/",
+      "description": "Dental-specific operations, DSO management, dental practice growth"
+    }
+  }
+}

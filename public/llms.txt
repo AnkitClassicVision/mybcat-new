@@ -13,6 +13,7 @@
 - Contact: https://mybcat.com/contact/
 - FAQ: https://mybcat.com/faq/
 - About: https://mybcat.com/about/
+- AI Profile: https://mybcat.com/ai-profile/
 
 ## Solutions (what we do)
 - Medical Answering Service: https://mybcat.com/solutions/medical-answering-service/

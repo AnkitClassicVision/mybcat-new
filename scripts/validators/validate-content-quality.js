@@ -27,6 +27,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const CONFIG_PATH = path.join(__dirname, '..', 'config', 'content-quality-rules.json');
+const TAXONOMY_PATH = path.join(__dirname, '..', 'config', 'topic-taxonomy.json');
 const BLOG_DIR = path.join(__dirname, '..', '..', 'src', 'content', 'blog');
 
 const colors = {
@@ -41,6 +42,11 @@ const colors = {
 
 function loadConfig() {
   return JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf-8'));
+}
+
+function loadTaxonomy() {
+  if (!fs.existsSync(TAXONOMY_PATH)) return null;
+  return JSON.parse(fs.readFileSync(TAXONOMY_PATH, 'utf-8'));
 }
 
 /**
@@ -161,9 +167,105 @@ function countEmDashes(body, emDashChar) {
 }
 
 /**
- * Validate a single file. Returns { errors: string[], warnings: string[] }.
+ * Structural H2 headings that should not count toward question ratio.
  */
-export function validateFile(filePath, config) {
+const STRUCTURAL_H2S = new Set([
+  'table of contents',
+  'sources',
+  'related reading',
+  'related resources',
+  'key takeaways',
+  'next steps',
+  'common questions',
+  'frequently asked questions',
+]);
+
+/**
+ * Check H2 question ratio (excluding structural headings).
+ * Returns { total, questions, ratio, nonQuestionH2s }.
+ */
+function checkH2QuestionRatio(body) {
+  const h2Regex = /^## (.+)$/gm;
+  let total = 0;
+  let questions = 0;
+  const nonQuestionH2s = [];
+  let match;
+
+  while ((match = h2Regex.exec(body)) !== null) {
+    const text = match[1].trim();
+    const lower = text.toLowerCase();
+
+    // Skip structural headings
+    if (STRUCTURAL_H2S.has(lower)) continue;
+
+    total++;
+    if (text.endsWith('?')) {
+      questions++;
+    } else {
+      nonQuestionH2s.push(text);
+    }
+  }
+
+  const ratio = total > 0 ? questions / total : 1;
+  return { total, questions, ratio, nonQuestionH2s };
+}
+
+/**
+ * Check if TOC exists for posts that need one (>= threshold words).
+ * Returns { hasTOC, wordCount, needsTOC }.
+ */
+function checkTOC(body, wordCount, threshold) {
+  const needsTOC = wordCount >= threshold;
+  const hasTOC = /^## Table of Contents$/m.test(body);
+  return { hasTOC, wordCount, needsTOC };
+}
+
+/**
+ * Slugify a heading text (matching common markdown renderers).
+ */
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .trim();
+}
+
+/**
+ * Check for duplicate heading slugs within a post.
+ * Returns array of { slug, headings } for duplicates.
+ */
+function checkDuplicateSlugs(body) {
+  const headingRegex = /^(#{2,3}) (.+)$/gm;
+  const slugMap = new Map();
+  let match;
+
+  while ((match = headingRegex.exec(body)) !== null) {
+    const text = match[2].trim();
+    const slug = slugify(text);
+    if (!slugMap.has(slug)) {
+      slugMap.set(slug, []);
+    }
+    slugMap.get(slug).push(text);
+  }
+
+  const duplicates = [];
+  for (const [slug, headings] of slugMap) {
+    if (headings.length > 1) {
+      duplicates.push({ slug, headings });
+    }
+  }
+  return duplicates;
+}
+
+/**
+ * Validate a single file. Returns { errors: string[], warnings: string[] }.
+ * @param {string} filePath
+ * @param {object} config
+ * @param {object} [taxonomy] - Optional topic taxonomy for cluster validation
+ */
+export function validateFile(filePath, config, taxonomy) {
   const errors = [];
   const warnings = [];
 
@@ -208,6 +310,40 @@ export function validateFile(filePath, config) {
     errors.push(`Internal links ${internalLinks} < ${config.thresholds.minInternalLinks}`);
   }
 
+  // Topic cluster validation (soft-fail)
+  if (taxonomy && taxonomy.clusters) {
+    const cluster = data.cluster;
+    if (!cluster) {
+      warnings.push('No "cluster" in frontmatter (required for topical authority)');
+    } else {
+      const normalizedCluster = cluster.replace(/^["']|["']$/g, '');
+      if (!taxonomy.clusters[normalizedCluster]) {
+        warnings.push(`Cluster "${normalizedCluster}" not in approved taxonomy. Valid: ${Object.keys(taxonomy.clusters).join(', ')}`);
+      }
+    }
+  }
+
+  // TOC check (soft-fail for now — warns when >= threshold words and no TOC)
+  const tocThreshold = config.thresholds.minWordCountForTOC || 2000;
+  const tocResult = checkTOC(body, wordCount, tocThreshold);
+  if (tocResult.needsTOC && !tocResult.hasTOC) {
+    warnings.push(`Post has ${wordCount} words but no "## Table of Contents" (required at >= ${tocThreshold})`);
+  }
+
+  // H2 question ratio (soft-fail — warns when below threshold)
+  const h2Threshold = config.thresholds.minH2QuestionRatio || 0.70;
+  const h2Result = checkH2QuestionRatio(body);
+  if (h2Result.total > 0 && h2Result.ratio < h2Threshold) {
+    warnings.push(`H2 question ratio ${(h2Result.ratio * 100).toFixed(0)}% < ${(h2Threshold * 100).toFixed(0)}% (${h2Result.questions}/${h2Result.total} are questions). Non-question H2s: ${h2Result.nonQuestionH2s.slice(0, 3).join('; ')}${h2Result.nonQuestionH2s.length > 3 ? '...' : ''}`);
+  }
+
+  // Duplicate heading slugs (soft-fail)
+  const duplicateSlugs = checkDuplicateSlugs(body);
+  if (duplicateSlugs.length > 0) {
+    const slugList = duplicateSlugs.map(d => `"${d.slug}" (${d.headings.length}x)`).join(', ');
+    warnings.push(`Duplicate heading slugs: ${slugList}`);
+  }
+
   // Banned phrases (soft-fail)
   const banned = findBannedPhrases(body, config.bannedPhrases.softFail);
   if (banned.length > 0) {
@@ -234,6 +370,7 @@ async function main() {
   console.log(`${colors.bold}Content Quality Validator${colors.reset}\n`);
 
   const config = loadConfig();
+  const taxonomy = loadTaxonomy();
 
   if (!fs.existsSync(BLOG_DIR)) {
     console.log('No blog directory found.');
@@ -285,7 +422,7 @@ async function main() {
     }
 
     checkedCount++;
-    const result = validateFile(filePath, config);
+    const result = validateFile(filePath, config, taxonomy);
 
     if (result.errors.length > 0 || result.warnings.length > 0) {
       const slug = file.replace(/\.(md|mdx)$/, '');
