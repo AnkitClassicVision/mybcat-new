@@ -300,11 +300,11 @@ This approach suits situations with multiple risk factors. It combines a reduced
 
 The chart audit provides ground truth on patient retention:
 
-### Sample Selection
+### How Should You Select the Sample?
 
 The recommended sample includes 50-100 patient charts stratified by patient tenure (new, established, and long-term patients), visit frequency (regular, occasional, and sporadic visitors), and treatment type (hygiene only, restorative, and comprehensive care patients).
 
-### Chart Review Checklist
+### What Should the Chart Review Checklist Include?
 
 For each sampled chart:
 - [ ] Last visit date
@@ -316,7 +316,7 @@ For each sampled chart:
 - [ ] Notes on patient relationship
 - [ ] Any complaints or issues noted
 
-### Pattern Analysis
+### What Should You Look for in Pattern Analysis?
 
 When analyzing patterns across the sample, determine what percentage of patients are actively engaged, how many have declined recommended treatment, whether patients are becoming less frequent over time, and whether contact information is up to date.
 
@@ -347,15 +347,6 @@ Deal structure options for high retention risk include extended seller transitio
 **The bottom line:** The purchase price assumes patients will stay. If your due diligence reveals retention risk, either adjust the price, structure protections, or walk away. The worst outcome is paying full price for patients who leave within 18 months.
 
 For strategies to improve retention post-acquisition, see our [healthcare operations M&A integration guide](/blog/healthcare-operations-ma-integration/). For ongoing retention benchmarks, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Acquiring a Dental Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">DSOs and dental acquirers partner with MyBCAT for post-acquisition patient retention programs that protect the investment by maintaining 85%+ patient retention through transitions.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Related Reading
 
 - [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)

@@ -112,12 +112,3 @@ At its best, a BPO partnership does more than streamline operations; it propels 
 Furthermore, with the backing of an adept BPO partner, optometrists can go deeper into specialized treatments, keeping pace with advancements in eye care. This alignment between clinical objectives and BPO capabilities ensures that patients receive the best possible care, further solidifying the practice's reputation for clinical excellence.
 
 For the forward-looking private practice, BPO is not merely an outsourced service; it's an integral extension of the team. As optometry practices navigate the intricate dance of clinical care, operational efficiency, and patient satisfaction, the right BPO partner can be the guiding hand that harmonizes these factors.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

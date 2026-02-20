@@ -233,7 +233,7 @@ Reduce central team burden:
 
 Patient retention becomes more challenging, and more critical. As you scale:
 
-### The Scale-Retention Challenge
+### What Is the Scale-Retention Challenge?
 
 | Network Size | Typical Retention | Top Performer | Gap Cost |
 |--------------|------------------|---------------|----------|
@@ -248,7 +248,7 @@ Retention often declines as networks scale due to:
 - Consistency issues across locations
 - Loss of founder "touch"
 
-### Retention Systems by Phase
+### What Retention Systems Does Each Phase Need?
 
 **Phase 1 (5-15 locations):**
 - Implement centralized recall system
@@ -268,7 +268,7 @@ Retention often declines as networks scale due to:
 - Integrated patient lifecycle management
 - Advanced segmentation and targeting
 
-### Retention Metrics to Track
+### Which Retention Metrics Should You Track?
 
 | Metric | Frequency | Target |
 |--------|-----------|--------|
@@ -280,7 +280,7 @@ Retention often declines as networks scale due to:
 
 ## What Should You Standardize and When?
 
-### What to Standardize (and When)
+### What Should You Standardize (and When)?
 
 | Area | Phase 1 | Phase 2 | Phase 3 |
 |------|---------|---------|---------|
@@ -291,7 +291,7 @@ Retention often declines as networks scale due to:
 | Patient communication | Begin | Automate | Personalize |
 | Quality standards | Define | Measure | Benchmark |
 
-### Standardization Principles
+### What Are the Key Standardization Principles?
 
 **Standardize the what, localize the how:**
 - Standard: "All patients receive recall communication at 11 months"
@@ -309,7 +309,7 @@ Retention often declines as networks scale due to:
 
 ## What Staffing Models Work at Each Phase?
 
-### Provider Staffing
+### How Should You Approach Provider Staffing?
 
 | Phase | Model | OD Ratio |
 |-------|-------|----------|
@@ -323,7 +323,7 @@ Retention often declines as networks scale due to:
 - Ownership/partnership opportunities
 - Clinical autonomy with business support
 
-### Support Staff Ratios
+### What Are the Right Support Staff Ratios?
 
 | Role | Target Ratio | Notes |
 |------|--------------|-------|
@@ -332,7 +332,7 @@ Retention often declines as networks scale due to:
 | Front desk | 1-1.5 per location | Scheduling, check-in/out |
 | Optical manager | 1 per 2-3 locations | Regional responsibility |
 
-### Centralized Staffing
+### How Should Centralized Staffing Scale?
 
 | Function | Phase 1 | Phase 2 | Phase 3 |
 |----------|---------|---------|---------|
@@ -344,7 +344,7 @@ Retention often declines as networks scale due to:
 
 ## How Does Financial Management Change by Phase?
 
-### Revenue Benchmarks
+### What Are the Revenue Benchmarks?
 
 | Metric | Phase 1 Target | Phase 2 Target | Phase 3 Target |
 |--------|---------------|----------------|----------------|
@@ -353,7 +353,7 @@ Retention often declines as networks scale due to:
 | Optical revenue % | 55-65% | 55-65% | 50-60% |
 | Medical revenue % | 10-15% | 15-20% | 20-30% |
 
-### Margin Evolution
+### How Do Margins Evolve by Phase?
 
 | Metric | Phase 1 | Phase 2 | Phase 3 |
 |--------|---------|---------|---------|
@@ -361,7 +361,7 @@ Retention often declines as networks scale due to:
 | Corporate EBITDA | 15-20% | 18-24% | 20-26% |
 | G&A as % revenue | 8-12% | 7-10% | 6-9% |
 
-### Investment Requirements
+### What Are the Investment Requirements?
 
 | Phase | Capex/Location | Central Infrastructure |
 |-------|---------------|----------------------|
@@ -427,15 +427,6 @@ Scaling optometry operations from 5 to 50 locations requires phase-appropriate s
 The networks that successfully scale are those that recognize when their current approach has reached its limits and proactively build the infrastructure for the next phase.
 
 For retention strategies at scale, see our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/). For centralized operations implementation, review our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Scaling Your Optometry Network?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Growing optometry networks partner with MyBCAT for patient retention infrastructure that scales. Maintaining 80%+ retention even as you add locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Sources
 
 - [MyBCAT: Operational Efficiency in Optometry](https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture/)

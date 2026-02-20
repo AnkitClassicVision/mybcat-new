@@ -179,12 +179,3 @@ You also have the option to choose between building your own processes, training
 At My Business Care Team, we are a top-tier BPO specializing in optometry and ophthalmology clinics. We have helped numerous eye care clinics solve the complexities of outsourcing. We also share plenty of helpful advice and tips on our blog, whether you're just getting started or looking to optimize existing outsourced functions.
 
 Whether you're doing it on your own or considering a partnership with a BPO, we're here to help. We're happy to answer any questions. After all, our mission is to help eye care clinics achieve their highest potential through effective outsourcing.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

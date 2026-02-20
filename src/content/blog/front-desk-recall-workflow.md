@@ -30,7 +30,7 @@ The front desk is where recall programs succeed or fail. A practice can have the
 ## Table of Contents
 
 - [Why Does Workflow Matter More Than Tools?](#why-does-workflow-matter-more-than-tools)
-- [The Weekly Recall Workflow](#the-weekly-recall-workflow)
+- [What Does the Weekly Recall Workflow Look Like?](#what-does-the-weekly-recall-workflow-look-like)
 - [What Daily Micro-Tasks Keep Recall on Track?](#what-daily-micro-tasks-keep-recall-on-track)
 - [Why Is Pre-Scheduling the Most Effective Recall Tactic?](#why-is-pre-scheduling-the-most-effective-recall-tactic)
 - [What Metrics Should You Track?](#what-metrics-should-you-track)
@@ -53,7 +53,7 @@ Many practices invest in recall software but see disappointing results. The prob
 - Predictable patient flow
 - Front desk staff confidence and competence
 
-## The Weekly Recall Workflow
+## What Does the Weekly Recall Workflow Look Like?
 
 ### What Does the Weekly Overview Look Like?
 
@@ -359,15 +359,6 @@ A consistent front desk recall workflow delivers better results than sporadic he
 The practices with the best recall rates are not the ones with the best software. They are the ones with the most consistent execution of a simple weekly workflow.
 
 For scripts to use during recall calls, see our [patient recall scripts guide](/blog/patient-recall-scripts/). For strategies on recovering no-shows, review our [no-show recovery program guide](/blog/no-show-recovery-program/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Need Dedicated Recall Support?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">When your front desk is too busy for consistent recall outreach, MyBCAT provides dedicated teams who execute the workflow daily across all your locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Sources
 
 - [Open Dental Blog: Recall Management](https://opendental.blog/recall-management-patient-and-practice-health/)

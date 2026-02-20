@@ -35,12 +35,12 @@ This guide provides the framework for building intake workflows that capture bot
 1. [What Is the Dual-Revenue Challenge in Optometry?](#what-is-the-dual-revenue-challenge-in-optometry)
 2. [How Should You Classify Optometry Call Types?](#how-should-you-classify-optometry-call-types)
 3. [How Does the Clinical-Retail Routing Decision Tree Work?](#how-does-the-clinical-retail-routing-decision-tree-work)
-4. [Scripts for Identifying Optical Opportunities](#scripts-for-identifying-optical-opportunities)
+4. [What Are the Scripts for Identifying Optical Opportunities?](#what-are-the-scripts-for-identifying-optical-opportunities)
 5. [How Can You Streamline VSP and Insurance Verification?](#how-can-you-streamline-vsp-and-insurance-verification)
 6. [How Does Intake Connect to Capture Rate Metrics?](#how-does-intake-connect-to-capture-rate-metrics)
 7. [Which Appointment Types Matter Most?](#which-appointment-types-matter-most)
-8. [Multi-Location Considerations](#multi-location-considerations)
-9. [Technology Integration](#technology-integration)
+8. [What Are the Multi-Location Considerations?](#what-are-the-multi-location-considerations)
+9. [How Should You Approach Technology Integration?](#how-should-you-approach-technology-integration)
 10. [Key Takeaways](#key-takeaways)
 
 ---
@@ -151,7 +151,7 @@ Some calls require both paths:
 
 ---
 
-## Scripts for Identifying Optical Opportunities
+## What Are the Scripts for Identifying Optical Opportunities?
 
 Intake staff can significantly impact capture rate by identifying and flagging optical opportunities during scheduling calls.
 
@@ -204,7 +204,7 @@ A typical VSP verification call takes 5-8 minutes:
 
 For a busy location receiving 20 verification calls daily, that is 100-160 minutes of phone time, roughly 2-3 hours that could be answering other calls.
 
-### Streamlining Strategies
+### What Are the Best Streamlining Strategies?
 
 **Online verification tools.** VSP and EyeMed offer online portals for eligibility verification. Train staff to use these first, reserving phone verification for complex situations.
 
@@ -272,7 +272,7 @@ To measure intake impact on capture, track:
 
 Optometry scheduling requires appointment types that reflect the clinical-retail complexity.
 
-### Essential Appointment Types
+### What Are the Essential Appointment Types?
 
 **Comprehensive Eye Exam (New Patient)**
 - Duration: 45-60 minutes
@@ -320,11 +320,11 @@ Configure your scheduling system to:
 
 ---
 
-## Multi-Location Considerations
+## What Are the Multi-Location Considerations?
 
 Optometry groups with multiple locations face additional intake challenges.
 
-### Standardization Requirements
+### What Are the Standardization Requirements?
 
 **Consistent appointment types.** All locations should use the same appointment type definitions and durations.
 
@@ -334,7 +334,7 @@ Optometry groups with multiple locations face additional intake challenges.
 
 **Cross-location scheduling.** Patients should be able to book at any location through any phone line.
 
-### Location-Specific Variations
+### What Location-Specific Variations Should You Expect?
 
 While standardizing core processes, allow for legitimate variations:
 
@@ -358,11 +358,11 @@ Most multi-location optometry groups benefit from a hybrid model: local staff fo
 
 ---
 
-## Technology Integration
+## How Should You Approach Technology Integration?
 
 Effective optometry intake requires integration across multiple systems.
 
-### Required Systems
+### What Systems Are Required?
 
 **Practice Management / EHR**
 - Patient records and history
@@ -387,7 +387,7 @@ Effective optometry intake requires integration across multiple systems.
 - Eligibility checking
 - Benefits lookup
 
-### Integration Requirements
+### What Are the Integration Requirements?
 
 **Patient identification.** Caller ID should pull patient records automatically.
 
@@ -399,7 +399,7 @@ Effective optometry intake requires integration across multiple systems.
 
 **Benefits integration.** Eligibility status visible during scheduling.
 
-### Common Integration Gaps
+### What Are Common Integration Gaps?
 
 - Phone system disconnected from PMS (no caller ID lookup)
 - Clinical and optical scheduling in separate systems
@@ -435,14 +435,4 @@ Effective optometry intake requires integration across multiple systems.
 *Last Updated: January 2026*
 
 *Sources: [Review of Optometric Business](https://reviewob.com/3-metrics-that-reveal-the-true-financial-health-of-your-practice/), [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026)*
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Scale Your Intake Operations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps multi-location healthcare groups achieve 95%+ answer rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 > **Struggling with scheduling across locations?** [Explore centralized scheduling](/enterprise/centralized-scheduling/)

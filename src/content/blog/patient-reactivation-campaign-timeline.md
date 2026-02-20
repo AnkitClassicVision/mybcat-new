@@ -26,13 +26,13 @@ The difference between a 10% and 25% reactivation rate often comes down to timin
 ## Table of Contents
 
 - [Why Does Campaign Duration Matter?](#why-does-campaign-duration-matter)
-- [The 7-Day Sprint: Quick Wins](#the-7-day-sprint-quick-wins)
-- [The 30-Day Standard Campaign](#the-30-day-standard-campaign)
-- [The 90-Day Comprehensive Campaign](#the-90-day-comprehensive-campaign)
+- [What Is the 7-Day Sprint for Quick Wins?](#what-is-the-7-day-sprint-for-quick-wins)
+- [What Is the 30-Day Standard Campaign?](#what-is-the-30-day-standard-campaign)
+- [What Is the 90-Day Comprehensive Campaign?](#what-is-the-90-day-comprehensive-campaign)
 - [When Should You Send Each Channel During the Day?](#when-should-you-send-each-channel-during-the-day)
 - [What Triggers Should Escalate Patients to the Next Channel?](#what-triggers-should-escalate-patients-to-the-next-channel)
 - [How Should You Segment Within Campaigns?](#how-should-you-segment-within-campaigns)
-- [Multi-Location Considerations](#multi-location-considerations)
+- [What Are the Multi-Location Considerations?](#what-are-the-multi-location-considerations)
 
 ## Why Does Campaign Duration Matter?
 
@@ -53,7 +53,7 @@ Research shows reactivation requires multiple touches across multiple channels:
 - No escalation strategy for non-responders
 - Lack of persistence on high-value dormant patients
 
-## The 7-Day Sprint: Quick Wins
+## What Is the 7-Day Sprint for Quick Wins?
 
 Use the 7-day sprint for recently dormant patients (6-12 months) or time-sensitive campaigns (benefit expiration, seasonal push).
 
@@ -98,7 +98,7 @@ Subject: [Name], your appointment is overdue
 - Booking rate: 10-15%
 - Best for: Recently dormant, high urgency
 
-## The 30-Day Standard Campaign
+## What Is the 30-Day Standard Campaign?
 
 The 30-day campaign is the workhorse for most reactivation efforts, providing enough touches to reach busy patients without campaign fatigue.
 
@@ -117,7 +117,7 @@ The 30-day campaign is the workhorse for most reactivation efforts, providing en
 | 28 | Postcard | Direct mail to unreachables | No valid digital contact |
 | 30 | N/A | Campaign close, final reporting | N/A |
 
-### 30-Day Detailed Script Sequence
+### What Is the 30-Day Detailed Script Sequence?
 
 **Day 1 SMS (All patients):**
 
@@ -170,11 +170,11 @@ Include:
 - Reactivation rate: 15-20%
 - Best for: Standard quarterly campaigns
 
-## The 90-Day Comprehensive Campaign
+## What Is the 90-Day Comprehensive Campaign?
 
 The 90-day campaign maximizes reactivation from a dormant list through sustained, strategic outreach with multiple escalation tiers.
 
-### 90-Day Phase Structure
+### What Is the 90-Day Phase Structure?
 
 **Phase 1: Weeks 1-2 (Preparation)**
 - Segment dormant patients by dormancy duration, value, demographics
@@ -200,7 +200,7 @@ The 90-day campaign maximizes reactivation from a dormant list through sustained
 - Campaign close and reporting
 - Transition recovered patients to ongoing retention
 
-### 90-Day Detailed Timeline
+### What Does the 90-Day Detailed Timeline Look Like?
 
 | Week | Days | Focus | Channels | Target |
 |------|------|-------|----------|--------|
@@ -217,7 +217,7 @@ The 90-day campaign maximizes reactivation from a dormant list through sustained
 | 11 | 71-77 | Closeout outreach | SMS | Last chance |
 | 12 | 78-90 | Reporting, transition | N/A | Analysis |
 
-### 90-Day Weekly Checklist
+### What Does the 90-Day Weekly Checklist Include?
 
 **Week 3 (Campaign Launch):**
 - [ ] Send initial SMS to all recently dormant patients
@@ -301,7 +301,7 @@ Not all dormant patients get the same treatment:
 | Medium ($500-2,000) | Full digital, phone backup |
 | Lower (<$500) | Automated only |
 
-## Multi-Location Considerations
+## What Are the Multi-Location Considerations?
 
 For healthcare groups running campaigns across sites:
 
@@ -340,15 +340,6 @@ Campaign timeline selection depends on your goals and resources:
 The timeline you choose matters less than the discipline to execute it completely. A mediocre 30-day campaign executed fully will outperform a brilliant 90-day campaign abandoned after week 4.
 
 For ready-to-use scripts for each touchpoint, see our [patient recall scripts guide](/blog/patient-recall-scripts/). For the metrics to track during campaigns, review our [reactivation campaign KPIs guide](/blog/reactivation-campaign-kpis/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Need Help Executing Your Reactivation Timeline?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups partner with MyBCAT for dedicated reactivation teams who execute 30-90 day campaigns with consistent results.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Related Reading
 
 - [Patient Recall Solution](/solutions/patient-recall/)

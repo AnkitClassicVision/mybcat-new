@@ -141,12 +141,3 @@ There's a myriad of strategies to explore. Regardless of their chosen strategy, 
 Depending on the clinic, they may care about their performance compared to other clinics. They might compare their cost structure and financial health with industry standards or similar practices. In our experience, non-doctor labor should be between 20 to 24% of your revenues. Also, if a significant portion of the owner's or practitioners' time is spent on administrative tasks rather than patient care, it could indicate that the clinic could use its resources more efficiently.
 
 In our upcoming posts, we will detail the options available to eye care clinics. We'll cover [comparing virtual assistant options](/compare/vs-virtual-assistants/) and how they differ from BPOs. You can also learn more about our [front desk outsourcing](/solutions/front-desk-outsourcing/) solutions. In the meantime, don't hesitate to ask if you have any questions about outsourcing admin work for your eye care clinic. We like to share tools and best practices. We're constantly giving tips, advice, and tricks that we should all be discussing more in our industry.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Reduce Your Staffing Dependency</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices build resilient intake operations that don't break when staffing is tight.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

@@ -28,7 +28,7 @@ Other issues to look out for include inventory-related tasks that detract from p
 - [How Can Technology and Automation Improve Inventory?](#how-can-technology-and-automation-improve-inventory)
 - [How Do You Optimize Inventory Size and Stock Control?](#how-do-you-optimize-inventory-size-and-stock-control)
 - [How Often Should You Review and Adapt Your Inventory?](#how-often-should-you-review-and-adapt-your-inventory)
-- [Mastering Inventory Management](#mastering-inventory-management)
+- [How Do You Master Inventory Management?](#how-do-you-master-inventory-management)
 
 Before we get into the strategies, let's align on the common goals a practice looking to manage their inventory more efficiently might aspire to:
 
@@ -110,17 +110,8 @@ A simple strategy for reviewing stock is the ABC Analysis—a method of categori
 
 Annual stocktakes can be laborious and disruptive. Implementing a rolling stocktake approach, where stock is checked more frequently throughout the year, can avoid the need for a massive annual stocktake. This method requires consistent attention but can be more manageable and efficient​.
 
-## **Mastering Inventory Management**
+## **How Do You Master Inventory Management?**
 
 The abovementioned strategies demonstrate the importance of balancing supply and demand and utilizing data and technology to make informed decisions. These approaches not only help in optimizing stock levels but also [enhance overall business efficiency](https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture/) and customer satisfaction.
 
 Becoming more efficient in inventory management in optometry is an ongoing process of learning and adaptation. By aligning inventory with market trends and customer preferences, practices can ensure they are well-equipped to meet their clients' needs while maintaining financial health. Regularly reviewing and adapting these strategies will be paramount in staying relevant and competitive in this ever-evolving field. The key takeaway is clear: effective inventory management is not just about having the right products; it's about having them at the right time, in the correct quantity, and at the right cost, thus creating a harmonious balance that benefits the practice and its clientele.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

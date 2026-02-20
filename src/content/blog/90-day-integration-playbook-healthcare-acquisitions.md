@@ -34,8 +34,8 @@ PE-backed healthcare groups target 90-day integration timelines, but most acquis
 ## Table of Contents
 
 1. [Why Does Intake-First Integration Win?](#why-does-intake-first-integration-win)
-2. [The 90-Day Integration Timeline Overview](#the-90-day-integration-timeline-overview)
-3. [Pre-Close: Setting Up for Day 1](#pre-close-setting-up-for-day-1)
+2. [What Does the 90-Day Integration Timeline Look Like?](#what-does-the-90-day-integration-timeline-look-like)
+3. [How Do You Set Up for Day 1 Before Close?](#how-do-you-set-up-for-day-1-before-close)
 4. [Week 1-2: Discovery and Baseline](#week-1-2-discovery-and-baseline)
 5. [Week 3-4: Quick Wins and Visibility](#week-3-4-quick-wins-and-visibility)
 6. [Week 5-6: Process Standardization](#week-5-6-process-standardization)
@@ -53,7 +53,7 @@ PE-backed healthcare groups target 90-day integration timelines, but most acquis
 
 Traditional healthcare integration focuses on back-office consolidation: billing, HR, supply chain. These are important, but they are slow and invisible to patients. Intake-first integration flips the priority.
 
-### The Strategic Rationale
+### What Is the Strategic Rationale?
 
 **Immediate visibility.** Within days of implementing intake changes, you can see call answer rates, conversion rates, and appointment volume. Back-office integration takes months before you see financial impact.
 
@@ -63,7 +63,7 @@ Traditional healthcare integration focuses on back-office consolidation: billing
 
 **Platform scalability test.** Your intake integration becomes a template for every future acquisition. Perfect it once, replicate efficiently.
 
-### The Math
+### What Does the Math Look Like?
 
 A 5-location acquisition that experiences typical integration friction:
 
@@ -87,7 +87,7 @@ The difference is not marginal. It is material to deal economics.
 
 ---
 
-## The 90-Day Integration Timeline Overview
+## What Does the 90-Day Integration Timeline Look Like?
 
 | Phase | Weeks | Focus | Key Deliverable |
 |-------|-------|-------|-----------------|
@@ -99,7 +99,7 @@ The difference is not marginal. It is material to deal economics.
 | Optimization | 9-10 | Fine-tuning | Target achievement |
 | Documentation | 11-12 | Handoff | Playbook complete |
 
-### Principles
+### What Are the Guiding Principles?
 
 **Start before close.** Use due diligence to prepare integration, not just evaluate the deal.
 
@@ -111,13 +111,13 @@ The difference is not marginal. It is material to deal economics.
 
 ---
 
-## Pre-Close: Setting Up for Day 1
+## How Do You Set Up for Day 1 Before Close?
 
 ### Weeks -4 to 0
 
 Integration does not start at close. It starts in due diligence. Use the period before close to prepare for Day 1 success.
 
-### Data Room Intake Assessment
+### What Should the Data Room Intake Assessment Cover?
 
 During due diligence, gather:
 
@@ -136,7 +136,7 @@ Prepare communications for:
 - **Patients**: Any changes they will notice?
 - **Referring partners**: Continuity message
 
-### Preliminary Integration Plan
+### What Goes Into the Preliminary Integration Plan?
 
 Draft the 90-day plan before close:
 
@@ -145,7 +145,7 @@ Draft the 90-day plan before close:
 - Risk assessment and mitigation
 - Success metrics and targets
 
-### Key Staff Identification
+### Which Key Staff Should You Identify?
 
 Identify before close:
 
@@ -247,7 +247,7 @@ Establish baseline measurements for:
 - Build staff confidence through early success
 - Address obvious bottlenecks
 
-### Quick Win Categories
+### What Are the Quick Win Categories?
 
 **Immediate impact (Days 1-3)**
 - Phone tree optimization (reduce rings, simplify menu)
@@ -260,7 +260,7 @@ Establish baseline measurements for:
 - Basic training on platform standards
 - Overflow routing setup through a [medical answering service](/solutions/medical-answering-service/)
 
-### Daily Reporting
+### How Should You Set Up Daily Reporting?
 
 Establish a daily dashboard including:
 
@@ -272,7 +272,7 @@ Establish a daily dashboard including:
 | Appointments scheduled | Daily | Front desk lead |
 | Conversion rate | Weekly | Integration lead |
 
-### Staff Training (Foundation)
+### What Should Foundation Staff Training Cover?
 
 Week 3-4 training focuses on:
 
@@ -282,7 +282,7 @@ Week 3-4 training focuses on:
 - How to use new tracking tools
 - What metrics are being tracked and why
 
-### Quick Win Examples
+### What Are Some Quick Win Examples?
 
 | Quick Win | Typical Impact | Implementation Time |
 |-----------|---------------|---------------------|
@@ -312,7 +312,7 @@ Week 3-4 training focuses on:
 - Integrate overflow and backup support
 - Establish escalation pathways
 
-### Process Alignment Areas
+### What Are the Process Alignment Areas?
 
 **Scheduling protocols**
 - Appointment types and durations
@@ -332,7 +332,7 @@ Week 3-4 training focuses on:
 - After-hours protocols
 - Emergency handling
 
-### Platform Integration
+### How Do You Handle Platform Integration?
 
 Connect acquired practice to platform resources:
 
@@ -382,7 +382,7 @@ Verify:
 - Dashboard and reporting optimization
 - Feature rollout for full capability
 
-### System Integration
+### How Do You Handle System Integration?
 
 If phone system or PM changes are required:
 
@@ -398,7 +398,7 @@ If phone system or PM changes are required:
 - Integration with phone (if applicable)
 - Reporting setup
 
-### Advanced Training
+### What Should Advanced Training Cover?
 
 Week 7-8 training focuses on:
 
@@ -408,7 +408,7 @@ Week 7-8 training focuses on:
 - Using analytics for self-improvement
 - Platform tools and features
 
-### Dashboard Deployment
+### How Do You Deploy Dashboards?
 
 Implement full dashboard visibility:
 
@@ -419,7 +419,7 @@ Implement full dashboard visibility:
 | Platform summary | Integration team | All locations, progress |
 | Executive | Leadership | Key metrics, exceptions |
 
-### Training Assessment
+### How Do You Assess Training Competency?
 
 Verify competency through:
 
@@ -448,7 +448,7 @@ Verify competency through:
 - Address staff feedback
 - Prepare for handoff to ongoing operations
 
-### Performance Gap Analysis
+### How Do You Conduct a Performance Gap Analysis?
 
 Compare Week 10 metrics to targets:
 
@@ -459,7 +459,7 @@ Compare Week 10 metrics to targets:
 | Speed to answer | 45 sec | 18 sec | 20 sec | Met |
 | Abandonment | 12% | 4% | 5% | Met |
 
-### Gap Closure Actions
+### What Are the Gap Closure Actions?
 
 For metrics not at target:
 
@@ -467,7 +467,7 @@ For metrics not at target:
 - **Conversion gap**: Script refinement? Objection handling? Competitive factors?
 - **Speed gap**: Technology tuning? Staff efficiency? Volume spikes?
 
-### Staff Feedback Integration
+### How Do You Integrate Staff Feedback?
 
 Gather and incorporate:
 
@@ -476,7 +476,7 @@ Gather and incorporate:
 - What tools or training would help?
 - What are patients saying?
 
-### Quality Monitoring
+### How Do You Implement Quality Monitoring?
 
 Implement ongoing quality program:
 
@@ -505,7 +505,7 @@ Implement ongoing quality program:
 - Capture lessons learned
 - Declare integration complete
 
-### Documentation Package
+### What Goes Into the Documentation Package?
 
 **Standard operating procedures**
 - Daily opening/closing procedures
@@ -525,7 +525,7 @@ Implement ongoing quality program:
 - Dashboard access and use
 - Troubleshooting guide
 
-### Handoff Process
+### How Does the Handoff Process Work?
 
 Transition ownership to:
 
@@ -536,7 +536,7 @@ Transition ownership to:
 | Technical support | Integration team | Platform support |
 | Quality monitoring | Integration team | Quality team |
 
-### Lessons Learned
+### What Lessons Should You Capture?
 
 Capture for future integrations:
 
@@ -546,7 +546,7 @@ Capture for future integrations:
 - What took longer than expected?
 - What was easier than expected?
 
-### Success Metrics Report
+### What Should the Success Metrics Report Include?
 
 Final integration report including:
 
@@ -571,7 +571,7 @@ Final integration report including:
 
 ## What Integration KPIs Should You Track?
 
-### Metric Progression Targets
+### What Are the Metric Progression Targets?
 
 | KPI | Week 2 | Week 6 | Week 12 |
 |-----|--------|--------|---------|
@@ -609,7 +609,7 @@ Watch for:
 
 ## How Do You Manage Staff Through Integration?
 
-### Communication Principles
+### What Are the Communication Principles?
 
 **Frequency**: Communicate more than you think necessary.
 
@@ -630,7 +630,7 @@ Watch for:
 | 9-10 | Feedback integration, fine-tuning |
 | 11-12 | Recognition, stability signals |
 
-### Retention Tactics
+### What Retention Tactics Work Best?
 
 **Immediate (Week 1-2)**
 - Personal introduction from leadership
@@ -705,12 +705,3 @@ Watch for:
 - **90 days is achievable.** With the right approach, full intake integration in 90 days is realistic. 12-18 months is a choice, not an inevitability.
 
 For healthcare groups managing 10+ locations, a [centralized scheduling](/enterprise/centralized-scheduling/) approach combined with [enterprise-grade reporting and QA](/enterprise/reporting-qa/) transforms integration from a challenge into a competitive advantage.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Scale Your Intake Operations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps multi-location healthcare groups achieve 95%+ answer rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

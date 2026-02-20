@@ -169,7 +169,7 @@ Some patients are simply harder to reach. Factor this into prioritization.
 
 Combine dimensions into a prioritization score:
 
-### Basic Scoring Model
+### What Does the Basic Scoring Model Look Like?
 
 <div style="background: #fffbeb; border: 2px solid #f59e0b; border-radius: 8px; padding: 24px; margin: 24px 0;">
   <p style="font-weight: 700; color: #92400e; margin: 0 0 12px 0;">Priority Scoring Formula</p>
@@ -179,7 +179,7 @@ Combine dimensions into a prioritization score:
   </div>
 </div>
 
-### Simplified Tier Assignment
+### How Does Simplified Tier Assignment Work?
 
 For practices without sophisticated scoring systems, use this matrix:
 
@@ -358,15 +358,6 @@ Effective recall segmentation prioritizes patients based on:
 The question is not whether to do recall. It is who to recall first. Segmentation provides the answer.
 
 For calculating the ROI of your reactivation efforts, see our [patient reactivation ROI guide](/blog/patient-reactivation-roi/). For the complete campaign framework, review our [patient recall campaign framework](/blog/patient-recall-campaign-framework/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Need Help Prioritizing Your Recall List?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Healthcare practices partner with MyBCAT for data-driven patient segmentation and prioritized recall outreach that maximizes every contact attempt.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Related Reading
 
 - [Patient Recall Solution](/solutions/patient-recall/)

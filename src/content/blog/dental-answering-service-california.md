@@ -35,8 +35,8 @@ California is home to more [dental service organizations](/enterprise/dso/) than
 3. [What Do California DSOs Need from an Answering Service?](#what-do-california-dsos-need-from-an-answering-service)
 4. [What Are the Regional Considerations Across California?](#what-are-the-regional-considerations-across-california)
 5. [What California-Specific Capabilities Are Required?](#what-california-specific-capabilities-are-required)
-6. [Case: California DSO Results](#case-california-dso-results)
-7. [Getting Started](#getting-started)
+6. [What Results Do California DSOs Achieve?](#what-results-do-california-dsos-achieve)
+7. [How Do You Get Started?](#how-do-you-get-started)
 
 ---
 
@@ -44,7 +44,7 @@ California is home to more [dental service organizations](/enterprise/dso/) than
 
 California leads the nation in dental practice density and DSO activity. The state hosts headquarters for major players like Pacific Dental Services, Western Dental, and Smile Brands, along with hundreds of regional and emerging groups.
 
-### Market Statistics
+### What Are the Market Statistics?
 
 | Metric | California | National Average |
 |--------|-----------|------------------|
@@ -97,7 +97,7 @@ A California DSO might have locations in San Diego, Orange County, LA, the Inlan
 
 ## What Do California DSOs Need from an Answering Service?
 
-### Beyond Basic Call Answering
+### What Goes Beyond Basic Call Answering?
 
 Generic answering services take messages. California dental groups need [medical answering service](/solutions/medical-answering-service/) partners who can:
 
@@ -111,7 +111,7 @@ Generic answering services take messages. California dental groups need [medical
 
 **Understand California dental**: Know the payer landscape (Denti-Cal, Delta Dental, major PPOs), common procedures, and practice operations.
 
-### Multi-Location Coordination
+### What Does Multi-Location Coordination Require?
 
 California DSOs with 5+ locations need intake solutions that can:
 
@@ -121,7 +121,7 @@ California DSOs with 5+ locations need intake solutions that can:
 - Provide unified reporting across all California locations
 - Scale as the group acquires additional practices
 
-### After-Hours Coverage
+### What Should After-Hours Coverage Include?
 
 California spans a single time zone but patient expectations do not stop at 5 PM. After-hours call handling that can:
 
@@ -214,7 +214,7 @@ California business hours (8 AM - 5 PM Pacific) require coverage from partners w
 
 ---
 
-## Case: California DSO Results
+## What Results Do California DSOs Achieve?
 
 ### Client Profile
 
@@ -260,7 +260,7 @@ Implemented multi-location intake solution with:
 
 ---
 
-## Getting Started
+## How Do You Get Started?
 
 ### What to Expect
 
@@ -286,7 +286,7 @@ Implemented multi-location intake solution with:
 - Continuous improvement based on call patterns
 - Scaling support as you add California locations
 
-### Why California DSOs Choose Us
+### Why Do California DSOs Choose Us?
 
 - **California market expertise**: We understand the competitive dynamics, payer landscape, and regional variations across California
 - **Multilingual support**: Spanish as standard, other languages available
@@ -294,12 +294,3 @@ Implemented multi-location intake solution with:
 - **Multi-location experience**: Built for DSOs managing 5+ California locations
 - **Integration capability**: Work with the PM systems California practices use
 - **Compliance understanding**: Know California's specific regulatory requirements
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Scale Your Intake Operations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps multi-location healthcare groups achieve 95%+ answer rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

@@ -60,14 +60,3 @@ While the transformative potential of AI in healthcare is highly anticipated, ey
 ## How Can Eye Care Providers Prepare for the AI Future?
 
 As we stand on the cusp of a technological revolution in eye care, it's crucial to balance optimism about future AI capabilities with a realistic assessment of present-day needs. While AI is already contributing to the advancement of intelligent online appointment scheduling systems, predictive analysis for disease detection, and the concept of personalized treatment, it has not yet fully matured to a point where it can operate autonomously. For eye care providers, the key is to integrate existing AI tools where they can provide immediate benefits, like streamlining appointment booking, while also keeping an eye on the horizon for new advancements. Partnering with a Business Process Outsourcing (BPO) company can serve as a prudent approach in this transitional period. Such partnerships offer the dual advantage of optimizing existing workflows and preparing for seamless AI integration as technology progresses. By focusing on immediate improvements in operational efficiency and quality of care while actively preparing for the transformative impact of AI, eye care clinics can navigate today's challenges and capitalize on tomorrow's opportunities.
-
-
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

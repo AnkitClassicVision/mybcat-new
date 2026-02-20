@@ -155,7 +155,7 @@ Multi-location groups without dedicated staff at each site benefit most from cen
 
 ## How Do You Build a Hybrid Recall System?
 
-### Technology Requirements
+### What Are the Technology Requirements?
 
 **For automated outreach:**
 - HIPAA-compliant SMS platform with PM system integration
@@ -169,7 +169,7 @@ Multi-location groups without dedicated staff at each site benefit most from cen
 - Call recording for quality assurance
 - Real-time dashboard tracking attempts and outcomes
 
-### Sequencing Best Practices
+### What Are the Sequencing Best Practices?
 
 Research-backed timing for hybrid outreach:
 
@@ -227,15 +227,6 @@ The automated vs human patient recall question has a nuanced answer supported by
 The groups achieving the best results combine the scalability of automation with the conversion power of human connection, deployed strategically based on patient characteristics.
 
 For a detailed week-by-week implementation guide, see our [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/). For scripting guidance, review our [patient recall scripts](/blog/patient-recall-scripts/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Need a Hybrid Recall Solution at Scale?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups achieve 15-25% reactivation rates with the right mix of automation and live outreach. See how MyBCAT provides both from a single integrated team.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Related Reading
 
 - [Patient Recall Solution](/solutions/patient-recall/)

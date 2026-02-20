@@ -34,22 +34,22 @@ A panicked client calls at 2 PM about a dog that "isn't acting right." Is it an 
 
 ## Table of Contents
 
-1. [Why Veterinary Triage Is Uniquely Complex](#why-veterinary-triage-is-uniquely-complex)
-2. [The 3-Tier Triage Framework](#the-3-tier-triage-framework)
+1. [Why Is Veterinary Triage Uniquely Complex?](#why-is-veterinary-triage-uniquely-complex)
+2. [What Is the 3-Tier Triage Framework?](#what-is-the-3-tier-triage-framework)
 3. [Decision Tree: 15 Common Scenarios](#decision-tree-15-common-scenarios)
-4. [The Triage Script: Word-for-Word Framework](#the-triage-script-word-for-word-framework)
+4. [What Is the Triage Script Framework?](#what-is-the-triage-script-framework)
 5. [How Do You Train Staff for Confident Triage?](#how-do-you-train-staff-for-confident-triage)
 6. [How Should You Handle Emotional Clients During Crisis Calls?](#how-should-you-handle-emotional-clients-during-crisis-calls)
-7. [After-Hours Integration](#after-hours-integration)
-8. [Escalation Pathways: When to Involve a DVM](#escalation-pathways-when-to-involve-a-dvm)
+7. [How Does After-Hours Integration Work?](#how-does-after-hours-integration-work)
+8. [When Should You Escalate to a DVM?](#when-should-you-escalate-to-a-dvm)
 9. [How Do You Standardize Triage Across Multiple Locations?](#how-do-you-standardize-triage-across-multiple-locations)
-10. [Quality Monitoring](#quality-monitoring)
+10. [How Do You Monitor Triage Quality?](#how-do-you-monitor-triage-quality)
 11. [What Are the Legal and Liability Considerations?](#what-are-the-legal-and-liability-considerations)
 12. [Key Takeaways](#key-takeaways)
 
 ---
 
-## Why Veterinary Triage Is Uniquely Complex
+## Why Is Veterinary Triage Uniquely Complex?
 
 Phone triage in veterinary medicine presents challenges that human healthcare doesn't face. Your patients can't describe their symptoms. A dog "not acting right" could indicate anything from mild stomach upset to bloat, a life-threatening emergency with a survival window measured in hours.
 
@@ -69,7 +69,7 @@ These factors make veterinary phone triage one of the most demanding intake chal
 
 ---
 
-## The 3-Tier Triage Framework
+## What Is the 3-Tier Triage Framework?
 
 Every incoming call should be categorized into one of three tiers. Clear definitions prevent the gray-area hesitation that leads to mistakes.
 
@@ -318,7 +318,7 @@ The following scenarios represent the most common triage decisions. Staff should
 
 ---
 
-## The Triage Script: Word-for-Word Framework
+## What Is the Triage Script Framework?
 
 Having a script reduces cognitive load during stressful calls. Adapt this framework to your practice.
 
@@ -384,7 +384,7 @@ A protocol on paper is insufficient if staff lack confidence to use it. Training
 
 Clients calling about potentially dying pets are often in crisis themselves. Triage accuracy depends on getting clear information from emotional callers.
 
-### De-escalation Techniques
+### What Are Effective De-escalation Techniques?
 
 **Acknowledge the emotion first.** "I can hear how worried you are about [pet name]. Let's figure out the best next step together."
 
@@ -404,7 +404,7 @@ Clients calling about potentially dying pets are often in crisis themselves. Tri
 
 ---
 
-## After-Hours Integration
+## How Does After-Hours Integration Work?
 
 For veterinary practices, after-hours isn't an afterthought. It's 30-40% of call volume. Your daytime and after-hours systems must work as one.
 
@@ -428,7 +428,7 @@ For veterinary practices, after-hours isn't an afterthought. It's 30-40% of call
 
 ---
 
-## Escalation Pathways: When to Involve a DVM
+## When Should You Escalate to a DVM?
 
 Clear escalation criteria prevent both over-escalation (wasting DVM time) and under-escalation (missing emergencies).
 
@@ -478,7 +478,7 @@ Multi-location veterinary groups face a specific challenge: ensuring consistent 
 
 ---
 
-## Quality Monitoring
+## How Do You Monitor Triage Quality?
 
 Triage errors are often invisible until something goes wrong. Proactive monitoring catches problems before they become crises.
 
@@ -567,13 +567,4 @@ If you want help standardizing triage across locations (including after-hours ro
 
 *Sources: [VetFolio - Implementing a Triage Protocol](https://www.vetfolio.com/learn/article/back-to-basics-implementing-a-triage-protocol), [Dispomed - Veterinary Triage Protocol Best Practices](https://www.dispomed.com/veterinary-triage-protocol-best-practices-for-front-office-staff/)*
 ---
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Scale Your Intake Operations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps multi-location healthcare groups achieve 95%+ answer rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 > **Struggling with scheduling across locations?** [Explore centralized scheduling](/enterprise/centralized-scheduling/)

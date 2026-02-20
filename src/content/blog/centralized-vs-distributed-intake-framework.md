@@ -39,7 +39,7 @@ Centralize for efficiency or stay distributed for personal touch? That is the wr
 6. [How Does the Hybrid Model with Intelligent Routing Work?](#how-does-the-hybrid-model-with-intelligent-routing-work)
 7. [How Do You Compare Total Cost of Ownership?](#how-do-you-compare-total-cost-of-ownership)
 8. [What Are Common Centralization Mistakes?](#what-are-common-centralization-mistakes)
-9. [Implementation Considerations](#implementation-considerations)
+9. [What Are the Implementation Considerations?](#what-are-the-implementation-considerations)
 10. [Key Takeaways](#key-takeaways)
 
 ---
@@ -161,23 +161,23 @@ Use this matrix to assess which factors favor which model for your group:
 
 Centralization succeeds under specific conditions:
 
-### High Location Count with Standard Services
+### What If You Have a High Location Count with Standard Services?
 
 Groups with 15+ locations offering similar services benefit most from centralization. The standardization overhead pays off when spread across many sites. A [dental group](/industries/dental/) where every location offers the same services is a good candidate. A specialty medical group where each location offers different services is not.
 
-### Rapid Acquisition Growth
+### What About Rapid Acquisition Growth?
 
 PE-backed groups including [DSOs](/enterprise/dso/) acquiring multiple practices per year often lack the management bandwidth to develop local intake excellence at each new acquisition. Centralization provides immediate consistency for newly acquired practices without requiring local capability building.
 
-### Significant Coverage Gaps
+### What If You Have Significant Coverage Gaps?
 
 If distributed locations are missing 25%+ of calls due to staffing gaps, centralization solves the coverage problem immediately. A central team can be sized for total call volume rather than peak volume at each individual location.
 
-### Weak Local Management
+### What If Local Management Is Weak?
 
 Some locations have strong managers who can develop excellent local intake. Others do not. Centralization removes location manager capability as a variable in intake quality.
 
-### Geographic Dispersion
+### What About Geographic Dispersion?
 
 Groups spread across multiple states face regulatory and labor market differences that make local staffing complex. Central teams in a single location simplify compliance and hiring. [Front desk outsourcing](/solutions/front-desk-outsourcing/) can provide this centralized capability without building internal infrastructure.
 
@@ -187,23 +187,23 @@ Groups spread across multiple states face regulatory and labor market difference
 
 Distribution succeeds under different conditions:
 
-### Strong Local Relationships
+### What If You Have Strong Local Relationships?
 
 In community-based practices where patients have multi-generational relationships with staff, centralization disrupts something valuable. The patient who has been calling Mary at the front desk for 15 years will notice when a stranger answers.
 
-### Complex Clinical Services
+### What About Complex Clinical Services?
 
 Specialty practices where intake requires significant clinical knowledge benefit from having intake staff who work alongside clinical teams. A fertility clinic where intake staff need to understand treatment protocols is different from a general dental practice.
 
-### High Local Capability
+### What If Local Capability Is Already High?
 
 Some groups have invested in building strong local teams with excellent intake performance. Centralizing would disrupt what is already working well.
 
-### Single Market Focus
+### What About a Single Market Focus?
 
 Groups concentrated in a single metropolitan area have less to gain from centralization. Local staff can cover for each other across nearby locations. Labor markets are consistent. Community reputation matters.
 
-### Established Processes
+### What If You Already Have Established Processes?
 
 Groups that have already developed and deployed consistent processes across locations can achieve standardization without centralization. The value of centralization is partly in forcing standardization; if standardization already exists, that benefit is reduced.
 
@@ -213,7 +213,7 @@ Groups that have already developed and deployed consistent processes across loca
 
 The hybrid model routes calls based on type rather than defaulting everything to central or local.
 
-### Call Types by Optimal Handler
+### Which Call Types Go to Which Handler?
 
 | Call Type | Optimal Handler | Rationale |
 |-----------|-----------------|-----------|
@@ -314,7 +314,7 @@ Financial analysis should inform the decision, but beware of oversimplification.
 - Training on routing rules
 - Handoff process overhead
 
-### Comparative Analysis
+### How Do the Models Compare?
 
 For a 15-location [dental](/industries/dental/) group with 3,000 monthly calls:
 
@@ -364,7 +364,7 @@ Measuring only efficiency metrics (calls per hour, handle time) while ignoring e
 
 ---
 
-## Implementation Considerations
+## What Are the Implementation Considerations?
 
 ### For Centralization
 
@@ -422,12 +422,3 @@ Measuring only efficiency metrics (calls per hour, handle time) while ignoring e
 - **Avoid common centralization mistakes.** Do not centralize everything at once, underinvest in training, eliminate local access, ignore escalation design, or measure only efficiency.
 
 - **Plan implementation carefully.** Both centralization and hybrid require 4-12 months for proper implementation with clear milestones and success factors.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Scale Your Intake Operations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps multi-location healthcare groups achieve 95%+ answer rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

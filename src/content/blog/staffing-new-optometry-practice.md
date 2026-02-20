@@ -203,7 +203,7 @@ Skills can be taught. Attitude and fit cannot. Structure interviews around:
 
 **Working interview:** Have finalists spend 2-4 hours in the practice observing and doing light tasks. Watch how they interact with staff and patients.
 
-### Compensation Strategies
+### What Are Effective Compensation Strategies?
 
 Competing on salary alone is difficult for new practices. Consider:
 
@@ -217,7 +217,7 @@ Competing on salary alone is difficult for new practices. Consider:
 
 According to [MGMA research](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), 70% of medical practices report staff turnover in 2025, with front-office staff and medical assistants being the most frequently cited turnover hotspots. Turnover is expensive. Replacing a single staff member costs $3,000-$10,000 in recruiting, training, and lost productivity. Effective training programs reduce turnover while improving performance.
 
-### Structured Onboarding
+### How Should You Structure Onboarding?
 
 The first 90 days determine long-term success. Create:
 
@@ -239,7 +239,7 @@ The first 90 days determine long-term success. Create:
 - Goal setting
 - Performance metrics review
 
-### Role-Specific Training
+### What Does Role-Specific Training Look Like?
 
 **Front Desk Training Focus:**
 - Phone scripts and call handling
@@ -272,7 +272,7 @@ Train staff across roles where practical:
 
 Cross-training provides coverage flexibility and helps staff appreciate colleagues' challenges.
 
-### Continuing Education
+### Why Does Continuing Education Matter?
 
 Invest in ongoing learning:
 
@@ -286,7 +286,7 @@ Staff who feel their skills are growing are more likely to stay.
 
 ## How Do You Manage Common Staffing Challenges?
 
-### Coverage Gaps
+### How Do You Handle Coverage Gaps?
 
 Small practices struggle when someone calls in sick:
 
@@ -298,7 +298,7 @@ Small practices struggle when someone calls in sick:
 - Evaluate [building in-house vs outsourcing](/compare/build-vs-buy/) for your front desk needs
 - Learn about [preventing missed calls from leaking revenue](/blog/missed-calls-revenue-leak-multi-location-healthcare/)
 
-### Burnout Prevention
+### How Do You Prevent Burnout?
 
 Healthcare staffing burnout leads to turnover:
 
@@ -315,7 +315,7 @@ Healthcare staffing burnout leads to turnover:
 - Clear paths to advancement
 - Address patient behavior issues (do not let staff absorb abuse)
 
-### Performance Issues
+### How Do You Address Performance Issues?
 
 Address problems early:
 
@@ -329,7 +329,7 @@ One toxic staff member can drive good employees away. Act decisively.
 
 ## How Should You Plan Compensation and Benefits?
 
-### Typical Compensation Structures
+### What Are Typical Compensation Structures?
 
 **Hourly vs. Salary:**
 - Front desk: Usually hourly
@@ -386,12 +386,3 @@ Staffing is one component of launching a successful practice. For guidance on eq
 *Last Updated: January 2026*
 
 *Sources: [BoomCloud Optometry Benchmarks](https://boomcloudapps.com/optometry-benchmarks-where-should-your-practice-be-and-how-the-heck-do-you-get-there/), [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026)*
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

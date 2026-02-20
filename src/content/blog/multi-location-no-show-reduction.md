@@ -35,8 +35,8 @@ When one location achieves 8% no-shows and another struggles at 18%, the problem
 - [What Does the Standardization Framework Look Like?](#what-does-the-standardization-framework-look-like)
 - [What Technology Is Required for Multi-Location No-Show Reduction?](#what-technology-is-required-for-multi-location-no-show-reduction)
 - [What Does the Implementation Roadmap Look Like?](#what-does-the-implementation-roadmap-look-like)
-- [Standard Operating Procedures](#standard-operating-procedures)
-- [Messaging Templates](#messaging-templates)
+- [What Standard Operating Procedures Should You Follow?](#what-standard-operating-procedures-should-you-follow)
+- [What Messaging Templates Should You Use?](#what-messaging-templates-should-you-use)
 - [How Do You Measure No-Show Reduction Success?](#how-do-you-measure-no-show-reduction-success)
 - [What Are Common Implementation Challenges?](#what-are-common-implementation-challenges)
 
@@ -143,7 +143,7 @@ Effective no-show reduction requires standardization across four domains:
 
 ## What Technology Is Required for Multi-Location No-Show Reduction?
 
-### Centralized Reminder Platform
+### What Does a Centralized Reminder Platform Require?
 
 **Must-have capabilities:**
 
@@ -156,7 +156,7 @@ Effective no-show reduction requires standardization across four domains:
 | Opt-out management | Central compliance | TCPA/HIPAA compliance |
 | Reporting | Location and network views | Performance tracking |
 
-### Integration Architecture
+### What Does the Integration Architecture Look Like?
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0;">
   <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Location PMS Systems</div>
@@ -176,7 +176,7 @@ Effective no-show reduction requires standardization across four domains:
 - Confirmation status updates (bidirectional)
 - No-show status tracking
 
-### Waitlist Management
+### How Do You Manage the Waitlist?
 
 **Automated waitlist fill process:**
 
@@ -247,7 +247,7 @@ Effective no-show reduction requires standardization across four domains:
 - Quarterly process refinement
 - Annual technology assessment
 
-## Standard Operating Procedures
+## What Standard Operating Procedures Should You Follow?
 
 ### SOP 1: Appointment Confirmation
 
@@ -292,7 +292,7 @@ Effective no-show reduction requires standardization across four domains:
 
 **Accountability:** Scheduling coordinator maintains waitlist
 
-## Messaging Templates
+## What Messaging Templates Should You Use?
 
 ### Reminder Text (Standard)
 
@@ -324,7 +324,7 @@ Effective no-show reduction requires standardization across four domains:
 
 ## How Do You Measure No-Show Reduction Success?
 
-### Weekly Scorecard (By Location)
+### What Does the Weekly Scorecard Look Like?
 
 | Location | No-Shows | Rate | Confirmations | Fill Rate | vs. Target |
 |----------|----------|------|---------------|-----------|------------|
@@ -333,7 +333,7 @@ Effective no-show reduction requires standardization across four domains:
 | Suburban B | 24 | 12.8% | 78% | 48% | ⚠️ |
 | Suburban C | 31 | 16.4% | 71% | 35% | ✗ |
 
-### Monthly Performance Report
+### What Should the Monthly Performance Report Include?
 
 | Metric | This Month | Last Month | YoY | Target |
 |--------|------------|------------|-----|--------|
@@ -343,7 +343,7 @@ Effective no-show reduction requires standardization across four domains:
 | Revenue recovered | $142K | $128K | +18% | $150K |
 | Location variance | 8.2% | 9.5% | -14% | <8% |
 
-### Quarterly Deep Dive
+### What Does a Quarterly Deep Dive Cover?
 
 **Analysis components:**
 - Location-level performance trends
@@ -418,15 +418,6 @@ Standardizing no-show reduction across multiple locations requires:
 The locations that achieve the best no-show rates are not lucky. They follow disciplined, standardized processes. When you standardize those processes across your network, every location can perform like the best.
 
 For the recovery protocols that complement no-show reduction, see our [no-show recovery program guide](/blog/no-show-recovery-program/). For centralized implementation, review our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Want to Reduce No-Shows Across Your Network?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups partner with MyBCAT for standardized patient communication programs that achieve sub-10% no-show rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Sources
 
 - [Updox: Reducing No-Show Appointments](https://www.updox.com/blog/reducing-no-show-appointments/)

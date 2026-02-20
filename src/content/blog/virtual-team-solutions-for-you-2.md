@@ -103,12 +103,3 @@ Implementation of our virtual assistant plan consists of four phases. Phase one 
 Phase three includes quality and performance audits as well as corrective plans and uptime monitoring. Phase four may include customer satisfaction scores (CSAT) and/or Service Level Agreement (SLA) adherence monitoring.
 
 At all times, we are committed to providing the very best virtual assistant service for your optometry practice. Learn more about our [dedicated virtual assistant solutions for optometrists](https://mybcat.com/industries/optometry/).
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Reduce Your Staffing Dependency</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices build resilient intake operations that don't break when staffing is tight.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

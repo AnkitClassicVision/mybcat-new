@@ -29,7 +29,7 @@ Reactivation campaigns without KPI tracking are guesswork. Multi-location health
 - [Why Do KPIs Matter for Reactivation?](#why-do-kpis-matter-for-reactivation)
 - [What Are the 8 Essential Reactivation KPIs?](#what-are-the-8-essential-reactivation-kpis)
 - [How Does the Reactivation Funnel Connect KPIs?](#how-does-the-reactivation-funnel-connect-kpis)
-- [Weekly Tracking Framework](#weekly-tracking-framework)
+- [What Does the Weekly Tracking Framework Look Like?](#what-does-the-weekly-tracking-framework-look-like)
 - [How Should You Segment KPIs by Patient Type?](#how-should-you-segment-kpis-by-patient-type)
 - [What Are the Common KPI Mistakes?](#what-are-the-common-kpi-mistakes)
 - [What Technology Do You Need for KPI Tracking?](#what-technology-do-you-need-for-kpi-tracking)
@@ -177,11 +177,11 @@ Understanding how metrics flow through the funnel helps diagnose problems:
 - Low booking rate → reduce scheduling friction, train staff on objection handling
 - Low show rate → improve confirmation process, send reminders
 
-## Weekly Tracking Framework
+## What Does the Weekly Tracking Framework Look Like?
 
 Operations leaders should review reactivation KPIs weekly during active campaigns. Here is a tracking template:
 
-### Weekly Dashboard Metrics
+### What Should the Weekly Dashboard Include?
 
 | Metric | Week 1 | Week 2 | Week 3 | Week 4 | Target |
 |--------|--------|--------|--------|--------|--------|
@@ -198,7 +198,7 @@ Operations leaders should review reactivation KPIs weekly during active campaign
 | Cost to date | | | | | N/A |
 | Cost per reactivation | | | | | <$15 |
 
-### Location-Level Benchmarking
+### How Should You Benchmark at the Location Level?
 
 For multi-location groups, track each site against network averages:
 
@@ -283,15 +283,6 @@ Reactivation campaign success depends on consistent KPI tracking:
 The groups achieving the best reactivation results combine systematic KPI tracking with rapid iteration based on what the data reveals.
 
 For the complete reactivation playbook, see our [30-day dormant patient reactivation guide](/blog/dormant-patient-reactivation/). For ROI calculation methodology, review our [patient reactivation ROI guide](/blog/patient-reactivation-roi/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Need Visibility Into Reactivation Performance?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups use MyBCAT for centralized KPI tracking across all sites. See real-time recovery rates, cost per reactivation, and location benchmarking.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Related Reading
 
 - [Patient Recall Solution](/solutions/patient-recall/)

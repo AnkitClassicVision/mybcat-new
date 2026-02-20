@@ -34,7 +34,7 @@ Patient no-shows cost US healthcare $150 billion annually. For individual practi
 - [How Can Predictive Analytics Prevent No-Shows?](#how-can-predictive-analytics-prevent-no-shows)
 - [What Technology Do Multi-Location Groups Need?](#what-technology-do-multi-location-groups-need)
 - [What KPIs Should You Track for No-Show Recovery?](#what-kpis-should-you-track-for-no-show-recovery)
-- [Implementation Roadmap](#implementation-roadmap)
+- [What Does the Implementation Roadmap Look Like?](#what-does-the-implementation-roadmap-look-like)
 - [What Are Common Mistakes in No-Show Recovery?](#what-are-common-mistakes-in-no-show-recovery)
 
 ## How Big Is the No-Show Problem by the Numbers?
@@ -188,7 +188,7 @@ For multi-location groups, track each site against network averages. Identify ou
 - High performers: Document best practices
 - Underperformers: Investigate root causes and provide support
 
-## Implementation Roadmap
+## What Does the Implementation Roadmap Look Like?
 
 **Week 1-2: Assessment**
 - Audit current no-show rates by location, provider, day/time
@@ -245,15 +245,6 @@ No-show recovery programs protect revenue and improve patient care continuity. F
 The practices that treat no-shows as a recoverable problem, rather than an inevitable loss, capture significant revenue that competitors leave on the table.
 
 For strategies on bringing back patients who have already lapsed, see our [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Recover Lost Appointments?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups reduce no-shows by up to 70% with the right systems. See how MyBCAT helps fill schedule gaps and protect revenue.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Related Reading
 
 - [No-Show Recovery Solution](/solutions/no-show-recovery/)

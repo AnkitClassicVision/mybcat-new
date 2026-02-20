@@ -112,14 +112,3 @@ When improving your patient intake process, consider the following practical fac
 Optimizing your intake process requires a mix of introspection, innovation, and ongoing dedication. Hopefully, this article has given you a clear understanding of what to consider and some tips on what to do. Your commitment to achieving the end goal sets you on your way to making an intake process that both patients and staff will like.
 
 **Feeling Overwhelmed?** Streamlining processes can be tricky and time-consuming. If you want guidance on your clinic's unique challenges, My Business Care Team is here to help. With expertise in increased revenues, efficiency improvements, and ensuring top-quality care for optometry clinics, our team can support you to make a seamless transformation. Learn more about our [appointment book maximizer solution](https://mybcat.com/solutions/patient-recall/) designed specifically for eye care practices.
-
-
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

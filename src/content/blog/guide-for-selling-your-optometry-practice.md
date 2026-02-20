@@ -222,7 +222,7 @@ The best time to start preparing was three years ago. The second best time is no
 - Engage attorney for purchase agreement review
 - Plan transition logistics
 
-### The Critical Insight
+### What Is the Critical Insight?
 
 Most sellers wait too long to start. By the time they're burned out and ready to exit, they're also too tired to optimize. The practice sells for less than it could have.
 
@@ -519,19 +519,10 @@ Use this as a starting point for your preparation:
 - ☐ Staff communication
 - ☐ Begin transition period
 
-## The Bottom Line
+## What Is the Bottom Line?
 
 Selling your optometry practice is likely the largest financial transaction of your career. The difference between a good outcome and a great one often comes down to preparation, timing, and operations.
 
 Start earlier than you think you need to. Document more than you think matters. And remember: buyers aren't just buying your revenue. They're buying a business that works without you.
 
 The practices that sell for premium multiples in 2025-2026 are the ones that look transferable, predictable, and professionally operated. If your practice depends entirely on you—for patient relationships, for daily decisions, for answering the phones—that's the first thing to fix.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

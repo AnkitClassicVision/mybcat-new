@@ -112,12 +112,3 @@ Having delved into the significance of understanding your competitive landscape 
  – Marketing is an iterative process. Based on the data and feedback, refine your USP, ICP, and marketing strategies to better resonate with your target audience and stand out in the market.
 
 In the process of implementing these steps, [leveraging a Business Process Outsourcing (BPO) service](https://mybcat.com/blog/successfully-transitioning-to-a-bpo-model-in-optometry/) like My Business Care Team can be the key that allows you to handle all of these new tasks. A BPO focused on optometry companies can quickly take on routine administrative tasks, allowing you and your team to focus more on the strategic aspects of marketing and customer engagement. With a dedicated virtual assistant managing your appointment scheduling, responding to emails, or handling your social media marketing campaigns, you have more time to analyze your market, engage with your patients, and refine your USP and ICP to better meet the needs of your target audience. This streamlined approach not only enhances your optometry marketing efforts but also optimizes operational efficiency, setting a solid foundation for sustainable growth in a competitive market.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Reduce Your Staffing Dependency</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices build resilient intake operations that don't break when staffing is tight.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

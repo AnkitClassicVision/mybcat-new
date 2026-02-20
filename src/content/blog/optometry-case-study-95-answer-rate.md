@@ -65,7 +65,7 @@ The group had built a strong clinical reputation. Patients loved their doctors. 
 
 After evaluating several options, the group implemented MyBCAT across all 8 locations with these key components:
 
-### Custom Clinical-Retail Routing
+### How Did Custom Clinical-Retail Routing Work?
 
 The first step was solving the optometry-specific routing challenge. Calls were classified within 15 seconds:
 
@@ -76,7 +76,7 @@ The first step was solving the optometry-specific routing challenge. Calls were 
 
 This reduced average call time while improving first-call resolution.
 
-### VSP and Insurance Streamlining
+### How Was VSP and Insurance Streamlined?
 
 Insurance verification was moved off the main phone lines:
 
@@ -85,7 +85,7 @@ Insurance verification was moved off the main phone lines:
 - Dedicated verification specialists for complex cases
 - Reduced verification call time from 8 minutes to 3 minutes average
 
-### Bilingual Support
+### How Was Bilingual Support Added?
 
 Spanish-language capability was added without hiring additional staff:
 
@@ -94,7 +94,7 @@ Spanish-language capability was added without hiring additional staff:
 - Insurance verification available in Spanish
 - No more relying on which location happened to have a bilingual employee working
 
-### Peak Hour Overflow
+### How Did Peak Hour Overflow Change?
 
 Instead of calls going to voicemail during busy periods:
 
@@ -103,7 +103,7 @@ Instead of calls going to voicemail during busy periods:
 - Real-time scheduling access across all locations
 - Seamless experience regardless of call volume
 
-### Unified Dashboard
+### What Did the Unified Dashboard Provide?
 
 Leadership gained visibility into operations:
 
@@ -115,7 +115,7 @@ Leadership gained visibility into operations:
 
 ## What Were the Results After 6 Months?
 
-### Call Performance
+### How Did Call Performance Improve?
 
 | Metric | Before | After | Change |
 |--------|--------|-------|--------|
@@ -126,7 +126,7 @@ Leadership gained visibility into operations:
 
 The improvement was immediate and sustained. By month 3, answer rate had stabilized above 94%.
 
-### Patient Conversion
+### How Did Patient Conversion Change?
 
 | Metric | Before | After | Change |
 |--------|--------|-------|--------|
@@ -136,7 +136,7 @@ The improvement was immediate and sustained. By month 3, answer rate had stabili
 
 When patients could reach the practice easily, they booked. When confirmations and reminders were consistent, they showed up.
 
-### Optical Performance
+### How Did Optical Performance Improve?
 
 | Metric | Before | After | Change |
 |--------|--------|-------|--------|
@@ -146,7 +146,7 @@ When patients could reach the practice easily, they booked. When confirmations a
 
 This was the unexpected win. By routing optical inquiries correctly and proactively scheduling dispensary time during exam bookings, capture rate improved dramatically.
 
-### Revenue Impact
+### What Was the Revenue Impact?
 
 **The math:**
 
@@ -241,11 +241,3 @@ This case study reflects results for a specific group with specific challenges. 
 
 *Sources: [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), [CallRail Healthcare Marketing Challenges](https://www.callrail.com/blog/healthcare-marketing-challenges)*
 ---
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Stop the Revenue Leak</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how much revenue your practice loses to missed calls and how to capture it.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

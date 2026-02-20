@@ -32,9 +32,9 @@ The difference between a 15% and 30% recall booking rate often comes down to the
 ## Table of Contents
 
 - [Why Do Scripts Matter for Patient Recall?](#why-do-scripts-matter-for-patient-recall)
-- [Phone Scripts for Patient Recall](#phone-scripts-for-patient-recall)
-- [SMS Templates for Patient Recall](#sms-templates-for-patient-recall)
-- [Objection Handling Scripts](#objection-handling-scripts)
+- [What Are the Best Phone Scripts for Patient Recall?](#what-are-the-best-phone-scripts-for-patient-recall)
+- [What Are the Best SMS Templates for Patient Recall?](#what-are-the-best-sms-templates-for-patient-recall)
+- [How Should You Handle Patient Objections?](#how-should-you-handle-patient-objections)
 - [What Are the Best Timing Practices?](#what-are-the-best-timing-practices)
 - [How Do You Adapt Scripts for Multiple Locations?](#how-do-you-adapt-scripts-for-multiple-locations)
 - [How Do You Measure Script Effectiveness?](#how-do-you-measure-script-effectiveness)
@@ -52,7 +52,7 @@ Scripts ensure consistency, train new staff quickly, and capture best practices 
 
 Research shows personalized messages generate 3-4x higher response rates than generic reminders. Scripts provide the framework for personalization at scale.
 
-## Phone Scripts for Patient Recall
+## What Are the Best Phone Scripts for Patient Recall?
 
 Phone calls remain the most effective channel for high-value patients and those who have been dormant longer than 12 months. These scripts balance warmth with efficiency.
 
@@ -113,7 +113,7 @@ Phone calls remain the most effective channel for high-value patients and those 
 - Gently note the reserved time (accountability without guilt)
 - Focus on rescheduling, not the missed appointment
 
-## SMS Templates for Patient Recall
+## What Are the Best SMS Templates for Patient Recall?
 
 Text messages achieve higher delivery and read rates than email or voicemail. Keep messages short, personal, and action-oriented.
 
@@ -168,7 +168,7 @@ Text messages achieve higher delivery and read rates than email or voicemail. Ke
   <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <strong>[First Name]</strong>! Confirming your appt at <strong>[Practice Name]</strong> on <strong>[Date]</strong> at <strong>[Time]</strong> with Dr. <strong>[Provider]</strong>. Reply YES to confirm or RESCHEDULE if you need a different time. See you soon!</p>
 </div>
 
-## Objection Handling Scripts
+## How Should You Handle Patient Objections?
 
 Patients give objections. How you respond determines whether they book or disengage permanently.
 
@@ -294,15 +294,6 @@ Effective patient recall scripts combine personalization with efficiency:
 The scripts in this guide are starting points. Adapt them to your practice's voice, patient demographics, and specific services. Test, measure, and iterate.
 
 For the complete framework on running recall campaigns, see our [patient recall campaign framework](/blog/patient-recall-campaign-framework/). For guidance on whether to use automation or live agents, review our [automated vs human patient recall](/blog/automated-vs-human-patient-recall/) comparison.
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Need Trained Agents to Execute These Scripts?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups partner with MyBCAT for dedicated recall teams who use proven scripts to bring back dormant patients at scale.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Related Reading
 
 - [Patient Recall Solution](/solutions/patient-recall/)

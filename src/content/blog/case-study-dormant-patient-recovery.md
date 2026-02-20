@@ -30,15 +30,15 @@ When Vision Care Partners (name changed for confidentiality) analyzed their pati
 
 ## Table of Contents
 
-- [The Challenge](#the-challenge)
-- [The Approach](#the-approach)
-- [The Results](#the-results)
-- [Location-Level Performance](#location-level-performance)
-- [What Worked: Key Success Factors](#what-worked-key-success-factors)
+- [What Was the Challenge?](#what-was-the-challenge)
+- [What Was the Approach?](#what-was-the-approach)
+- [What Were the Results?](#what-were-the-results)
+- [How Did Individual Locations Perform?](#how-did-individual-locations-perform)
+- [What Worked and Why?](#what-worked-and-why)
 - [What Would They Do Differently?](#what-would-they-do-differently)
-- [Ongoing Impact](#ongoing-impact)
+- [What Was the Ongoing Impact?](#what-was-the-ongoing-impact)
 
-## The Challenge
+## What Was the Challenge?
 
 Vision Care Partners operates 12 optometry locations across three metropolitan areas, serving 28,000 active patients who had been seen within the previous 18 months. Their average revenue per patient runs $520 annually, with an average patient tenure of 5.4 years. Like many growing healthcare groups, their marketing budget was focused almost entirely on new patient acquisition.
 
@@ -46,7 +46,7 @@ The dormant patient problem became visible during a routine data audit. The team
 
 Previous efforts to address the problem had produced disappointing results. Generic "we miss you" postcards generated a 2% response rate. Birthday and anniversary emails saw minimal engagement. A front desk initiative to "call the recall list" was abandoned after two weeks because practice managers were too consumed with daily operations to sustain the effort. The outreach lacked consistency, follow-through, and any real measurement of what was working.
 
-## The Approach
+## What Was the Approach?
 
 Vision Care Partners engaged a dedicated reactivation team to execute a 90-day campaign targeting their 4,200 dormant patients (12-24 months inactive). Rather than trying another generic outreach blast, they designed the campaign around three core principles that addressed the specific reasons their previous attempts had failed. Each principle targeted a different failure mode: discounting devalued the service, single-channel outreach missed patients, and lack of accountability let effort fade.
 
@@ -99,11 +99,11 @@ One of the biggest reasons previous recall efforts failed was the absence of loc
 
 This created healthy competition between locations and surfaced best practices from top performers.
 
-## The Results
+## What Were the Results?
 
 The 90-day campaign produced results that exceeded expectations across every metric. The combination of no-discount messaging, multi-channel sequencing, and location-level accountability created a system where each component reinforced the others.
 
-### 90-Day Campaign Summary
+### What Did the 90-Day Campaign Achieve?
 
 | Metric | Result |
 |--------|--------|
@@ -114,7 +114,7 @@ The 90-day campaign produced results that exceeded expectations across every met
 | Appointments completed | 847 (93% show rate) |
 | **Reactivation rate** | **20.2%** |
 
-### Financial Impact
+### What Was the Financial Impact?
 
 | Revenue Category | Amount |
 |-----------------|--------|
@@ -123,7 +123,7 @@ The 90-day campaign produced results that exceeded expectations across every met
 | Follow-up appointments (within 90 days) | $13,200 |
 | **Total first-year revenue** | **$312,275** |
 
-### Campaign Costs
+### What Did the Campaign Cost?
 
 | Cost Item | Amount |
 |-----------|--------|
@@ -134,13 +134,13 @@ The 90-day campaign produced results that exceeded expectations across every met
 | Campaign management | $1,200 |
 | **Total campaign cost** | **$6,992** |
 
-### ROI Calculation
+### What Was the ROI?
 
 The return on investment calculation tells a compelling story. With $312,275 in first-year revenue against a total campaign cost of $6,992, the first-year ROI comes to 4,365%, a return multiple of 44.7x. For every dollar invested in the campaign, the practice recovered nearly $45.
 
 The lifetime value math is even more striking. At an average patient lifetime value of $2,800 over 5.4 years, the 847 reactivated patients represent $2.37 million in recovered lifetime value. This is revenue that was walking out the door before the campaign and would have required significant new patient acquisition spend to replace. For a detailed methodology on calculating these returns, see our [patient reactivation ROI guide](/blog/patient-reactivation-roi/).
 
-## Location-Level Performance
+## How Did Individual Locations Perform?
 
 Performance varied significantly across the 12 locations, reinforcing the importance of tracking results at the individual site level rather than relying on network averages. The spread between the best and worst performing locations was nearly 8 percentage points, which translated to meaningful revenue differences.
 
@@ -163,7 +163,7 @@ When the team analyzed why some locations outperformed others, clear patterns em
 
 Mid-range performers at 17-20% executed the basics but lacked the consistency and follow-through of the top tier. Below-average performers at 15-17% turned out to have practical problems: stale contact data that reduced reach and inconsistent follow-up that allowed warm leads to cool. The network average of 20.2% masked these differences, which is precisely why location-level tracking proved so important. For more on how [healthcare operations benchmarks](/blog/healthcare-group-operations-benchmarks/) reveal performance gaps, see our benchmarking guide.
 
-## What Worked: Key Success Factors
+## What Worked and Why?
 
 ### Why Did Provider Personalization Matter?
 
@@ -208,7 +208,7 @@ The 8-week phone campaign could have been extended to 10-12 weeks. Returns would
 
 Perhaps most importantly, the campaign was a one-time effort when it should have been the foundation for an ongoing process. Establishing a monthly reactivation cadence would prevent the dormant list from accumulating again and turn patient recovery into a predictable revenue stream rather than a periodic project.
 
-## Ongoing Impact
+## What Was the Ongoing Impact?
 
 The six-month follow-up data told an encouraging story about the quality of the reactivated patients. Seventy-eight percent of them returned for a second visit or purchase within six months, which is higher than the typical patient retention rate for the network. Average revenue per reactivated patient reached $680, compared to $520 for the network average. This makes sense: these patients already had a relationship with the practice and were returning to a provider they knew, which made them more likely to proceed with recommended eyewear and follow-up care.
 
@@ -251,13 +251,4 @@ Enterprise groups can scale these results with our [multi-location recall soluti
 - [Dentx: Dental Recall Rate Benchmarks](https://dentx.ca/blog/dental-recall-rate-benchmarks/)
 - [Artisan Growth Strategies: Healthcare Patient Acquisition and Retention Costs](https://www.artisangrowthstrategies.com/blog/healthcare-patient-acquisition-retention-costs-statistics-trends)
 - [RevenueWell: Perfect Dental Recall Campaign](https://www.revenuewell.com/article/perfect-dental-recall-campaign)
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Want Results Like This for Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups partner with MyBCAT for dedicated reactivation teams that deliver 20%+ recovery rates without discounting.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 *Note: Company name and specific details have been modified to protect confidentiality. Results are based on actual campaign performance metrics.*

@@ -331,15 +331,6 @@ Patient reactivation delivers measurable, substantial ROI when tracked properly:
 The practices that invest in reactivation systematically, measuring, optimizing, and scaling, capture revenue that competitors leave on the table. A $2,000 campaign that returns $60,000+ is not an expense; it is the highest-ROI investment most practices can make.
 
 For the metrics to track during campaigns, see our [reactivation campaign KPIs guide](/blog/reactivation-campaign-kpis/). For the complete campaign playbook, review our [30-day dormant patient reactivation guide](/blog/dormant-patient-reactivation/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Want to Calculate Your Reactivation ROI?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups partner with MyBCAT for reactivation campaigns that consistently deliver 30-50x ROI. See what your dormant patient list is worth.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Related Reading
 
 - [Patient Recall Solution](/solutions/patient-recall/)

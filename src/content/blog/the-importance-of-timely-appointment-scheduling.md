@@ -25,12 +25,3 @@ Effective [optometrist call management](https://mybcat.com/about/) is a key elem
 [Optometry virtual receptionists](https://mybcat.com/industries/optometry/) play a vital role in maintaining this efficiency. They provide professional and courteous service, managing appointment bookings, reminders, and [follow-ups](https://ca.indeed.com/career-advice/career-development/customer-follow-up). These virtual receptionists are equipped to handle high call volumes, ensuring that every patient call is attended to, which is crucial for maintaining an organized and efficient scheduling system.
 
 For optometrists looking to improve their appointment scheduling and patient service, My Business Care Team offers the ideal solution with their [specialized optometry patient intake services](https://mybcat.com/about/). Our experienced team ensures your patients are scheduled efficiently and professionally, enhancing their overall experience with your practice.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

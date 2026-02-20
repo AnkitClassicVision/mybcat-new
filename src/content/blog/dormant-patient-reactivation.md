@@ -31,14 +31,14 @@ Multi-location healthcare groups recover 15-25% of dormant patients when they fo
 
 - [What Counts as a Dormant Patient?](#what-counts-as-a-dormant-patient)
 - [Why Do Multi-Location Groups Need a Different Approach?](#why-do-multi-location-groups-need-a-different-approach)
-- [The 30-Day Dormant Patient Reactivation Playbook](#the-30-day-dormant-patient-reactivation-playbook)
+- [What Is the 30-Day Dormant Patient Reactivation Playbook?](#what-is-the-30-day-dormant-patient-reactivation-playbook)
 - [Which Channel Works Best for Dormant Patients?](#which-channel-works-best-for-dormant-patients)
 - [Should You Centralize or Distribute Reactivation?](#should-you-centralize-or-distribute-reactivation)
 - [What KPIs Should You Track Weekly?](#what-kpis-should-you-track-weekly)
 - [What Are the Most Common Reactivation Mistakes?](#what-are-the-most-common-reactivation-mistakes)
 - [How Do You Calculate Your Reactivation Opportunity?](#how-do-you-calculate-your-reactivation-opportunity)
 - [What Technology Do You Need for Scaled Reactivation?](#what-technology-do-you-need-for-scaled-reactivation)
-- [Implementation Timeline](#implementation-timeline)
+- [What Does the Implementation Timeline Look Like?](#what-does-the-implementation-timeline-look-like)
 
 ## What Counts as a Dormant Patient?
 
@@ -71,7 +71,7 @@ Single practices can manage dormant patient outreach informally. Multi-location 
 
 The solution is a standardized playbook that works across all locations with centralized tracking and accountability.
 
-## The 30-Day Dormant Patient Reactivation Playbook
+## What Is the 30-Day Dormant Patient Reactivation Playbook?
 
 This playbook divides reactivation into four phases, each building on the previous week's work. The goal is systematic contact across multiple channels with escalating urgency.
 
@@ -295,7 +295,7 @@ Running reactivation across multiple locations requires appropriate technology i
 - Automated workflow triggers based on last visit date
 - Integration with recall systems to prevent future dormancy
 
-## Implementation Timeline
+## What Does the Implementation Timeline Look Like?
 
 For groups launching their first structured reactivation program:
 
@@ -319,16 +319,6 @@ Dormant patient reactivation represents one of the highest-ROI activities for mu
 - Expect 15-20% recovery rates with proper execution
 
 The difference between groups that recover dormant patients and those that do not is simply execution discipline. This playbook provides the structure. The results depend on consistent follow-through.
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Reactivate Your Dormant Patients at Scale?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location groups recover millions in lost revenue with structured reactivation. See how MyBCAT helps healthcare networks bring back dormant patients with dedicated outreach teams.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
-
 For healthcare groups with 3+ locations, our [multi-location recall solution](/enterprise/multi-location-recall/) provides centralized reactivation support.
 
 ## Sources

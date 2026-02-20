@@ -95,12 +95,3 @@ The world of eye care, encompassing both optometry and ophthalmology, is constan
 This is where BPOs, with their structured agreements and robust operations, come into the picture. Eye care providers can focus on what they do best by outsourcing these backend responsibilities. In the complex tapestry of healthcare regulations in the United States, from HIPAA to PCI DSS standards protecting credit card information, BPOs are the guardians of compliance. They know how to handle sensitive data and sensitive information with the care it warrants, ensuring that every interaction, and every piece of patient data, remains protected.
 
 As a BPO specializing in optometry and ophthalmology clinics, [My Business Care Team is ready to be your partner to usher in a new era of excellence for your eye care clinic.](https://mybcat.com/contact/)
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Reduce Your Staffing Dependency</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices build resilient intake operations that don't break when staffing is tight.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

@@ -41,8 +41,8 @@ This guide provides the specific improvements and timeline that will make your p
 3. [Why Is Owner Dependency a Valuation Killer?](#why-is-owner-dependency-a-valuation-killer)
 4. [What Documentation Signals Turn-Key Operations?](#what-documentation-signals-turn-key-operations)
 5. [What Technology Do Buyers Want to See?](#what-technology-do-buyers-want-to-see)
-6. [The 12-Month Pre-Sale Intake Cleanup Timeline](#the-12-month-pre-sale-intake-cleanup-timeline)
-7. [Quick Wins: Improvements That Impact Valuation Fast](#quick-wins-improvements-that-impact-valuation-fast)
+6. [What Does the 12-Month Pre-Sale Intake Cleanup Timeline Look Like?](#what-does-the-12-month-pre-sale-intake-cleanup-timeline-look-like)
+7. [What Quick Wins Impact Valuation Fast?](#what-quick-wins-impact-valuation-fast)
 8. [What Pre-Sale Mistakes Should You Avoid?](#what-pre-sale-mistakes-should-you-avoid)
 9. [How Do You Calculate the Valuation Impact?](#how-do-you-calculate-the-valuation-impact)
 10. [Key Takeaways](#key-takeaways)
@@ -82,7 +82,7 @@ Practices with strong, standardized intake operations present lower integration 
 
 PE buyers will request data on specific intake metrics. Having clean, historical data on these KPIs signals operational sophistication. Not having them raises questions.
 
-### The Core Ten Metrics
+### What Are the Core Ten Metrics?
 
 **1. Call Answer Rate**
 Target: 95%+
@@ -169,7 +169,7 @@ A practice with heavy owner dependency often trades at 1-2x lower EBITDA multipl
 
 Buyers love documentation. It signals that your practice can be transferred to new management without losing operational capability.
 
-### Essential Documentation for Intake Operations
+### What Is the Essential Documentation for Intake Operations?
 
 **Call Scripts (by Call Type)**
 - New patient inquiry script
@@ -218,7 +218,7 @@ Poor documentation is worse than no documentation because it creates false confi
 
 Technology choices impact integration costs significantly. Modern, integrated systems reduce buyer risk.
 
-### Preferred Technology Characteristics
+### What Are the Preferred Technology Characteristics?
 
 **Cloud-Based Practice Management**
 Buyers prefer modern, cloud-based PMS over legacy on-premise systems. Cloud systems integrate more easily, update automatically, and provide remote visibility.
@@ -235,7 +235,7 @@ Modern systems with API access enable integration with buyer platforms and third
 **Reporting Capabilities**
 Systems should produce the metrics buyers will request: call volume, answer rates, scheduling patterns, provider utilization. If generating reports requires manual data compilation, buyers see operational cost.
 
-### Red Flag Technology Situations
+### What Are the Red Flag Technology Situations?
 
 - Different PMS at different locations
 - Phone systems with no call tracking or reporting
@@ -246,7 +246,7 @@ Systems should produce the metrics buyers will request: call volume, answer rate
 
 ---
 
-## The 12-Month Pre-Sale Intake Cleanup Timeline
+## What Does the 12-Month Pre-Sale Intake Cleanup Timeline Look Like?
 
 A structured approach to pre-sale preparation maximizes valuation while maintaining operational stability.
 
@@ -333,11 +333,11 @@ A structured approach to pre-sale preparation maximizes valuation while maintain
 
 ---
 
-## Quick Wins: Improvements That Impact Valuation Fast
+## What Quick Wins Impact Valuation Fast?
 
 Some improvements deliver value quickly. Prioritize these in the first 90 days.
 
-### Immediate Impact Actions
+### What Are the Immediate Impact Actions?
 
 **Install Call Tracking and Analytics**
 If you cannot measure answer rates, conversion rates, and call patterns, fix this first. Data visibility is foundational. Most modern phone systems include this. Budget: $50-200/month per location.
@@ -405,7 +405,7 @@ Assume a practice with $2M EBITDA considering sale. Current intake operations ar
 
 **Valuation Increase: $2M-6M**
 
-### Investment Required
+### What Investment Is Required?
 
 A comprehensive 12-month intake cleanup might cost:
 
@@ -446,14 +446,4 @@ Even at the conservative end, investing $100,000 to increase valuation by $2M de
 *Last Updated: January 2026*
 
 *Sources: [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Stop the Revenue Leak</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how much revenue your practice loses to missed calls and how to capture it.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 > **Need visibility across locations?** [Check out enterprise reporting & QA](/enterprise/reporting-qa/)

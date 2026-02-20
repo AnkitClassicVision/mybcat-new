@@ -407,15 +407,6 @@ Patient retention directly protects and grows EBITDA in multi-location healthcar
 **The bottom line:** In multi-location healthcare, every percentage point of retention improvement flows through to EBITDA, and every dollar of EBITDA multiplies into enterprise value. Retention is not just a patient care metric; it is a financial lever that creates real value for owners and investors.
 
 For strategies to improve retention across locations, see our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/). For the full framework on PE-backed healthcare operations, review our [PE-backed healthcare operations guide](/blog/pe-backed-healthcare-operations/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Want to Protect Your EBITDA Through Retention?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups partner with MyBCAT for retention programs that deliver measurable EBITDA impact across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Related Reading
 
 - [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)

@@ -226,7 +226,7 @@ Integration planning should follow a structured 90-day framework with retention 
 
 ## How Should You Structure Communication During Integration?
 
-### Internal Communication
+### How Should You Handle Internal Communication?
 
 **Frequency by phase:**
 | Audience | Pre-close | Week 1-2 | Week 3-4 | Month 2-3 |
@@ -242,7 +242,7 @@ Integration planning should follow a structured 90-day framework with retention 
 4. Here is how to get answers
 5. Here is what is expected
 
-### Patient Communication
+### How Should You Handle Patient Communication?
 
 **Communication timeline:**
 | Timing | Channel | Content |
@@ -258,7 +258,7 @@ Integration planning should follow a structured 90-day framework with retention 
 - Provider-to-patient calls for relationship-dependent patients
 - Proactive outreach to patients with upcoming appointments
 
-### External Communication
+### How Should You Handle External Communication?
 
 **Stakeholder communication:**
 | Stakeholder | Timing | Content |
@@ -436,15 +436,6 @@ Protecting patient retention during healthcare M&A integration requires:
 **The bottom line:** The acquisition thesis assumes patients will stay. A disciplined integration playbook with retention at its core is the only way to deliver on that assumption.
 
 For due diligence focused on retention risks, see our [dental group acquisition due diligence guide](/blog/dental-group-acquisition-due-diligence/). For ongoing retention strategies, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Integrating an Acquisition?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Healthcare acquirers partner with MyBCAT for post-acquisition patient retention programs that protect the investment through disciplined recall and reactivation during integration.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Sources
 
 - [Hall Render: Integration Playbook for Healthcare M&A](https://hallrender.com/2025/06/02/integration-playbook-for-health-care-mergers-and-acquisitions-a-guide-for-hospitals-and-medium-to-large-provider-practices/)

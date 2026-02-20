@@ -33,20 +33,20 @@ Most multi-location healthcare groups track revenue per location but cannot tell
 
 ## Table of Contents
 
-1. [Why Intake Metrics Are the Missing Link](#why-intake-metrics-are-the-missing-link)
-2. [The 10 Essential Intake KPIs](#the-10-essential-intake-kpis)
-3. [Benchmarks by Specialty](#benchmarks-by-specialty)
-4. [Benchmarks by Location Count](#benchmarks-by-location-count)
-5. [Building Your Dashboard](#building-your-dashboard)
-6. [Comparing Locations Fairly](#comparing-locations-fairly)
-7. [From Metrics to Action](#from-metrics-to-action)
-8. [Common Measurement Mistakes](#common-measurement-mistakes)
-9. [Technology for Intake Measurement](#technology-for-intake-measurement)
+1. [Why Are Intake Metrics the Missing Link?](#why-are-intake-metrics-the-missing-link)
+2. [What Are the 10 Essential Intake KPIs?](#what-are-the-10-essential-intake-kpis)
+3. [What Are the Benchmarks by Specialty?](#what-are-the-benchmarks-by-specialty)
+4. [What Are the Benchmarks by Location Count?](#what-are-the-benchmarks-by-location-count)
+5. [How Do You Build an Effective Dashboard?](#how-do-you-build-an-effective-dashboard)
+6. [How Do You Compare Locations Fairly?](#how-do-you-compare-locations-fairly)
+7. [How Do You Move from Metrics to Action?](#how-do-you-move-from-metrics-to-action)
+8. [What Are the Most Common Measurement Mistakes?](#what-are-the-most-common-measurement-mistakes)
+9. [What Technology Do You Need for Intake Measurement?](#what-technology-do-you-need-for-intake-measurement)
 10. [Key Takeaways](#key-takeaways)
 
 ---
 
-## Why Intake Metrics Are the Missing Link
+## Why Are Intake Metrics the Missing Link?
 
 Healthcare groups invest heavily in marketing to drive phone calls. They invest in providers and equipment to deliver care. But the connection between those two investments, the intake process that converts calls into patients, often operates without measurement.
 
@@ -68,7 +68,7 @@ Most multi-location operators face three visibility challenges:
 
 ---
 
-## The 10 Essential Intake KPIs
+## What Are the 10 Essential Intake KPIs?
 
 These are the metrics that matter for multi-location intake operations. Each serves a specific purpose in understanding and improving performance.
 
@@ -168,7 +168,7 @@ These are the metrics that matter for multi-location intake operations. Each ser
 
 ---
 
-## Benchmarks by Specialty
+## What Are the Benchmarks by Specialty?
 
 Different healthcare verticals have different intake characteristics. These benchmarks reflect top-quartile performance for each specialty.
 
@@ -213,7 +213,7 @@ Veterinary practices face higher after-hours volume due to emergency nature. Tri
 
 ---
 
-## Benchmarks by Location Count
+## What Are the Benchmarks by Location Count?
 
 Scale changes expectations. Larger groups should achieve better metrics through standardization and resource leverage.
 
@@ -241,7 +241,7 @@ Scale changes expectations. Larger groups should achieve better metrics through 
 
 An effective intake dashboard provides at-a-glance visibility into performance while enabling drill-down for investigation.
 
-### Dashboard Structure
+### What Is the Ideal Dashboard Structure?
 
 **Level 1: Executive Summary**
 - Total call volume (period)
@@ -262,7 +262,7 @@ An effective intake dashboard provides at-a-glance visibility into performance w
 - Call type breakdown
 - Exception log (missed calls, complaints)
 
-### Refresh Frequency
+### How Often Should Dashboards Refresh?
 
 | Dashboard Level | Refresh Rate | Audience |
 |-----------------|--------------|----------|
@@ -270,7 +270,7 @@ An effective intake dashboard provides at-a-glance visibility into performance w
 | Location Comparison | Daily | Regional managers |
 | Location Detail | Real-time | Location managers |
 
-### Visualization Best Practices
+### What Are Visualization Best Practices?
 
 **Use consistent color coding.** Green for at/above target, yellow for within 10% of target, red for below threshold.
 
@@ -310,7 +310,7 @@ Raw metrics can be misleading. Fair comparison requires normalization for factor
 
 ---
 
-## From Metrics to Action
+## How Do You Move from Metrics to Action?
 
 Data without action is just overhead. Here is how to operationalize intake metrics.
 
@@ -331,7 +331,7 @@ Data without action is just overhead. Here is how to operationalize intake metri
 | Abandonment spikes | Check hold times, queue depth | Consider overflow routing |
 | Handle time increases 30%+ | Review call recordings | Identify process or knowledge gaps |
 
-### Root Cause Investigation
+### How Do You Investigate Root Causes?
 
 When metrics decline, investigate in this order:
 
@@ -383,7 +383,7 @@ If answer rate is measured but conversion is not, staff may rush calls to keep a
 
 Accurate measurement requires the right technology foundation.
 
-### Required Capabilities
+### What Capabilities Are Required?
 
 **Call tracking with analytics:** Phone system must capture answer rate, abandonment, speed to answer, and handle time by location and time period.
 
@@ -393,7 +393,7 @@ Accurate measurement requires the right technology foundation.
 
 **Reporting and dashboards:** Data must be accessible in usable formats without manual compilation.
 
-### Technology Options
+### What Are the Technology Options?
 
 | Approach | Pros | Cons |
 |----------|------|------|
@@ -402,7 +402,7 @@ Accurate measurement requires the right technology foundation.
 | **Practice management reporting** | Uses existing system | Limited call-specific metrics |
 | **Third-party analytics platform** | Comprehensive, customizable | Implementation effort, cost |
 
-### Integration Requirements
+### What Are the Integration Requirements?
 
 For conversion tracking, your phone system must pass caller information to your scheduling system, and scheduling outcomes must flow back for reporting. This typically requires:
 
@@ -433,12 +433,3 @@ For conversion tracking, your phone system must pass caller information to your 
 - **Avoid common mistakes.** Measure conversion (not just calls), set realistic targets, include context, and ensure metrics drive action rather than gaming.
 
 For healthcare groups ready to implement enterprise-grade intake measurement, a [patient access center](/enterprise/patient-access-center/) with [centralized scheduling](/enterprise/centralized-scheduling/) provides the infrastructure for consistent, measurable performance across all locations.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Scale Your Intake Operations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps multi-location healthcare groups achieve 95%+ answer rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

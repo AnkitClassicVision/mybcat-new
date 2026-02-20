@@ -32,7 +32,7 @@ How much is each phone call worth to your healthcare practice? The answer varies
 ## Table of Contents
 
 1. [Methodology](#methodology)
-2. [Overall Benchmarks](#overall-benchmarks)
+2. [What Are the Overall Benchmarks?](#what-are-the-overall-benchmarks)
 3. [What Is the Dental Revenue Per Call?](#what-is-the-dental-revenue-per-call)
 4. [What Is the Optometry Revenue Per Call?](#what-is-the-optometry-revenue-per-call)
 5. [What Is the Veterinary Revenue Per Call?](#what-is-the-veterinary-revenue-per-call)
@@ -74,7 +74,7 @@ This benchmark report combines three data sources:
 
 ---
 
-## Overall Benchmarks
+## What Are the Overall Benchmarks?
 
 ### Revenue Per Call by Specialty
 
@@ -232,7 +232,7 @@ Beyond specialty, several factors influence revenue per call:
 | Suburban average | Average |
 | Rural | -10-20% |
 
-### Service Scope
+### How Does Service Scope Affect Revenue Per Call?
 
 Groups offering more comprehensive services within their specialty generate higher revenue per call through:
 - Higher per-visit revenue
@@ -344,12 +344,3 @@ Revenue per call also quantifies the cost of missed calls.
 - **Calculate your own benchmark.** Total revenue divided by total calls gives your baseline. Compare to specialty benchmarks to identify opportunity. Our [KPI dashboard guide](/blog/kpi-dashboard-multi-location-intake/) shows how to track these metrics systematically.
 
 According to [MGMA benchmarks](https://www.mgma.com/datadive-data-collection-smallpractice), practices with systematic call tracking outperform those without by 15-25%. For optometry groups specifically, see our [retail-clinical intake guide](/blog/optometry-retail-clinical-intake-guide/) for specialty-specific optimization. Multi-location groups should also review our [centralized vs. distributed framework](/blog/centralized-vs-distributed-intake-framework/) for intake structure decisions.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Stop the Revenue Leak</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how much revenue your practice loses to missed calls and how to capture it.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

@@ -35,14 +35,14 @@ This guide explains how to architect a hybrid model that delivers AI efficiency 
 ## Table of Contents
 
 1. [The False Choice: Why AI vs. Human Is Wrong](#the-false-choice-why-ai-vs-human-is-wrong)
-2. [When AI Excels in Healthcare Intake](#when-ai-excels-in-healthcare-intake)
-3. [When Human Judgment Is Non-Negotiable](#when-human-judgment-is-non-negotiable)
+2. [When Does AI Excel in Healthcare Intake?](#when-does-ai-excel-in-healthcare-intake)
+3. [When Is Human Judgment Non-Negotiable?](#when-is-human-judgment-non-negotiable)
 4. [The Call Importance Matrix](#the-call-importance-matrix)
-5. [The Hybrid Model Architecture](#the-hybrid-model-architecture)
-6. [Intelligent Routing: The Technology Behind the Hybrid](#intelligent-routing-the-technology-behind-the-hybrid)
-7. [Cost-Quality Optimization](#cost-quality-optimization)
+5. [What Is the Hybrid Model Architecture?](#what-is-the-hybrid-model-architecture)
+6. [How Does Intelligent Routing Work?](#how-does-intelligent-routing-work)
+7. [How Do You Optimize Cost and Quality?](#how-do-you-optimize-cost-and-quality)
 8. [Implementation: Rolling Out a Hybrid Model](#implementation-rolling-out-a-hybrid-model)
-9. [Measuring Hybrid Performance](#measuring-hybrid-performance)
+9. [How Do You Measure Hybrid Performance?](#how-do-you-measure-hybrid-performance)
 10. [Key Takeaways](#key-takeaways)
 
 ---
@@ -59,7 +59,7 @@ The binary framing creates a false choice. The question is not "AI or human?" Th
 
 ---
 
-## When AI Excels in Healthcare Intake
+## When Does AI Excel in Healthcare Intake?
 
 AI performs well on calls that share three characteristics: they are structured, low-stakes, and transactional.
 
@@ -88,7 +88,7 @@ When these conditions are present, AI delivers faster service at lower cost than
 
 ---
 
-## When Human Judgment Is Non-Negotiable
+## When Is Human Judgment Non-Negotiable?
 
 Human agents become essential when calls involve complexity, emotion, clinical risk, or relationship context.
 
@@ -144,7 +144,7 @@ The goal is not to maximize automation. It is to match each call to the handler 
 
 ---
 
-## The Hybrid Model Architecture
+## What Is the Hybrid Model Architecture?
 
 A hybrid intake system has four components working together.
 
@@ -170,7 +170,7 @@ The system tracks which calls AI handles successfully, which require escalation,
 
 ---
 
-## Intelligent Routing: The Technology Behind the Hybrid
+## How Does Intelligent Routing Work?
 
 Effective routing depends on real-time call analysis.
 
@@ -196,7 +196,7 @@ Routing rules adapt based on:
 
 ---
 
-## Cost-Quality Optimization
+## How Do You Optimize Cost and Quality?
 
 The hybrid model is not just about quality. It is about achieving the best quality at the right cost.
 
@@ -319,12 +319,3 @@ Administrative work is a meaningful share of U.S. healthcare spending. Estimates
 *Last Updated: January 2026*
 
 *Sources: [PMC - Patient administrative burden in the US health care system](https://pmc.ncbi.nlm.nih.gov/articles/PMC8522562/), [American Hospital Association - AI Market Insights Report (PDF)](https://www.aha.org/system/files/media/file/2025/01/Market_Insights_AI_Report-2025.pdf)*
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

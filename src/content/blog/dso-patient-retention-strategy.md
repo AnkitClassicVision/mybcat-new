@@ -445,15 +445,6 @@ Continuous improvement keeps the system evolving. Best practice identification f
 **The bottom line:** DSOs that treat retention as an enterprise capability, not a collection of local problems, achieve 5-10 percentage points higher retention than industry average. At scale, those percentage points translate to millions in retained revenue and significantly higher enterprise value.
 
 For the technical implementation of centralized recall, see our [centralized patient recall guide](/blog/centralized-patient-recall-multi-location/). For the financial impact of retention on EBITDA, review our [multi-location healthcare EBITDA guide](/blog/multi-location-healthcare-ebitda/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Need Help Scaling Your DSO Retention?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">DSOs partner with MyBCAT for enterprise-grade patient retention systems that deliver consistent results across 10, 50, or 100+ locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 ## Related Reading
 
 - [PE-Backed Healthcare Operations: KPIs That Drive Valuation](/blog/pe-backed-healthcare-operations/)

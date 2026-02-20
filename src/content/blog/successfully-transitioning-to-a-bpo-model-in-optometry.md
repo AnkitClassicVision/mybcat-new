@@ -202,14 +202,4 @@ A year post-transition, services typically stabilize with processes refined thro
 When executed methodically, the transition to an optometry-focused BPO presents a compelling opportunity to enhance patient care through optimized operations and staffing. Prioritizing areas like data security, integration with existing systems, staff training, clear contracts, and post-transition support helps ensure a smooth and successful partnership yielding long-term value. By alleviating administrative burdens, practices gain more time and resources to provide quality eye care experiences.
 
 Ready to learn more about unlocking a BPO advantage tailored to your optometry practice? Contact our team for a complimentary assessment.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
 > **Need visibility across locations?** [Check out enterprise reporting & QA](/enterprise/reporting-qa/)

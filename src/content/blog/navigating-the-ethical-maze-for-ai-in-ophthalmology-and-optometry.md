@@ -159,12 +159,3 @@ The foremost priority must always be how AI impacts patients. Continuous audits 
 For staff, comprehensive training fosters AI fluency and an ethical mindset. With both technical and ethical foundations instilled, personnel can collaborate effectively with AI systems while maintaining accountability. For administrators, due diligence in selecting reliable vendors and services prevents unvetted technologies from impacting care.
 
 While AI's potential advantages are substantial, they cannot come at the cost of clinics' ethical obligations. Navigating the technology landscape thoughtfully, with human needs central, allows clinics to unlock AI's benefits equitably and conscientiously. A principled approach makes AI implementation smoother while upholding healthcare's highest ideals.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

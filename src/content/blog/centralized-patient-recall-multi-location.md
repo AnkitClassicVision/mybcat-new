@@ -551,16 +551,6 @@ Centralizing patient recall across multiple locations delivers measurable improv
 **The bottom line:** Centralized recall is not about removing local ownership. It is about providing every location with enterprise-grade tools, expertise, and support to achieve consistently excellent results.
 
 For the front desk workflow that complements centralized recall, see our front desk recall workflow guide. For strategies specific to DSOs, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Need Help Centralizing Your Recall Operations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location healthcare groups partner with MyBCAT for turnkey centralized recall implementation that delivers 80%+ compliance rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
-
 For enterprise groups managing recall across 3+ locations, explore our [multi-location recall solution](/enterprise/multi-location-recall/).
 
 ## Related Reading
