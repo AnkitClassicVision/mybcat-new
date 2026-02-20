@@ -26,7 +26,17 @@ relatedPosts:
 
 The January slump hits optometry practices hard. Post-holiday slowdowns leave schedules with gaps and revenue unpredictable. Yet top-performing practices use this exact period to run [recall campaigns](/blog/patient-recall-campaign-framework/) that generate 50x+ ROI and achieve 85-87% recall rates. One practice reported gaining $49,000 in revenue from 59 reactivated patients in just 90 days (a 140x return on their campaign investment). This guide provides the specific strategies optometry practices use to fill the January slump and maintain consistent patient flow year-round.
 
-## The Cost of Ignoring Optometry Recall
+## Table of Contents
+
+- [What Does Ignoring Optometry Recall Actually Cost?](#what-does-ignoring-optometry-recall-actually-cost)
+- [Why Does the January Slump Happen?](#why-does-the-january-slump-happen)
+- [The January Recall Campaign Framework](#the-january-recall-campaign-framework)
+- [How Should You Build a Multi-Channel Campaign Strategy?](#how-should-you-build-a-multi-channel-campaign-strategy)
+- [How Do You Measure Campaign Success?](#how-do-you-measure-campaign-success)
+- [How Do You Build a Year-Round Recall Strategy Beyond January?](#how-do-you-build-a-year-round-recall-strategy-beyond-january)
+- [What Technology Supports Optometry Recall?](#what-technology-supports-optometry-recall)
+
+## What Does Ignoring Optometry Recall Actually Cost?
 
 Before covering campaign tactics, understand what poor recall costs your practice:
 
@@ -44,7 +54,7 @@ Recall does not just recover exam revenue. Patients who return for annual exams 
 | Reactivation rate (dormant patients) | 15-20% | 25-30% |
 | No-show reduction with reminders | N/A | 50-85% |
 
-## Understanding the January Slump
+## Why Does the January Slump Happen?
 
 The post-holiday slowdown affects optometry practices for predictable reasons:
 
@@ -89,11 +99,10 @@ Draft campaign messages that acknowledge the new year and tie to annual eye heal
 
 **Day 1-3: SMS blast to due and recently lapsed patients**
 
-```
-Hi [Name], happy new year from [Practice Name]! Your annual eye exam
-is due. Start 2026 with clear vision. Reply YES to schedule or call
-[phone]. Your [VSP/vision plan] benefits are ready to use!
-```
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <strong>[Name]</strong>, happy new year from <strong>[Practice Name]</strong>! Your annual eye exam is due. Start 2026 with clear vision. Reply YES to schedule or call <strong>[phone]</strong>. Your <strong>[VSP/vision plan]</strong> benefits are ready to use!</p>
+</div>
 
 **Day 4-7: Email campaign to full list**
 
@@ -110,24 +119,20 @@ Prioritize:
 3. Patients with progressive conditions (diabetics, glaucoma suspects)
 
 Phone script:
-```
-"Hi [Name], this is [Caller] from [Practice Name]. I'm calling because
-your annual eye exam is due, and with your vision benefits renewed
-for the new year, I wanted to help you get scheduled.
 
-Dr. [Provider] likes to see you once a year to keep your prescription
-current and check for any changes. I have availability [offer specific
-times]. What works best for you?"
-```
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">Phone Script</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">"Hi <strong>[Name]</strong>, this is <strong>[Caller]</strong> from <strong>[Practice Name]</strong>. I'm calling because your annual eye exam is due, and with your vision benefits renewed for the new year, I wanted to help you get scheduled.<br><br>Dr. <strong>[Provider]</strong> likes to see you once a year to keep your prescription current and check for any changes. I have availability <strong>[offer specific times]</strong>. What works best for you?"</p>
+</div>
 
 ### Phase 3: Follow-Up and Extension (Weeks 3-4)
 
 **Second SMS to non-responders:**
-```
-[Name], just following up from [Practice Name]. Your eye exam is now
-overdue. We have openings this week if you'd like to use your vision
-benefits. Reply YES or call [phone].
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><strong>[Name]</strong>, just following up from <strong>[Practice Name]</strong>. Your eye exam is now overdue. We have openings this week if you'd like to use your vision benefits. Reply YES or call <strong>[phone]</strong>.</p>
+</div>
 
 **Direct mail to unreachables:**
 For patients with no valid phone/email, send a postcard:
@@ -136,7 +141,7 @@ For patients with no valid phone/email, send a postcard:
 - Mention vision plan benefits
 - QR code to online scheduling
 
-## Multi-Channel Campaign Strategy
+## How Should You Build a Multi-Channel Campaign Strategy?
 
 Industry data shows multi-channel campaigns typically outperform single-channel approaches significantly. Here is how to optimize each channel:
 
@@ -192,7 +197,7 @@ Industry data shows multi-channel campaigns typically outperform single-channel 
 - Higher cost but reaches patients others miss
 - Effective for older patient demographics
 
-## Measuring Campaign Success
+## How Do You Measure Campaign Success?
 
 Track these KPIs weekly during your January campaign:
 
@@ -213,7 +218,7 @@ One optometry practice achieved:
 - Campaign cost: ~$350
 - ROI: 140x
 
-## Beyond January: Year-Round Recall Strategy
+## How Do You Build a Year-Round Recall Strategy Beyond January?
 
 The January campaign should not be a one-time effort. Establish ongoing recall systems:
 
@@ -233,13 +238,13 @@ The January campaign should not be a one-time effort. Establish ongoing recall s
 
 **Pre-scheduling at checkout:**
 The most effective recall strategy is scheduling the next appointment before the patient leaves. Train staff to say:
-```
-"Dr. [Provider] wants to see you again in 12 months for your annual
-exam. Let's get that scheduled now so you don't have to worry about
-it. I have [specific dates] available next January."
-```
 
-## Technology for Optometry Recall
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">Pre-Scheduling Script</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">"Dr. <strong>[Provider]</strong> wants to see you again in 12 months for your annual exam. Let's get that scheduled now so you don't have to worry about it. I have <strong>[specific dates]</strong> available next January."</p>
+</div>
+
+## What Technology Supports Optometry Recall?
 
 Effective recall campaigns require integrated technology:
 

@@ -30,7 +30,7 @@ The phone remains the most frequent touchpoint between patients and eye care pra
 
 This guide examines how call handling shapes patient experience in eye care and provides a practical framework for building a phone culture that retains patients and strengthens your practice.
 
-## The First-Call Impression
+## Why Does the First-Call Impression Matter?
 
 Research in communication psychology suggests that people form lasting impressions within the first seven seconds of an interaction. On the phone, where there are no visual cues to soften a poor experience, those seven seconds matter even more. The way your practice answers a call sets the tone for everything that follows.
 
@@ -42,11 +42,11 @@ This is where the contrast between a distracted front desk and a dedicated call 
 
 The greeting is not a script to rush through. It is the handshake of your practice brand. Getting it right means training your team to be present, unhurried, and genuinely welcoming, every single time the phone rings.
 
-## 5 Ways Call Handling Shapes Patient Experience
+## What Are the 5 Ways Call Handling Shapes Patient Experience?
 
 Call quality is not a single variable. It is a combination of accessibility, empathy, efficiency, follow-through, and consistency. Each of these dimensions shapes how patients perceive your practice and whether they stay loyal over time.
 
-### 1. Accessibility Builds Trust
+### 1. How Does Accessibility Build Trust?
 
 When a patient calls your office and reaches a live person, something subtle but powerful happens: they feel valued. The act of picking up the phone, rather than routing to voicemail or an automated tree, signals that your practice prioritizes the people it serves.
 
@@ -62,7 +62,7 @@ These are not routine calls. They require trained agents who understand how to p
 
 Developing empathetic call scripts does not mean creating robotic responses. It means equipping your call team with language frameworks that validate patient concerns, express genuine care, and then guide the conversation toward resolution. Training in active listening, where the agent reflects back what they hear before responding, is one of the most effective techniques for making patients feel heard during these vulnerable moments.
 
-### 3. Seamless Scheduling Reduces Friction
+### 3. How Does Seamless Scheduling Reduce Friction?
 
 Scheduling is the most common reason patients call an eye care practice, and it is also where friction most often creeps in. Every additional step between "I need an appointment" and "You are booked" increases the chance the patient gives up, delays care, or calls a competitor who makes it easier.
 
@@ -72,7 +72,7 @@ Integration with your EHR or scheduling platform is essential. When your call ha
 
 For practices looking to streamline this process, a [medical answering service](/solutions/medical-answering-service/) with EHR integration can provide the infrastructure needed to deliver one-call booking consistently across all patient interactions.
 
-### 4. Proactive Follow-Up Shows You Care
+### 4. How Does Proactive Follow-Up Show You Care?
 
 Reactive call handling, answering when the phone rings, is the baseline. Proactive follow-up is what separates good patient experience from exceptional patient experience. When your practice reaches out to patients before they have to call you, it communicates attentiveness and care that patients remember.
 
@@ -92,7 +92,7 @@ This is particularly important for growing groups that have acquired practices w
 
 Centralized call handling also provides operational benefits: better coverage during lunch breaks, PTO, and call surges; easier quality assurance monitoring; and a single source of truth for call metrics across the organization.
 
-## Measuring Patient Experience Through Call Metrics
+## How Do You Measure Patient Experience Through Call Metrics?
 
 You cannot improve what you do not measure. While patient satisfaction surveys capture broad sentiment, call-specific metrics provide the granular data needed to identify and fix experience gaps. The following KPIs should be on every eye care practice's dashboard.
 
@@ -108,7 +108,7 @@ You cannot improve what you do not measure. While patient satisfaction surveys c
 
 Reviewing these metrics monthly and sharing them with your call team creates accountability and continuous improvement. When agents see that their first-call resolution rate jumped from 78% to 88% after a training session, they internalize the connection between their effort and patient outcomes.
 
-## Building a Patient-Centric Call Culture
+## How Do You Build a Patient-Centric Call Culture?
 
 Metrics and technology provide the infrastructure, but culture determines whether your phone experience truly serves patients. Building a patient-centric call culture requires sustained investment in people, processes, and feedback loops.
 
@@ -131,12 +131,3 @@ The improvements do not require a massive overhaul. Start by measuring your curr
 If you are unsure where your practice stands, an honest assessment of your current call handling is the first step. Listen to a few recorded calls. Call your own office as a mystery shopper. Ask patients directly about their phone experience. The gaps you uncover will point you toward the highest-impact improvements.
 
 Ready to assess your call handling and improve patient experience? [Contact our team](/contact/) to learn how dedicated call support can transform your practice's front door.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Patient Experience?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps eye care practices deliver exceptional call experiences that build patient loyalty and drive retention.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

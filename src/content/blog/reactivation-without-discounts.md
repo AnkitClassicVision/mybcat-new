@@ -23,7 +23,7 @@ relatedPosts:
 
 The instinct when patients stop coming is to offer a discount. "20% off your next cleaning" feels like an easy win. But discounting trains patients to wait for deals, erodes your margins, and devalues the care you provide. The good news: the most effective [dormant patient reactivation](/blog/dormant-patient-reactivation/) strategies do not rely on discounts at all. This guide provides the scripts, offers, and approaches -- complementing our [patient recall scripts library](/blog/patient-recall-scripts/) -- that bring patients back while protecting your practice's value.
 
-## The Problem with Discounting
+## Why Are Discounts a Problem for Reactivation?
 
 Discounts have hidden costs beyond the immediate margin reduction:
 
@@ -50,11 +50,11 @@ But if 50% become "discount-dependent":
 
 Discounts are not free. They are borrowed from future revenue.
 
-## Value-Based Reactivation Framework
+## What Is a Value-Based Reactivation Framework?
 
 Effective reactivation focuses on value delivery, not price reduction:
 
-### The Value Hierarchy
+### What Is the Value Hierarchy?
 
 Patients respond to value signals in this order:
 
@@ -67,7 +67,7 @@ Patients respond to value signals in this order:
 
 **The principle:** Work down the hierarchy. Most patients respond before reaching discount territory.
 
-### Non-Discount Value Propositions
+### What Value Propositions Work Without Discounts?
 
 | Value Proposition | Message Example | Best For |
 |-------------------|-----------------|----------|
@@ -78,7 +78,7 @@ Patients respond to value signals in this order:
 | Comfort | "We've added comfort amenities. Ask about our relaxation options" | Anxious patients |
 | Expertise | "Our team just completed advanced training in [specialty]" | Quality-focused patients |
 
-## Scripts That Work Without Discounts
+## What Scripts Work Without Discounts?
 
 ### SMS Scripts
 
@@ -246,7 +246,7 @@ We look forward to seeing you soon!
 [Address]
 ```
 
-## Non-Discount Offers That Work
+## What Non-Discount Offers Actually Work?
 
 When you need something more than messaging but want to avoid discounts:
 
@@ -320,7 +320,7 @@ we get your next appointment scheduled at a time that's perfect for you."
 
 **Why it works:** Acknowledges relationship value, not transactional.
 
-## When to Consider Incentives
+## When Should You Consider Incentives?
 
 Some situations may warrant non-discount incentives:
 
@@ -333,14 +333,14 @@ Some situations may warrant non-discount incentives:
 | Multi-family reactivation | Family scheduling convenience | Per-person discounts |
 | Seasonal slow period | Value-add service included | Core service discount |
 
-### Non-Discount Incentives
+### What Non-Discount Incentives Can You Offer?
 
 - **Gift card drawing:** "Schedule by [date] to be entered in our monthly drawing"
 - **Complimentary add-on:** "We'll include a complimentary [fluoride/photo review] with your visit"
 - **Charity tie-in:** "For every returning patient this month, we donate to [local charity]"
 - **Milestone recognition:** "We'd like to celebrate your 10th year as our patient"
 
-## Handling Discount Requests
+## How Should You Handle Discount Requests?
 
 When patients ask for discounts directly:
 
@@ -360,7 +360,7 @@ most convenient time for you and include [value-add] with your
 visit. Would [date/time] work for your schedule?"
 ```
 
-### Objection Responses
+### How Should You Respond to Common Objections?
 
 | Objection | Response |
 |-----------|----------|
@@ -403,13 +403,6 @@ The practices with the best reactivation rates are not those offering the bigges
 
 For the complete script library, see our [patient recall scripts guide](/blog/patient-recall-scripts/). For the strategic approach to dormant patients, review our [dormant patient reactivation guide](/blog/dormant-patient-reactivation/).
 
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Reactivate Without Discounting?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Healthcare practices partner with MyBCAT for value-driven patient reactivation campaigns that protect margins while achieving 15-25% reactivation rates.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
 
 ## Sources
 

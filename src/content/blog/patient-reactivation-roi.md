@@ -24,7 +24,19 @@ relatedPosts:
 
 Reactivating a dormant patient costs 5-25x less than acquiring a new one. Yet most practices cannot quantify the return on their reactivation efforts. If you are building your first campaign, start with our [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/) for the strategic framework. This guide provides the calculation framework to measure patient reactivation ROI, benchmark your results against top performers, and build the business case for dedicated reactivation resources.
 
-## The Financial Case for Reactivation
+## Table of Contents
+
+- [What Is the Financial Case for Reactivation?](#what-is-the-financial-case-for-reactivation)
+- [What Is the Basic ROI Formula?](#what-is-the-basic-roi-formula)
+- [What Are the ROI Calculation Components?](#what-are-the-roi-calculation-components)
+- [What Do Good Benchmarks Look Like?](#what-do-good-benchmarks-look-like)
+- [What Is the Cost of Not Reactivating?](#what-is-the-cost-of-not-reactivating)
+- [How Do You Build Your ROI Calculator?](#how-do-you-build-your-roi-calculator)
+- [How Does ROI Differ by Patient Segment?](#how-does-roi-differ-by-patient-segment)
+- [What Are the Multi-Location ROI Considerations?](#what-are-the-multi-location-roi-considerations)
+- [How Do You Present ROI to Leadership?](#how-do-you-present-roi-to-leadership)
+
+## What Is the Financial Case for Reactivation?
 
 Before reviewing calculations, understand why reactivation investment matters:
 
@@ -45,22 +57,25 @@ A 5% increase in patient retention can boost profits by 25-95%. This happens bec
 - Higher conversion on additional services
 - Referral likelihood increases with tenure
 
-## The Basic ROI Formula
+## What Is the Basic ROI Formula?
 
 Patient reactivation ROI follows a straightforward calculation:
 
-```
-ROI = (Revenue Generated - Campaign Cost) / Campaign Cost × 100
-```
+<div style="background: #fffbeb; border: 2px solid #f59e0b; border-radius: 8px; padding: 24px; margin: 24px 0;">
+  <p style="font-weight: 700; color: #92400e; margin: 0 0 12px 0;">Patient Reactivation ROI Formula</p>
+  <div style="background: #fef3c7; border-radius: 6px; padding: 12px; text-align: center;">
+    <p style="font-weight: 700; color: #92400e; font-size: 17px; margin: 0;">ROI = (Revenue Generated - Campaign Cost) / Campaign Cost x 100</p>
+  </div>
+</div>
 
 **Example calculation:**
 - Patients reactivated: 150
 - Average first-year revenue per patient: $600
 - Total revenue generated: $90,000
 - Campaign cost: $2,500
-- ROI = ($90,000 - $2,500) / $2,500 × 100 = **3,500%** (or 35x)
+- ROI = ($90,000 - $2,500) / $2,500 x 100 = **3,500%** (or 35x)
 
-## ROI Calculation Components
+## What Are the ROI Calculation Components?
 
 ### 1. Campaign Costs
 
@@ -115,16 +130,20 @@ Revenue from reactivated patients includes multiple components:
 | Second visit within year (40%) | $200 | 60 | $12,000 |
 | **Total first-year revenue** | | | **$75,000** |
 
-**ROI = ($75,000 - $1,980) / $1,980 × 100 = 3,687%** (37x)
+**ROI = ($75,000 - $1,980) / $1,980 x 100 = 3,687%** (37x)
 
 ### 3. Patient Lifetime Value (LTV)
 
 For a complete picture, consider lifetime value beyond the first year:
 
 **LTV calculation:**
-```
-LTV = Average Annual Revenue × Average Patient Tenure
-```
+
+<div style="background: #fffbeb; border: 2px solid #f59e0b; border-radius: 8px; padding: 24px; margin: 24px 0;">
+  <p style="font-weight: 700; color: #92400e; margin: 0 0 12px 0;">Lifetime Value Formula</p>
+  <div style="background: #fef3c7; border-radius: 6px; padding: 12px; text-align: center;">
+    <p style="font-weight: 700; color: #92400e; font-size: 17px; margin: 0;">LTV = Average Annual Revenue x Average Patient Tenure</p>
+  </div>
+</div>
 
 **By specialty:**
 
@@ -140,7 +159,7 @@ If you reactivate 150 patients with $3,500 average LTV and spend $1,980:
 - Campaign cost: $1,980
 - LTV-adjusted ROI: 26,415% (264x)
 
-## Benchmarks: What Good Looks Like
+## What Do Good Benchmarks Look Like?
 
 Compare your results against industry benchmarks:
 
@@ -161,7 +180,7 @@ Compare your results against industry benchmarks:
 | Optometry practice | 59 | $49,456 | $350 | 140x |
 | Dental DSO (per location) | 75 | $52,500 | $1,500 | 35x |
 
-## The Cost of Not Reactivating
+## What Is the Cost of Not Reactivating?
 
 Understanding opportunity cost strengthens the business case:
 
@@ -179,7 +198,7 @@ If a $5,000 reactivation campaign recovers even 50 patients (15% of lapsed):
 - ROI on first-year revenue: 500%
 - ROI on LTV: 4,100%
 
-## Building Your ROI Calculator
+## How Do You Build Your ROI Calculator?
 
 Create a simple spreadsheet to track reactivation ROI:
 
@@ -201,35 +220,31 @@ Create a simple spreadsheet to track reactivation ROI:
 
 **Sample calculator structure:**
 
-```
-INPUTS
------------------------------------
-Dormant patients targeted:     1,000
-SMS cost per patient:          $0.16 (4-msg sequence)
-Phone cost per patient:        $1.50 (non-responders only)
-Postcard cost per patient:     $0.10 (unreachables only)
-Reactivation rate:             15%
-First-year revenue/patient:    $600
-Average patient tenure:        5 years
-Annual revenue/patient:        $500
+<div style="background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%); border: 2px solid #3b82f6; border-radius: 8px; padding: 20px; text-align: center; margin: 24px 0;">
+  <p style="font-weight: 700; color: #1e40af; font-size: 18px; margin: 0 0 8px 0;">Reactivation ROI Calculator</p>
+  <p style="margin: 4px 0; color: #1f2937;"><strong>INPUTS</strong></p>
+  <p style="margin: 4px 0; color: #1f2937;">Dormant patients targeted: 1,000</p>
+  <p style="margin: 4px 0; color: #1f2937;">SMS cost per patient: $0.16 (4-msg sequence)</p>
+  <p style="margin: 4px 0; color: #1f2937;">Phone cost per patient: $1.50 (non-responders only)</p>
+  <p style="margin: 4px 0; color: #1f2937;">Postcard cost per patient: $0.10 (unreachables only)</p>
+  <p style="margin: 4px 0; color: #1f2937;">Reactivation rate: 15%</p>
+  <p style="margin: 4px 0; color: #1f2937;">First-year revenue/patient: $600</p>
+  <p style="margin: 4px 0; color: #1f2937;">Average patient tenure: 5 years</p>
+  <p style="margin: 4px 0; color: #1f2937;">Annual revenue/patient: $500</p>
+  <p style="margin: 12px 0 4px 0; color: #1f2937;"><strong>OUTPUTS</strong></p>
+  <p style="margin: 4px 0; color: #1f2937;">Patients reactivated: 150</p>
+  <p style="margin: 4px 0; color: #1f2937;">Total SMS cost: $160</p>
+  <p style="margin: 4px 0; color: #1f2937;">Total phone cost: $1,050 (70% called)</p>
+  <p style="margin: 4px 0; color: #1f2937;">Total postcard cost: $20 (20% mailed)</p>
+  <p style="margin: 4px 0; color: #1f2937;">Total campaign cost: $1,230</p>
+  <p style="margin: 4px 0; color: #1f2937;">Cost per reactivation: $8.20</p>
+  <p style="margin: 12px 0 4px 0; color: #1f2937;"><strong>First-year revenue: $90,000</strong></p>
+  <p style="margin: 4px 0; color: #1f2937;"><strong>First-year ROI: 7,217% (72x)</strong></p>
+  <p style="margin: 12px 0 4px 0; color: #1f2937;"><strong>Lifetime value recovered: $375,000</strong></p>
+  <p style="margin: 4px 0; color: #1f2937;"><strong>LTV-adjusted ROI: 30,388% (304x)</strong></p>
+</div>
 
-OUTPUTS
------------------------------------
-Patients reactivated:          150
-Total SMS cost:                $160
-Total phone cost:              $1,050 (70% called)
-Total postcard cost:           $20 (20% mailed)
-Total campaign cost:           $1,230
-Cost per reactivation:         $8.20
-
-First-year revenue:            $90,000
-First-year ROI:                7,217% (72x)
-
-Lifetime value recovered:      $375,000
-LTV-adjusted ROI:              30,388% (304x)
-```
-
-## ROI by Patient Segment
+## How Does ROI Differ by Patient Segment?
 
 Not all dormant patients deliver equal ROI. Segment your analysis:
 
@@ -252,7 +267,7 @@ Not all dormant patients deliver equal ROI. Segment your analysis:
 | Medium LTV ($2,000-5,000) | Medium (hybrid) | 40-80x |
 | Lower LTV (<$2,000) | Low (automated only) | 30-60x |
 
-## Multi-Location ROI Considerations
+## What Are the Multi-Location ROI Considerations?
 
 For healthcare groups operating multiple sites:
 
@@ -275,7 +290,7 @@ For healthcare groups operating multiple sites:
 - What scripts or timing does Site A use?
 - How can we bring Site B up to network average?
 
-## Presenting ROI to Leadership
+## How Do You Present ROI to Leadership?
 
 Frame your reactivation ROI for executive audiences:
 
@@ -286,29 +301,27 @@ Frame your reactivation ROI for executive audiences:
 4. What happens if we do nothing?
 
 **Executive summary template:**
-```
-Reactivation Campaign Results: Q1 2026
 
-Investment: $3,900 (multi-channel outreach)
-Patients reactivated: 253
-First-year revenue recovered: $151,800
-ROI: 39x (3,800%)
-
-With additional investment:
-- $10,000 budget → projected 650 reactivations, $390,000 revenue
-- ROI projection: 39x maintained at scale
-
-Cost of inaction:
-- Annual attrition: 500 patients
-- Revenue at risk: $300,000/year
-- LTV at risk: $2,100,000
-```
+<div style="background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%); border: 2px solid #3b82f6; border-radius: 8px; padding: 20px; text-align: center; margin: 24px 0;">
+  <p style="font-weight: 700; color: #1e40af; font-size: 18px; margin: 0 0 8px 0;">Reactivation Campaign Results: Q1 2026</p>
+  <p style="margin: 4px 0; color: #1f2937;"><strong>Investment:</strong> $3,900 (multi-channel outreach)</p>
+  <p style="margin: 4px 0; color: #1f2937;"><strong>Patients reactivated:</strong> 253</p>
+  <p style="margin: 4px 0; color: #1f2937;"><strong>First-year revenue recovered:</strong> $151,800</p>
+  <p style="margin: 4px 0; color: #1f2937;"><strong>ROI:</strong> 39x (3,800%)</p>
+  <p style="margin: 12px 0 4px 0; color: #1f2937;"><strong>With additional investment:</strong></p>
+  <p style="margin: 4px 0; color: #1f2937;">$10,000 budget → projected 650 reactivations, $390,000 revenue</p>
+  <p style="margin: 4px 0; color: #1f2937;">ROI projection: 39x maintained at scale</p>
+  <p style="margin: 12px 0 4px 0; color: #1f2937;"><strong>Cost of inaction:</strong></p>
+  <p style="margin: 4px 0; color: #1f2937;">Annual attrition: 500 patients</p>
+  <p style="margin: 4px 0; color: #1f2937;">Revenue at risk: $300,000/year</p>
+  <p style="margin: 4px 0; color: #1f2937;">LTV at risk: $2,100,000</p>
+</div>
 
 ## Key Takeaways
 
 Patient reactivation delivers measurable, substantial ROI when tracked properly:
 
-- **Basic ROI formula:** (Revenue - Cost) / Cost × 100
+- **Basic ROI formula:** (Revenue - Cost) / Cost x 100
 - **Typical ROI range:** 30-140x for well-executed campaigns
 - **Cost per reactivation benchmark:** $5-15 (vs. $100-300 for new acquisition)
 - **LTV multiplier:** Include lifetime value for full picture (often 5-10x first-year ROI)

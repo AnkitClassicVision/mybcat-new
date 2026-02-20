@@ -20,6 +20,16 @@ At the highest level, the primary goal of efficient inventory management in opto
 
 Other issues to look out for include inventory-related tasks that detract from patient-focused services, which could also impact capture rates or patient retention. Practices must also watch out for the strain on staff due to complex inventory processes or insufficient proper training. Multi-location clinics also deal with complexities in synchronizing inventory across various sites. For groups managing multiple practices, [implementing standardized intake solutions](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) can help address these operational challenges.
 
+## Table of Contents
+
+- [What Are the Most Effective Inventory Management Strategies?](#what-are-the-most-effective-inventory-management-strategies)
+- [How Does Data Accuracy and Management Drive Better Inventory?](#how-does-data-accuracy-and-management-drive-better-inventory)
+- [Why Does Segmentation and Categorization Matter?](#why-does-segmentation-and-categorization-matter)
+- [How Can Technology and Automation Improve Inventory?](#how-can-technology-and-automation-improve-inventory)
+- [How Do You Optimize Inventory Size and Stock Control?](#how-do-you-optimize-inventory-size-and-stock-control)
+- [How Often Should You Review and Adapt Your Inventory?](#how-often-should-you-review-and-adapt-your-inventory)
+- [Mastering Inventory Management](#mastering-inventory-management)
+
 Before we get into the strategies, let's align on the common goals a practice looking to manage their inventory more efficiently might aspire to:
 
 - **Ensuring Product Availability:** Ensuring that the right products are in stock when your customers need them, minimizing lost sales, and satisfying customers.
@@ -38,29 +48,29 @@ In essence, the name of the game is to have the right products, in the right qua
 
 Great! So….how do we do that?
 
-### **Inventory Management Strategies**
+### **What Are the Most Effective Inventory Management Strategies?**
 
-The following areas are the ones that will make the biggest impact. These are the strategies that any expert in the area of optometric inventory management will tell you. Later, we'll share some lesser-known strategies that could help you squeeze more efficiency into your process. 
+The following areas are the ones that will make the biggest impact. These are the strategies that any expert in the area of optometric inventory management will tell you. Later, we'll share some lesser-known strategies that could help you squeeze more efficiency into your process.
 
-### **Data Accuracy and Management**
+### **How Does Data Accuracy and Management Drive Better Inventory?**
 
 Understanding your customer demographics and industry trends requires the correct supply to meet demand. Your inventory should reflect the demographics of your practice, ranging from budget to designer frames. The stock should be diverse enough to suit different tastes, face shapes, and profiles, ensuring a range that appeals to your clientele​. Therefore, collecting customer demographic data can help you analyze styles, brands, and price points based on demographics. It could also help you look into industry trends based on the demographics your practice serves.
 
 Using data to make decisions only works if that data is accurate optical inventory data​​. As we'll touch on more later, this boils down to adopting a POS (Point of Sale) or inventory management software that can help you analyze past purchase behavior and monitor what's in and out of stock.
 
-### **Segmentation and Categorization**
+### **Why Does Segmentation and Categorization Matter?**
 
 We live in an image-conscious world. Most customers already have a preference for certain brands before they ever set foot in your practice. Focus on product categorization by designers and brands​​. It helps customers focus on what they want. Also, categorization by style can lead to a monotonous display, reducing the perception of choice, which is crucial for consumers​. [There are multiple strategies to consider for merchandising your frame board](https://www.optometricmanagement.com/).
 
 At the same time, not all customers are brand loyal. Sometimes, factors like the availability of frames or lenses might be important to a customer. By having a customer accessible view of optical inventory management software, you could offer customers a way to dynamically sort or filter your stock based on what's important to them.
 
-### **Use of Technology and Automation**
+### **How Can Technology and Automation Improve Inventory?**
 
 In both of our previous sections, the use of software and technology has come up. Adopting computerized stock control systems or POS systems for inventory management is arguably the most significant impact on your inventory efficiency​​. These systems enable you to monitor fast-moving and slow-moving stocks, which aids in planning stock replenishment and demand forecasting. For instance, you can stock more if aviator frames are in high demand.
 
 It's essential to have a firm grasp on what's in stock and what's needed. This knowledge helps order frames on your terms rather than being dictated by vendor visits. To access this knowledge, a practice can integrate analytics tools with inventory management systems to understand sales trends, product performance, and customer preferences.
 
-### **Inventory Size and Stock Control**
+### **How Do You Optimize Inventory Size and Stock Control?**
 
 To avoid overstocking or missing out on a sale from out-of-stock inventory, a practice needs to optimize inventory size to align with demand​​. High inventory levels don't necessarily correlate with increased sales. The goal should be to stock the smallest amount of product for the shortest time possible. Many practices carry an excessive number of eyeglass frames relative to demand, tying up significant capital. [Striving for a high capture rate with minimal stock is a solid goal​ for any practice](https://mybcat.com/blog/why-capture-rate-matters-for-every-optometry-business/).
 
@@ -78,13 +88,21 @@ One effective strategy for knowing if you have the proper stock levels is the co
 
 - **Calculate the Holding Cost (H):** This is the cost to hold one unit of inventory for a year. It can include storage costs, insurance, depreciation, and opportunity costs of the capital tied up in stock.
 
-Then the formula is: EOQ = 2*D*S/H
+<div style="background: #fffbeb; border: 2px solid #f59e0b; border-radius: 8px; padding: 24px; margin: 24px 0;">
+  <p style="font-weight: 700; color: #92400e; margin: 0 0 12px 0;">Economic Order Quantity (EOQ) Formula</p>
+  <p style="margin: 4px 0; color: #1f2937;">D = Annual Demand (units/year)</p>
+  <p style="margin: 4px 0; color: #1f2937;">S = Order Cost (per order)</p>
+  <p style="margin: 4px 0; color: #1f2937;">H = Holding Cost (per unit/year)</p>
+  <div style="background: #fef3c7; border-radius: 6px; padding: 12px; text-align: center;">
+    <p style="font-weight: 700; color: #92400e; font-size: 17px; margin: 0;">EOQ = 2 x D x S / H</p>
+  </div>
+</div>
 
 The primary aim of EOQ is to find a quantity that minimizes the total inventory cost. While the EOQ formula might suggest an ideal number, practical considerations like packaging (items might come in packs of specific sizes) and supplier minimum order quantities should be considered.
 
-Perhaps counterintuitively, having a limited number of major and specialty vendors​​ can also help improve efficiency. First, it can increase the amount of products you're buying from individual vendors, which could reduce your costs from higher volumes. It's also easier to train staff on the various products. It should not come at the expense of having enough styles and brands to satisfy your customers, so consult your sales history to identify slow-moving vendors that you could potentially eliminate. 
+Perhaps counterintuitively, having a limited number of major and specialty vendors​​ can also help improve efficiency. First, it can increase the amount of products you're buying from individual vendors, which could reduce your costs from higher volumes. It's also easier to train staff on the various products. It should not come at the expense of having enough styles and brands to satisfy your customers, so consult your sales history to identify slow-moving vendors that you could potentially eliminate.
 
-### **Regular Review and Adaptation**
+### **How Often Should You Review and Adapt Your Inventory?**
 
 Review your stock situation regularly, at least once a quarter, to track sales, profits, and customer interest trends. This data can guide business decisions, like promoting underperforming products or discontinuing certain items​.
 

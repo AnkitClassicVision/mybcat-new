@@ -26,7 +26,17 @@ Now pull up your own numbers. What's your percentage?
 
 If you just winced, keep reading. Because you're probably not alone, and there's a path out of this.
 
-## Where The Money Actually Goes
+## Table of Contents
+
+- [Where Does the Money Actually Go?](#where-does-the-money-actually-go)
+- [How Does the 60/40 Reality Check Work?](#how-does-the-6040-reality-check-work)
+- [What Are the Three Levers You Can Actually Pull?](#what-are-the-three-levers-you-can-actually-pull)
+- [How Does Global Staffing Actually Work?](#how-does-global-staffing-actually-work)
+- [What's Actually Worth Outsourcing?](#whats-actually-worth-outsourcing)
+- [What Numbers Should You Track?](#what-numbers-should-you-track)
+- [Stop Overpaying For Admin Work](#stop-overpaying-for-admin-work)
+
+## Where Does the Money Actually Go?
 
 Most practice owners I talk to know they're spending too much on admin. They just don't know *where* exactly. It feels like a blob of overhead that's impossible to untangle.
 
@@ -42,7 +52,7 @@ Each hire made sense in isolation. Together, they create a payroll that's eating
 
 Here's the rule of thumb: your combined cost of labor and goods should stay below 60% of revenue. Labor alone shouldn't exceed about 35-40% when you include doctors. If you're north of those numbers, something's off.
 
-## The 60/40 Reality Check
+## How Does the 60/40 Reality Check Work?
 
 Pull your P&L. Do the math. Seriously, do it now.
 
@@ -56,7 +66,7 @@ If you're between 60-70%, you've got some fat to trim but you're not in crisis.
 
 If you're over 70%, we need to talk. You're working way too hard for margins that thin.
 
-## Three Levers You Can Actually Pull
+## What Are the Three Levers You Can Actually Pull?
 
 Assuming you want to fix this, you've got three main options. Most practices need some combination of all three.
 
@@ -94,7 +104,7 @@ Chart prep? No.
 
 The list goes on. A huge percentage of administrative work can be done remotely. And when you outsource to the right partner, you're typically paying 40-60% less than equivalent in-house labor.
 
-## How Global Staffing Actually Works
+## How Does Global Staffing Actually Work?
 
 Let me be specific, because "outsourcing" is a loaded word.
 
@@ -108,7 +118,7 @@ The result? We cut our non-doctor payroll by 30%. And our revenue went up 33% be
 
 Those aren't typos. Costs down 30%, revenue up 33%. That's what happens when you stop paying premium prices for tasks that don't require premium resources.
 
-## What's Actually Worth Outsourcing
+## What's Actually Worth Outsourcing?
 
 Not everything should be outsourced. I'd never outsource clinical support roles—techs and opticians need to be there with the patient. And I'd always keep some in-office admin capacity for situations that require a physical presence.
 
@@ -124,7 +134,7 @@ But these tasks? These can absolutely be handled remotely:
 
 **After-hours coverage.** Instead of paying on-call premiums to your staff, have a remote team handle evening and weekend calls.
 
-## The Numbers That Matter
+## What Numbers Should You Track?
 
 Once you start making changes, track these:
 

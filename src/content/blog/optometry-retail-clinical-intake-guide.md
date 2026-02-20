@@ -32,24 +32,24 @@ This guide provides the framework for building intake workflows that capture bot
 
 ## Table of Contents
 
-1. [The Dual-Revenue Challenge in Optometry](#the-dual-revenue-challenge-in-optometry)
-2. [Call Types in Optometry: A Classification Framework](#call-types-in-optometry-a-classification-framework)
-3. [The Clinical-Retail Routing Decision Tree](#the-clinical-retail-routing-decision-tree)
+1. [What Is the Dual-Revenue Challenge in Optometry?](#what-is-the-dual-revenue-challenge-in-optometry)
+2. [How Should You Classify Optometry Call Types?](#how-should-you-classify-optometry-call-types)
+3. [How Does the Clinical-Retail Routing Decision Tree Work?](#how-does-the-clinical-retail-routing-decision-tree-work)
 4. [Scripts for Identifying Optical Opportunities](#scripts-for-identifying-optical-opportunities)
-5. [VSP and Insurance Verification: Streamlining the Process](#vsp-and-insurance-verification-streamlining-the-process)
-6. [Connecting Intake to Capture Rate Metrics](#connecting-intake-to-capture-rate-metrics)
-7. [Appointment Types That Matter](#appointment-types-that-matter)
+5. [How Can You Streamline VSP and Insurance Verification?](#how-can-you-streamline-vsp-and-insurance-verification)
+6. [How Does Intake Connect to Capture Rate Metrics?](#how-does-intake-connect-to-capture-rate-metrics)
+7. [Which Appointment Types Matter Most?](#which-appointment-types-matter-most)
 8. [Multi-Location Considerations](#multi-location-considerations)
 9. [Technology Integration](#technology-integration)
 10. [Key Takeaways](#key-takeaways)
 
 ---
 
-## The Dual-Revenue Challenge in Optometry
+## What Is the Dual-Revenue Challenge in Optometry?
 
 Unlike most healthcare specialties, optometry operates two distinct businesses under one roof. The clinical side provides eye exams, medical eye care, and contact lens fittings. The retail side sells frames, lenses, and contact lenses. Both require the phone to ring, but the calls need different handling.
 
-### Why This Creates Intake Complexity
+### Why Does This Create Intake Complexity?
 
 **Different destinations.** A caller asking about an eye exam needs to reach clinical scheduling. A caller asking about frame selection needs to reach the optical team. A caller asking about contact lens reorders might need either, depending on prescription status.
 
@@ -59,7 +59,7 @@ Unlike most healthcare specialties, optometry operates two distinct businesses u
 
 **Different timing.** Clinical appointments are scheduled in advance. Optical purchases often happen on impulse or same-day after receiving a new prescription.
 
-### The Cost of Getting It Wrong
+### What Is the Cost of Getting It Wrong?
 
 When intake fails to route appropriately, revenue leaks in multiple directions:
 
@@ -72,7 +72,7 @@ Groups that audit their call handling often find 20-30% of calls are suboptimall
 
 ---
 
-## Call Types in Optometry: A Classification Framework
+## How Should You Classify Optometry Call Types?
 
 Understanding call distribution is the foundation for effective routing. Here is the typical breakdown for multi-location optometry groups:
 
@@ -98,7 +98,7 @@ Understanding call distribution is the foundation for effective routing. Here is
 
 ---
 
-## The Clinical-Retail Routing Decision Tree
+## How Does the Clinical-Retail Routing Decision Tree Work?
 
 Effective intake requires quickly identifying call purpose and routing appropriately. This decision tree provides a framework:
 
@@ -130,7 +130,7 @@ If the caller indicates eyewear:
    - Contacts: Reorder vs. new fitting
 3. Insurance / vision plan for optical benefits?
 
-### Hybrid Situations
+### How Do You Handle Hybrid Situations?
 
 Some calls require both paths:
 
@@ -189,11 +189,11 @@ Intake staff can significantly impact capture rate by identifying and flagging o
 
 ---
 
-## VSP and Insurance Verification: Streamlining the Process
+## How Can You Streamline VSP and Insurance Verification?
 
 Insurance verification calls are necessary but can consume disproportionate phone time. Here are strategies to manage them efficiently.
 
-### The Verification Burden
+### What Is the Verification Burden?
 
 A typical VSP verification call takes 5-8 minutes:
 - Hold time waiting for VSP representative
@@ -218,7 +218,7 @@ For a busy location receiving 20 verification calls daily, that is 100-160 minut
 
 "I can help you understand your vision benefits. Can I get your VSP member ID and date of birth? [Verify online while on phone] Great, I can see you have [benefit summary]. Would you like to schedule an exam to use those benefits?"
 
-### Routing Verification Calls
+### How Should You Route Verification Calls?
 
 Not all verification calls need the same handling:
 
@@ -231,11 +231,11 @@ Not all verification calls need the same handling:
 
 ---
 
-## Connecting Intake to Capture Rate Metrics
+## How Does Intake Connect to Capture Rate Metrics?
 
 Capture rate, the percentage of exam patients who purchase eyewear, is the key profitability metric for optometry groups. Intake directly impacts capture rate.
 
-### How Intake Affects Capture Rate
+### How Does Intake Affect Capture Rate?
 
 **Expectation setting.** Patients who arrive expecting to explore eyewear are more likely to purchase than those who planned only an exam.
 
@@ -245,7 +245,7 @@ Capture rate, the percentage of exam patients who purchase eyewear, is the key p
 
 **Staff preparation.** When intake notes optical interest, dispensary staff can prepare relevant options before the patient arrives.
 
-### Tracking Intake-to-Capture Connection
+### How Do You Track the Intake-to-Capture Connection?
 
 To measure intake impact on capture, track:
 
@@ -268,7 +268,7 @@ To measure intake impact on capture, track:
 
 ---
 
-## Appointment Types That Matter
+## Which Appointment Types Matter Most?
 
 Optometry scheduling requires appointment types that reflect the clinical-retail complexity.
 
@@ -309,7 +309,7 @@ Optometry scheduling requires appointment types that reflect the clinical-retail
 - Includes: Adjustment, minor repair
 - Scheduling note: Opportunity for second-pair or upgrade discussion
 
-### Appointment Type Configuration
+### How Should You Configure Appointment Types?
 
 Configure your scheduling system to:
 

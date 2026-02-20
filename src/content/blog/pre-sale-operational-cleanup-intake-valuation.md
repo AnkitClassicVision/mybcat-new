@@ -36,24 +36,24 @@ This guide provides the specific improvements and timeline that will make your p
 
 ## Table of Contents
 
-1. [What PE Buyers Actually Evaluate in Intake Operations](#what-pe-buyers-actually-evaluate-in-intake-operations)
-2. [The Intake Metrics That Show Up in Due Diligence](#the-intake-metrics-that-show-up-in-due-diligence)
-3. [Owner Dependency: The Valuation Killer](#owner-dependency-the-valuation-killer)
-4. [Documentation That Signals Turn-Key](#documentation-that-signals-turn-key)
-5. [Technology That Buyers Want to See](#technology-that-buyers-want-to-see)
+1. [What Do PE Buyers Actually Evaluate in Intake Operations?](#what-do-pe-buyers-actually-evaluate-in-intake-operations)
+2. [Which Intake Metrics Show Up in Due Diligence?](#which-intake-metrics-show-up-in-due-diligence)
+3. [Why Is Owner Dependency a Valuation Killer?](#why-is-owner-dependency-a-valuation-killer)
+4. [What Documentation Signals Turn-Key Operations?](#what-documentation-signals-turn-key-operations)
+5. [What Technology Do Buyers Want to See?](#what-technology-do-buyers-want-to-see)
 6. [The 12-Month Pre-Sale Intake Cleanup Timeline](#the-12-month-pre-sale-intake-cleanup-timeline)
 7. [Quick Wins: Improvements That Impact Valuation Fast](#quick-wins-improvements-that-impact-valuation-fast)
-8. [What NOT to Do: Pre-Sale Mistakes](#what-not-to-do-pre-sale-mistakes)
-9. [The Valuation Impact Calculation](#the-valuation-impact-calculation)
+8. [What Pre-Sale Mistakes Should You Avoid?](#what-pre-sale-mistakes-should-you-avoid)
+9. [How Do You Calculate the Valuation Impact?](#how-do-you-calculate-the-valuation-impact)
 10. [Key Takeaways](#key-takeaways)
 
 ---
 
-## What PE Buyers Actually Evaluate in Intake Operations
+## What Do PE Buyers Actually Evaluate in Intake Operations?
 
 During operational due diligence, PE buyers and their consultants evaluate far more than your financial statements. They are assessing how difficult and expensive your practice will be to integrate into their existing platform.
 
-### The Integration Cost Model
+### How Do Buyers Model Integration Costs?
 
 Every PE buyer builds an integration cost model. They estimate what it will take to:
 
@@ -64,7 +64,7 @@ Every PE buyer builds an integration cost model. They estimate what it will take
 
 Practices with strong, standardized intake operations present lower integration costs. Lower costs mean higher valuations.
 
-### What They Look For Specifically
+### What Do Buyers Look For Specifically?
 
 **Scalability**: Can your intake model handle growth? If adding locations means adding proportional front desk headcount, buyers see a cost structure that does not scale. If your intake system can absorb volume increases with minimal additional cost, buyers see operating leverage.
 
@@ -78,7 +78,7 @@ Practices with strong, standardized intake operations present lower integration 
 
 ---
 
-## The Intake Metrics That Show Up in Due Diligence
+## Which Intake Metrics Show Up in Due Diligence?
 
 PE buyers will request data on specific intake metrics. Having clean, historical data on these KPIs signals operational sophistication. Not having them raises questions.
 
@@ -136,11 +136,11 @@ Can you pull intake performance reports by location, by time period, by metric? 
 
 ---
 
-## Owner Dependency: The Valuation Killer
+## Why Is Owner Dependency a Valuation Killer?
 
 The most common valuation discount in healthcare practice sales is owner dependency. If the practice runs because you personally manage operations, answer difficult calls, train staff, and make decisions that others cannot, buyers see a business that cannot function without you.
 
-### Signs of Owner Dependency in Intake
+### What Are the Signs of Owner Dependency in Intake?
 
 - You personally handle patient complaints that come through the phone
 - Staff escalate scheduling exceptions to you for decisions
@@ -149,7 +149,7 @@ The most common valuation discount in healthcare practice sales is owner depende
 - You approve all scripts and protocol changes
 - No one else can access or interpret intake reports
 
-### How to Reduce Owner Dependency
+### How Do You Reduce Owner Dependency?
 
 **Document everything you do.** If you make scheduling decisions, document the decision logic. If you handle escalations, create a protocol others can follow.
 
@@ -159,13 +159,13 @@ The most common valuation discount in healthcare practice sales is owner depende
 
 **Remove yourself from daily operations.** For the 12 months before sale, your goal is to be unnecessary to daily intake operations. If the practice runs fine when you are on vacation for two weeks, you are making progress.
 
-### The Valuation Math
+### What Is the Valuation Math?
 
 A practice with heavy owner dependency often trades at 1-2x lower EBITDA multiple than a comparable practice with transferable operations. On a practice with $2M EBITDA, that is $2-4M in lost valuation. Worth fixing.
 
 ---
 
-## Documentation That Signals Turn-Key
+## What Documentation Signals Turn-Key Operations?
 
 Buyers love documentation. It signals that your practice can be transferred to new management without losing operational capability.
 
@@ -203,7 +203,7 @@ Buyers love documentation. It signals that your practice can be transferred to n
 - Coaching and feedback protocols
 - Performance review criteria
 
-### Documentation Quality Matters
+### Does Documentation Quality Matter?
 
 Poor documentation is worse than no documentation because it creates false confidence. Your documentation should be:
 
@@ -214,7 +214,7 @@ Poor documentation is worse than no documentation because it creates false confi
 
 ---
 
-## Technology That Buyers Want to See
+## What Technology Do Buyers Want to See?
 
 Technology choices impact integration costs significantly. Modern, integrated systems reduce buyer risk.
 
@@ -356,7 +356,7 @@ Identify the most owner-dependent or single-person functions. Train a backup. Re
 
 ---
 
-## What NOT to Do: Pre-Sale Mistakes
+## What Pre-Sale Mistakes Should You Avoid?
 
 Common mistakes can hurt valuation or complicate the sale process.
 
@@ -382,7 +382,7 @@ Due diligence requests come fast. If you cannot produce 12-24 months of intake m
 
 ---
 
-## The Valuation Impact Calculation
+## How Do You Calculate the Valuation Impact?
 
 Quantifying the ROI of pre-sale intake improvements helps justify investment.
 

@@ -30,7 +30,17 @@ And here's the thing: Maria didn't call our competitor. She just... didn't get c
 
 That story is from years ago, before we figured out that bilingual support isn't a nice-to-have. It's a business necessity and, more importantly, a basic care issue.
 
-## The Numbers That Should Get Your Attention
+## Table of Contents
+
+- [What Numbers Should Get Your Attention?](#what-numbers-should-get-your-attention)
+- [What Does Bilingual Support Actually Change?](#what-does-bilingual-support-actually-change)
+- [What Is the Business Case for Spanish-Speaking Staff?](#what-is-the-business-case-for-spanish-speaking-staff)
+- [Why Doesn't "We Have Someone Who Speaks Some Spanish" Work?](#why-doesnt-we-have-someone-who-speaks-some-spanish-work)
+- [How Do We Handle Bilingual Patient Support?](#how-do-we-handle-bilingual-patient-support)
+- [What Does Bilingual Support Look Like Day-to-Day?](#what-does-bilingual-support-look-like-day-to-day)
+- [Getting Started](#getting-started)
+
+## What Numbers Should Get Your Attention?
 
 There are over 40 million Spanish speakers in the United States, according to Census Bureau data. In some estimates, the number exceeds 44 million when including bilingual speakers.
 
@@ -40,7 +50,7 @@ Now think about your patient demographics. Think about who's living in the neigh
 
 How many Marias are calling your practice?
 
-## What Bilingual Support Actually Changes
+## What Does Bilingual Support Actually Change?
 
 When a Spanish-speaking patient calls a practice with Spanish-speaking staff, something different happens. The guard comes down. The hesitation disappears. Suddenly they can actually explain what's going on.
 
@@ -56,7 +66,7 @@ The clinical impact is real:
 
 **More referrals.** Happy patients bring their families. Spanish-speaking patients bring their Spanish-speaking families, friends, and neighbors. Word travels in tight-knit communities.
 
-## The Business Case (Because It Matters)
+## What Is the Business Case for Spanish-Speaking Staff?
 
 Let's be direct about this: serving Spanish-speaking patients well is also good for your bottom line.
 
@@ -66,7 +76,7 @@ We've seen practices experience meaningful patient base growth simply by adding 
 
 And here's the math that really matters: [missed calls cost money](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/). If you're missing calls because of language barriers, or worse, converting calls poorly because of communication struggles, you're bleeding revenue you might not even know about.
 
-## Why "We Have Someone Who Speaks Some Spanish" Doesn't Work
+## Why Doesn't "We Have Someone Who Speaks Some Spanish" Work?
 
 A lot of practices try to solve this problem cheaply. They have one staff member who took Spanish in high school, or an optical assistant whose grandmother is from Mexico.
 
@@ -82,7 +92,7 @@ Your receptionist who "speaks some Spanish" probably can't explain the differenc
 
 Fluency matters. Training matters. Consistency matters.
 
-## How We Handle It
+## How Do We Handle Bilingual Patient Support?
 
 At MyBCAT, a significant portion of our [medical virtual assistants](/solutions/medical-virtual-assistant/) are fully bilingual in English and Spanish. Not conversational: fluent. Born and raised in Spanish-speaking households, educated in both languages, trained specifically on eye care terminology.
 
@@ -96,7 +106,7 @@ We also handle:
 - **Recall campaigns.** Outbound calls to Spanish-speaking patients who are overdue for their annual exam.
 - **Appointment reminders.** Confirmation calls and texts in the patient's preferred language.
 
-## What This Looks Like Day-to-Day
+## What Does Bilingual Support Look Like Day-to-Day?
 
 Here's a real scenario from last week.
 

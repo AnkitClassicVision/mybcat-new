@@ -22,7 +22,18 @@ At first glance, it might seem that operational efficiency—including [streamli
 
 But the benefits don't stop with the patients. From the reception desk to the optometrist's chair, staff thrives in an environment where they know what's expected of them. A well-structured system minimizes confusion, reduces errors, and creates a more enjoyable work environment. It's less about putting out fires and more about providing the kind of care that every patient deserves.
 
-## **Understanding Operational Efficiency in Optometry**
+## Table of Contents
+
+- [What Does Operational Efficiency Mean in Optometry?](#what-does-operational-efficiency-mean-in-optometry)
+- [Reactive Tier (Least Efficient)](#reactive-tier-least-efficient)
+- [Basic Tier](#basic-tier)
+- [Structured Tier](#structured-tier)
+- [Optimized Tier](#optimized-tier)
+- [Innovative Tier (Most Efficient)](#innovative-tier-most-efficient)
+- [How Do You Maintain the Innovative Tier?](#how-do-you-maintain-the-innovative-tier)
+- [What Are the Benefits of Climbing the Efficiency Ladder?](#what-are-the-benefits-of-climbing-the-efficiency-ladder)
+
+## **What Does Operational Efficiency Mean in Optometry?**
 
 Operational efficiency is not just a buzzword; it's a guiding principle that can elevate the quality of care, enhance the patient and staff experience, and, yes, also lead to a more profitable optometry practice. So how can a clinic assess how efficient they are? And, what is possible? To help, we've created a tiered system of operational efficiency designed specifically for optometry practices. Think of this system as a maturity model. It's like a roadmap, allowing clinic owners and managers to pinpoint where they currently stand in their efficiency journey and what the next level looks like.
 
@@ -174,7 +185,7 @@ The Optimized Tier is a commendable stage, representing a practice's dedication 
 
 **Typical Scenario:** A patient enters the practice and, using augmented reality, tries on different lenses and frames to see which suits them best. They then proceed to an AI-assisted preliminary diagnosis, which the optometrist reviews. Post-consultation, predictive analytics suggest when their next visit should be, considering their eye disease history and other factors.
 
-## **Insights on Maintaining this Tier and Staying Ahead of the Curve**
+## **How Do You Maintain the Innovative Tier?**
 
 - **Continuous Research and Development:** Invest time and resources into staying updated with the latest in optometry and technology.
 
@@ -188,7 +199,7 @@ The Optimized Tier is a commendable stage, representing a practice's dedication 
 
 The Innovative Tier isn't just about being the best in the present but about shaping the future of optometry practice. Practices at this level set standards and redefine them, ensuring they remain leaders in operational efficiency and patient care.
 
-## **Benefits of Climbing the Efficiency Ladder**
+## **What Are the Benefits of Climbing the Efficiency Ladder?**
 
 The path to increased operational efficiency is more than just a managerial aspiration; it offers tangible and intangible rewards that transform an optometry practice at its core.
 

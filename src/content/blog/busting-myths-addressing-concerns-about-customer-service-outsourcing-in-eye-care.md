@@ -29,7 +29,14 @@ When operations are not running smoothly, you can feel it. Accounts receivable m
 
 We want to share our experience to help those of you with concerns about outsourcing for an eye care clinic. First, we'll share some signs that outsourcing could be needed. Then, we'll talk about fears that could be holding you back. Let's be real. It's scary because outsourcing is a big decision. But, we have some insights on preventing those fears from becoming a reality. This information will help you contemplate whether a significant operational change is the right decision.
 
-## **Recognizing the Signs for When to Outsource**
+## Table of Contents
+
+- [When Should You Outsource Your Eye Care Operations?](#when-should-you-outsource-your-eye-care-operations)
+- [What Are the Biggest Fears Around Outsourcing?](#what-are-the-biggest-fears-around-outsourcing)
+- [How Do You Avoid the Worst-Case Scenarios?](#how-do-you-avoid-the-worst-case-scenarios)
+- [Practical Next Steps](#practical-next-steps)
+
+## **When Should You Outsource Your Eye Care Operations?**
 
 If your business is running smoothly and your operational expenses are low, there's not much motivation to outsource. So when should you consider outsourcing? Here are some telltale signs that a clinic is not providing top-quality care and is capital inefficient:
 
@@ -43,7 +50,7 @@ If your business is running smoothly and your operational expenses are low, ther
 
 If these signs resonate with your current situation, consider outsourcing. For some clinic owners, there are understandable fears about outsourcing. We'll discuss those fears in the next section and share how to avoid common pitfalls. It's worth the effort. Our clinics have tackled these issues without falling into any traps, resulting in a 33% boost in revenue per patient and a 12% rise in patient exams. Your clinic can do it too.
 
-## **Imagining the Worst Around Outsourcing**
+## **What Are the Biggest Fears Around Outsourcing?**
 
 Outsourcing can feel like venturing into the unknown. It can feel like critical processes are slipping out of your hands. You might be worried about a lack of personal touch in patient interactions or a dip in the quality of patient care. We have shared these concerns. And we found it helpful to make a list of these fears so we can make a plan to avoid them. 
 
@@ -59,7 +66,7 @@ As daunting as these fears might sound, it's important to remember that they are
 
 At My Business Care Team, we recognize these fears because we've faced them too. In the following section, we'll share our mitigation strategies to avoid these worst-case scenarios.
 
-## **Avoiding the Worst-Case Scenarios**
+## **How Do You Avoid the Worst-Case Scenarios?**
 
 A clear understanding of potential fears surrounding outsourcing is a solid starting point for devising strategies to combat these concerns. 
 

@@ -36,18 +36,18 @@ This case study breaks down exactly how a DSO could achieve these results.
 
 ## Table of Contents
 
-1. [The Challenge: Post-Acquisition Integration Chaos](#the-challenge-post-acquisition-integration-chaos)
-2. [Why Traditional Solutions Were Not Working](#why-traditional-solutions-were-not-working)
-3. [The Centralized Intake Implementation](#the-centralized-intake-implementation)
-4. [Results: The Numbers That Matter](#results-the-numbers-that-matter)
-5. [Beyond the Metrics: Qualitative Improvements](#beyond-the-metrics-qualitative-improvements)
-6. [What Made the Difference](#what-made-the-difference)
-7. [Lessons for Other DSO Operators](#lessons-for-other-dso-operators)
+1. [What Was the Post-Acquisition Challenge?](#what-was-the-post-acquisition-challenge)
+2. [Why Were Traditional Solutions Not Working?](#why-were-traditional-solutions-not-working)
+3. [How Was Centralized Intake Implemented?](#how-was-centralized-intake-implemented)
+4. [What Were the Results?](#what-were-the-results)
+5. [What Improved Beyond the Metrics?](#what-improved-beyond-the-metrics)
+6. [What Made the Difference?](#what-made-the-difference)
+7. [What Can Other DSO Operators Learn?](#what-can-other-dso-operators-learn)
 8. [Key Takeaways](#key-takeaways)
 
 ---
 
-## The Challenge: Post-Acquisition Integration Chaos
+## What Was the Post-Acquisition Challenge?
 
 The dental group had recently acquired five practices and was struggling to integrate them into their existing 10-location platform. Each acquisition came with its own practice management system, phone setup, and front desk culture.
 
@@ -70,7 +70,7 @@ For a 15-location group, even a 30% missed call rate translates to massive reven
 
 ---
 
-## Why Traditional Solutions Were Not Working
+## Why Were Traditional Solutions Not Working?
 
 Before implementing a centralized intake solution, the group had tried several approaches:
 
@@ -90,7 +90,7 @@ The regional director of operations summed it up: "We tried point solutions. Eac
 
 ---
 
-## The Centralized Intake Implementation
+## How Was Centralized Intake Implemented?
 
 The implementation followed a 90-day rollout across all 15 locations:
 
@@ -121,7 +121,7 @@ The centralized intake service handled overflow calls during peak hours (when fr
 
 ---
 
-## Results: The Numbers That Matter
+## What Were the Results?
 
 After 90 days, the metrics showed dramatic improvement:
 
@@ -145,29 +145,29 @@ The PE sponsor, who had been pushing for operational improvements ahead of a pot
 
 ---
 
-## Beyond the Metrics: Qualitative Improvements
+## What Improved Beyond the Metrics?
 
 The numbers captured only part of the transformation. Staff and leadership reported several additional benefits:
 
-### Front Desk Stress Reduction
+### How Did Front Desk Stress Change?
 
 Before implementation, front desk staff were constantly choosing between the ringing phone and the patient standing in front of them. One office manager described it as "triage mode all day, every day."
 
 After implementation, staff could focus on in-person patient experience knowing that calls would be handled professionally. Turnover at front desk positions dropped noticeably within the first quarter.
 
-### Standardized Patient Experience
+### How Did Patient Experience Become Standardized?
 
 With centralized intake, every caller received the same greeting, the same professionalism, and the same access to scheduling. Patients calling any of the 15 locations experienced consistent service.
 
 This mattered for brand building. The group was positioning itself as a premium regional dental network, and inconsistent phone experiences had been undermining that positioning.
 
-### Data-Driven Management
+### How Did Data-Driven Management Improve?
 
 For the first time, the COO could see call performance across all locations in real time. This enabled targeted interventions: locations with consistently high overflow volumes got additional attention, while high-performing locations became models for the network.
 
 ---
 
-## What Made the Difference
+## What Made the Difference?
 
 Looking back at the implementation, three factors stood out as critical to success:
 
@@ -185,7 +185,7 @@ The solution was not all-or-nothing. Each location could configure how calls wer
 
 ---
 
-## Lessons for Other DSO Operators
+## What Can Other DSO Operators Learn?
 
 Based on this implementation, several lessons apply to other multi-location dental groups:
 
@@ -211,7 +211,7 @@ Answer rate is a leading indicator, but same-store revenue growth is what PE spo
 
 ---
 
-## What Is Next: Scaling to 25+ Locations
+## What Is Next for Scaling to 25+ Locations?
 
 The group is now applying the same intake model to new acquisitions from day one. Rather than inheriting each practice's phone chaos and fixing it later, they integrate centralized intake as part of the standard acquisition playbook.
 

@@ -28,6 +28,16 @@ relatedPosts:
 
 When Vision Care Partners (name changed for confidentiality) analyzed their patient data across 12 optometry locations, they found a problem hiding in plain sight: 4,200 patients who had not visited in 12-24 months. At an average lifetime value of $2,800 per patient, they were looking at $11.7 million in at-risk revenue slowly walking out the door. This case study documents how they recovered 847 of those patients and generated $312,000 in first-year revenue using a systematic [dormant patient reactivation](/blog/dormant-patient-reactivation/) campaign, without offering a single discount.
 
+## Table of Contents
+
+- [The Challenge](#the-challenge)
+- [The Approach](#the-approach)
+- [The Results](#the-results)
+- [Location-Level Performance](#location-level-performance)
+- [What Worked: Key Success Factors](#what-worked-key-success-factors)
+- [What Would They Do Differently?](#what-would-they-do-differently)
+- [Ongoing Impact](#ongoing-impact)
+
 ## The Challenge
 
 Vision Care Partners operates 12 optometry locations across three metropolitan areas, serving 28,000 active patients who had been seen within the previous 18 months. Their average revenue per patient runs $520 annually, with an average patient tenure of 5.4 years. Like many growing healthcare groups, their marketing budget was focused almost entirely on new patient acquisition.
@@ -51,11 +61,11 @@ Instead of leading with price, the messaging emphasized the value of the care it
 The campaign used a sequenced approach across channels:
 
 **Week 1-2:** SMS campaign to all 4,200 patients
-```
-Hi [Name], it's Vision Care [Location]. Dr. [Provider] noticed your
-annual eye exam is overdue. Your vision benefits are ready to use!
-Reply YES to schedule or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <strong>[Name]</strong>, it's Vision Care <strong>[Location]</strong>. Dr. <strong>[Provider]</strong> noticed your annual eye exam is overdue. Your vision benefits are ready to use! Reply YES to schedule or call <strong>[phone]</strong>. Reply STOP to opt out.</p>
+</div>
 
 **Week 3-4:** Email follow-up to non-responders (3,100 patients)
 - Subject: "[Name], your annual eye exam is due"
@@ -155,22 +165,22 @@ Mid-range performers at 17-20% executed the basics but lacked the consistency an
 
 ## What Worked: Key Success Factors
 
-### 1. Provider Personalization
+### Why Did Provider Personalization Matter?
 
 Messages that referenced the specific doctor by name ("Dr. [Provider] noticed your exam is overdue") outperformed generic practice messages by 35% in response rate.
 
-### 2. Vision Benefit Reminder
+### How Did Vision Benefit Reminders Help?
 
 Many patients did not realize their vision insurance had renewed and their benefits were available. The benefit-focused messaging resonated:
 - "Your vision benefits are ready to use"
 - "Your plan covers an annual exam at no additional cost"
 - "Use your benefits before they expire"
 
-### 3. Specific Appointment Offers
+### Why Did Specific Appointment Offers Convert Better?
 
 When calling patients, offering specific times ("I have Tuesday at 2pm or Thursday at 10am") converted better than open-ended questions ("When would you like to come in?").
 
-### 4. Objection Handling Training
+### How Did Objection Handling Training Help?
 
 Phone staff received scripts for common objections:
 - "I've been too busy" → Acknowledge, offer convenient times
@@ -178,7 +188,7 @@ Phone staff received scripts for common objections:
 - "I've been going somewhere else" → Thank them, update records, close gracefully
 - "I can't afford it right now" → Mention insurance coverage, payment options
 
-### 5. Show Rate Focus
+### Why Was Show Rate Focus Critical?
 
 Booking appointments meant nothing without showing up. The campaign included:
 - Confirmation requests at booking
@@ -186,7 +196,7 @@ Booking appointments meant nothing without showing up. The campaign included:
 - Pre-appointment call for high-value patients
 - Result: 93% show rate vs. network average of 82%
 
-## What They Would Do Differently
+## What Would They Do Differently?
 
 The post-campaign review was candid about what could have been better. These lessons apply to any practice considering a similar effort.
 

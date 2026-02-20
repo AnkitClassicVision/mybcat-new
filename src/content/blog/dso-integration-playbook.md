@@ -21,22 +21,22 @@ Whether you're a [DSO](/enterprise/dso/) COO hitting integration timelines, a PE
 
 ## Table of Contents
 
-- [Why DSO Intake Integration Fails](#why-dso-intake-integration-fails)
-- [The Workflow-First Integration Framework](#the-workflow-first-integration-framework)
+- [Why Does DSO Intake Integration Fail?](#why-does-dso-intake-integration-fail)
+- [What Is the Workflow-First Integration Framework?](#what-is-the-workflow-first-integration-framework)
 - [Pre-Close: Intake Assessment (Weeks -4 to 0)](#pre-close-intake-assessment-weeks--4-to-0)
 - [Week 1-2: Process Mapping and Gap Analysis](#week-1-2-process-mapping-and-gap-analysis)
 - [Week 3-4: Standardization Design](#week-3-4-standardization-design)
 - [Week 5-6: Staff Training and Rollout](#week-5-6-staff-training-and-rollout)
 - [Week 7-8: Parallel Operations and Monitoring](#week-7-8-parallel-operations-and-monitoring)
 - [Week 9-12: Optimization and Documentation](#week-9-12-optimization-and-documentation)
-- [PM System Considerations](#pm-system-considerations)
-- [KPIs to Track During Integration](#kpis-to-track-during-integration)
-- [Managing Staff Resistance](#managing-staff-resistance)
+- [What PM System Considerations Apply?](#what-pm-system-considerations-apply)
+- [What KPIs Should You Track During Integration?](#what-kpis-should-you-track-during-integration)
+- [How Do You Manage Staff Resistance?](#how-do-you-manage-staff-resistance)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 ---
 
-## Why DSO Intake Integration Fails
+## Why Does DSO Intake Integration Fail?
 
 Before diving into the solution, let's understand why most DSO integrations miss their targets.
 
@@ -61,7 +61,7 @@ Who owns intake integration? Operations? IT? The practice manager? When ownershi
 
 Most DSOs don't have visibility into acquired practice performance until months post-close. By then, patients have churned and staff have disengaged.
 
-## The Workflow-First Integration Framework
+## What Is the Workflow-First Integration Framework?
 
 The solution flips the traditional sequence:
 
@@ -111,7 +111,7 @@ Integration starts before the deal closes. Use due diligence to assess intake op
 - ☐ Is online scheduling enabled?
 - ☐ What integrations exist (texting, reminders, forms)?
 
-### Red Flags to Watch For
+### What Red Flags Should You Watch For?
 
 - Answer rate below 70%
 - Single person who "knows everything"
@@ -172,7 +172,7 @@ By end of Week 2, you should have:
 
 Now design the target workflows. The goal: create processes that work regardless of PM system.
 
-### Core Intake Workflows to Standardize
+### What Core Intake Workflows Need Standardization?
 
 **1. Inbound Call Handling**
 - Standard greeting script
@@ -242,7 +242,7 @@ Create scripts for common scenarios:
 
 This is where most integrations fail. Perfect processes mean nothing if staff don't adopt them.
 
-### Change Management Principles
+### What Change Management Principles Apply?
 
 **1. Explain the "Why"**
 Staff resist change when they don't understand the reason. Frame standardization as:
@@ -370,7 +370,7 @@ Ensure the practice can maintain standards independently:
 - Establish regular (monthly) process review cadence
 - Create feedback mechanism for continuous improvement
 
-## PM System Considerations
+## What PM System Considerations Apply?
 
 While this playbook is PM-agnostic, here are specific considerations for common systems.
 
@@ -412,7 +412,7 @@ If your DSO has multiple PM systems (common during acquisition growth):
 - Consider centralized intake that schedules across systems
 - Plan long-term PM consolidation separately
 
-## KPIs to Track During Integration
+## What KPIs Should You Track During Integration?
 
 Measure these throughout the 90-day integration:
 
@@ -449,11 +449,11 @@ Measure these throughout the 90-day integration:
 | Training Completion | Staff certified on new processes | 100% | Training records |
 | Turnover Rate | Front desk turnover | <20% annually | HR records |
 
-## Managing Staff Resistance
+## How Do You Manage Staff Resistance?
 
 Change is hard. Here's how to navigate the human side of integration.
 
-### The Resistance Curve
+### What Does the Resistance Curve Look Like?
 
 Expect this pattern:
 1. **Initial Enthusiasm** (Week 1): "New owners, fresh start!"
@@ -475,7 +475,7 @@ Plan for the resistance peak. It's normal, not a sign of failure.
 **Saboteurs**: Actively undermine new processes
 - *Strategy*: Document issues, escalate to practice leadership, may require personnel decisions
 
-### The Practice Manager Challenge
+### Why Is the Practice Manager the Key Challenge?
 
 The Practice Manager often determines integration success or failure. They may:
 - Feel threatened by corporate standardization
@@ -547,12 +547,3 @@ For PE-backed DSOs, recovered revenue from improved intake flows directly to EBI
 *Last Updated: January 2026*
 
 *Sources: [PwC - M&A Integration Playbooks](https://www.pwc.com/us/en/services/consulting/deals/library/ma-integration-playbooks.html)*
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Scale Your Intake Operations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps multi-location healthcare groups achieve 95%+ answer rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

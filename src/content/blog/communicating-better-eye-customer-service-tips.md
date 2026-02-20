@@ -27,7 +27,19 @@ When I analyzed the call, I realized the problem: the agent was technically corr
 
 This is the difference between customer service and customer experience. And in eye care, where patients are often nervous about their vision and uncertain about what they need, that difference is everything.
 
-## Why Communication Matters More Than You Think
+## Table of Contents
+
+- [Why Does Communication Matter More Than You Think?](#why-does-communication-matter-more-than-you-think)
+- [What Happens in the First 20 Seconds?](#what-happens-in-the-first-20-seconds)
+- [What Does Actually Listening Look Like?](#what-does-actually-listening-look-like)
+- [How Do You Explain Without Overwhelming Patients?](#how-do-you-explain-without-overwhelming-patients)
+- [How Should You Handle the Hard Conversations?](#how-should-you-handle-the-hard-conversations)
+- [Why Does the Scheduling Conversation Lose Patients?](#why-does-the-scheduling-conversation-lose-patients)
+- [What Happens After the Call?](#what-happens-after-the-call)
+- [How Do You Build Communication Skills?](#how-do-you-build-communication-skills)
+- [How Do You Make Good Communication Systematic?](#how-do-you-make-good-communication-systematic)
+
+## Why Does Communication Matter More Than You Think?
 
 Eye care is inherently anxiety-producing for patients.
 
@@ -41,7 +53,7 @@ A robotic interaction where they feel like a number? They hang up and call someo
 
 [This is why missed calls and bad calls both leak revenue.](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) A missed call is obviously lost. But a poorly handled call is often just as lost—you just don't know it.
 
-## The First 20 Seconds
+## What Happens in the First 20 Seconds?
 
 Here's something I've learned from analyzing thousands of calls: the outcome of most conversations is determined in the first 20 seconds.
 
@@ -63,7 +75,7 @@ What doesn't work:
 - Diving into logistics before acknowledging their concern
 - Reading from a script in a way that sounds like reading from a script
 
-## Actually Listening
+## What Does Actually Listening Look Like?
 
 Most people don't really listen. They wait for their turn to talk.
 
@@ -76,7 +88,7 @@ Real listening means:
 
 When patients feel heard, they trust you. When they trust you, they follow your recommendations.
 
-## Explaining Without Overwhelming
+## How Do You Explain Without Overwhelming Patients?
 
 Eye care has a lot of jargon. Comprehensive exams. Contact lens fittings. Medical visits. Routine vision. VSP versus medical insurance. Dilation.
 
@@ -92,7 +104,7 @@ Same information. Completely different experience.
 
 When in doubt, ask: "Does that make sense?" or "Do you have questions about that?" Give patients permission to ask for clarification.
 
-## Handling The Hard Conversations
+## How Should You Handle the Hard Conversations?
 
 Not every call is easy. Patients get upset. They have complaints. They don't understand their bill. They're frustrated with wait times or insurance issues.
 
@@ -108,7 +120,7 @@ What works:
 
 A well-handled complaint often creates more loyalty than a complaint-free experience. Patients remember when you made things right.
 
-## The Scheduling Conversation
+## Why Does the Scheduling Conversation Lose Patients?
 
 Scheduling is where most practices lose patients without realizing it.
 
@@ -128,7 +140,7 @@ Here's how to prevent this:
 
 Every step should make it easier for the patient to say yes, not give them opportunities to say "I'll think about it."
 
-## What Happens After The Call
+## What Happens After the Call?
 
 Good communication doesn't end when the phone hangs up.
 
@@ -138,7 +150,7 @@ This doesn't require much effort, but it signals that you actually care about th
 
 At MyBCAT, we build this into how we handle calls for clients. After scheduling, patients get a confirmation. Before their appointment, they get a reminder. After certain visits, they get a follow-up call. None of this is complicated. All of it matters.
 
-## Building Communication Skills
+## How Do You Build Communication Skills?
 
 The good news: communication skills can be learned.
 
@@ -154,7 +166,7 @@ If you're training your own staff, the same principles apply:
 
 Communication is a skill. Like any skill, it improves with practice and feedback.
 
-## Making It Systematic
+## How Do You Make Good Communication Systematic?
 
 You can't personally listen to every call. But you can build systems that promote good communication.
 

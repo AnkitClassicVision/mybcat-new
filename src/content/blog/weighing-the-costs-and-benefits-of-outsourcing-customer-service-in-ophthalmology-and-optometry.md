@@ -20,7 +20,15 @@ relatedPosts:
 
 We increased our revenue per patient by 33% because we took the phones out of the office. Understanding [how missed calls impact revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) was a key insight in this journey. We took the admin tasks out of the office too. And we started doing recalls. But we didn't set out to be experts in outsourcing customer service in ophthalmology and optometry. We began by focusing on things like reducing staff turnover. And we wanted to spend less time supervising and managing staff without hurting our patient experience. To make those areas more efficient, we focused on process improvements. Once we had refined things into a tight, well-documented process, it was apparent that we could outsource the repetitive admin tasks.
 
-When we first started, we weren't planning to go all in on outsourcing our business processes, or BPO for short. The first thing we did was brainstorm the stuff we could streamline. We broke it down into the work that was specific to eye care clinics and the tasks that are common across businesses. 
+When we first started, we weren't planning to go all in on outsourcing our business processes, or BPO for short. The first thing we did was brainstorm the stuff we could streamline. We broke it down into the work that was specific to eye care clinics and the tasks that are common across businesses.
+
+## Table of Contents
+
+- [What Tasks Are Unique to an Eye Care Practice?](#what-tasks-are-unique-to-an-eye-care-practice)
+- [In-House Staffing for Front Office](#in-house-staffing-for-front-office)
+- [Outsourcing Eye Care Front Office Work](#outsourcing-eye-care-front-office-work)
+- [What Factors Drive the Outsourcing Decision in Optometry and Ophthalmology?](#what-factors-drive-the-outsourcing-decision-in-optometry-and-ophthalmology)
+- [How Should You Analyze Non-Doctor Labor Costs?](#how-should-you-analyze-non-doctor-labor-costs)
 
 **Unique to an Eye Care Practice:**
 
@@ -94,7 +102,7 @@ Seeing the type of work we could outsource and the costs and benefits was exciti
 
 We like helping other optometry and ophthalmology clinics make the transition. But everyone needs to make their own decision about outsourcing. Over time, we learned that people considering outsourcing generally consider several factors.
 
-## **Decision-Making Factors for Outsourcing in Optometry and Ophthalmology**
+## **What Factors Drive the Outsourcing Decision in Optometry and Ophthalmology?**
 
 Sometimes practice owners don't see themselves as an operational expert and find managing the front office tasks challenging. BPOs are compelling because they have a lot more expertise and operational knowledge that can be used to improve efficiency and performance.
 
@@ -106,11 +114,11 @@ Depending on the market, a practice might deal with high staff turnover, which m
 
 Quality of patient care is a big factor. When administrative tasks are taking time away from patient care, then outsourcing can help alleviate this problem. In-house staff can focus more on delivering top-quality patient care with a dedicated team handling front-office tasks.
 
-For practices planning to expand, reduce, or change their operations soon, a flexible staffing solution can better adapt to these changes. 
+For practices planning to expand, reduce, or change their operations soon, a flexible staffing solution can better adapt to these changes.
 
 Finally, clinics that are more passionate about offering their patients the latest technology are more likely to consider a BPO. BPOs typically have access to the latest technologies and systems for managing tasks efficiently and securely.
 
-## **Tips for Analyzing Non-Doctor Labor Costs**
+## **How Should You Analyze Non-Doctor Labor Costs?**
 
 We learned from working with hundreds of clinics that practice owners and managers weren't always sure how to analyze their costs. We can relate to that. Learning the ropes of running an efficient optometry practice wasn't an overnight process for our team. It came from facing challenges head-on, and figuring out firsthand how to improve the bottom line. This experience was what led us to uncover the substantial benefits of improved processes and strategic outsourcing.
 

@@ -27,7 +27,7 @@ You may have already outsourced your customer service team, and now you want to 
 
 Through this article, let's clarify the key aspects of security and compliance in outsourcing. For a broader view, see our guide on [strategies to uphold legal and regulatory compliance in optometry](/blog/strategies-to-uphold-legal-and-regulatory-compliance-in-optometry/). We'll look at the security standards that a Business Process Outsourcing, aka a BPO company, would provide so you can either apply them to your existing outsourcing or know what to look for when you do.
 
-**The Challenges of Keeping Up with Security and Compliance**
+## What Are the Challenges of Keeping Up with Security and Compliance?
 
 No one said running an eye care clinic would be easy. Balancing patient care with business management was always going to be a complex dance. However, the whirlwind of security and compliance has added more intricate steps to that dance.
 
@@ -45,7 +45,7 @@ Yet, amid all this, you're also expected to be an expert in data security and co
 
 In the face of these challenges, feeling overwhelmed, anxious, and even a little frustrated is completely understandable. After all, you are not a data security expert or a compliance officer. You're an eye care professional. 
 
-**How BPOs stay secure and compliant**
+## How Do BPOs Stay Secure and Compliant?
 
 Outsourcing your customer service or other administrative functions certainly helps with operational efficiency. However, ensuring that your clinic remains secure and compliant in the process can still be quite the challenge. 
 
@@ -57,7 +57,7 @@ Regarding compliance, BPOs stay abreast of all relevant regulations, such as HIP
 
 Now, if you're already outsourcing, these specifics can guide you in evaluating your existing setup and identifying areas of improvement. Ask yourself: Are these data security measures being taken? Is there a thorough understanding of the regulatory requirements in your current operations?
 
-**Evaluating a BPO's Security and Compliance**
+## How Should You Evaluate a BPO's Security and Compliance?
 
 Whether you're considering transitioning to a BPO or simply aiming to learn from their strategies, let's assess a BPO's security and compliance standards. Here are a few key pointers to guide you:
 
@@ -72,12 +72,3 @@ Whether you're considering transitioning to a BPO or simply aiming to learn from
 - **Response to Security Incidents**: A good BPO has measures in place to prevent and respond efficiently to security incidents. Ask about their incident response plan. How quickly do they react? How do they ensure minimal impact on operations? Their preparedness for these scenarios speaks volumes about their commitment to security.
 
 Applying these evaluation criteria to your existing outsourcing arrangements can help you identify gaps and improvement areas. It's also a step towards better understanding and enhancing your security and compliance stance.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

@@ -21,7 +21,19 @@ I'll admit it—when I first heard people talking about AI in healthcare, my eye
 
 Here's the thing: AI in eye care isn't about robots doing eye exams or some sci-fi scenario where machines replace doctors. It's mostly about the boring stuff—the scheduling nightmares, the insurance verification that eats up your front desk's entire morning, the follow-up calls that never seem to get made. That's where AI is actually making a difference right now, today, in clinics just like yours.
 
-## What AI Actually Means for Your Practice
+## Table of Contents
+
+- [What Does AI Actually Mean for Your Practice?](#what-does-ai-actually-mean-for-your-practice)
+- [Why Does Efficiency Actually Matter?](#why-does-efficiency-actually-matter)
+- [How Do You Find Your Bottlenecks?](#how-do-you-find-your-bottlenecks)
+- [What Are Real AI Wins in Eye Care?](#what-are-real-ai-wins-in-eye-care)
+- [What Are the Tricky Parts of AI Adoption?](#what-are-the-tricky-parts-of-ai-adoption)
+- [What Is Coming Next for AI in Eye Care?](#what-is-coming-next-for-ai-in-eye-care)
+- [How Should You Get Started?](#how-should-you-get-started)
+- [The Bottom Line](#the-bottom-line)
+- [Common Questions](#common-questions)
+
+## What Does AI Actually Mean for Your Practice?
 
 Let's cut through the hype. When we talk about AI in eye care, we're really talking about software that can learn patterns and make decisions that normally require human judgment. Sometimes that's analyzing retinal images. But more often, for most practices, it's about automating the administrative grind that keeps you and your staff from focusing on patients.
 
@@ -29,7 +41,7 @@ Kaushal Solanki, who runs Eyenuk Inc., [put it well in an Ophthalmology Times in
 
 That last part is key. It's not that humans can't do these things—it's that you shouldn't have to spend your limited time on tasks a computer can handle faster and more consistently.
 
-### Where Clinics Are Actually Using AI
+### Where Are Clinics Actually Using AI?
 
 Most practices I talk to are interested in three main areas:
 
@@ -41,7 +53,7 @@ Most practices I talk to are interested in three main areas:
 
 One thing I should mention: we're still in early days for a lot of clinical AI applications. The technology is promising, but it needs proper validation and regulatory approval. The administrative applications, though? Those are ready to go today.
 
-## Why Efficiency Actually Matters
+## Why Does Efficiency Actually Matter?
 
 I know, "operational efficiency" sounds like something from a business textbook. But here's what it really means: when your practice runs efficiently, you see more patients without feeling rushed. Your staff leaves at 5pm instead of 7pm. Patients spend less time in your waiting room. Insurance claims get processed faster, which means you get paid faster.
 
@@ -49,7 +61,7 @@ The practices that figure this out have a real competitive advantage. Patients n
 
 I've seen practices where the doctor could easily handle 25% more patients, but they're capped because the front desk can't process people fast enough, or because scheduling is so chaotic that time slots get wasted. That's money and patient access left on the table.
 
-## Finding Your Bottlenecks
+## How Do You Find Your Bottlenecks?
 
 Before you throw technology at problems, you need to figure out where your practice is actually getting stuck. Here's a technique that works: process mapping.
 
@@ -61,7 +73,7 @@ I know one practice that did this exercise and discovered their front desk was s
 
 You can even use AI tools like ChatGPT to help build your process map—just don't feed it any actual patient information. It's surprisingly good at prompting you to think about steps you might have forgotten.
 
-## Real AI Wins in Eye Care
+## What Are Real AI Wins in Eye Care?
 
 Let me share some specific examples of how AI is helping practices right now.
 
@@ -94,7 +106,7 @@ Every hour your staff spends on these tasks is an hour they're not spending on t
 
 COVID taught everyone that some things don't require an in-person visit. AI can help with triage—figuring out which patient concerns actually need an in-person exam and which can be handled remotely. It can also assist with monitoring patients between visits, flagging changes in their condition that might warrant an earlier follow-up.
 
-## The Tricky Parts
+## What Are the Tricky Parts of AI Adoption?
 
 I'd be doing you a disservice if I didn't mention the challenges. AI isn't magic, and there are some real considerations.
 
@@ -106,7 +118,7 @@ I'd be doing you a disservice if I didn't mention the challenges. AI isn't magic
 
 **The "it's not perfect" trap.** Some people dismiss AI screening because it can't catch everything a human ophthalmologist would catch. But that's the wrong comparison. The right comparison is AI screening versus no screening at all—and for many patients who'd otherwise go unscreened, AI is dramatically better than nothing.
 
-## What's Coming Next
+## What Is Coming Next for AI in Eye Care?
 
 The AI tools available today are impressive, but they're just the beginning. Improvements in deep learning mean diagnostic accuracy keeps getting better. Natural language processing is getting good enough that AI can actually understand what patients say about their symptoms, not just pattern-match against keywords.
 
@@ -114,7 +126,7 @@ I'm particularly excited about predictive analytics—AI that can look at a pati
 
 New tools are hitting the market constantly. What required a specialized vendor and significant investment a few years ago is becoming accessible to small practices. You don't need to be an early adopter taking big risks—there are proven tools with solid track records available now.
 
-## Getting Started
+## How Should You Get Started?
 
 If you've made it this far, you're probably thinking about where to start. Here's my advice:
 

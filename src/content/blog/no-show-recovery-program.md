@@ -26,7 +26,18 @@ relatedPosts:
 
 Patient no-shows cost US healthcare $150 billion annually. For individual practices, that translates to approximately $150,000 in lost revenue each year. For multi-location groups, the math multiplies quickly. A 20-location organization with average no-show rates loses over $3 million annually in unfilled appointments. This guide provides the framework for building a no-show recovery program that fills schedule gaps fast and reduces future missed appointments.
 
-## The No-Show Problem by the Numbers
+## Table of Contents
+
+- [How Big Is the No-Show Problem by the Numbers?](#how-big-is-the-no-show-problem-by-the-numbers)
+- [Why Do No-Shows Happen?](#why-do-no-shows-happen)
+- [What Does the No-Show Recovery Program Framework Look Like?](#what-does-the-no-show-recovery-program-framework-look-like)
+- [How Can Predictive Analytics Prevent No-Shows?](#how-can-predictive-analytics-prevent-no-shows)
+- [What Technology Do Multi-Location Groups Need?](#what-technology-do-multi-location-groups-need)
+- [What KPIs Should You Track for No-Show Recovery?](#what-kpis-should-you-track-for-no-show-recovery)
+- [Implementation Roadmap](#implementation-roadmap)
+- [What Are Common Mistakes in No-Show Recovery?](#what-are-common-mistakes-in-no-show-recovery)
+
+## How Big Is the No-Show Problem by the Numbers?
 
 Understanding the scope of no-shows helps justify investment in recovery programs.
 
@@ -47,7 +58,7 @@ Every three no-shows in an eight-hour shift reduces productivity by 12.5%. For a
 **The attrition risk:**
 Research shows patients who no-show once have a 70% higher attrition rate within 18 months compared to 19% for those who attend. A single no-show often signals the beginning of patient loss, not just one missed appointment.
 
-## Why No-Shows Happen
+## Why Do No-Shows Happen?
 
 Before building recovery systems, understand the root causes:
 
@@ -64,7 +75,7 @@ Before building recovery systems, understand the root causes:
 
 Multi-location groups face additional complexity: varied patient demographics, travel distances, and site-specific factors (weather, local events) all influence no-show rates differently by location.
 
-## The No-Show Recovery Program Framework
+## What Does the No-Show Recovery Program Framework Look Like?
 
 An effective recovery program operates on three timeframes: prevention (before the appointment), rapid response (same-day recovery), and follow-up (rebooking the patient).
 
@@ -116,7 +127,7 @@ Contact no-show patients within 72 hours while the missed appointment is still t
 3. **Day 3:** Phone call for non-responders
 4. **Day 7:** Final text with "we miss you" messaging
 
-## Predictive Analytics: Preventing No-Shows Before They Happen
+## How Can Predictive Analytics Prevent No-Shows?
 
 Advanced no-show recovery programs use predictive models to identify high-risk appointments and intervene proactively.
 
@@ -137,7 +148,7 @@ Based on historical no-show rates and real-time predictions, some practices over
 
 Caution: Overbooking requires careful calibration. Over-aggressive overbooking creates patient wait time issues when more patients show than expected.
 
-## Technology Requirements for Multi-Location Groups
+## What Technology Do Multi-Location Groups Need?
 
 Effective no-show recovery at scale requires integrated technology.
 
@@ -158,7 +169,7 @@ Effective no-show recovery at scale requires integrated technology.
 - Cross-location waitlist (patient willing to visit different site)
 - Unified reporting for operations leadership
 
-## KPIs for No-Show Recovery Programs
+## What KPIs Should You Track for No-Show Recovery?
 
 Track these metrics to measure program effectiveness:
 
@@ -205,7 +216,7 @@ For multi-location groups, track each site against network averages. Identify ou
 - Monthly location benchmarking
 - Quarterly process refinement
 
-## Common Mistakes in No-Show Recovery
+## What Are Common Mistakes in No-Show Recovery?
 
 **Waiting too long to respond:**
 Every hour a slot remains empty is lost revenue. Same-day recovery protocols must activate within 15-30 minutes of a no-show.

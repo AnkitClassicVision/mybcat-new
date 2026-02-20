@@ -24,11 +24,22 @@ Starting a new optometric practice requires significant investment in equipment 
 
 For a complete overview of launching your practice, see our guide on [starting an optometric practice](/blog/starting-an-optometric-practice-101/).
 
-## Exam Room Essentials
+## Table of Contents
+
+- [What Exam Room Equipment Do You Need?](#what-exam-room-equipment-do-you-need)
+- [What Optical Dispensary Equipment Is Required?](#what-optical-dispensary-equipment-is-required)
+- [What Practice Management Technology Do You Need?](#what-practice-management-technology-do-you-need)
+- [What Is the Total Investment Estimate?](#what-is-the-total-investment-estimate)
+- [How Should You Prioritize Equipment Purchases?](#how-should-you-prioritize-equipment-purchases)
+- [What Financing Options Are Available?](#what-financing-options-are-available)
+- [What Common Equipment Mistakes Should You Avoid?](#what-common-equipment-mistakes-should-you-avoid)
+- [Next Steps](#next-steps)
+
+## What Exam Room Equipment Do You Need?
 
 Every optometry practice needs a properly equipped exam room. These are non-negotiable items that patients expect and clinical care demands.
 
-### Primary Diagnostic Equipment
+### What Primary Diagnostic Equipment Is Essential?
 
 **Phoropter and Refractor**
 The phoropter is your primary tool for determining refractive error. Manual phoropters run between $3,000 and $8,000, while digital phoropters with automated features cost $15,000 to $25,000. Digital models speed up exams and reduce technician training time, but manual units work reliably for decades.
@@ -45,7 +56,7 @@ Intraocular pressure measurement is standard care. Non-contact tonometers cost $
 **Retinal Imaging**
 Fundus cameras have become expected rather than optional. Entry-level non-mydriatic cameras start at $15,000. Advanced OCT systems with fundus photography capabilities run $40,000 to $100,000. Consider starting with a basic fundus camera and adding OCT as revenue grows.
 
-### Secondary Equipment
+### What Secondary Equipment Should You Consider?
 
 **Visual Field Analyzer**
 Critical for glaucoma management and neurological assessments. Humphrey-type automated perimeters range from $15,000 to $35,000. If you plan to co-manage with ophthalmology, invest in equipment they recognize and trust.
@@ -56,7 +67,7 @@ For verifying eyeglass prescriptions. Manual models cost $500 to $2,000. Automat
 **Trial Lens Set**
 Always have a backup for phoropter failures and specialty fits. Budget $800 to $2,000 for a complete set with frames.
 
-## Optical Dispensary Equipment
+## What Optical Dispensary Equipment Is Required?
 
 If you plan to dispense eyewear, the optical area needs its own equipment investment.
 
@@ -72,11 +83,11 @@ Professional displays cost $3,000 to $15,000 for a properly merchandised optical
 **PD Ruler and Digital Pupillometer**
 Manual PD measurement tools cost under $100. Digital pupillometers with height measurements run $1,500 to $5,000. The digital versions improve accuracy and patient confidence.
 
-## Practice Management Technology
+## What Practice Management Technology Do You Need?
 
 Technology infrastructure affects every patient interaction and staff workflow. These systems determine how smoothly your practice operates day to day.
 
-### Electronic Health Records (EHR)
+### Which Electronic Health Records (EHR) System Should You Choose?
 
 EHR systems designed for optometry range from $300 to $800 per month for cloud-based solutions. On-premise systems cost more upfront but may have lower long-term costs for established practices. Key features to evaluate:
 
@@ -88,7 +99,7 @@ EHR systems designed for optometry range from $300 to $800 per month for cloud-b
 
 The transition cost includes implementation, training, and temporary productivity loss. Budget three to six months for full proficiency.
 
-### Practice Management Software
+### What Should You Look for in Practice Management Software?
 
 Separate from or integrated with EHR, practice management handles scheduling, billing, and administrative functions. Monthly costs range from $200 to $600 per provider. Look for:
 
@@ -98,7 +109,7 @@ Separate from or integrated with EHR, practice management handles scheduling, bi
 - Reporting and analytics
 - Inventory management for optical
 
-### Communication Systems
+### What Communication Systems Are Needed?
 
 Patient communication has evolved beyond a receptionist answering calls. Modern practices need:
 
@@ -111,7 +122,7 @@ Automated appointment reminders, recall messages, and two-way texting cost $100 
 **After-Hours Coverage**
 Patients call outside business hours. How you handle those calls affects both patient satisfaction and revenue capture. Options include voicemail (free but loses patients), answering services ($200 to $500 monthly), or [virtual receptionist services that integrate with your practice management system](/blog/multi-location-healthcare-intake-guide/).
 
-## Total Investment Estimates
+## What Is the Total Investment Estimate?
 
 Here is a realistic breakdown of equipment costs for a new optometric practice:
 
@@ -125,7 +136,7 @@ Here is a realistic breakdown of equipment costs for a new optometric practice:
 
 Total initial equipment investment typically ranges from $100,000 to $250,000 depending on practice scope and brand positioning.
 
-## Prioritization Strategy
+## How Should You Prioritize Equipment Purchases?
 
 Not everything needs to be purchased at once. Here is a suggested priority order:
 
@@ -150,7 +161,7 @@ Not everything needs to be purchased at once. Here is a suggested priority order
 - Advanced diagnostic equipment
 - Additional exam lanes
 
-## Financing Options
+## What Financing Options Are Available?
 
 Equipment financing typically offers better rates than general business loans because equipment serves as collateral. Common options include:
 
@@ -161,7 +172,7 @@ Equipment financing typically offers better rates than general business loans be
 
 Leasing often makes sense for technology that will need replacement within five years. Buying typically works better for equipment with 10+ year lifespans.
 
-## Common Mistakes to Avoid
+## What Common Equipment Mistakes Should You Avoid?
 
 **Overspending on opening day**
 You do not need every piece of equipment immediately. Start with essentials and add as patient volume and revenue support expansion.

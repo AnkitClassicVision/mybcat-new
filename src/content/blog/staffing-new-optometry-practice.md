@@ -27,7 +27,17 @@ Building the right team is often the difference between a thriving optometry pra
 
 For the complete picture on launching your practice, see our comprehensive guide on [starting an optometric practice](/blog/starting-an-optometric-practice-101/).
 
-## Essential Roles in an Optometry Practice
+## Table of Contents
+
+- [What Are the Essential Roles in an Optometry Practice?](#what-are-the-essential-roles-in-an-optometry-practice)
+- [Which Staffing Model Fits a New Practice?](#which-staffing-model-fits-a-new-practice)
+- [What Hiring Strategies Work Best?](#what-hiring-strategies-work-best)
+- [How Do Training Programs Reduce Turnover?](#how-do-training-programs-reduce-turnover)
+- [How Do You Manage Common Staffing Challenges?](#how-do-you-manage-common-staffing-challenges)
+- [How Should You Plan Compensation and Benefits?](#how-should-you-plan-compensation-and-benefits)
+- [How Do You Build Culture From Day One?](#how-do-you-build-culture-from-day-one)
+
+## What Are the Essential Roles in an Optometry Practice?
 
 Before posting job listings, understand which positions you actually need and what each contributes to practice success.
 
@@ -114,7 +124,7 @@ Insurance billing complexity often justifies dedicated staff:
 
 **Salary range:** $38,000-$50,000.
 
-## Staffing Models for New Practices
+## Which Staffing Model Fits a New Practice?
 
 New practices rarely need full teams from day one. Consider these phased approaches.
 
@@ -157,11 +167,11 @@ New practices rarely need full teams from day one. Consider these phased approac
 
 **Cons:** Requires substantial patient volume to sustain.
 
-## Hiring Strategies That Work
+## What Hiring Strategies Work Best?
 
 Finding good candidates in healthcare is challenging. These approaches improve your odds.
 
-### Write Job Descriptions That Attract
+### How Do You Write Job Descriptions That Attract?
 
 Generic job postings get generic applicants. Instead:
 
@@ -171,7 +181,7 @@ Generic job postings get generic applicants. Instead:
 
 The better version sells the opportunity and filters for attitude.
 
-### Source Beyond Job Boards
+### Where Should You Source Beyond Job Boards?
 
 - **Local optometry programs:** Students finishing optometric technician programs are eager to start careers.
 - **Optical chains:** Experienced staff at LensCrafters or Pearle Vision may want more personal work environments.
@@ -179,7 +189,7 @@ The better version sells the opportunity and filters for attitude.
 - **Dental and medical offices:** Front desk skills transfer well.
 - **Referrals:** Your best hires often come through existing staff networks.
 
-### Interview for Fit, Not Just Skills
+### How Do You Interview for Fit, Not Just Skills?
 
 Skills can be taught. Attitude and fit cannot. Structure interviews around:
 
@@ -203,7 +213,7 @@ Competing on salary alone is difficult for new practices. Consider:
 - **Commission structures:** Optical staff often prefer base plus commission.
 - **Benefits timing:** Even if you cannot offer benefits immediately, commit to a timeline (e.g., "Benefits available when we reach X patients per month").
 
-## Training Programs That Reduce Turnover
+## How Do Training Programs Reduce Turnover?
 
 According to [MGMA research](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), 70% of medical practices report staff turnover in 2025, with front-office staff and medical assistants being the most frequently cited turnover hotspots. Turnover is expensive. Replacing a single staff member costs $3,000-$10,000 in recruiting, training, and lost productivity. Effective training programs reduce turnover while improving performance.
 
@@ -252,7 +262,7 @@ The first 90 days determine long-term success. Create:
 - Sales techniques that feel like service
 - Order tracking and problem resolution
 
-### Cross-Training Benefits
+### What Are the Benefits of Cross-Training?
 
 Train staff across roles where practical:
 
@@ -274,7 +284,7 @@ Invest in ongoing learning:
 
 Staff who feel their skills are growing are more likely to stay.
 
-## Managing Common Staffing Challenges
+## How Do You Manage Common Staffing Challenges?
 
 ### Coverage Gaps
 
@@ -317,7 +327,7 @@ Address problems early:
 
 One toxic staff member can drive good employees away. Act decisively.
 
-## Compensation and Benefits Planning
+## How Should You Plan Compensation and Benefits?
 
 ### Typical Compensation Structures
 
@@ -329,7 +339,7 @@ One toxic staff member can drive good employees away. Act decisively.
 
 **Overtime considerations:** Plan schedules to minimize overtime unless volume justifies it.
 
-### Benefits Options for Small Practices
+### What Benefits Options Work for Small Practices?
 
 Full benefits packages are expensive but important for retention:
 
@@ -345,7 +355,7 @@ Full benefits packages are expensive but important for retention:
 - Professional development budgets
 - Employee frame discounts
 
-## Building Culture From Day One
+## How Do You Build Culture From Day One?
 
 Culture forms quickly. Be intentional:
 

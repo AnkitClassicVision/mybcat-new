@@ -43,7 +43,7 @@ Here's the thing: in the Philippines, the talent pool for administrative and bac
 
 We're not exploiting anyone. Our remote team members are paid well above market rate for their location. They have stable jobs with good benefits. And we get excellent work at a price that makes our practice sustainable.
 
-## Reason #2: Your Revenue Actually Goes Up
+## Reason #2: Does Your Revenue Actually Go Up?
 
 This was the surprise.
 
@@ -65,7 +65,7 @@ Remote staffing solves the pipeline problem. The talent pool is simply larger. W
 
 Our remote team members have been with us for years. Not months—years. They know our patients by name. They understand our systems inside and out. That kind of continuity is rare in healthcare admin, and it shows in the quality of service.
 
-## Reason #4: Your In-Office Team Gets Their Sanity Back
+## Reason #4: Does Your In-Office Team Get Their Sanity Back?
 
 Before remote staffing, our front desk was drowning.
 
@@ -87,7 +87,7 @@ Our remote team is in the Philippines. They don't have Atlanta weather. When we'
 
 It's business continuity that we never had before. Patients can always reach us. Emergencies get triaged. The practice doesn't just stop because of local circumstances.
 
-## Reason #6: You Can Actually Scale
+## Reason #6: Can You Actually Scale?
 
 Growing a practice used to mean hiring proportionally more staff, finding more office space, and hoping the revenue kept pace with the expenses.
 
@@ -97,7 +97,7 @@ Need more call capacity? Add remote agents without adding desks. Opening a secon
 
 Scaling with in-house staff is expensive and risky. Scaling with remote staff is flexible and reversible. If something doesn't work out, you haven't signed a lease or made a permanent hire.
 
-## What Actually Changed For Us
+## What Actually Changed for Us?
 
 I want to be specific about what our remote team does, because the details matter.
 
@@ -113,7 +113,7 @@ I want to be specific about what our remote team does, because the details matte
 
 All of this is done by people who've been trained specifically on our systems (RevolutionEHR), our protocols, and our patient population. From the patient's perspective, they're just talking to someone at our practice.
 
-## How To Start
+## How Do You Get Started?
 
 If this sounds interesting, here's my advice: don't try to do it yourself.
 
@@ -124,12 +124,3 @@ What worked was partnering with a company that specializes in this. That's actua
 We handle the recruiting, training, management, and quality control. You get dedicated agents who know eye care and integrate with your existing team.
 
 We've helped [optometry practices](/industries/optometry/) achieve remarkable results - see how one practice reached a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). [If you want to explore what this might look like for your practice](https://mybcat.com/contact/), let's talk. I've been in your shoes. I know what works.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

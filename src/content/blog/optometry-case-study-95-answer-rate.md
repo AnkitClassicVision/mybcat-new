@@ -30,7 +30,16 @@ relatedPosts:
 
 A regional optometry group was growing fast but losing patients to unanswered calls. With private equity interest on the horizon, they needed operational excellence. Here is how they transformed their intake operations and the measurable impact on revenue.
 
-## The Challenge: Growing Pains Before PE
+## Table of Contents
+
+- [What Was the Challenge Before PE?](#what-was-the-challenge-before-pe)
+- [What Solution Did They Implement?](#what-solution-did-they-implement)
+- [What Were the Results After 6 Months?](#what-were-the-results-after-6-months)
+- [What Changed Day-to-Day Beyond the Numbers?](#what-changed-day-to-day-beyond-the-numbers)
+- [What Are the Key Lessons for Other Optometry Groups?](#what-are-the-key-lessons-for-other-optometry-groups)
+- [Is This Approach Right for Your Group?](#is-this-approach-right-for-your-group)
+
+## What Was the Challenge Before PE?
 
 **Company profile:**
 - 8 locations across 2 states
@@ -52,7 +61,7 @@ The group had built a strong clinical reputation. Patients loved their doctors. 
 
 **PE due diligence was approaching.** The leadership knew that operational metrics would be scrutinized. Answer rate, patient conversion, and capture rate all needed improvement.
 
-## The Solution: Integrated Intake Optimization
+## What Solution Did They Implement?
 
 After evaluating several options, the group implemented MyBCAT across all 8 locations with these key components:
 
@@ -104,7 +113,7 @@ Leadership gained visibility into operations:
 - Optical opportunity flagging
 - Patient satisfaction indicators
 
-## The Results: 6 Months Later
+## What Were the Results After 6 Months?
 
 ### Call Performance
 
@@ -150,7 +159,7 @@ The capture rate improvement added further revenue not included in this calculat
 
 **ROI:** The investment paid for itself within the first 8 weeks.
 
-## Beyond the Numbers: What Changed Day-to-Day
+## What Changed Day-to-Day Beyond the Numbers?
 
 ### For Front Desk Staff
 
@@ -180,7 +189,7 @@ Visibility enabled proactive management rather than reactive firefighting.
 
 The PE firm specifically cited operational improvements as a factor in their valuation. The partnership closed 6 months after implementation.
 
-## Key Lessons for Other Optometry Groups
+## What Are the Key Lessons for Other Optometry Groups?
 
 ### 1. Answer Rate Directly Impacts Revenue
 

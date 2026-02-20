@@ -24,7 +24,16 @@ relatedPosts:
 
 Multi-location healthcare groups face a fundamental question when building their [recall campaign framework](/blog/patient-recall-campaign-framework/): should patient outreach be automated, handled by live agents, or a combination of both? Research shows the answer depends on patient demographics, appointment type, and operational scale. Live phone calls achieve 32% completion rates compared to 17% for automated texts in preventive care contexts, yet automation costs 55-65% less per message. This guide presents the data and decision framework operations leaders need to choose the right approach.
 
-## The Core Question: Efficiency vs. Effectiveness
+## Table of Contents
+
+- [What Is the Core Question: Efficiency vs. Effectiveness?](#what-is-the-core-question-efficiency-vs-effectiveness)
+- [When Does Each Approach Work Best?](#when-does-each-approach-work-best)
+- [Why Is a Hybrid Model Best Practice for Multi-Location Groups?](#why-is-a-hybrid-model-best-practice-for-multi-location-groups)
+- [How Do You Choose the Right Approach?](#how-do-you-choose-the-right-approach)
+- [How Do You Build a Hybrid Recall System?](#how-do-you-build-a-hybrid-recall-system)
+- [What Are Common Mistakes in Choosing an Approach?](#what-are-common-mistakes-in-choosing-an-approach)
+
+## What Is the Core Question: Efficiency vs. Effectiveness?
 
 The automated vs human recall debate centers on a tradeoff between scalability and conversion rates.
 
@@ -40,9 +49,9 @@ The automated vs human recall debate centers on a tradeoff between scalability a
 
 The research suggests neither approach wins universally. The optimal choice depends on specific factors.
 
-## Research-Backed Comparison: When Each Approach Works
+## When Does Each Approach Work Best?
 
-### When Automated Recall Outperforms Human Outreach
+### When Does Automated Recall Outperform Human Outreach?
 
 Research identifies specific scenarios where automation delivers superior results:
 
@@ -58,7 +67,7 @@ For standard appointment confirmations where the relationship is already establi
 **Cost-sensitive scaling:**
 Multi-location groups needing to reach thousands of patients cannot afford per-patient phone calls for every touchpoint. Automation enables broad reach within budget constraints.
 
-### When Human Outreach Outperforms Automation
+### When Does Human Outreach Outperform Automation?
 
 Research equally identifies scenarios requiring the human touch:
 
@@ -74,7 +83,7 @@ Dormant patients (12+ months since last visit) respond better to personalized ou
 **Service recovery situations:**
 Patients who had negative experiences or declined appointments previously need human engagement to address objections and rebuild trust.
 
-## The Hybrid Model: Best Practice for Multi-Location Groups
+## Why Is a Hybrid Model Best Practice for Multi-Location Groups?
 
 The evidence points toward a hybrid approach as optimal for healthcare groups operating at scale.
 
@@ -102,7 +111,7 @@ A group with 5,000 dormant patients per year:
 
 Compared to all-automated approach (15% = 750 patients = $2.25M) or all-human approach (higher cost, limited scalability), the hybrid model optimizes both reach and conversion.
 
-## Decision Framework: Choosing Your Approach
+## How Do You Choose the Right Approach?
 
 Use this framework to determine the right mix for your organization:
 
@@ -144,7 +153,7 @@ High-value appointments (comprehensive exams, procedures, specialty consultation
 
 Multi-location groups without dedicated staff at each site benefit most from centralized hybrid services that handle automation and live outreach from a single team.
 
-## Implementation: Building a Hybrid Recall System
+## How Do You Build a Hybrid Recall System?
 
 ### Technology Requirements
 
@@ -178,7 +187,7 @@ Research-backed timing for hybrid outreach:
 - "We've been trying to reach you..." messaging
 - Postcard for patients with no valid phone/email
 
-### Measuring Hybrid Performance
+### How Do You Measure Hybrid Performance?
 
 Track these KPIs to optimize your mix:
 
@@ -190,7 +199,7 @@ Track these KPIs to optimize your mix:
 | Overall reactivation rate | 15-25% | Campaign success metric |
 | Cost per reactivated patient | $5-15 | Efficiency measure |
 
-## Common Mistakes in Choosing an Approach
+## What Are Common Mistakes in Choosing an Approach?
 
 **Over-investing in automation:**
 Groups that rely entirely on automated outreach cap their recovery rate at 15-20%. The patients who respond to automation are the easy wins. Recovering the rest requires human engagement.

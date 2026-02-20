@@ -25,12 +25,3 @@ For optometry clinics, the patient experience is just as important as the clinic
 My Business Care Team specializes in providing top-tier medical receptionist services tailored to the needs of optometrists. Our commitment to quality means your practice can rely on us to deliver exceptional [optometrist inbound call services](https://mybcat.com/about/). We understand the importance of first impressions and patient satisfaction, which is why we're dedicated to handling your calls with the highest level of professionalism.
 
 Elevate your optometry practice with the unparalleled support of My Business Care Team. [Contact us](https://mybcat.com/contact/) today to learn more about how our medical receptionist services can benefit your practice and help you provide exceptional care to every patient.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

@@ -42,12 +42,3 @@ Foster a culture centered around patient well-being. Train your reception team t
 Regularly review call data to identify trends, areas for improvement, and opportunities for optimization.
 
 Incorporating these strategies can surely elevate the performance of your vision clinic's call management. At My Business Care Team, we specialize in providing exceptional [optometrist inbound call services](https://mybcat.com/about/). [Contact us](https://mybcat.com/contact/) now to discover how we can enhance your clinic's operations and patient experience.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

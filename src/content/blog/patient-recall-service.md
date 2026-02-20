@@ -22,6 +22,18 @@ relatedPosts:
 
 A patient recall service systematically contacts patients who are due or overdue for appointments, bringing them back into your practice. For multi-location healthcare groups, existing patients generate up to 80% of practice revenue, making recall one of the highest-ROI activities available. Before evaluating services, it helps to understand the broader [patient recall campaign framework](/blog/patient-recall-campaign-framework/) that guides how outreach programs should be structured. This guide explains what patient recall services do, when practices should consider outsourcing recall, and how to evaluate providers.
 
+## Table of Contents
+
+- [What Is a Patient Recall Service?](#what-is-a-patient-recall-service)
+- [Why Does Patient Recall Matter for Multi-Location Groups?](#why-does-patient-recall-matter-for-multi-location-groups)
+- [How Much Revenue Is at Stake?](#how-much-revenue-is-at-stake)
+- [What Types of Patient Recall Services Exist?](#what-types-of-patient-recall-services-exist)
+- [How Do You Decide Between In-House and Outsourced Recall?](#how-do-you-decide-between-in-house-and-outsourced-recall)
+- [When Should You Consider Outsourcing Your Patient Recall?](#when-should-you-consider-outsourcing-your-patient-recall)
+- [How Do You Evaluate Patient Recall Service Providers?](#how-do-you-evaluate-patient-recall-service-providers)
+- [What Are the Implementation Considerations for Multi-Location Groups?](#what-are-the-implementation-considerations-for-multi-location-groups)
+- [How Do You Measure Recall Service ROI?](#how-do-you-measure-recall-service-roi)
+
 ## What Is a Patient Recall Service?
 
 A patient recall service contacts patients who need to schedule preventive or follow-up appointments. Unlike general appointment reminders (which confirm already-scheduled visits), recall targets patients who have not yet booked their next appointment.
@@ -36,7 +48,7 @@ A patient recall service contacts patients who need to schedule preventive or fo
 
 The service uses multiple contact methods (phone calls, text messages, emails) to reach patients, explain why they should return, and book appointments directly into your scheduling system.
 
-## Why Patient Recall Matters for Multi-Location Groups
+## Why Does Patient Recall Matter for Multi-Location Groups?
 
 Single-location practices can manage recall informally. Multi-location healthcare groups face structural challenges that make systematic recall essential:
 
@@ -57,7 +69,7 @@ Single-location practices can manage recall informally. Multi-location healthcar
 
 According to research from Jarvis Analytics, hygiene recalls represent the "heartbeat" of practice profitability for DSOs, outpacing new patient acquisition in revenue impact.
 
-## The Math: How Much Revenue Is at Stake?
+## How Much Revenue Is at Stake?
 
 The financial impact of recall performance is significant and measurable.
 
@@ -81,7 +93,7 @@ A practice with 4,000 annual hygiene visit opportunities (2,000 patients eligibl
 
 Industry research indicates that improving recall rate by 10 percentage points adds $50,000-$100,000 in annual revenue for a typical dental practice. For multi-location groups, multiply that across every site.
 
-## Types of Patient Recall Services
+## What Types of Patient Recall Services Exist?
 
 Patient recall services fall into three categories, each with distinct characteristics.
 
@@ -123,7 +135,7 @@ A dedicated external team makes live phone calls to your patients using your pra
 
 Many groups use a **hybrid approach**: automated systems for routine reminders plus live outreach for high-value or difficult-to-reach patients.
 
-## In-House vs. Outsourced Recall: A Decision Framework
+## How Do You Decide Between In-House and Outsourced Recall?
 
 The choice between in-house and outsourced recall depends on your operational reality.
 
@@ -148,7 +160,7 @@ The choice between in-house and outsourced recall depends on your operational re
 - You need to scale quickly without adding headcount
 - Performance-based pricing aligns vendor incentives with your goals
 
-## When to Consider Outsourcing Your Patient Recall
+## When Should You Consider Outsourcing Your Patient Recall?
 
 Consider outsourcing patient recall when you observe these signals:
 
@@ -173,7 +185,7 @@ Consider outsourcing patient recall when you observe these signals:
 
 Research from industry sources indicates that outsourced recall services can improve retention rates by 19-31% when properly implemented, generating 15-30% revenue increases from the existing patient base.
 
-## Evaluating Patient Recall Service Providers
+## How Do You Evaluate Patient Recall Service Providers?
 
 When selecting an outsourced recall service, evaluate providers on these criteria:
 
@@ -229,7 +241,7 @@ When selecting an outsourced recall service, evaluate providers on these criteri
 
 **Why it matters:** Multi-location groups need partners who can scale with growth and handle operational variability.
 
-## Implementation Considerations for Multi-Location Groups
+## What Are the Implementation Considerations for Multi-Location Groups?
 
 Successfully deploying a patient recall service across multiple locations requires attention to several factors.
 
@@ -267,7 +279,7 @@ Patient recall is one component of retention. Connect it with:
 
 For guidance on running reactivation campaigns for patients who have been dormant longer, see our [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/).
 
-## Measuring Recall Service ROI
+## How Do You Measure Recall Service ROI?
 
 Calculate return on investment for your recall service using this framework:
 

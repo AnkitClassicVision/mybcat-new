@@ -23,7 +23,7 @@ The office was winding down. The optometrist had one patient left. The reception
 
 Except it didn't. Our agent picked it up on the second ring.
 
-## Not Every Call Is Created Equal
+## Why Isn't Every Call Created Equal?
 
 Here's the thing most call services get wrong: they treat every call the same. Appointment request? Same script. Billing question? Same script. Patient describing flashes and floaters that started two hours ago? Same script.
 
@@ -41,7 +41,7 @@ The woman with the curtain over her vision? Our agent got her in that evening. T
 
 That's not a sales pitch. That's what happens when your phone gets answered by someone who knows what to listen for.
 
-## Training That Actually Matters
+## What Kind of Training Actually Matters?
 
 I've seen the "training" some call centers do. A two-hour webinar, maybe a quiz at the end, and then agents are thrown on the phones. That doesn't work for healthcare. It especially doesn't work for eye care, where the stakes can be this high.
 
@@ -58,7 +58,7 @@ We run role-playing scenarios. A lot of them. We throw curveballs—patients who
 
 And even then, we're monitoring. Our AI tools flag calls where something might have been handled differently. We review them. We coach. We improve.
 
-## What Actually Happened With That Friday Call
+## What Actually Happened With That Friday Call?
 
 Let me finish the story, because the details matter.
 
@@ -68,7 +68,7 @@ The in-office team knew exactly what was coming. They were ready.
 
 That coordination doesn't happen by accident. It happens because we've built relationships with the teams we support, because we understand their workflows, and because we've trained for exactly these moments.
 
-## The Calls That Don't Make Headlines
+## What About the Calls That Don't Make Headlines?
 
 Not every emergency is dramatic. Sometimes it's a contact lens wearer who fell asleep in their lenses and woke up with an angry red eye. Sometimes it's a kid who got poked during a basketball game. Sometimes it's a post-surgical patient who's worried about a symptom that's probably normal but needs reassurance.
 
@@ -76,7 +76,7 @@ These calls matter too. They might not be sight-threatening, but they're anxiety
 
 We don't rush these calls. We don't make patients feel stupid for calling. We listen, we reassure when appropriate, we escalate when necessary. And we always—always—document what was discussed so your team knows what happened.
 
-## The Technology Behind The Human Touch
+## What's the Technology Behind the Human Touch?
 
 Look, we're not anti-technology. We use AI to monitor call quality. We track metrics like response time, appointment conversion, and follow-up completion. We record calls for training and quality assurance.
 
@@ -84,7 +84,7 @@ But technology is a tool, not a replacement. The AI tells us which calls to revi
 
 The human judgment, the empathy, the clinical awareness—that's what matters when seconds count.
 
-## What This Means For Your Practice
+## What Does This Mean for Your Practice?
 
 You can't predict emergencies. You can't prevent the urgent call from coming in at the worst possible moment. But you can make sure someone qualified is there to handle it.
 

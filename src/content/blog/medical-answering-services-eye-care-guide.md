@@ -46,9 +46,9 @@ The right configuration depends on your practice size, call volume, and staffing
 
 ---
 
-## Why Eye Care Practices Need Dedicated Call Support
+## Why Do Eye Care Practices Need Dedicated Call Support?
 
-### The Unique Challenges of Eye Care
+### What Are the Unique Challenges of Eye Care?
 
 Eye care practices operate at the intersection of clinical medicine and retail, and that creates phone management challenges that most other specialties do not face. A typical optometry practice handles calls about comprehensive exams, medical eye care visits, contact lens orders and troubleshooting, frame selections, insurance benefits, and optical pickups. Each of these requires different scheduling logic, different provider availability, and sometimes different locations entirely.
 
@@ -58,7 +58,7 @@ The scheduling complexity compounds for practices with multiple providers. An op
 
 For multi-location groups, these challenges multiply further. Each location may have different hours, different providers, different equipment, and different insurance panels. A patient calling the main number needs to be routed correctly, and the person answering needs to understand the nuances across all sites.
 
-### The Cost of Missed Calls
+### What Do Missed Calls Cost Your Practice?
 
 Industry data indicates that the average healthcare practice misses 20-30% of incoming calls during business hours. For a practice receiving 50 calls per day, that means 10 to 15 calls go unanswered daily. Even if only a third of those are potential new patients, that represents 3 to 5 new patient opportunities lost every single day.
 
@@ -116,7 +116,7 @@ You can estimate your own numbers with our [ROI calculator](/resources/roi-calcu
 
 ---
 
-## Choosing the Right Medical Answering Service
+## How Do You Choose the Right Medical Answering Service?
 
 Not all answering services are created equal, and the wrong choice can create more problems than it solves. Here are the factors that matter most when evaluating providers for your eye care practice.
 
@@ -134,7 +134,7 @@ Not all answering services are created equal, and the wrong choice can create mo
 
 ---
 
-## Implementation: What to Expect
+## What Should You Expect During Implementation?
 
 Transitioning to a medical answering service is not a flip-the-switch process. Done well, it takes two to four weeks of structured onboarding to ensure agents represent your practice accurately and effectively.
 
@@ -161,12 +161,3 @@ The ROI is measurable and, for most practices, substantial. When you stop losing
 If your phones are ringing to voicemail, if your front desk is overwhelmed, or if you suspect you are losing patients but cannot quantify how many, it is worth having a conversation. A brief analysis of your call volume and current answer rates can reveal exactly what missed calls are costing your practice and what professional call management would look like.
 
 [Schedule a consultation](/contact/) to learn how a medical answering service can work for your eye care practice. No commitment required. Just data and a clear picture of the opportunity.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

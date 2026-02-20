@@ -21,15 +21,15 @@ Multi-location healthcare groups lose $500,000-$1,500,000 annually to intake ine
 
 ## Table of Contents
 
-1. [Why Multi-Location Intake Is Different](#why-multi-location-intake-is-different)
+1. [Why Is Multi-Location Intake Different?](#why-is-multi-location-intake-different)
 2. [The Multi-Location Intake Maturity Model](#the-multi-location-intake-maturity-model)
 3. [Centralized vs. Distributed Intake: Decision Framework](#centralized-vs-distributed-intake-decision-framework)
-4. [Types of Intake Solutions Compared](#types-of-intake-solutions-compared)
-5. [Technology Stack Requirements](#technology-stack-requirements-by-location-count)
+4. [What Types of Intake Solutions Are Available?](#what-types-of-intake-solutions-are-available)
+5. [What Technology Stack Do You Need?](#what-technology-stack-do-you-need-by-location-count)
 6. [How Long Does Implementation Take?](#how-long-does-multi-location-intake-implementation-take)
 7. [Vertical Considerations: Dental, Optometry, Veterinary](#vertical-considerations-dental-optometry-veterinary)
-8. [KPIs and Benchmarks](#kpis-and-benchmarks-for-multi-location-intake)
-9. [Common Mistakes to Avoid](#common-mistakes-and-how-to-avoid-them)
+8. [What KPIs Should You Track?](#what-kpis-should-you-track-for-multi-location-intake)
+9. [What Are the Most Common Mistakes?](#what-are-the-most-common-mistakes-in-multi-location-intake)
 10. [Evaluating Vendors: 15 Questions](#evaluating-vendors-15-questions-to-ask)
 11. [Making the Decision: Next Steps](#making-the-decision-next-steps)
 12. [Key Takeaways](#key-takeaways)
@@ -37,11 +37,11 @@ Multi-location healthcare groups lose $500,000-$1,500,000 annually to intake ine
 
 ---
 
-## Why Multi-Location Intake Is Different
+## Why Is Multi-Location Intake Different?
 
 Single-location practices have phone challenges. Multi-location groups have phone *crises*. The difference isn't just scale. It's fundamental operational complexity that single-site solutions can't address.
 
-### The Unique Challenges of Scale
+### What Are the Unique Challenges of Scale?
 
 **Peak Volume Synchronization**
 
@@ -177,7 +177,7 @@ Not all multi-location groups are at the same operational stage. The path from 3
 
 **Risk:** At this level, the risk is external: competitors copying your playbook. The opportunity is expansion into new verticals or geographies with proven intake infrastructure.
 
-### Assessing Your Current Level
+### How Do You Assess Your Current Level?
 
 Honest assessment is the first step. Ask yourself:
 
@@ -298,7 +298,7 @@ Local staff handle calls during normal hours when available. Overflow, after-hou
 
 ---
 
-## Types of Intake Solutions Compared
+## What Types of Intake Solutions Are Available?
 
 Once you've determined your architectural approach, you need to select the right solution type. Here's an objective comparison:
 
@@ -417,7 +417,7 @@ Once you've determined the right mix of intake resources, you'll need the techno
 
 ---
 
-## Technology Stack Requirements by Location Count
+## What Technology Stack Do You Need by Location Count?
 
 Your intake technology needs evolve as you scale. Here's what you actually need at each stage:
 
@@ -645,7 +645,7 @@ Common systems include AVImark, Cornerstone, eVetPractice, Shepherd, and Improme
 
 ---
 
-## KPIs and Benchmarks for Multi-Location Intake
+## What KPIs Should You Track for Multi-Location Intake?
 
 What gets measured gets managed. Here are the metrics that matter:
 
@@ -712,7 +712,7 @@ This visibility enables targeted intervention. If Location F consistently underp
 
 ---
 
-## Common Mistakes and How to Avoid Them
+## What Are the Most Common Mistakes in Multi-Location Intake?
 
 We've seen multi-location groups make the same mistakes repeatedly. Learn from others' pain:
 
@@ -953,11 +953,3 @@ This assumes 29% missed call rate (industry average), 35% new patient call mix, 
 
 *Sources: [MGMA Workforce Survey](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), [Invoca - Healthcare](https://www.invoca.com/solutions/healthcare)*
 ---
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Scale Your Intake Operations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps multi-location healthcare groups achieve 95%+ answer rates across all locations.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

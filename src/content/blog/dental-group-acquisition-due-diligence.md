@@ -30,15 +30,28 @@ relatedPosts:
 ---
 The purchase price of a dental practice is largely a bet on patient retention. When you acquire a practice for 70-80% of collections, you are betting that those patients will continue coming after the seller leaves. Yet many acquirers, even experienced DSOs, underweight patient retention analysis during due diligence, only to watch 20-30% of patients disappear within 18 months of closing. This guide identifies the specific patient retention red flags to look for during dental acquisition due diligence.
 
-## Why Patient Retention Drives Dental Practice Value
+## Table of Contents
+
+- [Why Does Patient Retention Drive Dental Practice Value?](#why-does-patient-retention-drive-dental-practice-value)
+- [What Is the Patient Retention Due Diligence Framework?](#what-is-the-patient-retention-due-diligence-framework)
+- [What Does the Due Diligence Process Look Like?](#what-does-the-due-diligence-process-look-like)
+- [How Should You Structure Deals Around Retention Risk?](#how-should-you-structure-deals-around-retention-risk)
+- [What Is the Chart Audit Protocol?](#what-is-the-chart-audit-protocol)
+- [What Should Your Post-Close Retention Strategy Be?](#what-should-your-post-close-retention-strategy-be)
+
+## Why Does Patient Retention Drive Dental Practice Value?
 
 Unlike equipment or real estate, the primary asset in a dental practice acquisition is goodwill, which represents the expectation that patients will continue returning.
 
 **The value equation:**
-```
-Practice Value = Tangible Assets + Goodwill
-Where: Goodwill = f(Patient Retention Probability × Patient Lifetime Value)
-```
+
+<div style="background: #fffbeb; border: 2px solid #f59e0b; border-radius: 8px; padding: 24px; margin: 24px 0;">
+  <p style="font-weight: 700; color: #92400e; margin: 0 0 12px 0;">Practice Value Formula</p>
+  <p style="margin: 4px 0; color: #1f2937;">Practice Value = Tangible Assets + Goodwill</p>
+  <div style="background: #fef3c7; border-radius: 6px; padding: 12px; text-align: center;">
+    <p style="font-weight: 700; color: #92400e; font-size: 17px; margin: 0;">Goodwill = f(Patient Retention Probability x Patient Lifetime Value)</p>
+  </div>
+</div>
 
 **Typical value composition:**
 | Component | % of Purchase Price | Notes |
@@ -50,19 +63,28 @@ Where: Goodwill = f(Patient Retention Probability × Patient Lifetime Value)
 Retention matters financially because a 20% patient loss translates directly into a 20% or greater revenue decline. This decline compounds over time since lost patients no longer refer new ones, yet fixed costs like lease payments and staff salaries remain constant while revenue drops. Debt service obligations also continue regardless of revenue performance, creating significant cash flow pressure.
 
 **The risk scenario:**
-```
-Purchase price: $800,000
-Revenue at acquisition: $1,200,000
-Expected EBITDA: $200,000
 
-Post-acquisition scenario (25% patient loss):
-Revenue: $900,000 (-25%)
-EBITDA: $75,000 (-63%)
-Debt service: $96,000/year
-Cash flow: Negative
-```
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0;">
+  <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 20px;">
+    <h4 style="color: #166534; margin: 0 0 12px 0; font-size: 16px;">At Acquisition</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
+      <li style="padding: 4px 0;">Purchase price: $800,000</li>
+      <li style="padding: 4px 0;">Revenue: $1,200,000</li>
+      <li style="padding: 4px 0;">Expected EBITDA: $200,000</li>
+    </ul>
+  </div>
+  <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 20px;">
+    <h4 style="color: #991b1b; margin: 0 0 12px 0; font-size: 16px;">After 25% Patient Loss</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
+      <li style="padding: 4px 0;">Revenue: $900,000 (-25%)</li>
+      <li style="padding: 4px 0;">EBITDA: $75,000 (-63%)</li>
+      <li style="padding: 4px 0;">Debt service: $96,000/year</li>
+      <li style="padding: 4px 0;">Cash flow: Negative</li>
+    </ul>
+  </div>
+</div>
 
-## The Patient Retention Due Diligence Framework
+## What Is the Patient Retention Due Diligence Framework?
 
 Systematic retention analysis requires examining multiple dimensions:
 
@@ -85,11 +107,15 @@ When analyzing patient base composition, you should examine the active patient c
 Key retention metrics to analyze include the hygiene recall compliance rate, patient retention rate measured year-over-year, reactivation success rate, no-show and cancellation rates, and the balance between new patient acquisition and attrition.
 
 **Calculations:**
-```
-Retention Rate = Patients Active This Year / Patients Active Last Year
-Net Patient Growth = New Patients - Lost Patients
-Recall Compliance = Patients Completing Recall / Patients Due for Recall
-```
+
+<div style="background: #fffbeb; border: 2px solid #f59e0b; border-radius: 8px; padding: 24px; margin: 24px 0;">
+  <p style="font-weight: 700; color: #92400e; margin: 0 0 12px 0;">Key Retention Formulas</p>
+  <p style="margin: 4px 0; color: #1f2937;">Retention Rate = Patients Active This Year / Patients Active Last Year</p>
+  <p style="margin: 4px 0; color: #1f2937;">Net Patient Growth = New Patients - Lost Patients</p>
+  <div style="background: #fef3c7; border-radius: 6px; padding: 12px; text-align: center;">
+    <p style="font-weight: 700; color: #92400e; font-size: 17px; margin: 0;">Recall Compliance = Patients Completing Recall / Patients Due for Recall</p>
+  </div>
+</div>
 
 **Red flags:**
 
@@ -141,7 +167,7 @@ External factors requiring analysis include competitive landscape changes, demog
 | Lease expiration within 2 years | High | Location uncertainty affects patients |
 | Area demographic decline | Medium | Long-term patient base erosion |
 
-## The Due Diligence Process
+## What Does the Due Diligence Process Look Like?
 
 ### Phase 1: Initial Screening (Pre-LOI)
 
@@ -197,7 +223,7 @@ When interviewing the seller, cover topics including why they are selling, how i
 
 For risk interpretation, scores of 0-5 indicate low retention risk. Scores of 6-10 represent moderate retention risk that should be addressed in the transition plan. Scores of 11-15 signal high retention risk warranting price reduction or restructured deal terms. Scores of 16 or higher indicate very high risk, and you should reconsider the transaction entirely.
 
-## Retention-Focused Deal Structures
+## How Should You Structure Deals Around Retention Risk?
 
 When retention risk is identified, structure the deal to mitigate it:
 
@@ -206,55 +232,71 @@ When retention risk is identified, structure the deal to mitigate it:
 This structure works best when there is high seller-patient attachment. The seller remains for 12-24 months post-close, allowing gradual patient introduction to the buyer combined with a performance-based transition bonus.
 
 **Example:**
-```
-Total consideration: $800,000
-At close: $600,000
-12-month retention bonus: $100,000 (if 85% patient retention)
-24-month retention bonus: $100,000 (if 80% patient retention)
-```
+
+<div style="background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%); border: 2px solid #3b82f6; border-radius: 8px; padding: 20px; text-align: center; margin: 24px 0;">
+  <p style="font-weight: 700; color: #1e40af; font-size: 18px; margin: 0 0 8px 0;">Extended Seller Transition</p>
+  <p style="margin: 4px 0; color: #1f2937;">Total consideration: $800,000</p>
+  <p style="margin: 4px 0; color: #1f2937;">At close: $600,000</p>
+  <p style="margin: 4px 0; color: #1f2937;">12-month retention bonus: $100,000 (if 85% patient retention)</p>
+  <p style="margin: 4px 0; color: #1f2937;">24-month retention bonus: $100,000 (if 80% patient retention)</p>
+</div>
 
 ### Structure 2: Earnout Based on Performance
 
 Use this structure when revenue sustainability concerns exist. It involves a base payment at close with an earnout tied to production and collections over a 2-3 year earnout period.
 
 **Example:**
-```
-Total potential consideration: $800,000
-At close: $500,000
-Year 1 earnout: 10% of collections over $800K (up to $100K)
-Year 2 earnout: 10% of collections over $800K (up to $100K)
-Year 3 earnout: 8% of collections over $800K (up to $100K)
-```
+
+<div style="background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%); border: 2px solid #3b82f6; border-radius: 8px; padding: 20px; text-align: center; margin: 24px 0;">
+  <p style="font-weight: 700; color: #1e40af; font-size: 18px; margin: 0 0 8px 0;">Earnout Based on Performance</p>
+  <p style="margin: 4px 0; color: #1f2937;">Total potential consideration: $800,000</p>
+  <p style="margin: 4px 0; color: #1f2937;">At close: $500,000</p>
+  <p style="margin: 4px 0; color: #1f2937;">Year 1 earnout: 10% of collections over $800K (up to $100K)</p>
+  <p style="margin: 4px 0; color: #1f2937;">Year 2 earnout: 10% of collections over $800K (up to $100K)</p>
+  <p style="margin: 4px 0; color: #1f2937;">Year 3 earnout: 8% of collections over $800K (up to $100K)</p>
+</div>
 
 ### Structure 3: Price Reduction
 
 When retention risk is quantifiable, reduce the price based on the risk assessment, adjust the valuation multiple accordingly, and negotiate based on specific documented concerns.
 
 **Example:**
-```
-Initial asking: $850,000 (72% of collections)
-Identified risks:
-- Seller produces 65% (-$50K adjustment)
-- Recall compliance 58% (-$40K adjustment)
-- Declining patient count (-$35K adjustment)
-Revised offer: $725,000 (61% of collections)
-```
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0;">
+  <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 20px;">
+    <h4 style="color: #991b1b; margin: 0 0 12px 0; font-size: 16px;">Initial Asking</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
+      <li style="padding: 4px 0;">$850,000 (72% of collections)</li>
+      <li style="padding: 4px 0;">Seller produces 65% (-$50K)</li>
+      <li style="padding: 4px 0;">Recall compliance 58% (-$40K)</li>
+      <li style="padding: 4px 0;">Declining patient count (-$35K)</li>
+    </ul>
+  </div>
+  <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 20px;">
+    <h4 style="color: #166534; margin: 0 0 12px 0; font-size: 16px;">Revised Offer</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
+      <li style="padding: 4px 0;">$725,000 (61% of collections)</li>
+      <li style="padding: 4px 0;">Total adjustment: -$125K</li>
+    </ul>
+  </div>
+</div>
 
 ### Structure 4: Hybrid with Holdback
 
 This approach suits situations with multiple risk factors. It combines a reduced upfront payment with a holdback in escrow, released based on retention milestones.
 
 **Example:**
-```
-Total consideration: $800,000
-At close: $550,000
-Escrow holdback: $250,000
-Release conditions:
-- $125K at 12 months if 85%+ retention
-- $125K at 24 months if 80%+ retention
-```
 
-## Chart Audit Protocol
+<div style="background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%); border: 2px solid #3b82f6; border-radius: 8px; padding: 20px; text-align: center; margin: 24px 0;">
+  <p style="font-weight: 700; color: #1e40af; font-size: 18px; margin: 0 0 8px 0;">Hybrid with Holdback</p>
+  <p style="margin: 4px 0; color: #1f2937;">Total consideration: $800,000</p>
+  <p style="margin: 4px 0; color: #1f2937;">At close: $550,000</p>
+  <p style="margin: 4px 0; color: #1f2937;">Escrow holdback: $250,000</p>
+  <p style="margin: 4px 0; color: #1f2937;">Release: $125K at 12 months if 85%+ retention</p>
+  <p style="margin: 4px 0; color: #1f2937;">Release: $125K at 24 months if 80%+ retention</p>
+</div>
+
+## What Is the Chart Audit Protocol?
 
 The chart audit provides ground truth on patient retention:
 
@@ -278,7 +320,7 @@ For each sampled chart:
 
 When analyzing patterns across the sample, determine what percentage of patients are actively engaged, how many have declined recommended treatment, whether patients are becoming less frequent over time, and whether contact information is up to date.
 
-## Post-Close Retention Strategy
+## What Should Your Post-Close Retention Strategy Be?
 
 Due diligence should inform post-close retention planning:
 

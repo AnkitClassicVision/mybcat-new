@@ -29,7 +29,7 @@ But here's what Dr. Cass would tell you (and what I've learned the hard way): ou
 
 So let's talk about the mistakes I've seen kill outsourcing initiatives, and how to avoid them.
 
-## Mistake #1: Skimping on Documentation
+## Mistake #1: Are You Skimping on Documentation?
 
 I get it. Creating SOPs is tedious. Nobody became an optometrist because they love writing procedure manuals.
 
@@ -63,7 +63,7 @@ What proper training looks like:
 
 The practices that fail at outsourcing almost always failed at training first.
 
-## Mistake #3: Using Generic Solutions
+## Mistake #3: Are You Using Generic Solutions?
 
 There's a temptation to just grab a chatbot or plug in some off-the-shelf scheduling software and call it outsourcing.
 
@@ -75,7 +75,7 @@ Whatever you outsource needs to be customized to your practice. That means worki
 
 At MyBCAT, this is literally our entire business model. We don't do generic. Every practice we work with gets agents trained specifically on their workflows, their systems, their protocols. It takes longer to set up, but it actually works.
 
-## Mistake #4: Eliminating Phone Support
+## Mistake #4: Are You Eliminating Phone Support?
 
 Some practices get excited about digital transformation and decide to go all-in on chatbots, online scheduling, and patient portals. No more phones.
 
@@ -89,7 +89,7 @@ The right approach is omnichannel. Give patients options. Some will happily book
 
 Whatever channels you offer, make sure they're all staffed by people (or systems) who actually know your practice. A phone with nobody answering is bad. An online scheduler that double-books appointments is worse.
 
-## Mistake #5: Cutting In-Office Staff to the Bone
+## Mistake #5: Are You Cutting In-Office Staff to the Bone?
 
 Outsourcing should complement your in-office team, not replace it entirely.
 
@@ -116,7 +116,7 @@ Listen to what they tell you. If multiple patients mention the same issue, that'
 
 And communicate proactively. If patients are going to notice a change, tell them about it positively. "We've added extended phone support so you can reach us more easily" sounds a lot better than patients figuring out something's different and wondering why.
 
-## Getting It Right
+## How Do You Get It Right?
 
 Outsourcing works. I've seen it work at our own practice and at dozens of others. The cost savings are real. The efficiency gains are real. The ability to scale without proportionally scaling headcount—that's real too.
 
@@ -127,12 +127,3 @@ Invest in documentation. Invest in training. Work with partners who understand y
 Do those things, and outsourcing becomes a competitive advantage. Skip them, and you're setting yourself up for a mess that takes months to clean up.
 
 We've helped [optometry practices](/industries/optometry/) achieve remarkable results - see how one practice reached a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). If you want to talk through what outsourcing might look like for your specific practice, [reach out](https://mybcat.com/contact/). We've done this enough times to know what works and what doesn't.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

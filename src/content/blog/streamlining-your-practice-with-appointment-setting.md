@@ -27,12 +27,3 @@ Additionally, appointment-setting systems can help you maintain a comprehensive 
 Furthermore, embracing a digital appointment demonstrates your practice's commitment to staying at the forefront of technological advancements. Patients are increasingly seeking convenience and modernity in healthcare services. By meeting their [expectations](https://www.indeed.com/career-advice/career-development/how-to-manage-expectations-at-work), you position your practice as a reliable and patient-centric establishment.
 
 Adopting these innovative tools ensures that your practice remains competitive and capable of providing top-notch eye care services in today's fast-paced world. [Contact](https://mybcat.com/contact/) My Business Care Team, your trusted [managed healthcare intake partner](https://mybcat.com/industries/optometry/).
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

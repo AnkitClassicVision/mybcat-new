@@ -26,7 +26,17 @@ relatedPosts:
 
 The acquisition closes, the celebration happens, and then the real work begins. Healthcare M&A success is determined not by deal execution but by integration execution, and the most important integration metric is patient retention. Lose 25% of patients in the first 18 months, and you have destroyed value rather than created it. This playbook provides the phase-by-phase approach for protecting patient retention during healthcare operations integration.
 
-## The Integration-Retention Connection
+## Table of Contents
+
+- [How Does Integration Affect Patient Retention?](#how-does-integration-affect-patient-retention)
+- [What Does the 90-Day Integration Framework Look Like?](#what-does-the-90-day-integration-framework-look-like)
+- [How Should You Structure Communication During Integration?](#how-should-you-structure-communication-during-integration)
+- [What Is the Technology Integration Playbook?](#what-is-the-technology-integration-playbook)
+- [How Do You Retain Providers During M&A?](#how-do-you-retain-providers-during-ma)
+- [How Should You Monitor Retention During Integration?](#how-should-you-monitor-retention-during-integration)
+- [What Are the Most Common Integration Mistakes?](#what-are-the-most-common-integration-mistakes)
+
+## How Does Integration Affect Patient Retention?
 
 Patient retention risk during M&A is real and quantifiable:
 
@@ -40,25 +50,32 @@ Patient retention risk during M&A is real and quantifiable:
 
 **The math of integration failure:**
 
-```
-Acquisition: 10 practices, 25,000 patients
-Purchase price: $15 million
-Patient LTV: $2,500
-
-Scenario A (25% attrition):
-Lost patients: 6,250
-Lost lifetime value: $15.6 million
-Effective price paid: $15M for $15.6M less value = value destruction
-
-Scenario B (10% attrition):
-Lost patients: 2,500
-Lost lifetime value: $6.25 million
-Effective price paid: $15M for $6.25M less value = acceptable
-```
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0;">
+  <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 20px;">
+    <h4 style="color: #991b1b; margin: 0 0 12px 0; font-size: 16px;">Scenario A: 25% Attrition</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
+      <li style="padding: 4px 0;">Acquisition: 10 practices, 25,000 patients</li>
+      <li style="padding: 4px 0;">Purchase price: $15 million</li>
+      <li style="padding: 4px 0;">Lost patients: 6,250</li>
+      <li style="padding: 4px 0;">Lost lifetime value: $15.6 million</li>
+      <li style="padding: 4px 0;"><strong>Result: Value destruction</strong></li>
+    </ul>
+  </div>
+  <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 20px;">
+    <h4 style="color: #166534; margin: 0 0 12px 0; font-size: 16px;">Scenario B: 10% Attrition</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
+      <li style="padding: 4px 0;">Acquisition: 10 practices, 25,000 patients</li>
+      <li style="padding: 4px 0;">Purchase price: $15 million</li>
+      <li style="padding: 4px 0;">Lost patients: 2,500</li>
+      <li style="padding: 4px 0;">Lost lifetime value: $6.25 million</li>
+      <li style="padding: 4px 0;"><strong>Result: Acceptable</strong></li>
+    </ul>
+  </div>
+</div>
 
 The difference between 25% and 10% attrition is $9.4 million in lifetime value. In this example, more than half the purchase price.
 
-## The 90-Day Integration Framework
+## What Does the 90-Day Integration Framework Look Like?
 
 Integration planning should follow a structured 90-day framework with retention as a core objective:
 
@@ -105,32 +122,10 @@ Integration planning should follow a structured 90-day framework with retention 
 
 **Patient communication template (Day 1):**
 
-```
-Subject: An Update About [Practice Name]
-
-Dear [Patient Name],
-
-We're writing to share some exciting news about [Practice Name]. As of
-[Date], we have joined [Acquiring Company], a [description of acquirer].
-
-What this means for you:
-- Your care team remains the same
-- Your appointments are unchanged
-- You can continue to reach us at [phone/portal]
-- We remain committed to your [dental/vision/healthcare] health
-
-What's changing:
-- [Only list meaningful changes, e.g., insurance acceptance, new services]
-
-We're excited about this new chapter and the enhanced resources we'll
-be able to offer you. If you have any questions, please don't hesitate
-to call us at [phone].
-
-Thank you for being a valued patient.
-
-[Provider Name(s)]
-[Practice Name]
-```
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">Patient Communication Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Subject: An Update About <strong>[Practice Name]</strong><br><br>Dear <strong>[Patient Name]</strong>,<br><br>We're writing to share some exciting news about <strong>[Practice Name]</strong>. As of <strong>[Date]</strong>, we have joined <strong>[Acquiring Company]</strong>.<br><br>What this means for you:<br>- Your care team remains the same<br>- Your appointments are unchanged<br>- You can continue to reach us at <strong>[phone/portal]</strong><br>- We remain committed to your health<br><br>If you have any questions, please don't hesitate to call us at <strong>[phone]</strong>.<br><br>Thank you for being a valued patient.<br><br><strong>[Provider Name(s)]</strong><br><strong>[Practice Name]</strong></p>
+</div>
 
 **Week 1 metrics to track:**
 | Metric | Target | Alert Threshold |
@@ -229,7 +224,7 @@ Thank you for being a valued patient.
 | Patient satisfaction | Stable | | |
 | Revenue vs. pro forma | >95% | | |
 
-## Communication Framework
+## How Should You Structure Communication During Integration?
 
 ### Internal Communication
 
@@ -273,9 +268,9 @@ Thank you for being a valued patient.
 | Community | Day 1 (if public) | Press release |
 | Vendors | Pre-close | Relationship confirmation |
 
-## Technology Integration Playbook
+## What Is the Technology Integration Playbook?
 
-### Integration Sequencing
+### How Should You Sequence Integration?
 
 **Phase 1 (Days 1-30): Maintain and stabilize**
 - Keep existing systems operational
@@ -297,7 +292,7 @@ Thank you for being a valued patient.
 - Complete data consolidation
 - Retired legacy systems
 
-### Data Migration Protocol
+### What Does the Data Migration Protocol Look Like?
 
 **Critical data categories:**
 | Category | Migration Timing | Validation Required |
@@ -314,11 +309,11 @@ Thank you for being a valued patient.
 - Require sign-off before decommissioning legacy
 - Keep backups for 12+ months post-migration
 
-## Provider Retention Strategy
+## How Do You Retain Providers During M&A?
 
 Provider retention is the most critical factor in patient retention:
 
-### Provider Retention Framework
+### What Is the Provider Retention Framework?
 
 **Immediate (Days 1-30):**
 - Individual meetings with each provider
@@ -338,7 +333,7 @@ Provider retention is the most critical factor in patient retention:
 - Network involvement
 - Equity/partnership paths (if applicable)
 
-### Provider Communication Approach
+### How Should You Communicate with Providers?
 
 **What providers need to hear:**
 1. Your patients will continue to receive excellent care
@@ -353,7 +348,7 @@ Provider retention is the most critical factor in patient retention:
 - Disrespecting existing relationships
 - One-size-fits-all approaches
 
-## Retention Monitoring Dashboard
+## How Should You Monitor Retention During Integration?
 
 ### Weekly Tracking (First 90 Days)
 
@@ -368,7 +363,7 @@ Provider retention is the most critical factor in patient retention:
 | Provider satisfaction | | | | | | |
 | Staff retention | | | | | | |
 
-### Early Warning Indicators
+### What Are the Early Warning Indicators?
 
 | Indicator | Yellow | Red | Action |
 |-----------|--------|-----|--------|
@@ -378,7 +373,7 @@ Provider retention is the most critical factor in patient retention:
 | Negative reviews | >2/week | >5/week | Service recovery |
 | Provider concerns | Any | Multiple | CEO involvement |
 
-## Common Integration Mistakes
+## What Are the Most Common Integration Mistakes?
 
 ### Mistake 1: Moving Too Fast
 
@@ -459,4 +454,3 @@ For due diligence focused on retention risks, see our [dental group acquisition 
 - [Becker's: Healthcare M&A Best Practices](https://www.beckershospitalreview.com/hospital-transactions-and-valuation/20-best-practices-for-healthcare-mergers-a-acquisitions/)
 - [Embark: Healthcare Post-Merger Integration](https://blog.embarkwithus.com/healthcare-post-merger-integration)
 - [Kaufman Rossin: Post-Deal Integration Planning](https://kaufmanrossin.com/news/considering-ma-do-you-have-a-post-deal-integration-plan/)
-

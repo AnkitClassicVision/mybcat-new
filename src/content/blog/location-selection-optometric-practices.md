@@ -24,7 +24,19 @@ Location shapes everything about your optometry practice. The right site brings 
 
 For the complete picture on launching your practice, see our guide on [starting an optometric practice](/blog/starting-an-optometric-practice-101/).
 
-## The Location Decision Framework
+## Table of Contents
+
+- [What Is the Location Decision Framework?](#what-is-the-location-decision-framework)
+- [How Do Demographics Shape Your Patient Base?](#how-do-demographics-shape-your-patient-base)
+- [How Do You Analyze the Competition?](#how-do-you-analyze-the-competition)
+- [Why Do Visibility and Access Matter?](#why-do-visibility-and-access-matter)
+- [What Are the Physical Space Requirements?](#what-are-the-physical-space-requirements)
+- [How Do You Evaluate Lease Terms and Financial Impact?](#how-do-you-evaluate-lease-terms-and-financial-impact)
+- [What Are the Pros and Cons of Each Location Type?](#what-are-the-pros-and-cons-of-each-location-type)
+- [What Does the Decision Process Look Like?](#what-does-the-decision-process-look-like)
+- [What Common Mistakes Should You Avoid?](#what-common-mistakes-should-you-avoid)
+
+## What Is the Location Decision Framework?
 
 Every potential location should be evaluated across five dimensions:
 
@@ -36,11 +48,11 @@ Every potential location should be evaluated across five dimensions:
 
 No location scores perfectly on all dimensions. Your job is finding the best overall fit for your practice model and goals.
 
-## Demographics: Understanding Your Patient Base
+## How Do Demographics Shape Your Patient Base?
 
 Demographics determine your ceiling. Even perfect execution cannot overcome a location without enough potential patients.
 
-### Population Density and Growth
+### What Should You Know About Population Density and Growth?
 
 **Key questions:**
 - How many people live within 5 miles? 10 miles?
@@ -55,7 +67,7 @@ Demographics determine your ceiling. Even perfect execution cannot overcome a lo
 - Commercial real estate brokers
 - Demographics providers like ESRI
 
-### Age Distribution
+### How Does Age Distribution Affect Your Practice?
 
 Different age groups have different eye care needs:
 
@@ -68,7 +80,7 @@ Different age groups have different eye care needs:
 
 A location near retirement communities offers different opportunities than one near a university campus.
 
-### Income Levels
+### How Do Income Levels Impact Your Practice Model?
 
 Income affects:
 - Insurance mix (private pay vs. VSP vs. Medicaid)
@@ -78,7 +90,7 @@ Income affects:
 
 **Data point:** Median household income should generally be at least $50,000 for a full-service private practice model. Lower income areas can work with different service and pricing approaches.
 
-### Insurance Landscape
+### What Should You Know About the Insurance Landscape?
 
 Understand the dominant insurance patterns:
 - What percentage have vision insurance vs. medical only?
@@ -87,11 +99,11 @@ Understand the dominant insurance patterns:
 
 Matching your insurance participation to local patterns affects patient access.
 
-## Competition Analysis
+## How Do You Analyze the Competition?
 
 Understanding existing options helps you position effectively.
 
-### Mapping Competitors
+### How Should You Map Competitors?
 
 Create a map showing:
 - All optometry practices within 5 miles
@@ -99,7 +111,7 @@ Create a map showing:
 - Optical retail (LensCrafters, Pearle, Costco, Walmart)
 - Online competitors' market share
 
-### Evaluating Competitor Strength
+### How Do You Evaluate Competitor Strength?
 
 Not all competition is equal. Assess:
 
@@ -119,7 +131,7 @@ Not all competition is equal. Assess:
 - What is their patient experience?
 - Are they expanding or contracting?
 
-### Finding the Gap
+### How Do You Find the Gap?
 
 Look for underserved needs:
 - Are existing practices accepting new patients promptly?
@@ -129,11 +141,11 @@ Look for underserved needs:
 
 The best locations have enough demand for another practice, not markets where existing providers struggle to fill schedules.
 
-## Visibility and Access
+## Why Do Visibility and Access Matter?
 
 Patients cannot visit if they cannot find you or get there conveniently.
 
-### Street Visibility
+### What Makes for Ideal Street Visibility?
 
 **Ideal characteristics:**
 - Located on or near a main road
@@ -143,7 +155,7 @@ Patients cannot visit if they cannot find you or get there conveniently.
 
 **Reality:** Prime visibility costs more. Balance visibility value against lease costs.
 
-### Traffic Patterns
+### How Do Traffic Patterns Affect Your Location?
 
 Consider both vehicle and foot traffic:
 - Is this a commuter route?
@@ -151,7 +163,7 @@ Consider both vehicle and foot traffic:
 - What is the traffic flow at different times?
 - Is traffic primarily passing through or stopping nearby?
 
-### Parking
+### What Are the Parking Requirements?
 
 Optometry patients often bring family members and leave with dilated eyes or new glasses:
 - Is parking adequate and convenient?
@@ -159,7 +171,7 @@ Optometry patients often bring family members and leave with dilated eyes or new
 - Is it shared with high-turnover uses (restaurants) that compete for spots?
 - Can patients exit safely with dilated pupils?
 
-### Accessibility
+### What Accessibility Factors Should You Consider?
 
 Consider patient accessibility:
 - ADA compliance (required)
@@ -167,7 +179,7 @@ Consider patient accessibility:
 - Ease of navigation for elderly patients
 - Stroller/wheelchair accessibility
 
-### Co-tenancy
+### How Does Co-tenancy Influence Your Location?
 
 Who are your neighbors? Beneficial neighbors include:
 - Primary care physicians
@@ -180,11 +192,11 @@ Challenging neighbors:
 - High-noise businesses
 - Uses that make parking difficult
 
-## Physical Space Requirements
+## What Are the Physical Space Requirements?
 
 Optometry practices have specific space needs.
 
-### Minimum Space Guidelines
+### What Are the Minimum Space Guidelines?
 
 | Practice Model | Minimum Size | Comfortable Size |
 |----------------|--------------|------------------|
@@ -193,7 +205,7 @@ Optometry practices have specific space needs.
 | Two OD practice | 2,200 sq ft | 2,800 sq ft |
 | Multi-OD group practice | 3,000+ sq ft | 4,000+ sq ft |
 
-### Essential Areas
+### What Are the Essential Areas?
 
 **Reception and waiting:**
 - 150-250 square feet minimum
@@ -227,7 +239,7 @@ Optometry practices have specific space needs.
 - Storage
 - Server/IT room
 
-### Infrastructure Requirements
+### What Infrastructure Should You Verify?
 
 Verify before signing a lease:
 - Electrical capacity for equipment
@@ -236,7 +248,7 @@ Verify before signing a lease:
 - Data/internet infrastructure
 - Soundproofing potential (exam room privacy)
 
-### Build-Out Considerations
+### What Should You Know About Build-Out?
 
 Most spaces require modification:
 
@@ -246,11 +258,11 @@ Most spaces require modification:
 
 **Timeline:** Build-out typically takes 8-16 weeks. Plan accordingly.
 
-## Lease Terms and Financial Analysis
+## How Do You Evaluate Lease Terms and Financial Impact?
 
 The lease is a major financial commitment. Understand the terms fully.
 
-### Key Lease Terms
+### What Are the Key Lease Terms to Understand?
 
 **Base rent:** Monthly cost per square foot. Compare to market rates for similar spaces.
 
@@ -264,7 +276,7 @@ The lease is a major financial commitment. Understand the terms fully.
 
 **Assignment/sublease rights:** Protect your ability to sell the practice or exit the lease if needed.
 
-### Financial Modeling
+### How Should You Model the Location's Economics?
 
 Before committing, model the location's economics:
 
@@ -284,7 +296,7 @@ Before committing, model the location's economics:
 - Is there expansion potential?
 - What happens if a competitor opens nearby?
 
-### Negotiation Strategies
+### What Negotiation Strategies Work Best?
 
 Landlords negotiate, especially for good tenants:
 
@@ -302,7 +314,7 @@ Landlords negotiate, especially for good tenants:
 - Signage rights
 - Parking allocation
 
-## Location Types: Pros and Cons
+## What Are the Pros and Cons of Each Location Type?
 
 ### Medical Office Buildings
 
@@ -368,7 +380,7 @@ Landlords negotiate, especially for good tenants:
 
 **Best for:** Practices relying primarily on referrals and appointments rather than walk-ins.
 
-## The Decision Process
+## What Does the Decision Process Look Like?
 
 ### Step 1: Define Requirements
 
@@ -410,7 +422,7 @@ With your preferred location:
 - Secure appropriate tenant improvements
 - Plan build-out timeline
 
-## Common Mistakes to Avoid
+## What Common Mistakes Should You Avoid?
 
 **Overbuilding:** Do not lease 3,000 square feet hoping to grow into it. The carry cost damages early economics.
 

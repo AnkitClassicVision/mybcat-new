@@ -31,20 +31,20 @@ Centralize for efficiency or stay distributed for personal touch? That is the wr
 
 ## Table of Contents
 
-1. [The Evolution from Binary to Intelligent Routing](#the-evolution-from-binary-to-intelligent-routing)
-2. [Understanding the Three Models](#understanding-the-three-models)
-3. [The Centralization Decision Matrix](#the-centralization-decision-matrix)
-4. [When Centralization Works](#when-centralization-works)
-5. [When Distributed Works](#when-distributed-works)
-6. [The Hybrid Model: Intelligent Routing](#the-hybrid-model-intelligent-routing)
-7. [Total Cost of Ownership Comparison](#total-cost-of-ownership-comparison)
-8. [Common Centralization Mistakes](#common-centralization-mistakes)
+1. [How Did Intake Evolve from Binary to Intelligent Routing?](#how-did-intake-evolve-from-binary-to-intelligent-routing)
+2. [What Are the Three Intake Models?](#what-are-the-three-intake-models)
+3. [How Do You Use the Centralization Decision Matrix?](#how-do-you-use-the-centralization-decision-matrix)
+4. [When Does Centralization Work?](#when-does-centralization-work)
+5. [When Does Distributed Intake Work?](#when-does-distributed-intake-work)
+6. [How Does the Hybrid Model with Intelligent Routing Work?](#how-does-the-hybrid-model-with-intelligent-routing-work)
+7. [How Do You Compare Total Cost of Ownership?](#how-do-you-compare-total-cost-of-ownership)
+8. [What Are Common Centralization Mistakes?](#what-are-common-centralization-mistakes)
 9. [Implementation Considerations](#implementation-considerations)
 10. [Key Takeaways](#key-takeaways)
 
 ---
 
-## The Evolution from Binary to Intelligent Routing
+## How Did Intake Evolve from Binary to Intelligent Routing?
 
 For years, multi-location healthcare groups faced a seemingly binary choice. Centralize intake for efficiency and consistency, or keep it distributed for local knowledge and personal touch.
 
@@ -56,7 +56,7 @@ The evolved approach recognizes that the right answer depends on the call, not t
 
 ---
 
-## Understanding the Three Models
+## What Are the Three Intake Models?
 
 ### Model 1: Fully Centralized
 
@@ -133,7 +133,7 @@ Calls route to different handlers based on call type, time of day, or availabili
 
 ---
 
-## The Centralization Decision Matrix
+## How Do You Use the Centralization Decision Matrix?
 
 Use this matrix to assess which factors favor which model for your group:
 
@@ -157,7 +157,7 @@ Use this matrix to assess which factors favor which model for your group:
 
 ---
 
-## When Centralization Works
+## When Does Centralization Work?
 
 Centralization succeeds under specific conditions:
 
@@ -183,7 +183,7 @@ Groups spread across multiple states face regulatory and labor market difference
 
 ---
 
-## When Distributed Works
+## When Does Distributed Intake Work?
 
 Distribution succeeds under different conditions:
 
@@ -209,7 +209,7 @@ Groups that have already developed and deployed consistent processes across loca
 
 ---
 
-## The Hybrid Model: Intelligent Routing
+## How Does the Hybrid Model with Intelligent Routing Work?
 
 The hybrid model routes calls based on type rather than defaulting everything to central or local.
 
@@ -247,7 +247,7 @@ The hybrid model routes calls based on type rather than defaulting everything to
 - Central cannot resolve: Transfer to local with context
 - Local cannot resolve: Escalate to manager or clinical team
 
-### Technology Requirements for Hybrid
+### What Are the Technology Requirements for Hybrid?
 
 Hybrid models require technology investment:
 
@@ -262,7 +262,7 @@ A specialized [medical answering service](/solutions/medical-answering-service/)
 
 ---
 
-## Total Cost of Ownership Comparison
+## How Do You Compare Total Cost of Ownership?
 
 Financial analysis should inform the decision, but beware of oversimplification.
 
@@ -328,7 +328,7 @@ In this example, hybrid has higher cost than centralized but delivers better con
 
 ---
 
-## Common Centralization Mistakes
+## What Are Common Centralization Mistakes?
 
 Groups that fail at centralization often make predictable errors:
 

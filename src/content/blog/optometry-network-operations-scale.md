@@ -29,7 +29,18 @@ relatedPosts:
 
 Growing from 5 optometry locations to 50 is not simply adding more of the same. It requires fundamentally different operational infrastructure, management approaches, and technology systems. The tactics that worked at 5 locations often break at 15, and what works at 15 can collapse at 40. This guide provides the phase-by-phase operational playbook for scaling optometry networks, based on the patterns that successful vision groups have followed.
 
-## The Scaling Phases
+## Table of Contents
+
+- [What Are the Scaling Phases?](#what-are-the-scaling-phases)
+- [What Technology Infrastructure Does Each Phase Require?](#what-technology-infrastructure-does-each-phase-require)
+- [How Should Organizational Structure Evolve by Phase?](#how-should-organizational-structure-evolve-by-phase)
+- [How Do You Maintain Patient Retention at Scale?](#how-do-you-maintain-patient-retention-at-scale)
+- [What Should You Standardize and When?](#what-should-you-standardize-and-when)
+- [What Staffing Models Work at Each Phase?](#what-staffing-models-work-at-each-phase)
+- [How Does Financial Management Change by Phase?](#how-does-financial-management-change-by-phase)
+- [What Are the Common Scaling Mistakes?](#what-are-the-common-scaling-mistakes)
+
+## What Are the Scaling Phases?
 
 Optometry network scaling typically follows three distinct phases, each with different operational requirements:
 
@@ -75,7 +86,7 @@ Optometry network scaling typically follows three distinct phases, each with dif
 - Continuous improvement at scale
 - Integration of continued acquisitions
 
-## Technology Infrastructure by Phase
+## What Technology Infrastructure Does Each Phase Require?
 
 ### Phase 1: Foundation (5-15 Locations)
 
@@ -114,14 +125,17 @@ The most critical decision is consolidating to a single PMS:
 
 At 15+ locations, spreadsheet-based reporting breaks:
 
-```
-Data Architecture:
-[Location PMS Systems] → [Data Integration Layer] → [Central Data Warehouse]
-                                                              ↓
-                                                    [BI/Analytics Platform]
-                                                              ↓
-                                                    [Executive Dashboards]
-```
+<div style="display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0;">
+  <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Location PMS Systems</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #7c3aed; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Data Integration Layer</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #0369a1; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Central Data Warehouse</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #059669; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">BI/Analytics Platform</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #b45309; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Executive Dashboards</div>
+</div>
 
 **Priority 2: Patient Engagement Platform**
 
@@ -169,17 +183,17 @@ Reduce central team burden:
 - Employee self-service (schedules, time off)
 - Patient self-service (scheduling, forms)
 
-## Organizational Structure by Phase
+## How Should Organizational Structure Evolve by Phase?
 
 ### Phase 1: Founder-Led (5-15 Locations)
 
-```
-Founder/CEO
-├── Operations Director
-│   └── Location Managers (5-15)
-├── Finance/Admin
-└── (Often wearing multiple hats)
-```
+<div style="display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0;">
+  <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Founder/CEO</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #7c3aed; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Operations Director → Location Managers (5-15)</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #059669; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Finance/Admin (often wearing multiple hats)</div>
+</div>
 
 **Key hires:**
 - Operations Director (first critical hire)
@@ -188,22 +202,15 @@ Founder/CEO
 
 ### Phase 2: Professional Management (15-30 Locations)
 
-```
-CEO
-├── COO
-│   ├── Regional Directors (2-3)
-│   │   └── Location Managers (5-8 each)
-│   └── Central Operations
-│       ├── Call Center/Scheduling
-│       ├── Training
-│       └── Quality
-├── CFO
-│   ├── Accounting
-│   ├── Revenue Cycle
-│   └── FP&A
-├── VP HR
-└── VP Marketing
-```
+<div style="display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0;">
+  <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">CEO</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #7c3aed; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">COO: Regional Directors (2-3) → Location Managers<br>Central Ops: Call Center, Training, Quality</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #0369a1; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">CFO: Accounting, Revenue Cycle, FP&A</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #059669; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">VP HR | VP Marketing</div>
+</div>
 
 **Key transitions:**
 - Founder moves from operations to strategy
@@ -212,31 +219,17 @@ CEO
 
 ### Phase 3: Enterprise (30-50+ Locations)
 
-```
-CEO
-├── COO
-│   ├── VP Regional Operations
-│   │   ├── Regional Directors (4-6)
-│   │   └── Location Managers
-│   ├── VP Central Operations
-│   │   ├── Patient Services/Call Center
-│   │   ├── Training & Development
-│   │   ├── Quality Assurance
-│   │   └── Project Management
-│   └── VP Clinical Operations
-│       ├── OD Relations
-│       └── Clinical Quality
-├── CFO
-│   ├── Controller
-│   ├── VP Revenue Cycle
-│   ├── FP&A Director
-│   └── Treasury
-├── CHRO
-├── CMO
-└── CIO/CTO
-```
+<div style="display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0;">
+  <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">CEO</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #7c3aed; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">COO: VP Regional Ops (4-6 Regional Directors)<br>VP Central Ops (Call Center, Training, QA, PM)<br>VP Clinical Ops (OD Relations, Clinical Quality)</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #0369a1; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">CFO: Controller, VP Revenue Cycle, FP&A, Treasury</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #059669; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">CHRO | CMO | CIO/CTO</div>
+</div>
 
-## Patient Retention at Scale
+## How Do You Maintain Patient Retention at Scale?
 
 Patient retention becomes more challenging, and more critical. As you scale:
 
@@ -285,7 +278,7 @@ Retention often declines as networks scale due to:
 | Patient NPS | Quarterly | 50+ |
 | Online review rating | Weekly | 4.5+ |
 
-## Operational Standardization
+## What Should You Standardize and When?
 
 ### What to Standardize (and When)
 
@@ -314,7 +307,7 @@ Retention often declines as networks scale due to:
 - Audit scores for clinical protocols
 - System reports for operational compliance
 
-## Staffing Models by Phase
+## What Staffing Models Work at Each Phase?
 
 ### Provider Staffing
 
@@ -349,7 +342,7 @@ Retention often declines as networks scale due to:
 | IT | Outsourced | 1-2 + MSP | 5-10 FTE |
 | Training | Part of ops | 1-2 FTE | 3-6 FTE |
 
-## Financial Management by Phase
+## How Does Financial Management Change by Phase?
 
 ### Revenue Benchmarks
 
@@ -376,7 +369,7 @@ Retention often declines as networks scale due to:
 | Phase 2 | Same | $500K-1.5M |
 | Phase 3 | Same + refresh | $1-3M |
 
-## Common Scaling Mistakes
+## What Are the Common Scaling Mistakes?
 
 ### Mistake 1: Scaling Before Standardizing
 

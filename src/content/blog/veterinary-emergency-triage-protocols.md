@@ -38,13 +38,13 @@ A panicked client calls at 2 PM about a dog that "isn't acting right." Is it an 
 2. [The 3-Tier Triage Framework](#the-3-tier-triage-framework)
 3. [Decision Tree: 15 Common Scenarios](#decision-tree-15-common-scenarios)
 4. [The Triage Script: Word-for-Word Framework](#the-triage-script-word-for-word-framework)
-5. [Training Staff for Confident Triage](#training-staff-for-confident-triage)
-6. [Handling Emotional Clients During Crisis Calls](#handling-emotional-clients-during-crisis-calls)
+5. [How Do You Train Staff for Confident Triage?](#how-do-you-train-staff-for-confident-triage)
+6. [How Should You Handle Emotional Clients During Crisis Calls?](#how-should-you-handle-emotional-clients-during-crisis-calls)
 7. [After-Hours Integration](#after-hours-integration)
 8. [Escalation Pathways: When to Involve a DVM](#escalation-pathways-when-to-involve-a-dvm)
-9. [Standardizing Triage Across Multiple Locations](#standardizing-triage-across-multiple-locations)
+9. [How Do You Standardize Triage Across Multiple Locations?](#how-do-you-standardize-triage-across-multiple-locations)
 10. [Quality Monitoring](#quality-monitoring)
-11. [Legal and Liability Considerations](#legal-and-liability-considerations)
+11. [What Are the Legal and Liability Considerations?](#what-are-the-legal-and-liability-considerations)
 12. [Key Takeaways](#key-takeaways)
 
 ---
@@ -53,7 +53,7 @@ A panicked client calls at 2 PM about a dog that "isn't acting right." Is it an 
 
 Phone triage in veterinary medicine presents challenges that human healthcare doesn't face. Your patients can't describe their symptoms. A dog "not acting right" could indicate anything from mild stomach upset to bloat, a life-threatening emergency with a survival window measured in hours.
 
-### The Unique Challenges
+### What Makes Veterinary Triage Uniquely Challenging?
 
 **Patients can't self-report.** When a human calls about chest pain, they can describe the sensation, location, and intensity. When a client calls about their cat, they're interpreting behavior through their own lens of experience. A first-time pet owner may panic over normal behavior, while an experienced owner may downplay serious symptoms.
 
@@ -353,7 +353,7 @@ For **Routine:**
 
 ---
 
-## Training Staff for Confident Triage
+## How Do You Train Staff for Confident Triage?
 
 A protocol on paper is insufficient if staff lack confidence to use it. Training should address both knowledge and psychological readiness.
 
@@ -380,7 +380,7 @@ A protocol on paper is insufficient if staff lack confidence to use it. Training
 
 ---
 
-## Handling Emotional Clients During Crisis Calls
+## How Should You Handle Emotional Clients During Crisis Calls?
 
 Clients calling about potentially dying pets are often in crisis themselves. Triage accuracy depends on getting clear information from emotional callers.
 
@@ -394,7 +394,7 @@ Clients calling about potentially dying pets are often in crisis themselves. Tri
 
 **Avoid medical jargon.** "It sounds like [pet name] might be having trouble breathing" is better than "possible respiratory distress."
 
-### Getting Information from Panicked Callers
+### How Do You Get Information from Panicked Callers?
 
 **Ask one question at a time.** Don't overwhelm with multiple questions.
 
@@ -408,7 +408,7 @@ Clients calling about potentially dying pets are often in crisis themselves. Tri
 
 For veterinary practices, after-hours isn't an afterthought. It's 30-40% of call volume. Your daytime and after-hours systems must work as one.
 
-### Handoff Requirements
+### What Are the Handoff Requirements?
 
 **Consistent triage protocols.** After-hours staff must use the same 3-tier framework and decision trees.
 
@@ -416,7 +416,7 @@ For veterinary practices, after-hours isn't an afterthought. It's 30-40% of call
 
 **Clear escalation paths.** Who is the on-call DVM? What's the protocol for true emergencies? Which emergency clinics are the referral partners?
 
-### After-Hours Staffing Models
+### What After-Hours Staffing Models Work Best?
 
 **In-house on-call:** Your own DVMs and technicians rotate coverage. Highest quality but expensive and creates burnout.
 
@@ -455,7 +455,7 @@ Clear escalation criteria prevent both over-escalation (wasting DVM time) and un
 
 ---
 
-## Standardizing Triage Across Multiple Locations
+## How Do You Standardize Triage Across Multiple Locations?
 
 Multi-location veterinary groups face a specific challenge: ensuring consistent triage quality across all sites. The same call should receive the same triage decision whether it comes to Location A or Location B.
 
@@ -482,7 +482,7 @@ Multi-location veterinary groups face a specific challenge: ensuring consistent 
 
 Triage errors are often invisible until something goes wrong. Proactive monitoring catches problems before they become crises.
 
-### What to Monitor
+### What Should You Monitor?
 
 **Escalation rate by staff member.** Too high may indicate lack of confidence. Too low may indicate missed escalations.
 
@@ -500,7 +500,7 @@ Triage errors are often invisible until something goes wrong. Proactive monitori
 
 ---
 
-## Legal and Liability Considerations
+## What Are the Legal and Liability Considerations?
 
 Veterinary phone triage carries liability risk. Protocols must balance accessibility with appropriate caution.
 

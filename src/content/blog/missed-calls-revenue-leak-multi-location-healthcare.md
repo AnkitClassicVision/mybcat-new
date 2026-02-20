@@ -19,11 +19,11 @@ Multi-location healthcare groups lose an average of $1.2 million annually to mis
 
 ## Table of Contents
 
-- [The Math Behind the $1.2M Leak](#the-math-behind-the-12m-leak)
+- [What's the Math Behind the $1.2M Leak?](#whats-the-math-behind-the-12m-leak)
 
 - [Why Multi-Location Groups Miss More Calls](#why-multi-location-groups-miss-more-calls-than-solo-practices)
 
-- [Hidden Costs Beyond Lost Patients](#the-hidden-costs-beyond-lost-patients)
+- [What Are the Hidden Costs Beyond Lost Patients?](#what-are-the-hidden-costs-beyond-lost-patients)
 
 - [Missed Calls by Specialty](#missed-calls-by-specialty-dental-vs-optometry-vs-veterinary)
 
@@ -31,7 +31,7 @@ Multi-location healthcare groups lose an average of $1.2 million annually to mis
 
 - [The EBITDA Impact on Valuation](#the-ebitda-impact-what-missed-calls-cost-your-valuation)
 
-- [Calculate Your Revenue Leak](#calculating-your-groups-specific-revenue-leak)
+- [How Do You Calculate Your Revenue Leak?](#how-do-you-calculate-your-groups-specific-revenue-leak)
 
 - [Frequently Asked Questions](#frequently-asked-questions)
 
@@ -55,7 +55,7 @@ This guide breaks down the math behind the revenue leak, explains why multi-loca
 
 ---
 
-## The Math Behind the $1.2M Leak
+## What's the Math Behind the $1.2M Leak?
 
 Let's start with the numbers that matter to your board.
 
@@ -122,27 +122,27 @@ For DSOs and PE-backed groups, every acquisition brings a different phone system
 
 ---
 
-## The Hidden Costs Beyond Lost Patients
+## What Are the Hidden Costs Beyond Lost Patients?
 
 The $1.2M calculation only accounts for direct revenue loss. The real damage goes deeper.
 
-### Marketing Waste
+### How Much Marketing Spend Is Wasted on Missed Calls?
 
 If you're spending $50,000 per month on marketing and missing 29% of the calls that marketing generates, you're throwing away **$14,500 monthly** (about $174,000 annually) on leads you never even spoke to.
 
 According to Invoca's analysis of large healthcare systems, providers are wasting up to **$383,827 in marketing spend each month** due to unanswered calls. Even at smaller scale, a 10-location group spending $50K/month on marketing and missing 29% of resulting calls wastes over $170,000 annually on leads that never get a callback.
 
-### Staff Burnout and Turnover
+### How Do Missed Calls Drive Staff Burnout and Turnover?
 
 Front desk staff forced to choose between the ringing phone and the patient standing in front of them experience constant stress. According to [MGMA data](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), this contributes to the 30-40% annual turnover rates common in healthcare front desk positions. Each turnover costs $15,000-$25,000 in recruiting, training, and lost productivity.
 
-### Patient Experience Degradation
+### How Do Missed Calls Degrade Patient Experience?
 
 Research from BIA/Kelsey shows **85% of callers won't try calling back** if their first attempt goes unanswered. And according to a 2023 Podium survey, **67% of healthcare consumers will call a competitor** if their primary practice doesn't answer quickly.
 
 Every missed call isn't just lost revenue. It's a patient telling five friends about their frustrating experience with your practice.
 
-### Data Blind Spots
+### What Data Blind Spots Do Missed Calls Create?
 
 You can't improve what you don't measure. Groups without call analytics make operational decisions (staffing levels, marketing spend, expansion plans) without fundamental data about how patients are actually reaching (or failing to reach) their practices.
 
@@ -242,7 +242,7 @@ Phone systems integrated with practice management software enable:
 
 For PE-backed groups and practices considering a transaction, missed call revenue has a multiplied impact on enterprise value.
 
-### The Valuation Math
+### How Does the Valuation Math Work?
 
 Current DSO valuations range from **6-12x EBITDA** for platform acquisitions, with exceptional practices commanding up to 15x. Here's how missed call recovery affects valuation:
 
@@ -270,7 +270,7 @@ Groups with documented answer rates above 90% and clear phone conversion data co
 
 ---
 
-## Calculating Your Group's Specific Revenue Leak
+## How Do You Calculate Your Group's Specific Revenue Leak?
 
 Ready to calculate your actual number? Here's the framework:
 
@@ -399,12 +399,3 @@ The solution isn't hiring more staff. It's implementing systematic intake operat
 *Last Updated: December 2025*
 
 *Sources: [Invoca Healthcare Call Tracking](https://www.invoca.com/solutions/healthcare), Peerlogic Dental Call Analysis 2024, BIA/Kelsey Consumer Calling Behavior Study, Podium Healthcare Consumer Survey 2023, [MGMA Staff Turnover Data](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), AVMA Veterinary Industry Statistics, Review of Optometric Business, Dental Economics Valuation Trends 2024*
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

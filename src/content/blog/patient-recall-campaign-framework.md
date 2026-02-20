@@ -28,7 +28,16 @@ Healthcare practices lose 10-17% of their patient base every year to attrition. 
 
 This framework breaks down exactly how to build recall campaigns that work, including the channel mix, timing sequences, and messaging strategies that top-performing practices use to achieve reactivation rates of 20-30%.
 
-## Why Patient Recall Campaigns Matter More Than New Patient Acquisition
+## Table of Contents
+
+- [Why Do Patient Recall Campaigns Matter More Than New Patient Acquisition?](#why-do-patient-recall-campaigns-matter-more-than-new-patient-acquisition)
+- [The Patient Recall Campaign Framework](#the-patient-recall-campaign-framework)
+- [What Common Mistakes Kill Recall Campaigns?](#what-common-mistakes-kill-recall-campaigns)
+- [How Do You Build Your 90-Day Recall Campaign?](#how-do-you-build-your-90-day-recall-campaign)
+- [Should You Automate Recall or Not?](#should-you-automate-recall-or-not)
+- [How Does Recall Connect to Your Broader Patient Access Strategy?](#how-does-recall-connect-to-your-broader-patient-access-strategy)
+
+## Why Do Patient Recall Campaigns Matter More Than New Patient Acquisition?
 
 Most practice owners obsess over new patient numbers while ignoring a fundamental economic reality: retaining an existing patient costs 5-25x less than acquiring a new one. A 5% improvement in retention can increase profits by 25-95%, according to research from Vital Interaction.
 
@@ -43,7 +52,7 @@ The numbers tell the story clearly:
 
 Existing patients already know your practice, trust your team, and have a history you can reference. They just need a reason to come back.
 
-### The True Cost of Patient Attrition
+### What Is the True Cost of Patient Attrition?
 
 Consider what happens when a dental practice with 3,000 patients experiences the industry-average 17% annual attrition:
 
@@ -181,7 +190,7 @@ Track these KPIs to evaluate campaign performance:
 
 Real-world results validate these benchmarks. Modern Dentistry achieved 59 reactivations in 90 days, generating $49,456 in revenue for a 140x ROI using automated text-based recall.
 
-## Common Mistakes That Kill Recall Campaigns
+## What Common Mistakes Kill Recall Campaigns?
 
 ### Mistake 1: Relying on Generic Mass Messages
 
@@ -213,7 +222,7 @@ Paper-based tracking creates knowledge gaps. Staff turnover means institutional 
 
 **Fix:** Use practice management software or a dedicated recall platform to automate tracking and outreach.
 
-## Building Your 90-Day Recall Campaign
+## How Do You Build Your 90-Day Recall Campaign?
 
 Here is a practical timeline for launching your first systematic recall campaign:
 
@@ -240,7 +249,7 @@ Here is a practical timeline for launching your first systematic recall campaign
 
 For practices joining larger organizations or managing multiple locations, [integrating recall systems during acquisition](/blog/90-day-integration-playbook-healthcare-acquisitions/) creates consistency across the network.
 
-## The Technology Question: Automate or Not?
+## Should You Automate Recall or Not?
 
 Small practices with under 50 dormant patients can manage recall manually. Beyond that threshold, automation becomes essential.
 
@@ -259,7 +268,7 @@ Small practices with under 50 dormant patients can manage recall manually. Beyon
 
 The best results come from hybrid approaches that combine automated outreach at scale with human intervention for high-touch situations. Learn more about finding the right balance in our guide to [human + AI hybrid models for patient intake](/blog/human-ai-hybrid-model-healthcare-intake/).
 
-## Connecting Recall to Your Broader Patient Access Strategy
+## How Does Recall Connect to Your Broader Patient Access Strategy?
 
 Patient recall does not exist in isolation. It connects to every other aspect of how patients interact with your practice:
 

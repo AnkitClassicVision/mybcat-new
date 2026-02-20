@@ -24,11 +24,23 @@ The first year of practice ownership is a financial marathon. Cash flows out fas
 
 For the complete picture on launching your practice, see our guide on [starting an optometric practice](/blog/starting-an-optometric-practice-101/).
 
-## The Financial Reality of Year One
+## Table of Contents
+
+- [What Is the Financial Reality of Year One?](#what-is-the-financial-reality-of-year-one)
+- [How Do You Build Your First-Year Budget?](#how-do-you-build-your-first-year-budget)
+- [How Do You Manage Cash Flow?](#how-do-you-manage-cash-flow)
+- [What Revenue Optimization Strategies Should You Use?](#what-revenue-optimization-strategies-should-you-use)
+- [How Do You Control Expenses?](#how-do-you-control-expenses)
+- [What Financial Milestones Should You Track?](#what-financial-milestones-should-you-track)
+- [When Should You Work With Financial Professionals?](#when-should-you-work-with-financial-professionals)
+- [What Are the Most Common First-Year Financial Mistakes?](#what-are-the-most-common-first-year-financial-mistakes)
+- [How Do You Plan for Year Two?](#how-do-you-plan-for-year-two)
+
+## What Is the Financial Reality of Year One?
 
 Understanding typical first-year economics helps set realistic expectations.
 
-### Revenue Ramp-Up Timeline
+### What Does the Revenue Ramp-Up Timeline Look Like?
 
 New practices do not hit full revenue immediately. A typical ramp:
 
@@ -44,7 +56,7 @@ New practices do not hit full revenue immediately. A typical ramp:
 
 These figures assume a general private practice model. Specialty practices, cold starts in competitive markets, or acquisitions will vary significantly.
 
-### The Cash Flow Gap
+### How Big Is the Cash Flow Gap?
 
 The challenge: expenses start at full levels while revenue builds gradually.
 
@@ -61,9 +73,9 @@ In months 1-3, revenue rarely covers fixed costs. This creates a cash gap that m
 
 **Cash reserve requirement:** Most practices need 6-9 months of operating expenses in reserve. For a practice with $25,000 monthly fixed costs, that means $150,000-225,000 in accessible capital.
 
-## Building Your First-Year Budget
+## How Do You Build Your First-Year Budget?
 
-### Startup Costs Budget
+### What Are the Startup Costs?
 
 Before opening, expect significant one-time expenses:
 
@@ -82,7 +94,7 @@ Before opening, expect significant one-time expenses:
 
 This is why most new practices use SBA loans, equipment financing, or combination of debt sources.
 
-### Monthly Operating Budget Template
+### What Should Your Monthly Operating Budget Include?
 
 Build a detailed monthly budget before opening:
 
@@ -114,7 +126,7 @@ Build a detailed monthly budget before opening:
 
 **Net operating income:** Revenue - COGS - Operating expenses = ________
 
-### Month-by-Month Projections
+### How Should You Create Month-by-Month Projections?
 
 Create 12-month projections with three scenarios:
 
@@ -126,11 +138,11 @@ Create 12-month projections with three scenarios:
 
 When projections differ from reality, adjust quickly.
 
-## Managing Cash Flow
+## How Do You Manage Cash Flow?
 
 Cash flow management keeps practices alive during the ramp-up.
 
-### Cash Flow Principles
+### What Are the Key Cash Flow Principles?
 
 **Principle 1: Cash is not profit.** You can be profitable on paper while running out of cash. A patient seen today generates revenue, but insurance payment arrives in 30-45 days.
 
@@ -138,7 +150,7 @@ Cash flow management keeps practices alive during the ramp-up.
 
 **Principle 3: Inventory ties up cash.** Frames on display cannot pay rent.
 
-### Cash Flow Monitoring
+### What Metrics Should You Monitor Weekly?
 
 Track these metrics weekly:
 
@@ -152,7 +164,7 @@ Track these metrics weekly:
 
 **Runway:** At current burn rate, how many months until cash runs out.
 
-### Cash Flow Improvement Tactics
+### How Can You Improve Cash Flow?
 
 **Speed up collections:**
 - Submit claims same day
@@ -176,11 +188,11 @@ Track these metrics weekly:
 - Delay non-essential purchases
 - Consider temporary staff reductions as last resort
 
-## Revenue Optimization Strategies
+## What Revenue Optimization Strategies Should You Use?
 
 Improving revenue accelerates the path to profitability.
 
-### Professional Services Revenue
+### How Do You Maximize Professional Services Revenue?
 
 **Exam fee optimization:**
 - Research local market rates
@@ -195,7 +207,7 @@ Improving revenue accelerates the path to profitability.
 - Myopia management
 - Co-management agreements
 
-### Optical Revenue
+### How Do You Optimize Optical Revenue?
 
 Optical often determines practice profitability.
 
@@ -217,7 +229,7 @@ Optical often determines practice profitability.
 - Monitor lab costs
 - Consider in-house edging as volume grows
 
-### Contact Lens Revenue
+### How Do You Build Contact Lens Revenue?
 
 Contact lenses offer recurring revenue potential:
 
@@ -226,11 +238,11 @@ Contact lenses offer recurring revenue potential:
 - Specialty lens fitting fees
 - Follow-up exam bundling
 
-## Expense Control
+## How Do You Control Expenses?
 
 Controlling expenses without compromising quality requires discipline.
 
-### Staff Costs
+### How Do You Manage Staff Costs?
 
 Payroll is typically the largest expense. Manage carefully:
 
@@ -239,7 +251,7 @@ Payroll is typically the largest expense. Manage carefully:
 - Use part-time staff during ramp-up
 - Add hours before adding headcount
 
-### Marketing Spend
+### How Much Should You Spend on Marketing?
 
 Marketing is essential but easy to overspend:
 
@@ -256,7 +268,7 @@ Marketing is essential but easy to overspend:
 - Expensive brand campaigns before you have patients to serve
 - Marketing that cannot be tracked
 
-### Vendor Negotiation
+### How Do You Negotiate With Vendors?
 
 New practices have less leverage, but still negotiate:
 
@@ -265,7 +277,7 @@ New practices have less leverage, but still negotiate:
 - Compare multiple vendors before committing
 - Review costs quarterly
 
-## Financial Milestones
+## What Financial Milestones Should You Track?
 
 Track progress against these benchmarks:
 
@@ -299,7 +311,7 @@ Track progress against these benchmarks:
 
 Missing milestones is not failure. It signals need for adjustment. Identify the constraint and address it.
 
-## Working With Financial Professionals
+## When Should You Work With Financial Professionals?
 
 You need professional support:
 
@@ -335,7 +347,7 @@ Build relationship with a business banker:
 - Future expansion capital
 - General financial advice
 
-## Common First-Year Financial Mistakes
+## What Are the Most Common First-Year Financial Mistakes?
 
 ### Mistake 1: Undercapitalization
 
@@ -361,7 +373,7 @@ Flying blind leads to surprises. Implement basic accounting from day one. Review
 
 Taking money out before the practice stabilizes jeopardizes survival. Live lean during year one. Build the practice first.
 
-## Planning for Year Two
+## How Do You Plan for Year Two?
 
 As year one ends, plan for year two:
 

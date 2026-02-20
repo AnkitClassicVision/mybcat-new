@@ -23,7 +23,20 @@ relatedPosts:
 
 Multi-location medical groups lose 10% of their patient base annually to attrition. For a 15-location DSO with 6,000 patients per site, that translates to 9,000 patients walking out the door each year. A dedicated reactivation call center can recover 20-30% of those dormant patients, generating over $1 million in recaptured revenue. Building this capability starts with a solid [patient recall campaign framework](/blog/patient-recall-campaign-framework/). This guide breaks down how operations leaders at healthcare groups with 3+ locations can build, measure, and scale reactivation programs that deliver measurable EBITDA impact.
 
-## Why Reactivation Matters More at Scale
+## Table of Contents
+
+- [Why Does Reactivation Matter More at Scale?](#why-does-reactivation-matter-more-at-scale)
+- [What Is the Multi-Location Reactivation Problem?](#what-is-the-multi-location-reactivation-problem)
+- [Centralized vs. Distributed Reactivation Models](#centralized-vs-distributed-reactivation-models)
+- [How Do You Build Your Reactivation Call Center?](#how-do-you-build-your-reactivation-call-center)
+- [The Four-Stage Reactivation Campaign Framework](#the-four-stage-reactivation-campaign-framework)
+- [How Do You Measure Reactivation ROI at Enterprise Scale?](#how-do-you-measure-reactivation-roi-at-enterprise-scale)
+- [Why Do Robocalls Fail and Human Contact Win?](#why-do-robocalls-fail-and-human-contact-win)
+- [What Mistakes Do Multi-Location Groups Make?](#what-mistakes-do-multi-location-groups-make)
+- [How Does Reactivation Integrate with Your Broader Patient Lifecycle?](#how-does-reactivation-integrate-with-your-broader-patient-lifecycle)
+- [How Do You Build a Business Case for Centralized Reactivation?](#how-do-you-build-a-business-case-for-centralized-reactivation)
+
+## Why Does Reactivation Matter More at Scale?
 
 Single-location practices treat patient attrition as inevitable. Multi-location groups cannot afford that mindset. The math compounds quickly: a 10% annual loss across 15 locations means thousands of patients disappearing from your active roster every year.
 
@@ -33,7 +46,7 @@ The acquisition cost comparison makes the case clearer. Acquiring a new patient 
 
 For PE-backed groups focused on [same-store growth metrics](/blog/missed-calls-revenue-leak-multi-location-healthcare/), reactivation campaigns directly improve the numbers that drive valuations.
 
-## The Multi-Location Reactivation Problem
+## What Is the Multi-Location Reactivation Problem?
 
 Running reactivation out of individual locations creates three operational failures.
 
@@ -88,7 +101,7 @@ This model balances standardization with local relationships. It works well duri
 
 For groups pursuing rapid growth or preparing for an exit, centralized operations typically deliver the operational metrics PE sponsors expect. The [centralized vs. distributed intake framework](/blog/centralized-vs-distributed-intake-framework/) applies the same logic to reactivation infrastructure.
 
-## Building Your Reactivation Call Center: Staffing and Structure
+## How Do You Build Your Reactivation Call Center?
 
 Reactivation calling requires different skills than inbound patient service. Outbound agents must handle rejection, maintain energy across dozens of calls, and convert cold contacts into scheduled appointments.
 
@@ -181,7 +194,7 @@ Reactivated patients have higher attrition risk than continuous patients. Build 
 
 A patient who completes their reactivation appointment but leaves without scheduling next steps will likely lapse again.
 
-## Measuring Reactivation ROI at Enterprise Scale
+## How Do You Measure Reactivation ROI at Enterprise Scale?
 
 Operations leaders need to quantify reactivation performance in terms that resonate with PE sponsors and executive teams.
 
@@ -215,7 +228,7 @@ Track these metrics monthly across all locations. Create a reactivation dashboar
 
 The [reactivation campaign KPIs guide](/blog/reactivation-campaign-kpis/) provides detailed measurement frameworks for multi-location groups.
 
-## Why Robocalls Fail and Human Contact Wins
+## Why Do Robocalls Fail and Human Contact Win?
 
 Healthcare groups sometimes attempt automated reactivation through robocalls or AI-powered dialers. The data shows this approach fails.
 
@@ -227,7 +240,7 @@ The [automated vs. human patient recall comparison](/blog/automated-vs-human-pat
 
 For multi-location groups, the math favors human call centers. The higher conversion rate more than offsets the additional labor cost, and you avoid the brand damage from perceived spam outreach.
 
-## Common Mistakes Multi-Location Groups Make
+## What Mistakes Do Multi-Location Groups Make?
 
 **Mistake 1: Treating All Dormant Patients Equally**
 
@@ -249,7 +262,7 @@ Reactivating a patient who lapses again in 6 months wastes your campaign investm
 
 If you cannot compare reactivation performance across locations, you cannot identify what works. Standardize metrics and reporting to enable optimization.
 
-## Integrating Reactivation with Your Broader Patient Lifecycle
+## How Does Reactivation Integrate with Your Broader Patient Lifecycle?
 
 Reactivation call centers should not operate in isolation. They connect to your overall patient lifecycle infrastructure.
 
@@ -269,7 +282,7 @@ The [patient recall campaign framework](/blog/patient-recall-campaign-framework/
 
 Providers should know when their former patients return. A reactivated patient visiting their original provider improves retention compared to seeing whoever has availability.
 
-## Building a Business Case for Centralized Reactivation
+## How Do You Build a Business Case for Centralized Reactivation?
 
 Operations leaders advocating for reactivation investment need a clear business case. Here is a framework:
 

@@ -56,7 +56,7 @@ Improving answer rate to 95% and conversion to 70% would capture 1,330 appointme
 
 Without intake metrics, you cannot see this opportunity. With intake metrics, you can quantify it, track it, and improve it.
 
-### The Visibility Gap
+### What Is the Visibility Gap?
 
 Most multi-location operators face three visibility challenges:
 
@@ -225,7 +225,7 @@ Scale changes expectations. Larger groups should achieve better metrics through 
 | **Real-Time Visibility** | Nice to have | Important | Critical |
 | **Dedicated Intake Staff** | Unlikely | Possible | Common |
 
-### Why Expectations Increase with Scale
+### Why Do Expectations Increase with Scale?
 
 **Pooled resources:** Larger groups can share intake resources across locations, covering gaps at individual sites.
 
@@ -237,7 +237,7 @@ Scale changes expectations. Larger groups should achieve better metrics through 
 
 ---
 
-## Building Your Dashboard
+## How Do You Build an Effective Dashboard?
 
 An effective intake dashboard provides at-a-glance visibility into performance while enabling drill-down for investigation.
 
@@ -282,11 +282,11 @@ An effective intake dashboard provides at-a-glance visibility into performance w
 
 ---
 
-## Comparing Locations Fairly
+## How Do You Compare Locations Fairly?
 
 Raw metrics can be misleading. Fair comparison requires normalization for factors outside location control.
 
-### Factors to Normalize
+### What Factors Should You Normalize?
 
 **Call volume:** High-volume locations face different challenges than low-volume locations. Percentage metrics help, but absolute numbers matter for staffing.
 
@@ -298,7 +298,7 @@ Raw metrics can be misleading. Fair comparison requires normalization for factor
 
 **Hours of operation:** Extended hours locations capture more calls but may have lower after-hours metrics.
 
-### Comparison Methods
+### What Comparison Methods Work Best?
 
 **Percentile ranking:** Rank locations by each metric. Consistently bottom-quartile locations need investigation.
 
@@ -343,7 +343,7 @@ When metrics decline, investigate in this order:
 
 ---
 
-## Common Measurement Mistakes
+## What Are the Most Common Measurement Mistakes?
 
 Avoid these errors that undermine intake measurement programs.
 
@@ -379,7 +379,7 @@ If answer rate is measured but conversion is not, staff may rush calls to keep a
 
 ---
 
-## Technology for Intake Measurement
+## What Technology Do You Need for Intake Measurement?
 
 Accurate measurement requires the right technology foundation.
 

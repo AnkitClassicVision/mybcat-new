@@ -30,25 +30,25 @@ Veterinary practices receive 40% of their calls outside business hours, and most
 
 ## Table of Contents
 
-1. [The 40% Problem: Why After-Hours Matters](#the-40-problem-why-after-hours-matters)
-2. [The Four After-Hours Models](#the-four-after-hours-models)
+1. [Why Does the 40% After-Hours Problem Matter?](#why-does-the-40-after-hours-problem-matter)
+2. [What Are the Four After-Hours Models?](#what-are-the-four-after-hours-models)
 3. [Model 1: DVM On-Call with Answering Support](#model-1-dvm-on-call-with-answering-support)
 4. [Model 2: Triage-First with Emergency Routing](#model-2-triage-first-with-emergency-routing)
 5. [Model 3: Virtual Triage Nurses](#model-3-virtual-triage-nurses)
 6. [Model 4: Telemedicine Hybrid](#model-4-telemedicine-hybrid)
-7. [Cost-Benefit Analysis by Location Count](#cost-benefit-analysis-by-location-count)
-8. [Emergency Hospital Partnership Integration](#emergency-hospital-partnership-integration)
-9. [Implementation Considerations](#implementation-considerations)
-10. [Measuring After-Hours Performance](#measuring-after-hours-performance)
+7. [How Does Cost-Benefit Change by Location Count?](#how-does-cost-benefit-change-by-location-count)
+8. [How Should You Integrate Emergency Hospital Partnerships?](#how-should-you-integrate-emergency-hospital-partnerships)
+9. [What Are the Key Implementation Considerations?](#what-are-the-key-implementation-considerations)
+10. [How Do You Measure After-Hours Performance?](#how-do-you-measure-after-hours-performance)
 11. [Key Takeaways](#key-takeaways)
 
 ---
 
-## The 40% Problem: Why After-Hours Matters
+## Why Does the 40% After-Hours Problem Matter?
 
 Pets do not get sick on a schedule. A dog that starts vomiting does so at 10 PM, not 10 AM. A cat that stops eating does not wait until Monday. The result: a significant portion of veterinary call volume occurs when practices are closed.
 
-### After-Hours Call Distribution
+### What Does After-Hours Call Distribution Look Like?
 
 Typical multi-location veterinary groups see this pattern:
 
@@ -61,7 +61,7 @@ Typical multi-location veterinary groups see this pattern:
 
 The critical insight: **85% of after-hours calls do not require a veterinarian.** They require informed triage that either captures an appointment or routes to emergency care.
 
-### The Cost of Getting It Wrong
+### What Is the Cost of Getting It Wrong?
 
 **DVM burnout:** On-call responsibilities are a leading driver of veterinarian turnover. A 2023 AVMA study found that excessive on-call burden ranked among the top three reasons DVMs leave practices.
 
@@ -73,7 +73,7 @@ The critical insight: **85% of after-hours calls do not require a veterinarian.*
 
 ---
 
-## The Four After-Hours Models
+## What Are the Four After-Hours Models?
 
 Each model represents a different philosophy and cost structure. None is universally best; the right choice depends on your group's size, philosophy, and resources.
 
@@ -268,7 +268,7 @@ Technology-enabled triage combines AI-assisted intake, video consultation capabi
 
 ---
 
-## Cost-Benefit Analysis by Location Count
+## How Does Cost-Benefit Change by Location Count?
 
 The economics shift as location count increases:
 
@@ -318,7 +318,7 @@ Investment in Triage-First ($12,000/month) generates 9x return.
 
 ---
 
-## Emergency Hospital Partnership Integration
+## How Should You Integrate Emergency Hospital Partnerships?
 
 Effective after-hours management requires coordination with emergency hospitals.
 
@@ -350,7 +350,7 @@ Effective after-hours management requires coordination with emergency hospitals.
 
 ---
 
-## Implementation Considerations
+## What Are the Key Implementation Considerations?
 
 ### Timeline
 
@@ -380,7 +380,7 @@ Effective after-hours management requires coordination with emergency hospitals.
 
 ---
 
-## Measuring After-Hours Performance
+## How Do You Measure After-Hours Performance?
 
 ### Key Metrics
 

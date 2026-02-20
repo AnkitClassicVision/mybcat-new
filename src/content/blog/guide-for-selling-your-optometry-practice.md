@@ -35,11 +35,26 @@ Optometry practices typically sell for 2.0x-3.5x seller's discretionary earnings
 
 This guide covers everything you need to know about selling your optometry practice in 2025-2026: current valuation multiples, the private equity landscape, tax implications, and a realistic preparation timeline.
 
-## What Your Optometry Practice Is Actually Worth in 2025
+## Table of Contents
+
+- [What Is Your Optometry Practice Actually Worth in 2025?](#what-is-your-optometry-practice-actually-worth-in-2025)
+- [Who Are the 3 Types of Buyers?](#who-are-the-3-types-of-buyers)
+- [What Does the 2025 PE Acquirer Landscape Look Like?](#what-does-the-2025-pe-acquirer-landscape-look-like)
+- [What Is the 1-3 Year Preparation Timeline?](#what-is-the-1-3-year-preparation-timeline)
+- [What Do Buyers Actually Look For in Due Diligence?](#what-do-buyers-actually-look-for-in-due-diligence)
+- [How Do Operations Affect Your Valuation Multiple?](#how-do-operations-affect-your-valuation-multiple)
+- [Asset Sale vs Stock Sale: What Are the Tax Implications?](#asset-sale-vs-stock-sale-what-are-the-tax-implications)
+- [What Are the 5 Costly Mistakes That Kill Deals?](#what-are-the-5-costly-mistakes-that-kill-deals)
+- [How Do You Build Your Advisory Team?](#how-do-you-build-your-advisory-team)
+- [What Is Actually Negotiable in the Sale?](#what-is-actually-negotiable-in-the-sale)
+- [What Are Your Post-Sale Options?](#what-are-your-post-sale-options)
+- [Your Exit Strategy Checklist](#your-exit-strategy-checklist)
+
+## What Is Your Optometry Practice Actually Worth in 2025?
 
 The old rule of thumb—practices sell for 100% of gross revenue—is increasingly unreliable. While some PE-ready practices with exceptional EBITDA margins still command 1x revenue or higher, most transactions today are valued on earnings multiples. Profitability matters more than top-line numbers.
 
-### The Three Valuation Methods
+### What Are the Three Valuation Methods?
 
 **Seller's Discretionary Earnings (SDE) Multiple**
 Best for owner-operated practices under $1M revenue. SDE includes the owner's salary, benefits, and discretionary expenses added back to net income. Current multiples: **2.0x-3.5x SDE**.
@@ -56,7 +71,7 @@ The quick-and-dirty method, less reliable but useful for benchmarking. Current m
 
 Example: $1,000,000 revenue × 0.6x = $600,000 valuation
 
-### What's Typically Included (and Excluded)
+### What Is Typically Included and Excluded?
 
 Valuation multiples usually apply to the *operating business*—not necessarily everything you own. Clarify these items early:
 
@@ -77,7 +92,7 @@ The "valuation" number and your "cash at closing" number can differ significantl
 
 For a deeper dive into valuation methods, see our [complete optometric practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/). You can also use our [EBITDA impact calculator](/blog/ebitda-impact-calculator/) to model how operational improvements affect your multiple.
 
-### What Moves You Up (or Down) the Multiple Range
+### What Moves You Up or Down the Multiple Range?
 
 Higher multiples go to practices with:
 - Multiple revenue streams (exams, glasses, contacts, medical)
@@ -99,7 +114,7 @@ Lower multiples hit practices with:
 
 The uncomfortable truth: buyers don't just buy revenue. They buy a business that works. The more your practice depends on you personally, the less it's worth to someone else.
 
-## The 3 Types of Buyers (And What Each Will Pay)
+## Who Are the 3 Types of Buyers?
 
 Understanding who might buy your practice helps you prepare for what they'll want to see.
 
@@ -139,11 +154,11 @@ Understanding who might buy your practice helps you prepare for what they'll wan
 
 **Cons:** May consolidate your location. Staff changes possible.
 
-## Private Equity in Optometry: The 2025 Acquirer Landscape
+## What Does the 2025 PE Acquirer Landscape Look Like?
 
 Private equity has transformed optometry transactions. If you're considering selling to PE, know the players.
 
-### The Major PE-Backed Acquirers in 2025
+### Who Are the Major PE-Backed Acquirers in 2025?
 
 | Acquirer | Focus |
 |----------|-------|
@@ -157,7 +172,7 @@ Private equity has transformed optometry transactions. If you're considering sel
 
 *Note: The PE landscape changes frequently. Verify current activity and terms directly with any potential acquirer.*
 
-### What PE Buyers Look For
+### What Do PE Buyers Look For?
 
 PE firms aren't just buying practices—they're buying EBITDA that they can scale. They want:
 
@@ -167,7 +182,7 @@ PE firms aren't just buying practices—they're buying EBITDA that they can scal
 - **Systems:** Documented SOPs, modern PM software, trackable metrics
 - **Geography:** Southern U.S. practices currently in highest demand (50% of post-2022 acquisitions)
 
-### The Reality Check
+### What Is the Reality Check on PE Acquisitions?
 
 PE acquisitions have cooled from 2021 peaks. Higher interest rates and economic uncertainty mean PE firms are more selective. They're still buying, but deals take longer and scrutiny is higher.
 
@@ -175,7 +190,7 @@ If you're targeting a PE exit, start preparing 2-3 years out. The practices comm
 
 For a real-world example, see how one [15-location DSO recovered $1.2M in annual revenue](/blog/dso-case-study-15-location-missed-calls/) by fixing their intake operations before expansion. Our [DSO integration playbook](/blog/dso-integration-playbook/) also covers how PE-backed groups standardize operations across locations.
 
-## The 1-3 Year Preparation Timeline
+## What Is the 1-3 Year Preparation Timeline?
 
 The best time to start preparing was three years ago. The second best time is now.
 
@@ -213,11 +228,11 @@ Most sellers wait too long to start. By the time they're burned out and ready to
 
 Start early. The improvements you make in years 1-2 don't just help the sale—they make your practice more profitable and less stressful to run right now.
 
-## What Buyers Actually Look For in Due Diligence
+## What Do Buyers Actually Look For in Due Diligence?
 
 Buyers will dig into everything. Here's what moves the needle.
 
-### Financial Metrics They'll Scrutinize
+### What Financial Metrics Will They Scrutinize?
 
 - **Revenue trend:** Growing, flat, or declining over 3 years
 - **EBITDA/SDE margins:** Higher is better, but consistency matters more than spikes
@@ -225,7 +240,7 @@ Buyers will dig into everything. Here's what moves the needle.
 - **Payer mix:** Too dependent on one insurance? Risk.
 - **Accounts receivable:** Clean AR signals good operations
 
-### Operational Metrics That Signal Quality
+### Which Operational Metrics Signal Quality?
 
 - **Patient retention rate:** What percentage return annually?
 - **No-show rate:** High no-shows signal process problems
@@ -236,7 +251,7 @@ Buyers will dig into everything. Here's what moves the needle.
 
 If you're not already tracking these metrics, our guide to [building a KPI dashboard for multi-location intake](/blog/kpi-dashboard-multi-location-intake/) shows exactly what to measure and how.
 
-### Documentation Buyers Expect
+### What Documentation Do Buyers Expect?
 
 - 3 years of tax returns
 - Monthly P&L statements
@@ -250,13 +265,13 @@ If you're not already tracking these metrics, our guide to [building a KPI dashb
 
 The practice with organized documentation closes faster and often at a better price. Chaos in due diligence makes buyers nervous—and nervous buyers either walk or reduce their offer.
 
-## How Operations Affect Your Valuation Multiple
+## How Do Operations Affect Your Valuation Multiple?
 
 Here's what most sellers miss: **the difference between a 2.5x and a 4x multiple often isn't revenue or profit—it's operations.**
 
 Buyers are acquiring a business, not a job. They need to believe the practice will perform after you leave. That means:
 
-### Intake and Phone Systems
+### How Do Intake and Phone Systems Affect Value?
 
 How calls are handled signals operational maturity. Buyers ask:
 - What's your call answer rate?
@@ -268,7 +283,7 @@ A practice where calls go to voicemail and the owner personally handles complain
 
 This is exactly why practices that [optimize intake operations before a sale](https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/) often see significant valuation improvements. It's not just about revenue—it's about demonstrating that the business runs without the owner.
 
-### Documented Systems
+### Why Are Documented Systems Critical?
 
 Can someone else run your practice using your playbook? If the answer is "they'd have to shadow me for six months," that's a problem.
 
@@ -278,7 +293,7 @@ Buyers want:
 - Defined processes for billing, recalls, inventory
 - Metrics dashboards they can monitor
 
-### Staff Independence
+### How Important Is Staff Independence?
 
 If your staff can't function when you take a two-week vacation, buyers will notice. The practices that command premiums have:
 - Office managers who handle daily operations
@@ -287,7 +302,7 @@ If your staff can't function when you take a two-week vacation, buyers will noti
 
 ---
 
-## Asset Sale vs Stock Sale: Tax Implications Explained
+## Asset Sale vs Stock Sale: What Are the Tax Implications?
 
 How you structure the sale dramatically affects your after-tax proceeds.
 
@@ -329,13 +344,13 @@ In a stock sale, you sell your ownership interest in the legal entity. The buyer
 | Liability transfer | Clean—stays with seller | Full—transfers to buyer |
 | Typical structure | Most common | Less common |
 
-### The Negotiation
+### How Do You Negotiate the Sale Structure?
 
 Because buyers prefer asset sales and sellers prefer stock sales, the structure becomes a negotiation point. Sellers sometimes accept asset structure in exchange for higher purchase price.
 
 Work with a CPA who understands practice sales. The structure decision should happen early—not during final negotiations.
 
-## The 5 Costly Mistakes That Kill Deals
+## What Are the 5 Costly Mistakes That Kill Deals?
 
 Based on what brokers, CPAs, and attorneys see repeatedly:
 
@@ -372,7 +387,7 @@ The highest offer isn't always the best deal. Consider:
 - Patient care continuity
 - Your own post-sale restrictions (non-compete scope)
 
-## Building Your Advisory Team
+## How Do You Build Your Advisory Team?
 
 You need three key advisors—get them in place early.
 
@@ -408,7 +423,7 @@ Your attorney should:
 
 Don't use your general business attorney if they've never done a practice sale. The nuances matter.
 
-## Negotiating the Sale: What's Actually Negotiable
+## What Is Actually Negotiable in the Sale?
 
 Almost everything. The purchase price gets the attention, but these terms matter too:
 
@@ -444,7 +459,7 @@ Almost everything. The purchase price gets the attention, but these terms matter
 
 Get everything in writing. Verbal assurances during negotiations don't survive closing.
 
-## Post-Sale Options: Full Exit vs Stay On as Clinician
+## What Are Your Post-Sale Options?
 
 You have more options than "sell and walk away."
 

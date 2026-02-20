@@ -19,11 +19,17 @@ Opening the doors to an optometry practice means having various processes in pla
 
 Patient intake is one of those processes that need to evolve over time. When new legislation passes, it's obvious that you need to update your intake process. But there are other signs that it's time to update intake. For example, are your appointment wait times getting longer? Are patients asking repeat questions about paperwork or becoming impatient with filling it out? These are just some of the signs indicating it's time for a refresh on your intake processes. Later, we'll share more tips on knowing if it's time to update intake.
 
+## Table of Contents
+
+- [What Are the Signs That It's Time to Streamline Intake?](#what-are-the-signs-that-its-time-to-streamline-intake)
+- [How Do You Prioritize Streamlining Opportunities by Impact and Effort?](#how-do-you-prioritize-streamlining-opportunities-by-impact-and-effort)
+- [What Factors Should You Consider When Getting Started?](#what-factors-should-you-consider-when-getting-started)
+
 We needed to figure out where to start when we first realized we needed to streamline our intake process. Talking with other optometrists and ophthalmologists, not knowing where to start can be a big enough hurdle that some practices avoid doing it altogether. So we're sharing our breakdown of streamlining tips, ranging from the easy fixes to bigger effort and bigger impact opportunities. For practices looking to maximize their scheduling efficiency, our [appointment book maximizer](https://mybcat.com/solutions/patient-recall/) can help ensure every slot gets filled.
 
 Starting the optimization of your patient intake processes is like any other task; the first step is often the hardest. Bear in mind that your patients are expecting a smooth experience. Making intake more efficient not only elevates their satisfaction but also reduces staff stress and might even make room for more daily appointments. What's not to like about happier patients and potentially more revenue for your practice?
 
-## Signs That It's Time to Streamline Intake
+## What Are the Signs That It's Time to Streamline Intake?
 
 Running an optometry clinic comes with its fair share of challenges. There are many moving parts, and striking the right balance can be a juggling act. When should you consider tweaking your patient intake process?
 
@@ -47,7 +53,7 @@ All eye clinics should be tracking missed visits or last-minute reschedules. A d
 
 Remember the experts within your walls. ODs and supporting staff interact directly with the intake process and its outcomes. Their feedback can shed light on areas that might benefit from a little fine-tuning.
 
-### **Streamlining Intake Opportunities by Impact and Effort**
+### **How Do You Prioritize Streamlining Opportunities by Impact and Effort?**
 
 With the right modifications, you can significantly boost patient satisfaction, enhance eye health outcomes, and streamline your clinic's operations. To help with prioritization, we've broken down the process updates based on their impact on the process and how much work they are to implement.
 
@@ -85,7 +91,7 @@ With the right modifications, you can significantly boost patient satisfaction, 
 
 The bottom line is that streamlining intake in eye care clinics is about mapping your patient's experience. Then you can identify potential bottlenecks. While you should implement some quick wins, also pick strategic projects that can significantly impact intake. Your goal is that patients leave with better vision *and* a good impression of your practice's top-notch service.
 
-### **Factors to Consider When Getting Started**
+### **What Factors Should You Consider When Getting Started?**
 
 When improving your patient intake process, consider the following practical factors for a smooth and efficient update.
 
@@ -107,7 +113,7 @@ Optimizing your intake process requires a mix of introspection, innovation, and 
 
 **Feeling Overwhelmed?** Streamlining processes can be tricky and time-consuming. If you want guidance on your clinic's unique challenges, My Business Care Team is here to help. With expertise in increased revenues, efficiency improvements, and ensuring top-quality care for optometry clinics, our team can support you to make a seamless transformation. Learn more about our [appointment book maximizer solution](https://mybcat.com/solutions/patient-recall/) designed specifically for eye care practices.
 
- 
+
 
 
 <!-- MyBCAT CTA Section -->

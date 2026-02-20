@@ -28,12 +28,3 @@ Optometrists focus on streamlining communication channels. These services not on
 [Optometrist call management](https://mybcat.com/about/) is a crucial aspect of patient interaction. Outsourcing this responsibility to professionals ensures that calls are handled with precision, creating a positive first [impression](https://www.linkedin.com/pulse/how-first-impressions-determine-customer-loyalty-amanda-stevens) for potential patients.
 
 In conclusion, embracing specialized medical receptionist services is a strategic move for optometrists aiming to enhance their patient experience. Consider partnering with a managed intake provider to leverage and streamline your [optometrist inbound call services](https://mybcat.com/blog/). Optimize and watch your practice flourish. For further details, [contact our team](/contact/) today.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

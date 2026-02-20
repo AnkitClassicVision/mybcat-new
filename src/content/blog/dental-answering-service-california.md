@@ -30,17 +30,17 @@ California is home to more [dental service organizations](/enterprise/dso/) than
 
 ## Table of Contents
 
-1. [The California DSO Landscape](#the-california-dso-landscape)
-2. [Why California Dental Groups Face Unique Challenges](#why-california-dental-groups-face-unique-challenges)
-3. [What California DSOs Need from an Answering Service](#what-california-dsos-need-from-an-answering-service)
-4. [Regional Considerations Across California](#regional-considerations-across-california)
-5. [California-Specific Capabilities](#california-specific-capabilities)
+1. [What Does the California DSO Landscape Look Like?](#what-does-the-california-dso-landscape-look-like)
+2. [Why Do California Dental Groups Face Unique Challenges?](#why-do-california-dental-groups-face-unique-challenges)
+3. [What Do California DSOs Need from an Answering Service?](#what-do-california-dsos-need-from-an-answering-service)
+4. [What Are the Regional Considerations Across California?](#what-are-the-regional-considerations-across-california)
+5. [What California-Specific Capabilities Are Required?](#what-california-specific-capabilities-are-required)
 6. [Case: California DSO Results](#case-california-dso-results)
 7. [Getting Started](#getting-started)
 
 ---
 
-## The California DSO Landscape
+## What Does the California DSO Landscape Look Like?
 
 California leads the nation in dental practice density and DSO activity. The state hosts headquarters for major players like Pacific Dental Services, Western Dental, and Smile Brands, along with hundreds of regional and emerging groups.
 
@@ -53,7 +53,7 @@ California leads the nation in dental practice density and DSO activity. The sta
 | Average new patient value | $1,400 | $1,200 |
 | Competition level | Intense | Moderate |
 
-### What This Means for Intake
+### What Does This Mean for Intake?
 
 High practice density means patients have options. When a caller reaches voicemail at one practice, they call the next one on the list. California DSOs cannot afford the 20-30% missed call rates that might be tolerable in less competitive markets.
 
@@ -61,7 +61,7 @@ High practice density means patients have options. When a caller reaches voicema
 
 ---
 
-## Why California Dental Groups Face Unique Challenges
+## Why Do California Dental Groups Face Unique Challenges?
 
 ### Staffing Competition
 
@@ -95,7 +95,7 @@ A California DSO might have locations in San Diego, Orange County, LA, the Inlan
 
 ---
 
-## What California DSOs Need from an Answering Service
+## What Do California DSOs Need from an Answering Service?
 
 ### Beyond Basic Call Answering
 
@@ -132,7 +132,7 @@ California spans a single time zone but patient expectations do not stop at 5 PM
 
 ---
 
-## Regional Considerations Across California
+## What Are the Regional Considerations Across California?
 
 ### Southern California
 
@@ -164,7 +164,7 @@ California is not one market. It is multiple distinct markets with different dem
 
 ---
 
-## California-Specific Capabilities
+## What California-Specific Capabilities Are Required?
 
 ### Language Support
 

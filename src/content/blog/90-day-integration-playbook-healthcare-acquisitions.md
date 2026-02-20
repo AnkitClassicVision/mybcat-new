@@ -33,7 +33,7 @@ PE-backed healthcare groups target 90-day integration timelines, but most acquis
 
 ## Table of Contents
 
-1. [Why Intake-First Integration Wins](#why-intake-first-integration-wins)
+1. [Why Does Intake-First Integration Win?](#why-does-intake-first-integration-win)
 2. [The 90-Day Integration Timeline Overview](#the-90-day-integration-timeline-overview)
 3. [Pre-Close: Setting Up for Day 1](#pre-close-setting-up-for-day-1)
 4. [Week 1-2: Discovery and Baseline](#week-1-2-discovery-and-baseline)
@@ -42,14 +42,14 @@ PE-backed healthcare groups target 90-day integration timelines, but most acquis
 7. [Week 7-8: Technology and Training](#week-7-8-technology-and-training)
 8. [Week 9-10: Optimization and Monitoring](#week-9-10-optimization-and-monitoring)
 9. [Week 11-12: Documentation and Handoff](#week-11-12-documentation-and-handoff)
-10. [Integration KPIs: What to Track](#integration-kpis-what-to-track)
-11. [Managing Staff Through Integration](#managing-staff-through-integration)
-12. [Common Integration Failures](#common-integration-failures)
+10. [What Integration KPIs Should You Track?](#what-integration-kpis-should-you-track)
+11. [How Do You Manage Staff Through Integration?](#how-do-you-manage-staff-through-integration)
+12. [What Are the Most Common Integration Failures?](#what-are-the-most-common-integration-failures)
 13. [Key Takeaways](#key-takeaways)
 
 ---
 
-## Why Intake-First Integration Wins
+## Why Does Intake-First Integration Win?
 
 Traditional healthcare integration focuses on back-office consolidation: billing, HR, supply chain. These are important, but they are slow and invisible to patients. Intake-first integration flips the priority.
 
@@ -569,7 +569,7 @@ Final integration report including:
 
 ---
 
-## Integration KPIs: What to Track
+## What Integration KPIs Should You Track?
 
 ### Metric Progression Targets
 
@@ -581,7 +581,7 @@ Final integration report including:
 | Process Compliance | 50% | 80% | 95%+ |
 | Patient Satisfaction | Maintain | Maintain | Improve |
 
-### Leading vs. Lagging Indicators
+### How Do You Distinguish Leading vs. Lagging Indicators?
 
 **Leading indicators** (predict future success):
 - Daily call answer rate
@@ -595,7 +595,7 @@ Final integration report including:
 - Staff turnover rate
 - Patient retention
 
-### Red Flags to Monitor
+### What Red Flags Should You Monitor?
 
 Watch for:
 
@@ -607,7 +607,7 @@ Watch for:
 
 ---
 
-## Managing Staff Through Integration
+## How Do You Manage Staff Through Integration?
 
 ### Communication Principles
 
@@ -649,7 +649,7 @@ Watch for:
 
 ---
 
-## Common Integration Failures
+## What Are the Most Common Integration Failures?
 
 ### Failure 1: Starting at Close
 

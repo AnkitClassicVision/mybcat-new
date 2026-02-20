@@ -29,7 +29,7 @@ Instead, they heard "Please leave a message" and hung up. Called the next practi
 
 That patient—and every exam, pair of glasses, and referral that would have followed—just walked out your door. And you have no idea it happened.
 
-## The Math On Missed Calls
+## What Is the Real Math on Missed Calls?
 
 Most eye care practices answer somewhere between 55-70% of incoming calls during business hours. That's considered "good" in the industry, which tells you something about how low the bar is.
 
@@ -43,7 +43,7 @@ At an average lifetime value of $800-1,200 per patient in optometry, you're look
 
 [This math is why missed calls are one of the biggest revenue leaks in healthcare.](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) It's invisible—you never see the patients you didn't get—but it's very real.
 
-## What A Call Center Actually Does
+## What Does a Call Center Actually Do for Your Practice?
 
 When I say "call center," I don't mean a warehouse of bored people reading scripts. I'm talking about trained professionals who become an extension of your practice.
 
@@ -59,7 +59,7 @@ Here's what good [medical answering service](/solutions/medical-answering-servic
 
 **Your in-office team can focus.** When phones aren't constantly interrupting, your front desk can actually help the patients standing in front of them. Quality of in-person interactions goes up.
 
-## Why Your Front Desk Can't Do This Alone
+## Why Can't Your Front Desk Do This Alone?
 
 I'm not criticizing front desk staff. They're usually hardworking people trying to do an impossible job.
 
@@ -76,7 +76,7 @@ Something has to give. Usually it's the phones, because there's no angry patient
 
 But here's the thing: your front desk's primary job should be patient experience—the people who are physically in your practice. That's where their attention should be. The phones need dedicated coverage, not leftover attention.
 
-## The Hidden Benefit: Data
+## What Is the Hidden Benefit of Consistent Call Handling?
 
 When you have consistent call handling, you start getting data you've never had before.
 
@@ -94,7 +94,7 @@ This information is gold. It tells you where your marketing is working, where yo
 
 Without consistent call management, you're just guessing about all of this.
 
-## What We Do Differently
+## What Do We Do Differently at MyBCAT?
 
 At My Business Care Team, we specialize in eye care. That's not a nice-to-have—it's the whole point.
 

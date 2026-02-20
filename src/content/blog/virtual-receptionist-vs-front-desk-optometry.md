@@ -32,7 +32,7 @@ So which model is right for your practice? The honest answer: neither is univers
 
 ---
 
-## Understanding Your Options
+## What Are Your Options?
 
 Before diving into the comparison, it helps to understand what each model actually involves day to day.
 
@@ -54,7 +54,7 @@ The key advantage is coverage flexibility. Virtual receptionists can provide up 
 
 ---
 
-## Head-to-Head Comparison
+## How Do the Two Models Compare Head to Head?
 
 The differences between traditional and virtual models become clearest when you compare them across the factors that matter most to an optometry practice.
 
@@ -71,7 +71,7 @@ The differences between traditional and virtual models become clearest when you 
 | **Optical Retail Support** | Can assist with frame selection and adjustments | Phone and scheduling only |
 | **Turnover Impact** | Significant disruption; weeks to replace | Provider manages staffing continuity |
 
-### Breaking Down the Cost Difference
+### How Does the Cost Break Down?
 
 The cost gap is significant. A full-time front desk employee in most metro areas costs $35,000 to $55,000 in salary alone. Add employer payroll taxes (7.65% for FICA), health insurance ($5,000 to $10,000 annually for employer contribution), paid time off, and other benefits, and the fully loaded cost often reaches $50,000 to $70,000 per year. That is for a single person covering roughly 40 hours per week.
 
@@ -79,7 +79,7 @@ A virtual receptionist service for a single-location optometry practice typicall
 
 For practices spending on the higher end of in-office staffing or those needing more than one front desk employee, the savings become substantial. A two-location group that would need four front desk employees ($200,000+ annually) might achieve equivalent or better phone coverage with a virtual service at $60,000 to $96,000 per year.
 
-### Where Each Model Excels
+### Where Does Each Model Excel?
 
 Traditional front desk staff shine in areas that require physical presence: greeting patients warmly as they walk in, assisting with frame selection in the optical, handling checkout transactions, and managing the flow of patients through the office. They also develop personal relationships with regular patients, which can be a powerful retention tool in smaller practices.
 
@@ -87,7 +87,7 @@ Virtual receptionists excel at consistent, uninterrupted phone handling. They ne
 
 ---
 
-## When a Traditional Front Desk Makes Sense
+## When Does a Traditional Front Desk Make Sense?
 
 Despite the advantages of virtual reception, there are clear scenarios where a traditional in-office front desk employee remains the better choice.
 
@@ -103,7 +103,7 @@ Despite the advantages of virtual reception, there are clear scenarios where a t
 
 ---
 
-## When Virtual Reception Is the Better Fit
+## When Is Virtual Reception the Better Fit?
 
 For many modern optometry practices, especially those focused on growth or managing multiple locations, virtual reception solves problems that traditional staffing cannot.
 
@@ -119,7 +119,7 @@ For many modern optometry practices, especially those focused on growth or manag
 
 ---
 
-## The Hybrid Model: Best of Both Worlds
+## Is the Hybrid Model the Best of Both Worlds?
 
 The most effective approach for many optometry practices is not a binary choice between in-office and virtual. It is a combination of both.
 
@@ -135,7 +135,7 @@ The concept of splitting tasks between human and automated or remote resources a
 
 ---
 
-## Making the Transition
+## How Do You Make the Transition?
 
 If you are considering virtual reception for your optometry practice, the transition does not have to be abrupt. Most practices adopt a phased approach that builds confidence over time.
 
@@ -164,16 +164,3 @@ The right front desk model for your optometry practice depends on your specific 
 - **Start small and expand.** After-hours coverage is a low-risk starting point that delivers immediate results.
 
 If you are ready to explore what virtual reception could look like for your practice, or if you just want to understand your options better, we are happy to walk you through it. [Reach out to our team](/contact/) for a no-pressure conversation about your specific situation.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
-> **Managing multiple locations?** [See how enterprise healthcare groups centralize patient access](/enterprise/)
-
-> **Need a dedicated patient access team?** [Learn about our Patient Access Center solution](/enterprise/patient-access-center/)

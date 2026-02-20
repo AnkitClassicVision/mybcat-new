@@ -33,14 +33,14 @@ How much is each phone call worth to your healthcare practice? The answer varies
 
 1. [Methodology](#methodology)
 2. [Overall Benchmarks](#overall-benchmarks)
-3. [Dental Revenue Per Call](#dental-revenue-per-call)
-4. [Optometry Revenue Per Call](#optometry-revenue-per-call)
-5. [Veterinary Revenue Per Call](#veterinary-revenue-per-call)
-6. [Medical Practice Revenue Per Call](#medical-practice-revenue-per-call)
-7. [Factors That Impact Revenue Per Call](#factors-that-impact-revenue-per-call)
-8. [Benchmarks by Practice Size](#benchmarks-by-practice-size)
-9. [The Cost of Missed Calls](#the-cost-of-missed-calls)
-10. [How to Calculate Your Own](#how-to-calculate-your-own)
+3. [What Is the Dental Revenue Per Call?](#what-is-the-dental-revenue-per-call)
+4. [What Is the Optometry Revenue Per Call?](#what-is-the-optometry-revenue-per-call)
+5. [What Is the Veterinary Revenue Per Call?](#what-is-the-veterinary-revenue-per-call)
+6. [What Is the Medical Practice Revenue Per Call?](#what-is-the-medical-practice-revenue-per-call)
+7. [What Factors Impact Revenue Per Call?](#what-factors-impact-revenue-per-call)
+8. [How Do Benchmarks Vary by Practice Size?](#how-do-benchmarks-vary-by-practice-size)
+9. [What Is the True Cost of Missed Calls?](#what-is-the-true-cost-of-missed-calls)
+10. [How Do You Calculate Your Own Revenue Per Call?](#how-do-you-calculate-your-own-revenue-per-call)
 11. [Key Takeaways](#key-takeaways)
 
 ---
@@ -87,7 +87,7 @@ This benchmark report combines three data sources:
 | **Dermatology** | $95 | $2,500 | 64% |
 | **Orthopedics** | $112 | $3,200 | 55% |
 
-### Why the Variation?
+### Why Does Revenue Per Call Vary So Much?
 
 **Service complexity and value:** Specialties with higher-value services (surgery, complex procedures) generate more revenue per patient interaction.
 
@@ -99,7 +99,7 @@ This benchmark report combines three data sources:
 
 ---
 
-## Dental Revenue Per Call
+## What Is the Dental Revenue Per Call?
 
 ### Benchmark Data
 
@@ -129,7 +129,7 @@ This benchmark report combines three data sources:
 
 ---
 
-## Optometry Revenue Per Call
+## What Is the Optometry Revenue Per Call?
 
 ### Benchmark Data
 
@@ -159,7 +159,7 @@ This benchmark report combines three data sources:
 
 ---
 
-## Veterinary Revenue Per Call
+## What Is the Veterinary Revenue Per Call?
 
 ### Benchmark Data
 
@@ -189,7 +189,7 @@ This benchmark report combines three data sources:
 
 ---
 
-## Medical Practice Revenue Per Call
+## What Is the Medical Practice Revenue Per Call?
 
 ### Benchmark Data
 
@@ -210,11 +210,11 @@ This benchmark report combines three data sources:
 
 ---
 
-## Factors That Impact Revenue Per Call
+## What Factors Impact Revenue Per Call?
 
 Beyond specialty, several factors influence revenue per call:
 
-### Payer Mix
+### How Does Payer Mix Affect Revenue Per Call?
 
 | Payer Type | Impact on Revenue Per Call |
 |------------|---------------------------|
@@ -223,7 +223,7 @@ Beyond specialty, several factors influence revenue per call:
 | Medicaid | -25-40% below average |
 | Self-pay/cash | Variable |
 
-### Geographic Market
+### How Does Geographic Market Affect Revenue Per Call?
 
 | Market Type | Impact |
 |-------------|--------|
@@ -241,7 +241,7 @@ Groups offering more comprehensive services within their specialty generate high
 
 ---
 
-## Benchmarks by Practice Size
+## How Do Benchmarks Vary by Practice Size?
 
 Revenue per call generally increases with practice size due to operational leverage and service breadth.
 
@@ -252,7 +252,7 @@ Revenue per call generally increases with practice size due to operational lever
 | 11-25 locations | $48 | +20% |
 | 25+ locations | $52 | +30% |
 
-### Why Scale Helps
+### Why Does Scale Help?
 
 **Better conversion rates:** Larger groups typically have more sophisticated intake processes and training. A dedicated [medical answering service](/solutions/medical-answering-service/) can dramatically improve conversion at scale.
 
@@ -264,7 +264,7 @@ Revenue per call generally increases with practice size due to operational lever
 
 ---
 
-## The Cost of Missed Calls
+## What Is the True Cost of Missed Calls?
 
 Revenue per call also quantifies the cost of missed calls.
 
@@ -276,7 +276,7 @@ Revenue per call also quantifies the cost of missed calls.
 | Optometry (10 loc) | 15 | $38 | $570 | $147,630 |
 | Veterinary (12 loc) | 25 | $78 | $1,950 | $505,050 |
 
-### Calculating Your Missed Call Cost
+### How Do You Calculate Your Missed Call Cost?
 
 **Step 1:** Count missed calls (total incoming minus answered)
 
@@ -290,13 +290,16 @@ Revenue per call also quantifies the cost of missed calls.
 
 ---
 
-## How to Calculate Your Own
+## How Do You Calculate Your Own Revenue Per Call?
 
 ### Revenue Per Call Formula
 
-```
-Revenue Per Call = Total Revenue (Period) / Total Incoming Calls (Period)
-```
+<div style="background: #fffbeb; border: 2px solid #f59e0b; border-radius: 8px; padding: 24px; margin: 24px 0;">
+  <p style="font-weight: 700; color: #92400e; margin: 0 0 12px 0;">Revenue Per Call Formula</p>
+  <div style="background: #fef3c7; border-radius: 6px; padding: 12px; text-align: center;">
+    <p style="font-weight: 700; color: #92400e; font-size: 17px; margin: 0;">Revenue Per Call = Total Revenue (Period) / Total Incoming Calls (Period)</p>
+  </div>
+</div>
 
 ### Data Requirements
 

@@ -26,12 +26,3 @@ Adopting [optometrist inbound call services](https://mybcat.com/about/) marks a 
 My Business Care Team understands the unique challenges faced by optometrists in maintaining exceptional levels of patient service. As a leading [managed healthcare intake partner](https://mybcat.com/industries/optometry/), we offer bespoke solutions that cater specifically to the needs of the eye care industry. With our experienced team, your practice can enjoy the benefits of expert call management, leaving your staff free to focus on delivering top-notch eye care.
 
 Enhance your optometry practice's efficiency and [patient satisfaction](https://mybcat.com/blog/take-every-step-to-improve-the-patient-experience/) today. [Get in touch](https://mybcat.com/contact/) with us and discover how our specialized call management services can transform your patient service experience.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

@@ -27,6 +27,19 @@ relatedPosts:
 
 Multi-location healthcare groups recover 15-25% of dormant patients when they follow a structured reactivation playbook. For a 10-location group with 500 dormant patients per site, that translates to 750 to 1,250 recovered patients. At an average patient lifetime value of $3,500, a successful 30-day reactivation campaign generates $2.6 million to $4.4 million in recovered revenue. This playbook provides the exact framework operations leaders use to execute reactivation at scale.
 
+## Table of Contents
+
+- [What Counts as a Dormant Patient?](#what-counts-as-a-dormant-patient)
+- [Why Do Multi-Location Groups Need a Different Approach?](#why-do-multi-location-groups-need-a-different-approach)
+- [The 30-Day Dormant Patient Reactivation Playbook](#the-30-day-dormant-patient-reactivation-playbook)
+- [Which Channel Works Best for Dormant Patients?](#which-channel-works-best-for-dormant-patients)
+- [Should You Centralize or Distribute Reactivation?](#should-you-centralize-or-distribute-reactivation)
+- [What KPIs Should You Track Weekly?](#what-kpis-should-you-track-weekly)
+- [What Are the Most Common Reactivation Mistakes?](#what-are-the-most-common-reactivation-mistakes)
+- [How Do You Calculate Your Reactivation Opportunity?](#how-do-you-calculate-your-reactivation-opportunity)
+- [What Technology Do You Need for Scaled Reactivation?](#what-technology-do-you-need-for-scaled-reactivation)
+- [Implementation Timeline](#implementation-timeline)
+
 ## What Counts as a Dormant Patient?
 
 Dormant patients are those who have not scheduled or completed an appointment within their expected care cycle. The definition varies by specialty:
@@ -42,7 +55,7 @@ Dormant patients are those who have not scheduled or completed an appointment wi
 
 According to healthcare retention research, practices lose approximately 10-15% of their active patient base to dormancy annually. For multi-location groups, this compounds across sites, creating a significant revenue gap that grows each month without intervention.
 
-## Why Multi-Location Groups Need a Different Approach
+## Why Do Multi-Location Groups Need a Different Approach?
 
 Single practices can manage dormant patient outreach informally. Multi-location groups face structural challenges that require systematized reactivation:
 
@@ -181,7 +194,7 @@ Document results and update patient records:
 - Flag patients who explicitly declined for removal from future campaigns
 - Calculate final conversion rate and revenue recovered
 
-## Channel Comparison: What Works Best for Dormant Patients
+## Which Channel Works Best for Dormant Patients?
 
 Different channels perform differently for reactivation versus ongoing recall. Research on patient outreach effectiveness shows:
 
@@ -194,7 +207,7 @@ Different channels perform differently for reactivation versus ongoing recall. R
 
 For a deeper analysis of channel effectiveness, see our comparison of [postcard vs text vs phone for patient recall](/blog/patient-recall-postcard-vs-text-vs-phone/).
 
-## Centralized vs. Distributed Reactivation
+## Should You Centralize or Distribute Reactivation?
 
 Multi-location groups must decide how to structure reactivation execution.
 
@@ -213,7 +226,7 @@ Multi-location groups must decide how to structure reactivation execution.
 
 For practices considering centralized support, our guide on [reactivation call centers for medical practices](/blog/reactivationcallcenterformedicalpractice/) explains implementation options.
 
-## KPIs to Track Weekly
+## What KPIs Should You Track Weekly?
 
 Operations leaders need visibility into reactivation performance at both campaign and location levels.
 
@@ -235,7 +248,7 @@ Track each location's performance against the network average. Identify outliers
 
 For comprehensive guidance on metrics, see our article on [reactivation campaign KPIs](/blog/reactivation-campaign-kpis/).
 
-## Common Mistakes in Dormant Patient Reactivation
+## What Are the Most Common Reactivation Mistakes?
 
 **Waiting too long to start:**
 Patients dormant 12-18 months are far more recoverable than those dormant 24+ months. The longer you wait, the lower your recovery rate.
@@ -252,7 +265,7 @@ One attempt is rarely enough. Patients are busy. A structured follow-up sequence
 **Not tracking results:**
 If you cannot measure recovery rate by location, you cannot improve it. Centralized tracking creates accountability.
 
-## Calculating Your Reactivation Opportunity
+## How Do You Calculate Your Reactivation Opportunity?
 
 Use this formula to estimate the revenue potential of a 30-day reactivation campaign:
 
@@ -267,7 +280,7 @@ Example for a 15-location dental group:
 
 For detailed ROI calculations, see our guide on [patient reactivation ROI](/blog/patient-reactivation-roi/).
 
-## Technology Requirements for Scaled Reactivation
+## What Technology Do You Need for Scaled Reactivation?
 
 Running reactivation across multiple locations requires appropriate technology infrastructure:
 

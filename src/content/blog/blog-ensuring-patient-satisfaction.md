@@ -24,7 +24,7 @@ The phone call. The check-in. The wait time. The tone of voice from the person w
 
 That's why we obsess over them.
 
-## The 30 Seconds That Make Or Break You
+## How Do the First 30 Seconds Make or Break You?
 
 Most patients form their opinion of your practice within the first 30 seconds of contact. Not 30 minutes. Thirty seconds.
 
@@ -34,7 +34,7 @@ I've listened to thousands of recorded calls over the years. The difference betw
 
 When we train agents to handle calls for our client practices, we don't start with scripts. We start with mindset. Every person calling has a problem they want solved. Your job is to make them feel like solving that problem is the most important thing you're doing right now.
 
-## What Happens When Things Go Wrong
+## What Happens When Things Go Wrong?
 
 Patients get upset. It happens. Maybe they waited too long. Maybe there was a billing surprise. Maybe they had unrealistic expectations about their new glasses. Whatever the reason, angry calls come in.
 
@@ -56,7 +56,7 @@ Here's how we train our agents to handle heated calls:
 
 I've seen agents turn furious patients into raving fans. Not by being pushovers, but by being genuinely helpful. It's a skill. And it's learnable.
 
-## Small Details, Big Impact
+## Which Small Details Have the Biggest Impact on Patient Satisfaction?
 
 Patient satisfaction isn't one big thing. It's a hundred small things.
 
@@ -72,7 +72,7 @@ A few things we do that seem minor but matter:
 
 **We close the loop.** If we said we'd call back with an answer, we call back. Even if the answer is "we're still working on it." Radio silence is the fastest way to erode trust.
 
-## The Numbers Behind The Feelings
+## What Do the Numbers Behind Patient Satisfaction Show?
 
 Look, I'm not just talking about feelings here. This stuff shows up in metrics.
 
@@ -86,7 +86,7 @@ The data consistently shows that practices with strong phone experiences have:
 
 The ROI is real. [Missed calls alone can cost practices significant revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/)—but bad calls might be worse, because they actively push patients toward your competitors.
 
-## What Makes Training Stick
+## What Makes Customer Service Training Stick?
 
 Most customer service training is useless. Someone reads a manual, maybe watches a video, takes a quiz, and then promptly forgets everything when a real angry patient is on the line.
 
@@ -98,7 +98,7 @@ Then we keep training. We review real calls every week. We identify coaching opp
 
 Our AI tools help here—they flag calls that might need review based on tone, keywords, or outcomes. But the actual coaching is human. Because that's what it takes to build real skill.
 
-## Building A Practice Patients Actually Like
+## How Do You Build a Practice Patients Actually Like?
 
 Here's what I've learned after years in this industry: clinical excellence is table stakes. Patients expect you to be good at the actual eye care. That's why they came.
 

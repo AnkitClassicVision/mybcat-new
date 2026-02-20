@@ -63,7 +63,7 @@ The binary framing creates a false choice. The question is not "AI or human?" Th
 
 AI performs well on calls that share three characteristics: they are structured, low-stakes, and transactional.
 
-### Call Types Where AI Outperforms Humans
+### What Call Types Does AI Handle Best?
 
 **Appointment scheduling for existing patients.** The patient calls, states their name and date of birth, and requests an appointment with their regular provider. AI can handle the entire interaction: verify identity against the practice management system, check availability, book the slot, send confirmation. No judgment required.
 
@@ -75,7 +75,7 @@ AI performs well on calls that share three characteristics: they are structured,
 
 **General service information.** "Do you accept Delta Dental?" "Do you offer Invisalign?" These are FAQ-style questions where AI provides consistent, accurate answers faster than most humans.
 
-### Why AI Works Here
+### Why Does AI Work for These Calls?
 
 These calls share common traits:
 
@@ -92,7 +92,7 @@ When these conditions are present, AI delivers faster service at lower cost than
 
 Human agents become essential when calls involve complexity, emotion, clinical risk, or relationship context.
 
-### Call Types That Require Humans
+### What Call Types Require Human Agents?
 
 **New patient intake with clinical questions.** A new patient calling with specific symptoms, pre-existing conditions, or questions about treatment options needs a human who can listen, ask clarifying questions, and route appropriately. AI cannot assess clinical urgency or ask the right follow-up questions.
 
@@ -108,7 +108,7 @@ Human agents become essential when calls involve complexity, emotion, clinical r
 
 **Treatment questions requiring clinical knowledge.** "What should I expect after the procedure?" "Is this side effect normal?" These questions require healthcare-specific training that general AI systems lack.
 
-### Why Humans Matter Here
+### Why Are Humans Essential for These Calls?
 
 These calls share different characteristics:
 
@@ -130,7 +130,7 @@ The hybrid model starts with a framework for categorizing calls. We call this th
 | **Routine Situation** | AI handles: scheduling, hours, basic info | Human handles: insurance questions, scheduling exceptions |
 | **Sensitive Situation** | Human handles: billing disputes, concerned callers | Human handles: emergencies, complaints, clinical questions |
 
-### How to Use the Matrix
+### How Do You Use the Matrix?
 
 **Simple + Routine = AI.** Appointment booking, confirmation, basic FAQs. High volume, low risk. Let AI handle these at scale.
 
@@ -174,7 +174,7 @@ The system tracks which calls AI handles successfully, which require escalation,
 
 Effective routing depends on real-time call analysis.
 
-### Intent Detection
+### How Does Intent Detection Work?
 
 The system identifies call intent through:
 
@@ -182,11 +182,11 @@ The system identifies call intent through:
 - **Caller history**: A patient who has called three times this week about the same issue gets routed to human immediately.
 - **Time and context**: After-hours calls about certain symptoms may route differently than the same call during business hours.
 
-### Confidence Scoring
+### How Does Confidence Scoring Drive Escalation?
 
 AI systems generate confidence scores for their responses. When confidence is high, AI proceeds. When confidence drops below a threshold (caller repeated themselves, AI gave an irrelevant response, sentiment turned negative), the call escalates.
 
-### Dynamic Routing Rules
+### How Do Dynamic Routing Rules Adapt?
 
 Routing rules adapt based on:
 
@@ -200,17 +200,17 @@ Routing rules adapt based on:
 
 The hybrid model is not just about quality. It is about achieving the best quality at the right cost.
 
-### The Pure AI Cost Trap
+### Why Does Pure AI Create a Cost Trap?
 
 AI-only systems advertise low per-call costs. But the calculation ignores the cost of failed calls. When AI mishandles an emergency, loses a frustrated patient, or botches a new patient inquiry, the downstream cost far exceeds what a human agent would have cost.
 
 A new dental patient has a lifetime value of $8,000 or more. If AI-only handling causes 5% of new patient calls to result in lost patients, the "savings" evaporate quickly.
 
-### The Pure Human Cost Trap
+### Why Does Pure Human Create a Cost Trap?
 
 Human-only services deliver quality but at costs that scale linearly with volume. A 20-location group averaging 200 calls per location per month faces 4,000 monthly calls. At $10-15 per call, that is $40,000-60,000 monthly just for call handling. And even premium services struggle with healthcare-specific training.
 
-### The Hybrid Sweet Spot
+### Where Is the Hybrid Sweet Spot?
 
 The hybrid model achieves:
 
@@ -263,7 +263,7 @@ Implementing a hybrid model follows a phased approach.
 
 ---
 
-## Measuring Hybrid Performance
+## How Do You Measure Hybrid Performance?
 
 Traditional metrics like "automation rate" mislead in a hybrid context. Better metrics focus on outcomes.
 
@@ -285,7 +285,7 @@ Traditional metrics like "automation rate" mislead in a hybrid context. Better m
 
 **Patient retention correlation**: Over time, do patients who primarily interact with AI show different retention patterns than those who interact with humans?
 
-### Avoiding the Automation Rate Trap
+### How Do You Avoid the Automation Rate Trap?
 
 Vendors love to quote automation rates. "Our system handles 85% of calls automatically." But this metric is meaningless without context. Are those 85% the right calls to automate? What happened to the other 15%? If 10% of calls required human intervention but did not get it, the 85% automation rate hides significant quality problems.
 

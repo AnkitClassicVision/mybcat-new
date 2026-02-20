@@ -25,7 +25,21 @@ relatedPosts:
 
 The debate over which patient recall channel works best misses the point. Top-performing practices do not choose one channel. They deploy all three strategically as part of a structured [recall campaign framework](/blog/patient-recall-campaign-framework/), selecting channels based on patient demographics, dormancy duration, and lifetime value. SMS achieves 98% open rates. Phone calls convert 40-60% of connected patients. Postcards reach patients that digital channels miss entirely. This guide provides the data to decide when to use each channel and how to combine them for maximum recall effectiveness.
 
-## Channel Performance Overview
+## Table of Contents
+
+- [How Does Each Recall Channel Perform?](#how-does-each-recall-channel-perform)
+- [Why Is SMS the Digital Workhorse for Patient Recall?](#why-is-sms-the-digital-workhorse-for-patient-recall)
+- [When Should You Use Phone Calls for Recall?](#when-should-you-use-phone-calls-for-recall)
+- [Where Do Postcards Fit in Your Recall Strategy?](#where-do-postcards-fit-in-your-recall-strategy)
+- [How Do You Select the Right Channel by Patient Segment?](#how-do-you-select-the-right-channel-by-patient-segment)
+- [What Does an Effective Multi-Channel Sequence Look Like?](#what-does-an-effective-multi-channel-sequence-look-like)
+- [How Do Channel Costs Compare?](#how-do-channel-costs-compare)
+- [What Technology and Automation Do You Need?](#what-technology-and-automation-do-you-need)
+- [How Does Channel Performance Vary by Healthcare Specialty?](#how-does-channel-performance-vary-by-healthcare-specialty)
+- [Multi-Location Considerations](#multi-location-considerations)
+- [How Do You Measure Channel Effectiveness?](#how-do-you-measure-channel-effectiveness)
+
+## How Does Each Recall Channel Perform?
 
 Each recall channel has distinct strengths:
 
@@ -41,7 +55,7 @@ Each recall channel has distinct strengths:
 - All channels combined: 70-85% no-show reduction
 - Top campaigns achieve 20%+ reactivation rates and 50x+ ROI
 
-## SMS/Text Messages: The Digital Workhorse
+## Why Is SMS the Digital Workhorse for Patient Recall?
 
 Text messaging has become the primary recall channel for most healthcare practices due to its reach and efficiency.
 
@@ -73,7 +87,7 @@ Text messaging has become the primary recall channel for most healthcare practic
 - Effective cost per reactivation: $0.50-1.00
 - ROI potential: 50x+ for well-executed campaigns
 
-## Phone Calls: The High-Touch Option
+## When Should You Use Phone Calls for Recall?
 
 Phone calls remain the most effective channel for converting uncertain patients, but come with significant labor costs.
 
@@ -107,7 +121,7 @@ Phone calls remain the most effective channel for converting uncertain patients,
 - Typical conversion: 15-25%
 - Effective cost per reactivation: $10-20
 
-## Postcards: The Physical Touchpoint
+## Where Do Postcards Fit in Your Recall Strategy?
 
 Direct mail postcards serve a specific niche: reaching patients who cannot or will not engage digitally.
 
@@ -141,7 +155,7 @@ Direct mail postcards serve a specific niche: reaching patients who cannot or wi
 - Effective cost per reactivation: $30-100
 - ROI: Lower than digital but reaches unreachable patients
 
-## Channel Selection by Patient Segment
+## How Do You Select the Right Channel by Patient Segment?
 
 Match your channel to the patient for maximum effectiveness:
 
@@ -171,7 +185,7 @@ Match your channel to the patient for maximum effectiveness:
 | Medium ($500-2,000) | SMS + Phone backup | Efficient with escalation |
 | Lower (<$500) | SMS only | Automated outreach |
 
-## The Multi-Channel Sequence
+## What Does an Effective Multi-Channel Sequence Look Like?
 
 The most effective recall campaigns use all channels in a strategic sequence:
 
@@ -192,7 +206,7 @@ The most effective recall campaigns use all channels in a strategic sequence:
 - Postcards catch patients that digital misses
 - Each touchpoint builds on previous ones
 
-## Cost-Effectiveness Comparison
+## How Do Channel Costs Compare?
 
 When evaluating channels, consider both direct costs and staff time:
 
@@ -207,7 +221,7 @@ When evaluating channels, consider both direct costs and staff time:
 
 **Key insight:** SMS has the best cost-per-reactivation, but phone calls may still be worth the investment for high-value patients where the lifetime value justifies the labor cost.
 
-## Technology and Automation
+## What Technology and Automation Do You Need?
 
 Scaling multi-channel recall requires the right technology:
 
@@ -226,7 +240,7 @@ Scaling multi-channel recall requires the right technology:
 - Activity logging in patient record
 - Performance analytics and reporting
 
-## Channel Performance by Healthcare Specialty
+## How Does Channel Performance Vary by Healthcare Specialty?
 
 Different specialties see varying results by channel:
 
@@ -267,7 +281,7 @@ For healthcare groups operating multiple sites:
 - Best practice sharing from top performers
 - Compliance monitoring
 
-## Measuring Channel Effectiveness
+## How Do You Measure Channel Effectiveness?
 
 Track these metrics by channel to optimize your mix:
 

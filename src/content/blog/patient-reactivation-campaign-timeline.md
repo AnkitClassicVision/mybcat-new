@@ -23,7 +23,18 @@ relatedPosts:
 
 The difference between a 10% and 25% reactivation rate often comes down to timing and persistence. Send one message and stop. You will recover a fraction of what a structured multi-touch campaign delivers. For the strategic foundation behind these timelines, see our [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/). This guide provides the day-by-day timeline for patient reactivation campaigns spanning 7 days to 90 days, with channel selection, escalation triggers, and benchmarks at each stage.
 
-## Why Campaign Duration Matters
+## Table of Contents
+
+- [Why Does Campaign Duration Matter?](#why-does-campaign-duration-matter)
+- [The 7-Day Sprint: Quick Wins](#the-7-day-sprint-quick-wins)
+- [The 30-Day Standard Campaign](#the-30-day-standard-campaign)
+- [The 90-Day Comprehensive Campaign](#the-90-day-comprehensive-campaign)
+- [When Should You Send Each Channel During the Day?](#when-should-you-send-each-channel-during-the-day)
+- [What Triggers Should Escalate Patients to the Next Channel?](#what-triggers-should-escalate-patients-to-the-next-channel)
+- [How Should You Segment Within Campaigns?](#how-should-you-segment-within-campaigns)
+- [Multi-Location Considerations](#multi-location-considerations)
+
+## Why Does Campaign Duration Matter?
 
 Research shows reactivation requires multiple touches across multiple channels:
 
@@ -60,38 +71,26 @@ Use the 7-day sprint for recently dormant patients (6-12 months) or time-sensiti
 **7-day sprint messaging:**
 
 **Day 1 SMS:**
-```
-Hi [Name], this is [Practice Name]. Your [exam/cleaning] is overdue
-and we'd love to see you. We have openings this week! Reply YES to
-schedule or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <strong>[Name]</strong>, this is <strong>[Practice Name]</strong>. Your <strong>[exam/cleaning]</strong> is overdue and we'd love to see you. We have openings this week! Reply YES to schedule or call <strong>[phone]</strong>. Reply STOP to opt out.</p>
+</div>
 
 **Day 3 Email:**
 Subject: [Name], your appointment is overdue
 
-```
-Hi [Name],
-
-We noticed it's been a while since your last visit with Dr. [Provider].
-Regular [checkups/cleanings/exams] help catch issues early and keep
-you healthy.
-
-We have convenient openings this week:
-[Booking link]
-
-If you have questions or need to discuss anything before scheduling,
-just reply to this email or call us at [phone].
-
-Looking forward to seeing you!
-[Practice Name]
-```
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">Email Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <strong>[Name]</strong>,<br><br>We noticed it's been a while since your last visit with Dr. <strong>[Provider]</strong>. Regular <strong>[checkups/cleanings/exams]</strong> help catch issues early and keep you healthy.<br><br>We have convenient openings this week:<br><strong>[Booking link]</strong><br><br>If you have questions or need to discuss anything before scheduling, just reply to this email or call us at <strong>[phone]</strong>.<br><br>Looking forward to seeing you!<br><strong>[Practice Name]</strong></p>
+</div>
 
 **Day 6 SMS:**
-```
-[Name], last reminder from [Practice Name]. Your [appointment type] is
-overdue. Reply YES to schedule before spots fill up, or call [phone].
-Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><strong>[Name]</strong>, last reminder from <strong>[Practice Name]</strong>. Your <strong>[appointment type]</strong> is overdue. Reply YES to schedule before spots fill up, or call <strong>[phone]</strong>. Reply STOP to opt out.</p>
+</div>
 
 **7-day sprint benchmarks:**
 - Contact rate: 75-85%
@@ -121,11 +120,11 @@ The 30-day campaign is the workhorse for most reactivation efforts, providing en
 ### 30-Day Detailed Script Sequence
 
 **Day 1 SMS (All patients):**
-```
-Hi [Name], it's [Practice Name]. Dr. [Provider] noticed your [exam/
-cleaning/checkup] is overdue. We have openings this week. Reply YES
-to schedule or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <strong>[Name]</strong>, it's <strong>[Practice Name]</strong>. Dr. <strong>[Provider]</strong> noticed your <strong>[exam/cleaning/checkup]</strong> is overdue. We have openings this week. Reply YES to schedule or call <strong>[phone]</strong>. Reply STOP to opt out.</p>
+</div>
 
 **Day 3 Email (All patients):**
 Subject: [Name], Dr. [Provider] would like to see you
@@ -138,31 +137,25 @@ Include:
 - Practice contact info
 
 **Day 7 SMS (Non-responders only):**
-```
-[Name], following up from [Practice Name]. Your [appointment] is now
-[X months] overdue. We have openings. Reply YES or call [phone].
-Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><strong>[Name]</strong>, following up from <strong>[Practice Name]</strong>. Your <strong>[appointment]</strong> is now <strong>[X months]</strong> overdue. We have openings. Reply YES or call <strong>[phone]</strong>. Reply STOP to opt out.</p>
+</div>
 
 **Day 14 Email/SMS (Non-responders):**
-```
-Hi [Name], one more note from [Practice Name]. Your preventive care
-may be covered by insurance at no additional cost. Let's get you
-scheduled before [benefit year ends / spots fill]. Reply YES or
-click here: [link]
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <strong>[Name]</strong>, one more note from <strong>[Practice Name]</strong>. Your preventive care may be covered by insurance at no additional cost. Let's get you scheduled before <strong>[benefit year ends / spots fill]</strong>. Reply YES or click here: <strong>[link]</strong></p>
+</div>
 
 **Day 21 Phone Script (High-value non-responders):**
-```
-"Hi [Name], this is [Caller] from [Practice Name]. Dr. [Provider]
-asked me to personally reach out because we noticed you're overdue
-for your [appointment type].
 
-Is there anything that's been keeping you from coming in? [Listen]
-
-I'd love to get you scheduled. I have [specific times] available
-this week. What works best for you?"
-```
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">Phone Script</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">"Hi <strong>[Name]</strong>, this is <strong>[Caller]</strong> from <strong>[Practice Name]</strong>. Dr. <strong>[Provider]</strong> asked me to personally reach out because we noticed you're overdue for your <strong>[appointment type]</strong>.<br><br>Is there anything that's been keeping you from coming in? [Listen]<br><br>I'd love to get you scheduled. I have <strong>[specific times]</strong> available this week. What works best for you?"</p>
+</div>
 
 **Day 28 Postcard (Unreachables):**
 - Eye-catching design with practice branding
@@ -261,7 +254,7 @@ The 90-day campaign maximizes reactivation from a dormant list through sustained
 - Reactivation rate: 20-30%
 - Best for: Annual database cleanout, major initiatives
 
-## Channel Timing Within the Day
+## When Should You Send Each Channel During the Day?
 
 When you send affects response:
 
@@ -277,7 +270,7 @@ When you send affects response:
 - Tuesday-Thursday, 10am-12pm or 2pm-4pm
 - Avoid lunch hours and end of day
 
-## Escalation Triggers
+## What Triggers Should Escalate Patients to the Next Channel?
 
 Know when to escalate a patient to the next channel:
 
@@ -289,7 +282,7 @@ Know when to escalate a patient to the next channel:
 | Invalid phone | Send postcard, verify address |
 | High-value patient non-responsive | Manager/doctor personal call |
 
-## Segmentation Within Campaigns
+## How Should You Segment Within Campaigns?
 
 Not all dormant patients get the same treatment:
 

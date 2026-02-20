@@ -26,7 +26,19 @@ relatedPosts:
 
 Hygiene recall rates are the single metric that most frequently separates $500,000 dental practices from $1,000,000 practices. Yet only 17% of dentists report that most of their active patients receive hygiene treatment every six months. For DSOs pursuing growth through acquisition or organic expansion, hygiene recall represents the highest-ROI operational lever available. Building on the principles in our [patient recall campaign framework](/blog/patient-recall-campaign-framework/), this guide explains why hygiene recall drives valuation, provides benchmarks, and outlines strategies for improvement.
 
-## Why Hygiene Recall Matters for Valuation
+## Table of Contents
+
+- [Why Does Hygiene Recall Matter for Valuation?](#why-does-hygiene-recall-matter-for-valuation)
+- [Where Do Most Practices Stand on Recall?](#where-do-most-practices-stand-on-recall)
+- [What Is the Revenue Impact of Improving Recall?](#what-is-the-revenue-impact-of-improving-recall)
+- [What Are the Recall Rate Benchmarks by Performance Tier?](#what-are-the-recall-rate-benchmarks-by-performance-tier)
+- [Why Is the Six-Month Recall Still the Standard?](#why-is-the-six-month-recall-still-the-standard)
+- [Why Does Recall Fail? Common Breakdown Points](#why-does-recall-fail-common-breakdown-points)
+- [What Are the Best Strategies for Improving Hygiene Recall?](#what-are-the-best-strategies-for-improving-hygiene-recall)
+- [What Technology Is Required for Effective Recall?](#what-technology-is-required-for-effective-recall)
+- [What Should DSOs Consider for Multi-Location Recall?](#what-should-dsos-consider-for-multi-location-recall)
+
+## Why Does Hygiene Recall Matter for Valuation?
 
 Dental practice valuations depend heavily on predictable, recurring revenue. Hygiene appointments provide exactly that: scheduled, repeating visits that generate both direct revenue and downstream treatment opportunities.
 
@@ -40,7 +52,7 @@ Dental practice valuations depend heavily on predictable, recurring revenue. Hyg
 **Why it separates practices:**
 Research shows hygiene reappointment rates "most frequently separate $500,000 practices from $1,000,000 practices." The difference is not location, demographics, or marketing spend. It is systematic execution of patient retention through hygiene recall.
 
-## Current State: Where Most Practices Stand
+## Where Do Most Practices Stand on Recall?
 
 The industry data reveals a significant performance gap:
 
@@ -54,7 +66,7 @@ The industry data reveals a significant performance gap:
 **The retention challenge:**
 The average general dentist retains only four out of every ten patients beyond their initial appointment. Patients who cancel hygiene appointments frequently fail to reschedule without active intervention. Your ideal patient retention rate should be 85% or better: nearly nine out of every ten patients returning for their next visit.
 
-## The Revenue Impact of Improving Recall
+## What Is the Revenue Impact of Improving Recall?
 
 A 10-15% increase in patient retention ties directly to improvements in a practice's recall program. Here is what that means in dollars:
 
@@ -75,7 +87,7 @@ A 10-15% increase in patient retention ties directly to improvements in a practi
 **Revenue scaling potential:**
 Practices using optimized recall solutions report significant improvements in patient return rates, with top performers adding $15,000-25,000 in monthly revenue depending on practice size and baseline recall rate.
 
-## Recall Rate Benchmarks by Performance Tier
+## What Are the Recall Rate Benchmarks by Performance Tier?
 
 | Performance Level | Recall Rate | Implication |
 |------------------|-------------|-------------|
@@ -91,7 +103,7 @@ Practices using optimized recall solutions report significant improvements in pa
 - Practices at 75-85%: Optimization and consistency across all team members
 - Practices above 85%: Maintain through systematic monitoring
 
-## The Six-Month Recall Standard
+## Why Is the Six-Month Recall Still the Standard?
 
 The traditional six-month recall interval remains the industry standard, though research shows nuance:
 
@@ -104,7 +116,7 @@ A study comparing risk-based, 6-monthly, and 24-monthly dental check-ups found t
 - For DSO operations, standardizing on six-month recall provides consistency across locations
 - Some patients may benefit from 3-4 month intervals (periodontal cases, high-risk patients)
 
-## Why Recall Fails: Common Breakdown Points
+## Why Does Recall Fail? Common Breakdown Points
 
 Understanding where recall systems fail helps target improvements:
 
@@ -124,7 +136,7 @@ Understanding where recall systems fail helps target improvements:
 - No visibility into recall rate by hygienist, day, or patient segment
 - Management unaware of declining performance until revenue drops
 
-## Strategies for Improving Hygiene Recall
+## What Are the Best Strategies for Improving Hygiene Recall?
 
 ### Strategy 1: Pre-Schedule at Every Visit
 
@@ -189,7 +201,7 @@ What gets measured gets managed. Track recall metrics at multiple levels.
 
 **For DSOs:** Compare locations against network averages. Identify best performers and replicate their processes.
 
-## Technology Requirements
+## What Technology Is Required for Effective Recall?
 
 Effective hygiene recall at scale requires integrated technology:
 
@@ -203,7 +215,7 @@ Effective hygiene recall at scale requires integrated technology:
 **Integration matters:**
 Disconnected systems (separate PM, reminder, and scheduling tools) create data gaps and staff friction. Integrated platforms that connect patient data, outreach, and scheduling drive higher performance.
 
-## DSO-Specific Considerations
+## What Should DSOs Consider for Multi-Location Recall?
 
 Multi-location dental groups face additional complexity:
 

@@ -47,12 +47,3 @@ Various practices recognize the significance of [optometry virtual receptionists
 To experience the full spectrum of optometry answering service benefits, consider partnering with a comprehensive [specialized optometry patient intake service](https://mybcat.com/about/) to optimize patient care and streamline practice operations. 
 
 [Contact](https://mybcat.com/contact/) My Business Care Team today and embark on a journey towards efficient, patient-centric answering services. Empower your practice with innovative solutions, prioritizing patient satisfaction while achieving operational excellence. At My Business Care Team, we are committed to delivering exceptional service, making your practice's growth and patient care our top priorities.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Reduce Your Staffing Dependency</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices build resilient intake operations that don't break when staffing is tight.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->

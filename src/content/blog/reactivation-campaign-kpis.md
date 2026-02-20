@@ -24,7 +24,17 @@ relatedPosts:
 
 Reactivation campaigns without KPI tracking are guesswork. Multi-location healthcare groups running campaigns across 10, 20, or 50 sites need standardized metrics to identify what works, where performance lags, and how to improve. If you are building a campaign from scratch, start with the [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/) for the full strategic framework. This guide defines the eight KPIs that matter most for patient reactivation, provides benchmarks for each, and includes a weekly tracking framework for operations leaders.
 
-## Why KPIs Matter for Reactivation
+## Table of Contents
+
+- [Why Do KPIs Matter for Reactivation?](#why-do-kpis-matter-for-reactivation)
+- [What Are the 8 Essential Reactivation KPIs?](#what-are-the-8-essential-reactivation-kpis)
+- [How Does the Reactivation Funnel Connect KPIs?](#how-does-the-reactivation-funnel-connect-kpis)
+- [Weekly Tracking Framework](#weekly-tracking-framework)
+- [How Should You Segment KPIs by Patient Type?](#how-should-you-segment-kpis-by-patient-type)
+- [What Are the Common KPI Mistakes?](#what-are-the-common-kpi-mistakes)
+- [What Technology Do You Need for KPI Tracking?](#what-technology-do-you-need-for-kpi-tracking)
+
+## Why Do KPIs Matter for Reactivation?
 
 Without measurement, you cannot answer basic questions:
 - Which locations run effective reactivation campaigns?
@@ -34,7 +44,7 @@ Without measurement, you cannot answer basic questions:
 
 Research shows practices that track reactivation KPIs weekly achieve 10-20% recovery rates, while those operating without metrics often fall below 10%. The difference is visibility and accountability.
 
-## The 8 Essential Reactivation KPIs
+## What Are the 8 Essential Reactivation KPIs?
 
 ### 1. Contact Rate
 
@@ -141,25 +151,25 @@ Research shows practices that track reactivation KPIs weekly achieve 10-20% reco
 
 **Why it matters:** ROI justifies investment and helps secure budget for expanded programs.
 
-## The Reactivation Funnel: How KPIs Connect
+## How Does the Reactivation Funnel Connect KPIs?
 
 Understanding how metrics flow through the funnel helps diagnose problems:
 
-```
-Dormant Patient List (1,000 patients)
-        ↓
-    Attempted (1,000) ← Track: Attempt Rate
-        ↓
-    Contacted (350)   ← Track: Contact Rate (35%)
-        ↓
-    Responded (175)   ← Track: Response Rate (50%)
-        ↓
-    Booked (150)      ← Track: Booking Rate (43%)
-        ↓
-    Showed (130)      ← Track: Show Rate (87%)
-        ↓
-    Reactivated (130) ← Track: Recovery Rate (13%)
-```
+<div style="display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0;">
+  <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Dormant Patient List (1,000 patients)</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #1e40af; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Attempted (1,000) — Attempt Rate</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #2563eb; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Contacted (350) — Contact Rate (35%)</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #7c3aed; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Responded (175) — Response Rate (50%)</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #0891b2; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Booked (150) — Booking Rate (43%)</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #0d9488; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Showed (130) — Show Rate (87%)</div>
+  <div style="font-size: 24px; color: #6b7280; line-height: 1.2;">↓</div>
+  <div style="background: #059669; color: white; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; min-width: 260px;">Reactivated (130) — Recovery Rate (13%)</div>
+</div>
 
 **Funnel diagnosis:**
 - Low contact rate → improve phone numbers, try different channels
@@ -203,7 +213,7 @@ For multi-location groups, track each site against network averages:
 - Site performing 5%+ below network average → investigate root cause
 - Site performing 5%+ above network average → document best practices for replication
 
-## Segmentation: KPIs by Patient Type
+## How Should You Segment KPIs by Patient Type?
 
 Not all dormant patients are equal. Track KPIs separately for key segments:
 
@@ -226,7 +236,7 @@ Not all dormant patients are equal. Track KPIs separately for key segments:
 | Medium-value ($500-2,000 LTV) | 12-18% | Medium (hybrid approach) |
 | Lower-value (<$500 LTV) | 8-15% | Low (automated only) |
 
-## Common KPI Mistakes
+## What Are the Common KPI Mistakes?
 
 **Tracking bookings instead of show rate:**
 A campaign that books 200 appointments but only 140 show has different ROI than one that books 150 with 140 showing. Always track through to completion.
@@ -240,7 +250,7 @@ Recovery rate compounds over time. A 12-month sustained program achieves higher 
 **Not segmenting by location:**
 Network averages mask performance variation. Location-level tracking creates accountability and identifies best practices.
 
-## Technology for KPI Tracking
+## What Technology Do You Need for KPI Tracking?
 
 Effective KPI tracking requires integrated systems:
 

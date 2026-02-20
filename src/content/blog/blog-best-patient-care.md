@@ -30,7 +30,7 @@ Your staff is the face of your practice. Not you. Them. And if that face is tire
 
 So how do you know if your team is actually delivering good patient care? Let's get specific.
 
-## Start With What Patients Actually Say
+## What Are Patients Actually Saying?
 
 The easiest data to collect is patient feedback. But most practices do this wrong.
 
@@ -46,7 +46,7 @@ Here's what to do instead:
 
 The goal isn't just to measure satisfaction. It's to understand specifically what's working and what isn't.
 
-## Watch How Your Team Actually Works
+## How Does Your Team Actually Work Day to Day?
 
 Surveys only capture what patients remember to tell you. The real picture comes from observation.
 
@@ -64,7 +64,7 @@ Things to watch for:
 
 None of this is about catching people doing something wrong. It's about understanding how your systems and people actually function in real conditions.
 
-## Measure The Things That Matter
+## What Metrics Should You Be Measuring?
 
 Beyond observation, track actual metrics. Not vanity metrics—metrics that correlate with patient experience and practice health.
 
@@ -78,7 +78,7 @@ Beyond observation, track actual metrics. Not vanity metrics—metrics that corr
 
 **No-show rate by scheduler.** This one's interesting. If one staff member's patients no-show at 8% and another's no-show at 15%, something different is happening in those scheduling conversations.
 
-## Check Their Knowledge, Not Just Their Attitude
+## Are You Checking Knowledge, Not Just Attitude?
 
 A friendly staff member who doesn't know your practice protocols is almost worse than a competent grouch. They'll cheerfully give patients wrong information.
 
@@ -91,7 +91,7 @@ Periodically quiz your team on things like:
 
 You don't need to make it a formal test. Just ask questions in conversation and notice the answers. If your staff can't accurately explain basic things about your practice, patients are getting misinformation.
 
-## Actually Talk To Your Team
+## Are You Actually Talking to Your Team?
 
 Here's the part most practice owners skip: one-on-one conversations with each staff member.
 
@@ -106,7 +106,7 @@ In these conversations:
 
 Most staff performance issues aren't attitude problems. They're clarity problems. People don't know exactly what's expected, so they wing it. Clear expectations plus regular feedback solves most of this.
 
-## Use Technology To Fill Gaps
+## How Can Technology Fill the Gaps?
 
 You can't personally observe every patient interaction. But technology can help.
 
@@ -118,7 +118,7 @@ Customer feedback tools that trigger automatically after appointments can captur
 
 The point isn't surveillance. It's insight. You can't improve what you can't see.
 
-## When The Problem Is You, Not Them
+## When Is the Problem You, Not Them?
 
 Sometimes staff underperformance is actually a leadership problem.
 

@@ -24,7 +24,18 @@ relatedPosts:
 
 The difference between a text message that gets ignored and one that brings a patient back often comes down to the words you choose. SMS achieves a 98% open rate (compared to 20-30% for email) and 90% of texts are read within three minutes. Yet many healthcare reactivation messages sound robotic, impersonal, or worse, like spam. These templates complement our broader [patient recall scripts guide](/blog/patient-recall-scripts/), focusing specifically on SMS. This guide provides ready-to-use reactivation text message templates that feel personal, respect HIPAA compliance, and convert dormant patients back to active status.
 
-## Why SMS Works for Patient Reactivation
+## Table of Contents
+
+- [Why Does SMS Work for Patient Reactivation?](#why-does-sms-work-for-patient-reactivation)
+- [What Are the HIPAA Compliance Fundamentals?](#what-are-the-hipaa-compliance-fundamentals)
+- [Template Categories](#template-categories)
+- [What Templates Should You Avoid?](#what-templates-should-you-avoid)
+- [What Are the Timing Best Practices?](#what-are-the-timing-best-practices)
+- [How Do You Measure Template Effectiveness?](#how-do-you-measure-template-effectiveness)
+- [What Are the Multi-Location Considerations?](#what-are-the-multi-location-considerations)
+- [What Technology Do You Need?](#what-technology-do-you-need)
+
+## Why Does SMS Work for Patient Reactivation?
 
 Before reviewing templates, understand why text messaging outperforms other channels for reactivation:
 
@@ -44,7 +55,7 @@ Before reviewing templates, understand why text messaging outperforms other chan
 - Preference: 97% of patients want appointment reminders via SMS
 - Less intrusive: Feels like a conversation, not a sales pitch
 
-## HIPAA Compliance Fundamentals
+## What Are the HIPAA Compliance Fundamentals?
 
 Before sending any reactivation texts, ensure compliance:
 
@@ -76,27 +87,30 @@ Before sending any reactivation texts, ensure compliance:
 These templates work for patients who have been away for six months to a year. The tone is warm and assumes life simply got busy.
 
 **Template 1A: The Check-In**
-```
-Hi [First Name], this is [Practice Name]. We noticed it's been a while
-since your last visit. Just checking in. How have you been? Reply YES
-if you'd like to schedule, or call us at [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, this is <b>[Practice Name]</b>. We noticed it's been a while since your last visit. Just checking in. How have you been? Reply YES if you'd like to schedule, or call us at <b>[phone]</b>. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~213 (may span 2 SMS segments) | **Tone:** Caring, conversational
 
 **Template 1B: The We-Miss-You**
-```
-[First Name], we miss seeing you at [Practice Name]! Your annual
-[exam/cleaning/checkup] is overdue. We have openings this week.
-Reply YES to schedule or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><b>[First Name]</b>, we miss seeing you at <b>[Practice Name]</b>! Your annual <b>[exam/cleaning/checkup]</b> is overdue. We have openings this week. Reply YES to schedule or call <b>[phone]</b>. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~190 (may span 2 SMS segments) | **Tone:** Friendly, personal
 
 **Template 1C: The Health Reminder**
-```
-Hi [First Name], [Practice Name] here. Regular [checkups/cleanings/exams]
-help catch issues early. You're overdue. Let's get you scheduled.
-Reply YES or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, <b>[Practice Name]</b> here. Regular <b>[checkups/cleanings/exams]</b> help catch issues early. You're overdue. Let's get you scheduled. Reply YES or call <b>[phone]</b>. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~189 (may span 2 SMS segments) | **Tone:** Educational, non-pushy
 
 ### Category 2: Benefit-Focused (Insurance/Vision Plan Angle)
@@ -104,27 +118,30 @@ Reply YES or call [phone]. Reply STOP to opt out.
 Tie reactivation to tangible patient benefits without being salesy.
 
 **Template 2A: New Year Benefits**
-```
-Hi [First Name], your 2026 benefits are active at [Practice Name]!
-Don't let them expire unused. We have openings this month.
-Reply YES to book or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, your 2026 benefits are active at <b>[Practice Name]</b>! Don't let them expire unused. We have openings this month. Reply YES to book or call <b>[phone]</b>. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~183 (may span 2 SMS segments) | **Tone:** Helpful, timely
 
 **Template 2B: Year-End Push**
-```
-[First Name], your [insurance/vision plan] benefits reset soon.
-Use them before they expire! [Practice Name] has openings in December.
-Reply YES to schedule. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><b>[First Name]</b>, your <b>[insurance/vision plan]</b> benefits reset soon. Use them before they expire! <b>[Practice Name]</b> has openings in December. Reply YES to schedule. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~180 (may span 2 SMS segments) | **Tone:** Urgent, practical
 
 **Template 2C: Covered Appointment**
-```
-Hi [First Name], your preventive [exam/cleaning] may be covered at
-no cost under your plan. [Practice Name] would love to see you again.
-Reply YES or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, your preventive <b>[exam/cleaning]</b> may be covered at no cost under your plan. <b>[Practice Name]</b> would love to see you again. Reply YES or call <b>[phone]</b>. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~186 (may span 2 SMS segments) | **Tone:** Value-oriented
 
 ### Category 3: Provider-Personalized
@@ -132,19 +149,21 @@ Reply YES or call [phone]. Reply STOP to opt out.
 Messages that reference the specific provider build stronger emotional connection.
 
 **Template 3A: Doctor's Request**
-```
-Hi [First Name], Dr. [Provider] noticed you're overdue for your annual
-[exam/checkup] and wanted me to reach out. We have availability this
-week. Reply YES to book. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, Dr. <b>[Provider]</b> noticed you're overdue for your annual <b>[exam/checkup]</b> and wanted me to reach out. We have availability this week. Reply YES to book. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~187 (may span 2 SMS segments) | **Tone:** Personal, authoritative
 
 **Template 3B: Team Message**
-```
-[First Name], the team at [Practice Name] misses seeing you!
-Dr. [Provider] has openings this month for your checkup.
-Reply YES to schedule or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><b>[First Name]</b>, the team at <b>[Practice Name]</b> misses seeing you! Dr. <b>[Provider]</b> has openings this month for your checkup. Reply YES to schedule or call <b>[phone]</b>. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~179 (may span 2 SMS segments) | **Tone:** Warm, team-oriented
 
 ### Category 4: Long-Dormant Patients (18+ Months)
@@ -152,120 +171,127 @@ Reply YES to schedule or call [phone]. Reply STOP to opt out.
 For patients who have been away longer, acknowledge the gap and offer a fresh start.
 
 **Template 4A: The Fresh Start**
-```
-Hi [First Name], it's [Practice Name]. We know it's been a while, and
-that's okay! We'd love to see you again whenever you're ready.
-Reply YES to schedule. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, it's <b>[Practice Name]</b>. We know it's been a while, and that's okay! We'd love to see you again whenever you're ready. Reply YES to schedule. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~178 (may span 2 SMS segments) | **Tone:** Non-judgmental, welcoming
 
 **Template 4B: The Changes Message**
-```
-[First Name], a lot has changed at [Practice Name]: new [hours/services/
-technology]. We'd love to welcome you back. Reply YES to schedule or
-call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><b>[First Name]</b>, a lot has changed at <b>[Practice Name]</b>: new <b>[hours/services/technology]</b>. We'd love to welcome you back. Reply YES to schedule or call <b>[phone]</b>. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~178 (may span 2 SMS segments) | **Tone:** Inviting, fresh
 
 **Template 4C: The Direct Ask**
-```
-Hi [First Name], we haven't seen you in a while and wanted to check
-if you're still interested in being a patient. Reply YES to schedule.
-Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, we haven't seen you in a while and wanted to check if you're still interested in being a patient. Reply YES to schedule. Reply STOP to opt out.</p>
+</div>
+
 **Character count:** ~180 | **Tone:** Direct, respectful
 
 ### Category 5: Specialty-Specific Templates
 
 **Dental Reactivation:**
-```
-Hi [First Name], [Practice Name] here. Your 6-month cleaning helps
-prevent costly issues later. We have hygiene openings this week.
-Reply YES to book. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Dental</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, <b>[Practice Name]</b> here. Your 6-month cleaning helps prevent costly issues later. We have hygiene openings this week. Reply YES to book. Reply STOP to opt out.</p>
+</div>
 
 **Optometry Reactivation:**
-```
-[First Name], when was your last eye exam? Annual exams catch vision
-changes and eye health issues early. [Practice Name] has openings.
-Reply YES to schedule. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Optometry</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><b>[First Name]</b>, when was your last eye exam? Annual exams catch vision changes and eye health issues early. <b>[Practice Name]</b> has openings. Reply YES to schedule. Reply STOP to opt out.</p>
+</div>
 
 **Medical Practice Reactivation:**
-```
-Hi [First Name], [Practice Name] here. Preventive care helps you stay
-healthy. You're due for your annual wellness visit. Reply YES to
-schedule or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Medical Practice</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, <b>[Practice Name]</b> here. Preventive care helps you stay healthy. You're due for your annual wellness visit. Reply YES to schedule or call <b>[phone]</b>. Reply STOP to opt out.</p>
+</div>
 
 ### Category 6: Follow-Up Sequences
 
 The most effective reactivation uses a sequence of 3-4 messages spaced appropriately.
 
 **Sequence Day 1 (Initial):**
-```
-Hi [First Name], this is [Practice Name]. Your [exam/cleaning/checkup]
-is overdue. Just wanted to make sure you knew! Reply YES to schedule
-or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Day 1</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, this is <b>[Practice Name]</b>. Your <b>[exam/cleaning/checkup]</b> is overdue. Just wanted to make sure you knew! Reply YES to schedule or call <b>[phone]</b>. Reply STOP to opt out.</p>
+</div>
 
 **Sequence Day 5 (Gentle Follow-Up):**
-```
-[First Name], just following up from [Practice Name]. We have openings
-this week if you'd like to get your [appointment type] scheduled.
-Reply YES or call [phone]. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Day 5</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><b>[First Name]</b>, just following up from <b>[Practice Name]</b>. We have openings this week if you'd like to get your <b>[appointment type]</b> scheduled. Reply YES or call <b>[phone]</b>. Reply STOP to opt out.</p>
+</div>
 
 **Sequence Day 10 (Value Add):**
-```
-Hi [First Name], one more note from [Practice Name]. Your [preventive
-visit] may be covered by insurance at no cost. Want to check?
-Reply YES to schedule. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Day 10</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, one more note from <b>[Practice Name]</b>. Your <b>[preventive visit]</b> may be covered by insurance at no cost. Want to check? Reply YES to schedule. Reply STOP to opt out.</p>
+</div>
 
 **Sequence Day 21 (Final):**
-```
-[First Name], this is our last message about scheduling. We're here
-when you're ready. Just reply or call [phone]. Take care! - [Practice Name]
-Reply STOP to opt out.
-```
 
-## Templates to Avoid
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Day 21 (Final)</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;"><b>[First Name]</b>, this is our last message about scheduling. We're here when you're ready. Just reply or call <b>[phone]</b>. Take care! - <b>[Practice Name]</b> Reply STOP to opt out.</p>
+</div>
+
+## What Templates Should You Avoid?
 
 Certain message types hurt more than help:
 
 **Too generic:**
-```
-❌ "Your appointment is due. Call us."
-```
+
+<div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #991b1b; font-weight: 600; margin: 0 0 8px 0;">Avoid This Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">"Your appointment is due. Call us."</p>
+</div>
+
 No personalization, no warmth, no reason to respond.
 
 **Too salesy:**
-```
-❌ "SPECIAL OFFER! 20% off your next cleaning! Book now! Limited time!"
-```
+
+<div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #991b1b; font-weight: 600; margin: 0 0 8px 0;">Avoid This Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">"SPECIAL OFFER! 20% off your next cleaning! Book now! Limited time!"</p>
+</div>
+
 Feels like spam, damages brand trust.
 
 **Contains PHI:**
-```
-❌ "Hi John, your diabetes checkup is overdue. Dr. Smith needs to
-discuss your A1C levels."
-```
+
+<div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #991b1b; font-weight: 600; margin: 0 0 8px 0;">Avoid This Template</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">"Hi John, your diabetes checkup is overdue. Dr. Smith needs to discuss your A1C levels."</p>
+</div>
+
 HIPAA violation. Never include conditions or specific health details.
 
 **Too many messages:**
-```
-❌ Sending daily texts to non-responders
-```
-Leads to opt-outs and complaints.
+
+Sending daily texts to non-responders leads to opt-outs and complaints.
 
 **No opt-out:**
-```
-❌ Any message without "Reply STOP to opt out" or similar
-```
-Legal requirement for all commercial SMS.
 
-## Timing Best Practices
+Any message without "Reply STOP to opt out" or similar is a legal requirement violation for all commercial SMS.
+
+## What Are the Timing Best Practices?
 
 When you send matters as much as what you send:
 
@@ -288,7 +314,7 @@ When you send matters as much as what you send:
 - Final message: Day 21-30
 - Then pause for 60-90 days before next sequence
 
-## Measuring Template Effectiveness
+## How Do You Measure Template Effectiveness?
 
 Track these metrics to optimize your templates:
 
@@ -314,7 +340,7 @@ Track these metrics to optimize your templates:
 - Time of day
 - Day of week
 
-## Multi-Location Considerations
+## What Are the Multi-Location Considerations?
 
 For healthcare groups operating multiple sites:
 
@@ -331,11 +357,11 @@ For healthcare groups operating multiple sites:
 - Available appointment times
 
 **Template with location variable:**
-```
-Hi [First Name], this is [Practice Name] [City/Location]. You're due
-for your annual [checkup]. We have openings at our [specific location]
-this week. Reply YES to book. Reply STOP to opt out.
-```
+
+<div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin: 16px 0; max-width: 480px;">
+  <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">SMS Template — Multi-Location</p>
+  <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <b>[First Name]</b>, this is <b>[Practice Name]</b> <b>[City/Location]</b>. You're due for your annual <b>[checkup]</b>. We have openings at our <b>[specific location]</b> this week. Reply YES to book. Reply STOP to opt out.</p>
+</div>
 
 **Central management benefits:**
 - Consistent patient experience across sites
@@ -343,7 +369,7 @@ this week. Reply YES to book. Reply STOP to opt out.
 - Shared template optimization
 - Compliance oversight
 
-## Technology Requirements
+## What Technology Do You Need?
 
 Effective SMS reactivation requires the right platform:
 

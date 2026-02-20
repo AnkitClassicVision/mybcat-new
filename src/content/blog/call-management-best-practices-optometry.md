@@ -34,7 +34,7 @@ The consequences are measurable. Industry data suggests that practices with no f
 
 This guide lays out a practical, step-by-step approach to call management that any optometry office can implement, whether you have one front desk employee or a team of ten.
 
-## Audit Your Current Call Flow
+## How Do You Audit Your Current Call Flow?
 
 Before making changes, you need to understand where you stand. A one-week call audit gives you the baseline data required to identify problems and measure future improvements.
 
@@ -48,7 +48,7 @@ Before making changes, you need to understand where you stand. A one-week call a
 
 **Use the right tools.** Your phone system likely has built-in reporting. If not, call tracking software can fill the gap. The goal is to move from anecdotal impressions to hard numbers you can act on.
 
-## 7 Best Practices for Optometry Call Management
+## What Are the 7 Best Practices for Optometry Call Management?
 
 With your audit data in hand, you can start implementing targeted improvements. These seven practices address the most common failure points in optometry call management.
 
@@ -68,7 +68,7 @@ Build scripts for your most frequent scenarios: the initial greeting, new patien
 
 Scripts also dramatically reduce training time for new hires. Instead of months of shadowing, a new front desk team member can start handling basic calls within days when they have a clear script to follow. For recall-specific call scripts and outreach templates, see our [patient recall scripts guide](/blog/patient-recall-scripts/).
 
-### 3. Route Calls Intelligently
+### 3. How Should You Route Calls?
 
 Not every call needs to go to the same person. Separating scheduling calls, billing inquiries, and clinical questions into distinct routing paths reduces hold times and improves first-call resolution.
 
@@ -76,7 +76,7 @@ If your phone system supports it, use a brief IVR menu with no more than three o
 
 Direct routing also helps your team. When a staff member knows that every call they receive is a scheduling call, they can focus entirely on booking efficiently rather than context-switching between unrelated topics. This specialization leads to shorter handle times and fewer errors.
 
-### 4. Implement Overflow Protocols
+### 4. Why Should You Implement Overflow Protocols?
 
 The most damaging gap in most call management systems is what happens when the front desk is busy. If your overflow plan is voicemail, you are losing patients. Studies consistently show that the majority of healthcare callers who reach voicemail do not leave a message. They hang up and call the next practice on their list.
 
@@ -84,7 +84,7 @@ Overflow protocols define what happens when your primary team cannot answer. Opt
 
 The key is that overflow must be seamless. The patient should not be able to tell the difference between your in-house team and your overflow partner. That means shared access to your scheduling system, familiarity with your office procedures, and consistent greeting scripts.
 
-### 5. Track and Measure Everything
+### 5. What Should You Track and Measure?
 
 You cannot improve what you do not measure. Establish a set of call management KPIs and review them weekly. At minimum, track the following:
 
@@ -99,7 +99,7 @@ You cannot improve what you do not measure. Establish a set of call management K
 
 These metrics tell a complete story. A high answer rate with a low booking rate suggests a training issue. A low answer rate during specific hours suggests a staffing issue. Let the data guide your next move rather than relying on gut instinct.
 
-### 6. Train for Both Speed and Empathy
+### 6. How Do You Train for Both Speed and Empathy?
 
 Answering quickly is necessary but not sufficient. How your team handles the call matters just as much as whether they pick up. Patients calling an optometry office are often dealing with vision concerns, insurance confusion, or anxiety about an upcoming procedure. The voice on the other end of the line sets the tone for the entire patient relationship.
 
@@ -107,7 +107,7 @@ Invest in role-play training that covers difficult scenarios: the frustrated pat
 
 Schedule quarterly refresher sessions. Skills degrade over time, especially under the pressure of high call volume. Regular training keeps your standards from drifting. For a deeper look at building a patient-centered phone culture, see our guide to [better call support for your optometry practice](/blog/better-call-support-for-your-optometry-practice/).
 
-### 7. Leverage Technology
+### 7. How Can You Leverage Technology?
 
 Modern cloud phone systems offer capabilities that were unavailable even five years ago. Call recording lets you review and coach on real interactions. CRM integration surfaces patient context the moment a call comes in, so your team can greet callers by name and reference their last visit. AI-assisted call routing directs patients to the right person based on the reason for their call, reducing transfers and hold times.
 
@@ -115,7 +115,7 @@ Transcription and analytics tools can automatically flag calls that went poorly,
 
 The goal is not to replace your team with technology. It is to give your team better tools so they can focus on what they do best: building relationships with patients and converting inquiries into appointments.
 
-## Common Call Management Mistakes
+## What Are the Most Common Call Management Mistakes?
 
 Even practices with good intentions make avoidable errors that undermine their call management. Here are the most frequent ones to watch for.
 
@@ -129,7 +129,7 @@ Even practices with good intentions make avoidable errors that undermine their c
 
 **Failing to follow up on missed calls within the same day.** If you miss a call at 10:00 AM and return it at 3:00 PM the next day, the patient has likely already booked elsewhere. Build a process to review and return missed calls before the end of every business day, ideally within one hour.
 
-## Scaling Call Management for Multi-Location Practices
+## How Do You Scale Call Management for Multi-Location Practices?
 
 Practices with multiple locations face a unique set of challenges. Each location may have different staffing levels, call volumes, and performance metrics, making it difficult to maintain a consistent patient experience across the network.
 
@@ -144,14 +144,3 @@ You do not need to overhaul your entire call management system overnight. Start 
 Small improvements in call management compound quickly. A 10% improvement in answer rate, combined with better call handling and faster follow-up on missed calls, can translate to dozens of additional appointments per month. Over the course of a year, that is a significant impact on both revenue and patient satisfaction.
 
 If your practice needs help building or scaling a call management system, [we can help](/contact/). MyBCAT provides managed call support, virtual receptionist services, and patient access solutions designed specifically for optometry and healthcare practices.
-
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Transform Your Practice?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how MyBCAT helps healthcare practices capture more patients, reduce no-shows, and fill every appointment slot.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
-
-> **Managing multiple locations?** [See how enterprise healthcare groups centralize patient access](/enterprise/)
