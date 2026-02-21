@@ -8,9 +8,8 @@ seoDescription: >-
   Learn how DSOs and healthcare groups reduce patient churn across multiple
   locations using centralized recall systems and data-driven retention
   strategies.
-publishDate: '2026-02-19'
-status: scheduled
-scheduledDate: '2026-02-19'
+publishDate: '2026-02-19T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Practice Growth
 tags:

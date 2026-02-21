@@ -9,9 +9,8 @@ seoDescription: >-
   Call management best practices for optometry practices. Actionable strategies
   to reduce hold times, eliminate missed calls, and improve patient service
   quality.
-publishDate: '2026-02-20'
-status: scheduled
-scheduledDate: '2026-02-20'
+publishDate: '2026-02-20T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Technology
 tags:
