@@ -238,4 +238,4 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 - [Kaiser Permanente Research: Live Calls vs Text for Cancer Screening](https://research.kpchr.org/News/Press-Releases/Live-Phone-Calls-Better-Than-Text-Messages-to-Remind-People-About-Colon-Cancer-Screening)
 - [Penn LDI: Automated Texting Reduces Readmissions](https://ldi.upenn.edu/our-work/research-updates/automated-texting-shows-promise-to-reduce-hospital-readmissions/)
 - [Medical Economics: Texting vs Phone Calls for Discharge Follow-ups](https://www.medicaleconomics.com/view/texting-found-more-effective-than-phone-calls-for-hospital-discharge-follow-ups)
-- [DoctorConnect: Patient Recall Automation ROI](https://doctorconnect.net/patient-recall-messaging-automate-transform/)
+- [DoctorConnect: Patient Recall Automation ROI](https://doctorconnect.net/patient-recall-and-retention/)
