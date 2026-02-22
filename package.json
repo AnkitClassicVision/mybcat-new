@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "prebuild": "node scripts/check-missing-webp.js && node scripts/validators/validate-images.js && node scripts/validators/validate-cross-links.js",
+    "prebuild": "node scripts/check-missing-webp.js && node scripts/validators/validate-images.js && node scripts/deactivate-broken-links.js && node scripts/validators/validate-cross-links.js",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
@@ -31,6 +31,8 @@
     "validate:schema": "node scripts/validators/validate-schema.js",
     "validate:enterprise-links": "node scripts/validators/validate-enterprise-links.js",
     "validate:content-quality": "node scripts/validators/validate-content-quality.js",
+    "deactivate-links": "node scripts/deactivate-broken-links.js",
+    "deactivate-links:dry": "node scripts/deactivate-broken-links.js --dry-run",
     "validate:cross-links": "node scripts/validators/validate-cross-links.js",
     "validate:pipeline-stages": "node scripts/validators/validate-pipeline-stages.js",
     "validate:citations": "node scripts/validators/validate-citations.js",

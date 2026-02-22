@@ -51,6 +51,9 @@ jobs:
       - name: Run publish script
         run: node scripts/publish-scheduled.js
 
+      - name: Auto-deactivate any remaining broken cross-links
+        run: node scripts/deactivate-broken-links.js
+
       - name: Check for changes
         id: check_changes
         run: |

@@ -21,7 +21,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const BLOG_DIR = path.join(__dirname, '..', '..', 'src', 'content', 'blog');
+export const BLOG_DIR = path.join(__dirname, '..', '..', 'src', 'content', 'blog');
 
 const colors = {
   red: '\x1b[31m',
@@ -33,7 +33,7 @@ const colors = {
   bold: '\x1b[1m'
 };
 
-function buildPostIndex(blogDir) {
+export function buildPostIndex(blogDir) {
   const index = new Map();
   const files = fs.readdirSync(blogDir).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
 
@@ -54,13 +54,13 @@ function buildPostIndex(blogDir) {
   return index;
 }
 
-function extractBlogLinks(body) {
+export function extractBlogLinks(body) {
   const links = [];
   // Match [text](/blog/slug/) and [text](/blog/slug)
   const regex = /\[([^\]]+)\]\(\/blog\/([^/)]+)\/?(?:#[^)]*)?\)/g;
   let match;
   while ((match = regex.exec(body)) !== null) {
-    links.push({ text: match[1], slug: match[2] });
+    links.push({ text: match[1], slug: match[2], fullMatch: match[0] });
   }
   // Also match href="/blog/slug/" in HTML
   const hrefRegex = /href=["']\/blog\/([^/"']+)\/?["']/gi;
@@ -70,7 +70,7 @@ function extractBlogLinks(body) {
   return links;
 }
 
-function isPublishedOrLiveToday(entry, today) {
+export function isPublishedOrLiveToday(entry, today) {
   const coerceDate = (value) => {
     if (!value) return null;
     const date = value instanceof Date ? value : new Date(value);
