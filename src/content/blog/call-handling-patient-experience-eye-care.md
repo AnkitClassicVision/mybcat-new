@@ -7,9 +7,8 @@ description: >-
 seoDescription: >-
   Call handling in optometry and ophthalmology: first impressions, empathetic
   communication, and service standards that improve patient loyalty.
-publishDate: '2026-02-21'
-status: scheduled
-scheduledDate: '2026-02-21'
+publishDate: '2026-02-21T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Patient Experience
 tags:

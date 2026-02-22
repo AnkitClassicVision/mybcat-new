@@ -8,9 +8,8 @@ description: >-
 seoDescription: >-
   Medical answering services for optometry and ophthalmology: reduce missed
   calls, improve patient experience, and protect practice revenue.
-publishDate: '2026-02-22'
-status: scheduled
-scheduledDate: '2026-02-22'
+publishDate: '2026-02-22T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Technology
 tags:
