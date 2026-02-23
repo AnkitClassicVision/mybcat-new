@@ -214,7 +214,7 @@ const icons: Record<string, string> = {
           <div id="videoInfoBar" class="video-info-bar">
             <div class="video-info-content">
               {video.avatar && (
-                <img src={video.avatar} alt={video.author} width="44" height="44" class="testimonial-avatar">
+                <img src={video.avatar} alt={video.author} width="44" height="44" class="testimonial-avatar" loading="lazy">
               )}
               <div>
                 <div class="testimonial-name">{video.author}</div>

@@ -50,7 +50,7 @@ const initials = name.split(' ').map(n => n[0]).join('');
 <div class="author-bio">
   <div class="author-avatar-container">
     {displayImage ? (
-      <img src={displayImage} alt={name} class="author-avatar-img" width="80" height="80" loading="lazy" />
+      <img src={displayImage} alt={`Photo of ${name}`} class="author-avatar-img" width="80" height="80" loading="lazy" />
     ) : (
       <div class="author-avatar-fallback">{initials}</div>
     )}

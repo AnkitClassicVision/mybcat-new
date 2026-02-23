@@ -43,7 +43,7 @@ const organizationSchema = generateOrganizationSchema();
             <Button href="/contact/">Let's Talk About Your Practice</Button>
           </div>
           <div class="story-hero-image">
-            <img src="/images/ankit_headshot_full.webp" alt="Ankit Patel - Founder of My Business Care Team" width="400" height="500" />
+            <img src="/images/ankit_headshot_full.webp" alt="Ankit Patel - Founder of My Business Care Team" width="400" height="500" loading="lazy" />
             <div class="image-caption">
               <strong>{company.ownership.founder}</strong>
               <span>{company.ownership.founderTitle}</span>
@@ -136,19 +136,19 @@ const organizationSchema = generateOrganizationSchema();
             <p class="trust-intro">How do we maintain HIPAA compliance with a distributed team? The same way enterprise healthcare organizations do it.</p>
             <div class="trust-grid">
               <div class="trust-item">
-                <h4>US-Based Leadership</h4>
+                <h3>US-Based Leadership</h3>
                 <p>All operations managed by US-based team with healthcare background. Every workflow designed and supervised from Atlanta.</p>
               </div>
               <div class="trust-item">
-                <h4>HIPAA-Trained Global Team</h4>
+                <h3>HIPAA-Trained Global Team</h3>
                 <p>Every team member completes HIPAA certification and annual recertification. Confidentiality agreements signed before any patient access.</p>
               </div>
               <div class="trust-item">
-                <h4>Enterprise Security Controls</h4>
+                <h3>Enterprise Security Controls</h3>
                 <p>Role-based access, MFA required, audit logging, encrypted VPN connections. Patient data never leaves your systems.</p>
               </div>
               <div class="trust-item">
-                <h4>Continuous QA & Calibration</h4>
+                <h3>Continuous QA & Calibration</h3>
                 <p>Weekly calibration sessions, call monitoring, location-specific scorecards. Same standards as in-house staff—often higher.</p>
               </div>
             </div>
@@ -421,7 +421,7 @@ const organizationSchema = generateOrganizationSchema();
     border: 1px solid var(--glass-border);
   }
 
-  .trust-item h4 {
+  .trust-item h3 {
     font-size: 1rem;
     font-weight: 700;
     color: var(--navy-900);
