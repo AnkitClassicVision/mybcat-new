@@ -28,11 +28,5 @@
     "targetSlug": "front-desk-recall-workflow",
     "originalMarkdown": "[patient recall workflow](/blog/front-desk-recall-workflow/)",
     "plainText": "patient recall workflow"
-  },
-  {
-    "sourceSlug": "case-study-dormant-patient-recovery",
-    "targetSlug": "reactivation-without-discounts",
-    "originalMarkdown": "[reactivation without discounts](/blog/reactivation-without-discounts/)",
-    "plainText": "reactivation without discounts"
   }
 ]

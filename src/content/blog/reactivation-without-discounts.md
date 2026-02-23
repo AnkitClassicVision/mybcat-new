@@ -8,9 +8,8 @@ seoDescription: >-
   Patient reactivation strategies without discounts. Scripts, messaging
   templates, and value-driven offers that bring dormant patients back while
   protecting your
-publishDate: '2026-02-23'
-status: scheduled
-scheduledDate: '2026-02-23'
+publishDate: '2026-02-23T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
