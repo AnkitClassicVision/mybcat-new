@@ -1,25 +1,23 @@
 ---
 title: Reducing Patient Churn in Healthcare at Scale
 seoTitle: Reducing Patient Churn in Multi-Location Healthcare
-description: >-
-  Multi-location healthcare groups lose millions to patient churn. Learn proven
-  strategies to reduce attrition across 3+ locations with centralized systems.
-seoDescription: >-
-  Learn how DSOs and healthcare groups reduce patient churn across multiple
-  locations using centralized recall systems and data-driven retention
-  strategies.
+description: Multi-location healthcare groups lose millions to patient churn. Learn
+  proven strategies to reduce attrition across 3+ locations with centralized systems.
+seoDescription: Learn how DSOs and healthcare groups reduce patient churn across multiple
+  locations using centralized recall systems and data-driven retention strategies.
 publishDate: '2026-02-19T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-  - reducing patient churn in healthcare
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- reducing patient churn in healthcare
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: retention
 featuredImage: /images/blog/reducingpatientchurninhealthcare.webp
-canonical: 'https://mybcat.com/blog/reducingpatientchurninhealthcare/'
+canonical: https://mybcat.com/blog/reducingpatientchurninhealthcare/
+relatedPosts: []
 ---
 
 Multi-location healthcare groups lose between 15% and 30% of their patient base annually to churn. For a 10-location dental group with 2,000 patients per site, that translates to 3,000 to 6,000 lost patients each year. At an average patient lifetime value of $4,000, that quiet erosion costs $12 million to $24 million in potential revenue. This guide breaks down how operations leaders at DSOs, veterinary networks, and optometry chains can standardize patient retention across every location.

@@ -1,28 +1,29 @@
 ---
 title: 'Reactivation Without Discounts: Scripts and Offers That Work'
 seoTitle: 'Reactivation Without Discounts: Scripts and Offers That Work'
-description: >-
-  Reactivate dormant patients without discounts. Value-driven scripts and
+description: Reactivate dormant patients without discounts. Value-driven scripts and
   messaging that bring patients back.
-seoDescription: >-
-  Patient reactivation strategies without discounts. Scripts, messaging
-  templates, and value-driven offers that bring dormant patients back while
-  protecting your
+seoDescription: Patient reactivation strategies without discounts. Scripts, messaging
+  templates, and value-driven offers that bring dormant patients back while protecting
+  your
 publishDate: '2026-02-23T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Practice Growth
 tags:
-  - reactivation
-  - scripts
-  - patient retention
-  - practice growth
+- reactivation
+- scripts
+- patient retention
+- practice growth
 featuredImage: /images/blog/reactivation-without-discounts.webp
-canonical: 'https://mybcat.com/blog/reactivation-without-discounts/'
+canonical: https://mybcat.com/blog/reactivation-without-discounts/
 cluster: patient-recall
 relatedPosts:
-  - patient-recall-scripts
-  - dormant-patient-reactivation
+- patient-recall-scripts
+- dormant-patient-reactivation
+- case-study-dormant-patient-recovery
+- centralized-patient-recall-multi-location
+- optometry-recall-campaign
 ---
 
 The instinct when patients stop coming is to offer a discount. "20% off your next cleaning" feels like an easy win. But discounting trains patients to wait for deals, erodes your margins, and devalues the care you provide. The good news: the most effective [dormant patient reactivation](/blog/dormant-patient-reactivation/) strategies do not rely on discounts at all. This guide provides the scripts, offers, and approaches -- complementing our [patient recall scripts library](/blog/patient-recall-scripts/) -- that bring patients back while protecting your practice's value.
@@ -419,6 +420,12 @@ Creating a sense of urgency is important for reactivation, but the urgency shoul
 
 Seasonal relevance also creates natural urgency that does not require discounts. Back-to-school eye exams, spring allergy season, and new-year insurance resets all provide timely reasons for patients to reconnect with your practice. Practices that align their reactivation campaigns with these natural health triggers see higher response rates because the message feels relevant and helpful rather than promotional.
 
+
+## Related Reading
+
+- [Case Study: 12-Location Optometry Group Recovered $312K](/blog/case-study-dormant-patient-recovery/)
+- [Centralized Patient Recall for Multi-Location Healthcare](/blog/centralized-patient-recall-multi-location/)
+- [Optometry Recall Campaign: Beat the January Slump](/blog/optometry-recall-campaign/)
 
 ## Sources
 
