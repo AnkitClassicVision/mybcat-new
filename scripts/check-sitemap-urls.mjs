@@ -6,10 +6,11 @@
  * Designed to run periodically (weekly or post-deploy).
  *
  * Usage:
- *   node scripts/check-sitemap-urls.mjs [--local] [--concurrency=10] [--timeout=8000]
+ *   node scripts/check-sitemap-urls.mjs [--local] [--local-only] [--concurrency=10] [--timeout=8000]
  *
  * Options:
- *   --local         Read from dist/sitemap-0.xml instead of fetching live
+ *   --local         Read from local build sitemap instead of fetching live, check via HTTP
+ *   --local-only    Read from local build sitemap AND verify against local build output (no HTTP)
  *   --concurrency=N Number of parallel requests (default: 10)
  *   --timeout=N     Request timeout in ms (default: 8000)
  */
@@ -22,7 +23,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 
 const SITEMAP_URL = 'https://mybcat.com/sitemap-0.xml';
-const LOCAL_SITEMAP = path.join(ROOT, 'dist', 'sitemap-0.xml');
+const LOCAL_SITEMAP = fs.existsSync(path.join(ROOT, 'dist', 'sitemap-0.xml'))
+  ? path.join(ROOT, 'dist', 'sitemap-0.xml')
+  : path.join(ROOT, '.vercel', 'output', 'static', 'sitemap-0.xml');
 
 const colors = {
   red: '\x1b[31m',
@@ -38,9 +41,15 @@ const colors = {
 // Parse CLI args
 // ---------------------------------------------------------------------------
 const args = process.argv.slice(2);
-const useLocal = args.includes('--local');
+const useLocal = args.includes('--local') || args.includes('--local-only');
+const localOnly = args.includes('--local-only');
 const concurrency = parseInt(args.find((a) => a.startsWith('--concurrency='))?.split('=')[1] || '10', 10);
 const timeout = parseInt(args.find((a) => a.startsWith('--timeout='))?.split('=')[1] || '8000', 10);
+
+// Build output directory (Vercel adapter or plain Astro)
+const BUILD_DIR = fs.existsSync(path.join(ROOT, '.vercel', 'output', 'static'))
+  ? path.join(ROOT, '.vercel', 'output', 'static')
+  : path.join(ROOT, 'dist');
 
 // ---------------------------------------------------------------------------
 // Fetch or read sitemap XML
@@ -128,6 +137,28 @@ async function checkAll(urls) {
 }
 
 // ---------------------------------------------------------------------------
+// Local-only: verify sitemap URLs have matching files in build output
+// ---------------------------------------------------------------------------
+function checkLocalBuildOutput(urls) {
+  const siteUrl = 'https://mybcat.com';
+  const results = [];
+
+  for (const url of urls) {
+    const urlPath = url.replace(siteUrl, '');
+    // URL /foo/bar/ should map to BUILD_DIR/foo/bar/index.html
+    const filePath = path.join(BUILD_DIR, urlPath, 'index.html');
+    const exists = fs.existsSync(filePath);
+    results.push({
+      url,
+      status: exists ? 200 : 404,
+      location: '',
+    });
+  }
+
+  return results;
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 async function main() {
@@ -142,7 +173,13 @@ async function main() {
     return;
   }
 
-  const results = await checkAll(urls);
+  let results;
+  if (localOnly) {
+    console.log(`  Verifying against local build output: ${BUILD_DIR}\n`);
+    results = checkLocalBuildOutput(urls);
+  } else {
+    results = await checkAll(urls);
+  }
 
   // Categorize results
   const ok = results.filter((r) => r.status >= 200 && r.status < 300);
