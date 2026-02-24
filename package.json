@@ -38,6 +38,8 @@
     "validate:citations": "node scripts/validators/validate-citations.js",
     "evaluate-post": "node scripts/evaluate-post.js",
     "validate:all": "node scripts/validators/validate-all.js",
+    "validate:redirects": "node scripts/validate-redirects.mjs",
+    "validate:sitemap": "node scripts/check-sitemap-urls.mjs --local-only",
     "audit:seo": "npm run validate:all -- --verbose"
   },
   "dependencies": {

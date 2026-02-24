@@ -7,6 +7,7 @@ on:
       - 'src/**'
       - 'scripts/**'
       - 'astro.config.mjs'
+      - 'vercel.json'
       - 'CONTROLS.md'
   push:
     branches: [main]
@@ -72,6 +73,12 @@ jobs:
 
       - name: Validate Internal Links
         run: npm run validate:links
+
+      - name: Validate Redirects (no chains)
+        run: npm run validate:redirects
+
+      - name: Validate Sitemap URLs (local build)
+        run: npm run validate:sitemap
 
   content-quality:
     name: Content Quality
