@@ -7,9 +7,8 @@ description: >-
 seoDescription: >-
   Virtual receptionist vs front desk in optometry: compare costs, patient
   experience, scalability, and when a hybrid call-handling model wins.
-publishDate: '2026-02-24'
-status: scheduled
-scheduledDate: '2026-02-24'
+publishDate: '2026-02-24T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Technology
 tags:
