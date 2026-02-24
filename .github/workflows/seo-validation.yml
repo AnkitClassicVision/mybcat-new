@@ -49,6 +49,12 @@ jobs:
       - name: Validate Cross-Links
         run: npm run validate:cross-links
 
+      - name: Validate Publish Dates
+        run: npm run validate:publish-dates
+
+      - name: Validate Citations
+        run: npm run validate:citations
+
   post-build-validation:
     name: Post-Build Checks
     runs-on: ubuntu-latest

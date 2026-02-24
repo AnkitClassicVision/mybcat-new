@@ -40,6 +40,7 @@
     "validate:all": "node scripts/validators/validate-all.js",
     "validate:redirects": "node scripts/validate-redirects.mjs",
     "validate:sitemap": "node scripts/check-sitemap-urls.mjs --local-only",
+    "validate:publish-dates": "node scripts/validators/validate-publish-dates.js",
     "validate:url-stability": "node scripts/validators/validate-url-stability.mjs",
     "validate:url-stability:save": "node scripts/validators/validate-url-stability.mjs --save",
     "audit:seo": "npm run validate:all -- --verbose"
