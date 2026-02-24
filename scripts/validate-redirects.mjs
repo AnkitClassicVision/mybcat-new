@@ -69,6 +69,8 @@ function collectKnownRoutes() {
   // Common well-known paths that always exist
   known.add('/');
   known.add('/404');
+  known.add('/sitemap-index.xml');
+  known.add('/sitemap-0.xml');
 
   return known;
 }
@@ -112,6 +114,9 @@ function findChains(redirects) {
     const destNorm = norm(r.destination);
     if (sourceMap.has(destNorm)) {
       const finalDest = sourceMap.get(destNorm);
+      // Skip self-referencing "chains" (e.g. case-normalization redirects
+      // where /blog/FOO → /blog/foo/ and norm(/blog/foo/) == norm(/blog/FOO))
+      if (norm(finalDest) === destNorm) continue;
       chains.push({
         source: r.source,
         intermediate: r.destination,
