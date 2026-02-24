@@ -114,6 +114,7 @@ npm run validate:terms || exit 1
 npm run validate:meta || exit 1
 npm run validate:h1 || exit 1
 npm run validate:enterprise-links || exit 1
+npm run validate:redirects || exit 1
 
 echo ""
 echo -e "${GREEN}All pre-push validations passed!${NC}"
