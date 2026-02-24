@@ -80,6 +80,9 @@ jobs:
       - name: Validate Sitemap URLs (local build)
         run: npm run validate:sitemap
 
+      - name: Validate URL Stability
+        run: npm run validate:url-stability
+
   content-quality:
     name: Content Quality
     runs-on: ubuntu-latest
