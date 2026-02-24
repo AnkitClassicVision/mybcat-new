@@ -7,6 +7,7 @@ on:
       - 'src/**'
       - 'scripts/**'
       - 'astro.config.mjs'
+      - 'vercel.json'
       - 'CONTROLS.md'
   push:
     branches: [main]
@@ -48,6 +49,12 @@ jobs:
       - name: Validate Cross-Links
         run: npm run validate:cross-links
 
+      - name: Validate Publish Dates
+        run: npm run validate:publish-dates
+
+      - name: Validate Citations
+        run: npm run validate:citations
+
   post-build-validation:
     name: Post-Build Checks
     runs-on: ubuntu-latest
@@ -72,6 +79,15 @@ jobs:
 
       - name: Validate Internal Links
         run: npm run validate:links
+
+      - name: Validate Redirects (no chains)
+        run: npm run validate:redirects
+
+      - name: Validate Sitemap URLs (local build)
+        run: npm run validate:sitemap
+
+      - name: Validate URL Stability
+        run: npm run validate:url-stability
 
   content-quality:
     name: Content Quality

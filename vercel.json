@@ -82,7 +82,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=86400, stale-while-revalidate=604800"
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
         }
       ]
     },
@@ -999,22 +999,22 @@
     },
     {
       "source": "/the-benefits-of-optometry-call-service-partnerships",
-      "destination": "/blog/the-benefits-of-optometry-call-service-partnerships/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/the-benefits-of-optometry-call-service-partnerships/",
-      "destination": "/blog/the-benefits-of-optometry-call-service-partnerships/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/improving-optometry-practice-with-call-service-support",
-      "destination": "/blog/improving-optometry-practice-with-call-service-support/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/improving-optometry-practice-with-call-service-support/",
-      "destination": "/blog/improving-optometry-practice-with-call-service-support/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
@@ -1039,32 +1039,32 @@
     },
     {
       "source": "/a-guide-to-medical-receptionist-service-for-optometry",
-      "destination": "/blog/a-guide-to-medical-receptionist-service-for-optometry/",
+      "destination": "/blog/virtual-receptionist-vs-front-desk-optometry/",
       "permanent": true
     },
     {
       "source": "/a-guide-to-medical-receptionist-service-for-optometry/",
-      "destination": "/blog/a-guide-to-medical-receptionist-service-for-optometry/",
+      "destination": "/blog/virtual-receptionist-vs-front-desk-optometry/",
       "permanent": true
     },
     {
       "source": "/optometry-virtual-receptionist-future-customer-service",
-      "destination": "/blog/optometry-virtual-receptionist-future-customer-service/",
+      "destination": "/blog/virtual-receptionist-vs-front-desk-optometry/",
       "permanent": true
     },
     {
       "source": "/optometry-virtual-receptionist-future-customer-service/",
-      "destination": "/blog/optometry-virtual-receptionist-future-customer-service/",
+      "destination": "/blog/virtual-receptionist-vs-front-desk-optometry/",
       "permanent": true
     },
     {
       "source": "/elevate-patient-care-with-eye-health-reception-services",
-      "destination": "/blog/elevate-patient-care-with-eye-health-reception-services/",
+      "destination": "/blog/call-handling-patient-experience-eye-care/",
       "permanent": true
     },
     {
       "source": "/elevate-patient-care-with-eye-health-reception-services/",
-      "destination": "/blog/elevate-patient-care-with-eye-health-reception-services/",
+      "destination": "/blog/call-handling-patient-experience-eye-care/",
       "permanent": true
     },
     {
@@ -1079,42 +1079,42 @@
     },
     {
       "source": "/optometry-access-elevating-patient-care",
-      "destination": "/blog/optometry-access-elevating-patient-care/",
+      "destination": "/blog/call-handling-patient-experience-eye-care/",
       "permanent": true
     },
     {
       "source": "/optometry-access-elevating-patient-care/",
-      "destination": "/blog/optometry-access-elevating-patient-care/",
+      "destination": "/blog/call-handling-patient-experience-eye-care/",
       "permanent": true
     },
     {
       "source": "/optometry-care-answering-service-advantages",
-      "destination": "/blog/optometry-care-answering-service-advantages/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/optometry-care-answering-service-advantages/",
-      "destination": "/blog/optometry-care-answering-service-advantages/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/decoding-optometry-call-virtual-vs-traditional",
-      "destination": "/blog/decoding-optometry-call-virtual-vs-traditional/",
+      "destination": "/blog/virtual-receptionist-vs-front-desk-optometry/",
       "permanent": true
     },
     {
       "source": "/decoding-optometry-call-virtual-vs-traditional/",
-      "destination": "/blog/decoding-optometry-call-virtual-vs-traditional/",
+      "destination": "/blog/virtual-receptionist-vs-front-desk-optometry/",
       "permanent": true
     },
     {
       "source": "/optometry-call-choosing-patient-centric-support",
-      "destination": "/blog/optometry-call-choosing-patient-centric-support/",
+      "destination": "/blog/call-management-best-practices-optometry/",
       "permanent": true
     },
     {
       "source": "/optometry-call-choosing-patient-centric-support/",
-      "destination": "/blog/optometry-call-choosing-patient-centric-support/",
+      "destination": "/blog/call-management-best-practices-optometry/",
       "permanent": true
     },
     {
@@ -1159,52 +1159,52 @@
     },
     {
       "source": "/optimizing-patient-care-optometry-reception-solutions",
-      "destination": "/blog/optimizing-patient-care-optometry-reception-solutions/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/optimizing-patient-care-optometry-reception-solutions/",
-      "destination": "/blog/optimizing-patient-care-optometry-reception-solutions/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/optometrist-call-management-a-key-to-patient-service",
-      "destination": "/blog/optometrist-call-management-a-key-to-patient-service/",
+      "destination": "/blog/call-management-best-practices-optometry/",
       "permanent": true
     },
     {
       "source": "/optometrist-call-management-a-key-to-patient-service/",
-      "destination": "/blog/optometrist-call-management-a-key-to-patient-service/",
+      "destination": "/blog/call-management-best-practices-optometry/",
       "permanent": true
     },
     {
       "source": "/optometry-call-services-enhance-customer-experience",
-      "destination": "/blog/optometry-call-services-enhance-customer-experience/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/optometry-call-services-enhance-customer-experience/",
-      "destination": "/blog/optometry-call-services-enhance-customer-experience/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/enhance-your-eye-clinics-service-with-call-answering",
-      "destination": "/blog/enhance-your-eye-clinics-service-with-call-answering/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/enhance-your-eye-clinics-service-with-call-answering/",
-      "destination": "/blog/enhance-your-eye-clinics-service-with-call-answering/",
+      "destination": "/blog/medical-answering-services-eye-care-guide/",
       "permanent": true
     },
     {
       "source": "/vision-clinic-call-management-tips-for-success",
-      "destination": "/blog/vision-clinic-call-management-tips-for-success/",
+      "destination": "/blog/call-management-best-practices-optometry/",
       "permanent": true
     },
     {
       "source": "/vision-clinic-call-management-tips-for-success/",
-      "destination": "/blog/vision-clinic-call-management-tips-for-success/",
+      "destination": "/blog/call-management-best-practices-optometry/",
       "permanent": true
     },
     {
@@ -1239,22 +1239,22 @@
     },
     {
       "source": "/optometry-reception-elevating-patient-experience",
-      "destination": "/blog/optometry-reception-elevating-patient-experience/",
+      "destination": "/blog/call-handling-patient-experience-eye-care/",
       "permanent": true
     },
     {
       "source": "/optometry-reception-elevating-patient-experience/",
-      "destination": "/blog/optometry-reception-elevating-patient-experience/",
+      "destination": "/blog/call-handling-patient-experience-eye-care/",
       "permanent": true
     },
     {
       "source": "/optometry-calls-expert-24-7-virtual-reception",
-      "destination": "/blog/optometry-calls-expert-24-7-virtual-reception/",
+      "destination": "/blog/virtual-receptionist-vs-front-desk-optometry/",
       "permanent": true
     },
     {
       "source": "/optometry-calls-expert-24-7-virtual-reception/",
-      "destination": "/blog/optometry-calls-expert-24-7-virtual-reception/",
+      "destination": "/blog/virtual-receptionist-vs-front-desk-optometry/",
       "permanent": true
     },
     {
@@ -1609,12 +1609,12 @@
     },
     {
       "source": "/the-role-of-call-support-in-patient-satisfaction",
-      "destination": "/blog/the-role-of-call-support-in-patient-satisfaction/",
+      "destination": "/blog/call-handling-patient-experience-eye-care/",
       "permanent": true
     },
     {
       "source": "/the-role-of-call-support-in-patient-satisfaction/",
-      "destination": "/blog/the-role-of-call-support-in-patient-satisfaction/",
+      "destination": "/blog/call-handling-patient-experience-eye-care/",
       "permanent": true
     },
     {
@@ -3074,12 +3074,12 @@
     },
     {
       "source": "/optometry-calls-expert-24-7-virtual-reception/feed",
-      "destination": "/blog/optometry-calls-expert-24-7-virtual-reception/",
+      "destination": "/blog/virtual-receptionist-vs-front-desk-optometry/",
       "permanent": true
     },
     {
       "source": "/optometry-calls-expert-24-7-virtual-reception/feed/",
-      "destination": "/blog/optometry-calls-expert-24-7-virtual-reception/",
+      "destination": "/blog/virtual-receptionist-vs-front-desk-optometry/",
       "permanent": true
     },
     {
