@@ -1,0 +1,189 @@
+
+=== Forbidden Terms ===
+Status: PASSED
+[1mForbidden Terms Validator[0m
+
+Scanning 208 files...
+
+[32m✓ No forbidden terms detected[0m
+
+=== Meta Tags ===
+Status: PASSED
+[1mMeta Tag Validator[0m
+
+Validating 152 files...
+
+[32m✓ All meta tags valid[0m
+
+=== H1 Tags ===
+Status: PASSED
+[1mH1 Tag Validator[0m
+
+Validating 201 files...
+
+[33m⚠[0m src/pages/soc-2.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/pricing.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/index.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/hipaa-compliance.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/contact.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/ai-profile.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/content/blog/virtual-receptionist-vs-front-desk-optometry.md
+  Title (used as H1) is 72 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/veterinary-emergency-triage-protocols.md
+  Title (used as H1) is 75 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices.md
+  Title (used as H1) is 79 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/optometry-case-study-95-answer-rate.md
+  Title (used as H1) is 99 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/missed-calls-revenue-leak-multi-location-healthcare.md
+  Title (used as H1) is 81 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/kpi-dashboard-multi-location-intake.md
+  Title (used as H1) is 74 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/human-ai-hybrid-model-healthcare-intake.md
+  Title (used as H1) is 78 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices.md
+  Title (used as H1) is 82 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/guide-for-selling-your-optometry-practice.md
+  Title (used as H1) is 82 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team.md
+  Title (used as H1) is 75 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/dso-integration-playbook.md
+  Title (used as H1) is 79 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/dso-case-study-15-location-missed-calls.md
+  Title (used as H1) is 78 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology.md
+  Title (used as H1) is 86 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/centralized-vs-distributed-intake-framework.md
+  Title (used as H1) is 78 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care.md
+  Title (used as H1) is 81 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/blog-reduce-administrative-cost.md
+  Title (used as H1) is 75 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/benefits-of-hiring-remote-workers-for-optometry-business.md
+  Title (used as H1) is 86 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/ai-receptionist-vs-virtual-front-desk-answering-service.md
+  Title (used as H1) is 104 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/90-day-integration-playbook-healthcare-acquisitions.md
+  Title (used as H1) is 74 chars (max recommended: 70)
+
+[33m⚠[0m src/content/blog/5-signs-youre-ready-to-scale.md
+  Title (used as H1) is 113 chars (max recommended: 70)
+
+[33m⚠[0m src/pages/solutions/index.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/resources/index.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/industries/index.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/idoc-connections-2026/index.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/idoc-connections-2026/follow-up.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/idoc-connections-2026/booth.astro
+  No H1 tag found (may come from layout)
+
+[33m⚠[0m src/pages/blog/[slug].astro
+  No H1 tag found (may come from layout)
+
+[1mSummary:[0m
+  [31mErrors: 0[0m
+  [33mWarnings: 33[0m
+
+=== Enterprise Links ===
+Status: PASSED
+[1mEnterprise Links Validator[0m
+
+Scanning 194 source files...
+
+[1mEnterprise Pillar Page Links:[0m
+
+[32m✓[0m /enterprise/patient-access-center/
+  Links: 8/5 [32m(OK)[0m
+
+[32m✓[0m /enterprise/centralized-scheduling/
+  Links: 5/5 [32m(OK)[0m
+
+[32m✓[0m /enterprise/multi-location-recall/
+  Links: 5/5 [32m(OK)[0m
+
+[32m✓[0m /enterprise/reporting-qa/
+  Links: 6/5 [32m(OK)[0m
+
+[32m✓[0m /enterprise/dso/
+  Links: 9/5 [32m(OK)[0m
+
+[33m⚠[0m /enterprise/
+  Main enterprise landing page
+  Links: 8/10 [33m(needs 2 more)[0m
+
+[1mSummary:[0m
+  [32mPassing: 5[0m
+  [31mErrors: 0[0m
+  [33mWarnings: 1[0m
+
+=== Build ===
+Status: SUCCESS
+
+=== Schema Markup ===
+(requires build)
+Status: PASSED
+[1mSchema Markup Validator[0m
+
+Scanning 385 HTML files...
+
+
+[32m✓ All schemas valid[0m
+  Pages with schema: 207
+  Total schemas: 263
+
+=== Internal Links ===
+(requires build)
+Status: PASSED
+[1mInternal Link Validator[0m
+
+Scanning 385 HTML files...
+
+Found 53274 internal links
+
+[32m✓ All internal links valid[0m
+  Checked 423 unique paths
+
+=== Summary ===
+Total Errors: 0
+Report saved to: ./reports/seo-audit-2026-02-25.txt
+Completed at: Wed Feb 25 11:00:33 UTC 2026
