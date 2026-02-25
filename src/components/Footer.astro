@@ -63,7 +63,8 @@ const currentYear = new Date().getFullYear();
           <a href="/privacy-policy/">Privacy Policy</a>
           <a href="/terms/">Terms</a>
           <a href="/hipaa-compliance/">HIPAA Compliance</a>
-          <a href="/soc-2/">Security Controls</a>
+          <!-- Hidden from footer navigation (page remains live; do not delete) -->
+          <a href="/soc-2/" class="footer-hidden">Security Controls</a>
           <a href="/gdpr/">GDPR</a>
           <a href="/ai-profile/">AI Profile</a>
         </div>
@@ -151,6 +152,11 @@ const currentYear = new Date().getFullYear();
 
   .footer-column a:hover {
     color: var(--copper-500);
+  }
+
+  /* Hide specific footer links without deleting them */
+  .footer-hidden {
+    display: none !important;
   }
 
   .footer-bottom {
