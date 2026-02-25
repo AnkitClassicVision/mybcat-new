@@ -549,7 +549,7 @@ Centralizing patient recall across multiple locations delivers measurable improv
 
 **The bottom line:** Centralized recall is not about removing local ownership. It is about providing every location with enterprise-grade tools, expertise, and support to achieve consistently excellent results.
 
-For the front desk workflow that complements centralized recall, see our front desk recall workflow guide. For strategies specific to DSOs, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
+For the front desk workflow that complements centralized recall, see our [front desk recall workflow guide](/blog/front-desk-recall-workflow/). For strategies specific to DSOs, review our [DSO patient retention strategy guide](/blog/dso-patient-retention-strategy/).
 For enterprise groups managing recall across 3+ locations, explore our [multi-location recall solution](/enterprise/multi-location-recall/).
 
 ## Related Reading

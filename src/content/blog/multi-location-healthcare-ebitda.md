@@ -233,7 +233,7 @@ Prioritize retention initiatives by EBITDA impact:
 
 ### Tier 1: High EBITDA Impact, Low Cost
 
-Pre-appointment scheduling is the highest-impact, lowest-cost retention initiative available. By training the front desk to schedule the next visit before the patient leaves, practices can reduce recall outreach costs by 20 to 40 percent and lift EBITDA by 1 to 2 percent of revenue. The investment is minimal since it requires only a workflow change and consistent measurement of pre-scheduling compliance. Practices that implement effective front desk recall workflows see immediate improvements in their recall rates.
+Pre-appointment scheduling is the highest-impact, lowest-cost retention initiative available. By training the front desk to schedule the next visit before the patient leaves, practices can reduce recall outreach costs by 20 to 40 percent and lift EBITDA by 1 to 2 percent of revenue. The investment is minimal since it requires only a workflow change and consistent measurement of pre-scheduling compliance. Practices that implement effective [front desk recall workflows](/blog/front-desk-recall-workflow/) see immediate improvements in their recall rates.
 
 Automated recall sequences represent the next tier of impact. For $500 to $2,000 per month in platform costs, practices can achieve a 10 to 15 percent improvement in recall compliance through configured SMS and email sequences that fire at predetermined intervals. The EBITDA lift ranges from 0.5 to 1 percent of revenue, and the implementation involves configuring the communication platform with approved message templates and timing rules.
 
