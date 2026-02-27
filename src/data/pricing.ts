@@ -69,7 +69,7 @@ export const pricingTiers: PricingTier[] = [
       '30-day pilot available',
       'Custom integrations'
     ],
-    ctaText: 'Talk to Enterprise Team',
+    ctaText: 'Get Started',
     ctaHref: '/contact/',
     popular: false
   }

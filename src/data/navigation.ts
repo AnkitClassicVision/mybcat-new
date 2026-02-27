@@ -168,7 +168,7 @@ export const footerNavigation = {
 
 // CTA button configuration
 export const ctaButton = {
-  label: 'Talk to Enterprise Team',
+  label: 'Get Started',
   href: '/contact/',
   mobileLabel: 'Contact Us'
 };
