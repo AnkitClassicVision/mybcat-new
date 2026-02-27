@@ -6,7 +6,7 @@
  * and updates their status from 'scheduled' to 'published'.
  *
  * Safeguards:
- *   - Publish cap: MAX_DAILY_PUBLISH (default 2, override with --force)
+ *   - Publish cap: MAX_DAILY_PUBLISH (default 1, override with --force)
  *   - Pre-publish quality gate: posts that fail content quality checks are skipped
  *   - Cross-link auto-restore: re-activates deactivated links when targets are published
  *
@@ -26,7 +26,7 @@ const BLOG_DIR = path.join(__dirname, '..', 'src', 'content', 'blog');
 const DEACTIVATED_LINKS_PATH = path.join(__dirname, 'config', 'deactivated-links.json');
 const QUALITY_RULES_PATH = path.join(__dirname, 'config', 'content-quality-rules.json');
 
-const MAX_DAILY_PUBLISH = 2;
+const MAX_DAILY_PUBLISH = 1;
 const today = new Date().toISOString().split('T')[0];
 
 const args = process.argv.slice(2);
