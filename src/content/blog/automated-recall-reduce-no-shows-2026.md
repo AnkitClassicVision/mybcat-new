@@ -6,6 +6,7 @@ scheduledDate: 2026-03-03
 status: scheduled
 author: Ankit Patel
 category: recall-reactivation
+cluster: patient-recall
 tags:
   - "automated patient recall system"
   - "patient recall software"

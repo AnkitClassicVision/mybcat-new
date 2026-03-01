@@ -6,6 +6,7 @@ scheduledDate: 2026-03-02
 status: scheduled
 author: Ankit Patel
 category: recall-reactivation
+cluster: patient-recall
 tags:
   - "patient reactivation campaigns"
   - "dormant patient outreach"

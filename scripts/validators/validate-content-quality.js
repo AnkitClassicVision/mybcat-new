@@ -83,8 +83,8 @@ function calculateProseDensity(body) {
     }
     if (inCodeFence) continue;
 
-    // Skip Table of Contents section (navigational, not content)
-    if (type === 'heading' && /^##\s+table of contents/i.test(line.trim())) {
+    // Skip Table of Contents / What You'll Learn section (navigational, not content)
+    if (type === 'heading' && /^##\s+(table of contents|what you'll learn)/i.test(line.trim())) {
       inTOC = true;
       continue;
     }
@@ -230,7 +230,7 @@ function checkH2QuestionRatio(body) {
  */
 function checkTOC(body, wordCount, threshold) {
   const needsTOC = wordCount >= threshold;
-  const hasTOC = /^## Table of Contents$/m.test(body);
+  const hasTOC = /^## (Table of Contents|What You'll Learn)$/m.test(body);
   return { hasTOC, wordCount, needsTOC };
 }
 

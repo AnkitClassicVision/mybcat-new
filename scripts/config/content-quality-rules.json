@@ -4,7 +4,7 @@
     "minProseDensity": 0.6,
     "minExternalCitations": 2,
     "minInternalLinks": 5,
-    "minWordCountForTOC": 2000,
+    "minWordCountForTOC": 1500,
     "minH2QuestionRatio": 0.70,
     "legacyCutoffDate": "2026-01-01"
   },
@@ -14,7 +14,9 @@
   "ctaPatterns": [
     "hubspot.com",
     "/contact/",
-    "meetings.hubspot.com"
+    "meetings.hubspot.com",
+    "hubspot.mybcat.com",
+    "openhubspotmodal"
   ],
   "bannedPhrases": {
     "hardFail": [],
