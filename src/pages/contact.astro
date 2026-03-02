@@ -92,11 +92,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
                   </select>
                 </div>
                 <input type="hidden" name="utm_source" id="cf-utm-source" />
-                <div id="form-submit-error" class="form-submit-error" hidden></div>
-                <button type="submit" id="cf-submit">
-                  <span id="cf-submit-text">Schedule Discovery Call</span>
-                  <span id="cf-submit-loading" hidden aria-live="polite">Submitting...</span>
-                </button>
+                <button type="submit" id="cf-submit">Schedule Discovery Call</button>
                 <p class="form-legal">By submitting, you agree to our <a href="/privacy/">Privacy Policy</a>. We'll never share your information.</p>
               </form>
             </div>
@@ -413,15 +409,6 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     display: block;
   }
 
-  .form-submit-error {
-    padding: 12px 16px;
-    background: #fff5f5;
-    border: 1px solid #fecaca;
-    border-radius: 8px;
-    color: #dc3545;
-    font-size: 14px;
-  }
-
   #cf-submit {
     width: 100%;
     padding: 14px 24px;
@@ -441,12 +428,6 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     background: var(--navy-900);
     transform: translateY(-2px);
     box-shadow: 0 4px 20px rgba(211, 175, 94, 0.5);
-  }
-
-  #cf-submit:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
-    transform: none;
   }
 
   .form-legal {
@@ -824,8 +805,8 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   }
 </style>
 
-<!-- Contact Form — Native fetch submission, instant post-submit swap -->
-<script>
+<!-- Contact Form — optimistic UI: show calendar instantly, submit to HubSpot in background -->
+<script is:inline>
 (function () {
   var PORTAL_ID = '23344341';
   var FORM_ID = 'a365996f-87cf-4a60-8782-9dabb9f9dd97';
@@ -849,88 +830,77 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
 
   function showPostSubmitState(values) {
     var formContent = document.getElementById('form-content');
-    var postSubmit = document.getElementById('post-submit-state');
-    var iframe = document.getElementById('meetings-iframe');
-    var fallback = document.getElementById('meetings-fallback');
+    var postSubmit  = document.getElementById('post-submit-state');
+    var iframe      = document.getElementById('meetings-iframe');
     var fallbackLink = document.getElementById('meetings-fallback-link');
-    if (!formContent || !postSubmit) return;
+    if (!formContent || !postSubmit || !iframe || !fallbackLink) return;
 
-    // Set iframe src before showing (starts loading in background)
     iframe.src = buildMeetingsUrl(MEETINGS_URL, values);
     fallbackLink.href = buildMeetingsUrl(MEETINGS_FALLBACK_URL, values);
 
-    iframe.addEventListener('error', function () {
-      iframe.hidden = true;
-      fallback.hidden = false;
-    });
-
-    // Instant swap — no delay
     formContent.style.display = 'none';
     postSubmit.removeAttribute('aria-hidden');
     postSubmit.style.display = 'block';
   }
 
-  // Pre-fill UTM source from URL params
-  var searchParams = new URLSearchParams(window.location.search);
-  var utmField = document.getElementById('cf-utm-source');
-  if (utmField && searchParams.get('utm_source')) {
-    utmField.value = searchParams.get('utm_source');
+  function submitToHubSpot(fields) {
+    var payload = {
+      fields: fields,
+      context: { hutk: getCookie('hubspotutk'), pageUri: window.location.href, pageName: document.title }
+    };
+    fetch('https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_ID, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).catch(function (err) {
+      // Silent background failure — user already sees the calendar
+      console.warn('[MyBCAT] HubSpot background submission failed:', err);
+    });
   }
+
+  // Pre-fill UTM source from URL
+  var sp = new URLSearchParams(window.location.search);
+  var utmField = document.getElementById('cf-utm-source');
+  if (utmField && sp.get('utm_source')) utmField.value = sp.get('utm_source');
 
   var form = document.getElementById('contact-form');
   if (!form) return;
 
   form.addEventListener('submit', function (e) {
-    // Stop the event completely — prevents HubSpot tracking script from intercepting
     e.preventDefault();
     e.stopImmediatePropagation();
 
-    // Clear previous error states
+    // Clear errors
     form.querySelectorAll('.invalid').forEach(function (el) { el.classList.remove('invalid'); });
     form.querySelectorAll('.field-error').forEach(function (el) { el.textContent = ''; el.classList.remove('visible'); });
-    var submitError = document.getElementById('form-submit-error');
-    if (submitError) submitError.hidden = true;
 
-    // Validate required fields
+    // Validate
     var valid = true;
-    var required = [
+    [
       { id: 'cf-firstname', errId: 'err-firstname', msg: 'First name is required.' },
       { id: 'cf-lastname',  errId: 'err-lastname',  msg: 'Last name is required.' },
       { id: 'cf-email',     errId: 'err-email',     msg: 'A valid email address is required.' }
-    ];
-
-    required.forEach(function (field) {
-      var el = document.getElementById(field.id);
+    ].forEach(function (f) {
+      var el = document.getElementById(f.id);
       if (!el) return;
       var val = el.value.trim();
-      var isInvalid = !val;
-      if (el.type === 'email' && val) {
-        isInvalid = !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val);
-      }
-      if (isInvalid) {
+      var bad = !val || (el.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val));
+      if (bad) {
         valid = false;
         el.classList.add('invalid');
-        var err = document.getElementById(field.errId);
-        if (err) { err.textContent = field.msg; err.classList.add('visible'); }
+        var err = document.getElementById(f.errId);
+        if (err) { err.textContent = f.msg; err.classList.add('visible'); }
       }
     });
-
     if (!valid) return;
 
-    // Capture values before async — fields may be gone after swap
-    var firstName = document.getElementById('cf-firstname').value.trim();
-    var lastName  = document.getElementById('cf-lastname').value.trim();
-    var email     = document.getElementById('cf-email').value.trim();
+    // Capture values before DOM swap removes the form fields
+    var firstName = (document.getElementById('cf-firstname') || {}).value || '';
+    var lastName  = (document.getElementById('cf-lastname')  || {}).value || '';
+    var email     = (document.getElementById('cf-email')     || {}).value || '';
+    firstName = firstName.trim(); lastName = lastName.trim(); email = email.trim();
 
-    // Show loading state
-    var submitBtn = document.getElementById('cf-submit');
-    var submitText = document.getElementById('cf-submit-text');
-    var submitLoading = document.getElementById('cf-submit-loading');
-    submitBtn.disabled = true;
-    if (submitText) submitText.hidden = true;
-    if (submitLoading) submitLoading.hidden = false;
-
-    // Build HubSpot fields array
+    // Build fields
     var fields = [
       { objectTypeId: '0-1', name: 'firstname', value: firstName },
       { objectTypeId: '0-1', name: 'lastname',  value: lastName },
@@ -940,41 +910,16 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     if (phone && phone.value.trim()) fields.push({ objectTypeId: '0-1', name: 'mobilephone', value: phone.value.trim() });
     var website = document.getElementById('cf-website');
     if (website && website.value.trim()) fields.push({ objectTypeId: '0-2', name: 'website', value: website.value.trim() });
-    var locations = document.getElementById('cf-locations');
-    if (locations && locations.value) fields.push({ objectTypeId: '0-1', name: 'number_of_locations', value: locations.value });
-    var utmSource = document.getElementById('cf-utm-source');
-    if (utmSource && utmSource.value) fields.push({ objectTypeId: '0-1', name: 'utm_source', value: utmSource.value });
+    var locs = document.getElementById('cf-locations');
+    if (locs && locs.value) fields.push({ objectTypeId: '0-1', name: 'number_of_locations', value: locs.value });
+    var utm = document.getElementById('cf-utm-source');
+    if (utm && utm.value) fields.push({ objectTypeId: '0-1', name: 'utm_source', value: utm.value });
 
-    var payload = {
-      fields: fields,
-      context: {
-        hutk: getCookie('hubspotutk'),
-        pageUri: window.location.href,
-        pageName: document.title
-      }
-    };
+    // 1. Show calendar immediately — no waiting
+    showPostSubmitState({ firstName: firstName, lastName: lastName, email: email });
 
-    fetch('https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_ID, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    })
-    .then(function (res) {
-      if (!res.ok) return res.json().then(function (d) { throw new Error((d && d.message) || res.status); });
-      return res.json();
-    })
-    .then(function () {
-      showPostSubmitState({ firstName: firstName, lastName: lastName, email: email });
-    })
-    .catch(function () {
-      submitBtn.disabled = false;
-      if (submitText) submitText.hidden = false;
-      if (submitLoading) submitLoading.hidden = true;
-      if (submitError) {
-        submitError.textContent = 'Something went wrong. Please try again or email us directly at hello@mybcat.com.';
-        submitError.hidden = false;
-      }
-    });
-  }, true); // capture phase — runs before any other listeners
+    // 2. Send to HubSpot silently in the background
+    submitToHubSpot(fields);
+  }, true);
 })();
 </script>
