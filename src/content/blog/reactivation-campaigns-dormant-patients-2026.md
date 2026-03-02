@@ -1,25 +1,27 @@
 ---
 title: Reactivation Campaigns That Win Back Dormant Patients
-description: >-
-  Recover 15-25% of dormant patients with a tiered 30-day reactivation playbook.
-  Cost just $5-15/patient vs $100-300 acquisition. Get the DSO-proven framework.
+description: Recover 15-25% of dormant patients with a tiered 30-day reactivation
+  playbook. Cost just $5-15/patient vs $100-300 acquisition. Get the DSO-proven framework.
 publishDate: '2026-03-02T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: recall-reactivation
 cluster: patient-recall
 tags:
-  - patient reactivation campaigns
-  - dormant patient outreach
-  - patient recall strategies
-  - DSO operations
-  - healthcare retention
+- patient reactivation campaigns
+- dormant patient outreach
+- patient recall strategies
+- DSO operations
+- healthcare retention
 featuredImage: /images/blog/reactivation-campaigns-dormant-patients-2026.webp
-canonical: 'https://mybcat.com/blog/reactivation-campaigns-dormant-patients-2026/'
+canonical: https://mybcat.com/blog/reactivation-campaigns-dormant-patients-2026/
 seoTitle: 'Patient Reactivation Campaigns: Win Back Dormant Patients'
-seoDescription: >-
-  Recover 15-25% of dormant patients with a tiered 30-day reactivation playbook.
-  Cost just $5-15/patient vs $100-300 acquisition. Get the DSO-proven framework.
+seoDescription: Recover 15-25% of dormant patients with a tiered 30-day reactivation
+  playbook. Cost just $5-15/patient vs $100-300 acquisition. Get the DSO-proven framework.
+relatedPosts:
+- front-desk-recall-workflow
+- reactivation-without-discounts
+- case-study-dormant-patient-recovery
 ---
 
 Your database holds $150,000 to $400,000 in dormant patient revenue per location, assuming 3-4 campaign cycles annually. Recovery costs $5-15 per patient compared to $100-300 for new acquisition. Yet most multi-location groups recover just 3-8% of inactive patients because they treat reactivation as a marketing campaign instead of operational infrastructure. This guide provides the tiered playbook that top-performing DSOs use to achieve 15-25% recovery rates across all locations.
@@ -207,6 +209,12 @@ Success in patient reactivation campaigns comes from treating the work as operat
 *Need help reactivating dormant patients across your locations? [Schedule a consultation](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to learn how MyBCAT's reactivation campaigns recover 15-25% of inactive patients for multi-location healthcare groups.*
 
 ---
+
+## Related Reading
+
+- [Front Desk Recall Workflow: A Simple Weekly Routine That Works](/blog/front-desk-recall-workflow/)
+- [Reactivation Without Discounts: Scripts and Offers That Work](/blog/reactivation-without-discounts/)
+- [Case Study: 12-Location Optometry Group Recovered $312K](/blog/case-study-dormant-patient-recovery/)
 
 ## Sources
 
