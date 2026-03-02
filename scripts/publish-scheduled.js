@@ -230,10 +230,27 @@ function restoreDeactivatedLinks(publishedSlugs) {
       continue;
     }
 
-    // Replace plainText with originalMarkdown (only first occurrence per entry)
-    sourceContent = sourceContent.replace(entry.plainText, entry.originalMarkdown);
+    // Replace plainText with originalMarkdown using context-aware match when available
+    let didRestore = false;
+
+    if (entry.contextBefore !== undefined && entry.contextAfter !== undefined) {
+      const ctxBefore = entry.contextBefore.replace(/↵/g, '\n');
+      const ctxAfter  = entry.contextAfter.replace(/↵/g, '\n');
+      const searchStr  = ctxBefore + entry.plainText + ctxAfter;
+      const replaceStr = ctxBefore + entry.originalMarkdown + ctxAfter;
+      if (sourceContent.includes(searchStr)) {
+        sourceContent = sourceContent.replace(searchStr, replaceStr);
+        didRestore = true;
+        console.log(`  Restored (context-match): ${entry.sourceSlug} → ${entry.targetSlug}`);
+      }
+    }
+
+    if (!didRestore) {
+      sourceContent = sourceContent.replace(entry.plainText, entry.originalMarkdown);
+      console.log(`  Restored (first-match fallback): ${entry.sourceSlug} → ${entry.targetSlug}`);
+    }
+
     fs.writeFileSync(sourcePath, sourceContent);
-    console.log(`  Restored: ${entry.sourceSlug} → ${entry.targetSlug}`);
     restored.push(entry);
   }
 
