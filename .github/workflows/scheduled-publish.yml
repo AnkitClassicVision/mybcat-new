@@ -48,6 +48,10 @@ jobs:
             git push
           fi
 
+      - name: Audit deactivated-links.json schema
+        run: node scripts/validators/validate-deactivated-links.js --verbose
+        continue-on-error: true
+
       - name: Run publish script
         run: node scripts/publish-scheduled.js
 
