@@ -26,10 +26,6 @@ const __dirname = path.dirname(__filename);
 
 const DEACTIVATED_LINKS_PATH = path.join(__dirname, 'config', 'deactivated-links.json');
 
-const args = process.argv.slice(2);
-const dryRun = args.includes('--dry-run');
-const verbose = args.includes('--verbose') || args.includes('-v');
-
 const colors = {
   red: '\x1b[31m',
   green: '\x1b[32m',
@@ -39,131 +35,142 @@ const colors = {
   bold: '\x1b[1m'
 };
 
-console.log(`${colors.bold}Auto-Deactivate Broken Cross-Links${colors.reset}`);
-if (dryRun) console.log(`${colors.cyan}(dry-run mode — no files will be modified)${colors.reset}`);
-console.log();
+function main() {
+  const args = process.argv.slice(2);
+  const dryRun = args.includes('--dry-run');
+  const verbose = args.includes('--verbose') || args.includes('-v');
 
-if (!fs.existsSync(BLOG_DIR)) {
-  console.log('No blog directory found.');
-  process.exit(0);
-}
+  console.log(`${colors.bold}Auto-Deactivate Broken Cross-Links${colors.reset}`);
+  if (dryRun) console.log(`${colors.cyan}(dry-run mode — no files will be modified)${colors.reset}`);
+  console.log();
 
-// Load existing deactivated links
-let deactivatedEntries = [];
-if (fs.existsSync(DEACTIVATED_LINKS_PATH)) {
-  try {
-    deactivatedEntries = JSON.parse(fs.readFileSync(DEACTIVATED_LINKS_PATH, 'utf-8'));
-  } catch {
-    console.log('Warning: Could not parse deactivated-links.json, starting fresh.');
-    deactivatedEntries = [];
+  if (!fs.existsSync(BLOG_DIR)) {
+    console.log('No blog directory found.');
+    process.exit(0);
   }
-}
 
-// Build a set of existing deactivations for idempotency
-const existingDeactivations = new Set(
-  deactivatedEntries.map(e => `${e.sourceSlug}::${e.originalMarkdown}`)
-);
+  // Load existing deactivated links
+  let deactivatedEntries = [];
+  if (fs.existsSync(DEACTIVATED_LINKS_PATH)) {
+    try {
+      deactivatedEntries = JSON.parse(fs.readFileSync(DEACTIVATED_LINKS_PATH, 'utf-8'));
+    } catch {
+      console.log('Warning: Could not parse deactivated-links.json, starting fresh.');
+      deactivatedEntries = [];
+    }
+  }
 
-const index = buildPostIndex(BLOG_DIR);
-const today = new Date().toISOString().split('T')[0];
+  // Build a set of existing deactivations for idempotency
+  const existingDeactivations = new Set(
+    deactivatedEntries.map(e => `${e.sourceSlug}::${e.originalMarkdown}`)
+  );
 
-const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+  const index = buildPostIndex(BLOG_DIR);
+  const today = new Date().toISOString().split('T')[0];
 
-let deactivatedCount = 0;
-let skippedCount = 0;
-const newEntries = [];
+  const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
 
-for (const file of files) {
-  const filePath = path.join(BLOG_DIR, file);
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const { data, content: body } = matter(raw);
-  const sourceSlug = file.replace(/\.(md|mdx)$/, '');
+  let deactivatedCount = 0;
+  let skippedCount = 0;
+  const newEntries = [];
 
-  // Only scan published posts
-  if (data.status !== 'published') continue;
+  for (const file of files) {
+    const filePath = path.join(BLOG_DIR, file);
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    const { data, content: body } = matter(raw);
+    const sourceSlug = file.replace(/\.(md|mdx)$/, '');
 
-  const links = extractBlogLinks(body);
-  const toDeactivate = [];
+    // Only scan published posts
+    if (data.status !== 'published') continue;
 
-  for (const link of links) {
-    const target = index.get(link.slug);
-    const isBroken = !target || !isPublishedOrLiveToday(target, today);
+    const links = extractBlogLinks(body);
+    const toDeactivate = [];
 
-    if (!isBroken) continue;
+    for (const link of links) {
+      const target = index.get(link.slug);
+      const isBroken = !target || !isPublishedOrLiveToday(target, today);
 
-    // Check idempotency
-    if (existingDeactivations.has(`${sourceSlug}::${link.fullMatch}`)) {
-      skippedCount++;
-      if (verbose) {
-        console.log(`  Skip (already deactivated): ${sourceSlug} → ${link.slug}`);
+      if (!isBroken) continue;
+
+      // Check idempotency
+      if (existingDeactivations.has(`${sourceSlug}::${link.fullMatch}`)) {
+        skippedCount++;
+        if (verbose) {
+          console.log(`  Skip (already deactivated): ${sourceSlug} → ${link.slug}`);
+        }
+        continue;
       }
-      continue;
+
+      toDeactivate.push(link);
     }
 
-    toDeactivate.push(link);
-  }
+    if (toDeactivate.length === 0) continue;
 
-  if (toDeactivate.length === 0) continue;
+    // Process deactivations for this file
+    let fileContent = raw;
 
-  // Process deactivations for this file
-  let fileContent = raw;
+    for (const link of toDeactivate) {
+      const pos = fileContent.indexOf(link.fullMatch);
+      if (pos === -1) {
+        console.log(`  ${colors.yellow}Warning: Could not find "${link.fullMatch}" in ${file}${colors.reset}`);
+        continue;
+      }
 
-  for (const link of toDeactivate) {
-    const pos = fileContent.indexOf(link.fullMatch);
-    if (pos === -1) {
-      console.log(`  ${colors.yellow}Warning: Could not find "${link.fullMatch}" in ${file}${colors.reset}`);
-      continue;
+      const CTX = 60;
+      const contextBefore = fileContent
+        .substring(Math.max(0, pos - CTX), pos)
+        .replace(/\n/g, '↵');
+      const contextAfter = fileContent
+        .substring(pos + link.fullMatch.length,
+                   Math.min(fileContent.length, pos + link.fullMatch.length + CTX))
+        .replace(/\n/g, '↵');
+
+      // Replace fullMatch with plain text (only this occurrence via indexOf)
+      fileContent = fileContent.substring(0, pos) + link.text + fileContent.substring(pos + link.fullMatch.length);
+
+      const entry = {
+        sourceSlug,
+        targetSlug: link.slug,
+        originalMarkdown: link.fullMatch,
+        plainText: link.text,
+        contextBefore,
+        contextAfter
+      };
+
+      newEntries.push(entry);
+      deactivatedCount++;
+
+      const reason = index.has(link.slug)
+        ? `target is ${index.get(link.slug).status}`
+        : 'target not found';
+      console.log(`  ${colors.red}Deactivated:${colors.reset} ${sourceSlug} → /blog/${link.slug}/ (${reason})`);
     }
 
-    const CTX = 60;
-    const contextBefore = fileContent
-      .substring(Math.max(0, pos - CTX), pos)
-      .replace(/\n/g, '↵');
-    const contextAfter = fileContent
-      .substring(pos + link.fullMatch.length,
-                 Math.min(fileContent.length, pos + link.fullMatch.length + CTX))
-      .replace(/\n/g, '↵');
-
-    // Replace fullMatch with plain text (only this occurrence via indexOf)
-    fileContent = fileContent.substring(0, pos) + link.text + fileContent.substring(pos + link.fullMatch.length);
-
-    const entry = {
-      sourceSlug,
-      targetSlug: link.slug,
-      originalMarkdown: link.fullMatch,
-      plainText: link.text,
-      contextBefore,
-      contextAfter
-    };
-
-    newEntries.push(entry);
-    deactivatedCount++;
-
-    const reason = index.has(link.slug)
-      ? `target is ${index.get(link.slug).status}`
-      : 'target not found';
-    console.log(`  ${colors.red}Deactivated:${colors.reset} ${sourceSlug} → /blog/${link.slug}/ (${reason})`);
+    if (!dryRun && deactivatedCount > 0) {
+      fs.writeFileSync(filePath, fileContent);
+    }
   }
 
-  if (!dryRun && deactivatedCount > 0) {
-    fs.writeFileSync(filePath, fileContent);
+  // Update deactivated-links.json
+  if (newEntries.length > 0 && !dryRun) {
+    const updated = [...deactivatedEntries, ...newEntries];
+    fs.writeFileSync(DEACTIVATED_LINKS_PATH, JSON.stringify(updated, null, 2) + '\n');
+  }
+
+  // Summary
+  console.log();
+  console.log(`${colors.bold}Summary:${colors.reset}`);
+  console.log(`  Deactivated: ${deactivatedCount}`);
+  console.log(`  Skipped (already deactivated): ${skippedCount}`);
+  if (dryRun && deactivatedCount > 0) {
+    console.log(`  ${colors.cyan}(dry-run — no changes written)${colors.reset}`);
+  }
+  if (deactivatedCount === 0 && skippedCount === 0) {
+    console.log(`  ${colors.green}No broken cross-links found.${colors.reset}`);
   }
 }
 
-// Update deactivated-links.json
-if (newEntries.length > 0 && !dryRun) {
-  const updated = [...deactivatedEntries, ...newEntries];
-  fs.writeFileSync(DEACTIVATED_LINKS_PATH, JSON.stringify(updated, null, 2) + '\n');
-}
-
-// Summary
-console.log();
-console.log(`${colors.bold}Summary:${colors.reset}`);
-console.log(`  Deactivated: ${deactivatedCount}`);
-console.log(`  Skipped (already deactivated): ${skippedCount}`);
-if (dryRun && deactivatedCount > 0) {
-  console.log(`  ${colors.cyan}(dry-run — no changes written)${colors.reset}`);
-}
-if (deactivatedCount === 0 && skippedCount === 0) {
-  console.log(`  ${colors.green}No broken cross-links found.${colors.reset}`);
+const isDirectRun = process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1]);
+if (isDirectRun) {
+  main();
 }
