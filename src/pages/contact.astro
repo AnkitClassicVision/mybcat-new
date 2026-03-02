@@ -23,14 +23,10 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   heroTitle="Scaling Multi-Location Operations? Let's Talk."
   heroSubtitle="Tell us about your group and we'll show you how centralized patient access works across 3, 10, or 50+ locations-with unified reporting and one team that knows your protocols."
 >
-  <!-- Preconnect to HubSpot for faster form loading -->
-  <link rel="preconnect" href="https://js.hsforms.net" slot="head" />
-  <link rel="preconnect" href="https://forms.hsforms.com" slot="head" />
-  <link rel="preconnect" href="https://js.hscta.net" slot="head" />
-  <link rel="dns-prefetch" href="https://js.hsforms.net" slot="head" />
-  <link rel="dns-prefetch" href="https://forms.hsforms.com" slot="head" />
+  <!-- Preconnect to HubSpot meetings for faster iframe loading -->
   <link rel="dns-prefetch" href="https://hubspot.mybcat.com" slot="head" />
   <link rel="dns-prefetch" href="https://meetings.hubspot.com" slot="head" />
+  <link rel="preconnect" href="https://api.hsforms.com" slot="head" />
   <!-- Organization schema with PostalAddress for local search visibility -->
   <script type="application/ld+json" set:html={serializeSchema(generateOrganizationSchema())} slot="head" />
   <div class="contact-page">
@@ -57,18 +53,52 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
               Tell us about your group and we'll reach out within 24 hours to discuss your centralized patient access strategy.
             </p>
             <div class="hubspot-form-wrapper">
-              <!-- Loading skeleton shown while form loads -->
-              <div class="form-skeleton" id="form-skeleton">
-                <div class="skeleton-row">
-                  <div class="skeleton-field"></div>
-                  <div class="skeleton-field"></div>
+              <!-- Native contact form — submits directly to HubSpot Submissions API -->
+              <form id="contact-form" novalidate>
+                <div class="form-row">
+                  <div class="form-field">
+                    <label for="cf-firstname">First Name <span class="required-mark" aria-hidden="true">*</span></label>
+                    <input type="text" id="cf-firstname" name="firstname" required autocomplete="given-name" placeholder="Sarah" />
+                    <span class="field-error" id="err-firstname"></span>
+                  </div>
+                  <div class="form-field">
+                    <label for="cf-lastname">Last Name <span class="required-mark" aria-hidden="true">*</span></label>
+                    <input type="text" id="cf-lastname" name="lastname" required autocomplete="family-name" placeholder="Chen" />
+                    <span class="field-error" id="err-lastname"></span>
+                  </div>
                 </div>
-                <div class="skeleton-field full"></div>
-                <div class="skeleton-field full"></div>
-                <div class="skeleton-field full short"></div>
-                <div class="skeleton-button"></div>
-              </div>
-              <div id="hubspot-form-target"></div>
+                <div class="form-field">
+                  <label for="cf-email">Work Email <span class="required-mark" aria-hidden="true">*</span></label>
+                  <input type="email" id="cf-email" name="email" required autocomplete="email" placeholder="sarah@yourpractice.com" />
+                  <span class="field-error" id="err-email"></span>
+                </div>
+                <div class="form-field">
+                  <label for="cf-phone">Phone Number</label>
+                  <input type="tel" id="cf-phone" name="mobilephone" autocomplete="tel" placeholder="(555) 000-0000" />
+                </div>
+                <div class="form-field">
+                  <label for="cf-website">Company Website</label>
+                  <input type="text" id="cf-website" name="website" autocomplete="url" placeholder="https://yourpractice.com" />
+                </div>
+                <div class="form-field">
+                  <label for="cf-locations">Number of Locations</label>
+                  <select id="cf-locations" name="number_of_locations">
+                    <option value="">Select range...</option>
+                    <option value="3-5">3–5 locations</option>
+                    <option value="6-10">6–10 locations</option>
+                    <option value="11-25">11–25 locations</option>
+                    <option value="26-50">26–50 locations</option>
+                    <option value="50+">50+ locations</option>
+                  </select>
+                </div>
+                <input type="hidden" name="utm_source" id="cf-utm-source" />
+                <div id="form-submit-error" class="form-submit-error" hidden></div>
+                <button type="submit" id="cf-submit">
+                  <span id="cf-submit-text">Schedule Discovery Call</span>
+                  <span id="cf-submit-loading" hidden aria-live="polite">Submitting...</span>
+                </button>
+                <p class="form-legal">By submitting, you agree to our <a href="/privacy/">Privacy Policy</a>. We'll never share your information.</p>
+              </form>
             </div>
           </div>
 
@@ -305,86 +335,41 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
 
   .hubspot-form-wrapper {
     margin-top: 24px;
-    position: relative;
-    min-height: 350px;
   }
 
-  /* Loading Skeleton */
-  .form-skeleton {
+  /* Native contact form */
+  #contact-form {
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
 
-  .form-skeleton.hidden {
-    display: none;
-  }
-
-  .skeleton-row {
+  .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
   }
 
-  .skeleton-field {
-    height: 48px;
-    background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
-    background-size: 200% 100%;
-    animation: skeleton-loading 1.5s infinite;
-    border-radius: 8px;
-  }
-
-  .skeleton-field.full {
-    width: 100%;
-  }
-
-  .skeleton-field.short {
-    width: 60%;
-  }
-
-  .skeleton-button {
-    height: 50px;
-    background: linear-gradient(90deg, var(--glass-teal) 25%, rgba(0, 96, 100, 0.15) 50%, var(--glass-teal) 75%);
-    background-size: 200% 100%;
-    animation: skeleton-loading 1.5s infinite;
-    border-radius: 8px;
-    margin-top: 8px;
-  }
-
-  @keyframes skeleton-loading {
-    0% { background-position: 200% 0; }
-    100% { background-position: -200% 0; }
-  }
-
-  /* HubSpot Form Styling */
-  :global(.hs-form-html) {
-    width: 100%;
-  }
-
-  :global(.hs-form-html form) {
+  .form-field {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 6px;
   }
 
-  :global(.hs-form-html .hs-form-field) {
-    margin-bottom: 0;
-  }
-
-  :global(.hs-form-html label) {
-    display: block;
+  .form-field label {
     font-size: 14px;
     font-weight: 600;
     color: var(--navy-900);
-    margin-bottom: 6px;
   }
 
-  :global(.hs-form-html input[type="text"]),
-  :global(.hs-form-html input[type="email"]),
-  :global(.hs-form-html input[type="tel"]),
-  :global(.hs-form-html input[type="number"]),
-  :global(.hs-form-html select),
-  :global(.hs-form-html textarea) {
+  .required-mark {
+    color: var(--oceanic-teal);
+  }
+
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form input[type="tel"],
+  #contact-form select {
     width: 100%;
     padding: 12px 16px;
     border: 1px solid var(--glass-border);
@@ -393,27 +378,51 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     color: var(--navy-900);
     background: white;
     transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    font-family: inherit;
   }
 
-  :global(.hs-form-html input:focus),
-  :global(.hs-form-html select:focus),
-  :global(.hs-form-html textarea:focus) {
+  #contact-form select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23006064' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 36px;
+  }
+
+  #contact-form input:focus,
+  #contact-form select:focus {
     outline: none;
     border-color: var(--oceanic-teal);
     box-shadow: 0 0 0 3px rgba(0, 96, 100, 0.1);
   }
 
-  :global(.hs-form-html textarea) {
-    min-height: 100px;
-    resize: vertical;
+  #contact-form input.invalid,
+  #contact-form select.invalid {
+    border-color: #dc3545;
   }
 
-  :global(.hs-form-html .hs-submit) {
-    margin-top: 8px;
+  .field-error {
+    font-size: 13px;
+    color: #dc3545;
+    display: none;
   }
 
-  :global(.hs-form-html input[type="submit"]),
-  :global(.hs-form-html .hs-button) {
+  .field-error.visible {
+    display: block;
+  }
+
+  .form-submit-error {
+    padding: 12px 16px;
+    background: #fff5f5;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    color: #dc3545;
+    font-size: 14px;
+  }
+
+  #cf-submit {
     width: 100%;
     padding: 14px 24px;
     background: var(--oceanic-teal);
@@ -423,44 +432,38 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    transition: background 0.2s, transform 0.2s;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    margin-top: 8px;
+    font-family: inherit;
   }
 
-  :global(.hs-form-html input[type="submit"]:hover),
-  :global(.hs-form-html .hs-button:hover) {
+  #cf-submit:hover:not(:disabled) {
     background: var(--navy-900);
     transform: translateY(-2px);
     box-shadow: 0 4px 20px rgba(211, 175, 94, 0.5);
   }
 
-  :global(.hs-form-html .hs-error-msgs) {
-    list-style: none;
-    padding: 0;
-    margin: 4px 0 0;
+  #cf-submit:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
   }
 
-  :global(.hs-form-html .hs-error-msgs li) {
-    color: #dc3545;
-    font-size: 13px;
-  }
-
-  :global(.hs-form-html .hs-richtext) {
-    font-size: 13px;
+  .form-legal {
+    font-size: 12px;
     color: var(--text-muted);
     line-height: 1.5;
-  }
-
-  :global(.hs-form-html .legal-consent-container) {
-    font-size: 13px;
-    color: var(--text-muted);
-  }
-
-  :global(.hs-form-html .submitted-message) {
     text-align: center;
-    padding: 40px 20px;
+    margin: 0;
+  }
+
+  .form-legal a {
     color: var(--oceanic-teal);
-    font-size: 1.1rem;
-    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .form-legal a:hover {
+    text-decoration: underline;
   }
 
   .contact-sidebar {
@@ -829,14 +832,25 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     #meetings-iframe {
       min-height: 800px;
     }
+
+    .form-row {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 
-<!-- HubSpot Form + Post-Submit Booking Flow -->
+<!-- Contact Form — Native fetch submission bypasses HubSpot's meetings redirect -->
 <script>
 (function () {
+  var PORTAL_ID = '23344341';
+  var FORM_ID = 'a365996f-87cf-4a60-8782-9dabb9f9dd97';
   var MEETINGS_URL = 'https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call?embed=true';
   var MEETINGS_FALLBACK_URL = 'https://meetings.hubspot.com/ankit98/mybcat-discovery-call?embed=true';
+
+  function getCookie(name) {
+    var match = document.cookie.match(new RegExp('(?:^|; )' + name.replace(/([.*+?^=!:${}()|[\]/\\])/g, '\\$1') + '=([^;]*)'));
+    return match ? decodeURIComponent(match[1]) : '';
+  }
 
   function buildMeetingsUrl(base, values) {
     var params = new URLSearchParams();
@@ -864,10 +878,6 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
       fallback.hidden = false;
     });
 
-    // Hide form skeleton if still showing
-    var skeleton = document.getElementById('form-skeleton');
-    if (skeleton) skeleton.classList.add('hidden');
-
     formContent.classList.add('fading');
     setTimeout(function () {
       formContent.style.display = 'none';
@@ -878,83 +888,133 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     }, 150);
   }
 
-  // --- Path 1: Returning from HubSpot redirect to /contact/?booked=true ---
-  // HubSpot form must be configured to redirect to: https://mybcat.com/contact/?booked=true
-  var urlParams = new URLSearchParams(window.location.search);
-  if (urlParams.get('booked') === 'true') {
-    history.replaceState({}, '', window.location.pathname); // clean URL
-    showPostSubmitState({
-      firstName: sessionStorage.getItem('hs_fn') || '',
-      lastName:  sessionStorage.getItem('hs_ln') || '',
-      email:     sessionStorage.getItem('hs_em') || ''
-    });
-    return; // skip form init — user already submitted
+  // Pre-fill UTM source from URL params
+  var searchParams = new URLSearchParams(window.location.search);
+  var utmField = document.getElementById('cf-utm-source');
+  if (utmField && searchParams.get('utm_source')) {
+    utmField.value = searchParams.get('utm_source');
   }
 
-  // --- Path 2: Normal page load — initialize form, listen for submission ---
+  var form = document.getElementById('contact-form');
+  if (!form) return;
 
-  // Store field values to sessionStorage on submit so they survive the redirect
-  window.addEventListener('message', function (event) {
-    if (!event.data || typeof event.data !== 'object') return;
-    if (event.data.type !== 'hsFormCallback') return;
-    var eventName = event.data.eventName;
-    var data = event.data.data;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
 
-    if (eventName === 'onFormSubmit' || eventName === 'onFormSubmitted') {
-      if (Array.isArray(data)) {
-        data.forEach(function (field) {
-          if (field.name === 'email')     sessionStorage.setItem('hs_em', field.value || '');
-          if (field.name === 'firstname') sessionStorage.setItem('hs_fn', field.value || '');
-          if (field.name === 'lastname')  sessionStorage.setItem('hs_ln', field.value || '');
-        });
-      } else if (data && data.submissionValues) {
-        sessionStorage.setItem('hs_em', data.submissionValues.email     || '');
-        sessionStorage.setItem('hs_fn', data.submissionValues.firstname || '');
-        sessionStorage.setItem('hs_ln', data.submissionValues.lastname  || '');
+    // Clear previous error states
+    form.querySelectorAll('.invalid').forEach(function (el) {
+      el.classList.remove('invalid');
+    });
+    form.querySelectorAll('.field-error').forEach(function (el) {
+      el.textContent = '';
+      el.classList.remove('visible');
+    });
+    var submitError = document.getElementById('form-submit-error');
+    if (submitError) submitError.hidden = true;
+
+    // Validate required fields
+    var valid = true;
+    var required = [
+      { id: 'cf-firstname', errId: 'err-firstname', msg: 'First name is required.' },
+      { id: 'cf-lastname',  errId: 'err-lastname',  msg: 'Last name is required.' },
+      { id: 'cf-email',     errId: 'err-email',     msg: 'A valid email address is required.' }
+    ];
+
+    required.forEach(function (field) {
+      var el = document.getElementById(field.id);
+      if (!el) return;
+      var val = el.value.trim();
+      var isInvalid = !val;
+      if (el.type === 'email' && val) {
+        isInvalid = !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val);
       }
+      if (isInvalid) {
+        valid = false;
+        el.classList.add('invalid');
+        var err = document.getElementById(field.errId);
+        if (err) {
+          err.textContent = field.msg;
+          err.classList.add('visible');
+        }
+      }
+    });
+
+    if (!valid) return;
+
+    // Disable submit button, show loading state
+    var submitBtn = document.getElementById('cf-submit');
+    var submitText = document.getElementById('cf-submit-text');
+    var submitLoading = document.getElementById('cf-submit-loading');
+    submitBtn.disabled = true;
+    if (submitText) submitText.hidden = true;
+    if (submitLoading) submitLoading.hidden = false;
+
+    // Build HubSpot fields array
+    var fields = [
+      { objectTypeId: '0-1', name: 'firstname', value: document.getElementById('cf-firstname').value.trim() },
+      { objectTypeId: '0-1', name: 'lastname',  value: document.getElementById('cf-lastname').value.trim() },
+      { objectTypeId: '0-1', name: 'email',     value: document.getElementById('cf-email').value.trim() }
+    ];
+
+    var phone = document.getElementById('cf-phone');
+    if (phone && phone.value.trim()) {
+      fields.push({ objectTypeId: '0-1', name: 'mobilephone', value: phone.value.trim() });
     }
+    var website = document.getElementById('cf-website');
+    if (website && website.value.trim()) {
+      fields.push({ objectTypeId: '0-2', name: 'website', value: website.value.trim() });
+    }
+    var locations = document.getElementById('cf-locations');
+    if (locations && locations.value) {
+      fields.push({ objectTypeId: '0-1', name: 'number_of_locations', value: locations.value });
+    }
+    var utmSource = document.getElementById('cf-utm-source');
+    if (utmSource && utmSource.value) {
+      fields.push({ objectTypeId: '0-1', name: 'utm_source', value: utmSource.value });
+    }
+
+    var payload = {
+      fields: fields,
+      context: {
+        hutk: getCookie('hubspotutk'),
+        pageUri: window.location.href,
+        pageName: document.title
+      }
+    };
+
+    var endpoint = 'https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_ID;
+
+    fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function (res) {
+      if (!res.ok) {
+        return res.json().then(function (d) {
+          throw new Error((d && d.message) || 'Submission failed. Status: ' + res.status);
+        });
+      }
+      return res.json();
+    })
+    .then(function () {
+      // Success — show thank-you + booking calendar inline
+      showPostSubmitState({
+        firstName: document.getElementById('cf-firstname').value.trim(),
+        lastName:  document.getElementById('cf-lastname').value.trim(),
+        email:     document.getElementById('cf-email').value.trim()
+      });
+    })
+    .catch(function () {
+      // Re-enable form and show error
+      submitBtn.disabled = false;
+      if (submitText) submitText.hidden = false;
+      if (submitLoading) submitLoading.hidden = true;
+      if (submitError) {
+        submitError.textContent = 'Something went wrong. Please try again or email us directly at hello@mybcat.com.';
+        submitError.hidden = false;
+      }
+    });
   });
-
-  // Skeleton fallback: hide after 5s regardless
-  setTimeout(function () {
-    var skeleton = document.getElementById('form-skeleton');
-    if (skeleton) skeleton.classList.add('hidden');
-  }, 5000);
-
-  // Initialize form — poll for hbspt since v2.js loads async after this script
-  function initForm() {
-    hbspt.forms.create({
-      region: 'na1',
-      portalId: '23344341',
-      formId: 'a365996f-87cf-4a60-8782-9dabb9f9dd97',
-      target: '#hubspot-form-target',
-      // Non-empty inlineMessage overrides the HubSpot meetings redirect connection.
-      // Our onFormSubmitted callback hides this immediately and shows our custom UI.
-      inlineMessage: '<p style="margin:0">Booking your time now...</p>',
-      onFormReady: function () {
-        var skeleton = document.getElementById('form-skeleton');
-        if (skeleton) skeleton.classList.add('hidden');
-      },
-      onFormSubmitted: function () {
-        showPostSubmitState({
-          firstName: sessionStorage.getItem('hs_fn') || '',
-          lastName:  sessionStorage.getItem('hs_ln') || '',
-          email:     sessionStorage.getItem('hs_em') || ''
-        });
-      }
-    });
-  }
-
-  var attempts = 0;
-  var poll = setInterval(function () {
-    attempts++;
-    if (window.hbspt && window.hbspt.forms) {
-      clearInterval(poll);
-      initForm();
-    } else if (attempts > 50) { // 5s timeout
-      clearInterval(poll);
-    }
-  }, 100);
 })();
 </script>
-<script src="https://js.hsforms.net/forms/embed/v2.js" async></script>
