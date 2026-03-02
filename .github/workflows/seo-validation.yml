@@ -49,6 +49,9 @@ jobs:
       - name: Validate Cross-Links
         run: npm run validate:cross-links
 
+      - name: Validate Deactivated-Links Schema
+        run: npm run validate:deactivated-links
+
       - name: Validate Publish Dates
         run: npm run validate:publish-dates
 

@@ -34,6 +34,7 @@
     "deactivate-links": "node scripts/deactivate-broken-links.js",
     "deactivate-links:dry": "node scripts/deactivate-broken-links.js --dry-run",
     "validate:cross-links": "node scripts/validators/validate-cross-links.js",
+    "validate:deactivated-links": "node scripts/validators/validate-deactivated-links.js",
     "validate:pipeline-stages": "node scripts/validators/validate-pipeline-stages.js",
     "validate:citations": "node scripts/validators/validate-citations.js",
     "evaluate-post": "node scripts/evaluate-post.js",

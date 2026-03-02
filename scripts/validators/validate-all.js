@@ -64,6 +64,11 @@ const VALIDATORS = [
     requiresBuild: false
   },
   {
+    name: 'Deactivated-Links Schema',
+    script: 'validate-deactivated-links.js',
+    requiresBuild: false
+  },
+  {
     name: 'Schema Markup',
     script: 'validate-schema.js',
     requiresBuild: true
