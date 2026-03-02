@@ -928,9 +928,19 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
       portalId: '23344341',
       formId: 'a365996f-87cf-4a60-8782-9dabb9f9dd97',
       target: '#hubspot-form-target',
+      // Non-empty inlineMessage overrides the HubSpot meetings redirect connection.
+      // Our onFormSubmitted callback hides this immediately and shows our custom UI.
+      inlineMessage: '<p style="margin:0">Booking your time now...</p>',
       onFormReady: function () {
         var skeleton = document.getElementById('form-skeleton');
         if (skeleton) skeleton.classList.add('hidden');
+      },
+      onFormSubmitted: function () {
+        showPostSubmitState({
+          firstName: sessionStorage.getItem('hs_fn') || '',
+          lastName:  sessionStorage.getItem('hs_ln') || '',
+          email:     sessionStorage.getItem('hs_em') || ''
+        });
       }
     });
   }
