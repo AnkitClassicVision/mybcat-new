@@ -115,6 +115,15 @@ for (const file of files) {
       continue;
     }
 
+    const CTX = 60;
+    const contextBefore = fileContent
+      .substring(Math.max(0, pos - CTX), pos)
+      .replace(/\n/g, '↵');
+    const contextAfter = fileContent
+      .substring(pos + link.fullMatch.length,
+                 Math.min(fileContent.length, pos + link.fullMatch.length + CTX))
+      .replace(/\n/g, '↵');
+
     // Replace fullMatch with plain text (only this occurrence via indexOf)
     fileContent = fileContent.substring(0, pos) + link.text + fileContent.substring(pos + link.fullMatch.length);
 
@@ -122,7 +131,9 @@ for (const file of files) {
       sourceSlug,
       targetSlug: link.slug,
       originalMarkdown: link.fullMatch,
-      plainText: link.text
+      plainText: link.text,
+      contextBefore,
+      contextAfter
     };
 
     newEntries.push(entry);
