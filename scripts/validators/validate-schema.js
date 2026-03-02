@@ -12,6 +12,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { pathToFileURL } from 'url';
 import { glob } from 'glob';
 
 // Astro builds to `dist/` by default, but when using the Vercel adapter it
@@ -254,7 +255,12 @@ async function main() {
   }
 }
 
-main().catch(err => {
-  console.error(`${colors.red}Error: ${err.message}${colors.reset}`);
-  process.exit(1);
-});
+// Only run main() when invoked directly (not when imported as a module)
+const isDirectRun = process.argv[1] &&
+  import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href;
+if (isDirectRun) {
+  main().catch(err => {
+    console.error(`${colors.red}Error: ${err.message}${colors.reset}`);
+    process.exit(1);
+  });
+}
