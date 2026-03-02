@@ -838,51 +838,17 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   var MEETINGS_URL = 'https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call?embed=true';
   var MEETINGS_FALLBACK_URL = 'https://meetings.hubspot.com/ankit98/mybcat-discovery-call?embed=true';
 
-  var formValues = { firstName: '', lastName: '', email: '' };
-  var submitted = false;
-
-  // Capture form field values from HubSpot postMessage events.
-  // HubSpot posts onFormSubmit with the field array before network submission,
-  // giving us values without cross-origin DOM access.
-  window.addEventListener('message', function (event) {
-    if (!event.data || typeof event.data !== 'object') return;
-    var type = event.data.type;
-    var eventName = event.data.eventName;
-    var data = event.data.data;
-    if (type !== 'hsFormCallback') return;
-
-    // Capture field values on submit (fires before server round-trip)
-    if (eventName === 'onFormSubmit' || eventName === 'onFormSubmitted') {
-      if (Array.isArray(data)) {
-        data.forEach(function (field) {
-          if (field.name === 'email') formValues.email = field.value || '';
-          if (field.name === 'firstname') formValues.firstName = field.value || '';
-          if (field.name === 'lastname') formValues.lastName = field.value || '';
-        });
-      } else if (data && data.submissionValues) {
-        formValues.email = data.submissionValues.email || '';
-        formValues.firstName = data.submissionValues.firstname || '';
-        formValues.lastName = data.submissionValues.lastname || '';
-      }
-    }
-
-    if (eventName === 'onFormSubmitted' && !submitted) {
-      submitted = true;
-      showPostSubmitState();
-    }
-  });
-
-  function buildMeetingsUrl(base) {
+  function buildMeetingsUrl(base, values) {
     var params = new URLSearchParams();
-    if (formValues.firstName) params.set('firstName', formValues.firstName);
-    if (formValues.lastName) params.set('lastName', formValues.lastName);
-    if (formValues.email) params.set('email', formValues.email);
+    if (values.firstName) params.set('firstName', values.firstName);
+    if (values.lastName) params.set('lastName', values.lastName);
+    if (values.email) params.set('email', values.email);
     var qs = params.toString();
     if (!qs) return base;
     return base + (base.indexOf('?') !== -1 ? '&' : '?') + qs;
   }
 
-  function showPostSubmitState() {
+  function showPostSubmitState(values) {
     var formContent = document.getElementById('form-content');
     var postSubmit = document.getElementById('post-submit-state');
     var iframe = document.getElementById('meetings-iframe');
@@ -890,51 +856,64 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     var fallbackLink = document.getElementById('meetings-fallback-link');
     if (!formContent || !postSubmit) return;
 
-    // Set iframe src with pre-filled params before showing
-    iframe.src = buildMeetingsUrl(MEETINGS_URL);
-    fallbackLink.href = buildMeetingsUrl(MEETINGS_FALLBACK_URL);
+    iframe.src = buildMeetingsUrl(MEETINGS_URL, values);
+    fallbackLink.href = buildMeetingsUrl(MEETINGS_FALLBACK_URL, values);
 
-    // If iframe errors (e.g. custom domain unreachable), show fallback link
     iframe.addEventListener('error', function () {
       iframe.hidden = true;
       fallback.hidden = false;
     });
 
-    // Fade out form content
+    // Hide form skeleton if still showing
+    var skeleton = document.getElementById('form-skeleton');
+    if (skeleton) skeleton.classList.add('hidden');
+
     formContent.classList.add('fading');
     setTimeout(function () {
       formContent.style.display = 'none';
       postSubmit.removeAttribute('aria-hidden');
       postSubmit.style.display = 'block';
-      // Force reflow so the transition fires from opacity 0
-      postSubmit.getBoundingClientRect();
+      postSubmit.getBoundingClientRect(); // force reflow for transition
       postSubmit.classList.add('visible');
     }, 150);
   }
 
-  // Initialize HubSpot form via hbspt.forms.create().
-  // inlineMessage overrides the portal-configured redirect, keeping the user on-page.
-  function initForm() {
-    if (typeof hbspt === 'undefined') return;
-    hbspt.forms.create({
-      region: 'na1',
-      portalId: '23344341',
-      formId: 'a365996f-87cf-4a60-8782-9dabb9f9dd97',
-      target: '#hubspot-form-target',
-      inlineMessage: ' ',
-      onFormReady: function () {
-        var skeleton = document.getElementById('form-skeleton');
-        if (skeleton) skeleton.classList.add('hidden');
-      },
-      onFormSubmitted: function () {
-        // Backup trigger in case postMessage listener missed the event
-        if (!submitted) {
-          submitted = true;
-          showPostSubmitState();
-        }
-      }
+  // --- Path 1: Returning from HubSpot redirect to /contact/?booked=true ---
+  // HubSpot form must be configured to redirect to: https://mybcat.com/contact/?booked=true
+  var urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('booked') === 'true') {
+    history.replaceState({}, '', window.location.pathname); // clean URL
+    showPostSubmitState({
+      firstName: sessionStorage.getItem('hs_fn') || '',
+      lastName:  sessionStorage.getItem('hs_ln') || '',
+      email:     sessionStorage.getItem('hs_em') || ''
     });
+    return; // skip form init — user already submitted
   }
+
+  // --- Path 2: Normal page load — initialize form, listen for submission ---
+
+  // Store field values to sessionStorage on submit so they survive the redirect
+  window.addEventListener('message', function (event) {
+    if (!event.data || typeof event.data !== 'object') return;
+    if (event.data.type !== 'hsFormCallback') return;
+    var eventName = event.data.eventName;
+    var data = event.data.data;
+
+    if (eventName === 'onFormSubmit' || eventName === 'onFormSubmitted') {
+      if (Array.isArray(data)) {
+        data.forEach(function (field) {
+          if (field.name === 'email')     sessionStorage.setItem('hs_em', field.value || '');
+          if (field.name === 'firstname') sessionStorage.setItem('hs_fn', field.value || '');
+          if (field.name === 'lastname')  sessionStorage.setItem('hs_ln', field.value || '');
+        });
+      } else if (data && data.submissionValues) {
+        sessionStorage.setItem('hs_em', data.submissionValues.email     || '');
+        sessionStorage.setItem('hs_fn', data.submissionValues.firstname || '');
+        sessionStorage.setItem('hs_ln', data.submissionValues.lastname  || '');
+      }
+    }
+  });
 
   // Skeleton fallback: hide after 5s regardless
   setTimeout(function () {
@@ -942,12 +921,30 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     if (skeleton) skeleton.classList.add('hidden');
   }, 5000);
 
-  // Run initForm once the v2 embed script has loaded
-  var hsScript = document.querySelector('script[src*="hsforms.net/forms/embed/v2"]');
-  if (hsScript) {
-    hsScript.addEventListener('load', initForm);
-    if (window.hbspt) initForm();
+  // Initialize form — poll for hbspt since v2.js loads async after this script
+  function initForm() {
+    hbspt.forms.create({
+      region: 'na1',
+      portalId: '23344341',
+      formId: 'a365996f-87cf-4a60-8782-9dabb9f9dd97',
+      target: '#hubspot-form-target',
+      onFormReady: function () {
+        var skeleton = document.getElementById('form-skeleton');
+        if (skeleton) skeleton.classList.add('hidden');
+      }
+    });
   }
+
+  var attempts = 0;
+  var poll = setInterval(function () {
+    attempts++;
+    if (window.hbspt && window.hbspt.forms) {
+      clearInterval(poll);
+      initForm();
+    } else if (attempts > 50) { // 5s timeout
+      clearInterval(poll);
+    }
+  }, 100);
 })();
 </script>
 <script src="https://js.hsforms.net/forms/embed/v2.js" async></script>
