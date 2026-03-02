@@ -1,22 +1,25 @@
 ---
 title: Reactivation Campaigns That Win Back Dormant Patients
-description: "Recover 15-25% of dormant patients with a tiered 30-day reactivation playbook. Cost just $5-15/patient vs $100-300 acquisition. Get the DSO-proven framework."
-publishDate: 2026-03-02
-scheduledDate: 2026-03-02
-status: scheduled
+description: >-
+  Recover 15-25% of dormant patients with a tiered 30-day reactivation playbook.
+  Cost just $5-15/patient vs $100-300 acquisition. Get the DSO-proven framework.
+publishDate: '2026-03-02T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: recall-reactivation
 cluster: patient-recall
 tags:
-  - "patient reactivation campaigns"
-  - "dormant patient outreach"
-  - "patient recall strategies"
-  - "DSO operations"
-  - "healthcare retention"
+  - patient reactivation campaigns
+  - dormant patient outreach
+  - patient recall strategies
+  - DSO operations
+  - healthcare retention
 featuredImage: /images/blog/reactivation-campaigns-dormant-patients-2026.webp
-canonical: https://mybcat.com/blog/reactivation-campaigns-dormant-patients-2026/
-seoTitle: "Patient Reactivation Campaigns: Win Back Dormant Patients"
-seoDescription: "Recover 15-25% of dormant patients with a tiered 30-day reactivation playbook. Cost just $5-15/patient vs $100-300 acquisition. Get the DSO-proven framework."
+canonical: 'https://mybcat.com/blog/reactivation-campaigns-dormant-patients-2026/'
+seoTitle: 'Patient Reactivation Campaigns: Win Back Dormant Patients'
+seoDescription: >-
+  Recover 15-25% of dormant patients with a tiered 30-day reactivation playbook.
+  Cost just $5-15/patient vs $100-300 acquisition. Get the DSO-proven framework.
 ---
 
 Your database holds $150,000 to $400,000 in dormant patient revenue per location, assuming 3-4 campaign cycles annually. Recovery costs $5-15 per patient compared to $100-300 for new acquisition. Yet most multi-location groups recover just 3-8% of inactive patients because they treat reactivation as a marketing campaign instead of operational infrastructure. This guide provides the tiered playbook that top-performing DSOs use to achieve 15-25% recovery rates across all locations.
@@ -99,7 +102,7 @@ Timing matters as much as content. Research shows that text reminders yield 48% 
 
 Personalization differentiates high-performing campaigns from generic blasts. Research indicates that 96% of consumers respond to personalized marketing while approximately 80% ignore impersonal messages. At minimum, messages should include the patient's name, reference their last visit date or provider, and link to online scheduling when possible. More sophisticated personalization might reference the specific service they're due for or acknowledge their history with the practice.
 
-The campaign must integrate with your scheduling infrastructure. Every message should include a direct path to booking: an online scheduling link, a text-to-schedule keyword, or a direct phone number. Friction between "I want to schedule" and "I have scheduled" kills conversion. This ties directly to [reducing no-shows through automated recall](/blog/automated-recall-reduce-no-shows-2026/) since the same infrastructure supports both reactivation and prevention.
+The campaign must integrate with your scheduling infrastructure. Every message should include a direct path to booking: an online scheduling link, a text-to-schedule keyword, or a direct phone number. Friction between "I want to schedule" and "I have scheduled" kills conversion. This ties directly to reducing no-shows through automated recall since the same infrastructure supports both reactivation and prevention.
 
 ## What Is the Right Multi-Touch Sequence for Each Dormancy Tier?
 

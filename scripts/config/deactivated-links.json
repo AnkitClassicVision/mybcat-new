@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "sourceSlug": "reactivation-campaigns-dormant-patients-2026",
+    "targetSlug": "automated-recall-reduce-no-shows-2026",
+    "originalMarkdown": "[reducing no-shows through automated recall](/blog/automated-recall-reduce-no-shows-2026/)",
+    "plainText": "reducing no-shows through automated recall",
+    "contextBefore": " \"I have scheduled\" kills conversion. This ties directly to ",
+    "contextAfter": " since the same infrastructure supports both reactivation an"
+  }
+]
