@@ -34,7 +34,7 @@ const colors = {
 function validateDeactivatedLinks(verbose = false) {
   if (!fs.existsSync(DEACTIVATED_LINKS_PATH)) {
     console.log(`${colors.yellow}WARN${colors.reset} ${DEACTIVATED_LINKS_PATH} not found — skipping.`);
-    return { passed: true, issues: [] };
+    return { passed: true, issues: [], total: 0 };
   }
 
   let entries;
@@ -52,7 +52,7 @@ function validateDeactivatedLinks(verbose = false) {
 
   if (entries.length === 0) {
     if (verbose) console.log(`${colors.green}PASS${colors.reset} deactivated-links.json is empty — nothing to validate.`);
-    return { passed: true, issues: [] };
+    return { passed: true, issues: [], total: 0 };
   }
 
   const issues = [];
@@ -87,7 +87,7 @@ async function main() {
   const { passed, issues, total } = validateDeactivatedLinks(verbose);
 
   if (passed) {
-    const count = total ?? 0;
+    const count = total;
     console.log(`${colors.green}${colors.bold}PASS${colors.reset} deactivated-links.json: ${count} entr${count === 1 ? 'y' : 'ies'}, all valid.`);
     process.exit(0);
   }
@@ -99,6 +99,8 @@ async function main() {
       console.log(`  ${colors.red}Parse error:${colors.reset} ${issue.message}`);
     } else if (issue.type === 'not-array') {
       console.log(`  ${colors.red}Schema error:${colors.reset} root must be a JSON array`);
+    } else if (issue.message) {
+      console.log(`  ${colors.red}Entry ${issue.index}${colors.reset}: ${issue.message}`);
     } else {
       console.log(`  ${colors.red}Entry ${issue.index}${colors.reset} [${issue.sourceSlug} → ${issue.targetSlug}]`);
       console.log(`    Missing fields: ${colors.yellow}${issue.missing.join(', ')}${colors.reset}`);
