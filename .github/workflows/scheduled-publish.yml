@@ -52,7 +52,14 @@ jobs:
         run: node scripts/publish-scheduled.js
 
       - name: Auto-deactivate any remaining broken cross-links
+        id: deactivate
         run: node scripts/deactivate-broken-links.js
+        continue-on-error: true
+
+      - name: Warn if deactivation failed
+        if: steps.deactivate.outcome == 'failure'
+        run: |
+          echo "::warning title=Cross-Link Deactivation Failed::deactivate-broken-links.js exited non-zero. Broken cross-links may remain in published posts. Check the step log above."
 
       - name: Check for changes
         id: check_changes
