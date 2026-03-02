@@ -29,6 +29,8 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   <link rel="preconnect" href="https://js.hscta.net" slot="head" />
   <link rel="dns-prefetch" href="https://js.hsforms.net" slot="head" />
   <link rel="dns-prefetch" href="https://forms.hsforms.com" slot="head" />
+  <link rel="dns-prefetch" href="https://hubspot.mybcat.com" slot="head" />
+  <link rel="dns-prefetch" href="https://meetings.hubspot.com" slot="head" />
   <!-- Organization schema with PostalAddress for local search visibility -->
   <script type="application/ld+json" set:html={serializeSchema(generateOrganizationSchema())} slot="head" />
   <div class="contact-page">
@@ -48,23 +50,48 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
         </div>
 
         <Card variant="pricing" class="form-card">
-          <h2>Get Started Today</h2>
-          <p class="form-description">
-            Tell us about your group and we'll reach out within 24 hours to discuss your centralized patient access strategy.
-          </p>
-          <div class="hubspot-form-wrapper">
-            <!-- Loading skeleton shown while form loads -->
-            <div class="form-skeleton" id="form-skeleton">
-              <div class="skeleton-row">
-                <div class="skeleton-field"></div>
-                <div class="skeleton-field"></div>
+          <!-- Form content (fades out after submit) -->
+          <div id="form-content">
+            <h2>Get Started Today</h2>
+            <p class="form-description">
+              Tell us about your group and we'll reach out within 24 hours to discuss your centralized patient access strategy.
+            </p>
+            <div class="hubspot-form-wrapper">
+              <!-- Loading skeleton shown while form loads -->
+              <div class="form-skeleton" id="form-skeleton">
+                <div class="skeleton-row">
+                  <div class="skeleton-field"></div>
+                  <div class="skeleton-field"></div>
+                </div>
+                <div class="skeleton-field full"></div>
+                <div class="skeleton-field full"></div>
+                <div class="skeleton-field full short"></div>
+                <div class="skeleton-button"></div>
               </div>
-              <div class="skeleton-field full"></div>
-              <div class="skeleton-field full"></div>
-              <div class="skeleton-field full short"></div>
-              <div class="skeleton-button"></div>
+              <div id="hubspot-form-target"></div>
             </div>
-            <div class="hs-form-html" data-region="na1" data-form-id="a365996f-87cf-4a60-8782-9dabb9f9dd97" data-portal-id="23344341"></div>
+          </div>
+
+          <!-- Post-submit state (hidden until form is submitted) -->
+          <div id="post-submit-state" aria-hidden="true">
+            <div class="post-submit-message">
+              <div class="post-submit-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <h2>Thank You — Final Steps — Book Your Time</h2>
+              <p>Two things are happening now: <strong>(1)</strong> Check your inbox (and spam folder) for a confirmation email with your meeting details and our follow-up. <strong>(2)</strong> You can grab a time on our calendar right now — it's ready below.</p>
+            </div>
+            <div class="meetings-wrapper">
+              <iframe
+                id="meetings-iframe"
+                title="Schedule a Discovery Call with MyBCAT"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+              <div id="meetings-fallback" hidden>
+                <p>Can't see the calendar? <a id="meetings-fallback-link" href="https://meetings.hubspot.com/ankit98/mybcat-discovery-call" target="_blank" rel="noopener noreferrer">Book your discovery call directly →</a></p>
+              </div>
+            </div>
           </div>
         </Card>
       </div>
@@ -698,6 +725,98 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     transform: translateX(4px);
   }
 
+  /* Form content fade-out transition */
+  #form-content {
+    transition: opacity 150ms ease-out;
+  }
+
+  #form-content.fading {
+    opacity: 0;
+  }
+
+  /* Post-submit state */
+  #post-submit-state {
+    display: none;
+    opacity: 0;
+    transition: opacity 150ms ease-in;
+  }
+
+  #post-submit-state.visible {
+    opacity: 1;
+  }
+
+  /* Post-submit thank-you message */
+  .post-submit-message {
+    text-align: center;
+    padding: 24px 0 32px;
+  }
+
+  .post-submit-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: var(--glass-teal);
+    border-radius: 50%;
+    color: var(--oceanic-teal);
+    margin-bottom: 20px;
+  }
+
+  .post-submit-message h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 14px;
+    text-align: center;
+  }
+
+  .post-submit-message p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  /* HubSpot meetings iframe */
+  .meetings-wrapper {
+    margin-top: 8px;
+  }
+
+  #meetings-iframe {
+    width: 100%;
+    min-height: 700px;
+    border: none;
+    border-radius: 12px;
+    display: block;
+  }
+
+  /* Iframe load fallback */
+  #meetings-fallback {
+    text-align: center;
+    padding: 24px;
+    background: var(--glass-teal);
+    border-radius: 12px;
+    margin-top: 12px;
+  }
+
+  #meetings-fallback p {
+    margin: 0;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+
+  #meetings-fallback a {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  #meetings-fallback a:hover {
+    text-decoration: underline;
+  }
+
   @media (max-width: 900px) {
     .contact-grid {
       grid-template-columns: 1fr;
@@ -706,27 +825,129 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     .faq-links {
       grid-template-columns: 1fr;
     }
+
+    #meetings-iframe {
+      min-height: 800px;
+    }
   }
 </style>
 
-<!-- HubSpot Form Script -->
+<!-- HubSpot Form + Post-Submit Booking Flow -->
 <script>
-  // Hide skeleton when form loads
-  const observer = new MutationObserver((mutations, obs) => {
-    const form = document.querySelector('.hs-form-html form');
-    if (form) {
-      const skeleton = document.getElementById('form-skeleton');
-      if (skeleton) skeleton.classList.add('hidden');
-      obs.disconnect();
+(function () {
+  var MEETINGS_URL = 'https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call?embed=true';
+  var MEETINGS_FALLBACK_URL = 'https://meetings.hubspot.com/ankit98/mybcat-discovery-call?embed=true';
+
+  var formValues = { firstName: '', lastName: '', email: '' };
+  var submitted = false;
+
+  // Capture form field values from HubSpot postMessage events.
+  // HubSpot posts onFormSubmit with the field array before network submission,
+  // giving us values without cross-origin DOM access.
+  window.addEventListener('message', function (event) {
+    if (!event.data || typeof event.data !== 'object') return;
+    var type = event.data.type;
+    var eventName = event.data.eventName;
+    var data = event.data.data;
+    if (type !== 'hsFormCallback') return;
+
+    // Capture field values on submit (fires before server round-trip)
+    if (eventName === 'onFormSubmit' || eventName === 'onFormSubmitted') {
+      if (Array.isArray(data)) {
+        data.forEach(function (field) {
+          if (field.name === 'email') formValues.email = field.value || '';
+          if (field.name === 'firstname') formValues.firstName = field.value || '';
+          if (field.name === 'lastname') formValues.lastName = field.value || '';
+        });
+      } else if (data && data.submissionValues) {
+        formValues.email = data.submissionValues.email || '';
+        formValues.firstName = data.submissionValues.firstname || '';
+        formValues.lastName = data.submissionValues.lastname || '';
+      }
+    }
+
+    if (eventName === 'onFormSubmitted' && !submitted) {
+      submitted = true;
+      showPostSubmitState();
     }
   });
 
-  observer.observe(document.body, { childList: true, subtree: true });
+  function buildMeetingsUrl(base) {
+    var params = new URLSearchParams();
+    if (formValues.firstName) params.set('firstName', formValues.firstName);
+    if (formValues.lastName) params.set('lastName', formValues.lastName);
+    if (formValues.email) params.set('email', formValues.email);
+    var qs = params.toString();
+    if (!qs) return base;
+    return base + (base.indexOf('?') !== -1 ? '&' : '?') + qs;
+  }
 
-  // Fallback: hide skeleton after 5 seconds regardless
-  setTimeout(() => {
-    const skeleton = document.getElementById('form-skeleton');
+  function showPostSubmitState() {
+    var formContent = document.getElementById('form-content');
+    var postSubmit = document.getElementById('post-submit-state');
+    var iframe = document.getElementById('meetings-iframe');
+    var fallback = document.getElementById('meetings-fallback');
+    var fallbackLink = document.getElementById('meetings-fallback-link');
+    if (!formContent || !postSubmit) return;
+
+    // Set iframe src with pre-filled params before showing
+    iframe.src = buildMeetingsUrl(MEETINGS_URL);
+    fallbackLink.href = buildMeetingsUrl(MEETINGS_FALLBACK_URL);
+
+    // If iframe errors (e.g. custom domain unreachable), show fallback link
+    iframe.addEventListener('error', function () {
+      iframe.hidden = true;
+      fallback.hidden = false;
+    });
+
+    // Fade out form content
+    formContent.classList.add('fading');
+    setTimeout(function () {
+      formContent.style.display = 'none';
+      postSubmit.removeAttribute('aria-hidden');
+      postSubmit.style.display = 'block';
+      // Force reflow so the transition fires from opacity 0
+      postSubmit.getBoundingClientRect();
+      postSubmit.classList.add('visible');
+    }, 150);
+  }
+
+  // Initialize HubSpot form via hbspt.forms.create().
+  // inlineMessage overrides the portal-configured redirect, keeping the user on-page.
+  function initForm() {
+    if (typeof hbspt === 'undefined') return;
+    hbspt.forms.create({
+      region: 'na1',
+      portalId: '23344341',
+      formId: 'a365996f-87cf-4a60-8782-9dabb9f9dd97',
+      target: '#hubspot-form-target',
+      inlineMessage: ' ',
+      onFormReady: function () {
+        var skeleton = document.getElementById('form-skeleton');
+        if (skeleton) skeleton.classList.add('hidden');
+      },
+      onFormSubmitted: function () {
+        // Backup trigger in case postMessage listener missed the event
+        if (!submitted) {
+          submitted = true;
+          showPostSubmitState();
+        }
+      }
+    });
+  }
+
+  // Skeleton fallback: hide after 5s regardless
+  setTimeout(function () {
+    var skeleton = document.getElementById('form-skeleton');
     if (skeleton) skeleton.classList.add('hidden');
   }, 5000);
+
+  // Run initForm once the v2 embed script has loaded
+  var hsScript = document.querySelector('script[src*="hsforms.net/forms/embed/v2"]');
+  if (hsScript) {
+    hsScript.addEventListener('load', initForm);
+    if (window.hbspt) initForm();
+  }
+})();
 </script>
-<script src="https://js.hsforms.net/forms/embed/developer/23344341.js" async></script>
+<script src="https://js.hsforms.net/forms/embed/v2.js" async></script>
