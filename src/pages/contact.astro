@@ -83,12 +83,12 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
                 <div class="form-field">
                   <label for="cf-locations">Number of Locations</label>
                   <select id="cf-locations" name="number_of_locations">
-                    <option value="">Select range...</option>
-                    <option value="3-5">3–5 locations</option>
-                    <option value="6-10">6–10 locations</option>
-                    <option value="11-25">11–25 locations</option>
-                    <option value="26-50">26–50 locations</option>
-                    <option value="50+">50+ locations</option>
+                    <option value="">Select...</option>
+                    <option value="1 Location">1 Location</option>
+                    <option value="2-4 Locations">2–4 Locations</option>
+                    <option value="5-20 Locations">5–20 Locations</option>
+                    <option value="20+ Locations">20+ Locations</option>
+                    <option value="Other">Other</option>
                   </select>
                 </div>
                 <input type="hidden" name="utm_source" id="cf-utm-source" />
@@ -116,7 +116,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
                 id="meetings-iframe"
                 title="Schedule a Discovery Call with MyBCAT"
                 frameborder="0"
-                allowfullscreen
+                sandbox="allow-scripts allow-forms allow-same-origin allow-popups allow-popups-to-escape-sandbox"
               ></iframe>
               <div id="meetings-fallback" hidden>
                 <p>Can't see the calendar? <a id="meetings-fallback-link" href="https://meetings.hubspot.com/ankit98/mybcat-discovery-call" target="_blank" rel="noopener noreferrer">Book your discovery call directly →</a></p>
@@ -728,24 +728,9 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     transform: translateX(4px);
   }
 
-  /* Form content fade-out transition */
-  #form-content {
-    transition: opacity 150ms ease-out;
-  }
-
-  #form-content.fading {
-    opacity: 0;
-  }
-
-  /* Post-submit state */
+  /* Post-submit state — hidden until form submits */
   #post-submit-state {
     display: none;
-    opacity: 0;
-    transition: opacity 150ms ease-in;
-  }
-
-  #post-submit-state.visible {
-    opacity: 1;
   }
 
   /* Post-submit thank-you message */
@@ -839,7 +824,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   }
 </style>
 
-<!-- Contact Form — Native fetch submission bypasses HubSpot's meetings redirect -->
+<!-- Contact Form — Native fetch submission, instant post-submit swap -->
 <script>
 (function () {
   var PORTAL_ID = '23344341';
@@ -870,6 +855,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     var fallbackLink = document.getElementById('meetings-fallback-link');
     if (!formContent || !postSubmit) return;
 
+    // Set iframe src before showing (starts loading in background)
     iframe.src = buildMeetingsUrl(MEETINGS_URL, values);
     fallbackLink.href = buildMeetingsUrl(MEETINGS_FALLBACK_URL, values);
 
@@ -878,14 +864,10 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
       fallback.hidden = false;
     });
 
-    formContent.classList.add('fading');
-    setTimeout(function () {
-      formContent.style.display = 'none';
-      postSubmit.removeAttribute('aria-hidden');
-      postSubmit.style.display = 'block';
-      postSubmit.getBoundingClientRect(); // force reflow for transition
-      postSubmit.classList.add('visible');
-    }, 150);
+    // Instant swap — no delay
+    formContent.style.display = 'none';
+    postSubmit.removeAttribute('aria-hidden');
+    postSubmit.style.display = 'block';
   }
 
   // Pre-fill UTM source from URL params
@@ -899,16 +881,13 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   if (!form) return;
 
   form.addEventListener('submit', function (e) {
+    // Stop the event completely — prevents HubSpot tracking script from intercepting
     e.preventDefault();
+    e.stopImmediatePropagation();
 
     // Clear previous error states
-    form.querySelectorAll('.invalid').forEach(function (el) {
-      el.classList.remove('invalid');
-    });
-    form.querySelectorAll('.field-error').forEach(function (el) {
-      el.textContent = '';
-      el.classList.remove('visible');
-    });
+    form.querySelectorAll('.invalid').forEach(function (el) { el.classList.remove('invalid'); });
+    form.querySelectorAll('.field-error').forEach(function (el) { el.textContent = ''; el.classList.remove('visible'); });
     var submitError = document.getElementById('form-submit-error');
     if (submitError) submitError.hidden = true;
 
@@ -932,16 +911,18 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
         valid = false;
         el.classList.add('invalid');
         var err = document.getElementById(field.errId);
-        if (err) {
-          err.textContent = field.msg;
-          err.classList.add('visible');
-        }
+        if (err) { err.textContent = field.msg; err.classList.add('visible'); }
       }
     });
 
     if (!valid) return;
 
-    // Disable submit button, show loading state
+    // Capture values before async — fields may be gone after swap
+    var firstName = document.getElementById('cf-firstname').value.trim();
+    var lastName  = document.getElementById('cf-lastname').value.trim();
+    var email     = document.getElementById('cf-email').value.trim();
+
+    // Show loading state
     var submitBtn = document.getElementById('cf-submit');
     var submitText = document.getElementById('cf-submit-text');
     var submitLoading = document.getElementById('cf-submit-loading');
@@ -951,27 +932,18 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
 
     // Build HubSpot fields array
     var fields = [
-      { objectTypeId: '0-1', name: 'firstname', value: document.getElementById('cf-firstname').value.trim() },
-      { objectTypeId: '0-1', name: 'lastname',  value: document.getElementById('cf-lastname').value.trim() },
-      { objectTypeId: '0-1', name: 'email',     value: document.getElementById('cf-email').value.trim() }
+      { objectTypeId: '0-1', name: 'firstname', value: firstName },
+      { objectTypeId: '0-1', name: 'lastname',  value: lastName },
+      { objectTypeId: '0-1', name: 'email',     value: email }
     ];
-
     var phone = document.getElementById('cf-phone');
-    if (phone && phone.value.trim()) {
-      fields.push({ objectTypeId: '0-1', name: 'mobilephone', value: phone.value.trim() });
-    }
+    if (phone && phone.value.trim()) fields.push({ objectTypeId: '0-1', name: 'mobilephone', value: phone.value.trim() });
     var website = document.getElementById('cf-website');
-    if (website && website.value.trim()) {
-      fields.push({ objectTypeId: '0-2', name: 'website', value: website.value.trim() });
-    }
+    if (website && website.value.trim()) fields.push({ objectTypeId: '0-2', name: 'website', value: website.value.trim() });
     var locations = document.getElementById('cf-locations');
-    if (locations && locations.value) {
-      fields.push({ objectTypeId: '0-1', name: 'number_of_locations', value: locations.value });
-    }
+    if (locations && locations.value) fields.push({ objectTypeId: '0-1', name: 'number_of_locations', value: locations.value });
     var utmSource = document.getElementById('cf-utm-source');
-    if (utmSource && utmSource.value) {
-      fields.push({ objectTypeId: '0-1', name: 'utm_source', value: utmSource.value });
-    }
+    if (utmSource && utmSource.value) fields.push({ objectTypeId: '0-1', name: 'utm_source', value: utmSource.value });
 
     var payload = {
       fields: fields,
@@ -982,31 +954,19 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
       }
     };
 
-    var endpoint = 'https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_ID;
-
-    fetch(endpoint, {
+    fetch('https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_ID, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
     })
     .then(function (res) {
-      if (!res.ok) {
-        return res.json().then(function (d) {
-          throw new Error((d && d.message) || 'Submission failed. Status: ' + res.status);
-        });
-      }
+      if (!res.ok) return res.json().then(function (d) { throw new Error((d && d.message) || res.status); });
       return res.json();
     })
     .then(function () {
-      // Success — show thank-you + booking calendar inline
-      showPostSubmitState({
-        firstName: document.getElementById('cf-firstname').value.trim(),
-        lastName:  document.getElementById('cf-lastname').value.trim(),
-        email:     document.getElementById('cf-email').value.trim()
-      });
+      showPostSubmitState({ firstName: firstName, lastName: lastName, email: email });
     })
     .catch(function () {
-      // Re-enable form and show error
       submitBtn.disabled = false;
       if (submitText) submitText.hidden = false;
       if (submitLoading) submitLoading.hidden = true;
@@ -1015,6 +975,6 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
         submitError.hidden = false;
       }
     });
-  });
+  }, true); // capture phase — runs before any other listeners
 })();
 </script>
