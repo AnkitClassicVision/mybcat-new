@@ -946,16 +946,17 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   }
 
   function submitToHubSpot(fields) {
-    var payload = {
-      fields: fields,
-      context: { hutk: getCookie('hubspotutk'), pageUri: window.location.href, pageName: document.title }
-    };
+    var hutk = getCookie('hubspotutk');
+    var ctx = { pageUri: window.location.href, pageName: document.title };
+    if (hutk) ctx.hutk = hutk; // omit if empty — HubSpot rejects empty string hutk with INVALID_HUTK
+    var payload = { fields: fields, context: ctx };
     fetch('https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_ID, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
+    }).then(function (r) {
+      if (!r.ok) r.text().then(function (t) { console.warn('[MyBCAT] HubSpot submission error ' + r.status + ':', t); });
     }).catch(function (err) {
-      // Silent background failure — user already sees the calendar
       console.warn('[MyBCAT] HubSpot background submission failed:', err);
     });
   }
