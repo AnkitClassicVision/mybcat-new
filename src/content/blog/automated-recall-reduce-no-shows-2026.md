@@ -1,22 +1,25 @@
 ---
 title: How Automated Recall Systems Reduce Patient No-Shows in 2026
-description: "DSOs lose $110K-$240K per location to no-shows. See how 2026 recall automation catches checkout failures same-day. Get the ROI calculator."
-publishDate: 2026-03-03
-scheduledDate: 2026-03-03
-status: scheduled
+description: >-
+  DSOs lose $110K-$240K per location to no-shows. See how 2026 recall automation
+  catches checkout failures same-day. Get the ROI calculator.
+publishDate: '2026-03-03T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: recall-reactivation
 cluster: patient-recall
 tags:
-  - "automated patient recall system"
-  - "patient recall software"
-  - "reduce patient no-shows"
-  - "DSO operations"
-  - "dental recall automation"
+  - automated patient recall system
+  - patient recall software
+  - reduce patient no-shows
+  - DSO operations
+  - dental recall automation
 featuredImage: /images/blog/automated-recall-reduce-no-shows-2026.webp
-canonical: https://mybcat.com/blog/automated-recall-reduce-no-shows-2026/
-seoTitle: "Automated Patient Recall System: Reduce No-Shows 2026"
-seoDescription: "DSOs lose $110K-$240K per location to no-shows. See how 2026 recall automation catches checkout failures same-day. Get the ROI calculator."
+canonical: 'https://mybcat.com/blog/automated-recall-reduce-no-shows-2026/'
+seoTitle: 'Automated Patient Recall System: Reduce No-Shows 2026'
+seoDescription: >-
+  DSOs lose $110K-$240K per location to no-shows. See how 2026 recall automation
+  catches checkout failures same-day. Get the ROI calculator.
 ---
 
 DSO groups with above-average no-show rates lose $240,000 or more per location annually. Even at the industry benchmark of 7.4%, annual losses reach $110,000 per location. Yet the best automated patient recall systems send fewer reminders, not more. In 2026, top performers achieve under 8% no-show rates because their automation catches checkout failures same-day, not six months later when patients have already disengaged. Below, you'll find the true cost of no-shows by location, the reasons your recall rate varies wildly across your network, and the framework top-performing groups use to standardize results. (Jump directly to the [revenue loss calculator](#how-do-you-calculate-no-show-revenue-loss-by-location) if you need numbers for your PE sponsor.)

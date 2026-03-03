@@ -104,7 +104,7 @@ Timing matters as much as content. Research shows that text reminders yield 48% 
 
 Personalization differentiates high-performing campaigns from generic blasts. Research indicates that 96% of consumers respond to personalized marketing while approximately 80% ignore impersonal messages. At minimum, messages should include the patient's name, reference their last visit date or provider, and link to online scheduling when possible. More sophisticated personalization might reference the specific service they're due for or acknowledge their history with the practice.
 
-The campaign must integrate with your scheduling infrastructure. Every message should include a direct path to booking: an online scheduling link, a text-to-schedule keyword, or a direct phone number. Friction between "I want to schedule" and "I have scheduled" kills conversion. This ties directly to reducing no-shows through automated recall since the same infrastructure supports both reactivation and prevention.
+The campaign must integrate with your scheduling infrastructure. Every message should include a direct path to booking: an online scheduling link, a text-to-schedule keyword, or a direct phone number. Friction between "I want to schedule" and "I have scheduled" kills conversion. This ties directly to [reducing no-shows through automated recall](/blog/automated-recall-reduce-no-shows-2026/) since the same infrastructure supports both reactivation and prevention.
 
 ## What Is the Right Multi-Touch Sequence for Each Dormancy Tier?
 
