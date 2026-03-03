@@ -100,19 +100,48 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
 
           <!-- Post-submit state (hidden until form is submitted) -->
           <div id="post-submit-state" aria-hidden="true">
-            <div class="post-submit-message">
-              <div class="post-submit-icon">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <!-- Header -->
+            <div class="ps-header">
+              <div class="ps-check">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
               </div>
-              <h2>Thank You — Final Steps — Book Your Time</h2>
-              <p>Two things are happening now: <strong>(1)</strong> Check your inbox (and spam folder) for a confirmation email with your meeting details and our follow-up. <strong>(2)</strong> You can grab a time on our calendar right now — it's ready below.</p>
+              <div>
+                <h2 class="ps-title">You're all set!</h2>
+                <p class="ps-subtitle">Two things are happening right now:</p>
+              </div>
+            </div>
+
+            <!-- Two steps -->
+            <div class="ps-steps">
+              <div class="ps-step">
+                <div class="ps-step-icon ps-step-icon--email">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                </div>
+                <div class="ps-step-body">
+                  <strong>Check your inbox</strong>
+                  <span>A confirmation email is heading your way — check spam too. It has our contact info and next steps.</span>
+                </div>
+              </div>
+              <div class="ps-step">
+                <div class="ps-step-icon ps-step-icon--cal">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                </div>
+                <div class="ps-step-body">
+                  <strong>Pick a time below</strong>
+                  <span>Your calendar is ready — grab a slot now and skip the back-and-forth.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Calendar -->
+            <div class="ps-calendar-header">
+              <span class="ps-cal-label">↓ Pick your discovery call time</span>
             </div>
             <div class="meetings-wrapper">
               <iframe
                 id="meetings-iframe"
                 title="Schedule a Discovery Call with MyBCAT"
                 frameborder="0"
-                sandbox="allow-scripts allow-forms allow-same-origin allow-popups allow-popups-to-escape-sandbox"
               ></iframe>
               <div id="meetings-fallback" hidden>
                 <p>Can't see the calendar? <a id="meetings-fallback-link" href="https://meetings.hubspot.com/ankit98/mybcat-discovery-call" target="_blank" rel="noopener noreferrer">Book your discovery call directly →</a></p>
@@ -714,38 +743,108 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     display: none;
   }
 
-  /* Post-submit thank-you message */
-  .post-submit-message {
-    text-align: center;
-    padding: 24px 0 32px;
+  /* Header row */
+  .ps-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 0 20px;
   }
 
-  .post-submit-icon {
-    display: inline-flex;
+  .ps-check {
+    flex-shrink: 0;
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
-    background: var(--glass-teal);
+    width: 48px;
+    height: 48px;
+    background: var(--oceanic-teal);
+    color: white;
     border-radius: 50%;
-    color: var(--oceanic-teal);
-    margin-bottom: 20px;
   }
 
-  .post-submit-message h2 {
-    font-size: 1.4rem;
+  .ps-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--navy-900);
+    margin: 0 0 2px;
+    line-height: 1.2;
+  }
+
+  .ps-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  /* Steps */
+  .ps-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  .ps-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 16px;
+    background: var(--spatial-glass, #f8fafa);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+  }
+
+  .ps-step-icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    margin-top: 1px;
+  }
+
+  .ps-step-icon--email {
+    background: rgba(0, 96, 100, 0.1);
+    color: var(--oceanic-teal);
+  }
+
+  .ps-step-icon--cal {
+    background: rgba(211, 175, 94, 0.15);
+    color: var(--copper-500, #b8860b);
+  }
+
+  .ps-step-body {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .ps-step-body strong {
+    font-size: 0.95rem;
     font-weight: 700;
     color: var(--navy-900);
-    margin-bottom: 14px;
-    text-align: center;
   }
 
-  .post-submit-message p {
-    font-size: 0.95rem;
+  .ps-step-body span {
+    font-size: 0.875rem;
     color: var(--text-secondary);
-    line-height: 1.65;
-    max-width: 440px;
-    margin: 0 auto;
+    line-height: 1.5;
+  }
+
+  /* Calendar label */
+  .ps-calendar-header {
+    margin-bottom: 12px;
+  }
+
+  .ps-cal-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--oceanic-teal);
   }
 
   /* HubSpot meetings iframe */
@@ -841,6 +940,9 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     formContent.style.display = 'none';
     postSubmit.removeAttribute('aria-hidden');
     postSubmit.style.display = 'block';
+
+    // Scroll to top of the card so the header and calendar are both visible
+    postSubmit.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function submitToHubSpot(fields) {
