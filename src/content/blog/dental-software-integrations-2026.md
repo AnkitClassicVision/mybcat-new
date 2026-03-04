@@ -1,22 +1,25 @@
 ---
-title: "Dental-Specific Software Integrations That Save Time"
-description: "Learn how DSOs achieve operational consistency across mixed PM systems in 90 days. Build your integration roadmap without 18-month migrations."
-publishDate: 2026-03-04
-scheduledDate: 2026-03-04
-status: scheduled
+title: Dental-Specific Software Integrations That Save Time
+description: >-
+  Learn how DSOs achieve operational consistency across mixed PM systems in 90
+  days. Build your integration roadmap without 18-month migrations.
+publishDate: '2026-03-04T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: industry-specific
 cluster: dental
 tags:
-  - "dental software integrations"
-  - "DSO operations"
-  - "practice management integration"
-  - "dental workflow standardization"
-  - "multi-location dental"
+  - dental software integrations
+  - DSO operations
+  - practice management integration
+  - dental workflow standardization
+  - multi-location dental
 featuredImage: /images/blog/dental-software-integrations-2026-featured.webp
-canonical: https://mybcat.com/blog/dental-software-integrations-2026/
-seoTitle: "Dental Software Integrations: 90-Day DSO Roadmap"
-seoDescription: "Learn how DSOs achieve operational consistency across mixed PM systems in 90 days. Build your integration roadmap without 18-month migrations."
+canonical: 'https://mybcat.com/blog/dental-software-integrations-2026/'
+seoTitle: 'Dental Software Integrations: 90-Day DSO Roadmap'
+seoDescription: >-
+  Learn how DSOs achieve operational consistency across mixed PM systems in 90
+  days. Build your integration roadmap without 18-month migrations.
 ---
 
 Every DSO acquisition adds another PM system to the stack. You're told integration means 18-month migrations. It doesn't. Workflow standardization captures most of the operational value in 90 days across Dentrix, Eaglesoft, Open Dental, or whatever you've got. Your mixed PM stack isn't the problem. Waiting for perfect consolidation is.
