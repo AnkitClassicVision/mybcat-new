@@ -3,7 +3,7 @@ status: scheduled
 publishDate: '2026-03-04'
 author: Ankit Patel
 category: Enterprise
-cluster: enterprise-compliance
+cluster: compliance
 featuredImage: /images/blog/soc2-medical-answering-service-enterprise-healthcare.webp
 canonical: 'https://mybcat.com/blog/soc2-medical-answering-service-enterprise-healthcare/'
 scheduledDate: '2026-03-04'
@@ -41,7 +41,7 @@ Healthcare data breaches cost an average of $11 million per incident, making hea
 
 The 2024 breach data tells a concerning story: while the total number of large healthcare breaches declined slightly (0.5%), the number of affected individuals rose 58%. Attackers are targeting bigger fish, and multi-location healthcare operations present exactly the kind of high-value target they prefer.
 
-Single-practice owners can rely on intuition and trust when selecting vendors. At the enterprise level, that approach creates unacceptable risk. SOC2 certification provides the documented, audited proof that a vendor's security controls actually work over time. It transforms vendor evaluation from a qualitative judgment call into a quantifiable compliance decision.
+Single-practice owners can rely on intuition and trust when selecting vendors. At the [enterprise level](/enterprise/), that approach creates unacceptable risk. SOC2 certification provides the documented, audited proof that a vendor's security controls actually work over time. It transforms vendor evaluation from a qualitative judgment call into a quantifiable compliance decision.
 
 For PE-backed groups navigating the new state oversight laws effective January 2026 in California, Massachusetts, Oregon, and other states, SOC2 documentation also supports the ongoing compliance reporting these regulations require. When your MSO agreements face scrutiny, demonstrable vendor due diligence becomes essential.
 

@@ -14,7 +14,7 @@ cluster: enterprise
 relatedPosts: ["missed-calls-revenue-leak-multi-location-healthcare", "ai-receptionist-vs-virtual-front-desk-answering-service", "healthcare-front-desk-staffing-crisis-2025"]
 ---
 
-Multi-location healthcare groups lose $500,000-$1,500,000 annually to intake inefficiencies, and most don't know it. Use our [missed call revenue calculator](https://mybcat.com/blog/missed-call-revenue-calculator/) to see your specific number. This guide provides the complete framework for evaluating, selecting, and implementing intake solutions for healthcare groups with 3-50+ locations.
+Multi-location healthcare groups lose $500,000-$1,500,000 annually to intake inefficiencies, and most don't know it. Use our [missed call revenue calculator](https://mybcat.com/blog/missed-call-revenue-calculator/) to see your specific number. This guide provides the complete framework for evaluating, selecting, and implementing [enterprise intake solutions](/enterprise/) for healthcare groups with 3-50+ locations.
 
 **The core insight:** Multi-location intake is not a technology problem. It's an operational architecture decision that determines whether you can scale profitably.
 

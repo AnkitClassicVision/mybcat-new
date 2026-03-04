@@ -3,9 +3,9 @@ status: scheduled
 publishDate: '2026-03-11'
 author: Ankit Patel
 category: Enterprise
-cluster: enterprise-operations
-featuredImage: /images/blog/enterpri-ehealthcare-taffingratio-patientacce-optimization.webp
-canonical: https://mybcat.com/blog/enterpri-ehealthcare-taffingratio-patientacce-optimization/
+cluster: enterprise
+featuredImage: /images/blog/enterprise-healthcare-staffing-ratios-patient-access-optimization.webp
+canonical: https://mybcat.com/blog/enterprise-healthcare-staffing-ratios-patient-access-optimization/
 scheduledDate: '2026-03-11'
 title: 'Healthcare Staffing Ratios and Patient Access: How Multi-Location Groups Optimize
   Both'

@@ -3,9 +3,9 @@ status: scheduled
 publishDate: '2026-03-09'
 author: Ankit Patel
 category: Enterprise
-cluster: enterprise-integrations
-featuredImage: /images/blog/ehrpm-integrationcentralized-chedulingenterpri-e.webp
-canonical: https://mybcat.com/blog/ehrpm-integrationcentralized-chedulingenterpri-e/
+cluster: enterprise
+featuredImage: /images/blog/ehr-pms-integration-centralized-scheduling-enterprise.webp
+canonical: https://mybcat.com/blog/ehr-pms-integration-centralized-scheduling-enterprise/
 scheduledDate: '2026-03-09'
 title: 'EHR PMS Integration for Centralized Scheduling: The Enterprise Playbook'
 seoTitle: EHR PMS Integration Centralized Scheduling Enterprise

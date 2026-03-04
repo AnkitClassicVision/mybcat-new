@@ -3,9 +3,9 @@ status: scheduled
 publishDate: '2026-03-06'
 author: Ankit Patel
 category: Enterprise
-cluster: enterprise-compliance
-featuredImage: /images/blog/patientacce-centerrfpvendorcheckli-tenterpri-e.webp
-canonical: https://mybcat.com/blog/patientacce-centerrfpvendorcheckli-tenterpri-e/
+cluster: enterprise
+featuredImage: /images/blog/patient-access-center-rfp-vendor-checklist-enterprise.webp
+canonical: https://mybcat.com/blog/patient-access-center-rfp-vendor-checklist-enterprise/
 scheduledDate: '2026-03-06'
 title: Patient Access Center RFP Vendor Checklist for Enterprise Healthcare
 seoTitle: Patient Access Center RFP Vendor Checklist Enterprise

@@ -64,7 +64,7 @@ Traditional healthcare integration focuses on back-office consolidation: billing
 
 **Staff confidence signal.** When front desk staff see investment in their success (training, tools, support), they stay. When they see only cost-cutting messages, they leave.
 
-**Platform scalability test.** Your intake integration becomes a template for every future acquisition. Perfect it once, replicate efficiently.
+**Platform scalability test.** Your intake integration becomes a template for every future acquisition. Perfect it once, replicate efficiently. See our [enterprise solutions overview](/enterprise/) for the full platform approach.
 
 ### What Does the Math Look Like?
 

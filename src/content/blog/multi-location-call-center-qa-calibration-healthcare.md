@@ -3,9 +3,9 @@ status: scheduled
 publishDate: '2026-03-05'
 author: Ankit Patel
 category: Enterprise
-cluster: enterprise-compliance
-featuredImage: /images/blog/multi-locationcallcenterqacalibrationhealthcare.webp
-canonical: https://mybcat.com/blog/multi-locationcallcenterqacalibrationhealthcare/
+cluster: enterprise
+featuredImage: /images/blog/multi-location-call-center-qa-calibration-healthcare.webp
+canonical: https://mybcat.com/blog/multi-location-call-center-qa-calibration-healthcare/
 scheduledDate: '2026-03-05'
 title: Multi-Location Call Center QA Calibration for Healthcare Groups
 seoTitle: Multi-Location Call Center QA Calibration Healthcare

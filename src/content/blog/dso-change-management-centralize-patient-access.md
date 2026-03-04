@@ -3,9 +3,9 @@ status: scheduled
 publishDate: '2026-03-10'
 author: Ankit Patel
 category: Enterprise
-cluster: enterprise-operations
-featuredImage: /images/blog/d-ochangemanagementcentralizepatientacce.webp
-canonical: https://mybcat.com/blog/d-ochangemanagementcentralizepatientacce/
+cluster: enterprise
+featuredImage: /images/blog/dso-change-management-centralize-patient-access.webp
+canonical: https://mybcat.com/blog/dso-change-management-centralize-patient-access/
 scheduledDate: '2026-03-10'
 title: 'DSO Change Management: How to Centralize Patient Access Across Locations'
 seoTitle: 'DSO Change Management: Centralize Patient Access'

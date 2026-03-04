@@ -3,9 +3,9 @@ status: scheduled
 publishDate: '2026-03-12'
 author: Ankit Patel
 category: Enterprise
-cluster: enterprise-operations
-featuredImage: /images/blog/centralizedrevenuecyclemanagementmulti-locationhealthcaregro.webp
-canonical: https://mybcat.com/blog/centralizedrevenuecyclemanagementmulti-locationhealthcaregro/
+cluster: enterprise
+featuredImage: /images/blog/centralized-revenue-cycle-management-multi-location-healthcare-groups.webp
+canonical: https://mybcat.com/blog/centralized-revenue-cycle-management-multi-location-healthcare-groups/
 scheduledDate: '2026-03-12'
 title: Centralized Revenue Cycle Management for Multi-Location Healthcare Groups
 seoTitle: Centralized RCM for Multi-Location Healthcare Groups
