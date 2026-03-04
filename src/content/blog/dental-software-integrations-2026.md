@@ -1,25 +1,26 @@
 ---
 title: Dental-Specific Software Integrations That Save Time
-description: >-
-  Learn how DSOs achieve operational consistency across mixed PM systems in 90
-  days. Build your integration roadmap without 18-month migrations.
+description: Learn how DSOs achieve operational consistency across mixed PM systems
+  in 90 days. Build your integration roadmap without 18-month migrations.
 publishDate: '2026-03-04T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: industry-specific
 cluster: dental
 tags:
-  - dental software integrations
-  - DSO operations
-  - practice management integration
-  - dental workflow standardization
-  - multi-location dental
+- dental software integrations
+- DSO operations
+- practice management integration
+- dental workflow standardization
+- multi-location dental
 featuredImage: /images/blog/dental-software-integrations-2026-featured.webp
-canonical: 'https://mybcat.com/blog/dental-software-integrations-2026/'
+canonical: https://mybcat.com/blog/dental-software-integrations-2026/
 seoTitle: 'Dental Software Integrations: 90-Day DSO Roadmap'
-seoDescription: >-
-  Learn how DSOs achieve operational consistency across mixed PM systems in 90
-  days. Build your integration roadmap without 18-month migrations.
+seoDescription: Learn how DSOs achieve operational consistency across mixed PM systems
+  in 90 days. Build your integration roadmap without 18-month migrations.
+relatedPosts:
+- dental-answering-service-california
+- dso-case-study-15-location-missed-calls
 ---
 
 Every DSO acquisition adds another PM system to the stack. You're told integration means 18-month migrations. It doesn't. Workflow standardization captures most of the operational value in 90 days across Dentrix, Eaglesoft, Open Dental, or whatever you've got. Your mixed PM stack isn't the problem. Waiting for perfect consolidation is.
@@ -245,6 +246,11 @@ The dental software integrations that save time are the ones you deploy in weeks
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Dental Answering Service California: DSO Solutions](/blog/dental-answering-service-california/)
+- [Case Study: How a 15-Location DSO Reduced Missed Calls by 81% Post-Acquisition](/blog/dso-case-study-15-location-missed-calls/)
 
 ## Sources
 
