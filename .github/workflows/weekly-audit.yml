@@ -23,6 +23,23 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Check SOT Config Drift
+        continue-on-error: true
+        run: |
+          echo "## SOT Drift Check" >> $GITHUB_STEP_SUMMARY
+          # Clone ongoing_seo to check enforcement config drift
+          ONGOING_SEO_DIR=$(mktemp -d)
+          git clone --depth 1 https://github.com/AnkitClassicVision/ongoing_seo.git "$ONGOING_SEO_DIR" 2>/dev/null || true
+          if [ -f "$ONGOING_SEO_DIR/scripts/generate_enforcement_configs.py" ]; then
+            python3 "$ONGOING_SEO_DIR/scripts/generate_enforcement_configs.py" --check --mybcat-dir "$(pwd)" 2>&1 | tee drift.log
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat drift.log >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ Could not clone ongoing_seo for drift check" >> $GITHUB_STEP_SUMMARY
+          fi
+          rm -rf "$ONGOING_SEO_DIR"
+
       - name: Run Pre-Build Validations
         id: prebuild
         continue-on-error: true
