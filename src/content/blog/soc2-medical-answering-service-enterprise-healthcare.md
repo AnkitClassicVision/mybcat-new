@@ -1,12 +1,11 @@
 ---
-status: scheduled
-publishDate: '2026-03-04'
+status: published
+publishDate: '2026-03-04T00:00:00.000Z'
 author: Ankit Patel
 category: Enterprise
 cluster: compliance
 featuredImage: /images/blog/soc2-medical-answering-service-enterprise-healthcare.webp
 canonical: 'https://mybcat.com/blog/soc2-medical-answering-service-enterprise-healthcare/'
-scheduledDate: '2026-03-04'
 title: 'SOC2 Medical Answering Services: Enterprise Healthcare Compliance at Scale'
 seoTitle: SOC2 Medical Answering Service Enterprise Healthcare
 description: >-
