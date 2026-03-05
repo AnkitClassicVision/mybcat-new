@@ -16,7 +16,7 @@
  *   --fix-suggestions  Show suggested replacement sources for dead links
  *   --concurrency=N    Max parallel requests (default: 5)
  *   --timeout=N        Request timeout in ms (default: 10000)
- *   --new-only         Skip posts published before 2026-01-01
+ *   --new-only         Skip posts published before legacyCutoffDate (from content-quality-rules.json)
  */
 
 import fs from 'fs';
@@ -28,7 +28,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const BLOG_DIR = path.join(__dirname, '..', '..', 'src', 'content', 'blog');
-const LEGACY_CUTOFF = '2026-01-01';
+const CONFIG_DIR = path.join(__dirname, '..', 'config');
+
+// Load legacy cutoff from content-quality-rules.json (single source of truth)
+const qualityConfig = JSON.parse(fs.readFileSync(path.join(CONFIG_DIR, 'content-quality-rules.json'), 'utf8'));
+const LEGACY_CUTOFF = qualityConfig.thresholds?.legacyCutoffDate || '2026-03-06';
 
 const colors = {
   red: '\x1b[31m',

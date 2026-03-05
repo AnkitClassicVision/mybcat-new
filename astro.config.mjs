@@ -315,22 +315,14 @@ export default defineConfig({
   build: {
     format: 'directory'
   },
-  // Add nofollow to external links to conserve crawl budget
+  // External links: dofollow by default (per Google best practices).
+  // Only add nofollow to paid/sponsored/UGC links manually.
+  // See: seo_source_of_truth/05_technical_seo.md §External Link Policy
   markdown: {
     rehypePlugins: [
       [rehypeExternalLinks, {
         target: '_blank',
-        rel: ['nofollow', 'noopener'],
-        // Only apply to external links (links not starting with mybcat.com or /)
-        test: (node) => {
-          const href = node.properties?.href;
-          if (!href || typeof href !== 'string') return false;
-          // Skip internal links
-          if (href.startsWith('/') || href.startsWith('#')) return false;
-          if (href.includes('mybcat.com') && !href.includes('hubspot.mybcat.com')) return false;
-          // Apply to all external links including hubspot subdomain
-          return true;
-        }
+        rel: ['noopener'],
       }],
       // Build-time accessibility fixes for Markdown content (tables + task lists).
       rehypeA11y,

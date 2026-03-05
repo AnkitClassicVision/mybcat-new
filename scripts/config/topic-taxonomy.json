@@ -1,58 +1,74 @@
 {
+  "_sourceOfTruth": "03_pillar_cluster_taxonomy.md",
+  "version": "1.0.0",
+  "lastUpdated": "2026-03-04",
   "description": "Approved topic clusters for blog content. Every post should map to one cluster.",
   "strategy": "broad-multi-vertical",
   "clusters": {
     "patient-recall": {
       "pillar": "/solutions/patient-recall/",
-      "description": "Patient recall campaigns, reactivation, dormant patient recovery"
+      "description": "Patient recall campaigns, reactivation, dormant patient recovery",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "no-show-recovery": {
       "pillar": "/solutions/no-show-recovery/",
-      "description": "No-show reduction, appointment adherence, cancellation recovery"
+      "description": "No-show reduction, appointment adherence, cancellation recovery",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "enterprise": {
       "pillar": "/enterprise/",
-      "description": "Multi-location operations, PE-backed groups, DSO/MSO strategy, centralized intake"
+      "description": "Multi-location operations, PE-backed groups, DSO/MSO strategy, centralized intake",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "bpo-outsourcing": {
       "pillar": "/solutions/front-desk-outsourcing/",
-      "description": "Front desk outsourcing, virtual staffing, call handling, BPO for healthcare"
+      "description": "Front desk outsourcing, virtual staffing, call handling, BPO for healthcare",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "starting-practice": {
       "pillar": "/blog/",
-      "description": "New practice startup: equipment, location, staffing, finances"
+      "description": "New practice startup: equipment, location, staffing, finances",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "compliance": {
       "pillar": "/hipaa-compliance/",
-      "description": "HIPAA, SOC 2, security, regulatory compliance for healthcare operations"
+      "description": "HIPAA, SOC 2, security, regulatory compliance for healthcare operations",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "ai-technology": {
       "pillar": "/blog/",
-      "description": "AI in healthcare operations, virtual receptionists, automation"
+      "description": "AI in healthcare operations, virtual receptionists, automation",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "patient-communications": {
       "pillar": "/solutions/medical-answering-service/",
-      "description": "Phone systems, call management, patient communication channels"
+      "description": "Phone systems, call management, patient communication channels",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "retention": {
       "pillar": "/blog/",
-      "description": "Patient retention, churn reduction, loyalty strategies"
+      "description": "Patient retention, churn reduction, loyalty strategies",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "private-practice": {
       "pillar": "/blog/",
-      "description": "Independent practice operations, growth, acquisition prep"
+      "description": "Independent practice operations, growth, acquisition prep",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "veterinary": {
       "pillar": "/industries/veterinary/",
-      "description": "Veterinary-specific intake, triage, after-hours, emergency protocols"
+      "description": "Veterinary-specific intake, triage, after-hours, emergency protocols",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "optometry": {
       "pillar": "/industries/optometry/",
-      "description": "Optometry-specific operations, eye care practice management"
+      "description": "Optometry-specific operations, eye care practice management",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "dental": {
       "pillar": "/industries/dental/",
-      "description": "Dental-specific operations, DSO management, dental practice growth"
+      "description": "Dental-specific operations, DSO management, dental practice growth",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     }
   }
 }

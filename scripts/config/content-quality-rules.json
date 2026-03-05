@@ -1,15 +1,35 @@
 {
+  "_sourceOfTruth": "04_content_quality_rules.md",
+  "version": "1.1.0",
+  "lastUpdated": "2026-03-06",
   "thresholds": {
     "minWordCount": 1500,
+    "wordCountTarget": 1800,
+    "wordCountMinRatio": 0.6,
+    "wordCountMaxRatio": 2.0,
     "minProseDensity": 0.6,
     "minExternalCitations": 2,
+    "externalLinksMinimum": 2,
     "minInternalLinks": 5,
     "minWordCountForTOC": 1500,
     "minH2QuestionRatio": 0.70,
-    "legacyCutoffDate": "2026-01-01"
+    "cannibalizationOverlapThreshold": 0.40,
+    "featuredImageDimensions": [1200, 630],
+    "legacyCutoffDate": "2026-03-06",
+    "source": "04_content_quality_rules.md §1-4, Rules 4.1-4.9"
+  },
+  "wordCountByPageType": {
+    "blog": 1500,
+    "solution": 1200,
+    "industry": 1200,
+    "caseStudy": 800,
+    "glossary": 300,
+    "enterprise": 1500,
+    "source": "04_content_quality_rules.md §1.1"
   },
   "requiredSections": {
-    "sources": "## Sources"
+    "sources": "## Sources",
+    "source": "04_content_quality_rules.md §3, Rule 4.7"
   },
   "ctaPatterns": [
     "hubspot.com",
@@ -45,10 +65,12 @@
       "revolutionize",
       "cutting-edge",
       "robust"
-    ]
+    ],
+    "source": "06_forbidden_terms_and_language.md §2, Rule 6.4"
   },
   "punctuation": {
     "warnOnEmDash": true,
-    "emDashChar": "\u2014"
+    "emDashChar": "\u2014",
+    "source": "06_forbidden_terms_and_language.md §3, Rule 6.5"
   }
 }

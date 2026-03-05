@@ -1,39 +1,46 @@
 {
   "$schema": "./enterprise-links.schema.json",
+  "_sourceOfTruth": "01_information_architecture.md",
   "version": "1.0.0",
-  "lastUpdated": "2026-01-29",
+  "lastUpdated": "2026-03-04",
   "description": "Required inbound link counts for enterprise pillar pages",
 
   "pillarPages": {
     "/enterprise/": {
       "minInboundLinks": 10,
       "description": "Main enterprise landing page",
-      "priority": "critical"
+      "priority": "critical",
+      "source": "01_information_architecture.md §4.2, Rule 1.12"
     },
     "/enterprise/patient-access-center/": {
       "minInboundLinks": 5,
       "description": "Patient access center solution",
-      "priority": "high"
+      "priority": "high",
+      "source": "01_information_architecture.md §4.2, Rule 1.12"
     },
     "/enterprise/centralized-scheduling/": {
       "minInboundLinks": 5,
       "description": "Centralized scheduling solution",
-      "priority": "high"
+      "priority": "high",
+      "source": "01_information_architecture.md §4.2, Rule 1.12"
     },
     "/enterprise/multi-location-recall/": {
       "minInboundLinks": 5,
       "description": "Multi-location recall solution",
-      "priority": "high"
+      "priority": "high",
+      "source": "01_information_architecture.md §4.2, Rule 1.12"
     },
     "/enterprise/reporting-qa/": {
       "minInboundLinks": 5,
       "description": "Reporting and QA solution",
-      "priority": "high"
+      "priority": "high",
+      "source": "01_information_architecture.md §4.2, Rule 1.12"
     },
     "/enterprise/dso/": {
       "minInboundLinks": 5,
       "description": "DSO-specific page",
-      "priority": "high"
+      "priority": "high",
+      "source": "01_information_architecture.md §4.2, Rule 1.12"
     }
   },
 

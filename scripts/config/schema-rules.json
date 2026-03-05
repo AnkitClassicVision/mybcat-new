@@ -1,59 +1,70 @@
 {
   "$schema": "./schema-rules.schema.json",
+  "_sourceOfTruth": "05_technical_seo.md, 12_structured_data.md",
   "version": "1.0.0",
-  "lastUpdated": "2026-01-29",
+  "lastUpdated": "2026-03-04",
   "description": "Schema.org markup rules for enterprise B2B positioning",
 
   "allowed": {
     "Organization": {
       "pages": ["/", "/contact/"],
       "required": true,
-      "properties": ["name", "url", "logo", "contactPoint"]
+      "properties": ["name", "url", "logo", "contactPoint"],
+      "source": "12_structured_data.md §3, Rule 12.3"
     },
     "WebSite": {
       "pages": ["/"],
       "required": true,
-      "properties": ["name", "url"]
+      "properties": ["name", "url"],
+      "source": "12_structured_data.md §4, Rule 12.4"
     },
     "Service": {
       "pages": ["/solutions/*", "/industries/*", "/enterprise/*"],
       "required": false,
-      "properties": ["name", "description", "provider"]
+      "properties": ["name", "description", "provider"],
+      "source": "12_structured_data.md §6, Rule 12.6"
     },
     "Article": {
       "pages": ["/blog/*"],
       "required": true,
-      "properties": ["headline", "author", "datePublished", "url"]
+      "properties": ["headline", "author", "datePublished", "url"],
+      "source": "12_structured_data.md §7, Rule 12.7"
     },
     "BreadcrumbList": {
       "pages": ["*"],
       "required": false,
-      "properties": ["itemListElement"]
+      "properties": ["itemListElement"],
+      "source": "12_structured_data.md §5, Rule 12.5"
     },
     "FAQPage": {
       "pages": ["*"],
       "required": false,
-      "properties": ["mainEntity"]
+      "properties": ["mainEntity"],
+      "source": "12_structured_data.md §8, Rule 12.8"
     }
   },
 
   "forbidden": {
     "LocalBusiness": {
       "reason": "Conflicts with national enterprise positioning",
-      "severity": "error"
+      "severity": "error",
+      "source": "12_structured_data.md §2, Rule 12.2"
     },
     "ProfessionalService": {
       "reason": "Implies local service provider, not enterprise solution",
-      "severity": "error"
+      "severity": "error",
+      "source": "12_structured_data.md §2, Rule 12.2"
     },
     "GeoCoordinates": {
       "reason": "Geographic coordinates signal local business",
-      "severity": "error"
+      "severity": "error",
+      "source": "12_structured_data.md §2, Rule 12.2"
     },
     "PostalAddress": {
       "reason": "Physical address signals local business (use contactPoint instead)",
       "severity": "warning",
-      "exceptions": ["/contact/"]
+      "exceptions": ["/contact/"],
+      "source": "12_structured_data.md §2, Rule 12.2"
     }
   },
 
@@ -61,6 +72,7 @@
     "requireAbsoluteUrls": true,
     "requireHttps": true,
     "maxSchemasPerPage": 3,
-    "requireUniqueIds": true
+    "requireUniqueIds": true,
+    "source": "12_structured_data.md §11, Rules 12.11-12.15"
   }
 }
