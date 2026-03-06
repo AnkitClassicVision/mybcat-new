@@ -1,21 +1,24 @@
 ---
-status: scheduled
-publishDate: '2026-03-05'
+status: published
+publishDate: '2026-03-05T00:00:00.000Z'
 author: Ankit Patel
 category: Enterprise
 cluster: enterprise
 featuredImage: /images/blog/multi-location-call-center-qa-calibration-healthcare.webp
-canonical: https://mybcat.com/blog/multi-location-call-center-qa-calibration-healthcare/
-scheduledDate: '2026-03-05'
-title: "Multi-Location Call Center QA Calibration Healthcare"
-seoTitle: "Multi-Location Call Center QA Calibration Healthcare"
-description: "Multi-location healthcare QA calibration framework for DSOs and medical groups. Standardize call scoring across sites with proven calibration methods."
-seoDescription: "Multi-location healthcare QA calibration framework for DSOs and medical groups. Standardize call scoring across sites with proven calibration methods."
+canonical: 'https://mybcat.com/blog/multi-location-call-center-qa-calibration-healthcare/'
+title: Multi-Location Call Center QA Calibration Healthcare
+seoTitle: Multi-Location Call Center QA Calibration Healthcare
+description: >-
+  Multi-location healthcare QA calibration framework for DSOs and medical
+  groups. Standardize call scoring across sites with proven calibration methods.
+seoDescription: >-
+  Multi-location healthcare QA calibration framework for DSOs and medical
+  groups. Standardize call scoring across sites with proven calibration methods.
 tags:
-- multi-location call center QA calibration healthcare
-- multi-location
-- enterprise operations
-- healthcare scale
+  - multi-location call center QA calibration healthcare
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 ---
 
 Multi-location healthcare groups with inconsistent QA calibration see scoring variance exceeding 25% across sites, directly contributing to patient satisfaction gaps and compliance risks. When a patient calls your Denver location and receives one experience, then calls your Phoenix location and receives something entirely different, the revenue impact compounds across your portfolio. This guide provides the operational framework that enterprise DSOs, veterinary networks, and optometry chains use to standardize QA calibration across 10, 50, or 100+ locations while maintaining the scoring consistency that PE sponsors expect.
