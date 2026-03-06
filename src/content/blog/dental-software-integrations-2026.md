@@ -1,7 +1,6 @@
 ---
-title: Dental-Specific Software Integrations That Save Time
-description: Learn how DSOs achieve operational consistency across mixed PM systems
-  in 90 days. Build your integration roadmap without 18-month migrations.
+title: "Dental Software Integrations: A 90-Day Roadmap for DSOs"
+description: "Learn how DSOs achieve operational consistency across mixed PM systems in 90 days. Build your integration roadmap without 18-month migrations."
 publishDate: '2026-03-04T00:00:00.000Z'
 status: published
 author: Ankit Patel
@@ -15,9 +14,8 @@ tags:
 - multi-location dental
 featuredImage: /images/blog/dental-software-integrations-2026-featured.webp
 canonical: https://mybcat.com/blog/dental-software-integrations-2026/
-seoTitle: 'Dental Software Integrations: 90-Day DSO Roadmap'
-seoDescription: Learn how DSOs achieve operational consistency across mixed PM systems
-  in 90 days. Build your integration roadmap without 18-month migrations.
+seoTitle: "Dental Software Integrations: A 90-Day Roadmap for DSOs"
+seoDescription: "Learn how DSOs achieve operational consistency across mixed PM systems in 90 days. Build your integration roadmap without 18-month migrations."
 relatedPosts:
 - dental-answering-service-california
 - dso-case-study-15-location-missed-calls

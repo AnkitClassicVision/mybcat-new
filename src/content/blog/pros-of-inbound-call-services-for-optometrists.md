@@ -1,6 +1,6 @@
 ---
-title: Pros of Inbound Call Services for Optometrists
-description: Inbound call services boost patient retention, capture missed revenue, and free optometrists to focus on clinical care instead of phone interruptions.
+title: "Benefits of Inbound Call Services for Optometry Practices"
+description: "Inbound call services boost patient retention, capture missed revenue, and free optometrists to focus on clinical care instead of phone interruptions."
 publishDate: 2023-08-14
 status: published
 author: Ankit Patel

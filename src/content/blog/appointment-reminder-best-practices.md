@@ -1,12 +1,8 @@
 ---
-title: 'Appointment Reminder Best Practices: Reduce No-Shows 20-50%'
-seoTitle: 'Appointment Reminder Best Practices: Reduce No-Shows'
-description: >-
-  64% of patients prefer text reminders. Timing, frequency, and strategies that
-  reduce no-shows 20-50% without annoying patients.
-seoDescription: >-
-  Appointment reminder best practices that reduce healthcare no-shows by 20-50%.
-  Optimal timing (3-day, 1-day, same-day), channel preferences
+title: "Appointment Reminder Best Practices: Reduce No-Shows"
+seoTitle: "Appointment Reminder Best Practices: Reduce No-Shows"
+description: "Proven appointment reminder strategies that cut healthcare no-shows by 20-50%. Learn optimal timing, channel selection, and message content best practices."
+seoDescription: "Proven appointment reminder strategies that cut healthcare no-shows by 20-50%. Learn optimal timing, channel selection, and message content best practices."
 publishDate: '2026-02-16T00:00:00.000Z'
 status: published
 author: Ankit Patel

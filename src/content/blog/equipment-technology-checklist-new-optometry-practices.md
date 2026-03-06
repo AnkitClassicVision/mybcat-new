@@ -1,12 +1,8 @@
 ---
-title: Equipment and Technology Checklist for New Optometry Practices
-seoTitle: Optometry Equipment Checklist | New Practice Startup
-description: >-
-  Essential equipment and technology checklist for starting an optometry
-  practice, from exam room basics to practice management.
-seoDescription: >-
-  Complete optometry equipment checklist for new practices. Covers exam room
-  essentials, diagnostic tools, and practice management systems.
+title: "Optometry Equipment Checklist | New Practice Startup"
+seoTitle: "Optometry Equipment Checklist | New Practice Startup"
+description: "Complete optometry equipment and technology checklist for new practices. Covers exam room essentials, diagnostic tools, and practice management systems."
+seoDescription: "Complete optometry equipment and technology checklist for new practices. Covers exam room essentials, diagnostic tools, and practice management systems."
 publishDate: 2026-01-09T00:00:00.000Z
 status: published
 author: Ankit Patel

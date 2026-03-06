@@ -1,8 +1,6 @@
 ---
-title: Embracing Cultural Sensitivity in Optometry Care
-description: Cultural sensitivity provides exceptional customer service no matter
-  what business you provide. Acknowledging and respecting cultural differences is
-  crucial...
+title: "Cultural Sensitivity in Optometry: Building Patient Trust"
+description: "Cultural sensitivity in optometry builds lasting patient trust. Learn how acknowledging and respecting cultural differences drives better clinical outcomes."
 publishDate: 2023-09-22
 status: published
 author: Ankit Patel

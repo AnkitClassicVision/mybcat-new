@@ -7,13 +7,10 @@ cluster: enterprise
 featuredImage: /images/blog/dso-change-management-centralize-patient-access.webp
 canonical: https://mybcat.com/blog/dso-change-management-centralize-patient-access/
 scheduledDate: '2026-03-10'
-title: 'DSO Change Management: How to Centralize Patient Access Across Locations'
-seoTitle: 'DSO Change Management: Centralize Patient Access'
-description: 'DSO operations leaders: learn a proven framework for centralizing patient
-  access without disrupting clinical workflows. Reduce change resistance and accelerate
-  ROI.'
-seoDescription: DSO change management framework for centralizing patient access. Reduce
-  70% failure rates with phased implementation across multiple locations.
+title: "DSO Change Management Framework for Patient Access Teams"
+seoTitle: "DSO Change Management Framework for Patient Access Teams"
+description: "DSO change management framework for centralizing patient access. Reduce 70% failure rates with phased implementation across multi-location groups."
+seoDescription: "DSO change management framework for centralizing patient access. Reduce 70% failure rates with phased implementation across multi-location groups."
 tags:
 - DSO change management centralize patient access
 - multi-location

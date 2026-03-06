@@ -1,7 +1,6 @@
 ---
-title: How to Assess Your Staff to Ensure the Best Patient Care
-description: Your staff is the first thing patients judge. Here's how to actually
-  measure if they're helping or hurting your practice.
+title: "How to Assess Your Staff to Ensure the Best Patient Care"
+description: "Patients judge your practice by staff interactions, not clinical skill. Learn frameworks to measure, train, and improve front-office performance metrics."
 publishDate: 2025-01-30
 status: published
 author: Ankit Patel

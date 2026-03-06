@@ -1,7 +1,7 @@
 ---
-title: 6 Best Practices for Managing Your Outsourced Customer Service Team
-seoTitle: Managing Outsourced Customer Service Teams
-description: Master the 6 best practices for managing outsourced teams in optometry, from hiring and cultural training to quality audits and compliance oversight.
+title: "Managing Outsourced Healthcare Customer Service Operations"
+seoTitle: "Managing Outsourced Healthcare Customer Service Operations"
+description: "Master the 6 best practices for managing outsourced teams in optometry, from hiring and cultural training to quality audits and compliance oversight."
 publishDate: 2023-07-20
 status: published
 author: Ankit Patel

@@ -1,7 +1,6 @@
 ---
-title: Building Patient Loyalty Through Great Service
-description: 'The awkward truth about patient satisfaction: it has almost nothing
-  to do with clinical outcomes and everything to do with how people feel.'
+title: "How Patient Satisfaction Drives Loyalty in Eye Care"
+description: "Patient satisfaction hinges on emotional experience, not clinical outcomes. Learn how front-office interactions drive loyalty, reviews, and retention rates."
 publishDate: 2025-01-23
 status: published
 author: Ankit Patel

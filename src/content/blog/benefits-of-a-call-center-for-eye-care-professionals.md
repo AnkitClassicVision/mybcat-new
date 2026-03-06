@@ -1,7 +1,6 @@
 ---
-title: Benefits of a Call Center for Eye Care Professionals
-description: Most eye care practices answer about 60% of their calls. That means 40%
-  of potential patients hear voicemail. Here's a better way.
+title: "Benefits of a Call Center for Eye Care Professionals"
+description: "Most eye care practices answer only 60% of calls, sending 40% of potential patients to voicemail. Learn how dedicated intake support captures lost revenue."
 publishDate: 2023-11-27
 status: published
 author: Ankit Patel

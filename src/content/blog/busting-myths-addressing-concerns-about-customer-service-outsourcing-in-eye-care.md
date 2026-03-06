@@ -1,9 +1,7 @@
 ---
-title: 'Busting myths: addressing concerns about customer service outsourcing in eye
-  care'
-seoTitle: Eye Care Outsourcing Myths Busted
-description: Optometry practices often hesitate to outsource. Learn the truth about
-  customer service outsourcing and how it can transform your practice operations.
+title: "Debunking the Top Eye Care Outsourcing Myths for Clinics"
+seoTitle: "Debunking the Top Eye Care Outsourcing Myths for Clinics"
+description: "Optometry practices often hesitate to outsource. Learn the truth about customer service outsourcing and how it can transform your practice operations."
 publishDate: 2023-07-11
 status: published
 author: Ankit Patel

@@ -1,13 +1,8 @@
 ---
-title: 'Dormant Patient Reactivation: 30-Day Multi-Location Playbook'
-seoTitle: 'Dormant Patient Reactivation: 30-Day Playbook'
-description: >-
-  Multi-location healthcare groups recover 15-25% of dormant patients with this
-  30-day reactivation playbook. Steps for DSOs and healthcare networks.
-seoDescription: >-
-  A proven 30-day playbook for dormant patient reactivation at multi-location
-  healthcare groups. Includes scripts, timing sequences, and KPIs that drive
-  results.
+title: "Dormant Patient Reactivation: A 30-Day Playbook for DSOs"
+seoTitle: "Dormant Patient Reactivation: A 30-Day Playbook for DSOs"
+description: "A proven 30-day playbook for dormant patient reactivation at multi-location healthcare groups. Includes scripts, timing sequences, and KPIs that drive results."
+seoDescription: "A proven 30-day playbook for dormant patient reactivation at multi-location healthcare groups. Includes scripts, timing sequences, and KPIs that drive results."
 publishDate: '2026-01-30'
 status: published
 author: Ankit Patel

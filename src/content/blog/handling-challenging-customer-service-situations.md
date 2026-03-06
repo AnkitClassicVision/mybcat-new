@@ -1,6 +1,6 @@
 ---
-title: Handling Challenging Customer Service Situations
-description: Equip your front desk to handle difficult patient interactions with empathy and professionalism. Conflict resolution strategies built for eye care teams.
+title: "Handling Challenging Patient Interactions in Eye Care"
+description: "Equip your front desk to handle difficult patient interactions with empathy and professionalism. Conflict resolution strategies built for eye care teams."
 publishDate: 2024-01-22
 status: published
 author: Ankit Patel

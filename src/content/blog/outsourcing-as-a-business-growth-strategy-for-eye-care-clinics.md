@@ -1,6 +1,6 @@
 ---
-title: Outsourcing as a Growth Strategy for Eye Care
-description: Outsourcing admin tasks like billing, scheduling, and patient communication frees your eye care team to focus on growth and clinical excellence.
+title: "Outsourcing as a Business Growth Strategy for Eye Care"
+description: "Outsourcing admin tasks like billing, scheduling, and patient communication frees your eye care team to focus on growth and clinical excellence."
 publishDate: 2023-09-07
 status: published
 author: Ankit Patel

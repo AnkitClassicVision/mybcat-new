@@ -1,13 +1,8 @@
 ---
-title: 'Patient Recall Service: What It Is and When You Need It'
-seoTitle: 'Patient Recall Service: Multi-Location Guide'
-description: >-
-  Patient recall services help healthcare groups recover 15-30% more revenue.
-  Learn when to use in-house vs outsourced recall and how to evaluate providers.
-seoDescription: >-
-  Learn what patient recall services are, when multi-location healthcare groups
-  should outsource recall, and how to evaluate providers. Includes ROI
-  benchmarks
+title: "Patient Recall Services for Multi-Location Healthcare"
+seoTitle: "Patient Recall Services for Multi-Location Healthcare"
+description: "Learn what patient recall services are, when multi-location healthcare groups should outsource recall, and how to evaluate providers. Includes ROI benchmarks"
+seoDescription: "Learn what patient recall services are, when multi-location healthcare groups should outsource recall, and how to evaluate providers. Includes ROI benchmarks"
 publishDate: '2026-02-02'
 status: published
 author: Ankit Patel

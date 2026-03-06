@@ -1,6 +1,6 @@
 ---
-title: Legal and Regulatory Compliance in Optometry
-description: 'Protect your optometry practice with proven compliance strategies covering HIPAA, state regulations, data security, and staff training protocols.'
+title: "Legal and Regulatory Compliance Strategies in Optometry"
+description: "Protect your optometry practice with proven compliance strategies covering HIPAA, state regulations, data security, and staff training protocols."
 publishDate: 2023-11-10
 status: published
 author: Ankit Patel

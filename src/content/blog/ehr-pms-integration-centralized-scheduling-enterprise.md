@@ -7,13 +7,10 @@ cluster: enterprise
 featuredImage: /images/blog/ehr-pms-integration-centralized-scheduling-enterprise.webp
 canonical: https://mybcat.com/blog/ehr-pms-integration-centralized-scheduling-enterprise/
 scheduledDate: '2026-03-09'
-title: 'EHR PMS Integration for Centralized Scheduling: The Enterprise Playbook'
-seoTitle: EHR PMS Integration Centralized Scheduling Enterprise
-description: Learn how multi-location healthcare groups integrate EHR and PMS systems
-  for centralized scheduling. Implementation framework and ROI benchmarks for 3+ location
-  enterprises.
-seoDescription: How enterprise healthcare groups integrate EHR and PMS for centralized
-  scheduling. ROI framework and implementation guide for 3+ locations.
+title: "EHR PMS Integration Centralized Scheduling Enterprise"
+seoTitle: "EHR PMS Integration Centralized Scheduling Enterprise"
+description: "How enterprise healthcare groups integrate EHR and PMS systems for centralized scheduling. Includes ROI framework and implementation guide for 3+ locations."
+seoDescription: "How enterprise healthcare groups integrate EHR and PMS systems for centralized scheduling. Includes ROI framework and implementation guide for 3+ locations."
 tags:
 - EHR PMS integration centralized scheduling enterprise
 - multi-location

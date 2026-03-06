@@ -1,6 +1,6 @@
 ---
-title: BPO Security and Compliance for Eye Care
-description: Stay HIPAA-compliant while outsourcing. See how BPO providers protect patient data, pass security audits, and keep your eye care practice safe.
+title: "BPO Security and HIPAA Compliance for Eye Care Practices"
+description: "Stay HIPAA-compliant while outsourcing. See how BPO providers protect patient data, pass security audits, and keep your eye care practice safe."
 publishDate: 2023-08-21
 status: published
 author: Ankit Patel

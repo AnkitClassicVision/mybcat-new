@@ -1,13 +1,8 @@
 ---
-title: 'Case Study: How a 15-Location DSO Reduced Missed Calls by 81% Post-Acquisition'
-seoTitle: 'DSO Case Study: 81% Fewer Missed Calls, $108K/Mo'
-description: >-
-  A PE-backed dental group recovering $108,000 monthly by standardizing intake
-  across 15 locations. Real metrics, implementation timeline, and lessons for
-  DSO operators.
-seoDescription: >-
-  See how a 15-location DSO recovered $108,000/month by reducing missed calls
-  81%. Real metrics and 90-day implementation timeline for dental groups.
+title: "DSO Case Study: 81% Fewer Missed Calls Across 15 Locations"
+seoTitle: "DSO Case Study: 81% Fewer Missed Calls Across 15 Locations"
+description: "See how a 15-location DSO recovered $108,000/month by reducing missed calls 81%. Real metrics and 90-day implementation timeline for dental groups."
+seoDescription: "See how a 15-location DSO recovered $108,000/month by reducing missed calls 81%. Real metrics and 90-day implementation timeline for dental groups."
 publishDate: 2026-01-10T00:00:00.000Z
 status: published
 author: Ankit Patel

@@ -1,7 +1,6 @@
 ---
-title: Patient Retention Strategies for Optometry
-description: 'Top-performing practices often attribute their high patient retention
-  rates to several key elements: Personalized care where every patient feels recognized...'
+title: "Patient Retention and Acquisition Strategies for Optometry"
+description: "Top-performing practices attribute high patient retention to personalized care where every patient feels recognized. Build retention and acquisition strategies."
 publishDate: 2023-09-18
 status: published
 author: Ankit Patel

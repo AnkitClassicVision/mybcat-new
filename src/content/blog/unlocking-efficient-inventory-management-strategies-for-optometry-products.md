@@ -1,6 +1,6 @@
 ---
-title: Inventory Management Strategies for Optometry
-description: 'Stop tying up capital in unsold frames. Data-driven inventory strategies help optometry practices balance stock levels, cut waste, and improve cash flow.'
+title: "Efficient Inventory Management Strategies for Optometry"
+description: "Stop tying up capital in unsold frames. Data-driven inventory strategies help optometry practices balance stock levels, cut waste, and improve cash flow."
 publishDate: 2023-11-16
 status: published
 author: Ankit Patel

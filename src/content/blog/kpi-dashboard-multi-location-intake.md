@@ -1,14 +1,8 @@
 ---
-title: 'KPI Dashboard for Multi-Location Intake: What to Measure (With Benchmarks)'
-seoTitle: Multi-Location Intake KPI Dashboard + Benchmarks
-description: >-
-  The 10 essential intake KPIs every multi-location healthcare group should
-  track, with benchmarks for dental, optometry, and veterinary practices.
-  Includes dashboard template.
-seoDescription: >-
-  10 essential intake KPIs for multi-location healthcare with industry
-  benchmarks. Track answer rates, conversion, and more for dental, optometry,
-  and vet.
+title: "Multi-Location Intake KPI Dashboard With Key Benchmarks"
+seoTitle: "Multi-Location Intake KPI Dashboard With Key Benchmarks"
+description: "10 essential intake KPIs for multi-location healthcare with industry benchmarks. Track answer rates, conversion, and more for dental, optometry, and vet."
+seoDescription: "10 essential intake KPIs for multi-location healthcare with industry benchmarks. Track answer rates, conversion, and more for dental, optometry, and vet."
 publishDate: 2026-01-13T00:00:00.000Z
 status: published
 author: Ankit Patel

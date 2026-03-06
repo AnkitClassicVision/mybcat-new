@@ -1,7 +1,6 @@
 ---
-title: Spanish-Speaking Staff for Eye Care Practices
-description: Over 40 million Spanish speakers in the US. How many are choosing your competitor
-  because they can actually communicate with them?
+title: "Why Eye Care Practices Need Spanish-Speaking Staff Now"
+description: "Over 41 million US residents speak Spanish at home. Learn how bilingual intake staff help eye care practices capture underserved patient populations at scale."
 publishDate: 2025-01-28
 status: published
 author: Ankit Patel

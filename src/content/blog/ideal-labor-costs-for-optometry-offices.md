@@ -1,6 +1,6 @@
 ---
-title: Ideal Labor Costs for Optometry Offices
-description: Optimize your optometry labor costs with smart staffing, efficient scheduling, and strategic outsourcing to boost profitability without sacrificing care.
+title: "Ideal Labor Cost Benchmarks for Optometry Office Teams"
+description: "Optimize your optometry labor costs with smart staffing, efficient scheduling, and strategic outsourcing to boost profitability without sacrificing care."
 publishDate: 2023-09-25
 status: published
 author: Ankit Patel

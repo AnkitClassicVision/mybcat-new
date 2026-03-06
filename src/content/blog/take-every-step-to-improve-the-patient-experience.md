@@ -1,6 +1,6 @@
 ---
-title: Take Every Step to Improve the Patient Experience
-description: 'Strengthen patient loyalty at your eye clinic with better communication, people skills, and feedback-driven improvements that elevate every visit.'
+title: "Improving Patient Experience at Your Eye Care Practice"
+description: "Strengthen patient loyalty at your eye clinic with better communication, people skills, and feedback-driven improvements that elevate every visit."
 publishDate: 2023-10-26
 status: published
 author: Ankit Patel

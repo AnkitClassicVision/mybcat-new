@@ -7,13 +7,10 @@ cluster: enterprise
 featuredImage: /images/blog/multi-location-call-center-qa-calibration-healthcare.webp
 canonical: https://mybcat.com/blog/multi-location-call-center-qa-calibration-healthcare/
 scheduledDate: '2026-03-05'
-title: Multi-Location Call Center QA Calibration for Healthcare Groups
-seoTitle: Multi-Location Call Center QA Calibration Healthcare
-description: Learn how multi-location healthcare groups standardize call center QA
-  calibration across 10+ sites. Achieve 5% scoring variance and 85%+ CSAT with proven
-  frameworks.
-seoDescription: Multi-location healthcare QA calibration framework for DSOs and medical
-  groups. Standardize scoring across sites with proven methods.
+title: "Multi-Location Call Center QA Calibration Healthcare"
+seoTitle: "Multi-Location Call Center QA Calibration Healthcare"
+description: "Multi-location healthcare QA calibration framework for DSOs and medical groups. Standardize call scoring across sites with proven calibration methods."
+seoDescription: "Multi-location healthcare QA calibration framework for DSOs and medical groups. Standardize call scoring across sites with proven calibration methods."
 tags:
 - multi-location call center QA calibration healthcare
 - multi-location

@@ -1,13 +1,8 @@
 ---
-title: 'Dental Hygiene Recall: The DSO Valuation Driver'
-seoTitle: 'Dental Hygiene Recall: The DSO Valuation Driver'
-description: >-
-  Hygiene recall rates separate $500K from $1M practices. Only 17% have patients
-  on 6-month recall. Benchmarks and strategies.
-seoDescription: >-
-  Dental hygiene recall rates are the #1 driver of practice valuation. Learn
-  benchmarks (65-74% average, 85%+ optimal), revenue impact, and strategies for
-  DSO
+title: "Dental Hygiene Recall Rates: The Key DSO Valuation Driver"
+seoTitle: "Dental Hygiene Recall Rates: The Key DSO Valuation Driver"
+description: "Dental hygiene recall rates are the #1 driver of practice valuation. Learn benchmarks (65-74% average, 85%+ optimal), revenue impact, and strategies for DSO"
+seoDescription: "Dental hygiene recall rates are the #1 driver of practice valuation. Learn benchmarks (65-74% average, 85%+ optimal), revenue impact, and strategies for DSO"
 publishDate: '2026-02-09T00:00:00.000Z'
 status: published
 author: Ankit Patel

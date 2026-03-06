@@ -1,7 +1,7 @@
 ---
-title: Ensuring Compliance and Security with Your Outsourced Customer Service Team
-seoTitle: Compliance & Security for Outsourced Teams
-description: 'You became an OD to help patients, not manage data security. See how BPO partners handle HIPAA compliance, encryption, and breach prevention for you.'
+title: "HIPAA Compliance and Security for Outsourced Care Teams"
+seoTitle: "HIPAA Compliance and Security for Outsourced Care Teams"
+description: "You became an OD to help patients, not manage data security. See how BPO partners handle HIPAA compliance, encryption, and breach prevention for you."
 publishDate: 2023-07-19
 status: published
 author: Ankit Patel

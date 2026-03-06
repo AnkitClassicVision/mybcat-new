@@ -1,7 +1,6 @@
 ---
-title: Are Administrative Functions Hurting Your Practice?
-description: Administrative burden hurts optometry practices. Learn how to streamline
-  operations and focus more time on patient care.
+title: "Are Administrative Functions Hurting Your Practice?"
+description: "Administrative overhead drains optometry profitability. Learn which workflows to streamline and how to reclaim clinical hours for better patient access."
 publishDate: 2023-10-24
 status: published
 author: Ankit Patel

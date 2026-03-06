@@ -1,7 +1,6 @@
 ---
-title: Maintaining Client Relations in Your Optometry Practice
-description: Eye care professionals see recurring patients for years. Learn strategies
-  to maintain strong patient relationships and improve retention.
+title: "Maintaining Client Relations in Your Optometry Practice"
+description: "Eye care professionals see recurring patients for years. Learn proven strategies to strengthen patient relationships, boost retention, and grow your practice."
 publishDate: 2023-10-18
 status: published
 author: Ankit Patel

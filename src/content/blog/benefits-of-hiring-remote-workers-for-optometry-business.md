@@ -1,9 +1,7 @@
 ---
-title: 6 Irresistible Reasons Why Hiring Remote Workers Can Transform Your Optometry
-  Business
-seoTitle: 6 Reasons to Hire Remote Workers in Optometry
-description: Remote staffing reduced my non-doctor payroll by 30% while increasing
-  revenue. Learn how optometry practices benefit from virtual team members.
+title: "6 Benefits of Remote Staffing for Optometry Operations"
+seoTitle: "6 Benefits of Remote Staffing for Optometry Operations"
+description: "Remote staffing reduced my non-doctor payroll by 30% while increasing revenue. Learn how optometry practices benefit from virtual team members."
 publishDate: 2023-06-30
 status: published
 author: Ankit Patel

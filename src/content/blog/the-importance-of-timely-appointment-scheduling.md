@@ -1,6 +1,6 @@
 ---
-title: The Importance of Timely Appointment Scheduling
-description: 'Timely scheduling reduces wait times and protects revenue. Explore how efficient call management and virtual receptionists keep your optometry calendar full.'
+title: "Why Timely Appointment Scheduling Matters in Eye Care"
+description: "Timely scheduling reduces wait times and protects revenue. Explore how efficient call management and virtual receptionists keep your optometry calendar full."
 publishDate: 2024-01-10
 status: published
 author: Ankit Patel

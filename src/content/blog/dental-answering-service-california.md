@@ -1,12 +1,8 @@
 ---
-title: 'Dental Answering Service California: DSO Solutions'
-seoTitle: Dental Answering Service California | DSO Solutions
-description: >-
-  California dental answering services for DSOs and multi-location groups.
-  HIPAA-compliant 24/7 patient support with bilingual agents.
-seoDescription: >-
-  California dental answering services for DSOs. HIPAA-compliant 24/7 patient
-  support with bilingual agents for multi-location groups.
+title: "Dental Answering Service California | DSO Solutions"
+seoTitle: "Dental Answering Service California | DSO Solutions"
+description: "California DSOs face unique intake challenges from multilingual demand to high competition. Learn how HIPAA-compliant answering services solve them at scale."
+seoDescription: "California DSOs face unique intake challenges from multilingual demand to high competition. Learn how HIPAA-compliant answering services solve them at scale."
 publishDate: 2026-01-18T00:00:00.000Z
 status: published
 author: Ankit Patel

@@ -1,12 +1,8 @@
 ---
-title: Optometry Retail-Clinical Intake Guide
-seoTitle: Optometry Retail-Clinical Intake Guide
-description: >-
-  How multi-location optometry groups handle the dual nature of retail and
-  clinical operations with unified patient intake processes.
-seoDescription: >-
-  How multi-location optometry groups handle retail and clinical operations with
-  unified patient intake and scheduling processes.
+title: "Optometry Retail and Clinical Intake: A Dual Guide"
+seoTitle: "Optometry Retail and Clinical Intake: A Dual Guide"
+description: "Discover how multi-location optometry groups unify retail and clinical intake workflows to boost capture rates and streamline patient scheduling."
+seoDescription: "Discover how multi-location optometry groups unify retail and clinical intake workflows to boost capture rates and streamline patient scheduling."
 publishDate: 2026-01-14T00:00:00.000Z
 status: published
 author: Ankit Patel

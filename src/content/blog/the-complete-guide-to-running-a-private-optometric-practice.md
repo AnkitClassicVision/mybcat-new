@@ -1,7 +1,7 @@
 ---
-title: The Complete Guide to Running a Private Optometric Practice
-seoTitle: Guide to Running a Private Optometry Practice
-description: 'A comprehensive guide to private optometric practice ownership covering financial planning, operations, HR, and marketing strategies for sustainable growth.'
+title: "Complete Guide to Running a Private Optometry Practice"
+seoTitle: "Complete Guide to Running a Private Optometry Practice"
+description: "A comprehensive guide to private optometric practice ownership covering financial planning, operations, HR, and marketing strategies for sustainable growth."
 publishDate: 2023-11-13
 status: published
 author: Ankit Patel

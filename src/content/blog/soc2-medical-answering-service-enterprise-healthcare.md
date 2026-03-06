@@ -6,12 +6,10 @@ category: Enterprise
 cluster: compliance
 featuredImage: /images/blog/soc2-medical-answering-service-enterprise-healthcare.webp
 canonical: https://mybcat.com/blog/soc2-medical-answering-service-enterprise-healthcare/
-title: 'SOC2 Medical Answering Services: Enterprise Healthcare Compliance at Scale'
-seoTitle: SOC2 Medical Answering Service Enterprise Healthcare
-description: Learn how multi-location healthcare groups evaluate SOC2-certified medical
-  answering services. Get the compliance framework for 3+ location operations.
-seoDescription: SOC2 medical answering service guide for enterprise healthcare. Compliance
-  framework for multi-location groups and PE-backed operations.
+title: "SOC2 Medical Answering Service Enterprise Healthcare"
+seoTitle: "SOC2 Medical Answering Service Enterprise Healthcare"
+description: "Evaluate SOC2-certified medical answering services for enterprise healthcare with compliance frameworks, audit criteria, and vendor benchmarks."
+seoDescription: "Evaluate SOC2-certified medical answering services for enterprise healthcare with compliance frameworks, audit criteria, and vendor benchmarks."
 tags:
 - SOC2 medical answering service enterprise healthcare
 - multi-location

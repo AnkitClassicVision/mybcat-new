@@ -1,7 +1,6 @@
 ---
-title: How Automated Recall Systems Reduce Patient No-Shows in 2026
-description: DSOs lose $110K-$240K per location to no-shows. See how 2026 recall automation
-  catches checkout failures same-day. Get the ROI calculator.
+title: "Automated Patient Recall System: Reduce No-Shows 2026"
+description: "DSOs lose $110K-$240K per location annually to no-shows. See how 2026 recall automation catches checkout failures same-day with measurable ROI results."
 publishDate: '2026-03-03T00:00:00.000Z'
 status: published
 author: Ankit Patel
@@ -15,9 +14,8 @@ tags:
 - dental recall automation
 featuredImage: /images/blog/automated-recall-reduce-no-shows-2026.webp
 canonical: https://mybcat.com/blog/automated-recall-reduce-no-shows-2026/
-seoTitle: 'Automated Patient Recall System: Reduce No-Shows 2026'
-seoDescription: DSOs lose $110K-$240K per location to no-shows. See how 2026 recall
-  automation catches checkout failures same-day. Get the ROI calculator.
+seoTitle: "Automated Patient Recall System: Reduce No-Shows 2026"
+seoDescription: "DSOs lose $110K-$240K per location annually to no-shows. See how 2026 recall automation catches checkout failures same-day with measurable ROI results."
 relatedPosts:
 - reactivation-campaigns-dormant-patients-2026
 - front-desk-recall-workflow

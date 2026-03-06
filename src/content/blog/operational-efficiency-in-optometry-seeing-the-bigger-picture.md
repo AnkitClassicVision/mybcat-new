@@ -1,6 +1,6 @@
 ---
-title: Operational Efficiency in Optometry
-description: Use our tiered maturity model to assess and improve your optometry clinic's operational efficiency, from reactive firefighting to innovative best practices.
+title: "Operational Efficiency in Optometry: A Maturity Model"
+description: "Use our tiered maturity model to assess and improve your optometry clinic's operational efficiency, from reactive firefighting to innovative best practices."
 publishDate: 2023-08-11
 status: published
 author: Ankit Patel

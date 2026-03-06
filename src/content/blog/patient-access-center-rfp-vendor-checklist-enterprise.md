@@ -7,13 +7,10 @@ cluster: enterprise
 featuredImage: /images/blog/patient-access-center-rfp-vendor-checklist-enterprise.webp
 canonical: https://mybcat.com/blog/patient-access-center-rfp-vendor-checklist-enterprise/
 scheduledDate: '2026-03-06'
-title: Patient Access Center RFP Vendor Checklist for Enterprise Healthcare
-seoTitle: Patient Access Center RFP Vendor Checklist Enterprise
-description: Enterprise RFP checklist for evaluating patient access center vendors.
-  Scoring frameworks, SLA benchmarks, and compliance criteria for multi-location healthcare
-  groups.
-seoDescription: Enterprise RFP checklist for patient access center vendors. Scoring
-  frameworks, SLAs, and compliance criteria for multi-location groups.
+title: "Patient Access Center RFP Vendor Checklist Enterprise"
+seoTitle: "Patient Access Center RFP Vendor Checklist Enterprise"
+description: "Use this enterprise RFP checklist to evaluate patient access center vendors with structured scoring frameworks, SLA benchmarks, and compliance criteria."
+seoDescription: "Use this enterprise RFP checklist to evaluate patient access center vendors with structured scoring frameworks, SLA benchmarks, and compliance criteria."
 tags:
 - patient access center RFP vendor checklist enterprise
 - multi-location

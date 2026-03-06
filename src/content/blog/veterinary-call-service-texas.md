@@ -1,12 +1,8 @@
 ---
-title: 'Veterinary Call Service Texas: Multi-Location Groups'
-seoTitle: Veterinary Call Service Texas | Multi-Location Solutions
-description: >-
-  Texas veterinary call services for multi-location practices. 24/7 triage,
-  emergency protocols, and appointment scheduling for growing groups.
-seoDescription: >-
-  Texas veterinary call services for multi-location groups. 24/7 triage,
-  emergency protocols for growing veterinary practices.
+title: "Veterinary Call Service Texas | Multi-Location Solutions"
+seoTitle: "Veterinary Call Service Texas | Multi-Location Solutions"
+description: "Texas veterinary call services built for multi-location groups. Explore 24/7 triage, emergency protocols, and regional intake strategies for growing practices."
+seoDescription: "Texas veterinary call services built for multi-location groups. Explore 24/7 triage, emergency protocols, and regional intake strategies for growing practices."
 publishDate: 2026-01-19T00:00:00.000Z
 status: published
 author: Ankit Patel

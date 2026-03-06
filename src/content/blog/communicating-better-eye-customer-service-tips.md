@@ -1,7 +1,6 @@
 ---
-title: 'Communicating Better: Eye Customer Service Tips'
-description: The difference between a patient who books and one who hangs up usually
-  comes down to the first 20 seconds of conversation.
+title: "Patient Communication Tips for Eye Care Service Teams"
+description: "Effective patient communication determines whether callers book or hang up. Learn techniques for tone, active listening, and clarity that improve conversions."
 publishDate: 2024-04-12
 status: published
 author: Ankit Patel

@@ -1,7 +1,7 @@
 ---
-title: Effective Hiring and Training Strategies for Optometrists
-seoTitle: Hiring & Training Strategies for Optometrists
-description: Reduce turnover and build a high-performing optometry team. Proven hiring, onboarding, and mentorship strategies that retain top talent long-term.
+title: "Hiring and Training Strategies for Optometry Staff Teams"
+seoTitle: "Hiring and Training Strategies for Optometry Staff Teams"
+description: "Reduce turnover and build a high-performing optometry team. Proven hiring, onboarding, and mentorship strategies that retain top talent long-term."
 publishDate: 2023-11-07
 status: published
 author: Ankit Patel

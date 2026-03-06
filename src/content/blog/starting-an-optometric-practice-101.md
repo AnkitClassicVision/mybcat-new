@@ -1,6 +1,6 @@
 ---
-title: Starting an Optometric Practice 101
-description: From regulatory compliance to staffing and marketing, this step-by-step guide covers everything you need to launch a successful optometry practice.
+title: "How to Start an Optometric Practice: A Complete Guide"
+description: "From regulatory compliance to staffing and marketing, this step-by-step guide covers everything you need to launch a successful optometry practice."
 publishDate: 2023-10-31
 status: published
 author: Ankit Patel

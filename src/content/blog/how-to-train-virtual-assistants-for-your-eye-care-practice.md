@@ -1,7 +1,7 @@
 ---
-title: How to Train Virtual Assistants for Your Eye Care Practice
-seoTitle: Training Virtual Assistants for Eye Care
-description: 'Train overseas VAs to deliver exceptional eye care support. Covers SOPs, cultural coaching, AOA paraoptometric materials, and ongoing performance evaluation.'
+title: "Training Virtual Assistants for Eye Care Practice Teams"
+seoTitle: "Training Virtual Assistants for Eye Care Practice Teams"
+description: "Train overseas VAs to deliver exceptional eye care support. Covers SOPs, cultural coaching, AOA paraoptometric materials, and ongoing performance evaluation."
 publishDate: 2023-07-25
 status: published
 author: Ankit Patel

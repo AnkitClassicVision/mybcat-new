@@ -1,7 +1,6 @@
 ---
-title: Financial Sustainability for Optometry Practices
-description: Financial sustainability requires strategic planning and smart operational
-  decisions. Learn how to build a thriving optometry practice that lasts.
+title: "Building Financial Sustainability in Optometry Practices"
+description: "Financial sustainability requires strategic planning and smart operational decisions. Learn how to build a thriving optometry practice that lasts."
 publishDate: 2023-11-08
 status: published
 author: Ankit Patel

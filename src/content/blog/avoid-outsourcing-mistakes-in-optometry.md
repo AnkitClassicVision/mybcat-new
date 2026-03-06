@@ -1,7 +1,6 @@
 ---
-title: Avoid outsourcing mistakes in optometry
-description: Outsourcing can cut your admin costs by 30%. Or it can create a nightmare.
-  Here are the corners you can't afford to cut.
+title: "5 Outsourcing Mistakes That Hurt Optometry Practices"
+description: "Outsourcing can reduce admin costs by 30%, but common mistakes undermine results. Learn the five pitfalls optometry groups must avoid to protect quality."
 publishDate: 2023-08-01
 status: published
 author: Ankit Patel

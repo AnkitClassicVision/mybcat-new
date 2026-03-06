@@ -1,7 +1,6 @@
 ---
-title: 'AI: Your Secret Weapon for Eye Care Efficiency'
-description: How eye care practices are actually using AI today to save time, reduce
-  admin headaches, and see more patients—plus what's coming next.
+title: "AI-Powered Efficiency Strategies for Eye Care Practices"
+description: "Discover how eye care practices use AI to cut admin overhead, reduce no-shows, and boost patient throughput with tools you can implement this quarter."
 publishDate: 2023-09-20
 status: published
 author: Ankit Patel

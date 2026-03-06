@@ -1,6 +1,6 @@
 ---
-title: Managing Online Reputations in Optometry
-description: 'Over 72% of patients check reviews before choosing a provider. Master online reputation management to attract new patients to your optometry practice.'
+title: "Online Reputation Management for Optometry Practices"
+description: "Over 72% of patients check reviews before choosing a provider. Master online reputation management to attract new patients to your optometry practice."
 publishDate: 2023-10-21
 status: published
 author: Ankit Patel

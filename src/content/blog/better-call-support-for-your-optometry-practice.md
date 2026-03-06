@@ -1,6 +1,6 @@
 ---
-title: Better Call Support for Your Optometry Practice
-description: Strengthen patient loyalty with better call support. Get actionable tips on structured interactions, emotional intelligence, and tone for optometry teams.
+title: "Improve Patient Call Support in Your Optometry Practice"
+description: "Strengthen patient loyalty with better call support. Get actionable tips on structured interactions, emotional intelligence, and tone for optometry teams."
 publishDate: 2023-10-20
 status: published
 author: Ankit Patel

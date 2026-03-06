@@ -1,8 +1,7 @@
 ---
-title: How to Reduce Administrative Costs in Optometry and Ophthalmology Practices
-seoTitle: Reduce Admin Costs in Eye Care Practices
-description: Your non-doctor payroll should be around 24% of revenue. If you're way
-  over that, here's where you're probably bleeding money.
+title: "How to Reduce Administrative Costs in Eye Care Practices"
+seoTitle: "How to Reduce Administrative Costs in Eye Care Practices"
+description: "Non-doctor payroll should be near 24% of revenue for eye care practices. Learn three proven levers to reduce administrative costs without cutting quality."
 publishDate: 2024-12-03
 status: published
 author: Ankit Patel

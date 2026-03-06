@@ -1,6 +1,6 @@
 ---
-title: Optimizing Patient Production in Optometry
-description: Increase patient volume and per-patient revenue with data-driven benchmarks, operational improvements, and outsourcing strategies for optometry practices.
+title: "Optimizing Patient Production for Optometry Practices"
+description: "Increase patient volume and per-patient revenue with data-driven benchmarks, operational improvements, and outsourcing strategies for optometry practices."
 publishDate: 2023-11-02
 status: published
 author: Ankit Patel

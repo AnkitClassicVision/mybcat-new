@@ -1,7 +1,7 @@
 ---
-title: 'Standing Out in a Crowded Market: Strategic Positioning for Optometry Practices'
-seoTitle: Strategic Positioning for Optometry Practices
-description: Differentiate your optometry practice with a clear USP, ideal patient profile, and value proposition that attracts loyal patients in a crowded market.
+title: "Strategic Market Positioning for Optometry Practices"
+seoTitle: "Strategic Market Positioning for Optometry Practices"
+description: "Differentiate your optometry practice with a clear USP, ideal patient profile, and value proposition that attracts loyal patients in a crowded market."
 publishDate: 2023-10-18
 status: published
 author: Ankit Patel

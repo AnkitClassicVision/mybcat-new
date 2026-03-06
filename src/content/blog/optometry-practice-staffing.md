@@ -1,12 +1,8 @@
 ---
-title: 'Optometry Practice Staffing: Build Your Dream Team'
-seoTitle: Optometry Practice Staffing | Hiring & Retention
-description: >-
-  Learn proven optometry practice staffing strategies to hire, train, and retain
-  top talent. Reduce turnover and boost patient satisfaction today.
-seoDescription: >-
-  Proven optometry practice staffing strategies to hire, train, and retain top
-  talent. Reduce turnover and boost patient satisfaction with our guide.
+title: "Optometry Practice Staffing: Hire and Retain Top Talent"
+seoTitle: "Optometry Practice Staffing: Hire and Retain Top Talent"
+description: "Proven optometry practice staffing strategies to hire, train, and retain top talent. Reduce turnover and boost patient satisfaction with our guide."
+seoDescription: "Proven optometry practice staffing strategies to hire, train, and retain top talent. Reduce turnover and boost patient satisfaction with our guide."
 publishDate: '2026-01-10'
 author: MyBCAT Team
 status: published

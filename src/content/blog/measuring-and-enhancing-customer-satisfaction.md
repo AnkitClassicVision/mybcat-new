@@ -1,7 +1,6 @@
 ---
-title: Measuring and Enhancing Customer Satisfaction
-description: Measuring and enhancing customer satisfaction is crucial for the success
-  of any service-oriented business, especially in healthcare sectors like optometry....
+title: "Measuring and Enhancing Patient Satisfaction in Eye Care"
+description: "Measuring and enhancing customer satisfaction is crucial for service-oriented healthcare businesses. Learn proven frameworks for optometry practice improvement."
 publishDate: 2024-01-12
 status: published
 author: Ankit Patel

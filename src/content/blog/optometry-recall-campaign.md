@@ -1,12 +1,8 @@
 ---
-title: 'Optometry Recall Campaign: Beat the January Slump'
-seoTitle: 'Optometry Recall Campaign: Beat the January Slump'
-description: >-
-  Top optometry practices achieve 85-87% recall rates and 140x ROI. Strategies
-  to fill schedules during the January slump.
-seoDescription: >-
-  Optometry recall campaigns can achieve 85% recall rates and 50x+ ROI. Learn
-  timing, messaging, and multi-channel strategies to fill the January slump
+title: "Optometry Recall Campaigns: Beat the January Slump"
+seoTitle: "Optometry Recall Campaigns: Beat the January Slump"
+description: "Optometry recall campaigns can achieve 85% recall rates and 50x+ ROI. Learn timing, messaging, and multi-channel strategies to fill the January slump"
+seoDescription: "Optometry recall campaigns can achieve 85% recall rates and 50x+ ROI. Learn timing, messaging, and multi-channel strategies to fill the January slump"
 publishDate: '2026-02-10T00:00:00.000Z'
 status: published
 author: Ankit Patel

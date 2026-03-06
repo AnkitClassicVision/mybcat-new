@@ -1,14 +1,8 @@
 ---
-title: 'Location Selection for Optometric Practices: What to Consider'
-seoTitle: Optometric Practice Location Selection Framework
-description: >-
-  A practical framework for choosing the right location for your optometry
-  practice, including demographics, competition, visibility, and lease
-  considerations.
-seoDescription: >-
-  Practical framework for optometric practice location selection. Evaluate
-  demographics, competition, visibility, and lease terms to choose the right
-  site.
+title: "Optometric Practice Location Selection: A Site Framework"
+seoTitle: "Optometric Practice Location Selection: A Site Framework"
+description: "Practical framework for optometric practice location selection. Evaluate demographics, competition, visibility, and lease terms to choose the right site."
+seoDescription: "Practical framework for optometric practice location selection. Evaluate demographics, competition, visibility, and lease terms to choose the right site."
 publishDate: 2026-01-23T00:00:00.000Z
 status: published
 author: Ankit Patel

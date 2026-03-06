@@ -7,13 +7,10 @@ cluster: enterprise
 featuredImage: /images/blog/centralized-revenue-cycle-management-multi-location-healthcare-groups.webp
 canonical: https://mybcat.com/blog/centralized-revenue-cycle-management-multi-location-healthcare-groups/
 scheduledDate: '2026-03-12'
-title: Centralized Revenue Cycle Management for Multi-Location Healthcare Groups
-seoTitle: Centralized RCM for Multi-Location Healthcare Groups
-description: Learn how multi-location healthcare groups use centralized revenue cycle
-  management to reduce denial rates, cut DSO, and achieve 15-20% productivity gains
-  across all sites.
-seoDescription: How multi-location healthcare groups use centralized RCM to cut denials,
-  reduce DSO, and gain 15-20% productivity across sites.
+title: "Centralized RCM for Multi-Location Healthcare Groups"
+seoTitle: "Centralized RCM for Multi-Location Healthcare Groups"
+description: "Multi-location healthcare groups that centralize RCM cut denial rates by 40-60% and reduce days in AR to under 35. Learn the implementation framework here."
+seoDescription: "Multi-location healthcare groups that centralize RCM cut denial rates by 40-60% and reduce days in AR to under 35. Learn the implementation framework here."
 tags:
 - centralized revenue cycle management multi-location healthcare groups
 - multi-location
