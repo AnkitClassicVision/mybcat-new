@@ -103,6 +103,46 @@
   ],
   "redirects": [
     {
+      "source": "/blog/the-optometric-practice-valuation",
+      "destination": "/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-optometric-practice-valuation/",
+      "destination": "/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/medical-virtual-assistants",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/medical-virtual-assistants/",
+      "destination": "/solutions/medical-virtual-assistant/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-capture-rate-matters",
+      "destination": "/blog/why-capture-rate-matters-for-every-optometry-business/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-capture-rate-matters/",
+      "destination": "/blog/why-capture-rate-matters-for-every-optometry-business/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/unlocking-efficient-inventory",
+      "destination": "/blog/unlocking-efficient-inventory-management-strategies-for-optometry-products/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/unlocking-efficient-inventory/",
+      "destination": "/blog/unlocking-efficient-inventory-management-strategies-for-optometry-products/",
+      "permanent": true
+    },
+    {
       "source": "/blog/archive",
       "destination": "/blog/",
       "permanent": true
@@ -3040,12 +3080,12 @@
     },
     {
       "source": "/why-capture-rate-matters",
-      "destination": "/blog/",
+      "destination": "/blog/why-capture-rate-matters-for-every-optometry-business/",
       "permanent": true
     },
     {
       "source": "/why-capture-rate-matters/",
-      "destination": "/blog/",
+      "destination": "/blog/why-capture-rate-matters-for-every-optometry-business/",
       "permanent": true
     },
     {

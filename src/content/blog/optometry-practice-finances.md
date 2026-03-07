@@ -1,12 +1,12 @@
 ---
 title: 'Optometry Practice Finances: A Complete Guide'
-seoTitle: Optometry Practice Finances | Revenue & Profit Guide
+seoTitle: 'Optometry Practice Finances: Revenue & Profit Benchmarks'
 description: >-
-  Master optometry practice finances with proven strategies for revenue,
-  expenses, and profitability. Start building a sustainable practice today.
+  The average practice loses $150K/year to financial mismanagement. See real
+  revenue benchmarks, overhead ratios, and tax strategies from 500+ OD offices.
 seoDescription: >-
-  Master optometry practice finances with proven strategies for revenue, expense
-  management, and profitability. Build a sustainable, profitable practice.
+  The average practice loses $150K/year to financial mismanagement. See real
+  revenue benchmarks, overhead ratios, and tax strategies from 500+ OD offices.
 publishDate: '2026-01-10'
 author: Ankit Patel
 status: published
