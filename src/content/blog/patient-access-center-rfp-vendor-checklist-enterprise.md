@@ -1,21 +1,24 @@
 ---
-status: scheduled
-publishDate: '2026-03-06'
+status: published
+publishDate: '2026-03-06T00:00:00.000Z'
 author: Ankit Patel
 category: Enterprise
 cluster: enterprise
 featuredImage: /images/blog/patient-access-center-rfp-vendor-checklist-enterprise.webp
-canonical: https://mybcat.com/blog/patient-access-center-rfp-vendor-checklist-enterprise/
-scheduledDate: '2026-03-06'
-title: "Patient Access Center RFP Vendor Checklist Enterprise"
-seoTitle: "Patient Access Center RFP Vendor Checklist Enterprise"
-description: "Use this enterprise RFP checklist to evaluate patient access center vendors with structured scoring frameworks, SLA benchmarks, and compliance criteria."
-seoDescription: "Use this enterprise RFP checklist to evaluate patient access center vendors with structured scoring frameworks, SLA benchmarks, and compliance criteria."
+canonical: 'https://mybcat.com/blog/patient-access-center-rfp-vendor-checklist-enterprise/'
+title: Patient Access Center RFP Vendor Checklist Enterprise
+seoTitle: Patient Access Center RFP Vendor Checklist Enterprise
+description: >-
+  Use this enterprise RFP checklist to evaluate patient access center vendors
+  with structured scoring frameworks, SLA benchmarks, and compliance criteria.
+seoDescription: >-
+  Use this enterprise RFP checklist to evaluate patient access center vendors
+  with structured scoring frameworks, SLA benchmarks, and compliance criteria.
 tags:
-- patient access center RFP vendor checklist enterprise
-- multi-location
-- enterprise operations
-- healthcare scale
+  - patient access center RFP vendor checklist enterprise
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 ---
 
 Multi-location healthcare groups evaluating patient access center vendors need a structured RFP process that goes beyond feature comparisons. The stakes are significant: organizations that select vendors based on weighted scoring frameworks achieve 15-30% efficiency gains in patient access operations, while those using ad-hoc evaluation methods frequently experience integration failures, compliance gaps, and SLA underperformance across their locations. This checklist provides the evaluation criteria, scoring methodology, and benchmark requirements that operations leaders at DSOs, veterinary groups, and optometry networks need to make vendor decisions that scale.
