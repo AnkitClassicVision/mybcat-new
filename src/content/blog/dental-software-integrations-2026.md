@@ -4,7 +4,7 @@ description: "Learn how DSOs achieve operational consistency across mixed PM sys
 publishDate: '2026-03-04T00:00:00.000Z'
 status: published
 author: Ankit Patel
-category: industry-specific
+category: Dental
 cluster: dental
 tags:
 - dental software integrations

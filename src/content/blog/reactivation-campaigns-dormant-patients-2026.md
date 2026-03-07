@@ -5,7 +5,7 @@ description: Recover 15-25% of dormant patients with a tiered 30-day reactivatio
 publishDate: '2026-03-02T00:00:00.000Z'
 status: published
 author: Ankit Patel
-category: recall-reactivation
+category: Patient Experience
 cluster: patient-recall
 tags:
 - patient reactivation campaigns

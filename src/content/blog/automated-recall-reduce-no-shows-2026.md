@@ -4,7 +4,7 @@ description: "DSOs lose $110K-$240K per location annually to no-shows. See how 2
 publishDate: '2026-03-03T00:00:00.000Z'
 status: published
 author: Ankit Patel
-category: recall-reactivation
+category: Patient Experience
 cluster: patient-recall
 tags:
 - automated patient recall system
