@@ -26,7 +26,7 @@ interface Props {
 
 const { competitor } = Astro.props;
 
-const metaTitle = `MyBCAT vs ${competitor.name} Comparison`;
+const metaTitle = `MyBCAT vs ${competitor.name}: Healthcare Services Comparison`;
 
 // Generate schemas
 const pageUrl = `${company.site.url}/compare/${competitor.slug}/`;
@@ -48,10 +48,8 @@ const otherCompetitors = competitors.filter(c => c.slug !== competitor.slug);
 ---
 
 <LandingLayout
-  title={`${metaTitle} | MyBCAT`}
+  title={metaTitle}
   description={competitor.metaDescription}
-  serviceName={`MyBCAT vs ${competitor.name}`}
-  serviceDescription={competitor.description}
   breadcrumbs={[
     { name: 'Home', url: '/' },
     { name: 'Compare', url: '/compare/' },

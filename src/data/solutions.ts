@@ -936,7 +936,7 @@ My Business Care Team's virtual scribe service provides dedicated, specialty-tra
     headline: 'Medical Virtual Assistant Service for Healthcare Practices',
     description: 'Dedicated remote healthcare virtual assistants who handle administrative tasks, patient coordination, and back-office operations. Full-time support without the overhead of in-house staff.',
     tldr: 'My Business Care Team\'s medical virtual assistant service provides dedicated remote staff trained in healthcare administration. Your VA handles scheduling, insurance verification, referral coordination, billing follow-up, and administrative tasks—reducing overhead by 50% compared to in-house hires.',
-    metaDescription: 'Medical virtual assistant service with dedicated remote healthcare staff. Scheduling, insurance, billing & admin at 50% less.',
+    metaDescription: 'Medical virtual assistant service with dedicated remote healthcare staff. Handle scheduling, insurance, billing & admin at 50% less than in-house hires.',
     serviceType: 'Medical Virtual Assistant Service',
     problem: {
       question: 'Is administrative work slowing down your practice?',
