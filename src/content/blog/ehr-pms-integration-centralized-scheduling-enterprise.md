@@ -1,21 +1,24 @@
 ---
-status: scheduled
-publishDate: '2026-03-09'
+status: published
+publishDate: '2026-03-09T00:00:00.000Z'
 author: Ankit Patel
 category: Enterprise
 cluster: enterprise
 featuredImage: /images/blog/ehr-pms-integration-centralized-scheduling-enterprise.webp
-canonical: https://mybcat.com/blog/ehr-pms-integration-centralized-scheduling-enterprise/
-scheduledDate: '2026-03-09'
-title: "EHR PMS Integration Centralized Scheduling Enterprise"
-seoTitle: "EHR PMS Integration Centralized Scheduling Enterprise"
-description: "How enterprise healthcare groups integrate EHR and PMS systems for centralized scheduling. Includes ROI framework and implementation guide for 3+ locations."
-seoDescription: "How enterprise healthcare groups integrate EHR and PMS systems for centralized scheduling. Includes ROI framework and implementation guide for 3+ locations."
+canonical: 'https://mybcat.com/blog/ehr-pms-integration-centralized-scheduling-enterprise/'
+title: EHR PMS Integration Centralized Scheduling Enterprise
+seoTitle: EHR PMS Integration Centralized Scheduling Enterprise
+description: >-
+  How enterprise healthcare groups integrate EHR and PMS systems for centralized
+  scheduling. Includes ROI framework and implementation guide for 3+ locations.
+seoDescription: >-
+  How enterprise healthcare groups integrate EHR and PMS systems for centralized
+  scheduling. Includes ROI framework and implementation guide for 3+ locations.
 tags:
-- EHR PMS integration centralized scheduling enterprise
-- multi-location
-- enterprise operations
-- healthcare scale
+  - EHR PMS integration centralized scheduling enterprise
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 ---
 
 Multi-location healthcare groups running centralized scheduling without proper EHR and PMS integration lose an average of $43,702 daily in operational inefficiency. That figure represents the gap between organizations that have unified their clinical records with administrative workflows and those still operating with fragmented systems across locations. For COOs and operations leaders managing three or more sites, the integration question is no longer whether to connect these systems but how to architect a solution that scales without creating new bottlenecks.
