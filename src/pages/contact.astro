@@ -24,7 +24,6 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   heroSubtitle="Tell us about your group and we'll show you how centralized patient access works across 3, 10, or 50+ locations-with unified reporting and one team that knows your protocols."
 >
   <!-- Preconnect to HubSpot meetings for faster iframe loading -->
-  <link rel="dns-prefetch" href="https://hubspot.mybcat.com" slot="head" />
   <link rel="dns-prefetch" href="https://meetings.hubspot.com" slot="head" />
   <link rel="preconnect" href="https://api.hsforms.com" slot="head" />
   <!-- Organization schema with PostalAddress for local search visibility -->
@@ -911,7 +910,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   var PORTAL_ID = '23344341';
   var FORM_ID = 'a365996f-87cf-4a60-8782-9dabb9f9dd97';
   var MEETINGS_URL = 'https://meetings.hubspot.com/ankit98/mybcat-discovery-call?embed=true';
-  var MEETINGS_FALLBACK_URL = 'https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call?embed=true';
+  var MEETINGS_FALLBACK_URL = 'https://meetings.hubspot.com/ankit98/mybcat-discovery-call?embed=true';
 
   function getCookie(name) {
     var match = document.cookie.match(new RegExp('(?:^|; )' + name.replace(/([.*+?^=!:${}()|[\]/\\])/g, '\\$1') + '=([^;]*)'));

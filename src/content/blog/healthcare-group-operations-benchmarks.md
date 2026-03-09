@@ -441,5 +441,4 @@ Dental groups that answer every call book more patients. [Talk to our team](/con
 - [Patient Prism: Scale Your DSO](https://www.patientprism.com/scale-your-dso/)
 - [Curve Dental: DSO Structure and Scaling](https://www.curvedental.com/dental-blog/understanding-dental-service-organization-structure-how-modern-dsos-scale-smarter-not-harder)
 - [Arini AI: DSO Patient Experience Benchmarks](https://www.arini.ai/blog/dso-patient-experience-benchmarks)
-- [Resonate: DSO Performance Metrics and Statistics](https://www.resonateapp.com/resources/dso-performance-metrics-statistics)
 - [Overjet: How to Scale Your DSO with AI](https://www.overjet.com/blog/how-to-scale-your-dso-with-ai)

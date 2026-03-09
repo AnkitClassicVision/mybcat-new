@@ -294,7 +294,7 @@ async function main() {
     const urls = extractUrls(parsed.content);
     const externalUrls = urls.filter((u) => {
       const lower = u.toLowerCase();
-      return !lower.includes('mybcat.com') && !lower.includes('hubspot.mybcat.com');
+      return !lower.includes('mybcat.com') && !lower.includes('meetings.hubspot.com');
     });
 
     const featuredImage = normalizeUrl(parsed.data.featuredImage);
@@ -303,7 +303,7 @@ async function main() {
 
     const badCta = findBadCtaPlaceholders(parsed.content);
     const hasCtaLink =
-      /\]\(https:\/\/hubspot\.mybcat\.com\/meetings\/ankit98\/mybcat-discovery-call\)/i.test(parsed.content) ||
+      /\]\(https:\/\/meetings\.hubspot\.com\/ankit98\/mybcat-discovery-call\)/i.test(parsed.content) ||
       /\]\(\/contact\/\)/i.test(parsed.content) ||
       /\bhref=\\?["']\/contact\/\\?["']/i.test(parsed.content);
 
