@@ -1,21 +1,24 @@
 ---
-status: scheduled
-publishDate: '2026-03-10'
+status: published
+publishDate: '2026-03-10T00:00:00.000Z'
 author: Ankit Patel
 category: Enterprise
 cluster: enterprise
 featuredImage: /images/blog/dso-change-management-centralize-patient-access.webp
-canonical: https://mybcat.com/blog/dso-change-management-centralize-patient-access/
-scheduledDate: '2026-03-10'
-title: "DSO Change Management Framework for Patient Access Teams"
-seoTitle: "DSO Change Management Framework for Patient Access Teams"
-description: "DSO change management framework for centralizing patient access. Reduce 70% failure rates with phased implementation across multi-location groups."
-seoDescription: "DSO change management framework for centralizing patient access. Reduce 70% failure rates with phased implementation across multi-location groups."
+canonical: 'https://mybcat.com/blog/dso-change-management-centralize-patient-access/'
+title: DSO Change Management Framework for Patient Access Teams
+seoTitle: DSO Change Management Framework for Patient Access Teams
+description: >-
+  DSO change management framework for centralizing patient access. Reduce 70%
+  failure rates with phased implementation across multi-location groups.
+seoDescription: >-
+  DSO change management framework for centralizing patient access. Reduce 70%
+  failure rates with phased implementation across multi-location groups.
 tags:
-- DSO change management centralize patient access
-- multi-location
-- enterprise operations
-- healthcare scale
+  - DSO change management centralize patient access
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 ---
 
 Healthcare change initiatives fail at rates between 70% and 85%, according to McKinsey and KLAS Research data from 2024 and 2025. For DSO operations leaders managing centralization projects across multiple locations, that statistic translates to real consequences: stalled integrations, frustrated staff, and missed revenue targets. This guide provides a structured change management framework specifically designed for centralizing patient access operations in dental service organizations and multi-location healthcare groups.
