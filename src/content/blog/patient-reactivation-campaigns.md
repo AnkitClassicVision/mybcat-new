@@ -7,28 +7,17 @@ cluster: patient-recall
 featuredImage: /images/blog/patient-reactivation-campaigns.webp
 canonical: https://mybcat.com/blog/patient-reactivation-campaigns/
 scheduledDate: '2026-03-13'
----
-
-Now I have the research I need. Let me create the complete enterprise blog post following the 17-stage pipeline.
-
----
-title: "Patient Reactivation Campaigns at Scale: A Multi-Location Playbook"
-seoTitle: "Patient Reactivation Campaigns for Multi-Location Groups"
-description: "Learn how multi-location healthcare groups run patient reactivation campaigns at scale. Centralized workflows, KPIs, and ROI benchmarks for 3+ location operations."
-seoDescription: "How multi-location healthcare groups run patient reactivation campaigns at scale. Centralized workflows, ROI benchmarks, and enterprise playbook."
-publishDate: '2026-03-13'
-status: "scheduled"
-scheduledDate: '2026-03-13'
-author: "Ankit Patel"
-category: "Patient Care"
+title: 'Patient Reactivation Campaigns at Scale: A Multi-Location'
+seoTitle: Patient Reactivation Campaigns for Multi-Location Groups
+description: Learn how multi-location healthcare groups run patient reactivation campaigns
+  at scale. Centralized workflows, KPIs, and ROI benchmarks for 3+ location
+seoDescription: How multi-location healthcare groups run patient reactivation campaigns
+  at scale. Centralized workflows, ROI benchmarks, and enterprise playbook.
 tags:
-  - "patient reactivation campaigns"
-  - "multi-location"
-  - "enterprise operations"
-  - "healthcare scale"
-cluster: "patient-recall"
-featuredImage: "/images/blog/patient-reactivation-campaigns.webp"
-canonical: "https://mybcat.com/blog/patient-reactivation-campaigns/"
+- patient reactivation campaigns
+- multi-location
+- enterprise operations
+- healthcare scale
 ---
 
 Multi-location healthcare groups lose between 20-40% of their active patient base to dormancy each year. That translates to millions in unrealized revenue sitting in your EHR across 5, 15, or 50 locations. Patient reactivation campaigns offer a path to recover that revenue, but running them at enterprise scale requires centralized coordination, standardized protocols, and performance visibility that most location-by-location approaches cannot deliver. This playbook breaks down how operations leaders structure reactivation programs that work consistently across every site in their portfolio.
