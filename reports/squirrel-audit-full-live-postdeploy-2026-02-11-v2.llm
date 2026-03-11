@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audit version="0.0.35">
+<site url="https://mybcat.com" crawled="0" date="2026-02-11T13:17:08.717Z"/>
+<score overall="98" grade="A">
+ <cat name="Security" score="86"/>
+ <cat name="Crawlability" score="100"/>
+ <cat name="Images" score="100"/>
+ <cat name="Links" score="100"/>
+ <cat name="Performance" score="100"/>
+</score>
+<summary passed="19" warnings="1" failed="0"/>
+<issues>
+ <category name="Security" errors="0" warnings="1">
+  <rule id="security/http-to-https" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/security/http-to-https">
+   1 HTTP URL(s) redirect to HTTPS
+   Items (1):
+    - http://mybcat.com/ (http://mybcat.com/ → https://mybcat.com/ (308)) [statusCode: 308, chain: [object Object]]
+  </rule>
+ </category>
+</issues>
+</audit>

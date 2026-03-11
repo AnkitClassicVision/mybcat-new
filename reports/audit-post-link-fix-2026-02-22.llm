@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audit version="0.0.36">
+<site url="https://mybcat.com" crawled="100" date="2026-02-22T23:59:39.414Z"/>
+<score overall="80" grade="B">
+ <cat name="Accessibility" score="94"/>
+ <cat name="Performance" score="88"/>
+ <cat name="Links" score="81"/>
+ <cat name="Images" score="94"/>
+ <cat name="Crawlability" score="97"/>
+ <cat name="Content" score="99"/>
+ <cat name="E-E-A-T" score="63"/>
+ <cat name="URL Structure" score="100"/>
+ <cat name="Security" score="91"/>
+ <cat name="Analytics" score="100"/>
+ <cat name="Core SEO" score="100"/>
+ <cat name="Internationalization" score="100"/>
+ <cat name="Legal Compliance" score="100"/>
+ <cat name="Local SEO" score="100"/>
+ <cat name="Mobile" score="100"/>
+ <cat name="Structured Data" score="100"/>
+ <cat name="Social Media" score="100"/>
+</score>
+<summary passed="11111" warnings="683" failed="80"/>
+<issues>
+ <category name="Crawlability" errors="0" warnings="100">
+  <rule id="crawl/canonical-chain" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/crawl/canonical-chain">
+   Page redirects before content is served
+   Pages (5/99): /about, /blog, /compare, /industries, /solutions
+   Items (5/99):
+    - /solutions/ (https://mybcat.com/solutions (308) → https://mybcat.com/solutions/ (200)) [finalUrl: https://mybcat.com/solutions/, chain: {&quot;sourceUrl&quot;:&quot;https://mybcat.com/solutions&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/solutions/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;https://mybcat.com/solutions&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/solutio…]
+    - /compare/ (https://mybcat.com/compare (308) → https://mybcat.com/compare/ (200)) [finalUrl: https://mybcat.com/compare/, chain: {&quot;sourceUrl&quot;:&quot;https://mybcat.com/compare&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/compare/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;https://mybcat.com/compare&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/compare/&quot;,&quot;st…]
+    - /industries/ (https://mybcat.com/industries (308) → https://mybcat.com/industries/ (200)) [finalUrl: https://mybcat.com/industries/, chain: {&quot;sourceUrl&quot;:&quot;https://mybcat.com/industries&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/industries/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;https://mybcat.com/industries&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/indu…]
+    - /blog/ (https://mybcat.com/blog (308) → https://mybcat.com/blog/ (200)) [finalUrl: https://mybcat.com/blog/, chain: {&quot;sourceUrl&quot;:&quot;https://mybcat.com/blog&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/blog/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;https://mybcat.com/blog&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/blog/&quot;,&quot;statusCode&quot;:20…]
+    - /compare/vs-ai-receptionists/ (https://mybcat.com/compare/vs-ai-receptionists (308) → https://mybcat.com/compare/vs-ai-receptionists/ (200)) [finalUrl: https://mybcat.com/compare/vs-ai-receptionists/, chain: {&quot;sourceUrl&quot;:&quot;https://mybcat.com/compare/vs-ai-receptionists&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/compare/vs-ai-receptionists/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;https://mybcat.com/compare/vs-ai-receptionists&quot;,&quot;statusCode&quot;…]
+  </rule>
+  <rule id="crawl/sitemap-coverage" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/crawl/sitemap-coverage">
+   268 sitemap URL(s) were not crawled
+   Items (5/268):
+    - /ai-profile/
+    - /author/ankit-patel/
+    - /author/dr-mital-patel/
+    - /blog/category/analytics/
+    - /blog/category/case-study/
+  </rule>
+ </category>
+ <category name="Security" errors="0" warnings="2">
+  <rule id="security/csp" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/security/csp">
+   No Content-Security-Policy header
+  </rule>
+  <rule id="security/http-to-https" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/security/http-to-https">
+   20 HTTP URL(s) redirect to HTTPS
+   Items (5/20):
+    - http://mybcat.com/ (http://mybcat.com/ → https://mybcat.com/ (308)) [statusCode: 308, chain: {&quot;sourceUrl&quot;:&quot;http://mybcat.com/&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://mybcat.com/&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/&quot;,&quot;statusCode&quot;:200,&quot;type&quot;:&quot;http&quot;}],&quot;c…]
+    - http://mybcat.com/solutions (http://mybcat.com/solutions → https://mybcat.com/solutions/ (308)) [statusCode: 308, chain: {&quot;sourceUrl&quot;:&quot;http://mybcat.com/solutions&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/solutions/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://mybcat.com/solutions&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/solutions…]
+    - http://mybcat.com/compare (http://mybcat.com/compare → https://mybcat.com/compare/ (308)) [statusCode: 308, chain: {&quot;sourceUrl&quot;:&quot;http://mybcat.com/compare&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/compare/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://mybcat.com/compare&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/compare&quot;,&quot;statu…]
+    - http://mybcat.com/industries (http://mybcat.com/industries → https://mybcat.com/industries/ (308)) [statusCode: 308, chain: {&quot;sourceUrl&quot;:&quot;http://mybcat.com/industries&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/industries/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://mybcat.com/industries&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/indust…]
+    - http://mybcat.com/blog (http://mybcat.com/blog → https://mybcat.com/blog/ (308)) [statusCode: 308, chain: {&quot;sourceUrl&quot;:&quot;http://mybcat.com/blog&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/blog/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://mybcat.com/blog&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/blog&quot;,&quot;statusCode&quot;:308,&quot;…]
+  </rule>
+ </category>
+ <category name="Links" errors="0" warnings="104">
+  <rule id="links/orphan-pages" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/links/orphan-pages">
+   30 orphan page(s) with &lt;2 incoming links
+   Items (5/30):
+    - /compare/build-vs-buy
+    - /blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic
+    - /blog/animal-hospital-patient-intake
+    - /blog/avoid-outsourcing-mistakes-in-optometry
+    - /blog/benefits-of-a-call-center-for-eye-care-professionals
+  </rule>
+  <rule id="links/internal-links" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/links/internal-links">
+   Too many internal links (151, max 100); Too many internal links (124, max 100); Too many internal links (123, max 100); Too many internal links (199, max 100); Too many internal links (127, max 100); Too many internal links (125, max 100); Too many internal links (129, max 100); Too many internal links (126, max 100); Too many internal links (130, max 100); Too many internal links (132, max 100); Too many internal links (128, max 100); Too many internal links (135, max 100); Too many internal links (137, max 100); Too many internal links (131, max 100); Too many internal links (134, max 100); Too many internal links (138, max 100); Too many internal links (139, max 100); Too many internal links (141, max 100); Too many internal links (133, max 100); Too many internal links (143, max 100); Too many internal links (136, max 100); Too many internal links (142, max 100)
+   Pages (5/100): /, /about, /blog, /compare, /industries
+  </rule>
+  <rule id="links/redirect-chains" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/links/redirect-chains">
+   99 page(s) redirect to another URL; 81 link target(s) point to redirecting URLs
+   Items (5/180):
+    - /solutions (https://mybcat.com/solutions (308) → https://mybcat.com/solutions/ (200)) [targetUrl: https://mybcat.com/solutions/, chain: {&quot;sourceUrl&quot;:&quot;https://mybcat.com/solutions&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/solutions/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;https://mybcat.com/solutions&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/solutio…]
+    - /compare (https://mybcat.com/compare (308) → https://mybcat.com/compare/ (200)) [targetUrl: https://mybcat.com/compare/, chain: {&quot;sourceUrl&quot;:&quot;https://mybcat.com/compare&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/compare/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;https://mybcat.com/compare&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/compare/&quot;,&quot;st…]
+    - /industries (https://mybcat.com/industries (308) → https://mybcat.com/industries/ (200)) [targetUrl: https://mybcat.com/industries/, chain: {&quot;sourceUrl&quot;:&quot;https://mybcat.com/industries&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/industries/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;https://mybcat.com/industries&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/indu…]
+    - /blog (https://mybcat.com/blog (308) → https://mybcat.com/blog/ (200)) [targetUrl: https://mybcat.com/blog/, chain: {&quot;sourceUrl&quot;:&quot;https://mybcat.com/blog&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/blog/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;https://mybcat.com/blog&quot;,&quot;statusCode&quot;:308,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;https://mybcat.com/blog/&quot;,&quot;statusCode&quot;:20…]
+    - /compare/vs-ai-receptionists (https://mybcat.com/compare/vs-ai-receptionists (308) → https://mybcat.com/compare/vs-ai-receptionists/ (200)) [targetUrl: https://mybcat.com/compare/vs-ai-receptionists/, chain: {&quot;sourceUrl&quot;:&quot;https://mybcat.com/compare/vs-ai-receptionists&quot;,&quot;finalUrl&quot;:&quot;https://mybcat.com/compare/vs-ai-receptionists/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;https://mybcat.com/compare/vs-ai-receptionists&quot;,&quot;statusCode&quot;…]
+  </rule>
+  <rule id="links/weak-internal-links" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/links/weak-internal-links">
+   12 page(s) have only 1 internal link
+   Items (5/12):
+    - /compare/build-vs-buy
+    - /blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic
+    - /blog/animal-hospital-patient-intake
+    - /blog/benchmark-report-revenue-per-call-2025
+    - /blog/blog-reduce-administrative-cost
+  </rule>
+ </category>
+ <category name="Content" errors="0" warnings="18">
+  <rule id="content/keyword-stuffing" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/content/keyword-stuffing">
+   1 word(s) may be overused; 2 word(s) may be overused; 3 word(s) may be overused
+   Pages (5/18): /solutions, /blog/5-signs-youre-ready-to-scale, /blog/are-administrative-functions-hurting-your-practice, /blog/benchmark-report-revenue-per-call-2025, /blog/dental-answering-service-california
+   Items (5/16):
+    - patient (&quot;patient&quot; (3.1%)) [count: 20, density: 3.1298904538341157]
+    - call (&quot;call&quot; (4.3%)) [count: 35, density: 4.25273390036452]
+    - dental (&quot;dental&quot; (3.1%)) [count: 22, density: 3.1428571428571432]
+    - care (&quot;care&quot; (3.4%)) [count: 23, density: 3.3576642335766427]
+    - your (&quot;your&quot; (3.1%)) [count: 45, density: 3.103448275862069]
+  </rule>
+ </category>
+ <category name="Images" errors="0" warnings="102">
+  <rule id="images/offscreen-lazy" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/images/offscreen-lazy">
+   1 below-fold image(s) without lazy loading
+   Pages (2): /, /about
+   Items (2):
+    - dittman-headshot-optimized.webp
+    - ankit_headshot_full.webp
+  </rule>
+  <rule id="images/responsive-size" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/images/responsive-size">
+   5 small image(s) may be serving oversized files; 3 small image(s) may be serving oversized files
+   Pages (5/100): /, /about, /blog, /compare, /industries
+   Items (5/10):
+    - logo-optimized.webp (36x33, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+    - dittman-headshot-optimized.webp (44x44, no srcset)
+  </rule>
+ </category>
+ <category name="Performance" errors="1" warnings="162">
+  <rule id="perf/lcp-hints" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/lcp-hints">
+   3 potential LCP image(s) without preload
+   Pages (5/25): /, /about, /compare, /industries, /solutions
+   Items (3):
+    - /images/logo-optimized.webp
+    - /images/logo-optimized.webp
+    - /images/logo-optimized.webp
+  </rule>
+  <rule id="perf/dom-size" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/dom-size">
+   Element with 205 children found; Element with 130 children found; Element with 67 children found; Element with 93 children found; Large DOM (1512 nodes); Element with 293 children found; Element with 106 children found; Element with 77 children found; Element with 113 children found; Element with 61 children found; Element with 153 children found; Element with 72 children found; Element with 128 children found; Element with 73 children found; Element with 70 children found; Element with 105 children found; Element with 102 children found; Element with 68 children found; Element with 116 children found; Element with 91 children found; Element with 168 children found; Element with 142 children found; Element with 88 children found; Element with 71 children found; Element with 173 children found; Element with 131 children found; Element with 132 children found; Element with 115 children found; Element with 121 children found; Element with 170 children found; Element with 137 children found; Element with 74 children found; Element with 80 children found; Element with 135 children found
+   Pages (5/36): /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management, /blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic, /blog/ai-receptionist-vs-virtual-front-desk-answering-service, /blog/animal-hospital-patient-intake
+  </rule>
+  <rule id="perf/total-byte-weight" severity="warning" status="fail" docs="https://docs.squirrelscan.com/rules/perf/total-byte-weight">
+   Total tracked resources: 7656KB (very heavy)
+  </rule>
+  <rule id="perf/critical-request-chains" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/critical-request-chains">
+   2 critical request chain(s) found; 1 critical request chain(s) found
+   Pages (5/100): /, /about, /blog, /compare, /industries
+   Items (5/11):
+    - CSS: /_astro/_slug_.pXXQcyep.css
+    - CSS: /_astro/index.DRbI099p.css
+    - CSS: /_astro/index.CfOjqk8M.css
+    - CSS: /_astro/index.DBoCgXbW.css
+    - CSS: /_astro/_slug_.Bg2EIO2p.css
+  </rule>
+ </category>
+ <category name="Accessibility" errors="79" warnings="188">
+  <rule id="a11y/duplicate-id-aria" severity="error" status="fail" docs="https://docs.squirrelscan.com/rules/a11y/duplicate-id-aria">
+   Rule error: CSS is not defined
+   Pages (5/79): /blog/5-signs-youre-ready-to-scale, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management, /blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic, /blog/ai-receptionist-vs-virtual-front-desk-answering-service
+  </rule>
+  <rule id="a11y/color-contrast" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/color-contrast">
+   2 potential color contrast issue(s); 4 potential color contrast issue(s); 1 potential color contrast issue(s)
+   Pages (5/31): /, /about, /blog, /compare, /industries
+   Items (5/16):
+    - White text (verify background): 8 instance(s)
+    - Very light text color: 8 instance(s)
+    - White text (verify background): 6 instance(s)
+    - Very light text color: 6 instance(s)
+    - White text (verify background): 2 instance(s)
+  </rule>
+  <rule id="a11y/heading-order" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/heading-order">
+   1 heading level skip(s) detected
+   Pages (5/15): /about, /blog/are-administrative-functions-hurting-your-practice, /blog/better-call-support-for-your-optometry-practice, /blog/centralized-patient-recall-multi-location, /blog/dental-group-acquisition-due-diligence
+   Items (2):
+    - H4 after H2
+    - H3 after H1
+  </rule>
+  <rule id="a11y/identical-links-same-purpose" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/identical-links-same-purpose">
+   3 link text(s) lead to different destinations; 1 link text(s) lead to different destinations; 2 link text(s) lead to different destinations
+   Pages (5/67): /blog, /blog/5-signs-youre-ready-to-scale, /blog/after-hours-veterinary-call-management, /blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic, /blog/ai-receptionist-vs-virtual-front-desk-answering-service
+   Items (5/20):
+    - &quot;optometry&quot; → 2 different URLs
+    - &quot;dental&quot; → 2 different URLs
+    - &quot;enterprise&quot; → 2 different URLs
+    - &quot;operations&quot; → 2 different URLs
+    - &quot;dso&quot; → 2 different URLs
+  </rule>
+  <rule id="a11y/image-redundant-alt" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/image-redundant-alt">
+   1 image(s) with redundant alt text; 2 image(s) with redundant alt text
+   Pages (5/75): /, /blog/5-signs-youre-ready-to-scale, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management, /blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic
+   Items (5/14):
+    - alt=&quot;iDoc&quot; matches filename
+    - &quot;Ankit Patel...&quot; duplicates surrounding text
+    - &quot;Ankit Patel...&quot; duplicates surrounding text
+    - alt=&quot;Avoid outsourcing mistakes in optometry&quot; matches filename
+    - alt=&quot;Benefits of a Call Center for Eye Care Professionals&quot; matches filename
+  </rule>
+ </category>
+ <category name="URL Structure" errors="0" warnings="3">
+  <rule id="url/length" severity="info" status="warn" docs="https://docs.squirrelscan.com/rules/url/length">
+   URL is 105 characters (over 100); URL is 102 characters (over 100); URL is 107 characters (over 100)
+   Pages (3): /blog/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care, /blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team-2, /blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices
+  </rule>
+ </category>
+ <category name="E-E-A-T" errors="0" warnings="4">
+  <rule id="eeat/author-byline" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/eeat/author-byline">
+   No content pages have author attribution
+  </rule>
+  <rule id="eeat/contact-page" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/eeat/contact-page">
+   No Contact page found
+  </rule>
+  <rule id="eeat/privacy-policy" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/eeat/privacy-policy">
+   No Privacy Policy page found
+  </rule>
+  <rule id="eeat/content-dates" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/eeat/content-dates">
+   No content pages have datePublished
+  </rule>
+ </category>
+</issues>
+</audit>

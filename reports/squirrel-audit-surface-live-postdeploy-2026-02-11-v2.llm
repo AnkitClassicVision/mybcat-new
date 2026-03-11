@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audit version="0.0.35">
+<site url="https://mybcat.com" crawled="29" date="2026-02-11T13:15:17.378Z"/>
+<score overall="81" grade="B">
+ <cat name="Accessibility" score="94"/>
+ <cat name="Performance" score="90"/>
+ <cat name="Links" score="81"/>
+ <cat name="Images" score="94"/>
+ <cat name="Crawlability" score="97"/>
+ <cat name="Content" score="98"/>
+ <cat name="E-E-A-T" score="59"/>
+ <cat name="Mobile" score="88"/>
+ <cat name="Security" score="91"/>
+ <cat name="Analytics" score="100"/>
+ <cat name="Core SEO" score="100"/>
+ <cat name="Internationalization" score="100"/>
+ <cat name="Legal Compliance" score="100"/>
+ <cat name="Local SEO" score="100"/>
+ <cat name="Structured Data" score="100"/>
+ <cat name="Social Media" score="100"/>
+ <cat name="URL Structure" score="100"/>
+</score>
+<summary passed="3127" warnings="203" failed="8"/>
+<issues>
+ <category name="Crawlability" errors="0" warnings="29">
+  <rule id="crawl/canonical-chain" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/crawl/canonical-chain">
+   Page redirects before content is served
+   Pages (28): /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management
+   Items (28):
+    - /solutions/ (https://mybcat.com/solutions (308) → https://mybcat.com/solutions/ (200)) [finalUrl: https://mybcat.com/solutions/, chain: [object Object]]
+    - /compare/ (https://mybcat.com/compare (308) → https://mybcat.com/compare/ (200)) [finalUrl: https://mybcat.com/compare/, chain: [object Object]]
+    - /industries/ (https://mybcat.com/industries (308) → https://mybcat.com/industries/ (200)) [finalUrl: https://mybcat.com/industries/, chain: [object Object]]
+    - /blog/ (https://mybcat.com/blog (308) → https://mybcat.com/blog/ (200)) [finalUrl: https://mybcat.com/blog/, chain: [object Object]]
+    - /compare/vs-ai-receptionists/ (https://mybcat.com/compare/vs-ai-receptionists (308) → https://mybcat.com/compare/vs-ai-receptionists/ (200)) [finalUrl: https://mybcat.com/compare/vs-ai-receptionists/, chain: [object Object]]
+    - /compare/build-vs-buy/ (https://mybcat.com/compare/build-vs-buy (308) → https://mybcat.com/compare/build-vs-buy/ (200)) [finalUrl: https://mybcat.com/compare/build-vs-buy/, chain: [object Object]]
+    - /compare/vs-call-centers/ (https://mybcat.com/compare/vs-call-centers (308) → https://mybcat.com/compare/vs-call-centers/ (200)) [finalUrl: https://mybcat.com/compare/vs-call-centers/, chain: [object Object]]
+    - /compare/vs-hello-rache/ (https://mybcat.com/compare/vs-hello-rache (308) → https://mybcat.com/compare/vs-hello-rache/ (200)) [finalUrl: https://mybcat.com/compare/vs-hello-rache/, chain: [object Object]]
+    - /compare/vs-hireteem/ (https://mybcat.com/compare/vs-hireteem (308) → https://mybcat.com/compare/vs-hireteem/ (200)) [finalUrl: https://mybcat.com/compare/vs-hireteem/, chain: [object Object]]
+    - /compare/vs-virtual-assistants/ (https://mybcat.com/compare/vs-virtual-assistants (308) → https://mybcat.com/compare/vs-virtual-assistants/ (200)) [finalUrl: https://mybcat.com/compare/vs-virtual-assistants/, chain: [object Object]]
+    - /industries/dental/ (https://mybcat.com/industries/dental (308) → https://mybcat.com/industries/dental/ (200)) [finalUrl: https://mybcat.com/industries/dental/, chain: [object Object]]
+    - /industries/dermatology/ (https://mybcat.com/industries/dermatology (308) → https://mybcat.com/industries/dermatology/ (200)) [finalUrl: https://mybcat.com/industries/dermatology/, chain: [object Object]]
+    - /industries/ent/ (https://mybcat.com/industries/ent (308) → https://mybcat.com/industries/ent/ (200)) [finalUrl: https://mybcat.com/industries/ent/, chain: [object Object]]
+    - /industries/medspa/ (https://mybcat.com/industries/medspa (308) → https://mybcat.com/industries/medspa/ (200)) [finalUrl: https://mybcat.com/industries/medspa/, chain: [object Object]]
+    - /industries/urgent-care/ (https://mybcat.com/industries/urgent-care (308) → https://mybcat.com/industries/urgent-care/ (200)) [finalUrl: https://mybcat.com/industries/urgent-care/, chain: [object Object]]
+    - /industries/optometry/ (https://mybcat.com/industries/optometry (308) → https://mybcat.com/industries/optometry/ (200)) [finalUrl: https://mybcat.com/industries/optometry/, chain: [object Object]]
+    - /industries/veterinary/ (https://mybcat.com/industries/veterinary (308) → https://mybcat.com/industries/veterinary/ (200)) [finalUrl: https://mybcat.com/industries/veterinary/, chain: [object Object]]
+    - /solutions/front-desk-outsourcing/ (https://mybcat.com/solutions/front-desk-outsourcing (308) → https://mybcat.com/solutions/front-desk-outsourcing/ (200)) [finalUrl: https://mybcat.com/solutions/front-desk-outsourcing/, chain: [object Object]]
+    - /solutions/integrations/ (https://mybcat.com/solutions/integrations (308) → https://mybcat.com/solutions/integrations/ (200)) [finalUrl: https://mybcat.com/solutions/integrations/, chain: [object Object]]
+    - /solutions/medical-answering-service/ (https://mybcat.com/solutions/medical-answering-service (308) → https://mybcat.com/solutions/medical-answering-service/ (200)) [finalUrl: https://mybcat.com/solutions/medical-answering-service/, chain: [object Object]]
+    - /solutions/medical-virtual-assistant/ (https://mybcat.com/solutions/medical-virtual-assistant (308) → https://mybcat.com/solutions/medical-virtual-assistant/ (200)) [finalUrl: https://mybcat.com/solutions/medical-virtual-assistant/, chain: [object Object]]
+    - /solutions/no-show-recovery/ (https://mybcat.com/solutions/no-show-recovery (308) → https://mybcat.com/solutions/no-show-recovery/ (200)) [finalUrl: https://mybcat.com/solutions/no-show-recovery/, chain: [object Object]]
+    - /solutions/patient-recall/ (https://mybcat.com/solutions/patient-recall (308) → https://mybcat.com/solutions/patient-recall/ (200)) [finalUrl: https://mybcat.com/solutions/patient-recall/, chain: [object Object]]
+    - /solutions/virtual-medical-scribe/ (https://mybcat.com/solutions/virtual-medical-scribe (308) → https://mybcat.com/solutions/virtual-medical-scribe/ (200)) [finalUrl: https://mybcat.com/solutions/virtual-medical-scribe/, chain: [object Object]]
+    - /blog/5-signs-youre-ready-to-scale/ (https://mybcat.com/blog/5-signs-youre-ready-to-scale (308) → https://mybcat.com/blog/5-signs-youre-ready-to-scale/ (200)) [finalUrl: https://mybcat.com/blog/5-signs-youre-ready-to-scale/, chain: [object Object]]
+    - /about/ (https://mybcat.com/about (308) → https://mybcat.com/about/ (200)) [finalUrl: https://mybcat.com/about/, chain: [object Object]]
+    - /blog/90-day-integration-playbook-healthcare-acquisitions/ (https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions (308) → https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions/ (200)) [finalUrl: https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions/, chain: [object Object]]
+    - /blog/after-hours-veterinary-call-management/ (https://mybcat.com/blog/after-hours-veterinary-call-management (308) → https://mybcat.com/blog/after-hours-veterinary-call-management/ (200)) [finalUrl: https://mybcat.com/blog/after-hours-veterinary-call-management/, chain: [object Object]]
+  </rule>
+  <rule id="crawl/sitemap-coverage" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/crawl/sitemap-coverage">
+   309 sitemap URL(s) were not crawled
+   Items (309):
+    - /author/ankit-patel/
+    - /author/dr-mital-patel/
+    - /blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic/
+    - /blog/ai-receptionist-vs-virtual-front-desk-answering-service/
+    - /blog/animal-hospital-patient-intake/
+    - /blog/are-administrative-functions-hurting-your-practice/
+    - /blog/automated-vs-human-patient-recall/
+    - /blog/avoid-outsourcing-mistakes-in-optometry/
+    - /blog/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice/
+    - /blog/benchmark-report-revenue-per-call-2025/
+    - /blog/benefits-of-a-call-center-for-eye-care-professionals/
+    - /blog/benefits-of-hiring-remote-workers-for-optometry-business/
+    - /blog/better-call-support-for-your-optometry-practice/
+    - /blog/blog-best-patient-care/
+    - /blog/blog-ensuring-patient-satisfaction/
+    - /blog/blog-reduce-administrative-cost/
+    - /blog/blog-spanish-speaking-agents/
+    - /blog/blog-streamline-practice-remote-staffing/
+    - /blog/blog-when-every-second-counts/
+    - /blog/busting-myths-addressing-concerns-about-customer-service-outsourcing-in-eye-care/
+    - /blog/category/analytics/
+    - /blog/category/case-study/
+    - /blog/category/dental/
+    - /blog/category/enterprise/
+    - /blog/category/growth/
+    - /blog/category/operations/
+    - /blog/category/optometry/
+    - /blog/category/patient-experience/
+    - /blog/category/practice-growth/
+    - /blog/category/practice-management/
+    - /blog/category/technology/
+    - /blog/category/virtual-staffing/
+    - /blog/centralized-vs-distributed-intake-framework/
+    - /blog/communicating-better-eye-customer-service-tips/
+    - /blog/compliance-and-security-in-utilizing-virtual-assistants-in-ophthalmology/
+    - /blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry/
+    - /blog/crafting-a-financially-sustainable-future-for-your-optometry-practice/
+    - /blog/dental-answering-service-california/
+    - /blog/dental-hygiene-recall/
+    - /blog/dormant-patient-reactivation/
+    - /blog/dso-case-study-15-location-missed-calls/
+    - /blog/dso-integration-playbook/
+    - /blog/ebitda-impact-calculator/
+    - /blog/effective-hiring-and-training-strategies-for-optometrists/
+    - /blog/embracing-cultural-sensitivity-in-optometry-care/
+    - /blog/enhancing-patient-communication-in-your-eye-clinic/
+    - /blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team-2/
+    - /blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team/
+    - /blog/equipment-technology-checklist-new-optometry-practices/
+    - /blog/evaluating-the-effectiveness-of-your-optometry-growth-strategy/
+    - /blog/first-year-financial-planning-optometry/
+    - /blog/guide-for-selling-your-optometry-practice/
+    - /blog/handling-challenging-customer-service-situations/
+    - /blog/handling-emergency-calls-in-optometry-practice/
+    - /blog/healthcare-call-center-roi-enterprise/
+    - /blog/healthcare-front-desk-staffing-crisis-2025/
+    - /blog/healthcare-group-operations-benchmarks/
+    - /blog/healthcare-operations-ma-integration/
+    - /blog/how-ai-is-streamlining-processes-in-eye-care/
+    - /blog/how-outsourced-customer-service-boosts-patient-satisfaction-in-optometry-practices/
+    - /blog/how-technology-is-boosting-operational-efficiency-in-optometry/
+    - /blog/how-to-leverage-outsourcing-in-your-eye-care-practice/
+    - /blog/how-to-train-virtual-assistants-for-your-eye-care-practice/
+    - /blog/human-ai-hybrid-model-healthcare-intake/
+    - /blog/ideal-labor-costs-for-optometry-offices/
+    - /blog/is-ai-investment-worth-it-for-your-optometry-clinic/
+    - /blog/joining-an-optometric-management-service-organization/
+    - /blog/kpi-dashboard-multi-location-intake/
+    - /blog/leveraging-technology-for-streamlined-call-support/
+    - /blog/location-selection-optometric-practices/
+    - /blog/maintaining-client-relations-in-your-optometry-practice/
+    - /blog/management-tips-to-simplify-the-optometric-administrative-workload/
+    - /blog/measuring-and-enhancing-customer-satisfaction/
+    - /blog/measuring-and-optimizing-patient-production-for-optometric-practices/
+    - /blog/missed-call-revenue-calculator/
+    - /blog/missed-calls-revenue-leak-multi-location-healthcare/
+    - /blog/multi-location-healthcare-intake-guide/
+    - /blog/multi-location-no-show-reduction/
+    - /blog/navigating-the-ethical-maze-for-ai-in-ophthalmology-and-optometry/
+    - /blog/no-show-recovery-program/
+    - /blog/operational-efficiency-in-optometry-seeing-the-bigger-picture/
+    - /blog/optometric-practice-equipment/
+    - /blog/optometry-case-study-95-answer-rate/
+    - /blog/optometry-network-operations-scale/
+    - /blog/optometry-practice-finances/
+    - /blog/optometry-practice-location/
+    - /blog/optometry-practice-staffing/
+    - /blog/optometry-private-practice/
+    - /blog/optometry-recall-campaign/
+    - /blog/optometry-retail-clinical-intake-guide/
+    - /blog/outsourcing-as-a-business-growth-strategy-for-eye-care-clinics/
+    - /blog/page/2/
+    - /blog/page/3/
+    - /blog/page/4/
+    - /blog/page/5/
+    - /blog/page/6/
+    - /blog/page/7/
+    - /blog/patient-reactivation-campaign-timeline/
+    - /blog/patient-reactivation-roi/
+    - /blog/patient-recall-campaign-framework/
+    - /blog/patient-recall-postcard-vs-text-vs-phone/
+    - /blog/patient-recall-scripts/
+    - /blog/patient-recall-segmentation/
+    - /blog/patient-recall-service/
+    - /blog/patient-retention-and-acquisition-strategies-for-your-optometry-practice/
+    - /blog/pre-sale-operational-cleanup-intake-valuation/
+    - /blog/preserving-your-work-life-balance-while-managing-an-optometry-practice/
+    - /blog/pros-of-inbound-call-services-for-optometrists/
+    - /blog/reactivation-campaign-kpis/
+    - /blog/reactivation-text-message-templates/
+    - /blog/reactivationcallcenterformedicalpractice/
+    - /blog/scaling-up-operations-to-grow-your-eye-care-clinic/
+    - /blog/staffing-new-optometry-practice/
+    - /blog/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices/
+    - /blog/starting-an-optometric-practice-101/
+    - /blog/strategies-to-uphold-legal-and-regulatory-compliance-in-optometry/
+    - /blog/streamlining-insurance-claim-processing-for-optometric-practices/
+    - /blog/streamlining-patient-intake-for-eye-care-practices/
+    - /blog/streamlining-your-practice-with-appointment-setting/
+    - /blog/successfully-transitioning-to-a-bpo-model-in-optometry/
+    - /blog/tag/acquisition/
+    - /blog/tag/after-hours/
+    - /blog/tag/ai/
+    - /blog/tag/analytics/
+    - /blog/tag/animal-hospital-patient-intake/
+    - /blog/tag/answer-rate/
+    - /blog/tag/answering-service/
+    - /blog/tag/automation/
+    - /blog/tag/benchmarks/
+    - /blog/tag/budgeting/
+    - /blog/tag/calculator/
+    - /blog/tag/california/
+    - /blog/tag/call-center/
+    - /blog/tag/call-service/
+    - /blog/tag/campaign/
+    - /blog/tag/capture-rate/
+    - /blog/tag/case-study/
+    - /blog/tag/centralization/
+    - /blog/tag/client-experience/
+    - /blog/tag/dashboard/
+    - /blog/tag/data/
+    - /blog/tag/dental-hygiene-recall/
+    - /blog/tag/dental/
+    - /blog/tag/dormant-patient-reactivation/
+    - /blog/tag/dso-operations/
+    - /blog/tag/dso/
+    - /blog/tag/dvm-burnout/
+    - /blog/tag/ebitda/
+    - /blog/tag/efficiency/
+    - /blog/tag/emergency-triage/
+    - /blog/tag/emergency/
+    - /blog/tag/enterprise-operations/
+    - /blog/tag/enterprise/
+    - /blog/tag/equipment/
+    - /blog/tag/exit-planning/
+    - /blog/tag/exit-strategy/
+    - /blog/tag/financial-planning/
+    - /blog/tag/geo-landing/
+    - /blog/tag/growth/
+    - /blog/tag/healthcare-analytics/
+    - /blog/tag/healthcare-intake/
+    - /blog/tag/healthcare-m-and-a/
+    - /blog/tag/healthcare-operations/
+    - /blog/tag/healthcare-outsourcing/
+    - /blog/tag/healthcare-scale/
+    - /blog/tag/healthcare/
+    - /blog/tag/hipaa-compliance/
+    - /blog/tag/hiring/
+    - /blog/tag/human-touch/
+    - /blog/tag/hybrid-model/
+    - /blog/tag/intake-architecture/
+    - /blog/tag/intake-metrics/
+    - /blog/tag/intake-optimization/
+    - /blog/tag/intake/
+    - /blog/tag/integration/
+    - /blog/tag/january-slump/
+    - /blog/tag/kpis/
+    - /blog/tag/location/
+    - /blog/tag/m-and-a/
+    - /blog/tag/messaging/
+    - /blog/tag/multi-channel/
+    - /blog/tag/multi-location-healthcare/
+    - /blog/tag/multi-location-operations/
+    - /blog/tag/multi-location/
+    - /blog/tag/no-show-recovery/
+    - /blog/tag/no-show-reduction/
+    - /blog/tag/operations-strategy/
+    - /blog/tag/operations/
+    - /blog/tag/optical-retail/
+    - /blog/tag/optometry-private-practice/
+    - /blog/tag/optometry-recall/
+    - /blog/tag/optometry/
+    - /blog/tag/outsourcing/
+    - /blog/tag/patient-care/
+    - /blog/tag/patient-reactivation/
+    - /blog/tag/patient-recall-metrics/
+    - /blog/tag/patient-recall-scripts/
+    - /blog/tag/patient-recall-service/
+    - /blog/tag/patient-recall/
+    - /blog/tag/patient-retention/
+    - /blog/tag/patient-scheduling/
+    - /blog/tag/pe/
+    - /blog/tag/phone-calls/
+    - /blog/tag/phone-protocols/
+    - /blog/tag/phone-scripts/
+    - /blog/tag/playbook/
+    - /blog/tag/postcards/
+    - /blog/tag/practice-growth/
+    - /blog/tag/practice-management/
+    - /blog/tag/practice-sale/
+    - /blog/tag/practice-valuation/
+    - /blog/tag/private-equity/
+    - /blog/tag/reactivation-call-center-for-medical-practices/
+    - /blog/tag/reactivation-kpis/
+    - /blog/tag/reactivation/
+    - /blog/tag/real-estate/
+    - /blog/tag/recall/
+    - /blog/tag/research/
+    - /blog/tag/revenue-per-call/
+    - /blog/tag/revenue-recovery/
+    - /blog/tag/revenue/
+    - /blog/tag/roi/
+    - /blog/tag/scaling/
+    - /blog/tag/scheduling/
+    - /blog/tag/segmentation/
+    - /blog/tag/sms-templates/
+    - /blog/tag/sms/
+    - /blog/tag/staff-training/
+    - /blog/tag/staffing/
+    - /blog/tag/standardization/
+    - /blog/tag/startup/
+    - /blog/tag/technology/
+    - /blog/tag/texas/
+    - /blog/tag/timeline/
+    - /blog/tag/training/
+    - /blog/tag/triage/
+    - /blog/tag/valuation/
+    - /blog/tag/veterinary-practice-management/
+    - /blog/tag/veterinary/
+    - /blog/tag/virtual-assistant/
+    - /blog/tag/vision-practice-growth/
+    - /blog/tag/vsp/
+    - /blog/tag/workflow-optimization/
+    - /blog/tags/
+    - /blog/take-every-step-to-improve-the-patient-experience/
+    - /blog/taming-the-review-beast-managing-online-reputations-in-optometry/
+    - /blog/the-complete-guide-to-running-a-private-optometric-practice/
+    - /blog/the-importance-of-timely-appointment-scheduling/
+    - /blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/
+    - /blog/unlocking-efficient-inventory-management-strategies-for-optometry-products/
+    - /blog/veterinary-call-service-texas/
+    - /blog/veterinary-emergency-triage-protocols/
+    - /blog/virtual-team-solutions-for-you-2/
+    - /blog/vital-role-of-inbound-call-services-for-optometrists/
+    - /blog/ways-to-optimize-efficiency-in-optometrist-offices/
+    - /blog/weighing-the-costs-and-benefits-of-outsourcing-customer-service-in-ophthalmology-and-optometry/
+    - /blog/what-to-know-about-joining-an-optometric-buying-group/
+    - /blog/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice/
+    - /blog/why-capture-rate-matters-for-every-optometry-business/
+    - /blog/why-your-optometry-needs-a-booking-service/
+    - /careers/
+    - /case-studies/
+    - /case-studies/classic-vision-care/
+    - /case-studies/dittman-eye-care/
+    - /case-studies/multi-location-dental-dso/
+    - /case-studies/multi-location-optometry-group/
+    - /contact/
+    - /enterprise/
+    - /enterprise/centralized-scheduling/
+    - /enterprise/dso/
+    - /enterprise/implementation/
+    - /enterprise/multi-location-recall/
+    - /enterprise/optometry-groups/
+    - /enterprise/patient-access-center/
+    - /enterprise/reporting-qa/
+    - /enterprise/urgent-care-chains/
+    - /enterprise/veterinary-groups/
+    - /faq/
+    - /gdpr/
+    - /glossary/
+    - /glossary/appointment-conversion/
+    - /glossary/baa/
+    - /glossary/call-center/
+    - /glossary/centralized-scheduling/
+    - /glossary/dso/
+    - /glossary/ehr/
+    - /glossary/hipaa-compliance/
+    - /glossary/insurance-verification/
+    - /glossary/multi-location-practice/
+    - /glossary/no-show-rate/
+    - /glossary/patient-acquisition/
+    - /glossary/patient-intake/
+    - /glossary/patient-lifetime-value/
+    - /glossary/patient-retention/
+    - /glossary/pms/
+    - /glossary/recall-rate/
+    - /glossary/schedule-utilization/
+    - /glossary/virtual-receptionist/
+    - /hipaa-compliance/
+    - /how-it-works/
+    - /pricing/
+    - /privacy-policy/
+    - /resources/
+    - /resources/book/
+    - /resources/podcast/
+    - /resources/roi-calculator/
+    - /sitemap/
+    - /soc-2/
+    - /terms/
+  </rule>
+ </category>
+ <category name="Security" errors="0" warnings="2">
+  <rule id="security/csp" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/security/csp">
+   No Content-Security-Policy header
+  </rule>
+  <rule id="security/http-to-https" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/security/http-to-https">
+   20 HTTP URL(s) redirect to HTTPS
+   Items (20):
+    - http://mybcat.com/ (http://mybcat.com/ → https://mybcat.com/ (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/solutions (http://mybcat.com/solutions → https://mybcat.com/solutions/ (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/compare (http://mybcat.com/compare → https://mybcat.com/compare/ (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/industries (http://mybcat.com/industries → https://mybcat.com/industries/ (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/blog (http://mybcat.com/blog → https://mybcat.com/blog/ (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/compare/vs-ai-receptionists (http://mybcat.com/compare/vs-ai-receptionists → https://mybcat.com/compare/vs-ai-receptionists/ (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/compare/build-vs-buy (http://mybcat.com/compare/build-vs-buy → https://mybcat.com/compare/build-vs-buy (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/compare/vs-call-centers (http://mybcat.com/compare/vs-call-centers → https://mybcat.com/compare/vs-call-centers (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/compare/vs-hello-rache (http://mybcat.com/compare/vs-hello-rache → https://mybcat.com/compare/vs-hello-rache (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/compare/vs-hireteem (http://mybcat.com/compare/vs-hireteem → https://mybcat.com/compare/vs-hireteem/ (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/compare/vs-virtual-assistants (http://mybcat.com/compare/vs-virtual-assistants → https://mybcat.com/compare/vs-virtual-assistants/ (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/industries/dental (http://mybcat.com/industries/dental → https://mybcat.com/industries/dental (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/industries/dermatology (http://mybcat.com/industries/dermatology → https://mybcat.com/industries/dermatology (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/industries/ent (http://mybcat.com/industries/ent → https://mybcat.com/industries/ent (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/industries/medspa (http://mybcat.com/industries/medspa → https://mybcat.com/industries/medspa (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/industries/urgent-care (http://mybcat.com/industries/urgent-care → https://mybcat.com/industries/urgent-care (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/industries/optometry (http://mybcat.com/industries/optometry → https://mybcat.com/industries/optometry (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/industries/veterinary (http://mybcat.com/industries/veterinary → https://mybcat.com/industries/veterinary/ (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/solutions/front-desk-outsourcing (http://mybcat.com/solutions/front-desk-outsourcing → https://mybcat.com/solutions/front-desk-outsourcing/ (308)) [statusCode: 308, chain: [object Object]]
+    - http://mybcat.com/solutions/integrations (http://mybcat.com/solutions/integrations → https://mybcat.com/solutions/integrations (308)) [statusCode: 308, chain: [object Object]]
+  </rule>
+ </category>
+ <category name="Links" errors="0" warnings="33">
+  <rule id="links/orphan-pages" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/links/orphan-pages">
+   4 orphan page(s) with &lt;2 incoming links
+   Items (4):
+    - /compare/build-vs-buy
+    - /blog/5-signs-youre-ready-to-scale
+    - /blog/90-day-integration-playbook-healthcare-acquisitions
+    - /blog/after-hours-veterinary-call-management
+  </rule>
+  <rule id="links/internal-links" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/links/internal-links">
+   Too many internal links (149, max 100); Too many internal links (122, max 100); Too many internal links (121, max 100); Too many internal links (193, max 100); Too many internal links (125, max 100); Too many internal links (123, max 100); Too many internal links (124, max 100); Too many internal links (127, max 100); Too many internal links (128, max 100); Too many internal links (130, max 100); Too many internal links (126, max 100); Too many internal links (133, max 100); Too many internal links (134, max 100)
+   Pages (29): /, /solutions, /industries, /compare/vs-ai-receptionists, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /compare, /compare/build-vs-buy, /about, /blog, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/veterinary, /industries/optometry, /solutions/no-show-recovery, /solutions/front-desk-outsourcing, /solutions/patient-recall, /blog/after-hours-veterinary-call-management, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /blog/90-day-integration-playbook-healthcare-acquisitions
+  </rule>
+  <rule id="links/redirect-chains" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/links/redirect-chains">
+   28 page(s) redirect to another URL; 25 link target(s) point to redirecting URLs
+   Items (53):
+    - /solutions (https://mybcat.com/solutions (308) → https://mybcat.com/solutions/ (200)) [targetUrl: https://mybcat.com/solutions/, chain: [object Object]]
+    - /compare (https://mybcat.com/compare (308) → https://mybcat.com/compare/ (200)) [targetUrl: https://mybcat.com/compare/, chain: [object Object]]
+    - /industries (https://mybcat.com/industries (308) → https://mybcat.com/industries/ (200)) [targetUrl: https://mybcat.com/industries/, chain: [object Object]]
+    - /blog (https://mybcat.com/blog (308) → https://mybcat.com/blog/ (200)) [targetUrl: https://mybcat.com/blog/, chain: [object Object]]
+    - /compare/vs-ai-receptionists (https://mybcat.com/compare/vs-ai-receptionists (308) → https://mybcat.com/compare/vs-ai-receptionists/ (200)) [targetUrl: https://mybcat.com/compare/vs-ai-receptionists/, chain: [object Object]]
+    - /compare/build-vs-buy (https://mybcat.com/compare/build-vs-buy (308) → https://mybcat.com/compare/build-vs-buy/ (200)) [targetUrl: https://mybcat.com/compare/build-vs-buy/, chain: [object Object]]
+    - /compare/vs-call-centers (https://mybcat.com/compare/vs-call-centers (308) → https://mybcat.com/compare/vs-call-centers/ (200)) [targetUrl: https://mybcat.com/compare/vs-call-centers/, chain: [object Object]]
+    - /compare/vs-hello-rache (https://mybcat.com/compare/vs-hello-rache (308) → https://mybcat.com/compare/vs-hello-rache/ (200)) [targetUrl: https://mybcat.com/compare/vs-hello-rache/, chain: [object Object]]
+    - /compare/vs-hireteem (https://mybcat.com/compare/vs-hireteem (308) → https://mybcat.com/compare/vs-hireteem/ (200)) [targetUrl: https://mybcat.com/compare/vs-hireteem/, chain: [object Object]]
+    - /compare/vs-virtual-assistants (https://mybcat.com/compare/vs-virtual-assistants (308) → https://mybcat.com/compare/vs-virtual-assistants/ (200)) [targetUrl: https://mybcat.com/compare/vs-virtual-assistants/, chain: [object Object]]
+    - /industries/dental (https://mybcat.com/industries/dental (308) → https://mybcat.com/industries/dental/ (200)) [targetUrl: https://mybcat.com/industries/dental/, chain: [object Object]]
+    - /industries/dermatology (https://mybcat.com/industries/dermatology (308) → https://mybcat.com/industries/dermatology/ (200)) [targetUrl: https://mybcat.com/industries/dermatology/, chain: [object Object]]
+    - /industries/ent (https://mybcat.com/industries/ent (308) → https://mybcat.com/industries/ent/ (200)) [targetUrl: https://mybcat.com/industries/ent/, chain: [object Object]]
+    - /industries/medspa (https://mybcat.com/industries/medspa (308) → https://mybcat.com/industries/medspa/ (200)) [targetUrl: https://mybcat.com/industries/medspa/, chain: [object Object]]
+    - /industries/urgent-care (https://mybcat.com/industries/urgent-care (308) → https://mybcat.com/industries/urgent-care/ (200)) [targetUrl: https://mybcat.com/industries/urgent-care/, chain: [object Object]]
+    - /industries/optometry (https://mybcat.com/industries/optometry (308) → https://mybcat.com/industries/optometry/ (200)) [targetUrl: https://mybcat.com/industries/optometry/, chain: [object Object]]
+    - /industries/veterinary (https://mybcat.com/industries/veterinary (308) → https://mybcat.com/industries/veterinary/ (200)) [targetUrl: https://mybcat.com/industries/veterinary/, chain: [object Object]]
+    - /solutions/front-desk-outsourcing (https://mybcat.com/solutions/front-desk-outsourcing (308) → https://mybcat.com/solutions/front-desk-outsourcing/ (200)) [targetUrl: https://mybcat.com/solutions/front-desk-outsourcing/, chain: [object Object]]
+    - /solutions/integrations (https://mybcat.com/solutions/integrations (308) → https://mybcat.com/solutions/integrations/ (200)) [targetUrl: https://mybcat.com/solutions/integrations/, chain: [object Object]]
+    - /solutions/medical-answering-service (https://mybcat.com/solutions/medical-answering-service (308) → https://mybcat.com/solutions/medical-answering-service/ (200)) [targetUrl: https://mybcat.com/solutions/medical-answering-service/, chain: [object Object]]
+    - /solutions/medical-virtual-assistant (https://mybcat.com/solutions/medical-virtual-assistant (308) → https://mybcat.com/solutions/medical-virtual-assistant/ (200)) [targetUrl: https://mybcat.com/solutions/medical-virtual-assistant/, chain: [object Object]]
+    - /solutions/no-show-recovery (https://mybcat.com/solutions/no-show-recovery (308) → https://mybcat.com/solutions/no-show-recovery/ (200)) [targetUrl: https://mybcat.com/solutions/no-show-recovery/, chain: [object Object]]
+    - /solutions/patient-recall (https://mybcat.com/solutions/patient-recall (308) → https://mybcat.com/solutions/patient-recall/ (200)) [targetUrl: https://mybcat.com/solutions/patient-recall/, chain: [object Object]]
+    - /solutions/virtual-medical-scribe (https://mybcat.com/solutions/virtual-medical-scribe (308) → https://mybcat.com/solutions/virtual-medical-scribe/ (200)) [targetUrl: https://mybcat.com/solutions/virtual-medical-scribe/, chain: [object Object]]
+    - /blog/5-signs-youre-ready-to-scale (https://mybcat.com/blog/5-signs-youre-ready-to-scale (308) → https://mybcat.com/blog/5-signs-youre-ready-to-scale/ (200)) [targetUrl: https://mybcat.com/blog/5-signs-youre-ready-to-scale/, chain: [object Object]]
+    - /about (https://mybcat.com/about (308) → https://mybcat.com/about/ (200)) [targetUrl: https://mybcat.com/about/, chain: [object Object]]
+    - /blog/90-day-integration-playbook-healthcare-acquisitions (https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions (308) → https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions/ (200)) [targetUrl: https://mybcat.com/blog/90-day-integration-playbook-healthcare-acquisitions/, chain: [object Object]]
+    - /blog/after-hours-veterinary-call-management (https://mybcat.com/blog/after-hours-veterinary-call-management (308) → https://mybcat.com/blog/after-hours-veterinary-call-management/ (200)) [targetUrl: https://mybcat.com/blog/after-hours-veterinary-call-management/, chain: [object Object]]
+    - /solutions (https://mybcat.com/solutions (308) → https://mybcat.com/solutions/ (200)) [targetUrl: https://mybcat.com/solutions/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /solutions/medical-answering-service (https://mybcat.com/solutions/medical-answering-service (308) → https://mybcat.com/solutions/medical-answering-service/ (200)) [targetUrl: https://mybcat.com/solutions/medical-answering-service/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /solutions/patient-recall (https://mybcat.com/solutions/patient-recall (308) → https://mybcat.com/solutions/patient-recall/ (200)) [targetUrl: https://mybcat.com/solutions/patient-recall/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /solutions/no-show-recovery (https://mybcat.com/solutions/no-show-recovery (308) → https://mybcat.com/solutions/no-show-recovery/ (200)) [targetUrl: https://mybcat.com/solutions/no-show-recovery/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /solutions/front-desk-outsourcing (https://mybcat.com/solutions/front-desk-outsourcing (308) → https://mybcat.com/solutions/front-desk-outsourcing/ (200)) [targetUrl: https://mybcat.com/solutions/front-desk-outsourcing/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /solutions/virtual-medical-scribe (https://mybcat.com/solutions/virtual-medical-scribe (308) → https://mybcat.com/solutions/virtual-medical-scribe/ (200)) [targetUrl: https://mybcat.com/solutions/virtual-medical-scribe/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /solutions/medical-virtual-assistant (https://mybcat.com/solutions/medical-virtual-assistant (308) → https://mybcat.com/solutions/medical-virtual-assistant/ (200)) [targetUrl: https://mybcat.com/solutions/medical-virtual-assistant/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /solutions/integrations (https://mybcat.com/solutions/integrations (308) → https://mybcat.com/solutions/integrations/ (200)) [targetUrl: https://mybcat.com/solutions/integrations/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /industries (https://mybcat.com/industries (308) → https://mybcat.com/industries/ (200)) [targetUrl: https://mybcat.com/industries/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /industries/optometry (https://mybcat.com/industries/optometry (308) → https://mybcat.com/industries/optometry/ (200)) [targetUrl: https://mybcat.com/industries/optometry/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /industries/dental (https://mybcat.com/industries/dental (308) → https://mybcat.com/industries/dental/ (200)) [targetUrl: https://mybcat.com/industries/dental/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /industries/veterinary (https://mybcat.com/industries/veterinary (308) → https://mybcat.com/industries/veterinary/ (200)) [targetUrl: https://mybcat.com/industries/veterinary/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /industries/medspa (https://mybcat.com/industries/medspa (308) → https://mybcat.com/industries/medspa/ (200)) [targetUrl: https://mybcat.com/industries/medspa/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /industries/dermatology (https://mybcat.com/industries/dermatology (308) → https://mybcat.com/industries/dermatology/ (200)) [targetUrl: https://mybcat.com/industries/dermatology/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /industries/urgent-care (https://mybcat.com/industries/urgent-care (308) → https://mybcat.com/industries/urgent-care/ (200)) [targetUrl: https://mybcat.com/industries/urgent-care/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /industries/ent (https://mybcat.com/industries/ent (308) → https://mybcat.com/industries/ent/ (200)) [targetUrl: https://mybcat.com/industries/ent/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /compare (https://mybcat.com/compare (308) → https://mybcat.com/compare/ (200)) [targetUrl: https://mybcat.com/compare/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /compare/vs-hello-rache (https://mybcat.com/compare/vs-hello-rache (308) → https://mybcat.com/compare/vs-hello-rache/ (200)) [targetUrl: https://mybcat.com/compare/vs-hello-rache/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /compare/vs-hireteem (https://mybcat.com/compare/vs-hireteem (308) → https://mybcat.com/compare/vs-hireteem/ (200)) [targetUrl: https://mybcat.com/compare/vs-hireteem/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /compare/vs-virtual-assistants (https://mybcat.com/compare/vs-virtual-assistants (308) → https://mybcat.com/compare/vs-virtual-assistants/ (200)) [targetUrl: https://mybcat.com/compare/vs-virtual-assistants/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /compare/vs-call-centers (https://mybcat.com/compare/vs-call-centers (308) → https://mybcat.com/compare/vs-call-centers/ (200)) [targetUrl: https://mybcat.com/compare/vs-call-centers/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /compare/vs-ai-receptionists (https://mybcat.com/compare/vs-ai-receptionists (308) → https://mybcat.com/compare/vs-ai-receptionists/ (200)) [targetUrl: https://mybcat.com/compare/vs-ai-receptionists/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /blog (https://mybcat.com/blog (308) → https://mybcat.com/blog/ (200)) [targetUrl: https://mybcat.com/blog/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /about (https://mybcat.com/about (308) → https://mybcat.com/about/ (200)) [targetUrl: https://mybcat.com/about/, chain: [object Object]] (from: /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management)
+    - /compare/build-vs-buy (https://mybcat.com/compare/build-vs-buy (308) → https://mybcat.com/compare/build-vs-buy/ (200)) [targetUrl: https://mybcat.com/compare/build-vs-buy/, chain: [object Object]] (from: /compare)
+  </rule>
+  <rule id="links/weak-internal-links" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/links/weak-internal-links">
+   1 page(s) have only 1 internal link
+   Items (1):
+    - /compare/build-vs-buy
+  </rule>
+ </category>
+ <category name="Content" errors="0" warnings="8">
+  <rule id="content/keyword-stuffing" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/content/keyword-stuffing">
+   1 word(s) may be overused; 2 word(s) may be overused; 3 word(s) may be overused
+   Pages (8): /solutions, /compare/vs-call-centers, /industries/dental, /industries/urgent-care, /solutions/medical-virtual-assistant, /blog/5-signs-youre-ready-to-scale, /compare/vs-hello-rache, /compare/vs-hireteem
+   Items (10):
+    - patient (&quot;patient&quot; (3.2%)) [count: 20, density: 3.1545741324921135]
+    - call (&quot;call&quot; (4.3%)) [count: 35, density: 4.278728606356968]
+    - dental (&quot;dental&quot; (3.2%)) [count: 22, density: 3.1654676258992804]
+    - care (&quot;care&quot; (3.4%)) [count: 23, density: 3.3823529411764706]
+    - your (&quot;your&quot; (3.1%)) [count: 45, density: 3.1141868512110724]
+    - hello (&quot;hello&quot; (3.1%)) [count: 25, density: 3.0864197530864197]
+    - rache (&quot;rache&quot; (3.1%)) [count: 25, density: 3.0864197530864197]
+    - team (&quot;team&quot; (3.2%)) [count: 24, density: 3.1788079470198674]
+    - hireteem (&quot;hireteem&quot; (3.2%)) [count: 24, density: 3.1788079470198674]
+    - care (&quot;care&quot; (3.0%)) [count: 23, density: 3.0463576158940397]
+  </rule>
+ </category>
+ <category name="Images" errors="0" warnings="31">
+  <rule id="images/offscreen-lazy" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/images/offscreen-lazy">
+   1 below-fold image(s) without lazy loading
+   Pages (2): /, /about
+   Items (2):
+    - dittman-headshot-optimized.webp
+    - ankit_headshot_full.webp
+  </rule>
+  <rule id="images/responsive-size" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/images/responsive-size">
+   5 small image(s) may be serving oversized files; 3 small image(s) may be serving oversized files
+   Pages (29): /, /blog/5-signs-youre-ready-to-scale, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /about
+   Items (10):
+    - logo-optimized.webp (36x33, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+    - dittman-headshot-optimized.webp (44x44, no srcset)
+    - ankit_headshot_full.webp (48x48, no srcset)
+    - ankit_headshot_full.webp (80x80, no srcset)
+    - logo-optimized.webp (36x33, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+  </rule>
+ </category>
+ <category name="Performance" errors="0" warnings="57">
+  <rule id="perf/lcp-hints" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/lcp-hints">
+   3 potential LCP image(s) without preload
+   Pages (25): /, /solutions, /compare, /industries, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /about
+   Items (3):
+    - /images/logo-optimized.webp
+    - /images/logo-optimized.webp
+    - /images/logo-optimized.webp
+  </rule>
+  <rule id="perf/dom-size" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/dom-size">
+   Element with 222 children found; Element with 126 children found
+   Pages (2): /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management
+  </rule>
+  <rule id="perf/total-byte-weight" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/total-byte-weight">
+   Total tracked resources: 2637KB (heavy page)
+  </rule>
+  <rule id="perf/critical-request-chains" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/critical-request-chains">
+   2 critical request chain(s) found; 1 critical request chain(s) found
+   Pages (29): /, /compare, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /blog/5-signs-youre-ready-to-scale, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management, /solutions, /industries
+   Items (11):
+    - CSS: /_astro/_slug_.pXXQcyep.css
+    - CSS: /_astro/index.DRbI099p.css
+    - CSS: /_astro/index.CfOjqk8M.css
+    - CSS: /_astro/index.DBoCgXbW.css
+    - CSS: /_astro/_slug_.Bg2EIO2p.css
+    - CSS: /_astro/build-vs-buy.C4aSS88D.css
+    - CSS: /_astro/_slug_.ph_5gol5.css
+    - CSS: /_astro/_slug_.CszG26uY.css
+    - CSS: /_astro/_slug_.DbNqE910.css
+    - CSS: /_astro/index.CIQ1MRDV.css
+    - CSS: /_astro/_slug_.pXXQcyep.css
+  </rule>
+ </category>
+ <category name="Accessibility" errors="8" warnings="37">
+  <rule id="a11y/duplicate-id-aria" severity="error" status="fail" docs="https://docs.squirrelscan.com/rules/a11y/duplicate-id-aria">
+   Rule error: CSS is not defined
+   Pages (8): /compare/vs-ai-receptionists, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /blog/5-signs-youre-ready-to-scale, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management
+  </rule>
+  <rule id="a11y/color-contrast" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/color-contrast">
+   2 potential color contrast issue(s)
+   Pages (28): /, /solutions, /compare, /industries, /blog, /compare/vs-ai-receptionists, /compare/build-vs-buy, /compare/vs-call-centers, /compare/vs-hello-rache, /compare/vs-hireteem, /compare/vs-virtual-assistants, /industries/dental, /industries/dermatology, /industries/ent, /industries/medspa, /industries/urgent-care, /industries/optometry, /industries/veterinary, /solutions/front-desk-outsourcing, /solutions/integrations, /solutions/medical-answering-service, /solutions/medical-virtual-assistant, /solutions/no-show-recovery, /solutions/patient-recall, /solutions/virtual-medical-scribe, /about, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management
+   Items (9):
+    - White text (verify background): 8 instance(s)
+    - Very light text color: 8 instance(s)
+    - White text (verify background): 6 instance(s)
+    - Very light text color: 6 instance(s)
+    - White text (verify background): 2 instance(s)
+    - Very light text color: 2 instance(s)
+    - White text (verify background): 7 instance(s)
+    - Very light text color: 7 instance(s)
+    - Very light text color: 1 instance(s)
+  </rule>
+  <rule id="a11y/heading-order" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/heading-order">
+   1 heading level skip(s) detected
+   Pages (2): /compare/build-vs-buy, /about
+   Items (1):
+    - H4 after H2
+  </rule>
+  <rule id="a11y/identical-links-same-purpose" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/identical-links-same-purpose">
+   3 link text(s) lead to different destinations; 1 link text(s) lead to different destinations
+   Pages (3): /blog, /blog/5-signs-youre-ready-to-scale, /blog/after-hours-veterinary-call-management
+   Items (5):
+    - &quot;optometry&quot; → 2 different URLs
+    - &quot;dental&quot; → 2 different URLs
+    - &quot;enterprise&quot; → 2 different URLs
+    - &quot;optometry&quot; → 2 different URLs
+    - &quot;veterinary&quot; → 2 different URLs
+  </rule>
+  <rule id="a11y/image-redundant-alt" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/image-redundant-alt">
+   1 image(s) with redundant alt text
+   Pages (4): /, /blog/5-signs-youre-ready-to-scale, /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management
+   Items (2):
+    - alt=&quot;iDoc&quot; matches filename
+    - &quot;Ankit Patel...&quot; duplicates surrounding text
+  </rule>
+ </category>
+ <category name="Mobile" errors="0" warnings="2">
+  <rule id="mobile/tap-targets" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/mobile/tap-targets">
+   1 element(s) may have small tap targets
+   Pages (2): /blog/90-day-integration-playbook-healthcare-acquisitions, /blog/after-hours-veterinary-call-management
+  </rule>
+ </category>
+ <category name="E-E-A-T" errors="0" warnings="4">
+  <rule id="eeat/author-byline" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/eeat/author-byline">
+   No content pages have author attribution
+  </rule>
+  <rule id="eeat/contact-page" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/eeat/contact-page">
+   No Contact page found
+  </rule>
+  <rule id="eeat/privacy-policy" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/eeat/privacy-policy">
+   No Privacy Policy page found
+  </rule>
+  <rule id="eeat/content-dates" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/eeat/content-dates">
+   No content pages have datePublished
+  </rule>
+ </category>
+</issues>
+</audit>

@@ -1,0 +1,64 @@
+
+> mybcat-new@1.0.0 validate:schema
+> node scripts/validators/validate-schema.js
+
+[1mSchema Markup Validator[0m
+
+Scanning 385 HTML files...
+
+
+[32m✓ All schemas valid[0m
+  Pages with schema: 207
+  Total schemas: 263
+
+> mybcat-new@1.0.0 validate:links
+> node scripts/validators/validate-links.js
+
+[1mInternal Link Validator[0m
+
+Scanning 385 HTML files...
+
+Found 53271 internal links
+
+[32m✓ All internal links valid[0m
+  Checked 423 unique paths
+
+> mybcat-new@1.0.0 validate:redirects
+> node scripts/validate-redirects.mjs
+
+[1mRedirect Validator[0m
+
+  Loaded [34m680[0m redirects from vercel.json
+
+[32m[1mAll redirects look good.[0m
+
+> mybcat-new@1.0.0 validate:sitemap
+> node scripts/check-sitemap-urls.mjs --local-only
+
+[1mSitemap URL Health Check[0m
+
+  Reading local sitemap: /mnt/d_drive/repos/mybcat-new/dist/sitemap-0.xml
+  Found [34m374[0m URLs in sitemap
+
+  Verifying against local build output: /mnt/d_drive/repos/mybcat-new/.vercel/output/static
+
+[1mSummary:[0m
+  [32m200 OK:[0m       374
+  [34mTotal:[0m        374
+
+[32m[1mAll 374 sitemap URLs return 200 OK.[0m
+
+> mybcat-new@1.0.0 validate:url-stability
+> node scripts/validators/validate-url-stability.mjs
+
+[1mURL Stability Validator[0m
+
+  Current sitemap: [34m374[0m URLs
+
+  Baseline: [34m372[0m URLs (from 2026-02-24T03:18:08.327Z)
+
+[32mNew URLs added (2):[0m
+  + https://mybcat.com/blog/tag/workflow/
+  + https://mybcat.com/blog/virtual-receptionist-vs-front-desk-optometry/
+
+[32m[1mAll URL changes are safe (2 added, 0 removed with redirects).[0m
