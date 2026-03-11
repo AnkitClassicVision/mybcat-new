@@ -1,25 +1,29 @@
 ---
-status: scheduled
-publishDate: '2026-03-11'
+status: published
+publishDate: '2026-03-11T00:00:00.000Z'
 author: Ankit Patel
 category: Enterprise
 cluster: enterprise
-featuredImage: /images/blog/enterprise-healthcare-staffing-ratios-patient-access-optimization.webp
-canonical: https://mybcat.com/blog/enterprise-healthcare-staffing-ratios-patient-access-optimization/
-scheduledDate: '2026-03-11'
-title: 'Healthcare Staffing Ratios and Patient Access: How Multi-Location Groups Optimize
-  Both'
+featuredImage: >-
+  /images/blog/enterprise-healthcare-staffing-ratios-patient-access-optimization.webp
+canonical: >-
+  https://mybcat.com/blog/enterprise-healthcare-staffing-ratios-patient-access-optimization/
+title: >-
+  Healthcare Staffing Ratios and Patient Access: How Multi-Location Groups
+  Optimize Both
 seoTitle: Healthcare Staffing Ratios for Patient Access Optimization
-description: Learn how multi-location healthcare groups calibrate staffing ratios
-  to maximize patient access. Includes FTE formulas, benchmarks, and EBITDA impact
+description: >-
+  Learn how multi-location healthcare groups calibrate staffing ratios to
+  maximize patient access. Includes FTE formulas, benchmarks, and EBITDA impact
   data.
-seoDescription: Multi-location healthcare staffing ratios for patient access. FTE
-  formulas, benchmarks, and EBITDA optimization strategies for 3+ location groups.
+seoDescription: >-
+  Multi-location healthcare staffing ratios for patient access. FTE formulas,
+  benchmarks, and EBITDA optimization strategies for 3+ location groups.
 tags:
-- enterprise healthcare staffing ratios patient access optimization
-- multi-location
-- enterprise operations
-- healthcare scale
+  - enterprise healthcare staffing ratios patient access optimization
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 ---
 
 Multi-location healthcare groups that miscalibrate their patient access staffing ratios lose an estimated 15-25% of potential revenue to missed calls, abandoned inquiries, and unfilled appointment slots. The math is straightforward: a 10-location dental group missing 20 calls per location daily at a $300 average patient lifetime value leaves $1.8 million on the table annually. This guide provides the staffing ratio frameworks, FTE calculation methods, and optimization strategies that top-performing healthcare groups use to capture that revenue.
