@@ -5,20 +5,22 @@ author: Ankit Patel
 category: Enterprise
 cluster: enterprise
 featuredImage: /images/blog/dso-change-management-centralize-patient-access.webp
-canonical: 'https://mybcat.com/blog/dso-change-management-centralize-patient-access/'
+canonical: https://mybcat.com/blog/dso-change-management-centralize-patient-access/
 title: DSO Change Management Framework for Patient Access Teams
 seoTitle: DSO Change Management Framework for Patient Access Teams
-description: >-
-  DSO change management framework for centralizing patient access. Reduce 70%
-  failure rates with phased implementation across multi-location groups.
-seoDescription: >-
-  DSO change management framework for centralizing patient access. Reduce 70%
-  failure rates with phased implementation across multi-location groups.
+description: DSO change management framework for centralizing patient access. Reduce
+  70% failure rates with phased implementation across multi-location groups.
+seoDescription: DSO change management framework for centralizing patient access. Reduce
+  70% failure rates with phased implementation across multi-location groups.
 tags:
-  - DSO change management centralize patient access
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- DSO change management centralize patient access
+- multi-location
+- enterprise operations
+- healthcare scale
+relatedPosts:
+- enterprise-healthcare-staffing-ratios-patient-access-optimization
+- ehr-pms-integration-centralized-scheduling-enterprise
+- patient-access-center-rfp-vendor-checklist-enterprise
 ---
 
 Healthcare change initiatives fail at rates between 70% and 85%, according to McKinsey and KLAS Research data from 2024 and 2025. For DSO operations leaders managing centralization projects across multiple locations, that statistic translates to real consequences: stalled integrations, frustrated staff, and missed revenue targets. This guide provides a structured change management framework specifically designed for centralizing patient access operations in dental service organizations and multi-location healthcare groups.
@@ -210,6 +212,12 @@ Top performers sustain centralization through three practices:
 **Technology evolution.** [Human-AI hybrid models](/blog/human-ai-hybrid-model-healthcare-intake/) are becoming standard in high-performing centralized operations. Automation handles routine tasks while human agents focus on complex scenarios. This evolution requires ongoing investment in both technology and training.
 
 The MGMA 2025 staffing survey found that 70% of medical practices reported turnover stable or lower than prior years. Practices achieving this stability cited flexible scheduling, cross-training programs, and positive workplace culture as contributing factors. Centralized patient access operations can implement these retention strategies more consistently than distributed front desk models.
+
+## Related Reading
+
+- [Healthcare Staffing Ratios and Patient Access: How Multi-Location Groups Optimize Both](/blog/enterprise-healthcare-staffing-ratios-patient-access-optimization/)
+- [EHR PMS Integration Centralized Scheduling Enterprise](/blog/ehr-pms-integration-centralized-scheduling-enterprise/)
+- [Patient Access Center RFP Vendor Checklist Enterprise](/blog/patient-access-center-rfp-vendor-checklist-enterprise/)
 
 ## Sources
 
