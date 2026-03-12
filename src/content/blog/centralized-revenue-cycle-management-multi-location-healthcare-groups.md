@@ -1,21 +1,28 @@
 ---
-status: scheduled
-publishDate: '2026-03-12'
+status: published
+publishDate: '2026-03-12T00:00:00.000Z'
 author: Ankit Patel
 category: Enterprise
 cluster: enterprise
-featuredImage: /images/blog/centralized-revenue-cycle-management-multi-location-healthcare-groups.webp
-canonical: https://mybcat.com/blog/centralized-revenue-cycle-management-multi-location-healthcare-groups/
-scheduledDate: '2026-03-12'
-title: "Centralized RCM for Multi-Location Healthcare Groups"
-seoTitle: "Centralized RCM for Multi-Location Healthcare Groups"
-description: "Multi-location healthcare groups that centralize RCM cut denial rates by 40-60% and reduce days in AR to under 35. Learn the implementation framework here."
-seoDescription: "Multi-location healthcare groups that centralize RCM cut denial rates by 40-60% and reduce days in AR to under 35. Learn the implementation framework here."
+featuredImage: >-
+  /images/blog/centralized-revenue-cycle-management-multi-location-healthcare-groups.webp
+canonical: >-
+  https://mybcat.com/blog/centralized-revenue-cycle-management-multi-location-healthcare-groups/
+title: Centralized RCM for Multi-Location Healthcare Groups
+seoTitle: Centralized RCM for Multi-Location Healthcare Groups
+description: >-
+  Multi-location healthcare groups that centralize RCM cut denial rates by
+  40-60% and reduce days in AR to under 35. Learn the implementation framework
+  here.
+seoDescription: >-
+  Multi-location healthcare groups that centralize RCM cut denial rates by
+  40-60% and reduce days in AR to under 35. Learn the implementation framework
+  here.
 tags:
-- centralized revenue cycle management multi-location healthcare groups
-- multi-location
-- enterprise operations
-- healthcare scale
+  - centralized revenue cycle management multi-location healthcare groups
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 ---
 
 Multi-location healthcare groups that centralize revenue cycle management reduce denial rates by 40-60% and cut days in accounts receivable to under 35 days. These results come from consolidating billing operations, standardizing workflows across sites, and gaining enterprise-wide visibility into financial performance. For COOs and operations leaders managing 5, 15, or 50+ locations, centralized RCM transforms fragmented billing departments into a unified revenue engine that directly impacts EBITDA.
