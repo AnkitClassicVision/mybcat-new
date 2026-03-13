@@ -1,23 +1,24 @@
 ---
-status: scheduled
-publishDate: '2026-03-13'
+status: published
+publishDate: '2026-03-13T00:00:00.000Z'
 author: Ankit Patel
 category: Patient Care
 cluster: patient-recall
 featuredImage: /images/blog/patient-reactivation-campaigns.webp
-canonical: https://mybcat.com/blog/patient-reactivation-campaigns/
-scheduledDate: '2026-03-13'
+canonical: 'https://mybcat.com/blog/patient-reactivation-campaigns/'
 title: 'Patient Reactivation Campaigns at Scale: A Multi-Location'
 seoTitle: Patient Reactivation Campaigns for Multi-Location Groups
-description: Learn how multi-location healthcare groups run patient reactivation campaigns
+description: >-
+  Learn how multi-location healthcare groups run patient reactivation campaigns
   at scale. Centralized workflows, KPIs, and ROI benchmarks for 3+ location
-seoDescription: How multi-location healthcare groups run patient reactivation campaigns
-  at scale. Centralized workflows, ROI benchmarks, and enterprise playbook.
+seoDescription: >-
+  How multi-location healthcare groups run patient reactivation campaigns at
+  scale. Centralized workflows, ROI benchmarks, and enterprise playbook.
 tags:
-- patient reactivation campaigns
-- multi-location
-- enterprise operations
-- healthcare scale
+  - patient reactivation campaigns
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 ---
 
 Multi-location healthcare groups lose between 20-40% of their active patient base to dormancy each year. That translates to millions in unrealized revenue sitting in your EHR across 5, 15, or 50 locations. Patient reactivation campaigns offer a path to recover that revenue, but running them at enterprise scale requires centralized coordination, standardized protocols, and performance visibility that most location-by-location approaches cannot deliver. This playbook breaks down how operations leaders structure reactivation programs that work consistently across every site in their portfolio.
