@@ -5,20 +5,22 @@ author: Ankit Patel
 category: Patient Care
 cluster: patient-recall
 featuredImage: /images/blog/patient-reactivation-campaigns.webp
-canonical: 'https://mybcat.com/blog/patient-reactivation-campaigns/'
+canonical: https://mybcat.com/blog/patient-reactivation-campaigns/
 title: 'Patient Reactivation Campaigns at Scale: A Multi-Location'
 seoTitle: Patient Reactivation Campaigns for Multi-Location Groups
-description: >-
-  Learn how multi-location healthcare groups run patient reactivation campaigns
+description: Learn how multi-location healthcare groups run patient reactivation campaigns
   at scale. Centralized workflows, KPIs, and ROI benchmarks for 3+ location
-seoDescription: >-
-  How multi-location healthcare groups run patient reactivation campaigns at
-  scale. Centralized workflows, ROI benchmarks, and enterprise playbook.
+seoDescription: How multi-location healthcare groups run patient reactivation campaigns
+  at scale. Centralized workflows, ROI benchmarks, and enterprise playbook.
 tags:
-  - patient reactivation campaigns
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- patient reactivation campaigns
+- multi-location
+- enterprise operations
+- healthcare scale
+relatedPosts:
+- automated-recall-reduce-no-shows-2026
+- reactivation-campaigns-dormant-patients-2026
+- front-desk-recall-workflow
 ---
 
 Multi-location healthcare groups lose between 20-40% of their active patient base to dormancy each year. That translates to millions in unrealized revenue sitting in your EHR across 5, 15, or 50 locations. Patient reactivation campaigns offer a path to recover that revenue, but running them at enterprise scale requires centralized coordination, standardized protocols, and performance visibility that most location-by-location approaches cannot deliver. This playbook breaks down how operations leaders structure reactivation programs that work consistently across every site in their portfolio.
@@ -155,6 +157,12 @@ This operational approach requires [enterprise-grade call center capabilities](/
 The [EBITDA impact of patient retention](/blog/multi-location-healthcare-ebitda/) compounds over time. Each reactivated patient who returns to regular care generates years of additional revenue. Groups that systematize reactivation outperform those that treat it as occasional marketing.
 
 For [DSO patient retention strategy](/blog/dso-patient-retention-strategy/) specifically, reactivation campaigns integrate with broader patient lifecycle management, connecting initial acquisition through ongoing care and preventing the leakage that erodes same-store growth metrics.
+
+## Related Reading
+
+- [Automated Patient Recall System: Reduce No-Shows 2026](/blog/automated-recall-reduce-no-shows-2026/)
+- [Reactivation Campaigns That Win Back Dormant Patients](/blog/reactivation-campaigns-dormant-patients-2026/)
+- [Front Desk Recall Workflow: A Simple Weekly Routine That Works](/blog/front-desk-recall-workflow/)
 
 ## Sources
 
