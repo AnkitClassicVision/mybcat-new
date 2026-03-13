@@ -22,6 +22,7 @@ canonical: 'https://mybcat.com/blog/reactivation-campaign-kpis/'
 cluster: patient-recall
 relatedPosts:
   - dormant-patient-reactivation
+  - patient-reactivation-campaigns
 ---
 
 Reactivation campaigns without KPI tracking are guesswork. Multi-location healthcare groups running campaigns across 10, 20, or 50 sites need standardized metrics to identify what works, where performance lags, and how to improve. If you are building a campaign from scratch, start with the [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/) for the full strategic framework. This guide defines the eight KPIs that matter most for patient reactivation, provides benchmarks for each, and includes a weekly tracking framework for operations leaders.

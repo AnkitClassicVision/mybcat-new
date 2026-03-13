@@ -8,6 +8,7 @@ relatedPosts:
   - ai-receptionist-vs-virtual-front-desk-answering-service
   - ai-phone-answering-for-dental-offices
   - human-ai-hybrid-model-healthcare-intake
+  - ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic
 status: "draft"
 author: "Ankit Patel"
 category: "Technology"

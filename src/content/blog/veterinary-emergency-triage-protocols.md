@@ -26,6 +26,7 @@ relatedPosts:
   - multi-location-healthcare-intake-guide
   - after-hours-veterinary-call-management
   - healthcare-front-desk-staffing-crisis-2025
+  - animal-hospital-patient-intake
 ---
 
 A panicked client calls at 2 PM about a dog that "isn't acting right." Is it an emergency requiring immediate action, an urgent situation needing same-day attention, or a routine concern for the next available appointment? For multi-location veterinary groups, getting this decision wrong has consequences: for the patient, the client relationship, and your staff's well-being.

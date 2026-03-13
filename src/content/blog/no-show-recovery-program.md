@@ -24,6 +24,8 @@ relatedPosts:
   - patient-recall-service
   - dormant-patient-reactivation
   - automated-vs-human-patient-recall
+  - reducingpatientchurninhealthcare
+  - the-importance-of-timely-appointment-scheduling
 ---
 
 Patient no-shows cost US healthcare $150 billion annually. For individual practices, that translates to approximately $150,000 in lost revenue each year. For multi-location groups, the math multiplies quickly. A 20-location organization with average no-show rates loses over $3 million annually in unfilled appointments. This guide provides the framework for building a no-show recovery program that fills schedule gaps fast and reduces future missed appointments.

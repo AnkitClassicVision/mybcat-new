@@ -21,6 +21,7 @@ relatedPosts:
   - missed-calls-revenue-leak-multi-location-healthcare
   - dso-case-study-15-location-missed-calls
   - kpi-dashboard-multi-location-intake
+  - missed-call-revenue-calculator
 ---
 
 How much is each phone call worth to your healthcare practice? The answer varies dramatically by specialty: dental groups average $47 in revenue per call, while veterinary practices average $78. These benchmarks, based on 2025 data from 150+ multi-location healthcare groups, reveal why intake optimization delivers different ROI by specialty and what you should target for your group.

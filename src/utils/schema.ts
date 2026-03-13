@@ -385,18 +385,15 @@ export function generateArticleSchema(meta: ArticleMeta) {
 
 /**
  * Combine multiple schemas using @graph
- * Preserves @context in each item for broader validator compatibility
+ * @context belongs only at the top level per schema.org best practices;
+ * duplicating it inside @graph items triggers validation errors.
  */
 export function combineSchemas(...schemas: object[]) {
   return {
     '@context': 'https://schema.org',
     '@graph': schemas.map(schema => {
-      // Keep @context in each item for validators that check independently
-      const schemaObj = schema as { '@context'?: string };
-      if (!schemaObj['@context']) {
-        return { '@context': 'https://schema.org', ...schema };
-      }
-      return schema;
+      const { '@context': _, ...rest } = schema as any;
+      return rest;
     })
   };
 }

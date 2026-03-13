@@ -12,6 +12,7 @@ relatedPosts:
   - veterinary-emergency-triage-protocols
   - after-hours-veterinary-call-management
   - multi-location-healthcare-intake-guide
+  - veterinary-call-service-texas
 author: Ankit Patel
 status: published
 category: Practice Management

@@ -23,6 +23,7 @@ relatedPosts:
 - dso-change-management-centralize-patient-access
 - ehr-pms-integration-centralized-scheduling-enterprise
 - patient-access-center-rfp-vendor-checklist-enterprise
+- enterprise-call-answering-healthcare
 ---
 
 Multi-location healthcare groups that miscalibrate their patient access staffing ratios lose an estimated 15-25% of potential revenue to missed calls, abandoned inquiries, and unfilled appointment slots. The math is straightforward: a 10-location dental group missing 20 calls per location daily at a $300 average patient lifetime value leaves $1.8 million on the table annually. This guide provides the staffing ratio frameworks, FTE calculation methods, and optimization strategies that top-performing healthcare groups use to capture that revenue.

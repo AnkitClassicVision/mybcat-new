@@ -25,6 +25,7 @@ relatedPosts:
   - dental-group-acquisition-due-diligence
   - dso-patient-retention-strategy
   - centralized-patient-recall-multi-location
+  - guide-for-selling-your-optometry-practice
 ---
 
 The acquisition closes, the celebration happens, and then the real work begins. Healthcare M&A success is determined not by deal execution but by integration execution, and the most important integration metric is patient retention. Lose 25% of patients in the first 18 months, and you have destroyed value rather than created it. This playbook provides the phase-by-phase approach for protecting patient retention during healthcare operations integration.
@@ -55,7 +56,7 @@ Patient retention risk during M&A is real and quantifiable:
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0;">
   <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 20px;">
-    <h4 style="color: #991b1b; margin: 0 0 12px 0; font-size: 16px;">Scenario A: 25% Attrition</h4>
+    <h3 style="color: #991b1b; margin: 0 0 12px 0; font-size: 16px;">Scenario A: 25% Attrition</h3>
     <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
       <li style="padding: 4px 0;">Acquisition: 10 practices, 25,000 patients</li>
       <li style="padding: 4px 0;">Purchase price: $15 million</li>
@@ -65,7 +66,7 @@ Patient retention risk during M&A is real and quantifiable:
     </ul>
   </div>
   <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 20px;">
-    <h4 style="color: #166534; margin: 0 0 12px 0; font-size: 16px;">Scenario B: 10% Attrition</h4>
+    <h3 style="color: #166534; margin: 0 0 12px 0; font-size: 16px;">Scenario B: 10% Attrition</h3>
     <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
       <li style="padding: 4px 0;">Acquisition: 10 practices, 25,000 patients</li>
       <li style="padding: 4px 0;">Purchase price: $15 million</li>

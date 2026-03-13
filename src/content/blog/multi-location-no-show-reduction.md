@@ -25,6 +25,7 @@ relatedPosts:
   - no-show-recovery-program
   - centralized-patient-recall-multi-location
   - healthcare-group-operations-benchmarks
+  - multi-location-call-center-qa-calibration-healthcare
 ---
 
 When one location achieves 8% no-shows and another struggles at 18%, the problem is not the patients. It is the lack of standardization. No-shows are a systems problem, and systems problems require systematic solutions. Multi-location healthcare groups that achieve consistently low no-show rates do so through standardized protocols, centralized technology, and network-wide accountability. This guide provides the framework for standardizing no-show reduction across your locations.

@@ -23,6 +23,7 @@ relatedPosts:
 - virtual-receptionist-vs-front-desk-optometry
 - call-management-best-practices-optometry
 - appointment-reminder-best-practices
+- streamlining-patient-intake-for-eye-care-practices
 ---
 
 Patient experience does not begin in the exam chair. It begins the moment someone picks up the phone to call your practice. For eye care offices, where patients may be dealing with sudden vision changes, anxiety about a new diagnosis, or the simple frustration of trying to schedule an appointment, that first phone interaction carries more weight than most practice owners realize.

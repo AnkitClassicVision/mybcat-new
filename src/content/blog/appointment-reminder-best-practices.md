@@ -19,6 +19,7 @@ relatedPosts:
   - no-show-recovery-program
   - reactivation-text-message-templates
   - patient-recall-scripts
+  - the-importance-of-timely-appointment-scheduling
 ---
 
 Appointment reminders seem simple until you get them wrong. Too few reminders and patients forget. Too many and they opt out. The wrong channel and they never see them. This guide covers the timing, frequency, and channel strategies that reduce no-shows by 20-50% while respecting patient preferences. The best reminder is one that works without being intrusive.

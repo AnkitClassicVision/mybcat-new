@@ -25,6 +25,8 @@ relatedPosts:
   - centralized-patient-recall-multi-location
   - multi-location-healthcare-ebitda
   - healthcare-group-operations-benchmarks
+  - benchmark-report-revenue-per-call-2025
+  - centralized-revenue-cycle-management-multi-location-healthcare-groups
 ---
 
 Healthcare executives frequently ask: "What is the ROI of our call center?" The answer is more complex than it appears. Unlike manufacturing where output equals input transformed, call centers generate value through multiple channels. Appointments scheduled, patients retained, revenue protected, and experiences delivered. This guide provides the comprehensive framework for calculating healthcare call center ROI at enterprise scale.

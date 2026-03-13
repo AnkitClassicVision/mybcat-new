@@ -18,6 +18,7 @@ canonical: 'https://mybcat.com/blog/automated-vs-human-patient-recall/'
 cluster: patient-recall
 relatedPosts:
   - patient-recall-campaign-framework
+  - test-ai-receptionist-benefits
 ---
 
 Multi-location healthcare groups face a fundamental question when building their [recall campaign framework](/blog/patient-recall-campaign-framework/): should patient outreach be automated, handled by live agents, or a combination of both? Research shows the answer depends on patient demographics, appointment type, and operational scale. Live phone calls achieve 32% completion rates compared to 17% for automated texts in preventive care contexts, yet automation costs 55-65% less per message. This guide presents the data and decision framework operations leaders need to choose the right approach.

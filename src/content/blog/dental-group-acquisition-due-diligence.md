@@ -66,7 +66,7 @@ Retention matters financially because a 20% patient loss translates directly int
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0;">
   <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 20px;">
-    <h4 style="color: #166534; margin: 0 0 12px 0; font-size: 16px;">At Acquisition</h4>
+    <h3 style="color: #166534; margin: 0 0 12px 0; font-size: 16px;">At Acquisition</h3>
     <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
       <li style="padding: 4px 0;">Purchase price: $800,000</li>
       <li style="padding: 4px 0;">Revenue: $1,200,000</li>
@@ -74,7 +74,7 @@ Retention matters financially because a 20% patient loss translates directly int
     </ul>
   </div>
   <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 20px;">
-    <h4 style="color: #991b1b; margin: 0 0 12px 0; font-size: 16px;">After 25% Patient Loss</h4>
+    <h3 style="color: #991b1b; margin: 0 0 12px 0; font-size: 16px;">After 25% Patient Loss</h3>
     <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
       <li style="padding: 4px 0;">Revenue: $900,000 (-25%)</li>
       <li style="padding: 4px 0;">EBITDA: $75,000 (-63%)</li>

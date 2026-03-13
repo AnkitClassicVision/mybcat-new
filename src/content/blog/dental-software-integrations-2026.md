@@ -19,6 +19,7 @@ seoDescription: "Learn how DSOs achieve operational consistency across mixed PM 
 relatedPosts:
 - dental-answering-service-california
 - dso-case-study-15-location-missed-calls
+- centralized-scheduling-dental-offices
 ---
 
 Every DSO acquisition adds another PM system to the stack. You're told integration means 18-month migrations. It doesn't. Workflow standardization captures most of the operational value in 90 days across Dentrix, Eaglesoft, Open Dental, or whatever you've got. Your mixed PM stack isn't the problem. Waiting for perfect consolidation is.

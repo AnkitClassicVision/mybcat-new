@@ -11,7 +11,7 @@ tags: ["multi-location", "healthcare", "intake", "DSO", "optometry", "veterinary
 featuredImage: "/images/blog/multi-location-healthcare-intake-guide-featured.webp"
 canonical: "https://mybcat.com/blog/multi-location-healthcare-intake-guide/"
 cluster: enterprise
-relatedPosts: ["missed-calls-revenue-leak-multi-location-healthcare", "ai-receptionist-vs-virtual-front-desk-answering-service", "healthcare-front-desk-staffing-crisis-2025"]
+relatedPosts: ["missed-calls-revenue-leak-multi-location-healthcare", "ai-receptionist-vs-virtual-front-desk-answering-service", "healthcare-front-desk-staffing-crisis-2025", "centralized-vs-distributed-intake-framework"]
 ---
 
 Multi-location healthcare groups lose $500,000-$1,500,000 annually to intake inefficiencies, and most don't know it. Use our [missed call revenue calculator](https://mybcat.com/blog/missed-call-revenue-calculator/) to see your specific number. This guide provides the complete framework for evaluating, selecting, and implementing [enterprise intake solutions](/enterprise/) for healthcare groups with 3-50+ locations.

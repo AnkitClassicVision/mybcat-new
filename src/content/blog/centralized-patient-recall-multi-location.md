@@ -63,7 +63,7 @@ For a 20-location healthcare group:
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0;">
   <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 20px;">
-    <h4 style="color: #991b1b; margin: 0 0 12px 0; font-size: 16px;">Decentralized State</h4>
+    <h3 style="color: #991b1b; margin: 0 0 12px 0; font-size: 16px;">Decentralized State</h3>
     <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
       <li style="padding: 4px 0;">20 staff doing partial recall work</li>
       <li style="padding: 4px 0;">Average 65% recall rate</li>
@@ -72,7 +72,7 @@ For a 20-location healthcare group:
     </ul>
   </div>
   <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 20px;">
-    <h4 style="color: #166534; margin: 0 0 12px 0; font-size: 16px;">Centralized State</h4>
+    <h3 style="color: #166534; margin: 0 0 12px 0; font-size: 16px;">Centralized State</h3>
     <ul style="list-style: none; padding: 0; margin: 0; color: #1f2937;">
       <li style="padding: 4px 0;">4-5 dedicated recall specialists</li>
       <li style="padding: 4px 0;">Average 82% recall rate</li>

@@ -21,9 +21,10 @@ relatedPosts:
 - enterprise-healthcare-staffing-ratios-patient-access-optimization
 - ehr-pms-integration-centralized-scheduling-enterprise
 - patient-access-center-rfp-vendor-checklist-enterprise
+- enterprise-call-answering-healthcare
 ---
 
-Healthcare change initiatives fail at rates between 70% and 85%, according to McKinsey and KLAS Research data from 2024 and 2025. For DSO operations leaders managing centralization projects across multiple locations, that statistic translates to real consequences: stalled integrations, frustrated staff, and missed revenue targets. This guide provides a structured change management framework specifically designed for centralizing patient access operations in dental service organizations and multi-location healthcare groups.
+Healthcare change initiatives fail at rates between 70% and 85%, according to seminal research by Kotter and subsequent industry analyses. For DSO operations leaders managing centralization projects across multiple locations, that statistic translates to real consequences: stalled integrations, frustrated staff, and missed revenue targets. This guide provides a structured change management framework specifically designed for centralizing patient access operations in dental service organizations and multi-location healthcare groups.
 
 ## What You'll Learn
 
@@ -221,7 +222,7 @@ The MGMA 2025 staffing survey found that 70% of medical practices reported turno
 
 ## Sources
 
-1. [McKinsey Health Institute, "Rewired Health 2026" (2026)](https://www.mckinsey.com/industries/healthcare/our-insights)
+1. [Harvard Business Review, "Cracking the Code of Change" — Beer & Nohria (2000)](https://hbr.org/2000/05/cracking-the-code-of-change)
 2. [MGMA, "Staff Turnover Trends in Medical Practices 2025-2026"](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026)
 3. [Precedence Research, "U.S. Dental Support Organizations Market" (2025)](https://www.precedenceresearch.com/us-dental-support-organizations-market)
 4. [Group Dentistry Now, "The Standardization Paradox in Patient Access"](https://www.groupdentistrynow.com/dso-group-blog/standardization-patient/)

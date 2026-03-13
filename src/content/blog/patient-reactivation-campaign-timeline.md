@@ -22,6 +22,7 @@ canonical: 'https://mybcat.com/blog/patient-reactivation-campaign-timeline/'
 cluster: patient-recall
 relatedPosts:
   - dormant-patient-reactivation
+  - patient-reactivation-campaigns
 ---
 
 The difference between a 10% and 25% reactivation rate often comes down to timing and persistence. Send one message and stop. You will recover a fraction of what a structured multi-touch campaign delivers. For the strategic foundation behind these timelines, see our [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/). This guide provides the day-by-day timeline for patient reactivation campaigns spanning 7 days to 90 days, with channel selection, escalation triggers, and benchmarks at each stage.

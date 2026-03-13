@@ -17,6 +17,8 @@ relatedPosts:
 - blog-spanish-speaking-agents
 - blog-streamline-practice-remote-staffing
 - effective-hiring-and-training-strategies-for-optometrists
+- benefits-of-hiring-remote-workers-for-optometry-business
+- blog-ensuring-patient-satisfaction
 ---
 
 I'm going to tell you something that might sting: your patients probably can't tell if you're a great clinician.

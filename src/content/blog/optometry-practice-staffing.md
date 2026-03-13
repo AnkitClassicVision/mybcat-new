@@ -18,6 +18,7 @@ relatedPosts:
   - optometry-practice-location
   - optometry-practice-finances
   - optometric-practice-equipment
+  - optometry-private-practice
 ---
 
 ## Optometry Practice Staffing: Build Your Dream Team

@@ -22,6 +22,7 @@ relatedPosts:
   - optometry-practice-staffing
   - optometry-practice-location
   - optometric-practice-equipment
+  - optometry-private-practice
 ---
 
 ## Optometry Practice Finances: A Complete Guide to Building a Profitable Practice

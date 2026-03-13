@@ -23,6 +23,7 @@ canonical: 'https://mybcat.com/blog/patient-reactivation-roi/'
 cluster: patient-recall
 relatedPosts:
   - dormant-patient-reactivation
+  - reactivationcallcenterformedicalpractice
 ---
 
 Reactivating a dormant patient costs 5-25x less than acquiring a new one. Yet most practices cannot quantify the return on their reactivation efforts. If you are building your first campaign, start with our [dormant patient reactivation playbook](/blog/dormant-patient-reactivation/) for the strategic framework. This guide provides the calculation framework to measure patient reactivation ROI, benchmark your results against top performers, and build the business case for dedicated reactivation resources.

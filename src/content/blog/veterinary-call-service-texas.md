@@ -21,6 +21,7 @@ relatedPosts:
   - veterinary-emergency-triage-protocols
   - after-hours-veterinary-call-management
   - multi-location-healthcare-intake-guide
+  - animal-hospital-patient-intake
 ---
 
 Texas is the second-largest veterinary market in the country, with rapid consolidation and strong independent groups competing for pet owners. From Houston's sprawling suburbs to Austin's tech-savvy pet parents, Texas veterinary practices face unique challenges that generic call services do not understand. Here is what Texas veterinary groups need from their intake partners.

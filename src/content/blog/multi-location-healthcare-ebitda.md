@@ -25,6 +25,7 @@ relatedPosts:
   - dso-patient-retention-strategy
   - centralized-patient-recall-multi-location
   - optometry-network-operations-scale
+  - centralized-revenue-cycle-management-multi-location-healthcare-groups
 ---
 
 For multi-location healthcare groups, EBITDA is more than an accounting metric. It is the foundation of enterprise value. Every dollar of EBITDA multiplies into $8, $10, or $15 of value depending on your scale and operational quality. Patient retention directly impacts that EBITDA, often more powerfully than revenue growth initiatives that cost money to execute. This guide examines the specific mechanisms by which retention protects and grows EBITDA in multi-location healthcare operations.

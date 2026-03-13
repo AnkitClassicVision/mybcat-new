@@ -2,7 +2,7 @@
 status: published
 publishDate: '2026-03-13T00:00:00.000Z'
 author: Ankit Patel
-category: Patient Care
+category: Patient Experience
 cluster: patient-recall
 featuredImage: /images/blog/patient-reactivation-campaigns.webp
 canonical: https://mybcat.com/blog/patient-reactivation-campaigns/

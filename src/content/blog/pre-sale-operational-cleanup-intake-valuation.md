@@ -27,6 +27,7 @@ relatedPosts:
   - multi-location-healthcare-intake-guide
   - missed-calls-revenue-leak-multi-location-healthcare
   - dso-case-study-15-location-missed-calls
+  - guide-for-selling-your-optometry-practice
 ---
 
 PE buyers evaluating your healthcare practice are not just looking at EBITDA. They are modeling integration costs. A practice with fragmented intake operations, owner-dependent processes, and no visibility into call conversion represents risk. A practice with standardized, documented, scalable intake systems represents a platform asset that commands premium multiples.

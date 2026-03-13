@@ -8,6 +8,8 @@ relatedPosts:
   - ai-receptionist-vs-virtual-front-desk-answering-service
   - dental-answering-service-california
   - missed-calls-revenue-leak-multi-location-healthcare
+  - dental-software-integrations-2026
+  - is-ai-investment-worth-it-for-your-optometry-clinic
 status: "draft"
 author: "Ankit Patel"
 category: "Technology"

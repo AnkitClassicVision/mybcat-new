@@ -21,6 +21,7 @@ relatedPosts:
   - multi-location-healthcare-intake-guide
   - kpi-dashboard-multi-location-intake
   - human-ai-hybrid-model-healthcare-intake
+  - streamlining-patient-intake-for-eye-care-practices
 ---
 
 Optometry groups live in two worlds: clinical care representing roughly 40% of revenue and optical retail representing 60%. Yet most intake systems treat every call the same. The result: clinical appointments get booked while optical opportunities slip away. Groups that design intake specifically for the clinical-retail handoff see 15-20% higher capture rates than those treating every call identically.

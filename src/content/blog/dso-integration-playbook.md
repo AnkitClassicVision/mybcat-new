@@ -21,6 +21,7 @@ relatedPosts:
   - dso-case-study-15-location-missed-calls
   - 90-day-integration-playbook-healthcare-acquisitions
   - multi-location-healthcare-intake-guide
+  - centralized-vs-distributed-intake-framework
 ---
 
 Most DSO acquisitions take 12+ months to fully integrate, but the target is 90 days. The gap is that integration playbooks focus on PM system migration before establishing standardized intake processes. This playbook flips that sequence, giving you a week-by-week framework for standardizing patient intake that works regardless of which PM system the acquired practice uses.

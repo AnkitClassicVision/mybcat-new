@@ -26,6 +26,8 @@ relatedPosts:
   - ai-receptionist-vs-virtual-front-desk-answering-service
   - multi-location-healthcare-intake-guide
   - veterinary-emergency-triage-protocols
+  - ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic
+  - is-ai-investment-worth-it-for-your-optometry-clinic
 ---
 
 TrueLark claims 85% automation. Ruby touts "real people for every call." Both miss the point for multi-location healthcare groups. AI excels at routine scheduling but fails on complex clinical questions, emotional situations, and high-stakes calls. Human-only services work but become prohibitively expensive at scale. The answer is not choosing between AI and human. It is building a system that routes the right calls to the right handler.

@@ -16,6 +16,7 @@ canonical: https://mybcat.com/blog/avoid-outsourcing-mistakes-in-optometry/
 cluster: bpo-outsourcing
 relatedPosts:
   - what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice
+  - blog-reduce-administrative-cost
 ---
 
 Peter Cass sees six patients an hour. That's not a typo—six patients per hour, compared to the industry average of 1.2.

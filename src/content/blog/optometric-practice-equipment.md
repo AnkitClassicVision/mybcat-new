@@ -23,6 +23,7 @@ relatedPosts:
   - optometry-practice-staffing
   - optometry-practice-location
   - optometry-practice-finances
+  - equipment-technology-checklist-new-optometry-practices
 ---
 
 ## Essential Optometric Practice Equipment: A Complete Guide

@@ -22,6 +22,7 @@ relatedPosts:
   - ebitda-impact-calculator
   - missed-calls-revenue-leak-multi-location-healthcare
   - dso-integration-playbook
+  - benchmark-report-revenue-per-call-2025
 ---
 
 Most multi-location healthcare groups track revenue per location but cannot tell you their call answer rate, new patient conversion rate, or average time to appointment. The result: marketing spend increases while patient acquisition efficiency stays flat. Here are the 10 intake KPIs that top-performing groups track, with benchmarks for dental, optometry, and veterinary practices. For groups seeking comprehensive intake visibility, our [enterprise reporting and QA](/enterprise/reporting-qa/) solution delivers real-time dashboards across all locations.

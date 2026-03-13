@@ -21,6 +21,7 @@ relatedPosts:
   - multi-location-healthcare-intake-guide
   - dso-integration-playbook
   - missed-calls-revenue-leak-multi-location-healthcare
+  - centralized-scheduling-dental-offices
 ---
 
 California is home to more [dental service organizations](/enterprise/dso/) than any other state. With 300+ DSO groups operating across Southern California, the Bay Area, and Central Valley, the competition for patients is intense. Yet many California [dental groups](/industries/dental/) still struggle with the basics: answering the phone. Here is why intake solutions designed for California's unique market outperform generic alternatives.

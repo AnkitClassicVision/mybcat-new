@@ -21,6 +21,7 @@ relatedPosts:
   - veterinary-emergency-triage-protocols
   - multi-location-healthcare-intake-guide
   - healthcare-front-desk-staffing-crisis-2025
+  - veterinary-call-service-texas
 ---
 
 Veterinary practices receive 40% of their calls outside business hours, and most go to voicemail. The standard solutions (DVM on-call, rotating staff, ignoring the problem) all fail at scale. For multi-location veterinary groups, after-hours is not a coverage problem. It is a routing problem. Here are four models that actually work, with the data to help you choose.

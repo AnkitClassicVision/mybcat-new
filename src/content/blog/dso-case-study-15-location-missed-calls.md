@@ -22,6 +22,7 @@ relatedPosts:
   - ebitda-impact-calculator
   - multi-location-healthcare-intake-guide
   - missed-calls-revenue-leak-multi-location-healthcare
+  - multi-location-call-center-qa-calibration-healthcare
 ---
 
 *This case study illustrates the potential impact of centralized intake optimization, using realistic metrics based on industry data and typical DSO performance patterns. While not a specific MyBCAT client engagement, it demonstrates what multi-location dental groups can achieve with a solution like ours.*
