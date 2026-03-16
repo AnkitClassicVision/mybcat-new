@@ -1,12 +1,11 @@
 ---
-status: scheduled
-publishDate: '2026-03-16'
+status: published
+publishDate: '2026-03-16T00:00:00.000Z'
 author: Ankit Patel
 category: Operations
 cluster: enterprise
 featuredImage: /images/blog/enterprise-call-answering-healthcare.webp
 canonical: 'https://mybcat.com/blog/enterprise-call-answering-healthcare/'
-scheduledDate: '2026-03-16'
 title: 'Enterprise Call Answering for Healthcare: Multi-Location'
 seoTitle: 'Enterprise Call Answering for Healthcare: Scale Guide'
 description: >-
