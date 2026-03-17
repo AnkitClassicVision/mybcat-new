@@ -3547,6 +3547,56 @@
       "source": "/blog/vision-clinic-call-management-tips-for-success/",
       "destination": "/blog/call-management-best-practices-optometry/",
       "permanent": true
+    },
+    {
+      "source": "/blog/streamlining-insurance-verification-best-practices",
+      "destination": "/blog/streamlining-insurance-claim-processing-for-optometric-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/streamlining-insurance-verification-best-practices/",
+      "destination": "/blog/streamlining-insurance-claim-processing-for-optometric-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-importance-of-scheduling",
+      "destination": "/blog/the-importance-of-timely-appointment-scheduling/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-importance-of-scheduling/",
+      "destination": "/blog/the-importance-of-timely-appointment-scheduling/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/evaluating-the-effectiveness",
+      "destination": "/blog/evaluating-the-effectiveness-of-your-optometry-growth-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/evaluating-the-effectiveness/",
+      "destination": "/blog/evaluating-the-effectiveness-of-your-optometry-growth-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/be-secure-and-compliant",
+      "destination": "/blog/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/be-secure-and-compliant/",
+      "destination": "/blog/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conducting-a-cost-benefit",
+      "destination": "/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conducting-a-cost-benefit/",
+      "destination": "/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry/",
+      "permanent": true
     }
   ]
 }
