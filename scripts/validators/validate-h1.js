@@ -14,7 +14,7 @@ import { pathToFileURL } from 'url';
 import { glob } from 'glob';
 import matter from 'gray-matter';
 
-const MAX_H1_LENGTH = 70;
+const MAX_H1_LENGTH = 90;
 
 const colors = {
   red: '\x1b[31m',
