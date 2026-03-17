@@ -286,6 +286,8 @@ For the complete framework on running recall campaigns, see our [patient recall 
 - [Reactivation Call Centers for Multi-Location Medical Groups](/blog/reactivationcallcenterformedicalpractice/)
 - [Reactivation Text Templates: SMS Scripts That Work](/blog/reactivation-text-message-templates/)
 - [Reactivation Campaign KPIs: Metrics for Multi-Location Groups](/blog/reactivation-campaign-kpis/)
+- [MyBCAT vs Hello Rache: Which Patient Recall Approach Works Better?](/compare/vs-hello-rache/)
+- [What Is Patient Intake? Complete Definition](/glossary/patient-intake/)
 
 Reactivating dormant patients is one of the highest-ROI investments a practice can make. [Talk to our team](/contact/) about how MyBCAT combines call answering with patient recall to keep your schedule full.
 

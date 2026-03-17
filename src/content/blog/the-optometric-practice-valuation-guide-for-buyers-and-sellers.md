@@ -89,7 +89,7 @@ On the buyer's end, the current use or potential for BPO in a practice is an ess
 
 Scaling with a BPO is usually easier than making in-house adjustments, a factor that further elevates a practice's valuation. Instead of worrying about the intricacies of hiring, training, or terminating in-house staff, adjustments to the level of BPO services can be made much easier. This ease in scalability offers peace of mind to buyers, as it signifies a more manageable and, therefore, more attractive investment.
 
-Lastly, while the benefits of BPO are considerable, both buyers and sellers should proceed with caution. Integrating outsourced services comes with its own set of challenges, including time commitments and upfront costs. Moreover, the effectiveness of a BPO service can vary, making it essential to choose the right partner. Despite these caveats, when effectively implemented, BPO serves as a potent lever for elevating a practice's market valuation.
+Lastly, while the benefits of BPO are considerable, both buyers and sellers should proceed with caution. Integrating outsourced services comes with its own set of challenges, including time commitments and upfront costs. Moreover, the effectiveness of a BPO service can vary, making it essential to choose the right partner. When comparing options, see how [MyBCAT stacks up against Hello Rache](/compare/vs-hello-rache/) for optometry-specific virtual assistant services. Despite these caveats, when effectively implemented, BPO serves as a potent lever for elevating a practice's market valuation.
 
 ## How Do Buyer and Seller Perspectives Elevate Practice Valuation?
 

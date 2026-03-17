@@ -104,7 +104,7 @@ Communicating fee adjustments to patients through improved service quality and n
 
 Empty appointment slots cost money. The average no-show costs an optometry practice $175 in lost revenue. A practice with a 15% no-show rate loses over $50,000 annually.
 
-Implement automated appointment reminders via text and email. Send reminders 48 hours and 24 hours before appointments. Some practices have reduced no-show rates to under 5% through consistent reminder systems.
+Implement automated appointment reminders via text and email. Send reminders 48 hours and 24 hours before appointments. Some practices have reduced no-show rates to under 5% through consistent reminder systems. A structured [patient recall program](/blog/patient-recall-campaign-framework/) can recover 20-30% of dormant patients who have drifted away, turning a cost center into a revenue driver. For practices evaluating outsourced recall, [dedicated patient recall solutions](/solutions/patient-recall/) handle the outreach so your team stays focused on in-office care.
 
 Missed calls compound this problem. When potential patients call and reach voicemail, [47% never call back](/blog/missed-calls-revenue-leak-multi-location-healthcare/). That's revenue walking out the door before it ever arrives.
 

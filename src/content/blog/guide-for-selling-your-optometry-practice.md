@@ -176,7 +176,7 @@ Get a preliminary valuation to understand your baseline. Identify the "you-depen
 
 ### 1-2 Years Out: Optimization Phase
 
-Engage a broker or M&A advisor. Clean up your financials--buyers look at 3 years of statements. Control expenses aggressively (buyers scrutinize recent P&L). Document add-backs clearly (owner perks, one-time expenses). Build staff capability to operate without you. Modernize technology and systems. Optimize patient recall and retention rates.
+Engage a broker or M&A advisor. Clean up your financials--buyers look at 3 years of statements. Control expenses aggressively (buyers scrutinize recent P&L). Document add-backs clearly (owner perks, one-time expenses). Build staff capability to operate without you. Modernize technology and systems. Optimize patient recall and retention rates — a proven [patient recall campaign framework](/blog/patient-recall-campaign-framework/) can lift reactivation rates 20-30% and directly improve the metrics buyers care about.
 
 ### 6-12 Months Out: Go-to-Market
 

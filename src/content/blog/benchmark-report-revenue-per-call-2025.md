@@ -115,7 +115,7 @@ This benchmark report combines three data sources:
 
 **Specialty services lift value.** Groups offering implants, orthodontics, or cosmetic services generate higher per-patient revenue than general dentistry alone.
 
-**Hygiene recall drives volume.** Practices with strong recall programs generate more calls but at lower per-call value (existing patient appointments vs. new patient inquiries).
+**Hygiene recall drives volume.** Practices with strong recall programs generate more calls but at lower per-call value (existing patient appointments vs. new patient inquiries). Learn more about how [dental answering services](/industries/dental/) handle this call volume at scale.
 
 ### Dental Benchmarks by Service Mix
 
@@ -201,7 +201,7 @@ This benchmark report combines three data sources:
 
 ### Medical-Specific Factors
 
-**Procedure revenue drives specialty value.** Dermatology with cosmetic procedures and orthopedics with surgical interventions generate significantly higher revenue per patient.
+**Procedure revenue drives specialty value.** Dermatology with cosmetic procedures and orthopedics with surgical interventions generate significantly higher revenue per patient. [Urgent care centers](/industries/urgent-care/) and [medical spas](/industries/medspa/) show similar patterns where higher-acuity or higher-margin services lift the per-call value.
 
 **Risk contract impact varies.** Practices in value-based arrangements may see different economics than fee-for-service.
 

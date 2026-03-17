@@ -24,7 +24,7 @@ relatedPosts:
 
 Appointment reminders seem simple until you get them wrong. Too few reminders and patients forget. Too many and they opt out. The wrong channel and they never see them. This guide covers the timing, frequency, and channel strategies that reduce no-shows by 20-50% while respecting patient preferences. The best reminder is one that works without being intrusive.
 
-Every healthcare practice deals with no-shows, but few treat them as the operational problem they actually are. A single missed appointment costs $200 on average when you factor in lost revenue, idle staff time, and the scheduling gap that could have gone to another patient. Across a year, that adds up to $150,000 or more per location. For [multi-location healthcare groups](/blog/multi-location-healthcare-intake-guide/), multiply that across every site and the financial impact becomes material to the bottom line.
+Every healthcare practice deals with no-shows, but few treat them as the operational problem they actually are. A single missed appointment costs $200 on average when you factor in lost revenue, idle staff time, and the scheduling gap that could have gone to another patient. Across a year, that adds up to $150,000 or more per location. For [multi-location healthcare groups](/blog/multi-location-healthcare-intake-guide/), multiply that across every site and the financial impact becomes material to the bottom line. The problem starts at [patient intake](/glossary/patient-intake/) — if the initial scheduling workflow doesn't capture the right contact preferences, reminders never reach the patient.
 
 The good news: well-designed reminder systems are one of the highest-ROI operational investments a practice can make. They require no new staff, no capital expenditure, and produce measurable results within the first month.
 
@@ -107,7 +107,7 @@ Patient preferences should drive your channel strategy, not the other way around
 
 ### What Does a Multi-Channel Strategy Look Like?
 
-The most effective practices do not rely on a single channel. They layer channels based on patient demographics and escalate when initial outreach goes unanswered. This is similar to how [patient recall campaigns](/blog/patient-recall-postcard-vs-text-vs-phone/) combine postcards, texts, and phone calls for maximum reach.
+The most effective practices do not rely on a single channel. They layer channels based on patient demographics and escalate when initial outreach goes unanswered. This is similar to how [patient recall campaigns](/blog/patient-recall-postcard-vs-text-vs-phone/) combine postcards, texts, and phone calls for maximum reach. The same multi-channel principle applies across specialties — [dental practices](/industries/dental/), [urgent care centers](/industries/urgent-care/), and [medical spas](/industries/medspa/) all benefit from layered outreach tailored to their patient demographics.
 
 **Recommended approach:**
 1. **Primary:** SMS for all patients who opt in
