@@ -225,12 +225,12 @@
     },
     {
       "source": "/virtual-assistants-for-optometry",
-      "destination": "/industries/optometry/",
+      "destination": "/solutions/optometry-virtual-assistant/",
       "permanent": true
     },
     {
       "source": "/virtual-assistants-for-optometry/",
-      "destination": "/industries/optometry/",
+      "destination": "/solutions/optometry-virtual-assistant/",
       "permanent": true
     },
     {
