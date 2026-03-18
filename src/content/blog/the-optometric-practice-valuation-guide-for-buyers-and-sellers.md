@@ -1,23 +1,29 @@
 ---
-title: "Optometric Practice Valuation Guide for Buyers and Sellers"
-description: "Understanding optometry practice valuation is critical for buyers and sellers. Learn key factors that determine fair market value and get optimal terms."
+title: "Optometry Practice Valuation: Methods, Multiples & What Your Practice Is Worth"
+seoTitle: "Optometry Practice Valuation: EBITDA Multiples Guide"
+description: "How to value an optometry practice using EBITDA multiples, revenue methods, and asset-based approaches. Current 2026 valuation benchmarks for buyers and sellers."
+seoDescription: "Optometry practice valuation guide with 2026 EBITDA multiples (2-4x), revenue methods (40-70% gross), and asset-based approaches. For buyers and sellers."
 publishDate: 2023-10-04
 modifiedDate: '2026-03-18'
 status: published
 author: Ankit Patel
-category: Technology
+category: Practice Management
 tags:
 - optometry
-- patient-care
-- scheduling
-- outsourcing
+- practice-valuation
+- EBITDA
+- buying-selling
 - growth
 featuredImage: /images/blog/practice-valuation-guide.webp
 canonical: https://mybcat.com/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/
-relatedPosts: []
+cluster: private-practice
+relatedPosts:
+  - guide-for-selling-your-optometry-practice
+  - optometry-private-practice
+  - first-year-financial-planning-optometry
 ---
 
-Figuring out how much an eye care business is worth can be complicated. There are lots of ways to look at the value, and different buyers and sellers will have their own ideas about what makes a practice valuable. In this article, we'll go over some common ways people decide on a practice's worth. We'll also talk about what buyers and sellers should keep in mind to make smarter choices. By the end, you'll have a better idea of how to think about the value of an eye care business, whether you're looking to buy one or sell one.
+Optometry practice valuation typically ranges from 40-70% of annual gross revenue or 2-4x EBITDA. But the actual number depends on your methodology, buyer type, and how well-documented your operations are. This guide covers the valuation methods, key factors, and how BPO can lift your practice's market value. If you're already past the valuation stage and ready to sell, see our [complete exit strategy guide](/blog/guide-for-selling-your-optometry-practice/) for the preparation timeline, tax implications, and PE acquirer landscape.
 
 ## Table of Contents
 
