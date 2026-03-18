@@ -2,6 +2,7 @@
 title: "Optometric Practice Valuation Guide for Buyers and Sellers"
 description: "Understanding optometry practice valuation is critical for buyers and sellers. Learn key factors that determine fair market value and get optimal terms."
 publishDate: 2023-10-04
+modifiedDate: '2026-03-18'
 status: published
 author: Ankit Patel
 category: Technology

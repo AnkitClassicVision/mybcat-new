@@ -2,6 +2,7 @@
 title: "How to Start an Optometric Practice: A Complete Guide"
 description: "From regulatory compliance to staffing and marketing, this step-by-step guide covers everything you need to launch a successful optometry practice."
 publishDate: 2023-10-31
+modifiedDate: '2026-03-18'
 status: published
 author: Ankit Patel
 category: Technology

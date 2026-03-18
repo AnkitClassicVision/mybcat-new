@@ -2,6 +2,7 @@
 title: "Patient Retention and Acquisition Strategies for Optometry"
 description: "Top-performing practices attribute high patient retention to personalized care where every patient feels recognized. Build retention and acquisition strategies."
 publishDate: 2023-09-18
+modifiedDate: '2026-03-18'
 status: published
 author: Ankit Patel
 category: Technology

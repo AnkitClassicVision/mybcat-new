@@ -2,6 +2,7 @@
 title: "Evaluating Optometry Growth Strategy: A KPI Framework"
 description: "Measure what matters for practice growth. Use this strategic evaluation framework to track KPIs, benchmark competitors, and scale your optometry clinic."
 publishDate: 2023-09-21
+modifiedDate: '2026-03-18'
 status: published
 author: Ankit Patel
 category: Technology

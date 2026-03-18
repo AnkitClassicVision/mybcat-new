@@ -18,6 +18,11 @@ import type { CollectionEntry } from 'astro:content';
 export function isPostVisible(data: CollectionEntry<'blog'>['data']): boolean {
   const now = new Date();
 
+  // Posts with redirectTo should not be rendered as standalone pages
+  if (data.redirectTo) {
+    return false;
+  }
+
   if (data.status === 'published') {
     // Published posts must have a past/current publishDate
     return data.publishDate <= now;

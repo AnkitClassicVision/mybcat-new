@@ -6,6 +6,7 @@ const blog = defineCollection({
     title: z.string(),
     description: z.string(),
     publishDate: z.coerce.date(),
+    modifiedDate: z.coerce.date().optional(),
     scheduledDate: z.coerce.date().optional(),
     status: z.enum(['published', 'draft', 'scheduled']).default('draft'),
     author: z.string().default('Ankit Patel'),

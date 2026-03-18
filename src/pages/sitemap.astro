@@ -23,8 +23,8 @@ const sortedBlogPosts = blogPosts.sort((a, b) =>
 // Get unique blog categories
 const blogCategories = [...new Set(blogPosts.map(post => post.data.category))].filter(Boolean).sort();
 
-// Get recent posts (last 20)
-const recentPosts = sortedBlogPosts.slice(0, 20);
+// Show all published blog posts (not just recent 20) for full discoverability
+const recentPosts = sortedBlogPosts;
 
 // SEO metadata
 const title = 'HTML Sitemap: All Pages & Resources | MyBCAT';
@@ -128,9 +128,9 @@ const description = 'Complete sitemap of MyBCAT website. Find all pages includin
           </ul>
         </section>
 
-        <!-- Recent Blog Posts -->
+        <!-- All Blog Posts -->
         <section class="sitemap-section sitemap-section--wide">
-          <h2>Recent Blog Posts</h2>
+          <h2>All Blog Posts ({sortedBlogPosts.length})</h2>
           <ul class="blog-list">
             {recentPosts.map(post => (
               <li><a href={`/blog/${post.slug}/`}>{post.data.title}</a></li>

@@ -13,7 +13,7 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, publishDate, author, category, tags, featuredImage, relatedPosts, seoTitle, seoDescription } = post.data;
+const { title, description, publishDate, modifiedDate, author, category, tags, featuredImage, relatedPosts, seoTitle, seoDescription, canonical } = post.data;
 
 // Generate category slug for linking
 const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
@@ -64,6 +64,7 @@ const articleSchema = generateArticleSchema({
   author: author,
   authorUrl: authorUrl ? `${company.site.url}${authorUrl}` : undefined,
   datePublished: publishDate.toISOString(),
+  dateModified: modifiedDate ? modifiedDate.toISOString() : undefined,
   url: articleUrl,
   wordCount: wordCount,
   section: category,
@@ -97,7 +98,9 @@ const authorInfo = authorData[author] || { role: '', image: '' };
   description={metaDescription}
   ogType="article"
   ogImage={featuredImage}
+  canonical={canonical}
   publishDate={publishDate}
+  modifiedDate={modifiedDate}
   author={author}
   noindex={shouldNoindex}
 >

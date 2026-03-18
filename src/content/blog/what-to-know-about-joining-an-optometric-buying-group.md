@@ -2,6 +2,7 @@
 title: What to Know About Joining an Optometric Buying Group
 description: 'Optometric buying groups unlock volume discounts and growth support for independent practices. Compare alliance types and find the right fit for you.'
 publishDate: 2023-11-01
+modifiedDate: '2026-03-18'
 status: published
 author: Ankit Patel
 category: Technology

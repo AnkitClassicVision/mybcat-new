@@ -43,7 +43,9 @@ function getBlogLastModDates() {
     if (data.status === 'published' && data.publishDate) {
       const slug = file.replace(/\.(md|mdx)$/, '');
       const url = `https://mybcat.com/blog/${slug}/`;
-      dateMap[url] = new Date(data.publishDate).toISOString().split('T')[0];
+      // Use modifiedDate if available, otherwise fall back to publishDate
+      const bestDate = data.modifiedDate || data.publishDate;
+      dateMap[url] = new Date(bestDate).toISOString().split('T')[0];
     }
   });
 
