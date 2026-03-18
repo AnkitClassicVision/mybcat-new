@@ -1,8 +1,8 @@
 ---
 title: "Appointment Reminder Best Practices: Reduce No-Shows"
-seoTitle: "Appointment Reminder Best Practices: Reduce No-Shows"
+seoTitle: "Cut No-Shows 20-50%: Appointment Reminder Playbook"
 description: "Proven appointment reminder strategies that cut healthcare no-shows by 20-50%. Learn optimal timing, channel selection, and message content best practices."
-seoDescription: "Proven appointment reminder strategies that cut healthcare no-shows by 20-50%. Learn optimal timing, channel selection, and message content best practices."
+seoDescription: "Reduce no-shows by 20-50% with proven reminder timing, SMS vs phone vs email data, and HIPAA-compliant templates. Free playbook for healthcare practices."
 publishDate: '2026-02-16T00:00:00.000Z'
 status: published
 author: Ankit Patel

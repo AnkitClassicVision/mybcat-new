@@ -1,8 +1,8 @@
 ---
 title: "Revenue Per Call Benchmarks for Healthcare Groups (2025)"
-seoTitle: "Revenue Per Call Benchmarks for Healthcare Groups (2025)"
+seoTitle: "Revenue Per Call: $38-$112 by Specialty (2025 Data)"
 description: "2025 revenue per call benchmarks: Dental $47, Optometry $38, Veterinary $78. Original research from 150+ multi-location healthcare groups reveals ROI."
-seoDescription: "2025 revenue per call benchmarks: Dental $47, Optometry $38, Veterinary $78. Original research from 150+ multi-location healthcare groups reveals ROI."
+seoDescription: "How much is each patient call worth? 2025 benchmarks from 150+ healthcare groups: Dental $47, Optometry $38, Vet $78, Ortho $112. Free benchmark report."
 publishDate: 2026-01-17T00:00:00.000Z
 status: published
 author: Ankit Patel

@@ -1,6 +1,8 @@
 ---
 title: "Why Capture Rate Matters for Every Optometry Business"
+seoTitle: "Optical Capture Rate: Why 45% of Revenue Walks Out"
 description: "Most optometry practices capture only 50-55% of eyewear sales. Learn proven strategies to boost your optical capture rate, revenue, and patient loyalty."
+seoDescription: "Average optical capture rate is 55% — 45% of eyewear revenue walks out. Proven strategies to hit 70%+ capture from 500+ practice benchmarks."
 publishDate: 2023-10-02
 modifiedDate: '2026-03-18'
 status: published
