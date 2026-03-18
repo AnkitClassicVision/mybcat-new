@@ -6,7 +6,7 @@ export async function GET(context: any) {
   const posts = await getCollection('blog');
   const now = new Date();
   const publishedPosts = posts
-    .filter(post => post.data.status === 'published' && post.data.publishDate <= now)
+    .filter(post => post.data.status === 'published' && post.data.publishDate <= now && !post.data.redirectTo)
     .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 
   return rss({

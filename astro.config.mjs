@@ -21,7 +21,7 @@ function getNonPublishedSlugs() {
   files.forEach(file => {
     const content = fs.readFileSync(path.join(blogDir, file), 'utf8');
     const { data } = matter(content);
-    if (data.status !== 'published') {
+    if (data.status !== 'published' || data.redirectTo) {
       slugs.push(file.replace(/\.(md|mdx)$/, ''));
     }
   });
