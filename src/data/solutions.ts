@@ -1073,6 +1073,169 @@ My Business Care Team's medical virtual assistants are healthcare-trained profes
         }
       ]
     }
+  },
+  {
+    slug: 'optometry-virtual-assistant',
+    name: 'Optometry Virtual Assistant',
+    tagline: 'Trained for Eye Care. Dedicated to Your Practice.',
+    headline: 'Optometry Virtual Assistant Services for Eye Care Practices',
+    description: 'Dedicated virtual assistants trained in optometry workflows — scheduling, insurance verification, patient recall, and EHR management. Integrated with Eyefinity, Crystal PM, Compulink, and RevolutionEHR.',
+    tldr: 'My Business Care Team provides dedicated virtual assistants trained specifically for optometry and ophthalmology practices. Your VA handles scheduling, vision and medical insurance verification, patient recall, referral coordination, and administrative tasks — integrated directly with your EHR system at 50% less than in-house staff.',
+    metaDescription: 'Optometry virtual assistant services trained in eye care workflows. Eyefinity, Crystal PM & Compulink integration. Scheduling, insurance verification & recall at 50% less cost.',
+    serviceType: 'Optometry Virtual Assistant Service',
+    problem: {
+      question: 'Is your front desk drowning in admin while patients wait?',
+      stats: [
+        { label: 'Admin time per patient visit', value: '18 min' },
+        { label: 'Staff time on insurance tasks', value: '35%' },
+        { label: 'Missed calls during peak hours', value: '29%' }
+      ],
+      painPoints: [
+        'Front desk is overwhelmed during peak hours — patients wait, calls go unanswered',
+        'Vision plan verification (VSP, EyeMed, Davis) takes 15+ minutes per patient',
+        'Patient recall campaigns fall behind because staff prioritizes same-day tasks',
+        'Eyefinity/Crystal PM data entry errors cause claim denials and rework',
+        'Hiring and training optometry-specific staff takes months'
+      ]
+    },
+    features: [
+      {
+        title: 'EHR Integration',
+        description: 'Your VA works directly inside Eyefinity, Crystal PM, Compulink, RevolutionEHR, or your system of choice — no middleware or workarounds.',
+        icon: 'monitor'
+      },
+      {
+        title: 'Vision Insurance Verification',
+        description: 'Real-time VSP, EyeMed, Davis Vision, and medical insurance eligibility checks completed before the patient arrives.',
+        icon: 'shield'
+      },
+      {
+        title: 'Patient Recall & Reactivation',
+        description: 'Systematic outreach to overdue patients via phone, text, and email — filling your schedule with existing patients who already trust you.',
+        icon: 'phone'
+      },
+      {
+        title: 'Scheduling & Intake',
+        description: 'Appointment booking, new patient intake forms, and schedule optimization — all handled to maximize your chair time utilization.',
+        icon: 'calendar'
+      },
+      {
+        title: 'Referral Coordination',
+        description: 'Manage incoming referrals from PCPs and outgoing referrals to specialists. Track authorization status and follow up on pending items.',
+        icon: 'share'
+      },
+      {
+        title: 'Optical Order Tracking',
+        description: 'Monitor frame and lens orders, notify patients when ready, and coordinate pickup or delivery scheduling.',
+        icon: 'package'
+      }
+    ],
+    benefits: [
+      'Dedicated VA who learns your practice — not a rotating pool',
+      '50% cost savings vs hiring in-house optometry staff',
+      'Trained in optometry terminology, insurance, and workflows',
+      'Direct EHR access — works like an on-site team member',
+      'Patient recall rates increase 20-30% with systematic outreach',
+      'HIPAA-compliant with BAA coverage'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Practice Assessment',
+        description: 'We audit your current admin workflows, identify bottlenecks, and determine which tasks to delegate first.'
+      },
+      {
+        step: 2,
+        title: 'VA Selection & Training',
+        description: 'We match you with a VA experienced in optometry, then train them on your specific EHR, insurance mix, and practice preferences.'
+      },
+      {
+        step: 3,
+        title: 'EHR Integration',
+        description: 'Your VA gets secure access to your EHR system and begins working inside your existing workflows — no new software required.'
+      },
+      {
+        step: 4,
+        title: 'Ramp & Optimize',
+        description: 'Start with high-impact tasks (insurance verification, recall), then expand scope as your VA masters your practice operations.'
+      }
+    ],
+    stats: [
+      { label: 'Cost Savings vs In-House', value: '50%' },
+      { label: 'Insurance Verification Accuracy', value: '98%' },
+      { label: 'Patient Recall Rate Improvement', value: '25%' },
+      { label: 'EHR Systems Supported', value: '50+' }
+    ],
+    extendedContent: {
+      whatIs: {
+        title: 'What Is an Optometry Virtual Assistant?',
+        content: `An optometry virtual assistant is a dedicated remote healthcare professional trained specifically in eye care practice operations. Unlike general virtual assistants, an optometry VA understands vision plans (VSP, EyeMed, Davis Vision, Spectera), knows the difference between medical and vision insurance billing, and can navigate your EHR system to manage scheduling, patient records, and claims.
+
+Your optometry VA handles the administrative work that keeps your front desk from focusing on patients — insurance verification, appointment scheduling, patient recall outreach, referral coordination, and optical order tracking. They work during your practice hours, participate in team communications, and become a true extension of your staff.
+
+At My Business Care Team, our optometry VAs are managed by supervisors who understand eye care operations. We don't just provide a warm body — we provide a trained, supervised professional who is accountable for results.`
+      },
+      howItWorks: {
+        title: 'How Optometry Virtual Assistants Work',
+        content: `Our optometry virtual assistant service integrates directly into your existing practice operations:
+
+<strong>Direct EHR Access:</strong> Your VA logs into Eyefinity, Crystal PM, Compulink, RevolutionEHR, or whatever system you use. They work inside your existing workflows — no middleware, no data syncing, no workarounds. When they schedule an appointment or verify insurance, it happens in real-time in your system.
+
+<strong>Insurance Verification Before Arrival:</strong> Your VA verifies vision and medical insurance eligibility 24-48 hours before each appointment. By the time the patient walks in, your front desk knows exactly what's covered, what the copay is, and whether prior authorization is needed.
+
+<strong>Patient Recall Campaigns:</strong> Instead of letting recall lists pile up, your VA systematically works through overdue patients using phone calls, text messages, and email. Practices using our recall service see 20-30% higher reactivation rates compared to front-desk-only recall.
+
+<strong>Referral Management:</strong> Your VA tracks incoming referrals from primary care physicians, confirms insurance authorization, schedules the patient, and closes the loop with the referring provider. No more referrals falling through the cracks.
+
+<strong>Ongoing Supervision:</strong> Every VA has a supervisor at My Business Care Team who monitors quality, provides coaching, and ensures your practice standards are met consistently.`
+      },
+      whoItsFor: {
+        title: 'Which Optometry Practices Need a Virtual Assistant?',
+        content: `Optometry virtual assistants deliver the highest ROI for practices that match these profiles:
+
+<strong>Multi-Location Groups (3+ offices):</strong> You need consistent administrative quality across locations but can't hire and train staff fast enough. A dedicated VA per location — or shared VAs across locations — provides standardized operations without the hiring headaches. Our optometry VAs already support groups with 3 to 50+ locations.
+
+<strong>Practices with High Vision Plan Volume:</strong> If 60%+ of your patients come through VSP, EyeMed, or managed vision plans, insurance verification alone can consume 2+ hours of staff time daily. A dedicated VA handles this systematically and accurately.
+
+<strong>Growing Practices Adding Locations:</strong> Opening a new location means staffing from scratch. An optometry VA can handle the administrative workload from day one while you recruit and train local staff.
+
+<strong>Practices with Recall Backlogs:</strong> If your recall list has 500+ overdue patients and your front desk never gets to it, a VA focused on outreach can recover 20-30% of those patients within 90 days.`
+      },
+      comparison: {
+        title: 'Optometry VA vs In-House Staff vs Hello Rache',
+        content: `<strong>vs In-House Administrative Staff:</strong> An in-house hire costs $35,000-$45,000/year plus benefits, payroll taxes, PTO, and training time. Our optometry VA costs roughly 50% of that with no recruiting overhead, no PTO coverage gaps, and no risk if the hire doesn't work out. You get the same dedicated relationship without the employment liability.
+
+<strong>vs Hello Rache:</strong> Hello Rache provides general healthcare virtual assistants. My Business Care Team provides optometry-specific VAs who are supervised by managers with eye care operations experience. Our VAs are trained on optometry EHR systems (Eyefinity, Crystal PM, Compulink) before they start — not after. See our <a href="/compare/vs-hello-rache/">detailed comparison</a>.
+
+<strong>vs General Answering Services:</strong> Answering services handle phone calls. They don't verify insurance, run recall campaigns, manage referrals, or work inside your EHR. If you only need call handling, see our <a href="/solutions/medical-answering-service/">medical answering service</a>. If you need a true administrative partner, you need a VA.`
+      },
+      faqs: [
+        {
+          question: 'Which optometry EHR systems do you support?',
+          answer: 'We support all major optometry EHR/PMS systems including Eyefinity, Crystal PM, Compulink, RevolutionEHR, My Vision Express, MaximEyes, MEDITAB IPA, EyeMD EMR, and 40+ others. Your VA is trained on your specific system before they start.'
+        },
+        {
+          question: 'Can one VA support multiple locations?',
+          answer: 'Yes. For groups with 3+ locations, a single VA can handle insurance verification and recall across multiple offices, or you can assign a dedicated VA per location. We design the workflow based on your volume and needs.'
+        },
+        {
+          question: 'How do you handle vision plan verification specifically?',
+          answer: 'Your VA checks VSP, EyeMed, Davis Vision, Spectera, and medical insurance eligibility 24-48 hours before each appointment. They verify coverage details, copays, frame/lens allowances, and prior authorization requirements — entered directly into your EHR.'
+        },
+        {
+          question: 'What results should I expect from patient recall?',
+          answer: 'Practices using our recall service typically see 20-30% of overdue patients reactivated within 90 days. We use multi-channel outreach (phone, text, email) with proven scripts and systematic follow-up timing.'
+        },
+        {
+          question: 'How long does onboarding take?',
+          answer: 'Typically 2-3 weeks. Week 1: your VA learns your EHR system and workflows. Week 2: supervised work on real tasks. Week 3: independent operation with ongoing quality monitoring. You start seeing value by the end of week 2.'
+        },
+        {
+          question: 'Is this HIPAA compliant?',
+          answer: 'Yes. All VAs sign BAAs, work on secured connections, undergo HIPAA training, and are supervised by managers trained in healthcare compliance. We carry our own cyber liability insurance.'
+        }
+      ]
+    }
   }
 ];
 

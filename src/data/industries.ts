@@ -37,8 +37,8 @@ export const industries: Industry[] = [
     name: 'Optometry & Ophthalmology',
     shortName: 'Optometry',
     icon: 'eye',
-    headline: 'Best Virtual Assistant for Optometrist Practices | BCAT',
-    description: 'Dedicated patient intake solutions for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences.',
+    headline: 'Optometry Answering Service & Patient Intake | BCAT',
+    description: 'Dedicated answering service and patient intake for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences. Need a dedicated VA instead? See our <a href="/solutions/optometry-virtual-assistant/">optometry virtual assistant service</a>.',
     tldr: 'My Business Care Team provides optometry-specific phone answering and scheduling services. We understand VSP vs EyeMed insurance, route medical vs routine visits correctly, and book directly into Eyefinity, RevolutionEHR, and other eye care systems. Practices typically recover $127K+ in annual revenue from missed calls.',
     metaDescription: 'Trained virtual assistants for optometry practices. We handle scheduling, insurance verification & patient calls. Get a free consultation.',
     patientAcquisition: {
