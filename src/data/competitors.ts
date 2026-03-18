@@ -560,6 +560,240 @@ export const competitors: Competitor[] = [
         answer: 'Absolutely. We use AI for after-hours handling, overflow during peak times, and routine information requests. The difference is we have humans ready to step in when AI isn\'t enough - and patients can always request a human.'
       }
     ]
+  },
+  {
+    slug: 'vs-my-mountain-mover',
+    name: 'My Mountain Mover',
+    tagline: 'Managed Healthcare Operations vs General VA Placement',
+    headline: 'MyBCAT vs My Mountain Mover: Managed Service or VA Staffing?',
+    description: 'Compare My Business Care Team\'s fully managed patient acquisition platform with My Mountain Mover\'s virtual assistant placement service. Understand differences in specialization, management, and healthcare workflow expertise.',
+    metaDescription: 'MyBCAT vs My Mountain Mover comparison for healthcare practices. Managed service with EHR integration vs VA placement. See which fits your practice.',
+    pricing: '$8-12/hour',
+    model: 'VA staffing agency',
+    website: 'mymountainmover.com',
+    features: [
+      {
+        category: 'Service Model',
+        items: [
+          { name: 'Management style', mybcat: 'Fully managed with QA', competitor: 'You manage the VA' },
+          { name: 'Pricing model', mybcat: 'Outcome-based', competitor: 'Hourly ($8-12/hr)' },
+          { name: 'Healthcare specialization', mybcat: 'Optometry/dental/vet focused', competitor: 'General healthcare VA' },
+          { name: 'Coverage for sick/vacation', mybcat: 'Automatic backup', competitor: 'You arrange replacement' },
+        ]
+      },
+      {
+        category: 'Technology & Integration',
+        items: [
+          { name: 'Direct EHR access', mybcat: true, competitor: 'Varies by VA' },
+          { name: 'Call analytics dashboard', mybcat: true, competitor: false },
+          { name: 'AI overflow backup', mybcat: true, competitor: false },
+          { name: 'Quality monitoring', mybcat: 'Supervisor-managed', competitor: 'Self-managed' },
+        ]
+      },
+      {
+        category: 'Operations',
+        items: [
+          { name: 'Onboarding time', mybcat: '2-3 weeks', competitor: '2-4 weeks' },
+          { name: 'Insurance verification', mybcat: 'Trained workflow', competitor: 'VA-dependent' },
+          { name: 'Patient recall campaigns', mybcat: 'Built-in capability', competitor: 'Must train VA' },
+          { name: 'Multi-location support', mybcat: 'Designed for groups', competitor: 'One VA per location' },
+        ]
+      }
+    ],
+    advantages: [
+      'Fully managed — no supervision overhead on your end',
+      'Optometry-specific training (VSP, EyeMed, Eyefinity, Crystal PM)',
+      'Automatic backup coverage when your VA is unavailable',
+      'Built-in call analytics and quality monitoring',
+      'Designed for multi-location healthcare groups (3+ locations)'
+    ],
+    competitorStrengths: [
+      'Lower hourly rate for budget-conscious solo practices',
+      'Broader VA placement beyond healthcare (admin, marketing, etc.)',
+      'Direct relationship with your specific VA',
+      'Flexible hours without minimum commitments'
+    ],
+    bestFor: [
+      'Solo practices needing a general admin VA at lowest cost',
+      'Practices comfortable managing and training their own VA',
+      'Non-healthcare businesses needing virtual assistants'
+    ],
+    differentiators: [
+      { competitor: 'You find, train, and manage your VA', mybcat: 'We recruit, train, supervise, and replace if needed' },
+      { competitor: 'General healthcare VA skills', mybcat: 'Optometry/dental/vet workflow specialists' },
+      { competitor: 'If your VA calls in sick, you scramble', mybcat: 'Automatic backup — zero coverage gaps' },
+      { competitor: 'No performance analytics', mybcat: 'Real-time dashboard with call metrics and QA scores' }
+    ],
+    faqs: [
+      {
+        question: 'How is MyBCAT different from My Mountain Mover?',
+        answer: 'My Mountain Mover places virtual assistants you manage yourself. MyBCAT provides a fully managed service — we recruit, train, supervise, and provide backup coverage. You get the results without the management overhead.'
+      },
+      {
+        question: 'Is My Mountain Mover cheaper?',
+        answer: 'Hourly rate is lower ($8-12/hr vs our managed pricing). But factor in your time managing the VA, training costs, coverage gaps during sick days, and no quality monitoring — the total cost of ownership is often comparable.'
+      },
+      {
+        question: 'Can My Mountain Mover VAs work in my EHR?',
+        answer: 'It depends on the individual VA\'s experience. MyBCAT VAs are pre-trained on optometry EHR systems (Eyefinity, Crystal PM, Compulink) before they start — not after.'
+      }
+    ]
+  },
+  {
+    slug: 'vs-ringiq',
+    name: 'RingIQ',
+    tagline: 'Human-Powered Service vs AI-First Phone System',
+    headline: 'MyBCAT vs RingIQ: Human Answering Service or AI Phone Agent?',
+    description: 'Compare My Business Care Team\'s human-powered healthcare answering service with RingIQ\'s AI-powered phone system for eye care practices. Understand when AI works and when you need trained humans.',
+    metaDescription: 'MyBCAT vs RingIQ for optometry practices. Human answering service vs AI phone agent. See conversion rates, patient satisfaction, and pricing comparison.',
+    pricing: 'Custom AI pricing',
+    model: 'AI phone answering system',
+    website: 'ringiq.ai',
+    features: [
+      {
+        category: 'Service Model',
+        items: [
+          { name: 'Answering approach', mybcat: 'Trained human coordinators', competitor: 'AI voice agent' },
+          { name: 'Scheduling capability', mybcat: 'Books directly into EHR', competitor: 'AI books into EHR' },
+          { name: 'Complex call handling', mybcat: 'Humans handle nuance', competitor: 'Transfers to staff' },
+          { name: 'After-hours coverage', mybcat: 'Human + AI hybrid', competitor: 'AI only' },
+        ]
+      },
+      {
+        category: 'Patient Experience',
+        items: [
+          { name: 'Patient satisfaction', mybcat: 'High — human empathy', competitor: 'Varies — some patients prefer humans' },
+          { name: 'Insurance questions', mybcat: 'Handled live', competitor: 'Limited AI capability' },
+          { name: 'Appointment changes', mybcat: 'Resolved in one call', competitor: 'May require callback' },
+          { name: 'Complaint handling', mybcat: 'Empathetic resolution', competitor: 'Escalated to staff' },
+        ]
+      },
+      {
+        category: 'Technology',
+        items: [
+          { name: 'Eye care EHR integration', mybcat: true, competitor: true },
+          { name: 'Call analytics', mybcat: true, competitor: true },
+          { name: 'AI capabilities', mybcat: 'AI as backup', competitor: 'AI as primary' },
+          { name: 'Scalability', mybcat: 'Team-based', competitor: 'Unlimited AI capacity' },
+        ]
+      }
+    ],
+    advantages: [
+      'Human empathy for anxious or elderly patients who prefer real people',
+      'Complex insurance questions resolved live — no callbacks needed',
+      'Complaint handling with emotional intelligence, not scripts',
+      'Proven 95%+ answer rate with trained healthcare coordinators',
+      'Hybrid model: AI handles routine, humans handle everything else'
+    ],
+    competitorStrengths: [
+      'Lower per-call cost for high-volume simple calls',
+      'Unlimited simultaneous call capacity — never a busy signal',
+      'Consistent responses with no human variability',
+      'Faster deployment — no human training period'
+    ],
+    bestFor: [
+      'Practices with very high call volume and mostly simple scheduling calls',
+      'Tech-forward practices with younger patient demographics',
+      'Practices that want lowest possible per-call cost above all else'
+    ],
+    differentiators: [
+      { competitor: 'AI struggles with complex insurance questions', mybcat: 'Human coordinators handle VSP, EyeMed, and medical billing live' },
+      { competitor: 'Some patients hang up on AI voices', mybcat: 'Every caller speaks to a trained person' },
+      { competitor: 'AI transfers complex calls back to your staff', mybcat: 'We resolve 90%+ of calls without involving your team' },
+      { competitor: 'Fast to deploy but limited adaptability', mybcat: 'Adapts to your practice preferences over time' }
+    ],
+    faqs: [
+      {
+        question: 'Is AI answering cheaper than MyBCAT?',
+        answer: 'Per call, often yes. But measure by conversion rate and patient satisfaction, not call cost. If AI converts 50% of calls and we convert 80%, the revenue per dollar spent favors human answering for most optometry practices.'
+      },
+      {
+        question: 'Does MyBCAT use AI at all?',
+        answer: 'Yes — we use AI for after-hours handling, routine information requests, and overflow during peak times. But unlike RingIQ, humans are always available to step in when the situation requires empathy, judgment, or complex problem-solving.'
+      },
+      {
+        question: 'Will patients know they\'re talking to AI with RingIQ?',
+        answer: 'Modern AI voice agents are increasingly natural, but many patients — especially older demographics common in optometry — still prefer and can detect human interactions. Patient preference should guide your choice.'
+      }
+    ]
+  },
+  {
+    slug: 'vs-answermti',
+    name: 'AnswerMTI',
+    tagline: 'Optometry-Focused Operations vs Traditional Answering Service',
+    headline: 'MyBCAT vs AnswerMTI: Which Optometry Answering Service?',
+    description: 'Compare My Business Care Team\'s optometry-focused managed service with AnswerMTI\'s traditional medical answering service. See differences in specialization, EHR integration, and operational depth.',
+    metaDescription: 'MyBCAT vs AnswerMTI answering service comparison for optometry. EHR integration, insurance verification, and patient recall capabilities compared.',
+    pricing: 'Per-minute pricing',
+    model: 'Traditional medical answering service',
+    website: 'answermti.com',
+    features: [
+      {
+        category: 'Service Model',
+        items: [
+          { name: 'Specialization', mybcat: 'Optometry/eye care focused', competitor: 'General medical' },
+          { name: 'Pricing model', mybcat: 'Outcome-based', competitor: 'Per-minute billing' },
+          { name: 'Service scope', mybcat: 'Answering + admin + recall', competitor: 'Phone answering only' },
+          { name: 'EHR scheduling', mybcat: 'Direct booking in EHR', competitor: 'Message relay to staff' },
+        ]
+      },
+      {
+        category: 'Capabilities',
+        items: [
+          { name: 'Insurance verification', mybcat: true, competitor: false },
+          { name: 'Patient recall campaigns', mybcat: true, competitor: false },
+          { name: 'Referral coordination', mybcat: true, competitor: false },
+          { name: 'After-hours answering', mybcat: true, competitor: true },
+        ]
+      },
+      {
+        category: 'Technology',
+        items: [
+          { name: 'Eyefinity/Crystal PM', mybcat: 'Direct integration', competitor: 'Not supported' },
+          { name: 'Call analytics', mybcat: 'Real-time dashboard', competitor: 'Basic reporting' },
+          { name: 'Quality monitoring', mybcat: 'Supervisor QA', competitor: 'Standard' },
+          { name: 'HIPAA compliance', mybcat: true, competitor: true },
+        ]
+      }
+    ],
+    advantages: [
+      'Goes beyond answering — insurance verification, recall, referrals',
+      'Direct EHR booking (not message relay that requires staff follow-up)',
+      'Optometry-specific training: VSP, EyeMed, vision vs medical routing',
+      'Outcome-based pricing aligned with your revenue, not call duration',
+      'Built for multi-location groups, not just single practices'
+    ],
+    competitorStrengths: [
+      'Established brand with decades of medical answering experience',
+      'Simple per-minute pricing that\'s easy to budget',
+      'Broad medical specialty coverage beyond eye care',
+      'Quick setup for basic phone answering needs'
+    ],
+    bestFor: [
+      'Practices that only need basic phone answering and message relay',
+      'Multi-specialty groups where eye care is one of many departments',
+      'Practices with existing admin staff who just need overflow call coverage'
+    ],
+    differentiators: [
+      { competitor: 'Takes a message, your staff follows up', mybcat: 'Books the appointment directly in your EHR' },
+      { competitor: 'General medical training', mybcat: 'Trained on optometry insurance, terminology, and workflows' },
+      { competitor: 'Phone answering only', mybcat: 'Full admin support: insurance, recall, referrals, intake' },
+      { competitor: 'Per-minute billing adds up fast', mybcat: 'Outcome-based pricing tied to appointments booked' }
+    ],
+    faqs: [
+      {
+        question: 'How is MyBCAT different from a traditional answering service like AnswerMTI?',
+        answer: 'AnswerMTI takes messages and relays them to your staff. MyBCAT books appointments directly in your EHR, verifies insurance, runs recall campaigns, and manages referrals. We\'re an operations partner, not just a phone service.'
+      },
+      {
+        question: 'Is AnswerMTI cheaper?',
+        answer: 'Their per-minute pricing may seem lower, but it only covers phone answering. You still need staff for scheduling, insurance, and recall. MyBCAT replaces multiple roles, making the total cost comparable or lower.'
+      },
+      {
+        question: 'Can AnswerMTI book appointments in my EHR?',
+        answer: 'AnswerMTI typically relays messages to your staff who then book the appointment. MyBCAT books directly into Eyefinity, Crystal PM, Compulink, and other EHR systems — no staff follow-up required.'
+      }
+    ]
   }
 ];
 
