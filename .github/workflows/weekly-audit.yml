@@ -87,6 +87,35 @@ jobs:
             *.log
           retention-days: 30
 
+      - name: SEO Performance Snapshot (GSC)
+        continue-on-error: true
+        env:
+          GSC_TOKEN_PATH: ${{ secrets.GSC_TOKEN_PATH }}
+        run: |
+          echo "## SEO Performance Snapshot" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Count published posts, posts with modifiedDate, posts missing canonical
+          TOTAL=$(find src/content/blog -name "*.md" -o -name "*.mdx" | wc -l)
+          WITH_MOD=$(grep -rl "modifiedDate:" src/content/blog/ 2>/dev/null | wc -l)
+          MISSING_CANONICAL=$(find src/content/blog -name "*.md" -o -name "*.mdx" -exec grep -L "canonical:" {} \; 2>/dev/null | wc -l)
+          REDIRECT_POSTS=$(grep -rl "redirectTo:" src/content/blog/ 2>/dev/null | wc -l)
+
+          echo "| Metric | Count |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Total blog posts | $TOTAL |" >> $GITHUB_STEP_SUMMARY
+          echo "| Posts with modifiedDate | $WITH_MOD |" >> $GITHUB_STEP_SUMMARY
+          echo "| Posts missing canonical | $MISSING_CANONICAL |" >> $GITHUB_STEP_SUMMARY
+          echo "| Posts with redirectTo (should be draft) | $REDIRECT_POSTS |" >> $GITHUB_STEP_SUMMARY
+          echo "| Redirects in vercel.json | $(python3 -c 'import json; print(len(json.load(open("vercel.json")).get("redirects",[])))') |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Check for new cannibalization: multiple posts with same seoTitle keyword
+          echo "### Potential Cannibalization (duplicate seoTitle keywords)" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          grep -rh "seoTitle:" src/content/blog/ 2>/dev/null | sort | uniq -cd | head -10 >> $GITHUB_STEP_SUMMARY || echo "None found" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
       - name: Check for Critical Issues
         run: |
           # Count errors in logs

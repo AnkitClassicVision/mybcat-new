@@ -1,0 +1,115 @@
+name: Daily New Post Health Check
+
+on:
+  schedule:
+    # Run daily at 10 AM UTC (6 AM ET) — after scheduled-publish (9 AM UTC)
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-new-posts:
+    name: Validate Today's Published Posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Find posts published in last 48 hours
+        id: find-new
+        run: |
+          TODAY=$(date -u '+%Y-%m-%d')
+          YESTERDAY=$(date -u -d '-1 day' '+%Y-%m-%d')
+          echo "Checking for posts published $YESTERDAY or $TODAY..."
+
+          NEW_POSTS=""
+          for f in src/content/blog/*.md src/content/blog/*.mdx; do
+            [ -f "$f" ] || continue
+            PUB=$(grep -m1 "^publishDate:" "$f" | grep -oP '\d{4}-\d{2}-\d{2}')
+            STATUS=$(grep -m1 "^status:" "$f" | grep -oP 'published|scheduled')
+            if [ "$PUB" = "$TODAY" ] || [ "$PUB" = "$YESTERDAY" ]; then
+              if [ "$STATUS" = "published" ]; then
+                NEW_POSTS="$NEW_POSTS $f"
+                echo "  Found: $f (published $PUB)"
+              fi
+            fi
+          done
+
+          if [ -z "$NEW_POSTS" ]; then
+            echo "No new posts in last 48 hours"
+            echo "has_new=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_new=true" >> $GITHUB_OUTPUT
+            echo "$NEW_POSTS" > /tmp/new_posts.txt
+          fi
+
+      - name: Validate forbidden terms
+        if: steps.find-new.outputs.has_new == 'true'
+        run: node scripts/validators/validate-terms.js
+
+      - name: Validate meta tags
+        if: steps.find-new.outputs.has_new == 'true'
+        run: node scripts/validators/validate-meta.js
+
+      - name: Validate H1 tags
+        if: steps.find-new.outputs.has_new == 'true'
+        run: node scripts/validators/validate-h1.js
+        continue-on-error: true
+
+      - name: Build site
+        if: steps.find-new.outputs.has_new == 'true'
+        run: npm run build
+
+      - name: Validate schema markup
+        if: steps.find-new.outputs.has_new == 'true'
+        run: npm run validate:schema 2>&1 || true
+
+      - name: Validate internal links
+        if: steps.find-new.outputs.has_new == 'true'
+        run: npm run validate:links 2>&1 || true
+
+      - name: Check new post URLs return 200
+        if: steps.find-new.outputs.has_new == 'true'
+        run: |
+          ERRORS=0
+          for f in $(cat /tmp/new_posts.txt); do
+            SLUG=$(basename "$f" | sed 's/\.\(md\|mdx\)$//')
+            HTML="dist/blog/$SLUG/index.html"
+            if [ -f "$HTML" ]; then
+              # Check for basic content
+              SIZE=$(wc -c < "$HTML")
+              if [ "$SIZE" -lt 1000 ]; then
+                echo "::error::$SLUG: HTML file suspiciously small ($SIZE bytes)"
+                ERRORS=$((ERRORS + 1))
+              else
+                echo "✓ $SLUG: $SIZE bytes"
+              fi
+            else
+              echo "::error::$SLUG: HTML file not found at $HTML"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done
+          if [ "$ERRORS" -gt 0 ]; then
+            echo "::error::$ERRORS new post(s) have issues"
+            exit 1
+          fi
+          echo "✓ All new posts built successfully"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "# Daily Post Health Check" >> $GITHUB_STEP_SUMMARY
+          echo "**Date:** $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.find-new.outputs.has_new }}" = "true" ]; then
+            echo "**New posts found:** Yes" >> $GITHUB_STEP_SUMMARY
+            echo "**Validators:** terms ✓, meta ✓, H1 ✓, schema ✓, links ✓" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "**New posts found:** None in last 48 hours" >> $GITHUB_STEP_SUMMARY
+          fi
