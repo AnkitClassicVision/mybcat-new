@@ -427,6 +427,5 @@ Multi-location healthcare groups need standardized intake across every site. [Ta
 - [Medix Team: Healthcare IT M&A Support](https://www.medixteam.com/blog/healthcare-it-ma-mergers-acquisitions-support/)
 - [HPSO: Mergers and Acquisitions Clinical Integration](https://www.hpso.com/Resources/Managing-a-Business/Mergers-and-Acquisitions-Enhancing-Clinical-Integration,-Reducing-Risk)
 - [AHA: Keys to Successful Health System Integration](https://www.aha.org/aha-center-health-innovation-market-scan/2025-06-17-4-keys-successful-post-merger-health-system-integration)
-- [Becker's: Healthcare M&A Best Practices](https://www.beckershospitalreview.com/hospital-transactions-and-valuation/20-best-practices-for-healthcare-mergers-a-acquisitions/)
 - [Embark: Healthcare Post-Merger Integration](https://blog.embarkwithus.com/healthcare-post-merger-integration)
 - [Kaufman Rossin: Post-Deal Integration Planning](https://kaufmanrossin.com/news/considering-ma-do-you-have-a-post-deal-integration-plan/)

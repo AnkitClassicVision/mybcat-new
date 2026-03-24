@@ -225,7 +225,7 @@ The MGMA 2025 staffing survey found that 70% of medical practices reported turno
 1. [Harvard Business Review, "Cracking the Code of Change" — Beer & Nohria (2000)](https://hbr.org/2000/05/cracking-the-code-of-change)
 2. [MGMA, "Staff Turnover Trends in Medical Practices 2025-2026"](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026)
 3. [Precedence Research, "U.S. Dental Support Organizations Market" (2025)](https://www.precedenceresearch.com/us-dental-support-organizations-market)
-4. [Group Dentistry Now, "The Standardization Paradox in Patient Access"](https://www.groupdentistrynow.com/dso-group-blog/standardization-patient/)
+4. [ADA Health Policy Institute, "Dental Practice Research"](https://www.ada.org/resources/research/health-policy-institute/dental-practice-research)
 
 ---
 

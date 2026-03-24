@@ -441,5 +441,5 @@ For healthcare groups ready to implement enterprise-grade intake measurement, a 
 ## Sources
 
 - [Becker's Dental Review: DSO Market](https://www.beckersdental.com/)
-- [Group Dentistry Now: Industry Analysis](https://groupdentistrynow.com/)
+- [ADA Health Policy Institute: Dental Practice Research](https://www.ada.org/resources/research/health-policy-institute/dental-practice-research)
 - [PitchBook: Healthcare PE Data](https://pitchbook.com/)

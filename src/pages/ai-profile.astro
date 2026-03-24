@@ -125,7 +125,16 @@ import { company } from '@data/company';
         <dd><a href={`tel:${company.phone}`}>{company.phone}</a></dd>
 
         <dt>Email</dt>
-        <dd><a href={`mailto:${company.email}`}>{company.email}</a></dd>
+        <dd>
+          <a
+            id="ai-profile-email-link"
+            href="/contact/"
+            data-email-user="hello"
+            data-email-domain="mybcat.com"
+          >
+            hello<span aria-hidden="true"> [at] </span><span class="sr-only"> at </span>mybcat.com
+          </a>
+        </dd>
 
         <dt>Book a Call</dt>
         <dd><a href={company.hubspot.meetingLink}>Schedule a discovery call</a></dd>
@@ -262,3 +271,18 @@ import { company } from '@data/company';
     }
   }
 </style>
+
+<script>
+  const emailLink = document.getElementById('ai-profile-email-link');
+
+  if (emailLink instanceof HTMLAnchorElement) {
+    const user = emailLink.dataset.emailUser;
+    const domain = emailLink.dataset.emailDomain;
+
+    if (user && domain) {
+      const email = `${user}@${domain}`;
+      emailLink.href = `mailto:${email}`;
+      emailLink.textContent = email;
+    }
+  }
+</script>

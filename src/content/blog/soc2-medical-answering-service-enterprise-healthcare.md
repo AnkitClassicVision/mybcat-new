@@ -249,7 +249,7 @@ Your patients trust you with their health information. Your PE sponsors trust yo
 ## Sources
 
 1. [Heights Consulting Group: SOC 2 Requirements for Healthcare Security](https://heightscg.com/2026/02/10/soc-2-requirements-healthcare-security/)
-2. [HIPAA Journal: Healthcare Data Breach Statistics](https://www.hipaajournal.com/healthcare-data-breach-statistics/)
+2. [HHS OCR: Breach Reporting and the Breach Portal](https://www.hhs.gov/hipaa/for-professionals/breach-notification/breach-reporting/index.html)
 3. [Vanta: SOC 2 Compliance for Healthcare](https://www.vanta.com/resources/soc-2-compliance-for-healthcare)
 4. [Corporate Compliance Insights: California Healthcare Investor Restrictions](https://www.corporatecomplianceinsights.com/california-prescription-healthcare-investors-restrictions-reporting/)
 5. [CapMinds: How to Evaluate Health IT Vendors in 2025](https://www.capminds.com/how-to-evaluate-and-shortlist-health-it-vendors-in-2025/)

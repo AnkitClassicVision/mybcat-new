@@ -457,4 +457,4 @@ Dental groups that answer every call book more patients. [Talk to our team](/con
 
 - [DSO News: Technology Strategies for Multi-Location Dental](https://dsonews.com/technology-strategies-multi-location/)
 - [American Dental Association: Practice Management Resources](https://www.ada.org/resources/practice)
-- [Becker's Dental Review: DSO Growth and Operations](https://www.beckersdental.com/dso-dpms.html)
+- [Becker's Dental Review: DSO Growth and Operations](https://www.beckersdental.com/dso-dpms/)

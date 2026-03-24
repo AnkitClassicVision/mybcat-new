@@ -418,7 +418,7 @@ Multi-location healthcare groups need standardized intake across every site. [Ta
 
 ## Sources
 
-- [MA Healthcare Advisors: EBITDA Healthcare Valuation](https://mahealthcareadvisors.com/ebitda-healthcare-valuation/)
+- [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
 - [Nechay Appraisals: EBITDA Multiples in Medical Practice Valuation](https://nechayappraisals.com/how-to-use-ebitda-multiples-in-a-medical-practice-valuation/)
 - [Clearly Acquired: Average EBITDA Multiples for Healthcare Practices](https://www.clearlyacquired.com/blog/average-ebitda-multiples-for-healthcare-and-medical-practices)
 - [Focus Bankers: Medical Practice Valuation](https://focusbankers.com/what-is-the-value-of-my-medical-practice/)

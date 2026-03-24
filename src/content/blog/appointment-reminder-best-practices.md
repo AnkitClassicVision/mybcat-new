@@ -329,4 +329,4 @@ Every missed call costs your practice revenue. [Talk to our team](/contact/) abo
 - [Klara: How to Effectively Text Appointment Reminders](https://www.klara.com/blog/how-to-effectively-text-appointment-reminders-to-patients)
 - [Healthie: Benefits of Patient Appointment Reminder Software](https://www.gethealthie.com/blog/5-benefits-of-using-a-patient-appointment-reminder-software)
 - [MGMA: Texting for Appointment Reminder Success](https://www.mgma.com/articles/texting-for-appointment-reminder-and-patient-scheduling-success)
-- [HIPAA Journal: HIPAA Compliant Appointment Reminders](https://www.hipaajournal.com/hipaa-compliant-appointment-reminders/)
+- [HHS: Are Appointment Reminders Allowed Under HIPAA Without Authorization?](https://www.hhs.gov/hipaa/for-professionals/faq/286/are-appointment-reminders-allowed-under-hipaa-without-authorization/index.html)

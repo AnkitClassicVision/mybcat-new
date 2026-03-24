@@ -34,6 +34,7 @@ export interface FAQItem {
 export interface Solution {
   slug: string;
   name: string;
+  metaTitle?: string;
   tagline: string;
   headline: string;
   description: string;
@@ -1077,11 +1078,12 @@ My Business Care Team's medical virtual assistants are healthcare-trained profes
   {
     slug: 'optometry-virtual-assistant',
     name: 'Optometry Virtual Assistant',
+    metaTitle: 'Optometry Virtual Assistant for Eye Care Practices',
     tagline: 'Trained for Eye Care. Dedicated to Your Practice.',
     headline: 'Optometry Virtual Assistant Services for Eye Care Practices',
     description: 'Dedicated virtual assistants trained in optometry workflows — scheduling, insurance verification, patient recall, and EHR management. Integrated with Eyefinity, Crystal PM, Compulink, and RevolutionEHR.',
     tldr: 'My Business Care Team provides dedicated virtual assistants trained specifically for optometry and ophthalmology practices. Your VA handles scheduling, vision and medical insurance verification, patient recall, referral coordination, and administrative tasks — integrated directly with your EHR system at 50% less than in-house staff.',
-    metaDescription: 'Optometry virtual assistant services trained in eye care workflows. Eyefinity, Crystal PM & Compulink integration. Scheduling, insurance verification & recall at 50% less cost.',
+    metaDescription: 'Optometry virtual assistant services for eye care practices. Scheduling, insurance verification, patient recall, and EHR support.',
     serviceType: 'Optometry Virtual Assistant Service',
     problem: {
       question: 'Is your front desk drowning in admin while patients wait?',
