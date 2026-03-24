@@ -435,6 +435,7 @@ Dental groups that answer every call book more patients. [Talk to our team](/con
 
 ## Sources
 
+- [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
 - [SCALE Healthcare: DSO Performance Assessment](https://www.scale-healthcare.com/wp-content/uploads/2024/01/Scale-Performance-Assessment-DSO-121823.pdf)
 - [E78 Partners: Underutilized KPIs for DSOs](https://e78partners.com/blog/3-underutilized-kpis-dsos-should-use-to-enhance-strategic-decision-making-and-operational-efficiency/)
 - [SCALE Consulting: DSO Asset Diligence Case Study](https://www.scaleconsulting.com/wp-content/uploads/2024/09/SCALE-CaseStudy-Asset-Diligence-041624.pdf)

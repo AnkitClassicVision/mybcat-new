@@ -297,6 +297,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
+- [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
 - [Cardinal Digital Marketing: Patient Reactivation Automation](https://www.cardinaldigitalmarketing.com/services/patient-reactivation-automation/)
 - [Demandforce: Patient Reactivation Strategies 2025](https://www.demandforce.com/3-strategies-to-achieve-patient-reactivation-in-2025/)
 - [Loyalytics: Healthcare Loyalty Metrics](https://loyalytics.ai/blogs/healthcare-loyalty-metrics-measure-benchmark-improve-patient-loyalty)

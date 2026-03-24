@@ -361,6 +361,7 @@ The quality of patient contact information in your practice management system al
 
 ## Sources
 
+- [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
 - [Prospyr Med: Ultimate Guide to Patient Reactivation](https://www.prospyrmed.com/blog/post/ultimate-guide-to-patient-reactivation)
 - [Boyd Biomedical: Patient Engagement ROI Calculator](https://boydbiomedical.com/knowledge-center/tools/patient-engagement-roi-calculator)
 - [DemandHub: ROI Calculator for Patient Recall and Reactivation](https://www.demandhub.co/tools/roi-calculator-for-patient-recall-and-reactivation/)

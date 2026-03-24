@@ -318,6 +318,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
+- [CDC: Client Reminder and Recall Systems](https://www.cdc.gov/vaccines/hcp/admin/reminder-sys.html)
 - [Open Dental Blog: Recall Management](https://opendental.blog/recall-management-patient-and-practice-health/)
 - [Planet DDS: Dental Appointment Software Guide](https://www.planetdds.com/blog/dental-appointment-software-guide/)
 - [Checklist Guro: Dental Recall System Checklist](https://checklistguro.com/blog/dental-recall-system-checklist-patient-reminders-scheduling)

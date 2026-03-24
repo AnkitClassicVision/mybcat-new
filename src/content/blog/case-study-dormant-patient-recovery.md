@@ -238,6 +238,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
+- [CDC: Client Reminder and Recall Systems](https://www.cdc.gov/vaccines/hcp/admin/reminder-sys.html)
 - [Arini AI: Improve Patient Retention and Recall Rate](https://www.arini.ai/blog/improve-patient-retention-recall-rate-dental-clinics)
 - [Artisan Growth Strategies: Healthcare Patient Acquisition and Retention Costs](https://www.artisangrowthstrategies.com/blog/healthcare-patient-acquisition-retention-costs-statistics-trends)
 - [RevenueWell: Perfect Dental Recall Campaign](https://www.revenuewell.com/article/perfect-dental-recall-campaign)

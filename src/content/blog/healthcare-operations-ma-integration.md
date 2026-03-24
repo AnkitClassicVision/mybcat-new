@@ -423,6 +423,7 @@ Multi-location healthcare groups need standardized intake across every site. [Ta
 
 ## Sources
 
+- [Harvard Business Review: Cracking the Code of Change](https://hbr.org/2000/05/cracking-the-code-of-change)
 - [Hall Render: Integration Playbook for Healthcare M&A](https://hallrender.com/2025/06/02/integration-playbook-for-health-care-mergers-and-acquisitions-a-guide-for-hospitals-and-medium-to-large-provider-practices/)
 - [Medix Team: Healthcare IT M&A Support](https://www.medixteam.com/blog/healthcare-it-ma-mergers-acquisitions-support/)
 - [HPSO: Mergers and Acquisitions Clinical Integration](https://www.hpso.com/Resources/Managing-a-Business/Mergers-and-Acquisitions-Enhancing-Clinical-Integration,-Reducing-Risk)

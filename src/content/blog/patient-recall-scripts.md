@@ -293,6 +293,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
+- [CDC: Client Reminder and Recall Systems](https://www.cdc.gov/vaccines/hcp/admin/reminder-sys.html)
 - [Practice by Numbers: Dental Recall Scripts](https://practicenumbers.com/blog/dental-recall-scripts-for-appointment-success/)
 - [Adit: Best Scripts for Patient Recall](https://adit.com/best-scripts-for-patient-recall)
 - [Meddkit: Texting for Recalls and Preventive Health](https://meddkit.com/texting-for-recalls-and-preventative-health/)

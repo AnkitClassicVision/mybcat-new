@@ -254,6 +254,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
+- [MGMA: Texting for Appointment Reminder and Patient Scheduling Success](https://www.mgma.com/articles/texting-for-appointment-reminder-and-patient-scheduling-success)
 - [Demandforce: Proven Patient Recall Strategies](https://www.demandforce.com/proven-patient-recall-strategies-that-actually-work/)
 - [Dialog Health: Healthcare Texting Statistics](https://www.dialoghealth.com/post/healthcare-texting-statistics)
 - [NexHealth: Dental Recall Software Systems](https://www.nexhealth.com/resources/dental-recall-software-systems)

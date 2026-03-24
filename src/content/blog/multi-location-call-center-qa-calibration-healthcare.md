@@ -233,6 +233,7 @@ The investment required to achieve Stage 3 calibration maturity typically includ
 
 ## Sources
 
+1. [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
 1. [Balto: Call Center Quality Assurance Best Practices](https://www.balto.ai/blog/call-center-quality-assurance-best-practices/)
 2. [VCC Live: Healthcare Call Center Metrics](https://vcc.live/blog/healthcare-call-center-metrics/)
 3. [Insignia Resource: Call Center Turnover Rates](https://www.insigniaresource.com/research/call-center-turnover-rates/)

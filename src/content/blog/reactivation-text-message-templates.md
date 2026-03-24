@@ -415,6 +415,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
+- [HHS: Are Appointment Reminders Allowed Under HIPAA Without Authorization?](https://www.hhs.gov/hipaa/for-professionals/faq/286/are-appointment-reminders-allowed-under-hipaa-without-authorization/index.html)
 - [Dialog Health: Healthcare Texting Statistics](https://www.dialoghealth.com/post/healthcare-texting-statistics)
 - [FalkonSMS: Healthcare Texting Statistics](https://www.falkonsms.com/post/healthcare-texting-statistics)
 - [Emitrr: HIPAA Compliant Text Message Templates](https://emitrr.com/blog/hipaa-compliant-text-message-templates/)

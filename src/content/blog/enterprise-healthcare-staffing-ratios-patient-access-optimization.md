@@ -199,6 +199,7 @@ Groups managing this well see answer rates above 95%, abandonment under 3%, and 
 
 ## Sources
 
+1. [MGMA: Staff Turnover in Medical Practices Into 2026](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026)
 1. [Patient Access Collaborative: Industry Insights 2025](https://www.patientaccesscollaborative.net/news/industry-insights-2025-the-new-imperative-for-patient-access-leadership)
 2. [Dialog Health: Healthcare Call Center Statistics](https://www.dialoghealth.com/post/healthcare-call-center-statistics)
 3. [StaffDNA: Healthcare Staffing Trends 2026](https://staffdna.com/healthcare-staffing-trends-that-will-shape-2026/)

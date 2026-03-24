@@ -572,6 +572,7 @@ Multi-location healthcare groups need standardized intake across every site. [Ta
 
 ## Sources
 
+- [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
 - [Call Criteria: Call Center ROI](https://capacity.com/qa-agent-tools/?company=callcriteria.com)
 - [Kimedics: Calculating ROI of Clinical Operations](https://www.kimedics.com/blog/calculating-the-roi-of-modern-clinical-operations)
 - [K38 Consulting: Healthcare Technology ROI](https://k38consulting.com/how-to-calculate-healthcare-technology-roi/)

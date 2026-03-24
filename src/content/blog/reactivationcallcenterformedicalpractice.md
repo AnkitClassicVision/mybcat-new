@@ -309,6 +309,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
+- [CDC: Client Reminder and Recall Systems](https://www.cdc.gov/vaccines/hcp/admin/reminder-sys.html)
 - [Dialog Health: Healthcare Call Center Statistics](https://www.dialoghealth.com/post/healthcare-call-center-statistics)
 - [HCIC Healthcare Contact Center Survey Report 2024](https://www.hcic.net/docs/hciclibraries/call-center-reports/healthcare-contact-center-survey-report-vfinal-5-30-24.pdf)
 

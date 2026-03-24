@@ -237,6 +237,7 @@ Multi-location healthcare groups that execute disciplined RFP processes position
 
 ## Sources
 
+1. [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
 1. [CapMinds: How to Evaluate and Shortlist Health IT Vendors in 2025](https://www.capminds.com/how-to-evaluate-and-shortlist-health-it-vendors-in-2025/)
 2. [Dialog Health: Healthcare Call Center Statistics](https://www.dialoghealth.com/post/healthcare-call-center-statistics)
 3. [HIPAA Vault: 2025 HIPAA New Regulations](https://www.hipaavault.com/resources/2025-hipaa-new-regulations/)

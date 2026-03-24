@@ -328,6 +328,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
+- [CDC: Client Reminder and Recall Systems](https://www.cdc.gov/vaccines/hcp/admin/reminder-sys.html)
 - [Prospyr Med: Ultimate Guide to Patient Reactivation](https://www.prospyrmed.com/blog/post/ultimate-guide-to-patient-reactivation)
 - [American Health Connection: Patient Reactivation](https://americanhealthconnection.com/patient-reactivation/)
 - [Practice Builders: Patient Reactivation Strategies](https://www.practicebuilders.com/blog/patient-reactivation-strategies-tips-and-best-practices/)

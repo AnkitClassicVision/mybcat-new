@@ -166,6 +166,7 @@ For [DSO patient retention strategy](/blog/dso-patient-retention-strategy/) spec
 
 ## Sources
 
+1. [CDC: Client Reminder and Recall Systems](https://www.cdc.gov/vaccines/hcp/admin/reminder-sys.html)
 1. [Brevium: The Role of Patient Reactivation in Revenue Cycle Management](https://brevium.com/the-role-of-patient-reactivation-in-revenue-cycle-management-rcm/)
 2. [Precedence Research: U.S. Patient Engagement Solutions Market](https://www.precedenceresearch.com/us-patient-engagement-solutions-market)
 

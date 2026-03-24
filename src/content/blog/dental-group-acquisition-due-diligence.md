@@ -357,6 +357,7 @@ Dental groups that answer every call book more patients. [Talk to our team](/con
 
 ## Sources
 
+- [ADA Health Policy Institute: Dental Practice Research](https://www.ada.org/resources/research/health-policy-institute/dental-practice-research)
 - [Dental Attorneys: Mergers and Acquisitions](https://dentalattorneys.com/2025/01/21/what-every-dental-business-owner-should-know-about-mergers-and-acquisitions/)
 - [Dental Transitions: Due Diligence Process](https://dentaltransitions.com/buy-dental-practice-due-diligence-process/)
 - [ADS Transitions: Due Diligence Checklist](https://www.adstransitions.com/resources/articles/dental-practice-transition-due-diligence-checklist/)
