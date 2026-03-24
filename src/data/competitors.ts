@@ -17,6 +17,7 @@ export interface FeatureCategory {
 export interface Competitor {
   slug: string;
   name: string;
+  metaTitle?: string;
   tagline: string;
   headline: string;
   description: string;
@@ -51,10 +52,11 @@ export const competitors: Competitor[] = [
   {
     slug: 'vs-hello-rache',
     name: 'Hello Rache',
-    tagline: 'Managed Service vs Hourly VA Staffing',
-    headline: 'MyBCAT vs Hello Rache: Which Is Right for Your Practice?',
-    description: 'Compare My Business Care Team\'s fully managed patient acquisition platform with Hello Rache\'s hourly virtual assistant staffing model. Understand the key differences in pricing, management, technology, and outcomes.',
-    metaDescription: 'Compare MyBCAT vs Hello Rache for your healthcare practice. See how our managed service differs from hourly VA staffing in pricing, technology, and results.',
+    metaTitle: 'Hello Rache Alternative for Optometry Practices | MyBCAT',
+    tagline: 'Optometry-focused managed service vs hourly healthcare VA staffing',
+    headline: 'Looking for a Hello Rache Alternative for Your Optometry Practice?',
+    description: 'Compare Hello Rache vs My Business Care Team for optometry practices. See how a fully managed team differs from hourly VA staffing on pricing model, management burden, EHR depth, and coverage.',
+    metaDescription: 'Compare Hello Rache vs MyBCAT for optometry practices. See pricing model differences, management overhead, EHR support, and why practices switch from hourly VAs.',
     pricing: '$9.50/hour',
     model: 'Hourly VA staffing',
     website: 'hellorache.com',
@@ -133,20 +135,20 @@ export const competitors: Competitor[] = [
 
     faqs: [
       {
-        question: 'Why is My Business Care Team more expensive than Hello Rache?',
-        answer: 'While Hello Rache charges $9.50/hour, you\'re responsible for management, training, and covering absences. When you factor in your time spent managing, plus the technology and team coverage My Business Care Team provides, most practices find the total cost similar - with better, more consistent results.'
+        question: 'How does Hello Rache pricing compare with My Business Care Team?',
+        answer: 'Hello Rache publishes an hourly rate, while My Business Care Team is positioned as a managed service. The key difference is that Hello Rache still requires owner oversight for training, QA, and coverage. My Business Care Team bundles management, reporting, and continuity into the service model.'
       },
       {
-        question: 'Can I switch from Hello Rache to My Business Care Team?',
-        answer: 'Yes, many practices have made this switch. We handle the entire transition, including EHR integration setup and training our team on your specific workflows. Most practices are fully transitioned within 2-3 weeks.'
+        question: 'Why do practices switch from Hello Rache to My Business Care Team?',
+        answer: 'The most common reason is management burden. Practices that no longer want to supervise one VA, cover absences, or manually monitor quality often prefer a managed team model with built-in coverage and reporting.'
       },
       {
         question: 'What if I like managing my own VA?',
         answer: 'Hello Rache might be a better fit for you. My Business Care Team is designed for practice owners who want to focus on patient care, not VA management. If you enjoy the hands-on control, an hourly VA model could work well.'
       },
       {
-        question: 'Does My Business Care Team offer the same services as Hello Rache?',
-        answer: 'My Business Care Team includes everything Hello Rache offers plus proactive services like recall campaigns, no-show recovery, and AI-powered coverage. We also provide real-time analytics and direct EHR integration that Hello Rache doesn\'t offer.'
+        question: 'Is My Business Care Team a better Hello Rache alternative for optometry practices?',
+        answer: 'For optometry practices that want a managed service instead of supervising hourly VAs, yes. My Business Care Team is built around optometry workflows, direct EHR scheduling, recall support, and coverage continuity. If your priority is the lowest hourly rate and direct control, Hello Rache may still fit better.'
       }
     ]
   },

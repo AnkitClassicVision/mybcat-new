@@ -26,7 +26,7 @@ interface Props {
 
 const { competitor } = Astro.props;
 
-const metaTitle = `MyBCAT vs ${competitor.name}: Healthcare Services Comparison`;
+const metaTitle = competitor.metaTitle ?? `MyBCAT vs ${competitor.name}: Healthcare Services Comparison`;
 
 // Generate schemas
 const pageUrl = `${company.site.url}/compare/${competitor.slug}/`;
