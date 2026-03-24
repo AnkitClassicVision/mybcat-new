@@ -3,9 +3,8 @@ title: >-
   How to Sell Your Optometry Practice in 2025-2026: The Complete Exit Strategy
   Guide
 description: >-
-  Current valuation multiples, PE acquirer landscape, tax implications, and a
-  1-3 year preparation timeline for optometry practice owners planning their
-  exit.
+  Buyer types, PE acquirer landscape, tax implications, due diligence, and a
+  1-3 year preparation timeline for optometry practice owners planning an exit.
 publishDate: 2026-01-20T00:00:00.000Z
 status: published
 author: Ankit Patel
@@ -18,26 +17,27 @@ tags:
   - exit-strategy
 featuredImage: /images/blog/selling-optometry-practice.webp
 canonical: 'https://mybcat.com/blog/guide-for-selling-your-optometry-practice/'
-seoTitle: How to Sell Your Optometry Practice (2025-2026 Guide)
+seoTitle: "Sell Your Optometry Practice: Exit Guide 2025-2026"
 seoDescription: >-
-  Complete guide to selling your optometry practice: current valuation multiples
-  (2-3.5x SDE), PE acquirers, tax implications, and preparation timeline.
+  Complete exit strategy guide for selling your optometry practice: buyer
+  types, PE landscape, due diligence, tax considerations, and preparation
+  timeline.
 cluster: private-practice
 relatedPosts:
   - the-optometric-practice-valuation-guide-for-buyers-and-sellers
   - pre-sale-operational-cleanup-intake-valuation
 ---
 
-Optometry practices typically sell for 2.0x-3.5x seller's discretionary earnings (SDE) or 0.43x-0.75x revenue--though exceptional practices with strong operations can reach 4x+ SDE. A $1 million revenue practice might sell for $430,000 or $750,000 depending on operations, buyer type, and preparation. The difference? Usually not the practice itself, but how transferable and predictable the business looks to buyers.
+Selling an optometry practice is not just a pricing exercise. Buyers look at risk, transferability, diligence readiness, and whether the business can operate without the owner. Two practices with similar revenue can receive very different offers depending on documentation, staff structure, growth trend, and post-close integration risk.
 
 **Quick takeaways for optometrists considering a sale:**
-Most practices sell for **2.0x-3.5x SDE** or **0.43x-0.75x revenue**; PE-ready practices can reach 6x-8x EBITDA. Start preparing **1-3 years** before you want to sell--earlier is better. Operations and documentation matter as much as revenue for valuation. Individual buyers, PE firms, and strategic acquirers each offer different tradeoffs. Structure (asset vs. stock sale) significantly impacts your after-tax proceeds.
+Start preparing **1-3 years** before you want to sell--earlier is better. Buyers evaluate more than headline multiples: they care about clean financials, staff depth, retention, lease terms, and operational documentation. Individual buyers, PE firms, and strategic acquirers each bring different priorities and tradeoffs. Deal structure (asset vs. stock sale) can change your after-tax outcome as much as the offer price itself.
 
-This guide covers everything you need to know about selling your optometry practice in 2025-2026: current valuation multiples, the private equity landscape, tax implications, and a realistic preparation timeline.
+This guide focuses on exit planning: buyer types, diligence, preparation timeline, deal structure, and how to make your practice easier to buy. If you want the detailed valuation math, start with our [optometric practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/).
 
 ## Table of Contents
 
-- [What Is Your Optometry Practice Actually Worth in 2025?](#what-is-your-optometry-practice-actually-worth-in-2025)
+- [How Do Buyers Frame Price Before a Deal?](#how-do-buyers-frame-price-before-a-deal)
 - [Who Are the 3 Types of Buyers?](#who-are-the-3-types-of-buyers)
 - [What Does the 2025 PE Acquirer Landscape Look Like?](#what-does-the-2025-pe-acquirer-landscape-look-like)
 - [What Is the 1-3 Year Preparation Timeline?](#what-is-the-1-3-year-preparation-timeline)
@@ -50,11 +50,11 @@ This guide covers everything you need to know about selling your optometry pract
 - [What Are Your Post-Sale Options?](#what-are-your-post-sale-options)
 - [Your Exit Strategy Checklist](#your-exit-strategy-checklist)
 
-## What Is Your Optometry Practice Actually Worth in 2025?
+## How Do Buyers Frame Price Before a Deal?
 
-The old rule of thumb--practices sell for 100% of gross revenue--is increasingly unreliable. While some PE-ready practices with exceptional EBITDA margins still command 1x revenue or higher, most transactions today are valued on earnings multiples. Profitability matters more than top-line numbers.
+Before you go to market, buyers want a price range that makes sense. But they are not using a single magic formula. They usually start with earnings quality, transferability, growth trend, and the amount of cleanup required after close. Price is a summary of risk as much as performance.
 
-### What Are the Three Valuation Methods?
+### What Pricing Benchmarks Do Buyers Use?
 
 **Seller's Discretionary Earnings (SDE) Multiple**
 Best for owner-operated practices under $1M revenue. SDE includes the owner's salary, benefits, and discretionary expenses added back to net income. Current multiples: **2.0x-3.5x SDE**.
@@ -83,7 +83,7 @@ Goodwill (patient relationships, reputation, brand). Equipment and furniture (at
 
 The "valuation" number and your "cash at closing" number can differ significantly once these items are sorted out.
 
-For a deeper examine valuation methods, see our [complete optometric practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/). You can also use our [EBITDA impact calculator](/blog/ebitda-impact-calculator/) to model how operational improvements affect your multiple.
+This section is the high-level pricing context for a sale, not the full valuation methodology. For a deeper breakdown of how to value an optometry practice, see our [complete optometric practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/). You can also use our [EBITDA impact calculator](/blog/ebitda-impact-calculator/) to model how operational improvements affect your multiple.
 
 ### What Moves You Up or Down the Multiple Range?
 
