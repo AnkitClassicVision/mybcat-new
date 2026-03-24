@@ -280,7 +280,7 @@ Choose consultants with optometry-specific experience. Generic business consulta
 
 The practices that achieve the strongest financial results share a common trait: they treat financial management as an ongoing discipline rather than a year-end exercise. Monthly financial reviews that compare actual performance against budgets catch problems early, when small course corrections can prevent large losses. Quarterly strategy sessions with your CPA identify tax planning opportunities that disappear if you wait until filing season. Annual benchmarking against industry data from the AOA and MGMA reveals whether your practice is gaining ground or falling behind relative to peers.
 
-Building financial systems takes time, but each system you put in place compounds the benefits of the others. Accurate revenue tracking enables better budgeting. Better budgeting enables smarter investment decisions. Smarter investments generate higher returns that fund further growth. This virtuous cycle explains why financially disciplined practices consistently outperform their peers in both profitability and practice value.
+Building financial systems takes time, but each system you put in place compounds the benefits of the others. Accurate revenue tracking enables better budgeting. Better budgeting enables smarter investment decisions. Smarter investments generate higher returns that fund further growth. This virtuous cycle explains why financially disciplined practices consistently outperform their peers in both profitability and practice value. It also strengthens your [optometry practice valuation](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/) if you eventually decide to sell.
 
 ## Key Takeaways
 

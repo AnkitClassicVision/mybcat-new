@@ -28,7 +28,7 @@ relatedPosts:
   - dormant-patient-reactivation
 ---
 
-The difference between a 15% and 30% recall booking rate often comes down to the words you use. Effective patient recall scripts increase response rates by 20-30% compared to generic "time for your appointment" messaging. This guide provides ready-to-use phone and SMS scripts for every recall scenario, with objection handling templates and adaptation guidance for multi-location healthcare groups.
+The difference between a 15% and 30% recall booking rate often comes down to the words you use. Effective patient recall scripts increase response rates by 20-30% compared to generic "time for your appointment" messaging. This guide provides ready-to-use phone and SMS scripts for every recall scenario, with objection handling templates and adaptation guidance for multi-location healthcare groups. For reminder cadence, channel mix, and confirmation workflows after an appointment is booked, see our [appointment reminder best practices](/blog/appointment-reminder-best-practices/) guide.
 
 ## Table of Contents
 
