@@ -56,7 +56,7 @@ export const competitors: Competitor[] = [
     tagline: 'Optometry-focused managed service vs hourly healthcare VA staffing',
     headline: 'Looking for a Hello Rache Alternative for Your Optometry Practice?',
     description: 'Compare Hello Rache vs My Business Care Team for optometry practices. See how a fully managed team differs from hourly VA staffing on pricing model, management burden, EHR depth, and coverage.',
-    metaDescription: 'Compare Hello Rache vs MyBCAT for optometry practices. See pricing model differences, management overhead, EHR support, and why practices switch from hourly VAs.',
+    metaDescription: 'Compare Hello Rache vs MyBCAT for optometry practices. See pricing, management overhead, EHR support, and why practices switch from hourly VAs.',
     pricing: '$9.50/hour',
     model: 'Hourly VA staffing',
     website: 'hellorache.com',
