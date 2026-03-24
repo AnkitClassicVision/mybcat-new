@@ -214,15 +214,15 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     slug: 'patient-intake',
     term: 'Patient Intake',
-    definition: 'The complete process of bringing a new or returning patient into the practice, including initial contact, scheduling, information gathering, and preparation for their visit.',
-    detailedExplanation: 'Patient intake encompasses everything from the first phone call to the patient walking through the door. This includes answering calls, booking appointments, collecting patient information, verifying insurance, sending confirmations, and ensuring all paperwork is ready. Effective intake sets the tone for the patient relationship and impacts conversion, satisfaction, and operational efficiency.',
+    definition: 'The patient intake process in healthcare covers the steps from first contact through scheduling, forms, insurance verification, and visit preparation.',
+    detailedExplanation: 'In healthcare, patient intake management includes the steps that happen before an appointment is fulfilled: answering inquiries, collecting demographics, confirming the visit reason, verifying insurance, sending forms or consent paperwork, documenting communication preferences, and preparing the schedule or chart for the clinical team.',
     category: 'operations',
     relatedTerms: ['patient-acquisition', 'appointment-conversion', 'insurance-verification'],
     relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing'],
     examples: [
-      'A new patient calls, is scheduled, and receives confirmation',
-      'Demographics and insurance collected before the visit',
-      'Forms and paperwork prepared in advance'
+      'A new patient calls, shares insurance details, completes intake forms, and receives an appointment confirmation',
+      'A returning patient updates demographics and consent forms before a follow-up visit',
+      'Staff verify benefits, collect referral information, and flag missing paperwork before the appointment day'
     ]
   },
   {
