@@ -322,6 +322,5 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 - [Open Dental Blog: Recall Management](https://opendental.blog/recall-management-patient-and-practice-health/)
 - [Planet DDS: Dental Appointment Software Guide](https://www.planetdds.com/blog/dental-appointment-software-guide/)
 - [Checklist Guro: Dental Recall System Checklist](https://checklistguro.com/blog/dental-recall-system-checklist-patient-reminders-scheduling)
-- [Teero: Dental Recall Best Practices](https://www.teero.com/blog/dental-recall)
 - [Practice by Numbers: Dental Recall Scripts](https://practicenumbers.com/blog/dental-recall-scripts-for-appointment-success/)
 - [CareCredit: Dental Recall Scheduling Best Practices](https://www.carecredit.com/providers/insights/dental-recall-appointment-scheduling-best-practices/)
