@@ -357,11 +357,11 @@ Dental groups that answer every call book more patients. [Talk to our team](/con
 
 ## Sources
 
+- [ADA Health Policy Institute: Dental Practice Research](https://www.ada.org/resources/research/health-policy-institute/dental-practice-research)
 - [Dental Attorneys: Mergers and Acquisitions](https://dentalattorneys.com/2025/01/21/what-every-dental-business-owner-should-know-about-mergers-and-acquisitions/)
 - [Dental Transitions: Due Diligence Process](https://dentaltransitions.com/buy-dental-practice-due-diligence-process/)
 - [ADS Transitions: Due Diligence Checklist](https://www.adstransitions.com/resources/articles/dental-practice-transition-due-diligence-checklist/)
 - [Minnesota Dental: Acquiring a Practice Workbook](https://www.mndental.org/files/Dental-Acquiring-a-Practice-Workbook.pdf)
-- [McGregor Firm: Due Diligence (Archived)](https://web.archive.org/web/20251109060939/http://www.mcgregorfirm.com/due_diligence.php)
 - [Dental CPA: Due Diligence Guide](https://dentalcpaca.com/blog/dental-practice-transitions-a-due-diligence-guide/)
 - [Patient Prism: DSO Acquisitions Due Diligence](https://blog.patientprism.com/dso-acquisitions-due-diligence)
 - [Oneupweb: Digital Due Diligence](https://www.oneupweb.com/blog/dental-practice-due-diligence-dont-overlook-digital/)

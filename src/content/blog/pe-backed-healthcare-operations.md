@@ -423,7 +423,7 @@ Multi-location healthcare groups need standardized intake across every site. [Ta
 
 ## Sources
 
-- [S&P Global: Healthcare Facilities KPI Guide](https://www.spglobal.com/market-intelligence/en/news-insights/resources/kpi-guides/health-care-facilities)
+- [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
 - [NetSuite: Healthcare KPIs and Metrics](https://www.netsuite.com/portal/resource/articles/erp/healthcare-kpis.shtml)
 - [Messina Group: Key Metrics for Healthcare Providers](https://messinagroupinc.com/key-metrics-for-healthcare-providers/)
 - [Cofi.ai: KPIs for Private Equity Portfolio Management](https://www.cofi.ai/resources/key-performance-indicators-kpis-critical-tools-for-private-equity-firm-portfolio-management)

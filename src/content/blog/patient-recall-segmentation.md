@@ -372,6 +372,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
+- [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
 - [Practice Numbers: Dental Recall Systems Strategies](https://practicenumbers.com/blog/dental-recall-systems-strategies/)
 - [Axle: Patient Retention Strategies in Dentistry](https://meetaxle.com/blog/patient-retention-strategies-in-dentistry/)
 - [Adit: Patient Retention Strategies Dental Recall](https://adit.com/patient-retention-strategies-dental-recall)

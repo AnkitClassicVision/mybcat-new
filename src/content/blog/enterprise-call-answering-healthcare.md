@@ -204,6 +204,7 @@ The investment pays for itself through recovered revenue, reduced staffing volat
 
 ## Sources
 
+1. [MGMA: Staff Turnover in Medical Practices Into 2026](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026)
 1. [Healthcare Contact Center Statistics 2024](https://www.dialoghealth.com/post/healthcare-call-center-statistics) - Dialog Health comprehensive benchmark data on ASA, abandonment rates, and staffing coverage
 2. [Healthcare CCaaS Market Report 2024-2025](https://www.towardshealthcare.com/insights/healthcare-contact-center-as-a-service-market-sizing) - Market sizing showing $5.86B in 2024, projected growth to $7.05B in 2025
 3. [Healthcare Call Center Benchmarks](https://www.cloudtalk.io/blog/healthcare-call-center-benchmarks/) - Industry benchmarks for service level, FCR, and handle time

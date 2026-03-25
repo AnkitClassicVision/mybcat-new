@@ -562,10 +562,8 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
-- [AIRA: Centralized Reminder-Recall Toolkit](https://web.archive.org/web/20240730065902/https://repository.immregistries.org/files/resources/5d43264137042/accords_centralized_reminder-recall_toolkit.pdf)
-- [Relatient: Patient Recalls and Automated Scheduling](https://www.relatient.com/patient-recalls-automated-scheduling/)
+- [CDC: Client Reminder and Recall Systems](https://www.cdc.gov/vaccines/hcp/admin/reminder-sys.html)
 - [Kermit PPI: Hospital Recall Management Process](https://blog.kermitppi.com/kermit-blog/how-to-improve-your-hospitals-recall-management-process)
-- [AJMC: Cost of Centralized vs Decentralized Recall](https://www.ajmc.com/view/cost-of-delivering-centralized-and-decentralized-reminderrecall-for-vaccinations-to-children-and-adolescents-in-an-aco)
 - [Medsphere: Automating Patient Recall Systems](https://www.medsphere.com/blog/automating-a-patient-recall-system/)
 - [PMC: Centralized Recall Implementation](https://pmc.ncbi.nlm.nih.gov/articles/PMC7477484/)
 - [Artera: Automated Patient Recall System](https://artera.io/blog/automated-patient-recall-system/)

@@ -227,6 +227,6 @@ The practices seeing the best results treat intake as a continuous improvement p
 
 ## Sources
 
-- [AVMA: Practice Management](https://www.avma.org/resources-tools/practice-management)
+- [Veterinary Practice News: Practice Management](https://www.veterinarypracticenews.com/category/practice-management/)
 - [Today's Veterinary Business: Operations](https://todaysveterinarybusiness.com/)
 - [Veterinary Practice News: Industry Trends](https://www.veterinarypracticenews.com/)

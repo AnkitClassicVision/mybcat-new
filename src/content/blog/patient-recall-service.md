@@ -272,8 +272,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 - [Jarvis Analytics: Hygiene Recalls for DSOs](https://www.jarvisanalytics.com/blog/hygiene-recalls/)
 - [DocResponse: Patient Recall Systems](https://docresponse.com/blog/patient-recall-system/)
-- [Relatient: Patient Recalls and Automated Scheduling](https://www.relatient.com/patient-recalls-automated-scheduling/)
+- [CDC: Client Reminder and Recall Systems](https://www.cdc.gov/vaccines/hcp/admin/reminder-sys.html)
 - [NexHealth: Scaling DSO with Technology](https://www.nexhealth.com/resources/scaling-dso-with-technology)
 - [Emitrr: Patient Recall Guide](https://emitrr.com/blog/patient-recall/)
-- [Group Dentistry Now: Text Reminders for DSOs](https://www.groupdentistrynow.com/dso-group-blog/how-text-reminders-encourage-recurring-patients-in-your-dso/)
 - [Vital Interaction: Hyper-Personalization in Patient Recall](https://www.vitalinteraction.com/the-importance-of-hyper-personalization-in-patient-recall-reactivation-and-retention-strategies/)

@@ -59,7 +59,7 @@ What SOC2 does not do is guarantee HIPAA compliance. The two frameworks overlap 
 HIPAA establishes legal requirements for PHI protection but leaves significant ambiguity about how to meet those requirements. SOC2 provides a structured framework for proving compliance with specific, auditable controls. For multi-location healthcare groups, both are necessary. Understanding where they overlap and diverge helps your compliance team evaluate vendors more effectively.
 
 <div style="overflow-x: auto; margin: 32px 0;">
-<table style="width: 100%; border-collapse: collapse; font-size: 15px;">
+<table aria-label="Comparison of SOC2 and HIPAA compliance domains for enterprise healthcare vendors" style="width: 100%; border-collapse: collapse; font-size: 15px;">
 <thead>
 <tr style="background: #0A1628; color: white;">
 <th style="padding: 16px; text-align: left; border: 1px solid #ddd;">Domain</th>
@@ -119,7 +119,7 @@ The vendor's willingness to answer these questions directly correlates with thei
 SOC2 includes five Trust Services Criteria, but not all carry equal weight for medical answering services. Understanding which criteria to prioritize helps your evaluation team focus due diligence on the controls that matter most for your risk profile.
 
 <div style="overflow-x: auto; margin: 32px 0;">
-<table style="width: 100%; border-collapse: collapse; font-size: 15px;">
+<table aria-label="Priority of SOC2 trust services criteria for enterprise healthcare answering services" style="width: 100%; border-collapse: collapse; font-size: 15px;">
 <thead>
 <tr style="background: #0A1628; color: white;">
 <th style="padding: 16px; text-align: left; border: 1px solid #ddd;">Criterion</th>
@@ -249,7 +249,7 @@ Your patients trust you with their health information. Your PE sponsors trust yo
 ## Sources
 
 1. [Heights Consulting Group: SOC 2 Requirements for Healthcare Security](https://heightscg.com/2026/02/10/soc-2-requirements-healthcare-security/)
-2. [HIPAA Journal: Healthcare Data Breach Statistics](https://www.hipaajournal.com/healthcare-data-breach-statistics/)
+2. [HHS OCR Breach Portal](https://ocrportal.hhs.gov/ocr/breach)
 3. [Vanta: SOC 2 Compliance for Healthcare](https://www.vanta.com/resources/soc-2-compliance-for-healthcare)
 4. [Corporate Compliance Insights: California Healthcare Investor Restrictions](https://www.corporatecomplianceinsights.com/california-prescription-healthcare-investors-restrictions-reporting/)
 5. [CapMinds: How to Evaluate Health IT Vendors in 2025](https://www.capminds.com/how-to-evaluate-and-shortlist-health-it-vendors-in-2025/)

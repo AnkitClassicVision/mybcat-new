@@ -192,7 +192,7 @@ The technology exists. The staffing models are proven. The ROI calculations are 
 
 1. [ADEA Innovation Article: Centralized Call Centers at Dental School Clinics](https://www.adea.org/detail-pages/news/adea-innovation-article-series--centralized-call-centers-at-dental-school-clinics-reduce-inefficiency-while-improving-patient-and-student-experience) - Research on centralized scheduling implementation at UCSF and U-M dental schools with documented ROI data.
 
-2. [Becker's Dental Review: Where Dental Practices Stand on Scheduling](https://www.beckersdental.com/dentists/where-dental-practices-stand-on-scheduling-patient-retention/) - Industry benchmarks on appointment scheduling, no-show rates, and top performer metrics.
+2. [MGMA: Texting for Appointment Reminder and Patient Scheduling Success](https://www.mgma.com/articles/texting-for-appointment-reminder-and-patient-scheduling-success) - Guidance on appointment reminders, patient scheduling, and communication workflows in healthcare practices.
 
 3. [Grand View Research: U.S. Dental Service Organization Market Report](https://www.grandviewresearch.com/industry-analysis/us-dental-service-organization-market-report) - Market size data and growth projections for the DSO sector.
 

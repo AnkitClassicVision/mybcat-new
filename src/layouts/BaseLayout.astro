@@ -52,6 +52,7 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
 
 // Check if this is the homepage for Organization schema
 const isHomepage = pathname === '/';
+const shouldPreloadLogo = navMode !== 'hidden';
 ---
 
 <!DOCTYPE html>
@@ -158,6 +159,9 @@ const isHomepage = pathname === '/';
   <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+  {shouldPreloadLogo && (
+    <link rel="preload" href="/images/logo-optimized.webp" as="image" type="image/webp">
+  )}
 
   <!-- DNS prefetch for third-party resources -->
   <link rel="dns-prefetch" href="https://js.hsforms.net">

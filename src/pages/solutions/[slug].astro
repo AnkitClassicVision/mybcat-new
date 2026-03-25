@@ -29,7 +29,7 @@ interface Props {
 
 const { solution } = Astro.props;
 
-const metaTitle = `${solution.name} for Healthcare Practices`;
+const metaTitle = solution.metaTitle || `${solution.name} for Healthcare Practices`;
 
 // Get relevant FAQs - prefer solution-specific FAQs if available
 const solutionFaqs = solution.extendedContent?.faqs || [];

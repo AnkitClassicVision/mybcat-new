@@ -53,27 +53,27 @@ import { company } from '@data/company';
       <ul class="services-list">
         <li>
           <strong>Medical Answering Service</strong> &mdash; Live healthcare coordinators answer patient calls 24/7, book appointments directly into EHR/PMS systems, collect patient information, and verify insurance.
-          <a href="/solutions/medical-answering-service/">Details</a>
+          <a href="/solutions/medical-answering-service/">View medical answering service details</a>
         </li>
         <li>
           <strong>Patient Recall</strong> &mdash; Outbound campaigns to bring overdue patients back for scheduled care. Uses phone, text, and email with direct scheduling into practice systems.
-          <a href="/solutions/patient-recall/">Details</a>
+          <a href="/solutions/patient-recall/">View patient recall details</a>
         </li>
         <li>
           <strong>No-Show Recovery</strong> &mdash; Same-day follow-up with patients who miss appointments. Coordinators call within hours to reschedule into the next available slot.
-          <a href="/solutions/no-show-recovery/">Details</a>
+          <a href="/solutions/no-show-recovery/">View no-show recovery details</a>
         </li>
         <li>
           <strong>Front Desk Outsourcing</strong> &mdash; Remote staff handle overflow calls, scheduling, and administrative tasks during business hours so in-office staff can focus on patients present in the office.
-          <a href="/solutions/front-desk-outsourcing/">Details</a>
+          <a href="/solutions/front-desk-outsourcing/">View front desk outsourcing details</a>
         </li>
         <li>
           <strong>Virtual Medical Scribe</strong> &mdash; Remote documentation support for clinical encounters, reducing provider charting time.
-          <a href="/solutions/virtual-medical-scribe/">Details</a>
+          <a href="/solutions/virtual-medical-scribe/">View virtual medical scribe details</a>
         </li>
         <li>
           <strong>Virtual Medical Assistant</strong> &mdash; Remote administrative support including insurance verification, referral coordination, and prior authorization processing.
-          <a href="/solutions/medical-virtual-assistant/">Details</a>
+          <a href="/solutions/medical-virtual-assistant/">View virtual medical assistant details</a>
         </li>
       </ul>
     </section>
@@ -125,7 +125,16 @@ import { company } from '@data/company';
         <dd><a href={`tel:${company.phone}`}>{company.phone}</a></dd>
 
         <dt>Email</dt>
-        <dd><a href={`mailto:${company.email}`}>{company.email}</a></dd>
+        <dd>
+          <a
+            id="ai-profile-email-link"
+            href="/contact/"
+            data-email-user="hello"
+            data-email-domain="mybcat.com"
+          >
+            hello<span aria-hidden="true"> [at] </span><span class="sr-only"> at </span>mybcat.com
+          </a>
+        </dd>
 
         <dt>Book a Call</dt>
         <dd><a href={company.hubspot.meetingLink}>Schedule a discovery call</a></dd>
@@ -262,3 +271,18 @@ import { company } from '@data/company';
     }
   }
 </style>
+
+<script>
+  const emailLink = document.getElementById('ai-profile-email-link');
+
+  if (emailLink instanceof HTMLAnchorElement) {
+    const user = emailLink.dataset.emailUser;
+    const domain = emailLink.dataset.emailDomain;
+
+    if (user && domain) {
+      const email = `${user}@${domain}`;
+      emailLink.href = `mailto:${email}`;
+      emailLink.textContent = email;
+    }
+  }
+</script>

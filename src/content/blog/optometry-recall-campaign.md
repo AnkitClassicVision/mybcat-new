@@ -234,6 +234,7 @@ Reactivating dormant patients is one of the highest-ROI investments a practice c
 
 ## Sources
 
+- [Review of Optometric Business: Practice Management](https://www.reviewob.com/category/practice-management/)
 - [DoctorConnect: Optometry Retention and Recall](https://doctorconnect.net/optometry-retention-boost-patient-loyalty-with-recall/)
 - [Optometry Business: Key Metrics of Established Practices](https://files.optometrybusiness.com/Key%20Metrics%20of%20Established%20Practices.pdf)
 - [BoomCloud: Optometry Key Metrics](https://boomcloudapps.com/optometry-key-metrics-that-will-save-your-practice-and-your-sanity/)

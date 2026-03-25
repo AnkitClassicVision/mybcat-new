@@ -228,7 +228,7 @@ For groups [building patient reactivation campaigns](/blog/dormant-patient-react
 
 1. PMC/PubMed Central. "Predictors of No-Show Appointments in Healthcare Settings." [https://pmc.ncbi.nlm.nih.gov/articles/PMC12611380/](https://pmc.ncbi.nlm.nih.gov/articles/PMC12611380/)
 
-2. Business Wire. "2025 Dental Industry Outlook: 60% of Practices Report Same-Store Growth." [https://www.businesswire.com/news/home/20250313922618/en/2025-Dental-Industry-Outlook](https://www.businesswire.com/news/home/20250313922618/en/2025-Dental-Industry-Outlook-60-of-Practices-Report-Same-Store-Growth-Defying-Economic-Uncertainty)
+2. ADA Health Policy Institute. "Dental Practice Research." [https://www.ada.org/resources/research/health-policy-institute/dental-practice-research](https://www.ada.org/resources/research/health-policy-institute/dental-practice-research)
 
 3. DentalPost. "2024 Dental Salary Survey: Front Office Turnover Trends." [https://www.dentalpost.net/blog/what-the-latest-salary-survey-tells-us-about-dental-team-turnover/](https://www.dentalpost.net/blog/what-the-latest-salary-survey-tells-us-about-dental-team-turnover/)
 
