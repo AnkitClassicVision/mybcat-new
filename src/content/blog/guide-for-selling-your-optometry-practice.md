@@ -12,7 +12,7 @@ category: Practice Management
 tags:
   - optometry
   - practice-sale
-  - valuation
+  - sale-prep
   - private-equity
   - exit-strategy
 featuredImage: /images/blog/selling-optometry-practice.webp
@@ -28,7 +28,7 @@ relatedPosts:
   - pre-sale-operational-cleanup-intake-valuation
 ---
 
-Selling an optometry practice is not just a pricing exercise. Buyers look at risk, transferability, diligence readiness, and whether the business can operate without the owner. Two practices with similar revenue can receive very different offers depending on documentation, staff structure, growth trend, and post-close integration risk.
+Selling an optometry practice is an exit-planning process, not just a valuation exercise. Buyers look at risk, transferability, diligence readiness, and whether the business can operate without the owner. Two practices with similar revenue can receive very different offers depending on documentation, staff structure, growth trend, and post-close integration risk.
 
 **Quick takeaways for optometrists considering a sale:**
 Start preparing **1-3 years** before you want to sell--earlier is better. Buyers evaluate more than headline multiples: they care about clean financials, staff depth, retention, lease terms, and operational documentation. Individual buyers, PE firms, and strategic acquirers each bring different priorities and tradeoffs. Deal structure (asset vs. stock sale) can change your after-tax outcome as much as the offer price itself.
@@ -37,12 +37,12 @@ This guide focuses on exit planning: buyer types, diligence, preparation timelin
 
 ## Table of Contents
 
-- [How Do Buyers Frame Price Before a Deal?](#how-do-buyers-frame-price-before-a-deal)
+- [How Do Buyers Set an Offer Range Before a Deal?](#how-do-buyers-set-an-offer-range-before-a-deal)
 - [Who Are the 3 Types of Buyers?](#who-are-the-3-types-of-buyers)
 - [What Does the 2025 PE Acquirer Landscape Look Like?](#what-does-the-2025-pe-acquirer-landscape-look-like)
 - [What Is the 1-3 Year Preparation Timeline?](#what-is-the-1-3-year-preparation-timeline)
 - [What Do Buyers Actually Look For in Due Diligence?](#what-do-buyers-actually-look-for-in-due-diligence)
-- [How Do Operations Affect Your Valuation Multiple?](#how-do-operations-affect-your-valuation-multiple)
+- [How Do Operations Affect Deal Readiness and Offer Quality?](#how-do-operations-affect-deal-readiness-and-offer-quality)
 - [Asset Sale vs Stock Sale: What Are the Tax Implications?](#asset-sale-vs-stock-sale-what-are-the-tax-implications)
 - [What Are the 5 Costly Mistakes That Kill Deals?](#what-are-the-5-costly-mistakes-that-kill-deals)
 - [How Do You Build Your Advisory Team?](#how-do-you-build-your-advisory-team)
@@ -50,49 +50,38 @@ This guide focuses on exit planning: buyer types, diligence, preparation timelin
 - [What Are Your Post-Sale Options?](#what-are-your-post-sale-options)
 - [Your Exit Strategy Checklist](#your-exit-strategy-checklist)
 
-## How Do Buyers Frame Price Before a Deal?
+## How Do Buyers Set an Offer Range Before a Deal?
 
-Before you go to market, buyers want a price range that makes sense. But they are not using a single magic formula. They usually start with earnings quality, transferability, growth trend, and the amount of cleanup required after close. Price is a summary of risk as much as performance.
+Before you go to market, buyers want a defensible offer range. But they are not using a single magic formula. They usually start with earnings quality, transferability, growth trend, and the amount of cleanup required after close. Early pricing is a summary of risk as much as performance.
 
 ### What Pricing Benchmarks Do Buyers Use?
 
-**Seller's Discretionary Earnings (SDE) Multiple**
-Best for owner-operated practices under $1M revenue. SDE includes the owner's salary, benefits, and discretionary expenses added back to net income. Current multiples: **2.0x-3.5x SDE**.
+Buyers usually translate performance into an offer range using a few familiar lenses. Owner-operated practices are often discussed in SDE terms. Larger or more manager-led practices are more likely to be discussed in EBITDA terms. Revenue benchmarks can still show up, but usually as a rough sanity check rather than the final answer.
 
-Example: $260,000 SDE × 2.5x multiple = $650,000 valuation
-
-**EBITDA Multiple**
-Better for larger practices or those with non-owner managers. EBITDA strips out owner compensation for a cleaner profitability picture. Current multiples: **3.5x-6.0x EBITDA** for standard practices, **6.0x-8.0x+** for PE-ready practices.
-
-Example: $200,000 EBITDA × 5x multiple = $1,000,000 valuation
-
-**Revenue Multiple**
-The quick-and-dirty method, less reliable but useful for benchmarking. Current multiples: **0.43x-0.75x gross revenue**.
-
-Example: $1,000,000 revenue × 0.6x = $600,000 valuation
+The key point for sellers is not memorizing every benchmark. It is understanding which lens a buyer will use and whether your practice looks transferable enough to support the upper end of that range. If you want the current ranges, formulas, and method-by-method valuation math, use our [complete optometric practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/).
 
 ### What Is Typically Included and Excluded?
 
-Valuation multiples usually apply to the *operating business*--not necessarily everything you own. Clarify these items early:
+The buyer's pricing lens usually applies to the *operating business*--not necessarily everything you own. Clarify these items early:
 
 **Often included in the sale:**
 Goodwill (patient relationships, reputation, brand). Equipment and furniture (at fair market value). Leasehold improvements. Operating systems and software licenses.
 
 **Often handled separately:**
-**Accounts receivable:** Usually retained by seller or purchased at a discount. **Frame and contact lens inventory:** Often purchased at cost, separate from the multiple. **Working capital:** May require minimum balance at closing. **Equipment leases:** Transfer or buyout negotiated separately. **Real estate:** If you own the building, that's typically a separate transaction or lease.
+**Accounts receivable:** Usually retained by seller or purchased at a discount. **Frame and contact lens inventory:** Often purchased at cost, separate from the headline offer. **Working capital:** May require minimum balance at closing. **Equipment leases:** Transfer or buyout negotiated separately. **Real estate:** If you own the building, that's typically a separate transaction or lease.
 
 The "valuation" number and your "cash at closing" number can differ significantly once these items are sorted out.
 
-This section is the high-level pricing context for a sale, not the full valuation methodology. For a deeper breakdown of how to value an optometry practice, see our [complete optometric practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/). You can also use our [EBITDA impact calculator](/blog/ebitda-impact-calculator/) to model how operational improvements affect your multiple.
+This section is intentionally high-level sale-pricing context, not the full valuation methodology. For a deeper breakdown of how to value an optometry practice, see our [complete optometric practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/). You can also use our [EBITDA impact calculator](/blog/ebitda-impact-calculator/) to model how operational improvements affect your multiple.
 
-### What Moves You Up or Down the Multiple Range?
+### What Raises or Reduces Offers?
 
-Higher multiples go to practices with:
+Stronger offers usually go to practices with:
 Multiple revenue streams (exams, glasses, contacts, medical). Strong patient retention and recall rates. Documented systems and SOPs. Staff that operates independently of the owner. Growing revenue trend (not declining). Modern equipment and technology. Prime location with favorable lease terms.
 
-Lower multiples hit practices with include revenue dependent on a single od, no documented processes, declining patient counts, outdated equipment, lease issues or poor location, staff turnover problems, and owner doing everything.
+Lower offers are more common when revenue depends on a single od, processes are undocumented, patient counts are declining, equipment is outdated, lease terms are weak, staff turnover is high, or the owner still does everything.
 
-The uncomfortable truth: buyers don't just buy revenue. They buy a business that works. The more your practice depends on you personally, the less it's worth to someone else.
+The uncomfortable truth: buyers do not just buy revenue. They buy a business that works. The more your practice depends on you personally, the more cautious their offers become.
 
 ## Who Are the 3 Types of Buyers?
 
@@ -102,7 +91,7 @@ Understanding who might buy your practice helps you prepare for what they'll wan
 
 **Who they are:** Often a younger optometrist looking to own rather than associate. May be relocating to your area or expanding from a first practice.
 
-**What they pay:** Typically at or below market multiples (2x-3x SDE). They're buying a job as much as a business, so they scrutinize cash flow carefully.
+**What they pay:** Typically conservative offers anchored to SDE and debt-service reality. They're buying a job as much as a business, so they scrutinize cash flow carefully.
 
 **What they want:** Reasonable price, seller financing options, smooth transition, staff retention, patient continuity.
 
@@ -114,7 +103,7 @@ Understanding who might buy your practice helps you prepare for what they'll wan
 
 **Who they are:** Investment firms building platforms of optometry practices through DSOs (Dental/Doctor Service Organizations) or MSOs (Management Service Organizations). These structures allow PE firms to invest in healthcare practices while complying with state corporate practice laws. Currently, dozens of PE firms are actively acquiring in eye care.
 
-**What they pay:** Premium multiples for the right practices--sometimes **6x-8x EBITDA** or 100%+ of gross revenue for PE-ready practices.
+**What they pay:** Premium offers for the right practices--sometimes **6x-8x EBITDA** or 100%+ of gross revenue for PE-ready practices.
 
 **What they want:** Scale potential, strong EBITDA margins, multiple revenue streams, experienced staff, systems that can replicate across locations.
 
@@ -162,7 +151,7 @@ PE firms aren't just buying practices--they're buying EBITDA that they can scale
 
 PE acquisitions have cooled from 2021 peaks. Higher interest rates and economic uncertainty mean PE firms are more selective. They're still buying, but deals take longer and scrutiny is higher.
 
-If you're targeting a PE exit, start preparing 2-3 years out. The practices commanding premium multiples in 2025 built their operational foundations in 2022-2023.
+If you're targeting a PE exit, start preparing 2-3 years out. The practices commanding premium offers in 2025 built their operational foundations in 2022-2023.
 
 For a real-world example, see how one [15-location DSO recovered $1.2M in annual revenue](/blog/dso-case-study-15-location-missed-calls/) by fixing their intake operations before expansion. Our [DSO integration playbook](/blog/dso-integration-playbook/) also covers how PE-backed groups standardize operations across locations.
 
@@ -208,9 +197,9 @@ If you're not already tracking these metrics, our guide to [building a KPI dashb
 
 The practice with organized documentation closes faster and often at a better price. Chaos in due diligence makes buyers nervous--and nervous buyers either walk or reduce their offer.
 
-## How Do Operations Affect Your Valuation Multiple?
+## How Do Operations Affect Deal Readiness and Offer Quality?
 
-Here's what most sellers miss: **the difference between a 2.5x and a 4x multiple often isn't revenue or profit--it's operations.**
+Here's what most sellers miss: **the difference between a mediocre offer and a strong offer often isn't revenue or profit alone--it's operations.**
 
 Buyers are acquiring a business, not a job. They need to believe the practice will perform after you leave. That means:
 
@@ -218,7 +207,7 @@ Buyers are acquiring a business, not a job. They need to believe the practice wi
 
 How calls are handled signals operational maturity. Buyers ask include what's your call answer rate?, how are appointments scheduled?, who handles patient inquiries?, and what happens after hours?.
 
-A practice where calls go to voicemail and the owner personally handles complaints is worth less than one with professional intake operations, documented scripts, and trained staff.
+A practice where calls go to voicemail and the owner personally handles complaints gets weaker offers than one with professional intake operations, documented scripts, and trained staff.
 
 This is exactly why practices that [optimize intake operations before a sale](https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/) often see significant valuation improvements. It's not just about revenue--it's about demonstrating that the business runs without the owner.
 
@@ -281,15 +270,15 @@ Work with a CPA who understands practice sales. The structure decision should ha
 
 Based on what brokers, CPAs, and attorneys see repeatedly:
 
-### 1. Valuing Based on Revenue, Not Operations
+### 1. Confusing Revenue With Sellability
 
-"My practice does $1.2M so it's worth $1M."
+"My practice does $1.2M so I should get a top offer."
 
 No. A $1.2M practice with 35% margins, documented systems, and growing patient count might sell for $900K+. The same revenue with 15% margins, owner-dependent operations, and declining patients might struggle to sell at all.
 
-### 2. Suppressing Earnings Unintentionally
+### 2. Suppressing Earnings Before Market
 
-Every expense that's not essential to operations suppresses your EBITDA--and your valuation. Common culprits include overstaffing "just in case", not renegotiating vendor contracts, high cogs without shopping suppliers, and personal expenses run through the business.
+Every expense that's not essential to operations suppresses earnings and weakens the buyer case. Common culprits include overstaffing "just in case", not renegotiating vendor contracts, high cogs without shopping suppliers, and personal expenses run through the business.
 
 Review expenses with a "buyer's eye" 2 years before selling.
 
@@ -412,7 +401,7 @@ Selling your optometry practice is likely the largest financial transaction of y
 
 Start earlier than you think you need to. Document more than you think matters. And remember: buyers aren't just buying your revenue. They're buying a business that works without you.
 
-The practices that sell for premium multiples in 2025-2026 are the ones that look transferable, predictable, and professionally operated. If your practice depends entirely on you--for patient relationships, for daily decisions, for answering the phones--that's the first thing to fix.
+The practices that command premium offers in 2025-2026 are the ones that look transferable, predictable, and professionally operated. If your practice depends entirely on you--for patient relationships, for daily decisions, for answering the phones--that's the first thing to fix.
 
 Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
 
