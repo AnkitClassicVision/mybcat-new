@@ -19,6 +19,10 @@ My Business Care Team (MyBCAT) provides managed patient access and front desk op
 - Contact: https://mybcat.com/contact/
 - Trust & compliance: https://mybcat.com/hipaa-compliance/
 
+## Feeds
+- RSS: https://mybcat.com/rss.xml
+- XML sitemap: https://mybcat.com/sitemap-index.xml
+
 ## Machine-readable catalog
 - OpenAPI: https://mybcat.com/.well-known/openapi.json
 - Solutions JSON: https://mybcat.com/api/public/solutions.json

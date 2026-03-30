@@ -123,6 +123,9 @@ const shouldPreloadLogo = navMode !== 'hidden';
 
   <link rel="canonical" href={canonicalUrl}>
 
+  <!-- RSS feed autodiscovery for agents and feed readers -->
+  <link rel="alternate" type="application/rss+xml" title="MyBCAT Blog" href="/rss.xml">
+
   <!-- Hreflang - US English site with x-default fallback for international SEO -->
   <link rel="alternate" hreflang="en-US" href={canonicalUrl}>
   <link rel="alternate" hreflang="x-default" href={canonicalUrl}>

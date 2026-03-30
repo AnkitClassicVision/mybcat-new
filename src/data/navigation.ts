@@ -168,7 +168,7 @@ export const footerNavigation = {
 
 // CTA button configuration
 export const ctaButton = {
-  label: 'Get Started',
+  label: 'Book a Discovery Call',
   href: '/contact/',
-  mobileLabel: 'Contact Us'
+  mobileLabel: 'Book a Call'
 };

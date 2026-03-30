@@ -1,0 +1,7 @@
+# Security contact for mybcat.com
+# Per RFC 9116 — https://www.rfc-editor.org/rfc/rfc9116
+
+Contact: mailto:security@mybcat.com
+Expires: 2027-03-30T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://mybcat.com/.well-known/security.txt

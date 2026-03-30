@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "name": "MyBCAT",
+  "description": "My Business Care Team — managed patient access and front desk operations for healthcare practices.",
+  "url": "https://mybcat.com",
+  "documentation_url": "https://mybcat.com/llms.txt",
+  "contact": {
+    "email": "hello@mybcat.com",
+    "url": "https://mybcat.com/contact/"
+  },
+  "capabilities": {
+    "browsable": true,
+    "api_available": true,
+    "feeds_available": true
+  },
+  "endpoints": {
+    "openapi": "https://mybcat.com/.well-known/openapi.json",
+    "rss": "https://mybcat.com/rss.xml",
+    "sitemap": "https://mybcat.com/sitemap-index.xml",
+    "llms_txt": "https://mybcat.com/llms.txt",
+    "llms_full_txt": "https://mybcat.com/llms-full.txt"
+  },
+  "api_catalog": [
+    {
+      "name": "Solutions",
+      "url": "https://mybcat.com/api/public/solutions.json",
+      "method": "GET",
+      "description": "List all healthcare operations solutions with features, benefits, and pricing."
+    },
+    {
+      "name": "Industries",
+      "url": "https://mybcat.com/api/public/industries.json",
+      "method": "GET",
+      "description": "List all supported healthcare industries."
+    },
+    {
+      "name": "Comparisons",
+      "url": "https://mybcat.com/api/public/comparisons.json",
+      "method": "GET",
+      "description": "Competitive comparisons against alternatives."
+    },
+    {
+      "name": "Case Studies",
+      "url": "https://mybcat.com/api/public/case-studies.json",
+      "method": "GET",
+      "description": "Customer success stories with metrics."
+    },
+    {
+      "name": "Glossary",
+      "url": "https://mybcat.com/api/public/glossary.json",
+      "method": "GET",
+      "description": "Healthcare terminology definitions."
+    }
+  ]
+}
