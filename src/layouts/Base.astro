@@ -72,6 +72,9 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
 
   <link rel="canonical" href={canonicalUrl}>
 
+  <!-- RSS feed autodiscovery for agents and feed readers -->
+  <link rel="alternate" type="application/rss+xml" title="MyBCAT Blog" href="/rss.xml">
+
   <!-- Open Graph -->
   <meta property="og:type" content={ogType}>
   <meta property="og:url" content={canonicalUrl}>

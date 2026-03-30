@@ -1,0 +1,12 @@
+{
+  "publisher": {
+    "name": "My Business Care Team",
+    "contact_url": "https://mybcat.com/contact/"
+  },
+  "apiDescriptions": [
+    {
+      "apiDescriptionUrl": "https://mybcat.com/.well-known/openapi.json",
+      "apiDescriptionVersion": "v1"
+    }
+  ]
+}
