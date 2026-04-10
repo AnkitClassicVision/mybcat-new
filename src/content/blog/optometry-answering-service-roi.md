@@ -6,7 +6,7 @@ description: Multi-location optometry groups achieve measurable ROI from answeri
 seoDescription: Calculate optometry answering service ROI across 3+ locations. Enterprise
   metrics, staffing cost analysis, and multi-site performance benchmarks.
 publishDate: '2026-04-21'
-status: scheduled
+status: draft
 scheduledDate: '2026-04-21'
 author: Ankit Patel
 category: Operations

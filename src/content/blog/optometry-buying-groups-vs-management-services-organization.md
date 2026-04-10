@@ -6,7 +6,7 @@ description: Compare optometry buying groups vs management services organization
 seoDescription: Compare optometry buying groups vs MSOs for multi-location practices.
   Learn which model delivers operational scale and ROI for 3+ location groups.
 publishDate: '2026-04-17'
-status: scheduled
+status: draft
 scheduledDate: '2026-04-17'
 author: Ankit Patel
 category: Business

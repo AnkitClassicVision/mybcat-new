@@ -6,7 +6,7 @@ description: 'Multi-location optometry groups face a critical choice: front desk
 seoDescription: 'Multi-location optometry groups: Compare front desk outsourcing vs
   virtual assistants for cost, scale, and ROI across your network.'
 publishDate: '2026-04-20'
-status: scheduled
+status: draft
 scheduledDate: '2026-04-20'
 author: Ankit Patel
 category: Operations

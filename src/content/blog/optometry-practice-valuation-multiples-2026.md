@@ -6,7 +6,7 @@ description: 2026 optometry practice valuation multiples range 2.5x-5.1x EBITDA 
 seoDescription: 2026 optometry practice valuation multiples range 2.5x-5.1x EBITDA.
   Learn what drives premium valuations for multi-location eyecare groups.
 publishDate: '2026-04-16'
-status: scheduled
+status: draft
 scheduledDate: '2026-04-16'
 author: Ankit Patel
 category: Business

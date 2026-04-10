@@ -7,7 +7,7 @@ description: Learn how multi-location optometry groups deploy virtual assistants
 seoDescription: Multi-location optometry groups use virtual assistants to cut missed
   calls 60% and scale patient access. Enterprise deployment guide inside.
 publishDate: '2026-04-15'
-status: scheduled
+status: draft
 scheduledDate: '2026-04-15'
 author: Ankit Patel
 category: Operations
