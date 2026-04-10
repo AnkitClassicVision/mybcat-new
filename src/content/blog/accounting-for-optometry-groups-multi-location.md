@@ -6,7 +6,7 @@ description: Learn how multi-location optometry groups centralize accounting ope
 seoDescription: 'Multi-location optometry accounting guide: centralize finances, reduce
   revenue leakage, and standardize reporting across 3+ locations.'
 publishDate: '2026-04-14'
-status: draft
+status: scheduled
 scheduledDate: '2026-04-14'
 author: Ankit Patel
 category: Business
