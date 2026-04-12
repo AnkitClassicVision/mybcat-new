@@ -457,7 +457,7 @@ If you want help standardizing triage across locations (including after-hours ro
       <h3 class="cta-title">Standardize Triage Across Locations</h3>
       <p class="cta-description">Get help building protocols, training, and routing that reduce clinician burnout and protect outcomes.</p>
     </div>
-    <a href="/contact/" class="cta-button-inline">Book a Discovery Call</a>
+    <a href="/contact/" class="cta-button-inline">Get Started</a>
   </div>
 </aside>
 

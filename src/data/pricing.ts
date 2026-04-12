@@ -33,7 +33,7 @@ export const pricingTiers: PricingTier[] = [
       'Dashboard & metrics reporting',
       'Medical answering services'
     ],
-    ctaText: 'Book a Discovery Call',
+    ctaText: 'Get Started',
     ctaHref: '/contact/',
     popular: false
   },
@@ -51,7 +51,7 @@ export const pricingTiers: PricingTier[] = [
       'Appointment confirmations',
       'Front desk outsourcing'
     ],
-    ctaText: 'Book a Discovery Call',
+    ctaText: 'Get Started',
     ctaHref: '/contact/',
     popular: true
   },
@@ -69,7 +69,7 @@ export const pricingTiers: PricingTier[] = [
       '30-day pilot available',
       'Custom integrations'
     ],
-    ctaText: 'Book a Discovery Call',
+    ctaText: 'Get Started',
     ctaHref: '/contact/',
     popular: false
   }

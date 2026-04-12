@@ -6,7 +6,9 @@
   "documentation_url": "https://mybcat.com/llms.txt",
   "contact": {
     "email": "hello@mybcat.com",
-    "url": "https://mybcat.com/contact/"
+    "url": "https://mybcat.com/contact/",
+    "cta": "Book a Discovery Call",
+    "meeting_url": "https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call"
   },
   "capabilities": {
     "browsable": true,
