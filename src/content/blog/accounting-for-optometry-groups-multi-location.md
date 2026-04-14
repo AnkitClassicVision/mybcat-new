@@ -1,25 +1,23 @@
 ---
 title: How Multi-Location Optometry Groups Centralize Accounting
 seoTitle: Accounting for Multi-Location Optometry Groups
-description: >-
-  Learn how multi-location optometry groups centralize accounting operations to
-  reduce revenue leakage, standardize reporting, and improve EBITDA margins
-  across
-seoDescription: >-
-  Multi-location optometry accounting guide: centralize finances, reduce revenue
-  leakage, and standardize reporting across 3+ locations.
+description: Learn how multi-location optometry groups centralize accounting operations
+  to reduce revenue leakage, standardize reporting, and improve EBITDA margins across
+seoDescription: 'Multi-location optometry accounting guide: centralize finances, reduce
+  revenue leakage, and standardize reporting across 3+ locations.'
 publishDate: '2026-04-14T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Business
 tags:
-  - accounting for optometry groups multi-location
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- accounting for optometry groups multi-location
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: enterprise-operations
 featuredImage: /images/blog/accounting-for-optometry-groups-multi-location.webp
-canonical: 'https://mybcat.com/blog/accounting-for-optometry-groups-multi-location/'
+canonical: https://mybcat.com/blog/accounting-for-optometry-groups-multi-location/
+relatedPosts: []
 ---
 
 Multi-location optometry groups lose an estimated 8-12% of potential revenue through fragmented accounting systems, inconsistent billing practices, and disconnected financial reporting across sites. For a 10-location group generating $15 million annually, that translates to $1.2 million or more in preventable revenue leakage. This guide explains how centralized accounting operations solve these problems, the specific financial metrics that matter at scale, and the implementation framework used by high-performing optometry networks.
