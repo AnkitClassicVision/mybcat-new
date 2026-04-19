@@ -1,10 +1,10 @@
 ---
-title: Optometry Credentialing Checklist for Insurance Panels at
+title: Optometry Credentialing Checklist for Insurance Panels
 seoTitle: Optometry Credentialing Checklist for Insurance Panels
 description: >-
   Complete credentialing checklist for multi-location optometry groups.
   Standardize insurance panel enrollment across 3+ locations to protect revenue
-  and
+  and accelerate provider onboarding.
 seoDescription: >-
   Credentialing checklist for multi-location optometry groups. Standardize
   insurance panel enrollment across locations to protect revenue.
