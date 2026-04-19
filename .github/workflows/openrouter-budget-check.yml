@@ -58,13 +58,31 @@ jobs:
           echo "Threshold: \$${THRESHOLD}"
           echo "Current month: ${CURRENT_MONTH}"
 
-          # Fetch usage from OpenRouter
-          RESP=$(curl -sS --max-time 15 \
+          # Fetch usage from OpenRouter. Capture body + HTTP code separately so
+          # a non-200 doesn't silently degrade to "$0 spend".
+          HTTP_CODE=$(curl -sS --max-time 15 \
             -H "Authorization: Bearer ${OPENROUTER_API_KEY}" \
-            "https://openrouter.ai/api/v1/key")
+            "https://openrouter.ai/api/v1/key" \
+            -o /tmp/or_key.json \
+            -w '%{http_code}')
+          echo "OpenRouter HTTP: ${HTTP_CODE}"
+          RESP_LEN=$(wc -c < /tmp/or_key.json | tr -d ' ')
+          echo "Response length: ${RESP_LEN} bytes"
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "::error::OpenRouter API returned HTTP ${HTTP_CODE}. First 500 bytes of response:"
+            head -c 500 /tmp/or_key.json
+            echo
+            exit 1
+          fi
+          if ! jq -e '.data' /tmp/or_key.json >/dev/null 2>&1; then
+            echo "::error::Response missing .data field. First 500 bytes:"
+            head -c 500 /tmp/or_key.json
+            echo
+            exit 1
+          fi
 
-          USAGE_MONTHLY=$(echo "$RESP" | jq -r '.data.usage_monthly // 0')
-          BYOK_MONTHLY=$(echo "$RESP" | jq -r '.data.byok_usage_monthly // 0')
+          USAGE_MONTHLY=$(jq -r '.data.usage_monthly // 0' /tmp/or_key.json)
+          BYOK_MONTHLY=$(jq -r '.data.byok_usage_monthly // 0' /tmp/or_key.json)
           TOTAL=$(echo "${USAGE_MONTHLY} ${BYOK_MONTHLY}" | awk '{printf "%.4f", $1+$2}')
 
           echo "Monthly spend: \$${TOTAL} (direct=\$${USAGE_MONTHLY}, byok=\$${BYOK_MONTHLY})"
