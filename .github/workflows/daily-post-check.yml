@@ -24,7 +24,11 @@ jobs:
 
       - name: Find posts published in last 48 hours
         id: find-new
+        shell: bash
         run: |
+          # Use +e so a frontmatter field missing in one file doesn't abort the
+          # whole scan (the default bash -e would exit 1 on grep no-match).
+          set +e
           TODAY=$(date -u '+%Y-%m-%d')
           YESTERDAY=$(date -u -d '-1 day' '+%Y-%m-%d')
           echo "Checking for posts published $YESTERDAY or $TODAY..."
@@ -32,8 +36,8 @@ jobs:
           NEW_POSTS=""
           for f in src/content/blog/*.md src/content/blog/*.mdx; do
             [ -f "$f" ] || continue
-            PUB=$(grep -m1 "^publishDate:" "$f" | grep -oP '\d{4}-\d{2}-\d{2}')
-            STATUS=$(grep -m1 "^status:" "$f" | grep -oP 'published|scheduled')
+            PUB=$(grep -m1 "^publishDate:" "$f" 2>/dev/null | grep -oP '\d{4}-\d{2}-\d{2}')
+            STATUS=$(grep -m1 "^status:" "$f" 2>/dev/null | grep -oP 'published|scheduled')
             if [ "$PUB" = "$TODAY" ] || [ "$PUB" = "$YESTERDAY" ]; then
               if [ "$STATUS" = "published" ]; then
                 NEW_POSTS="$NEW_POSTS $f"
@@ -113,3 +117,50 @@ jobs:
           else
             echo "**New posts found:** None in last 48 hours" >> $GITHUB_STEP_SUMMARY
           fi
+
+      # Notify on silent-failure: no new posts in 48 hours.
+      # Skipped silently if TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID secrets are
+      # not configured — workflow still exits 1 below so CI stays red.
+      # Per PIPELINE_DRIFT_FIX_SPEC.md Step 7. Ambiguity #1: platform may
+      # change — see spec for details.
+      - name: Notify Telegram on no-new-posts
+        if: steps.find-new.outputs.has_new == 'false' && env.TELEGRAM_BOT_TOKEN != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        continue-on-error: true
+        run: |
+          TODAY=$(date -u '+%Y-%m-%d')
+          MESSAGE=$(cat <<EOF
+          🚨 *MyBCAT Blog Pipeline — No New Posts*
+
+          Date: $TODAY
+          Window: last 48 hours
+          Repo: ${{ github.repository }}
+
+          *Troubleshoot:*
+          • [This run]($RUN_URL)
+          • [Blog Writer Full Buffer runs](${{ github.server_url }}/AnkitClassicVision/ongoing_seo/actions/workflows/blog_writer_full_buffer.yml)
+          • [Publish Scheduled Posts runs](${{ github.server_url }}/${{ github.repository }}/actions/workflows/scheduled-publish.yml)
+          • [blog_backlog.json](${{ github.server_url }}/AnkitClassicVision/ongoing_seo/blob/main/content/blog_backlog.json)
+          EOF
+          )
+          curl -sS --max-time 15 -X POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d parse_mode="Markdown" \
+            --data-urlencode text="$MESSAGE" \
+            -o /tmp/tg_response.json \
+            -w "http_status=%{http_code}\n" || echo "telegram send failed (continuing)"
+          echo "--- Telegram response ---"
+          cat /tmp/tg_response.json || true
+          echo
+
+      # Fail the workflow when no new posts — preserves existing alarm behavior
+      # regardless of notification delivery. Notification is best-effort.
+      - name: Exit with failure on no-new-posts
+        if: steps.find-new.outputs.has_new == 'false'
+        run: |
+          echo "::error::No new posts in last 48 hours — pipeline may be stalled"
+          exit 1
