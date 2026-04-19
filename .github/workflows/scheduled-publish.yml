@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  issues: write   # Needed for auto-remediation notification issue (#10 regression)
 
 jobs:
   publish:
@@ -36,6 +37,10 @@ jobs:
         run: node scripts/remediate-quality.js
         continue-on-error: true
         env:
+          # Preferred: OpenRouter (lets us swap models via OPENROUTER_MODEL).
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+          # Fallback: Anthropic direct (only used if OPENROUTER_API_KEY unset).
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit remediation changes
