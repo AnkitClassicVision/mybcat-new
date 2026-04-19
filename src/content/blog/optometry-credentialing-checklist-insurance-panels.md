@@ -23,7 +23,7 @@ featuredImage: /images/blog/optometry-credentialing-checklist-insurance-panels.w
 canonical: 'https://mybcat.com/blog/optometry-credentialing-checklist-insurance-panels/'
 ---
 
-Multi-location optometry groups lose between $9,000 and $15,000 per month for every uncredentialed provider sitting idle. That translates to roughly $300 to $500 per day in unrealized revenue while your new OD waits for insurance panel approval. When you multiply those figures across five, ten, or twenty locations simultaneously onboarding providers, the revenue leak compounds into a significant EBITDA drag that PE sponsors notice immediately.
+Multi-location optometry groups lose between $9,000 and $15,000 per month for every uncredentialed provider sitting idle. That translates to roughly $300 to $500 per day in unrealized revenue while your new OD waits for insurance panel approval. When you multiply those figures across five, ten, or twenty locations simultaneously onboarding providers, the revenue leak compounds into a significant [EBITDA drag that PE sponsors notice immediately](/blog/multi-location-healthcare-ebitda/).
 
 The credentialing process for insurance panels typically takes 60 to 120 days, with some payers extending timelines to six months or longer. For multi-location optometry groups managing acquisitions, new hires, and provider transitions across multiple states, this timeline represents more than administrative friction. It becomes a strategic liability that delays revenue realization and strains operational capacity.
 
@@ -50,7 +50,7 @@ The compounding effect becomes apparent during growth phases. If you acquire two
 
 According to a 2024 MGMA survey, credentialing delays cost new providers up to 25% of their first-year earnings potential. For a multi-location group expecting $500,000 in annual collections per OD, that represents $125,000 in delayed or lost revenue per provider. The financial impact justifies significant investment in credentialing infrastructure and process optimization.
 
-There is another critical consideration that catches many growing groups off guard. When an OD leaves a group practice, they must reapply for all health plan credentials individually if they join another organization or start their own practice. However, the reverse also applies: when you acquire a practice or hire a provider from another group, their existing panel status does not transfer to your tax ID. Every provider effectively starts the credentialing process fresh with your organization, regardless of their prior panel participation.
+There is another critical consideration that catches many growing groups off guard. When an OD leaves a group practice, they must reapply for all health plan credentials individually if they join another organization or start their own practice. However, the reverse also applies: when you acquire a practice or hire a provider from another group, their existing panel status does not transfer to your tax ID. Every provider effectively starts the credentialing process fresh with your organization, regardless of their prior panel participation. Smart [M&A integration playbooks for healthcare operations](/blog/healthcare-operations-ma-integration/) build the credentialing timeline into the deal model so projected revenue does not get booked ahead of panel approvals.
 
 ## What Documents and Requirements Must Every Provider Complete?
 
@@ -91,7 +91,7 @@ Vision-specific panels like VSP and EyeMed require separate credentialing from m
 
 Decentralized credentialing, where each location manages its own provider enrollment, creates inconsistent processes, duplicated effort, and inevitable gaps in documentation. Multi-location optometry groups achieve measurably better outcomes by centralizing credentialing functions under a dedicated team or designated administrator.
 
-CAQH ProView serves as the industry-standard platform for storing and managing provider credentials. Rather than submitting separate applications to each payer, providers complete a single comprehensive profile in CAQH that authorized payers can access. For multi-location groups, the Practice Manager Module allows your credentialing team to enter shared organizational data once and import it across multiple provider profiles.
+CAQH ProView serves as the industry-standard platform for storing and managing provider credentials. Rather than submitting separate applications to each payer, providers complete a single comprehensive profile in CAQH that authorized payers can access. For multi-location groups, the Practice Manager Module allows your credentialing team to enter shared organizational data once and import it across multiple provider profiles. This mirrors the centralization patterns documented in our [EHR/PMS integration playbook for centralized scheduling](/blog/ehr-pms-integration-centralized-scheduling-enterprise/), where shared data definitions replace per-location duplication.
 
 The centralized workflow begins 120 days before a provider's target start date. Your credentialing coordinator should initiate contact with the incoming provider to collect documentation and begin CAQH profile setup. Running license verifications, malpractice certificate requests, and primary source verifications in parallel rather than sequentially compresses the timeline significantly.
 
@@ -276,6 +276,12 @@ For multi-location optometry groups managing continuous provider onboarding, the
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Optometry network operations at scale](/blog/optometry-network-operations-scale/) — operating discipline that supports faster credentialing cycles.
+- [Healthcare group operations benchmarks](/blog/healthcare-group-operations-benchmarks/) — KPI targets for credentialing, staffing, and revenue cycle across multi-location groups.
+- [DSO change management for centralized patient access](/blog/dso-change-management-centralize-patient-access/) — how to roll out centralized workflows without disrupting location operations.
 
 ## Sources
 
