@@ -37,6 +37,12 @@ const CLAUDE_MODEL = 'claude-sonnet-4-5-20250929';
 const CLAUDE_MAX_TOKENS = 16000;
 const CLAUDE_TEMPERATURE = 0.3;
 
+// OpenRouter: unified proxy that lets us swap models without code changes.
+// Default to the same Claude Sonnet model via OpenRouter for continuity; override
+// with OPENROUTER_MODEL env var to test alternatives.
+const OPENROUTER_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
+const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || 'anthropic/claude-sonnet-4.5';
+
 // ── Helpers ──────────────────────────────────────────────────────────────
 
 function loadConfig() {
@@ -303,11 +309,45 @@ async function callClaude(prompt) {
     }
   }
 
-  // Strategy 2: Anthropic Messages API (GitHub Actions with secret)
+  // Strategy 2: OpenRouter (preferred when OPENROUTER_API_KEY is set).
+  // Uses the OpenAI-compatible /chat/completions shape. Model selection is
+  // controlled by OPENROUTER_MODEL env var so we can swap without code changes.
+  const orKey = process.env.OPENROUTER_API_KEY;
+  if (orKey) {
+    console.log(`  Using OpenRouter (model=${OPENROUTER_MODEL})`);
+    const response = await fetch(OPENROUTER_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${orKey}`,
+        // OpenRouter attribution headers — optional but helps us track usage.
+        'HTTP-Referer': 'https://mybcat.com',
+        'X-Title': 'mybcat-new blog quality remediation',
+      },
+      body: JSON.stringify({
+        model: OPENROUTER_MODEL,
+        max_tokens: CLAUDE_MAX_TOKENS,
+        temperature: CLAUDE_TEMPERATURE,
+        messages: [{ role: 'user', content: prompt }],
+      }),
+    });
+
+    if (!response.ok) {
+      const errText = await response.text();
+      throw new Error(`OpenRouter API error ${response.status}: ${errText}`);
+    }
+
+    const data = await response.json();
+    const text = data.choices?.[0]?.message?.content;
+    if (!text) throw new Error('Empty response from OpenRouter');
+    return text;
+  }
+
+  // Strategy 3: Anthropic Messages API (legacy fallback)
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return null;
 
-  console.log(`  Using Anthropic API`);
+  console.log(`  Using Anthropic API (fallback)`);
   const response = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -446,9 +486,10 @@ async function remediatePost(filePath, config, blogIndex, ctaTemplate) {
 
   console.log(`  After deterministic fixes: ${afterDeterministic.errors.join('; ')}`);
 
-  // Step 3: LLM remediation (Claude CLI or API)
-  if (!hasClaudeCLI() && !process.env.ANTHROPIC_API_KEY) {
-    console.log(`  No Claude CLI or ANTHROPIC_API_KEY — skipping LLM remediation`);
+  // Step 3: LLM remediation (Claude CLI, OpenRouter, or Anthropic direct)
+  const hasLLM = hasClaudeCLI() || process.env.OPENROUTER_API_KEY || process.env.ANTHROPIC_API_KEY;
+  if (!hasLLM) {
+    console.log(`  No LLM available (Claude CLI, OPENROUTER_API_KEY, or ANTHROPIC_API_KEY) — skipping`);
     return { status: 'partial', file, actions: [...actions, 'LLM skipped (no CLI or API key)'] };
   }
 
@@ -522,10 +563,14 @@ async function main() {
   console.log(`Found ${posts.length} scheduled post(s) due for publishing.`);
   console.log(`Blog index: ${blogIndex.length} published posts available for linking.\n`);
 
-  if (!hasClaudeCLI() && !process.env.ANTHROPIC_API_KEY) {
-    console.log('Warning: No Claude CLI or ANTHROPIC_API_KEY found. LLM remediation will be skipped.\n');
+  if (!hasClaudeCLI() && !process.env.OPENROUTER_API_KEY && !process.env.ANTHROPIC_API_KEY) {
+    console.log('Warning: No LLM credentials found (Claude CLI / OPENROUTER_API_KEY / ANTHROPIC_API_KEY). LLM remediation will be skipped.\n');
   } else if (hasClaudeCLI()) {
     console.log('Claude CLI detected — will use subscription for LLM remediation.\n');
+  } else if (process.env.OPENROUTER_API_KEY) {
+    console.log(`OpenRouter detected — will use model ${OPENROUTER_MODEL} for LLM remediation.\n`);
+  } else {
+    console.log('Anthropic API key detected — will use direct Anthropic API for LLM remediation.\n');
   }
 
   const results = [];
