@@ -1,0 +1,154 @@
+name: OpenRouter Budget Check
+
+# Daily soft gate on OpenRouter spend. Not a hard block — calls keep flowing.
+# Posts a Telegram alert when monthly (usage_monthly + byok_usage_monthly)
+# exceeds OR_BUDGET_THRESHOLD (default $7). Dedupes to one alert per calendar
+# month via a committed state file.
+#
+# Per AnkitClassicVision/ongoing_seo PIPELINE_DRIFT_FIX_SPEC.md operator
+# request 2026-04-19.
+
+on:
+  schedule:
+    # Daily at 11 UTC — 1h after Daily Post Health Check so Telegram traffic
+    # is spread across the day.
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+    inputs:
+      force_alert:
+        description: 'Send alert regardless of dedupe state (testing)'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+
+permissions:
+  contents: write  # Required to commit state file updates
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Check OpenRouter usage and alert if over threshold
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          THRESHOLD_INPUT: ${{ vars.OR_BUDGET_THRESHOLD }}
+          FORCE_ALERT: ${{ github.event.inputs.force_alert }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          STATE_FILE=".github/openrouter-budget-state.json"
+
+          if [ -z "${OPENROUTER_API_KEY:-}" ]; then
+            echo "::error::OPENROUTER_API_KEY secret not set"
+            exit 1
+          fi
+          if [ -z "${TELEGRAM_BOT_TOKEN:-}" ] || [ -z "${TELEGRAM_CHAT_ID:-}" ]; then
+            echo "::warning::Telegram secrets missing — will only log, not alert"
+          fi
+
+          THRESHOLD="${THRESHOLD_INPUT:-7.00}"
+          CURRENT_MONTH=$(date -u '+%Y-%m')
+          echo "Threshold: \$${THRESHOLD}"
+          echo "Current month: ${CURRENT_MONTH}"
+
+          # Fetch usage from OpenRouter
+          RESP=$(curl -sS --max-time 15 \
+            -H "Authorization: Bearer ${OPENROUTER_API_KEY}" \
+            "https://openrouter.ai/api/v1/key")
+
+          USAGE_MONTHLY=$(echo "$RESP" | jq -r '.data.usage_monthly // 0')
+          BYOK_MONTHLY=$(echo "$RESP" | jq -r '.data.byok_usage_monthly // 0')
+          TOTAL=$(echo "${USAGE_MONTHLY} ${BYOK_MONTHLY}" | awk '{printf "%.4f", $1+$2}')
+
+          echo "Monthly spend: \$${TOTAL} (direct=\$${USAGE_MONTHLY}, byok=\$${BYOK_MONTHLY})"
+          echo "monthly_spend=${TOTAL}" >> $GITHUB_OUTPUT
+
+          # Step summary
+          {
+            echo "# OpenRouter Budget Check"
+            echo "**Date:** $(date -u '+%Y-%m-%d %H:%M UTC')"
+            echo "**Monthly spend:** \$${TOTAL}"
+            echo "- Direct OpenRouter: \$${USAGE_MONTHLY}"
+            echo "- BYOK passthrough: \$${BYOK_MONTHLY}"
+            echo "**Threshold:** \$${THRESHOLD}"
+          } >> $GITHUB_STEP_SUMMARY
+
+          OVER=$(awk -v t="$TOTAL" -v th="$THRESHOLD" 'BEGIN{print (t > th)}')
+          if [ "$OVER" != "1" ]; then
+            echo "Under threshold. No action."
+            echo "**Status:** UNDER threshold" >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+
+          echo "::warning::Monthly OpenRouter spend \$${TOTAL} exceeds threshold \$${THRESHOLD}"
+          echo "**Status:** OVER threshold" >> $GITHUB_STEP_SUMMARY
+
+          # Dedupe: only alert once per calendar month unless force_alert=true
+          LAST_ALERTED=$(jq -r '.last_alerted_month // ""' "$STATE_FILE")
+          if [ "$FORCE_ALERT" = "true" ]; then
+            echo "force_alert=true — sending regardless of dedupe state"
+          elif [ "$LAST_ALERTED" = "$CURRENT_MONTH" ]; then
+            echo "Already alerted for ${CURRENT_MONTH}. Skipping."
+            echo "**Alert:** suppressed (already sent this month)" >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+
+          # Send Telegram alert
+          if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
+            MESSAGE=$(cat <<EOF
+          🚨 *OpenRouter Budget Exceeded*
+
+          Monthly spend: \$${TOTAL}
+          Threshold: \$${THRESHOLD}
+          Month: ${CURRENT_MONTH}
+
+          Breakdown:
+          • Direct OpenRouter: \$${USAGE_MONTHLY}
+          • BYOK passthrough: \$${BYOK_MONTHLY}
+
+          Review activity: https://openrouter.ai/activity
+          Workflow run: ${RUN_URL}
+
+          _You will not be re-alerted until next month. To reset dedupe, clear \`.github/openrouter-budget-state.json\` and re-run._
+          EOF
+          )
+            HTTP_CODE=$(curl -sS --max-time 15 -X POST \
+              "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              -d chat_id="${TELEGRAM_CHAT_ID}" \
+              -d parse_mode="Markdown" \
+              --data-urlencode text="$MESSAGE" \
+              -o /tmp/tg_resp.json \
+              -w '%{http_code}')
+            echo "Telegram HTTP: ${HTTP_CODE}"
+            if [ "$HTTP_CODE" != "200" ]; then
+              echo "::warning::Telegram send returned HTTP ${HTTP_CODE}"
+              cat /tmp/tg_resp.json || true
+            fi
+            echo "**Alert:** sent to Telegram" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "::warning::Telegram secrets missing — alert NOT sent"
+            echo "**Alert:** NOT sent (Telegram secrets missing)" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          # Update state file to prevent re-alert this month
+          jq --arg month "$CURRENT_MONTH" '.last_alerted_month = $month' "$STATE_FILE" > /tmp/state.json
+          mv /tmp/state.json "$STATE_FILE"
+
+      - name: Commit state file if changed
+        run: |
+          if ! git diff --quiet .github/openrouter-budget-state.json 2>/dev/null; then
+            git config user.name "GitHub Actions"
+            git config user.email "actions@github.com"
+            git add .github/openrouter-budget-state.json
+            git commit -m "chore(budget): mark OpenRouter alert sent for this month"
+            git push
+          else
+            echo "No state change to commit."
+          fi
