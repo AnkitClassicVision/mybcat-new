@@ -8,9 +8,8 @@ description: >-
 seoDescription: >-
   Credentialing checklist for multi-location optometry groups. Standardize
   insurance panel enrollment across locations to protect revenue.
-publishDate: '2026-04-19'
-status: scheduled
-scheduledDate: '2026-04-19'
+publishDate: '2026-04-19T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
