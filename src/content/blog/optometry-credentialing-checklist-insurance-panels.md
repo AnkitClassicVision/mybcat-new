@@ -1,25 +1,25 @@
 ---
 title: Optometry Credentialing Checklist for Insurance Panels
 seoTitle: Optometry Credentialing Checklist for Insurance Panels
-description: >-
-  Complete credentialing checklist for multi-location optometry groups.
-  Standardize insurance panel enrollment across 3+ locations to protect revenue
-  and accelerate provider onboarding.
-seoDescription: >-
-  Credentialing checklist for multi-location optometry groups. Standardize
+description: Complete credentialing checklist for multi-location optometry groups.
+  Standardize insurance panel enrollment across 3+ locations to protect revenue and
+  accelerate provider onboarding.
+seoDescription: Credentialing checklist for multi-location optometry groups. Standardize
   insurance panel enrollment across locations to protect revenue.
 publishDate: '2026-04-19T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - optometry credentialing checklist insurance panels
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- optometry credentialing checklist insurance panels
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: enterprise-operations
 featuredImage: /images/blog/optometry-credentialing-checklist-insurance-panels.webp
-canonical: 'https://mybcat.com/blog/optometry-credentialing-checklist-insurance-panels/'
+canonical: https://mybcat.com/blog/optometry-credentialing-checklist-insurance-panels/
+relatedPosts:
+- accounting-for-optometry-groups-multi-location
 ---
 
 Multi-location optometry groups lose between $9,000 and $15,000 per month for every uncredentialed provider sitting idle. That translates to roughly $300 to $500 per day in unrealized revenue while your new OD waits for insurance panel approval. When you multiply those figures across five, ten, or twenty locations simultaneously onboarding providers, the revenue leak compounds into a significant [EBITDA drag that PE sponsors notice immediately](/blog/multi-location-healthcare-ebitda/).
