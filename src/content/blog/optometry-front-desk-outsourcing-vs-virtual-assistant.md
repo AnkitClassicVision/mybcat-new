@@ -7,9 +7,8 @@ description: >-
 seoDescription: >-
   Multi-location optometry groups: Compare front desk outsourcing vs virtual
   assistants for cost, scale, and ROI across your network.
-publishDate: '2026-04-20'
-status: scheduled
-scheduledDate: '2026-04-20'
+publishDate: '2026-04-20T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
