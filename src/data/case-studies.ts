@@ -11,6 +11,12 @@ export interface CaseStudyMetric {
   description?: string;
 }
 
+export interface CaseStudySnapshot {
+  label: string;
+  value: string;
+  description?: string;
+}
+
 export interface CaseStudy {
   slug: string;
   title: string;
@@ -24,13 +30,20 @@ export interface CaseStudy {
   implementation: string[];
   results: string;
   metrics: CaseStudyMetric[];
+  snapshot?: CaseStudySnapshot[];
   testimonial: {
     quote: string;
     author: string;
     title: string;
   };
   timeline: string;
+  proofType: 'named-client' | 'composite-benchmark';
+  proofNote?: string;
+  seoTitle?: string;
+  seoDescription?: string;
   featuredImage?: string;
+  systemsUsed?: string[];
+  bestFit?: string[];
   relatedSolutions: string[]; // Solution slugs that are relevant to this case study
 }
 
@@ -59,13 +72,33 @@ export const caseStudies: CaseStudy[] = [
       { label: 'Team Scaled', value: '1 to 6', description: 'Outsourced staff members' },
       { label: 'Patient Experience', value: 'Transformed', description: 'Calmer, more patient-centric environment' }
     ],
+    snapshot: [
+      { label: 'Practice footprint', value: '2 locations' },
+      { label: 'Starting issue', value: '24%+ payroll burden', description: 'Payroll had risen above target levels' },
+      { label: 'Implementation pace', value: '30 days' }
+    ],
     testimonial: {
       quote: 'It was amazing—patients and staff immediately noticed the difference. The phones were always answered, appointments stayed full, and my team in the office could focus on patients in front of them while my business care team focused on the patients on the phones.',
       author: 'Dr. Mital Patel',
       title: 'Owner, Classic Vision Care'
     },
     timeline: '30-day implementation, scaled to 6 team members',
+    proofType: 'named-client',
+    proofNote: 'Named client story based on reported rollout outcomes from Classic Vision Care during the stated implementation period.',
+    seoTitle: 'Classic Vision Care Case Study: 33% Revenue Growth',
+    seoDescription: 'See how Classic Vision Care cut payroll 25%, grew revenue 33%, and scaled support from 1 to 6 team members in a 30-day rollout.',
     featuredImage: '/images/case-studies/classic-vision-care.jpg',
+    systemsUsed: [
+      'Inbound phone management',
+      'Recall and follow-up workflows',
+      'Insurance verification and billing support',
+      'Customized SOPs by location'
+    ],
+    bestFit: [
+      'Owner-led optometry practices with front-desk overload',
+      'Teams trying to lower payroll pressure without sacrificing service',
+      'Practices needing tighter SOPs and follow-up discipline'
+    ],
     relatedSolutions: ['medical-answering-service', 'patient-recall', 'integrations']
   },
   {
@@ -92,12 +125,33 @@ export const caseStudies: CaseStudy[] = [
       { label: 'Patient Satisfaction', value: '4.9/5', description: 'Consistent across all locations' },
       { label: 'Staff Time Saved', value: '40+ hrs/week', description: 'Across all locations' }
     ],
+    snapshot: [
+      { label: 'Practice footprint', value: '5 locations' },
+      { label: 'Starting answer rate', value: '71%' },
+      { label: 'Go-live pace', value: '30 days' }
+    ],
     testimonial: {
       quote: 'Honestly it was a godsend when we brought them in. You have taken a process that we were challenged with, we struggled, and once we got the little kinks figured out, you just run with it.',
       author: 'Dr. Michael Dittman',
       title: 'Owner, Dittman Eye Care (5 locations)'
     },
     timeline: '30-day full implementation',
+    proofType: 'named-client',
+    proofNote: 'Named client story based on reported operating outcomes from Dittman Eye Care after centralizing patient intake and billing support.',
+    seoTitle: 'Dittman Eye Care Case Study: 100% Answer Rate',
+    seoDescription: 'See how Dittman Eye Care scaled to 5 locations, reached a 100% call answer rate, and avoided adding front-desk staff at each site.',
+    featuredImage: '/videos/dittman-headshot-optimized.webp',
+    systemsUsed: [
+      'Unified phone routing across 5 locations',
+      'Centralized inbound call handling',
+      'Billing and accounts receivable support',
+      'Eyefinity and insurance workflow training'
+    ],
+    bestFit: [
+      'Multi-location optometry groups expanding faster than local hiring can keep up',
+      'Practices standardizing intake across locations',
+      'Owners who want centralized support without rebuilding local teams'
+    ],
     relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing', 'integrations']
   },
   {
@@ -125,12 +179,33 @@ export const caseStudies: CaseStudy[] = [
       { label: 'New Practice Integration', value: '5 days', description: 'Down from 30+ days' },
       { label: 'Patient Satisfaction', value: '4.8/5', description: 'Consistent across all locations' }
     ],
+    snapshot: [
+      { label: 'Locations in scope', value: '12' },
+      { label: 'Starting answer rate', value: '67% average' },
+      { label: 'Rollout timeline', value: '90 days' }
+    ],
     testimonial: {
       quote: 'The centralized model gave us consistency we never had before, and the cost savings funded our next two acquisitions.',
       author: 'COO',
       title: 'Multi-Location Dental DSO'
     },
     timeline: '90-day phased implementation across all locations',
+    proofType: 'composite-benchmark',
+    proofNote: 'Composite benchmark built from anonymized multi-location dental operating patterns and typical outcomes observed during patient-access centralization projects.',
+    seoTitle: 'Dental DSO Case Study: 40% Cost Reduction',
+    seoDescription: 'See how a 12-location dental DSO benchmark centralized patient access, improved answer rate to 98%, and cut front-desk labor costs by 40%.',
+    featuredImage: '/images/case-studies/midwest-dental-partners.jpg',
+    systemsUsed: [
+      'Unified phone routing by location and provider',
+      'Centralized scheduling across practices',
+      'Standardized intake and insurance workflows',
+      'Executive dashboards for multi-location visibility'
+    ],
+    bestFit: [
+      'Dental groups with uneven phone coverage across locations',
+      'Leadership teams integrating acquired practices',
+      'Operators trying to standardize patient access before the next growth phase'
+    ],
     relatedSolutions: ['front-desk-outsourcing', 'medical-answering-service', 'integrations']
   },
   {
@@ -158,12 +233,33 @@ export const caseStudies: CaseStudy[] = [
       { label: 'Patient Referrals', value: '+15%', description: 'From improved experience consistency' },
       { label: 'Annual Savings', value: '$180K', description: 'Reduced temp staff and turnover costs' }
     ],
+    snapshot: [
+      { label: 'Locations in scope', value: '10' },
+      { label: 'Starting answer rate', value: '65% average' },
+      { label: 'Full coverage', value: '90 days' }
+    ],
     testimonial: {
       quote: 'The ROI was immediate. We stopped losing patients to voicemail, our staff stopped burning out, and for the first time we had visibility into call metrics across all our practices.',
       author: 'CEO',
       title: 'Multi-Location Optometry Group'
     },
     timeline: '60-day implementation, full coverage in 90 days',
+    proofType: 'composite-benchmark',
+    proofNote: 'Composite benchmark built from anonymized optometry-group operating patterns and representative outcomes from multi-location patient-access centralization efforts.',
+    seoTitle: 'Optometry Group Case Study: 99% Answer Rate',
+    seoDescription: 'See how a 10-location optometry group benchmark improved answer rate to 99%, reduced no-shows 28%, and saved $180K annually.',
+    featuredImage: '/images/case-studies/vision-care-associates.jpg',
+    systemsUsed: [
+      'Location-aware call routing',
+      'Multi-system EHR and PM integrations',
+      'Overflow coverage during peak demand windows',
+      'QA reviews and multilingual support'
+    ],
+    bestFit: [
+      'Optometry groups operating across multiple EHR or PM systems',
+      'Teams struggling with seasonal overflow and turnover',
+      'Operators who need group-level visibility into answer rate and patient experience'
+    ],
     relatedSolutions: ['medical-answering-service', 'patient-recall', 'no-show-recovery', 'integrations']
   }
 ];

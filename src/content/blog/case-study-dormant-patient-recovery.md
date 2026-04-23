@@ -12,7 +12,7 @@ status: published
 author: Ankit Patel
 category: Case Study
 tags:
-  - case study
+  - case-study
   - dormant patients
   - reactivation
   - practice growth
