@@ -1,25 +1,23 @@
 ---
 title: Optometry Practice Financing Loan Options for
 seoTitle: Optometry Practice Financing for Multi-Location Groups
-description: >-
-  A financing playbook for multi-location optometry groups and PE-backed
-  platforms. Compare SBA 7(a), conventional loans, and strategic debt structures
-  for
-seoDescription: >-
-  Financing guide for multi-location optometry groups. Compare SBA loans,
+description: A financing playbook for multi-location optometry groups and PE-backed
+  platforms. Compare SBA 7(a), conventional loans, and strategic debt structures for
+seoDescription: Financing guide for multi-location optometry groups. Compare SBA loans,
   PE-backed options, and debt strategies for scaling acquisitions.
 publishDate: '2026-04-23T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Business
 tags:
-  - optometry practice financing loan options
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- optometry practice financing loan options
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: practice-valuation
 featuredImage: /images/blog/optometry-practice-financing-loan-options.webp
-canonical: 'https://mybcat.com/blog/optometry-practice-financing-loan-options/'
+canonical: https://mybcat.com/blog/optometry-practice-financing-loan-options/
+relatedPosts: []
 ---
 
 Multi-location optometry groups face financing decisions that look nothing like what solo practitioners encounter. When you are acquiring your fifth or fifteenth practice, the capital structure you choose directly affects your EBITDA margins, PE attractiveness, and long-term valuation multiples. This guide breaks down the optometry practice financing loan options that actually work for groups managing 3 or more locations, with specific attention to SBA programs, conventional debt, and strategic financing structures that support scalable growth.
