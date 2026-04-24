@@ -7,9 +7,8 @@ description: >-
 seoDescription: >-
   Multi-location optometry groups reduce denials 20-30% and reclaim $50K+ per
   site through centralized coding and billing optimization strategies.
-publishDate: '2026-04-24'
-status: scheduled
-scheduledDate: '2026-04-24'
+publishDate: '2026-04-24T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
