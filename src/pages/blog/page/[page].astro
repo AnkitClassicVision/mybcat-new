@@ -97,11 +97,15 @@ const metaDescription = `Expert insights on patient intake, practice growth, and
                   <div class="card-image">
                     {(() => {
                       const srcset = getResponsiveSrcset(post.data.featuredImage);
+                      // /blog/page/[N] grid: 3-col ≥1024px, 2-col 640-1024px, 1-col ≤640px
+                      const sizes = srcset
+                        ? "(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
+                        : undefined;
                       return (
                         <img
                           src={post.data.featuredImage}
                           srcset={srcset ?? undefined}
-                          sizes={srcset ? "(max-width: 600px) 100vw, 400px" : undefined}
+                          sizes={sizes}
                           alt={post.data.title}
                           width="400"
                           height="250"

@@ -58,11 +58,21 @@ const categories = [...new Set(allPosts.map(post => post.data.category))];
                   <div class="card-image">
                     {(() => {
                       const srcset = getResponsiveSrcset(post.data.featuredImage);
+                      // Featured card (index 0) spans the full grid (3-col on desktop,
+                      // single column block at ≤1024px). Non-featured cards are
+                      // 3-col desktop, 2-col tablet, 1-col mobile. Sizes hints have
+                      // to match the actual rendered slot or browsers pick the wrong
+                      // candidate from srcset (codex review #21).
+                      const sizes = srcset
+                        ? (index === 0
+                            ? "(min-width: 1024px) 800px, 100vw"
+                            : "(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw")
+                        : undefined;
                       return (
                         <img
                           src={post.data.featuredImage}
                           srcset={srcset ?? undefined}
-                          sizes={srcset ? "(max-width: 600px) 100vw, 400px" : undefined}
+                          sizes={sizes}
                           alt={post.data.title}
                           width="400"
                           height="250"

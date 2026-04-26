@@ -26,7 +26,10 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const BLOG_IMAGE_DIR = path.join(__dirname, '..', 'public', 'images', 'blog');
 const TARGET_WIDTHS = [400, 800, 1200];
-const VARIANT_SUFFIX_RE = /-(\d{3,4})\.webp$/;
+// Only match the exact target widths so canonical images whose names
+// legitimately end in years/numbers (foo-2026.webp, starting-an-optometric-practice-101.webp)
+// aren't mis-classified as already-generated variants and skipped.
+const VARIANT_SUFFIX_RE = new RegExp(`-(?:${TARGET_WIDTHS.join('|')})\\.webp$`);
 
 const colors = {
   red: '\x1b[31m',
