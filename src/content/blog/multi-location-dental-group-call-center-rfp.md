@@ -9,6 +9,7 @@ publishDate: '2026-04-29'
 status: scheduled
 scheduledDate: '2026-04-29'
 author: Ankit Patel
+category: Enterprise
 tags:
 - multi-location dental group call center RFP
 - multi-location

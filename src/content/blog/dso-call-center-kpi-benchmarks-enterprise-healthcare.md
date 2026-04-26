@@ -9,6 +9,7 @@ publishDate: '2026-05-04'
 status: scheduled
 scheduledDate: '2026-05-04'
 author: Ankit Patel
+category: Enterprise
 tags:
 - DSO call center KPI benchmarks enterprise healthcare
 - multi-location

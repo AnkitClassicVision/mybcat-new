@@ -9,6 +9,7 @@ publishDate: '2026-04-30'
 status: scheduled
 scheduledDate: '2026-04-30'
 author: Ankit Patel
+category: Enterprise
 tags:
 - enterprise healthcare patient access compliance HIPAA SOC2
 - multi-location
