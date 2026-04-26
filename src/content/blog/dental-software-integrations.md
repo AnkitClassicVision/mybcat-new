@@ -183,7 +183,7 @@ The [dental industry page](/industries/dental/) provides additional resources fo
 ## Sources
 
 1. [30 Dental Practice Management Software Stats (2026) - Clerri](https://clerri.com/blog/dental-practice-management-software-statistics)
-2. [Powering Dental Platforms: Real-Time EHR & PMS Integration - HeyDonto AI](https://heydonto.com/powering-dental-platforms-real-time-ehr-pms-integration-for-scalable-interoperable-workflows/)
+2. [HealthIT.gov: Interoperability](https://www.healthit.gov/topic/interoperability)
 3. [How to Scale Up a Profitable DSO - CliftonLarsonAllen](https://www.claconnect.com/en/resources/blogs/how-to-scale-up-a-profitable-dental-service-organization-dso)
 
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

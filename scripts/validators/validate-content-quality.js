@@ -378,13 +378,16 @@ export function validateFile(filePath, config, taxonomy) {
 }
 
 /**
- * Resolve the set of blog files changed vs origin/main. Returns a Set of
- * basenames (e.g. "foo.md") or null if git lookup fails / not in a repo.
- * Caller treats null as "no filter; check everything".
+ * Resolve the set of blog files changed vs DIFF_BASE (default: origin/main).
+ * Set DIFF_BASE=<sha> for push events (e.g. github.event.before) so the
+ * post-merge validation only inspects what was actually pushed. Returns a
+ * Set of basenames or null if git lookup fails / not in a repo (caller
+ * treats null as "no filter; check everything").
  */
 function getChangedBlogFiles() {
+  const base = process.env.DIFF_BASE || 'origin/main';
   try {
-    const out = execSync('git diff --name-only origin/main...HEAD', {
+    const out = execSync(`git diff --name-only ${base}...HEAD`, {
       encoding: 'utf-8',
       stdio: ['pipe', 'pipe', 'pipe'],
     });
@@ -395,7 +398,7 @@ function getChangedBlogFiles() {
       .map(line => path.basename(line));
     return new Set(changed);
   } catch (err) {
-    console.error(`${colors.yellow}WARN: --changed-files-only could not resolve git diff (${err.message.split('\n')[0]}); checking all files${colors.reset}`);
+    console.error(`${colors.yellow}WARN: --changed-files-only could not resolve git diff against ${base} (${err.message.split('\n')[0]}); checking all files${colors.reset}`);
     return null;
   }
 }

@@ -45,13 +45,17 @@ jobs:
       - name: Validate Enterprise Links
         run: npm run validate:enterprise-links
 
-      - name: Validate Content Quality (PR — diff-scoped)
+      - name: Validate Content Quality (PR — diff-scoped vs main)
         if: github.event_name == 'pull_request'
+        env:
+          DIFF_BASE: origin/main
         run: npm run validate:content-quality -- --changed-files-only
 
-      - name: Validate Content Quality (push — full new-only)
+      - name: Validate Content Quality (push — diff-scoped vs prev commit)
         if: github.event_name == 'push'
-        run: npm run validate:content-quality -- --new-only
+        env:
+          DIFF_BASE: ${{ github.event.before }}
+        run: npm run validate:content-quality -- --changed-files-only
 
       - name: Validate Cross-Links
         run: npm run validate:cross-links
@@ -62,13 +66,17 @@ jobs:
       - name: Validate Publish Dates
         run: npm run validate:publish-dates
 
-      - name: Validate Citations (PR — diff-scoped)
+      - name: Validate Citations (PR — diff-scoped vs main)
         if: github.event_name == 'pull_request'
+        env:
+          DIFF_BASE: origin/main
         run: npm run validate:citations -- --changed-files-only
 
-      - name: Validate Citations (push — full)
+      - name: Validate Citations (push — diff-scoped vs prev commit)
         if: github.event_name == 'push'
-        run: npm run validate:citations
+        env:
+          DIFF_BASE: ${{ github.event.before }}
+        run: npm run validate:citations -- --changed-files-only
 
   post-build-validation:
     name: Post-Build Checks

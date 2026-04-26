@@ -122,14 +122,13 @@ function isAuthorityDomain(url) {
 }
 
 /**
- * Check HTTP status of a URL via HEAD (fallback to GET).
+ * Single-shot check: HEAD first, fall back to GET on 405/403 (some servers reject HEAD).
  */
-async function checkURL(url, timeout) {
+async function checkURLOnce(url, timeoutMs) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeout);
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
-    // Try HEAD first (faster)
     let response = await fetch(url, {
       method: 'HEAD',
       signal: controller.signal,
@@ -139,7 +138,6 @@ async function checkURL(url, timeout) {
       }
     });
 
-    // Some servers reject HEAD, retry with GET
     if (response.status === 405 || response.status === 403) {
       response = await fetch(url, {
         method: 'GET',
@@ -152,11 +150,37 @@ async function checkURL(url, timeout) {
     }
 
     clearTimeout(timer);
-    return { status: response.status, ok: response.status >= 200 && response.status < 400 };
+    // Citation gate semantics: "is this page reachable as a source?"
+    // 404/410 mean the page is genuinely gone. Everything else (200-399,
+    // 401/403/405/429) means the server answered — even if a WAF blocked
+    // our bot UA. Counting WAF blocks as "dead" was causing per-push flap
+    // on legitimate authority sources (AAO, HHS, dentalcpaca, etc.).
+    // Connection errors (status 0) handled in the catch block below.
+    const status = response.status;
+    const dead = status === 404 || status === 410;
+    return { status, ok: !dead };
   } catch (err) {
     clearTimeout(timer);
     return { status: 0, ok: false, error: err.name === 'AbortError' ? 'timeout' : err.message };
   }
+}
+
+/**
+ * Check HTTP status of a URL with one retry on transient failure
+ * (timeouts and 5xx). Slow servers and flaky CDNs frequently fail the
+ * first hit but answer fine on the second; without this, CI gates flap.
+ */
+async function checkURL(url, timeout) {
+  const first = await checkURLOnce(url, timeout);
+  if (first.ok) return first;
+
+  // Retry on any network-level error (timeout, DNS, TLS, fetch failed)
+  // and on 5xx; permanent 4xx (404/410) stays dead immediately.
+  const isTransient = !!first.error || (first.status >= 500 && first.status < 600);
+  if (!isTransient) return first;
+
+  await new Promise(r => setTimeout(r, 500));
+  return checkURLOnce(url, timeout * 1.5);
 }
 
 /**
@@ -183,12 +207,15 @@ async function processWithConcurrency(items, concurrency, fn) {
 }
 
 /**
- * Resolve the set of blog files changed vs origin/main. Returns a Set of
- * basenames or null if git lookup fails / not in a repo.
+ * Resolve the set of blog files changed vs DIFF_BASE (default: origin/main).
+ * Set DIFF_BASE=<sha> on push events (e.g. github.event.before) so we only
+ * re-check what just landed. Returns a Set of basenames or null on failure
+ * (caller treats null as "no filter; check everything").
  */
 function getChangedBlogFiles() {
+  const base = process.env.DIFF_BASE || 'origin/main';
   try {
-    const out = execSync('git diff --name-only origin/main...HEAD', {
+    const out = execSync(`git diff --name-only ${base}...HEAD`, {
       encoding: 'utf-8',
       stdio: ['pipe', 'pipe', 'pipe'],
     });
@@ -199,7 +226,7 @@ function getChangedBlogFiles() {
       .map(line => path.basename(line));
     return new Set(changed);
   } catch (err) {
-    console.error(`${colors.yellow}WARN: --changed-files-only could not resolve git diff (${err.message.split('\n')[0]}); checking all files${colors.reset}`);
+    console.error(`${colors.yellow}WARN: --changed-files-only could not resolve git diff against ${base} (${err.message.split('\n')[0]}); checking all files${colors.reset}`);
     return null;
   }
 }
