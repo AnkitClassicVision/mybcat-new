@@ -1,0 +1,45 @@
+name: Cleanup Old Artifacts
+
+# Lighthouse + other workflows upload ~12MB of artifacts per run on the
+# default 90-day retention. With multiple PRs/day that fills the storage
+# quota in weeks and starts blocking new uploads. Nightly sweep keeps the
+# last 7 days only.
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # 08:00 UTC nightly
+  workflow_dispatch:
+    inputs:
+      max_age_days:
+        description: 'Delete artifacts older than N days'
+        required: false
+        default: '7'
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Delete artifacts older than threshold
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_AGE_DAYS: ${{ github.event.inputs.max_age_days || '7' }}
+        run: |
+          set -euo pipefail
+          CUTOFF=$(date -u -d "${MAX_AGE_DAYS} days ago" +%s)
+          echo "Deleting artifacts created before $(date -u -d @${CUTOFF} -Iseconds)"
+
+          DELETED=0
+          gh api --paginate \
+            "/repos/${{ github.repository }}/actions/artifacts" \
+            -q '.artifacts[] | select(.expired == false) | "\(.id) \(.created_at)"' \
+            | while read -r id created_at; do
+                created_ts=$(date -u -d "$created_at" +%s)
+                if [ "$created_ts" -lt "$CUTOFF" ]; then
+                  gh api -X DELETE "/repos/${{ github.repository }}/actions/artifacts/$id" \
+                    && echo "deleted $id (created $created_at)" \
+                    && DELETED=$((DELETED + 1)) || echo "failed to delete $id"
+                fi
+              done
+          echo "Cleanup complete."

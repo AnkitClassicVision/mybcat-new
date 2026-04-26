@@ -413,7 +413,7 @@ Keeping every appointment slot filled starts with answering every call. [Talk to
 ## Sources
 
 - [MyBCAT: Operational Efficiency in Optometry](https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture/)
-- [Charles IT: IT Essentials for Optometry Practice](https://blog.charlesit.com/it-essentials-for-running-a-secure-and-efficient-optometry-practice)
+- [HealthIT.gov: Privacy, Security, and HIPAA](https://www.healthit.gov/topic/privacy-security-and-hipaa)
 - [Adams Brown: Smarter Tech for Eye Care Practice](https://www.adamsbrowntech.com/blog/smarter-tech-for-your-eye-care-practice/)
 - [Your Total Vision: Streamlining Optometry Operations](https://yourtotalvision.com/10-tips-to-streamline-business-operations-in-your-optometry-practice/)
 - [Simbo AI: IT Management in Optometry](https://www.simbo.ai/blog/it-management-in-optometry-practices-a-comprehensive-guide/)

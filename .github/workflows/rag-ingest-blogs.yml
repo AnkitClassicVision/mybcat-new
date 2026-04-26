@@ -53,7 +53,9 @@ jobs:
           echo "Found files: $FILES"
 
       - name: Queue ingestion jobs
+        id: queue
         if: steps.changed.outputs.files != '[]'
+        continue-on-error: true
         run: |
           node << 'SCRIPT'
           const fs = require('fs');
@@ -191,3 +193,26 @@ jobs:
       - name: No changes detected
         if: steps.changed.outputs.files == '[]'
         run: echo "No blog files changed in this push"
+
+      - name: Alert on ingestion failure
+        if: steps.queue.outcome == 'failure'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          COMMIT_URL: ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Telegram secrets missing — skipping alert"
+            exit 0
+          fi
+          MSG=$(printf "🔴 RAG blog ingestion failed\n\nCommit: %s\nRun: %s\n\nIngestion is non-blocking; main CI is unaffected. Investigate Supabase RAG endpoint." "$COMMIT_URL" "$RUN_URL")
+          curl -sS --max-time 15 -X POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=${MSG}" >/dev/null || echo "Telegram send failed (non-fatal)"
+
+      - name: Mark step status
+        if: steps.queue.outcome == 'failure'
+        run: |
+          echo "::warning title=RAG ingestion failed::Supabase RAG endpoint failed; this is a downstream content sync, not a build/deploy gate. See queue step logs."

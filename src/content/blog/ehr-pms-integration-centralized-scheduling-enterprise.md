@@ -189,7 +189,7 @@ For operations leaders evaluating integration investments, the question is not w
 ## Sources
 
 1. [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
-1. [NovaOne Advisor: U.S. Practice Management Systems Market](https://www.novaoneadvisor.com/report/us-practice-management-systems-market)
+1. [CMS: Promoting Interoperability Programs](https://www.cms.gov/medicare/regulations-guidance/promoting-interoperability-programs)
 2. [Dialog Health: Healthcare Call Center Statistics](https://www.dialoghealth.com/post/healthcare-call-center-statistics)
 3. [TTEC: Nearly 349% ROI Projected for Unified CX Approach](https://www.ttec.com/client-stories/nearly-35x-roi-projected-cx-led-approach-unifying-agent-experience)
 4. [Market.us: EHR Industry Statistics](https://media.market.us/ehr-industry-statistics/)

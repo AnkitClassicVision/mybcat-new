@@ -240,7 +240,7 @@ The ROI case for enterprise billing optimization is clear. A 10-location group l
 
 ## Sources
 
-1. [MGMA Practice Management Report: Revenue Cycle Benchmarks 2024](https://www.mgma.com/data/benchmarking-data)
+1. [MGMA DataDive: Practice Benchmarks](https://www.mgma.com/datadive)
 2. [Dr. Catalyst: Complete Guide to Multi-Location Medical Billing and RCM Services](https://www.drcatalyst.com/blog/the-complete-guide-to-multi-location-medical-billing-and-rcm-services)
 
 ---

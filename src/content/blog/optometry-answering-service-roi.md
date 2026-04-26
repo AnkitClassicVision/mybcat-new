@@ -246,7 +246,7 @@ For groups operating three or more locations, the ROI threshold for answering se
 
 3. Healthcare Contact Center Conference. 2024 Healthcare Contact Center Survey Report. [https://hcctconference.com/wp-content/uploads/2024/06/HealthcareContactCenterSurveyReport_HCCT2024.pdf](https://hcctconference.com/wp-content/uploads/2024/06/HealthcareContactCenterSurveyReport_HCCT2024.pdf)
 
-4. Physician Growth Partners. State of Eye Care Private Equity Q1 2025. [https://physiciangrowthpartners.com/white-paper/state-of-eye-care-private-equity-q1-2025/](https://physiciangrowthpartners.com/white-paper/state-of-eye-care-private-equity-q1-2025/)
+4. American Academy of Ophthalmology. Private Equity Investment in Ophthalmology. [https://www.aao.org/eye-on-advocacy-article/private-equity-investment-in-ophthalmology](https://www.aao.org/eye-on-advocacy-article/private-equity-investment-in-ophthalmology)
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">

@@ -356,4 +356,4 @@ Multi-location healthcare groups need standardized intake across every site. [Ta
 
 - [Becker's Dental Review: DSO Market](https://www.beckersdental.com/)
 - [ADA Health Policy Institute: Dental Practice Research](https://www.ada.org/resources/research/health-policy-institute/dental-practice-research)
-- [PitchBook: Healthcare PE Data](https://pitchbook.com/)
+- [Harvard Business Review: Private Equity](https://hbr.org/topic/private-equity)
