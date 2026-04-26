@@ -69,48 +69,19 @@ const categoryMeta: Record<string, { title: string; description: string; }> = {
   }
 };
 
-export function getStaticPaths() {
-  // We need to generate paths at build time
-  // Note: 'industry' category removed - no posts exist, redirect handles old links
-  return [
-    { params: { category: 'technology' } },
-    { params: { category: 'virtual-staffing' } },
-    { params: { category: 'patient-experience' } },
-    { params: { category: 'operations' } },
-    { params: { category: 'growth' } },
-    { params: { category: 'practice-growth' } },
-    { params: { category: 'practice-management' } },
-    { params: { category: 'analytics' } },
-    { params: { category: 'case-study' } },
-    { params: { category: 'optometry' } },
-    { params: { category: 'dental' } },
-    { params: { category: 'enterprise' } },
-  ];
+// Derive paths from actual post categories so this never drifts when
+// new categories are added. Slug = lower-kebab; display name flows
+// through props so we don't need a hand-maintained reverse mapping.
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => isPostVisible(data));
+  const categories = [...new Set(posts.map(p => p.data.category))];
+  return categories.map(displayCategory => ({
+    params: { category: displayCategory.toLowerCase().replace(/\s+/g, '-') },
+    props: { displayCategory },
+  }));
 }
 
-const { category } = Astro.params;
-
-// Convert slug to display name
-function slugToCategory(slug: string): string {
-  const mapping: Record<string, string> = {
-    'technology': 'Technology',
-    'virtual-staffing': 'Virtual Staffing',
-    'patient-experience': 'Patient Experience',
-    'operations': 'Operations',
-    'growth': 'Growth',
-    'practice-growth': 'Practice Growth',
-    'industry': 'Industry',
-    'practice-management': 'Practice Management',
-    'analytics': 'Analytics',
-    'case-study': 'Case Study',
-    'optometry': 'Optometry',
-    'dental': 'Dental',
-    'enterprise': 'Enterprise',
-  };
-  return mapping[slug] || slug;
-}
-
-const displayCategory = slugToCategory(category || '');
+const { displayCategory } = Astro.props;
 
 // Filter posts by category
 const categoryPosts = allPosts
