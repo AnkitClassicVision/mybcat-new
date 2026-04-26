@@ -33,6 +33,7 @@
   },
   "ctaPatterns": [
     "hubspot.com",
+    "hubspot.mybcat.com",
     "/contact/",
     "meetings.hubspot.com",
     "openhubspotmodal"
