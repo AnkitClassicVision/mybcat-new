@@ -9,7 +9,9 @@ import CTA from '@/components/sections/CTA.astro';
 import { caseStudies } from '@data/case-studies';
 
 const pageTitle = 'Case Studies: Healthcare Practice Results';
-const pageDescription = 'Real results from healthcare practices using mybcat. See how optometry, dental, and veterinary practices have improved patient acquisition and grown revenue.';
+const pageDescription = 'Named client stories and composite benchmarks from healthcare groups using mybcat to improve patient access, answer rate, and revenue.';
+const namedCaseStudies = caseStudies.filter(study => study.proofType === 'named-client');
+const compositeCaseStudies = caseStudies.filter(study => study.proofType === 'composite-benchmark');
 ---
 
 <PageLayout
@@ -26,8 +28,8 @@ const pageDescription = 'Real results from healthcare practices using mybcat. Se
       <span class="eyebrow">Success Stories</span>
       <h1>Real Results from Real Practices</h1>
       <p class="hero-description">
-        See how healthcare practices like yours have transformed their patient acquisition
-        and grown revenue with mybcat's managed services.
+        Review both named client stories and composite multi-location benchmarks to see how
+        healthcare groups use mybcat to improve answer rate, staffing leverage, and patient acquisition.
       </p>
       <p class="hero-link">
         <a href="/blog/category/case-study/">Read case study articles on the blog →</a>
@@ -53,35 +55,84 @@ const pageDescription = 'Real results from healthcare practices using mybcat. Se
       <p class="stats-disclaimer">Aggregated results across mybcat clients. Individual outcomes vary based on practice size, patient volume, and market conditions.</p>
     </section>
 
-    <!-- Case Studies Grid -->
-    <section class="case-studies-section">
-      <div class="case-studies-grid">
-        {caseStudies.map(study => (
-          <a href={`/case-studies/${study.slug}/`} class="case-study-card">
-            <div class="card-header">
-              <span class="industry-badge">{study.industry}</span>
-              <span class="location">{study.location}</span>
-            </div>
-            <h2>{study.title}</h2>
-            <p class="client-info">
-              <strong>{study.client}</strong> — {study.practiceSize}
-            </p>
-            <div class="metrics-preview">
-              {study.metrics.slice(0, 2).map(metric => (
-                <div class="metric">
-                  <span class="metric-value">{metric.value}</span>
-                  <span class="metric-label">{metric.label}</span>
-                </div>
-              ))}
-            </div>
-            <div class="card-cta">
-              <span>Read Full Story</span>
-              <span class="arrow">→</span>
-            </div>
-          </a>
-        ))}
-      </div>
-    </section>
+    <!-- Named Client Stories -->
+    {namedCaseStudies.length > 0 && (
+      <section class="case-studies-section">
+        <div class="section-copy">
+          <span class="section-label">Named Client Stories</span>
+          <h2>Direct proof from healthcare operators using mybcat</h2>
+          <p>These examples include named clients and attributed results from the stated rollout periods.</p>
+        </div>
+        <div class="case-studies-grid">
+          {namedCaseStudies.map(study => (
+            <a href={`/case-studies/${study.slug}/`} class="case-study-card">
+              <div class="card-header">
+                <span class="industry-badge">{study.industry}</span>
+                <span class="proof-pill">Named Client Story</span>
+                <span class="location">{study.location}</span>
+              </div>
+              <h2>{study.title}</h2>
+              <p class="client-info">
+                <strong>{study.client}</strong> — {study.practiceSize}
+              </p>
+              <p class="card-summary">{study.seoDescription || study.results}</p>
+              <div class="metrics-preview">
+                {study.metrics.slice(0, 2).map(metric => (
+                  <div class="metric">
+                    <span class="metric-value">{metric.value}</span>
+                    <span class="metric-label">{metric.label}</span>
+                  </div>
+                ))}
+              </div>
+              <div class="card-cta">
+                <span>Review rollout and results</span>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Composite Benchmarks -->
+    {compositeCaseStudies.length > 0 && (
+      <section class="case-studies-section case-studies-section-composite">
+        <div class="section-copy">
+          <span class="section-label">Composite Benchmarks</span>
+          <h2>Representative examples for multi-location operators</h2>
+          <p>These benchmark examples synthesize anonymized operating patterns across similar healthcare groups.</p>
+        </div>
+        <div class="case-studies-grid">
+          {compositeCaseStudies.map(study => (
+            <a href={`/case-studies/${study.slug}/`} class="case-study-card">
+              <div class="card-header">
+                <span class="industry-badge">{study.industry}</span>
+                <span class="proof-pill proof-pill-composite">Composite Benchmark</span>
+                <span class="location">{study.location}</span>
+              </div>
+              <h2>{study.title}</h2>
+              <p class="client-info">
+                <strong>{study.client}</strong> — {study.practiceSize}
+              </p>
+              <p class="card-summary">{study.seoDescription || study.results}</p>
+              <div class="metrics-preview">
+                {study.metrics.slice(0, 2).map(metric => (
+                  <div class="metric">
+                    <span class="metric-value">{metric.value}</span>
+                    <span class="metric-label">{metric.label}</span>
+                  </div>
+                ))}
+              </div>
+              <div class="card-cta">
+                <span>Review benchmark example</span>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+          ))}
+        </div>
+        <p class="section-disclaimer">Composite benchmarks are anonymized examples intended to show what is operationally achievable for similar groups. They should not be interpreted as guarantees.</p>
+      </section>
+    )}
 
     <!-- Testimonial Highlight -->
     <section class="testimonial-section">
@@ -199,6 +250,34 @@ const pageDescription = 'Real results from healthcare practices using mybcat. Se
     text-decoration: underline;
   }
 
+  .section-copy {
+    margin-bottom: 24px;
+  }
+
+  .section-label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--copper-500);
+  }
+
+  .section-copy h2 {
+    font-size: 1.65rem;
+    font-weight: 800;
+    color: var(--navy-900);
+    margin-bottom: 10px;
+  }
+
+  .section-copy p,
+  .section-disclaimer {
+    font-size: 0.98rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+  }
+
   /* Featured Stats */
   .featured-stats {
     margin-bottom: 60px;
@@ -245,6 +324,10 @@ const pageDescription = 'Real results from healthcare practices using mybcat. Se
     margin-bottom: 60px;
   }
 
+  .case-studies-section-composite {
+    margin-bottom: 72px;
+  }
+
   .case-studies-grid {
     display: flex;
     flex-direction: column;
@@ -269,6 +352,7 @@ const pageDescription = 'Real results from healthcare practices using mybcat. Se
   .card-header {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 12px;
     margin-bottom: 16px;
   }
@@ -287,6 +371,21 @@ const pageDescription = 'Real results from healthcare practices using mybcat. Se
     color: var(--text-muted);
   }
 
+  .proof-pill {
+    display: inline-flex;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: rgba(14, 165, 233, 0.12);
+    color: #0369a1;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .proof-pill-composite {
+    background: rgba(217, 119, 6, 0.12);
+    color: #b45309;
+  }
+
   .case-study-card h2 {
     font-size: 1.35rem;
     font-weight: 700;
@@ -299,6 +398,13 @@ const pageDescription = 'Real results from healthcare practices using mybcat. Se
     font-size: 15px;
     color: var(--text-secondary);
     margin-bottom: 20px;
+  }
+
+  .card-summary {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-secondary);
   }
 
   .metrics-preview {

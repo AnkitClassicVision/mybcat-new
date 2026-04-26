@@ -6,7 +6,7 @@ seoDescription: "See how a 15-location DSO recovered $108,000/month by reducing 
 publishDate: 2026-01-10T00:00:00.000Z
 status: published
 author: Ankit Patel
-category: Growth
+category: Case Study
 tags:
   - dso
   - case-study

@@ -28,6 +28,9 @@ const { study } = Astro.props;
 
 // Get other case studies for navigation
 const otherStudies = caseStudies.filter(s => s.slug !== study.slug);
+const isComposite = study.proofType === 'composite-benchmark';
+const proofLabel = isComposite ? 'Composite Benchmark' : 'Named Client Story';
+const heroSummary = study.seoDescription || study.results;
 
 // Get related solutions for this case study
 const relatedSolutions = study.relatedSolutions
@@ -74,7 +77,11 @@ function buildMetaDescription(): string {
   return out;
 }
 
-const metaDescription = buildMetaDescription();
+const metaDescription = study.seoDescription || buildMetaDescription();
+const pageTitle = `${study.seoTitle || `${study.client} Case Study`} | MyBCAT`;
+const metricsDisclaimer = isComposite
+  ? 'This example is a composite benchmark built from anonymized operating patterns. Results vary based on location mix, staffing, systems, and patient demand.'
+  : `Results reported by ${study.client} during the stated implementation period. Individual results vary based on practice size, patient volume, and market conditions.`;
 
 function getGitLastModDate(filePath: string): string | null {
   try {
@@ -94,7 +101,7 @@ const caseStudiesLastMod = getGitLastModDate('src/data/case-studies.ts') ?? '202
 // Generate schema
 const articleSchema = generateArticleSchema({
   headline: study.title,
-  description: study.challenge.slice(0, 160),
+  description: metaDescription,
   image: study.featuredImage || '/images/og-home.jpg',
   author: 'mybcat Team',
   datePublished: caseStudiesLastMod,
@@ -104,7 +111,7 @@ const articleSchema = generateArticleSchema({
 ---
 
 <PageLayout
-  title={`${study.client} Case Study | MyBCAT`}
+  title={pageTitle}
   description={metaDescription}
   breadcrumbs={[
     { name: 'Home', url: '/' },
@@ -119,6 +126,7 @@ const articleSchema = generateArticleSchema({
     <section class="study-hero">
       <div class="hero-meta">
         <span class="industry-badge">{study.industry}</span>
+        <span class:list={['proof-badge', { composite: isComposite }]}>{proofLabel}</span>
         <span class="divider">•</span>
         <span class="location">{study.location}</span>
         <span class="divider">•</span>
@@ -126,6 +134,24 @@ const articleSchema = generateArticleSchema({
       </div>
       <h1>{study.title}</h1>
       <p class="client-name">{study.client}</p>
+      <p class="hero-summary">{heroSummary}</p>
+    </section>
+
+    <!-- Proof Context -->
+    <section class="proof-context">
+      <div class="proof-card">
+        {study.proofNote && <p class="proof-note">{study.proofNote}</p>}
+        {study.bestFit && study.bestFit.length > 0 && (
+          <>
+            <h2>Best Fit</h2>
+            <div class="fit-list">
+              {study.bestFit.map(item => (
+                <span class="fit-chip">{item}</span>
+              ))}
+            </div>
+          </>
+        )}
+      </div>
     </section>
 
     <!-- Key Metrics -->
@@ -141,8 +167,24 @@ const articleSchema = generateArticleSchema({
           </div>
         ))}
       </div>
-      <p class="metrics-disclaimer">Results reported by {study.client} during the stated implementation period. Individual results vary based on practice size, patient volume, and market conditions.</p>
+      <p class="metrics-disclaimer">{metricsDisclaimer}</p>
     </section>
+
+    <!-- Snapshot -->
+    {study.snapshot && study.snapshot.length > 0 && (
+      <section class="content-section">
+        <h2>At a Glance</h2>
+        <div class="snapshot-grid">
+          {study.snapshot.map(item => (
+            <div class="snapshot-card">
+              <span class="snapshot-label">{item.label}</span>
+              <span class="snapshot-value">{item.value}</span>
+              {item.description && <span class="snapshot-description">{item.description}</span>}
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- Challenge -->
     <section class="content-section">
@@ -168,6 +210,21 @@ const articleSchema = generateArticleSchema({
         ))}
       </ul>
     </section>
+
+    <!-- Systems & Workflows -->
+    {study.systemsUsed && study.systemsUsed.length > 0 && (
+      <section class="content-section">
+        <h2>Systems & Workflows Involved</h2>
+        <ul class="implementation-list systems-list">
+          {study.systemsUsed.map(item => (
+            <li>
+              <span class="check">✓</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     <!-- Results -->
     <section class="content-section">
@@ -326,6 +383,70 @@ const articleSchema = generateArticleSchema({
     font-weight: 600;
   }
 
+  .hero-summary {
+    margin: 16px auto 0;
+    max-width: 680px;
+    font-size: 1.02rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+  }
+
+  .proof-badge {
+    padding: 6px 14px;
+    background: rgba(14, 165, 233, 0.12);
+    color: #0369a1;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .proof-badge.composite {
+    background: rgba(217, 119, 6, 0.12);
+    color: #b45309;
+  }
+
+  .proof-context {
+    margin-bottom: 32px;
+  }
+
+  .proof-card {
+    padding: 24px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+  }
+
+  .proof-card h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin: 18px 0 10px;
+  }
+
+  .proof-note {
+    margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+  }
+
+  .fit-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .fit-chip {
+    display: inline-flex;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(0, 96, 100, 0.08);
+    color: var(--navy-900);
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 600;
+  }
+
   /* Metrics */
   .metrics-section {
     margin-bottom: 48px;
@@ -364,6 +485,44 @@ const articleSchema = generateArticleSchema({
   .metric-description {
     font-size: 12px;
     color: var(--text-muted);
+  }
+
+  .snapshot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+  }
+
+  .snapshot-card {
+    padding: 20px;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+  }
+
+  .snapshot-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .snapshot-value {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--navy-900);
+  }
+
+  .snapshot-description {
+    display: block;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--text-secondary);
   }
 
   /* Content Sections */
@@ -408,6 +567,10 @@ const articleSchema = generateArticleSchema({
     color: var(--oceanic-teal);
     font-weight: 700;
     flex-shrink: 0;
+  }
+
+  .systems-list li {
+    align-items: center;
   }
 
   .timeline-badge {
