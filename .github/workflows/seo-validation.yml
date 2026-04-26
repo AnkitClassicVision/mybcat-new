@@ -21,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -43,7 +45,12 @@ jobs:
       - name: Validate Enterprise Links
         run: npm run validate:enterprise-links
 
-      - name: Validate Content Quality
+      - name: Validate Content Quality (PR — diff-scoped)
+        if: github.event_name == 'pull_request'
+        run: npm run validate:content-quality -- --changed-files-only
+
+      - name: Validate Content Quality (push — full new-only)
+        if: github.event_name == 'push'
         run: npm run validate:content-quality -- --new-only
 
       - name: Validate Cross-Links
@@ -55,7 +62,12 @@ jobs:
       - name: Validate Publish Dates
         run: npm run validate:publish-dates
 
-      - name: Validate Citations
+      - name: Validate Citations (PR — diff-scoped)
+        if: github.event_name == 'pull_request'
+        run: npm run validate:citations -- --changed-files-only
+
+      - name: Validate Citations (push — full)
+        if: github.event_name == 'push'
         run: npm run validate:citations
 
   post-build-validation:

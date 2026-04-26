@@ -9,9 +9,10 @@
  * Soft-fail (warning): em dashes, AI banned phrases.
  *
  * Flags:
- *   --scheduled-only  Only check posts with status=scheduled and scheduledDate<=today
- *   --new-only        Skip posts published before 2026-01-01 (avoids legacy noise)
- *   --verbose / -v    Show passing files too
+ *   --scheduled-only        Only check posts with status=scheduled and scheduledDate<=today
+ *   --new-only              Skip posts published before legacyCutoffDate (avoids legacy noise)
+ *   --changed-files-only    Only check blog files in `git diff origin/main...HEAD` (PR-scoped)
+ *   --verbose / -v          Show passing files too
  *
  * Exports validateFile() for programmatic use.
  *
@@ -20,6 +21,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 import matter from 'gray-matter';
 import { fileURLToPath, pathToFileURL } from 'url';
 
@@ -375,11 +377,35 @@ export function validateFile(filePath, config, taxonomy) {
   return { errors, warnings };
 }
 
+/**
+ * Resolve the set of blog files changed vs origin/main. Returns a Set of
+ * basenames (e.g. "foo.md") or null if git lookup fails / not in a repo.
+ * Caller treats null as "no filter; check everything".
+ */
+function getChangedBlogFiles() {
+  try {
+    const out = execSync('git diff --name-only origin/main...HEAD', {
+      encoding: 'utf-8',
+      stdio: ['pipe', 'pipe', 'pipe'],
+    });
+    const blogPrefix = 'src/content/blog/';
+    const changed = out
+      .split('\n')
+      .filter(line => line.startsWith(blogPrefix))
+      .map(line => path.basename(line));
+    return new Set(changed);
+  } catch (err) {
+    console.error(`${colors.yellow}WARN: --changed-files-only could not resolve git diff (${err.message.split('\n')[0]}); checking all files${colors.reset}`);
+    return null;
+  }
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const verbose = args.includes('--verbose') || args.includes('-v');
   const scheduledOnly = args.includes('--scheduled-only');
   const newOnly = args.includes('--new-only');
+  const changedFilesOnly = args.includes('--changed-files-only');
 
   console.log(`${colors.bold}Content Quality Validator${colors.reset}\n`);
 
@@ -395,12 +421,23 @@ async function main() {
   const today = new Date().toISOString().split('T')[0];
   const legacyCutoff = config.thresholds.legacyCutoffDate;
 
+  const changedFiles = changedFilesOnly ? getChangedBlogFiles() : null;
+  if (changedFiles) {
+    console.log(`Scoped to ${changedFiles.size} blog file(s) changed vs origin/main\n`);
+  }
+
   let errorCount = 0;
   let warningCount = 0;
   let checkedCount = 0;
   let skippedCount = 0;
 
   for (const file of files) {
+    // --changed-files-only: skip files not in this PR's diff
+    if (changedFiles && !changedFiles.has(file)) {
+      skippedCount++;
+      continue;
+    }
+
     const filePath = path.join(BLOG_DIR, file);
     const raw = fs.readFileSync(filePath, 'utf-8');
     const { data } = matter(raw);

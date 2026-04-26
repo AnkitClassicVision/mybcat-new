@@ -13,14 +13,16 @@
  *   node scripts/validators/validate-citations.js [--fix-suggestions] [--concurrency=5] [--timeout=10000]
  *
  * Options:
- *   --fix-suggestions  Show suggested replacement sources for dead links
- *   --concurrency=N    Max parallel requests (default: 5)
- *   --timeout=N        Request timeout in ms (default: 10000)
- *   --new-only         Skip posts published before legacyCutoffDate (from content-quality-rules.json)
+ *   --fix-suggestions      Show suggested replacement sources for dead links
+ *   --concurrency=N        Max parallel requests (default: 5)
+ *   --timeout=N            Request timeout in ms (default: 10000)
+ *   --new-only             Skip posts published before legacyCutoffDate (from content-quality-rules.json)
+ *   --changed-files-only   Only check blog files in `git diff origin/main...HEAD` (PR-scoped)
  */
 
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
 
@@ -180,9 +182,32 @@ async function processWithConcurrency(items, concurrency, fn) {
   return Promise.all(results);
 }
 
+/**
+ * Resolve the set of blog files changed vs origin/main. Returns a Set of
+ * basenames or null if git lookup fails / not in a repo.
+ */
+function getChangedBlogFiles() {
+  try {
+    const out = execSync('git diff --name-only origin/main...HEAD', {
+      encoding: 'utf-8',
+      stdio: ['pipe', 'pipe', 'pipe'],
+    });
+    const blogPrefix = 'src/content/blog/';
+    const changed = out
+      .split('\n')
+      .filter(line => line.startsWith(blogPrefix))
+      .map(line => path.basename(line));
+    return new Set(changed);
+  } catch (err) {
+    console.error(`${colors.yellow}WARN: --changed-files-only could not resolve git diff (${err.message.split('\n')[0]}); checking all files${colors.reset}`);
+    return null;
+  }
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const newOnly = args.includes('--new-only');
+  const changedFilesOnly = args.includes('--changed-files-only');
   const concurrencyArg = args.find(a => a.startsWith('--concurrency='));
   const timeoutArg = args.find(a => a.startsWith('--timeout='));
   const concurrency = concurrencyArg ? parseInt(concurrencyArg.split('=')[1]) : 5;
@@ -197,6 +222,10 @@ async function main() {
   }
 
   const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+  const changedFiles = changedFilesOnly ? getChangedBlogFiles() : null;
+  if (changedFiles) {
+    console.log(`Scoped to ${changedFiles.size} blog file(s) changed vs origin/main\n`);
+  }
 
   let totalURLs = 0;
   let deadURLs = 0;
@@ -207,6 +236,8 @@ async function main() {
 
   // Collect all URLs from all files first
   for (const file of files) {
+    if (changedFiles && !changedFiles.has(file)) continue;
+
     const filePath = path.join(BLOG_DIR, file);
     const raw = fs.readFileSync(filePath, 'utf-8');
     const { data, content: body } = matter(raw);
