@@ -7,6 +7,7 @@ import Base from '@/layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import { isPostVisible } from '@utils/blog';
+import { getResponsiveSrcset } from '@utils/responsive-image';
 import Pagination from '@/components/blog/Pagination.astro';
 
 const PAGE_SIZE = 18;
@@ -94,20 +95,25 @@ const metaDescription = `Expert insights on patient intake, practice growth, and
               <a href={`/blog/${post.slug}/`} class="card-image-link">
                 {post.data.featuredImage && (
                   <div class="card-image">
-                    <picture>
-                      <source
-                        srcset={post.data.featuredImage.replace(/\.(png|jpg|jpeg)$/i, '.webp')}
-                        type="image/webp"
-                      />
-                      <img
-                        src={post.data.featuredImage}
-                        alt={post.data.title}
-                        width="400"
-                        height="250"
-                        loading={index < 3 ? 'eager' : 'lazy'}
-                        decoding="async"
-                      />
-                    </picture>
+                    {(() => {
+                      const srcset = getResponsiveSrcset(post.data.featuredImage);
+                      // /blog/page/[N] grid: 3-col ≥1024px, 2-col 640-1024px, 1-col ≤640px
+                      const sizes = srcset
+                        ? "(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
+                        : undefined;
+                      return (
+                        <img
+                          src={post.data.featuredImage}
+                          srcset={srcset ?? undefined}
+                          sizes={sizes}
+                          alt={post.data.title}
+                          width="400"
+                          height="250"
+                          loading={index < 3 ? 'eager' : 'lazy'}
+                          decoding="async"
+                        />
+                      );
+                    })()}
                   </div>
                 )}
               </a>

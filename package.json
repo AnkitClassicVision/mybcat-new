@@ -24,6 +24,8 @@
     "images:optimize": "node scripts/optimize-images.js",
     "images:check": "node scripts/check-missing-webp.js",
     "images:check:fix": "node scripts/check-missing-webp.js --fix",
+    "images:variants": "node scripts/generate-image-variants.js",
+    "images:variants:dry": "node scripts/generate-image-variants.js --dry-run",
     "validate:terms": "node scripts/validators/validate-terms.js",
     "validate:meta": "node scripts/validators/validate-meta.js",
     "validate:h1": "node scripts/validators/validate-h1.js",

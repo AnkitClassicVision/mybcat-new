@@ -9,6 +9,7 @@ publishDate: '2026-04-28'
 status: scheduled
 scheduledDate: '2026-04-28'
 author: Ankit Patel
+category: Enterprise
 tags:
 - DSO centralized patient scheduling operations
 - multi-location
@@ -80,7 +81,7 @@ Quality assurance becomes critical at scale. Centralized hubs require [call moni
 
 Centralized scheduling requires four technology components working together: a unified phone system, practice management software integration, a centralized dashboard, and automated patient communication tools.
 
-The phone system must route calls from all locations to the centralized queue while maintaining local caller ID for outbound calls. Cloud-based phone platforms handle this through virtual extensions that map to physical locations. When agents call patients back, the caller ID displays the local practice number rather than an unfamiliar central number.
+The phone system must route calls from all locations to the centralized queue while maintaining the originating site's caller ID for outbound calls. Cloud-based phone platforms handle this through virtual extensions that map to physical locations. When agents call patients back, the caller ID displays the originating site's number rather than an unfamiliar central number.
 
 [Practice management software integration](/blog/ehr-pms-integration-centralized-scheduling-enterprise/) is the most complex technical requirement. DSOs often operate multiple PMS platforms across acquired practices. Centralized scheduling agents need read and write access to all systems from a single interface. Integration approaches range from multi-instance logins (agents toggle between systems) to unified middleware that provides a single scheduling interface across all PMS platforms.
 
