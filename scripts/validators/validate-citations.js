@@ -150,7 +150,13 @@ async function checkURLOnce(url, timeoutMs) {
     }
 
     clearTimeout(timer);
-    return { status: response.status, ok: response.status >= 200 && response.status < 400 };
+    // 200-399: alive. 403/429: alive but bot-blocked (WAF or rate limit) —
+    // CI's IP and our 'link validation' UA frequently trip Cloudflare/HHS-style
+    // bot detection on otherwise-fine pages; counting these as "dead" causes
+    // gate flap on every push. 404/410 + connection errors stay dead.
+    const status = response.status;
+    const ok = (status >= 200 && status < 400) || status === 403 || status === 429;
+    return { status, ok };
   } catch (err) {
     clearTimeout(timer);
     return { status: 0, ok: false, error: err.name === 'AbortError' ? 'timeout' : err.message };
@@ -166,7 +172,9 @@ async function checkURL(url, timeout) {
   const first = await checkURLOnce(url, timeout);
   if (first.ok) return first;
 
-  const isTransient = first.error === 'timeout' || (first.status >= 500 && first.status < 600);
+  // Retry on any network-level error (timeout, DNS, TLS, fetch failed)
+  // and on 5xx; permanent 4xx (404/410) stays dead immediately.
+  const isTransient = !!first.error || (first.status >= 500 && first.status < 600);
   if (!isTransient) return first;
 
   await new Promise(r => setTimeout(r, 500));
