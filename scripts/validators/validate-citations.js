@@ -150,13 +150,15 @@ async function checkURLOnce(url, timeoutMs) {
     }
 
     clearTimeout(timer);
-    // 200-399: alive. 403/429: alive but bot-blocked (WAF or rate limit) —
-    // CI's IP and our 'link validation' UA frequently trip Cloudflare/HHS-style
-    // bot detection on otherwise-fine pages; counting these as "dead" causes
-    // gate flap on every push. 404/410 + connection errors stay dead.
+    // Citation gate semantics: "is this page reachable as a source?"
+    // 404/410 mean the page is genuinely gone. Everything else (200-399,
+    // 401/403/405/429) means the server answered — even if a WAF blocked
+    // our bot UA. Counting WAF blocks as "dead" was causing per-push flap
+    // on legitimate authority sources (AAO, HHS, dentalcpaca, etc.).
+    // Connection errors (status 0) handled in the catch block below.
     const status = response.status;
-    const ok = (status >= 200 && status < 400) || status === 403 || status === 429;
-    return { status, ok };
+    const dead = status === 404 || status === 410;
+    return { status, ok: !dead };
   } catch (err) {
     clearTimeout(timer);
     return { status: 0, ok: false, error: err.name === 'AbortError' ? 'timeout' : err.message };
