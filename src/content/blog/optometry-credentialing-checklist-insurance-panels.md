@@ -20,6 +20,7 @@ featuredImage: /images/blog/optometry-credentialing-checklist-insurance-panels.w
 canonical: https://mybcat.com/blog/optometry-credentialing-checklist-insurance-panels/
 relatedPosts:
 - accounting-for-optometry-groups-multi-location
+- optometry-coding-and-billing-optimization
 ---
 
 Multi-location optometry groups lose between $9,000 and $15,000 per month for every uncredentialed provider sitting idle. That translates to roughly $300 to $500 per day in unrealized revenue while your new OD waits for insurance panel approval. When you multiply those figures across five, ten, or twenty locations simultaneously onboarding providers, the revenue leak compounds into a significant [EBITDA drag that PE sponsors notice immediately](/blog/multi-location-healthcare-ebitda/).
