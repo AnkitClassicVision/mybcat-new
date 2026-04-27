@@ -18,7 +18,7 @@ on:
 jobs:
   pre-build-validation:
     name: Pre-Build Checks
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
         with:
@@ -80,7 +80,7 @@ jobs:
 
   post-build-validation:
     name: Post-Build Checks
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: pre-build-validation
     steps:
       - uses: actions/checkout@v4
@@ -114,7 +114,7 @@ jobs:
 
   content-quality:
     name: Content Quality
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
 
