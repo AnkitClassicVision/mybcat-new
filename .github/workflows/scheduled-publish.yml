@@ -122,3 +122,28 @@ jobs:
           git add -A
           git commit -m "Publish scheduled posts for $(date +%Y-%m-%d)"
           git push
+
+      - name: Stage 18 — audit:live (Playwright fetch of published posts)
+        if: steps.check_changes.outputs.has_changes == 'true'
+        continue-on-error: true
+        env:
+          npm_config_cache: /home/github-runner/.npm
+        run: |
+          echo "🔍 Stage 18 audit:live — Playwright-fetch published URLs and verify they render correctly..."
+          BLOG_WRITER_DIR="/home/github-runner/seo-pipeline/repos/blog_writer"
+          if [ ! -d "$BLOG_WRITER_DIR" ]; then
+            echo "⚠️ blog_writer repo not found at $BLOG_WRITER_DIR, skipping"
+            exit 0
+          fi
+          cd "$BLOG_WRITER_DIR"
+          if [ ! -f scripts/audit_live.js ]; then
+            echo "⚠️ scripts/audit_live.js not found, skipping"
+            exit 0
+          fi
+          FROM_DATE=$(date -u -d "1 day ago" +%Y-%m-%d)
+          TO_DATE=$(date -u +%Y-%m-%d)
+          echo "Audit window: $FROM_DATE → $TO_DATE"
+          npm run audit:live -- --from="$FROM_DATE" --to="$TO_DATE" --status=published || {
+            echo "⚠️ Stage 18 audit:live reported issues — see live-audits/ output. continue-on-error preserves the run."
+            exit 0
+          }
