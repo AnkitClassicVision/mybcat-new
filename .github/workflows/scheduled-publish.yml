@@ -132,18 +132,24 @@ jobs:
           echo "🔍 Stage 18 audit:live — Playwright-fetch published URLs and verify they render correctly..."
           BLOG_WRITER_DIR="/home/github-runner/seo-pipeline/repos/blog_writer"
           if [ ! -d "$BLOG_WRITER_DIR" ]; then
-            echo "⚠️ blog_writer repo not found at $BLOG_WRITER_DIR, skipping"
+            echo "⚠️ blog_writer repo not found at $BLOG_WRITER_DIR (seeded by seo_autopilot.yml), skipping"
             exit 0
           fi
           cd "$BLOG_WRITER_DIR"
+          # Pull latest so we run the current scripts/audit_live.js
+          git fetch origin master --quiet || true
+          git checkout master --quiet || true
+          git pull --ff-only origin master --quiet || echo "git pull failed, continuing with local copy"
           if [ ! -f scripts/audit_live.js ]; then
             echo "⚠️ scripts/audit_live.js not found, skipping"
             exit 0
           fi
+          # Install only if node_modules is stale
+          if [ ! -d node_modules ] || [ package.json -nt node_modules ]; then
+            npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+          fi
           FROM_DATE=$(date -u -d "1 day ago" +%Y-%m-%d)
           TO_DATE=$(date -u +%Y-%m-%d)
           echo "Audit window: $FROM_DATE → $TO_DATE"
-          npm run audit:live -- --from="$FROM_DATE" --to="$TO_DATE" --status=published || {
-            echo "⚠️ Stage 18 audit:live reported issues — see live-audits/ output. continue-on-error preserves the run."
-            exit 0
-          }
+          # Let npm exit naturally. continue-on-error preserves the workflow.
+          npm run audit:live -- --from="$FROM_DATE" --to="$TO_DATE" --status=published
