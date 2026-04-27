@@ -1,13 +1,14 @@
 ---
-title: How Do Multi-Location Optometry Groups Choose the Right
-seoTitle: Optometry Practice Broker Selection for Multi-Location
-description: Learn how PE-backed optometry groups and DSOs evaluate and select practice
-  brokers capable of handling multi-location transactions. Includes the 7-point
+title: How to Choose an Optometry Practice Broker for
+seoTitle: How to Choose an Optometry Practice Broker | Multi-Location
+description: Enterprise guide for COOs and VPs of Operations on selecting an optometry
+  practice broker for 3+ location groups. Due diligence framework, fee structures,
+  and
 seoDescription: How to choose an optometry practice broker for multi-location groups.
-  7-point evaluation framework, red flags, fees, and selection process.
-publishDate: '2026-05-06'
+  Enterprise due diligence framework for DSOs and PE-backed portfolios.
+publishDate: '2026-05-05'
 status: scheduled
-scheduledDate: '2026-05-06'
+scheduledDate: '2026-05-05'
 author: Ankit Patel
 category: Business
 tags:
@@ -20,261 +21,399 @@ featuredImage: /images/blog/optometry-practice-broker-how-to-choose.webp
 canonical: https://mybcat.com/blog/optometry-practice-broker-how-to-choose/
 ---
 
-Multi-location optometry groups lose an estimated 15-20% of transaction value when they work with brokers who lack enterprise deal experience. For a 5-location group with $3 million in combined EBITDA, that represents $450,000 to $600,000 left on the table, whether selling to private equity or acquiring practices for platform expansion. This guide delivers the evaluation framework that PE-backed groups and DSO operators use to select brokers capable of handling multi-location complexity.
+Optometry practice broker selection determines whether your multi-location portfolio captures full market value or leaves significant proceeds on the table. For a PE-backed portfolio managing 15 locations with $30M in combined revenue, the difference between adequate and excellent representation can exceed $3.6M in a single transaction. This guide provides the enterprise framework for evaluating optometry practice brokers, specifically designed for COOs, VPs of Operations, and acquisition teams managing 3+ location portfolios.
 
 ## What You'll Learn
 
-1. [Why Does Broker Selection Matter More for Multi-Location Groups?](#why-does-broker-selection-matter-more-for-multi-location-groups)
-2. [What Makes a Multi-Location Transaction Different?](#what-makes-a-multi-location-transaction-different)
-3. [The 7-Point Broker Evaluation Framework](#the-7-point-broker-evaluation-framework)
-4. [How Do You Assess a Broker's Multi-Location Experience?](#how-do-you-assess-a-brokers-multi-location-experience)
-5. [What Integration Support Should You Expect?](#what-integration-support-should-you-expect)
-6. [How Should You Evaluate Broker Fees and Alignment?](#how-should-you-evaluate-broker-fees-and-alignment)
-7. [What Red Flags Disqualify a Broker Immediately?](#what-red-flags-disqualify-a-broker-immediately)
-8. [How Do You Structure the Broker Selection Process?](#how-do-you-structure-the-broker-selection-process)
+1. [Why Does Broker Selection Matter for Multi-Location Groups?](#why-does-broker-selection-matter-for-multi-location-groups)
+2. [What Distinguishes Enterprise-Grade Brokers from Generalists?](#what-distinguishes-enterprise-grade-brokers-from-generalists)
+3. [How Should You Evaluate Broker Fee Structures at Scale?](#how-should-you-evaluate-broker-fee-structures-at-scale)
+4. [How Should You Assess a Broker's Due Diligence Capabilities?](#how-should-you-assess-a-brokers-due-diligence-capabilities)
+5. [How Do Top Groups Vet Broker Healthcare Specialization?](#how-do-top-groups-vet-broker-healthcare-specialization)
+6. [What Questions Should Your RFP Include?](#what-questions-should-your-rfp-include)
+7. [How Do You Align Broker Selection with Portfolio Strategy?](#how-do-you-align-broker-selection-with-portfolio-strategy)
+8. [Related Reading](#related-reading)
+9. [Sources](#sources)
 
-## Why Does Broker Selection Matter More for Multi-Location Groups?
+## Why Does Broker Selection Matter for Multi-Location Groups?
 
-Single-location practice sales follow a predictable pattern: one seller, one buyer, one set of financials, one integration plan. Multi-location transactions multiply every variable. You coordinate across 3, 5, or 15 sites with different lease terms, staff compositions, payor mixes, and operational workflows.
+The difference between a generalist business broker and a specialized optometry practice broker becomes magnified when operating at scale. A single-location owner selling their practice faces different challenges than a regional group divesting three underperforming locations or a PE-backed platform acquiring eight practices to consolidate a market.
 
-### The Scale Multiplier Effect
+### The Enterprise Complexity Factor
 
-When a broker handles a single-location sale, they manage one P&L statement, one equipment inventory, and one transition timeline. Multi-location deals require synchronized analysis across all sites, identifying which locations strengthen the portfolio and which drag down the composite valuation.
+Multi-location transactions introduce variables that single-practice deals never encounter. You're not just selling a practice; you're selling operational systems, transferable SOPs, centralized reporting infrastructure, and proven scalability. According to [Kaufman Hall's 2024 M&A analysis](https://www.kaufmanhall.com/insights/infographic/hospital-and-health-system-ma-trends-2024), healthcare M&A deal volume increased 9.4% in Q4 2024 to 869 deals, with healthcare services representing the most active subsector at 427 transactions. This volume creates competitive pressure that rewards groups with specialized representation.
 
-Consider the math: A broker who misvalues one location by 10% in a single-practice deal costs you a fraction of the total. That same 10% error across five locations compounds into a material loss that affects your EBITDA multiple and, ultimately, your exit valuation.
+### Valuation Multiples Depend on Representation Quality
 
-### Enterprise Buyers Expect Enterprise Process
+Optometry practices transact at EBITDA multiples ranging from 2.97x to 4.06x for small to medium clinics, according to [Peak Business Valuation research](https://peakbusinessvaluation.com/valuation-multiples-for-an-optometry-clinic/). That range represents a 36% variance between low and high outcomes. For a portfolio generating $5M in normalized EBITDA across 10 locations, the difference between a 2.97x and 4.06x multiple represents more than $5.4M in transaction value. Broker selection directly impacts whether your transaction returns $14.8M or $20.3M.
 
-Private equity firms and established DSOs evaluate acquisition targets differently than individual ODs buying their first practice. They scrutinize centralized reporting capabilities, standardized operations, and scalable processes. A broker unfamiliar with these expectations cannot position your group effectively.
+### The Multi-Location Premium Requires Specialized Positioning
 
-PE buyers specifically look for practices able to service debt and demonstrate consistent ROI. They prioritize payor mix diversity, medical services revenue (which commands higher valuations than routine vision care), and operational metrics that indicate scalability.
+Brokers who understand enterprise optometry know how to position operational maturity as a valuation driver. Documented SOPs, centralized scheduling systems, standardized EHR implementations, and consistent patient experience protocols command premium multiples. A generalist broker sees these as background details. An enterprise-grade optometry broker positions them as transferable infrastructure that reduces buyer integration risk.
 
-### Portfolio-Level Thinking Required
+## What Distinguishes Enterprise-Grade Brokers from Generalists?
 
-The broker you select must think beyond individual practice performance. They need to articulate how your locations complement each other geographically, operationally, and financially. This portfolio perspective distinguishes enterprise-capable brokers from those who simply bundle multiple single-practice listings together.
+Not all brokers who claim healthcare experience can execute multi-location transactions effectively. The distinction matters most in three operational dimensions that directly affect your transaction outcomes.
 
-## What Makes a Multi-Location Transaction Different?
+### Buyer Network Depth and Quality
 
-The fundamental difference between single and multi-location deals extends beyond transaction size. Multi-location transactions introduce coordination challenges, portfolio optimization questions, and integration complexity that most brokers never encounter.
+Enterprise brokers maintain active relationships with PE firms, strategic consolidators, and well-capitalized independents specifically seeking multi-location optometry acquisitions. Generalist brokers typically post listings on marketplaces and wait for inbound interest. The difference in buyer quality affects both valuation and deal certainty.
 
-### Portfolio Valuation Complexity
+A broker with established PE relationships can run a targeted process, creating competitive tension among qualified buyers. Industry experience suggests this approach produces materially higher valuations than passive marketplace listings because buyers compete knowing other qualified parties are engaged. For your 5-location group with $8M in combined revenue, competitive bidding dynamics can represent $1M or more in additional transaction value.
 
-Individual practices trade at 2-4x EBITDA for standalone optometry, according to industry analyses. Multi-location portfolios can command premiums of 4-6x when positioned correctly, but only if the broker understands how to present aggregate value.
+### Healthcare Regulatory Expertise
 
-This requires normalizing financials across locations with different accounting practices, identifying cross-subsidization between sites, and presenting a unified growth narrative. Brokers without multi-location experience often apply single-practice valuation methodologies that undervalue the portfolio.
+Optometry transactions involve Stark Law compliance considerations, state-specific corporate practice of medicine restrictions, and managed care contract assignment complexities. Generalist brokers frequently underestimate these regulatory requirements, leading to deal delays or failed closings.
 
-### Operational Due Diligence at Scale
+Enterprise optometry brokers maintain relationships with healthcare transaction attorneys and understand how to structure deals that satisfy regulatory requirements while maximizing value. They know which states permit direct practice ownership, which require management services organization structures, and how to work through corporate practice restrictions that vary by jurisdiction.
 
-Enterprise buyers conduct operational due diligence that solo-practice buyers skip entirely. They examine your call handling metrics, patient retention rates, scheduling efficiency, and front-office standardization across all locations.
+### Integration Planning Capabilities
 
-A broker must understand [how operational metrics impact EBITDA](/blog/multi-location-healthcare-ebitda/) to position these factors as value drivers rather than afterthoughts. This means documenting your patient access processes, demonstrating consistent service delivery, and quantifying operational improvements you have implemented.
+PE buyers and strategic acquirers evaluate practices based on integration complexity. A broker who can present your practice with detailed integration timelines, technology migration plans, and staff transition frameworks reduces perceived buyer risk. Lower perceived risk translates to higher valuations and faster closings.
 
-### Integration Planning From Day One
+The best enterprise brokers proactively prepare integration documentation before going to market. This preparation demonstrates operational sophistication and positions your group as a lower-risk acquisition target. Groups working with integration-focused brokers report 20-30% faster closing timelines, according to [MA Healthcare Advisors' 2024 end-of-year review](https://mahealthcareadvisors.com/2024-end-of-year-review/).
 
-Unlike single-practice deals where integration happens after closing, multi-location acquisitions require integration planning during the sales process. Buyers want to understand how quickly they can standardize operations, consolidate vendors, and realize synergies.
+## How Should You Evaluate Broker Fee Structures at Scale?
 
-Your broker should facilitate these conversations by preparing documentation that addresses integration timelines, technology stack compatibility, and staff retention strategies. Review the [90-day integration playbook](/blog/90-day-integration-playbook-healthcare-acquisitions/) for the specific milestones buyers expect.
+Healthcare practice brokers typically charge 6-12% of sale price, with success-based compensation models dominating the industry according to [Practice Transitions Group](https://practicetransitionsgroup.com/blog/how-do-brokers-get-paid/). Fee structure evaluation for multi-location transactions requires more nuanced analysis than simply comparing percentages.
 
-## The 7-Point Broker Evaluation Framework
+### Understanding Tiered Fee Arrangements
 
-Operations leaders at successful multi-location groups evaluate brokers using a structured framework rather than relying on referrals alone. This seven-point system addresses the specific requirements of enterprise transactions.
+Most enterprise brokers offer tiered fee structures that reduce percentage rates as transaction values increase. These are typically flat rates based on transaction size tiers, not marginal calculations. A typical structure applies the percentage to the entire deal based on which tier it falls into:
 
-### Point 1: Documented Multi-Location Transaction History
+<div style="background: #f8fafc; border-radius: 12px; padding: 24px; margin: 24px 0; border: 1px solid #e2e8f0;">
+<h4 style="margin-top: 0; color: #1e293b;">Sample Tiered Fee Structure (Flat Rate per Tier)</h4>
+<table style="width: 100%; border-collapse: collapse;">
+<tr style="border-bottom: 1px solid #e2e8f0;">
+<th style="text-align: left; padding: 8px 0;">Transaction Value</th>
+<th style="text-align: left; padding: 8px 0;">Commission Rate</th>
+<th style="text-align: left; padding: 8px 0;">Example Fee</th>
+</tr>
+<tr style="border-bottom: 1px solid #e2e8f0;">
+<td style="padding: 8px 0;">$0 - $5M</td>
+<td style="padding: 8px 0;">10%</td>
+<td style="padding: 8px 0;">$500,000 on $5M deal</td>
+</tr>
+<tr style="border-bottom: 1px solid #e2e8f0;">
+<td style="padding: 8px 0;">$5M - $15M</td>
+<td style="padding: 8px 0;">8%</td>
+<td style="padding: 8px 0;">$800,000 on $10M deal</td>
+</tr>
+<tr>
+<td style="padding: 8px 0;">$15M+</td>
+<td style="padding: 8px 0;">6%</td>
+<td style="padding: 8px 0;">$1.5M on $25M deal</td>
+</tr>
+</table>
+</div>
 
-Request a list of completed transactions involving 3+ locations within the past three years. A qualified broker should provide (with appropriate confidentiality) deal sizes, transaction structures, and outcome metrics.
+For a multi-location group selling a $20M portfolio, a tiered structure results in significantly lower effective commission rates than flat percentage arrangements. Clarify with each broker whether they use flat tier-based or marginal sliding scale calculations, as this affects total fees substantially.
 
-Red flags include brokers who describe multi-location "experience" that consists only of advising on single practices owned by the same group. Handling five separate single-practice sales for one client differs fundamentally from executing a coordinated portfolio transaction.
+### Retainer vs. Success-Only Models
 
-### Point 2: PE and DSO Network Access
+Some brokers require upfront retainers ranging from $25,000 to $100,000 for multi-location engagements. This retainer covers pre-market preparation work including valuation analysis, confidential information memorandum creation, and buyer list development.
 
-Enterprise brokers maintain active relationships with private equity firms and established DSOs actively deploying capital in the vision care sector. Ask for a list of buyers the broker has closed deals with in the past 24 months.
+Success-only models eliminate upfront costs but may attract brokers less committed to your specific transaction. When evaluating these models, consider whether the broker has sufficient financial resources to invest adequately in your deal without upfront compensation.
 
-Major players like EyeCare Partners, VSP Vision, and regional DSO platforms represent different buyer profiles with different acquisition criteria. Your broker should articulate how your group aligns with specific buyer mandates, not just promise to "market widely."
+### Hidden Cost Considerations
 
-### Point 3: Valuation Methodology Sophistication
+Evaluate what the base fee includes versus what generates additional charges. Common add-on costs include:
 
-Solo-practice brokers often rely on rules of thumb: "practices sell for 60-80% of gross revenue" or "expect 3x collections." Multi-location groups require normalized EBITDA analysis with adjustments for owner compensation, non-recurring expenses, and inter-company transactions.
+- Third-party valuation reports ($5,000-$15,000 per location)
+- Legal coordination fees (1-2% of transaction value)
+- Data room setup and management ($2,000-$5,000)
+- Travel expenses for buyer meetings ($10,000-$30,000 for multi-location portfolios)
 
-Ask the broker to walk through their valuation approach for a hypothetical multi-location deal. They should discuss EBITDA normalization, location-specific risk factors, portfolio premium calculations, and how medical services revenue affects multiples.
+Request a full fee schedule during the RFP process and confirm that quoted percentages represent all-in costs. A broker quoting 7% with extensive add-ons may cost more than a broker quoting 9% with inclusive pricing.
 
-### Point 4: Transaction Team Depth
+## How Should You Assess a Broker's Due Diligence Capabilities?
 
-Multi-location deals require coordinated work across legal, financial, and operational diligence streams. Your broker should have (or work with) specialists in healthcare M&A law, practice valuation, and transition planning.
+Enterprise optometry acquisitions require structured due diligence that extends beyond single-practice financial reviews. The broker you select should demonstrate mastery of the operational, financial, and strategic dimensions that sophisticated buyers scrutinize.
 
-A solo practitioner moonlighting as a broker cannot manage the complexity of a multi-location transaction. Ask about the broker's team structure, their relationships with healthcare-specialized attorneys, and how they coordinate the various advisory functions.
+### Evaluating Financial Analysis Depth
 
-### Point 5: Confidential Information Memorandum Quality
+Ask potential brokers how they approach multi-location due diligence. Strong brokers analyze each practice independently while also assessing portfolio-level synergies. They should articulate how they handle normalized EBITDA calculations that account for multi-location overhead allocation, same-store revenue trends across 3-5 year periods, and payer mix concentration analysis by location.
 
-Request sample CIMs (Confidential Information Memorandums) from previous multi-location deals (with identifying information redacted). The CIM represents your group to potential buyers, and its quality directly affects buyer interest and initial valuation perceptions.
+According to [ODs on Finance methodology](https://odsonfinance.com/methods-of-valuing-an-optometry-private-practice-a-comprehensive-guide/), optometry valuations blend income-based approaches using EBITDA multiples, market-based methods using comparable sales data, and asset-based calculations for tangible equipment value. Enterprise brokers should demonstrate fluency with all three methodologies and present location-by-location breakdowns.
 
-Enterprise-quality CIMs include three years of P&L by location, KPI benchmarking data (revenue per exam, capture rates, exams per OD hour), growth trajectory analysis, and operational infrastructure documentation.
+### Understanding Operational Risk Assessment
 
-### Point 6: Process Timeline and Milestones
+Buyers increasingly focus on operational transferability. Evaluate whether the broker understands these dynamics:
 
-Multi-location transactions take longer than single-practice deals. A realistic timeline spans 8-14 months from engagement to close, depending on deal complexity and market conditions.
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 32px 0;">
+<div style="background: #fef2f2; border-radius: 12px; padding: 24px; border-left: 4px solid #ef4444;">
+<h4 style="color: #dc2626; margin-top: 0;">Red Flags That Reduce Value</h4>
+<p><strong>Key producer concentration:</strong> Top-heavy production among 1-2 associate ODs</p>
+<p><strong>Staff transition risk:</strong> Critical roles without succession plans</p>
+<p><strong>Inconsistent systems:</strong> Different PMS/EHR across locations</p>
+<p><strong>Declining capture rates:</strong> Below 65% optical capture</p>
+</div>
+<div style="background: #f0fdf4; border-radius: 12px; padding: 24px; border-left: 4px solid #22c55e;">
+<h4 style="color: #16a34a; margin-top: 0;">Value Drivers That Command Premium</h4>
+<p><strong>Documented SOPs:</strong> Transferable operational playbooks</p>
+<p><strong>Centralized systems:</strong> Unified scheduling, reporting, recall</p>
+<p><strong>Strong retention:</strong> Staff tenure averaging 3+ years</p>
+<p><strong>Growth trajectory:</strong> 5%+ same-store revenue growth</p>
+</div>
+</div>
 
-Your broker should present a detailed process with specific milestones: preparation phase (2-3 months), marketing phase (2-4 months), negotiations and LOI (1-2 months), and due diligence through close (3-5 months). Brokers promising faster timelines either lack experience or plan to cut corners.
+### Testing Integration Documentation Expertise
 
-### Point 7: Post-LOI Support Structure
+Sophisticated buyers want to understand integration complexity before submitting offers. Ask broker candidates to describe what integration documentation they prepare and how it affects buyer offers.
 
-The period between letter of intent and closing often determines transaction success. Due diligence requests multiply, integration questions arise, and unexpected issues surface.
+Strong brokers prepare documentation addressing EHR migration timelines by location, staff retention incentive structures, patient communication transition plans, and brand continuity strategies. This preparation reduces buyer due diligence timelines and increases offer competitiveness. Brokers who cannot articulate specific integration deliverables may lack the experience required for multi-location transactions.
 
-Ask how the broker supports clients through this phase. Do they coordinate diligence responses? Do they facilitate integration planning conversations? Do they have experience with common deal-breakers and how to resolve them?
+## How Do Top Groups Vet Broker Healthcare Specialization?
 
-## How Do You Assess a Broker's Multi-Location Experience?
+Claimed specialization differs from demonstrated expertise. Use these verification methods to assess whether a broker truly understands enterprise optometry transactions.
 
-Beyond the seven-point framework, several specific questions reveal whether a broker genuinely understands multi-location transactions.
+### Transaction History Analysis
 
-### Ask About Portfolio Optimization
+Request a detailed list of completed optometry transactions from the past 36 months, including transaction sizes, time-to-close metrics, and final valuation multiples achieved. Enterprise brokers should demonstrate experience with transactions in your size range and complexity level.
 
-How should you handle underperforming locations before going to market? A sophisticated broker will discuss options: divest weak locations separately, improve operations pre-sale, or structure deals with earn-outs tied to turnaround success.
+Specifically ask for references from multi-location deals. A broker who has completed dozens of single-practice transactions but only one or two multi-location portfolios may lack the experience needed for your transaction.
 
-This question tests whether the broker thinks strategically about portfolio composition or simply takes whatever you hand them to market.
+### Buyer Relationship Verification
 
-### Test Integration Knowledge
+Ask the broker to describe their relationships with the top 10 PE firms active in optometry M&A and the top 5 strategic consolidators in your region. Probe for specifics: When did they last complete a transaction with each buyer? What types of practices do those buyers prioritize? What valuation ranges are those buyers currently deploying?
 
-What are the three most common integration failures in multi-location optometry acquisitions? Experienced brokers cite specific examples: EHR migration challenges, key staff departures, payor re-credentialing delays, or patient attrition during transitions.
+Generalist brokers will provide vague answers about "strong relationships with multiple buyers." Enterprise specialists will name specific deal contacts, describe recent transactions, and explain buyer-specific preferences and concerns.
 
-Generic answers about "cultural fit" without operational specifics suggest the broker lacks real-world enterprise deal experience.
+### Regulatory Knowledge Assessment
 
-### Evaluate Operational Understanding
+Test the broker's healthcare regulatory knowledge with scenario-based questions. For example: "How would you structure a sale to a PE buyer in a state with corporate practice of medicine restrictions?" Or: "What managed care contract assignment issues should we anticipate for our practices with significant Medicare Advantage enrollment?"
 
-How do patient access metrics affect valuation? Multi-location buyers increasingly scrutinize [operational KPIs like answer rates and scheduling efficiency](/blog/healthcare-group-operations-benchmarks/). A broker who cannot discuss these factors will struggle to position your group effectively.
+Brokers who hesitate or provide generic answers may lack the specialized knowledge required for your transaction. Healthcare-focused brokers should answer confidently and reference specific deal experiences where they addressed similar issues.
 
-The [pre-sale operational cleanup](/blog/pre-sale-operational-cleanup-intake-valuation/) you complete before engaging a broker directly impacts the multiple you achieve.
+### Technology Platform Capabilities
 
-## What Integration Support Should You Expect?
+Modern enterprise brokers operate sophisticated deal management platforms that track buyer engagement, manage confidential information access, and provide real-time transaction analytics. Ask for a demonstration of their deal platform and evaluate whether it provides the visibility and control appropriate for a multi-location transaction.
 
-Multi-location transactions do not end at closing. The value you realize depends on successful integration, and your broker should facilitate this process.
+Manual processes using email and spreadsheets may work for single-practice deals but create unacceptable risk for portfolio transactions involving multiple buyer conversations and complex documentation requirements.
 
-### Buyer Introduction and Fit Assessment
+## What Questions Should Your RFP Include?
 
-Beyond identifying potential buyers, your broker should assess operational fit. Will the buyer's integration approach disrupt patient care? Will key staff be retained? How do the buyer's systems and processes align with your current operations?
+Structuring your broker selection as a formal RFP process creates competitive tension and ensures consistent evaluation criteria. The following categories should anchor your RFP requirements.
 
-These questions matter more in multi-location deals because integration affects multiple sites simultaneously. A poor integration plan can damage patient relationships across your entire network, not just one location.
+### Qualification Questions
 
-### Transition Documentation Preparation
+Start with threshold requirements that candidates must satisfy to receive full evaluation:
 
-Sophisticated brokers help prepare transition documentation: staff rosters with retention recommendations, vendor contract summaries with renegotiation opportunities, and technology inventory with compatibility assessments.
+1. How many optometry-specific transactions have you completed in the past 24 months?
+2. What percentage of your practice involves healthcare M&A versus general business brokerage?
+3. Describe your firm's compliance infrastructure for managing confidential healthcare transaction data.
+4. What errors and omissions insurance coverage do you maintain specific to healthcare M&A advisory?
 
-This documentation accelerates due diligence and demonstrates operational maturity to buyers. Review [healthcare operations M&A integration](/blog/healthcare-operations-ma-integration/) for the specific documentation buyers expect.
+### Process and Timeline Questions
 
-### Post-Close Coordination
+Understand the broker's proposed approach and realistic timeline expectations:
 
-Some brokers provide 30-60 days of post-close support to address transition issues. This can include facilitating communication between your management team and new ownership, resolving unexpected operational questions, and ensuring smooth handoffs.
+1. Walk us through your standard process for bringing a multi-location optometry portfolio to market.
+2. What pre-market preparation work do you require, and how long does that phase typically take?
+3. How do you manage buyer qualification and confidentiality for sensitive healthcare transactions?
+4. What is your typical time-to-close for transactions in our size range?
 
-## How Should You Evaluate Broker Fees and Alignment?
+### Valuation and Positioning Questions
 
-Broker compensation structures create incentives that may or may not align with your objectives. Understanding these structures helps you select a broker whose interests match yours.
+Evaluate the broker's analytical capabilities and market knowledge:
 
-### Standard Fee Structures
+1. Based on preliminary information, what valuation range do you anticipate for our portfolio?
+2. What specific factors would drive our valuation toward the upper end of that range?
+3. How would you position our operational infrastructure to command premium multiples?
+4. Describe comparable transactions you've completed that inform your valuation expectations.
 
-Healthcare practice brokers typically charge 5-10% of the transaction value, with the percentage often decreasing as deal size increases. A $2 million single-practice sale might pay 10%, while a $15 million multi-location portfolio might pay 6-7%.
+### Fee Structure and Terms
 
-Some brokers charge retainer fees ($2,500-$10,000) plus a success fee, while others work purely on success-based compensation. Neither structure is inherently better, but understand how the structure affects broker behavior.
+Confirm compensation details before entering final negotiations:
 
-### Alignment Considerations
+1. Provide a full fee schedule including base commission, retainer requirements, and any additional charges.
+2. Under what circumstances would fees differ from your standard structure?
+3. What performance incentives, if any, do you offer for exceeding initial valuation targets?
+4. Describe your policy regarding fee adjustments if the transaction does not close.
 
-Success-only compensation creates urgency to close deals, which can pressure you toward accepting lower offers. Retainer-plus-success structures provide the broker some guaranteed income, potentially allowing them to hold out for better terms.
+## How Do You Align Broker Selection with Portfolio Strategy?
 
-For multi-location deals, consider brokers who structure fees around achieving specific valuation thresholds. This aligns their incentive with maximizing your outcome rather than simply closing any deal.
+Your broker selection should reflect your broader portfolio strategy. Different strategic objectives require different broker capabilities.
 
-### Hidden Costs to Evaluate
+### Growth Through Acquisition Strategy
 
-Beyond broker fees, assess what additional services you will need. Will you require independent valuation, separate from what the broker provides? Will you need specialized healthcare M&A legal counsel? Will integration consulting fall outside the broker's scope?
+If your group is primarily a buyer seeking to acquire additional practices, your broker relationship should emphasize buy-side capabilities. Key considerations include:
 
-A slightly higher broker fee that includes full-service support may cost less than a lower fee plus multiple additional advisors.
+<div style="background: #eff6ff; border-radius: 12px; padding: 24px; margin: 24px 0; border-left: 4px solid #3b82f6;">
+<h4 style="margin-top: 0; color: #1e40af;">Buy-Side Broker Requirements</h4>
+<ul style="margin-bottom: 0;">
+<li><strong>Off-market deal flow:</strong> Access to practices not publicly listed</li>
+<li><strong>Seller relationship depth:</strong> Trusted advisor status with potential sellers</li>
+<li><strong>Regional market knowledge:</strong> Understanding of local competitive dynamics</li>
+<li><strong>Integration support:</strong> Post-close operational assistance capabilities</li>
+</ul>
+</div>
 
-## What Red Flags Disqualify a Broker Immediately?
+Groups executing roll-up strategies should consider retainer-based arrangements that incentivize proactive deal sourcing rather than reactive marketplace searches.
 
-Multi-location transactions expose groups to significant risk when brokers lack qualification or integrity. These red flags warrant immediate disqualification.
+### Portfolio Optimization Strategy
 
-### Lack of Healthcare M&A Specifics
+If your objective involves divesting underperforming locations while retaining core operations, you need a broker capable of presenting partial portfolio sales without undermining remaining operations. This requires careful buyer qualification to exclude competitors who might use the transaction to damage your retained locations.
 
-Brokers who describe "business brokerage experience" without specific healthcare M&A credentials raise concerns. Healthcare transactions involve regulatory compliance (Stark Law, Anti-Kickback Statute, HIPAA), credentialing requirements, and payor contracting complexities that generalist brokers do not understand.
+The broker should also understand how to structure transactions that preserve operational continuity for retained practices, including shared services agreements, brand licensing, and transitional support arrangements.
 
-Ask about specific healthcare compliance issues they have navigated. Blank stares or generic responses indicate insufficient experience.
+### Full Exit Strategy
 
-### Single-Practice Pitch Applied to Multi-Location
+PE-backed groups approaching investment timeline horizons need brokers experienced with platform sales to strategic or financial buyers. These transactions involve additional complexity including management incentive structures, earnout negotiations, and representations and warranties insurance considerations.
 
-If the broker's marketing materials, engagement letters, or presentation materials read like single-practice templates with "multiple locations" inserted, they lack genuine multi-location capability.
+Full exit transactions also require sophisticated tax planning coordination. Your broker should work effectively with your tax advisors to structure transactions that optimize after-tax proceeds, which may involve installment sale structures, qualified small business stock elections, or opportunity zone reinvestment strategies.
 
-Request examples of how their process differs for multi-location versus single-practice transactions. The differences should be substantial and specific.
+## The Integration Dimension: Why Post-Close Matters
 
-### No Buyer Due Diligence Process
+Many groups overlook integration capabilities when selecting brokers, focusing exclusively on transaction execution. Deals that close well but integrate poorly destroy value rapidly. Your broker selection should account for post-close support requirements.
 
-Qualified brokers screen potential buyers before sharing your confidential information. They verify financial capacity, assess strategic fit, and evaluate buyer reputation.
+### Transition Planning Support
 
-Brokers who promise to "get your listing in front of as many buyers as possible" without discussing qualification criteria may expose your group to unqualified buyers, tire-kickers, or competitors seeking intelligence.
+Enterprise brokers should provide transition planning documentation that buyers can execute immediately after closing. This documentation includes staff communication templates, patient notification sequences, vendor transition checklists, and system migration timelines.
 
-### Misrepresentation History
+Groups that provide detailed transition planning receive higher valuations because buyers perceive lower integration risk. The quality of this preparation directly impacts buyer confidence and willingness to pay premium multiples.
 
-Check references beyond the broker's provided list. Search for the broker's name with terms like "complaint," "lawsuit," or "dispute." Contact your state's licensing board to verify credentials and check for disciplinary actions.
+### Earnout Structure Expertise
 
-Misrepresentation in prior deals, even if legally resolved, signals risk you should not accept.
+Multi-location transactions frequently include earnout provisions tied to post-close performance. Your broker should understand how to negotiate earnout terms that are achievable based on historical performance while protecting against buyer manipulation of results.
 
-### Unrealistic Valuation Promises
+Common earnout pitfalls include revenue recognition changes post-close, overhead allocation shifts, and marketing support reductions. Experienced brokers anticipate these issues and negotiate protective provisions.
 
-Brokers who promise valuations significantly above market norms (remember: 2-5x EBITDA for standalone optometry, potentially higher for well-positioned multi-location portfolios) may be "buying" your business with inflated expectations.
+### Staff Retention Coordination
 
-These inflated promises often lead to failed transactions, wasted time, and market perception damage when you re-list at realistic valuations.
+Key staff departures post-close represent one of the largest value destruction risks in healthcare M&A. Your broker should help you develop retention packages that buyers will honor and transition communication plans that minimize uncertainty-driven turnover.
 
-## How Do You Structure the Broker Selection Process?
+The [90-day integration playbook approach](/blog/90-day-integration-playbook-healthcare-acquisitions/) provides a structured framework for managing these transitions effectively.
 
-A systematic selection process prevents rushed decisions and ensures thorough evaluation.
+## Building Your Broker Selection Scorecard
 
-### Phase 1: Initial Screening (2-3 Weeks)
+Create a quantitative evaluation framework to compare finalist brokers objectively. The following scorecard template provides a starting point for enterprise groups.
 
-Identify 5-8 potential brokers through industry networks, professional associations, and referrals from other multi-location operators. Request initial capability presentations and eliminate obvious mismatches.
+### Establishing Evaluation Categories
 
-Focus this phase on verifying multi-location experience and eliminating generalist brokers attempting to expand into territory they do not understand.
+Weight each category based on your specific priorities and transaction type. The suggested weights below reflect typical enterprise transaction priorities:
 
-### Phase 2: Detailed Evaluation (3-4 Weeks)
+<div style="background: #f8fafc; border-radius: 12px; padding: 24px; margin: 24px 0; border: 1px solid #e2e8f0;">
+<h4 style="margin-top: 0; color: #1e293b;">Broker Evaluation Scorecard (100 Points Total)</h4>
+<table style="width: 100%; border-collapse: collapse;">
+<tr style="border-bottom: 2px solid #cbd5e1;">
+<th style="text-align: left; padding: 8px 0;">Evaluation Category</th>
+<th style="text-align: center; padding: 8px 0;">Weight</th>
+<th style="text-align: left; padding: 8px 0;">Key Metrics</th>
+</tr>
+<tr style="border-bottom: 1px solid #e2e8f0;">
+<td style="padding: 12px 0;"><strong>Optometry Transaction Experience</strong></td>
+<td style="text-align: center;">25 pts</td>
+<td>Number of deals, size range, multiples achieved</td>
+</tr>
+<tr style="border-bottom: 1px solid #e2e8f0;">
+<td style="padding: 12px 0;"><strong>Buyer Network Quality</strong></td>
+<td style="text-align: center;">20 pts</td>
+<td>PE relationships, strategic contacts, buyer depth</td>
+</tr>
+<tr style="border-bottom: 1px solid #e2e8f0;">
+<td style="padding: 12px 0;"><strong>Healthcare Regulatory Knowledge</strong></td>
+<td style="text-align: center;">15 pts</td>
+<td>CPOM expertise, Stark compliance, licensure</td>
+</tr>
+<tr style="border-bottom: 1px solid #e2e8f0;">
+<td style="padding: 12px 0;"><strong>Fee Structure Competitiveness</strong></td>
+<td style="text-align: center;">15 pts</td>
+<td>All-in cost, tier structure, alignment incentives</td>
+</tr>
+<tr style="border-bottom: 1px solid #e2e8f0;">
+<td style="padding: 12px 0;"><strong>Technology Platform</strong></td>
+<td style="text-align: center;">10 pts</td>
+<td>Deal management, analytics, security</td>
+</tr>
+<tr style="border-bottom: 1px solid #e2e8f0;">
+<td style="padding: 12px 0;"><strong>Integration Support</strong></td>
+<td style="text-align: center;">10 pts</td>
+<td>Transition planning, earnout expertise</td>
+</tr>
+<tr>
+<td style="padding: 12px 0;"><strong>References and Reputation</strong></td>
+<td style="text-align: center;">5 pts</td>
+<td>Client testimonials, industry standing</td>
+</tr>
+</table>
+</div>
 
-Invite 3-4 finalists for in-depth presentations. Provide them with summary financial information (appropriately protected) and ask for preliminary valuation assessments and proposed marketing strategies.
+### Scoring and Decision Making
 
-Evaluate not just their answers but how they engage with your information. Do they ask sophisticated questions about your operations? Do they identify issues you had not considered? Do they demonstrate genuine understanding of multi-location complexity?
+Score each finalist on each dimension, weight the results, and use the total scores to inform your final selection. This quantitative approach reduces selection bias and creates documentation supporting your decision.
 
-### Phase 3: Reference and Due Diligence (2 Weeks)
+## Common Selection Mistakes to Avoid
 
-Contact references provided by finalists, but also identify and contact past clients the broker did not provide. Ask specific questions: Did the broker meet timeline commitments? How did they handle unexpected challenges? Would you use them again?
+Enterprise groups frequently make avoidable errors when selecting brokers. Understanding these patterns helps you approach the process more effectively.
 
-Verify credentials, check for complaints, and confirm any claimed transaction history.
+### Prioritizing Fee Over Value
 
-### Phase 4: Negotiation and Engagement (1-2 Weeks)
+Selecting the lowest-cost broker often proves expensive. A broker charging 7% who achieves a 3.2x EBITDA multiple produces worse net proceeds than a broker charging 10% who achieves a 4.0x multiple. For a practice generating $1M EBITDA, the 7% broker delivers $2.976M after fees while the 10% broker delivers $3.6M after fees, a $624,000 difference favoring the more expensive option.
 
-Negotiate engagement terms with your selected broker. Focus on fee structure alignment, exclusivity terms, performance milestones, and termination provisions.
+Focus your evaluation on demonstrated value creation, not fee minimization.
 
-Ensure the engagement letter specifies the services included and creates accountability for the broker's commitments.
+### Ignoring Cultural Fit
 
-## Key Takeaways for Multi-Location Optometry Groups
+Your broker will represent your organization to potential buyers for 6-12 months. Their professionalism, communication style, and market positioning reflect on your group. Select a broker whose approach aligns with how you want your organization perceived.
 
-Selecting the right broker for a multi-location optometry transaction requires evaluation criteria fundamentally different from single-practice deals. The 7-point framework ensures you assess documented experience, buyer network access, valuation sophistication, team depth, CIM quality, realistic timelines, and post-LOI support.
+Cultural misalignment creates friction throughout the transaction process and may result in buyer perceptions that undermine valuation.
 
-Remember that [PE-backed healthcare operations](/blog/pe-backed-healthcare-operations/) attract different buyer expectations than independent practices. Your broker must understand these expectations and position your group accordingly.
+### Underweighting Healthcare Expertise
 
-The operational readiness you demonstrate directly impacts valuation. Groups that have standardized patient access processes, centralized scheduling, and documented KPIs across locations command premium multiples. Consider the practice appraisal process and valuation multiples as starting points for understanding what drives enterprise value.
+General business brokers may offer lower fees and promise effective execution, but healthcare M&A requires specialized knowledge. Regulatory complexity, managed care contracting, and professional services dynamics create transaction risks that generalists frequently mismanage.
 
-Multi-location transactions represent the most complex and highest-stakes deals in optometry M&A. The broker you select will shape your outcome for years after the transaction closes. Apply the evaluation framework, watch for red flags, and invest the time to select a partner capable of maximizing your group's value.
+The [healthcare operations M&A integration challenges](/blog/healthcare-operations-ma-integration/) demonstrate why specialized expertise matters throughout the transaction lifecycle.
+
+### Rushing the Selection Process
+
+Broker selection should receive the same diligence you apply to other significant business decisions. Rushing the process based on timeline pressure or buyer urgency typically results in suboptimal representation.
+
+Plan for 4-6 weeks to complete a thorough broker selection process including RFP distribution, proposal review, finalist interviews, and reference checks. This investment in upfront selection pays dividends throughout the transaction.
+
+## Key Takeaways
+
+Selecting the right optometry practice broker for multi-location transactions requires enterprise-grade evaluation processes that go beyond reviewing credentials and comparing fees.
+
+**Enterprise broker selection priorities:**
+- Demonstrated multi-location optometry transaction experience with documented outcomes
+- Active PE and strategic buyer relationships specific to your target transaction size
+- Healthcare regulatory expertise including CPOM, Stark Law, and managed care considerations
+- Technology platforms capable of managing complex portfolio transactions
+- Integration support capabilities that reduce buyer risk perception
+- Fee structures aligned with value creation rather than transaction processing
+
+**Process recommendations:**
+- Structure selection as a formal RFP process with consistent evaluation criteria
+- Use quantitative scorecards to reduce selection bias
+- Verify claimed expertise through reference checks and scenario-based questioning
+- Allocate 4-6 weeks for thorough broker evaluation before engagement
+
+The difference between adequate and excellent broker selection compounds across portfolio scale. For groups managing 5+ locations, investing appropriate time and rigor in broker selection produces materially better transaction outcomes.
 
 ## Related Reading
 
 - [Guide for Selling Your Optometry Practice](/blog/guide-for-selling-your-optometry-practice/)
-- [The Optometric Practice Valuation Guide for Buyers and Sellers](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/)
-- [Dental Group Acquisition Due Diligence](/blog/dental-group-acquisition-due-diligence/)
-- [DSO Integration Playbook](/blog/dso-integration-playbook/)
-- [Healthcare Operations M&A Integration](/blog/healthcare-operations-ma-integration/)
+- Optometry Practice Appraisal Process
+- Optometry Practice Valuation Multiples 2026
+- [Pre-Sale Operational Cleanup for Intake and Valuation](/blog/pre-sale-operational-cleanup-intake-valuation/)
+- [PE-Backed Healthcare Operations](/blog/pe-backed-healthcare-operations/)
 
 ## Sources
 
-1. [ODsOnFinance: How to Buy a Practice](https://brokerage.odsonfinance.com/buy-a-practice/how-to-buy-a-practice/)
-2. [Focus Bankers: Ophthalmology EBITDA Multiples](https://focusbankers.com/ophthalmology-ebitda-multiple/)
-3. [Cascade Partners: Vision Care Market Update 2024](https://cascade-partners.com/wp-content/uploads/2024/07/CP-Vision-Care-Market-Update_vF.pdf)
+1. [Peak Business Valuation - Optometry Clinic Valuation Multiples](https://peakbusinessvaluation.com/valuation-multiples-for-an-optometry-clinic/)
+2. [Kaufman Hall - Hospital and Health System M&A Trends 2024](https://www.kaufmanhall.com/insights/infographic/hospital-and-health-system-ma-trends-2024)
+3. [Practice Transitions Group - How Do Brokers Get Paid](https://practicetransitionsgroup.com/blog/how-do-brokers-get-paid/)
+4. [ODs on Finance - Methods of Valuing an Optometry Private Practice](https://odsonfinance.com/methods-of-valuing-an-optometry-private-practice-a-comprehensive-guide/)
+5. [MA Healthcare Advisors - 2024 End of Year Review](https://mahealthcareadvisors.com/2024-end-of-year-review/)
+6. [Leerink Partners - Healthcare M&A Q2 2024 Trends](https://leerink.com/article/insights-into-healthcare-ma-q2-2024-trends/)
 
 ---
 
+<!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Managing M&A Complexity Across 3+ Locations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Request an Enterprise Assessment to see how operational standardization strengthens your position before, during, and after a transaction.</p>
-  <a href="https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Schedule a Consultation Today →</a>
+  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Managing M&A Due Diligence Across 3+ Locations?</h3>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how enterprise optometry groups use centralized intake operations to command premium valuations and accelerate due diligence timelines.</p>
+  <a href="https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Request Enterprise Assessment →</a>
 </div>
+<!-- End MyBCAT CTA Section -->
