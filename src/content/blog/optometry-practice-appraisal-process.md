@@ -1,13 +1,13 @@
 ---
 title: Optometry Practice Appraisal Process for Multi-Location
-seoTitle: 'Optometry Practice Appraisal Process: Multi-Location Guide'
-description: Learn how multi-location optometry groups standardize the appraisal process
-  across sites. EBITDA multiples, valuation methods, and PE acquisition criteria.
-seoDescription: Multi-location optometry appraisal process guide. EBITDA multiples,
-  standardized valuation methods, and PE acquisition criteria for 3+ location groups.
-publishDate: '2026-05-05'
+seoTitle: Optometry Practice Appraisal for Multi-Location Groups
+description: How multi-location optometry groups standardize the appraisal process
+  across portfolios. Covers EBITDA methodology, operational metrics, and PE buyer
+seoDescription: 'Multi-location optometry appraisal guide: EBITDA multiples, operational
+  metrics, and PE buyer expectations for 3+ location groups.'
+publishDate: '2026-04-29'
 status: scheduled
-scheduledDate: '2026-05-05'
+scheduledDate: '2026-04-29'
 author: Ankit Patel
 category: Business
 tags:
@@ -20,253 +20,262 @@ featuredImage: /images/blog/optometry-practice-appraisal-process.webp
 canonical: https://mybcat.com/blog/optometry-practice-appraisal-process/
 ---
 
-Multi-location optometry groups face a valuation challenge that single practices never encounter: how do you standardize the appraisal process across five, ten, or fifty locations with different revenue profiles, lease structures, and operational histories? The answer determines whether your portfolio commands a 3x multiple or a 10x platform premium. This guide breaks down the enterprise appraisal process, the standardization frameworks PE firms expect, and the operational benchmarks that separate average valuations from premium exits.
+Multi-location optometry groups face an appraisal challenge that single practices never encounter: how do you value a portfolio where each location has different revenue profiles, staff capabilities, and operational maturity? The answer lies in standardizing your appraisal methodology before engaging buyers, and that starts with understanding how acquirers actually evaluate multi-site optometry platforms.
+
+Private equity firms completed over 40 eye care transactions through Q1 2025, continuing a trend that has produced [313 deals totaling $17 billion since 2019](https://physiciangrowthpartners.com/white-paper/state-of-eye-care-private-equity-q1-2025/). These buyers evaluate multi-location groups fundamentally differently than they assess single practices. They apply portfolio-level analysis, centralization premiums, and operational scalability assessments that can swing valuations by millions of dollars. Operations leaders who understand this methodology position their groups for significantly stronger outcomes.
 
 ## What You'll Learn
 
-1. [Why Does Multi-Location Appraisal Differ from Single-Practice Valuation?](#why-does-multi-location-appraisal-differ-from-single-practice-valuation)
-2. [What Are the Three Core Appraisal Methods?](#what-are-the-three-core-appraisal-methods)
-3. [How Do You Standardize Appraisal Across Multiple Locations?](#how-do-you-standardize-appraisal-across-multiple-locations)
-4. [What EBITDA Multiples Should Multi-Location Groups Expect?](#what-ebitda-multiples-should-multi-location-groups-expect)
-5. [The Six-Phase Enterprise Appraisal Process](#the-six-phase-enterprise-appraisal-process)
-6. [What Does Location-Level Due Diligence Look Like?](#what-does-location-level-due-diligence-look-like)
-7. [How Do PE Firms and Strategic Buyers Evaluate Optometry Platforms?](#how-do-pe-firms-and-strategic-buyers-evaluate-optometry-platforms)
-8. [Common Appraisal Mistakes Multi-Location Groups Make](#common-appraisal-mistakes-multi-location-groups-make)
-9. [What KPIs Drive Valuation Premiums?](#what-kpis-drive-valuation-premiums)
+1. [What Makes Multi-Location Optometry Appraisals Different From Single-Practice Valuations?](#what-makes-multi-location-optometry-appraisals-different-from-single-practice-valuations)
+2. [How Do EBITDA Multiples Work Across a Portfolio of Locations?](#how-do-ebitda-multiples-work-across-a-portfolio-of-locations)
+3. [Which Operational Metrics Drive Appraisal Value at Scale?](#which-operational-metrics-drive-appraisal-value-at-scale)
+4. [How Does Centralized Patient Access Impact Your Group's Valuation?](#how-does-centralized-patient-access-impact-your-groups-valuation)
+5. [What Due Diligence Challenges Multiply With Each Location?](#what-due-diligence-challenges-multiply-with-each-location)
+6. [How Do PE Buyers and Strategic Acquirers Evaluate Multi-Location Groups Differently?](#how-do-pe-buyers-and-strategic-acquirers-evaluate-multi-location-groups-differently)
+7. [What Framework Should Operations Leaders Use to Prepare for Appraisal?](#what-framework-should-operations-leaders-use-to-prepare-for-appraisal)
 
-## Why Does Multi-Location Appraisal Differ from Single-Practice Valuation?
+## What Makes Multi-Location Optometry Appraisals Different From Single-Practice Valuations?
 
-A single optometry practice gets valued on its individual performance: patient volume, revenue per exam, and owner cash flow. Multi-location groups operate on an entirely different plane. Buyers evaluate platform value, which includes the infrastructure, systems, and scalability that enable growth beyond current locations.
+The fundamental shift when appraising multi-location optometry groups is moving from practice-level thinking to portfolio-level analysis. Single-practice valuations typically rely on straightforward calculations: a percentage of gross revenue or a multiple of seller discretionary earnings. Multi-location appraisals require a more sophisticated approach that accounts for how locations interact, where operational synergies exist, and what integration risks an acquirer will face.
 
-The difference shows up immediately in how appraisers approach the work. Single practices receive a straightforward earnings multiple calculation. Multi-location groups require location-level analysis, portfolio normalization, and assessment of centralized operations that contribute to enterprise value. A group with ten locations generating identical total revenue to ten independent practices will typically command a 40-60% valuation premium because of operational scale, geographic coverage, and reduced key-person risk.
+### Portfolio Synergy Analysis Replaces Location-by-Location Valuation
 
-PE firms specifically target multi-location optometry groups because the platform model supports acquisition-led growth. According to Peak Business Valuation data, standalone optometry practices trade at EBITDA multiples of 2.97x to 4.06x, while multi-location platforms with strong fundamentals can achieve 5x to 11x as add-on acquisitions for existing portfolio companies. Platform deals, where a PE firm acquires a group as its initial investment in the sector, can reach 12x to 20x for the right combination of scale, geography, and profitability.
+When PE firms evaluate a multi-location optometry group, they assess what the combined entity can achieve that individual locations cannot. A five-location group with centralized scheduling, shared vendor contracts, and unified marketing generates more value than five independent practices with identical revenue. According to [Vision Monday's 2025 industry analysis](https://www.visionmonday.com/business/article/private-equity-and-practice-transitions-in-2025/), PE-backed groups like AEG Vision and MyEyeDr specifically target practices that can integrate into existing platforms because the synergy value exceeds the standalone practice value.
 
-Understanding these dynamics before starting the appraisal process helps leadership teams position their organizations effectively. The optometry practice valuation multiples for 2026 provide current benchmarks, but the appraisal process itself determines which multiple applies to your specific group.
+This synergy analysis examines several dimensions. Buyers calculate what they can save by consolidating back-office functions, how much additional revenue centralized recall programs can generate, and what operational improvements standardized protocols will produce. A group that has already captured some of these synergies commands a premium because the acquirer faces less integration risk and faster time-to-value.
 
-## What Are the Three Core Appraisal Methods?
+### Location Interdependency Creates Complexity
 
-Professional appraisers use three primary methods to determine fair market value. Multi-location groups benefit from applying all three, then weighting the results based on the organization's specific circumstances.
+Multi-location groups often have locations that share patients, referrals, or specialized services. One location might handle pediatric optometry for the entire region, while another focuses on medical optometry and dry eye treatment. This interdependency means you cannot simply sum individual location values. Removing or underperforming one location affects the entire network.
 
-**The Income Approach** calculates value based on future earnings potential. Appraisers project normalized cash flows, apply a capitalization rate that reflects industry risk, and determine present value. For optometry groups, this typically means calculating normalized EBITDA, then applying a multiple based on comparable transactions. The income approach works well for groups with stable, predictable cash flows and documented growth trajectories.
+Appraisers must map these interdependencies to understand true portfolio value. A location that appears marginally profitable might actually drive patient acquisition for higher-margin locations. Conversely, a high-revenue location might depend on referral volume from smaller practices in the network. Understanding these relationships requires operational data that single-practice appraisals never need to consider.
 
-**The Market Approach** compares your group to similar organizations that have recently sold. This method relies on transaction databases and industry knowledge to identify comparable deals. The challenge for multi-location optometry groups is finding truly comparable transactions. A three-location group in suburban markets differs significantly from a ten-location urban network, and the market approach must account for these differences through adjustment factors.
+### Management Infrastructure Becomes a Valued Asset
 
-**The Asset-Based Approach** calculates value by summing tangible and intangible assets, then subtracting liabilities. For optometry practices, tangible assets include equipment, inventory, and real estate (if owned). Intangible assets encompass patient relationships, brand value, and workforce in place. This method establishes a floor value and proves particularly useful when locations have significant equipment investments or real estate holdings.
+Single practices typically include owner-operator compensation in their valuation calculations. Multi-location groups have developed management infrastructure that represents an asset beyond the individual locations. This includes operations directors, regional managers, centralized billing teams, and HR functions.
 
-Most professional appraisals for multi-location groups blend these methods. A typical weighting might assign 50% to the income approach, 30% to market comparables, and 20% to asset value. The specific weights depend on data availability and the organization's characteristics. Groups with strong documented earnings history weight toward income. Those in active transaction markets weight toward comparables.
+Buyers evaluate whether this infrastructure is appropriately sized for current operations and capable of supporting growth. A group with management infrastructure that can handle 10 locations but currently operates 5 has built expansion capability that adds value. Conversely, a group that has outgrown its management capacity faces valuation discounts because the acquirer will need to invest in additional infrastructure post-acquisition.
 
-For a deeper understanding of how these methods apply to transactions, the [valuation guide for optometry buyers and sellers](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/) provides additional context on buyer and seller perspectives.
+## How Do EBITDA Multiples Work Across a Portfolio of Locations?
 
-## How Do You Standardize Appraisal Across Multiple Locations?
+EBITDA-based valuation has become the standard methodology for multi-location healthcare transactions, replacing the revenue-based approaches that still dominate single-practice sales. Understanding how acquirers apply EBITDA multiples to optometry portfolios helps operations leaders identify where they can improve valuation before engaging buyers.
 
-Standardization is where multi-location appraisals become complex. Each location has unique characteristics: different lease terms, equipment ages, staffing models, and revenue mixes. The appraisal process must normalize these variations to produce a defensible portfolio value.
+### Understanding the Multiple Range for Optometry Groups
 
-The first standardization requirement is financial normalization at the location level. This means calculating site-specific EBITDA using consistent methodology across all locations. Owner compensation adjustments must apply uniformly. Non-recurring expenses get identified and removed from each location's financials. The result is a clean, comparable earnings picture for every site in the portfolio.
+Current market data shows EBITDA multiples for optometry and eye care practices ranging from [4x for single locations with operational challenges to 12x for high-performing multi-location platforms](https://scottleune.com/blog/dso-acquisition-valuation-framework/). This range exists because buyers apply different multiples based on risk factors, growth potential, and strategic fit.
 
-Geographic weighting comes next. A flagship location in a high-traffic urban area contributes more strategic value than a secondary location in a saturated market. Appraisers assign location weights based on revenue contribution, growth potential, and strategic importance to the overall network. This weighting affects how individual location values aggregate into portfolio value.
+The lower end of this range typically applies to groups with concentrated provider dependency, limited operational systems, or geographic markets with high competition. The upper end applies to groups with strong same-store growth, diversified revenue streams, proven management teams, and strategic geographic positioning that fills gaps in the acquirer's platform.
 
-Operational standardization affects valuation significantly. Groups with centralized scheduling, unified intake processes, and standardized clinical protocols demonstrate operational maturity that commands premium multiples. The [centralized vs. distributed intake framework](/blog/centralized-vs-distributed-intake-framework/) explains how operational structure affects both day-to-day performance and exit valuations.
+For multi-location optometry groups with 5-15 locations, EBITDA multiples commonly fall between 6x and 8x, according to [ODSONS Finance industry analysis](https://odsonfinance.com/methods-of-valuing-an-optometry-private-practice-a-comprehensive-guide/). Groups that demonstrate operational excellence through documented metrics, standardized protocols, and scalable systems can push toward the higher end of this range.
 
-<div style="background: #f8fafc; border-radius: 12px; padding: 24px; margin: 32px 0; border-left: 4px solid #3b82f6;">
-<h3 style="color: #1e40af; margin-top: 0;">Standardization Checklist for Multi-Location Appraisal</h3>
-<p><strong>Financial Normalization</strong></p>
-<ul style="margin-bottom: 16px;">
-<li>Consistent owner compensation adjustment across all sites</li>
-<li>Uniform expense categorization and allocation methodology</li>
-<li>Standardized EBITDA calculation removing location-specific anomalies</li>
-</ul>
-<p><strong>Operational Documentation</strong></p>
-<ul style="margin-bottom: 16px;">
-<li>Centralized policies and procedures documented</li>
-<li>Technology stack and integration status mapped per location</li>
-<li>Staffing ratios and compensation structures normalized</li>
-</ul>
-<p><strong>Market Positioning</strong></p>
-<ul>
-<li>Geographic coverage and market penetration documented</li>
-<li>Competitive positioning by location assessed</li>
-<li>Growth runway quantified for each market</li>
-</ul>
-</div>
+### Portfolio-Level EBITDA Normalization
 
-## What EBITDA Multiples Should Multi-Location Groups Expect?
+Calculating EBITDA for a multi-location group requires normalization that accounts for shared services, inter-company transactions, and ownership compensation structures. Raw financial statements rarely provide an accurate picture because costs may be allocated inconsistently across locations, and owner benefits may flow through in various forms.
 
-EBITDA multiples for optometry vary dramatically based on scale, profitability, and buyer type. Understanding the range helps leadership set realistic expectations and identify value creation opportunities before starting the appraisal process.
+The normalization process begins with consolidated financial statements that eliminate inter-company transactions. Buyers then adjust for market-rate compensation for all owners and key managers, one-time expenses that will not recur post-acquisition, and costs that will be eliminated or reduced through integration. This normalized EBITDA figure becomes the basis for applying multiples.
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 32px 0;">
-  <div style="background: #fef3c7; border-radius: 12px; padding: 24px; border-left: 4px solid #f59e0b;">
-    <h3 style="color: #b45309; margin-top: 0;">Single Practice Multiples</h3>
-    <p><strong>EBITDA Multiple:</strong> 2.97x to 4.06x</p>
-    <p><strong>SDE Multiple:</strong> 1.96x to 2.67x</p>
-    <p><strong>Revenue Multiple:</strong> 0.62x (60-80% of gross)</p>
-    <p style="font-size: 14px; color: #92400e; margin-bottom: 0;">Source: Peak Business Valuation 2024-2025 data</p>
-  </div>
-  <div style="background: #d1fae5; border-radius: 12px; padding: 24px; border-left: 4px solid #10b981;">
-    <h3 style="color: #047857; margin-top: 0;">Multi-Location Platform Multiples</h3>
-    <p><strong>Add-on Acquisitions:</strong> 5x to 11x EBITDA</p>
-    <p><strong>Platform Deals:</strong> 12x to 20x EBITDA</p>
-    <p><strong>Revenue Multiple:</strong> Up to 1.37x for scaled groups</p>
-    <p style="font-size: 14px; color: #065f46; margin-bottom: 0;">Source: Focus Bankers ophthalmology/optometry analysis</p>
-  </div>
-</div>
+Operations leaders should complete their own normalization exercise before engaging buyers. This identifies potential issues that could reduce valuation and provides time to address them. It also prevents surprises during due diligence when buyers discover adjustments that the seller had not anticipated.
 
-The gap between single-practice and platform multiples reflects the value that operational scale and infrastructure create. A PE firm acquiring a multi-location optometry group gains immediate geographic coverage, established patient relationships across markets, and the management infrastructure to support continued acquisitions. These elements reduce integration risk and accelerate the investment thesis, justifying higher entry multiples.
+### How Location Mix Affects Portfolio Multiples
 
-Several factors push multiples toward the higher end of ranges. Groups with EBITDA margins above 20% demonstrate operational efficiency that translates to higher returns for buyers. Diversified payer mixes reduce revenue concentration risk. Documented growth trends, particularly in patient volume and revenue per location, signal continued expansion potential.
+Not all locations contribute equally to portfolio value. Acquirers often apply blended multiples based on the quality mix within a portfolio. A group with three strong-performing locations and two underperformers will not receive the same multiple as a group where all five locations meet performance benchmarks.
 
-Factors that suppress multiples include key-person dependence (where one or two ODs generate disproportionate revenue), unfavorable lease terms, aging equipment requiring capital investment, and locations in declining markets. The [multi-location healthcare EBITDA analysis](/blog/multi-location-healthcare-ebitda/) provides benchmarks for understanding how operational factors affect earnings and, by extension, valuation.
+Buyers may segment the portfolio during analysis, applying higher multiples to locations that meet their investment criteria and lower multiples or even negative adjustments to locations that require significant post-acquisition investment. This segmented approach means that improving your weakest locations often generates more valuation impact than further optimizing your strongest performers.
 
-## The Six-Phase Enterprise Appraisal Process
+The practical implication for operations leaders is clear: address underperforming locations before entering the market. This might mean investing in operational improvements, replacing underperforming staff, or in some cases, divesting locations that drag down the portfolio average. For guidance on [EBITDA optimization strategies for multi-location healthcare groups](/blog/multi-location-healthcare-ebitda/), operational cleanup should begin 12-18 months before a planned transaction.
 
-Multi-location appraisals follow a structured process that differs substantially from single-practice valuations. Each phase builds on the previous one, creating a comprehensive picture of enterprise value.
+## Which Operational Metrics Drive Appraisal Value at Scale?
 
-**Phase 1: Portfolio Data Aggregation (Weeks 1-2)**
+Acquirers evaluate multi-location optometry groups through operational metrics that reveal efficiency, growth potential, and management capability. Understanding which metrics matter most helps operations leaders prioritize improvement efforts and document performance in ways that support higher valuations.
 
-The process begins with collecting three to five years of financial statements from every location. This includes profit and loss statements, balance sheets, tax returns, and supporting schedules. For multi-location groups, data often resides in different formats across locations, requiring standardization before analysis can begin. Groups with centralized financial systems have a significant advantage here, as data extraction and normalization happens faster and with fewer discrepancies.
+### Patient Retention and Recall Rate Performance
 
-**Phase 2: Location-Level Normalization (Weeks 2-4)**
+Patient retention directly impacts valuation because it determines the predictability of future revenue. Multi-location groups that demonstrate strong recall rates across all locations show buyers that they have systems in place to maintain patient relationships, not just individual provider relationships.
 
-Appraisers work through each location's financials to calculate normalized EBITDA. This involves removing owner-specific expenses, non-recurring items, and above-market compensation. The goal is determining what earnings would look like under standardized professional management. For locations with owner-ODs, adjustments include normalizing compensation to market rates for employed optometrists. Equipment depreciation gets reviewed against actual useful life versus tax depreciation schedules.
+Industry benchmarks suggest optometry practices should target recall rates that drive consistent patient return visits. Practices with documented recall systems and tracked performance data command premiums over those with inconsistent or undocumented patient retention. The key metric for multi-location groups is consistency of recall performance across locations, not just aggregate rates.
 
-**Phase 3: Operational Assessment (Weeks 3-5)**
+Buyers specifically examine whether high recall rates depend on individual staff members or systematic processes. A location with excellent recall driven by a single exceptional front desk employee presents risk that the rate will decline if that employee leaves. A location with similar rates driven by centralized recall campaigns and documented follow-up protocols demonstrates scalable systems that will persist post-acquisition. For groups looking to [centralize patient recall across multiple locations](/blog/centralized-patient-recall-multi-location/), building this infrastructure before sale generates both operational and valuation benefits.
 
-Financial analysis alone misses operational factors that significantly affect value. This phase examines staffing models, technology infrastructure, patient flow processes, and vendor relationships across the portfolio. Appraisers look for operational consistency (or lack thereof) and assess the difficulty of standardizing operations post-acquisition. Groups that have already implemented centralized scheduling, unified EHR systems, and consistent clinical protocols demonstrate platform maturity that supports higher multiples.
+### Revenue Per Exam and Capture Rate Analysis
 
-**Phase 4: Market Positioning Analysis (Weeks 4-6)**
+Revenue per exam measures the productivity of each patient encounter, while capture rate measures conversion of exam patients into optical product sales. For multi-location groups, buyers examine both the absolute levels and the variance across locations.
 
-Each location gets evaluated within its local market context. Appraisers assess competitive positioning, market saturation, demographic trends, and growth potential. A location that dominates an underserved market has different strategic value than one competing against multiple established competitors. Geographic coverage gets mapped to identify white space opportunities and potential overlap concerns for buyers considering the group as part of a larger platform.
+According to [industry benchmark data](https://booksandbenchmarks.com/optometry-benchmarks-overhead-profitability/), optometry practices should target revenue per exam of $300 or higher, with capture rates of 60-70% as average and 75% or higher for top performers. Each percentage point improvement in capture rate can add $15,000-$30,000 in annual revenue per location, making this a high-impact optimization target.
 
-**Phase 5: Valuation Synthesis (Weeks 6-8)**
+The variance analysis matters as much as the averages. A group with consistent 65% capture rates across all locations presents differently than a group with rates ranging from 45% to 85%. High variance suggests operational inconsistency that buyers will need to address post-acquisition, potentially justifying valuation discounts. Low variance demonstrates standardized processes and training that buyers value.
 
-With location-level data normalized and operational factors documented, appraisers apply the three core valuation methods. Income approach calculations use weighted EBITDA across locations. Market approach comparisons draw from transaction databases and industry knowledge. Asset-based calculations sum equipment, inventory, and intangible values across the portfolio. The appraiser then weights these approaches based on data quality and the organization's specific characteristics.
+### Overhead Ratio and Labor Cost Benchmarks
 
-**Phase 6: Deliverable and Defense Preparation (Weeks 8-10)**
+Overhead ratios reveal operational efficiency and profit potential. According to [Eyes on Eyecare's 2024 industry report](https://eyesoneyecare.com/resources/2024-optometrist-report/), healthy optometry practices maintain overhead between 55-65% of revenue. Groups exceeding 70% overhead face questions about operational efficiency that can reduce valuations.
 
-The final phase produces a comprehensive appraisal report with supporting documentation. For multi-location groups, this includes location-level summaries, portfolio rollups, sensitivity analyses, and documentation of key assumptions. The report should withstand buyer due diligence scrutiny and provide the foundation for transaction negotiations.
+Within the overhead category, labor costs typically represent the largest component at 22-25% of revenue for staffing. Multi-location groups can demonstrate operational maturity by showing consistent labor cost ratios across locations while maintaining service quality metrics. Groups that have optimized [front desk staffing through centralized or hybrid models](/blog/healthcare-front-desk-staffing-crisis-2025/) often show stronger overhead profiles than those with fully distributed staffing.
 
-Groups preparing for appraisal benefit from [pre-sale operational cleanup focused on intake and valuation](/blog/pre-sale-operational-cleanup-intake-valuation/), which addresses common issues that suppress multiples before the formal appraisal process begins.
+Buyers compare overhead ratios to their existing portfolio averages. Groups with higher-than-average overhead represent improvement opportunities that buyers will discount from the valuation but expect to capture post-acquisition. Groups with lower-than-average overhead demonstrate operational excellence that supports premium multiples.
 
-## What Does Location-Level Due Diligence Look Like?
+### Performance Variance as a Risk Indicator
 
-Buyers conduct due diligence site by site, verifying the assumptions underlying the appraisal. Understanding what buyers examine helps groups prepare and address potential concerns proactively.
+Perhaps the most telling metric for multi-location groups is not any individual measure but rather the variance across locations. High variance in key metrics signals management challenges, inconsistent processes, or cultural issues that create integration risk for acquirers.
 
-**Financial Verification** involves auditing normalized statements against source documents. Buyers look for revenue recognition consistency, expense categorization accuracy, and any adjustments that seem aggressive. They verify that normalized EBITDA represents sustainable earnings, not one-time performance peaks. Multi-location groups should expect detailed questions about how allocations work for shared services and overhead.
+Operations leaders should calculate coefficient of variation for key metrics across their locations: revenue per exam, capture rate, recall rate, overhead ratio, and patient satisfaction scores. Groups with low variance demonstrate standardized operations that scale predictably. Groups with high variance will face questions about why locations perform so differently under common ownership.
 
-**Asset Inspection** covers equipment age and condition, inventory accuracy, and real estate terms. Optometry equipment has finite useful lives, and buyers assess remaining value versus replacement costs. For groups with owned real estate, separate valuations may be required. Leases get reviewed for remaining terms, renewal options, and any clauses that could affect operations post-acquisition.
+Addressing variance often requires identifying root causes at underperforming locations and implementing standardized approaches that have succeeded elsewhere in the portfolio. This pre-sale operational standardization both improves valuation and reduces integration friction post-acquisition. For a comprehensive approach to [operational cleanup before sale](/blog/pre-sale-operational-cleanup-intake-valuation/), variance reduction should be a primary focus.
 
-**Patient Base Analysis** examines retention rates, demographic profiles, and revenue concentration. Buyers want to understand patient loyalty to specific ODs versus the practice brand. High concentration with departing owner-ODs creates transition risk that affects both structure and pricing. Insurance payer mix gets scrutinized for balance between vision plans, medical insurance, and self-pay revenue.
+## How Does Centralized Patient Access Impact Your Group's Valuation?
 
-**Operational Review** assesses staffing stability, vendor contracts, and compliance history. Buyers evaluate whether current operations can continue without significant changes. Groups with high turnover, unfavorable vendor terms, or compliance issues face valuation discounts or deal structure modifications.
+Centralized patient access, including centralized scheduling, call handling, and patient communication, has become a key differentiator in multi-location healthcare valuations. Groups that have already implemented centralized patient access demonstrate operational maturity that acquirers value, while also eliminating integration work the acquirer would otherwise need to complete.
 
-The [dental group acquisition due diligence process](/blog/dental-group-acquisition-due-diligence/) provides a parallel framework that applies to optometry groups, with similar focus areas and buyer concerns.
+### The Centralization Premium in Acquisitions
 
-## How Do PE Firms and Strategic Buyers Evaluate Optometry Platforms?
+PE-backed acquirers like AEG Vision, MyEyeDr, and Keplr Vision have invested heavily in centralized platforms that handle scheduling, billing, HR, and patient communications across their portfolios. When evaluating acquisition targets, these buyers specifically assess how easily a group can integrate into existing centralized systems.
 
-PE firms and strategic buyers approach optometry acquisitions with specific investment criteria. Understanding these criteria helps groups position for acquisition conversations and identify the buyer types most likely to value their platform.
+Groups that have already centralized key functions present lower integration risk and faster time-to-value. The acquirer can connect the new locations to existing infrastructure rather than building new systems or managing parallel distributed operations during a transition period. This integration advantage translates to valuation premiums because the acquirer realizes synergy value faster.
 
-**Scale Requirements** typically start at $2M or more in EBITDA for platform investments. PE firms targeting optometry want sufficient scale to support management infrastructure, provide returns on operational improvement initiatives, and create acquisition capacity. Groups below this threshold typically participate in the market as add-on acquisitions to existing platforms rather than standalone investments.
+The [2025 PE activity analysis from Vision Monday](https://www.visionmonday.com/business/article/private-equity-and-practice-transitions-in-2025/) highlights that major acquirers specifically mention centralized platforms as a strategic advantage. AEG Vision references its "best-in-class common platform" as a key value driver, while Keplr Vision emphasizes centralized support enabling doctors to focus on patient care.
 
-**Geographic Strategy** matters significantly. Buyers evaluate market coverage against their existing footprint (for add-ons) or target markets (for platforms). Groups with strong presence in high-growth markets or underserved regions command premiums. Those in markets already saturated with competition or with challenging demographic trends face more scrutiny.
+### Call Answer Rates and Scheduling Efficiency
 
-**Management Depth** separates platform deals from simple practice acquisitions. PE firms need management teams capable of running larger organizations, integrating acquisitions, and executing growth strategies. Groups with professional management beyond owner-ODs, established middle management, and documented succession plans demonstrate platform readiness.
+Patient access metrics directly impact revenue and patient satisfaction. Multi-location groups with centralized call handling typically achieve higher answer rates than groups with distributed front desk call handling at each location. This matters for valuation because missed calls represent missed revenue and patient attrition.
 
-**Growth Runway** justifies entry multiples. Buyers model acquisition economics based on assumed growth, both organic and through acquisitions. Groups that can demonstrate whitespace in current markets, successful de novo opening history, or integration capabilities for future acquisitions support aggressive growth assumptions.
+Industry data suggests that healthcare practices miss 20-30% of inbound calls when relying solely on location-based front desk staff to handle phones while managing in-person patients. Centralized call centers or [hybrid human-AI intake models](/blog/human-ai-hybrid-model-healthcare-intake/) can achieve answer rates exceeding 95%, capturing revenue that would otherwise be lost.
 
-The [PE-backed healthcare operations guide](/blog/pe-backed-healthcare-operations/) explains how private equity approaches healthcare investments and what operational changes typically follow acquisition.
+For a five-location optometry group averaging 50 calls per day per location, improving answer rate from 70% to 95% captures an additional 37 patient opportunities daily. At average revenue per patient of $300+, this represents significant recoverable revenue that acquirers will model into their valuation analysis. Groups that can document these improvements through historical data make a compelling case for premium valuations.
 
-## Common Appraisal Mistakes Multi-Location Groups Make
+### Centralized Operations as Scalability Proof
 
-Several recurring mistakes cost multi-location groups value during the appraisal process. Awareness of these issues enables proactive correction.
+Beyond immediate operational benefits, centralized patient access demonstrates that the group has solved scalability challenges that acquirers care about. Adding locations to a group with centralized systems requires incremental rather than proportional investment in infrastructure.
 
-**Inconsistent Financial Reporting** across locations creates normalization challenges and raises buyer concerns about data reliability. When each location uses different expense categories, compensation structures, or accounting treatments, appraisers must spend additional time reconciling data, and the resulting normalized figures carry more uncertainty. Groups should standardize financial reporting at least 12 to 18 months before anticipated transactions.
+This scalability proof matters because acquirers are buying growth potential, not just current cash flow. A group that can demonstrate adding a new location with minimal incremental administrative overhead presents a more attractive acquisition than one where each location requires full staffing and independent systems.
 
-**Ignoring Location-Level Variance** leads to surprises during due diligence. A portfolio average EBITDA margin might look healthy while masking underperforming locations that drag down overall value. Buyers price in remediation costs for underperformers or exclude them from the transaction entirely. Groups benefit from addressing underperforming locations before the appraisal process begins.
+Operations leaders preparing for appraisal should document their centralization journey: what functions are centralized, what efficiency gains resulted, and what capacity exists for additional locations. This documentation supports the valuation narrative and provides acquirers with evidence for their investment committee presentations. For groups considering centralized scheduling implementations, completing this work before sale often generates returns through both operational savings and valuation premiums.
 
-**Underestimating Key-Person Risk** affects both valuation and deal structure. When specific ODs generate disproportionate revenue, buyers discount the transaction price or require earnouts tied to retention. Groups can mitigate this risk by building patient relationships with the practice brand rather than individual providers, developing associate pathways, and documenting succession plans.
+## What Due Diligence Challenges Multiply With Each Location?
 
-**Overlooking Operational Factors** leaves value on the table. Groups focus on financial performance while neglecting operational improvements that command premium multiples. Implementing centralized scheduling, standardized protocols, and unified technology infrastructure before appraisal demonstrates platform maturity.
+Due diligence complexity increases non-linearly with location count. A ten-location group does not face ten times the due diligence scrutiny of a single practice; it faces significantly more because acquirers must verify consistency, identify outliers, and assess portfolio-level risks that do not exist in single-practice transactions.
 
-**Choosing Appraisers Without Healthcare Experience** produces generic valuations that miss industry-specific factors. Optometry has unique characteristics including vision plan economics, optical dispensary margins, and medical vs. routine care distinctions. Appraisers without healthcare experience may miss these factors or apply inappropriate benchmarks.
+### Compliance Verification Across All Sites
 
-For groups planning to sell, [preparing your practice for sale](/blog/guide-for-selling-your-optometry-practice/) addresses many of these issues in a comprehensive planning framework.
+HIPAA compliance, state optometry regulations, and payor credentialing must be verified at every location. A compliance gap at one location creates risk for the entire portfolio and can derail transactions or justify significant valuation adjustments.
 
-## What KPIs Drive Valuation Premiums?
+Multi-location groups should implement standardized compliance programs with documented evidence of adherence at each site. According to [compliance guidance from AccountableHQ](https://www.accountablehq.com/post/dental-dso-hipaa-compliance-across-multiple-locations-a-practical-guide), best practices include a 12-month HIPAA compliance cycle with rapid updates after acquisitions, system changes, or relocations. Site-specific addenda with standardized evidence collection provide the documentation acquirers need during due diligence.
 
-Certain key performance indicators signal operational excellence and command valuation premiums. Groups that track and optimize these metrics position themselves for stronger appraisal outcomes.
+The compliance burden for operations leaders is preparing comprehensive documentation before buyer engagement. Acquirers will request compliance evidence for all locations, and delays or gaps in providing this documentation slow transactions and raise red flags. Groups that can produce complete compliance packages within days of request demonstrate operational maturity that supports valuation.
 
-<div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; margin: 32px 0;">
-<h3 style="color: #1e293b; margin-top: 0;">Premium-Driving KPIs for Multi-Location Optometry</h3>
+### Financial Reconciliation and Allocation Complexities
 
-<table style="width: 100%; border-collapse: collapse; margin-top: 16px;">
-<tr style="background: #f1f5f9;">
-<th style="padding: 12px; text-align: left; border-bottom: 2px solid #cbd5e1;">KPI</th>
-<th style="padding: 12px; text-align: left; border-bottom: 2px solid #cbd5e1;">Target Range</th>
-<th style="padding: 12px; text-align: left; border-bottom: 2px solid #cbd5e1;">Impact on Valuation</th>
-</tr>
-<tr>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">EBITDA Margin</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">20-25%+</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Primary multiple driver; each 5% improvement can add 0.5-1x</td>
-</tr>
-<tr style="background: #f8fafc;">
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Patient Retention Rate</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">75%+ annual</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Demonstrates stable revenue base; reduces acquisition risk</td>
-</tr>
-<tr>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Revenue per Exam</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">$350-450+</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Shows capture rate optimization; validates optical integration</td>
-</tr>
-<tr style="background: #f8fafc;">
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Call Answer Rate</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">95%+</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Indicates operational maturity; correlates with growth capacity</td>
-</tr>
-<tr>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Staff Turnover</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">&lt;20% annual</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Signals stable operations; reduces transition risk</td>
-</tr>
-<tr style="background: #f8fafc;">
-<td style="padding: 12px;">Same-Store Growth</td>
-<td style="padding: 12px;">5%+ annual</td>
-<td style="padding: 12px;">Validates organic growth thesis; supports premium pricing</td>
-</tr>
-</table>
-</div>
+Multi-location financial statements present reconciliation challenges that single-practice statements do not. Shared costs may be allocated differently across locations, inter-company transactions may obscure true profitability, and owner compensation may flow through various entities in complex structures.
 
-EBITDA margin stands out as the primary valuation driver. Groups achieving margins above 20% demonstrate cost control and pricing power that translate directly to buyer returns. According to industry benchmarks, every five percentage points of margin improvement can add 0.5x to 1x to the applicable multiple.
+Due diligence teams will reconstruct financials at the location level to understand which locations drive profitability and which consume capital. They will challenge allocation methodologies and request supporting documentation for any inter-company pricing. Complex structures that made sense for tax or legal purposes become liabilities during due diligence if they cannot be clearly explained and documented.
 
-Patient retention rates reveal revenue stability and brand strength. High retention indicates patients return for the practice experience, not just individual providers. This reduces transition risk and supports growth assumptions in buyer models.
+Operations leaders should work with transaction advisors to prepare a clean financial package before going to market. This includes location-level P&Ls with documented allocation methodologies, elimination schedules for inter-company transactions, and clear explanations of owner compensation across all entities. Preparing this package proactively avoids delays during due diligence and demonstrates sophistication that buyers appreciate.
 
-Call answer rates might seem operational rather than financial, but they directly correlate with revenue capture and growth capacity. Groups that consistently answer 95% or more of inbound calls demonstrate operational infrastructure that supports scale. The [healthcare group operations benchmarks](/blog/healthcare-group-operations-benchmarks/) provide additional context on how operational metrics connect to financial performance.
+### Provider and Staff Dependency Assessment
 
-Documenting these KPIs historically, not just current performance, strengthens appraisal outcomes. Buyers value trend data that shows consistent improvement or stable excellence over time.
+Acquirers assess provider and staff dependency at every location. A practice where one optometrist sees 80% of patients presents retention risk if that provider leaves post-acquisition. Similarly, locations dependent on individual staff members for key functions like recall or optical sales present operational risk.
 
-## Building Toward a Stronger Appraisal
+Due diligence will examine provider productivity distribution, staff tenure, compensation benchmarks, and employment arrangements at each location. Non-compete agreements, retention incentives, and succession plans become focus areas. Groups with balanced provider workloads and documented processes that do not depend on specific individuals present lower risk profiles.
 
-The optometry practice appraisal process for multi-location groups requires more sophistication than single-practice valuations, but the potential valuation premiums justify the additional complexity. Groups that standardize financial reporting, document operational excellence, and address known issues before entering the appraisal process position themselves for stronger outcomes.
+For multi-location groups, this assessment compounds because each location may have different dependency patterns. A group might have excellent diversification at four locations but critical dependency at one. That single location can affect the valuation of the entire portfolio if the risk is significant enough.
 
-The timeline matters. Groups contemplating transactions in the next 12 to 24 months should begin preparation now. Financial reporting standardization takes time to implement and requires historical data to demonstrate consistency. Operational improvements need sufficient runway to show impact on earnings. Key-person risk mitigation requires building patient relationships with the practice brand, which happens over months rather than weeks.
+### Technology and System Integration Assessment
 
-Working with appraisers who understand multi-location healthcare valuations ensures that the resulting report captures the full platform value your organization has built. Generic business appraisers may miss optometry-specific factors or apply inappropriate benchmarks from other industries.
+Multi-location groups typically operate multiple technology systems: practice management software, EHR systems, optical inventory management, and patient communication platforms. Due diligence examines what systems each location uses, how they integrate, and what migration or consolidation the acquirer will need to complete.
+
+Groups with standardized technology stacks across all locations simplify this assessment and reduce integration risk estimates. Groups with different systems at each location, perhaps due to acquisition history, face questions about data migration, training requirements, and operational disruption during consolidation.
+
+Operations leaders should document their technology environment thoroughly: what systems are in use, what integration exists, what data standards apply, and what migration capabilities they have tested. Groups that have already consolidated to a single platform demonstrate operational maturity. Those still operating multiple systems should have documented migration plans that acquirers can evaluate for feasibility and cost.
+
+## How Do PE Buyers and Strategic Acquirers Evaluate Multi-Location Groups Differently?
+
+Not all buyers evaluate optometry groups the same way. Understanding the different perspectives of PE buyers, strategic acquirers, and OD-to-OD transitions helps sellers position their groups appropriately and negotiate from informed positions.
+
+### Private Equity Platform Building Logic
+
+PE firms acquiring optometry practices typically operate in one of two modes: platform building or add-on acquisitions. Platform deals create new portfolio companies that will serve as foundations for future acquisitions. Add-on deals expand existing portfolio companies by acquiring practices that integrate into established platforms.
+
+Platform deals command the highest valuations because PE firms are buying both current cash flow and future platform value. They seek groups with strong management teams, scalable operations, and geographic positioning that enables further expansion. Platform candidates typically need 10+ locations, proven growth trajectories, and management depth that can absorb additional acquisitions.
+
+Add-on acquisitions receive lower multiples because the platform value already exists in the acquirer's portfolio. However, add-ons benefit from competitive bidding when multiple PE-backed platforms compete for the same geographic markets. Groups positioned as attractive add-ons to multiple platforms can generate competitive tension that improves valuations. Understanding [PE-backed healthcare operations](/blog/pe-backed-healthcare-operations/) helps sellers anticipate buyer priorities.
+
+### Strategic Acquirer Integration Priorities
+
+Strategic acquirers, including existing optometry groups, optical retail chains, and healthcare systems, evaluate acquisitions based on strategic fit rather than pure financial return. A strategic acquirer might pay a premium for a group that fills a geographic gap, adds a capability like medical optometry or myopia management, or brings a patient population they want to serve.
+
+These strategic priorities create opportunities for sellers whose groups offer specific advantages to particular buyers. A group with strong dry eye or myopia management programs might receive premium interest from acquirers building specialty service lines. A group in an underserved geographic market might attract multiple strategic acquirers competing for market entry.
+
+Operations leaders should identify which strategic buyers might value their specific attributes and position their groups accordingly. This might mean emphasizing different aspects of the practice to different buyer types or timing market entry to coincide with strategic buyer expansion plans.
+
+### OD-to-OD Transition Considerations
+
+Transitions to other optometrists or optometry groups follow different valuation logic than PE or strategic acquisitions. Individual OD buyers typically value practices based on what they can afford to pay while maintaining acceptable income levels and servicing acquisition debt. This creates natural caps on what individual buyers can pay, regardless of practice quality.
+
+However, OD buyers may value factors that PE buyers discount, such as practice culture, community relationships, or practice style compatibility. Sellers who prioritize these factors may accept lower valuations from OD buyers in exchange for better cultural fit or legacy preservation.
+
+For multi-location groups, OD buyers are typically limited to groups where the total transaction size remains manageable for individual financing. Larger groups almost inevitably attract PE or strategic buyers simply because few individual ODs can access sufficient capital for 5+ location acquisitions. Understanding [the full guide for selling optometry practices](/blog/guide-for-selling-your-optometry-practice/) helps sellers match their exit goals with appropriate buyer types.
+
+## What Framework Should Operations Leaders Use to Prepare for Appraisal?
+
+Preparing a multi-location optometry group for appraisal requires systematic work across operational, financial, and strategic dimensions. Operations leaders who follow a structured preparation framework achieve better outcomes than those who engage buyers without preparation.
+
+### The 12-Month Pre-Sale Operational Improvement Plan
+
+Optimal preparation begins 12-18 months before planned buyer engagement. This timeline allows sufficient time to implement operational improvements, demonstrate sustained performance, and document results that support valuation claims.
+
+The first phase focuses on operational standardization: implementing consistent protocols across all locations, reducing variance in key metrics, and documenting standard operating procedures. This work should address the highest-variance metrics first, as these represent the most significant improvement opportunities and the most obvious due diligence risks.
+
+The second phase addresses financial optimization: normalizing financial statements, optimizing overhead ratios, and ensuring clean financial records at all locations. This includes resolving any inter-company complexities, documenting allocation methodologies, and preparing location-level financial packages that acquirers will request.
+
+The third phase involves strategic positioning: identifying target buyers, understanding their priorities, and positioning the group to appeal to the most attractive acquirer segments. This might include geographic expansion to fill gaps, service line development to match buyer interests, or management team strengthening to support platform-level valuations.
+
+### Documenting Operational Excellence for Buyers
+
+Acquirers make valuation decisions based on documented evidence, not verbal claims. Operations leaders should build comprehensive documentation packages that demonstrate operational excellence across all dimensions that buyers evaluate.
+
+This documentation should include historical performance data showing trends in key metrics, standard operating procedures that demonstrate systematic approaches, training materials that show how performance is maintained, and compliance records that verify regulatory adherence. The goal is enabling acquirers to verify claims quickly and completely, reducing due diligence friction and supporting premium valuations.
+
+For each key metric, documentation should show current performance, historical trends, benchmarks against industry standards, and the systems that produce consistent results. Groups that can demonstrate sustained above-benchmark performance with documented systems supporting that performance make compelling investment cases.
+
+### Building the Right Advisory Team
+
+Multi-location healthcare transactions require specialized expertise that general business advisors may lack. Operations leaders should assemble advisory teams with relevant transaction experience, including healthcare-focused M&A advisors, healthcare-specialized accountants, and attorneys experienced in healthcare transactions.
+
+The right advisors bring transaction experience that helps sellers avoid common mistakes, market knowledge that supports realistic valuation expectations, and buyer relationships that can generate competitive interest. They also provide credibility with sophisticated buyers who expect sellers to have professional representation.
+
+For guidance on selecting the right optometry practice broker, evaluate candidates based on optometry-specific transaction experience, understanding of PE and strategic buyer perspectives, and track record with multi-location transactions specifically.
+
+### Timing Market Entry for Optimal Results
+
+Market conditions significantly impact achievable valuations. The optometry acquisition market moves in cycles driven by PE capital availability, interest rates, and strategic buyer activity levels. Timing market entry to coincide with favorable conditions can improve outcomes.
+
+According to [Physician Growth Partners' Q1 2025 analysis](https://physiciangrowthpartners.com/white-paper/state-of-eye-care-private-equity-q1-2025/), eye care PE activity rebounded in 2024 after a slowdown, with projections for continued strong activity through 2025-2026. However, market conditions vary by geography and practice type, so local analysis matters more than national trends.
+
+Operations leaders should monitor market conditions while preparing their groups for sale. Being ready to act when conditions are favorable provides optionality that improves outcomes. This means maintaining sale-readiness even while waiting for optimal timing, so the group can move quickly when conditions align.
+
+## Related Reading
+
+For operations leaders preparing multi-location optometry groups for appraisal, these additional resources provide detailed guidance on specific aspects of the process:
+
+- Optometry Practice Valuation Multiples 2026 covers current market multiples and valuation methodologies specific to optometry.
+- [The Optometric Practice Valuation Guide for Buyers and Sellers](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/) provides comprehensive guidance on the full transaction process.
+- [Healthcare Group Operations Benchmarks](/blog/healthcare-group-operations-benchmarks/) details the operational metrics that acquirers evaluate across healthcare verticals.
+- [DSO Integration Playbook](/blog/dso-integration-playbook/) explains what happens post-acquisition and how preparation affects integration success.
+- [Healthcare Call Center ROI for Enterprise](/blog/healthcare-call-center-roi-enterprise/) quantifies the value of centralized patient access investments.
 
 ## Sources
 
-1. Peak Business Valuation. "Valuation Multiples for an Optometry Clinic." 2024-2025 data. [https://peakbusinessvaluation.com/valuation-multiples-for-an-optometry-clinic/](https://peakbusinessvaluation.com/valuation-multiples-for-an-optometry-clinic/)
+1. Physician Growth Partners. [State of Eye Care Private Equity Q1 2025](https://physiciangrowthpartners.com/white-paper/state-of-eye-care-private-equity-q1-2025/). Analysis of PE transaction volume and market trends.
 
-2. Focus Bankers. "Ophthalmology EBITDA Multiple Analysis." 2024. [https://focusbankers.com/ophthalmology-ebitda-multiple/](https://focusbankers.com/ophthalmology-ebitda-multiple/)
+2. Vision Monday. [Private Equity and Practice Transitions in 2025](https://www.visionmonday.com/business/article/private-equity-and-practice-transitions-in-2025/). Industry analysis of major acquirer activity and strategy.
 
-3. ODs on Finance. "Methods of Valuing an Optometry Private Practice: A Comprehensive Guide." [https://odsonfinance.com/methods-of-valuing-an-optometry-private-practice-a-comprehensive-guide/](https://odsonfinance.com/methods-of-valuing-an-optometry-private-practice-a-comprehensive-guide/)
+3. ODSONS Finance. [Methods of Valuing an Optometry Private Practice](https://odsonfinance.com/methods-of-valuing-an-optometry-private-practice-a-comprehensive-guide/). Comprehensive guide to valuation methodologies.
 
-4. Providence Healthcare Capital. "Healthcare & Life Sciences M&A Industry Report Q4 2024." [https://pwco.com/wp-content/uploads/2025/02/Healthcare-Life-Sciences-MA-Industry-Report-Q4-2024.pdf](https://pwco.com/wp-content/uploads/2025/02/Healthcare-Life-Sciences-MA-Industry-Report-Q4-2024.pdf)
+4. Scott Leune. [DSO Acquisition Valuation Framework](https://scottleune.com/blog/dso-acquisition-valuation-framework/). Analysis of EBITDA multiples and valuation factors for multi-location healthcare groups.
+
+5. Eyes on Eyecare. [2024 Optometrist Report](https://eyesoneyecare.com/resources/2024-optometrist-report/). Industry benchmarks for operational performance and compensation.
+
+6. AccountableHQ. [Dental DSO HIPAA Compliance Across Multiple Locations](https://www.accountablehq.com/post/dental-dso-hipaa-compliance-across-multiple-locations-a-practical-guide). Best practices for multi-location compliance programs.
+
+7. Books and Benchmarks. [Optometry Benchmarks: Overhead and Profitability](https://booksandbenchmarks.com/optometry-benchmarks-overhead-profitability/). Financial benchmarks for independent optometry practices.
 
 ---
 
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Managing Appraisal Readiness Across 3+ Locations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Multi-location optometry groups preparing for valuation need operational benchmarks that demonstrate platform maturity. Request an enterprise assessment to see how your call answer rates, patient retention, and intake processes compare to acquisition targets.</p>
-  <a href="https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call" style="display: inline-block; background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none;">Schedule Enterprise Assessment →</a>
-</div>
+Managing optometry practice appraisals across 3+ locations? [Request an enterprise assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for your group to identify operational improvements that support premium valuations.
