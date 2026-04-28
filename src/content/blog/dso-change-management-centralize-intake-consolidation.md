@@ -20,7 +20,7 @@ featuredImage: /images/blog/dso-change-management-centralize-intake-consolidatio
 canonical: https://mybcat.com/blog/dso-change-management-centralize-intake-consolidation/
 ---
 
-Between 70% and 85% of healthcare change initiatives fail, according to research from organizational change expert John Kotter and validated by [Prosci's 2025 benchmarking data](https://www.prosci.com/resources/articles/change-management-benchmarking-reports). For DSOs attempting to centralize intake across multiple locations, that failure rate translates to millions in lost revenue, months of operational chaos, and staff turnover that compounds every problem you were trying to solve. The technology rarely causes these failures. The spreadsheets, the call routing logic, the EHR integrations all tend to work as promised. What breaks is the human side: location managers who feel stripped of authority, front desk staff who believe the new system threatens their jobs, and regional directors who never fully committed to the change in the first place.
+Between 70% and 85% of healthcare change initiatives fail, according to research from organizational change expert John Kotter and validated by [Prosci's change management research](https://www.prosci.com/change-management-success). For DSOs attempting to centralize intake across multiple locations, that failure rate translates to millions in lost revenue, months of operational chaos, and staff turnover that compounds every problem you were trying to solve. The technology rarely causes these failures. The spreadsheets, the call routing logic, the EHR integrations all tend to work as promised. What breaks is the human side: location managers who feel stripped of authority, front desk staff who believe the new system threatens their jobs, and regional directors who never fully committed to the change in the first place.
 
 This playbook provides the 90-day change management framework that multi-location dental groups use to consolidate patient access operations without triggering the staff revolt, patient leakage, and margin erosion that sink most centralization efforts.
 
@@ -359,7 +359,7 @@ For additional guidance on specific aspects of DSO intake centralization, see th
 
 ## Sources
 
-1. Prosci. (2025). *Best Practices in Change Management: 12th Edition Benchmarking Report*. [https://www.prosci.com/resources/articles/change-management-benchmarking-reports](https://www.prosci.com/resources/articles/change-management-benchmarking-reports)
+1. Prosci. (2025). *Change Management Success Research*. [https://www.prosci.com/change-management-success](https://www.prosci.com/change-management-success)
 
 2. Capacity4Health. (2024). *Change Management Statistics and Research*. [https://capacity4health.org/change-management-statistics/](https://capacity4health.org/change-management-statistics/)
 
