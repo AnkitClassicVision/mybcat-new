@@ -1,23 +1,24 @@
 ---
 title: Optometry Practice Appraisal Process for Multi-Location
 seoTitle: Optometry Practice Appraisal for Multi-Location Groups
-description: How multi-location optometry groups standardize the appraisal process
-  across portfolios. Covers EBITDA methodology, operational metrics, and PE buyer
-seoDescription: 'Multi-location optometry appraisal guide: EBITDA multiples, operational
-  metrics, and PE buyer expectations for 3+ location groups.'
-publishDate: '2026-04-29'
-status: scheduled
-scheduledDate: '2026-04-29'
+description: >-
+  How multi-location optometry groups standardize the appraisal process across
+  portfolios. Covers EBITDA methodology, operational metrics, and PE buyer
+seoDescription: >-
+  Multi-location optometry appraisal guide: EBITDA multiples, operational
+  metrics, and PE buyer expectations for 3+ location groups.
+publishDate: '2026-04-29T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Business
 tags:
-- optometry practice appraisal process
-- multi-location
-- enterprise operations
-- healthcare scale
+  - optometry practice appraisal process
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 cluster: practice-valuation
 featuredImage: /images/blog/optometry-practice-appraisal-process.webp
-canonical: https://mybcat.com/blog/optometry-practice-appraisal-process/
+canonical: 'https://mybcat.com/blog/optometry-practice-appraisal-process/'
 ---
 
 Multi-location optometry groups face an appraisal challenge that single practices never encounter: how do you value a portfolio where each location has different revenue profiles, staff capabilities, and operational maturity? The answer lies in standardizing your appraisal methodology before engaging buyers, and that starts with understanding how acquirers actually evaluate multi-site optometry platforms.
