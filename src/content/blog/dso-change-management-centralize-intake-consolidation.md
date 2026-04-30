@@ -1,25 +1,26 @@
 ---
 title: 'DSO Change Management: How to Centralize Intake Without'
 seoTitle: DSO Change Management for Centralized Intake
-description: Learn the 5-phase framework DSO operations leaders use to centralize
-  patient intake across 3+ locations while reducing staff resistance and achieving
-  3:1 ROI.
-seoDescription: Learn the 5-phase framework DSO operations leaders use to centralize
-  patient intake across 3+ locations while reducing staff resistance.
-publishDate: '2026-04-30'
-status: scheduled
-scheduledDate: '2026-04-30'
+description: >-
+  Learn the 5-phase framework DSO operations leaders use to centralize patient
+  intake across 3+ locations while reducing staff resistance and achieving 3:1
+  ROI.
+seoDescription: >-
+  Learn the 5-phase framework DSO operations leaders use to centralize patient
+  intake across 3+ locations while reducing staff resistance.
+publishDate: '2026-04-30T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
-- DSO change management
-- centralized intake
-- multi-location operations
-- enterprise healthcare
-- patient access
+  - DSO change management
+  - centralized intake
+  - multi-location operations
+  - enterprise healthcare
+  - patient access
 cluster: enterprise-operations
 featuredImage: /images/blog/dso-change-management-centralize-intake-consolidation.webp
-canonical: https://mybcat.com/blog/dso-change-management-centralize-intake-consolidation/
+canonical: 'https://mybcat.com/blog/dso-change-management-centralize-intake-consolidation/'
 ---
 
 Sixty-eight percent of healthcare change initiatives fail to meet their objectives, according to research published in StatPearls. For DSO operations leaders managing patient intake centralization across 3+ locations, that statistic translates directly to wasted capital, demoralized teams, and missed EBITDA targets. The difference between the 32% that succeed and the majority that fail comes down to one factor: structured change management that addresses staff resistance before it derails the rollout.
