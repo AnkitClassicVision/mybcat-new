@@ -1,0 +1,141 @@
+{
+  "_schema_version": "1.0",
+  "_description": "Single source of truth for author identity + cluster routing on mybcat.com. Consumed by /src/pages/author/*.astro for E-A-T schema rendering AND by the blog_writer pipeline (route_author.py) for byline assignment.",
+  "_generated": "2026-05-03",
+
+  "ankit-patel": {
+    "name": "Ankit Patel",
+    "short_name": "Ankit Patel",
+    "slug": "ankit-patel",
+    "role": "Founder & CEO",
+    "title": "Founder & CEO, My Business Care Team",
+    "bio": "Ankit Patel is the founder and CEO of My Business Care Team (MyBCAT) and co-founder of Classic Vision Care. Healthcare operations expert with background at Dell and Cleveland Clinic. Lean Six Sigma certified. He writes about enterprise healthcare operations, multi-location DSO/PE strategy, EBITDA-driven scheduling and intake operations, financial mechanics of practice scaling, and the playbook for building managed back-office services for healthcare groups. Author of 'Optometry Redefined: Master Resourcing and Performance' and host of the Optometrists Building Empires podcast.",
+    "image": "/images/ankit_headshot_full.webp",
+    "image_alt": "Ankit Patel - Founder & CEO of MyBCAT",
+    "author_page": "/author/ankit-patel",
+    "schema_id": "https://mybcat.com/author/ankit-patel#person",
+    "schema_type": "Person",
+    "sameAs": [
+      "https://www.linkedin.com/in/ankitpatelcvc/",
+      "https://www.facebook.com/profile.php?id=100088695738006",
+      "https://www.linkedin.com/company/my-business-care-team/",
+      "https://classicvisioncare.com/author/ankit-patel",
+      "https://www.amazon.com/dp/B0FKJTZGJ3"
+    ],
+    "alumni_of": [
+      {"name": "Case Western Reserve University", "department": "Weatherhead School of Management"}
+    ],
+    "knows_about": [
+      "Healthcare Operations",
+      "Multi-Location Practice Management",
+      "DSO Operations",
+      "Private Equity Healthcare Operations",
+      "Patient Access Operations",
+      "Centralized Scheduling",
+      "Healthcare BPO and Outsourcing",
+      "Practice Valuation and EBITDA",
+      "Managed Back-Office Services",
+      "Enterprise Healthcare SaaS"
+    ],
+    "content_type": "operations_finance_strategy",
+    "primary_clusters": [
+      "enterprise",
+      "starting-practice",
+      "private-practice",
+      "bpo-outsourcing",
+      "patient-recall",
+      "no-show-recovery",
+      "patient-communications",
+      "retention",
+      "veterinary",
+      "dental",
+      "practice-valuation"
+    ]
+  },
+
+  "dr-mital-patel": {
+    "name": "Dr. Mital Patel, OD",
+    "short_name": "Dr. Mital Patel",
+    "slug": "dr-mital-patel",
+    "role": "Clinical Advisor",
+    "title": "Doctor of Optometry, Clinical Advisor — MyBCAT",
+    "bio": "Dr. Mital Patel, OD is the clinical advisor for MyBCAT and co-founder of Classic Vision Care. Practicing optometrist for 25+ years specializing in dry eye, specialty contact lenses, and comprehensive eye care. Doctor of Optometry from Southern College of Optometry. Certified in IPL, radio-frequency, and BlephEx treatments. She reviews MyBCAT content where the clinical perspective is essential — patient experience inside an exam, what front-desk handoffs feel like to patients, and how operational decisions land in the chair.",
+    "image": "/images/dr_mital_headshot.webp",
+    "image_alt": "Dr. Mital Patel, OD - Clinical Advisor at MyBCAT",
+    "author_page": "/author/dr-mital-patel",
+    "schema_id": "https://mybcat.com/author/dr-mital-patel#person",
+    "schema_type": "Physician",
+    "sameAs": [
+      "https://classicvisioncare.com/author/dr-mital-patel",
+      "https://classicvisioncare.com/dr-mital-patel-od"
+    ],
+    "credentials": {
+      "degree": "OD",
+      "school": "Southern College of Optometry",
+      "certifications": ["IPL Treatment", "Radio-Frequency Treatment", "BlephEx Treatment"],
+      "specialties": ["Dry Eye Treatment", "Specialty Contact Lenses", "Comprehensive Eye Care"]
+    },
+    "knows_about": [
+      "Clinical Optometry Practice Operations",
+      "Patient Experience in Specialty Eye Care",
+      "Provider-Side Workflow Design",
+      "Front Desk Handoff Quality",
+      "Clinician Burnout and Practice Sustainability"
+    ],
+    "content_type": "clinical_perspective",
+    "primary_clusters": [
+      "optometry"
+    ]
+  },
+
+  "mybcat-editorial": {
+    "name": "MyBCAT Editorial Team",
+    "short_name": "MyBCAT Editorial",
+    "slug": "mybcat-editorial",
+    "role": "Editorial Team",
+    "title": "MyBCAT Editorial Team",
+    "bio": "The MyBCAT Editorial Team produces fact-based, methodology-disclosed reports drawn from anonymized aggregate data across 30+ optometry, dental, and veterinary practices we manage. Published under this team byline when content is data-driven (industry benchmarks, KPI roundups, methodology-grounded research) rather than authored from a single individual's first-person experience. Reviewed by Ankit Patel (operations) and Dr. Mital Patel (clinical) before publication.",
+    "image": "/images/mybcat-editorial-team.webp",
+    "image_alt": "MyBCAT Editorial Team",
+    "author_page": "/author/mybcat-editorial",
+    "schema_id": "https://mybcat.com/author/mybcat-editorial#organization",
+    "schema_type": "Organization",
+    "sameAs": [],
+    "knows_about": [
+      "Healthcare Practice Benchmarks",
+      "Industry KPI Aggregation",
+      "Anonymized Multi-Practice Analytics",
+      "Methodology-Disclosed Research"
+    ],
+    "content_type": "research_data",
+    "primary_clusters": [
+      "ai-technology",
+      "compliance"
+    ]
+  },
+
+  "_routing": {
+    "_description": "Cluster -> author slug. Used by tools/route_author.py. Must cover every cluster in seo_source_of_truth/03_pillar_cluster_taxonomy.md. Default fallback is ankit-patel.",
+    "default_author_slug": "ankit-patel",
+    "by_cluster": {
+      "enterprise": "ankit-patel",
+      "starting-practice": "ankit-patel",
+      "private-practice": "ankit-patel",
+      "bpo-outsourcing": "ankit-patel",
+      "patient-recall": "ankit-patel",
+      "no-show-recovery": "ankit-patel",
+      "patient-communications": "ankit-patel",
+      "retention": "ankit-patel",
+      "veterinary": "ankit-patel",
+      "dental": "ankit-patel",
+      "practice-valuation": "ankit-patel",
+      "optometry": "dr-mital-patel",
+      "ai-technology": "mybcat-editorial",
+      "compliance": "mybcat-editorial"
+    },
+    "_drift_clusters_seen_but_not_in_sot": [
+      "enterprise-operations",
+      "virtual-assistant"
+    ]
+  }
+}
