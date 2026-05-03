@@ -6,7 +6,7 @@ description: How DSOs with 3-50+ locations structure centralized patient schedul
 seoDescription: How DSOs with 3-50+ locations structure centralized scheduling to
   achieve 90%+ answer rates and drive EBITDA growth.
 publishDate: '2026-05-06'
-status: scheduled
+status: draft
 scheduledDate: '2026-05-06'
 author: Ankit Patel
 category: Operations
