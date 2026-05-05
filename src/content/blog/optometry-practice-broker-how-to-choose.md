@@ -1,25 +1,26 @@
 ---
 title: How to Choose an Optometry Practice Broker for
 seoTitle: How to Choose an Optometry Practice Broker | Multi-Location
-description: >-
-  Enterprise guide for COOs and VPs of Operations on selecting an optometry
-  practice broker for 3+ location groups. Due diligence framework, fee
-  structures, and
-seoDescription: >-
-  How to choose an optometry practice broker for multi-location groups.
+description: Enterprise guide for COOs and VPs of Operations on selecting an optometry
+  practice broker for 3+ location groups. Due diligence framework, fee structures,
+  and
+seoDescription: How to choose an optometry practice broker for multi-location groups.
   Enterprise due diligence framework for DSOs and PE-backed portfolios.
 publishDate: '2026-05-05T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Business
 tags:
-  - optometry practice broker how to choose
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- optometry practice broker how to choose
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: practice-valuation
 featuredImage: /images/blog/optometry-practice-broker-how-to-choose.webp
-canonical: 'https://mybcat.com/blog/optometry-practice-broker-how-to-choose/'
+canonical: https://mybcat.com/blog/optometry-practice-broker-how-to-choose/
+relatedPosts:
+- optometry-practice-appraisal-process
+- optometry-practice-financing-loan-options
 ---
 
 Optometry practice broker selection determines whether your multi-location portfolio captures full market value or leaves significant proceeds on the table. For a PE-backed portfolio managing 15 locations with $30M in combined revenue, the difference between adequate and excellent representation can exceed $3.6M in a single transaction. This guide provides the enterprise framework for evaluating optometry practice brokers, specifically designed for COOs, VPs of Operations, and acquisition teams managing 3+ location portfolios.
