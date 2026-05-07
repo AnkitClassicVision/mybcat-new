@@ -1,23 +1,24 @@
 ---
 title: 'Multi-Location Dental Group Call Center RFP: The'
 seoTitle: 'DSO Call Center RFP Guide: Multi-Location Procurement'
-description: Complete RFP framework for multi-location dental groups evaluating call
-  center vendors. Includes scoring criteria, SLA benchmarks, and integration
-seoDescription: Enterprise RFP guide for DSOs evaluating call center vendors. Scoring
+description: >-
+  Complete RFP framework for multi-location dental groups evaluating call center
+  vendors. Includes scoring criteria, SLA benchmarks, and integration
+seoDescription: >-
+  Enterprise RFP guide for DSOs evaluating call center vendors. Scoring
   criteria, SLA benchmarks, integration requirements for 3+ location groups.
-publishDate: '2026-05-07'
-status: scheduled
-scheduledDate: '2026-05-07'
+publishDate: '2026-05-07T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
-- multi-location dental group call center RFP
-- multi-location
-- enterprise operations
-- healthcare scale
+  - multi-location dental group call center RFP
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 cluster: enterprise-operations
 featuredImage: /images/blog/multi-location-dental-group-call-center-rfp.webp
-canonical: https://mybcat.com/blog/multi-location-dental-group-call-center-rfp/
+canonical: 'https://mybcat.com/blog/multi-location-dental-group-call-center-rfp/'
 ---
 
 A structured call center RFP saves multi-location dental groups between $108,000 and $600,000 annually through consolidated vendor evaluation, standardized SLAs, and procurement discipline. DSOs with 5+ locations that use formal RFP processes report 22% lower operational costs compared to those making vendor decisions through informal channels, according to [SourceClub's 2024 DSO sourcing research](https://sourceclub.io/resources/topics/dso-sourcing-strategy/).
