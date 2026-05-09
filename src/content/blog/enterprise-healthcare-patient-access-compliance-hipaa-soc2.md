@@ -17,7 +17,7 @@ tags:
   - multi-location
   - enterprise operations
   - healthcare scale
-cluster: enterprise-compliance
+cluster: enterprise
 featuredImage: /images/blog/enterprise-healthcare-patient-access-compliance-hipaa-soc2.webp
 canonical: >-
   https://mybcat.com/blog/enterprise-healthcare-patient-access-compliance-hipaa-soc2/

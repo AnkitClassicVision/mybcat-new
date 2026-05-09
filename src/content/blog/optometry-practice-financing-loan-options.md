@@ -14,7 +14,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: practice-valuation
+cluster: starting-practice
 featuredImage: /images/blog/optometry-practice-financing-loan-options.webp
 canonical: https://mybcat.com/blog/optometry-practice-financing-loan-options/
 relatedPosts: []

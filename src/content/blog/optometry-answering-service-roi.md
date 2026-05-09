@@ -14,7 +14,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: call-center-operations
+cluster: bpo-outsourcing
 featuredImage: /images/blog/optometry-answering-service-roi.webp
 canonical: https://mybcat.com/blog/optometry-answering-service-roi/
 relatedPosts: []

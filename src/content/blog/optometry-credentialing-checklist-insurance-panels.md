@@ -15,7 +15,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: enterprise-operations
+cluster: enterprise
 featuredImage: /images/blog/optometry-credentialing-checklist-insurance-panels.webp
 canonical: https://mybcat.com/blog/optometry-credentialing-checklist-insurance-panels/
 relatedPosts:

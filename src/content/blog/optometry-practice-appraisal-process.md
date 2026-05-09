@@ -16,7 +16,7 @@ tags:
   - multi-location
   - enterprise operations
   - healthcare scale
-cluster: practice-valuation
+cluster: starting-practice
 featuredImage: /images/blog/optometry-practice-appraisal-process.webp
 canonical: 'https://mybcat.com/blog/optometry-practice-appraisal-process/'
 ---

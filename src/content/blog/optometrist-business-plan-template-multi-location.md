@@ -17,7 +17,7 @@ tags:
   - multi-location
   - enterprise operations
   - healthcare scale
-cluster: enterprise-operations
+cluster: enterprise
 featuredImage: /images/blog/optometrist-business-plan-template-multi-location.webp
 canonical: 'https://mybcat.com/blog/optometrist-business-plan-template-multi-location/'
 ---

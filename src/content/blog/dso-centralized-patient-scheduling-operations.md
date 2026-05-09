@@ -15,7 +15,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: enterprise-operations
+cluster: enterprise
 featuredImage: /images/blog/dso-centralized-patient-scheduling-operations.webp
 canonical: https://mybcat.com/blog/dso-centralized-patient-scheduling-operations/
 ---

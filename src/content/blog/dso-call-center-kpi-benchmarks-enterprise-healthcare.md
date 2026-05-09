@@ -14,7 +14,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: enterprise-operations
+cluster: enterprise
 featuredImage: /images/blog/dso-call-center-kpi-benchmarks-enterprise-healthcare.webp
 canonical: https://mybcat.com/blog/dso-call-center-kpi-benchmarks-enterprise-healthcare/
 relatedPosts:

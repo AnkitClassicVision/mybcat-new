@@ -14,7 +14,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: enterprise-operations
+cluster: enterprise
 featuredImage: /images/blog/multi-location-dental-group-call-center-rfp.webp
 canonical: https://mybcat.com/blog/multi-location-dental-group-call-center-rfp/
 relatedPosts:

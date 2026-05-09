@@ -15,7 +15,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: practice-valuation
+cluster: starting-practice
 featuredImage: /images/blog/optometry-practice-broker-how-to-choose.webp
 canonical: https://mybcat.com/blog/optometry-practice-broker-how-to-choose/
 relatedPosts:

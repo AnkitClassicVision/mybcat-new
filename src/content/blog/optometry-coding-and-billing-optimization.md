@@ -14,7 +14,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: enterprise-operations
+cluster: enterprise
 featuredImage: /images/blog/optometry-coding-and-billing-optimization.webp
 canonical: https://mybcat.com/blog/optometry-coding-and-billing-optimization/
 relatedPosts:

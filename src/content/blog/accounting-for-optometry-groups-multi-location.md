@@ -14,7 +14,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: enterprise-operations
+cluster: enterprise
 featuredImage: /images/blog/accounting-for-optometry-groups-multi-location.webp
 canonical: https://mybcat.com/blog/accounting-for-optometry-groups-multi-location/
 relatedPosts: []

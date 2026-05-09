@@ -15,7 +15,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: enterprise-operations
+cluster: enterprise
 featuredImage: /images/blog/optometry-buying-groups-vs-management-services-organization.webp
 canonical: https://mybcat.com/blog/optometry-buying-groups-vs-management-services-organization/
 ---

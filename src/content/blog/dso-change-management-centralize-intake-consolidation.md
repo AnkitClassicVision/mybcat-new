@@ -18,7 +18,7 @@ tags:
   - multi-location operations
   - enterprise healthcare
   - patient access
-cluster: enterprise-operations
+cluster: enterprise
 featuredImage: /images/blog/dso-change-management-centralize-intake-consolidation.webp
 canonical: 'https://mybcat.com/blog/dso-change-management-centralize-intake-consolidation/'
 ---
