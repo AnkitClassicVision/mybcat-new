@@ -23,6 +23,29 @@ const blog = defineCollection({
     seoTitle: z.string().optional(),
     seoDescription: z.string().optional(),
     canonical: z.string().optional().transform((value) => value?.trim() || undefined),
+    // Optional structured-data schemas. Emitted as JSON-LD by Blog.astro when present.
+    howToSchema: z
+      .object({
+        name: z.string(),
+        description: z.string(),
+        totalTime: z.string().optional(),
+        estimatedCost: z
+          .object({ value: z.string(), currency: z.string() })
+          .optional(),
+        image: z.string().optional(),
+        steps: z.array(
+          z.object({
+            name: z.string(),
+            text: z.string(),
+            url: z.string().optional(),
+            image: z.string().optional(),
+          })
+        ),
+      })
+      .optional(),
+    faqSchema: z
+      .array(z.object({ question: z.string(), answer: z.string() }))
+      .optional(),
   }),
 });
 

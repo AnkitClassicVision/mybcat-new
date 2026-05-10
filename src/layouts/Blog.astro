@@ -4,7 +4,7 @@ import AuthorBio from '@/components/blog/AuthorBio.astro';
 import MedicalReviewBadge from '@/components/blog/MedicalReviewBadge.astro';
 import RelatedPosts from '@/components/blog/RelatedPosts.astro';
 import { isPostVisible } from '@utils/blog';
-import { generateArticleSchema, generateBreadcrumbSchema, combineSchemas, serializeSchema } from '@/utils/schema';
+import { generateArticleSchema, generateBreadcrumbSchema, generateHowToSchema, generateFAQSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
 import type { CollectionEntry } from 'astro:content';
 
@@ -13,7 +13,7 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, publishDate, modifiedDate, author, category, tags, featuredImage, relatedPosts, seoTitle, seoDescription, canonical } = post.data;
+const { title, description, publishDate, modifiedDate, author, category, tags, featuredImage, relatedPosts, seoTitle, seoDescription, canonical, howToSchema, faqSchema } = post.data;
 
 // Generate category slug for linking
 const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
@@ -77,7 +77,15 @@ const breadcrumbSchema = generateBreadcrumbSchema([
   { name: title }
 ], articleUrl);
 
-const schema = combineSchemas(articleSchema, breadcrumbSchema);
+const optionalSchemas: object[] = [];
+if (howToSchema) {
+  optionalSchemas.push(generateHowToSchema({ ...howToSchema, url: articleUrl }));
+}
+if (faqSchema && faqSchema.length > 0) {
+  optionalSchemas.push(generateFAQSchema(faqSchema));
+}
+
+const schema = combineSchemas(articleSchema, breadcrumbSchema, ...optionalSchemas);
 
 // Author data for header
 const authorData: Record<string, { role: string; image: string }> = {
