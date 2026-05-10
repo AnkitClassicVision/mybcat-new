@@ -14,7 +14,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: bpo-outsourcing
+cluster: virtual-assistant
 featuredImage: /images/blog/optometry-front-desk-outsourcing-vs-virtual-assistant.webp
 canonical: https://mybcat.com/blog/optometry-front-desk-outsourcing-vs-virtual-assistant/
 relatedPosts:

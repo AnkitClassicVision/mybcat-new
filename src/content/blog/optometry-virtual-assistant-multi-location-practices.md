@@ -15,7 +15,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: bpo-outsourcing
+cluster: virtual-assistant
 featuredImage: /images/blog/optometry-virtual-assistant-multi-location-practices.webp
 canonical: https://mybcat.com/blog/optometry-virtual-assistant-multi-location-practices/
 relatedPosts: []
