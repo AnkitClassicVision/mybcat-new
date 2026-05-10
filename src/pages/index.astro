@@ -60,6 +60,10 @@ const clientLogos = [
 ];
 ---
 
+<style is:global>
+  @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+</style>
+
 <BaseLayout
   title="Healthcare Patient Operations | My Business Care Team"
   description="Complete patient operations for healthcare practices. 24/7 answering, scheduling, recall campaigns, and administrative support. HIPAA compliant."
@@ -68,6 +72,26 @@ const clientLogos = [
   <!-- Organization + WebSite schemas are added by BaseLayout for homepage -->
 
   <main id="main-content" class="homepage">
+    <section class="dragon-banner" aria-label="Dragon protection notice">
+      <pre class="dragon-art" aria-hidden="true"><span class="dragon-outline">                         /           /</span>
+<span class="dragon-outline">                   /'</span><span class="dragon-scale"> .,,,,  ./</span>
+<span class="dragon-outline">                  /';'     ,/</span>
+<span class="dragon-outline">                 / /   ,,//,`'</span><span class="dragon-fire dragon-fire-1">~</span><span class="dragon-fire dragon-fire-2">*</span><span class="dragon-fire dragon-fire-3">.</span>
+<span class="dragon-outline">                ( ,, '_,  ,,,' ``</span><span class="dragon-fire dragon-fire-2">~</span><span class="dragon-fire dragon-fire-1">*</span>
+<span class="dragon-outline">                |    /@  ,,, ;"</span><span class="dragon-fire dragon-fire-3">~</span>
+<span class="dragon-outline">               /    .   ,''/' `,</span><span class="dragon-fire dragon-fire-1">*</span>
+<span class="dragon-outline">              /   .     ./, `,, ` ;</span>
+<span class="dragon-outline">           ,./  .   ,-,',` ,,/''\,'</span>
+<span class="dragon-outline">          |   /; ./,,'`,,'' |   |</span>
+<span class="dragon-outline">          |     /   ','    /    |</span>
+<span class="dragon-outline">           \___/'   '     |     |</span>
+<span class="dragon-outline">             `,,'  |      /     `\</span>
+<span class="dragon-outline">                  /      |        ~\</span>
+<span class="dragon-outline">                 '       (</span>
+<span class="dragon-scale">                :</span></pre>
+      <p class="dragon-decree">This codebase is now under dragon protection</p>
+    </section>
+
     <!-- Hero Section with Video -->
     <Hero
       title="Centralized Patient Access for Multi-Location Healthcare Groups"
@@ -361,6 +385,80 @@ const clientLogos = [
     max-width: 1200px;
     margin: 0 auto;
     padding: 80px 24px 0;
+  }
+
+  .dragon-banner {
+    margin: 0 auto 48px;
+    padding: 32px 24px 28px;
+    border: 1px solid rgba(120, 66, 18, 0.18);
+    border-radius: 24px;
+    background:
+      radial-gradient(circle at top right, rgba(255, 188, 92, 0.28), transparent 28%),
+      linear-gradient(180deg, #fff9ef 0%, #f6ebd8 100%);
+    box-shadow: 0 18px 48px rgba(51, 33, 10, 0.12);
+    text-align: center;
+    overflow-x: auto;
+  }
+
+  .dragon-art {
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    font-size: clamp(0.46rem, 1vw, 0.82rem);
+    line-height: 1.05;
+    letter-spacing: 0;
+    white-space: pre;
+    color: #5c3a1f;
+  }
+
+  .dragon-outline {
+    color: #6f4a2a;
+  }
+
+  .dragon-scale {
+    color: #1f7a45;
+  }
+
+  .dragon-fire {
+    display: inline-block;
+    color: #ff7a00;
+    text-shadow: 0 0 8px rgba(255, 122, 0, 0.65);
+    animation: flame-flicker 0.7s infinite ease-in-out alternate;
+  }
+
+  .dragon-fire-2 {
+    color: #ffb347;
+    animation-delay: 0.15s;
+  }
+
+  .dragon-fire-3 {
+    color: #ffe08a;
+    animation-delay: 0.3s;
+  }
+
+  .dragon-decree {
+    margin: 18px 0 0;
+    color: #5a3117;
+    font-family: 'MedievalSharp', Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.35rem, 2.8vw, 2.35rem);
+    line-height: 1.2;
+  }
+
+  @keyframes flame-flicker {
+    0% {
+      opacity: 0.35;
+      transform: translateY(1px) scale(0.98);
+    }
+
+    50% {
+      opacity: 1;
+      transform: translateY(-1px) scale(1.05);
+    }
+
+    100% {
+      opacity: 0.55;
+      transform: translateY(0) scale(1);
+    }
   }
 
   .section-intro {
@@ -825,6 +923,15 @@ const clientLogos = [
   }
 
   @media (max-width: 600px) {
+    .dragon-banner {
+      margin-bottom: 40px;
+      padding: 24px 16px;
+    }
+
+    .dragon-art {
+      font-size: 0.42rem;
+    }
+
     .quick-links-grid {
       grid-template-columns: 1fr;
     }
