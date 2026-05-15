@@ -209,7 +209,7 @@ When DSO leadership decides to standardize on a single practice management syste
 
 During migration, nothing stays measurable. Staff learn a new system and new processes at the same time, so performance benchmarks have no stable baseline. You can't tell the board whether call answer rates improved because you don't have consistent data from the chaos period.
 
-The staffing crisis compounds the challenge. According to [MGMA's 2022-2023 staffing surveys](https://www.mgma.com/getkaiasset/2a08ebc0-1594-4641-b025-3c5093f96083/2024-MGMA-Management-and-Staff-Compensation-Data-Report.pdf), front office support positions experienced approximately 40% annual turnover. Each replacement costs between $9,000 and $30,000 in recruiting, training, and lost productivity. The [NexHealth State of Dental 2024 report](https://www.nexhealth.com/stateofdental2024) found that 82% of practices needed to hire due to departures in the past year. 74% cite staff retention as their top concern.
+The staffing crisis compounds the challenge. According to [MGMA's 2022-2023 staffing surveys](https://www.mgma.com/getkaiasset/2a08ebc0-1594-4641-b025-3c5093f96083/2024-MGMA-Management-and-Staff-Compensation-Data-Report.pdf), front office support positions experienced approximately 40% annual turnover. Each replacement costs between $9,000 and $30,000 in recruiting, training, and lost productivity.
 
 The staffing shortage isn't cyclical. It won't resolve when the labor market shifts. Burnout, compensation gaps, and the difficulty of the front desk role itself drive turnover structurally. If you're constantly training new hires on a system that's about to change anyway, you're burning resources twice. The [front desk staffing crisis](/blog/healthcare-front-desk-staffing-crisis-2025/) demands solutions that work within current constraints, not solutions that require a perfect staffing environment that doesn't exist.
 
@@ -398,14 +398,12 @@ For organizations evaluating [PE-backed healthcare operations](/blog/pe-backed-h
 
 2. VMG Health. "Dental Service Organizations M&A in 2026." Market analysis showing 35% of dental industry under DSO ownership with projections to 75-80%. [https://vmghealth.com/](https://vmghealth.com/insights/blog/dental-service-organizations-ma-in-2026-transaction-valuation-compliance-priorities-for-investors-executive-leadership/)
 
-3. NexHealth. "State of Dental 2024 Report." Survey data indicating 82% of practices needed to hire due to departures and 74% cite staff retention as top concern. [https://www.nexhealth.com/stateofdental2024](https://www.nexhealth.com/stateofdental2024)
+3. Planet DDS. "DSO M&A Planning and Timelines." Research on dental practice acquisition integration timelines ranging from 60-90 days for small deals to 6+ months for large DSOs. [https://www.planetdds.com/](https://www.planetdds.com/blog/dso-ma-planning-and-timelines-for-a-dental-practice-sale/)
 
-4. Planet DDS. "DSO M&A Planning and Timelines." Research on dental practice acquisition integration timelines ranging from 60-90 days for small deals to 6+ months for large DSOs. [https://www.planetdds.com/](https://www.planetdds.com/blog/dso-ma-planning-and-timelines-for-a-dental-practice-sale/)
+4. DenteMax. "Why Missed Phone Calls Are Dental Offices' Largest Revenue Loss." Industry data on 30-35% missed call rates. [https://www.dentemax.com/](https://www.dentemax.com/dentists/blog-articles/2025/Why_missed_phone_calls_are_dental_offices_largest_revenue_loss)
 
-5. DenteMax. "Why Missed Phone Calls Are Dental Offices' Largest Revenue Loss." Industry data on 30-35% missed call rates. [https://www.dentemax.com/](https://www.dentemax.com/dentists/blog-articles/2025/Why_missed_phone_calls_are_dental_offices_largest_revenue_loss)
+5. Peerlogic. "Turning Missed Dental Phone Calls Into Profit." Analysis showing $350-$1,300 per missed call in first-year revenue and 75% of missed callers never calling back. [https://www.peerlogic.com/](https://www.peerlogic.com/post/turning-missed-dental-phone-calls-into-profit)
 
-6. Peerlogic. "Turning Missed Dental Phone Calls Into Profit." Analysis showing $350-$1,300 per missed call in first-year revenue and 75% of missed callers never calling back. [https://www.peerlogic.com/](https://www.peerlogic.com/post/turning-missed-dental-phone-calls-into-profit)
+6. Patient Prism. "Dental Depot Case Study." Documentation of $300,000 revenue recovery and 6% same-store growth through process standardization. [https://www.patientprism.com/](https://www.patientprism.com/wp-content/uploads/filr/36621/CaseStudy_DentalDepot020320.pdf)
 
-7. Patient Prism. "Dental Depot Case Study." Documentation of $300,000 revenue recovery and 6% same-store growth through process standardization. [https://www.patientprism.com/](https://www.patientprism.com/wp-content/uploads/filr/36621/CaseStudy_DentalDepot020320.pdf)
-
-8. TrueLark. "What We've Learned from 8 Million Patient Conversations." Analysis of 98-location DSO achieving 68% booking conversion. [https://truelark.com/](https://truelark.com/what-weve-learned-from-8-million-patient-conversations/)
+7. TrueLark. "What We've Learned from 8 Million Patient Conversations." Analysis of 98-location DSO achieving 68% booking conversion. [https://truelark.com/](https://truelark.com/what-weve-learned-from-8-million-patient-conversations/)
