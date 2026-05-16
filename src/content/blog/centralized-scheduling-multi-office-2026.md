@@ -15,7 +15,7 @@ tags:
   - DSO operations
   - multi-location operations
   - patient access
-featuredImage: /images/blog/centralized-scheduling-multi-office-2026.webp
+featuredImage: /images/blog/centralized-scheduling-multi-office-2026-v2.webp
 canonical: 'https://mybcat.com/blog/centralized-scheduling-multi-office-2026/'
 seoTitle: Centralized Scheduling for Dental Offices | 60-Day ROI
 seoDescription: >-
@@ -32,7 +32,7 @@ seoDescription: >-
       "@id": "/blog/centralized-scheduling-multi-office-2026/#article",
       "headline": "Centralized Scheduling Across Multiple Dental Offices: The Workflow-First Approach",
       "description": "DSOs can centralize scheduling in 60-90 days without PM migration. Get the workflow-first framework used by top dental groups.",
-      "image": "https://mybcat.com/images/blog/centralized-scheduling-multi-office-2026.webp",
+      "image": "https://mybcat.com/images/blog/centralized-scheduling-multi-office-2026-v2.webp",
       "author": {
         "@type": "Person",
         "name": "Ankit Patel",
