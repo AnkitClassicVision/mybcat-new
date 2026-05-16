@@ -1,26 +1,24 @@
 ---
-title: >-
-  Centralized Scheduling Across Multiple Dental Offices: The Workflow-First
-  Approach
-description: >-
-  DSOs can centralize scheduling in 60-90 days without full PM migration. Use
-  this workflow-first framework to standardize calls, booking, and visibility.
+title: 'Centralized Scheduling Across Multiple Dental Offices: The Workflow-First
+  Approach'
+description: DSOs can centralize scheduling in 60-90 days without full PM migration.
+  Use this workflow-first framework to standardize calls, booking, and visibility.
 publishDate: '2026-05-15T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Multi-Location Operations
 tags:
-  - centralized scheduling
-  - dental offices
-  - DSO operations
-  - multi-location operations
-  - patient access
+- centralized scheduling
+- dental offices
+- DSO operations
+- multi-location operations
+- patient access
 featuredImage: /images/blog/centralized-scheduling-multi-office-2026-v2.webp
-canonical: 'https://mybcat.com/blog/centralized-scheduling-multi-office-2026/'
+canonical: https://mybcat.com/blog/centralized-scheduling-multi-office-2026/
 seoTitle: Centralized Scheduling for Dental Offices | 60-Day ROI
-seoDescription: >-
-  DSOs can centralize scheduling in 60-90 days without full PM migration. Use
-  this workflow-first framework to standardize calls, booking, and visibility.
+seoDescription: DSOs can centralize scheduling in 60-90 days without full PM migration.
+  Use this workflow-first framework to standardize calls, booking, and visibility.
+relatedPosts: []
 ---
 
 <script type="application/ld+json">
