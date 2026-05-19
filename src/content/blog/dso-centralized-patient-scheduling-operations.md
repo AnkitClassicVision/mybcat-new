@@ -1,13 +1,13 @@
 ---
 title: DSO Centralized Patient Scheduling Operations
 seoTitle: DSO Centralized Patient Scheduling Operations Guide
-description: How DSOs with 3-50+ locations structure centralized patient scheduling
-  operations to achieve 90%+ answer rates and drive EBITDA growth.
-seoDescription: How DSOs with 3-50+ locations structure centralized scheduling to
-  achieve 90%+ answer rates and drive EBITDA growth.
-publishDate: '2026-05-06'
-status: draft
-scheduledDate: '2026-05-06'
+description: How DSOs with 3-50+ locations structure centralized scheduling operations to
+  improve answer rates, reduce leakage, and scale patient access across practices.
+seoDescription: How DSOs with 3-50+ locations structure centralized scheduling operations to
+  improve answer rates, reduce leakage, and scale patient access across practices.
+publishDate: '2026-05-20'
+status: scheduled
+scheduledDate: '2026-05-20'
 author: Ankit Patel
 category: Operations
 tags:
@@ -15,7 +15,7 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: enterprise-operations
+cluster: enterprise
 featuredImage: /images/blog/dso-centralized-patient-scheduling-operations.webp
 canonical: https://mybcat.com/blog/dso-centralized-patient-scheduling-operations/
 ---
@@ -357,7 +357,7 @@ Technology approaches include training agents on all PMS platforms individually 
 
 4. Precedence Research. (2025). [U.S. Dental Support Organizations Market](https://www.precedenceresearch.com/us-dental-support-organizations-market). Market Analysis Report.
 
-5. Grand View Research. (2024). [Dental Services Organization Market Report](https://www.grandviewresearch.com/industry-analysis/dental-services-organization-market-report). Industry Analysis.
+5. American Dental Association Health Policy Institute. [Dental Practice Research](https://www.ada.org/resources/research/health-policy-institute/dental-practice-research). ADA HPI.
 
 ---
 
