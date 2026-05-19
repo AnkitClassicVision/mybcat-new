@@ -1,0 +1,132 @@
+{
+  "agent_id": "mybcat-seo-publish",
+  "scored_at": "2026-05-19T23:34:46.096Z",
+  "grade": "A",
+  "score": 1,
+  "meets_deploy_gate": true,
+  "totals": {
+    "healthy": 9,
+    "broken": 0,
+    "not_applicable": 6,
+    "applicable": 9
+  },
+  "per_chip": {
+    "bounded": {
+      "healthy": 2,
+      "broken": 0,
+      "not_applicable": 1
+    },
+    "grounded": {
+      "healthy": 0,
+      "broken": 0,
+      "not_applicable": 3
+    },
+    "gated": {
+      "healthy": 2,
+      "broken": 0,
+      "not_applicable": 1
+    },
+    "observed": {
+      "healthy": 3,
+      "broken": 0,
+      "not_applicable": 0
+    },
+    "governed": {
+      "healthy": 2,
+      "broken": 0,
+      "not_applicable": 1
+    }
+  },
+  "per_node": [
+    {
+      "node_id": "01-publish-gate",
+      "chips": [
+        {
+          "chip": "bounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "grounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "gated",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "observed",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "governed",
+          "verdict": "n/a",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "node_id": "02-publish-commit",
+      "chips": [
+        {
+          "chip": "bounded",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "grounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "gated",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "observed",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "governed",
+          "verdict": "healthy",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "node_id": "03-crosslink-restore",
+      "chips": [
+        {
+          "chip": "bounded",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "grounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "gated",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "observed",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "governed",
+          "verdict": "healthy",
+          "reasons": []
+        }
+      ]
+    }
+  ]
+}

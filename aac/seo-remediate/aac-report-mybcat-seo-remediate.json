@@ -1,0 +1,132 @@
+{
+  "agent_id": "mybcat-seo-remediate",
+  "scored_at": "2026-05-19T23:34:44.177Z",
+  "grade": "A",
+  "score": 1,
+  "meets_deploy_gate": true,
+  "totals": {
+    "healthy": 13,
+    "broken": 0,
+    "not_applicable": 2,
+    "applicable": 13
+  },
+  "per_chip": {
+    "bounded": {
+      "healthy": 3,
+      "broken": 0,
+      "not_applicable": 0
+    },
+    "grounded": {
+      "healthy": 1,
+      "broken": 0,
+      "not_applicable": 2
+    },
+    "gated": {
+      "healthy": 3,
+      "broken": 0,
+      "not_applicable": 0
+    },
+    "observed": {
+      "healthy": 3,
+      "broken": 0,
+      "not_applicable": 0
+    },
+    "governed": {
+      "healthy": 3,
+      "broken": 0,
+      "not_applicable": 0
+    }
+  },
+  "per_node": [
+    {
+      "node_id": "01-deterministic-fixes",
+      "chips": [
+        {
+          "chip": "bounded",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "grounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "gated",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "observed",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "governed",
+          "verdict": "healthy",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "node_id": "02-llm-rewrite",
+      "chips": [
+        {
+          "chip": "bounded",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "grounded",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "gated",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "observed",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "governed",
+          "verdict": "healthy",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "node_id": "03-asset-optimize",
+      "chips": [
+        {
+          "chip": "bounded",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "grounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "gated",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "observed",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "governed",
+          "verdict": "healthy",
+          "reasons": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+node_id: "01-post-audit"
+node_number: 1
+name: "Post audit"
+description: "Runs evaluate-post.js + audit-blog-posts.js against every published markdown post."
+runtime_type: "D"
+lane: "system"
+input_schema: { type: "object", properties: { posts_dir: { type: "string" } } }
+output_schema: { type: "object", properties: { total: { type: "integer" }, failures: { type: "array" } } }
+latency_budget_ms: 60000
+daily_volume_estimate: 200
+failure_mode: "exit non-zero with per-post diagnostic; aggregates failures into a JSON report"
+named_owner: "Ankit"
+implementation: "scripts/evaluate-post.js + scripts/audit-blog-posts.js"
+deterministic_proof: "pure read of markdown files; same inputs produce same diagnostics"

@@ -1,0 +1,32 @@
+agent_id: "mybcat-seo-remediate"
+name: "MyBCAT SEO Remediate"
+description: "Auto-remediation of blog quality gate failures. Deterministic fixes (regex/AST), then LLM-backed rewrites for prose density / word count / SEO fields. Modifies markdown files in-place; commits via git."
+version: "0.1.0"
+repo: "github.com/mybcat/mybcat-new"
+created_at: "2026-05-19T00:00:00Z"
+updated_at: "2026-05-19T00:00:00Z"
+owner_name: "Ankit"
+owner_email: "ankit@mybcat.com"
+alerts_email: "ankit@mybcat.com"
+lane: "AI"
+runtime_environment: "github-actions"
+trigger:
+  type: "schedule"
+  schedule_or_source: "cron(0 5 * * *)"
+kill:
+  supported: true
+  endpoint: "arn:aws:sns:us-east-1:533267039664:aac-kill-mybcat-seo-remediate"
+  auth: "sigv4"
+  graceful_window_seconds: 60
+  behavior_summary: "stop after current post; uncommitted edits discarded"
+  force_kill_strategy: "GitHub Actions job cancel"
+revert:
+  supported: true
+  endpoint: "arn:aws:sns:us-east-1:533267039664:aac-revert-mybcat-seo-remediate"
+  auth: "sigv4"
+  window_hours: 24
+  granularity: "per-commit"
+  behavior_summary: "git revert the remediation commit on main"
+  failure_modes: ["commit already in a published branch", "merge conflict on revert", "remote main protected"]
+pii_class: "none"
+redaction_strategy: "none"

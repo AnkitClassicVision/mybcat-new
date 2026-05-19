@@ -1,0 +1,20 @@
+node_id: "03-crosslink-restore"
+node_number: 3
+name: "Cross-link restore"
+description: "After publishing, re-activate any deactivated cross-links whose target post is now published. Best-effort: failed restores stay in JSON manifest for manual review."
+runtime_type: "A"
+lane: "system"
+input_schema: { type: "object", properties: { newly_published: { type: "array" } } }
+output_schema: { type: "object", properties: { restored: { type: "integer" }, manual_review: { type: "array" } } }
+latency_budget_ms: 30000
+daily_volume_estimate: 1
+failure_mode: "per-link restore failure aggregated into manual_review list; agent continues to next link"
+named_owner: "Ankit"
+action_class: "MUTATE"
+idempotency_key: "deactivated-link-id (already-active link is a no-op)"
+rate_limit: "n/a (local file edits)"
+blast_radius: "edits to deactivated_links.json + the linking posts' markdown"
+rollback_strategy: "git revert the restoration commit"
+refuse_routing: "skip if deactivated_links.json missing or unparseable"
+hard_refuse_classes: ["deactivated_links.json corrupt", "target post not found in repo"]
+kill_switch_class: "GitHub Actions job cancel"

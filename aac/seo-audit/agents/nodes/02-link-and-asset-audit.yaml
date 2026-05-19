@@ -1,0 +1,14 @@
+node_id: "02-link-and-asset-audit"
+node_number: 2
+name: "Link + asset audit"
+description: "check-missing-webp.js, check-sitemap-urls.mjs, validate-redirects.mjs. Finds missing image variants, broken sitemap URLs, redirect chain issues."
+runtime_type: "D"
+lane: "system"
+input_schema: { type: "object" }
+output_schema: { type: "object", properties: { missing_webp: { type: "array" }, broken_sitemap_urls: { type: "array" }, redirect_issues: { type: "array" } } }
+latency_budget_ms: 90000
+daily_volume_estimate: 1
+failure_mode: "report aggregated issues; soft-fails on transient network errors with retry"
+named_owner: "Ankit"
+implementation: "scripts/check-missing-webp.js + scripts/check-sitemap-urls.mjs + scripts/validate-redirects.mjs"
+deterministic_proof: "filesystem reads + HTTP HEAD requests; outputs flat lists snapshot-comparable across runs"

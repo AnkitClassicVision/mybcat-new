@@ -1,0 +1,132 @@
+{
+  "agent_id": "mybcat-seo-audit",
+  "scored_at": "2026-05-19T23:34:34.373Z",
+  "grade": "A",
+  "score": 1,
+  "meets_deploy_gate": true,
+  "totals": {
+    "healthy": 3,
+    "broken": 0,
+    "not_applicable": 12,
+    "applicable": 3
+  },
+  "per_chip": {
+    "bounded": {
+      "healthy": 0,
+      "broken": 0,
+      "not_applicable": 3
+    },
+    "grounded": {
+      "healthy": 0,
+      "broken": 0,
+      "not_applicable": 3
+    },
+    "gated": {
+      "healthy": 0,
+      "broken": 0,
+      "not_applicable": 3
+    },
+    "observed": {
+      "healthy": 3,
+      "broken": 0,
+      "not_applicable": 0
+    },
+    "governed": {
+      "healthy": 0,
+      "broken": 0,
+      "not_applicable": 3
+    }
+  },
+  "per_node": [
+    {
+      "node_id": "01-post-audit",
+      "chips": [
+        {
+          "chip": "bounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "grounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "gated",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "observed",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "governed",
+          "verdict": "n/a",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "node_id": "02-link-and-asset-audit",
+      "chips": [
+        {
+          "chip": "bounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "grounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "gated",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "observed",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "governed",
+          "verdict": "n/a",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "node_id": "03-gsc-inspect",
+      "chips": [
+        {
+          "chip": "bounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "grounded",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "gated",
+          "verdict": "n/a",
+          "reasons": []
+        },
+        {
+          "chip": "observed",
+          "verdict": "healthy",
+          "reasons": []
+        },
+        {
+          "chip": "governed",
+          "verdict": "n/a",
+          "reasons": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+node_id: "01-deterministic-fixes"
+node_number: 1
+name: "Deterministic fixes"
+description: "Regex/AST fixes: angle brackets, double-bracket links, CTA insertion, plain-text refs. No LLM calls."
+runtime_type: "A"
+lane: "system"
+input_schema: { type: "object", properties: { post_paths: { type: "array", items: { type: "string" } } } }
+output_schema: { type: "object", properties: { modified: { type: "array" }, skipped: { type: "array" } } }
+latency_budget_ms: 5000
+daily_volume_estimate: 30
+failure_mode: "skip post on parse error; aggregate skipped list in report"
+named_owner: "Ankit"
+action_class: "MUTATE"
+idempotency_key: "post_path + content_hash (re-running on same content is a no-op)"
+rate_limit: "n/a (local file edits)"
+blast_radius: "one post markdown file per call; not yet committed"
+rollback_strategy: "git checkout HEAD -- <path> (since no commit yet)"
+refuse_routing: "refuse if frontmatter parse fails"
+hard_refuse_classes: ["frontmatter unparseable", "file lock contention"]
+kill_switch_class: "GitHub Actions job cancel"

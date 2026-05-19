@@ -1,0 +1,32 @@
+agent_id: "mybcat-seo-publish"
+name: "MyBCAT SEO Publish"
+description: "Daily scheduled-post publisher. Scans for scheduledDate <= today, runs the quality gate, flips status scheduled→published, restores cross-links to newly-published targets. Hard cap MAX_DAILY_PUBLISH=1."
+version: "0.1.0"
+repo: "github.com/mybcat/mybcat-new"
+created_at: "2026-05-19T00:00:00Z"
+updated_at: "2026-05-19T00:00:00Z"
+owner_name: "Ankit"
+owner_email: "ankit@mybcat.com"
+alerts_email: "ankit@mybcat.com"
+lane: "system"
+runtime_environment: "github-actions"
+trigger:
+  type: "schedule"
+  schedule_or_source: "cron(0 7 * * *)"
+kill:
+  supported: true
+  endpoint: "arn:aws:sns:us-east-1:533267039664:aac-kill-mybcat-seo-publish"
+  auth: "sigv4"
+  graceful_window_seconds: 30
+  behavior_summary: "finish current post then exit cleanly; do not start next post"
+  force_kill_strategy: "GitHub Actions job cancel"
+revert:
+  supported: true
+  endpoint: "arn:aws:sns:us-east-1:533267039664:aac-revert-mybcat-seo-publish"
+  auth: "sigv4"
+  window_hours: 24
+  granularity: "per-post (frontmatter status back to scheduled)"
+  behavior_summary: "git revert the publish commit; restore frontmatter status=scheduled"
+  failure_modes: ["post URL already cached by external aggregator", "merge conflict on revert", "Vercel deployment already propagated"]
+pii_class: "none"
+redaction_strategy: "none"

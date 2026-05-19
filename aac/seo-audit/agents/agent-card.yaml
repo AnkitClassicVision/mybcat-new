@@ -1,0 +1,26 @@
+agent_id: "mybcat-seo-audit"
+name: "MyBCAT SEO Audit"
+description: "Read-only audit of mybcat.com blog content. Inspects posts, sitemap, GSC data, redirects, image assets. Produces an audit report; performs no writes."
+version: "0.1.0"
+repo: "github.com/mybcat/mybcat-new"
+created_at: "2026-05-19T00:00:00Z"
+updated_at: "2026-05-19T00:00:00Z"
+owner_name: "Ankit"
+owner_email: "ankit@mybcat.com"
+alerts_email: "ankit@mybcat.com"
+lane: "system"
+runtime_environment: "github-actions"
+trigger:
+  type: "schedule"
+  schedule_or_source: "cron(0 6 * * *)"
+kill:
+  supported: true
+  endpoint: "arn:aws:sns:us-east-1:533267039664:aac-kill-mybcat-seo-audit"
+  auth: "sigv4"
+  graceful_window_seconds: 30
+  behavior_summary: "stop after current post; emit RUN_ENDED with partial=true"
+  force_kill_strategy: "GitHub Actions job cancel via gh api"
+revert:
+  supported: false
+pii_class: "none"
+redaction_strategy: "none"

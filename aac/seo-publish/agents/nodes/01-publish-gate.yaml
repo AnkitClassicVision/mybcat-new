@@ -1,0 +1,14 @@
+node_id: "01-publish-gate"
+node_number: 1
+name: "Publish gate"
+description: "Date check + quality gate. Returns the ordered list of scheduled posts eligible for publishing, capped at MAX_DAILY_PUBLISH."
+runtime_type: "D"
+lane: "system"
+input_schema: { type: "object", properties: { max_daily: { type: "integer", default: 1 } } }
+output_schema: { type: "object", properties: { eligible: { type: "array" }, skipped_by_gate: { type: "array" } } }
+latency_budget_ms: 30000
+daily_volume_estimate: 1
+failure_mode: "non-zero exit if max_daily invalid; per-post quality-gate failures excluded from eligible list"
+named_owner: "Ankit"
+implementation: "scripts/publish-scheduled.js (pre-publish gate logic)"
+deterministic_proof: "pure read of markdown files + current date comparison; no external calls"

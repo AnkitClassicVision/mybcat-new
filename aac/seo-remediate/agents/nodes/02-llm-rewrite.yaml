@@ -1,0 +1,25 @@
+node_id: "02-llm-rewrite"
+node_number: 2
+name: "LLM rewrite"
+description: "Anthropic Claude API rewrites for word count, prose density, internal links, SEO fields. Max 1 attempt per post per run; reverts if output still fails the quality gate."
+runtime_type: "C"
+lane: "AI"
+input_schema: { type: "object", properties: { post_path: { type: "string" }, gate_failures: { type: "array" } } }
+output_schema: { type: "object", properties: { modified: { type: "boolean" }, validator_pass: { type: "boolean" }, model_used: { type: "string" } } }
+latency_budget_ms: 60000
+daily_volume_estimate: 15
+failure_mode: "ANTHROPIC_API_KEY missing → skip gracefully; LLM output fails validator → revert to deterministic-fixed version"
+named_owner: "Ankit"
+model: "claude-sonnet-4-6"
+prompt_ref: "scripts/remediate-quality.js (inline prompt construction)"
+calibration_date: "2026-05-19"
+confidence_floor: 0.8
+action_class: "MUTATE"
+ood_threshold: 0.4
+refuse_routing: "skip if post is in deactivated/scheduled-future state; revert if LLM output fails validator"
+hard_refuse_classes: ["post contains medical-diagnosis claim", "post contains confidential pattern", "post under legal review tag"]
+grounding_sources: ["blog index built from published posts (slug+title+url)", "quality gate from evaluate-post.js"]
+validator: "scripts/evaluate-post.js"
+cross_check_policy: "post-rewrite validator must pass; if not, deterministic-fixed version is committed instead"
+blast_radius: "one post markdown file per LLM call; pre-commit (uncommitted edit)"
+kill_switch_class: "GitHub Actions job cancel + Anthropic API key rotation"

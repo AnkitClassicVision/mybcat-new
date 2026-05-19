@@ -1,0 +1,20 @@
+node_id: "03-asset-optimize"
+node_number: 3
+name: "Asset optimize"
+description: "generate-image-variants.js + optimize-images.js + rehype-a11y.js. Writes optimized webp + alt-text fixes."
+runtime_type: "A"
+lane: "system"
+input_schema: { type: "object" }
+output_schema: { type: "object", properties: { variants_generated: { type: "integer" }, a11y_fixes: { type: "integer" } } }
+latency_budget_ms: 180000
+daily_volume_estimate: 50
+failure_mode: "per-image errors aggregated; partial run committed"
+named_owner: "Ankit"
+action_class: "MUTATE"
+idempotency_key: "source_image_path + variant_spec (re-running on same input is no-op)"
+rate_limit: "local cpu-bound; no external service"
+blast_radius: "image assets in public/blog/* directory"
+rollback_strategy: "git revert; original sources are not modified, only variants"
+refuse_routing: "skip on disk-full or read-permission errors"
+hard_refuse_classes: ["source image >25MB", "image format unsupported"]
+kill_switch_class: "GitHub Actions job cancel"

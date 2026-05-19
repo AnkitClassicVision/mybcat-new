@@ -1,0 +1,20 @@
+node_id: "02-publish-commit"
+node_number: 2
+name: "Publish commit"
+description: "For each eligible post: flip frontmatter status scheduled→published, set publishDate=today, commit + push to main."
+runtime_type: "A"
+lane: "system"
+input_schema: { type: "object", properties: { post_path: { type: "string" } } }
+output_schema: { type: "object", properties: { committed: { type: "boolean" }, commit_sha: { type: "string" } } }
+latency_budget_ms: 60000
+daily_volume_estimate: 1
+failure_mode: "remote main protected push rejection → exit non-zero, report manual escalation"
+named_owner: "Ankit"
+action_class: "IRREVERSIBLE"
+idempotency_key: "post_path (republishing same post is a no-op; status already=published)"
+rate_limit: "MAX_DAILY_PUBLISH (default 1)"
+blast_radius: "one post live on mybcat.com per call; Vercel auto-deploys main; SEO indexing follows"
+rollback_strategy: "git revert + frontmatter status=scheduled; downstream Vercel + external aggregators may have cached the URL"
+refuse_routing: "skip on quality gate fail; skip if post is in deactivated state"
+hard_refuse_classes: ["main branch protection denies push", "git commit hooks fail", "frontmatter has compliance flag"]
+kill_switch_class: "GitHub Actions job cancel; manual git revert"
