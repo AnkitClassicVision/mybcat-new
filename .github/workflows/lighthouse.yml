@@ -13,9 +13,17 @@ permissions:
 jobs:
   lighthouse:
     runs-on: self-hosted
+    env:
+      AAC_AGENT_ID: mybcat-content-lifecycle
+      AAC_HMAC_KEY: ${{ secrets.AAC_HMAC_KEY }}
+      AAC_INGEST_ENDPOINT: ${{ vars.AAC_INGEST_ENDPOINT }}
+      AAC_TRACE_ID: ${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: AAC emit NODE_STARTED
+        run: bash .github/scripts/aac-emit.sh 10-lighthouse NODE_STARTED '{"github_run_id":"${{ github.run_id }}","trigger":"${{ github.event_name }}"}'
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -106,3 +114,12 @@ jobs:
               repo: context.repo.repo,
               body: comment
             });
+
+      - name: AAC emit NODE_ENDED
+        if: always()
+        run: |
+          if [ "${{ job.status }}" = "success" ]; then
+            bash .github/scripts/aac-emit.sh 10-lighthouse NODE_ENDED '{"job_status":"success","github_run_id":"${{ github.run_id }}"}'
+          else
+            bash .github/scripts/aac-emit.sh 10-lighthouse ERROR '{"job_status":"${{ job.status }}","github_run_id":"${{ github.run_id }}"}'
+          fi
