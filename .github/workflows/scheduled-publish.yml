@@ -109,8 +109,23 @@ jobs:
       - name: Run publish script
         run: node scripts/publish-scheduled.js
 
-      - name: AAC emit publish complete
-        run: bash .github/scripts/aac-emit.sh 06-scheduled-publish NODE_OUTPUT '{"kind":"publish_script_complete"}'
+      - name: AAC emit posts_published count
+        if: always()
+        run: |
+          if [ -f artifacts/scheduled-publish/latest-run.json ]; then
+            PAYLOAD=$(python3 -c 'import json,sys; m=json.load(open("artifacts/scheduled-publish/latest-run.json")); print(json.dumps({"kind":"posts_published","posts_published":int(m.get("posts_published",0)),"slugs":m.get("slugs",[])}))')
+          else
+            PAYLOAD='{"kind":"posts_published","posts_published":0,"slugs":[]}'
+          fi
+          bash .github/scripts/aac-emit.sh 06-scheduled-publish NODE_OUTPUT "$PAYLOAD"
+
+      - name: Upload scheduled-publish run manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scheduled-publish-run-manifest
+          path: artifacts/scheduled-publish/latest-run.json
+          if-no-files-found: ignore
 
       - name: Auto-deactivate any remaining broken cross-links
         id: deactivate
