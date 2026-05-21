@@ -114,16 +114,17 @@ jobs:
 
       - name: AAC emit posts_published count
         if: always()
+        continue-on-error: true
         run: |
+          PAYLOAD='{"kind":"posts_published","posts_published":0,"slugs":[]}'
           if [ -f artifacts/scheduled-publish/latest-run.json ]; then
-            PAYLOAD=$(python3 -c 'import json,sys; m=json.load(open("artifacts/scheduled-publish/latest-run.json")); print(json.dumps({"kind":"posts_published","posts_published":int(m.get("posts_published",0)),"slugs":m.get("slugs",[])}))')
-          else
-            PAYLOAD='{"kind":"posts_published","posts_published":0,"slugs":[]}'
+            PAYLOAD=$(node -e 'const m=JSON.parse(require("fs").readFileSync("artifacts/scheduled-publish/latest-run.json","utf8")); process.stdout.write(JSON.stringify({kind:"posts_published",posts_published:parseInt(m.posts_published||0,10),slugs:m.slugs||[]}))' 2>/dev/null) || PAYLOAD='{"kind":"posts_published","posts_published":0,"slugs":[]}'
           fi
           bash .github/scripts/aac-emit.sh 06-scheduled-publish NODE_OUTPUT "$PAYLOAD"
 
       - name: Upload scheduled-publish run manifest
         if: always()
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
           name: scheduled-publish-run-manifest
