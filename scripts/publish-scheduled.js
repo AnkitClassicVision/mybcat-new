@@ -185,6 +185,20 @@ if (publishedCount > 0) {
   console.log('No posts published (all failed quality gate or were deferred).');
 }
 
+// AAC v2: write run manifest so scheduled-publish.yml can emit posts_published count
+const MANIFEST_DIR = path.join(__dirname, '..', 'artifacts', 'scheduled-publish');
+const MANIFEST_PATH = path.join(MANIFEST_DIR, 'latest-run.json');
+fs.mkdirSync(MANIFEST_DIR, { recursive: true });
+fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
+  finished_at: new Date().toISOString(),
+  eligible: eligible.length,
+  quality_failed: qualityFailed.length,
+  deferred: deferred.length,
+  posts_published: publishedCount,
+  slugs: publishedSlugs,
+}, null, 2) + '\n');
+console.log(`Manifest written: ${MANIFEST_PATH}`);
+
 /**
  * After publishing posts, restore any deactivated cross-links whose targets
  * are now published. Best-effort: failed restores stay in JSON for manual review.

@@ -106,11 +106,11 @@ jobs:
       - name: AAC emit pre-publish ok
         run: bash .github/scripts/aac-emit.sh 06-scheduled-publish NODE_OUTPUT '{"kind":"pre_publish_ok"}'
 
+      - name: Reset AAC run manifest (prevent stale-read on self-hosted runner)
+        run: rm -rf artifacts/scheduled-publish
+
       - name: Run publish script
         run: node scripts/publish-scheduled.js
-
-      - name: AAC emit publish complete
-        run: bash .github/scripts/aac-emit.sh 06-scheduled-publish NODE_OUTPUT '{"kind":"publish_script_complete"}'
 
       - name: Auto-deactivate any remaining broken cross-links
         id: deactivate
@@ -132,6 +132,7 @@ jobs:
           fi
 
       - name: Commit and push changes
+        id: commit_push
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config user.name "GitHub Actions"
@@ -139,6 +140,28 @@ jobs:
           git add -A
           git commit -m "Publish scheduled posts for $(date +%Y-%m-%d)"
           git push
+
+      - name: AAC emit posts_published count
+        if: always()
+        continue-on-error: true
+        run: |
+          PAYLOAD='{"kind":"posts_published","posts_published":0,"slugs":[]}'
+          # Only count posts_published when the script wrote a manifest AND the commit/push actually succeeded.
+          # If has_changes=false the commit step is skipped (outcome=skipped) → emit zero (correct, nothing went live this run).
+          # If the push failed (outcome=failure) → emit zero (posts marked as published on disk but never reached main).
+          if [ "${{ steps.commit_push.outcome }}" = "success" ] && [ -f artifacts/scheduled-publish/latest-run.json ]; then
+            PAYLOAD=$(node -e 'const m=JSON.parse(require("fs").readFileSync("artifacts/scheduled-publish/latest-run.json","utf8")); process.stdout.write(JSON.stringify({kind:"posts_published",posts_published:parseInt(m.posts_published||0,10),slugs:m.slugs||[]}))' 2>/dev/null) || PAYLOAD='{"kind":"posts_published","posts_published":0,"slugs":[]}'
+          fi
+          bash .github/scripts/aac-emit.sh 06-scheduled-publish NODE_OUTPUT "$PAYLOAD"
+
+      - name: Upload scheduled-publish run manifest
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: scheduled-publish-run-manifest
+          path: artifacts/scheduled-publish/latest-run.json
+          if-no-files-found: ignore
 
       - name: Stage 18 — audit:live (Playwright fetch of published posts)
         if: steps.check_changes.outputs.has_changes == 'true'

@@ -74,5 +74,8 @@ screenshots/
 *.skill
 /roi-calc-live-*.png
 
+# AAC v2 run manifests (ephemeral, must not be committed by scheduled-publish auto-commit)
+artifacts/scheduled-publish/
+
 # ESLint
 .eslintcache
