@@ -106,6 +106,9 @@ jobs:
       - name: AAC emit pre-publish ok
         run: bash .github/scripts/aac-emit.sh 06-scheduled-publish NODE_OUTPUT '{"kind":"pre_publish_ok"}'
 
+      - name: Reset AAC run manifest (prevent stale-read on self-hosted runner)
+        run: rm -rf artifacts/scheduled-publish
+
       - name: Run publish script
         run: node scripts/publish-scheduled.js
 
