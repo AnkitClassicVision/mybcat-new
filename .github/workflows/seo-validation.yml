@@ -19,10 +19,18 @@ jobs:
   pre-build-validation:
     name: Pre-Build Checks
     runs-on: self-hosted
+    env:
+      AAC_AGENT_ID: mybcat-content-lifecycle
+      AAC_HMAC_KEY: ${{ secrets.AAC_HMAC_KEY }}
+      AAC_INGEST_ENDPOINT: ${{ vars.AAC_INGEST_ENDPOINT }}
+      AAC_TRACE_ID: ${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: AAC emit NODE_STARTED
+        run: bash .github/scripts/aac-emit.sh 09-seo-validation NODE_STARTED '{"github_run_id":"${{ github.run_id }}","trigger":"${{ github.event_name }}"}'
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -132,3 +140,26 @@ jobs:
 
       - name: Check TypeScript
         run: npm run check
+
+  aac-finalize:
+    name: AAC finalize
+    needs: [pre-build-validation, post-build-validation, content-quality]
+    if: always()
+    runs-on: self-hosted
+    env:
+      AAC_AGENT_ID: mybcat-content-lifecycle
+      AAC_HMAC_KEY: ${{ secrets.AAC_HMAC_KEY }}
+      AAC_INGEST_ENDPOINT: ${{ vars.AAC_INGEST_ENDPOINT }}
+      AAC_TRACE_ID: ${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Emit aggregate result
+        run: |
+          PRE='${{ needs.pre-build-validation.result }}'
+          POST='${{ needs.post-build-validation.result }}'
+          QUAL='${{ needs.content-quality.result }}'
+          if [ "$PRE" = "success" ] && [ "$POST" = "success" ] && [ "$QUAL" = "success" ]; then
+            bash .github/scripts/aac-emit.sh 09-seo-validation NODE_ENDED '{"job_status":"success","pre":"'$PRE'","post":"'$POST'","quality":"'$QUAL'"}'
+          else
+            bash .github/scripts/aac-emit.sh 09-seo-validation ERROR '{"job_status":"mixed","pre":"'$PRE'","post":"'$POST'","quality":"'$QUAL'"}'
+          fi
