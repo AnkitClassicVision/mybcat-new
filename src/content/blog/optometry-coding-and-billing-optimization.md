@@ -1,5 +1,5 @@
 ---
-title: Optometry Coding and Billing Optimization for
+title: Optometry Coding and Billing Optimization for Multi-Location Groups
 seoTitle: Optometry Billing Optimization for Multi-Location Groups
 description: How multi-location optometry groups standardize coding, reduce denial
   rates by 20-30%, and capture $50K+ per site through centralized billing optimization.
@@ -31,7 +31,7 @@ Multi-location optometry groups lose an average of $50,000 per site annually to 
 3. [How Do Enterprise Groups Standardize Coding Across Locations?](#how-do-enterprise-groups-standardize-coding-across-locations)
 4. [Which KPIs Should Operations Leaders Track for Billing Performance?](#which-kpis-should-operations-leaders-track-for-billing-performance)
 5. [What Technology Stack Supports Centralized Revenue Cycle Management?](#what-technology-stack-supports-centralized-revenue-cycle-management)
-6. [How Do 2025 Coding Changes Impact Multi-Location Optometry Groups?](#how-do-2025-coding-changes-impact-multi-location-optometry-groups)
+6. [How Do 2026 Coding Changes Impact Multi-Location Optometry Groups?](#how-do-2026-coding-changes-impact-multi-location-optometry-groups)
 7. [The Enterprise Billing Optimization Framework](#the-enterprise-billing-optimization-framework)
 8. [What Does Implementation Look Like for Groups with 5+ Locations?](#what-does-implementation-look-like-for-groups-with-5-locations)
 
@@ -147,27 +147,27 @@ Revenue cycle management platforms sit above transactional systems to provide ag
 
 Many growing optometry groups find that optometry virtual assistants for multi-location practices fill staffing gaps while technology implementations proceed. Remote team members trained in your specific protocols can handle claim follow-up, payment posting, and denial management without the overhead of on-site staff at each location.
 
-## How Do 2025 Coding Changes Impact Multi-Location Optometry Groups?
+## How Do 2026 Coding Changes Impact Multi-Location Optometry Groups?
 
-The 2025 Medicare Physician Fee Schedule introduced changes that require immediate attention from optometry groups. The conversion factor dropped to $32.35, representing a 2.83% reduction from 2024 levels. This reduction affects commonly billed codes including 92014 (established patient comprehensive exam) and standard E/M services.
+The 2026 Medicare Physician Fee Schedule introduced changes that require immediate attention from optometry groups. The conversion factor rose to $33.40 for non-qualifying participants ($33.57 for qualifying participants), representing a 3.26% increase over 2025 levels. However, a 2.5% efficiency adjustment applied to approximately 9,000 non-time-based procedure codes offsets much of that gain for high-volume optometry services including 92014 (established patient comprehensive exam) and standard E/M services.
 
-CPT updates for 2025 include revised descriptors for ocular coherence tomography codes 92132, 92133, and 92134. A new code, 92137, covers OCT angiography (OCTA), creating revenue opportunity for practices equipped with this imaging technology. Groups that have invested in advanced diagnostic equipment should ensure billing teams understand how to capture this new service appropriately.
+CPT updates for 2026 include new codes 92284 and 92288 from the AAPC Ophthalmology/Optometry Specialty Coding Guide, along with revised descriptors for ocular coherence tomography codes 92132, 92133, and 92134. Groups that have invested in advanced diagnostic equipment should ensure billing teams understand how to capture these new services appropriately.
 
 Expanded teleoptometry codes (99441, 99442, 99443) support virtual consultation billing with appropriate documentation. Multi-location groups with centralized call centers or virtual care programs can now capture revenue from telephone consultations that previously went unbilled or were billed incorrectly.
 
 <div style="background: #fffbeb; border-radius: 12px; padding: 24px; margin: 32px 0; border-left: 4px solid #f59e0b;">
-  <h3 style="color: #b45309; margin-top: 0;">2025 Coding Change Checklist for Multi-Location Groups</h3>
+  <h3 style="color: #b45309; margin-top: 0;">2026 Coding Change Checklist for Multi-Location Groups</h3>
   <ul style="margin-bottom: 0;">
-    <li>Update fee schedules across all locations to reflect new conversion factor</li>
-    <li>Train billers on revised OCT code descriptors (92132-92134)</li>
-    <li>Implement 92137 for OCTA services where equipment is available</li>
+    <li>Update fee schedules across all locations to reflect new conversion factor ($33.40 non-QP / $33.57 QP)</li>
+    <li>Train billers on new codes 92284 and 92288 and revised OCT descriptors (92132-92134)</li>
+    <li>Model the 2.5% efficiency adjustment impact on your high-volume non-time-based procedures</li>
     <li>Review teleoptometry documentation templates for 99441-99443 compliance</li>
-    <li>Audit EHR templates to ensure they capture elements required for 2025 codes</li>
+    <li>Audit EHR templates to ensure they capture elements required for 2026 codes</li>
     <li>Update payer-specific fee schedules (VSP, EyeMed often lag Medicare changes)</li>
   </ul>
 </div>
 
-The challenge for multi-location groups lies in implementing these changes consistently across all sites simultaneously. Single practices update their systems once. Enterprise groups must coordinate updates across dozens of locations, often running different software versions or EHR configurations. This is where centralized billing operations demonstrate clear value: one team implements changes once, and all locations benefit immediately.
+The challenge for multi-location groups lies in implementing these changes consistently across all sites simultaneously. Single practices update their systems once. Enterprise groups must coordinate updates across dozens of locations, often running different software versions or EHR configurations. The 2.5% efficiency adjustment alone requires repricing analysis across every affected procedure at every site. This is where centralized billing operations demonstrate clear value: one team implements changes once, and all locations benefit immediately.
 
 Prior authorization requirements continue expanding, adding compliance complexity. MIPS reporting requirements add another layer of documentation and reporting burden. Groups managing these requirements centrally can distribute expertise across the organization rather than expecting each location to maintain regulatory currency independently.
 
@@ -221,17 +221,9 @@ Multi-location optometry groups cannot achieve meaningful billing optimization t
 
 The groups achieving top-quartile performance share common characteristics. They operate unified technology platforms that enable real-time visibility across all locations. They maintain specialty-organized coding teams rather than geographically dispersed billers. They track consistent KPIs with regular variance analysis that identifies problems early. They invest in ongoing training and process refinement rather than treating billing optimization as a one-time project.
 
-The 2025 coding changes add urgency to centralization initiatives. Groups attempting to implement new codes, revised descriptors, and expanded teleoptometry billing across fragmented systems face significant execution risk. Those with centralized operations implement changes once and deploy consistently across all sites.
+The 2026 coding changes add urgency to centralization initiatives. Groups attempting to implement new codes, revised descriptors, and the efficiency adjustment repricing across fragmented systems face significant execution risk. Those with centralized operations implement changes once and deploy consistently across all sites.
 
 The ROI case for enterprise billing optimization is clear. A 10-location group losing $50,000 per site to billing inefficiency recovers $500,000 annually through effective centralization. That figure grows with each acquisition while implementation costs remain relatively fixed.
-
-<!-- MyBCAT CTA Section -->
-<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Improve Your Patient Retention?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices recapture missed calls and automate patient scheduling so no opportunity slips through the cracks.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
-</div>
-<!-- End MyBCAT CTA Section -->
 
 ## Related Reading
 
