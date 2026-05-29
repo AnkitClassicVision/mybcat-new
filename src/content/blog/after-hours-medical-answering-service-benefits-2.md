@@ -6,9 +6,8 @@ description: Discover how multi-location healthcare groups standardize after-hou
   and
 seoDescription: How enterprise healthcare groups achieve after-hours medical answering
   service benefits through centralized operations, standardized protocols, and scalable
-publishDate: '2026-06-03'
-status: scheduled
-scheduledDate: '2026-06-03'
+publishDate: '2026-05-29'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
