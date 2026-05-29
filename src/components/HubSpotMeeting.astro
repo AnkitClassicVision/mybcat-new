@@ -250,9 +250,19 @@ const {
     await loadMeetingScript();
 
     if (embedContainer) {
+      // Propagate campaign attribution from the landing URL into the booking so
+      // HubSpot records engagements_last_meeting_booked_source/_medium/_campaign
+      // on the booked discovery call (lets us tie a booking back to the exact post).
+      const bookingUrl = new URL(meetingLink);
+      const pageParams = new URLSearchParams(window.location.search);
+      ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'].forEach((key) => {
+        const value = pageParams.get(key);
+        if (value) bookingUrl.searchParams.set(key, value);
+      });
+      bookingUrl.searchParams.set('embed', 'true');
       embedContainer.innerHTML = `
         <iframe
-          src="${meetingLink}?embed=true"
+          src="${bookingUrl.toString()}"
           title="Schedule a meeting"
           loading="lazy"
         ></iframe>
