@@ -1,27 +1,28 @@
 ---
 title: Phone Call Handling for Multi-Location Dental Groups
 seoTitle: Phone Call Handling for Multi-Location Dental Groups
-description: >-
-  Standardize phone call handling across your dental group with enterprise
-  protocols for greetings, holds, transfers, training, and QA monitoring at
-  scale.
-seoDescription: >-
-  Standardize phone call handling across your dental group with enterprise
-  protocols for greetings, holds, transfers, training, and QA monitoring at
-  scale.
+description: Standardize phone call handling across your dental group with enterprise
+  protocols for greetings, holds, transfers, training, and QA monitoring at scale.
+seoDescription: Standardize phone call handling across your dental group with enterprise
+  protocols for greetings, holds, transfers, training, and QA monitoring at scale.
 publishDate: '2026-05-30T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - dental practice phone call handling best practices
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- dental practice phone call handling best practices
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: patient-communications
 featuredImage: /images/blog/dental-practice-phone-call-handling-best-practices-2.webp
-canonical: 'https://mybcat.com/blog/dental-practice-phone-call-handling-best-practices-2/'
+canonical: https://mybcat.com/blog/dental-practice-phone-call-handling-best-practices-2/
+relatedPosts:
+- after-hours-medical-answering-service-benefits-2
+- medical-answering-services-eye-care-guide
+- call-handling-patient-experience-eye-care
 ---
+
 ## Table of Contents
 
 - [Why Does Phone Call Handling Require Centralized Standards?](#why-does-phone-call-handling-require-centralized-standards)

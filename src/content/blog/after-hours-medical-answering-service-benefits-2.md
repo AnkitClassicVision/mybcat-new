@@ -18,6 +18,10 @@ tags:
 cluster: patient-communications
 featuredImage: /images/blog/after-hours-medical-answering-service-benefits-2.webp
 canonical: https://mybcat.com/blog/after-hours-medical-answering-service-benefits-2/
+relatedPosts:
+- dental-practice-phone-call-handling-best-practices-2
+- medical-answering-services-eye-care-guide
+- call-handling-patient-experience-eye-care
 ---
 
 Managing patient calls outside of business hours presents a different set of challenges for healthcare organizations with three or more locations than it does for single-site practices. When a patient calls after hours, they expect the same level of care and professionalism regardless of which location they typically visit.
