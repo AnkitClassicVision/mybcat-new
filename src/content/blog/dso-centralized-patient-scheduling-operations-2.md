@@ -9,6 +9,7 @@ publishDate: '2026-06-05'
 status: scheduled
 scheduledDate: '2026-06-05'
 author: Ankit Patel
+category: Operations
 tags:
 - DSO centralized patient scheduling operations
 - multi-location
