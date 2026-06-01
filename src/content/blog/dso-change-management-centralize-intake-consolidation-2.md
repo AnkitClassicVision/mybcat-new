@@ -9,6 +9,7 @@ publishDate: '2026-06-10'
 status: scheduled
 scheduledDate: '2026-06-10'
 author: Ankit Patel
+category: Operations
 tags:
 - DSO change management centralize intake consolidation
 - multi-location
