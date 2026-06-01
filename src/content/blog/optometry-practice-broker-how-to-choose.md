@@ -81,10 +81,10 @@ Healthcare practice brokers typically charge 6-12% of sale price, with success-b
 
 ### Understanding Tiered Fee Arrangements
 
-Most enterprise brokers offer tiered fee structures that reduce percentage rates as transaction values increase. These are typically flat rates based on transaction size tiers, not marginal calculations. A typical structure applies the percentage to the entire deal based on which tier it falls into:
+Most enterprise brokers reduce their percentage rate as transaction value rises. A widely cited reference point is the Double Lehman formula, which charges 10-12% on the first million of value, then 8% on the second million, 6% on the third, 4% on the fourth, and 2% beyond that, according to [Morgan & Westfield](https://morganandwestfield.com/knowledge/business-broker-and-ma-advisor-fees-a-comprehensive-guide/). Some brokers apply that kind of marginal sliding scale, while others quote a single flat rate per transaction-size tier. The illustrative example below shows the flat-rate-per-tier approach, where one percentage applies to the entire deal based on its tier:
 
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px; margin: 24px 0; border: 1px solid #e2e8f0;">
-<h4 style="margin-top: 0; color: #1e293b;">Sample Tiered Fee Structure (Flat Rate per Tier)</h4>
+<h4 style="margin-top: 0; color: #1e293b;">Illustrative Tiered Fee Structure (Flat Rate per Tier)</h4>
 <table style="width: 100%; border-collapse: collapse;">
 <tr style="border-bottom: 1px solid #e2e8f0;">
 <th style="text-align: left; padding: 8px 0;">Transaction Value</th>
@@ -409,6 +409,7 @@ The difference between adequate and excellent broker selection compounds across 
 4. [ODs on Finance - Methods of Valuing an Optometry Private Practice](https://odsonfinance.com/methods-of-valuing-an-optometry-private-practice-a-comprehensive-guide/)
 5. [MA Healthcare Advisors - 2024 End of Year Review](https://mahealthcareadvisors.com/2024-end-of-year-review/)
 6. [Leerink Partners - Healthcare M&A Q2 2024 Trends](https://leerink.com/article/insights-into-healthcare-ma-q2-2024-trends/)
+7. [Morgan & Westfield - Business Broker and M&A Advisor Fees: A Comprehensive Guide](https://morganandwestfield.com/knowledge/business-broker-and-ma-advisor-fees-a-comprehensive-guide/)
 
 ---
 
