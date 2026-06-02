@@ -1,22 +1,24 @@
 ---
 title: Front Desk Efficiency Metrics for Medical Practices
 seoTitle: Front Desk Efficiency Metrics for Medical Practices
-description: Track front desk efficiency metrics across your healthcare network. KPIs
-  for registration, eligibility, and collections at enterprise scale.
-seoDescription: Track front desk efficiency metrics across your healthcare network.
-  KPIs for registration, eligibility, and collections at enterprise scale.
+description: >-
+  Track front desk efficiency metrics across your healthcare network. KPIs for
+  registration, eligibility, and collections at enterprise scale.
+seoDescription: >-
+  Track front desk efficiency metrics across your healthcare network. KPIs for
+  registration, eligibility, and collections at enterprise scale.
 publishDate: '2026-06-02'
 status: scheduled
 scheduledDate: '2026-06-02'
 author: Ankit Patel
 category: Operations
 tags:
-- medical practice front desk efficiency metrics
-- multi-location
-- enterprise operations
+  - medical practice front desk efficiency metrics
+  - multi-location
+  - enterprise operations
 cluster: operations
 featuredImage: /images/blog/medical-practice-front-desk-efficiency-metrics-2.webp
-canonical: https://mybcat.com/blog/medical-practice-front-desk-efficiency-metrics-2/
+canonical: 'https://mybcat.com/blog/medical-practice-front-desk-efficiency-metrics-2/'
 ---
 
 When a healthcare organization expands beyond a handful of locations, the front desk becomes one of the most critical operational control points—and one of the hardest to manage consistently. What works at a single site often breaks down when replicated across a network, creating variance that affects everything from patient experience to revenue capture.
