@@ -20,7 +20,6 @@ canonical: https://mybcat.com/blog/enterprise-healthcare-patient-access-complian
 category: "Operations"
 ---
 
-# Enterprise Healthcare Patient Access Compliance: HIPAA and SOC2 Frameworks for Multi-Location Groups
 
 ## Table of Contents
 
