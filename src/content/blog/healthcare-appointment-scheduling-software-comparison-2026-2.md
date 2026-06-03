@@ -1,26 +1,28 @@
 ---
 title: 'Healthcare Scheduling Software Comparison 2026: Enterprise'
 seoTitle: 'Healthcare Scheduling Software Comparison 2026: Enterprise'
-description: >-
-  Evaluate healthcare appointment scheduling software for multi-location groups.
-  Framework for COOs comparing platforms at scale across DSO and PE-backed
-seoDescription: >-
-  Evaluate healthcare appointment scheduling software for multi-location groups.
-  Framework for COOs comparing platforms at scale across DSO and PE-backed
+description: Evaluate healthcare appointment scheduling software for multi-location
+  groups. Framework for COOs comparing platforms at scale across DSO and PE-backed
+seoDescription: Evaluate healthcare appointment scheduling software for multi-location
+  groups. Framework for COOs comparing platforms at scale across DSO and PE-backed
 publishDate: '2026-06-03T00:00:00.000Z'
 status: published
 author: Ankit Patel
 category: Technology
 tags:
-  - healthcare appointment scheduling software comparison 2026
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- healthcare appointment scheduling software comparison 2026
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: enterprise
 featuredImage: /images/blog/healthcare-appointment-scheduling-software-comparison-2026-2.webp
-canonical: >-
-  https://mybcat.com/blog/healthcare-appointment-scheduling-software-comparison-2026-2/
+canonical: https://mybcat.com/blog/healthcare-appointment-scheduling-software-comparison-2026-2/
+relatedPosts:
+- enterprise-call-answering-healthcare
+- centralized-revenue-cycle-management-multi-location-healthcare-groups
+- enterprise-healthcare-staffing-ratios-patient-access-optimization
 ---
+
 ## Table of Contents
 
 - [Why Are Multi-Location Groups Reassessing Scheduling Software in 2026?](#why-are-multi-location-groups-reassessing-scheduling-software-in-2026)
