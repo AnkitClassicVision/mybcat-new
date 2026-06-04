@@ -1,22 +1,23 @@
 ---
 title: 'Optometry Practice Brokers: How to Choose One'
 seoTitle: 'Optometry Practice Brokers: How to Choose One'
-description: Learn how to evaluate optometry practice brokers, understand fee structures,
+description: >-
+  Learn how to evaluate optometry practice brokers, understand fee structures,
   and determine when your multi-location group may benefit from handling
-seoDescription: Learn how to evaluate optometry practice brokers, understand fee structures,
+seoDescription: >-
+  Learn how to evaluate optometry practice brokers, understand fee structures,
   and determine when your multi-location group may benefit from handling
-publishDate: '2026-06-04'
-status: scheduled
-scheduledDate: '2026-06-04'
+publishDate: '2026-06-04T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Business
 tags:
-- optometry practice broker how to choose
-- multi-location
-- enterprise operations
-cluster: "enterprise"
+  - optometry practice broker how to choose
+  - multi-location
+  - enterprise operations
+cluster: enterprise
 featuredImage: /images/blog/optometry-practice-broker-how-to-choose-2.webp
-canonical: https://mybcat.com/blog/optometry-practice-broker-how-to-choose-2/
+canonical: 'https://mybcat.com/blog/optometry-practice-broker-how-to-choose-2/'
 ---
 ## Table of Contents
 
