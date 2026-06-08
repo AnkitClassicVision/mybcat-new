@@ -7,9 +7,8 @@ description: >-
 seoDescription: >-
   Track front desk efficiency metrics across your healthcare network. KPIs for
   registration, eligibility, and collections at enterprise scale.
-publishDate: '2026-06-02'
-status: scheduled
-scheduledDate: '2026-06-02'
+publishDate: '2026-06-02T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
