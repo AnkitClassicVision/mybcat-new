@@ -1,22 +1,24 @@
 ---
 title: Multi-Location Dental Group Call Center RFP Checklist
 seoTitle: Multi-Location Dental Group Call Center RFP Checklist
-description: Evaluation checklist for multi-location dental groups building a call
-  center RFP. Covers scope, compliance, vendor criteria, and implementation planning.
-seoDescription: Evaluation checklist for multi-location dental groups building a call
-  center RFP. Covers scope, compliance, vendor criteria, and implementation planning.
+description: >-
+  Evaluation checklist for multi-location dental groups building a call center
+  RFP. Covers scope, compliance, vendor criteria, and implementation planning.
+seoDescription: >-
+  Evaluation checklist for multi-location dental groups building a call center
+  RFP. Covers scope, compliance, vendor criteria, and implementation planning.
 publishDate: '2026-06-08'
 status: scheduled
 scheduledDate: '2026-06-08'
 author: Ankit Patel
 category: Operations
 tags:
-- multi-location dental group call center RFP
-- multi-location
-- enterprise operations
-cluster: "enterprise"
+  - multi-location dental group call center RFP
+  - multi-location
+  - enterprise operations
+cluster: enterprise
 featuredImage: /images/blog/multi-location-dental-group-call-center-rfp-2.webp
-canonical: https://mybcat.com/blog/multi-location-dental-group-call-center-rfp-2/
+canonical: 'https://mybcat.com/blog/multi-location-dental-group-call-center-rfp-2/'
 ---
 ## Table of Contents
 
