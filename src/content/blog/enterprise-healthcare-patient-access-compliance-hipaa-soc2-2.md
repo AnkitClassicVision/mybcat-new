@@ -1,29 +1,27 @@
 ---
 title: Enterprise HIPAA and SOC2 Compliance for Patient Access
 seoTitle: Enterprise HIPAA and SOC2 Compliance for Patient Access
-description: >-
-  How multi-location healthcare groups align patient access operations with
-  HIPAA and SOC2 requirements through centralized governance and vendor
-  oversight.
-seoDescription: >-
-  How multi-location healthcare groups align patient access operations with
-  HIPAA and SOC2 requirements through centralized governance and vendor
-  oversight.
+description: How multi-location healthcare groups align patient access operations
+  with HIPAA and SOC2 requirements through centralized governance and vendor oversight.
+seoDescription: How multi-location healthcare groups align patient access operations
+  with HIPAA and SOC2 requirements through centralized governance and vendor oversight.
 publishDate: '2026-06-09T00:00:00.000Z'
 status: published
 author: Ankit Patel
 tags:
-  - enterprise healthcare patient access compliance HIPAA SOC2
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- enterprise healthcare patient access compliance HIPAA SOC2
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: enterprise
 featuredImage: /images/blog/enterprise-healthcare-patient-access-compliance-hipaa-soc2-2.webp
-canonical: >-
-  https://mybcat.com/blog/enterprise-healthcare-patient-access-compliance-hipaa-soc2-2/
+canonical: https://mybcat.com/blog/enterprise-healthcare-patient-access-compliance-hipaa-soc2-2/
 category: Operations
+relatedPosts:
+- optometry-practice-broker-how-to-choose-2
+- healthcare-appointment-scheduling-software-comparison-2026-2
+- enterprise-call-answering-healthcare
 ---
-
 
 ## Table of Contents
 
