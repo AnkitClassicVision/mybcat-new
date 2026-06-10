@@ -224,18 +224,18 @@ Organizations that treat phone management as a strategic priority consistently o
 
 - [Centralized Scheduling for Dental Offices](/blog/centralized-scheduling-dental-offices/), Learn how DSOs streamline appointment booking across multiple locations.
 - [DSO Case Study: 15-Location Missed Calls](/blog/dso-case-study-15-location-missed-calls/), See how one dental group addressed their missed call problem.
-- AI Phone Answering for Dental Offices, Explore how AI tools can support dental practice phone operations.
+- [Dental Practice Phone Handling Best Practices](/blog/dental-practice-phone-call-handling-best-practices-2/), Explore how to support and improve dental practice phone operations.
 - [Multi-Location No-Show Reduction](/blog/multi-location-no-show-reduction/), Strategies for reducing patient no-shows across your dental group.
 - [Dental Group Acquisition Due Diligence](/blog/dental-group-acquisition-due-diligence/), Operational factors to evaluate when acquiring dental practices.
 
 ## Sources
 
-1. American Dental Association. "Phone Calls from Prospective Patients." https://www.ada.org/resources/practice/practice-management/patient-intake
-2. MGMA. "No-show fees in medical practices on the rise to balance bumpy attendance rates." https://www.mgma.com/mgma-stat/no-show-fees-in-medical-practices-on-the-rise-to-balance-bumpy-attendance-rates
-3. MGMA. "Optimizing appointments is the key to your revenue cycle." https://www.mgma.com/mgma-stats/back-to-normal-or-new-normal-optimizing-appointments-is-the-key-to-your-revenue-cycle
-4. DenteMax. "Why missed phone calls are dental offices largest revenue loss." https://www.dentemax.com/dentists/blog-articles/2025/Why_missed_phone_calls_are_dental_offices_largest_revenue_loss
-5. Off the Cusp (Patterson Dental). "7 tried-and-true tactics to curb revenue-crippling no-shows." https://www.offthecusp.com/7-tried-and-true-tactics-to-curb-revenue-crippling-no-shows
-6. mConsent. "The Hidden Cost of Missed Follow-Ups in Dental Practices." https://mconsent.net/blog/cost-missed-follow-up-dental-practices
+1. American Dental Association. "[Phone Calls from Prospective Patients.](https://www.ada.org/resources/practice/practice-management/patient-intake)"
+2. MGMA. "[No-show fees in medical practices on the rise to balance bumpy attendance rates.](https://www.mgma.com/mgma-stat/no-show-fees-in-medical-practices-on-the-rise-to-balance-bumpy-attendance-rates)"
+3. MGMA. "[Optimizing appointments is the key to your revenue cycle.](https://www.mgma.com/mgma-stats/back-to-normal-or-new-normal-optimizing-appointments-is-the-key-to-your-revenue-cycle)"
+4. DenteMax. "[Why missed phone calls are dental offices largest revenue loss.](https://www.dentemax.com/dentists/blog-articles/2025/Why_missed_phone_calls_are_dental_offices_largest_revenue_loss)"
+5. Off the Cusp (Patterson Dental). "[7 tried-and-true tactics to curb revenue-crippling no-shows.](https://www.offthecusp.com/7-tried-and-true-tactics-to-curb-revenue-crippling-no-shows)"
+6. mConsent. "[The Hidden Cost of Missed Follow-Ups in Dental Practices.](https://mconsent.net/blog/cost-missed-follow-up-dental-practices)"
 
 ---
 
