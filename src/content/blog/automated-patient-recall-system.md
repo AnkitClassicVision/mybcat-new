@@ -1,206 +1,224 @@
 ---
 title: Automated Patient Recall System for Multi-Location Groups
-seoTitle: Automated Patient Recall System for Healthcare Groups
-description: Learn how automated patient recall systems help multi-location healthcare
-  groups improve appointment adherence and operational efficiency.
-seoDescription: Discover how automated patient recall systems drive better outcomes
-  for multi-location healthcare groups through consistent, scalable outreach.
-publishDate: '2026-06-22'
+seoTitle: Automated Patient Recall System for Multi-Location Groups
+description: Deploy an automated patient recall system across 3+ locations. Centralized
+  workflows, multi-channel outreach, and portfolio-level visibility for healthcare
+seoDescription: Deploy an automated patient recall system across 3+ locations. Centralized
+  workflows, multi-channel outreach, and portfolio-level visibility for healthcare
+publishDate: '2026-06-23'
 status: scheduled
-scheduledDate: '2026-06-22'
+scheduledDate: '2026-06-23'
 author: Ankit Patel
 category: Patient Care
 tags:
 - automated patient recall system
 - multi-location
 - enterprise operations
+- healthcare scale
 cluster: patient-recall
 featuredImage: /images/blog/automated-patient-recall-system.webp
 canonical: https://mybcat.com/blog/automated-patient-recall-system/
 ---
 ## Table of Contents
 
-- [Understanding Automated Patient Recall Systems](#understanding-automated-patient-recall-systems)
-- [Evidence Supporting Patient Recall Systems](#evidence-supporting-patient-recall-systems)
-- [Operational Benefits for Multi-Location Groups](#operational-benefits-for-multi-location-groups)
-- [Implementation Considerations for Enterprise Groups](#implementation-considerations-for-enterprise-groups)
-- [Evaluating Recall System Vendors](#evaluating-recall-system-vendors)
-- [Is Your Multi-Location Group Ready for Automated Recall?](#is-your-multi-location-group-ready-for-automated-recall)
+- [Why Do Multi-Location Groups Struggle with Patient Recall?](#why-do-multi-location-groups-struggle-with-patient-recall)
+- [What Makes an Automated Patient Recall System Work at Scale?](#what-makes-an-automated-patient-recall-system-work-at-scale)
+- [How Do You Measure Automated Recall System Performance?](#how-do-you-measure-automated-recall-system-performance)
+- [What Does a Multi-Location Rollout Look Like?](#what-does-a-multi-location-rollout-look-like)
+- [What Integration Requirements Should You Evaluate?](#what-integration-requirements-should-you-evaluate)
+- [How Do You Build the Business Case for Centralized Recall?](#how-do-you-build-the-business-case-for-centralized-recall)
 
 
-Managing patient recall across multiple locations presents operational challenges that manual processes simply cannot address at scale.
+For healthcare organizations managing three or more locations, patient recall represents one of the most operationally complex challenges in the front office. When recall efforts are left to individual sites, the result is predictable: inconsistent outreach, fragmented data, and patients who fall through the cracks between visits.
 
-An automated patient recall system provides multi-location healthcare groups with the infrastructure needed to maintain consistent outreach, reduce administrative burden, and improve appointment adherence across every site in their network.
+An automated patient recall system addresses this by centralizing the recall workflow, applying standardized logic across every location, and providing operations leadership with visibility into performance at the portfolio level.
 
-For COOs and VPs of Operations overseeing healthcare groups with three or more locations, implementing an automated recall system represents a strategic investment in operational efficiency and patient retention.
+This playbook examines what it takes to deploy an automated patient recall system across a multi-location healthcare group.
 
-This guide examines how these systems work, what evidence supports their effectiveness, and how to evaluate solutions that fit enterprise healthcare operations.
+We will cover why traditional recall methods fail at scale, what distinguishes enterprise-grade recall automation from basic reminder tools, and how to structure a rollout that earns staff buy-in while delivering measurable improvements in patient retention.
 
-## Understanding Automated Patient Recall Systems
+## Why Do Multi-Location Groups Struggle with Patient Recall?
 
-An automated patient recall system uses technology to identify patients due for appointments and deliver outreach messages through multiple channels without requiring manual staff intervention for each contact.
+The fundamental challenge with patient recall in multi-location healthcare organizations is not a lack of effort at individual sites.
 
-These systems integrate with practice management software to track appointment history, identify overdue patients, and execute outreach campaigns based on predefined rules.
+Front desk staff at each location understand the importance of bringing patients back for preventive care, follow-ups, and routine visits. The problem is that effort without standardization produces wildly inconsistent results across a portfolio.
 
-### Core Components of Modern Recall Systems
+### Scale Compounds Inconsistency
 
-Modern automated recall systems consist of several interconnected components that work together to manage the recall workflow. The patient database integration pulls appointment history and contact information directly from your practice management system, eliminating manual data entry and reducing errors.
+When a healthcare group operates multiple locations, each site typically develops its own informal recall process. One location might rely on a front desk coordinator who manually pulls a list every Monday and makes phone calls. Another might send postcards quarterly. A third might have abandoned outbound recall entirely due to staffing constraints.
 
-The rules engine determines which patients need outreach based on configurable criteria such as time since last visit, procedure type, and insurance eligibility. This engine applies logic consistently across all locations, ensuring no patients fall through the cracks due to varying staff practices at different sites.
+Systematic reviews demonstrate that [patient reminder and recall systems improve immunization rates](https://pubmed.ncbi.nlm.nih.gov/11025835), and this evidence for structured outreach applies broadly to preventive care compliance. A fragmented approach means some patients receive timely outreach while others hear nothing for months.
 
-The communication layer handles message delivery across channels including text messages, phone calls, emails, and postcards. Multi-channel capability matters because patient preferences vary, and reaching patients through their preferred method improves response rates.
+For operations leadership, this creates a visibility problem. Without standardized recall processes, there is no reliable way to compare performance across sites, identify which locations need support, or understand the true size of the dormant patient population across the portfolio.
 
-### How Automation Differs from Manual Recall
+### Manual Processes Break Down Under Volume
 
-Manual recall processes depend on staff members reviewing patient lists, making phone calls, and tracking responses in spreadsheets or paper logs. This approach works for single-location practices with small patient panels, but it breaks down quickly when applied across multiple sites.
+Manual recall workflows depend on staff availability and prioritization. When the front desk is overwhelmed with incoming calls, check-ins, and insurance verification, outbound recall calls are the first task to be deferred.
 
-The fundamental difference lies in consistency and scale. Automated systems apply the same recall logic to every patient across every location, executing outreach at precise intervals regardless of staff availability or workload fluctuations.
+This is not a reflection of staff commitment; it is a structural reality of how competing priorities play out in busy clinical environments.
 
-Manual processes inevitably develop inconsistencies as different staff members apply different standards or prioritize other tasks over recall duties.
+Research indicates that [33% of missed appointments are attributable to patients simply forgetting](https://doctorconnect.net/medical-appointment-reminders-evidence-based-strategies).
 
-Automation also provides comprehensive tracking that manual processes cannot match. Every outreach attempt, patient response, and appointment booking is logged automatically, creating audit trails and performance data that inform operational decisions.
+The same research highlights that many medical group leaders continue to see no-show rates hold steady or rise despite various intervention attempts. Manual recall cannot reliably address forgetfulness when the outreach itself is inconsistent.
 
-## Evidence Supporting Patient Recall Systems
+### Data Fragmentation Limits Insight
 
-Research consistently demonstrates that patient reminder and recall systems improve appointment adherence across healthcare settings. Understanding this evidence helps operations leaders make informed decisions about recall system investments.
+Multi-location groups often operate with different practice management systems across sites, or with the same PMS configured differently at each location. This creates data fragmentation that makes it difficult to identify patients due for recall, track outreach history, or measure conversion from recall contact to scheduled appointment.
 
-### Federal Research on Recall Effectiveness
+Without a unified view of patient data, operations teams are forced to rely on site-level reports that may use inconsistent definitions and methodologies.
 
-The Healthy People 2030 initiative, a federal government resource, documents evidence that patient reminder and recall systems are effective at improving compliance rates across primary care settings.
+## What Makes an Automated Patient Recall System Work at Scale?
 
-This finding holds particular relevance for multi-location groups because it validates the core premise that systematic outreach improves patient behavior.
+An automated patient recall system differs from basic appointment reminders in both scope and sophistication. Where reminders notify patients of already-scheduled appointments, recall systems identify patients who are due or overdue for care and initiate outreach to bring them back into the practice.
 
-A Cochrane systematic review published in PMC found that reminder and recall systems are effective in both children and adults, across private practices, academic medical centers, and public health clinics.
+### Centralized Patient Database and Rules Engine
 
-This breadth of evidence across practice types suggests that the benefits of recall systems are not limited to specific care settings or patient populations.
+Enterprise-grade recall automation begins with a centralized view of patient data across all locations. This requires either a unified PMS environment or integration middleware that normalizes patient records from multiple systems.
 
-The VA Evidence-based Synthesis Program has also reviewed the comparative effectiveness of different appointment recall reminder procedures for healthcare follow-up appointments, providing additional validation from government health research.
+The rules engine then applies standardized logic to identify recall-eligible patients: those due for preventive care, overdue for follow-ups, or lapsed beyond a defined threshold.
 
-### Specialty-Specific Guidelines
+The rules should be configurable by patient type, service category, and location-specific considerations.
 
-Professional associations have developed evidence-based guidelines that incorporate recall system recommendations for their respective specialties.
+A [centralized approach to patient recall](/blog/centralized-patient-recall-multi-location/) allows operations leadership to define organization-wide standards while accommodating legitimate variations in clinical protocols across specialties or locations.
 
-The American Dental Association has published peer-reviewed clinical practice guidelines establishing evidence-based recall intervals and maintenance protocols for dental patients, including guidance on assigning appropriate recall intervals based on individual patient risk factors.
+### Multi-Channel Sequencing
 
-The American Optometric Association provides guidance on patient recall strategies including mail, telephone, computer-assisted, and in-office recall methods for optometry practices.
+Effective recall automation deploys multiple communication channels in a sequenced cadence. Research published in the New England Journal of Medicine found that [computerized reminder systems increase preventive service completion rates](https://www.nejm.org/doi/full/10.1056/NEJMsa010181) when systematically applied.
 
-Industry publications like Optometric Management have also published guidance for practices on implementing effective patient recall systems to improve retention and practice growth.
+Modern recall systems typically sequence text messages, emails, and phone calls based on patient preferences, response patterns, and the urgency of the care gap.
 
-These specialty-specific guidelines reinforce that recall systems are not just operationally useful but clinically appropriate, aligning with professional standards of care.
+The sequencing logic should be tunable based on measured performance. If text messages generate strong response rates for certain recall categories but poor results for others, the system should accommodate different channel strategies accordingly.
 
-## Operational Benefits for Multi-Location Groups
+### Standardized Workflows with Location Flexibility
 
-Healthcare groups operating three or more locations face unique operational challenges that automated recall systems address directly. The benefits compound as the number of locations increases because the system handles complexity that would overwhelm manual processes.
+While centralization is essential for consistency and visibility, the system must accommodate legitimate operational differences across sites.
 
-### Standardization Across Sites
+A location with extended evening hours might require different outreach timing than a site that closes at 5 PM. A specialty practice within the group might have longer recall intervals than a primary care location.
 
-One of the most significant benefits for multi-location groups is the ability to standardize recall practices across all sites. Without automation, each location tends to develop its own recall habits, creating inconsistencies in patient experience and operational performance.
+The key is distinguishing between standardization that improves quality and rigidity that creates friction. Organizations implementing [patient recall campaign frameworks](/blog/patient-recall-campaign-framework/) find that central governance of the overall process combined with site-level configuration of specific parameters produces the best results.
 
-An automated system ensures that a patient at Location A receives the same recall sequence, timing, and messaging as a patient at Location B. This standardization improves brand consistency and makes it easier to benchmark performance across locations because you are comparing apples to apples.
+## How Do You Measure Automated Recall System Performance?
 
-Standardization also simplifies training and onboarding. New staff do not need to learn location-specific recall procedures because the system handles recall consistently everywhere. This reduces training time and ensures that staff turnover at individual locations does not disrupt recall operations.
+Deploying recall automation without clear performance measurement is a common failure mode. Operations leaders need visibility into whether the system is working, which locations are underperforming, and where refinements might improve results.
 
-### Centralized Visibility and Control
+### Recovery Rate as the Primary Metric
 
-Operations leaders overseeing multiple locations need visibility into performance across the entire network, not just individual sites. Automated recall systems provide centralized dashboards and reporting that aggregate data from all locations, enabling enterprise-level analysis.
+The core metric for any recall program is recovery rate: the percentage of patients contacted who subsequently schedule and complete an appointment. This metric should be tracked at the organization level, by location, by recall category, and by channel.
 
-This visibility allows you to identify locations that are underperforming on recall metrics and investigate the causes.
+A 2021 study published in JAMA Network Open found that [automated reminder systems can decrease no-show rates by 29% on average](https://doctorconnect.net/medical-appointment-reminders-evidence-based-strategies).
 
-Perhaps one location has incorrect patient contact information, or another has a high rate of patients declining appointments when contacted. Centralized data makes these patterns visible so you can address them proactively.
+While that finding applies specifically to appointment reminders rather than recall, it demonstrates the potential impact of systematic automated outreach on patient behavior. For [multi-location no-show reduction](/blog/multi-location-no-show-reduction/) efforts, similar discipline in measurement and optimization applies.
 
-Centralized control also means you can update recall protocols, messaging, and timing from a single interface rather than coordinating changes across multiple locations manually.
+### Channel Effectiveness Analysis
 
-When you want to adjust the recall interval for a particular procedure type or update the messaging for a seasonal campaign, you make the change once and it applies everywhere.
+Not all outreach channels perform equally across patient populations and recall types. The system should provide visibility into open rates, response rates, and conversion rates by channel. This data informs decisions about channel sequencing, message timing, and investment in specific outreach methods.
 
-### Staff Productivity Improvements
+For organizations evaluating their [reactivation campaign KPIs](/blog/reactivation-campaign-kpis/), channel-level analysis is essential for understanding not just whether patients respond, but which modalities drive the highest-quality responses.
 
-Automated recall frees front desk and administrative staff from repetitive outreach tasks, allowing them to focus on higher-value activities that require human judgment and interaction.
+### Location-Level Variance Reporting
 
-Rather than spending hours making recall calls, staff can handle complex patient inquiries, manage scheduling complications, and improve the in-office patient experience.
+One of the primary benefits of centralized recall automation is the ability to identify performance variance across locations.
 
-For multi-location groups facing staffing challenges, this productivity improvement is particularly valuable. You can maintain effective recall programs without proportionally increasing headcount as you add locations. The system scales without requiring linear staff growth.
+If one site consistently underperforms on recall recovery, operations leadership can investigate whether the issue is staffing, scheduling availability, patient demographics, or system configuration. Without standardized measurement, these comparisons are impossible.
 
-## Implementation Considerations for Enterprise Groups
+Industry data indicates that [87% of medical group leaders report no-show rates staying flat or increasing](https://www.simbo.ai/blog/how-automated-appointment-reminders-and-patient-recall-systems-significantly-reduce-no-show-rates-and-improve-healthcare-revenue-streams-189854), suggesting that many organizations struggle to move the needle on patient engagement even when they recognize the problem.
 
-Implementing an automated patient recall system across multiple locations requires careful planning to ensure successful adoption and integration with existing workflows. Operations leaders should consider several factors during the evaluation and implementation process.
+Multi-location groups with well-implemented recovery programs have achieved significant improvements, with some reporting [up to 70% reduction in missed appointments](https://www.simbo.ai/blog/how-automated-appointment-reminders-and-patient-recall-systems-significantly-reduce-no-show-rates-and-improve-healthcare-revenue-streams-189854).
 
-### Integration with Existing Systems
+## What Does a Multi-Location Rollout Look Like?
 
-The recall system must integrate with your practice management software to access patient data and appointment information. Before selecting a solution, verify that robust integrations exist for the specific systems you use across your locations.
+Deploying an automated patient recall system across multiple locations requires careful change management. The technology implementation is typically the straightforward part; earning staff adoption and refining workflows to local conditions requires more sustained effort.
 
-If different locations use different practice management systems, which is common in groups that have grown through acquisition, you need a recall solution that can integrate with multiple platforms or a strategy for consolidating onto a single platform.
+### Pilot Structure and Site Selection
 
-Integration depth matters as well. Some integrations only pull basic patient contact information, while others can access detailed appointment history, insurance eligibility, and clinical data that enable more sophisticated recall logic.
+Most successful deployments begin with a pilot at one or two locations before expanding across the portfolio. Pilot site selection should balance several factors: the site should be representative enough that learnings transfer to other locations, but it should also have leadership and staff who are receptive to operational change.
 
-Evaluate what data you need for your recall strategy and ensure the integration supports it.
+The pilot phase serves multiple purposes beyond technical validation. It generates reference metrics that inform realistic goal-setting for subsequent locations. It identifies workflow friction points that can be addressed before wider rollout. And it creates internal champions who can support change management at other sites.
 
-### Change Management Across Locations
+### Phased Expansion and Standardization
 
-Introducing an automated recall system changes how staff at each location interact with recall workflows. Even though automation reduces manual work, staff need to understand the new processes, know how to respond when patients call back after receiving automated outreach, and trust that the system is working correctly.
+Following a successful pilot, expansion typically proceeds in phases. Organizations implementing DSO-level centralized scheduling often group locations by region, system configuration, or operational similarity. Each phase incorporates learnings from previous deployments while maintaining momentum toward full portfolio coverage.
 
-Effective change management includes clear communication about why the change is happening, training on new workflows, and mechanisms for staff to report issues or provide feedback. Rolling out the system to a pilot location before enterprise-wide deployment allows you to identify problems and refine processes before scaling.
+The temptation to accelerate rollout should be balanced against the risk of overwhelming change management capacity. Staff at each location need time to adapt to new workflows, even when those workflows ultimately reduce their manual burden.
 
-Location managers play a critical role in change management. Engaging them early, addressing their concerns, and making them advocates for the new system improves adoption across their teams.
+### Staff Change Management
 
-### Compliance and Data Security
+Front desk staff may initially view automated recall as a shift in their responsibilities. Effective change management reframes automation as a tool that eliminates tedious manual work while preserving the higher-value patient interactions where staff expertise matters most.
 
-Patient contact information and health data are subject to regulatory requirements that your recall system must satisfy. Evaluate vendor security practices, data handling procedures, and compliance certifications during your selection process.
+Training should emphasize not just system operation but the rationale behind centralized recall. When staff understand that automated outreach generates more inbound scheduling calls and reduces the most repetitive outbound tasks, adoption improves.
 
-Multi-location groups often operate across multiple states with varying privacy regulations, adding complexity to compliance considerations. Your recall system should support the most restrictive requirements applicable to your operations.
+## What Integration Requirements Should You Evaluate?
 
-## Evaluating Recall System Vendors
+The technical foundation of any automated recall system is its integration with existing practice management and electronic health record systems. Evaluation should assess both current integration capabilities and the roadmap for expanding connectivity.
 
-Selecting the right automated recall system requires evaluating vendors against criteria that matter for multi-location healthcare operations. Not all recall solutions are designed for enterprise scale, and choosing a solution that cannot grow with your organization creates problems down the road.
+### EHR and PMS Connectivity
 
-### Scalability and Multi-Location Support
+At minimum, the recall system must be able to read patient data from your EHR or PMS environments to identify recall-eligible patients. Write-back capabilities that update scheduling status and outreach history are strongly preferred.
 
-Verify that the vendor has experience supporting healthcare groups of your size and complexity. Ask for references from similar organizations and inquire specifically about their experience with multi-location deployments.
+The depth of integration determines whether the recall system operates as a standalone tool or as a seamless extension of existing clinical workflows.
 
-Evaluate how the system handles location-specific customization within a centralized framework.
+For multi-location groups running different systems across sites, integration complexity increases. The recall platform should either support multiple EHR/PMS integrations natively or work through integration middleware that normalizes data across systems.
 
-You may need different recall intervals for different specialties, location-specific messaging that references the correct address and phone number, or varying outreach sequences based on patient demographics. The system should support this flexibility without sacrificing centralized control.
+### Data Normalization and Quality
 
-### Reporting and Analytics Capabilities
+Recall automation is only as good as the underlying patient data. Organizations with data quality issues such as outdated contact information, duplicate records, or inconsistent coding of visit types will see degraded recall performance regardless of the automation platform's capabilities.
 
-The reporting capabilities determine how much value you can extract from the system beyond basic recall execution. Look for systems that provide location-level and enterprise-level views, trend analysis over time, and the ability to segment data by patient characteristics, procedure types, and outreach channels.
+Part of any recall automation implementation should include a data quality assessment and remediation plan. This is an opportunity to standardize data practices across locations, improving not just recall but other operational processes that depend on clean patient records.
 
-Integration with your existing business intelligence tools may be important if you have established reporting workflows. Some organizations prefer all operational data to flow into a central analytics platform rather than maintaining separate dashboards for each system.
+### Compliance and Security Considerations
 
----
+Any system that handles patient contact information and health data must meet applicable compliance requirements. Organizations should confirm that their recall platform vendor maintains appropriate security certifications and can execute business associate agreements where required.
+
+The platform should also support patient communication preferences, including opt-out handling and channel restrictions, to maintain compliance with communication regulations.
+
+## How Do You Build the Business Case for Centralized Recall?
+
+Operations leadership typically understands the value of improved patient recall intuitively. Translating that intuition into a business case that earns executive and board support requires quantifying the opportunity and aligning recall improvements with broader organizational priorities.
+
+### Quantifying the Dormant Patient Opportunity
+
+The starting point for any business case is understanding the current state. How many patients across the portfolio are overdue for care? What is the revenue associated with the average recall visit? What percentage of recall-eligible patients currently receive outreach, and what is the conversion rate?
+
+A real-world case study from a composite dental practice demonstrated that deploying patient recall software [reduced no-show rates by 34% within six months](https://doctorconnect.net/dental-practice-recall-case-study), moving from an 18% no-show rate to 11.9%.
+
+For multi-location groups, similar improvements applied across a larger patient base generate proportionally larger financial impact.
+
+### Operational Efficiency and Staff Utilization
+
+Beyond revenue recovery, centralized recall automation improves staff utilization by reducing manual outreach tasks. Front desk coordinators who previously spent hours each week pulling lists and making calls can redirect that time to higher-value activities.
+
+This efficiency gain is particularly valuable in tight labor markets where recruiting and retaining front office staff is challenging.
+
+For organizations already operating shared services or centralized scheduling, recall automation fits naturally into the existing operational model. The infrastructure for centralized patient access can be extended to include outbound recall with marginal additional investment.
+
+### Portfolio-Level Visibility and Control
+
+For PE-backed healthcare groups and DSOs, portfolio-level visibility is a strategic capability, not just an operational convenience.
+
+Centralized recall automation provides leadership with a consistent view of patient engagement across all sites. This visibility supports both operational improvement initiatives and due diligence during add-on acquisitions.
+
+When acquiring new practices, the ability to rapidly deploy standardized recall processes accelerates integration and demonstrates the operational discipline that supports [healthcare group operations](/solutions/patient-recall/) at scale.
 
 ## Related Reading
 
-For more on patient recall and reactivation strategies, explore these resources:
-
-- [Patient Recall Postcard vs Text vs Phone](/blog/patient-recall-postcard-vs-text-vs-phone/)
 - [Centralized Patient Recall for Multi-Location Groups](/blog/centralized-patient-recall-multi-location/)
-- [Automated vs Human Patient Recall](/blog/automated-vs-human-patient-recall/)
-- [Patient Recall Scripts](/blog/patient-recall-scripts/)
-- [Front Desk Recall Workflow](/blog/front-desk-recall-workflow/)
-- [Automated Recall to Reduce No-Shows](/blog/automated-recall-reduce-no-shows-2026/)
-
----
-
-## Is Your Multi-Location Group Ready for Automated Recall?
-
-Healthcare groups with three or more locations face recall challenges that manual processes cannot solve at scale. If you are evaluating automated patient recall systems for your organization, a discovery conversation can help clarify your requirements and identify the right approach for your operational needs.
-
-[Schedule a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss how centralized recall operations can support your multi-location group.
-
----
+- [Multi-Location No-Show Reduction Strategies](/blog/multi-location-no-show-reduction/)
+- [Patient Recall Campaign Framework](/blog/patient-recall-campaign-framework/)
+- DSO Centralized Patient Scheduling Operations
+- [Reactivation Campaign KPIs](/blog/reactivation-campaign-kpis/)
 
 ## Sources
 
-1. Evidence Brief: Comparative Effectiveness of Appointment Recall Reminder Procedures for Follow-up Appointments - NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK384609
+1. Szilagyi PG, et al. "Effect of patient reminder/recall interventions on immunization rates: A review." PubMed. [https://pubmed.ncbi.nlm.nih.gov/11025835](https://pubmed.ncbi.nlm.nih.gov/11025835)
 
-2. Patient reminder and recall interventions to improve immunization rates - Healthy People 2030. https://odphp.health.gov/healthypeople/tools-action/browse-evidence-based-resources/patient-reminder-and-recall-interventions-improve-immunization-rates
+2. Dexter PR, et al. "A Computerized Reminder System to Increase the Use of Preventive Care for Hospitalized Patients." New England Journal of Medicine. [https://www.nejm.org/doi/full/10.1056/NEJMsa010181](https://www.nejm.org/doi/full/10.1056/NEJMsa010181)
 
-3. Patient reminder and recall systems to improve immunization rates - PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC6485483
+3. DoctorConnect. "Medical Appointment Reminders: Evidence-Based Strategies for Healthcare Efficiency." [https://doctorconnect.net/medical-appointment-reminders-evidence-based-strategies](https://doctorconnect.net/medical-appointment-reminders-evidence-based-strategies)
 
-4. Implement a Patient Recall System - Optometric Management. https://www.optometricmanagement.com/issues/2021/march/implement-a-patient-recall-system
+4. Simbo AI. "How Automated Appointment Reminders and Patient Recall Systems Reduce No-Show Rates." [https://www.simbo.ai/blog/how-automated-appointment-reminders-and-patient-recall-systems-significantly-reduce-no-show-rates-and-improve-healthcare-revenue-streams-189854](https://www.simbo.ai/blog/how-automated-appointment-reminders-and-patient-recall-systems-significantly-reduce-no-show-rates-and-improve-healthcare-revenue-streams-189854)
 
-5. Clinical practice guidelines for recall and maintenance of patients with tooth-borne and implant-borne dental restorations - JADA. https://jada.ada.org/article/S0002-8177(15)01154-X/fulltext
+5. DoctorConnect. "How a Dental Practice Transformed Patient Engagement with Patient Recall." [https://doctorconnect.net/dental-practice-recall-case-study](https://doctorconnect.net/dental-practice-recall-case-study)
 
-6. Recommendations - Dental Recall - NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK54533
+---
 
-7. Patient Communication - AOA. https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication
+*Managing patient recall across 3+ locations? [Request an Enterprise Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for your group.*
