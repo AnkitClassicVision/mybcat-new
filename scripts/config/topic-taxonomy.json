@@ -1,7 +1,7 @@
 {
   "_sourceOfTruth": "03_pillar_cluster_taxonomy.md",
-  "version": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "version": "1.1.0",
+  "lastUpdated": "2026-05-10",
   "description": "Approved topic clusters for blog content. Every post should map to one cluster.",
   "strategy": "broad-multi-vertical",
   "clusters": {
@@ -23,6 +23,11 @@
     "bpo-outsourcing": {
       "pillar": "/solutions/front-desk-outsourcing/",
       "description": "Front desk outsourcing, virtual staffing, call handling, BPO for healthcare",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
+    },
+    "virtual-assistant": {
+      "pillar": "/solutions/medical-virtual-assistant/",
+      "description": "Virtual medical assistants, virtual front desk, remote staffing models — dedicated VA distinct from shared/pooled BPO outsourcing",
       "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     },
     "starting-practice": {
