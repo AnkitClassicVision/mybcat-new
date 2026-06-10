@@ -5,9 +5,9 @@ description: How DSOs and multi-location dental groups build phone infrastructur
   for consistent lead capture across sites. Centralization, compliance, and integration.
 seoDescription: How DSOs and multi-location dental groups build phone infrastructure
   for consistent lead capture across sites. Centralization, compliance, and integration.
-publishDate: '2026-06-25'
+publishDate: '2026-06-16'
 status: scheduled
-scheduledDate: '2026-06-25'
+scheduledDate: '2026-06-16'
 author: Ankit Patel
 category: Technology
 tags:

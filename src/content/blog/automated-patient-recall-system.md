@@ -5,9 +5,9 @@ description: Deploy an automated patient recall system across 3+ locations. Cent
   workflows, multi-channel outreach, and portfolio-level visibility for healthcare
 seoDescription: Deploy an automated patient recall system across 3+ locations. Centralized
   workflows, multi-channel outreach, and portfolio-level visibility for healthcare
-publishDate: '2026-06-23'
+publishDate: '2026-06-12'
 status: scheduled
-scheduledDate: '2026-06-23'
+scheduledDate: '2026-06-12'
 author: Ankit Patel
 category: Patient Care
 tags:

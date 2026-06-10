@@ -5,9 +5,9 @@ description: Learn how missed phone calls silently drain dental practice revenue
   Discover the true cost per unanswered call and strategies to capture patient opportunities.
 seoDescription: Missed calls cost dental practices $850+ per new patient. Learn proven
   strategies for multi-location groups to reduce missed calls and protect revenue.
-publishDate: '2026-06-24'
+publishDate: '2026-06-15'
 status: scheduled
-scheduledDate: '2026-06-24'
+scheduledDate: '2026-06-15'
 author: Ankit Patel
 category: Technology
 tags:

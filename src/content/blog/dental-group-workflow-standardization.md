@@ -5,9 +5,9 @@ description: Learn how multi-location dental groups standardize workflows across
   Framework for COOs and VPs managing DSO operations at scale.
 seoDescription: Learn how multi-location dental groups standardize workflows across
   locations. Framework for COOs and VPs managing DSO operations at scale.
-publishDate: '2026-06-26'
+publishDate: '2026-06-17'
 status: scheduled
-scheduledDate: '2026-06-26'
+scheduledDate: '2026-06-17'
 author: Ankit Patel
 category: Technology
 tags:
