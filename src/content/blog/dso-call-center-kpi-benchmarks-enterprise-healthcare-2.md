@@ -262,14 +262,14 @@ If your organization is ready to move from measurement to improvement, [schedule
 
 ## Sources
 
-1. Call center performance affects patient perceptions of access and satisfaction. PubMed. https://pubmed.ncbi.nlm.nih.gov/31518100
+1. [Call center performance affects patient perceptions of access and satisfaction. PubMed](https://pubmed.ncbi.nlm.nih.gov/31518100)
 
-2. Tips to improve healthcare call center efficiency. MGMA. https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency
+2. [Tips to improve healthcare call center efficiency. MGMA](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency)
 
-3. From data to action: the crucial role of healthcare benchmarking. MGMA. https://www.mgma.com/mgma-stat/from-data-to-action-the-crucial-role-of-healthcare-benchmarking
+3. [From data to action: the crucial role of healthcare benchmarking. MGMA](https://www.mgma.com/mgma-stat/from-data-to-action-the-crucial-role-of-healthcare-benchmarking)
 
-4. Financial & Operational Benchmarking Data. MGMA DataDive. https://www.mgma.com/datadive/financials-and-operations-data
+4. [Financial & Operational Benchmarking Data. MGMA DataDive](https://www.mgma.com/datadive/financials-and-operations-data)
 
-5. 5 Operational Healthcare Contact Center Metrics to Watch Closely. WebMD Ignite. https://webmdignite.com/blog/operational-healthcare-contact-center-metrics
+5. [5 Operational Healthcare Contact Center Metrics to Watch Closely. WebMD Ignite](https://webmdignite.com/blog/operational-healthcare-contact-center-metrics)
 
-6. 12 Critical KPIs for DSOs. Method Procurement. https://www.methodusa.com/resources/critical-kpis-for-dsos
+6. [12 Critical KPIs for DSOs. Method Procurement](https://www.methodusa.com/resources/critical-kpis-for-dsos)
