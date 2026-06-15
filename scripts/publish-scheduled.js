@@ -139,11 +139,11 @@ for (const post of toPublish) {
 
   console.log(`Publishing: ${post.file}`);
 
-  try {
-    data.publishDate = new Date(data.scheduledDate).toISOString();
-  } catch {
-    data.publishDate = new Date().toISOString();
-  }
+  // publishDate should reflect the day the post actually goes live.
+  // The scheduler can fall behind when quality gates or runner queues block a run;
+  // using scheduledDate here backdates overdue posts and makes the 48-hour health
+  // check falsely report "No New Posts" even after a successful publish.
+  data.publishDate = new Date().toISOString();
 
   data.status = 'published';
   delete data.scheduledDate;
