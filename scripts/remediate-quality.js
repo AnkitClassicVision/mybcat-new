@@ -167,6 +167,41 @@ function fixPlainTextReferences(content, blogIndex) {
 }
 
 /**
+ * Convert numbered/bulleted Sources lines ending with a bare URL into markdown
+ * links, so the content-quality gate counts them as external citations.
+ */
+function fixBareSourceUrls(content) {
+  const lines = content.split('\n');
+  let inSources = false;
+
+  return lines.map(line => {
+    if (/^##\s+Sources\b/i.test(line.trim())) {
+      inSources = true;
+      return line;
+    }
+
+    if (inSources && /^##\s+/.test(line.trim())) {
+      inSources = false;
+    }
+
+    if (!inSources || line.includes('](http')) {
+      return line;
+    }
+
+    const match = line.match(/^(\s*(?:[-*]|\d+\.)\s+)(.*?)(https?:\/\/\S+)\s*$/);
+    if (!match) {
+      return line;
+    }
+
+    const rawUrl = match[3];
+    const url = rawUrl.replace(/[.,;:]+$/g, '');
+    const trailing = rawUrl.slice(url.length);
+    const label = match[2].trim().replace(/[ .:-]+$/g, '') || url;
+    return `${match[1]}[${label}](${url})${trailing}`;
+  }).join('\n');
+}
+
+/**
  * Append CTA template if no CTA link is found.
  */
 function ensureCTA(content, ctaPatterns, ctaTemplate) {
@@ -468,6 +503,9 @@ async function remediatePost(filePath, config, blogIndex, ctaTemplate) {
   fixedBody = fixDoubleBracketLinks(fixedBody);
   actions.push('fixDoubleBracketLinks');
 
+  fixedBody = fixBareSourceUrls(fixedBody);
+  actions.push('fixBareSourceUrls');
+
   fixedBody = fixPlainTextReferences(fixedBody, blogIndex);
   actions.push('fixPlainTextReferences');
 
@@ -612,4 +650,4 @@ if (isDirectRun) {
   });
 }
 
-export { remediatePost, scanScheduledPosts, fixAngleBrackets, fixDoubleBracketLinks, fixPlainTextReferences, ensureCTA, buildLLMPrompt };
+export { remediatePost, scanScheduledPosts, fixAngleBrackets, fixDoubleBracketLinks, fixBareSourceUrls, fixPlainTextReferences, ensureCTA, buildLLMPrompt };

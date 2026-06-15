@@ -291,16 +291,16 @@ If your DSO operates 3 or more locations and you are evaluating options for cent
 
 ## Sources
 
-1. Medical Group Management Association. "Improving Access to Care for Patients and Referring Providers through Centralized Scheduling." MGMA Fellowship Papers. https://www.mgma.com/fellowship-papers/improving-access-to-care-for-patients-and-referring-providers-through-centralized-scheduling
+1. [Medical Group Management Association. "Improving Access to Care for Patients and Referring Providers through Centralized Scheduling." MGMA Fellowship Papers](https://www.mgma.com/fellowship-papers/improving-access-to-care-for-patients-and-referring-providers-through-centralized-scheduling)
 
-2. Medical Group Management Association. "Central scheduling to support practice growth and success in the accountable care environment." MGMA Articles. https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment
+2. [Medical Group Management Association. "Central scheduling to support practice growth and success in the accountable care environment." MGMA Articles](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)
 
-3. Agency for Healthcare Research and Quality. "Strategy 6A: Open Access Scheduling for Routine and Urgent Appointments." AHRQ Quality Improvement Guide. https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/access/strategy6a-openaccess.html
+3. [Agency for Healthcare Research and Quality. "Strategy 6A: Open Access Scheduling for Routine and Urgent Appointments." AHRQ Quality Improvement Guide](https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/access/strategy6a-openaccess.html)
 
-4. American Dental Association. "What are the main types of DSOs?" ADA News, March 2022. https://adanews.ada.org/ada-news/2022/march/main-types-of-dsos
+4. [American Dental Association. "What are the main types of DSOs?" ADA News, March 2022](https://adanews.ada.org/ada-news/2022/march/main-types-of-dsos)
 
-5. American Dental Association. "DSO 101: What to know about dental support organizations." ADA New Dentist, 2024. https://adanews.ada.org/new-dentist/2024/web-exclusives/dso-101-what-to-know-about-dental-support-organizations
+5. [American Dental Association. "DSO 101: What to know about dental support organizations." ADA New Dentist, 2024](https://adanews.ada.org/new-dentist/2024/web-exclusives/dso-101-what-to-know-about-dental-support-organizations)
 
-6. Becker's Dental Review. "10 notes on the widening DSO performance gap." https://www.beckersdental.com/dso-dpms/10-notes-on-the-widening-dso-performance-gap
+6. [Becker's Dental Review. "10 notes on the widening DSO performance gap."](https://www.beckersdental.com/dso-dpms/10-notes-on-the-widening-dso-performance-gap)
 
-7. Becker's Dental Review. "The key to DSO success in 2026." https://www.beckersdental.com/dso-dpms/the-key-to-dso-success-in-2026
+7. [Becker's Dental Review. "The key to DSO success in 2026."](https://www.beckersdental.com/dso-dpms/the-key-to-dso-success-in-2026)

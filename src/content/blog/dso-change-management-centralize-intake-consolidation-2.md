@@ -207,16 +207,16 @@ ADA data confirms that practice modality trends continue shifting toward DSOs an
 
 ## Sources
 
-1. Medical Group Management Association. "Implementing central scheduling to support practice growth and success in the accountable care environment." MGMA. https://www.mgma.com/resources/operations-management/implementing-central-scheduling-to-support-practic
+1. [Medical Group Management Association. "Implementing central scheduling to support practice growth and success in the accountable care environment." MGMA](https://www.mgma.com/resources/operations-management/implementing-central-scheduling-to-support-practic)
 
-2. American Dental Association. "More dentists affiliating with DSOs." ADA News, June 2023. https://adanews.ada.org/ada-news/2023/june/more-dentists-affiliating-with-dsos
+2. [American Dental Association. "More dentists affiliating with DSOs." ADA News, June 2023](https://adanews.ada.org/ada-news/2023/june/more-dentists-affiliating-with-dsos)
 
-3. American Dental Association. "Practice modality by the numbers." ADA New Dentist, 2024. https://adanews.ada.org/new-dentist/2024/web-exclusives/practice-modality-by-the-numbers
+3. [American Dental Association. "Practice modality by the numbers." ADA New Dentist, 2024](https://adanews.ada.org/new-dentist/2024/web-exclusives/practice-modality-by-the-numbers)
 
-4. National Center for Biotechnology Information. "Improving Health Care Scheduling - Transforming Health Care Scheduling and Access." NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK316135
+4. [National Center for Biotechnology Information. "Improving Health Care Scheduling - Transforming Health Care Scheduling and Access." NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK316135)
 
-5. Centers for Disease Control and Prevention. "A Change-Management Approach to Closing Care Gaps in a Federally Qualified Health Center: A Rural Kentucky Case Study." Preventing Chronic Disease, 2019. https://www.cdc.gov/pcd/issues/2019/18_0589.htm
+5. [Centers for Disease Control and Prevention. "A Change-Management Approach to Closing Care Gaps in a Federally Qualified Health Center: A Rural Kentucky Case Study." Preventing Chronic Disease, 2019](https://www.cdc.gov/pcd/issues/2019/18_0589.htm)
 
-6. Agency for Healthcare Research and Quality. "Implementation Change Management." TeamSTEPPS Program. https://www.ahrq.gov/teamstepps-program/curriculum/implement/activity/change.html
+6. [Agency for Healthcare Research and Quality. "Implementation Change Management." TeamSTEPPS Program](https://www.ahrq.gov/teamstepps-program/curriculum/implement/activity/change.html)
 
-7. National Institutes of Health. "Managing Change in Healthcare." PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC3294155
+7. [National Institutes of Health. "Managing Change in Healthcare." PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3294155)

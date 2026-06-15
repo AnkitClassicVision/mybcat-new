@@ -185,9 +185,12 @@ if (publishedCount > 0) {
   console.log('No posts published (all failed quality gate or were deferred).');
 }
 
+const shouldFailNoPublish = eligible.length > 0 && publishedCount === 0 && qualityFailed.length > 0;
+
 // AAC v2: write run manifest so scheduled-publish.yml can emit posts_published count
 const MANIFEST_DIR = path.join(__dirname, '..', 'artifacts', 'scheduled-publish');
 const MANIFEST_PATH = path.join(MANIFEST_DIR, 'latest-run.json');
+
 fs.mkdirSync(MANIFEST_DIR, { recursive: true });
 fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
   finished_at: new Date().toISOString(),
@@ -198,6 +201,13 @@ fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
   slugs: publishedSlugs,
 }, null, 2) + '\n');
 console.log(`Manifest written: ${MANIFEST_PATH}`);
+
+if (shouldFailNoPublish) {
+  console.error(
+    `Publish failed: ${qualityFailed.length} eligible post(s) failed quality gate and zero posts were published.`
+  );
+  process.exitCode = 1;
+}
 
 /**
  * After publishing posts, restore any deactivated cross-links whose targets

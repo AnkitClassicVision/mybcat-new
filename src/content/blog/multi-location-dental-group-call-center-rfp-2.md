@@ -228,10 +228,10 @@ Specify who from the vendor organization will serve as your ongoing point of con
 
 ## Sources
 
-- MGMA. "Centralized Call Center Strategic Business Plan." MGMA Fellowship Paper, 2019. https://www.mgma.com/MGMA/media/files/fellowship%20papers/2019%20Fellows%20Papers/Centralized-Call-Center.pdf
-- MGMA. "Patient Access Priorities for 2026." MGMA Stat, December 2025. https://www.mgma.com/mgma-stat/patient-access-priorities-for-2026
-- MGMA. "Tips to Improve Healthcare Call Center Efficiency." https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency
-- HIPAA Journal. "HIPAA Compliance for Call Centers." https://www.hipaajournal.com/hipaa-compliance-for-call-centers
-- American Dental Education Association. "Centralized Call Centers at Dental School Clinics Reduce Inefficiency." https://www.adea.org/home/about/about-adea/ADEA-News/adea-innovation-article-series--centralized-call-centers-at-dental-school-clinics-reduce-inefficiency-while-improving-patient-and-student-experience
-- Association of Dental Support Organizations. "About DSOs." https://www.theadso.org/about-dsos
-- Group Dentistry Now. "Scaling the Funnel: Building a Multi-Location Scheduling System." https://www.groupdentistrynow.com/dso-group-blog/multi-location-marketing
+- [MGMA. "Centralized Call Center Strategic Business Plan." MGMA Fellowship Paper, 2019](https://www.mgma.com/MGMA/media/files/fellowship%20papers/2019%20Fellows%20Papers/Centralized-Call-Center.pdf)
+- [MGMA. "Patient Access Priorities for 2026." MGMA Stat, December 2025](https://www.mgma.com/mgma-stat/patient-access-priorities-for-2026)
+- [MGMA. "Tips to Improve Healthcare Call Center Efficiency."](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency)
+- [HIPAA Journal. "HIPAA Compliance for Call Centers."](https://www.hipaajournal.com/hipaa-compliance-for-call-centers)
+- [American Dental Education Association. "Centralized Call Centers at Dental School Clinics Reduce Inefficiency."](https://www.adea.org/home/about/about-adea/ADEA-News/adea-innovation-article-series--centralized-call-centers-at-dental-school-clinics-reduce-inefficiency-while-improving-patient-and-student-experience)
+- [Association of Dental Support Organizations. "About DSOs."](https://www.theadso.org/about-dsos)
+- [Group Dentistry Now. "Scaling the Funnel: Building a Multi-Location Scheduling System."](https://www.groupdentistrynow.com/dso-group-blog/multi-location-marketing)
