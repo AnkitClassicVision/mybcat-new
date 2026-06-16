@@ -1,24 +1,27 @@
 ---
 title: Multi-Location Dental Group Call Center RFP Checklist
 seoTitle: Multi-Location Dental Group Call Center RFP Checklist
-description: >-
-  Evaluation checklist for multi-location dental groups building a call center
-  RFP. Covers scope, compliance, vendor criteria, and implementation planning.
-seoDescription: >-
-  Evaluation checklist for multi-location dental groups building a call center
-  RFP. Covers scope, compliance, vendor criteria, and implementation planning.
+description: Evaluation checklist for multi-location dental groups building a call
+  center RFP. Covers scope, compliance, vendor criteria, and implementation planning.
+seoDescription: Evaluation checklist for multi-location dental groups building a call
+  center RFP. Covers scope, compliance, vendor criteria, and implementation planning.
 publishDate: '2026-06-16T13:30:54.337Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - multi-location dental group call center RFP
-  - multi-location
-  - enterprise operations
+- multi-location dental group call center RFP
+- multi-location
+- enterprise operations
 cluster: enterprise
 featuredImage: /images/blog/multi-location-dental-group-call-center-rfp-2.webp
-canonical: 'https://mybcat.com/blog/multi-location-dental-group-call-center-rfp-2/'
+canonical: https://mybcat.com/blog/multi-location-dental-group-call-center-rfp-2/
+relatedPosts:
+- dso-centralized-patient-scheduling-operations-2
+- enterprise-healthcare-patient-access-compliance-hipaa-soc2-2
+- optometry-practice-broker-how-to-choose-2
 ---
+
 ## Table of Contents
 
 - [Why Centralized Call Center Operations Matter for Multi-Location Dental Groups](#why-centralized-call-center-operations-matter-for-multi-location-dental-groups)

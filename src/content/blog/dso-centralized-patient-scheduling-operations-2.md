@@ -1,24 +1,27 @@
 ---
 title: 'DSO Centralized Patient Scheduling: Operations Playbook'
 seoTitle: DSO Centralized Patient Scheduling Operations Guide
-description: >-
-  A comprehensive playbook for DSO operations leaders implementing centralized
+description: A comprehensive playbook for DSO operations leaders implementing centralized
   patient scheduling across multiple locations.
-seoDescription: >-
-  Learn how DSOs implement centralized scheduling to improve patient access,
-  standardize operations, and drive growth across locations.
+seoDescription: Learn how DSOs implement centralized scheduling to improve patient
+  access, standardize operations, and drive growth across locations.
 publishDate: '2026-06-16T00:01:42.810Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - DSO centralized patient scheduling operations
-  - multi-location
-  - enterprise operations
+- DSO centralized patient scheduling operations
+- multi-location
+- enterprise operations
 cluster: enterprise
 featuredImage: /images/blog/dso-centralized-patient-scheduling-operations-2.webp
-canonical: 'https://mybcat.com/blog/dso-centralized-patient-scheduling-operations-2/'
+canonical: https://mybcat.com/blog/dso-centralized-patient-scheduling-operations-2/
+relatedPosts:
+- multi-location-dental-group-call-center-rfp-2
+- enterprise-healthcare-patient-access-compliance-hipaa-soc2-2
+- optometry-practice-broker-how-to-choose-2
 ---
+
 ## Table of Contents
 
 - [Understanding the DSO Scheduling Landscape](#understanding-the-dso-scheduling-landscape)
