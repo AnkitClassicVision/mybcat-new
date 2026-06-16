@@ -7,9 +7,8 @@ description: >-
 seoDescription: >-
   Learn how DSOs implement centralized scheduling to improve patient access,
   standardize operations, and drive growth across locations.
-publishDate: '2026-06-05'
-status: scheduled
-scheduledDate: '2026-06-05'
+publishDate: '2026-06-16T00:01:42.810Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
