@@ -7,9 +7,8 @@ description: >-
 seoDescription: >-
   Evaluation checklist for multi-location dental groups building a call center
   RFP. Covers scope, compliance, vendor criteria, and implementation planning.
-publishDate: '2026-06-08'
-status: scheduled
-scheduledDate: '2026-06-08'
+publishDate: '2026-06-16T13:30:54.337Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
