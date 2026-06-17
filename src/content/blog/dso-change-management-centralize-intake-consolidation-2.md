@@ -9,9 +9,8 @@ seoDescription: >-
   Learn how DSOs can centralize patient intake across multiple locations using
   proven change management strategies that minimize disruption and staff
   resistance.
-publishDate: '2026-06-10'
-status: scheduled
-scheduledDate: '2026-06-10'
+publishDate: '2026-06-17T12:54:42.049Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
