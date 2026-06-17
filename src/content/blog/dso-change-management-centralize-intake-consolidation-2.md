@@ -1,27 +1,27 @@
 ---
 title: 'DSO Change Management: Centralize Intake Without Disruption'
 seoTitle: 'DSO Change Management: Centralize Intake Without Disruption'
-description: >-
-  Learn how DSOs can centralize patient intake across multiple locations using
-  proven change management strategies that minimize disruption and staff
-  resistance.
-seoDescription: >-
-  Learn how DSOs can centralize patient intake across multiple locations using
-  proven change management strategies that minimize disruption and staff
-  resistance.
+description: Learn how DSOs can centralize patient intake across multiple locations
+  using proven change management strategies that minimize disruption and staff resistance.
+seoDescription: Learn how DSOs can centralize patient intake across multiple locations
+  using proven change management strategies that minimize disruption and staff resistance.
 publishDate: '2026-06-17T12:54:42.049Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - DSO change management centralize intake consolidation
-  - multi-location
-  - enterprise operations
+- DSO change management centralize intake consolidation
+- multi-location
+- enterprise operations
 cluster: enterprise
 featuredImage: /images/blog/dso-change-management-centralize-intake-consolidation-2.webp
-canonical: >-
-  https://mybcat.com/blog/dso-change-management-centralize-intake-consolidation-2/
+canonical: https://mybcat.com/blog/dso-change-management-centralize-intake-consolidation-2/
+relatedPosts:
+- multi-location-dental-group-call-center-rfp-2
+- dso-centralized-patient-scheduling-operations-2
+- enterprise-healthcare-patient-access-compliance-hipaa-soc2-2
 ---
+
 ## Table of Contents
 
 - [Why Intake Centralization Fails Without Change Management](#why-intake-centralization-fails-without-change-management)
