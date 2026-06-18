@@ -1,25 +1,27 @@
 ---
 title: DSO Call Center KPI Benchmarks for Enterprise Healthcare
 seoTitle: DSO Call Center KPI Benchmarks for Enterprise Healthcare
-description: >-
-  Learn which call center KPIs matter most for DSOs and multi-location
+description: Learn which call center KPIs matter most for DSOs and multi-location
   healthcare groups, plus how to benchmark performance across your network.
-seoDescription: >-
-  Learn which call center KPIs matter most for DSOs and multi-location
+seoDescription: Learn which call center KPIs matter most for DSOs and multi-location
   healthcare groups, plus how to benchmark performance across your network.
 publishDate: '2026-06-18T12:27:47.012Z'
 status: published
 author: Ankit Patel
 tags:
-  - DSO call center KPI benchmarks enterprise healthcare
-  - multi-location
-  - enterprise operations
+- DSO call center KPI benchmarks enterprise healthcare
+- multi-location
+- enterprise operations
 cluster: enterprise
 featuredImage: /images/blog/dso-call-center-kpi-benchmarks-enterprise-healthcare-2.webp
-canonical: >-
-  https://mybcat.com/blog/dso-call-center-kpi-benchmarks-enterprise-healthcare-2/
+canonical: https://mybcat.com/blog/dso-call-center-kpi-benchmarks-enterprise-healthcare-2/
 category: Operations
+relatedPosts:
+- dso-change-management-centralize-intake-consolidation-2
+- multi-location-dental-group-call-center-rfp-2
+- dso-centralized-patient-scheduling-operations-2
 ---
+
 ## Table of Contents
 
 - [Why Healthcare Call Center Benchmarking Differs from Other Industries](#why-healthcare-call-center-benchmarking-differs-from-other-industries)
