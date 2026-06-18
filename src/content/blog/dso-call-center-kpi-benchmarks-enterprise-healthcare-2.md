@@ -7,9 +7,8 @@ description: >-
 seoDescription: >-
   Learn which call center KPIs matter most for DSOs and multi-location
   healthcare groups, plus how to benchmark performance across your network.
-publishDate: '2026-06-11'
-status: scheduled
-scheduledDate: '2026-06-11'
+publishDate: '2026-06-18T12:27:47.012Z'
+status: published
 author: Ankit Patel
 tags:
   - DSO call center KPI benchmarks enterprise healthcare
