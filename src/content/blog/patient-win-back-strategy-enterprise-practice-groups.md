@@ -1,23 +1,26 @@
 ---
 title: Patient Win-Back Strategy for Enterprise Groups
 seoTitle: Patient Win-Back Strategy for Enterprise Groups
-description: 'Patient win-back strategy for enterprise practice groups: centralize
-  reactivation, segment outreach, and standardize recall across multi-location care.'
-seoDescription: 'Patient win-back strategy for enterprise practice groups: centralize
-  reactivation, segment outreach, and standardize recall across multi-location care.'
-publishDate: '2026-06-22'
-status: scheduled
-scheduledDate: '2026-06-22'
+description: >-
+  Patient win-back strategy for enterprise practice groups: centralize
+  reactivation, segment outreach, and standardize recall across multi-location
+  care.
+seoDescription: >-
+  Patient win-back strategy for enterprise practice groups: centralize
+  reactivation, segment outreach, and standardize recall across multi-location
+  care.
+publishDate: '2026-06-22T14:40:26.096Z'
+status: published
 author: Ankit Patel
 category: Patient Care
 tags:
-- patient win-back strategy enterprise practice groups
-- multi-location
-- enterprise operations
-- healthcare scale
+  - patient win-back strategy enterprise practice groups
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 cluster: patient-recall
 featuredImage: /images/blog/patient-win-back-strategy-enterprise-practice-groups.webp
-canonical: https://mybcat.com/blog/patient-win-back-strategy-enterprise-practice-groups/
+canonical: 'https://mybcat.com/blog/patient-win-back-strategy-enterprise-practice-groups/'
 ---
 ## Table of Contents
 
