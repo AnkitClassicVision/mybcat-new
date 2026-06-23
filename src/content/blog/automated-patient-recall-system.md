@@ -1,27 +1,28 @@
 ---
 title: Automated Patient Recall System for Multi-Location Groups
 seoTitle: Automated Patient Recall System for Multi-Location Groups
-description: >-
-  Deploy an automated patient recall system across 3+ locations. Centralized
-  workflows, multi-channel outreach, and portfolio-level visibility for
-  healthcare
-seoDescription: >-
-  Deploy an automated patient recall system across 3+ locations. Centralized
-  workflows, multi-channel outreach, and portfolio-level visibility for
-  healthcare
+description: Deploy an automated patient recall system across 3+ locations. Centralized
+  workflows, multi-channel outreach, and portfolio-level visibility for healthcare
+seoDescription: Deploy an automated patient recall system across 3+ locations. Centralized
+  workflows, multi-channel outreach, and portfolio-level visibility for healthcare
 publishDate: '2026-06-23T12:07:51.627Z'
 status: published
 author: Ankit Patel
 category: Patient Care
 tags:
-  - automated patient recall system
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- automated patient recall system
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: patient-recall
 featuredImage: /images/blog/automated-patient-recall-system.webp
-canonical: 'https://mybcat.com/blog/automated-patient-recall-system/'
+canonical: https://mybcat.com/blog/automated-patient-recall-system/
+relatedPosts:
+- patient-win-back-strategy-enterprise-practice-groups
+- patient-reactivation-campaigns
+- automated-recall-reduce-no-shows-2026
 ---
+
 ## Table of Contents
 
 - [Why Do Multi-Location Groups Struggle with Patient Recall?](#why-do-multi-location-groups-struggle-with-patient-recall)
