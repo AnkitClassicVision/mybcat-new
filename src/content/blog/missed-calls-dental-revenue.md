@@ -1,22 +1,26 @@
 ---
 title: 'Missed Calls and Dental Revenue: The Hidden Cost'
 seoTitle: Missed Calls Cost Dental Practices Revenue | BCAT
-description: Learn how missed phone calls silently drain dental practice revenue.
-  Discover the true cost per unanswered call and strategies to capture patient opportunities.
-seoDescription: Missed calls cost dental practices $850+ per new patient. Learn proven
-  strategies for multi-location groups to reduce missed calls and protect revenue.
+description: >-
+  Learn how missed phone calls silently drain dental practice revenue. Discover
+  the true cost per unanswered call and strategies to capture patient
+  opportunities.
+seoDescription: >-
+  Missed calls cost dental practices $850+ per new patient. Learn proven
+  strategies for multi-location groups to reduce missed calls and protect
+  revenue.
 publishDate: '2026-06-24'
 status: scheduled
 scheduledDate: '2026-06-24'
 author: Ankit Patel
 category: Technology
 tags:
-- missed calls dental revenue
-- multi-location
-- enterprise operations
+  - missed calls dental revenue
+  - multi-location
+  - enterprise operations
 cluster: dental
 featuredImage: /images/blog/missed-calls-dental-revenue.webp
-canonical: https://mybcat.com/blog/missed-calls-dental-revenue/
+canonical: 'https://mybcat.com/blog/missed-calls-dental-revenue/'
 ---
 ## Table of Contents
 
@@ -230,12 +234,12 @@ Organizations that treat phone management as a strategic priority consistently o
 
 ## Sources
 
-1. American Dental Association. "Phone Calls from Prospective Patients." https://www.ada.org/resources/practice/practice-management/patient-intake
-2. MGMA. "No-show fees in medical practices on the rise to balance bumpy attendance rates." https://www.mgma.com/mgma-stat/no-show-fees-in-medical-practices-on-the-rise-to-balance-bumpy-attendance-rates
-3. MGMA. "Optimizing appointments is the key to your revenue cycle." https://www.mgma.com/mgma-stats/back-to-normal-or-new-normal-optimizing-appointments-is-the-key-to-your-revenue-cycle
-4. DenteMax. "Why missed phone calls are dental offices largest revenue loss." https://www.dentemax.com/dentists/blog-articles/2025/Why_missed_phone_calls_are_dental_offices_largest_revenue_loss
-5. Off the Cusp (Patterson Dental). "7 tried-and-true tactics to curb revenue-crippling no-shows." https://www.offthecusp.com/7-tried-and-true-tactics-to-curb-revenue-crippling-no-shows
-6. mConsent. "The Hidden Cost of Missed Follow-Ups in Dental Practices." https://mconsent.net/blog/cost-missed-follow-up-dental-practices
+1. [American Dental Association. "Phone Calls from Prospective Patients."](https://www.ada.org/resources/practice/practice-management/patient-intake)
+2. [MGMA. "No-show fees in medical practices on the rise to balance bumpy attendance rates."](https://www.mgma.com/mgma-stat/no-show-fees-in-medical-practices-on-the-rise-to-balance-bumpy-attendance-rates)
+3. [MGMA. "Optimizing appointments is the key to your revenue cycle."](https://www.mgma.com/mgma-stats/back-to-normal-or-new-normal-optimizing-appointments-is-the-key-to-your-revenue-cycle)
+4. [DenteMax. "Why missed phone calls are dental offices largest revenue loss."](https://www.dentemax.com/dentists/blog-articles/2025/Why_missed_phone_calls_are_dental_offices_largest_revenue_loss)
+5. [Off the Cusp (Patterson Dental). "7 tried-and-true tactics to curb revenue-crippling no-shows."](https://www.offthecusp.com/7-tried-and-true-tactics-to-curb-revenue-crippling-no-shows)
+6. [mConsent. "The Hidden Cost of Missed Follow-Ups in Dental Practices."](https://mconsent.net/blog/cost-missed-follow-up-dental-practices)
 
 ---
 
