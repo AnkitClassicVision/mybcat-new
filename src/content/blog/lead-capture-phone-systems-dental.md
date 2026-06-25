@@ -1,27 +1,28 @@
 ---
 title: Lead Capture Phone Systems for Multi-Location Dental Groups
 seoTitle: Lead Capture Phone Systems Dental | DSO Operations
-description: >-
-  How DSOs and multi-location dental groups build phone infrastructure for
-  consistent lead capture across sites. Centralization, compliance, and
-  integration.
-seoDescription: >-
-  How DSOs and multi-location dental groups build phone infrastructure for
-  consistent lead capture across sites. Centralization, compliance, and
-  integration.
+description: How DSOs and multi-location dental groups build phone infrastructure
+  for consistent lead capture across sites. Centralization, compliance, and integration.
+seoDescription: How DSOs and multi-location dental groups build phone infrastructure
+  for consistent lead capture across sites. Centralization, compliance, and integration.
 publishDate: '2026-06-25T11:40:14.162Z'
 status: published
 author: Ankit Patel
 category: Technology
 tags:
-  - lead capture phone systems dental
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- lead capture phone systems dental
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: dental
 featuredImage: /images/blog/lead-capture-phone-systems-dental.webp
-canonical: 'https://mybcat.com/blog/lead-capture-phone-systems-dental/'
+canonical: https://mybcat.com/blog/lead-capture-phone-systems-dental/
+relatedPosts:
+- dental-software-integrations
+- centralized-scheduling-dental-offices
+- dental-software-integrations-2026
 ---
+
 ## Table of Contents
 
 - [Why Do Multi-Location Dental Groups Struggle with Lead Capture?](#why-do-multi-location-dental-groups-struggle-with-lead-capture)
