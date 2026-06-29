@@ -1,22 +1,24 @@
 ---
 title: Veterinary Practice Technology for Multi-Location Groups
 seoTitle: Veterinary Practice Technology for Multi-Location Groups
-description: How COOs and operations leaders at veterinary groups with 3+ locations
-  can evaluate and implement practice technology for scalable growth.
-seoDescription: How COOs and operations leaders at veterinary groups with 3+ locations
-  can evaluate and implement practice technology for scalable growth.
+description: >-
+  How COOs and operations leaders at veterinary groups with 3+ locations can
+  evaluate and implement practice technology for scalable growth.
+seoDescription: >-
+  How COOs and operations leaders at veterinary groups with 3+ locations can
+  evaluate and implement practice technology for scalable growth.
 publishDate: '2026-06-29'
 status: scheduled
 scheduledDate: '2026-06-29'
 author: Ankit Patel
 category: Technology
 tags:
-- veterinary practice technology
-- multi-location
-- enterprise operations
+  - veterinary practice technology
+  - multi-location
+  - enterprise operations
 cluster: veterinary
 featuredImage: /images/blog/veterinary-practice-technology.webp
-canonical: https://mybcat.com/blog/veterinary-practice-technology/
+canonical: 'https://mybcat.com/blog/veterinary-practice-technology/'
 ---
 ## Table of Contents
 
@@ -179,13 +181,13 @@ Post-implementation monitoring should track adoption metrics and identify locati
 
 ## Sources
 
-- American Veterinary Medical Association. "11 Technologies Veterinary Practices Can Adopt Today." https://www.avma.org/news/11-technologies-veterinary-practices-can-adopt-today
-- American Veterinary Medical Association. "Artificial Intelligence Poised to Transform Veterinary Care." https://www.avma.org/news/artificial-intelligence-poised-transform-veterinary-care
-- American Veterinary Medical Association. "Connected Care: Telehealth in Veterinary Practice." https://www.avma.org/resources-tools/animal-health-and-welfare/telehealth-telemedicine-veterinary-practice
-- American Animal Hospital Association. "The Patchwork Quilt of State Veterinary Telehealth Laws." https://www.aaha.org/newstat/publications/the-patchwork-quilt-of-state-veterinary-telehealth-laws
-- National Institutes of Health. "A Review of Radiomics and Artificial Intelligence and Their Application in Veterinary Diagnostic Imaging." https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9693121
-- Journal of the American Veterinary Medical Association. "Survey of Electronic Veterinary Medical Record Adoption and Use." https://pubmed.ncbi.nlm.nih.gov/25029312
-- American College of Veterinary Radiology. "Artificial Intelligence in Veterinary Diagnostic Imaging." https://acvr.org/artificial-intelligence-in-veterinary-diagnostic-imaging-and-radiation-oncology
+- [American Veterinary Medical Association. "11 Technologies Veterinary Practices Can Adopt Today."](https://www.avma.org/news/11-technologies-veterinary-practices-can-adopt-today)
+- [American Veterinary Medical Association. "Artificial Intelligence Poised to Transform Veterinary Care."](https://www.avma.org/news/artificial-intelligence-poised-transform-veterinary-care)
+- [American Veterinary Medical Association. "Connected Care: Telehealth in Veterinary Practice."](https://www.avma.org/resources-tools/animal-health-and-welfare/telehealth-telemedicine-veterinary-practice)
+- [American Animal Hospital Association. "The Patchwork Quilt of State Veterinary Telehealth Laws."](https://www.aaha.org/newstat/publications/the-patchwork-quilt-of-state-veterinary-telehealth-laws)
+- [National Institutes of Health. "A Review of Radiomics and Artificial Intelligence and Their Application in Veterinary Diagnostic Imaging."](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9693121)
+- [Journal of the American Veterinary Medical Association. "Survey of Electronic Veterinary Medical Record Adoption and Use."](https://pubmed.ncbi.nlm.nih.gov/25029312)
+- [American College of Veterinary Radiology. "Artificial Intelligence in Veterinary Diagnostic Imaging."](https://acvr.org/artificial-intelligence-in-veterinary-diagnostic-imaging-and-radiation-oncology)
 
 ---
 
