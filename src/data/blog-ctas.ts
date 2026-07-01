@@ -104,7 +104,13 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
 /** Off-ICP detector: dental/veterinary content gets the neutral default variant even when it
  * shares a cross-cutting cluster (e.g. a dental post tagged patient-recall must not see
  * optometry-specific copy). Checked against slug and category ONLY — tags are too broad a
- * signal (multi-location/DSO posts often carry a "dental" tag while targeting the core ICP). */
+ * signal (multi-location/DSO posts often carry a "dental" tag while targeting the core ICP).
+ *
+ * EDITORIAL RULE for posts this regex cannot see (neutral slug, dental/DSO-dominant body):
+ * a themed post whose body has >= 8 dental/DSO/vet references and <= 2 optometry references
+ * must carry an explicit `ctaTheme: default` frontmatter override (QA-101/QA-201).
+ * Run the density sweep after adding new posts; broad-healthcare posts below that threshold
+ * intentionally keep their themed CTA (optometry proof copy is acceptable to generic readers). */
 const OFF_ICP = /dental|dentist|veterinar|\bvet\b/i;
 
 export interface BlogCtaContext {

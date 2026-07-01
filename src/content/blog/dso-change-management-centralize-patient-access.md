@@ -4,6 +4,7 @@ publishDate: '2026-03-10T00:00:00.000Z'
 author: Ankit Patel
 category: Enterprise
 cluster: enterprise
+ctaTheme: default  # dental/DSO-bodied content; neutral CTA (QA-201)
 featuredImage: /images/blog/dso-change-management-centralize-patient-access.webp
 canonical: https://mybcat.com/blog/dso-change-management-centralize-patient-access/
 title: DSO Change Management Framework for Patient Access Teams

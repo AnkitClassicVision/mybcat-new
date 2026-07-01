@@ -4,6 +4,7 @@ publishDate: '2026-03-11T00:00:00.000Z'
 author: Ankit Patel
 category: Enterprise
 cluster: enterprise
+ctaTheme: default  # dental/DSO-bodied content; neutral CTA (QA-201)
 featuredImage: /images/blog/enterprise-healthcare-staffing-ratios-patient-access-optimization.webp
 canonical: https://mybcat.com/blog/enterprise-healthcare-staffing-ratios-patient-access-optimization/
 title: 'Healthcare Staffing Ratios and Patient Access: How Multi-Location Groups Optimize

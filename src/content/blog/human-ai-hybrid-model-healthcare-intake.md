@@ -22,6 +22,7 @@ tags:
 featuredImage: /images/blog/human-ai-hybrid-model-healthcare-intake.webp
 canonical: 'https://mybcat.com/blog/human-ai-hybrid-model-healthcare-intake/'
 cluster: ai-technology
+ctaTheme: default  # dental/DSO-bodied content; neutral CTA (QA-201)
 relatedPosts:
   - ai-receptionist-vs-virtual-front-desk-answering-service
   - multi-location-healthcare-intake-guide

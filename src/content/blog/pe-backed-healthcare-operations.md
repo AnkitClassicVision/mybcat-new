@@ -20,6 +20,7 @@ tags:
 featuredImage: /images/blog/pe-backed-healthcare-operations.webp
 canonical: 'https://mybcat.com/blog/pe-backed-healthcare-operations/'
 cluster: enterprise
+ctaTheme: default  # dental/DSO-bodied content; neutral CTA (QA-201)
 relatedPosts:
   - multi-location-healthcare-ebitda
   - dso-patient-retention-strategy

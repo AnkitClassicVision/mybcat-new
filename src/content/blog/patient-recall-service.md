@@ -16,6 +16,7 @@ tags:
 featuredImage: /images/blog/patient-recall-service.webp
 canonical: 'https://mybcat.com/blog/patient-recall-service/'
 cluster: patient-recall
+ctaTheme: default  # dental/DSO-bodied content; neutral CTA (QA-201)
 relatedPosts:
   - patient-recall-campaign-framework
   - reactivationcallcenterformedicalpractice
