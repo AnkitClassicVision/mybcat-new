@@ -9,6 +9,8 @@ export interface Industry {
   shortName: string;
   icon: string;
   headline: string;
+  seoTitle?: string;  // Optional <title> override; falls back to templated title in [slug].astro
+  heroCta?: { text: string; href: string };  // Optional hero CTA override; falls back to Get Started -> /contact/
   description: string;
   tldr: string;  // 40-60 word summary for SEO answer-friendliness
   metaDescription: string;
@@ -37,10 +39,12 @@ export const industries: Industry[] = [
     name: 'Optometry & Ophthalmology',
     shortName: 'Optometry',
     icon: 'eye',
-    headline: 'Optometry Answering Service & Patient Intake | BCAT',
+    headline: 'Optometry Virtual Assistants, Answering & Patient Intake',
+    seoTitle: 'Optometry Virtual Assistants & Answering Service | MyBCAT',
+    heroCta: { text: 'Book a Discovery Call', href: '/contact/?utm_source=seo&utm_medium=industries-optometry&utm_campaign=theme-operations' },
     description: 'Dedicated answering service and patient intake for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences. Need a dedicated VA instead? See our <a href="/solutions/optometry-virtual-assistant/">optometry virtual assistant service</a>.',
     tldr: 'My Business Care Team provides optometry-specific phone answering and scheduling services. We understand VSP vs EyeMed insurance, route medical vs routine visits correctly, and book directly into Eyefinity, RevolutionEHR, and other eye care systems. Practices typically recover $127K+ in annual revenue from missed calls.',
-    metaDescription: 'Optometry answering service with live healthcare coordinators. We handle scheduling, insurance verification & patient calls. Get a free consultation.',
+    metaDescription: 'HIPAA-trained optometry virtual assistants and call team. Scheduling, insurance verification, and recall, booked directly into Eyefinity and RevolutionEHR. Trusted by 30+ practices.',
     patientAcquisition: {
       definition: 'Patient acquisition for optometry practices means converting phone calls, website inquiries, and referrals into scheduled comprehensive eye exams and optical purchases. It encompasses the full patient journey from first contact through appointment booking, including insurance verification and new patient intake.',
       keyMetrics: [

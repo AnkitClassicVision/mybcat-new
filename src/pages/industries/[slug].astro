@@ -53,7 +53,7 @@ const icons: Record<string, string> = {
 ---
 
 <LandingLayout
-  title={`${industry.shortName} Answering Service & Patient Intake | MyBCAT`}
+  title={industry.seoTitle ?? `${industry.shortName} Answering Service & Patient Intake | MyBCAT`}
   description={industry.metaDescription}
   serviceName={industry.name}
   serviceDescription={industry.description}
@@ -74,7 +74,7 @@ const icons: Record<string, string> = {
         <p class="tldr"><strong>TL;DR:</strong> {industry.tldr}</p>
         <p class="hero-description">{industry.description}</p>
         <div class="hero-cta">
-          <Button href="/contact/">Get Started</Button>
+          <Button href={industry.heroCta?.href ?? '/contact/'}>{industry.heroCta?.text ?? 'Get Started'}</Button>
           <a href="#how-it-works" class="text-link">See how it works</a>
         </div>
       </div>
