@@ -19,6 +19,7 @@ tags:
 featuredImage: /images/blog/patient-recall-segmentation.webp
 canonical: 'https://mybcat.com/blog/patient-recall-segmentation/'
 cluster: patient-recall
+ctaTheme: default  # dental-bodied content; neutral CTA (QA-101)
 relatedPosts:
   - patient-recall-campaign-framework
   - reducingpatientchurninhealthcare

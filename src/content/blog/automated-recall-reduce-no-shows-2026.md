@@ -6,6 +6,7 @@ status: published
 author: Ankit Patel
 category: Patient Experience
 cluster: patient-recall
+ctaTheme: default  # dental-bodied content; neutral CTA (QA-101)
 tags:
 - automated patient recall system
 - patient recall software

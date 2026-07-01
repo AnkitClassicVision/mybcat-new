@@ -19,6 +19,7 @@ tags:
   - enterprise healthcare
   - patient access
 cluster: enterprise-operations
+ctaTheme: default  # dental-bodied content; neutral CTA (QA-101)
 featuredImage: /images/blog/dso-change-management-centralize-intake-consolidation.webp
 canonical: 'https://mybcat.com/blog/dso-change-management-centralize-intake-consolidation/'
 ---

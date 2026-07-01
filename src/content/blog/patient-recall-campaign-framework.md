@@ -20,6 +20,7 @@ tags:
 featuredImage: /images/blog/patient-recall-campaign-framework.webp
 canonical: 'https://mybcat.com/blog/patient-recall-campaign-framework/'
 cluster: patient-recall
+ctaTheme: default  # dental-bodied content; neutral CTA (QA-101)
 isPillar: true
 relatedPosts:
   - patient-recall-service

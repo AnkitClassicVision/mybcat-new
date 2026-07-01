@@ -110,11 +110,18 @@ const OFF_ICP = /dental|dentist|veterinar|\bvet\b/i;
 export interface BlogCtaContext {
   slug?: string;
   category?: string;
+  /** Explicit frontmatter override (ctaTheme) — authoritative when present. */
+  ctaTheme?: FunnelTheme;
 }
 
-/** Resolve a post's CTA variant from its frontmatter cluster (quotes/whitespace tolerated).
- * Off-ICP posts (dental/vet by slug or category) always resolve to the default variant. */
+/** Resolve a post's CTA variant. Precedence:
+ * 1. explicit frontmatter ctaTheme override (authoritative, set per-post for
+ *    content-classified off-ICP posts, e.g. dental-bodied recall guides)
+ * 2. off-ICP slug/category heuristic -> default variant
+ * 3. cluster -> theme mapping
+ * 4. default variant */
 export function getBlogCta(cluster?: string, ctx?: BlogCtaContext): BlogCtaVariant {
+  if (ctx?.ctaTheme && blogCtaVariants[ctx.ctaTheme]) return blogCtaVariants[ctx.ctaTheme];
   const haystack = [ctx?.slug, ctx?.category].filter(Boolean).join(' ');
   if (OFF_ICP.test(haystack)) return blogCtaVariants.default;
   const key = (cluster || '').replace(/["']/g, '').trim();
