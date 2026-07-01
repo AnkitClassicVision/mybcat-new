@@ -16,6 +16,7 @@ tags:
 - enterprise operations
 - healthcare scale
 cluster: enterprise-operations
+ctaTheme: default  # dental/DSO-bodied content; neutral CTA (QA-301 sweep, drafts included)
 featuredImage: /images/blog/dso-centralized-patient-scheduling-operations.webp
 canonical: https://mybcat.com/blog/dso-centralized-patient-scheduling-operations/
 ---
