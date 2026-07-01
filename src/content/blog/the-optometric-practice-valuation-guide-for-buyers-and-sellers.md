@@ -84,7 +84,7 @@ The valuation of an optometry practice is heavily influenced by operational effi
 
 Operational maturity shows up in practical places: call handling, recall performance, scheduling consistency, staff independence, documentation, and margin discipline. If the business has strong systems, the buyer sees less cleanup risk and more confidence in the number.
 
-Outsourcing can be one lever, but it is not the only lever. Some practices improve valuation through stronger SOPs, better front-desk staffing, tighter billing processes, or better recall workflows. What matters is not the specific tactic. What matters is whether the business looks easier to operate and scale.
+Outsourcing can be one lever, but it is not the only lever. Some practices improve valuation through stronger SOPs, better front-desk staffing, tighter billing processes, or better recall workflows. What matters is not the specific tactic. What matters is whether the business looks easier to operate and scale. For owners who want the phone handling and recall side handled without adding headcount, a managed [optometry front-office team](/industries/optometry/) is one way to build that owner-independence before a valuation event.
 
 On the buyer side, operational gaps can look like upside, but they also look like risk. A practice with poor phone handling, undocumented processes, or owner-dependent staff may still sell, but the valuation usually reflects the extra work required after close.
 

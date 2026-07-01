@@ -1,8 +1,10 @@
 ---
 import Base from './Base.astro';
 import AuthorBio from '@/components/blog/AuthorBio.astro';
+import InContentCTA from '@/components/blog/InContentCTA.astro';
 import MedicalReviewBadge from '@/components/blog/MedicalReviewBadge.astro';
 import RelatedPosts from '@/components/blog/RelatedPosts.astro';
+import { getBlogCta } from '@data/blog-ctas';
 import { isPostVisible } from '@utils/blog';
 import { generateArticleSchema, generateBreadcrumbSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
@@ -13,7 +15,10 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, publishDate, modifiedDate, author, category, tags, featuredImage, relatedPosts, seoTitle, seoDescription, canonical } = post.data;
+const { title, description, publishDate, modifiedDate, author, category, tags, featuredImage, relatedPosts, seoTitle, seoDescription, canonical, cluster } = post.data;
+
+// Funnel-themed CTA variant resolved from the post's cluster (see src/data/blog-ctas.ts)
+const cta = getBlogCta(cluster);
 
 // Generate category slug for linking
 const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
@@ -166,6 +171,16 @@ const authorInfo = authorData[author] || { role: '', image: '' };
       <slot />
     </div>
 
+    <!-- In-content CTA: rendered hidden, moved mid-article by script below -->
+    <div id="in-content-cta-slot" hidden>
+      <InContentCTA
+        title={cta.title}
+        description={cta.description}
+        buttonText={cta.buttonText}
+        buttonHref={cta.buttonHref}
+      />
+    </div>
+
     {tags && tags.length > 0 && (
       <footer class="post-footer">
         <div class="post-tags">
@@ -199,12 +214,12 @@ const authorInfo = authorData[author] || { role: '', image: '' };
           </svg>
         </div>
         <div class="post-cta-text">
-          <h2>Ready to Capture More Revenue?</h2>
-          <p>See how MyBCAT helps multi-location healthcare groups fill every appointment slot and reduce front desk dependency.</p>
+          <h2>{cta.endTitle}</h2>
+          <p>{cta.endDescription}</p>
         </div>
       </div>
       <div class="post-cta-buttons">
-        <a href="/contact/" class="cta-button primary">Schedule a Consultation</a>
+        <a href={cta.endButtonHref} class="cta-button primary">{cta.endButtonText}</a>
         <a href="/blog/" class="cta-button secondary">View More Articles</a>
       </div>
     </section>
@@ -239,6 +254,32 @@ const authorInfo = authorData[author] || { role: '', image: '' };
       const labelBase = heading?.textContent?.trim() || postTitle;
       table.setAttribute('aria-label', `${labelBase} table ${index + 1}`);
     }
+  });
+
+  // Move the funnel-themed in-content CTA into the article body:
+  // before the "Key Takeaways" heading when present, otherwise before the middle H2.
+  // Posts with fewer than 2 H2s keep only the end-of-post CTA.
+  const ctaSlot = document.getElementById('in-content-cta-slot');
+  const ctaEl = ctaSlot?.firstElementChild;
+  if (ctaSlot && ctaEl) {
+    const headings = Array.from(document.querySelectorAll('#blog-content h2'));
+    const target =
+      headings.find((h) => /key\s*takeaway/i.test(h.textContent || '')) ||
+      (headings.length >= 2 ? headings[Math.floor(headings.length / 2)] : null);
+    if (target?.parentNode) {
+      target.parentNode.insertBefore(ctaEl, target);
+      ctaSlot.remove();
+    }
+  }
+
+  // GTM: attribute CTA clicks by placement + funnel theme (utm_campaign on the href)
+  document.querySelectorAll('.in-content-cta .cta-button, .post-cta .cta-button.primary').forEach((link) => {
+    link.addEventListener('click', () => {
+      const href = link.getAttribute('href') || '';
+      const theme = new URLSearchParams(href.split('?')[1] || '').get('utm_campaign') || 'unknown';
+      const placement = link.closest('.in-content-cta') ? 'in-content-cta' : 'post-cta';
+      (window as any).dataLayer?.push({ event: 'blog_cta_click', cta_theme: theme, cta_placement: placement });
+    });
   });
 </script>
 

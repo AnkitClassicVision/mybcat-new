@@ -129,6 +129,8 @@ New practices should allocate 5-8% of projected revenue to marketing in year one
 
 Efficient operations separate thriving practices from those barely surviving. Small improvements compound into significant revenue differences.
 
+Many owners never make it past this stage because the front desk consumes them. Comparing options like a managed [optometry virtual assistant service](/industries/optometry/) against hiring another in-office FTE, or against [solo VA marketplaces](/compare/vs-hello-rache/), is worth doing before your next hire.
+
 ### Which Staffing Models Scale Effectively?
 
 Most new practices start with minimal staff and add positions as volume justifies the expense:
