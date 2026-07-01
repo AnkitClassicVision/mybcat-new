@@ -56,7 +56,7 @@ const icons: Record<string, string> = {
   title={industry.seoTitle ?? `${industry.shortName} Answering Service & Patient Intake | MyBCAT`}
   description={industry.metaDescription}
   serviceName={industry.name}
-  serviceDescription={industry.description}
+  serviceDescription={industry.description.replace(/<[^>]+>/g, '')}
   breadcrumbs={[
     { name: 'Home', url: '/' },
     { name: 'Industries', url: '/industries/' },
@@ -72,7 +72,7 @@ const icons: Record<string, string> = {
         </div>
         <h1>{industry.headline}</h1>
         <p class="tldr"><strong>TL;DR:</strong> {industry.tldr}</p>
-        <p class="hero-description">{industry.description}</p>
+        <p class="hero-description" set:html={industry.description} />
         <div class="hero-cta">
           <Button href={industry.heroCta?.href ?? '/contact/'}>{industry.heroCta?.text ?? 'Get Started'}</Button>
           <a href="#how-it-works" class="text-link">See how it works</a>

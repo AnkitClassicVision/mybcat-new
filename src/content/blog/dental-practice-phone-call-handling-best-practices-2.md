@@ -6,7 +6,8 @@ description: Standardize phone call handling across your dental group with enter
 seoDescription: Standardize phone call handling across your dental group with enterprise
   protocols for greetings, holds, transfers, training, and QA monitoring at scale.
 publishDate: '2026-05-30'
-status: scheduled
+# QA-001: parked as draft — scheduledDate was already past, merge would have auto-published without editorial review. Ankit to approve publish + real featured image.
+status: draft
 scheduledDate: '2026-05-30'
 author: Ankit Patel
 category: Operations
