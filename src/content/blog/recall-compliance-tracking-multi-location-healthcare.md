@@ -1,9 +1,11 @@
 ---
 title: Recall Compliance Tracking for Multi-Location Healthcare
 seoTitle: Recall Compliance Tracking for Multi-Location Healthcare
-description: Learn how multi-location healthcare groups can implement consistent recall
+description: >-
+  Learn how multi-location healthcare groups can implement consistent recall
   compliance tracking across all sites while meeting federal requirements.
-seoDescription: How multi-location healthcare groups implement consistent recall compliance
+seoDescription: >-
+  How multi-location healthcare groups implement consistent recall compliance
   tracking across sites while meeting federal regulatory requirements.
 publishDate: '2026-07-01'
 status: scheduled
@@ -11,12 +13,12 @@ scheduledDate: '2026-07-01'
 author: Ankit Patel
 category: Patient Care
 tags:
-- recall compliance tracking multi-location healthcare
-- multi-location
-- enterprise operations
+  - recall compliance tracking multi-location healthcare
+  - multi-location
+  - enterprise operations
 cluster: patient-recall
 featuredImage: /images/blog/recall-compliance-tracking-multi-location-healthcare.webp
-canonical: https://mybcat.com/blog/recall-compliance-tracking-multi-location-healthcare/
+canonical: 'https://mybcat.com/blog/recall-compliance-tracking-multi-location-healthcare/'
 ---
 ## Table of Contents
 
@@ -322,14 +324,14 @@ If your organization is struggling with recall compliance consistency across mul
 
 ## Sources
 
-1. Agency for Healthcare Research and Quality. "Strategy 6R: Reminder Systems for Immunizations and Preventive Services." AHRQ Quality Improvement Guide. https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/health-promotion-education/strategy6r-reminder-systems.html
+1. [Agency for Healthcare Research and Quality. "Strategy 6R: Reminder Systems for Immunizations and Preventive Services." AHRQ Quality Improvement Guide](https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/health-promotion-education/strategy6r-reminder-systems.html)
 
-2. U.S. Department of Health and Human Services Office of Inspector General. "General Compliance Program Guidance." HHS OIG Compliance Resources. https://oig.hhs.gov/compliance/general-compliance-program-guidance
+2. [U.S. Department of Health and Human Services Office of Inspector General. "General Compliance Program Guidance." HHS OIG Compliance Resources](https://oig.hhs.gov/compliance/general-compliance-program-guidance)
 
-3. U.S. Department of Health and Human Services Office of Inspector General. "Compliance Programs for Physicians." HHS OIG Physician Education. https://oig.hhs.gov/compliance/physician-education/compliance-programs-for-physicians
+3. [U.S. Department of Health and Human Services Office of Inspector General. "Compliance Programs for Physicians." HHS OIG Physician Education](https://oig.hhs.gov/compliance/physician-education/compliance-programs-for-physicians)
 
-4. Medical Group Management Association. "Practice Management System Evaluation Checklist." MGMA Member Tools. https://www.mgma.com/member-tools/practice-management-system-evaluation-checklist
+4. [Medical Group Management Association. "Practice Management System Evaluation Checklist." MGMA Member Tools](https://www.mgma.com/member-tools/practice-management-system-evaluation-checklist)
 
-5. American Optometric Association. "Patient Communication." AOA Practice Management Resources. https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication
+5. [American Optometric Association. "Patient Communication." AOA Practice Management Resources](https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication)
 
-6. Agency for Healthcare Research and Quality. "Patient Reminders and Notifications." Digital Healthcare Research. https://digital.ahrq.gov/ahrq-funded-projects/patient-reminders-and-notifications
+6. [Agency for Healthcare Research and Quality. "Patient Reminders and Notifications." Digital Healthcare Research](https://digital.ahrq.gov/ahrq-funded-projects/patient-reminders-and-notifications)
