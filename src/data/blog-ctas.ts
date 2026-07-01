@@ -103,19 +103,19 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
 
 /** Off-ICP detector: dental/veterinary content gets the neutral default variant even when it
  * shares a cross-cutting cluster (e.g. a dental post tagged patient-recall must not see
- * optometry-specific copy). Checked against slug, category, and tags. */
-const OFF_ICP = /dental|dentist|veterinar|\bvet\b|hygien/i;
+ * optometry-specific copy). Checked against slug and category ONLY — tags are too broad a
+ * signal (multi-location/DSO posts often carry a "dental" tag while targeting the core ICP). */
+const OFF_ICP = /dental|dentist|veterinar|\bvet\b/i;
 
 export interface BlogCtaContext {
   slug?: string;
   category?: string;
-  tags?: string[];
 }
 
 /** Resolve a post's CTA variant from its frontmatter cluster (quotes/whitespace tolerated).
- * Off-ICP posts (dental/vet) always resolve to the default variant. */
+ * Off-ICP posts (dental/vet by slug or category) always resolve to the default variant. */
 export function getBlogCta(cluster?: string, ctx?: BlogCtaContext): BlogCtaVariant {
-  const haystack = [ctx?.slug, ctx?.category, ...(ctx?.tags || [])].filter(Boolean).join(' ');
+  const haystack = [ctx?.slug, ctx?.category].filter(Boolean).join(' ');
   if (OFF_ICP.test(haystack)) return blogCtaVariants.default;
   const key = (cluster || '').replace(/["']/g, '').trim();
   const theme = clusterToTheme[key] || 'default';
