@@ -1,25 +1,28 @@
 ---
 title: Optometry Recall Automation for Multi-Location Groups
 seoTitle: Optometry Recall Automation for Multi-Location Groups
-description: >-
-  Enterprise playbook for optometry recall automation multi-location groups.
+description: Enterprise playbook for optometry recall automation multi-location groups.
   Standardize workflows, centralize reporting, and protect EBITDA.
-seoDescription: >-
-  How optometry groups with 3+ locations standardize recall automation,
+seoDescription: How optometry groups with 3+ locations standardize recall automation,
   centralize follow-up, and improve reporting discipline.
 publishDate: '2026-07-02T11:33:43.767Z'
 status: published
 author: Ankit Patel
 category: Technology
 tags:
-  - optometry recall automation multi-location groups
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- optometry recall automation multi-location groups
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: optometry
 featuredImage: /images/blog/optometry-recall-automation-multi-location-groups.webp
-canonical: 'https://mybcat.com/blog/optometry-recall-automation-multi-location-groups/'
+canonical: https://mybcat.com/blog/optometry-recall-automation-multi-location-groups/
+relatedPosts:
+- virtual-receptionist-vs-front-desk-optometry
+- call-management-best-practices-optometry
+- optometry-case-study-95-answer-rate
 ---
+
 ## Table of Contents
 
 - [Why Does Optometry Recall Automation Get Harder Across Multiple Locations?](#why-does-optometry-recall-automation-get-harder-across-multiple-locations)
