@@ -11,7 +11,17 @@
  * When the Free Phone & Staffing Analysis page ships, update the hrefs here once.
  */
 
-export type FunnelTheme = 'recall_fill_book' | 'finances_selling' | 'operations' | 'default';
+export type FunnelTheme =
+  | 'recall_fill_book'
+  | 'finances_selling'
+  // Finance sub-intents (assigned per-post via `ctaTheme` frontmatter). The finance
+  // cluster splits into three reader doors, all pointing to the same offer: the
+  // "another location's worth of profit, without the overhead" operating-system report.
+  | 'finance_open'    // opening/building a practice or location (Cold-Start / Growth Builder) -> remote front-office service
+  | 'finance_profit'  // margin-stressed owner of an existing practice -> practice profit audit
+  | 'finance_seller'  // Exit Strategist: raise value before listing (advisor stance, not acquirer)
+  | 'operations'
+  | 'default';
 
 export interface BlogCtaVariant {
   /** Mid-content CTA (InContentCTA component) */
@@ -74,6 +84,46 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
       'Buyers pay for clean operations and a full book. See how MyBCAT improves the operating metrics that drive practice value.',
     endButtonText: 'Book a Practice Value Conversation',
     endButtonHref: utm('finances', 'post-cta'),
+  },
+  // --- Finance sub-intents (OB_mybcat decision 2026-06-24). Two offers:
+  //   finance_open  -> the remote front-office service (open/scale a practice without a full local desk)
+  //   finance_profit / finance_seller -> the Practice Profit Audit ("another location's worth of profit, without the overhead")
+  // Roll-up/sell-side is paused: no "we buy your practice" language anywhere. ---
+  finance_open: {
+    title: 'Opening a Practice? Watch the Front Desk',
+    description:
+      'The biggest ongoing cost of a new location is not the lease. It is a full front desk. MyBCAT runs the phones, scheduling, and recall remotely, so you can open without hiring one on day one.',
+    buttonText: 'Get a Front-Desk Plan',
+    buttonHref: utm('finance-open', 'in-content-cta'),
+    endTitle: 'Open Without Carrying a Full Front Desk',
+    endDescription:
+      'MyBCAT covers the calls and scheduling for your new practice from day one, so the book fills while your local team stays small and focused on the patients in the chair.',
+    endButtonText: 'Book a Discovery Call',
+    endButtonHref: utm('finance-open', 'post-cta'),
+  },
+  finance_profit: {
+    title: 'Working Harder, Keeping Less?',
+    description:
+      'You are not imagining the gap. Another location\'s worth of profit could be hiding inside the practice you already run, and a practice profit audit shows you where.',
+    buttonText: 'See Where the Profit Is Hiding',
+    buttonHref: utm('finance-profit', 'in-content-cta'),
+    endTitle: 'Another Location\'s Worth of Profit, Without the Overhead',
+    endDescription:
+      'You do not need a second address to grow. The audit walks your whole practice and points to where that profit may already be sitting, same location, no new overhead.',
+    endButtonText: 'Get the Practice Profit Audit',
+    endButtonHref: utm('finance-profit', 'post-cta'),
+  },
+  finance_seller: {
+    title: 'Thinking About Selling in the Next Few Years?',
+    description:
+      'Buyers pay more for a practice that runs without you and keeps its book full. The fastest way to raise your number is to clean up operations before you list, not during diligence.',
+    buttonText: 'See What Raises Your Value',
+    buttonHref: utm('finance-seller', 'in-content-cta'),
+    endTitle: 'Raise the Value Before You List',
+    endDescription:
+      'A practice profit audit gives you a buyer\'s-eye view of your operations: phone answer rate, recall, scheduling, and where value is leaking. Fix it on your timeline, not theirs.',
+    endButtonText: 'Get the Practice Profit Audit',
+    endButtonHref: utm('finance-seller', 'post-cta'),
   },
   operations: {
     title: 'Stop Patching the Front Desk',

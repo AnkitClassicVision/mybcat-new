@@ -16,6 +16,7 @@ tags:
 - enterprise operations
 - healthcare scale
 cluster: practice-valuation
+ctaTheme: finance_seller  # finance-intent routing
 featuredImage: /images/blog/optometry-practice-broker-how-to-choose.webp
 canonical: https://mybcat.com/blog/optometry-practice-broker-how-to-choose/
 relatedPosts:

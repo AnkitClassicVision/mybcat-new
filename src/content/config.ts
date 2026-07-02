@@ -19,7 +19,7 @@ const blog = defineCollection({
     cluster: z.string().optional(),
     // Explicit CTA variant override — wins over cluster-based routing (see src/data/blog-ctas.ts).
     // Use 'default' for off-ICP posts (e.g. dental-bodied content) that share a themed cluster.
-    ctaTheme: z.enum(['recall_fill_book', 'finances_selling', 'operations', 'default']).optional(),
+    ctaTheme: z.enum(['recall_fill_book', 'finances_selling', 'finance_open', 'finance_profit', 'finance_seller', 'operations', 'default']).optional(),
     isPillar: z.boolean().default(false),
     redirectTo: z.string().optional().transform((value) => value?.trim() || undefined),
     // SEO overrides

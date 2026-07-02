@@ -17,6 +17,7 @@ keywords:
   - practice management
   - healthcare
 cluster: starting-practice
+ctaTheme: finance_profit  # finance-intent routing
 category: Practice Management
 relatedPosts:
   - optometry-practice-staffing

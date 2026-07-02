@@ -15,6 +15,7 @@ tags:
 - enterprise operations
 - healthcare scale
 cluster: practice-valuation
+ctaTheme: finance_open  # finance-intent routing
 featuredImage: /images/blog/optometry-practice-financing-loan-options.webp
 canonical: https://mybcat.com/blog/optometry-practice-financing-loan-options/
 relatedPosts: []

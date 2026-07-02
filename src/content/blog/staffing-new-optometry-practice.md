@@ -22,6 +22,7 @@ tags:
 featuredImage: /images/blog/staffing-new-optometry-practice.webp
 canonical: 'https://mybcat.com/blog/staffing-new-optometry-practice/'
 cluster: starting-practice
+ctaTheme: finance_open  # finance-intent routing
 relatedPosts:
   - optometry-practice-staffing
   - first-year-financial-planning-optometry

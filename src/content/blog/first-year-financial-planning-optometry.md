@@ -21,6 +21,7 @@ tags:
 featuredImage: /images/blog/first-year-financial-planning-optometry.webp
 canonical: 'https://mybcat.com/blog/first-year-financial-planning-optometry/'
 cluster: starting-practice
+ctaTheme: finance_open  # finance-intent routing (new-practice opener, QA-003)
 relatedPosts: []
 ---
 
