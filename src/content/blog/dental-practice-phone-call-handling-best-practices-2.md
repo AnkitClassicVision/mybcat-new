@@ -5,10 +5,8 @@ description: Standardize phone call handling across your dental group with enter
   protocols for greetings, holds, transfers, training, and QA monitoring at scale.
 seoDescription: Standardize phone call handling across your dental group with enterprise
   protocols for greetings, holds, transfers, training, and QA monitoring at scale.
-publishDate: '2026-05-30'
-# QA-001: parked as draft — scheduledDate was already past, merge would have auto-published without editorial review. Ankit to approve publish + real featured image.
-status: draft
-scheduledDate: '2026-05-30'
+publishDate: '2026-05-30T00:00:00.000Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
@@ -16,11 +14,15 @@ tags:
 - multi-location
 - enterprise operations
 - healthcare scale
-cluster: "patient-communications"
-# TODO(ankit): swap to a dedicated image; /images/blog/dental-practice-phone-call-handling-best-practices-2.webp was never generated (was build-blocking)
-featuredImage: /images/blog/ai-phone-answering-dental-offices.webp
+cluster: patient-communications
+featuredImage: /images/blog/dental-practice-phone-call-handling-best-practices-2.webp
 canonical: https://mybcat.com/blog/dental-practice-phone-call-handling-best-practices-2/
+relatedPosts:
+- after-hours-medical-answering-service-benefits-2
+- medical-answering-services-eye-care-guide
+- call-handling-patient-experience-eye-care
 ---
+
 ## Table of Contents
 
 - [Why Does Phone Call Handling Require Centralized Standards?](#why-does-phone-call-handling-require-centralized-standards)

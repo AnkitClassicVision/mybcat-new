@@ -139,11 +139,11 @@ for (const post of toPublish) {
 
   console.log(`Publishing: ${post.file}`);
 
-  try {
-    data.publishDate = new Date(data.scheduledDate).toISOString();
-  } catch {
-    data.publishDate = new Date().toISOString();
-  }
+  // publishDate should reflect the day the post actually goes live.
+  // The scheduler can fall behind when quality gates or runner queues block a run;
+  // using scheduledDate here backdates overdue posts and makes the 48-hour health
+  // check falsely report "No New Posts" even after a successful publish.
+  data.publishDate = new Date().toISOString();
 
   data.status = 'published';
   delete data.scheduledDate;
@@ -185,9 +185,12 @@ if (publishedCount > 0) {
   console.log('No posts published (all failed quality gate or were deferred).');
 }
 
+const shouldFailNoPublish = eligible.length > 0 && publishedCount === 0 && qualityFailed.length > 0;
+
 // AAC v2: write run manifest so scheduled-publish.yml can emit posts_published count
 const MANIFEST_DIR = path.join(__dirname, '..', 'artifacts', 'scheduled-publish');
 const MANIFEST_PATH = path.join(MANIFEST_DIR, 'latest-run.json');
+
 fs.mkdirSync(MANIFEST_DIR, { recursive: true });
 fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
   finished_at: new Date().toISOString(),
@@ -198,6 +201,13 @@ fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
   slugs: publishedSlugs,
 }, null, 2) + '\n');
 console.log(`Manifest written: ${MANIFEST_PATH}`);
+
+if (shouldFailNoPublish) {
+  console.error(
+    `Publish failed: ${qualityFailed.length} eligible post(s) failed quality gate and zero posts were published.`
+  );
+  process.exitCode = 1;
+}
 
 /**
  * After publishing posts, restore any deactivated cross-links whose targets
