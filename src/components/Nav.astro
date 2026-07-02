@@ -461,13 +461,29 @@ const { currentPath = '/' } = Astro.props;
     min-width: 180px;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+    /* Grace period: keep the menu up briefly after the cursor leaves,
+       so a diagonal move toward a submenu item does not snap it shut. */
+    transition-delay: 0.25s;
     margin-top: 8px;
+  }
+
+  /* Invisible hover bridge spanning the 8px visual gap between the trigger
+     and the menu. Without it, the cursor crosses an un-hovered dead zone on
+     the way down and the whole dropdown collapses before reaching a submenu. */
+  .nav-dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    height: 12px;
   }
 
   .nav-dropdown:hover .nav-dropdown-menu {
     opacity: 1;
     visibility: visible;
+    transition-delay: 0s;
   }
 
   .nav-dropdown-menu a {
