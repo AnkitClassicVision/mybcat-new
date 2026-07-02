@@ -83,6 +83,8 @@ Lower offers are more common when revenue depends on a single od, processes are 
 
 The uncomfortable truth: buyers do not just buy revenue. They buy a business that works. The more your practice depends on you personally, the more cautious their offers become.
 
+This is also the most fixable item on the list. Practices that move phones, scheduling, and recall to a managed [optometry front-office team](/industries/optometry/) in the 12-24 months before a sale demonstrate exactly the owner-independent operations buyers pay premiums for.
+
 ## Who Are the 3 Types of Buyers?
 
 Understanding who might buy your practice helps you prepare for what they'll want to see.

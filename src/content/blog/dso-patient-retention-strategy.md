@@ -20,6 +20,7 @@ tags:
 featuredImage: /images/blog/dso-patient-retention-strategy.webp
 canonical: 'https://mybcat.com/blog/dso-patient-retention-strategy/'
 cluster: enterprise
+ctaTheme: default  # dental-bodied content; neutral CTA (QA-101)
 relatedPosts:
   - centralized-patient-recall-multi-location
   - multi-location-healthcare-ebitda

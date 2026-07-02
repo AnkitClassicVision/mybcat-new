@@ -22,6 +22,7 @@ tags:
 featuredImage: /images/blog/pre-sale-operational-cleanup-intake-valuation.webp
 canonical: 'https://mybcat.com/blog/pre-sale-operational-cleanup-intake-valuation/'
 cluster: enterprise
+ctaTheme: default  # dental-bodied content; neutral CTA (QA-101)
 relatedPosts:
   - ebitda-impact-calculator
   - multi-location-healthcare-intake-guide

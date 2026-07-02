@@ -20,6 +20,7 @@ tags:
 featuredImage: /images/blog/front-desk-recall-workflow.webp
 canonical: 'https://mybcat.com/blog/front-desk-recall-workflow/'
 cluster: patient-recall
+ctaTheme: default  # dental-bodied content; neutral CTA (QA-101)
 relatedPosts:
   - patient-recall-campaign-framework
   - patient-recall-scripts

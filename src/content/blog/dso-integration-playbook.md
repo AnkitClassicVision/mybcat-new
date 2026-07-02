@@ -17,6 +17,7 @@ tags:
 featuredImage: /images/blog/dso-integration-playbook.webp
 canonical: 'https://mybcat.com/blog/dso-integration-playbook/'
 cluster: enterprise
+ctaTheme: default  # dental-bodied content; neutral CTA (QA-101)
 relatedPosts:
   - dso-case-study-15-location-missed-calls
   - 90-day-integration-playbook-healthcare-acquisitions

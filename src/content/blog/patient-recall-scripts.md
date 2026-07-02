@@ -49,6 +49,8 @@ Consistent patient experience across all staff members. Faster onboarding for ne
 
 Research shows personalized messages generate 3-4x higher response rates than generic reminders. Scripts provide the framework for personalization at scale.
 
+The script is only half the equation. Someone has to work the list consistently, which is where most practices stall. If your front desk cannot keep up with recall calls, a dedicated [optometry virtual assistant and call team](/industries/optometry/) can run these exact scripts daily without pulling staff off in-office patients.
+
 ## What Are the Best Phone Scripts for Patient Recall?
 
 Phone calls remain the most effective channel for high-value patients and those who have been dormant longer than 12 months. These scripts balance warmth with efficiency.
@@ -100,6 +102,8 @@ Acknowledge the gap without judgment ("life gets busy"). Proactively surface com
 
 **Key elements:**
 Express concern for their wellbeing first. Gently note the reserved time (accountability without guilt). Focus on rescheduling, not the missed appointment.
+
+If no-shows are a recurring leak rather than an occasional miss, a systematic [no-show recovery service](/solutions/no-show-recovery/) can chase every missed appointment the same day, every day.
 
 ## What Are the Best SMS Templates for Patient Recall?
 

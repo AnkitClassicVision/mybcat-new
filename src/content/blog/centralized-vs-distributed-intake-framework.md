@@ -16,6 +16,7 @@ tags:
 featuredImage: /images/blog/centralized-vs-distributed-intake-framework.webp
 canonical: 'https://mybcat.com/blog/centralized-vs-distributed-intake-framework/'
 cluster: enterprise
+ctaTheme: default  # dental-bodied content; neutral CTA (QA-101)
 relatedPosts:
   - multi-location-healthcare-intake-guide
   - human-ai-hybrid-model-healthcare-intake
