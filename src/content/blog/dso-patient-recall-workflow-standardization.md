@@ -1,25 +1,28 @@
 ---
 title: DSO Patient Recall Workflow Standardization
 seoTitle: DSO Patient Recall Workflow Standardization
-description: >-
-  How DSOs standardize patient recall workflows across multiple locations with
-  centralized rules, risk-based cohorts, and enterprise reporting.
-seoDescription: >-
-  How DSOs standardize patient recall workflows across multiple locations with
-  centralized rules, risk-based cohorts, and enterprise reporting.
+description: How DSOs standardize patient recall workflows across multiple locations
+  with centralized rules, risk-based cohorts, and enterprise reporting.
+seoDescription: How DSOs standardize patient recall workflows across multiple locations
+  with centralized rules, risk-based cohorts, and enterprise reporting.
 publishDate: '2026-07-03T11:32:20.540Z'
 status: published
 author: Ankit Patel
 category: Technology
 tags:
-  - dso patient recall workflow standardization
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- dso patient recall workflow standardization
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: dental
 featuredImage: /images/blog/dso-patient-recall-workflow-standardization.webp
-canonical: 'https://mybcat.com/blog/dso-patient-recall-workflow-standardization/'
+canonical: https://mybcat.com/blog/dso-patient-recall-workflow-standardization/
+relatedPosts:
+- dental-group-workflow-standardization
+- lead-capture-phone-systems-dental
+- dental-software-integrations
 ---
+
 ## Table of Contents
 
 - [Why is patient recall so hard to standardize across a DSO?](#why-is-patient-recall-so-hard-to-standardize-across-a-dso)
