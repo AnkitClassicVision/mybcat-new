@@ -1,27 +1,28 @@
 ---
 title: Recall Program KPI for Healthcare Operators
 seoTitle: Recall Program KPI for Healthcare Operators
-description: >-
-  Recall program KPI guide for healthcare operators managing 3+ locations.
-  Standardize dashboards, centralize reporting, and support cleaner EBITDA
-  decisions.
-seoDescription: >-
-  Recall program KPI guide for healthcare operators managing 3+ locations.
-  Standardize dashboards, centralize recall reporting, and support EBITDA
-  visibility.
+description: Recall program KPI guide for healthcare operators managing 3+ locations.
+  Standardize dashboards, centralize reporting, and support cleaner EBITDA decisions.
+seoDescription: Recall program KPI guide for healthcare operators managing 3+ locations.
+  Standardize dashboards, centralize recall reporting, and support EBITDA visibility.
 publishDate: '2026-07-06T12:52:07.158Z'
 status: published
 author: Ankit Patel
 category: Patient Care
 tags:
-  - recall program kpi healthcare operators
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- recall program kpi healthcare operators
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: patient-recall
 featuredImage: /images/blog/recall-program-kpi-healthcare-operators.webp
-canonical: 'https://mybcat.com/blog/recall-program-kpi-healthcare-operators/'
+canonical: https://mybcat.com/blog/recall-program-kpi-healthcare-operators/
+relatedPosts:
+- automated-patient-recall-system
+- patient-win-back-strategy-enterprise-practice-groups
+- patient-reactivation-campaigns
 ---
+
 ## Table of Contents
 
 - [What should recall program KPI measure at enterprise scale?](#what-should-recall-program-kpi-measure-at-enterprise-scale)
