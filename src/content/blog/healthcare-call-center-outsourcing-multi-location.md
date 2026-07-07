@@ -1,23 +1,25 @@
 ---
 title: Healthcare Call Center Outsourcing for Multi-Location
 seoTitle: Healthcare Call Center Outsourcing Multi-Location
-description: 'Healthcare call center outsourcing for multi-location groups: how COOs
-  standardize intake, BAAs, routing, and QA across every site without site-level drift.'
-seoDescription: Healthcare call center outsourcing multi-location playbook for COOs
-  covering centralization, BAA review, routing design, and QA governance.
-publishDate: '2026-07-07'
-status: scheduled
-scheduledDate: '2026-07-07'
+description: >-
+  Healthcare call center outsourcing for multi-location groups: how COOs
+  standardize intake, BAAs, routing, and QA across every site without site-level
+  drift.
+seoDescription: >-
+  Healthcare call center outsourcing multi-location playbook for COOs covering
+  centralization, BAA review, routing design, and QA governance.
+publishDate: '2026-07-07T11:55:59.946Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
-- healthcare call center outsourcing multi-location
-- multi-location
-- enterprise operations
-- healthcare scale
+  - healthcare call center outsourcing multi-location
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 cluster: bpo-outsourcing
 featuredImage: /images/blog/healthcare-call-center-outsourcing-multi-location.webp
-canonical: https://mybcat.com/blog/healthcare-call-center-outsourcing-multi-location/
+canonical: 'https://mybcat.com/blog/healthcare-call-center-outsourcing-multi-location/'
 ---
 ## Table of Contents
 
