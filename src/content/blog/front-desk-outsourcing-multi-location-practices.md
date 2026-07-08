@@ -1,23 +1,24 @@
 ---
 title: Front Desk Outsourcing for Multi-Location Practices
 seoTitle: Front Desk Outsourcing for Multi-Location Practices
-description: Front desk outsourcing multi-location practices playbook for COOs. Standardize
+description: >-
+  Front desk outsourcing multi-location practices playbook for COOs. Standardize
   coverage, centralize reporting, and support EBITDA visibility.
-seoDescription: Front desk outsourcing multi-location practices playbook for COOs.
-  Standardize coverage, centralize reporting, and support EBITDA visibility.
-publishDate: '2026-07-08'
-status: scheduled
-scheduledDate: '2026-07-08'
+seoDescription: >-
+  Front desk outsourcing multi-location practices playbook for COOs. Standardize
+  coverage, centralize reporting, and support EBITDA visibility.
+publishDate: '2026-07-08T11:10:56.273Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
-- front desk outsourcing multi-location practices
-- multi-location
-- enterprise operations
-- healthcare scale
+  - front desk outsourcing multi-location practices
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 cluster: bpo-outsourcing
 featuredImage: /images/blog/front-desk-outsourcing-multi-location-practices.webp
-canonical: https://mybcat.com/blog/front-desk-outsourcing-multi-location-practices/
+canonical: 'https://mybcat.com/blog/front-desk-outsourcing-multi-location-practices/'
 ---
 ## Table of Contents
 
