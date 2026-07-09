@@ -1,23 +1,25 @@
 ---
 title: Patient Access Center Metrics for Healthcare Executives
 seoTitle: Patient Access Center Metrics for Healthcare Executives
-description: Patient access center metrics healthcare executives can use to standardize
-  access, centralize reporting, and improve oversight across multi-location groups.
-seoDescription: Patient access center metrics healthcare executives need for standardization,
+description: >-
+  Patient access center metrics healthcare executives can use to standardize
+  access, centralize reporting, and improve oversight across multi-location
+  groups.
+seoDescription: >-
+  Patient access center metrics healthcare executives need for standardization,
   SLA calibration, and centralized reporting across multi-location groups.
-publishDate: '2026-07-09'
-status: scheduled
-scheduledDate: '2026-07-09'
+publishDate: '2026-07-09T12:02:53.306Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
-- patient access center metrics healthcare executives
-- multi-location
-- enterprise operations
-- healthcare scale
+  - patient access center metrics healthcare executives
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 cluster: enterprise
 featuredImage: /images/blog/patient-access-center-metrics-healthcare-executives.webp
-canonical: https://mybcat.com/blog/patient-access-center-metrics-healthcare-executives/
+canonical: 'https://mybcat.com/blog/patient-access-center-metrics-healthcare-executives/'
 ---
 
 ## What You'll Learn
