@@ -1,23 +1,24 @@
 ---
 title: After-Hours Medical Answering SLA for Groups
 seoTitle: After-Hours Medical Answering SLA for Groups
-description: After-hours medical answering SLA playbook for group practices. Standardize
+description: >-
+  After-hours medical answering SLA playbook for group practices. Standardize
   multi-location coverage, triage, QA, and escalation across 3+ sites.
-seoDescription: After-hours medical answering SLA playbook for group practices. Learn
-  how multi-location healthcare groups standardize coverage and escalation.
-publishDate: '2026-07-10'
-status: scheduled
-scheduledDate: '2026-07-10'
+seoDescription: >-
+  After-hours medical answering SLA playbook for group practices. Learn how
+  multi-location healthcare groups standardize coverage and escalation.
+publishDate: '2026-07-10T11:55:03.222Z'
+status: published
 author: Ankit Patel
 category: Patient Care
 tags:
-- after-hours medical answering sla group practices
-- multi-location
-- enterprise operations
-- healthcare scale
+  - after-hours medical answering sla group practices
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 cluster: patient-communications
 featuredImage: /images/blog/after-hours-medical-answering-sla-group-practices.webp
-canonical: https://mybcat.com/blog/after-hours-medical-answering-sla-group-practices/
+canonical: 'https://mybcat.com/blog/after-hours-medical-answering-sla-group-practices/'
 ---
 ## Table of Contents
 
