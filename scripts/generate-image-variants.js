@@ -16,6 +16,7 @@
  *   node scripts/generate-image-variants.js              # generate
  *   node scripts/generate-image-variants.js --dry-run    # report what would run
  *   node scripts/generate-image-variants.js --force      # regenerate even if present
+ *   node scripts/generate-image-variants.js --only public/images/blog/example.webp
  */
 
 import fs from 'fs';
@@ -43,6 +44,16 @@ const colors = {
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 const force = args.includes('--force');
+const onlyIndex = args.indexOf('--only');
+
+if (onlyIndex !== -1 && !args[onlyIndex + 1]) {
+  console.error(`${colors.red}Missing image path after --only${colors.reset}`);
+  process.exit(1);
+}
+
+const onlyPath = onlyIndex === -1
+  ? null
+  : path.resolve(process.cwd(), args[onlyIndex + 1]);
 
 function isVariant(filename) {
   return VARIANT_SUFFIX_RE.test(filename);
@@ -54,16 +65,34 @@ async function main() {
   console.log(`  Widths: ${TARGET_WIDTHS.join(', ')}`);
   if (dryRun) console.log(`  Mode: ${colors.yellow}dry-run${colors.reset}`);
   if (force) console.log(`  Mode: ${colors.yellow}force${colors.reset}`);
+  if (onlyPath) console.log(`  Only: ${onlyPath}`);
   console.log();
 
-  if (!fs.existsSync(BLOG_IMAGE_DIR)) {
+  if (!onlyPath && !fs.existsSync(BLOG_IMAGE_DIR)) {
     console.error(`${colors.red}Source dir not found: ${BLOG_IMAGE_DIR}${colors.reset}`);
     process.exit(1);
   }
 
-  const sources = fs
-    .readdirSync(BLOG_IMAGE_DIR)
-    .filter(f => f.endsWith('.webp') && !isVariant(f));
+  let sources;
+  if (onlyPath) {
+    if (!fs.existsSync(onlyPath) || !fs.statSync(onlyPath).isFile()) {
+      console.error(`${colors.red}Source image not found: ${onlyPath}${colors.reset}`);
+      process.exit(1);
+    }
+
+    const filename = path.basename(onlyPath);
+    if (!filename.endsWith('.webp') || isVariant(filename)) {
+      console.error(`${colors.red}--only requires a canonical .webp image: ${onlyPath}${colors.reset}`);
+      process.exit(1);
+    }
+
+    sources = [onlyPath];
+  } else {
+    sources = fs
+      .readdirSync(BLOG_IMAGE_DIR)
+      .filter(f => f.endsWith('.webp') && !isVariant(f))
+      .map(f => path.join(BLOG_IMAGE_DIR, f));
+  }
 
   console.log(`Found ${sources.length} source image(s).\n`);
 
@@ -74,9 +103,10 @@ async function main() {
   let totalBytesOut = 0;
   const errors = [];
 
-  for (const source of sources) {
-    const sourcePath = path.join(BLOG_IMAGE_DIR, source);
+  for (const sourcePath of sources) {
+    const source = path.basename(sourcePath);
     const baseName = source.replace(/\.webp$/, '');
+    const outputDir = path.dirname(sourcePath);
 
     let meta;
     try {
@@ -90,7 +120,7 @@ async function main() {
 
     for (const width of TARGET_WIDTHS) {
       const outName = `${baseName}-${width}.webp`;
-      const outPath = path.join(BLOG_IMAGE_DIR, outName);
+      const outPath = path.join(outputDir, outName);
 
       // Skip if source is already smaller than target — upsampling makes
       // images blurry without saving bandwidth.
