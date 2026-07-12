@@ -4,7 +4,14 @@ on:
   schedule:
     # Run daily at 10 AM UTC (6 AM ET) — after scheduled-publish (9 AM UTC)
     - cron: '0 10 * * *'
+  workflow_run:
+    workflows: ['Publish Scheduled Posts']
+    types: [completed]
   workflow_dispatch:
+
+concurrency:
+  group: daily-post-check-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   check-new-posts:
