@@ -63,14 +63,19 @@ jobs:
           fi
 
       - name: Validate forbidden terms
+        id: validate_terms
         if: steps.find-new.outputs.has_new == 'true'
         run: node scripts/validators/validate-terms.js
+        continue-on-error: true
 
       - name: Validate meta tags
+        id: validate_meta
         if: steps.find-new.outputs.has_new == 'true'
         run: node scripts/validators/validate-meta.js
+        continue-on-error: true
 
       - name: Validate H1 tags
+        id: validate_h1
         if: steps.find-new.outputs.has_new == 'true'
         run: node scripts/validators/validate-h1.js
         continue-on-error: true
@@ -80,15 +85,21 @@ jobs:
         run: npm run build
 
       - name: Validate schema markup
+        id: validate_schema
         if: steps.find-new.outputs.has_new == 'true'
-        run: npm run validate:schema 2>&1 || true
+        run: npm run validate:schema 2>&1
+        continue-on-error: true
 
       - name: Validate internal links
+        id: validate_links
         if: steps.find-new.outputs.has_new == 'true'
-        run: npm run validate:links 2>&1 || true
+        run: npm run validate:links 2>&1
+        continue-on-error: true
 
       - name: Check new post URLs return 200
+        id: validate_post_urls
         if: steps.find-new.outputs.has_new == 'true'
+        continue-on-error: true
         run: |
           ERRORS=0
           for f in $(cat /tmp/new_posts.txt); do
@@ -121,7 +132,12 @@ jobs:
           echo "**Date:** $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
           if [ "${{ steps.find-new.outputs.has_new }}" = "true" ]; then
             echo "**New posts found:** Yes" >> $GITHUB_STEP_SUMMARY
-            echo "**Validators:** terms ✓, meta ✓, H1 ✓, schema ✓, links ✓" >> $GITHUB_STEP_SUMMARY
+            if [ "${{ steps.validate_terms.outcome }}" = "success" ]; then echo "- Forbidden terms: ✓" >> $GITHUB_STEP_SUMMARY; else echo "- Forbidden terms: ✗ (${{ steps.validate_terms.outcome }})" >> $GITHUB_STEP_SUMMARY; fi
+            if [ "${{ steps.validate_meta.outcome }}" = "success" ]; then echo "- Meta tags: ✓" >> $GITHUB_STEP_SUMMARY; else echo "- Meta tags: ✗ (${{ steps.validate_meta.outcome }})" >> $GITHUB_STEP_SUMMARY; fi
+            if [ "${{ steps.validate_h1.outcome }}" = "success" ]; then echo "- H1 tags: ✓" >> $GITHUB_STEP_SUMMARY; else echo "- H1 tags: ✗ (${{ steps.validate_h1.outcome }})" >> $GITHUB_STEP_SUMMARY; fi
+            if [ "${{ steps.validate_schema.outcome }}" = "success" ]; then echo "- Schema markup: ✓" >> $GITHUB_STEP_SUMMARY; else echo "- Schema markup: ✗ (${{ steps.validate_schema.outcome }})" >> $GITHUB_STEP_SUMMARY; fi
+            if [ "${{ steps.validate_links.outcome }}" = "success" ]; then echo "- Internal links: ✓" >> $GITHUB_STEP_SUMMARY; else echo "- Internal links: ✗ (${{ steps.validate_links.outcome }})" >> $GITHUB_STEP_SUMMARY; fi
+            if [ "${{ steps.validate_post_urls.outcome }}" = "success" ]; then echo "- New post URLs: ✓" >> $GITHUB_STEP_SUMMARY; else echo "- New post URLs: ✗ (${{ steps.validate_post_urls.outcome }})" >> $GITHUB_STEP_SUMMARY; fi
           else
             echo "**New posts found:** None in last 48 hours" >> $GITHUB_STEP_SUMMARY
           fi
@@ -131,7 +147,7 @@ jobs:
       # not configured — workflow still exits 1 below so CI stays red.
       # Per PIPELINE_DRIFT_FIX_SPEC.md Step 7. Ambiguity #1: platform may
       # change — see spec for details.
-      - name: Notify Telegram on no-new-posts
+      - name: Advisory - Notify Telegram on no-new-posts
         if: steps.find-new.outputs.has_new == 'false' && env.TELEGRAM_BOT_TOKEN != ''
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -160,9 +176,9 @@ jobs:
             -d parse_mode="Markdown" \
             --data-urlencode text="$MESSAGE" \
             -o /tmp/tg_response.json \
-            -w "http_status=%{http_code}\n" || echo "telegram send failed (continuing)"
+            -w "http_status=%{http_code}\n"
           echo "--- Telegram response ---"
-          cat /tmp/tg_response.json || true
+          if [ -f /tmp/tg_response.json ]; then cat /tmp/tg_response.json; fi
           echo
 
       # Fail the workflow when no new posts — preserves existing alarm behavior
@@ -172,6 +188,26 @@ jobs:
         run: |
           echo "::error::No new posts in last 48 hours — pipeline may be stalled"
           exit 1
+
+      - name: Aggregate validator outcomes
+        if: always() && steps.find-new.outputs.has_new == 'true'
+        run: |
+          FAILED=0
+          for result in \
+            "terms:${{ steps.validate_terms.outcome }}" \
+            "meta:${{ steps.validate_meta.outcome }}" \
+            "h1:${{ steps.validate_h1.outcome }}" \
+            "schema:${{ steps.validate_schema.outcome }}" \
+            "links:${{ steps.validate_links.outcome }}" \
+            "post-urls:${{ steps.validate_post_urls.outcome }}"; do
+            name=${result%%:*}
+            outcome=${result#*:}
+            echo "$name: $outcome"
+            if [ "$outcome" != "success" ]; then
+              FAILED=1
+            fi
+          done
+          exit "$FAILED"
 
       - name: AAC emit NODE_ENDED
         if: always()
