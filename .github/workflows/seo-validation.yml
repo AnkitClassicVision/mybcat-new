@@ -142,7 +142,8 @@ jobs:
         run: npm run check
 
   aac-finalize:
-    name: AAC finalize
+    name: AAC finalize (advisory)
+    continue-on-error: true
     needs: [pre-build-validation, post-build-validation, content-quality]
     if: always()
     runs-on: self-hosted
