@@ -1,0 +1,114 @@
+name: Post Publish Verify
+
+on:
+  workflow_run:
+    workflows: ['Publish Scheduled Posts']
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: Blog post slug to verify
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Determine post slugs
+        id: targets
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          DISPATCH_SLUG: ${{ inputs.slug }}
+        run: |
+          node --input-type=module <<'NODE'
+          import { appendFileSync, existsSync, readFileSync } from 'node:fs';
+          import { execFileSync } from 'node:child_process';
+
+          const output = (name, value) => appendFileSync(process.env.GITHUB_OUTPUT, `${name}=${value}\n`);
+          const summary = (line) => appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${line}\n`);
+          const validateSlug = (slug) => {
+            if (!/^[a-z0-9][a-z0-9_-]*$/i.test(slug)) throw new Error(`Invalid blog slug: ${JSON.stringify(slug)}`);
+            return slug;
+          };
+
+          if (process.env.EVENT_NAME === 'workflow_dispatch') {
+            const requestedSlug = process.env.DISPATCH_SLUG?.trim() ?? '';
+            if (!requestedSlug) throw new Error('workflow_dispatch requires a slug.');
+            const slug = validateSlug(requestedSlug);
+            output('slugs', slug);
+            output('skip', 'false');
+            summary(`## Post-publish verification\n\nManual target: \`${slug}\``);
+          } else if (existsSync('artifacts/scheduled-publish/latest-run.json')) {
+            const manifest = JSON.parse(readFileSync('artifacts/scheduled-publish/latest-run.json', 'utf8'));
+            const publishedCount = Number(manifest.posts_published ?? 0);
+            if (!Number.isInteger(publishedCount) || publishedCount < 0) {
+              throw new Error('latest-run.json has an invalid posts_published value.');
+            }
+            if (publishedCount === 0) {
+              output('skip', 'true');
+              summary('## Post-publish verification\n\nNothing to verify: latest-run.json shows zero posts published.');
+            } else {
+              const slugs = Array.isArray(manifest.slugs)
+                ? manifest.slugs.map((slug) => String(slug).trim()).filter(Boolean).map(validateSlug)
+                : [];
+              if (slugs.length !== publishedCount) {
+                throw new Error(`latest-run.json reports ${publishedCount} published post(s) but contains ${slugs.length} slug(s).`);
+              }
+              output('slugs', slugs.join(','));
+              output('skip', 'false');
+              summary(`## Post-publish verification\n\nManifest targets: ${slugs.map((slug) => `\`${slug}\``).join(', ')}`);
+            }
+          } else {
+            const newestUrl = execFileSync(process.execPath, ['scripts/newest-post-url.mjs'], { encoding: 'utf8' }).trim();
+            const pathname = new URL(newestUrl).pathname;
+            const match = pathname.match(/^\/blog\/([^/]+)\/$/);
+            if (!match) throw new Error(`Could not extract a blog slug from newest-post-url.mjs output: ${newestUrl}`);
+            const slug = validateSlug(decodeURIComponent(match[1]));
+            output('slugs', slug);
+            output('skip', 'false');
+            summary(`## Post-publish verification\n\nManifest absent; newest published post fallback: \`${slug}\``);
+          }
+          NODE
+
+      - name: Wait for Vercel propagation
+        if: steps.targets.outputs.skip != 'true'
+        run: sleep 90
+
+      - name: Verify live posts and submit IndexNow
+        if: steps.targets.outputs.skip != 'true'
+        env:
+          VERIFY_SLUGS: ${{ steps.targets.outputs.slugs }}
+        run: |
+          set +e
+          OUTPUT=$(node scripts/post-publish-verify.mjs --slug "$VERIFY_SLUGS" 2>&1)
+          STATUS=$?
+          set -e
+
+          printf '%s\n' "$OUTPUT"
+          {
+            echo
+            echo "### Verification result"
+            echo
+            echo "Exit code: $STATUS"
+            echo
+            echo '```text'
+            printf '%s\n' "$OUTPUT" | sed 's/```/` ` `/g'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          exit "$STATUS"
