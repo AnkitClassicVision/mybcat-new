@@ -31,13 +31,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check SOT Config Drift
+      - name: Advisory source-of-truth drift clone
         continue-on-error: true
         run: |
           echo "## SOT Drift Check" >> $GITHUB_STEP_SUMMARY
           # Clone ongoing_seo to check enforcement config drift
           ONGOING_SEO_DIR=$(mktemp -d)
-          git clone --depth 1 https://github.com/AnkitClassicVision/ongoing_seo.git "$ONGOING_SEO_DIR" 2>/dev/null || true
+          git clone --depth 1 https://github.com/AnkitClassicVision/ongoing_seo.git "$ONGOING_SEO_DIR" 2>/dev/null
           if [ -f "$ONGOING_SEO_DIR/scripts/generate_enforcement_configs.py" ]; then
             python3 "$ONGOING_SEO_DIR/scripts/generate_enforcement_configs.py" --check --mybcat-dir "$(pwd)" 2>&1 | tee drift.log
             echo '```' >> $GITHUB_STEP_SUMMARY
@@ -48,26 +48,38 @@ jobs:
           fi
           rm -rf "$ONGOING_SEO_DIR"
 
-      - name: Run Pre-Build Validations
-        id: prebuild
+      - name: Validate forbidden terms
+        id: validate_terms
         continue-on-error: true
-        run: |
-          echo "## Pre-Build Validation Results" >> $GITHUB_STEP_SUMMARY
-          npm run validate:terms -- --verbose 2>&1 | tee terms.log || true
-          npm run validate:meta -- --verbose 2>&1 | tee meta.log || true
-          npm run validate:h1 -- --verbose 2>&1 | tee h1.log || true
-          npm run validate:enterprise-links -- --verbose 2>&1 | tee links.log || true
+        run: npm run validate:terms -- --verbose 2>&1 | tee terms.log
+
+      - name: Validate meta tags
+        id: validate_meta
+        continue-on-error: true
+        run: npm run validate:meta -- --verbose 2>&1 | tee meta.log
+
+      - name: Validate H1 tags
+        id: validate_h1
+        continue-on-error: true
+        run: npm run validate:h1 -- --verbose 2>&1 | tee h1.log
+
+      - name: Validate enterprise links
+        id: validate_enterprise_links
+        continue-on-error: true
+        run: npm run validate:enterprise-links -- --verbose 2>&1 | tee links.log
 
       - name: Build Site
         run: npm run build
 
-      - name: Run Post-Build Validations
-        id: postbuild
+      - name: Validate schema markup
+        id: validate_schema
         continue-on-error: true
-        run: |
-          echo "## Post-Build Validation Results" >> $GITHUB_STEP_SUMMARY
-          npm run validate:schema -- --verbose 2>&1 | tee schema.log || true
-          npm run validate:links -- --verbose 2>&1 | tee internal-links.log || true
+        run: npm run validate:schema -- --verbose 2>&1 | tee schema.log
+
+      - name: Validate internal links
+        id: validate_internal_links
+        continue-on-error: true
+        run: npm run validate:links -- --verbose 2>&1 | tee internal-links.log
 
       - name: Generate Audit Summary
         run: |
@@ -79,12 +91,12 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Forbidden Terms" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          tail -20 terms.log >> $GITHUB_STEP_SUMMARY || echo "No issues" >> $GITHUB_STEP_SUMMARY
+          if [ -f terms.log ]; then tail -20 terms.log >> $GITHUB_STEP_SUMMARY; else echo "No issues" >> $GITHUB_STEP_SUMMARY; fi
           echo '```' >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Enterprise Links" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          tail -30 links.log >> $GITHUB_STEP_SUMMARY || echo "No issues" >> $GITHUB_STEP_SUMMARY
+          if [ -f links.log ]; then tail -30 links.log >> $GITHUB_STEP_SUMMARY; else echo "No issues" >> $GITHUB_STEP_SUMMARY; fi
           echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Upload Audit Logs
@@ -95,7 +107,7 @@ jobs:
             *.log
           retention-days: 30
 
-      - name: SEO Performance Snapshot (GSC)
+      - name: Advisory - SEO Performance Snapshot (GSC)
         continue-on-error: true
         env:
           GSC_TOKEN_PATH: ${{ secrets.GSC_TOKEN_PATH }}
@@ -121,16 +133,38 @@ jobs:
           # Check for new cannibalization: multiple posts with same seoTitle keyword
           echo "### Potential Cannibalization (duplicate seoTitle keywords)" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          grep -rh "seoTitle:" src/content/blog/ 2>/dev/null | sort | uniq -cd | head -10 >> $GITHUB_STEP_SUMMARY || echo "None found" >> $GITHUB_STEP_SUMMARY
+          if ! grep -rh "seoTitle:" src/content/blog/ 2>/dev/null | sort | uniq -cd | head -10 >> $GITHUB_STEP_SUMMARY; then
+            echo "None found" >> $GITHUB_STEP_SUMMARY
+          fi
           echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Check for Critical Issues
         run: |
           # Count errors in logs
-          ERRORS=$(grep -c "✗\|Error\|error" *.log 2>/dev/null || echo "0")
+          ERRORS=$(grep -c "✗\|Error\|error" *.log 2>/dev/null) || ERRORS=0
           if [ "$ERRORS" -gt "5" ]; then
             echo "::warning::$ERRORS critical issues found in weekly audit"
           fi
+
+      - name: Aggregate validator outcomes
+        if: always()
+        run: |
+          FAILED=0
+          for result in \
+            "terms:${{ steps.validate_terms.outcome }}" \
+            "meta:${{ steps.validate_meta.outcome }}" \
+            "h1:${{ steps.validate_h1.outcome }}" \
+            "enterprise-links:${{ steps.validate_enterprise_links.outcome }}" \
+            "schema:${{ steps.validate_schema.outcome }}" \
+            "internal-links:${{ steps.validate_internal_links.outcome }}"; do
+            name=${result%%:*}
+            outcome=${result#*:}
+            echo "$name: $outcome"
+            if [ "$outcome" != "success" ]; then
+              FAILED=1
+            fi
+          done
+          exit "$FAILED"
 
       - name: AAC emit NODE_ENDED
         if: always()
