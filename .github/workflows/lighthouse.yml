@@ -37,6 +37,15 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Select newest published post
+        shell: bash
+        run: |
+          newest_post_url="$(node scripts/newest-post-url.mjs)"
+          newest_post_slug="${newest_post_url%/}"
+          newest_post_slug="${newest_post_slug##*/}"
+          printf 'LHCI_NEWEST_POST_URL=%s\n' "$newest_post_url" >> "$GITHUB_ENV"
+          printf '## Lighthouse dynamic article\n\n- Selected slug: `%s`\n' "$newest_post_slug" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v11
         with:
