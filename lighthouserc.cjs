@@ -8,6 +8,8 @@
  * Install: npm install -D @lhci/cli
  */
 
+const newestPostUrl = process.env.LHCI_NEWEST_POST_URL;
+
 module.exports = {
   ci: {
     collect: {
@@ -20,6 +22,7 @@ module.exports = {
         'http://localhost:4321/blog/',
         'http://localhost:4321/contact/',
         'http://localhost:4321/pricing/',
+        ...(newestPostUrl ? [newestPostUrl] : []),
       ],
       // Start the dev server before running
       startServerCommand: 'npm run preview',
