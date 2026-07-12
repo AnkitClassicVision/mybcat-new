@@ -26,6 +26,7 @@ const blog = defineCollection({
     seoTitle: z.string().optional(),
     seoDescription: z.string().optional(),
     canonical: z.string().optional().transform((value) => value?.trim() || undefined),
+    targetKeyword: z.string().trim().optional(),
   }),
 });
 
