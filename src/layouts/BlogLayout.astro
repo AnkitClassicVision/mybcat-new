@@ -14,6 +14,7 @@ import {
   combineSchemas
 } from '@utils/schema';
 import { formatDate, calculateReadingTime, formatReadingTime, getInitials, slugify } from '@utils/formatting';
+import { getResponsiveSrcset } from '@utils/responsive-image';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -29,6 +30,8 @@ const {
   tags,
   featuredImage
 } = post.data;
+const featuredImageSrcset = getResponsiveSrcset(featuredImage);
+const featuredImageSizes = featuredImageSrcset ? '(max-width: 800px) 100vw, 800px' : undefined;
 
 // Calculate reading time
 const content = post.body || '';
@@ -99,7 +102,13 @@ const schemas = combineSchemas(
 
     {featuredImage && (
       <div class="post-featured-image">
-        <img src={featuredImage} alt={title} loading="eager" />
+        <img
+          src={featuredImage}
+          srcset={featuredImageSrcset ?? undefined}
+          sizes={featuredImageSizes}
+          alt={title}
+          loading="eager"
+        />
       </div>
     )}
 

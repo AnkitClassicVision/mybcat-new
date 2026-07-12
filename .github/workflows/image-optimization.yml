@@ -46,17 +46,52 @@ jobs:
         run: |
           node scripts/check-missing-webp.js --fix
 
+      - name: Generate responsive variants for changed blog images
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          declare -A changed_blog_images=()
+
+          collect_changed_images() {
+            while IFS= read -r -d '' image; do
+              changed_blog_images["$image"]=1
+            done
+          }
+
+          if git cat-file -e "${BASE_SHA}^{commit}" 2>/dev/null; then
+            collect_changed_images < <(git diff --name-only -z "$BASE_SHA" "$HEAD_SHA" -- public/images/blog)
+          else
+            collect_changed_images < <(git diff-tree --no-commit-id --name-only -r -z "$HEAD_SHA" -- public/images/blog)
+          fi
+
+          collect_changed_images < <(git diff --name-only -z -- public/images/blog)
+          collect_changed_images < <(git ls-files --others --exclude-standard -z -- public/images/blog)
+
+          for image in "${!changed_blog_images[@]}"; do
+            case "$image" in
+              *.webp)
+                case "$image" in
+                  *-400.webp|*-800.webp|*-1200.webp) continue ;;
+                esac
+                if [[ -f "$image" ]]; then
+                  node scripts/generate-image-variants.js --only "$image"
+                fi
+                ;;
+            esac
+          done
+
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+          test -z "$(git status --porcelain -- public/images public/videos)" || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit optimized images
         if: steps.changes.outputs.changes == 'true' && github.event_name == 'pull_request'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A public/images/*.webp public/videos/*.webp
+          git add -A -- 'public/images/*.webp' ':(glob)public/images/blog/**/*.webp' 'public/videos/*.webp'
           git commit -m "perf: auto-convert images to WebP format
 
           Automatically generated WebP versions for new images.
