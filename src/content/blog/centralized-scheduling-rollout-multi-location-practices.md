@@ -1,26 +1,28 @@
 ---
 title: Centralized Scheduling Rollout for Multi-Location Practices
 seoTitle: Centralized Scheduling Rollout for Multi-Location Practices
-description: >-
-  Centralized scheduling rollout multi-location practices playbook for COOs.
-  Standardize access, govern change, and support EBITDA across 3+ locations.
-seoDescription: >-
-  Centralized scheduling rollout multi-location practices playbook for COOs.
-  Standardize access, govern change, and support EBITDA across 3+ locations.
+description: Centralized scheduling rollout multi-location practices playbook for
+  COOs. Standardize access, govern change, and support EBITDA across 3+ locations.
+seoDescription: Centralized scheduling rollout multi-location practices playbook for
+  COOs. Standardize access, govern change, and support EBITDA across 3+ locations.
 publishDate: '2026-07-13T12:05:53.499Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - centralized scheduling rollout multi-location practices
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- centralized scheduling rollout multi-location practices
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: enterprise
 featuredImage: /images/blog/centralized-scheduling-rollout-multi-location-practices.webp
-canonical: >-
-  https://mybcat.com/blog/centralized-scheduling-rollout-multi-location-practices/
+canonical: https://mybcat.com/blog/centralized-scheduling-rollout-multi-location-practices/
+relatedPosts:
+- patient-access-center-metrics-healthcare-executives
+- dso-call-center-kpi-benchmarks-enterprise-healthcare-2
+- dso-change-management-centralize-intake-consolidation-2
 ---
+
 ## Table of Contents
 
 - [Why does centralized scheduling stall in multi-location practices?](#why-does-centralized-scheduling-stall-in-multi-location-practices)
