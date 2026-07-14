@@ -1,26 +1,29 @@
 ---
 title: Reporting Dashboard Multi-Site Healthcare Operations
 seoTitle: Reporting Dashboard Multi-Site Healthcare Operations
-description: >-
-  Reporting dashboard multi-site healthcare operations teams use to standardize
+description: Reporting dashboard multi-site healthcare operations teams use to standardize
   KPIs, centralize oversight, and support SLA calibration across growing groups.
-seoDescription: >-
-  Reporting dashboard multi-site healthcare operations leaders use to unify
-  reporting, compare sites consistently, and govern performance at enterprise
+seoDescription: Reporting dashboard multi-site healthcare operations leaders use to
+  unify reporting, compare sites consistently, and govern performance at enterprise
   scale.
 publishDate: '2026-07-14T10:46:20.940Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - reporting dashboard multi-site healthcare operations
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- reporting dashboard multi-site healthcare operations
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: enterprise
 featuredImage: /images/blog/reporting-dashboard-multi-site-healthcare-operations.webp
-canonical: 'https://mybcat.com/blog/reporting-dashboard-multi-site-healthcare-operations/'
+canonical: https://mybcat.com/blog/reporting-dashboard-multi-site-healthcare-operations/
+relatedPosts:
+- centralized-scheduling-rollout-multi-location-practices
+- patient-access-center-metrics-healthcare-executives
+- dso-call-center-kpi-benchmarks-enterprise-healthcare-2
 ---
+
 ## Table of Contents
 
 - [Why do dashboards break at multi-site scale?](#why-do-dashboards-break-at-multi-site-scale)
