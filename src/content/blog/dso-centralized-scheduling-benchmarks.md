@@ -1,23 +1,24 @@
 ---
 title: DSO Centralized Scheduling Benchmarks
 seoTitle: DSO Centralized Scheduling Benchmarks for Groups
-description: DSO centralized scheduling benchmarks for multi-location leaders standardizing
+description: >-
+  DSO centralized scheduling benchmarks for multi-location leaders standardizing
   access, reporting variance, and calibrating SLAs across dental groups.
-seoDescription: DSO centralized scheduling benchmarks for multi-location leaders standardizing
+seoDescription: >-
+  DSO centralized scheduling benchmarks for multi-location leaders standardizing
   access, reporting variance, and calibrating SLAs across dental groups.
-publishDate: '2026-07-15'
-status: scheduled
-scheduledDate: '2026-07-15'
+publishDate: '2026-07-15T10:49:27.202Z'
+status: published
 author: Ankit Patel
 category: Technology
 tags:
-- dso centralized scheduling benchmarks
-- multi-location
-- enterprise operations
-- healthcare scale
+  - dso centralized scheduling benchmarks
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 cluster: dental
 featuredImage: /images/blog/dso-centralized-scheduling-benchmarks.webp
-canonical: https://mybcat.com/blog/dso-centralized-scheduling-benchmarks/
+canonical: 'https://mybcat.com/blog/dso-centralized-scheduling-benchmarks/'
 ---
 ## Table of Contents
 
