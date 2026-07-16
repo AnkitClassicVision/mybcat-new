@@ -1,0 +1,10 @@
+[Unit]
+Description=Weekly trigger for the MyBCAT SEO technical-cleanup loop (Tue 07:23 local)
+
+[Timer]
+OnCalendar=Tue 07:23
+Persistent=true
+RandomizedDelaySec=5min
+
+[Install]
+WantedBy=timers.target

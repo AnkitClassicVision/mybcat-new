@@ -1,0 +1,9 @@
+[Unit]
+Description=MyBCAT SEO technical-cleanup loop (headless Claude orchestrator + Ringer; PR-only, never merges)
+Documentation=file:///mnt/d_drive/repos/mybcat-new/docs/runbooks/seo-technical-cleanup.md
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /mnt/d_drive/repos/mybcat-new/scripts/seo-cleanup-loop/run-weekly.sh
+TimeoutStartSec=2h 15min
+Nice=10
