@@ -2,9 +2,7 @@
 title: >-
   How to Sell Your Optometry Practice in 2025-2026: The Complete Exit Strategy
   Guide
-description: >-
-  Buyer types, PE acquirer landscape, tax implications, due diligence, and a
-  1-3 year preparation timeline for optometry practice owners planning an exit.
+description: 'Sell your optometry practice with an exit plan covering buyer selection, due diligence, deal structure, tax planning, and a 1-3 year preparation timeline.'
 publishDate: 2026-01-20T00:00:00.000Z
 status: published
 author: Ankit Patel
@@ -17,7 +15,7 @@ tags:
   - exit-strategy
 featuredImage: /images/blog/selling-optometry-practice.webp
 canonical: 'https://mybcat.com/blog/guide-for-selling-your-optometry-practice/'
-seoTitle: "Sell Your Optometry Practice: Exit Guide 2025-2026"
+seoTitle: 'How to Sell an Optometry Practice: Exit Planning Guide'
 seoDescription: >-
   Complete exit strategy guide for selling your optometry practice: buyer
   types, PE landscape, due diligence, tax considerations, and preparation
@@ -167,7 +165,7 @@ Get a preliminary valuation to understand your baseline. Identify the "you-depen
 
 ### 1-2 Years Out: Optimization Phase
 
-Engage a broker or M&A advisor. Clean up your financials--buyers look at 3 years of statements. Control expenses aggressively (buyers scrutinize recent P&L). Document add-backs clearly (owner perks, one-time expenses). Build staff capability to operate without you. Modernize technology and systems. Optimize patient recall and retention rates — a proven [patient recall campaign framework](/blog/patient-recall-campaign-framework/) can lift reactivation rates 20-30% and directly improve the metrics buyers care about.
+Engage a broker or M&A advisor, using this guide on [how to choose an optometry practice broker](/blog/optometry-practice-broker-how-to-choose-2/) to evaluate the right fit. Clean up your financials--buyers look at 3 years of statements. Control expenses aggressively (buyers scrutinize recent P&L). Document add-backs clearly (owner perks, one-time expenses). Build staff capability to operate without you. Modernize technology and systems. Optimize patient recall and retention rates — a proven [patient recall campaign framework](/blog/patient-recall-campaign-framework/) can lift reactivation rates 20-30% and directly improve the metrics buyers care about.
 
 ### 6-12 Months Out: Go-to-Market
 
@@ -365,6 +363,14 @@ You sell a majority stake but retain minority ownership. Common with PE deals (e
 **Advantages:** Participate in future upside if the platform grows. Stay involved in decisions.
 
 **Considerations:** Your money is tied up until a future exit event. Less control than before.
+
+## When should I begin preparing to sell an optometry practice?
+
+Begin preparing 1-3 years before the intended sale, using the preparation timeline above to sequence documentation, financial cleanup, operational improvements, and buyer outreach. Starting earlier gives the practice time to reduce owner dependence and assemble the information buyers will review.
+
+## What documents do buyers request when buying an optometry practice?
+
+Buyers request the financial, operating, staffing, lease, equipment, insurance, and vendor records outlined in the due-diligence section above. Preparing these materials in an organized data room helps the review process move forward with fewer gaps.
 
 ## Your Exit Strategy Checklist
 

@@ -154,6 +154,8 @@ Situations involving limited buyer interest, perhaps due to location, practice c
 
 Structured broker interviews help operations teams compare candidates consistently and surface relevant experience, capabilities, and potential concerns.
 
+Sellers who need the broader sequence from preparation through diligence and closing can use this [guide to selling an optometry practice](/blog/guide-for-selling-your-optometry-practice/) alongside the broker-selection questions below.
+
 ### Experience and Track Record Questions
 
 Request specific examples of comparable transactions, practices of similar size, in similar markets, with similar buyer types. Ask how those transactions progressed, what challenges arose, and how outcomes compared to initial expectations.
