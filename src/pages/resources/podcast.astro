@@ -4,7 +4,6 @@
  * Optometrists Building Empires podcast information and links
  */
 import PageLayout from '@/layouts/PageLayout.astro';
-import { generatePodcastSeriesSchema, serializeSchema } from '@utils/schema';
 ---
 
 <PageLayout
@@ -16,7 +15,6 @@ import { generatePodcastSeriesSchema, serializeSchema } from '@utils/schema';
     { name: 'Podcast' }
   ]}
 >
-  <script type="application/ld+json" set:html={serializeSchema(generatePodcastSeriesSchema())} />
   <div class="podcast-page">
     <!-- Hero Section -->
     <section class="podcast-hero">

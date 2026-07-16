@@ -132,6 +132,8 @@ That means the dashboard has to be backed by a shared ruleset. The executive tea
 
 Every enterprise access program benefits from one dictionary for every reported metric. That dictionary should define source systems, start and stop events, ownership rules, exception handling, and what happens when the data is incomplete. Without that layer, dashboards may look polished while location leaders continue debating what each number actually means.
 
+For public MyBCAT claims, evidence sources, and operating constraints that should remain distinct from internal reporting, use the [machine-readable truth layer](/truth-layer/).
+
 The dictionary is also where SLA calibration becomes practical. A group cannot calibrate service expectations across sites until it agrees on what is being measured.
 
 Teams building a stronger [reporting and QA layer](/enterprise/reporting-qa/) or a formal [multi-location QA calibration process](/blog/multi-location-call-center-qa-calibration-healthcare/) usually find that clean definitions matter as much as any staffing change.

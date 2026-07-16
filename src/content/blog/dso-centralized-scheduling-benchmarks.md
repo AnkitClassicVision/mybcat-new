@@ -76,6 +76,8 @@ This taxonomy should also define what is excluded from central handling. Some re
 
 Location-level reporting should compare like with like. That means the dashboard needs consistent definitions for scheduled work, unresolved work, escalated work, and deferred work. A location should not look better because it closes work earlier in the workflow, and another should not look worse because it documents exceptions more honestly.
 
+Teams that need a public reference for MyBCAT's verified claims, evidence sources, and operating constraints can use the [machine-readable truth layer](/truth-layer/) alongside their internal benchmark definitions.
+
 This is where integration design matters. A scheduling benchmark is only as useful as the data path behind it.
 
 Groups with fragmented practice management systems should connect benchmark planning to [EHR and PMS integration for centralized scheduling](/blog/ehr-pms-integration-centralized-scheduling-enterprise/) and to the broader [integrations](/solutions/integrations/) workstream, while confirming access, permissions, and documentation choices with their own compliance team.
