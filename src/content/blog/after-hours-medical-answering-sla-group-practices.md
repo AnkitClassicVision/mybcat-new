@@ -43,7 +43,7 @@ A [medical answering service](/solutions/medical-answering-service/) can support
 
 The primary care access frameworks behind this work are not new.
 
-The joint principles of the patient-centered medical home describe enhanced access through open scheduling, expanded hours, and new communication options, and a Health Affairs study found that having a medical home that is "accessible and helps coordinate care" was associated with more positive experiences, with country differences in after-hours care ([PCPCC](https://www.pcpcc.net/content/joint-principles-patient-centered-medical-home), [Health Affairs study](https://pubmed.ncbi.nlm.nih.gov/17978360)).
+The joint principles of the patient-centered medical home describe enhanced access through open scheduling, expanded hours, and new communication options, and a Health Affairs study found that having a medical home that is "accessible and helps coordinate care" was associated with more positive experiences, with country differences in after-hours care ([PCPCC](https://web.archive.org/web/20130124191129/http://www.pcpcc.net/content/joint-principles-patient-centered-medical-home), [Health Affairs study](https://pubmed.ncbi.nlm.nih.gov/17978360)).
 
 For enterprise operators, the implication is straightforward: after-hours access belongs inside the operating model, not outside it.
 
@@ -85,7 +85,7 @@ A usable enterprise SLA distinguishes between operational access promises and cl
 
 Clinical rules belong in a separate but linked layer.
 
-NCQA’s companion guide calls for written processes for scheduling appointments and communicating with patients, along with evidence that those processes are being met ([NCQA Companion Guide](https://www.ncqa.org/Portals/0/Programs/Recognition/Companion_Guide/PPC-PCMH_Companion_Guide.pdf)).
+NCQA’s companion guide calls for written processes for scheduling appointments and communicating with patients, along with evidence that those processes are being met ([NCQA Companion Guide](https://web.archive.org/web/20160303234606/http://www.ncqa.org/Portals/0/Programs/Recognition/Companion_Guide/PPC-PCMH_Companion_Guide.pdf)).
 
 That is the right posture for after-hours answering at scale: documented process first, measurable execution second.
 
@@ -125,7 +125,7 @@ The goal is not to turn a vendor into a clinical endpoint. The goal is to create
 
 Many groups overfocus on vendor responsiveness and underfocus on operating usefulness. A fast answer can mean little if call notes are incomplete, location routing is inaccurate, or follow-up ownership is unclear the next business day. An enterprise SLA needs measures that connect answering behavior to the patient-access workflow.
 
-That is also where SLA calibration becomes an executive issue. NCQA’s PCMH framework ties access processes to evidence of performance ([NCQA Companion Guide](https://www.ncqa.org/Portals/0/Programs/Recognition/Companion_Guide/PPC-PCMH_Companion_Guide.pdf)).
+That is also where SLA calibration becomes an executive issue. NCQA’s PCMH framework ties access processes to evidence of performance ([NCQA Companion Guide](https://web.archive.org/web/20160303234606/http://www.ncqa.org/Portals/0/Programs/Recognition/Companion_Guide/PPC-PCMH_Companion_Guide.pdf)).
 
 For multi-location operators, the same logic applies: if the measure cannot support correction, staffing decisions, or leadership reporting, it is probably the wrong measure.
 
@@ -198,9 +198,9 @@ The best outcome is not a prettier after-hours script. It is a standard that let
 ## Sources
 
 1. [HRSA Accreditation and Patient-Centered Medical Home Recognition Initiative](https://bphc.hrsa.gov/initiatives/hrsa-accreditation-patient-centered-medical-home-recognition-initiative)
-2. [Joint Principles of the Patient Centered Medical Home](https://www.pcpcc.net/content/joint-principles-patient-centered-medical-home)
+2. [Joint Principles of the Patient Centered Medical Home](https://web.archive.org/web/20130124191129/http://www.pcpcc.net/content/joint-principles-patient-centered-medical-home)
 3. [Medical Home Accreditation](https://web.archive.org/web/20100511062610/http%3A/www.aaahc.org/eweb/dynamicpage.aspx?webcode=mha)
-4. [Physician Practice Connections, Patient Centered Medical Home Companion Guide](https://www.ncqa.org/Portals/0/Programs/Recognition/Companion_Guide/PPC-PCMH_Companion_Guide.pdf)
+4. [Physician Practice Connections, Patient Centered Medical Home Companion Guide](https://web.archive.org/web/20160303234606/http://www.ncqa.org/Portals/0/Programs/Recognition/Companion_Guide/PPC-PCMH_Companion_Guide.pdf)
 5. [Safety of telephone triage in out-of-hours care: a systematic review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3308461)
 6. [Safety of clinical and non-clinical decision makers in telephone triage: a narrative review](https://pubmed.ncbi.nlm.nih.gov/25761468)
 7. [Toward higher-performance health systems: adults' health care experiences in seven countries, 2007](https://pubmed.ncbi.nlm.nih.gov/17978360)

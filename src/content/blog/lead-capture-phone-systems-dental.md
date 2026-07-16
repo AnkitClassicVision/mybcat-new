@@ -80,7 +80,7 @@ The requirements for phone infrastructure shift fundamentally when an organizati
 
 A single dental practice might handle a manageable number of calls per day, with one or two front desk staff covering the phones alongside their other responsibilities. At enterprise scale, the math changes entirely. Call volume across a multi-location group can overwhelm traditional staffing models, particularly during peak periods when multiple locations experience high demand simultaneously.
 
-[When practices reach this scale, the question of when to consider call center solutions becomes relevant](https://www.mgma.com/resources/resources/operations-management/help-for-calls-is-your-patient-phone-strategy-in).
+[MGMA's operations-management resources can help practices assess when to consider call center solutions](https://www.mgma.com/resources).
 
 The volume complexity also creates opportunities that do not exist at smaller scale. With sufficient call volume, organizations can staff dedicated phone teams with appropriate coverage across operating hours. They can implement skills-based routing that matches callers with agents trained for specific scenarios. They can amortize the cost of sophisticated phone technology across enough call volume to make enterprise-grade features economically viable.
 
@@ -217,7 +217,7 @@ Feedback mechanisms can range from simple suggestion systems to structured conti
 ## Sources
 
 1. [HHS HIPAA Guidance on Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html)
-2. [MGMA: Patient Phone Strategy and Call Center Considerations](https://www.mgma.com/resources/resources/operations-management/help-for-calls-is-your-patient-phone-strategy-in)
+2. [MGMA Operations-Management Resources](https://www.mgma.com/resources)
 3. [ADA News: Technology Can Help Mitigate Staffing Shortages](https://adanews.ada.org/ada-news/2022/june/technology-can-help-mitigate-staffing-shortages)
 4. [ADA: Digital Dentistry and Technology](https://www.ada.org/resources/practice/practice-management/digital-dentistry-and-technology)
 5. [ADA Response to HHS on AI Adoption in Dentistry](https://adanews.ada.org/ada-news/2026/february/ada-responds-to-hhs-request-for-information-on-ai-adoption-in-dentistry)
