@@ -1,6 +1,8 @@
 ---
 title: "Benefits of a Call Center for Eye Care Professionals"
-description: "Most eye care practices answer only 60% of calls, sending 40% of potential patients to voicemail. Learn how dedicated intake support captures lost revenue."
+seoTitle: "Optometry Call Center Benefits for Multi-Location Groups"
+seoDescription: "How multi-location optometry groups use managed call coverage to protect patient access, standardize scheduling, and measure performance across sites."
+description: "Learn how managed call coverage can help multi-location eye care groups protect patient access, standardize scheduling, and improve call visibility."
 publishDate: 2023-11-27
 status: published
 author: Ankit Patel
@@ -11,104 +13,125 @@ tags:
 - call-center
 - scheduling
 - outsourcing
+cluster: bpo-outsourcing
 featuredImage: /images/blog/benefits-of-a-call-center-for-eye-care-professionals.webp
 canonical: https://mybcat.com/blog/benefits-of-a-call-center-for-eye-care-professionals/
 relatedPosts: []
 ---
 
-Let me paint you a picture of a Tuesday afternoon at your practice.
+For a multi-location optometry group, a missed call is not just a front-desk annoyance. It is an access failure that can affect a new patient, a parent trying to schedule a child, an existing patient who needs to change an appointment, or a referring office trying to reach the right location.
 
-Phone's ringing. Your front desk person is checking in a patient. Another patient's asking about their glasses order. The optical assistant just walked over with an insurance question. Phone's still ringing.
+The familiar scene is a busy afternoon. One teammate is checking in patients, another is handling an optical question, and the phone keeps ringing. The caller hears voicemail, leaves no message, or calls another provider. A site leader may not see that failure in the daily schedule, and a COO may not see it at all until the group asks why marketing volume, appointment demand, and phone outcomes do not line up.
 
-It goes to voicemail.
+That is why a call center for eye care should be evaluated as a patient-access operating model, not as a generic phone service. A well-designed model can give the group dependable coverage, location-aware scheduling, approved escalation paths, and reporting that makes performance visible across the group. It also lets in-office teams focus on the people who are already in the building.
 
-The person calling was a new patient who found you on Google. They'd never called an optometrist before—their old one retired. They were going to ask about insurance and maybe schedule a comprehensive exam.
+For a broader view of the model, see [front desk outsourcing for multi-location practices](/solutions/front-desk-outsourcing/). This article focuses on the questions an optometry executive team should answer before centralizing call coverage.
 
-Instead, they heard "Please leave a message" and hung up. Called the next practice on their list. Got a human. Booked an appointment.
+## Table of Contents
 
-That patient—and every exam, pair of glasses, and referral that would have followed—just walked out your door. And you have no idea it happened.
+- [What Makes Missed Calls a Multi-Location Operating Problem?](#what-makes-missed-calls-a-multi-location-operating-problem)
+- [Why Can't the Front Desk Own Every Call?](#why-cant-the-front-desk-own-every-call)
+- [What Should an Eye Care Call Center Handle?](#what-should-an-eye-care-call-center-handle)
+- [How Does Centralized Coverage Improve the Patient Experience?](#how-does-centralized-coverage-improve-the-patient-experience)
+- [Which Metrics Tell Leaders Whether Coverage Is Working?](#which-metrics-tell-leaders-whether-coverage-is-working)
+- [How Should an Optometry Group Roll Out a Call Center?](#how-should-an-optometry-group-roll-out-a-call-center)
+- [What Should Executives Require From a Managed Call Partner?](#what-should-executives-require-from-a-managed-call-partner)
+- [When Is a Hybrid Model the Better Choice?](#when-is-a-hybrid-model-the-better-choice)
 
-## What Is the Real Math on Missed Calls?
+## What Makes Missed Calls a Multi-Location Operating Problem?
 
-Most eye care practices answer somewhere between 55-70% of incoming calls during business hours. That's considered "good" in the industry, which tells you something about how low the bar is.
+At one location, missed calls can be dismissed as a rough day. Across three, 10, or 30 locations, they become a repeatable systems problem. Each site has its own peak periods, staffing gaps, provider schedules, insurance workflows, and phone habits. A group can have capable people at every front desk and still produce uneven access because no one person can greet a patient, resolve an in-person issue, check someone out, and give an inbound caller full attention at the same moment.
 
-Let's do the math on what that costs you.
+The financial impact should be measured rather than assumed. Start with actual call volume, answer rate, abandoned calls, callback completion, appointment bookings, and the share of callers who are new to the group. The [missed-call revenue leak framework for healthcare groups](/blog/missed-calls-revenue-leak-multi-location-healthcare/) can help leadership turn those measures into a conservative opportunity estimate without treating every call as certain revenue.
 
-Say you get 50 calls a day. At 60% answer rate, 20 calls go to voicemail daily. Maybe half of those leave messages—so 10 voicemails per day that someone has to call back (if they have time). The other 10? Gone.
+The larger cost is loss of control. A patient-access leader cannot correct a pattern that is hidden in voicemail boxes, individual phone logs, or anecdotes from site managers. Centralized reporting makes it possible to compare locations, find peak demand, and decide whether a problem is staffing, routing, training, schedule capacity, or a location-specific workflow.
 
-Of those 10 lost calls, assume 3 were potential new patients (the rest might be existing patients who'll call back, vendors, etc.). That's 3 new patients per day you didn't capture.
+## Why Can't the Front Desk Own Every Call?
 
-At an average lifetime value of $800-1,200 per patient in optometry, you're looking at $2,400-3,600 walking out the door. Every single day.
+Front-desk teams are essential to the in-person experience. They handle arrivals, departures, payment conversations, optical handoffs, patient questions, provider flow, and exceptions that cannot wait. Asking them to own every inbound call on top of those duties creates a permanent conflict between the caller and the person standing at the counter.
 
-[This math is why missed calls are one of the biggest revenue leaks in healthcare.](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/) It's invisible—you never see the patients you didn't get—but it's very real.
+The answer is not to treat the front desk as the problem. The job has too many competing demands. A managed call team separates queue ownership from the work that requires a physical presence. In-office staff can remain accountable for face-to-face coordination while the centralized team handles defined phone workflows and hands off exceptions through approved channels.
 
-## What Does a Call Center Actually Do for Your Practice?
+That division also protects consistency during turnover, paid time off, lunch periods, and seasonal demand. It matters especially when an optometry group acquires locations with different phone systems or different scheduling habits. The [enterprise patient access center model](/enterprise/patient-access-center/) explains how groups can create one operating layer without erasing the site knowledge that patients and providers rely on.
 
-When I say "call center," I don't mean a warehouse of bored people reading scripts. I'm talking about trained professionals who become an extension of your practice.
+## What Should an Eye Care Call Center Handle?
 
-Here's what good [medical answering service](/solutions/medical-answering-service/) support looks like:
+The scope should be precise before the group moves calls. A phone team can usually own standardized administrative workflows, such as new-patient inquiries, appointment requests, rescheduling, cancellations, basic office information, recall outreach, and messages that require a documented follow-up. When the team has appropriate system access and training, it can schedule according to the group’s approved appointment types, provider rules, and location calendars.
 
-**Every call gets answered.** Not "97% of calls"—every call. During business hours, after hours, during lunch when your staff is eating in the break room. The phone never rings to voicemail.
+Some calls need a different path. Insurance questions may require a defined explanation or a handoff to a benefits team. Optical order questions may need status from the site. Referrals, records requests, billing matters, and patient concerns should each have a named owner and a documented turnaround expectation. Symptom-related calls must follow the group’s approved clinical escalation protocol. A call center should gather the information required by that protocol and route the call. It should not diagnose, determine treatment, or improvise clinical advice.
 
-**Callers talk to someone who knows your practice.** Not a generic operator who's juggling 50 different clients. Someone trained on your specific systems, your specific services, your specific insurance policies.
+This is where an eye-care-specific workflow matters. A caller seeking a routine exam, a medical visit, a contact lens follow-up, or an optical service may need different scheduling rules. The [optometry retail-clinical intake guide](/blog/optometry-retail-clinical-intake-guide/) shows why the group should document those distinctions before asking a shared team to schedule across sites.
 
-**Appointments get scheduled in real-time.** Caller wants an appointment? They get one. On the first call. No "let me take your number and call you back" (which we all know means 50% of those callbacks never happen).
+## How Does Centralized Coverage Improve the Patient Experience?
 
-**Emergencies get triaged properly.** Someone calling about sudden flashes and floaters doesn't get treated the same as someone asking about reading glasses. Trained agents know the difference.
+Consistency is the practical benefit. Callers should receive a clear greeting, accurate basic information, a usable scheduling path, and a documented next step regardless of which location they contact. That does not mean every conversation needs to sound scripted. It means the group has established the minimum information to collect, the limits of what a call agent can answer, and the route for anything that needs site or clinical input.
 
-**Your in-office team can focus.** When phones aren't constantly interrupting, your front desk can actually help the patients standing in front of them. Quality of in-person interactions goes up.
+For patients, the experience is simpler: someone answers, explains what happens next, and follows through. For the site team, a complete note reduces the back-and-forth that occurs when a voicemail lacks the caller’s reason, preferred location, or scheduling constraints. For leadership, the standardized process creates a fair basis for quality review.
 
-## Why Can't Your Front Desk Do This Alone?
+The American Optometric Association’s practice-management resources emphasize the link between operations and patient care. In a group setting, the operational point is straightforward: communication workflows should support the practice team without pushing clinical judgment to an administrative queue. A dedicated [medical answering service](/solutions/medical-answering-service/) can provide the coverage layer, but it must be governed by the group’s own protocols and escalation rules.
 
-I'm not criticizing front desk staff. They're usually hardworking people trying to do an impossible job.
+## Which Metrics Tell Leaders Whether Coverage Is Working?
 
-The problem is structural. One or two people cannot simultaneously:
-- Check in arriving patients
-- Check out departing patients
-- Answer phones
-- Handle walk-in questions
-- Process payments
-- Manage the optical board
-- Deal with insurance questions
+Do not rely on a single answer-rate target. A high answer rate can still hide long holds, poor appointment conversion, incorrect bookings, or calls that reach the wrong location. An executive dashboard should distinguish access, quality, and operational outcomes.
 
-Something has to give. Usually it's the phones, because there's no angry patient standing in front of them when a call goes to voicemail. The in-person stuff feels more urgent.
+At minimum, review these measures by site, day, time period, and call type:
 
-But here's the thing: your front desk's primary job should be patient experience—the people who are physically in your practice. That's where their attention should be. The phones need dedicated coverage, not leftover attention.
+- Answer rate and abandoned-call rate, so leadership can see whether patients reached a person.
+- Speed to answer and queue time, so a technically answered call is not counted as a good experience when the wait was unreasonable.
+- Appointment-request conversion and booking completion, separated by new and existing patients where possible.
+- Transfer rate, repeat-call rate, and documented callback completion, which show whether calls are resolved or merely moved.
+- Quality-review results, including adherence to approved scripts, scheduling rules, privacy requirements, and escalation protocols.
 
-## What Is the Hidden Benefit of Consistent Call Handling?
+The point is not to create a punitive scorecard for each site. It is to identify failure modes early. If one location has low booking conversion but normal answer rate, leaders can examine appointment capacity, agent training, insurance workflows, or how that site’s schedule is configured. If the same location has high abandonment during specific hours, coverage and routing may be the issue. The [patient access center metrics guide](/blog/patient-access-center-metrics-healthcare-executives/) offers a deeper executive reporting framework.
 
-When you have consistent call handling, you start getting data you've never had before.
+MGMA’s guidance on healthcare call-center efficiency is a useful reference for this discipline: the queue needs defined workflows and regular measurement, not occasional spot checks when a complaint reaches leadership.
 
-How many calls are you actually getting? (Most practices have no idea.)
+## How Should an Optometry Group Roll Out a Call Center?
 
-What times are busiest?
+Begin with a baseline, not a promise. Pull available call records, identify how calls currently route, and interview site teams about peak times, common call types, scheduling restrictions, and unresolved handoffs. The group may find that each location uses a different name for the same appointment type or that recurring questions have no documented owner. Those findings are part of the implementation work.
 
-What percentage convert to appointments?
+Next, build the operating packet for a limited pilot. It should include location directories, provider and appointment rules, approved service descriptions, system-access boundaries, privacy expectations, escalation contacts, after-hours rules, and quality criteria. Test it with a small number of locations before expanding. A pilot should prove that calls can be answered and scheduled correctly, that site teams receive usable notes, and that exceptions reach the right owner.
 
-What questions are people asking most often?
+During the pilot, keep the governance cadence short. Review call samples and dashboard results weekly, log issues by category, and decide whether the fix belongs in training, routing, scheduling configuration, or local documentation. The [front desk outsourcing implementation playbook](/blog/front-desk-outsourcing-multi-location-practices/) outlines the governance questions that keep a shared service from becoming another disconnected vendor.
 
-What's the most common reason for cancellations?
+Once the pilot performs consistently, expand in waves. Acquired locations or sites with unusual schedules may need their own transition plan. A group that forces every location into the same workflow before documenting real exceptions often creates workarounds that undermine the rollout.
 
-This information is gold. It tells you where your marketing is working, where your scheduling could improve, what FAQs you should put on your website, and a hundred other operational insights.
+## What Should Executives Require From a Managed Call Partner?
 
-Without consistent call management, you're just guessing about all of this.
+The vendor discussion should move beyond headcount and hours of coverage. Ask who owns call quality, how agents are trained on location-specific rules, what reporting is available, and how the team handles changes to schedules or provider preferences. Request the actual escalation process, not just a statement that escalations exist.
 
-## What Do We Do Differently at MyBCAT?
+For a healthcare group, privacy and access controls are also operational requirements. The partner should use the systems and permissions the group approves, limit access to what each role needs, and follow the group’s process for recording, storing, and reviewing patient communications. The group remains responsible for confirming that its own protocols, access design, and oversight meet its requirements. HealthIT.gov’s privacy and security guidance provides a useful starting point for evaluating those controls.
 
-At My Business Care Team, we specialize in eye care. That's not a nice-to-have—it's the whole point.
+It is also worth distinguishing a managed call-center model from a dedicated virtual assistant model. A shared or managed team can provide queue coverage and standardized reporting; a dedicated remote teammate may be a better fit for stable, role-specific work that the group supervises directly. The [comparison of optometry front desk outsourcing and virtual assistants](/blog/optometry-front-desk-outsourcing-vs-virtual-assistant/) explains the tradeoff.
 
-Our agents know what a comprehensive eye exam covers. They know the difference between ophthalmology and optometry. They can explain insurance benefits for medical visits versus routine vision. They understand why someone describing flashes needs to be seen today, not next week.
+Finally, require a practical change-management process. Locations will add providers, modify templates, change insurance participation, and alter service offerings. If the call team has no controlled way to receive, validate, and distribute those updates, yesterday’s correct answer becomes tomorrow’s patient-experience issue.
 
-They're trained on your specific EHR and scheduling system. When they book an appointment, it shows up in your schedule immediately. When they document a call, your team can see exactly what was discussed.
+## When Is a Hybrid Model the Better Choice?
 
-And they don't just answer calls—they convert them. Our training emphasizes patient engagement, not just polite handling. The goal is to get callers scheduled, not just to be pleasant while they decide to call someone else.
+Many multi-location groups do not need to move every patient-access task away from the site. A hybrid model often works well: the centralized team owns inbound calls, overflow, after-hours coverage, and selected outreach, while site teams own in-person coordination and location-specific exceptions. The split should follow the work, not a blanket rule about remote versus on-site staff.
 
-## Getting Started
+This approach is particularly useful when sites have strong patient relationships but uneven phone coverage. It preserves the knowledge held by the office while removing the constant interruption that makes phone performance unpredictable. It also gives leadership a controlled way to centralize reporting before making a larger operating-model change.
 
-If your phones are ringing to voicemail, if your front desk is drowning, if you're pretty sure you're losing patients but don't know how many—it's worth having a conversation.
+The best test is whether each workflow has one clear owner, an approved handoff, and a measurable outcome. If the answer is no, adding a call center will only move the ambiguity somewhere else. If the answer is yes, managed coverage can make access more dependable while giving site teams room to do the work that only they can do.
 
-We can look at your call volume, your current answer rates, and your scheduling patterns. We can show you exactly what you're losing and what consistent call coverage would look like.
+## FAQ
 
-No commitment required. Just data.
+### Can a call center make clinical decisions for an eye care group?
 
-We've helped [optometry practices](/industries/optometry/) achieve remarkable results - see how one practice reached a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). [Schedule a discovery call](https://mybcat.com/contact/) and let's see if this makes sense for your practice.
+No. Agents should follow approved administrative and escalation protocols. When a call raises a clinical concern, they collect the required information and route it to the designated clinical or site owner.
+
+### Should every location use the same call script?
+
+The group should standardize the core greeting, privacy checks, scheduling rules, documentation, and escalation steps. Site-specific information, provider preferences, and approved exceptions should be maintained in controlled location guides.
+
+### What is the first step before outsourcing call coverage?
+
+Establish a baseline. Document current routing, call types, answer and abandonment patterns, schedule rules, location exceptions, and the handoffs that repeatedly fail. That gives the pilot a clear scope and a meaningful measure of improvement.
+
+*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+
+## Sources
+
+1. [MGMA: Tips to Improve Healthcare Call Center Efficiency](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency)
+2. [American Optometric Association: Practice Management and Patient Care Guidance](https://www.aoa.org/practice/practice-management-and-patient-care-guidance)
+3. [HealthIT.gov: Privacy, Security, and HIPAA](https://healthit.gov/topic/privacy-security-and-hipaa)

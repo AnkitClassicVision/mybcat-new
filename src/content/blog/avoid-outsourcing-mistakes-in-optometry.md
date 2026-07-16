@@ -1,6 +1,8 @@
 ---
-title: "5 Outsourcing Mistakes That Hurt Optometry Practices"
-description: "Outsourcing can reduce admin costs by 30%, but common mistakes undermine results. Learn the five pitfalls optometry groups must avoid to protect quality."
+title: "6 Outsourcing Mistakes That Hurt Optometry Groups"
+seoTitle: "Optometry Outsourcing Mistakes Multi-Location Groups"
+description: "Avoid the outsourcing mistakes that disrupt patient access. A practical guide for multi-location optometry groups on training, QA, escalation, and rollout."
+seoDescription: "Avoid optometry outsourcing mistakes that disrupt patient access. A practical guide for multi-location groups on training, QA, escalation, and rollout."
 publishDate: 2023-08-01
 status: published
 author: Ankit Patel
@@ -19,111 +21,105 @@ relatedPosts:
   - blog-reduce-administrative-cost
 ---
 
-Peter Cass sees six patients an hour. That's not a typo—six patients per hour, compared to the industry average of 1.2.
+For a multi-location optometry group, outsourcing patient-access work is not a staffing shortcut. It is a change to how calls are answered, appointments are scheduled, exceptions reach site teams, and leaders see performance across the organization. A weak launch does not merely create an unhappy vendor relationship. It can produce inconsistent patient experiences, unresolved work queues, and another set of local workarounds for operations to manage.
 
-He talked about it in [Optometry Times](https://www.optometrytimes.com/view/how-see-50-patients-day-your-practice), and every time I mention it to colleagues, they assume he's cutting corners on care. He's not. He's optimized everything around the clinical encounter so efficiently that he spends more actual face-time with patients than most docs seeing half the volume.
+The opportunity is real when a group uses an outside team to standardize routine work, extend coverage, and give its sites a shared operating layer. The risk is equally real when the group transfers work before defining the process. The goal is not to remove every task from the office. It is to decide which work can be centrally controlled and which work still needs site-level judgment.
 
-That kind of efficiency doesn't happen by accident. It requires ruthless focus on operational excellence—which often means outsourcing the tasks that don't need to happen on-site. If you're considering this path, start with our [guide to medical receptionist services for optometry](/blog/virtual-receptionist-vs-front-desk-optometry/).
+This guide focuses on the mistakes that most often undermine an optometry outsourcing program, along with the controls that prevent them. For the broader service model, start with [front desk outsourcing for healthcare groups](/solutions/front-desk-outsourcing/). For a comparison of governance models, see [centralized versus distributed intake](/blog/centralized-vs-distributed-intake-framework/).
 
-But here's what Dr. Cass would tell you (and what I've learned the hard way): outsourcing done poorly is worse than not outsourcing at all. Knowing [what to look for when selecting a BPO provider](/blog/what-to-know-when-selecting-a-bpo-provider-for-your-optometry-practice/) is the first step to getting it right. The potential upside is huge—30% cost reduction, 33% revenue increase, those are real numbers from our own practice. The downside, if you screw it up, is chaos.
+## Table of Contents
 
-So let's talk about the mistakes I've seen kill outsourcing initiatives, and how to avoid them.
+- [What happens when a group outsources before documenting the work?](#what-happens-when-a-group-outsources-before-documenting-the-work)
+- [Why is generic training not enough for optometry support?](#why-is-generic-training-not-enough-for-optometry-support)
+- [Are you buying generic coverage instead of a controlled operating model?](#are-you-buying-generic-coverage-instead-of-a-controlled-operating-model)
+- [Can a digital-first design replace human phone support?](#can-a-digital-first-design-replace-human-phone-support)
+- [What is lost when in-office teams are cut too far?](#what-is-lost-when-in-office-teams-are-cut-too-far)
+- [How do you keep patient feedback from becoming an afterthought?](#how-do-you-keep-patient-feedback-from-becoming-an-afterthought)
+- [Which governance controls prevent outsourcing drift after launch?](#which-governance-controls-prevent-outsourcing-drift-after-launch)
+- [What should leadership review before expanding the program?](#what-should-leadership-review-before-expanding-the-program)
 
-## Mistake #1: Are You Skimping on Documentation?
+## What happens when a group outsources before documenting the work?
 
-I get it. Creating SOPs is tedious. Nobody became an optometrist because they love writing procedure manuals.
+The first failure usually starts before the vendor receives a single call. Leadership says it needs help with the front desk, but the phrase covers too much: new-patient requests, appointment changes, recalls, insurance questions, provider-specific scheduling rules, portal messages, and requests that must be handed to a clinical or site owner. If those workflows are not separated, agents are forced to infer the rules while patients wait.
 
-But here's what happens when you outsource without proper documentation:
+At one location, a same-day request may follow a particular escalation path. At another, the schedule may have protected slots or a different provider preference. Those details should not live only in the memory of the office manager. They need an approved workflow that tells the shared team what it can complete, what information to capture, when to stop, and who owns the next step. Any symptom-related question must follow the group's approved administrative escalation protocol to an appropriate clinical owner, not an agent's judgment.
 
-Your remote worker gets a call. Patient wants to know if you can fit them in for an emergency same-day. The answer depends on about fifteen things the remote worker doesn't know—your definition of "emergency," your scheduling preferences, your policy on squeezing in existing patients versus new patients, what to do if the doctor's running behind.
+Before launch, create a workflow inventory for every in-scope queue. It should include the request type, system of record, permitted actions, required documentation, escalation reason, named receiving owner, and definition of completed work. This is not bureaucracy. It is how a group prevents two locations from receiving two different versions of the same patient-access process.
 
-Without documentation, they guess. Sometimes they guess right. Sometimes they tell a patient with a potential retinal tear to come in next week. Sometimes they triple-book your 2 PM slot.
+The most useful documentation is short enough to use during a live interaction and specific enough to resolve ambiguity. Long manuals without decision trees often fail in the same way as no documentation: the agent still has to guess. Review the workflows with site leaders before training and version them centrally when a provider template, service line, or practice management system changes.
 
-Here's the fix: before you outsource anything, document the hell out of it.
+## Why is generic training not enough for optometry support?
 
-Every workflow. Every scenario. Every exception. Write it down as if you were explaining it to someone who's never set foot in an eye care practice. Because that might be exactly who's reading it.
+An experienced support professional still needs to learn the group's operating rules. Remote team members do not absorb those rules by overhearing colleagues or watching a front desk recover from a difficult day. That makes training more deliberate, not less important.
 
-This takes time upfront. Maybe 20-30 hours to document your core processes properly. But that time investment pays for itself a hundred times over in avoided mistakes.
+Start with systems and roles. Agents need to know which practice-management workflows they may use, what each appointment type means in the schedule, what information is required before a handoff, and what should never be answered outside the administrative scope. They also need to understand the difference between a normal scheduling request, an insurance-related inquiry, and an issue that requires a site or clinical escalation.
 
-## Mistake #2: Treating Training as Optional
+Then test the work with realistic scenarios. Give agents a patient who called the wrong location, a provider-specific schedule constraint, an existing appointment that needs to move, and an unclear request that must be routed. Ask them to show the disposition, documentation, and escalation path. A completed role play is more meaningful than a slide deck acknowledgment because it reveals whether the workflow can actually be followed.
 
-"They're professionals. They'll figure it out."
+Training must continue after go-live. Review calls and written interactions against a shared rubric, then use the findings to update scripts, training, and documentation. The American Optometric Association's [patient communication resources](https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication) reinforce the practical point: patient communication is an operating responsibility that requires intentional practice standards, not an afterthought once coverage is in place.
 
-I've heard this from practice owners who wouldn't dream of letting a new in-office hire figure things out on their own. Somehow, when it's a remote worker, they expect magic.
+## Are you buying generic coverage instead of a controlled operating model?
 
-Training for outsourced staff needs to be more thorough than for in-office hires, not less. They don't have the benefit of osmosis—they can't overhear how things are done, ask a quick question to a colleague, or pick up on unwritten norms by watching others.
+Generic coverage can sound attractive because it appears easy to purchase. The problem is that optometry groups do not operate with one universal schedule or one undifferentiated queue. A team that only takes messages may leave more work for site staff than leadership expects. A team that schedules without location-aware rules can create avoidable corrections. Neither model should be confused with a managed patient-access operation.
 
-What proper training looks like:
+Define the service boundary before evaluating a provider. Which routine requests should the team complete? Which questions should it document and route? Which exceptions require site confirmation? What information must be visible in the practice-management system when an interaction ends? The answers create a meaningful comparison between vendors because they describe the work, rather than a vague promise of phone coverage.
 
-**Practice-specific training.** Not generic call center stuff—training on YOUR systems, YOUR insurance contracts, YOUR scheduling logic. If you use RevolutionEHR, they need to be proficient in RevolutionEHR. If you have a specific insurance verification workflow, they need to know it cold.
+The provider should also show how it maintains location-specific rules without allowing every site to invent a separate process. A controlled model typically has one standard workflow with named exceptions, a request process for changes, and a regular review of recurring exceptions. That structure lets corporate operations own the baseline while site leaders retain the context that truly belongs at the location.
 
-**Role-playing scenarios.** Lots of them. The tricky calls, the upset patients, the complicated scheduling situations. Don't wait for these to happen in real life.
+Groups weighing a pooled service against a dedicated remote hire should review [optometry front desk outsourcing versus a virtual assistant](/blog/optometry-front-desk-outsourcing-vs-virtual-assistant/). The important distinction is accountability. A managed model should make clear who owns coverage, training, quality review, and reporting, as well as where the group's own management responsibility remains.
 
-**Ongoing coaching.** Training isn't a one-time event. Review calls weekly. Identify patterns. Correct mistakes before they become habits.
+## Can a digital-first design replace human phone support?
 
-The practices that fail at outsourcing almost always failed at training first.
+Online scheduling, portals, and messaging can reduce avoidable phone traffic. They should be part of the access design, especially when a group needs one consistent experience across several locations. They should not become a reason to remove a workable human path for patients whose request is complex, who cannot complete the digital flow, or who need an administrative issue routed correctly.
 
-## Mistake #3: Are You Using Generic Solutions?
+The better question is which channel should handle which type of demand. Routine confirmations or simple appointment requests may be well suited to self-service. More complex schedule changes, insurance questions, and requests that need a site handoff may need trained support. The U.S. health IT patient-engagement playbook describes patient portals and secure messaging as tools that can support access and reduce unnecessary phone work when organizations design the workflow around them ([ONC Patient Engagement Playbook, Chapter 2](https://playbook.healthit.gov/playbook/pe/chapter-2)).
 
-There's a temptation to just grab a chatbot or plug in some off-the-shelf scheduling software and call it outsourcing.
+For an enterprise group, every channel should feed the same operating model. Patients should not receive one set of rules by phone, another through a portal, and a third at the site. Map the entry points, handoffs, and final status for each channel. Then make sure the outsourced team can see enough context to complete routine work or send a structured request to the right owner.
 
-These generic solutions have their place. But they break down fast in eye care, where nuance matters.
+## What is lost when in-office teams are cut too far?
 
-A chatbot can't recognize that a patient saying "my vision is acting weird" might be describing a retinal emergency. Generic scheduling software doesn't understand that a comprehensive exam takes 30 minutes but a contact lens fitting takes 45. Off-the-shelf phone systems don't know that your practice accepts VSP but not EyeMed.
+Outsourcing should remove avoidable administrative load from office teams, not eliminate the people who make the site work. Each location still needs capable staff to welcome patients, resolve issues that require physical presence, coordinate with clinicians, and handle the exceptions that a central team cannot responsibly close from a distance.
 
-Whatever you outsource needs to be customized to your practice. That means working with partners who specialize in your industry and are willing to configure their systems to your specific needs.
+The operational mistake is treating outsourcing as a reason to reduce every in-office role at once. When a transition removes too much local knowledge, routine exceptions become urgent calls, site leaders spend more time correcting work, and the central team loses the feedback it needs to improve. A group may appear to have reduced staffing cost while quietly increasing rework and patient friction.
 
-At MyBCAT, this is literally our entire business model. We don't do generic. Every practice we work with gets agents trained specifically on their workflows, their systems, their protocols. It takes longer to set up, but it actually works.
+Use a work allocation model instead. Keep in-office ownership for tasks that require on-site action, direct clinician coordination, or sensitive service recovery. Move repeatable intake, routine scheduling, confirmations, and structured follow-up only when the group has documented the workflow and built a reliable handoff. The result should be a clearer division of responsibility, not a contest between a remote team and an office team.
 
-## Mistake #4: Are You Eliminating Phone Support?
+This is especially important during growth or acquisition activity. If every new site is allowed to decide independently which tasks remain local, the group recreates fragmentation as it expands. An enterprise [patient access center](/enterprise/patient-access-center/) gives leaders a framework for defining shared work while preserving the site-level ownership that cannot be centralized.
 
-Some practices get excited about digital transformation and decide to go all-in on chatbots, online scheduling, and patient portals. No more phones.
+## How do you keep patient feedback from becoming an afterthought?
 
-This is a mistake.
+Patients notice changes in access even when the change is designed to help them. They may not describe the issue in operational language. They may say it was hard to get an answer, that they were transferred too often, or that an appointment request seemed to disappear. Those comments are evidence about the workflow, not simply a customer-service score.
 
-[Missed calls cost real money](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/)—but so do failed digital interactions. And here's the thing: a significant portion of your patient base, especially older patients, prefers talking to a human. They're not comfortable with chatbots. They get frustrated with patient portals. They want to call.
+Build feedback into the transition from the start. Review call recordings and interaction notes through the appropriate privacy and security controls. Track complaints, repeat contacts, unresolved requests, incorrect routing, and site escalations by location and request type. Combine that information with direct input from site managers, because they can often see where a central workflow fails once it reaches the office.
 
-If you eliminate that option, you eliminate those patients. They'll go somewhere else.
+Do not wait for a quarterly business review to correct a repeated issue. During an early rollout, leadership should have a weekly path to approve script changes, clarify an exception, or revise a handoff rule. Later, a monthly operating review can focus on trends and location variance. The point is to turn feedback into controlled process changes rather than letting each site create a private workaround.
 
-The right approach is omnichannel. Give patients options. Some will happily book online at 11 PM. Others will call Monday morning. Meet them where they are.
+For a deeper view of the measurement layer, use [patient-access metrics for healthcare executives](/blog/patient-access-center-metrics-healthcare-executives/). A network average alone is not enough. It can conceal one site with high repeat contacts or one workflow that routinely lands back on local staff.
 
-Whatever channels you offer, make sure they're all staffed by people (or systems) who actually know your practice. A phone with nobody answering is bad. An online scheduler that double-books appointments is worse.
+## Which governance controls prevent outsourcing drift after launch?
 
-## Mistake #5: Are You Cutting In-Office Staff to the Bone?
+The first few weeks of outsourcing are not the finish line. They are when leaders learn whether the process design can survive ordinary change: a provider updates a template, a location adds a service, call volume shifts, or an office raises a legitimate exception. Without governance, each change becomes an informal request and the program slowly drifts into inconsistent execution.
 
-Outsourcing should complement your in-office team, not replace it entirely.
+Set the controls before the rollout broadens. The group should have a named executive owner, an operations owner, site escalation contacts, a vendor lead, and a defined change-approval path. Agree on service-level definitions for each queue, not a single broad answer-rate target. A call answered quickly but routed without the required details is not a completed patient-access interaction.
 
-Yes, you can shift work off-site. Yes, you can reduce headcount through attrition as roles get automated or outsourced. But if you slash your in-office staff dramatically, you create problems:
+Quality assurance should test more than tone. It should assess whether agents followed the current scheduling logic, documented the interaction correctly, used the right escalation path, and closed routine work according to the agreed definition. Reporting should show those findings by location and workflow type so leadership can distinguish a network-wide training issue from a site-specific exception problem.
 
-**Patient experience suffers.** Someone needs to be there physically to help patients, handle the unexpected, and provide that human touch.
+The Medical Group Management Association's guidance on [healthcare call center efficiency](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency) is useful because it treats call-center performance as an operations-management problem. That is the right lens for a multi-location optometry group. The vendor is one part of the model; governance is what keeps service definitions, quality review, and site accountability connected.
 
-**Flexibility disappears.** When something goes wrong (and something always goes wrong), you need people on-site who can adapt.
+Before network-wide expansion, use the same scorecard, escalation rules, and reporting definitions that will operate at scale. The [patient access center RFP checklist](/blog/patient-access-center-rfp-vendor-checklist-enterprise/) can help a buying committee turn those requirements into a disciplined evaluation process. A pilot should prove the future-state design, not merely show that a helpful team can cover a temporary gap.
 
-**Institutional knowledge vanishes.** Your long-time employees know things that aren't documented anywhere. Fire them all at once and you lose irreplaceable context.
+## What should leadership review before expanding the program?
 
-The smart approach is balance. Keep a core in-office team doing work that truly requires physical presence. Outsource everything else. And make sure the two groups communicate seamlessly.
+Expansion should follow evidence, not optimism. First confirm that agents can follow the approved workflows, that site teams receive usable documentation, and that exception handling works across the selected locations. Then review whether reporting gives operations, finance, and site leaders the same view of what happened. If the data cannot explain where work enters, how it is resolved, and where it gets stuck, the group is not ready to scale the model.
 
-## Mistake #6: Ignoring Patient Feedback During Transition
+Use a short readiness review that asks practical questions: Are the workflows current? Are privacy and access controls approved for the proposed scope? Are site leaders following the same handoff definitions? Does the quality rubric identify workflow errors as well as communication issues? Does each recurring exception have an owner and a decision date? These questions keep the rollout grounded in operating control rather than promises about a vendor.
 
-When you change how things work, patients notice. Sometimes they complain. Sometimes they just quietly leave.
+Outsourcing can give a multi-location optometry group a more consistent access layer. It works best when the group documents the work, trains against real scenarios, maintains human support where it matters, protects site-level judgment, and manages the program through disciplined QA and reporting. Skipping those steps does not make the work disappear. It shifts the work into corrections, escalations, and lost confidence.
 
-During and after any outsourcing transition, actively collect patient feedback:
-- Are calls being handled well?
-- Is scheduling smoother or more confusing?
-- Do patients feel like they're getting the same quality of service?
+## Sources
 
-Listen to what they tell you. If multiple patients mention the same issue, that's real signal. Fix it fast, before word spreads.
+1. [American Optometric Association: Patient Communication](https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication)
+2. [ONC Patient Engagement Playbook, Chapter 2](https://playbook.healthit.gov/playbook/pe/chapter-2)
+3. [MGMA: Tips to Improve Healthcare Call Center Efficiency](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency)
 
-And communicate proactively. If patients are going to notice a change, tell them about it positively. "We've added extended phone support so you can reach us more easily" sounds a lot better than patients figuring out something's different and wondering why.
-
-## How Do You Get It Right?
-
-Outsourcing works. I've seen it work at our own practice and at dozens of others. The cost savings are real. The efficiency gains are real. The ability to scale without proportionally scaling headcount—that's real too.
-
-But it only works if you do it right.
-
-Invest in documentation. Invest in training. Work with partners who understand your industry. Keep enough in-office staff to maintain quality. Listen to your patients.
-
-Do those things, and outsourcing becomes a competitive advantage. Skip them, and you're setting yourself up for a mess that takes months to clean up.
-
-We've helped [optometry practices](/industries/optometry/) achieve remarkable results - see how one practice reached a [95% answer rate](/blog/optometry-case-study-95-answer-rate/). If you want to talk through what outsourcing might look like for your specific practice, [reach out](https://mybcat.com/contact/). We've done this enough times to know what works and what doesn't.
+*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
