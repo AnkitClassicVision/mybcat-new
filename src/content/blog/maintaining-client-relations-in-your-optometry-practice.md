@@ -26,7 +26,7 @@ Furthermore, having professionals to help with [optometrist call management](htt
 
 - **Urgency in Addressing Problems**
 
-Fostering [positive relationships](https://web.archive.org/web/20260411011111/https://trainingmag.com/8-tips-for-developing-positive-relationships/) with clients becomes more feasible when your office takes every step to solve their problems and concerns. You can take in concerns more efficiently with [optometrist inbound call services](https://mybcat.com/about/), allowing you to address them as soon as possible.
+Fostering [positive relationships](https://trainingmag.com/8-tips-for-developing-positive-relationships/) with clients becomes more feasible when your office takes every step to solve their problems and concerns. You can take in concerns more efficiently with [optometrist inbound call services](https://mybcat.com/about/), allowing you to address them as soon as possible.
 
 - **Building Rapport**
 
