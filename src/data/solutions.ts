@@ -788,11 +788,12 @@ If you don't see your system listed, ask us. We've likely integrated with it bef
   {
     slug: 'virtual-medical-scribe',
     name: 'Virtual Medical Scribe',
+    metaTitle: 'Virtual Scribe Service for Clinical Documentation',
     tagline: 'Documentation Done. Focus on Patients.',
     headline: 'Virtual Medical Scribe Service for Healthcare Providers',
     description: 'Remote medical scribes that handle clinical documentation in real-time. Reduce provider burnout, improve note quality, and reclaim hours each week for patient care.',
     tldr: 'My Business Care Team\'s virtual medical scribe service provides trained remote scribes who document patient encounters in real-time. Scribes work alongside providers via audio or video, completing notes during or immediately after visits—reducing documentation time by 2+ hours daily.',
-    metaDescription: 'Virtual medical scribe service that handles clinical documentation in real-time. Reduce provider burnout and reclaim 2+ hours daily. HIPAA compliant.',
+    metaDescription: 'Virtual scribe service with trained human scribes who document clinical encounters in real time, reduce charting burden, and support HIPAA-compliant workflows.',
     serviceType: 'Virtual Medical Scribe Service',
     problem: {
       question: 'How much time are your providers losing to documentation?',
@@ -926,6 +927,10 @@ My Business Care Team's virtual scribe service provides dedicated, specialty-tra
         {
           question: 'What if I need to discuss something sensitive with a patient?',
           answer: 'You control the connection. Simply mute or disconnect when needed for sensitive discussions, and reconnect when ready to continue documentation.'
+        },
+        {
+          question: 'What is the difference between a virtual scribe and a medical virtual assistant?',
+          answer: 'Virtual scribes own real-time clinical encounter documentation. Medical virtual assistants own non-clinical administrative workflows, including insurance verification, referral coordination, and billing follow-up.'
         }
       ]
     }
@@ -1071,6 +1076,10 @@ My Business Care Team's medical virtual assistants are healthcare-trained profes
         {
           question: 'What if my VA needs to take time off or leaves?',
           answer: 'We handle all HR management. If your VA takes vacation, we arrange coverage. If they leave, we recruit and train a replacement at no additional cost. You never have to worry about gaps in coverage.'
+        },
+        {
+          question: 'What is the difference between a virtual scribe and a medical virtual assistant?',
+          answer: 'Medical virtual assistants own non-clinical administrative workflows, including insurance verification, referral coordination, and billing follow-up. Virtual scribes own real-time clinical encounter documentation.'
         }
       ]
     }

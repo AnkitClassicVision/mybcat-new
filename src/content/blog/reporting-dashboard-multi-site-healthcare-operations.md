@@ -103,6 +103,8 @@ Once they stay informal, site leaders start applying them differently, and the d
 
 The metric dictionary is not a side artifact. It is the control layer that lets the enterprise team say, with confidence, that two locations are actually being compared on the same basis.
 
+For a public reference that distinguishes MyBCAT's supported claims from operating constraints, leaders can consult the [verified evidence layer](/truth-layer/) alongside their internal metric governance.
+
 ### Why does SLA calibration depend on shared timestamps?
 
 SLA calibration sounds straightforward until locations define the clock differently. Some teams may start timing at call arrival, others at queue assignment, and others only after a task is manually acknowledged. Once that happens, the discussion stops being operational and becomes political.

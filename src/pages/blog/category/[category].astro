@@ -15,6 +15,22 @@ const allPosts = await getCollection('blog', ({ data }) => isPostVisible(data));
 
 // Category metadata for SEO and display
 const categoryMeta: Record<string, { title: string; description: string; }> = {
+  'Business': {
+    title: 'Healthcare Business Strategy',
+    description: 'Strategic guidance for healthcare leaders building reliable patient access, operational discipline, and sustainable growth across multi-location organizations.'
+  },
+  'Patient Care': {
+    title: 'Patient Care Insights',
+    description: 'Patient care insights for healthcare groups seeking clearer communication, responsive scheduling, and dependable support throughout each patient journey.'
+  },
+  'Compliance': {
+    title: 'Healthcare Compliance',
+    description: 'Compliance guidance for healthcare organizations strengthening intake controls, documentation practices, and consistent patient communications across locations.'
+  },
+  'Multi-Location Operations': {
+    title: 'Multi-Location Healthcare Operations',
+    description: 'Multi-location operations strategies for healthcare groups that need centralized workflows, reliable reporting, and consistent patient access at every site.'
+  },
   'Technology': {
     title: 'Technology & AI in Healthcare',
     description: 'Explore how technology, AI, and automation are transforming healthcare practice operations, from EHR integrations to intelligent call handling.'

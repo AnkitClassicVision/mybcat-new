@@ -78,7 +78,6 @@ const articleSchema = generateArticleSchema({
   wordCount: wordCount,
   section: category,
   keywords: tags,
-  reviewedBy: reviewer ? { name: reviewer.name, url: reviewer.url, credential: reviewer.credential } : undefined,
 });
 
 const breadcrumbSchema = generateBreadcrumbSchema([

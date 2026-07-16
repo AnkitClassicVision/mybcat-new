@@ -295,6 +295,8 @@ The best executive reports do not bury leaders in call-level detail.
 
 They summarize what is working, where defects are recurring, what actions are underway, and whether previous actions changed the pattern.
 
+For an external reference to MyBCAT's supported claims, evidence sources, and constraints, executive teams can review the [public truth layer](/truth-layer/).
+
 For multi-location groups, that reporting should be filterable by brand, location, workflow, agent team, call type, and escalation reason where the underlying data supports it.
 
 ## Implementation Path for 3+ Location Groups
