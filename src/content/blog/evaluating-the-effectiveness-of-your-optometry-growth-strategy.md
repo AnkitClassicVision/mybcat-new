@@ -1,8 +1,10 @@
 ---
 title: "Evaluating Optometry Growth Strategy: A KPI Framework"
+seoTitle: "Optometry Growth Strategy KPIs for Multi-Location Groups"
 description: "Measure what matters for practice growth. Use this strategic evaluation framework to track KPIs, benchmark competitors, and scale your optometry clinic."
+seoDescription: "Evaluate an optometry growth strategy with KPIs for patient access, scheduling, staffing, and network consistency across multi-location groups."
 publishDate: 2023-09-21
-modifiedDate: '2026-03-18'
+modifiedDate: '2026-07-16'
 status: published
 author: Ankit Patel
 category: Technology
@@ -14,140 +16,134 @@ tags:
 - growth
 featuredImage: /images/blog/optometry-growth-strategy-evaluation.webp
 canonical: https://mybcat.com/blog/evaluating-the-effectiveness-of-your-optometry-growth-strategy/
+cluster: optometry
 relatedPosts:
-- standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices
+- optometry-network-operations-scale
+- patient-access-center-metrics-healthcare-executives
+- multi-location-healthcare-intake-guide
+- optometry-retail-clinical-intake-guide
 ---
 
-Are you an optometrist or ophthalmologist seeking to grow your practice but need to know which metrics indicate progress? You're in the right place! It's not just about having a strategic plan; it's about knowing if your strategy implementation is working. This guide is designed to help you take corrective action where needed and keep your business moving forward. We will simplify the measurement techniques and provide strategic management advice that top healthcare professionals use to grow their practices.
+Growth can look healthy from a distance while the operating model is falling behind. A multi-location optometry group may be adding providers, acquiring sites, or increasing marketing spend, yet still have inconsistent access, uneven scheduling quality, and no reliable way to see which location is losing demand.
+
+That is why strategy evaluation cannot be a quarterly review of revenue alone. For groups with three or more locations, it is the discipline of testing whether the plan is producing the intended operating result at every site. The leadership team needs a shared definition of growth, a small set of comparable measures, and a repeatable way to turn a finding into an owned improvement.
+
+This framework keeps the useful parts of a traditional strategy review, including market demand, patient feedback, staffing needs, financial performance, and corrective action. It applies them to the realities of a distributed eye-care network: different local schedules, provider preferences, phone queues, payer workflows, and acquisition histories. For a broader view of the operating model, start with MyBCAT's [optometry operations resources](/industries/optometry/).
 
 ## Table of Contents
 
-- [What Is Strategy Evaluation in Optometry?](#what-is-strategy-evaluation-in-optometry)
-- [What Are the Different Levels of Strategy Evaluation?](#what-are-the-different-levels-of-strategy-evaluation)
-- [How Do You Evaluate Operations?](#how-do-you-evaluate-operations)
-- [Step 1: Set Your Evaluation Criteria](#step-1-set-your-evaluation-criteria)
-- [Step 2: Data Collection](#step-2-data-collection)
-- [Step 3: Analysis of Digital Trends](#step-3-analysis-of-digital-trends)
-- [Step 4: Customer Feedback Loop](#step-4-customer-feedback-loop)
-- [Step 5: Evaluate Staffing Needs](#step-5-evaluate-staffing-needs)
-- [Step 6: Implement Corrective Action](#step-6-implement-corrective-action)
-- [Step 7: Continuous Re-Evaluation](#step-7-continuous-re-evaluation)
-- [Which Strategy Evaluation Techniques Should You Use?](#which-strategy-evaluation-techniques-should-you-use)
+- [What Should an Optometry Growth Strategy Prove?](#what-should-an-optometry-growth-strategy-prove)
+- [How Do You Set a Baseline Across Multiple Locations?](#how-do-you-set-a-baseline-across-multiple-locations)
+- [Which KPIs Show Whether Growth Is Working?](#which-kpis-show-whether-growth-is-working)
+- [How Do You Evaluate Patient Access and Scheduling?](#how-do-you-evaluate-patient-access-and-scheduling)
+- [What Do Market, Patient, and Financial Signals Tell You?](#what-do-market-patient-and-financial-signals-tell-you)
+- [How Should You Evaluate Staffing and Technology Capacity?](#how-should-you-evaluate-staffing-and-technology-capacity)
+- [How Do You Turn Findings Into Corrective Action?](#how-do-you-turn-findings-into-corrective-action)
+- [FAQ](#faq)
 
-## **What Is Strategy Evaluation in Optometry?**
+## What Should an Optometry Growth Strategy Prove?
 
-A strategy evaluation is a systematic way to review strategic plans to ensure they effectively achieve your organizational goals. To aid you in a systematic review, we listed foundational components to work through to arrive at a draft growth strategy. For optometrists, this starts with identifying your desired results—be it expanding your patient base, integrating state-of-the-art technologies, or diversifying your services. 
+An effective growth strategy should prove more than that total patient volume or collections increased. It should show that the group can meet demand predictably, book the right appointment at the right location, protect the patient experience, and do so with a model that can be repeated as the network changes.
 
-Before analyzing your strategy, ensure your team has reached a consensus on goals and success criteria to help everyone work toward your objectives.
+Start by writing the outcomes in operating terms. A group expanding into a new market may need faster access to appointments and a consistent intake experience before it needs another marketing campaign. A group integrating acquisitions may need common definitions for answered calls, completed scheduling, and follow-up ownership before it can compare locations fairly. A mature platform may need evidence that labor, access, and conversion are improving together rather than merely shifting work from one team to another.
 
-## **What Are the Different Levels of Strategy Evaluation?**
+The strategic level of review asks whether the plan still fits external conditions and internal priorities. Leadership should revisit service demand, referral patterns, payer requirements, competitive positioning, and patient expectations. Regulatory and scope-of-practice questions deserve review through the appropriate compliance and legal channels, not assumptions made in an operations meeting. The American Optometric Association maintains state-board resources that can help leaders identify the relevant oversight body for a location.[^aoa]
 
-### **Strategic Level**
+At the operational level, the question becomes simpler: can a patient or referring office reach the group, receive accurate information, and move to a documented next step without unnecessary transfers or delay? That distinction matters. A location can meet its revenue target while creating access friction that will eventually reduce retention, overwhelm staff, or undermine the next acquisition.
 
-Strategic evaluation requires checking if your growth plans align with important factors such as market trends, healthcare regulations, and patient needs. Here's how to break this down:
+## How Do You Set a Baseline Across Multiple Locations?
 
-**Regulation Check-Up:** Research the latest changes in healthcare laws and regulations relevant to optometry. The American Optometric Association (AOA) and state associations regularly summarize new regulations. Every once in a while, nothing beats sitting down with a specialized healthcare attorney. Local optometry groups and online forums are great places to share and absorb regulatory experiences with peers. Remember, you don't have to do it alone. Consider delegating some of the continuing education to stay up on new legislation.
+Begin with a baseline before setting targets. Without one, leaders cannot tell whether a new process produced improvement or whether the network simply experienced a temporary shift in demand. The baseline should cover at least four weeks, include a full business cycle, and be segmented by location, appointment type, channel, and time of day where the systems allow it.
 
-**Competitor Benchmarking:** Make a list of direct competitors and their offerings. Evaluate what they're doing well and where they're lacking. This will help you identify goal areas where you can gain a competitive edge.
+The first discipline is definition. Decide what counts as an inbound contact, an answered call, an abandoned call, a booked appointment, a completed intake, a reschedule, and a missed-call follow-up. Document the owner of each definition and use it across the network. If one office counts a call answered after three minutes on hold while another counts only live answers within thirty seconds, the consolidated result creates false confidence.
 
-**Market Demand Analysis:** Using available local statistics or your patient data, determine the demand for optometric services in your area. Are certain services more popular? If so, could you offer them? Understanding your competitive advantage and making informed decisions from them highlight areas to focus on.
+Then separate network performance from location variance. A network average can conceal a site that is routinely short-staffed on Mondays, a provider schedule that produces avoidable reschedules, or an acquired location still using a different call flow. An executive dashboard should allow leaders to see the average and the range, then investigate the outliers. The approach aligns with the need for standardized operational benchmarks described in [MGMA's practice-operations resources](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023).[^mgma]
 
-**Patient Needs Assessment:** Survey your existing patient base or analyze reviews to find out what they feel is missing or what they particularly like about your services.
+Use the baseline to answer a small number of decisions, not to create a reporting project. For example: Which locations need peak-hour coverage? Which appointment types generate the most rework? Is digital demand being resolved or merely routed to a task queue? Are provider templates limiting access at specific sites? The baseline is useful only when it changes what an owner does next.
 
-**Actionable Questions:**
+## Which KPIs Show Whether Growth Is Working?
 
-- Are your services enough to meet patient needs? If not, what specialized services can you add?
+A practical KPI set connects strategy to the patient-access workflow. It should be small enough for an executive review and detailed enough for operating leaders to diagnose a problem. The measures below are a starting point, not a universal scorecard. Define targets from your own baseline, capacity, and service model rather than borrowing a number from another group.
 
-- Is your practice located where there's a high demand for optometric services? If it's not, could you expand or open a new branch?
+| KPI family | What to measure | What it can reveal |
+| --- | --- | --- |
+| Access | Answer rate, speed to answer, abandoned contacts, callback completion | Whether patients can reach a live, accountable team |
+| Scheduling | Inquiry-to-appointment conversion, appointment accuracy, time to next available visit | Whether demand becomes the appropriate scheduled visit |
+| Completion | No-show rate, reschedules, incomplete intake, repeat contacts | Where work is being recreated or patients are dropping out |
+| Experience | Patient feedback themes, complaints, transfer rate, first-contact resolution | Whether the process feels coherent to patients |
+| Capacity | Contacts by hour, workload by queue, staffing coverage, training readiness | Whether the labor model matches real demand |
+| Financial context | Scheduled visits, visit completion, labor cost by workflow, collection-cycle indicators | Whether operational progress is supported by economic evidence |
 
-- Based on your competitor benchmarking, what services could you offer that your competitors don't?
+For optometry groups, appointment accuracy deserves special attention. The first conversation may need to distinguish a routine exam from a medical concern, a contact-lens request, an optical question, or a request for a specific provider or location. The goal is not to make clinical decisions over the phone. It is to follow approved routing protocols, collect the right information, and send the request to the correct team or appointment type. The detailed [retail-clinical intake guide](/blog/optometry-retail-clinical-intake-guide/) shows why those distinctions affect both access and the in-office handoff.
 
-By addressing these points, you can understand how well your current strategy aligns with external factors. Make it a regular practice to revisit these steps, as healthcare regulations and market demands are ever-changing.
+Avoid treating a KPI as a verdict in isolation. A rising answer rate paired with falling booking conversion could mean the team is answering faster but lacks a clear scheduling workflow. A low no-show rate might look positive until leaders see that availability is so limited that patients are seeking appointments elsewhere. Metrics are prompts for investigation, not substitutes for judgment.
 
-## **How Do You Evaluate Operations?**
+## How Do You Evaluate Patient Access and Scheduling?
 
-A practical evaluation of your operations focuses on the metrics that measure the day-to-day performance of your practice. These metrics provide actionable data that helps in refining your business operations. To analyze this further, here are some steps you can follow:
+Patient access is often where a growth strategy becomes visible. Marketing, referrals, recall efforts, and community reputation create demand. The access operation determines whether that demand becomes a scheduled visit, a resolved question, or a frustrated caller who never reaches the right person.
 
-**Patient Satisfaction Metrics:** Use patient surveys and review platforms to collect data on patient satisfaction. Dive deep into specific areas like waiting times, quality of treatment, and staff interactions. Analyze this data to find areas for improvement.
+Map the journey from first contact to confirmation. Include phone calls, web requests, portal messages, referrals, after-hours contacts, and any local workarounds such as paper notes or personal extensions. For each route, identify who owns the next step, how long it may wait, and how the outcome is recorded. The HealthIT.gov patient-engagement playbook treats access and communication as part of a broader engagement workflow, a useful lens when evaluating more than a phone queue.[^healthit]
 
-**Operational Efficiency Metrics:** Calculate key performance indicators such as appointment scheduling accuracy, turnaround time for diagnostic tests, and time spent per patient visit. Use these metrics to identify bottlenecks and inefficiencies in your practice's processes and compare the goals to actual performance. This is an area where outsourcing to a BPO to help manage non-health-related tasks can be a significant opportunity to improve operational efficiencies.
+Look closely at the handoffs that create delay. Common examples include an insurance question transferred without context, a patient who must call back because availability is not visible, or a clinical concern that arrives in a general queue with no escalation rule. A strong operating model gives front-office teams approved scripts, clear routing, and a defined exception path. It does not ask them to improvise beyond their role.
 
-**Financial Performance Metrics:** If you're not already, regularly review your practice's income, balance sheets, and cash flow statements. By keeping track of revenue, operating expenses, and profit margins, you can identify the services that generate the most income and consider reallocating resources accordingly.
+Centralizing some access work can make performance easier to measure, but centralization is not the goal by itself. The right model depends on call patterns, site differences, scheduling-system access, and what local staff must do in person. Groups considering a centralized approach should compare it with their current workflow before moving capacity, using a [multi-location healthcare intake framework](/blog/multi-location-healthcare-intake-guide/) and a clear implementation owner.
 
-**Billing Efficiency:** Use your practice management software to analyze the speed and accuracy of your billing processes. Are there delays in sending invoices or collecting payments? If so, identify the reasons and implement corrective measures.
+## What Do Market, Patient, and Financial Signals Tell You?
 
-**Use of Technology:** Evaluate how effectively you utilize electronic health records (EHRs) and practice management software. Are these tools aiding in improving efficiency, or have they become a hindrance?
+Market review should be specific to the decisions the group is making. If a new location is planned, assess expected demand, nearby options, referral relationships, provider capacity, and the access promise the group can actually support. If the strategic question is service expansion, review whether demand is present and whether scheduling, intake, staffing, and compliance can support the new workflow. Do not confuse a competitor's offering with evidence that it fits your network.
 
-**Actionable Questions:**
+Patient feedback adds the context that operational reports cannot. Review survey themes, complaints, online feedback, and notes from patient-facing teams for recurring patterns. Long holds, unclear benefits explanations, repeated transfers, or inconsistent instructions are not just service issues. They can point to a broken script, a missing system permission, an unclear appointment taxonomy, or a staffing mismatch. Feedback should be handled through approved privacy and quality processes, with no patient information copied into general planning documents.
 
-- How can you improve patient satisfaction scores? Are there any recurring complaints that can be addressed immediately?
+Financial evaluation should connect back to the workflow. Review scheduled and completed visits alongside the labor required to support them, then look for avoidable rework: repeat contacts, unworked callbacks, inaccurate bookings, or manual correction after intake. This makes the conversation more useful than a broad review of revenue and expenses. It helps leadership determine whether a problem is demand, capacity, process design, or reporting quality.
 
-- Are there any bottlenecks in your [operational processes like patient intake](https://mybcat.com/blog/multi-location-healthcare-intake-guide/)? How can these be eliminated?
+Benchmarking can be helpful when it frames questions rather than dictates targets. Compare operating definitions, trends, and site variation first. Then use outside benchmarks to challenge assumptions. MGMA's data and analytics resources are one possible starting point for organizations that want broader practice-management context without replacing their own baseline.[^mgma-data]
 
-- Which services are most profitable and should be focused on? Are there any that could be discontinued or improved?
+## How Should You Evaluate Staffing and Technology Capacity?
 
-- Is your billing cycle efficient? What steps can you take to streamline it?
+Staffing review should examine work by queue and time window, not just headcount. A group may have enough total front-office staff while still lacking coverage during the hours when calls, check-in, checkout, insurance verification, and provider messages collide. Ask where staff are repeatedly interrupted, which work is left until the end of the day, and whether coverage disappears with PTO, turnover, or a local surge.
 
-- Are you making the most out of your EHR and practice management software? Do they need upgrades or replacements?
+Training is part of capacity. Teams need written workflows for common scheduling requests, insurance verification boundaries, escalation, recalls, and documentation. They also need calibrated examples from the group's own operations. A process is not standardized because it sits in a shared folder; it is standardized when new and existing team members can perform it consistently and leaders can see the result in the data.
 
-Concentrating on these elements can give you valuable insights to optimize your practice's operations. Like strategic evaluations, operational assessments should also be revisited regularly to adapt to changing conditions and needs.
+Technology review should focus on whether systems reduce or create rework. Evaluate phone reporting, scheduling access, queue ownership, call disposition fields, integration reliability, and the ability to report by site without exposing data inappropriately. Electronic tools can support coordination, but they require role-based access, defined workflows, and governance. HealthIT.gov's materials on care coordination emphasize the importance of sharing the right information among the right participants in a defined process.[^coordination]
 
-## **What Does a Step-by-Step Action Plan for Strategy Evaluation in Optometry Look Like?**
+For a group that needs flexible capacity, a managed patient-access partner or virtual staffing model may be worth evaluating. The business case should include the provider's training model, coverage plan, reporting, escalation procedures, security commitments, and ability to work within the group's approved protocols. Learn how MyBCAT approaches that operating model through its [front desk outsourcing solution](/solutions/front-desk-outsourcing/) and [enterprise patient access center](/enterprise/patient-access-center/). The right answer may be an internal team, an external partner, or a hybrid. The evaluation should make the trade-offs visible before a change is made.
 
-### **Step 1: Set Your Evaluation Criteria**
+## How Do You Turn Findings Into Corrective Action?
 
-Begin by identifying key performance indicators (KPIs) for optometry, such as patient retention rates, revenue per patient, and digital engagement metrics. Capture a baseline value for your current organizational performance.
+The value of an evaluation lies in the action that follows it. When a KPI or feedback pattern identifies a gap, create a corrective-action record with one problem statement, one accountable owner, a due date, the baseline, and the evidence that will show whether the change worked. Keep the first action narrow enough to test.
 
-These baselines will serve as a comparison point for future evaluations and aid in setting realistic but challenging annual objectives.
+For example, if a location's callback completion is weak after 3:00 PM, the first action might be to assign a queue owner and set an end-of-day reconciliation process for four weeks. If appointment errors cluster around a certain visit type, the first action might be to revise the approved decision tree and run a short calibration session. If one acquisition cannot report the same fields as the rest of the network, the action may be a data-definition and integration workstream, not a performance warning for that site's staff.
 
-## **Step 2: Data Collection**
+Review the result on a regular cadence. Monthly operating reviews can examine trends and cross-location variation; quarterly strategy reviews can revisit the larger assumptions about demand, service mix, capacity, and expansion. When a change does not work, document why and adjust. That learning prevents the group from repeating the same implementation mistake at the next location.
 
-Data collection is the crux of strategy evaluation. As discussed, you must gather both quantitative data, like financial reports, and qualitative data, like patient feedback. This can be achieved by utilizing your EHR systems, patient satisfaction surveys, and even social media analytics. Each data point should relate back to one of your predefined KPIs to ensure focused and meaningful analysis.
+The operating leadership team should also decide what requires escalation. Material patient-access risk, unresolved privacy or compliance questions, unusual complaint patterns, and major staffing or technology changes need the appropriate executive and subject-matter review. Clear escalation protects staff from having to make high-risk decisions alone.
 
-## **Step 3: Analysis of Digital Trends**
+<!-- MyBCAT CTA Section -->
+<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
+  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Improve Your Patient Retention?</h3>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices recapture missed calls and automate patient scheduling so no opportunity slips through the cracks.</p>
+  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
+</div>
+<!-- End MyBCAT CTA Section -->
 
-In this digital age, the influence of teleoptometry and digital health tools on your practice cannot be downplayed. You should review the usage statistics of your digital services. Are your patients taking advantage of telehealth options? Are they engaging with your online resources? These findings will offer insights into the effectiveness of your digital strategies and indicate whether they require recalibration.
+## FAQ
 
-## **Step 4: Customer Feedback Loop**
+### How often should an optometry group review its growth strategy?
 
-Customer feedback is a goldmine of insights. You can gather this information through online reviews, post-appointment surveys, and direct interviews. Look for patterns in the feedback. Are patients complaining about long wait times or praising your advanced diagnostic tools? This data can be utilized to refine your services and adjust your strategy accordingly.
+Review core access and scheduling metrics monthly, with a formal quarterly review of strategy, capacity, financial context, and corrective-action progress. Groups in acquisition, launch, or major workflow change may need a shorter operating cadence until the new process is stable.
 
-## **Step 5: Evaluate Staffing Needs**
+### What is the first KPI a multi-location optometry group should measure?
 
-Critically examine your team's strengths and weaknesses. Are customer service complaints often related to staff interactions? Do you have adequate personnel to handle administrative tasks efficiently? If there are gaps, you may consider outsourcing specific functions to a Business Process Outsourcing (BPO) organization like My Business Care Team to optimize operational efficiency. Reports show that[ over 21% of optometry practice owners want to hire](https://eyesoneyecare.com/resources/2022-optometry-innovation-report/). BPOs can represent a competitive advantage over increasing FTE staff. 
+Start with a clean definition of answered and missed contacts, then measure answer rate and callback completion by location and time window. Those measures expose whether demand can reach the group before leadership spends time optimizing later stages of the journey.
 
-## **Step 6: Implement Corrective Action**
+### Should every location have the same KPI targets?
 
-Once you've gotten your evaluation findings, it's time to tweak your strategic options. This could involve reallocating resources, redefining your KPIs, changing your marketing strategy, or even overhauling your entire business strategy. You should create a clear action plan, assign responsibilities, and set deadlines for each corrective measure to ensure timely implementation.
+Use the same definitions and reporting structure across the network. Targets may differ when a location has a different service mix, hours, provider capacity, or integration stage, but exceptions should be explicit, documented, and reviewed rather than hidden inside local reporting.
 
-## **Step 7: Continuous Re-Evaluation**
+## Sources
 
-Strategy evaluation is not a one-off event but an ongoing cycle. You should schedule regular evaluations, preferably quarterly, to keep your growth strategy effective and aligned with your evolving goals and market conditions.
-
-### **What Role Do Stakeholders Play in Strategy Evaluation?**
-
-Key stakeholders in an optometry practice include practice owners, optometrists, opticians, administrative staff, and patients. Each stakeholder plays a unique role in the evaluation process, from data collection to implementing changes. Defining roles and responsibilities clearly before beginning the evaluation process is important. Open communication lines are essential for both gathering data and disseminating changes post-evaluation.
-
-## **Which Strategy Evaluation Techniques Should You Use?**
-
-As your strategic planning evolves, you may want to go deeper into a specific evaluation strategy to inform your decision-making. Here are some additional techniques for evaluating your strategy.
-
-### **What Is Gap Analysis?**
-
-A gap analysis can help identify discrepancies between your current performance and your goals. This information can be used to outline actionable steps for improvement, such as upgrading technology, improving patient outreach, or refining your service offerings.
-
-### **How Can SWOT Analysis Help?**
-
-A SWOT analysis can offer deep insights into your practice's Strengths, Weaknesses, Opportunities, and Threats. These insights can be transformed into concrete action items. For instance, if one of your strengths is a highly skilled team, how can you utilize this to offer specialized services that your competitors don't?
-
-### **What Is Value Chain Analysis?**
-
-This method aids in understanding the flow of value in your practice, from patient intake to service delivery and post-visit care. Each component of your value chain should be assessed for efficiencies and inefficiencies. Is your billing system smooth, or does it create bottlenecks affecting patient experience?
-
-### **Why Is Regular Strategy Evaluation Important?**
-
-Given the rapid changes in healthcare regulations, consumer behaviors, and technological advancements, quarterly evaluations are recommended for optometry practices. Lock in specific dates for your strategy evaluations and prepare your team for these crucial check-ins.
-
-While evaluating your optometry growth strategy requires steady effort, it pays off in sustainable success and market relevance. By focusing on industry-specific KPIs, digital trends, customer feedback, and continual staffing needs assessments, your practice can adapt to change and thrive in it. Following this actionable guide will ensure that your optometry practice remains competitive, innovative, and patient-centric in an ever-evolving healthcare landscape.
-
- 
+[^aoa]: [American Optometric Association: State Boards of Optometry](https://www.aoa.org/advocacy/state/state-boards-of-optometry?sso=y)
+[^mgma]: [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
+[^healthit]: [HealthIT.gov Playbook: Patient Engagement](https://playbook.healthit.gov/playbook/patient-engagement)
+[^mgma-data]: [MGMA Data and Analytics](https://www.mgma.com/analytics)
+[^coordination]: [HealthIT.gov: Improved Care Coordination](https://www.healthit.gov/providers-professionals/improved-care-coordination)
