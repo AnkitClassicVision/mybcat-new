@@ -4,6 +4,6 @@ Documentation=file:///mnt/d_drive/repos/mybcat-new/docs/runbooks/seo-technical-c
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash /mnt/d_drive/repos/mybcat-new/scripts/seo-cleanup-loop/run-weekly.sh
+ExecStart=/bin/bash %h/.mybcat/bin/seo-cleanup-loop-bootstrap.sh
 TimeoutStartSec=2h 15min
 Nice=10

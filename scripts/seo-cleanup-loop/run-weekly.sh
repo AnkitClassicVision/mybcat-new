@@ -7,7 +7,7 @@
 # Disable: crontab -e and remove the seo-cleanup-loop line, or
 #          touch ~/.mybcat/seo-cleanup-loop.DISABLED
 set -u
-REPO="/mnt/d_drive/repos/mybcat-new"
+REPO="${1:-/mnt/d_drive/repos/mybcat-new}"
 LOGDIR="$HOME/.mybcat/logs/seo-cleanup-loop"
 STAMP="$(date +%Y-%m-%d-%H%M)"
 mkdir -p "$LOGDIR"
