@@ -1,24 +1,27 @@
 ---
 title: Contact Center QA Scorecards for DSOs
 seoTitle: DSO Contact Center QA Scorecard Guide
-description: >-
-  Build a healthcare-specific QA scorecard for DSO contact centers with
+description: Build a healthcare-specific QA scorecard for DSO contact centers with
   scheduling, courtesy, privacy, calibration, and reporting.
-seoDescription: >-
-  A practical DSO contact center QA scorecard framework for multi-location
+seoDescription: A practical DSO contact center QA scorecard framework for multi-location
   dental groups improving scheduling, patient access, and call quality.
 publishDate: '2026-07-16T10:59:57.494Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - contact center qa scorecard dso
-  - multi-location
-  - enterprise operations
+- contact center qa scorecard dso
+- multi-location
+- enterprise operations
 cluster: enterprise
 featuredImage: /images/blog/contact-center-qa-scorecard-dso.webp
-canonical: 'https://mybcat.com/blog/contact-center-qa-scorecard-dso/'
+canonical: https://mybcat.com/blog/contact-center-qa-scorecard-dso/
+relatedPosts:
+- reporting-dashboard-multi-site-healthcare-operations
+- centralized-scheduling-rollout-multi-location-practices
+- patient-access-center-metrics-healthcare-executives
 ---
+
 ## Table of Contents
 
 - [Why DSO QA Scorecards Need Healthcare-Specific Design](#why-dso-qa-scorecards-need-healthcare-specific-design)
