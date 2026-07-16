@@ -17,6 +17,7 @@ featuredImage: /images/blog/equipment-technology-checklist-optometry.webp
 canonical: >-
   https://mybcat.com/blog/equipment-technology-checklist-new-optometry-practices/
 cluster: starting-practice
+ctaTheme: finance_open  # finance-intent routing
 relatedPosts: []
 ---
 

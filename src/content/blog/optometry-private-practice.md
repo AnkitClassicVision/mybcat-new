@@ -23,6 +23,7 @@ tags:
   - practice management
   - healthcare
 cluster: private-practice
+ctaTheme: finance_profit  # finance-intent routing
 ---
 
 ## Optometry Private Practice: A Complete Guide to Success

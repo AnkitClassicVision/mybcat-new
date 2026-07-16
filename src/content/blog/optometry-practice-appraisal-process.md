@@ -17,6 +17,7 @@ tags:
   - enterprise operations
   - healthcare scale
 cluster: practice-valuation
+ctaTheme: finance_seller  # finance-intent routing
 featuredImage: /images/blog/optometry-practice-appraisal-process.webp
 canonical: 'https://mybcat.com/blog/optometry-practice-appraisal-process/'
 ---

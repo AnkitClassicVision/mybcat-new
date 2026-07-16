@@ -23,6 +23,7 @@ seoDescription: >-
   types, PE landscape, due diligence, tax considerations, and preparation
   timeline.
 cluster: private-practice
+ctaTheme: finance_seller  # finance-intent routing
 relatedPosts:
   - the-optometric-practice-valuation-guide-for-buyers-and-sellers
   - pre-sale-operational-cleanup-intake-valuation
