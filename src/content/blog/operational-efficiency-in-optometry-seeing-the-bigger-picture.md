@@ -85,7 +85,7 @@ At this level, the patient-access path is designed around handoffs. A request fr
 
 Operational optimization also requires a formal improvement cadence. Leaders should review a focused scorecard at a predictable interval, inspect a sample of work for quality, identify the root cause of recurring rework, and change the workflow or training material when the evidence supports it. A written SOP that never changes is not mature governance. Neither is a constantly changing process with no version control.
 
-For a growing organization, this discipline is the foundation of [optometry front-office standardization](/blog/optometry-front-office-standardization-group-practices/). It makes onboarding more consistent, reduces the burden on location managers, and gives the central team a clearer basis for coaching and resource planning.
+For a growing organization, this discipline is the foundation of optometry front-office standardization. It makes onboarding more consistent, reduces the burden on location managers, and gives the central team a clearer basis for coaching and resource planning.
 
 ## How Should Leaders Govern the Innovative Tier?
 

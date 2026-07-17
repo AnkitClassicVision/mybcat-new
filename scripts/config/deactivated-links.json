@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "sourceSlug": "operational-efficiency-in-optometry-seeing-the-bigger-picture",
+    "targetSlug": "optometry-front-office-standardization-group-practices",
+    "originalMarkdown": "[optometry front-office standardization](/blog/optometry-front-office-standardization-group-practices/)",
+    "plainText": "optometry front-office standardization",
+    "contextBefore": " growing organization, this discipline is the foundation of ",
+    "contextAfter": ". It makes onboarding more consistent, reduces the burden on"
+  },
+  {
+    "sourceSlug": "why-your-optometry-needs-a-booking-service",
+    "targetSlug": "optometry-front-office-standardization-group-practices",
+    "originalMarkdown": "[front-office standardization for group practices](/blog/optometry-front-office-standardization-group-practices/)",
+    "plainText": "front-office standardization for group practices",
+    "contextBefore": "/enterprise/centralized-scheduling/) and its explanation of ",
+    "contextAfter": ".↵↵## How Does a Booking Service Reduce Administrative Burde"
+  }
+]

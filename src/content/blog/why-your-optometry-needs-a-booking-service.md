@@ -69,7 +69,7 @@ For example, every location may have its own capacity and provider preferences, 
 
 The most useful scheduling playbook answers questions people face during a live interaction. What happens when a preferred provider has no suitable opening? Who owns an inquiry that does not fit an approved visit type? What information is required before a request can be transferred? When does a team member stop trying to resolve an issue and route it? A process that answers those questions removes pressure from staff and makes quality review possible.
 
-For more detail on the organization-wide model, review MyBCAT's [centralized scheduling approach for enterprise groups](/enterprise/centralized-scheduling/) and its explanation of [front-office standardization for group practices](/blog/optometry-front-office-standardization-group-practices/).
+For more detail on the organization-wide model, review MyBCAT's [centralized scheduling approach for enterprise groups](/enterprise/centralized-scheduling/) and its explanation of front-office standardization for group practices.
 
 ## How Does a Booking Service Reduce Administrative Burden?
 
