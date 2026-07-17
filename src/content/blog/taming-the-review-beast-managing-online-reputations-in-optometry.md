@@ -54,7 +54,7 @@ Google Business Profile is normally the first priority because it is tied to how
 
 Assign ownership at two levels. A central owner maintains standards, profile accuracy, access controls, and reporting. A local owner verifies details that only the location can confirm, such as holiday hours, provider changes, and local service information. Central ownership without local verification produces stale listings. Local ownership without central standards produces inconsistent branding and uneven response quality.
 
-Profile accuracy is a patient-access task. If a person starts with an incorrect address, office hour, or phone number, the group has created a poor experience before anyone answers a call. This is also why review governance belongs alongside the standards described in [optometry front-office standardization for groups](/blog/optometry-front-office-standardization-group-practices/).
+Profile accuracy is a patient-access task. If a person starts with an incorrect address, office hour, or phone number, the group has created a poor experience before anyone answers a call. This is also why review governance belongs alongside the standards described in optometry front-office standardization for groups.
 
 ## How Should Leaders Monitor Reviews Across Locations?
 

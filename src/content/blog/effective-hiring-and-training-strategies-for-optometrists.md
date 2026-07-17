@@ -21,7 +21,7 @@ relatedPosts: []
 
 For a multi-location optometry group, staffing is not a series of openings to fill. It is an operating system. One location can absorb an inexperienced scheduler for a few weeks. Across six, 12, or 30 locations, inconsistent hiring and training show up as unanswered calls, uneven insurance verification, duplicate work, and a patient experience that depends on which location answered the phone.
 
-The goal is not to make every team member identical. It is to make the work that patients and leaders rely on predictable: who can schedule which visit types, when an exception moves to a supervisor, how a new hire earns system access, and how leaders know whether training is working. This is the same discipline behind [optometry front-office standardization](/blog/optometry-front-office-standardization-group-practices/), applied before a staffing gap becomes a service problem.
+The goal is not to make every team member identical. It is to make the work that patients and leaders rely on predictable: who can schedule which visit types, when an exception moves to a supervisor, how a new hire earns system access, and how leaders know whether training is working. This is the same discipline behind optometry front-office standardization, applied before a staffing gap becomes a service problem.
 
 ## Table of Contents
 

@@ -84,7 +84,7 @@ The agreement should match the workflow, including any business associate respon
 
 Ask for evidence rather than accepting a generic security statement. Useful evidence can include the vendor’s access-management approach, training process, incident-response process, audit documentation, business associate terms when applicable, and controls for worker turnover. An enterprise buying committee should include operations, compliance or privacy, IT or security, and finance or procurement so that contract language, system access, and operational reality are reviewed together.
 
-A phased implementation lowers operational risk. Start with a limited group of locations that represents the differences the team will encounter, such as distinct appointment templates or staffing models. Test scripts, escalation paths, permissions, documentation standards, and reporting before broad rollout. The [enterprise patient access center implementation guide](/blog/enterprise-patient-access-center-implementation/) offers related considerations for making a central team accountable across locations.
+A phased implementation lowers operational risk. Start with a limited group of locations that represents the differences the team will encounter, such as distinct appointment templates or staffing models. Test scripts, escalation paths, permissions, documentation standards, and reporting before broad rollout. The enterprise patient access center implementation guide offers related considerations for making a central team accountable across locations.
 
 ## How Can Training Produce Consistent Behavior Across Locations?
 

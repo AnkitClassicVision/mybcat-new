@@ -149,7 +149,7 @@ Quality review should test whether the correct workflow was followed, not merely
 
 Evaluate a partner against the operating model you need, not against a generic promise of coverage. Ask for a demonstration of the actual workflow: how a representative identifies the location, accesses approved scheduling information, handles a routine request, documents the outcome, and escalates an exception. Then ask how those events appear in reporting and who owns correction when the process fails.
 
-The partner should be able to explain its healthcare training, quality-assurance process, staffing continuity, implementation responsibilities, system access controls, and support for newly acquired locations. It should also be candid about what it cannot do without a defined protocol or system integration. Detailed questions for a formal buying process are available in the [patient access outsourcing vendor evaluation guide](/blog/vendor-evaluation-patient-access-outsourcing/).
+The partner should be able to explain its healthcare training, quality-assurance process, staffing continuity, implementation responsibilities, system access controls, and support for newly acquired locations. It should also be candid about what it cannot do without a defined protocol or system integration. Detailed questions for a formal buying process are available in the patient access outsourcing vendor evaluation guide.
 
 ### Which vendor answers should concern a buying committee?
 

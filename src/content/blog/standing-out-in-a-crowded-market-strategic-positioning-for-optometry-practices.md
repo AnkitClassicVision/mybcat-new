@@ -46,7 +46,7 @@ As locations are added, informal consistency stops being reliable. One office ma
 
 Positioning gives operating leaders a decision rule. If the group promises accessible, coordinated eye care, then call coverage, appointment definitions, intake standards, and escalation paths need to support that claim. If the group wants to be known for a particular mix of clinical expertise, family care, optical service, or convenience, the network should be able to explain how those differences show up in the patient journey.
 
-This is also why positioning and standardization belong together. The [front-office standardization guide for optometry groups](/blog/optometry-front-office-standardization-group-practices/) explains how to turn shared expectations into repeatable workflows. Positioning defines what the group intends to be known for; operations determines whether patients encounter that promise consistently.
+This is also why positioning and standardization belong together. The front-office standardization guide for optometry groups explains how to turn shared expectations into repeatable workflows. Positioning defines what the group intends to be known for; operations determines whether patients encounter that promise consistently.
 
 ## What Should a Multi-Location Group Learn From Its Competitive Landscape?
 

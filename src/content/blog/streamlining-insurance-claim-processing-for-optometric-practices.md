@@ -84,7 +84,7 @@ Use a shared work queue with a small set of reason categories that matter to the
 
 Each item should have an owner, a next action, and a date for follow-up. Where patient outreach is necessary, the communication should state the needed administrative step without overpromising what a plan will cover. Where a claim involves a question outside the assigned team's authority, it should move to the appropriate review path rather than being handled by guesswork.
 
-Over time, denial and rejection patterns become management signals. If one payer category or one location produces repeated exceptions, leaders can investigate whether the cause is intake quality, system configuration, process design, training, or a legitimate local difference. This is the same discipline used in [front-office standardization for group optometry practices](/blog/optometry-front-office-standardization-group-practices/): distinguish a necessary exception from a recurring workaround that should be redesigned.
+Over time, denial and rejection patterns become management signals. If one payer category or one location produces repeated exceptions, leaders can investigate whether the cause is intake quality, system configuration, process design, training, or a legitimate local difference. This is the same discipline used in front-office standardization for group optometry practices: distinguish a necessary exception from a recurring workaround that should be redesigned.
 
 ## How Should Central and Local Teams Split Claim Responsibilities?
 

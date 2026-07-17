@@ -47,7 +47,7 @@ Start with four real patient journeys rather than a general discussion about pro
 
 This exercise often shows that the delay is not in the conversation itself. It is in the uncertainty that follows it. A patient can wait while a scheduler looks for an appointment rule, a callback can sit because no queue owner is named, or an appointment can be corrected later because the visit type was not clear at booking.
 
-For groups integrating locations or inherited workflows, [optometry front-office standardization](/blog/optometry-front-office-standardization-group-practices/) is the broader management discipline. Efficiency is one outcome of that discipline, not a substitute for it.
+For groups integrating locations or inherited workflows, optometry front-office standardization is the broader management discipline. Efficiency is one outcome of that discipline, not a substitute for it.
 
 ## Which Workflows Should an Optometry Group Standardize First?
 

@@ -87,7 +87,7 @@ This exercise often reveals work that does not appear on a provider schedule: un
 
 The [Medical Group Management Association’s guidance on centralized scheduling](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment) is relevant because it treats scheduling as an operating model, not just a phone function. A group does not need to centralize every decision to create consistent access. It does need common rules for routing, appointment types, documentation, and exceptions.
 
-For multi-site operators, patient access should connect to the same governance used for [front-office standardization](/blog/optometry-front-office-standardization-group-practices/). The central team can own standards, training, quality assurance, and reporting, while local teams retain the provider-specific and capacity-specific context that needs site knowledge.
+For multi-site operators, patient access should connect to the same governance used for front-office standardization. The central team can own standards, training, quality assurance, and reporting, while local teams retain the provider-specific and capacity-specific context that needs site knowledge.
 
 ## How Can Scheduling and Intake Improve Capacity Without Hurting Care?
 

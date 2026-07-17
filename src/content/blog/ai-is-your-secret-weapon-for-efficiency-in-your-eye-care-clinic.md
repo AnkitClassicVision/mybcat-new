@@ -100,7 +100,7 @@ Start with one workflow that is both meaningful and controlled. Suitable pilots 
 
 Set the pilot's boundaries in writing: participating locations, eligible call types, transfer triggers, approved answers, business owner, staff escalation path, and stop conditions. Establish baseline metrics before launch. During the pilot, review a representative sample of completed interactions and transfers, not only the automation percentage. An apparently high completion rate can mask callers who abandoned, received the wrong appointment type, or were transferred without context.
 
-Expand only when the group can show that the workflow is accurate, staff can support exceptions, and operating owners can maintain the rules. A staged rollout gives central operations time to identify differences between locations and resolve them before they become a larger patient-access issue. See our guide to [front-office standardization for group practices](/blog/optometry-front-office-standardization-group-practices/) for the operational foundation that makes that expansion more dependable.
+Expand only when the group can show that the workflow is accurate, staff can support exceptions, and operating owners can maintain the rules. A staged rollout gives central operations time to identify differences between locations and resolve them before they become a larger patient-access issue. See our guide to front-office standardization for group practices for the operational foundation that makes that expansion more dependable.
 
 ## How Do You Measure Whether AI Is Helping?
 

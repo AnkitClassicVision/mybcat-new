@@ -69,7 +69,7 @@ The first response should be observation, not a broad technology purchase. Revie
 
 Then remove the handoffs that add no decision value. If a request is routed between three people simply because nobody has defined authority to complete it, assign an owner and a decision rule. If the same data is entered in two places, determine which system is the record and whether the second entry is necessary. If a central team repeatedly sends work back to locations, examine whether the central team lacks the information, permission, or workflow design to finish the task.
 
-Groups should also be careful not to confuse speed with quality. A shorter call is not automatically a better patient-access experience. The useful outcome is the right next action, documented correctly, with a clear plan for exceptions. That is why an [optometry front-office standardization model](/blog/optometry-front-office-standardization-group-practices/) should include QA criteria for accuracy, ownership, and handoff quality, not only activity counts.
+Groups should also be careful not to confuse speed with quality. A shorter call is not automatically a better patient-access experience. The useful outcome is the right next action, documented correctly, with a clear plan for exceptions. That is why an optometry front-office standardization model should include QA criteria for accuracy, ownership, and handoff quality, not only activity counts.
 
 ## How Should Central and Local Teams Split Responsibility?
 

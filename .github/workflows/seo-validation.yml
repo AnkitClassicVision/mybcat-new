@@ -65,29 +65,6 @@ jobs:
           DIFF_BASE: ${{ github.event.before }}
         run: npm run validate:content-quality -- --changed-files-only
 
-      - name: Workspace integrity check (diagnostic)
-        run: |
-          echo "HEAD: $(git rev-parse HEAD)"
-          echo "--- porcelain ---"
-          git status --porcelain | head -40
-          echo "--- diff vs HEAD ---"
-          git diff HEAD --stat | tail -10
-          echo "--- untracked blog files ---"
-          git ls-files --others --exclude-standard src/content/blog/ | head -10
-          echo "--- aggregate content hash ---"
-          find src/content/blog -type f | sort | xargs md5sum | md5sum
-          echo "--- flagged-file evidence ---"
-          md5sum src/content/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic.md src/content/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture.md 2>&1
-          echo "link-count: $(grep -c 'optometry-front-office-standardization' src/content/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic.md || true)"
-          node --version; npm ls gray-matter 2>&1 | tail -2
-          echo "--- index flags (skip-worktree/assume-unchanged) ---"
-          git ls-files -v src/content/blog/ | grep -v "^H " | head -15
-          echo "--- git config filters/hooks ---"
-          git config --list --show-origin 2>/dev/null | grep -iE "filter|hookspath|template" | head -10
-          ls .git/hooks/ | grep -v sample | head -10
-          echo "--- runner identity ---"
-          hostname; whoami; pwd
-
       - name: Validate Cross-Links
         run: npm run validate:cross-links
 

@@ -51,7 +51,7 @@ Most failures are ordinary process failures rather than a lack of concern. A cal
 
 Growth makes that gap more likely. Acquired locations may use different phone trees, scheduling terminology, after-hours rules, and provider contact lists. Front-desk staff often learn workarounds by shadowing others, so a change at one office does not reach the rest of the group. Leaders then see a general complaint about access but cannot trace which handoff failed.
 
-The solution is not to make every location's clinical schedule identical. It is to standardize the handoff logic: who receives the call first, what information travels with it, how the receiving team acknowledges it, and how an unresolved request is surfaced. A [front-office standardization framework for optometry groups](/blog/optometry-front-office-standardization-group-practices/) can help separate enterprise-wide rules from legitimate local exceptions.
+The solution is not to make every location's clinical schedule identical. It is to standardize the handoff logic: who receives the call first, what information travels with it, how the receiving team acknowledges it, and how an unresolved request is surfaced. A front-office standardization framework for optometry groups can help separate enterprise-wide rules from legitimate local exceptions.
 
 ## What Should the First Person on the Call Do?
 

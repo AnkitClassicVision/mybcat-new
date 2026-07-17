@@ -45,7 +45,7 @@ For an optometry group, the operational value of an EHR is not simply that the c
 
 The practice-management layer should support the daily mechanics around that record: appointment types, provider templates, insurance and intake steps, recalls, billing handoffs, and reporting. It should be configured around a common operating vocabulary. If one location calls an appointment type "routine exam," another uses "annual," and a third uses a provider nickname, centralized scheduling and reporting become fragile before a call is even placed.
 
-Technology does not need to eliminate legitimate local differences. A specialty service, provider template, or site capacity constraint may deserve an approved exception. The group should document those exceptions, however, rather than letting each office create its own version of the core workflow. That is the same control problem addressed in [optometry front-office standardization for groups](/blog/optometry-front-office-standardization-group-practices/).
+Technology does not need to eliminate legitimate local differences. A specialty service, provider template, or site capacity constraint may deserve an approved exception. The group should document those exceptions, however, rather than letting each office create its own version of the core workflow. That is the same control problem addressed in optometry front-office standardization for groups.
 
 ## How Do EHRs and Practice-Management Systems Improve Daily Operations?
 

@@ -85,7 +85,7 @@ Teams should avoid language that creates an obligation the group cannot meet. Do
 
 Call language also needs to work across locations. If one office calls an appointment type by a different name, or one team uses a different explanation for the same policy, patient confidence and reporting both suffer. A centralized knowledge base with reviewed phrasing for frequent scenarios gives agents a reliable reference without forcing every conversation into a script.
 
-This is one reason [front-office standardization for optometry groups](/blog/optometry-front-office-standardization-group-practices/) should include phones, scheduling, and handoffs together. The words on the call need to match the process the patient encounters afterward.
+This is one reason front-office standardization for optometry groups should include phones, scheduling, and handoffs together. The words on the call need to match the process the patient encounters afterward.
 
 ## Which Calls Should a Centralized Team Own?
 

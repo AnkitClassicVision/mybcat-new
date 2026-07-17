@@ -51,7 +51,7 @@ Review a small set of linked measures with capture rate:
 
 These measures distinguish demand from process. A lower capture rate at one site may reflect a real difference in patient mix or provider schedule. It may also reflect an understaffed dispensary, a long gap between exam and optical support, or a callback list with no named owner. A shared scorecard lets leaders investigate the cause instead of assigning blame from a single percentage.
 
-For related guidance on making cross-site workflows visible, see [optometry front-office standardization for groups](/blog/optometry-front-office-standardization-group-practices/) and MyBCAT's [centralized scheduling model](/enterprise/centralized-scheduling/).
+For related guidance on making cross-site workflows visible, see optometry front-office standardization for groups and MyBCAT's [centralized scheduling model](/enterprise/centralized-scheduling/).
 
 ## What Causes Optical Capture Rate to Vary by Location?
 

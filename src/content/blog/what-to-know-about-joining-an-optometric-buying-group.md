@@ -53,7 +53,7 @@ Start with a twelve-month baseline by category and location. Separate recurring 
 
 The business case should also include membership dues, implementation work, ordering changes, training, rebates or reporting requirements, and the time a central team will spend administering the relationship. A useful review distinguishes a price concession from a dependable economic benefit. Finance should be able to trace the benefit to invoices, while operations should be able to explain any new approval rules or location exceptions.
 
-For groups that have grown through acquisition, this analysis can expose a wider issue: every location may be using a different purchasing habit. The same discipline used to standardize [front-office operations across an optometry group](/blog/optometry-front-office-standardization-group-practices/) applies here. Define what must be consistent, document legitimate exceptions, and give someone authority to resolve exceptions before they become routine.
+For groups that have grown through acquisition, this analysis can expose a wider issue: every location may be using a different purchasing habit. The same discipline used to standardize front-office operations across an optometry group applies here. Define what must be consistent, document legitimate exceptions, and give someone authority to resolve exceptions before they become routine.
 
 ## How Do Buying Groups, Alliances, and MSOs Differ?
 
@@ -61,7 +61,7 @@ Buying groups are primarily procurement vehicles. Their main contribution is col
 
 For a multi-location operator, the distinction comes down to the problem being solved. If the group’s main issue is the cost or consistency of frames, lenses, contacts, equipment, or related purchasing, a buying group may be a suitable part of the answer. If the constraint is inconsistent scheduling, fragmented reporting, staffing coverage, billing operations, or post-acquisition integration, procurement membership alone will not solve it.
 
-The comparison in [optometry buying groups versus MSOs](/blog/optometry-buying-groups-vs-management-services-organization/) is useful because it separates purchasing support from broader operational infrastructure. Neither model is automatically superior. A group can belong to a buying group while retaining an internal shared-services model, working with an MSO, or using a managed patient-access partner. The decision should follow the work that is actually breaking down.
+The comparison in optometry buying groups versus MSOs is useful because it separates purchasing support from broader operational infrastructure. Neither model is automatically superior. A group can belong to a buying group while retaining an internal shared-services model, working with an MSO, or using a managed patient-access partner. The decision should follow the work that is actually breaking down.
 
 Do not treat vendor discounts as evidence that a group has a scalable operating system. A network can have strong pricing and still struggle with inconsistent patient access, untracked callbacks, or location-specific workflows that make reporting unreliable.
 

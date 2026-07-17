@@ -46,7 +46,7 @@ That does not justify unmanaged variation. It means the group should distinguish
 
 The most common problem is fragmented visibility. One office treats its point-of-sale system as the source of truth, another keeps a spreadsheet, and a third relies on what the optician remembers. The corporate team then receives totals that cannot be compared because item names, receiving dates, returns, and adjustments are recorded differently.
 
-This is the same management problem addressed in [optometry front-office standardization](/blog/optometry-front-office-standardization-group-practices/): local workarounds become operating policy when no shared process exists. Inventory requires one accountable owner for the group standard, named owners at each location, and a documented exception path for special orders or local assortment changes.
+This is the same management problem addressed in optometry front-office standardization: local workarounds become operating policy when no shared process exists. Inventory requires one accountable owner for the group standard, named owners at each location, and a documented exception path for special orders or local assortment changes.
 
 ## Which Inventory Data Should Leaders Trust Before They Reorder?
 
