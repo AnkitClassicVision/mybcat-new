@@ -84,6 +84,7 @@ either bundle the WHOLE-post remediation into that lane's spec or leave the file
 - RE-RUN the evaluator/validator on every touched file in the integration worktree (belt and suspenders — lane checks
   ran in isolation; integration can differ).
 - Verify the diff touches ONLY files owned by passing lanes. Any stray path → drop the patch, log it, continue.
+- Run `npm run build` in the integration worktree — the evaluator does NOT enforce the Astro content schema (2026-07-16: a lane dropped the required `description` frontmatter field; evaluator passed, build broke). A red build blocks the push.
 - Commit (conventional message, session trailer), push branch, open PR with label `seo-cleanup-loop`; PR body lists
   per-class findings, lane results, and the exact live-verification probes for after merge.
 - Watch CI (`gh pr checks --watch`). CI red → fix within the run if a lane check missed something mechanical; otherwise
@@ -108,3 +109,7 @@ either bundle the WHOLE-post remediation into that lane's spec or leave the file
   Load average lies under D-state pileups — gate on CPU idle + mount write test. Failed lanes keep worktrees + patches — salvage
   before requeue. Bot-blocker 403s are not link rot. llama-3.3-70b:free unusable for repo tasks (64k ctx). gpt-5.6-terra 7/7
   first-try on whole-post remediation (~70k tok, ~3 min/post).
+- 2026-07-16 (batch 3, 59 lanes): evaluator PASS != build PASS — always `npm run build` at integration. .mdx posts need the
+  resolved filename in spec/check/verify (a worker created a duplicate .md to satisfy a wrong .md contract — lane check
+  can't catch a wrong contract; integration review caught it). Near-duplicate slugs (-2 posts) are a dedup decision, not
+  a remediation lane. Truncated patch names collide on 40-char slug prefixes — check before batching.
