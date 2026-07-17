@@ -1,25 +1,28 @@
 ---
 title: Multi-Location DSO KPIs for Enterprise Operators
 seoTitle: Multi-Location DSO KPIs for Enterprise Operators
-description: >-
-  Use this multi-location dso kpis playbook to align access, recall, QA,
+description: Use this multi-location dso kpis playbook to align access, recall, QA,
   integrations, and EBITDA impact across enterprise DSO operations at scale.
-seoDescription: >-
-  A multi-location dso kpis guide for COO and VP teams standardizing dashboards,
-  QA, integrations, and enterprise DSO operating cadence.
+seoDescription: A multi-location dso kpis guide for COO and VP teams standardizing
+  dashboards, QA, integrations, and enterprise DSO operating cadence.
 publishDate: '2026-07-17T10:46:40.847Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - multi-location dso kpis
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- multi-location dso kpis
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: enterprise
 featuredImage: /images/blog/multi-location-dso-kpis.webp
-canonical: 'https://mybcat.com/blog/multi-location-dso-kpis/'
+canonical: https://mybcat.com/blog/multi-location-dso-kpis/
+relatedPosts:
+- contact-center-qa-scorecard-dso
+- reporting-dashboard-multi-site-healthcare-operations
+- centralized-scheduling-rollout-multi-location-practices
 ---
+
 ## Table of Contents
 
 - [Why Do Multi-Location DSO KPIs Need Enterprise Design?](#why-do-multi-location-dso-kpis-need-enterprise-design)
