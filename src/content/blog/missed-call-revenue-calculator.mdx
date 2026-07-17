@@ -1,7 +1,7 @@
 ---
 title: "Missed Call Revenue Calculator for Healthcare Practices"
-seoTitle: "Missed Call Revenue Calculator for Healthcare Practices"
-seoDescription: "Estimate the revenue your multi-location healthcare group loses to missed calls. See how improving patient access and call handling impacts your bottom line."
+seoTitle: "Missed Call Revenue Calculator for Healthcare Groups"
+seoDescription: "Estimate revenue at risk from missed calls across your healthcare group, then build a defensible patient-access recovery plan from actual call data."
 description: "Estimate the revenue your multi-location healthcare group loses to missed calls. See how improving patient access and call handling impacts your bottom line."
 publishDate: 2025-12-18
 status: published
@@ -12,193 +12,149 @@ tags:
 - call-center
 - scheduling
 - efficiency
+cluster: patient-communications
 featuredImage: /images/blog/04-missed-call-revenue-calculator-featured-scaled.webp
 canonical: https://mybcat.com/blog/missed-call-revenue-calculator/
 ---
 
 import RevenueCalculator from '@/components/calculators/RevenueCalculator.tsx';
 
-How much revenue is your multi-location healthcare group losing to missed calls? Use this calculator to find out. Enter your practice details below and see the real financial impact, including what it means for your EBITDA and practice valuation. According to [CallRail's 2025 data](https://www.callrail.com/blog/healthcare-marketing-challenges), healthcare misses 32% of inbound calls (the highest of any industry). Most groups discover they're losing 5-15% of potential revenue they never knew was at risk.
+For a healthcare group with three or more locations, a missed call is not just a front-desk annoyance. It is an unobserved demand signal: a prospective patient, an existing patient trying to book, or a referral source reaching a queue that did not produce a documented next step. When that happens across many sites, the financial effect can be material while the operational evidence remains scattered across phone reports, voicemail, scheduling systems, and local workarounds.
 
-## Calculate Your Revenue Leak
+This calculator gives executives and patient-access leaders a disciplined starting estimate. It is not a revenue promise, nor a replacement for call-detail and scheduling data. Use it to frame the size of the question, identify the assumptions that need validation, and decide where to investigate first. For the operating model behind the estimate, see MyBCAT's [medical answering service for multi-location groups](/solutions/medical-answering-service/).
+
+## Table of Contents
+
+- [How Much Revenue Could Missed Calls Put at Risk?](#how-much-revenue-could-missed-calls-put-at-risk)
+- [What Does the Missed-Call Revenue Formula Actually Measure?](#what-does-the-missed-call-revenue-formula-actually-measure)
+- [Which Inputs Should an Enterprise Team Validate First?](#which-inputs-should-an-enterprise-team-validate-first)
+- [Why Can a Network Average Hide the Real Access Problem?](#why-can-a-network-average-hide-the-real-access-problem)
+- [How Should Leaders Read the EBITDA and Valuation Outputs?](#how-should-leaders-read-the-ebitda-and-valuation-outputs)
+- [What Costs Does the Calculator Intentionally Leave Out?](#what-costs-does-the-calculator-intentionally-leave-out)
+- [What Does a Credible Missed-Call Audit Look Like?](#what-does-a-credible-missed-call-audit-look-like)
+- [Which Operational Changes Usually Deserve a Pilot?](#which-operational-changes-usually-deserve-a-pilot)
+- [How Can a Group Use This Estimate in Its Next Operating Review?](#how-can-a-group-use-this-estimate-in-its-next-operating-review)
+
+## How Much Revenue Could Missed Calls Put at Risk?
+
+Enter a reasonable range for call volume, locations, missed-call rate, new-patient mix, conversion, and first-year patient value. The calculator translates those operating inputs into an annual revenue-at-risk scenario, then shows the potential EBITDA and enterprise-value implications using the assumptions displayed in the tool.
 
 <RevenueCalculator client:visible />
 
-## How We Calculate Your Revenue Loss
+The result is most useful as a range rather than a single precise answer. Start with a conservative case using measured call volume and a lower patient-value estimate. Then build a second case using the conditions your access team sees during peak periods. If the range is large, that is a finding: the group needs better attribution and queue reporting before it can make a confident staffing or vendor decision.
 
-This calculator uses industry-validated metrics from healthcare practices across the United States. Here's the methodology behind the numbers.
+## What Does the Missed-Call Revenue Formula Actually Measure?
 
-### The Formula
+The model estimates the value of demand that did not receive an answer during business operations. Its core logic is:
 
-**Annual Revenue Lost** = Daily Calls x Locations x Missed Rate x New Patient % x Conversion Rate x Patient LTV x 250 days
+**Annual Revenue at Risk = Daily Calls × Locations × Missed-Call Rate × New-Patient Share × Booking Conversion × First-Year Patient Value × Business Days**
 
-### Specialty-Specific Values
+Each input carries a different management question. Daily calls and locations define demand exposure. The missed-call rate reveals whether the access model was available at the moment demand arrived. New-patient share and booking conversion narrow the calculation to calls with a plausible acquisition outcome. First-year patient value keeps the estimate anchored to a finance-approved value rather than an aspirational lifetime-value figure.
 
-We use conservative Year 1 patient values based on published industry research:
+The calculator uses 250 business days as an annual planning convention. Your group should substitute its own operating calendar when it differs, especially when certain locations have Saturday hours, extended evening coverage, or seasonal volume changes.
 
-| Specialty | Year 1 Patient Value | Call-to-Appointment Conversion | Source |
-|-----------|---------------------|-------------------------------|--------|
-| **Dental** | $1,200 | 65% | [Delmain](https://web.archive.org/web/20240625193408/https://delmain.co/blog/average-lifetime-value-dental-patient/) |
-| **Optometry** | $800 | 70% | Review of Optometric Business |
-| **Ophthalmology** | $1,500 | 60% | Industry average for surgical specialty |
-| **Veterinary** | $2,000 | 55% | [iVET360 2025 Report](https://ivet360.com/2025-veterinary-marketing-benchmark-report/) |
-| **Other Healthcare** | $1,000 | 60% | Industry average |
+### Use first-year value before lifetime value
 
-Note: These are conservative Year 1 estimates only. Full patient lifetime values are significantly higher. Dental practices report LTVs of $4,200-$7,500, optometry $4,000 over 10 years, ophthalmology $5,000-$10,000 with surgical procedures, and veterinary $15,000 per client.
+First-year patient value is generally the more defensible input for an access business case. It can be reconciled to actual collections or recognized revenue by service line and location. Lifetime value may be appropriate for strategic planning, but it compounds assumptions about retention, treatment acceptance, payer mix, and future capacity. Do not present lifetime-value output as booked revenue.
 
-### EBITDA and Valuation Assumptions
+### Treat conversion as a workflow measure
 
-- **EBITDA Flow-Through**: 25% of recovered revenue flows to EBITDA (accounting for variable costs)
-- **Valuation Multiple**: 8x EBITDA (mid-point of [6-12x range](https://focusbankers.com/dental-practice-valuation/) for healthcare group acquisitions)
+The conversion input should reflect what happens after a qualified caller reaches a trained representative. It is not a measure of clinical need, and it should not be borrowed from a marketing report without checking its definition. A group may have different conversion rates for new-patient exams, specialty consultations, urgent slots, and existing-patient rescheduling. If those flows are materially different, model them separately rather than using a blended network average.
 
-## Understanding Your Results
+## Which Inputs Should an Enterprise Team Validate First?
 
-Here's what each metric means for your organization:
+Most inaccurate revenue-leak models fail because they begin with a benchmark instead of the group's own data. A stronger sequence is to validate the inputs that are both high-impact and easy to audit.
 
-**Daily Missed Calls**: The total number of calls going unanswered across all your locations every business day. According to [Keona Health](https://www.keonahealth.com/resources/missed-calls-healthcare-call-abandonment-roi), the average healthcare practice misses 29% of calls. Dental practices can be higher during peak hours.
+Start with inbound call attempts by location and time block. Then establish a shared definition of a missed call. Does it mean a call abandoned before an agent answered, a call routed to voicemail, a callback task without timely ownership, or a caller transferred to a queue that never resolved the request? Those are different failures. Combining them may be useful for executive reporting, but the underlying data should remain distinct.
 
-**Monthly Lost Opportunities**: The number of potential new patient inquiries that never get answered. These are people who picked up the phone specifically to become your patient.
+Next, reconcile answered calls to scheduled appointments and then to the financial value your organization uses for new-patient planning. The [patient access center metrics framework](/blog/patient-access-center-metrics-healthcare-executives/) explains why common definitions matter when results are compared across locations. A clean numerator and denominator will give leadership a smaller but more credible estimate than a broad percentage pulled from an external benchmark.
 
-**Annual Revenue Lost**: This is the conservative estimate of revenue walking out the door. It only counts new patient lifetime value. It doesn't include the marketing dollars wasted acquiring leads you never spoke to.
+Finally, segment the data before deciding that one location has a performance problem. A site with a high share of complex referrals, emergency requests, or specialty calls may need a different workflow and service expectation from a routine scheduling location. The point is to identify recoverable demand, not to turn a single answer-rate target into a blunt ranking tool.
 
-**5-Year Compounded Loss**: Revenue compounds. The patients you lose this year don't refer their friends. They don't come back for follow-up care. This number shows the true long-term cost.
+## Why Can a Network Average Hide the Real Access Problem?
 
-**EBITDA Impact**: For PE-backed groups and owners considering a transaction, this is the number that matters. Every dollar of EBITDA you're losing translates directly to enterprise value.
+Network averages can look acceptable while particular locations or time windows are losing a disproportionate share of demand. A group might answer most calls at noon yet fail repeatedly during the Monday-morning rush, in late afternoon, or when a campaign sends demand to a location whose schedule is already constrained.
 
-**Valuation Impact**: At an 8x multiple, your EBITDA loss multiplies into a significant reduction in what your group is worth. A $500,000 EBITDA leak costs you $4 million in valuation.
+For that reason, executives should ask for an answer-rate view by location, hour, source number, and call disposition. Pair it with abandonment, callback completion, appointment booked, and unresolved-request measures. The operational story becomes clearer when the data shows where callers entered the system and whether somebody owned the next step.
 
-## Benchmarks: How Do You Compare?
+This is also where centralized operations can help. A [patient access center](/enterprise/patient-access-center/) can create a common queue and reporting layer while still honoring location-specific calendars, provider rules, and escalation paths. Centralization is not valuable merely because calls are pooled. It is valuable when a caller can reach a trained team with the authority, information, and capacity to resolve an ordinary scheduling request.
 
-### Answer Rate Benchmarks
+## How Should Leaders Read the EBITDA and Valuation Outputs?
 
-| Performance Level | Answer Rate | What It Means |
-|-------------------|-------------|---------------|
-| **Elite** | 95%+ | Top 10% of multi-location groups |
-| **Good** | 85-94% | Above average, room for improvement |
-| **Average** | 70-84% | Industry standard, significant leak |
-| **Below Average** | Less than 70% | Critical revenue loss |
+The calculator applies an EBITDA flow-through assumption and a valuation multiple to make the finance discussion visible. Those outputs are planning scenarios, not a valuation opinion. Recovered top-line revenue does not automatically become EBITDA: the contribution depends on payer mix, provider capacity, labor, marketing expense, service line, and the cost of the access program itself.
 
-According to [CloudTalk](https://www.cloudtalk.io/blog/healthcare-call-center-benchmarks/), top-performing healthcare call centers achieve 80% of calls answered within 20 seconds. The average healthcare practice falls far short of this benchmark.
+Use the EBITDA output to ask a more useful question: after incremental staffing, technology, management, and implementation costs, what contribution margin could this recovered demand produce? Finance should own the margin assumption. Operations should own the evidence that demand was answered, booked, and completed. Neither side should treat a call answer as proof of realized revenue.
 
-### By Specialty
+For acquisition-active groups, this distinction matters during diligence and integration. A missed-call issue may represent an operational improvement opportunity, but only measured booking, attendance, and financial performance can support an enterprise-value conclusion. The broader [healthcare call center ROI framework](/blog/healthcare-call-center-roi-enterprise/) provides a useful way to separate revenue generated, revenue protected, and operating cost.
 
-- **Dental DSOs**: Average 60-70% answer rate during peak hours
-- **Optometry Groups**: Average 75-80% answer rate
-- **Veterinary Groups**: Average 70-75% (challenged by emergency call volume)
+## What Costs Does the Calculator Intentionally Leave Out?
 
-## Hidden Costs Not Included in This Calculation
+The calculator focuses on a narrow and explainable scenario: revenue associated with new-patient demand that a group may not have captured because a call was missed. It does not attempt to price every consequence of weak access.
 
-The calculator shows direct revenue loss from missed new patients. The actual cost is higher.
+It does not include marketing spend associated with unanswered leads, repeat contacts from established patients, referral leakage, staff interruption, overtime, rework, reputation effects, or the cost of changing the operating model. Those effects can matter, but they should be modeled with their own evidence instead of being stacked into one dramatic number.
 
-### Marketing Waste
+It also does not measure clinical outcomes. Call handling and scheduling are administrative workflows. Any after-hours escalation, triage, or clinical guidance process must be designed and approved by the group's clinical and compliance leadership. The relevant operating goal is clear ownership and appropriate routing, not a promise about care outcomes.
 
-If you're spending $50,000/month on marketing and missing 30% of resulting calls, you're wasting **$15,000 monthly** (about $180,000 annually) on leads you never spoke to. [Keona Health cites Invoca data](https://www.keonahealth.com/resources/missed-calls-healthcare-call-abandonment-roi) indicating that large healthcare systems waste up to $383,827 per month in marketing spend from unanswered calls.
+## What Does a Credible Missed-Call Audit Look Like?
 
-### Staff Burnout and Turnover
+A credible audit links phone data to workflow and financial evidence. Begin with a defined period, usually 60 to 90 days, and include all locations rather than selecting only the loudest complaints. Keep the raw data available for reconciliation, but report the findings in a format an executive team can use.
 
-Front desk staff choosing between ringing phones and patients standing in front of them experience constant stress. According to [MGMA workforce data](https://www.mgma.com/mgma-stat/can-staff-turnover-continue-to-be-tamed-in-medical-practices-into-2026), this contributes to **30-40% annual turnover** in healthcare front desk positions. Each turnover costs $15,000-$25,000 in recruiting, training, and lost productivity.
+First, map every inbound path: published numbers, location lines, marketing tracking lines, after-hours lines, and any overflow queues. Confirm which platform owns the call record and whether transfers create duplicate events. Second, classify call outcomes using a small set of mutually exclusive dispositions, such as answered and resolved, abandoned, voicemail, callback completed, callback overdue, scheduled, or transferred for clinical escalation.
 
-### Reputation Damage
+Third, sample recordings or interaction records to test whether the disposition tells the truth. A call marked "answered" may still have ended in a transfer, a promise to call back, or an incomplete registration. Fourth, join the scheduling data to the appropriate call or task record, using a documented attribution window. That step distinguishes activity from a completed booking.
 
-According to [Keona Health research](https://www.keonahealth.com/resources/missed-calls-healthcare-call-abandonment-roi), **85% of callers won't try calling back** after an unanswered attempt. [Patient10x reports](https://www.patient10x.com/content-hub/the-500-000-problem-how-missed-calls-are-destroying-medical-practice-revenue-in-2025) that **67% of healthcare consumers will call a competitor** if not answered quickly. Every missed call is a patient who may tell friends about their frustrating experience.
+The result should show both a baseline and a prioritized failure pattern: which location, time block, queue, or workflow produces the most unresolved demand. Teams comparing an internal model with external coverage can use the [enterprise call-answering guide](/blog/enterprise-call-answering-healthcare/) to frame the operating requirements beyond answer rate alone.
 
-### Data Blind Spots
+## Which Operational Changes Usually Deserve a Pilot?
 
-Without call analytics, you're making staffing decisions, marketing allocations, and expansion plans without fundamental data about patient demand.
+The right response depends on the failure pattern. If missed calls cluster around predictable peaks, centralized overflow with shared scheduling access may be more useful than adding isolated front-desk capacity at every location. If callbacks are late or inconsistently owned, the first fix may be a queue policy, named owner, and escalation threshold. If after-hours calls produce voicemail but patients expect a response, the group needs a clinically approved after-hours protocol before it changes coverage.
 
-## What Top-Performing Groups Do Differently
+Run the change as a bounded pilot. Choose one or two representative locations, define the included call types, document booking permissions and escalation rules, and establish a baseline. Review answer rate, abandoned calls, callback timeliness, booking completion, quality findings, and incremental operating cost. The [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/) can help leaders distinguish a coverage problem from an intake-design problem.
 
-Healthcare groups achieving 95%+ answer rates share common characteristics:
+Avoid a rollout that measures success only by volume answered. A central team can answer more calls while creating new friction if it cannot see current availability, cannot complete registration, or has to hand work back to the location without accountability. The desirable end state is a consistent, auditable next step for the caller and a reporting model that shows where exceptions remain.
 
-### 1. Centralized Overflow Handling
+## How Can a Group Use This Estimate in Its Next Operating Review?
 
-Rather than expecting each location to handle peak volume independently, they route overflow to a centralized team that can schedule across all locations.
+Bring two versions of the calculator output to the review: a conservative scenario based on measured data and a sensitivity scenario that tests the peak-period failure rate. Alongside the outputs, bring the input definitions, source systems, reporting period, and any exclusions. That package gives operations and finance something they can challenge constructively.
 
-### 2. Real-Time Visibility
+The meeting should end with one decision, not a general instruction to improve calls. Examples include funding a call-data cleanup, piloting overflow coverage at a defined set of sites, setting a callback ownership standard, or requiring a location-by-hour access dashboard. Assign an owner, a review date, and a decision rule for whether the pilot expands, changes, or stops.
 
-Leaders see current answer rates, calls in queue, and staff availability across the organization at any moment.
+For groups evaluating a managed model, the comparison should include integration scope, booking authority, quality assurance, reporting access, privacy safeguards, rollout support, and the full operating cost. Explore MyBCAT's [enterprise healthcare services](/enterprise/) and [patient access solutions](/solutions/) when you are ready to define the required coverage model.
 
-### 3. After-Hours Coverage
-
-Instead of voicemail, callers reach trained representatives who can schedule appointments and triage urgent situations. Industry data shows 20-40% of healthcare calls occur outside standard business hours.
-
-### 4. Staffing Aligned to Call Patterns
-
-If Monday 9-11am generates 3x the call volume of Thursday afternoon, staffing reflects that reality.
-
-### 5. Technology Integration
-
-Phone systems integrated with practice management software enable screen pops, one-click scheduling, and automatic call logging.
-
-## Next Steps: From Data to Action
-
-Now that you know the cost, here's what to do about it.
-
-### Immediate Actions
-
-- **Get your actual data**: Pull call reports for the last 90 days and calculate your real missed call rate
-- **Identify peak problem times**: When are calls going unanswered?
-- **Calculate your specific cost**: Use your actual numbers in this calculator
-
-### Strategic Solutions
-
-For groups serious about closing the revenue leak:
-
-- **Overflow call handling** ensures no call goes unanswered during peak times
-- **After-hours coverage** captures the 20-40% of calls outside business hours
-- **Real-time dashboards** provide visibility to fix problems before they cost revenue
-- **Integrated scheduling** lets trained representatives book across all locations
-
-## Key Takeaways
-
-- Multi-location healthcare groups lose **5-15% of potential revenue** to missed calls
-- Healthcare misses **32% of inbound calls** (the highest of any industry)
-- **85% of callers won't call back** after an unanswered attempt
-- Top-performing groups maintain **95%+ answer rates** with proper systems
-- For PE-backed groups, recovered revenue adds **6-12x to enterprise value** through EBITDA multiples
-- The solution isn't hiring more staff. It's implementing systematic overflow and after-hours coverage.
-
-### Stop the Revenue Leak
-
-Schedule a free consultation to see exactly how much revenue your multi-location group is losing, and how to recover it within 90 days.
-
-[Get Your Free Revenue Assessment](/contact/)
+<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
+  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Improve Your Patient Retention?</h3>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices recapture missed calls and automate patient scheduling so no opportunity slips through the cracks.</p>
+  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
+</div>
 
 ## Frequently Asked Questions
 
-### How accurate is this calculator?
+### How accurate is the calculator?
 
-This calculator uses industry-standard metrics from healthcare practices nationwide. Your actual numbers may vary based on your specific call volume, patient demographics, and service mix. For a precise analysis, we recommend pulling your actual call data and scheduling a revenue assessment.
+It is a scenario tool. Its accuracy depends on the quality of your call-volume, missed-call, booking-conversion, and first-year-value inputs. Use measured internal data wherever possible and treat the output as a planning estimate until it is reconciled to call records and scheduling outcomes.
 
-### What if I don't know my missed call rate?
+### What if we do not know our missed-call rate?
 
-The industry average for healthcare practices is 29-32%, with dental practices averaging 35-42% during peak hours. If you don't have call tracking data, start with 30% as a reasonable estimate, then invest in call analytics to get your real numbers.
+Do not substitute a generic industry figure as a final answer. Pull call-detail records for a defined period, document what counts as missed, and separate abandoned calls, voicemail, unanswered callbacks, and transfers. If the phone system cannot support that analysis, improving data visibility is likely the first action.
 
-### Are these lifetime values realistic?
+### Does a higher answer rate translate into more revenue?
 
-Yes. These are conservative estimates based on published industry research. Dental LTV of $1,200 assumes basic care only. Actual LTV for patients who accept treatment plans can be $4,200-$7,500. Veterinary LTV can reach $15,000 per client according to iVET360's 2025 benchmark report.
+No. Answer rate is an access measure, not a revenue promise. Revenue depends on whether the caller had a bookable need, received an appropriate next step, attended the appointment, and generated value under the group's financial model. Measure the complete path.
 
-### How does this affect my practice valuation?
+### Should every missed call be routed to the same centralized queue?
 
-For PE-backed groups, EBITDA is the primary valuation metric. Every dollar of recovered revenue flows 20-30% to EBITDA, which then multiplies by 6-12x in valuation. A $1M revenue recovery can add $1.5-3M to enterprise value.
+Not necessarily. Routine scheduling, referral intake, billing questions, urgent clinical concerns, and after-hours requests may require different permissions and escalation paths. Centralization works when the routing rules are explicit and the team receiving the call can complete the assigned work.
 
-### What's the fastest way to improve my answer rate?
+## Related Reading
 
-Centralized overflow handling provides the fastest improvement. By routing calls that would otherwise go unanswered to a trained team, groups typically see 15-25 percentage point improvement in answer rates within the first 30 days, based on MyBCAT client results.
+- [The Missed-Call Revenue Leak in Multi-Location Healthcare](/blog/missed-calls-revenue-leak-multi-location-healthcare/)
+- [Patient Access Center Metrics for Healthcare Executives](/blog/patient-access-center-metrics-healthcare-executives/)
+- [Healthcare Call Center ROI for Enterprise Organizations](/blog/healthcare-call-center-roi-enterprise/)
+- [Multi-Location Healthcare Intake Solutions](/blog/multi-location-healthcare-intake-guide/)
+- [Medical Answering Service for Healthcare Groups](/solutions/medical-answering-service/)
 
-### Does MyBCAT integrate with my PM system?
+## Sources
 
-MyBCAT integrates with all major practice management systems including Dentrix, Eaglesoft, Open Dental, Compulink, Crystal PM, Cornerstone, and others. This enables real-time scheduling and patient record access.
-
-## Related Resources
-
-- [The $1.2M Leak: How Multi-Location Healthcare Groups Lose Revenue to Missed Calls](/blog/missed-calls-revenue-leak-multi-location-healthcare/) – Full breakdown of the missed call problem
-- [Multi-Location Healthcare Intake Solutions: The Complete Guide](/blog/multi-location-healthcare-intake-guide/) – Comprehensive framework for evaluating intake solutions
-
-*Last Updated: December 2025*
-
-*Sources: [CallRail Healthcare Marketing 2025](https://www.callrail.com/blog/healthcare-marketing-challenges), [Keona Health](https://www.keonahealth.com/resources/missed-calls-healthcare-call-abandonment-roi), [Dialog Health](https://www.dialoghealth.com/post/healthcare-call-center-statistics), [Delmain Dental LTV](https://web.archive.org/web/20240625193408/https://delmain.co/blog/average-lifetime-value-dental-patient/), Review of Optometric Business, [iVET360 2025 Benchmark Report](https://ivet360.com/2025-veterinary-marketing-benchmark-report/), [Focus Bankers Dental Valuation](https://focusbankers.com/dental-practice-valuation/)*
-
----
-
-*Need help managing your practice's calls and scheduling? [Book a discovery call](/contact/) to learn how MyBCAT can help.*
+1. [Implementing Central Scheduling to Support Practice Growth and Success in the Accountable Care Environment](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment), Medical Group Management Association
+2. [Tips to Improve Healthcare Call Center Efficiency](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency), Medical Group Management Association
+3. [Patient Communication](https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication), American Optometric Association
