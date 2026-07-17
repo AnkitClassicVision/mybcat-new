@@ -1,10 +1,9 @@
 ---
 title: Vendor Evaluation Criteria for Patient Access Outsourcing
-seoTitle: Vendor Evaluation Criteria for Patient Access Outsourcing
+seoTitle: Patient Access Outsourcing Vendor Evaluation Criteria
 description: A practical vendor evaluation framework for multi-location healthcare
   groups outsourcing patient access operations.
-seoDescription: Compare patient access outsourcing vendors on compliance, workflows,
-  reporting, technology, staffing, and rollout fit.
+seoDescription: Evaluate patient access outsourcing vendors with criteria for compliance, workflow design, staffing, reporting, and rollout across multi-location groups.
 publishDate: '2026-07-24'
 status: scheduled
 scheduledDate: '2026-07-24'
@@ -14,246 +13,121 @@ tags:
 - vendor evaluation patient access outsourcing
 - multi-location
 - enterprise operations
-cluster: enterprise
+cluster: bpo-outsourcing
 featuredImage: /images/blog/vendor-evaluation-patient-access-outsourcing.webp
 canonical: https://mybcat.com/blog/vendor-evaluation-patient-access-outsourcing/
 targetKeyword: "vendor evaluation patient access outsourcing"
 ---
+
 ## Table of Contents
 
-- [Define the Operating Model Before Comparing Vendors](#define-the-operating-model-before-comparing-vendors)
-- [Evaluate Compliance, Contracting, and PHI Controls](#evaluate-compliance-contracting-and-phi-controls)
-- [Assess Scheduling and Access Workflow Quality](#assess-scheduling-and-access-workflow-quality)
-- [Compare Staffing, Training, and Management Depth](#compare-staffing-training-and-management-depth)
-- [Validate Technology, Integrations, and Reporting](#validate-technology-integrations-and-reporting)
-- [Evaluate Financial Fit Without Chasing Unsupported Promises](#evaluate-financial-fit-without-chasing-unsupported-promises)
-- [Run the Evaluation Like an Enterprise Buying Process](#run-the-evaluation-like-an-enterprise-buying-process)
-- [CTA: Evaluate Patient Access Outsourcing With the Right Filter](#cta-evaluate-patient-access-outsourcing-with-the-right-filter)
+- [What should a multi-location group define before comparing vendors?](#what-should-a-multi-location-group-define-before-comparing-vendors)
+- [How should the buying committee assess PHI and compliance controls?](#how-should-the-buying-committee-assess-phi-and-compliance-controls)
+- [What proves a vendor can execute scheduling and access workflows?](#what-proves-a-vendor-can-execute-scheduling-and-access-workflows)
+- [Which staffing and management questions reveal service depth?](#which-staffing-and-management-questions-reveal-service-depth)
+- [How should executives evaluate technology and reporting?](#how-should-executives-evaluate-technology-and-reporting)
+- [What commercial terms should the group test before selection?](#what-commercial-terms-should-the-group-test-before-selection)
+- [How should a group run a pilot and make the final decision?](#how-should-a-group-run-a-pilot-and-make-the-final-decision)
 
+For a multi-location healthcare group, patient access outsourcing is not a call-center purchase. It changes how patients reach the organization, how appointments are routed, how site teams receive unresolved work, and how leaders see demand across the portfolio. The vendor therefore becomes part of the operating model, not simply a source of extra phone coverage.
 
+That distinction matters when a group has three or more locations. A weak partner can centralize inconsistency: agents receive conflicting scheduling rules, local teams inherit unclear callbacks, and executives get activity counts without a view of whether work was actually completed. A well-governed model can give the organization a shared queue, controlled exceptions, clearer escalation, and comparable reporting.
 
-For multi-location healthcare groups, patient access outsourcing is not just a call center decision. It changes how patients enter the system, how locations coordinate schedules, how insurance work gets started, how front desks are protected from overload, and how executives see demand across the network.
+This guide is for COOs, VPs of Operations, patient-access leaders, and procurement teams evaluating an outsourced access function. It focuses on the evidence a vendor should provide before a contract, pilot, or expansion. For the broader operating model behind the decision, start with MyBCAT's [front desk outsourcing solution](/solutions/front-desk-outsourcing/).
 
-That is why vendor evaluation has to go deeper than price per call or promises about staffing availability. A buying committee should test whether the vendor can support the operating model the group is actually trying to build: centralized scheduling, consistent patient communication, location-specific routing, clean handoffs, reliable reporting, and appropriate controls for PHI-bearing workflows.
+## What should a multi-location group define before comparing vendors?
 
-The right partner should make access easier to manage across sites.
+Do not ask vendors to design the problem for you. Before demos begin, the group should define the patient-access work it wants to centralize, the work that remains local, and the outcomes leadership expects to improve. Without that foundation, each stakeholder evaluates proposals against a different future state.
 
-Use the criteria below to evaluate patient access outsourcing vendors before signing a contract, launching a pilot, or expanding a small virtual assistant model into an enterprise access function.
+Start with a workflow inventory rather than a generic request for call coverage. List new-patient scheduling, established-patient scheduling, recalls, confirmations, reschedules, message intake, referral routing, insurance-related intake, portal support, and after-hours handling separately. For each workflow, name the initiating event, the system of record, the required information, the permissible agent action, and the owner if the task cannot be completed.
 
-## Define the Operating Model Before Comparing Vendors
+The inventory should also distinguish repeatable work from location-specific exceptions. A shared team may be able to handle common appointment requests under a standard playbook. A provider-specific template restriction, a service-recovery callback, or a clinical question may require a controlled handoff. The goal is not to force every activity into one queue. It is to prevent exceptions from becoming undocumented local workarounds.
 
-A vendor cannot be evaluated cleanly until the group agrees on what work should move out of the local offices. Otherwise, each stakeholder judges the vendor against a different imagined future.
+This is also the right time to decide whether the organization is pursuing centralized access or simply adding flexible capacity to site teams. Those are different models with different management needs. The [centralized versus distributed intake framework](/blog/centralized-vs-distributed-intake-framework/) can help a buying committee make that distinction before it compares staffing models or pricing.
 
-### Clarify Which Workflows Are In Scope
+Ask every vendor to map its proposed scope to your workflow inventory. A credible response makes clear what the team can do today, what needs configuration or training, what requires access to a specific system, and what falls outside the proposed service. Broad assurances that a team can "handle anything" are not a substitute for an explicit operating boundary.
 
-Patient access can include new patient calls, established patient scheduling, recall outreach, appointment reminders, eligibility checks, prior authorization support, referral routing, patient financial conversations, portal support, and post-call documentation. Some vendors are built around simple answering services. Others can support more complex access workflows tied to revenue cycle and centralized operations.
+## How should the buying committee assess PHI and compliance controls?
 
-MGMA describes how practices use revenue cycle vendors across areas such as billing, eligibility checks, patient financial services, analytics, compliance, and automation. That matters because access work often touches the same upstream data and handoffs as revenue cycle work, even when the immediate task is scheduling or call handling.
+Patient-access work can involve appointment context, contact details, insurance information, call recordings, and messages connected to care. That makes privacy and security review a working part of vendor selection, not a last legal step after the commercial decision is made. The Office of the National Coordinator's [privacy, security, and HIPAA guidance](https://www.healthit.gov/topic/privacy-security-and-hipaa) is a useful starting point for discussing how health information should be protected within health IT workflows.
 
-Before vendor demos, define the exact workflow list. Separate must-have work from future-state work. Then ask each vendor to show which functions are live today, which require customization, and which are outside their model.
+The group should involve its compliance and legal stakeholders early enough to review the proposed data flow. Ask where agents will work, what systems they will access, how permissions are assigned, how access is removed, how notes and recordings are stored, and how the vendor reports a suspected incident. A business associate agreement may be necessary when the arrangement involves protected health information; the group's legal and compliance teams should determine the applicable contract requirements for the proposed scope.
 
-### Decide What Stays Local
+The practical test is whether the vendor can explain controls in the context of a real call. For example, if a caller requests an appointment at a different location, the vendor should be able to describe what an agent may view, where the outcome is documented, which team receives an exception, and how the group can audit the activity. A statement that staff receive privacy training does not answer those questions by itself.
 
-Not every patient access task should be centralized. Some scenarios may still require location judgment, provider preference knowledge, clinical escalation, or in-office follow-up.
+Review third parties as well. Telephony, recording, workforce-management, QA, analytics, messaging, and knowledge-base tools can all affect the information flow. Request a current list of material subcontractors and platforms used in delivery, then ask who owns vendor oversight, incident coordination, and offboarding. This discussion should include the boundary between group-owned systems and vendor-owned tools.
 
-For each workflow, document the handoff point. A useful evaluation question is: "When your team cannot complete the task, what exactly happens next?" The answer should include where the task is documented, who receives it, what priority label is used, and how unresolved items are tracked.
+For groups with several brands, locations, or practice-management environments, test for wrong-location risk. Agents need reliable identifiers, routing rules, and permission boundaries so they do not rely on memory or informal chat messages. The vendor's answer should show a controlled process for access, not merely confidence that errors will be caught later.
 
-A vendor that cannot explain the handoff clearly is not ready to operate across a multi-location group.
+## What proves a vendor can execute scheduling and access workflows?
 
-### Match Vendor Scope to Governance Capacity
+The clearest evidence is a scenario exercise. A polished dashboard and a staffing chart reveal little about whether an agent can find the correct scheduling rule, document a callback, or escalate an exception without creating a second task for the local office.
 
-It changes the type of management required. The internal team still needs ownership for scripts, escalation rules, location updates, performance review, QA calibration, and change control.
+Give finalists the same short set of non-PHI scenarios. Include a new patient seeking the earliest appropriate appointment across locations, an established patient who needs a particular visit type, a caller with incomplete insurance information, a provider schedule change, and a request that must be routed to a clinical team. Ask the vendor to explain the agent path, system action, documentation standard, escalation point, and final owner for each one.
 
-If the group has limited central operations capacity, a narrower first phase may be safer. If the group already has a patient access leader, standardized scheduling rules, and reliable dashboards, a broader outsourcing model may be realistic. The evaluation should reflect the group’s ability to govern the vendor after go-live, not only the vendor’s sales materials.
+Watch for the details that determine operational quality. How does an agent know which location has the right availability? What happens when two systems show different information? Can the agent use a defined reason code when a task cannot be resolved? How long can the task remain open, and who sees it? If the vendor cannot answer those questions during a controlled exercise, the issue will not become simpler after launch.
 
-## Evaluate Compliance, Contracting, and PHI Controls
+Central scheduling is a useful reference point because it requires disciplined rules rather than good intentions. MGMA's resource on [implementing central scheduling](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment) emphasizes the operational considerations involved in supporting practice growth through a centralized model. For a group evaluating outsourcing, the question is whether the vendor can operate inside those rules and surface the exceptions that need an internal decision.
 
-Patient access vendors may handle names, phone numbers, insurance details, appointment information, call recordings, billing questions, and other sensitive information.
+Do not turn the outsourced team into a clinical decision maker. The group should define when calls must be transferred or routed to qualified internal personnel, and the vendor should demonstrate that those thresholds are clear in training, scripts, and QA. An access partner can support the administrative workflow around an escalation; it should not be selected on claims that it can replace clinical judgment.
 
-### Require Business Associate Contract Readiness
+## Which staffing and management questions reveal service depth?
 
-HHS explains HIPAA business associate contract requirements, including permitted PHI uses, safeguards, breach reporting, subcontractor obligations, and termination rights. For patient access outsourcing, this is central because the vendor may handle scheduling, eligibility, billing, or other PHI-bearing workflows.
+Outsourced patient access remains a people-intensive service. Technology can route, document, and report work, but agent training, supervision, QA calibration, and change management determine whether the service is consistent across locations.
 
-Do not treat the business associate agreement as an afterthought after pricing is approved. Ask for the vendor’s standard BAA early.
+Ask how the vendor trains agents on your specialty, brands, locations, scheduling templates, systems, privacy requirements, and escalation logic. Initial onboarding is only the first test. Multi-location groups acquire offices, add providers, change templates, update payer rules, and modify scripts. The vendor should show how an approved change reaches agents, how its knowledge base is versioned, and how supervisors confirm that the new rule is being followed.
 
-A strong vendor should be comfortable discussing how its contract language aligns with operational reality. If the vendor says a BAA is unnecessary while also proposing to handle PHI-bearing work, pause the evaluation.
+Then ask about the management layer. Who monitors queues? Who reviews recordings or documented interactions? Who coaches an agent after an error? Who owns the root-cause analysis if the same routing failure appears in several locations? A managed service should offer more than a roster of people. It should include named operating roles, a cadence for review, and a process for preventing a recurring problem from becoming normal.
 
-### Test Safeguards in the Actual Workflow
+Request examples of the vendor's QA scorecard before selection. The scorecard should distinguish courtesy or basic call handling from operational accuracy. Useful categories can include adherence to the approved workflow, correct location routing, documentation completeness, required escalation, and closure of follow-up tasks. Your internal team should be able to calibrate the scorecard with the vendor, which is why [multi-location call center QA calibration](/blog/multi-location-call-center-qa-calibration-healthcare/) belongs in the implementation plan rather than after it.
 
-Contract language matters, but the operating model matters too. Ask how agents authenticate callers, what information is visible during calls, how notes are entered, how access permissions are managed, how call recordings are stored, and how offboarding works when vendor staff leave.
+Finally, evaluate communication during the sales process. Does the vendor ask for the details needed to execute the model? Does it identify assumptions and dependencies? Does it explain where a request exceeds its current capability? Those behaviors give the buying committee evidence beyond generic assurances about experience.
 
-Avoid vague answers such as "our team is trained on privacy." Training is only one piece. The buying committee should understand the controls around systems access, role-based permissions, audit trails, secure communication, incident escalation, and documentation practices.
+## How should executives evaluate technology and reporting?
 
-For multi-location groups, tenant and location boundaries also matter. The vendor should be able to explain how staff avoid routing errors, wrong-location scheduling, and inappropriate access to data outside the assigned workflow.
+Technology fit is not a list of logos. It is the ability to create one reliable record of each workflow outcome and to give leaders information they can act on. A vendor may work effectively in a group-owned EHR, PMS, phone system, ticketing platform, or reporting environment, but the responsibility for each step must be explicit.
 
-### Review Subcontractors and Tooling
+For every in-scope call type, document the system of record. If an appointment is booked, where does it appear? If a callback is required, who creates the task and where can the receiving office see it? If an agent cannot complete an insurance-related intake step, what note is required and how is aging tracked? A temporary workaround may be acceptable during a limited pilot, but it should not become a permanent hidden spreadsheet or inbox.
 
-Many outsourcing vendors rely on supporting tools for telephony, workforce management, QA, analytics, secure messaging, or documentation. Some may also use subcontracted labor or third-party platforms. HHS business associate guidance specifically makes subcontractor obligations relevant to the contract review.
+Reporting should connect service activity to operating decisions. Call volume, answer rate, handle time, and staffing coverage can show queue conditions. They do not tell an executive whether patients were scheduled correctly, whether callbacks are aging, whether one location creates unusual escalations, or whether a template problem is causing repeated friction.
 
-Ask the vendor to identify the tools and third parties involved in service delivery. The goal is not to block modern tooling; it is to understand where sensitive information flows and how responsibilities are documented.
+Ask to see a sample executive report and a sample operations report. The executive view should make patterns visible across locations. The operations view should support action through outcome categories, unresolved-task aging, escalation reasons, QA findings, and location-level exceptions. The group should be able to trace an issue from a portfolio trend to a workflow owner without asking the vendor to build a custom report every time.
 
-A vendor that cannot name its systems of record, call recording platform, QA process, or escalation channels is difficult to evaluate.
+Interoperability also deserves a direct discussion. ONC's [health IT basics](https://www.healthit.gov/health-it-basics) explains the role health IT plays in exchanging and using health information. In a vendor evaluation, that translates to practical questions: What integrations already exist? What data is exchanged? What remains manual? Who validates the workflow before launch? The related [EHR and PMS integration planning guide](/blog/ehr-pms-integration-centralized-scheduling-enterprise/) can help teams put those questions into a rollout checklist.
 
-## Assess Scheduling and Access Workflow Quality
+## What commercial terms should the group test before selection?
 
-For healthcare groups, the access function is only successful if patients can get to the right appointment, location, provider, and next step with less friction. Vendor evaluation should therefore test workflow quality, not just call coverage.
+Do not compare proposals only by a per-call, per-hour, or per-seat figure. The useful comparison is total cost for a defined service level and workload profile. A model that looks attractive at base volume may become difficult to manage if outbound work, after-hours coverage, bilingual support, reporting, training refreshes, or system changes are treated as unplanned extras.
 
-### Use Access Measures as KPI Inputs
+Ask each finalist to price the same assumptions. Define call types, expected hours, workload variation, locations, systems, reporting cadence, implementation work, and management coverage. Then ask what changes the fee, what is included, what requires a statement of work, and what happens when the group adds a location or service line. This makes proposals comparable and gives finance a clearer view of exposure.
 
-AHRQ describes scheduling models and access measures such as appointment availability and reducing delays in care. Those concepts provide a useful frame for vendor KPIs because patient access is about more than answering the phone.
+Avoid buying based on broad outcome promises. A vendor cannot responsibly predict results that depend on appointment supply, payer rules, site adoption, provider schedules, or the group's own escalation response. Instead, require observable operating evidence: scenario performance, documented workflow controls, QA design, reporting samples, referenceable implementation experience, and a plan for issue resolution.
 
-During evaluation, ask how the vendor measures scheduling success. Useful categories include appointment availability, escalation volume, unresolved task aging, booking accuracy, patient routing quality, and consistency of documentation. Keep metrics tied to actual operating goals rather than vanity dashboards.
+The contract should also define governance, not just pricing. Establish the service-review cadence, report ownership, escalation contacts, change-control process, access-removal requirements, records handling, and transition support if the relationship ends. A capable vendor and a clear agreement give the organization a better basis for accountability than a broad service description alone.
 
-If your group already has an access strategy, share the intended measurement categories during the RFP. If not, require the vendor to propose a reporting model and explain how it would be used in monthly operating review.
+## How should a group run a pilot and make the final decision?
 
-### Test Location-Specific Scheduling Rules
+A pilot should answer a limited set of important questions, not postpone every decision. Choose a representative but contained scope, such as a defined set of scheduling and message-intake workflows for a small group of locations. Do not use a pilot to test a broad, undefined promise of "better service."
 
-Multi-location healthcare groups usually have scheduling complexity that does not appear in a simple demo. Providers may have different templates, visit types, equipment dependencies, payer limitations, recall rules, referral requirements, and location-specific preferences.
+Before go-live, agree on the scorecard, baselines where available, review dates, decision owners, and exit criteria. The first review may focus on access setup, agent readiness, permissions, and documentation quality. The next can assess whether escalations close correctly and whether location teams receive usable work. The final review can determine whether the service has demonstrated the control needed for expansion.
 
-Ask vendors to walk through realistic scheduling scenarios without using patient details. Examples can include a new patient requesting the first available appointment, an established patient needing a specific visit type, a patient asking for another location, or a caller who needs insurance guidance before booking.
+Include site leaders, the central access owner, technology, compliance, and finance in the review structure, but give each metric a named decision owner. A meeting with many stakeholders and no owner can turn a straightforward operational issue into a debate. The [patient access center RFP vendor checklist](/blog/patient-access-center-rfp-vendor-checklist-enterprise/) provides a useful companion for setting requirements and assigning those responsibilities before selection.
 
-The vendor should show how agents find the correct answer, not just say they will follow scripts. For enterprise operations, the knowledge base, escalation logic, and change management process are as important as the script itself.
+At the end of the pilot, assess more than volume. Did agents follow the defined rules? Were wrong-location or incomplete-documentation issues identified and corrected? Did the vendor surface recurring bottlenecks? Could the group use the reporting to make an operating decision? Is there a practical plan for adding locations without creating a new exception process at each one?
 
-### Evaluate Prior Authorization and Eligibility Adjacencies
+The right decision may be a broader rollout, a narrower scope, a remediation period, or a different vendor. What matters is that the decision follows evidence from the operating model the group intends to run. For enterprise buyers, that discipline is more valuable than choosing the fastest sales process.
 
-CMS outlines electronic prior authorization goals, APIs, timelines, and expected reductions in administrative burden for providers and patients. Even if your outsourcing vendor is not responsible for the full prior authorization process, patient access teams often touch the front end of eligibility, documentation, and routing.
-
-Ask whether the vendor can support eligibility checks, prior authorization intake, payer-specific handoffs, and EHR-connected workflows where appropriate. Avoid assuming that an answering service can handle access-adjacent revenue cycle tasks without training, system access, and accountability.
-
-The key question is not "Can you do prior auth?" The better question is: "Which parts of eligibility and prior authorization support can your team perform reliably, where do you stop, and how do you document the handoff?"
-
-## Compare Staffing, Training, and Management Depth
-
-Outsourcing patient access is a people-heavy operating model. Technology helps, but the quality of supervision, training, calibration, and retention still determines whether the service feels consistent across locations.
-
-### Inspect Training Beyond Onboarding
-
-Ask vendors to show how agents are trained on your specialty, locations, scheduling rules, systems, privacy expectations, and escalation pathways. Initial onboarding is not enough. Multi-location groups change templates, add providers, acquire offices, update insurance rules, and adjust access priorities.
-
-A strong vendor should have a process for ongoing updates. That process should include who approves changes, how agents are notified, how knowledge base updates are tracked, and how supervisors confirm adoption.
-
-If the vendor relies mainly on informal chat messages or one-time training calls, the model may struggle as the group scales.
-
-### Understand Supervision and Escalation
-
-Patient access work needs active management. Supervisors should monitor call quality, queue pressure, documentation accuracy, unresolved tasks, and agent coaching needs. The vendor should be able to describe the management layer between frontline agents and your internal operations leader.
-
-Ask who attends performance reviews, who investigates recurring errors, who handles urgent escalations, and how issues are prevented from repeating. This is especially important when access work spans many locations and multiple practice management systems.
-
-The buying committee should know whether the vendor is offering labor only or a managed service. A managed service should include operational oversight, not just scheduled staffing.
-
-### Evaluate Communication Quality
-
-TechTarget summarizes KLAS findings on what ambulatory provider organizations want from revenue cycle vendors, including communication, expertise, education, workflow improvement, and value. Those criteria apply directly to patient access outsourcing because the work is collaborative and changes over time.
-
-During evaluation, pay attention to how the vendor communicates before the sale. Do they ask precise workflow questions? Do they identify risks? Do they explain tradeoffs?
-
-The sales process often previews the service relationship. A vendor that is vague during evaluation may be vague during implementation.
-
-## Validate Technology, Integrations, and Reporting
-
-The vendor does not need to own your entire technology stack. But it must work cleanly with the systems that run patient access, scheduling, QA, reporting, and escalation.
-
-### Confirm System Access and Documentation Fit
-
-Ask which EHR, PMS, CRM, phone, ticketing, or reporting systems the vendor can work in directly. Also ask what happens when direct system access is not available. Workarounds can be acceptable for narrow pilots, but they should not become permanent hidden failure points.
-
-For each workflow, define the system of record. If an appointment is scheduled, where is it documented? If a callback is needed, where is the task created? If insurance information is missing, where does that note live? If a call is escalated, how does the local office see it?
-
-The evaluation should surface duplicate entry, delayed documentation, and ambiguous ownership before go-live.
-
-### Require Useful Reporting, Not Just Activity Counts
-
-Activity reporting is not enough for enterprise patient access. Call volume, handle time, and staffing coverage may help manage the queue, but operations leaders also need to see workflow outcomes and failure patterns.
-
-Ask vendors to show sample dashboards. Look for categories such as scheduled outcomes, unresolved contacts, escalation reasons, location patterns, template constraints, call quality findings, and recurring workflow blockers. Avoid relying on unsupported benchmark claims or generic performance promises.
-
-Reporting should help the group make decisions: update scheduling rules, adjust staffing, clean up templates, retrain agents, or resolve location-specific bottlenecks.
-
-### Check Change Control for Integrations
-
-Integrations and system workflows change. A provider template changes, a location migrates software, a new payer rule appears, or a group acquisition adds a different operating model. The vendor should have a change control process for these events.
-
-Ask how the vendor tests workflow changes before rollout. Ask who signs off. Ask how rollback works if a change creates scheduling or documentation errors.
-
-For groups pursuing centralized access, technology fit is not just about launch. It is about keeping the access model stable as the business changes.
-
-## Evaluate Financial Fit Without Chasing Unsupported Promises
-
-
-
-### Compare Pricing to Workload and Complexity
-
-Pricing models can vary by seat, hour, call, workflow, location, or service bundle. None is automatically better. The right structure depends on workload variability, task complexity, coverage requirements, systems access, supervision needs, and reporting expectations.
-
-Ask what is included in the base fee and what triggers additional charges. Common evaluation areas include after-hours coverage, bilingual support, outbound work, QA reporting, implementation, training refreshes, call recording access, and custom reporting.
-
-The buying committee should model total cost against the defined scope, not against a generic vendor package.
-
-### Avoid Guarantee-Led Decision Making
-
-
-
-Instead, focus on controllable operating evidence. Can the vendor follow your workflows? Can they document correctly? Can they report clearly? Can they support your systems? Can they manage staffing and QA?
-
-Those answers are more useful than broad promises.
-
-### Build a Pilot Scorecard
-
-Before launch, define what the pilot must prove.
-
-Use a 30/60/90-day structure if it fits your governance rhythm. The first phase can validate access, training, and basic workflows. The next phase can test reporting and issue resolution. The final phase can determine whether the vendor is ready for broader rollout.
-
-A pilot without a scorecard often becomes a subjective debate. A pilot with a scorecard becomes a structured vendor decision.
-
-## Run the Evaluation Like an Enterprise Buying Process
-
-The evaluation process should reflect that complexity.
-
-### Include the Right Stakeholders Early
-
-A narrow evaluation led only by procurement or one operations sponsor can miss important risks. Include stakeholders who understand scheduling templates, patient communication, payer workflows, system permissions, privacy requirements, reporting needs, and location-level realities.
-
-This does not mean every stakeholder needs veto power. It means the buying committee should surface constraints before contracting. The vendor should be evaluated against the real operating environment, not a simplified version of it.
-
-For additional internal planning, see the [patient access center RFP vendor checklist](/blog/patient-access-center-rfp-vendor-checklist-enterprise/) and the broader [enterprise patient access center](/enterprise/patient-access-center/) resource.
-
-### Ask Scenario-Based Questions
-
-Vendor demos can be too polished. Scenario-based evaluation is more revealing. Give the vendor a set of realistic, non-PHI scenarios and ask them to explain the exact workflow.
-
-Useful scenarios include a caller asking for the soonest appointment across locations, a patient with incomplete insurance information, a provider schedule change, a location requesting a script update, a patient needing a callback, and a recurring error identified in QA.
-
-The vendor’s answers should reveal training depth, escalation discipline, system fluency, and management maturity.
-
-### Make Governance Part of the Contract
-
-Once the vendor is selected, the contract and operating agreement should define review cadence, reporting expectations, issue escalation, quality review, change control, security responsibilities, and termination support.
-
-This is where the evaluation becomes operational reality. A vendor may look strong in a demo but fail if governance is informal. Conversely, a capable vendor can perform better when the group provides clear workflows, timely updates, and consistent decision-making.
-
-For multi-location groups, the best outsourcing relationships usually look like managed operations partnerships, not disconnected staffing arrangements.
-
-## CTA: Evaluate Patient Access Outsourcing With the Right Filter
-
-
-
-MyBCAT works with multi-location healthcare groups that need structured support for patient access and front-office operations. If you are comparing vendors or preparing an RFP, schedule a discovery call here: [https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)
+*Evaluating patient access outsourcing across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
 
 ## Related Reading
 
-- [Patient Access Center RFP Vendor Checklist for Enterprise Groups](/blog/patient-access-center-rfp-vendor-checklist-enterprise/)
-- [Enterprise Healthcare Patient Access Compliance](/blog/enterprise-healthcare-patient-access-compliance-hipaa-soc2/)
+- [Healthcare Call Center Outsourcing for Multi-Location Groups](/blog/healthcare-call-center-outsourcing-multi-location/)
+- [Patient Access Center Metrics for Healthcare Executives](/blog/patient-access-center-metrics-healthcare-executives/)
 - [Centralized Scheduling Rollout for Multi-Location Practices](/blog/centralized-scheduling-rollout-multi-location-practices/)
-- [Reporting Dashboard for Multi-Site Healthcare Operations](/blog/reporting-dashboard-multi-site-healthcare-operations/)
-- Enterprise Patient Access Center Implementation
+- [Enterprise Patient Access Center](/enterprise/patient-access-center/)
 
 ## Sources
 
-- HHS: Business Associate Contracts, https://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html
-- CMS: Electronic Prior Authorization, https://www.cms.gov/priorities/electronic-prior-authorization/overview
-- AHRQ: Open Access Scheduling for Routine and Urgent Appointments, https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/access/strategy6a-openaccess.html
-- MGMA: Automating and Outsourcing Medical Practice Revenue Cycle Management, https://www.mgma.com/mgma-stat/automating-and-outsourcing-medical-practice-revenue-cycle-management-building-partnerships-for-financial-success
-- MGMA: Revenue, Recruiting and Patients: Outsourcing and Automation, https://www.mgma.com/mgma-stat/revenue-recruiting-and-patients-3-key-areas-of-outsourcing-automation
-- ADA: FAQ on HIPAA Business Associates, https://www.ada.org/resources/practice/legal-and-regulatory/faqs-on-hipaa-business-associates
-- AOA: In-House Billing and Outsourcing Considerations, https://www.aoa.org/news/practice-management/perfect-your-practice/does-your-practice-do-in-house-billing-heres-something-to-know
+1. [ONC: Privacy, Security, and HIPAA](https://www.healthit.gov/topic/privacy-security-and-hipaa)
+2. [MGMA: Implementing Central Scheduling to Support Practice Growth and Success](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)
+3. [ONC: Health IT Basics](https://www.healthit.gov/health-it-basics)

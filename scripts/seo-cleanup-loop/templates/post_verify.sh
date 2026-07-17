@@ -20,7 +20,7 @@ if [ ! -e node_modules ]; then
   trap 'if [ -L node_modules ]; then rm -f node_modules; fi' EXIT
   ln -sfn "$integration/node_modules" node_modules 2>/dev/null || true
 fi
-node scripts/evaluate-post.js "src/content/blog/${slug}.md"
+post="src/content/blog/${slug}.md"; [ -f "$post" ] || post="src/content/blog/${slug}.mdx"; node scripts/evaluate-post.js "$post"
 rc=$?
 if [ $rc -ne 0 ]; then
   echo "FAIL: evaluate-post.js exited $rc for ${slug} (see scenario failures above)"

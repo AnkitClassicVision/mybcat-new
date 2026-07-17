@@ -22,7 +22,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-SPEC_TEMPLATE = """You are a senior content remediation writer for mybcat.com — an enterprise B2B site for MULTI-LOCATION healthcare groups (3+ locations: optometry/dental/veterinary groups, DSOs, healthcare executives). MyBCAT provides managed patient-access services: patient access center (call answering, scheduling, recall, intake), virtual assistants, and back-office support. Your current working directory IS a git worktree of the site repo — edit files in place. BOUNDARY: you own ONLY src/content/blog/{slug}.md. You may READ any repo file. Never touch .git, never run git commit/branch/push, never edit any other file, do not load skills or call MCP/Apps. You have NO web access.
+SPEC_TEMPLATE = """You are a senior content remediation writer for mybcat.com — an enterprise B2B site for MULTI-LOCATION healthcare groups (3+ locations: optometry/dental/veterinary groups, DSOs, healthcare executives). MyBCAT provides managed patient-access services: patient access center (call answering, scheduling, recall, intake), virtual assistants, and back-office support. Your current working directory IS a git worktree of the site repo — edit files in place. BOUNDARY: you own ONLY src/content/blog/{postfile}. You may READ any repo file. Never touch .git, never run git commit/branch/push, never edit any other file, do not load skills or call MCP/Apps. You have NO web access.
 
 MISSION: bring this legacy post fully up to the site's content-quality standard while PRESERVING its URL/slug, core topic, publishDate, author, and any accurate existing substance. Known deficiencies: {errors}.
 
@@ -84,14 +84,16 @@ def main() -> int:
     tasks = []
     for entry in posts:
         slug, errors = entry["slug"], entry["errors"]
-        spec = SPEC_TEMPLATE.format(slug=slug, errors=errors, pool=pool, verify=verify, repo=repo)
+        import os as _os
+        postfile = f"{slug}.mdx" if _os.path.exists(_os.path.join(repo, "src/content/blog", f"{slug}.mdx")) and not _os.path.exists(_os.path.join(repo, "src/content/blog", f"{slug}.md")) else f"{slug}.md"
+        spec = SPEC_TEMPLATE.format(slug=slug, errors=errors, pool=pool, verify=verify, repo=repo, postfile=postfile)
         check = (
             f"/usr/bin/python3 '{args.checker}' "
             f"--verify-command '/bin/bash {verify} {slug} {repo}' "
             f"--patch '{workdir}/{slug[:40]}.patch' "
             f"--summary fix-summary.md "
             f"--exported-summary '{workdir}/{slug[:40]}.summary.md' "
-            f"--owned-files 'src/content/blog/{slug}.md'"
+            f"--owned-files 'src/content/blog/{postfile}'"
         )
         tasks.append({
             "key": f"post-{slug[:38]}",

@@ -1,6 +1,8 @@
 ---
 title: "How to Assess Your Staff to Ensure the Best Patient Care"
+seoTitle: "Assess Staff for Better Patient Care Across Locations"
 description: "Patients judge your practice by staff interactions, not clinical skill. Learn frameworks to measure, train, and improve front-office performance metrics."
+seoDescription: "A practical framework for multi-location healthcare leaders to assess patient-access staff, standardize coaching, and improve service consistency."
 publishDate: 2025-01-30
 status: published
 author: Ankit Patel
@@ -11,6 +13,7 @@ tags:
 - scheduling
 - growth
 - efficiency
+cluster: bpo-outsourcing
 featuredImage: /images/blog/coaching-training-and-help-with-business-people-i-2023-11-27-04-49-17-utc-scaled.webp
 canonical: https://mybcat.com/blog/blog-best-patient-care/
 relatedPosts:
@@ -21,125 +24,114 @@ relatedPosts:
 - blog-ensuring-patient-satisfaction
 ---
 
-I'm going to tell you something that might sting: your patients probably can't tell if you're a great clinician.
+Patients rarely have the information to judge the technical quality of a clinical encounter. They do notice whether the person who answered the phone understood the request, whether check-in felt organized, and whether someone owned the next step when a schedule or insurance question became complicated.
 
-Seriously. They don't know if your refraction technique is textbook perfect. They can't assess whether you caught a subtle retinal finding. They have no idea if your contact lens fitting was exceptional or just adequate.
+For a healthcare group with three or more locations, those interactions are not simply a front-desk concern. They are evidence of whether patient access is being managed as one operating system or as a collection of site habits. A location can have a capable clinical team and still create a poor first impression when calls go unanswered, scheduling rules change by office, or staff members give inconsistent information.
 
-What they CAN tell is whether your receptionist seemed annoyed when they called. Whether the check-in process felt chaotic. Whether anyone actually seemed happy to see them.
+Assessing staff should therefore do two things at once: identify individual coaching needs and expose process failures that no individual employee can solve. The goal is not surveillance or a scorecard that rewards speed at the expense of care. It is a repeatable way to see whether people, workflows, and escalation paths are helping patients reach a clear next step.
 
-Your staff is the face of your practice. Not you. Them. And if that face is tired, disorganized, or indifferent, patients will assume your clinical care is the same way.
+Groups building this discipline often connect it to their broader [front desk outsourcing model](/solutions/front-desk-outsourcing/) and [enterprise patient-access strategy](/enterprise/). The same assessment framework applies whether the work is performed by site teams, a centralized access center, or a managed partner.
 
-So how do you know if your team is actually delivering good patient care? Let's get specific.
+## Table of Contents
 
-## What Are Patients Actually Saying?
+- [What are patients actually telling your organization?](#what-are-patients-actually-telling-your-organization)
+- [How should leaders observe the real patient-access workflow?](#how-should-leaders-observe-the-real-patient-access-workflow)
+- [Which metrics show whether staff can deliver consistent care?](#which-metrics-show-whether-staff-can-deliver-consistent-care)
+- [How do you separate a knowledge gap from a performance problem?](#how-do-you-separate-a-knowledge-gap-from-a-performance-problem)
+- [Are managers giving staff usable feedback and support?](#are-managers-giving-staff-usable-feedback-and-support)
+- [What technology supports assessment without turning it into surveillance?](#what-technology-supports-assessment-without-turning-it-into-surveillance)
+- [When is the problem in the operating model, not the employee?](#when-is-the-problem-in-the-operating-model-not-the-employee)
+- [How can a multi-location group make assessment part of daily operations?](#how-can-a-multi-location-group-make-assessment-part-of-daily-operations)
 
-The easiest data to collect is patient feedback. But most practices do this wrong.
+## What are patients actually telling your organization?
 
-They send out generic satisfaction surveys. Patients give generic responses. Nobody learns anything useful.
+Patient feedback is the most direct signal, but broad satisfaction questions are rarely enough to guide an operator. A response to "How was your experience?" does not show whether a patient struggled to reach the right location, received an unclear explanation of next steps, or waited for a callback that never came.
 
-Here's what to do instead:
+Ask questions that map to specific parts of the access journey. For example: Was it easy to reach the right team? Did the person who answered explain the next step clearly? Was the appointment process consistent with what the patient expected? Did the group follow up when it said it would? These questions make feedback usable in a coaching session and in a network-wide operations review.
 
-**Ask specific questions.** Not "how was your experience?" but "Did the person who answered the phone seem knowledgeable about our services?" Not "were you satisfied?" but "Would you recommend us to a friend who needs eye care?"
+Online reviews deserve the same level of attention. Read the comments, not only the star rating, and classify the issue: phone access, scheduling, check-in, billing explanation, handoff, or follow-up. If several locations receive the same complaint, treat it first as a possible workflow pattern rather than assuming several employees have the same attitude problem.
 
-**Read your online reviews—all of them.** Not just the star ratings. Read the actual comments. What specifically do people praise? What specifically do they complain about? If multiple patients mention the same issue (long wait times, rude front desk, confusing billing), believe them.
+The American Optometric Association includes patient communication among day-to-day practice operations. That is a useful reminder that communication quality is operational work, not an optional courtesy ([AOA patient communication guidance](https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication)).
 
-**Ask follow-up questions in person.** When a patient mentions something during their visit—good or bad—dig deeper. "You said scheduling was easy? What made it easy?" or "You mentioned you had trouble reaching us? Tell me more about that."
+## How should leaders observe the real patient-access workflow?
 
-The goal isn't just to measure satisfaction. It's to understand specifically what's working and what isn't.
+Surveys capture what patients remember to report. Observation shows what happens before a patient decides whether to complain. A corporate operator or regional leader does not need to watch every interaction. They do need a regular, structured way to sample workflows at different locations, shifts, and demand levels.
 
-## How Does Your Team Actually Work Day to Day?
+Listen to a sample of recorded calls where permitted by policy, shadow check-in during a busy period, and trace several requests from first contact to completed disposition. Look for the moments that create rework: a caller transferred without context, a request parked in voicemail, a scheduler who cannot find the right appointment type, or a site team asked to resolve work that should have stayed in the shared queue.
 
-Surveys only capture what patients remember to tell you. The real picture comes from observation.
+Observation should distinguish between a performance issue and a design issue. If staff regularly interrupt check-in to answer ringing phones, the failure may be coverage design rather than effort. If they sound uncertain about an insurance or scheduling rule, the missing piece may be a current knowledge base, not motivation. This is why groups benefit from comparing their actual workflow with a [centralized versus distributed intake framework](/blog/centralized-vs-distributed-intake-framework/) before they make staffing decisions.
 
-I'm not talking about spying on your staff. I'm talking about spending intentional time watching workflows. Shadow your front desk for a morning. Listen to how phones are answered. Notice what happens during busy moments.
+Use a consistent observation form across locations. Capture the request type, channel, stated need, first owner, transfer or escalation, final status, and any friction. Those fields let leaders compare like with like instead of relying on anecdotes from whichever site was visited most recently.
 
-Things to watch for:
+## Which metrics show whether staff can deliver consistent care?
 
-**How do they handle interruptions?** When someone's in the middle of checking in a patient and the phone rings, what happens? Does one task get bungled while they try to do both? Do patients get put on hold without explanation?
+Metrics should make the patient-access system more visible, not turn staff management into a contest for the easiest number. For multi-location groups, a network average can conceal the location where callbacks are aging, the service line with a weak booking path, or the team that keeps transferring routine work back to an office.
 
-**What's their default tone?** Not when the boss is watching—when they think no one's paying attention. Is there warmth in their voice? Or does it sound like they're reading from a script?
+Start with a short metric set that is defined the same way everywhere:
 
-**How do they deal with problems?** When insurance doesn't verify correctly, when appointments get double-booked, when a patient shows up on the wrong day—how does your staff respond? Do they stay calm and solution-focused, or do they get flustered and defensive?
+- **Live answer and callback completion:** Measure whether inbound requests reach a live person or receive a completed response within the group's defined process. Unresolved missed calls create demand that can disappear from a simple answer-rate report. [Missed-call leakage](/blog/missed-calls-revenue-leak-multi-location-healthcare/) is worth reviewing alongside queue ownership.
+- **Request-to-resolution rate:** Track whether a call, message, or walk-in request reached a documented next step, such as a scheduled appointment, routed message, or approved escalation. A high activity count is not evidence of a resolved request.
+- **Scheduling conversion and rework:** Review the share of eligible requests that become appointments, plus reschedules, duplicate contacts, and reopened tasks. Segment the data by location, service line, and request type before using it for coaching.
+- **Check-in and handoff reliability:** Measure the time and touchpoints between arrival, registration, and the next operational owner. Long check-in times often expose unclear roles or systems friction rather than an individual problem.
+- **Quality assurance results:** Score a sample of interactions for accurate information, correct scheduling logic, appropriate escalation, documentation, and communication. Tone matters, but it is only one part of quality.
 
-**What happens during downtime?** Are they prepping for the next patient, organizing, learning? Or are they scrolling their phones?
+The right dashboard gives executives both the network view and the ability to inspect variation by location. The [patient access center metrics used by healthcare executives](/blog/patient-access-center-metrics-healthcare-executives/) provide a useful companion view for defining those measures before comparing teams.
 
-None of this is about catching people doing something wrong. It's about understanding how your systems and people actually function in real conditions.
+## How do you separate a knowledge gap from a performance problem?
 
-## What Metrics Should You Be Measuring?
+A friendly employee who gives incorrect information can create as much friction as someone who sounds disengaged. Yet knowledge gaps are often treated as individual mistakes when the group has not made current protocols easy to find, easy to understand, and consistent across sites.
 
-Beyond observation, track actual metrics. Not vanity metrics—metrics that correlate with patient experience and practice health.
+Assess knowledge in the context of the work staff actually perform. Ask how an agent would identify the appropriate appointment type, handle a full schedule, explain a standard administrative policy, or route a request that exceeds their authority. The aim is not to test clinical judgment. Non-clinical access staff should follow approved scripts and escalation rules rather than interpret symptoms, give medical advice, or make treatment decisions.
 
-**Phone answer rate.** What percentage of calls get answered live versus going to voicemail? If you don't know this number, you're flying blind. [Missed calls directly impact revenue](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/).
+When an answer is incomplete, inspect the operating environment before assigning blame. Is the protocol current? Does it differ by site or provider? Was the employee trained on the newest version? Is there a named escalation owner? These questions help leaders correct the system and coach the employee with the same standard.
 
-**Call-to-appointment conversion.** Of the calls that get answered, how many turn into scheduled appointments? If this number is low, something's breaking down in those conversations.
+Dedicated [medical virtual assistants](/solutions/medical-virtual-assistant/) and internal teams both need this kind of controlled training. The durable model uses approved knowledge, clear role boundaries, and frequent calibration rather than expecting staff to memorize exceptions.
 
-**Check-in time.** How long does it take from when a patient walks in the door to when they're seated in the exam room? Long check-in times often indicate process problems, not lazy staff.
+## Are managers giving staff usable feedback and support?
 
-**Patient follow-up completion.** Are recall calls actually getting made? Are post-op check-ins happening? If tasks are consistently slipping through cracks, you've got a capacity or accountability problem.
+Annual performance reviews are too far removed from daily patient access to correct most issues. Managers need a regular cadence of brief, evidence-based check-ins, especially after a new workflow, acquisition, technology change, or shift in staffing model.
 
-**No-show rate by scheduler.** This one's interesting. If one staff member's patients no-show at 8% and another's no-show at 15%, something different is happening in those scheduling conversations.
+Each conversation should connect a specific observed interaction or metric to one expected behavior. "Your calls need to improve" leaves the employee to guess. "When a caller asks for a same-week appointment, confirm the location and visit type before placing them on hold, then document the outcome in the queue" gives them something they can practice and a manager can later verify.
 
-## Are You Checking Knowledge, Not Just Attitude?
+Feedback should also surface constraints. A team may be missing a script, working with an outdated schedule rule, or carrying a queue volume that makes the desired service level unrealistic. Regular one-to-ones are where managers can separate a coaching need from a capacity or process issue and then assign the right owner.
 
-A friendly staff member who doesn't know your practice protocols is almost worse than a competent grouch. They'll cheerfully give patients wrong information.
+At scale, leaders should calibrate managers as well as agents. If one region treats a transfer as complete while another requires documented acceptance by the receiving team, their scorecards are not comparable. [Multi-location QA calibration](/blog/multi-location-call-center-qa-calibration-healthcare/) gives the group a way to align what reviewers look for before results are used in coaching or vendor oversight.
 
-Periodically quiz your team on things like:
+## What technology supports assessment without turning it into surveillance?
 
-- What insurance plans do you accept?
-- What's the difference between a comprehensive eye exam and a contact lens fitting?
-- What should a patient do if they experience sudden vision changes?
-- How do you handle a patient who wants to see the doctor today but the schedule is full?
+Technology can give leaders a broader sample of work than occasional site visits, but it should be deployed to improve service design, not to monitor people without purpose. Call recordings, queue data, disposition codes, and post-interaction feedback can show patterns that a manager would otherwise miss. Access to those materials should follow the group's privacy, security, and retention requirements.
 
-You don't need to make it a formal test. Just ask questions in conversation and notice the answers. If your staff can't accurately explain basic things about your practice, patients are getting misinformation.
+The most useful systems connect the interaction to its outcome. A call recording by itself cannot show whether a request was completed. A dashboard with raw volume cannot show whether the employee used the right scheduling logic. Together with structured dispositions and a QA rubric, those tools can reveal whether the work reached the intended next step.
 
-## Are You Actually Talking to Your Team?
+For routine after-hours or overflow contact, a [medical answering service](/solutions/medical-answering-service/) can create a documented intake path, while site and clinical teams retain responsibility for work outside the approved administrative workflow. That boundary protects staff, patients, and the organization from turning an access process into ungoverned clinical decision-making.
 
-Here's the part most practice owners skip: one-on-one conversations with each staff member.
+## When is the problem in the operating model, not the employee?
 
-Not annual reviews—those are useless. Regular check-ins. Monthly at minimum. More often for new hires or people who are struggling.
+Staff are often asked to compensate for unclear ownership. A caller may be bounced between a central team and a location because neither group owns a certain request. A scheduler may struggle because appointment types are inconsistent across systems. A front-desk employee may appear slow because they are expected to check in a patient, answer phones, and resolve a backlog at the same time.
 
-In these conversations:
-- Ask what's frustrating them about their job
-- Ask what resources or support they need
-- Give specific feedback on things they're doing well
-- Give specific feedback on things that need improvement
-- Set clear expectations for the next period
+Before labeling someone as underperforming, leaders should ask whether they were given a clear definition of good work, current tools and protocols, realistic capacity, and a known escalation path. If the answer is no, a performance conversation alone will not fix the patient experience.
 
-Most staff performance issues aren't attitude problems. They're clarity problems. People don't know exactly what's expected, so they wing it. Clear expectations plus regular feedback solves most of this.
+This is particularly important after acquisitions or rapid expansion. Legacy site habits can persist long after a group believes it has centralized operations. Review location variance, exception reasons, and repeated handoffs to find where the operating model is breaking down. The related [front desk outsourcing playbook for multi-location practices](/blog/front-desk-outsourcing-multi-location-practices/) explains why standardization and controlled site exceptions matter more than simply adding coverage.
 
-## How Can Technology Fill the Gaps?
+## How can a multi-location group make assessment part of daily operations?
 
-You can't personally observe every patient interaction. But technology can help.
+The goal is not perfect interactions or a one-time staff audit. It is a management loop that lets the group notice variation, make a targeted change, coach the right people, and verify whether the workflow improved.
 
-Call recording and monitoring—if you're working with a partner like us, we record calls and flag ones that need review. Patterns emerge that you'd never catch with occasional observation.
+Start with one or two high-volume workflows, such as new appointment requests or callback recovery. Define the desired next step, the data that proves completion, the approved escalation path, and the owner for exceptions. Sample interactions weekly, review location-level variance monthly, and use a shared QA rubric for both internal and partner teams. Expand only after the group can explain what the data means and what action follows from it.
 
-AI-powered analytics can identify sentiment in calls, catch missed opportunities, and highlight training needs. Not as a replacement for human judgment, but as a way to scale your attention.
+For groups that use [managed front-desk support](/solutions/front-desk-outsourcing/), this is also the basis of accountable vendor management. The partner should work inside the same documented expectations, reporting definitions, and escalation rules as the internal team. That gives operators one patient-access standard across locations instead of separate standards for each labor model.
 
-Customer feedback tools that trigger automatically after appointments can capture impressions while they're fresh.
+## Related Reading
 
-The point isn't surveillance. It's insight. You can't improve what you can't see.
+- [Patient Access Center Metrics for Healthcare Executives](/blog/patient-access-center-metrics-healthcare-executives/)
+- [Front Desk Outsourcing for Multi-Location Practices](/blog/front-desk-outsourcing-multi-location-practices/)
+- [Healthcare Call Center Outsourcing for Multi-Location Groups](/blog/healthcare-call-center-outsourcing-multi-location/)
+- [Multi-Location Call Center QA Calibration](/blog/multi-location-call-center-qa-calibration-healthcare/)
 
-## When Is the Problem You, Not Them?
+## Sources
 
-Sometimes staff underperformance is actually a leadership problem.
+1. [American Optometric Association: Patient Communication](https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication)
+2. [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
+3. [ONC Patient Engagement Playbook, Chapter 2](https://playbook.healthit.gov/playbook/pe/chapter-2)
 
-If you've never clearly communicated your expectations, you can't blame staff for not meeting them. If you've never trained them on your protocols, you can't be surprised they don't follow them. If you've created a chaotic environment where they're constantly interrupted and understaffed, you can't expect calm, attentive service.
-
-Before you decide someone's a bad employee, ask yourself:
-- Have I told them specifically what good performance looks like?
-- Have I given them the training and resources to succeed?
-- Have I created conditions where good performance is possible?
-
-If the answer to any of those is "not really," start there.
-
-## Building A Team That Actually Delivers
-
-The goal isn't perfection. It's continuous improvement. A practice that regularly assesses performance, gives feedback, and develops skills will always outperform one that just hopes things are going okay.
-
-At MyBCAT, this is baked into how we operate. Our [medical virtual assistants](/solutions/medical-virtual-assistant/) are continuously trained, regularly monitored, and consistently coached. When we handle calls through our [front desk outsourcing](/solutions/front-desk-outsourcing/) services, we're tracking performance metrics and improving constantly. Looking to [join our team](/careers/)? We're always seeking talented people.
-
-But whether you work with us or not, the principle applies: pay attention to how your team interacts with patients, measure what matters, and never stop developing your people.
-
-That's how you build a practice known for exceptional care—not just clinically, but in every interaction.
-
-[Want to talk about how we approach staff performance and patient experience?](https://mybcat.com/contact/) Happy to share what we've learned.
+*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*

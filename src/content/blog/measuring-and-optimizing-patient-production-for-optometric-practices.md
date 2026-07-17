@@ -1,6 +1,8 @@
 ---
 title: "Optimizing Patient Production for Optometry Practices"
+seoTitle: "Optometry Patient Production Metrics for Multi-Site Groups"
 description: "Increase patient volume and per-patient revenue with data-driven benchmarks, operational improvements, and outsourcing strategies for optometry practices."
+seoDescription: "Measure and improve patient production across multi-location optometry groups with consistent access, scheduling, intake, capacity, and reporting workflows."
 publishDate: 2023-11-02
 status: published
 author: Ankit Patel
@@ -11,69 +13,128 @@ tags:
 - scheduling
 - outsourcing
 - growth
+cluster: optometry
 featuredImage: /images/blog/patient-production-optimization.webp
 canonical: https://mybcat.com/blog/measuring-and-optimizing-patient-production-for-optometric-practices/
 relatedPosts: []
 ---
 
-Patient production measures the overall volume of patients and the associated revenue generation. It can be the difference between a thriving optometry practice and one that's merely surviving. For any optometry practice looking to grow, increasing patient production while improving the quality of care is the right goal. This comprehensive guide explores various facets of improving patient production, from the importance of data tracking to operational enhancements and staff engagement. Whether you are a seasoned healthcare provider or new to managing a clinic, we will equip you with the knowledge you need to not only improve your bottom line but also enhance patient care.
-
 ## Table of Contents
 
-- [How Do You Measure Patient Production for Improvement?](#how-do-you-measure-patient-production-for-improvement)
-- [What Operational Improvements Drive Patient Production?](#what-operational-improvements-drive-patient-production)
-- [How Does Tracking and Data Improve Patient Production?](#how-does-tracking-and-data-improve-patient-production)
-- [How Can Financial Efficiency Improve Per-Patient Profit?](#how-can-financial-efficiency-improve-per-patient-profit)
-- [How Does Technology Facilitate Patient Production Improvements?](#how-does-technology-facilitate-patient-production-improvements)
-- [What Should You Watch for When Optimizing Patient Production?](#what-should-you-watch-for-when-optimizing-patient-production)
-- [Remembering the Why Behind the Work](#remembering-the-why-behind-the-work)
+- [What Does Patient Production Mean for a Multi-Location Optometry Group?](#what-does-patient-production-mean-for-a-multi-location-optometry-group)
+- [Which Patient Production Metrics Should Leadership Track?](#which-patient-production-metrics-should-leadership-track)
+- [How Do You Make Patient Production Data Comparable Across Locations?](#how-do-you-make-patient-production-data-comparable-across-locations)
+- [Where Do Patient Access Bottlenecks Reduce Production?](#where-do-patient-access-bottlenecks-reduce-production)
+- [How Can Scheduling and Intake Improve Capacity Without Hurting Care?](#how-can-scheduling-and-intake-improve-capacity-without-hurting-care)
+- [When Does Centralized Support Improve the Operating Model?](#when-does-centralized-support-improve-the-operating-model)
+- [How Should Leaders Roll Out Production Improvements Across the Group?](#how-should-leaders-roll-out-production-improvements-across-the-group)
 
-## How Do You Measure Patient Production for Improvement?
+Patient production is not simply a visit count or a revenue target. For a multi-location optometry group, it is the operating result of whether patients can reach the practice, get scheduled into the right visit type, complete intake without avoidable delay, receive appropriate clinical care, and move through follow-up in a controlled way.
 
-You can't improve what you can't measure, a principle that definitely rings true in healthcare. In optometry, measuring patient production can serve as a litmus test for your clinic's operational efficacy. According to [a study by the Association of Schools and Colleges of Optometry](https://optometriceducation.org/2014/03/13/a-day-in-the-life-of-an-optometrist/), the average optometrist treats around 60 patients per week, including 20 new patients and nine walk-ins or emergencies. This is an average, so take it with a grain of salt. However, knowing these industry benchmarks helps you assess how your clinic compares. Are you seeing more or fewer patients than the average? What about new patient acquisition or the ability to handle walk-ins and emergencies? These metrics don't just tell you about your practice's current state; they also highlight areas for potential growth and improvement.
+That definition matters because groups with three or more locations cannot manage production through anecdotes from individual offices. A fully booked provider template can hide unanswered calls, a slow callback queue, inconsistent appointment types, or insurance verification that fails too late. A location can appear busy while the enterprise still lacks a dependable view of patient access and capacity.
 
-Tracking your patient numbers—be it total visits, new patients, or emergency cases—provides information that can be used to improve the quality of care you provide and to be able to see trends in your practice and how changes impact your care and the profitability of the clinic. For instance, if you notice a higher than average number of walk-ins, it might be worth examining why that is and if you should do more to balance that or to lean into a particular advantage. Being on a busy intersection across from a popular coffee shop may mean that walk-ins will naturally be a larger part of your business, and therefore, making sure you're staffed correctly and have enough regular gaps in your schedule to accommodate walk-ins is worth your consideration. 
+The practical goal is to create a common management system. Leadership should be able to see where demand enters, how it is converted into a scheduled appointment, where work is delayed, and whether each location follows the same definitions. That is the foundation of a durable [optometry operating model](/industries/optometry/), not a push for more activity at any cost.
 
-## What Operational Improvements Drive Patient Production?
+## What Does Patient Production Mean for a Multi-Location Optometry Group?
 
-Operational improvements to save time and money should be your best friends, especially when they also improve patient care. Simple changes like reorganizing the patient check-in process or integrating real-time [patient flow and intake optimization](https://mybcat.com/blog/multi-location-healthcare-intake-guide/) tracking can affect how efficiently your clinic runs.
+For an enterprise optometry group, patient production links patient access, completed visits, optical and clinical workflows, and the financial results that follow. It should never mean pressuring clinicians to provide unnecessary services or treating each patient encounter as a sales event. Clinical judgment and patient needs remain with the clinical team.
 
-It's not just about speed; it's about patient satisfaction, too. By [implementing process improvement techniques](https://mybcat.com/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture/), you're essentially eliminating adverse events like prolonged wait times and unclear patient instructions. This will not only make your healthcare service more efficient but also more appealing to the people you serve. 
+Operations leaders instead own the conditions that make appropriate care accessible and repeatable. They can examine whether patients receive timely responses, whether appointment templates match real demand, whether intake information is ready when needed, and whether follow-up workflows are completed rather than left to individual memory.
 
-Remember, these operational improvements are ongoing; you're never really "done." The best practice is to regularly review your processes, make adjustments as necessary, and ensure that the healthcare being delivered is up to the standard your patients deserve. For many, yearly goals and quarterly check-ins are a good start. Operational improvement is often a team effort involving everyone from care providers to administrative staff. Take the time to include your team in planning and executing these changes. Consider a yearly off-site day where key staff members gather to focus and improve on your strategy. After all, they're the ones on the frontline, delivering care and ensuring patient satisfaction and safety. Their feedback can be invaluable in effecting meaningful change.
+This distinction is especially important after acquisitions or rapid growth. Locations often inherit different phone processes, scheduling rules, staffing models, practice-management configurations, and reporting habits. The resulting variation makes it hard to determine whether a production gap comes from demand, provider capacity, schedule design, patient access, or a data-definition problem.
 
-## How Does Tracking and Data Improve Patient Production?
+Patient production becomes useful as an operating measure when it is paired with the workflow that created it. A location that completed fewer visits than expected may have had a capacity constraint. It may also have lost appointment requests before booking, carried an avoidable cancellation backlog, or used a different definition of a completed appointment. Leaders need the context before assigning a remedy.
 
-Data is another best friend in the industry. Collecting the right data can offer helpful insights into patient flow, health outcomes, and clinic efficiency. By monitoring metrics such as the average time a patient spends in the waiting room or the patient capture rate, you can identify areas for process improvement. Some Practice Management Software (PMS) can often help with this, but even informal tracking with a notepad and a pen can give you baselines to compare against, so don't overthink this and skip it just because it sounds hard. 
+## Which Patient Production Metrics Should Leadership Track?
 
-The tools for data collection have evolved substantially. Electronic Health Records (EHRs) and PMSs are capable platforms that offer some analytics capabilities. These technologies can [track items from patient demographics to healthcare providers' performance](https://www.ncbi.nlm.nih.gov/books/NBK551878/) metrics. Interpreting the collected data is just as necessary as collecting it. Proper analysis can also help pinpoint bottlenecks in patient flow or identify which days of the week your healthcare service may be understaffed. This in-depth understanding will guide you in making>Outsourcing is increasingly popular among ODs. This strategy can relieve your in-house team from tasks that are not their core competencies, allowing them to focus more on patient care. For example, hiring a Business Process Outsourcing (BPO) company to handle administrative tasks can eliminate tons of busyness and distractions from your clinic. For example, hiring a BPO to handle administrative tasks can eliminate small things like a phone call interrupting time with a patient picking frames or big stuff like screening resumes for an open front desk role.
+The right scorecard does not begin with a universal benchmark. Groups differ in provider mix, service lines, visit types, payer mix, geographic footprint, and appointment-template design. A meaningful dashboard begins with common definitions and trends that can be compared across the portfolio.
 
-Partnering with a BPO not only takes the load off your in-house staff but also brings specialized expertise to your clinic's operations. These companies are professionals in what they do, equipped with the latest technologies and methods to efficiently handle tasks like billing, insurance claims, and appointment scheduling, and they often come with reduced staffing costs as well.
+At minimum, leadership should connect measures across the patient-access journey:
 
-The financial benefits of outsourcing can be significant. By redirecting the focus of your in-house staff to patient care, you can improve patient satisfaction and, in turn, attract more patients. Furthermore, a specialized BPO can often perform tasks more cost-effectively than in-house staff, leading to higher per-patient profits.
+- inbound calls and digital appointment requests received;
+- requests answered or resolved within the group’s defined service standard;
+- appointments booked, rescheduled, cancelled, and completed;
+- no-show and late-cancellation patterns;
+- time from request to appointment, by relevant visit type;
+- intake and eligibility items completed before the visit; and
+- unresolved queues, exceptions, and rework by location.
 
-However, the decision to outsource should not be taken lightly. Consider a [thorough cost-benefit analysis of the BPO](https://mybcat.com/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry/) first. Then, with proper vetting, ongoing communication, and regular performance reviews, you can ensure that the BPO meets your clinic's standards for quality and patient safety. A poorly managed outsourcing relationship can lead to subpar patient experience, so due diligence is vital.
+These measures are not interchangeable. Answer rate describes whether a patient could reach someone. Booking conversion describes whether the request became an appointment. Completion describes whether scheduled capacity turned into a visit. Looking only at one of them creates false confidence.
 
-## How Can Financial Efficiency Improve Per-Patient Profit?
+For example, a central team might answer calls quickly but still create a weak production outcome if appointment types are unclear or the location lacks an escalation path for schedule exceptions. Conversely, a location may show strong completed-visit volume while staff spend too much time cleaning up missing intake information. The scorecard needs to show the handoffs, not just the final count.
 
-Financial efficiency is about much more than just cutting costs; it covers optimizing resource use for maximum impact. One avenue to explore for financial efficiency is increasing per-patient profit without compromising patient safety or the quality of care. A comprehensive approach to this would involve analyzing every aspect of patient interactions, from the initial consultation to follow-up appointments. Are there additional services or products that could be offered? For example, could an optometry clinic offer specialized lens treatments or eyewear accessories that would benefit the patient while also generating additional revenue? Can this be done without slowing down the overall processing of each patient? Does the income generated to cover the additional costs associated with offering that service? It's a lot of work, but it can lead to great results. Further, consider using a BPO to help make sure these processes don't fall through the cracks and that you're equipped with the right staff and the right strategies. 
+MGMA identifies benchmarks and KPIs as foundational management tools for medical practice operations. For group leadership, the value is not copying a number from another organization. It is using consistent internal definitions to identify variation that deserves investigation. A deeper [patient access center metrics framework](/blog/patient-access-center-metrics-healthcare-executives/) can help align those measures with ownership and review cadence.
 
-The goal is not just to increase the number of services provided but to improve the quality of care. Upselling services or products should only be done when it aligns with the patient's healthcare needs. Quality should never be sacrificed for the sake of boosting profits, and tracking post-visit satisfaction through regular patient surveys will help you know if you're slipping too far into efficiency. Financial efficiency also extends to reducing wastage. Cutting out unnecessary steps can lead to more streamlined operations and, by extension, cost savings.
+## How Do You Make Patient Production Data Comparable Across Locations?
 
-## How Does Technology Facilitate Patient Production Improvements?
+Comparable reporting starts before the dashboard. The organization has to decide what each status means and where that status is recorded. If one location treats a voicemail as resolved when it is returned and another treats it as resolved only after an appointment is booked or declined, enterprise reporting will blend two different operational realities.
 
-Compared with just a decade ago, technology has become an indispensable asset in modern healthcare. From telemedicine to automated patient scheduling systems, [the right technological tools can profoundly impact your clinic's efficiency and patient satisfaction levels](https://mybcat.com/blog/how-technology-is-boosting-operational-efficiency-in-optometry/). Take Electronic Health Records (EHRs), for example. These digital systems not only allow for seamless record-keeping but can also integrate with other platforms to provide a holistic view of patient care. This integration can lead to better health outcomes as providers are better equipped to make informed decisions quickly. 
+Define the lifecycle of an appointment request from first contact through final outcome. Common status points may include received, contacted, scheduled, pending information, cancelled, no-show, completed, and closed without appointment. The specific labels can vary by system, but the definitions should not vary by location without an approved reason.
 
-Let's not forget about the role of technology in enhancing patient engagement. Tools like mobile apps that allow patients to view their medical history, schedule appointments, or even consult with healthcare providers remotely are becoming more commonplace. Engaged patients are often more compliant with their treatment plans, which contributes to better health outcomes. But technology is a double-edged sword. On the one hand, it can significantly improve efficiency and patient care; on the other hand, it can also introduce new complexities. Data security, for example, becomes a major concern as more patient information gets stored digitally. Hence, any technology adoption should be accompanied by a [rich set of cybersecurity measures](https://mybcat.com/blog/ensuring-compliance-and-security-with-your-outsourced-customer-service-team/).
+Appointment types deserve the same discipline. A group should know which visits can be scheduled directly, which require staff review, and which require clinical escalation. That protects both patient experience and reporting integrity. It also prevents front-office teams from inventing workarounds when a template does not fit the request.
 
-## What Should You Watch for When Optimizing Patient Production?
+Practice-management systems commonly support scheduling, preregistration, billing, and reporting, according to the [American Medical Association’s practice-management system guidance](https://www.ama-assn.org/practice-management/claims-processing/how-select-practice-management-system). The operational lesson is that a system can support a standard only after the group has agreed on the standard. Technology cannot repair inconsistent definitions on its own.
 
-Setting out on the journey to optimize patient production is exciting, but it comes with its own set of challenges and considerations. One of the first things to be cautious about is the potential for adverse events. As you implement new procedures or technologies, it's important to monitor for any unintended negative effects on patient satisfaction or quality of care, like the patient surveys mentioned earlier.
+Leaders should review data quality alongside production results. A sudden improvement may reflect a workflow gain, but it may also reflect a new status code, a reporting change, or delayed documentation. Weekly operational review gives location leaders a chance to explain anomalies while the underlying work is still visible.
 
-Another area to be vigilant about is staff morale and workload. While the goal is to improve efficiency and patient outcomes, the process should not lead to staff burnout. Continuous improvement is a team effort, and an overburdened team can be counterproductive to achieving your clinic's goals. It's also wise to be cautious about becoming too numbers-focused. Metrics and data are valuable, but they are not the be-all and end-all. Don't let numbers give you permission to make decisions that only benefit the bottom line at the cost of your staff's work/life balance or patient care. It's essential to balance quantitative measures with qualitative insights. Patient care is, at its core, a human service, and the importance of the human touch should not be underestimated. As you take steps to optimize, regularly reviewing online and in-person reviews, retention rates, and staff morale are essential to gauge the effectiveness of the changes you've implemented. These reviews will not only help identify any gaps or areas for further improvement but also celebrate successes, however small they may be. Acknowledging and learning from both successes and failures is key to sustainable improvement.
+## Where Do Patient Access Bottlenecks Reduce Production?
 
-## Remembering the Why Behind the Work
+Production loss often begins before the schedule. Calls that roll to voicemail, web requests that lack an owner, incomplete callbacks, and unclear routing rules all create avoidable friction for patients and extra work for staff. In a multi-location group, the problem is magnified when each site handles these entry points differently.
 
-Improving patient production in an optometry clinic encompasses operational efficiency, staff training, and the strategic use of technology, all aimed at delivering better patient care. While data and measurements are vital, they are just one piece of a much larger puzzle. It's crucial to adopt a holistic approach, taking into account both quantitative and qualitative factors, from patient surveys and staff check-ins, to retention data. This ensures that in the quest for greater efficiency and profitability, the human element of healthcare is not lost. As you take on the optimization challenge, remember that the ultimate goal is to create a healthcare environment that benefits everyone involved, from your staff to the patients you serve.
+Start by mapping the request-to-appointment path for a representative set of locations. Include phone calls, online requests, text responses, referrals, recall outreach, and after-hours messages. For each route, identify who owns the next action, where the action is documented, the expected response time, and the escalation path when the standard workflow does not apply.
 
- 
+This exercise often reveals work that does not appear on a provider schedule: unreturned messages, duplicate records, requests waiting for clarification, and calls transferred repeatedly because responsibility is unclear. Those are not merely customer-service issues. They affect the group’s ability to use available capacity predictably.
+
+The [Medical Group Management Association’s guidance on centralized scheduling](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment) is relevant because it treats scheduling as an operating model, not just a phone function. A group does not need to centralize every decision to create consistent access. It does need common rules for routing, appointment types, documentation, and exceptions.
+
+For multi-site operators, patient access should connect to the same governance used for [front-office standardization](/blog/optometry-front-office-standardization-group-practices/). The central team can own standards, training, quality assurance, and reporting, while local teams retain the provider-specific and capacity-specific context that needs site knowledge.
+
+## How Can Scheduling and Intake Improve Capacity Without Hurting Care?
+
+Schedule optimization should begin with the question, “What work is the current template designed to support?” It should not start with the assumption that every empty slot is a failure or every visit can be shortened. Optometry groups need appointment templates that reflect the actual visit types, provider constraints, staffing capacity, and local escalation requirements.
+
+Review where the schedule breaks down. Are certain appointment types routinely placed in the wrong slots? Do staff lack a clear rule for urgent versus routine requests? Are patients asked to provide the same information more than once? Does insurance verification happen too late to resolve issues before the visit? These questions point to workflow design, not clinical decision-making.
+
+Intake is a major control point. A complete, well-timed intake process supports the clinical team and reduces rework at check-in. An inconsistent intake process creates delays that show up later as longer waits, repeated outreach, billing exceptions, or staff frustration. The group should define the minimum administrative information needed before the appointment and a safe escalation path for anything that falls outside front-office training.
+
+The [Office of the National Coordinator for Health Information Technology](https://www.healthit.gov/providers-professionals/improved-care-coordination) describes health IT as a support for care coordination. For operations leaders, that makes system integration and workflow ownership practical concerns: the right team needs the right context at the right handoff, with appropriate privacy and access controls.
+
+Technology should reinforce a documented workflow. Forms, phone scripts, queue rules, dashboards, and practice-management settings should point staff to the same appointment and intake logic. When a location needs a legitimate exception, it should be visible, approved, and communicated to the central team rather than stored in an informal workaround.
+
+## When Does Centralized Support Improve the Operating Model?
+
+Centralized patient-access support can improve production when a group has repeated, clearly defined administrative work that does not need to be reinvented at every location. Examples may include inbound call handling, appointment request follow-up, recall outreach, insurance verification workflows, documentation checks, and reporting support.
+
+The operating case is not that a remote or outsourced team should replace local knowledge. It is that the group should assign each task to the team best positioned to perform it consistently. Local teams remain essential for provider preferences, site capacity, patient handoffs, and exceptions that require immediate context. A centralized team is most effective when it has explicit authority, current knowledge, and a reliable escalation path.
+
+Before changing the support model, map the task in enough detail to answer four questions: What starts the work? What information is required? Who owns the next step? How will quality be checked? If the group cannot answer those questions, moving the work will likely move the confusion as well.
+
+Leaders evaluating staffing options should distinguish between a dedicated role and a shared service model. [Optometry front-desk outsourcing versus a virtual assistant](/blog/optometry-front-desk-outsourcing-vs-virtual-assistant/) explains why task volume, workflow complexity, and desired coverage affect that choice. The decision should follow the operating design, not a generic staffing ratio.
+
+Any external support relationship also needs documented privacy, security, training, QA, and escalation expectations. Patient-access work handles sensitive information and affects trust. A vendor should be evaluated on its ability to follow the group’s controlled workflow, not only on its staffing capacity.
+
+## How Should Leaders Roll Out Production Improvements Across the Group?
+
+Avoid launching a broad production initiative as a list of disconnected targets. Start with one measurable workflow that crosses several locations, such as appointment-request handling, pre-visit intake readiness, or recall-to-booking handoff. Establish the baseline, write the common definition, identify the owner for each handoff, and choose a small set of measures that leadership will review.
+
+Then test the process with a limited group of locations. The purpose of a pilot is to learn where the workflow is unclear, where systems do not support the standard, and which local differences are legitimate. It is not to declare success after one better week of output.
+
+A disciplined rollout usually includes a weekly operating review, a documented exception log, and a clear change owner. The review should ask whether teams followed the workflow, whether outcomes improved, what caused rework, and whether a recurring exception should change the enterprise standard. This is how groups prevent a pilot from becoming another isolated office process.
+
+As the operating model matures, leadership can connect production review to a broader [multi-site healthcare operations dashboard](/blog/reporting-dashboard-multi-site-healthcare-operations/). That creates a more useful conversation than comparing locations by revenue alone. It lets leaders see whether variation comes from demand, access, schedule configuration, intake readiness, staffing, or execution discipline.
+
+The enduring principle is simple: improve the system that makes appropriate appointments and care possible. Use data to find the constraint, standardize the work that should be repeatable, and preserve clinical and local judgment where it belongs. That approach protects patient experience while giving executives a clearer basis for capacity, staffing, and growth decisions.
+
+<!-- MyBCAT CTA Section -->
+<div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
+  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Improve Your Patient Retention?</h3>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices recapture missed calls and automate patient scheduling so no opportunity slips through the cracks.</p>
+  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
+</div>
+<!-- End MyBCAT CTA Section -->
+
+## Sources
+
+1. [How to Select a Practice Management System | American Medical Association](https://www.ama-assn.org/practice-management/claims-processing/how-select-practice-management-system)
+2. [Implementing Central Scheduling to Support Practice Growth and Success | MGMA](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)
+3. [Improve Care Coordination Using Electronic Health Records | HealthIT.gov](https://www.healthit.gov/providers-professionals/improved-care-coordination)
