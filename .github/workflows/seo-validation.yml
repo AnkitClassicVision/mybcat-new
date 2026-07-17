@@ -65,6 +65,16 @@ jobs:
           DIFF_BASE: ${{ github.event.before }}
         run: npm run validate:content-quality -- --changed-files-only
 
+      - name: Workspace integrity check (diagnostic)
+        run: |
+          echo "HEAD: $(git rev-parse HEAD)"
+          echo "--- porcelain ---"
+          git status --porcelain | head -40
+          echo "--- diff vs HEAD ---"
+          git diff HEAD --stat | tail -10
+          echo "--- untracked blog files ---"
+          git ls-files --others --exclude-standard src/content/blog/ | head -10
+
       - name: Validate Cross-Links
         run: npm run validate:cross-links
 
