@@ -1,188 +1,134 @@
 ---
 title: "How to Start an Optometric Practice: A Complete Guide"
+seoTitle: "How to Start an Optometric Practice: Operations Guide"
 description: "From regulatory compliance to staffing and marketing, this step-by-step guide covers everything you need to launch a successful optometry practice."
+seoDescription: "Learn how to start an optometric practice with a practical operations plan for compliance, staffing, systems, patient access, and scalable growth."
 publishDate: 2023-10-31
-modifiedDate: '2026-03-18'
+modifiedDate: '2026-07-16'
 status: published
 author: Ankit Patel
 category: Technology
 tags:
-- optometry
-- patient-care
-- scheduling
-- outsourcing
-- growth
+  - optometry
+  - patient-care
+  - scheduling
+  - outsourcing
+  - growth
 featuredImage: /images/blog/starting-an-optometric-practice-101.webp
 canonical: https://mybcat.com/blog/starting-an-optometric-practice-101/
+cluster: starting-practice
+ctaTheme: finance_open
 relatedPosts: []
 ---
 
-Starting an optometric practice is a blend of excitement, fear, and meticulous planning to help prepare for the unknown. For many, the goal of helping patients with their eye care is high on the list of motivations, but individually you might be motivated by the idea of shifting your career, expanding your existing practice, or merely becoming your own boss. However, regardless of your motivation, to be successful you have to figure out staff management, legal compliance, marketing and messaging, and for those planning multiple locations, [an efficient patient intake system](https://mybcat.com/blog/multi-location-healthcare-intake-guide/), and a system that allows for continual improvement. This comprehensive guide aims to help you understand the requirements and take action on establishing a new practice. Each section of this guide goes into critical aspects, offering a blend of foundational knowledge and actionable insights to equip aspiring optometrists with a framework for their venture into practice ownership.
+Starting an optometric practice is more than selecting a site and equipping exam lanes. For a group opening its next location, buying a practice, or standardizing several offices, the opening plan becomes the operating model for every location that follows. The decisions made before opening day determine who owns patient access, how work moves between the front desk and clinical team, what leadership can measure, and how reliably patients receive a response.
+
+This guide is written for operators and executives building an optometry group with three or more locations, as well as owners planning a growth path beyond the first office. It preserves the essentials of practice formation while putting more weight on repeatable systems. Use it alongside MyBCAT's [healthcare growth and operations library](/blog/) and the [optometry group operations guide](/enterprise/optometry-groups/) when your plan includes centralized support.
 
 ## Table of Contents
 
-- [What Are the Details of Starting a Practice?](#what-are-the-details-of-starting-a-practice)
-- [Related Guides](#related-guides)
-- [Putting It All Together](#putting-it-all-together)
+- [What Should an Optometry Group Decide Before Opening Another Location?](#what-should-an-optometry-group-decide-before-opening-another-location)
+- [How Do You Set Up Compliance Without Creating a Last-Minute Scramble?](#how-do-you-set-up-compliance-without-creating-a-last-minute-scramble)
+- [How Should You Choose a Location That Works for a Group Model?](#how-should-you-choose-a-location-that-works-for-a-group-model)
+- [What Financial Plan Does a New Location Actually Need?](#what-financial-plan-does-a-new-location-actually-need)
+- [Which Technology Decisions Matter Before Day One?](#which-technology-decisions-matter-before-day-one)
+- [How Should You Design Patient Access Before the First Appointment?](#how-should-you-design-patient-access-before-the-first-appointment)
+- [What Staffing Model Keeps the Opening Team Focused?](#what-staffing-model-keeps-the-opening-team-focused)
+- [How Do You Build a Brand and Marketing Plan That Operations Can Support?](#how-do-you-build-a-brand-and-marketing-plan-that-operations-can-support)
+- [What Should Leaders Review in the First 90 Days?](#what-should-leaders-review-in-the-first-90-days)
+- [What Is the Practical Order of Operations?](#what-is-the-practical-order-of-operations)
 
-## **What Are the Details of Starting a Practice?**
+## What Should an Optometry Group Decide Before Opening Another Location?
 
-### **How Do You Handle Regulatory Compliance?**
+Before signing a lease or issuing equipment purchase orders, document the operating assumptions for the location. A clear opening brief should define the patient mix you expect, provider capacity, services offered, payer and vision-plan mix, hours, referral relationships, and the staffing model. It should also identify which decisions are owned centrally and which remain at the location.
 
-Understanding the regulatory compliance aspect of a practice is important right from the beginning. It ensures that the practice operates within the legal requirements set by the law and allows you to build every aspect of your operations and patient care while being compliant.
+For a group, this is not paperwork for its own sake. A location that uses a different scheduling vocabulary, intake script, insurance-verification process, or escalation path creates rework for the people supporting it later. Standardize the parts that patients and staff encounter repeatedly: appointment types, provider rules, call-routing logic, cancellation handling, new-patient intake, and the fields that must be captured before an appointment is confirmed.
 
-**Key Points to Consider:**
+Build the launch plan around capacity rather than a hoped-for revenue number. Ask how many provider hours will be available each week, which appointment types consume that capacity, and how many calls, online requests, recalls, and referrals must turn into scheduled visits for the location to reach a sustainable cadence. Those questions expose whether the constraint is demand, clinical capacity, insurance credentialing, or the patient-access process.
 
-– Understanding how local, state, and federal regulations are different and what they are in your area..
+## How Do You Set Up Compliance Without Creating a Last-Minute Scramble?
 
-– Establishing a compliance framework that will guide your operation.
+Regulatory compliance needs an owner, a calendar, and evidence that the work occurred. State optometry board requirements, entity structure, licensure, payer enrollment, privacy obligations, workplace requirements, and vendor contracts are not a single checklist that can be completed once. Requirements vary by state and by the services the practice offers, so legal and compliance professionals should confirm the group's specific obligations. The [American Optometric Association's state-board directory](https://www.aoa.org/advocacy/state/state-boards-of-optometry?sso=y) is a useful starting point for identifying the relevant board.
 
-– Understanding potential legal repercussions of non-compliance.
+For patient-access operations, define the minimum necessary information each role may view, how access is granted and removed, where calls or messages are documented, and who reviews exceptions. A new location often adds new users, devices, vendors, and forwarding rules at the same time. That is exactly when informal access decisions become difficult to unwind.
 
-Prior to beginning your practice, it's critical to have a clear understanding of the regulations governing optometry. This includes familiarizing oneself with each set of regulations that pertain to healthcare, patient privacy, and even workplace safety.It is important to know the requirements for forming a business in your area, such as whether you need to be an S- or C-Corporation, or if an LLC will suffice. Talking to a lawyer is one option, but you may also find that connecting with trade groups in your region can put you in touch with other business owners who have already been through the process and can save you time and money by providing insights that you don't yet have.
+The U.S. Department of Health and Human Services provides a [Security Risk Assessment Tool](https://healthit.gov/privacy-security/security-risk-assessment-tool/) to support a structured review of electronic protected health information risks. It does not replace legal or security advice, but it helps leaders turn vague concerns into a documented review of systems, safeguards, and remediation owners.
 
-Establishing a compliance framework is a proactive approach to mitigating legal risks. This framework encompasses documentation on how you'll manage regular training for staff members, adherence to patient privacy laws, and ensuring that the clinical practice adheres to healthcare standards (looking for inspiration, [here are seven questions to ask to help create your framework](https://healthit.gov/privacy-security/security-risk-assessment-tool/)). Non-compliance, on the other hand, could result in legal repercussions that could severely impact the practice's reputation and financial health, with fines ranging from [hundreds of dollars to tens of thousands, depending on the penalty tier](https://www.hipaajournal.com/hipaa-violation-fines/). Therefore, having a compliance checklist, conducting regular audits, and implementing continuous education on legal updates are smart strategies to ensure ongoing compliance.
+Treat training as part of go-live readiness. Staff and remote support teams should know how to authenticate callers, document requests, route clinical questions to licensed personnel, report suspected privacy issues, and avoid improvising answers outside their role. A short workflow that is understood and tested is more useful than a thick policy binder no one opens.
 
-### **How Do You Approach Business Planning?**
+## How Should You Choose a Location That Works for a Group Model?
 
-Creating a comprehensive business plan will act as a roadmap to help you by defining and detailing the key decisions and approaches you will need to make throughout your practice. Knowing what to expect and how you will respond ahead of time will make each step along the way a bit smoother.
+Location selection should test both market opportunity and operational fit. A promising trade area can still be a poor group location if parking, visibility, access, build-out restrictions, provider travel, or staffing coverage make daily operations brittle. The site also needs to support the service mix you plan to offer, including optical space, exam capacity, accessibility, storage, and technology infrastructure.
 
-**Key Points to Consider:**
+Use the same scorecard for every potential location so leadership can compare opportunities on equal terms. Include household and employer patterns, patient travel time, nearby competitors, referral sources, lease terms, physical access, construction risk, and the likely time between opening and stable appointment volume. The scorecard should also capture facts that matter after opening: which systems the office will use, how calls will be answered, and whether the central team can see its schedule and performance data.
 
-– Conducting market research.
+Our [optometric practice location selection framework](/blog/location-selection-optometric-practices/) offers a deeper site-evaluation process. For a multi-location group, add one more question: can this location operate with the same patient-access standards as the rest of the network? If the answer is no, price the additional complexity before treating the site as a growth opportunity.
 
-– Crafting a SWOT analysis.
+## What Financial Plan Does a New Location Actually Need?
 
-– Projecting financial forecasts.
+Financial planning should separate one-time opening costs from recurring operating costs and show when each cost begins. The opening budget commonly includes build-out, equipment, technology implementation, initial optical inventory, professional fees, credentialing, insurance, marketing, and working capital. The operating budget should include occupancy, payroll, benefits, software, communications, supplies, maintenance, billing support, and the cost of patient access.
 
-Market research is not typically taught in optometry school. However, understanding the basics of your demographics and how to reach them will make a big difference. Here are some simple steps to help you better understand your target market and how they want to be served:
+The key management question is not simply whether the location can become profitable. It is whether the group has enough cash and operating discipline to fund the time between opening costs and stable collections. Revenue, claims, cash, and profit are different measures. A scheduled visit may generate a charge, but that does not mean cash is available to cover payroll or vendor invoices that same week.
 
-- [Understand your demographics](https://financialmodelslab.com/blogs/write-business-plan/mobile-optometry-clinic). This includes factors such as age, gender, income, and location.
+Create conservative, expected, and upside scenarios. The conservative scenario should assume slower ramp-up, higher-than-planned hiring needs, and delayed collections. Use it to determine the required reserve and the decisions that would trigger intervention. Then review actual results against the model monthly: appointment demand, completed visits, no-shows, optical activity, accounts receivable, labor, and cash runway.
 
-- Identify potential patients. This can be done by looking at census data, industry reports, and social media.
+For a practical operating template, see [first-year financial planning for optometry practices](/blog/first-year-financial-planning-optometry/). A group adding locations should also report results by site and in aggregate. A combined dashboard can conceal one location that is consuming more cash, missing more calls, or carrying a staffing problem that needs attention.
 
-- Analyze the competition. This includes understanding what other optometrists in your area are doing and how you can differentiate yourself. Scan their website and social media to see how they market themselves and look at their engagement on social media to get a feel for who they are serving.
+## Which Technology Decisions Matter Before Day One?
 
-- Develop a service offering, pricing strategy, and marketing approach that resonates with your target market. For some, this is an intuitive-based step based on their own anecdotal understanding of the business, for others, it's about looking at data and extrapolating decisions. Learn how you want to work, but it's always good to start with data until your intuition is well-trained.
+Technology should support a defined workflow, not force staff to invent one. At minimum, the group needs an EHR or practice-management environment appropriate to its model, scheduling rules, secure communications, payment and claims processes, reliable connectivity, user provisioning, reporting, and a clear plan for downtime. Evaluate whether the systems can support more providers, locations, and roles without forcing duplicate records or manual workarounds.
 
-The American Optometric Association or [research groups](https://thevisioncouncil.org/optical-market-research) can help provide resources for this phase.
+For patient access, test the full path rather than the product demo. Can a trained team see correct appointment availability? Are location-specific provider rules visible? Can the system identify a new versus existing patient and record the reason for contact? What happens when an online request, a call, an insurance question, or a cancellation needs to be routed to a different person? Those are operational questions, not just software features.
 
-Following the market research, crafting a[ SWOT analysis helps in identifying the strengths, weaknesses, opportunities, and threats](https://blog.hubspot.com/marketing/swot-analysis) pertaining to the new optometry practice. Financial forecasting, another pivotal component of business planning, necessitates a realistic estimation of revenues, expenses, and profitability over a defined period. Utilizing tools like financial projection templates or consulting with financial experts can significantly aid in creating a complete financial blueprint.
+Integration and reporting deserve early attention. If a new office cannot feed consistent scheduling, call, referral, and recall information into group reporting, the network loses its ability to compare performance fairly. A staged purchase plan can protect cash while preserving the path to scale. The [equipment and technology checklist for new optometry practices](/blog/equipment-technology-checklist-new-optometry-practices/) can help separate opening-day essentials from items that can wait until volume supports them.
 
-### **How Should You Manage Finances?**
+## How Should You Design Patient Access Before the First Appointment?
 
-Financial responsibility is key in making it through the early stages of a new practice, ensuring a balanced approach between expenses, savings, and investments.
+Patient access is the first operating system patients experience. Decide who answers during business hours, what happens at overflow and after hours, how appointment requests are prioritized, how insurance questions are handled, and how unbooked requests are followed up. A voicemail box is not a patient-access strategy, especially when a group is making a first impression in a new market.
 
-**Key Points to Consider:**
+Write scripts as decision aids, not rigid speeches. A good scheduling guide tells the team what information to collect, which appointment type fits the request, when a clinical question must be escalated, and how to close the loop if an appointment cannot be offered immediately. It also gives supervisors a basis for quality review. If one location explains availability or vision-plan requirements differently from another, the patient experience and data quality will drift.
 
-– Budgeting with precision.
+Centralized scheduling can help groups apply the same standards while giving individual locations visibility into their own capacity. The [Medical Group Management Association's guidance on centralized scheduling](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment) is relevant because centralization succeeds when governance, training, scheduling rules, and reporting are built together. The purpose is not to remove local knowledge. It is to make dependable coverage and consistent processes possible across the network.
 
-– Effective cash flow management.
+Track the handoffs that matter: answered versus abandoned calls, appointment requests converted to booked visits, time to follow-up, cancellation recovery, recall completion, and reasons requests cannot be scheduled. Review trends by location, provider, daypart, and request type. Use the findings to improve capacity rules or training, not to pressure staff with a metric they cannot influence.
 
-– Monitoring and controlling expenses.
+## What Staffing Model Keeps the Opening Team Focused?
 
-Budgeting is the first step to making sure your practice can ever get off the ground. This budget should encompass all anticipated expenses, including legal fees, rent, equipment acquisition, technology integration, marketing, and furnishings. Consider this[ detailed budget in 2016 for an OD launching a practice](https://eyesoneyecare.com/resources/heres-what-it-cost-me-to-open-my-optometry-practice-cold/) to get at least a ballpark of what to consider and what to expect to pay. Also, consider consulting with financial advisors or leveraging resources from the Small Business Administration can provide invaluable insights.
+Opening teams often try to hire every role before demand has stabilized. That can increase fixed costs and create unnecessary turnover. A better approach defines the essential in-person roles, the work that can be centralized, and the coverage plan for predictable absences, peak call periods, and growth.
 
-Cash flow management and expense monitoring are continuous processes that ensure the practice remains financially sustainable. Ensuring you maintain enough cash on hand to meet operational needs while monitoring expenses to remain within budget is critical for the practice's financial health. Working with a bookkeeper or accountant familiar with the industry can provide real-time insights into the practice's financial performance, enabling informed decision-making.
+For each role, document the outcomes it owns and the work it does not own. Front-desk staff may welcome patients and resolve in-office needs, while a central team handles call coverage, scheduling, recall, insurance verification, or administrative follow-up. The right division depends on the group's systems, patient volume, and supervision model, but ambiguity is costly. Work falls between roles when no one is accountable for it.
 
-### **How Do You Deliver Quality Patient Care?**
+Hire for role fit and train to a common standard. Job descriptions, structured interviews, background checks where appropriate, onboarding, call calibration, and performance feedback should be consistent across locations. The [staffing guide for new optometry practices](/blog/staffing-new-optometry-practice/) details the core roles and training choices. At group scale, build backup coverage into the model instead of treating every absence as an emergency.
 
-All of this leads just to the opportunity to see patients. Then, for a practice to succeed for long, you have to make sure you're actually delivering quality patient care.
+Managed remote support can be one option for repeatable patient-access and back-office work, provided the group sets clear workflows, access controls, training requirements, quality review, and escalation ownership. The decision should be based on required coverage and management capacity, not on an hourly-rate comparison alone. Our [front-desk outsourcing guidance for multi-location practices](/blog/front-desk-outsourcing-multi-location-practices/) explains the operating questions to resolve before adopting that model.
 
-**Key Points to Consider:**
+Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
 
-– Staff training for exceptional patient care.
+## How Do You Build a Brand and Marketing Plan That Operations Can Support?
 
-– Acquiring essential diagnostic and treatment equipment.
+Branding and marketing create expectations that the operating team must be able to meet. Before promoting same-week appointments, online booking, specialty services, or broad insurance acceptance, confirm that scheduling rules, provider capacity, and patient communications can support the promise. A marketing campaign that drives calls into an understaffed queue can damage trust and obscure the real source of the problem.
 
-– Cultivating a patient-centric culture.
+Establish a consistent identity and message across the group, then measure the path from inquiry to completed visit. Track the source of appointment requests where practical, but do not let attribution become an excuse to ignore service quality. A patient referred by a physician, a web form, and a phone inquiry should each receive a timely and accurate response.
 
-Ensuring that each staff member is proficient in patient interactions, clinical procedures, and the usage of diagnostic equipment is obviously important. Training programs offered by the AOA or other professional bodies can be immensely beneficial.
+Marketing spend should be reviewed against operational capacity and actual conversion, not only impressions or clicks. The most useful launch review asks: which requests reached the group, which became booked visits, which were lost, and why? This gives the operations leader a shared fact base with the marketing team and prevents demand generation from getting ahead of the patient experience.
 
-Cultivating a patient-centric culture is a long-term investment. A satisfied patient is likely to return for future eye care needs and recommend the practice to others. Implementing a patient-first approach entails creating a welcoming environment, being attentive to patient concerns, and ensuring transparency in communication regarding treatment plans and costs. Feedback collection and analysis are instrumental in understanding patient needs and refining the quality of care.
+## What Should Leaders Review in the First 90 Days?
 
-### **How Do You Handle Staffing and Management?**
+The first 90 days should be treated as a controlled learning period. Hold a weekly operating review with location leadership, patient-access ownership, finance, and clinical representation. The goal is to identify broken handoffs early, assign an owner, and verify whether the fix worked.
 
-Assembling a capable team is a critical step in forming a new optometry practice. Effective management and staffing strategies ensure a pleasant work environment and a high level of service to the patients.
+Review a small set of measures consistently: schedule utilization, call answer and abandonment patterns, booking conversion, cancellation and no-show reasons, unresolved insurance or referral issues, staffing coverage, patient complaints, cash position, collections, and safety or privacy incidents. Numbers alone do not explain a process, so pair them with call-quality reviews, staff feedback, and a sample of unresolved requests.
 
-Here are two non-obvious steps people can take to help assemble a good team:
+Avoid solving every local problem with a unique exception. If the same issue appears at two locations, test whether the root cause is a network-wide rule, training gap, system configuration, or reporting blind spot. Document the change, update the operating playbook, and communicate the new standard to every affected team. That is how a new location becomes a stronger operating model for the next one.
 
-- **Be clear about your vision and goals.** What do you want your practice to achieve? What kind of culture do you want to create? Once you have a clear vision, you can start to look for team members who share your values and goals.
+## What Is the Practical Order of Operations?
 
-- **Hire for attitude, train for skill.** It's more important to find people who are passionate about optometry and have a good attitude than it is to find people with all the right skills. You can always train someone on the job, but you can't change their attitude.
+Start with the legal, financial, and clinical decisions that determine whether the location can open safely. Then design the patient journey and staffing model before configuring technology and starting marketing. Run scenario tests before opening: a new-patient call, a vision-plan question, a cancellation, an urgent clinical request that must be escalated, an after-hours message, and a system outage. Each test should show who owns the request, what is documented, and how the patient receives a next step.
 
-**Key Points to Consider:**
+After opening, resist the urge to judge the location solely by the first few weeks of revenue. Focus on whether the group can see the work, correct errors, protect patient information, and maintain a consistent experience as volume increases. A location becomes scalable when its operating discipline can be taught, measured, and repeated without relying on one person to remember every exception.
 
-– Recruiting skilled personnel.
+## Sources
 
-– Implementing training and development programs.
-
-– Outsourcing or working with a Business Process Outsourcing group (BPO) to get the right help easily.
-
-The hiring process sets the tone for the quality of service in the optometry practice. It's smart to have a well-defined recruitment process, including clear job descriptions, a structured interview process, and a thorough background check mechanism. Utilizing professional recruitment agencies or platforms specifically tailored for healthcare professionals can streamline the hiring process. Also, consider outsourcing or using [a BPO, a company that hires, trains, and manages](https://mybcat.com/blog/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice/) staff for tasks like billing, scheduling, or answering simple patient questions. Bringing in experienced staff who are immediately ready to be put to work is a huge time-saver. Also, many BPOs offer existing workflows and SOPs (standard operating procedures) that allow new practices to not have to create those SOPs themselves.
-
-Once a team is in place, investing in training and development is crucial for enhancing skills and ensuring adherence to the practice's standards. Regular training sessions, performance evaluations, and constructive feedback foster a culture of continuous improvement. Retention strategies, on the other hand, focus on creating a conducive work environment that motivates staff and reduces turnover. A [positive workplace culture that acknowledges the value of staff members](https://eyesoneyecare.com/resources/key-optometry-management-strategies-to-boost-employee-retention/), competitive pay, and opportunities for professional growth are key factors in retaining talent.
-
-### **How Do You Integrate Technology?**
-
-In the modern-day optometry practice, technology plays a pivotal role in enhancing efficiency, improving patient care, and ensuring data security. And there are tech solutions for just about everything, from clinical applications, invoicing and billing, to project management. For a detailed breakdown of equipment costs and priorities, see our [Equipment and Technology Checklist for New Optometry Practices](/blog/equipment-technology-checklist-new-optometry-practices/).
-
-**Key Points to Consider:**
-
-– Streamlining operations through technology.
-
-– Utilizing technology for better patient experiences.
-
-– Implementing cybersecurity measures.
-
-Efficient scheduling systems, electronic health records (EHR), and digital billing platforms are integral for smooth operations. Furthermore, technology can enhance the patient experience through online appointment booking, digital reminders, and virtual consultations. For a new practice, [94% of patients said they were willing to switch to a new provider](https://b2b.healthgrades.com/insights/blog/online-appointment-scheduling-helps-staff-and-patients/) for some modern digital conveniences like online scheduling. So, getting started with essential technology like online scheduling, and gradually expanding as the practice grows, is a smart approach.
-
-Cybersecurity is a critical aspect of technological integration. Protecting sensitive patient records and other data from cyber threats is not only a legal obligation but also builds trust with patients. Implementing cybersecurity measures, educating staff on cybersecurity best practices, and regularly updating security protocols are steps toward ensuring data protection. Consulting with cybersecurity experts can provide tailored solutions to safeguard the practice's digital assets. [If you work with a BPO, they could help with ensuring cybersecurity](https://mybcat.com/blog/be-secure-and-compliant-using-bpo-services-for-your-eye-care-practice/).
-
-### **How Do You Approach Marketing and Branding?**
-
-Creating a strong brand identity and implementing effective marketing strategies are crucial for attracting patients and establishing a foothold in the community.
-
-**Key Points to Consider:**
-
-– Developing a brand identity.
-
-– Implementing advertising strategies.
-
-– Embracing digital marketing and SEO.
-
-Developing a brand identity involves creating a distinctive logo, choosing a color scheme, and defining the values and message of the optometry practice. The concept of branding quickly goes outside the boundaries of this article, but know that a strong brand identity resonates with the target audience and sets the practice apart in a competitive market. It's best not to skimp on this step and to hire a graphic designer or agency to help make sure you're telling your possible patients the story you want to tell. Initial marketing efforts could encompass traditional advertising channels like local newspapers, radio, or community events to create awareness within the local community.
-
-Having a professional website, engaging in social media marketing, and optimizing the practice's online presence through Search Engine Optimization (SEO) are great steps to get started with digital marketing. While SEO might accrue benefits over time, engaging with local social media influencers or community groups online can provide immediate visibility. Often, all you need to do is reach out directly to influencers and begin a conversation about what you're trying to accomplish. Allocating a budget for marketing, monitoring the effectiveness of different marketing strategies, and adapting the marketing plan accordingly are key to achieving marketing goals. Consider starting with 20% of your revenue as a baseline for your marketing spend. As you grow, you may have strong enough [referral and patient retention that you're able to dial back on marketing spend](https://mybcat.com/blog/patient-retention-and-acquisition-strategies-for-your-optometry-practice/).
-
-### **How Do You Manage Risk?**
-
-Identifying and mitigating risks is central to the stability and long-term success of a new optometry practice.
-
-**Key Points to Consider:**
-
-– Recognizing potential operational, financial, and compliance risks.
-
-– Acquiring adequate insurance coverage.
-
-– Developing risk mitigation strategies.
-
-Risk identification encompasses a wide array of potential challenges, including operational, financial, and compliance risks. Seriously thinking through potential risks, perhaps sitting down with a few optometry owners and understanding their approach, is a proactive step toward safeguarding the practice. Moreover, acquiring adequate insurance coverage for malpractice, property damage, and business interruption is essential to protect the practice from unforeseen events.
-
-Developing risk mitigation strategies is a continual process. It can feel weird to consider before you've even opened your doors, but it's not something that can be ignored. This could involve implementing standard operating procedures to prevent operational mishaps, having a financial buffer for unexpected expenses, and ensuring adherence to compliance protocols to avoid legal repercussions. Regular review and update of the risk management plan, in line with the evolving dynamics of the practice and the broader healthcare environment, are crucial for maintaining a resilient practice.
-
-## **Related Guides**
-
-Explore these detailed guides on specific aspects of starting your practice:
-
-- **[Equipment and Technology Checklist](/blog/equipment-technology-checklist-new-optometry-practices/)** — What to buy, what it costs, and how to prioritize purchases
-- **[Staffing Your New Optometry Practice](/blog/staffing-new-optometry-practice/)** — Essential roles, hiring strategies, and training programs
-- **[Location Selection for Optometric Practices](/blog/location-selection-optometric-practices/)** — Demographics, competition, and lease considerations
-- **[First-Year Financial Planning](/blog/first-year-financial-planning-optometry/)** — Budgeting, cash flow management, and financial milestones
-- **[5 Signs You're Ready to Scale](/blog/5-signs-youre-ready-to-scale/)** — When to expand from startup to growth mode
-
----
-
-## **Putting It All Together**
-
-The journey towards establishing a thriving optometry practice is a story of nurturing a vision, literal and metaphorical, into a tangible reality. The concepts shared through this guide seek to serve as a simple frame upon which aspiring optometrists can build their company. Remember, no one can do everything perfectly, but having an understanding of each piece and giving it a baseline of effort will make a big difference when the pieces start coming together and the opening day draws near. Use this guide to make sure there are no unexpected surprises or missed opportunities that seem obvious in hindsight.
+- [American Optometric Association: State Boards of Optometry](https://www.aoa.org/advocacy/state/state-boards-of-optometry?sso=y)
+- [HealthIT.gov: Security Risk Assessment Tool](https://healthit.gov/privacy-security/security-risk-assessment-tool/)
+- [American Optometric Association: Practice Management and Patient Care Guidance](https://www.aoa.org/practice/practice-management-and-patient-care-guidance)
+- [MGMA: Implementing Central Scheduling to Support Practice Growth](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)

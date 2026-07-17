@@ -22,7 +22,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-SPEC_TEMPLATE = """You are a senior content remediation writer for mybcat.com — an enterprise B2B site for MULTI-LOCATION healthcare groups (3+ locations: optometry/dental/veterinary groups, DSOs, healthcare executives). MyBCAT provides managed patient-access services: patient access center (call answering, scheduling, recall, intake), virtual assistants, and back-office support. Your current working directory IS a git worktree of the site repo — edit files in place. BOUNDARY: you own ONLY src/content/blog/{slug}.md. You may READ any repo file. Never touch .git, never run git commit/branch/push, never edit any other file, do not load skills or call MCP/Apps. You have NO web access.
+SPEC_TEMPLATE = """You are a senior content remediation writer for mybcat.com — an enterprise B2B site for MULTI-LOCATION healthcare groups (3+ locations: optometry/dental/veterinary groups, DSOs, healthcare executives). MyBCAT provides managed patient-access services: patient access center (call answering, scheduling, recall, intake), virtual assistants, and back-office support. Your current working directory IS a git worktree of the site repo — edit files in place. BOUNDARY: you own ONLY src/content/blog/{postfile}. You may READ any repo file. Never touch .git, never run git commit/branch/push, never edit any other file, do not load skills or call MCP/Apps. You have NO web access.
 
 MISSION: bring this legacy post fully up to the site's content-quality standard while PRESERVING its URL/slug, core topic, publishDate, author, and any accurate existing substance. Known deficiencies: {errors}.
 
@@ -32,7 +32,7 @@ PROCESS (condensed from the house blog-writer pipeline — follow in order):
 3. WRITE: expand to AT LEAST 1,600 words of body content with prose density >=60% (favor real paragraphs; use bullets only where a list genuinely beats prose). Write for an operator/executive of a multi-location group: concrete, specific, experienced, zero filler. Preserve any accurate advice from the original; cut anything generic or wrong. FORBIDDEN (hard fail): 'Georgia'/'Atlanta'/'Marietta' as business geography, 'small business', 'local practice', 'free trial', 'DIY', 'cheap', tel: links. AVOID (style bans): 'dive into', 'seamless', 'navigate', 'leverage', 'game-changer', 'unlock', 'empower', 'cutting-edge', em-dash-heavy AI cadence, rule-of-three padding. Read-aloud test: if a sentence sounds like an AI memo, rewrite it.
 4. FRONTMATTER: add seoTitle (50-60 chars, targets the post's real search intent) and seoDescription (140-160 chars, plain text). Add/fix 'cluster' with the exact cluster id from topic-taxonomy.json. Keep slug, publishDate, author unchanged. Match sibling posts for any modified/updated date field convention.
 5. SOURCES: add a '## Sources' section with AT LEAST 2 external citations. Choose external sources ONLY from the pre-verified live list at {pool} (readable at that absolute path) — pick ones genuinely relevant to your claims. CRITICAL HONESTY RULE: you cannot browse these sources, so do NOT attribute specific invented statistics to them; keep any sourced claims qualitative and consistent with what the source title/publisher plausibly covers, or retain statistics that the ORIGINAL post already attributed. No archive.org sources.
-6. INTERNAL LINKS: weave AT LEAST 5 contextual in-body internal links (trailing slashes required), including AT LEAST 1 to the cluster pillar URL; the rest to genuinely related posts, /solutions/, /enterprise/, or /glossary/ pages that exist in src/pages or src/content (verify each target file exists before linking).
+6. INTERNAL LINKS: weave AT LEAST 5 contextual in-body internal links (trailing slashes required), including AT LEAST 1 to the cluster pillar URL; the rest to genuinely related posts, /solutions/, /enterprise/, or /glossary/ pages that exist in src/pages or src/content. Blog-post link targets must be PUBLISHED: check the target's frontmatter has status: published (never link to status: scheduled or draft posts — the build strips those links, and CI hard-fails a published post linking to an unpublished one). Non-blog targets: verify the file exists.
 7. CTA: ensure the post carries the house CTA pattern the sibling posts use (see cta-template.html and siblings) — reuse the existing house mechanism exactly; do not invent new components.
 8. COMPLIANCE: no medical diagnosis/treatment claims, no guaranteed-revenue promises, no real patient/client names. Enterprise ICP only — nothing that reads like advice for a single-location solo practice.
 9. SELF-REVIEW against every numbered rule above, then finish.
@@ -84,14 +84,16 @@ def main() -> int:
     tasks = []
     for entry in posts:
         slug, errors = entry["slug"], entry["errors"]
-        spec = SPEC_TEMPLATE.format(slug=slug, errors=errors, pool=pool, verify=verify, repo=repo)
+        import os as _os
+        postfile = f"{slug}.mdx" if _os.path.exists(_os.path.join(repo, "src/content/blog", f"{slug}.mdx")) and not _os.path.exists(_os.path.join(repo, "src/content/blog", f"{slug}.md")) else f"{slug}.md"
+        spec = SPEC_TEMPLATE.format(slug=slug, errors=errors, pool=pool, verify=verify, repo=repo, postfile=postfile)
         check = (
             f"/usr/bin/python3 '{args.checker}' "
             f"--verify-command '/bin/bash {verify} {slug} {repo}' "
             f"--patch '{workdir}/{slug[:40]}.patch' "
             f"--summary fix-summary.md "
             f"--exported-summary '{workdir}/{slug[:40]}.summary.md' "
-            f"--owned-files 'src/content/blog/{slug}.md'"
+            f"--owned-files 'src/content/blog/{postfile}'"
         )
         tasks.append({
             "key": f"post-{slug[:38]}",

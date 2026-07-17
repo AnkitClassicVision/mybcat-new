@@ -1,7 +1,8 @@
 ---
 title: "How to Reduce Administrative Costs in Eye Care Practices"
-seoTitle: "How to Reduce Administrative Costs in Eye Care Practices"
+seoTitle: "Reduce Administrative Costs for Multi-Location Groups"
 description: "Non-doctor payroll should be near 24% of revenue for eye care practices. Learn three proven levers to reduce administrative costs without cutting quality."
+seoDescription: "Learn how multi-location healthcare groups can reduce administrative cost through workload design, centralized patient access, and performance controls."
 publishDate: 2024-12-03
 status: published
 author: Ankit Patel
@@ -12,145 +13,99 @@ tags:
 - scheduling
 - outsourcing
 - efficiency
+cluster: bpo-outsourcing
 featuredImage: /images/blog/call-center-workers-discussing-data-on-netbook-2023-11-27-04-49-05-utc-scaled.webp
 canonical: https://mybcat.com/blog/blog-reduce-administrative-cost/
 relatedPosts: []
 ---
 
-I'm going to give you a number that might ruin your day: 24%.
+Administrative cost is rarely one line item that a multi-location eye care group can simply cut. It is the accumulated cost of work that has no clear owner: calls that reach voicemail, eligibility checks completed twice, recalls handled only when a site has spare capacity, and local scheduling rules that require corporate staff to sort out exceptions after the fact.
 
-That's roughly what your non-doctor payroll should be as a percentage of total revenue. Industry benchmarks. Not my opinion—actual data from thousands of practices.
+That is why payroll percentage alone is a poor operating diagnosis. A group can spend less on administrative labor and still lose access opportunities, create more work for clinical teams, or leave site managers with no useful view of demand. The goal is not the smallest possible support team. The goal is a patient-access model that gives each recurring task a defined owner, a defined workflow, and a measurable outcome.
 
-Now pull up your own numbers. What's your percentage?
-
-If you just winced, keep reading. Because you're probably not alone, and there's a path out of this.
+For an organization with three or more locations, this usually starts with a network-level view of administrative demand. Review call volume, booking requests, insurance work, recall activity, messages, and after-hours coverage by location and time of day. Then separate work that needs a person on-site from work that can be performed in a centralized or remote queue.
 
 ## Table of Contents
 
-- [Where Does the Money Actually Go?](#where-does-the-money-actually-go)
-- [How Does the 60/40 Reality Check Work?](#how-does-the-6040-reality-check-work)
-- [What Are the Three Levers You Can Actually Pull?](#what-are-the-three-levers-you-can-actually-pull)
-- [How Does Global Staffing Actually Work?](#how-does-global-staffing-actually-work)
-- [What's Actually Worth Outsourcing?](#whats-actually-worth-outsourcing)
-- [What Numbers Should You Track?](#what-numbers-should-you-track)
-- [Stop Overpaying For Admin Work](#stop-overpaying-for-admin-work)
+- [Where do administrative costs actually accumulate across locations?](#where-do-administrative-costs-actually-accumulate-across-locations)
+- [How should leaders establish a useful cost baseline?](#how-should-leaders-establish-a-useful-cost-baseline)
+- [Which three levers reduce cost without weakening patient access?](#which-three-levers-reduce-cost-without-weakening-patient-access)
+- [What work belongs in a centralized or remote team?](#what-work-belongs-in-a-centralized-or-remote-team)
+- [How should a group control quality and HIPAA risk?](#how-should-a-group-control-quality-and-hipaa-risk)
+- [Which metrics show whether the change is working?](#which-metrics-show-whether-the-change-is-working)
+- [How should executives stage an administrative-cost program?](#how-should-executives-stage-an-administrative-cost-program)
 
-## Where Does the Money Actually Go?
+## Where do administrative costs actually accumulate across locations?
 
-Most practice owners I talk to know they're spending too much on admin. They just don't know *where* exactly. It feels like a blob of overhead that's impossible to untangle.
+The expensive part of administration is often variation. One office may have a receptionist answering every call, verifying benefits between interruptions, and calling overdue patients from a paper list. Another may use a different script, route the same question to a technician, and rely on voicemail callbacks. Neither site may look overstaffed in isolation. Across a group, however, the variation creates duplicated training, uneven coverage, and reporting that cannot tell leadership where work is truly going.
 
-Let me untangle it.
+Staffing bloat also develops one sensible decision at a time. A site adds someone to catch up on billing work. That employee then cannot cover phones, so another hire fills phone coverage. Recalls become intermittent, so a manager asks the front desk to fit them in around arrivals. The group has added capacity without deciding which role owns each process from end to end.
 
-**Staffing bloat happens gradually.** You hired someone for insurance billing because it got overwhelming. Then you needed another person to handle phones because the first person was too busy billing. Then you brought on a part-timer to help with recalls because nobody had time for outbound calls.
+Underutilization is a workflow issue before it is a people issue. A team member may spend part of the day on legitimate billing or scheduling work and the rest waiting for unpredictable interruptions. The answer is not to assume that person is unproductive. It is to measure the work arriving, the work completed, the work handed off, and the time required for each repeatable workflow. That evidence can reveal whether the issue is staffing level, poor queue design, inconsistent site rules, or a task that should not live at the front desk at all.
 
-Each hire made sense in isolation. Together, they create a payroll that's eating your margins.
+Supply costs deserve their own review, but they should not distract from the access layer. Leadership should examine purchasing discipline, inventory turns, and vendor terms through the appropriate finance and clinical governance process. Administrative cost reduction is most durable when it begins with work design, because that is where a multi-location group can standardize without reducing care capacity.
 
-**Underutilization is the hidden killer.** That person you hired for billing—are they billing eight hours a day? Or are they billing for three hours and filling time with tasks that don't really need doing? Most practices have significant slack in their staffing. Not because employees are lazy, but because workflows are designed inefficiently.
+## How should leaders establish a useful cost baseline?
 
-**Cost of goods creeps up too.** Are you getting the best prices on frames? Contact lenses? When's the last time you actually negotiated with your vendors? Many practices are overpaying simply because they've always used the same suppliers.
+Start with a baseline that links cost to work, not just a combined payroll number. For each location and for the group as a whole, document administrative labor, benefits, overtime, temporary coverage, vendor spend, and the management time spent repairing missed handoffs. Then pair those costs with workload: inbound calls, abandoned calls, booked appointments, reschedules, eligibility checks, recall attempts, billing follow-ups, portal messages, and after-hours contacts.
 
-Here's the rule of thumb: your combined cost of labor and goods should stay below 60% of revenue. Labor alone shouldn't exceed about 35-40% when you include doctors. If you're north of those numbers, something's off.
+This view gives executives a way to compare locations without pretending they are identical. A high-volume location may need more on-site coordination. A site with a large amount of callback work may instead need better queue ownership. A newly acquired practice may need a transition period before its data is comparable. The point is to explain the differences, not to punish them.
 
-## How Does the 60/40 Reality Check Work?
+MGMA's work on [healthcare call center efficiency](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency) and [centralized scheduling](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment) is a useful prompt for this review: administrative workload should be studied as an operating system, including how requests arrive and where they are resolved.
 
-Pull your P&L. Do the math. Seriously, do it now.
+Use the baseline to answer practical questions. Which locations are paying for duplicate coverage? Which call types generate the most transfers? How often does an in-office team stop patient-facing work to complete a task that could be queued? Which sites have a backlog of recall or insurance work because nobody owns it consistently? A spreadsheet that answers those questions is more valuable than a generic target percentage.
 
-Take your total labor cost (all salaries, benefits, payroll taxes—everyone). Add your cost of goods (frames, lenses, contacts, supplies). Divide by total revenue.
+## Which three levers reduce cost without weakening patient access?
 
-What did you get?
+Most groups need a mix of three levers: reduce avoidable work, standardize repeatable work, and place work with the right team. None of these is a one-time expense exercise. Together, they create a more manageable access operation.
 
-If you're under 60%, nice work. You're running a tight ship.
+First, reduce avoidable demand. Review the top reasons people call, message, or walk to the desk. Some demand is essential. Some comes from unclear confirmations, inconsistent reminder language, no self-service path for a simple request, or a process that asks patients to call back for information already available to the organization. The right intervention may be clearer communication, a better reminder sequence, or a defined digital route. It should not be a blanket attempt to push patients away from live help.
 
-If you're between 60-70%, you've got some fat to trim but you're not in crisis.
+Second, standardize the repeatable work. Scheduling, confirmations, routine reschedules, recall outreach, insurance verification, and message intake need documented rules, disposition codes, and ownership. Standardization does not mean every location loses its legitimate scheduling constraints. It means the group distinguishes approved local exceptions from informal habits. For a practical comparison of operating models, see [centralized versus distributed intake](/blog/centralized-vs-distributed-intake-framework/).
 
-If you're over 70%, we need to talk. You're working way too hard for margins that thin.
+Third, use the right labor model for each task. In-office teams should remain focused on work that requires physical presence, immediate site judgment, or direct support during a patient visit. A centralized patient-access team, remote administrative team, or managed partner can handle defined recurring workflows where system access, training, quality review, and escalation rules are in place. That division protects the site team's time while maintaining a clear path for exceptions.
 
-## What Are the Three Levers You Can Actually Pull?
+## What work belongs in a centralized or remote team?
 
-Assuming you want to fix this, you've got three main options. Most practices need some combination of all three.
+The dividing line is not whether a task feels administrative. The question is whether it can be executed reliably through a documented workflow without requiring physical presence or clinical judgment. Routine inbound call handling, appointment requests, confirmations, basic reschedules, recall outreach, eligibility verification, billing follow-up, and structured message intake can often be centralized when the group has defined scripts and escalation rules.
 
-### 1. Right-size your team
+That does not mean every call should be handled from one queue. Provider-specific scheduling restrictions, service-line differences, unresolved service recovery, and questions that require clinical assessment need a controlled handoff. Non-clinical staff should gather the approved information, follow the approved script, and route the request to the named owner. They should not make clinical decisions or improvise beyond the protocol.
 
-This doesn't necessarily mean firing people. It might mean not replacing someone when they leave. It might mean cross-training so people can flex between roles. It might mean shifting hours based on actual demand instead of "this is how we've always scheduled."
+For many organizations, [front desk outsourcing](/solutions/front-desk-outsourcing/) is most useful when it operates as part of a governed patient-access layer instead of as overflow coverage. The same distinction applies when a group considers [medical virtual assistants](/solutions/medical-virtual-assistant/). A vendor or remote team can add capacity, but it cannot solve a missing process definition. The group must first decide who owns the queue, how outcomes are documented, and what happens when the task cannot be completed on the first interaction.
 
-Ask yourself:
-- Are there times during the day when staff are clearly idle?
-- Are there tasks that take way longer than they should?
-- Could two people do what three people are doing if workflows were better?
+The operating model should also make after-hours coverage explicit. A general message, a scheduling question, and a time-sensitive clinical concern do not belong in the same response path. Define approved categories, escalation contacts, response expectations, and documentation rules before assigning coverage. This protects patients and staff while giving executives an auditable view of what the access team handled.
 
-Sometimes the answer is yes. Sometimes it's not. But you won't know until you actually look.
+## How should a group control quality and HIPAA risk?
 
-### 2. Negotiate harder on supplies
+Cost reduction should not introduce a black box. Any centralized or outsourced workflow needs documented access controls, training, quality assurance, escalation boundaries, and reporting. If a partner creates, receives, maintains, or transmits protected health information on the group's behalf, compliance and counsel should review the arrangement and the applicable business associate requirements before it goes live.
 
-Join a buying group if you haven't already. Seriously. The discounts are real. We're talking 10-30% on frames and lenses depending on volume.
+Operational controls matter just as much as contract language. Give agents role-appropriate system access, keep scripts and knowledge articles under change control, and use structured outcomes rather than free-form notes whenever possible. Review a sample of interactions against the same rubric across locations. The rubric should test correct routing, documentation, scheduling logic, and escalation use, not just conversational tone.
 
-Review your vendor contracts annually. Get competitive quotes. Most suppliers will match pricing if they think you're actually willing to switch.
+The group should also decide how site feedback becomes a controlled update. When a location identifies a true exception, the central team needs a clear owner who can approve, document, and communicate the change. Otherwise, a legitimate local need becomes another undocumented variation. [Healthcare call center outsourcing for multi-location groups](/blog/healthcare-call-center-outsourcing-multi-location/) explains why governance, not coverage alone, determines whether this model can scale.
 
-And track your ordering. Are you over-ordering certain products that sit in inventory? Are you under-ordering popular items and missing sales? Your EHR probably has reports for this. Use them.
+## Which metrics show whether the change is working?
 
-### 3. Outsource what doesn't need to be done on-site
+Leadership needs a scorecard that connects administrative cost to access quality. Network averages are not enough. Report by location, call type, and queue so that a strong site does not conceal a weak handoff process elsewhere.
 
-This is the big one. And it's where most practices have the largest opportunity through [front desk outsourcing](/solutions/front-desk-outsourcing/) and [medical virtual assistants](/solutions/medical-virtual-assistant/).
+Track answered and abandoned calls, callback completion, appointment conversion from eligible requests, reschedule completion, recall activity, insurance verification completion, backlog age, transfer rate, and quality-review findings. Pair these operating measures with fully loaded administrative cost, overtime, outside coverage spend, and the amount of work that still returns to site teams for rework.
 
-Think about everything your staff does. Now ask: does this task physically need to happen in my office?
+The right interpretation is important. A lower payroll percentage is not a win if callback completion falls or if clinical teams are absorbing administrative messages. Conversely, a temporary increase in centralized support can be worthwhile if it gives the group clean data, consistent workflow execution, and enough coverage to eliminate a recurring backlog. The executive question is whether the organization is getting a more controlled system for each dollar spent.
 
-Answering phones? No.
-Scheduling appointments? No.
-Insurance verification? No.
-Patient recalls? No.
-Billing follow-ups? No.
-Chart prep? No.
+For a broader measurement framework, compare the scorecard with [patient access center metrics for healthcare executives](/blog/patient-access-center-metrics-healthcare-executives/) and the operational lens in [enterprise healthcare staffing ratios and patient-access optimization](/blog/enterprise-healthcare-staffing-ratios-patient-access-optimization/).
 
-The list goes on. A huge percentage of administrative work can be done remotely. And when you outsource to the right partner, you're typically paying 40-60% less than equivalent in-house labor.
+## How should executives stage an administrative-cost program?
 
-## How Does Global Staffing Actually Work?
+Begin with one workflow that is common across locations and easy to observe, such as routine appointment calls, confirmation callbacks, or recall outreach. Map the current state, including volume, systems used, handoffs, local exceptions, and unresolved items. Set the future workflow, its owners, and the evidence that proves it worked. Then test the model with a limited group of locations using the governance and reporting design intended for wider rollout.
 
-Let me be specific, because "outsourcing" is a loaded word.
+Do not call a pilot successful merely because a dedicated manager worked around every problem. A useful pilot proves that queues, scripts, integrations, escalation paths, QA, and reporting work without heroics. It should show what exceptions appear, how often they appear, and whether they belong in the standard workflow or a controlled site-specific path.
 
-I'm not talking about sending work overseas and hoping for the best. I'm talking about bringing trained remote workers into your team. They use your systems. They follow your protocols. They're on your schedule. The only difference is they're not physically sitting in your office.
+Once the workflow is stable, expand deliberately. Use the same definitions across sites, publish change decisions, and review location-level variance at a regular operating cadence. Groups planning a partner selection process can use the [patient access center RFP vendor checklist](/blog/patient-access-center-rfp-vendor-checklist-enterprise/) to make requirements explicit before comparing proposals.
 
-At Classic Vision Care—the practice my wife and I own—we've used remote staff for years. They handle our inbound calls, schedule appointments, verify insurance, and follow up on recalls. They're trained specifically on our systems (we use RevolutionEHR) and they know our patients. This is [what sets us apart from competitors like Hello Rache](/compare/vs-hello-rache/).
+Reducing administrative cost is ultimately an exercise in making work visible. When leadership can see where demand enters, who owns it, when it is resolved, and where it returns for rework, it can improve the labor model without sacrificing access quality. That is a more reliable path than asking every site to spend less while leaving the operating design unchanged.
 
-From the patient's perspective, they're just talking to someone at our practice. Because they are.
+*Managing administrative cost across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
 
-The result? We cut our non-doctor payroll by 30%. And our revenue went up 33% because we weren't dropping balls on recalls and follow-ups anymore.
+## Sources
 
-Those aren't typos. Costs down 30%, revenue up 33%. That's what happens when you stop paying premium prices for tasks that don't require premium resources.
-
-## What's Actually Worth Outsourcing?
-
-Not everything should be outsourced. I'd never outsource clinical support roles—techs and opticians need to be there with the patient. And I'd always keep some in-office admin capacity for situations that require a physical presence.
-
-But these tasks? These can absolutely be handled remotely:
-
-**Phone calls and scheduling.** This is the big one. [Missed calls are a massive revenue leak](https://mybcat.com/blog/missed-calls-revenue-leak-multi-location-healthcare/)—and even answered calls are expensive if you're paying an in-office person $18-22/hour to do what a trained remote worker does for less.
-
-**Insurance verification.** Tedious, time-consuming, and doesn't require physical presence. Perfect for outsourcing.
-
-**Patient recalls and reactivation.** These outbound campaigns are where most practices drop the ball. A dedicated remote team can run recalls consistently, turning dormant patients into appointments.
-
-**Billing follow-ups.** Chasing insurance payments and patient balances. Again, tedious but necessary, and doesn't need to happen on-site.
-
-**After-hours coverage.** Instead of paying on-call premiums to your staff, have a remote team handle evening and weekend calls.
-
-## What Numbers Should You Track?
-
-Once you start making changes, track these:
-
-- Calls answered vs. calls missed
-- Appointment conversion rate (calls that turn into bookings)
-- Insurance verification completion rate
-- Patient recall success rate
-- Payroll as a percentage of revenue
-
-If those metrics are improving while payroll percentage is dropping, you're doing it right.
-
-## Stop Overpaying For Admin Work
-
-Look, I get it. Changing how you staff your practice is scary. You've got relationships with your team. You're worried about quality. You're not sure where to start.
-
-But the math doesn't lie. If your admin costs are eating your margins, you can't fix it by working harder or seeing more patients. You have to fix the structural problem.
-
-Outsourcing isn't about cutting corners. It's about putting the right resources on the right tasks. Your skilled in-office staff should be doing work that requires their physical presence and expertise. Everything else? That can be done better and cheaper by people whose whole job is doing it well.
-
-[If you're curious what this might look like for your practice](https://mybcat.com/contact/), let's talk. I'll walk you through exactly how we'd handle your workflows and what the numbers might look like.
+1. [MGMA: Tips to Improve Healthcare Call Center Efficiency](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency)
+2. [MGMA: Implementing Central Scheduling to Support Practice Growth and Success](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)

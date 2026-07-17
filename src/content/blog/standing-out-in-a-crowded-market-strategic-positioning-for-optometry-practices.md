@@ -1,7 +1,8 @@
 ---
 title: "Strategic Market Positioning for Optometry Practices"
-seoTitle: "Strategic Market Positioning for Optometry Practices"
+seoTitle: "Optometry Market Positioning for Multi-Location Groups"
 description: "Differentiate your optometry practice with a clear USP, ideal patient profile, and value proposition that attracts loyal patients in a crowded market."
+seoDescription: "Build a clear market position for your multi-location optometry group with patient access, service, and operational proof that patients can recognize."
 publishDate: 2023-10-18
 status: published
 author: Ankit Patel
@@ -12,103 +13,142 @@ tags:
 - patient-care
 - scheduling
 - outsourcing
+cluster: optometry
 featuredImage: /images/blog/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices.webp
 canonical: https://mybcat.com/blog/standing-out-in-a-crowded-market-strategic-positioning-for-optometry-practices/
 relatedPosts: []
 ---
 
-In a market that can often be competitive and saturated, optometry clinics face the challenge of standing out. It is crucial for these clinics to differentiate themselves in a way that captures the attention of their target audience. This guide provides practical steps that optometry practices can take to not only stand out in the market but also to capture and retain loyal patients as they experience steady growth.
+For a multi-location optometry group, market positioning is not a logo exercise or a list of services. It is the operating promise that patients, referral sources, employees, and potential partners experience at every location.
+
+That promise has to survive the moments that shape perception: a patient calling during a busy hour, an online request that needs follow-up, a vision-plan question, a new-patient appointment, or a handoff from the clinical visit to optical. When the message says one thing and the access experience says another, the market sees the gap.
+
+Groups with three or more locations have a different positioning problem than a single office. They need enough consistency to be recognizable across the network, while preserving legitimate differences in providers, service lines, and community demand. The goal is not to appeal to every possible patient. It is to make a credible, useful promise to the patients the group is equipped to serve, then build the workflows that prove it.
+
+This guide keeps the practical foundations of ideal customer profiles, value propositions, patient feedback, and ongoing refinement. It applies them to the operational realities of a growing optometry group. For the broader patient-access context, see MyBCAT's [optometry group solutions](/industries/optometry/).
 
 ## Table of Contents
 
-- [How Do You Understand the Competitive Landscape?](#how-do-you-understand-the-competitive-landscape)
-- [How Do You Define Your Ideal Customer Profile (ICP)?](#how-do-you-define-your-ideal-customer-profile-icp)
-- [How Do You Create a Value Proposition?](#how-do-you-create-a-value-proposition)
-- [Why Should You Listen to Your Existing Patients?](#why-should-you-listen-to-your-existing-patients)
-- [Putting it into practice](#putting-it-into-practice)
+- [Why Does Positioning Matter More as an Optometry Group Grows?](#why-does-positioning-matter-more-as-an-optometry-group-grows)
+- [What Should a Multi-Location Group Learn From Its Competitive Landscape?](#what-should-a-multi-location-group-learn-from-its-competitive-landscape)
+- [How Do You Define an Ideal Patient Profile Without Over-Narrowing Demand?](#how-do-you-define-an-ideal-patient-profile-without-over-narrowing-demand)
+- [What Makes an Optometry Value Proposition Believable?](#what-makes-an-optometry-value-proposition-believable)
+- [How Should Patient Access Support the Brand Promise?](#how-should-patient-access-support-the-brand-promise)
+- [What Can Existing Patients Teach You About Your Position?](#what-can-existing-patients-teach-you-about-your-position)
+- [How Do Operations Leaders Put Positioning Into Practice?](#how-do-operations-leaders-put-positioning-into-practice)
+- [FAQ](#faq)
 
-## How Do You Understand the Competitive Landscape?
+## Why Does Positioning Matter More as an Optometry Group Grows?
 
-It all starts with knowing what your market is like and where you fit in. Look around at other eye care clinics in your town and maybe a bit beyond. What are they offering? What are they communicating to people through their marketing messages? Try and see where each competitor is offering something unique or where they're indistinguishable from other practices. Compare your own practice and be honest about how you're seen in the market. Knowing this can spark ideas on what unique things your clinic can bring to the table.
+Patients do not experience an enterprise strategy document. They experience a series of touchpoints. They may search for a location, call about an exam, ask whether a plan is accepted, receive a reminder, arrive for a visit, and decide whether to return. Each interaction either supports the group’s stated position or makes it sound generic.
 
-Then, consider: What is special about your clinic or practice? This special thing about your clinic is your magic wand. In marketing terminology, it's called a unique selling proposition (USP). It could be anything. Maybe you offer a rare kind of eye treatment, or you have a large collection of designer frames, perhaps you're focused on helping athletes... This special thing is a message you can highlight and make a focus in your marketing strategy. Finally, compare your USP with your local market and see where there are too many voices and where there are areas few people are focusing on. Then, determine if that market is large enough to warrant focusing on them.
+As locations are added, informal consistency stops being reliable. One office may be excellent at explaining appointment options while another sends callers to voicemail. One location may know how to prepare a patient for an optical visit while another treats the same call as a basic scheduling task. That variation makes it hard for leadership to know what the brand actually stands for.
 
-## How Do You Define Your Ideal Customer Profile (ICP)?
+Positioning gives operating leaders a decision rule. If the group promises accessible, coordinated eye care, then call coverage, appointment definitions, intake standards, and escalation paths need to support that claim. If the group wants to be known for a particular mix of clinical expertise, family care, optical service, or convenience, the network should be able to explain how those differences show up in the patient journey.
 
-Understanding your market begins with a simple question: Who are the individuals you envision walking through your clinic's doors? It's about peeling back layers to understand their ages, lifestyles, and unique eye care needs. A clinic leaning towards family eye care naturally presents a contrasting scene to one honing in on sports vision.
+This is also why positioning and standardization belong together. The front-office standardization guide for optometry groups explains how to turn shared expectations into repeatable workflows. Positioning defines what the group intends to be known for; operations determines whether patients encounter that promise consistently.
 
-Then, consider tailoring your services to snugly fit the needs of your ideal customers. If you love working with kids and every part of your office caters to them, let people know through your messaging and your branding. Your website, for instance, should feel welcoming, brimming with answers to the myriad concerns parents harbor about their young ones' eye health. By preparing parents to succeed, you naturally become a trusted part of their parenting journey.
+## What Should a Multi-Location Group Learn From Its Competitive Landscape?
 
-Having a clear sketch of your ideal customer is like having a roadmap. It's the beginning of your marketing strategy, ensuring the messages you send out land on the right ears, answering the right questions and soothing the right concerns.
+Competitive research should not begin and end with a list of nearby practices. An executive team needs to understand the alternatives patients actually compare: other optometry groups, ophthalmology providers when the need overlaps, retail optical options, online eyewear sellers, and the choice to delay making an appointment.
 
-Your ICP should be considered in every part of your marketing strategy. Make sure you're hyper-focused on who you wish to serve, what makes them tick, and how you can make them feel special the moment they step into your clinic or land on your webpage. The magic starts when you take this understanding and spin it into your marketing threads, whether it's through Google Ads, Facebook ads, or local SEO, and watch to see how your audience responds to your digital marketing. You may find you have to spend more money to earn the attention of your ICP, but if you're confident in that persona, go for it. A helpful [guideline for market spend is 3.5% of your business's revenue](https://opticalprism.ca/what-should-i-spend-on-marketing/?amp=1) for the year. Meaning if you have a $1,000,000 practice, consider spending up to $35,000 per year just to maintain your business.
+Start by reviewing how competing organizations present themselves. Look at service pages, appointment-request flows, business listings, review themes, provider bios, insurance information, hours, and the clarity of the first contact. The objective is not to copy claims. It is to identify patterns: where competitors make the same vague promises, where they create friction, and where there may be an unmet need the group can serve well.
 
-Determining the balance and specificity of your ICP isn't about chasing a tiny segment of the market or one that's already overwhelmed with options. It's about a balanced approach, understanding the fine line between going too narrow or too broad. Try to focus on who you feel uniquely equipped to serve, and know that if your messaging really matches their needs, there will be a halo effect as more people are drawn to you by your happy customers.
+For a multi-location organization, compare the experience across its own sites before comparing outward. Ask whether every location can clearly describe the same core services, patient types, scheduling expectations, and next steps. If the answer depends on which office receives the call, the group has a positioning and governance issue before it has a marketing issue.
 
-## How Do You Create a Value Proposition?
+Useful questions for the leadership team include:
 
-Closely connected with understanding your ICP is crafting a compelling value proposition. This involves clearly explaining the benefits and unique services patients would receive at your practice. A value proposition is not merely a catchy tagline but a clear statement that resonates with existing and potential patients, communicating why your practice is their best bet for eye care.
+- Which patient needs do we solve better than the alternatives in our markets?
+- Where are we truly differentiated, and where are we making the same claims as everyone else?
+- Which parts of the patient journey create confidence, and which parts create avoidable uncertainty?
+- Do our locations use the same language for appointment types, vision plans, and service handoffs?
+- Is the opportunity large enough across the network to justify training, staffing, and marketing investment?
 
-An impactful value proposition succeeds in its clarity and relatability. It should echo the specific needs and preferences of your ICP, thereby establishing a deeper affinity for your offering. For instance, if your practice prides itself on state-of-the-art technology for early detection of eye disorders, this should be a highlight of your value proposition.
+The final question matters. A distinctive message that cannot be delivered at scale will create rework for the front office and disappointment for patients. Groups should choose a position that fits their clinical model, provider capacity, systems, and operational discipline.
 
-Moreover, the value proposition should be conspicuously displayed across each marketing campaign and channel — be it your website, the social media platform you're most active on, or through in-practice brochures. It serves as a continual reminder of what sets your practice apart from the others, especially the larger franchises and online eyewear vendors, which often lack a personalized touch.
+## How Do You Define an Ideal Patient Profile Without Over-Narrowing Demand?
 
-Keep in mind the path of articulating and promoting a value proposition is iterative. It may necessitate fine-tuning based on the feedback from patients and performance metrics. However, a well-crafted value proposition is a compass guiding every element of your practice towards a coherent goal of fulfilling the unique eye care needs of your patients.
+An ideal patient profile is not a fictional individual used only by marketing. For group operators, it is a practical description of the patient segments the organization can serve well and consistently. It informs location strategy, appointment templates, communication, staffing, and measurement.
 
-In the grander scheme, a carefully created value proposition intertwined with a well-defined ICP makes it much easier for marketing strategies to flourish. It fosters a unique brand identity that not only attracts but also retains a loyal patient base, as people can clearly choose your practice because it's the one that clearly matches their needs. It also means some other optometry practice will occasionally be the best match for a prospective patient, and that is okay. No practice can appeal to everyone without sacrificing what it is that makes them unique. So knowing when it's okay to lose a patient who's a bad fit so you can focus on serving the needs of the patients who are a great fit is important.
+Start with real, de-identified operating evidence. Review appointment mix by location, service-line demand, referral patterns, common questions at intake, recurring scheduling barriers, and feedback themes. Then identify segments that matter to the group’s strategic direction. A network may serve families across suburban markets, patients looking for coordinated medical and vision care, contact-lens patients who require recurring support, or patients who value clear insurance guidance. The answer should come from the group’s capabilities, not an assumption that every market needs the same message.
 
-## Why Should You Listen to Your Existing Patients?
+The profile should clarify four things. First, who is the segment and what job are they trying to get done? Second, what access or service barriers do they face? Third, what can the group reliably provide that matters to them? Fourth, what operational commitments are required to keep that promise across locations?
 
-Learning to listen to the needs and desires of existing customers is a highly effective way for any optometry practice to improve their understanding of their ideal patients. One straightforward way to capture insights is through satisfaction surveys or feedback forms post-appointment. Encourage open-ended feedback that can unveil specific areas of satisfaction or points needing improvement. These can be automated and, once set up, require very little staff effort other than monitoring their responses.
+Avoid making the profile so narrow that the group ignores viable demand, or so broad that it does not change any decision. “Anyone who needs an eye exam” gives a team no direction. A more useful profile might identify a priority segment, its appointment needs, the information it needs before booking, and the handoffs that must work afterward.
 
-Beyond the formal feedback channels, paying attention to casual comments during interactions or over the phone can also offer invaluable insights. Make sure you have a standard procedure for writing down and storing important comments that your patients make in person. Consider a secure document where your team knows how to store these comments so you can see the full scope of your patients and their responses to your practice. Then, having a cadence to check this document monthly or quarterly and to attempt to improve or expand on areas that were discussed. Moreover, analyzing patterns in appointment frequency, service selections, and even eyewear purchases can paint a picture of customer preferences and satisfaction levels.
+The profile should be visible beyond the marketing team. Patient access leaders need it to shape scripts and routing. Location managers need it to coach the in-office experience. Revenue-cycle and clinical leaders may need it to clarify information requirements and escalation boundaries. For groups building a larger platform, the [optometry network operations scale guide](/blog/optometry-network-operations-scale/) shows why common operating definitions become more important as locations are added.
 
-Diving deeper, conducting focus groups or one-on-one interviews with a cross-section of your patient base can provide a more nuanced understanding. It's an opportunity to explore their experiences, perceptions, and suggestions in a more interactive manner. This is not a simple task, and therefore, few practices ever do it. But when done well, it can provide opportunities to address unmet needs in your community. In these interviews, it's essential to create a comfortable environment where patients feel at ease to share honestly. Coupled with a well-thought-out set of questions, these discussions can be instrumental in uncovering actionable insights. Additionally, engaging in social listening on platforms like Facebook and Twitter can reveal what patients appreciate about your practice or what they wish was different.
+## What Makes an Optometry Value Proposition Believable?
 
-On the flip side, understanding the perspectives of those who haven't chosen your services is equally enlightening. Engaging with online reviews where potential customers may have shared why they opted for a competitor can provide a clearer understanding of what might be missing or misrepresented in your marketing or service offerings. Similarly, exploring forums or community boards related to eye care can reveal common questions or concerns potential patients have and how well your practice is perceived in addressing those needs.
+A value proposition is a clear statement of why a patient should choose the group and what experience they can reasonably expect. It is not a slogan, a claim of being “the best,” or a promise that every patient situation will be simple.
 
-Further, running anonymous online surveys targeted at the general populace or individuals who visited your website but didn't book an appointment can yield useful information. Offering a small incentive for completion could encourage participation. The feedback obtained can help in refining your value proposition, improving your marketing messages, and ensuring they resonate well with potential patients. It's a blend of proactive outreach and receptive listening that can significantly help in understanding both the audiences that are already engaged with your practice and those that are yet to be reached.
+The strongest value propositions connect a real patient need to operational proof. For example, a group may be able to promise clear appointment guidance because it has defined appointment types, trained staff, and escalation rules. It may be able to emphasize coordinated clinical and optical intake because its teams know how to identify both needs and route them appropriately. That clinical-retail handoff is covered in more detail in the [optometry retail and clinical intake guide](/blog/optometry-retail-clinical-intake-guide/).
 
-Again, not many practices will go to these lengths, but if you're desperate to stand out, listening to your customers is almost always a way to get an advantage over the competitors that aren't.
+Before approving a positioning statement, leadership should test it against the work. Can a patient access representative explain it in plain language? Can each location fulfill it during normal and peak demand? Does the website show the same expectation as the phone process? Can the group measure whether the experience is occurring?
 
-## Putting it into practice
+A useful internal template is: “For [priority patient segment], our group provides [specific experience or outcome] because [operational or service proof].” The proof is the essential part. It may include defined access pathways, specialized service capabilities, consistent insurance guidance, coordinated scheduling, or a deliberately designed follow-up process. Do not add claims that staff cannot substantiate in the moment.
 
-Having delved into the significance of understanding your competitive landscape and identifying your Ideal Customer Profile (ICP) and Unique Selling Proposition (USP), it's time to roll up the sleeves and get to the nitty-gritty of crafting these essential elements for your optometry practice. Here's a step-by-step approach on how to go about it:
+This discipline protects the group from a common mistake: using marketing language to cover an access problem. Better creative cannot compensate for unclear scheduling rules, unanswered calls, or a confusing handoff. When the promise and workflow align, the message becomes easier for staff to communicate and easier for patients to recognize.
 
-- **Research and Analysis**:
+## How Should Patient Access Support the Brand Promise?
 
- – Start with thorough market research to understand the local and regional eye care landscape. Look at the services, marketing messages, and patient experiences offered by other optometry practices. Utilize online tools like Google My Business and Yelp to review customer feedback on competitors.
+For many prospective patients, the first live interaction with an optometry group is an access interaction. They want to know whether the organization can help, how soon they can be seen, what information is needed, and what happens next. The quality of that exchange is part of market positioning.
 
-- **Identify Your Strengths**:
+Centralized support can strengthen the promise when it follows a clear group standard. It can also weaken the promise when teams lack current location rules, provider preferences, appointment definitions, or escalation instructions. The answer is not centralization for its own sake. It is a documented operating model that gives patients a consistent path while allowing approved local exceptions.
 
- – Reflect on the strengths and unique aspects of your optometry clinic. Perhaps it's a specific eye care service, advanced diagnostic equipment, or a family-friendly environment. Your strengths are the foundation of your USP.
+For enterprise leaders, this means defining the front-end journey from inquiry to completed appointment. Specify who owns calls, web requests, reminders, recalls, insurance questions, and overflow. Define what can be handled by trained patient-access staff, what needs local office input, and what requires clinical escalation. Patient communications guidance from the [American Optometric Association](https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication) is a useful reminder that communication processes are part of day-to-day practice operations, not merely a campaign activity.
 
-- **Create Customer Personas**:
+Coverage decisions should follow the same logic. A group with uneven call volume or frequent front-desk interruptions may benefit from [front-desk outsourcing](/solutions/front-desk-outsourcing/) or a dedicated staffing model, but neither approach substitutes for clear workflow ownership. The group still needs to set its standards, update its knowledge source, review quality, and decide how exceptions are handled.
 
- – Based on your existing patients and the kind of patients you aim to attract, create detailed customer personas. Include demographic information, lifestyle, eye care needs, and preferences. This exercise helps in visualizing and understanding your target audience better, forming the basis of your ICP.
+For a network that wants a deeper operating model, [enterprise optometry group support](/enterprise/optometry-groups/) connects patient access, scheduling, reporting, and location-level consistency. The positioning question remains the same: does the access experience give patients a credible reason to trust the promise they saw online?
 
-- **Survey Existing Patients**:
+## What Can Existing Patients Teach You About Your Position?
 
- – Engage your existing patients through surveys or direct conversations to understand what they value most about your services. Their insights could help refine your USP and ICP.
+Existing patients are often the best source of evidence about what the group is actually known for. Surveys and reviews can reveal whether patients value appointment availability, staff communication, provider relationships, optical selection, convenience, or something leadership has not emphasized. They can also show where the stated position breaks down.
 
-- **Craft Your Unique Selling Proposition (USP)**:
+Use structured feedback without collecting more sensitive information than needed. Short post-visit surveys, review-theme analysis, call-quality observations, and de-identified operational notes can surface recurring patterns. Focus on questions that lead to decisions: What made it easy or difficult to get an appointment? Was the next step clear? Did the experience vary by location or channel? What did the patient expect that the group did not explain?
 
- – Articulate a clear and compelling statement, utilizing your USP, based on your strengths and what your target audience values. Ensure it resonates with the needs and preferences of your ICP.
+Do not treat every comment as a directive. Look for repeated themes across locations and patient segments, then test the operational cause. A complaint about availability may reflect provider capacity, appointment-template rules, call coverage, a confusing online request flow, or a local staffing pattern. The right response depends on the evidence.
 
-- **Optimize Your Online Presence**:
+Groups should also pay attention to people who do not complete the booking process. Incomplete web requests, abandoned calls, unreturned voicemails, and recurring pre-appointment questions are signals of friction. The [optometry front desk outsourcing versus virtual assistant comparison](/blog/optometry-front-desk-outsourcing-vs-virtual-assistant/) can help leaders distinguish between a managed coverage need and a dedicated role need when staffing is part of the issue.
 
- – Reflect your USP in all your marketing materials, especially your website and social media profiles. Make sure your optometry practice is easily found online through local SEO strategies and Google Ads campaigns tailored to attract your ideal customers.
+The review cadence should be disciplined. A monthly operational review can identify immediate fixes. A quarterly positioning review can ask whether the message, patient profile, and access model still match the group’s strategic direction. This is iterative work, but it should not become random message changes based on a few loud opinions.
 
-- **Engage in Content Marketing**:
+## How Do Operations Leaders Put Positioning Into Practice?
 
- – Share valuable eye health content, success stories, and patient testimonials through your website, social media, and email marketing. This not only boosts your online presence but also establishes your practice's expertise and unique value proposition.
+Positioning becomes useful when it shapes concrete decisions. The following sequence gives a COO, VP of Operations, or growth leader a practical way to begin without launching a broad rebrand.
 
-- **Track and Analyze**:
+First, write the current position in one sentence and list the evidence that supports it. Include patient-access processes, service capabilities, location coverage, training, and reporting. If the proof is thin, treat the statement as an aspiration, not a public claim.
 
- – Utilize tools like Google Analytics to track the effectiveness of your marketing strategies in attracting your target audience. Collect and analyze data to understand what's working and where there's room for improvement.
+Second, map the inquiry-to-appointment journey for a representative set of locations. Include phone, web, referral, recall, and after-hours paths where applicable. Identify where the patient receives inconsistent information, waits without a clear next step, or is handed between teams without ownership.
 
-- **Iterate and Refine**:
+Third, define the priority patient segments and the operational commitments attached to each. For every segment, decide what needs to be true about appointment availability, intake, insurance communication, reminders, and escalation. This turns an ideal patient profile into a working requirement.
 
- – Marketing is an iterative process. Based on the data and feedback, refine your USP, ICP, and marketing strategies to better resonate with your target audience and stand out in the market.
+Fourth, standardize the few workflows that prove the promise. Start with the highest-volume or highest-friction path, such as new-patient appointment requests or vision-plan questions. Write the standard in usable language, train it, make one source of truth available to all locations, and record approved exceptions.
 
-In the process of implementing these steps, [leveraging a Business Process Outsourcing (BPO) service](https://mybcat.com/blog/successfully-transitioning-to-a-bpo-model-in-optometry/) like My Business Care Team can be the key that allows you to handle all of these new tasks. A BPO focused on optometry companies can quickly take on routine administrative tasks, allowing you and your team to focus more on the strategic aspects of marketing and customer engagement. With a dedicated virtual assistant managing your appointment scheduling, responding to emails, or handling your social media marketing campaigns, you have more time to analyze your market, engage with your patients, and refine your USP and ICP to better meet the needs of your target audience. This streamlined approach not only enhances your optometry marketing efforts but also optimizes operational efficiency, setting a solid foundation for sustainable growth in a competitive market.
+Fifth, choose a limited scorecard. Track the health of the workflow rather than chasing generic marketing numbers. The measures may include request response, appointment completion, callback completion, intake readiness, quality review findings, and location variation. Define each measure once so leaders can compare locations fairly.
+
+Finally, review the difference between the intended position and the lived experience. Keep what patients and staff can confirm. Revise claims that the operating model does not support. Expand only after the first workflow is stable enough to train, measure, and govern.
+
+This approach preserves the useful core of strategic positioning: know the market, define the patients you are prepared to serve, articulate a clear value proposition, listen closely, and refine based on evidence. For a multi-location group, the added requirement is execution. The brand becomes distinctive when every location can deliver the same essential promise without hiding operational differences.
+
+## FAQ
+
+### Should every optometry location use exactly the same positioning?
+
+No. The group should have a shared enterprise promise and common standards for patient access, communication, and quality. Locations may need approved differences for provider capabilities, service lines, or market demand. Those differences should be documented so patient-access and marketing teams can represent them accurately.
+
+### Is positioning primarily a marketing responsibility?
+
+Marketing owns how the position is expressed, but operations owns much of the proof. Patient access, scheduling, intake, training, and quality review determine whether the message is credible. Cross-functional ownership is necessary for a multi-location group.
+
+### When should a group reconsider its positioning?
+
+Revisit it after a material change in service mix, acquisition strategy, location footprint, patient demand, or access performance. It should also be reviewed when recurring patient feedback shows a gap between what the group says and what patients experience.
+
+If your group is working to align its patient-access model with its market promise, [contact MyBCAT](/contact/) to discuss a managed approach to call handling, scheduling, recall, and back-office support for multi-location healthcare organizations.
+
+## Sources
+
+- [American Optometric Association: Patient Communication](https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication)
+- [MGMA: Implementing Central Scheduling to Support Practice Growth and Success](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)

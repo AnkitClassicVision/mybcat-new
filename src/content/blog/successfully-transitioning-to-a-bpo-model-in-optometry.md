@@ -1,7 +1,8 @@
 ---
 title: Successfully Transitioning to a BPO Model in Optometry
-description: Business process outsourcing (BPO) involves contracting specialized external
-  companies to handle essential business functions like billing, customer service,...
+seoTitle: Optometry BPO Transition Guide for Multi-Location Groups
+description: Business process outsourcing (BPO) involves contracting specialized external companies to handle essential business functions like billing, customer service, and IT support.
+seoDescription: Plan a secure, controlled BPO transition for multi-location optometry groups, from workflow scope and pilot design to QA, governance, and scale.
 publishDate: 2023-08-22
 status: published
 author: Ankit Patel
@@ -19,187 +20,115 @@ relatedPosts:
   - how-to-leverage-outsourcing-in-your-eye-care-practice
 ---
 
-Business process outsourcing (BPO) involves contracting specialized external companies to handle essential business functions like billing, customer service, or IT support. For optometry and ophthalmology practices, partnering with a healthcare-focused BPO through [front desk outsourcing](/solutions/front-desk-outsourcing/) can enhance efficiency, reduce costs, and improve patient care by offloading time-consuming administrative work. Learn more about [how to leverage outsourcing in your eye care practice](/blog/how-to-leverage-outsourcing-in-your-eye-care-practice/) before making the transition.
+Business process outsourcing, or BPO, is the use of a specialized external team to run defined business processes. For a multi-location optometry group, that can include patient call answering, appointment scheduling, recall outreach, insurance verification, billing support, message intake, and other back-office work.
 
-However, transitioning to a BPO model involves careful planning and consideration around staffing, data security, costs, integration, and contractual commitments. This guide provides an in-depth look at everything you need to know to make the transition successful:
+The decision is not simply whether an outside team can take calls. It is whether the group can create a dependable patient-access operating layer across every location. A managed [front desk outsourcing](/solutions/front-desk-outsourcing/) program can add coverage and management discipline, but it cannot repair undefined workflows, conflicting location rules, or weak escalation paths on its own.
 
-- The BPO landscape
-
-- Transition process
-
-- Overcoming common concerns
-
-- Delivering additional value
-
-- Change management
-
-- Building client-provider partnerships specifically for optometric practices
+For operators overseeing three or more locations, a successful transition starts with a clear scope, a controlled pilot, and governance that survives expansion. The goal is consistent execution without ignoring the provider, service-line, and scheduling rules that genuinely vary by site.
 
 ## Table of Contents
 
-- [What Does the BPO Landscape Look Like in Optometry?](#what-does-the-bpo-landscape-look-like-in-optometry)
-- [What Does the Transition Process Involve?](#what-does-the-transition-process-involve)
-- [What Value Does BPO Add Beyond Cost Savings?](#what-value-does-bpo-add-beyond-cost-savings)
-- [How Do You Handle Staff Transitions and Change Management?](#how-do-you-handle-staff-transitions-and-change-management)
-- [What Are the Cost Implications?](#what-are-the-cost-implications)
-- [How Do You Integrate with Existing Systems?](#how-do-you-integrate-with-existing-systems)
-- [What Should You Know About Contractual Commitments?](#what-should-you-know-about-contractual-commitments)
-- [How Do You Ensure Scalability and Customization?](#how-do-you-ensure-scalability-and-customization)
-- [Why Does Cultural Fit Matter?](#why-does-cultural-fit-matter)
-- [How Do You Set Performance Metrics and SLAs?](#how-do-you-set-performance-metrics-and-slas)
-- [What Post-Transition Support Should You Expect?](#what-post-transition-support-should-you-expect)
+- [Why does a BPO transition become an enterprise operations project?](#why-does-a-bpo-transition-become-an-enterprise-operations-project)
+- [Which optometry workflows should move first?](#which-optometry-workflows-should-move-first)
+- [What should leaders define before selecting a BPO partner?](#what-should-leaders-define-before-selecting-a-bpo-partner)
+- [How should a multi-location group protect patient information?](#how-should-a-multi-location-group-protect-patient-information)
+- [How do you stage a pilot without creating a one-off exception?](#how-do-you-stage-a-pilot-without-creating-a-one-off-exception)
+- [What does system integration need to support?](#what-does-system-integration-need-to-support)
+- [How should leaders handle staff change and cultural fit?](#how-should-leaders-handle-staff-change-and-cultural-fit)
+- [What should the commercial model and contract make clear?](#what-should-the-commercial-model-and-contract-make-clear)
+- [Which metrics show whether the transition is working?](#which-metrics-show-whether-the-transition-is-working)
+- [What should happen after the first rollout wave?](#what-should-happen-after-the-first-rollout-wave)
 
-## **What Does the BPO Landscape Look Like in Optometry?**
+## Why does a BPO transition become an enterprise operations project?
 
-Not all BPOs are equal when it comes to the healthcare domain. Optometry-specific experience and customization make a big difference. Look for providers with expertise in eye care, not generalists handling many industries.
+At one site, an operations leader may be able to see every workaround. Across a network, those workarounds become difficult to detect. One office may send scheduling calls to voicemail during busy periods, another may use a handwritten callback list, and a third may rely on a manager to resolve every exception. A BPO team inherits that variation unless the group decides what should be standard before implementation begins.
 
-**Customization and Specialization**
+That is why an outsourcing transition should be treated as an operating-model change, not a staffing transaction. The group needs one owner for common workflow definitions, a process for approving location-specific exceptions, and reporting that shows whether calls and follow-up work reach a documented outcome. The broader [front desk outsourcing playbook for multi-location practices](/blog/front-desk-outsourcing-multi-location-practices/) explains the governance decisions that make pooled coverage usable at scale.
 
-Transitioning administrative or back-office tasks to a BPO provider is not a one-size-fits-all process. Domain expertise and customization are critical. Optometry-focused BPOs understand the nuances of workflow, recordkeeping, and regulatory compliance in your field. They can customize services spanning:
+The most useful outcome is not merely a fuller phone queue. It is a repeatable way to answer, schedule, document, escalate, and review routine patient-access work across the network. On-site staff can then spend more time with patients in front of them and on exceptions that require local context.
 
-- Insurance verification and claims management
+## Which optometry workflows should move first?
 
-- Billing and account receivables
+Start with routine, rules-based work. Appointment requests that follow approved templates, confirmations, basic reschedules, missed-call recovery, recall outreach, standard message intake, and common administrative questions can be good early candidates. These workflows are frequent enough to reveal whether training, queue ownership, and documentation are working.
 
-- Appointment scheduling and reminders
+Do not treat every inbound request as interchangeable. Symptom-related calls, medication questions, urgent provider issues, complex insurance disputes, financial conversations, and service recovery need an explicit escalation path. A BPO team can collect approved information and route the request, but it should not be asked to make clinical judgments or invent an answer when a location has not established one.
 
-- Customer service and patient experience
+This distinction also helps leaders decide whether a managed BPO or a dedicated remote employee model fits the work. The comparison in [optometry front desk outsourcing versus a virtual assistant](/blog/optometry-front-desk-outsourcing-vs-virtual-assistant/) is useful because it separates the coverage and QA responsibilities a provider manages from the responsibilities the group retains.
 
-Your BPO must tailor processes to complement your practice's systems and staff capabilities. Specialized staff training ensures effectiveness when handling optometry-specific tasks.
+Before moving any process, map it in plain terms: trigger, information required, approved action, system entry, exception owner, and closed-loop proof. If the internal team cannot describe those steps consistently, the workflow is not ready for external execution.
 
-**The Role of Technology**
+## What should leaders define before selecting a BPO partner?
 
-Technology integrations are a significant benefit BPOs can provide. From automated appointment reminder systems to analytics dashboards for tracking KPIs to IT infrastructure—all of which enhance productivity, accuracy, and visibility.
+Vendor conversations are more productive when the group arrives with a defined problem. Create a baseline by location and call type: volume by hour, abandonment or voicemail exposure, scheduling demand, callback aging, staffing gaps, systems used, and known exceptions. The baseline does not need to be perfect, but it should be good enough to distinguish a capacity problem from a process problem.
 
-When sourcing your BPO, consider the following technologies for your evaluation checklist:
+Next, define decision rights. Central operations should normally own the common call categories, script approval process, reporting definitions, QA rubric, and vendor-review cadence. Location leaders should supply real local constraints such as provider scheduling rules, service-line differences, approved escalation contacts, and temporary capacity limits. A change-control process prevents every request from becoming an untracked custom rule.
 
-- Cloud-based practice management software to centralize patient data and billing
+The vendor evaluation should test this operating model, not only the sales demonstration. Ask who trains the team, how training is validated, how calls and written work are reviewed, what happens when a site disputes an outcome, and how a script change is approved and deployed. For a more formal procurement process, use the [patient access center RFP vendor checklist](/blog/patient-access-center-rfp-vendor-checklist-enterprise/) alongside the group’s own workflow inventory.
 
-- Workflow automation to reduce manual tasks
+## How should a multi-location group protect patient information?
 
-- Integrations with EHR/EMR and accounting systems to create seamless data sharing between your practice and BPO provider
+If the BPO handles information connected to patient access, the transition belongs in the group’s privacy and security review. Operations, compliance, IT, and procurement should agree on the data the team may access, where it is accessed, how access is approved and removed, how work is documented, and how an incident is reported and investigated.
 
-Access to infrastructure and expertise you may lack internally is a key advantage of outsourcing.
+The U.S. Office of the National Coordinator for Health Information Technology provides guidance on privacy, security, and HIPAA that is relevant when organizations assess healthcare technology and workflow safeguards ([ONC Privacy, Security, and HIPAA](https://healthit.gov/topic/privacy-security-and-hipaa)). Use that guidance as a starting point for questions, not as a substitute for the group’s legal and compliance review.
 
-## **What Does the Transition Process Involve?**
+At a practical level, require role-based access, unique user identities, documented training, appropriate audit logging, and a clear process for changing access when someone changes roles. Confirm how the provider controls subcontractor access, retains or returns information, handles recordings if they are in scope, and supports the group’s incident-response requirements. A business associate agreement and other contractual safeguards should be reviewed by the organization’s appropriate legal and compliance owners before protected health information is shared.
 
-When implementing a BPO partnership, optometry practices should consider an incremental approach. Beginning with peripheral tasks helps ensure minimal disruption as you adjust.
+Security is not a checklist completed at contract signature. It must be visible in daily operations: which queue an agent can see, what information is entered into the practice-management system, who can correct an error, and how exceptions are logged. That discipline helps a centralized model remain accountable as locations are added.
 
-**Initiating the Transition**
+## How do you stage a pilot without creating a one-off exception?
 
-We recommend starting small and slow. Have the BPO provider handle a couple of easily transitioned processes at first, such as scheduling or customer service overflow assistance. Once you see effective coordination on initial tasks, expand to revenue cycle management like claims processing and billing.
+An effective pilot proves the model the group intends to scale. It can begin with one or two locations and a narrow set of workflows, but its routing rules, QA standards, reporting definitions, training method, and escalation design should match the planned future state. A pilot that works only because one site manager personally resolves every issue has not established a scalable operating model.
 
-Gradually onboarding your BPO reduces risk and enables both parties to establish effective workflows. Be sure to align on expected timelines and milestones related to implementation phases.
+Set the pilot scope in writing. Name the locations, covered hours, call types, systems, handoff rules, named owners, and measurements. Establish a short calibration period before treating performance data as final. During that period, leaders should review call dispositions, workflow failures, staffing coverage, and the reasons work returns to local teams.
 
-**Communication Channels**
+The point is not to eliminate every exception. It is to learn which exceptions are legitimate and which are evidence that the workflow needs a clearer rule. The [centralized versus distributed intake framework](/blog/centralized-vs-distributed-intake-framework/) can help leadership decide what belongs in a shared queue and what should remain location-aware.
 
-Early on, set clear expectations for communication channels and response times. Defining the cadence for check-ins, status updates, and performance reviews helps both parties stay in sync.
+Expansion should be a decision gate, not an automatic calendar event. Move to the next rollout wave only after the pilot has shown that training, documentation, system access, escalation ownership, and reporting are working under normal operating conditions.
 
-Identify points of contact on the clinic and BPO sides to direct questions and quickly resolve any issues. Make sure you know how to reach your account manager when needed. BPOs may have specific communication channels depending on the support and account management issue.
+## What does system integration need to support?
 
-**Addressing Primary Concerns: Data Security and Compliance**
+Integration planning should focus on the actual work the BPO will perform. For scheduling, that may mean current provider templates, appointment types, location rules, and confirmation status. For message intake, it may mean structured dispositions, accurate routing, and a way to identify whether the local team completed the handoff. For billing or insurance support, it may mean controlled access to the appropriate systems and a documented exception workflow.
 
-Data protection is paramount when handling patient information. Optometry-focused BPOs invest heavily in technological safeguards and operational controls, including:
+The group should not assume that an API description equals an operationally ready integration. Test the production workflow with the systems, locations, and appointment rules that matter to the pilot. Confirm how duplicate records, failed transfers, delayed updates, and temporary system outages are handled. Define the fallback process before the first busy day, including who owns reconciliation after service is restored.
 
-- Encrypted data transmission and storage
+Centralized scheduling research and operational guidance from the Medical Group Management Association is relevant because it frames central scheduling as a practice-growth and access-management decision, not a phone-coverage change alone ([MGMA: Implementing Central Scheduling](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)). For a group, the reporting design matters as much as the connection itself. Leadership needs to see call reasons, outcomes, transfer patterns, unresolved work, and variation by location without forcing managers to stitch together manual reports.
 
-- Secure data centers with contingency plans
+## How should leaders handle staff change and cultural fit?
 
-- Stringent employee screening and access limitations
+Outsourcing changes how on-site teams work. If leaders present it only as a cost measure, staff may reasonably assume their experience and feedback no longer matter. A better approach is to explain what work is moving, why it is moving, what work remains with the location, and how staff will influence the rules that affect patient interactions.
 
-- Regular third-party auditing and penetration testing
+Involve site leaders and experienced front-desk staff in workflow discovery, script review, and pilot calibration. They know the provider preferences, scheduling constraints, and recurring sources of confusion that may not be documented anywhere else. Their role is to convert useful local knowledge into approved operating rules, not to maintain a parallel informal process after launch.
 
-- Disaster recovery and data redundancy mechanisms
+Cultural fit also needs evidence. Ask how the provider trains agents on the group’s patient-service standards, how quality reviewers assess tone and accuracy, how feedback reaches agents, and how leaders can identify recurring coaching needs. The desired experience is not that every conversation sounds identical. It is that patients receive accurate, respectful help and that non-routine needs reach the correct person without being lost in the queue.
 
-- Documented incident response plans
+## What should the commercial model and contract make clear?
 
-Take the time to learn these specifics upfront so you can have assurance that they will meet your expectations.
+Compare total operating cost, not only a quoted hourly or per-call rate. The model may include implementation, training, integrations, technology, QA, account management, reporting, transition support, and change requests. It should also show how pricing changes when the group adds locations, expands hours, experiences seasonal peaks, or changes the service mix.
 
-**Regulatory Adherence**
+The contract should describe scope, service hours, staffing model, performance expectations, reporting, privacy obligations, change control, remediation, and exit support. Define what happens if an SLA is missed, if a location needs a temporary rule change, or if the group decides not to expand after the pilot. Avoid relying on informal assurances for work that affects patient access or system access.
 
-Optometry practices must comply with HIPAA, HITECH, state privacy rules, and other healthcare regulations. Your BPO provider should match or exceed your current compliance levels. Formal policies and training around data handling should be in place. Ask for details on measures like encryption, access controls, breach response plans, and auditing.
+Contract flexibility does not mean vague accountability. A mature agreement gives both parties a way to adjust scope while keeping the group’s operational standards intact. It also preserves a practical exit path if the provider cannot meet agreed requirements after a documented remediation process.
 
-**Data Protection Protocols**
+## Which metrics show whether the transition is working?
 
-End-to-end data encryption, secure data centers, and stringent access controls provide multiple levels of protection from a BPO. Remember to limit data access to the BPO staff delivering your account's contracted services.
+Choose measures that connect activity to a completed operational outcome. Answer rate and speed to answer can show access pressure, but they do not prove that a scheduling request was completed correctly or that a message reached the right team. Track the measures that matter to the scope, such as appointment requests completed, callback aging, abandoned-call disposition, transfer rate, QA accuracy, escalation adherence, and unresolved work by location.
 
-BPOs focused on healthcare typically obtain industry certifications as proof of compliance. Ask whether they have attained SOC2, ISO27001, or HITRUST certifications. Also, familiarize yourself with their processes for detecting and responding to any potential breach.
+Use a shared QA rubric rather than asking each site to judge quality differently. The rubric should distinguish a courteous interaction from an accurate one, and an accurate interaction from a correctly documented and closed one. Leaders should calibrate scores with the provider, review sample work, and record how disputed scores are resolved. The [multi-location call center QA calibration guide](/blog/multi-location-call-center-qa-calibration-healthcare/) describes why that shared review process is necessary when a group wants comparable performance across sites.
 
-## **What Value Does BPO Add Beyond Cost Savings?**
+Review metrics at two levels. Site leaders need enough detail to correct a local scheduling rule or escalation contact. Executives need a portfolio view that identifies trends, capacity risk, recurring exceptions, and whether the model is becoming easier or harder to manage as it expands. Metrics should initiate investigation and improvement, not become a reason to ignore the operational context behind a number.
 
-While the BPO transition aims to reduce administrative costs and overhead, benefits extend further – from clinical operations to patient care.
+## What should happen after the first rollout wave?
 
-**Operational Efficiency and Quality Assurance**
+The first rollout is the start of governance, not the end of implementation. Maintain a regular operating cadence for QA calibration, exception review, system changes, staffing and volume planning, and executive reporting. As new locations or service lines are added, use the same readiness checklist instead of asking the BPO team to absorb undocumented differences in real time.
 
-Centralizing your tasks through a specialized BPO can improve consistency and accuracy. BPOS with optometry domain expertise tends to have higher-quality outputs. Also, when you consolidate under a single, focused delivery team, they can resolve your issues faster
+At least quarterly, review whether the scope still matches the group’s needs. A mature program may add recall work, new access channels, or more centralized scheduling. It may also identify tasks that should return to a site because they require a degree of provider or local context that cannot be standardized responsibly. Both findings are useful when they are based on evidence rather than convenience.
 
-Optometry practice staff can better devote time to clinical duties and patient care by offloading administrative work. BPOs can provide productivity metrics and quality assurance oversight that are difficult to achieve independently. Their analytics offer visibility to enhance processes over time.
+The practical value of a BPO transition is a more controlled patient-access operation: routine work is handled consistently, exceptions have clear owners, staff know where to turn, and leaders can see what is happening across the network. Groups considering a broader centralization effort can also review MyBCAT’s [enterprise patient access center](/enterprise/patient-access-center/) approach before selecting their next rollout scope.
 
-**Scalability and Growth**
+## Sources
 
-Expanding into new locations or additional patient volume can stretch in-house resources thin. A flexible BPO partnership provides capabilities to scale administrative operations as your optometry practice grows. BPO staff and infrastructure readily accommodate fluctuating workloads.
+1. [ONC: Privacy, Security, and HIPAA](https://healthit.gov/topic/privacy-security-and-hipaa)
+2. [MGMA: Implementing Central Scheduling to Support Practice Growth and Success](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)
+3. [ONC: Security Risk Assessment Tool](https://healthit.gov/privacy-security/security-risk-assessment-tool/)
 
-New location onboarding, increased claims volume, appointment surges, seasonal variations, and staff absences can all be supported more seamlessly via an outsourced framework. Scalability enables growth unrestricted by administrative bottlenecks.
-
-## **How Do You Handle Staff Transitions and Change Management?**
-
-Making the shift to a BPO significantly impacts workflows and staff roles. Change management and training help smooth the transition.
-
-**Training and Skill Augmentation**
-
-Staff may require training on new systems, workflows, and reporting. Identify areas of needed skill augmentation. Focus training on working cooperatively with the BPO provider and taking advantage of new efficiencies.
-
-Conduct training well before rollout, allowing staff time to become comfortable adjusting duties and technology. Ongoing training may be warranted as processes evolve.
-
-**Change Management**
-
-Transitioning to BPO can initially make some staff feel threatened or concerned about being replaced. Fortunately, optometry BPOs aim to enhance employees' work rather than eliminate roles. With administrative tasks like billing and scheduling handled by [medical virtual assistants](/solutions/medical-virtual-assistant/), practice staff can focus on more meaningful patient interactions and clinical work. Interested in [joining our team](/careers/)? We're always looking for talented individuals.
-
-Managers should frame the BPO partnership as providing support rather than replacing staff. Transparency around objectives, empowering staff to give feedback, and celebrating wins help maintain morale. Training prepares them to adapt successfully to new systems and workflows. Taking the transition slowly also allows the staff to process the changes more easily and understand their implications.
-
-## **What Are the Cost Implications?**
-
-While cost reduction is a goal, the transition does incur upfront expenses related to change management, training, and initial BPO fees. However, practices realize a return on that investment over time through enhanced revenue cycle management, economies of scale, and productivity gains. When scoping requirements, optometry practices should clarify all costs associated with service delivery, implementation, system integrations, and ongoing management of the account.
-
-Cost savings ultimately outweigh expenses, but avoiding surprises requires due diligence. Also, discuss how contracts can scale costs in line with any spikes or declines in patient volume.
-
-## **How Do You Integrate with Existing Systems?**
-
-Smooth system integration minimizes complexity. Optometry BPOs are well-versed in connecting services with existing EHR/EMR systems, practice management software, billing systems, and other clinic technologies. APIs and flat file transfers integrate multiple platforms seamlessly so data flows into the BPO's systems automatically.
-
-Ideally, the BPO takes responsibility for establishing integrations. Seek providers experienced in similar setups required for optometric practices. Experienced BPOs specializing in optometry can minimize disruption to patient data access, billing, reporting, and workflows.
-
-## **What Should You Know About Contractual Commitments?**
-
-Given concerns over getting locked into poor contracts, optometry practices should negotiate flexible terms. Outline an initial 6-12 month period for evaluating service delivery with periodic checkpoints to ensure satisfaction. Build in an option to terminate without penalty if performance metrics aren't met after the initial period.
-
-Avoid prolonged auto-renewal clauses spanning multiple years. Seek shorter 1-2 year contracts once the partnership matures, with continuance based on achieving mutual objectives.
-
-## **How Do You Ensure Scalability and Customization?**
-
-Reputable healthcare BPOs are equipped to scale services up or down in alignment with your optometry practice's needs. Well-crafted contracts have factored in fluctuations in daily appointment volume, seasonal variations, new location additions, staff changes, and overall practice growth or decline. Look for a BPO structure and pricing model that readily adapts so you only pay for what you need.
-
-Discuss sizing scenarios during negotiations to ensure the provider can support expansions through hiring, infrastructure, and management bandwidth. Customizing processes for new locations should also be turnkey based on existing workflows.
-
-## **Why Does Cultural Fit Matter?**
-
-Positive patient experiences rely on the cultural alignment between optometry clinics and BPO. Seek BPOs prioritizing healthcare's "patient first" mentality in hiring and training. Brand values centered around customer service excellence, strong communication, accuracy, and timeliness signal an excellent fit.
-
-Discuss how the provider instills and monitors cultural aspects among staff. Establish channels for both sides to give feedback on interactions so proactive improvements occur. Patients should feel no discernible difference between your in-house and outsourced staff.
-
-## **How Do You Set Performance Metrics and SLAs?**
-
-Optometry practices should agree on clearly defined metrics and service level agreements (SLAs) to track performance. Common metrics span customer satisfaction (CSAT) scores, first call resolution, issue escalation rates, appointment adherence, and claim processing accuracy and turnaround time.
-
-Reporting should provide visibility into these KPIs. Performance falling short of pre-agreed SLAs should allow for contract remediation and adjustments to get back on track. Optometry BPOs focused on transparency welcome opportunities to improve service delivery.
-
-## **What Post-Transition Support Should You Expect?**
-
-Following implementation, expect full support through continuous training, monitoring, troubleshooting, and account management. Periodic reviews help ensure the partnership stays aligned strategically and operationally. Your BPO provider should be an extension of your practice, not just a vendor.
-
-A year post-transition, services typically stabilize with processes refined through experience. However, staff and leadership turnover, updated technologies, and regulatory changes mean ongoing support remains vital for optimizing your BPO engagement.
-
-When executed methodically, the transition to an optometry-focused BPO presents a compelling opportunity to enhance patient care through optimized operations and staffing. Prioritizing areas like data security, integration with existing systems, staff training, clear contracts, and post-transition support helps ensure a smooth and successful partnership yielding long-term value. By alleviating administrative burdens, practices gain more time and resources to provide quality eye care experiences.
-
-Ready to learn more about unlocking a BPO advantage tailored to your optometry practice? Contact our team for a complimentary assessment.
-> **Need visibility across locations?** [Check out enterprise reporting & QA](/enterprise/reporting-qa/)
+*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
