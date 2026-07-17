@@ -89,7 +89,7 @@ Client communication technology should make appointment and recall workflows mor
 
 Appointment reminders, recall, and reactivation are related but distinct. A reminder concerns a visit already scheduled. Recall identifies a patient due for a service. Reactivation attempts to reconnect with a client who has become inactive. Mixing the three makes it difficult to assess whether the group is protecting booked appointments, rebuilding preventive-care demand, or asking hospital staff to resolve an avoidable backlog.
 
-This is why multi-location teams should define a shared event dictionary. A record should specify what triggered outreach, which channel was used, whether the client responded, what appointment action followed, and when a human must take over. The [multi-location veterinary appointment reminders playbook](/blog/multi-location-veterinary-appointment-reminders/) offers a useful framework for reminder governance, including event definitions and reporting.
+This is why multi-location teams should define a shared event dictionary. A record should specify what triggered outreach, which channel was used, whether the client responded, what appointment action followed, and when a human must take over. The multi-location veterinary appointment reminders playbook offers a useful framework for reminder governance, including event definitions and reporting.
 
 The communication model also needs to fit the group’s access capacity. An automated campaign that prompts hundreds of callbacks without staffing or scheduling rules creates a queue rather than access. Groups using a centralized service model can connect outreach to the [medical answering service solution](/solutions/medical-answering-service/) so agents have current scripts, booking permissions, and clear escalation paths. That keeps automation aligned with a staffed operating process.
 
@@ -118,7 +118,7 @@ Technology is never fully finished after go-live. The durable outcome is a gover
 - [Veterinary Emergency Triage Protocols](/blog/veterinary-emergency-triage-protocols/)
 - [Animal Hospital Patient Intake](/blog/animal-hospital-patient-intake/)
 - [After-Hours Veterinary Call Management](/blog/after-hours-veterinary-call-management/)
-- [Multi-Location Veterinary Appointment Reminders Playbook](/blog/multi-location-veterinary-appointment-reminders/)
+- Multi-Location Veterinary Appointment Reminders Playbook
 
 ## Sources
 
