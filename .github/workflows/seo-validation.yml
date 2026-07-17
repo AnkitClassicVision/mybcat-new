@@ -74,6 +74,12 @@ jobs:
           git diff HEAD --stat | tail -10
           echo "--- untracked blog files ---"
           git ls-files --others --exclude-standard src/content/blog/ | head -10
+          echo "--- aggregate content hash ---"
+          find src/content/blog -type f | sort | xargs md5sum | md5sum
+          echo "--- flagged-file evidence ---"
+          md5sum src/content/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic.md src/content/blog/operational-efficiency-in-optometry-seeing-the-bigger-picture.md 2>&1
+          echo "link-count: $(grep -c 'optometry-front-office-standardization' src/content/blog/ai-is-your-secret-weapon-for-efficiency-in-your-eye-care-clinic.md || true)"
+          node --version; npm ls gray-matter 2>&1 | tail -2
 
       - name: Validate Cross-Links
         run: npm run validate:cross-links
