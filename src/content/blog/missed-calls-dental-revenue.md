@@ -6,10 +6,10 @@ description: >-
   the true cost per unanswered call and strategies to capture patient
   opportunities.
 seoDescription: >-
-  Learn how multi-location dental groups can measure missed-call leakage, improve call coverage, and protect appointment demand across every location.
-publishDate: '2026-06-24'
-status: scheduled
-scheduledDate: '2026-06-24'
+  Learn how multi-location dental groups can measure missed-call leakage,
+  improve call coverage, and protect appointment demand across every location.
+publishDate: '2026-07-18T10:17:54.816Z'
+status: published
 author: Ankit Patel
 category: Technology
 tags:
