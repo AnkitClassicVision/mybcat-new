@@ -1,24 +1,25 @@
 ---
 title: 'Missed Calls and Dental Revenue: The Hidden Cost'
 seoTitle: 'Missed Calls in Dental Groups: Protect Patient Revenue'
-description: >-
-  Learn how missed phone calls silently drain dental practice revenue. Discover
-  the true cost per unanswered call and strategies to capture patient
-  opportunities.
-seoDescription: >-
-  Learn how multi-location dental groups can measure missed-call leakage,
+description: Learn how missed phone calls silently drain dental practice revenue.
+  Discover the true cost per unanswered call and strategies to capture patient opportunities.
+seoDescription: Learn how multi-location dental groups can measure missed-call leakage,
   improve call coverage, and protect appointment demand across every location.
 publishDate: '2026-07-18T10:17:54.816Z'
 status: published
 author: Ankit Patel
 category: Technology
 tags:
-  - missed calls dental revenue
-  - multi-location
-  - enterprise operations
+- missed calls dental revenue
+- multi-location
+- enterprise operations
 cluster: dental
 featuredImage: /images/blog/missed-calls-dental-revenue.webp
-canonical: 'https://mybcat.com/blog/missed-calls-dental-revenue/'
+canonical: https://mybcat.com/blog/missed-calls-dental-revenue/
+relatedPosts:
+- dso-centralized-scheduling-benchmarks
+- dso-patient-recall-workflow-standardization
+- dental-group-workflow-standardization
 ---
 
 ## Table of Contents
