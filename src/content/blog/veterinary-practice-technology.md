@@ -1,24 +1,25 @@
 ---
 title: Veterinary Practice Technology for Multi-Location Groups
 seoTitle: Veterinary Practice Technology for Multi-Site Groups
-description: >-
-  How COOs and operations leaders at veterinary groups with 3+ locations can
-  evaluate and implement practice technology for scalable growth.
-seoDescription: >-
-  Veterinary practice technology for leaders standardizing systems,
-  integrations, client access, and rollout across multi-location groups at
-  scale.
+description: How COOs and operations leaders at veterinary groups with 3+ locations
+  can evaluate and implement practice technology for scalable growth.
+seoDescription: Veterinary practice technology for leaders standardizing systems,
+  integrations, client access, and rollout across multi-location groups at scale.
 publishDate: '2026-07-19T10:27:44.431Z'
 status: published
 author: Ankit Patel
 category: Technology
 tags:
-  - veterinary practice technology
-  - multi-location
-  - enterprise operations
+- veterinary practice technology
+- multi-location
+- enterprise operations
 cluster: veterinary
 featuredImage: /images/blog/veterinary-practice-technology.webp
-canonical: 'https://mybcat.com/blog/veterinary-practice-technology/'
+canonical: https://mybcat.com/blog/veterinary-practice-technology/
+relatedPosts:
+- animal-hospital-patient-intake
+- veterinary-call-service-texas
+- after-hours-veterinary-call-management
 ---
 
 ## Table of Contents
