@@ -5,11 +5,11 @@ description: >-
   How COOs and operations leaders at veterinary groups with 3+ locations can
   evaluate and implement practice technology for scalable growth.
 seoDescription: >-
-  Veterinary practice technology for leaders standardizing systems, integrations,
-  client access, and rollout across multi-location groups at scale.
-publishDate: '2026-06-29'
-status: scheduled
-scheduledDate: '2026-06-29'
+  Veterinary practice technology for leaders standardizing systems,
+  integrations, client access, and rollout across multi-location groups at
+  scale.
+publishDate: '2026-07-19T10:27:44.431Z'
+status: published
 author: Ankit Patel
 category: Technology
 tags:
