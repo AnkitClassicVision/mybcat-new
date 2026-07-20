@@ -1,23 +1,25 @@
 ---
 title: Building a Recall Workflow for Multi-Location Practices
 seoTitle: Multi-Location Patient Recall Workflow Guide for Groups
-description: >-
-  Build a scalable patient recall workflow across multiple healthcare locations
+description: Build a scalable patient recall workflow across multiple healthcare locations
   with centralized coordination and consistent outreach.
-seoDescription: >-
-  Build a patient recall workflow for 3+ healthcare locations with shared
+seoDescription: Build a patient recall workflow for 3+ healthcare locations with shared
   ownership, clear escalation paths, scheduling capacity, and reporting.
 publishDate: '2026-07-20T11:44:46.765Z'
 status: published
 author: Ankit Patel
 category: Patient Care
 tags:
-  - multi-location recall workflow
-  - multi-location
-  - enterprise operations
+- multi-location recall workflow
+- multi-location
+- enterprise operations
 cluster: patient-recall
 featuredImage: /images/blog/multi-location-recall-workflow.webp
-canonical: 'https://mybcat.com/blog/multi-location-recall-workflow/'
+canonical: https://mybcat.com/blog/multi-location-recall-workflow/
+relatedPosts:
+- recall-program-kpi-healthcare-operators
+- automated-patient-recall-system
+- patient-win-back-strategy-enterprise-practice-groups
 ---
 
 ## Table of Contents
