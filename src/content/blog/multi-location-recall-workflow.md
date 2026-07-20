@@ -2,14 +2,13 @@
 title: Building a Recall Workflow for Multi-Location Practices
 seoTitle: Multi-Location Patient Recall Workflow Guide for Groups
 description: >-
-  Build a scalable patient recall workflow across multiple healthcare
-  locations with centralized coordination and consistent outreach.
+  Build a scalable patient recall workflow across multiple healthcare locations
+  with centralized coordination and consistent outreach.
 seoDescription: >-
   Build a patient recall workflow for 3+ healthcare locations with shared
   ownership, clear escalation paths, scheduling capacity, and reporting.
-publishDate: '2026-06-30'
-status: scheduled
-scheduledDate: '2026-06-30'
+publishDate: '2026-07-20T11:44:46.765Z'
+status: published
 author: Ankit Patel
 category: Patient Care
 tags:
