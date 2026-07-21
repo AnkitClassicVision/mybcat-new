@@ -1,23 +1,25 @@
 ---
 title: Recall Compliance Tracking for Multi-Location Healthcare
 seoTitle: Recall Compliance Tracking for Multi-Site Healthcare
-description: >-
-  Learn how multi-location healthcare groups can implement consistent recall
+description: Learn how multi-location healthcare groups can implement consistent recall
   compliance tracking across all sites while meeting federal requirements.
-seoDescription: >-
-  Build a consistent, auditable patient recall program across 3+ healthcare
+seoDescription: Build a consistent, auditable patient recall program across 3+ healthcare
   locations with shared workflows, access controls, reporting, and QA.
 publishDate: '2026-07-21T11:07:47.841Z'
 status: published
 author: Ankit Patel
 category: Patient Care
 tags:
-  - recall compliance tracking multi-location healthcare
-  - multi-location
-  - enterprise operations
+- recall compliance tracking multi-location healthcare
+- multi-location
+- enterprise operations
 cluster: patient-recall
 featuredImage: /images/blog/recall-compliance-tracking-multi-location-healthcare.webp
-canonical: 'https://mybcat.com/blog/recall-compliance-tracking-multi-location-healthcare/'
+canonical: https://mybcat.com/blog/recall-compliance-tracking-multi-location-healthcare/
+relatedPosts:
+- multi-location-recall-workflow
+- recall-program-kpi-healthcare-operators
+- automated-patient-recall-system
 ---
 
 ## Table of Contents
@@ -139,6 +141,10 @@ Start with queue integrity: whether eligible patients enter the correct cohort a
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->
+
+## Related Reading
+
+- [Automated Patient Recall System for Multi-Location Groups](/blog/automated-patient-recall-system/)
 
 ## Sources
 
