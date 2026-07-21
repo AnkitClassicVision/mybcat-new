@@ -7,9 +7,8 @@ description: >-
 seoDescription: >-
   Build a consistent, auditable patient recall program across 3+ healthcare
   locations with shared workflows, access controls, reporting, and QA.
-publishDate: '2026-07-01'
-status: scheduled
-scheduledDate: '2026-07-01'
+publishDate: '2026-07-21T11:07:47.841Z'
+status: published
 author: Ankit Patel
 category: Patient Care
 tags:
