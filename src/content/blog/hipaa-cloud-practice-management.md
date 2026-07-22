@@ -1,20 +1,24 @@
 ---
 title: HIPAA Cloud Practice Management
 seoTitle: HIPAA Cloud Practice Management for Healthcare Groups
-description: A practical HIPAA guide for multi-location healthcare groups evaluating cloud practice management systems and support partners.
-seoDescription: Learn how multi-location healthcare groups can assess cloud practice management systems, vendors, access controls, data flow, and support workflows.
-publishDate: '2026-07-20'
-status: scheduled
-scheduledDate: '2026-07-20'
+description: >-
+  A practical HIPAA guide for multi-location healthcare groups evaluating cloud
+  practice management systems and support partners.
+seoDescription: >-
+  Learn how multi-location healthcare groups can assess cloud practice
+  management systems, vendors, access controls, data flow, and support
+  workflows.
+publishDate: '2026-07-22T11:09:45.921Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
-- hipaa cloud practice management
-- multi-location
-- enterprise operations
+  - hipaa cloud practice management
+  - multi-location
+  - enterprise operations
 cluster: compliance
 featuredImage: /images/blog/hipaa-cloud-practice-management.webp
-canonical: https://mybcat.com/blog/hipaa-cloud-practice-management/
+canonical: 'https://mybcat.com/blog/hipaa-cloud-practice-management/'
 ---
 
 ## Table of Contents
