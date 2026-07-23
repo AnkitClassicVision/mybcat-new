@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unique Eyecare &amp; Optical &middot; SEO &amp; AI Readiness Report &middot; MyBCAT</title>
+  <meta name="description" content="MyBCAT executive SEO and AI readiness re-audit for Unique Eyecare &amp; Optical, July 23, 2026.">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+  <style>
+    :root{
+      --ink:#1a242c; --ink-2:#475462; --ink-3:#6b7783;
+      --navy:#1a242c; --navy-2:#27343c;
+      --teal:#006064; --aqua:#00acc1; --aqua-lt:#4dd0e1;
+      --gold:#c79a3e; --gold-bg:#f8f0dd;
+      --canvas:#f4f6f8; --surface:#ffffff; --line:#d8dfe4; --line-2:#e7ebef;
+      --neg:#b4462e; --neg-bg:#f9ece8;
+      --pos:#0f7a6e; --pos-bg:#e4f2ef;
+      --warn:#a9791f; --warn-bg:#f8f0dd;
+      --shadow:0 12px 34px rgba(26,36,44,.10);
+      --shadow-sm:0 6px 18px rgba(26,36,44,.07);
+      --radius:14px; --max:1080px;
+    }
+    *{box-sizing:border-box;}
+    html{scroll-behavior:smooth;}
+    body{
+      margin:0; color:var(--ink); background:var(--canvas);
+      font-family:"Inter",system-ui,-apple-system,sans-serif;
+      -webkit-font-smoothing:antialiased; letter-spacing:-.01em; line-height:1.5;
+    }
+    a{color:inherit;}
+    .wrap{max-width:var(--max); margin:0 auto; padding:0 26px;}
+    .micro{font-size:11px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:var(--teal);}
+    h1,h2,h3{letter-spacing:-.02em;}
+
+    /* ---------- COVER ---------- */
+    .cover{ background:
+        radial-gradient(1200px 380px at 82% -8%, rgba(0,172,193,.20), transparent 60%),
+        radial-gradient(900px 420px at 0% 110%, rgba(0,96,100,.28), transparent 60%),
+        linear-gradient(160deg,#1a242c 0%, #23303a 60%, #1a242c 100%);
+      color:#fff; }
+    .cover-inner{max-width:var(--max); margin:0 auto; padding:30px 26px 44px;}
+    .cover-brand{display:flex; align-items:center; gap:12px; padding-bottom:26px; border-bottom:1px solid rgba(255,255,255,.14);}
+    .cover-brand img{width:42px; height:42px; object-fit:contain;}
+    .cover-brand .wm{font-size:20px; font-weight:900; letter-spacing:-.02em;}
+    .cover-brand .tl{margin-left:auto; text-align:right; font-size:11.5px; font-weight:600; color:rgba(255,255,255,.66); line-height:1.35; max-width:280px;}
+    .cover-body{display:grid; grid-template-columns:minmax(0,1.35fr) minmax(250px,.65fr); gap:32px; align-items:end; margin-top:40px;}
+    .cover-eyebrow{display:inline-flex; align-items:center; gap:8px; color:var(--aqua-lt); font-size:11px; font-weight:800; letter-spacing:.18em; text-transform:uppercase; margin-bottom:18px;}
+    .cover h1{font-size:clamp(38px,6vw,64px); line-height:1.02; margin:0 0 16px; font-weight:900;}
+    .cover .lede{font-size:clamp(15px,1.7vw,18px); color:rgba(255,255,255,.78); font-weight:500; max-width:560px; margin:0;}
+    .cover-meta{display:flex; gap:26px; flex-wrap:wrap; margin-top:26px; padding-top:22px; border-top:1px solid rgba(255,255,255,.14);}
+    .cover-meta div{min-width:120px;}
+    .cover-meta small{display:block; font-size:10.5px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.5); margin-bottom:5px;}
+    .cover-meta b{font-size:14.5px; font-weight:700;}
+    .score-card{background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.16); border-radius:var(--radius); padding:22px; backdrop-filter:blur(6px);}
+    .gauge{width:150px; aspect-ratio:1; margin:0 auto 6px; border-radius:50%; display:grid; place-items:center; position:relative;
+      background:conic-gradient(var(--gold) 0 57%, rgba(255,255,255,.14) 57% 100%);}
+    .gauge::after{content:""; position:absolute; inset:13px; border-radius:50%; background:#1f2a33;}
+    .gauge .g-num{position:relative; z-index:1; text-align:center;}
+    .gauge .g-num b{display:block; font-size:44px; font-weight:900; line-height:1;}
+    .gauge .g-num span{display:block; font-size:10px; font-weight:800; letter-spacing:.14em; color:rgba(255,255,255,.6); margin-top:3px;}
+    .score-card .cap{text-align:center; font-size:12px; font-weight:600; color:rgba(255,255,255,.72); line-height:1.45;}
+    .score-card .cap b{color:#fff;}
+    .score-card .delta{display:inline-block; margin:8px auto 12px; font-size:11px; font-weight:800; color:#fff; background:rgba(255,255,255,.12); padding:3px 10px; border-radius:999px;}
+
+    /* ---------- SECTIONS ---------- */
+    section.blk{padding:42px 0;}
+    .sec-head{margin-bottom:22px;}
+    .sec-head h2{font-size:clamp(23px,3vw,32px); font-weight:900; margin:8px 0 8px;}
+    .sec-head p{margin:0; color:var(--ink-2); font-weight:500; max-width:640px; line-height:1.55;}
+    .rule{height:3px; width:46px; background:var(--teal); border-radius:2px;}
+
+    .kpis{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px;}
+    .kpi{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:18px 18px 16px; box-shadow:var(--shadow-sm); position:relative; overflow:hidden;}
+    .kpi::before{content:""; position:absolute; left:0; top:0; height:4px; width:100%; background:var(--accent,var(--teal));}
+    .kpi label{display:flex; align-items:center; gap:7px; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3);}
+    .kpi label i{width:15px; height:15px; color:var(--accent,var(--teal));}
+    .kpi b{display:block; margin-top:14px; font-size:34px; font-weight:900; line-height:1; color:var(--navy);}
+    .kpi .sub{display:block; margin-top:9px; font-size:12.5px; font-weight:600; color:var(--ink-2); line-height:1.4;}
+    .up{color:var(--pos); font-weight:800;} .down{color:var(--neg); font-weight:800;}
+
+    .summary{background:var(--surface); border:1px solid var(--line); border-left:5px solid var(--gold); border-radius:var(--radius); padding:22px 24px; box-shadow:var(--shadow-sm); margin-bottom:22px;}
+    .summary .lbl{font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--gold);}
+    .summary p{margin:10px 0 0; font-size:16px; line-height:1.6; color:var(--navy-2); font-weight:500;}
+    .summary p b{color:var(--ink); font-weight:800;}
+
+    /* before/after trend cards */
+    .trend{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; margin-bottom:16px;}
+    .tcard{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:16px; box-shadow:var(--shadow-sm); position:relative; overflow:hidden;}
+    .tcard::before{content:""; position:absolute; left:0; top:0; height:4px; width:100%; background:var(--accent,var(--teal));}
+    .tcard label{display:block; font-size:10.5px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3);}
+    .tcard .nums{display:flex; align-items:baseline; gap:8px; margin-top:12px;}
+    .tcard .then{font-size:20px; font-weight:700; color:var(--ink-3);}
+    .tcard .arw{color:var(--ink-3);}
+    .tcard .now{font-size:30px; font-weight:900; color:var(--navy); line-height:1;}
+    .tcard .cap{display:block; margin-top:9px; font-size:12px; font-weight:600; color:var(--ink-2); line-height:1.4;}
+
+    /* comparison table */
+    .cmp{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow-sm);}
+    .cmp .h,.cmp .r{display:grid; grid-template-columns:minmax(0,1.5fr) 84px 84px 132px; gap:10px; align-items:center; padding:12px 18px;}
+    .cmp .h{background:var(--navy); color:#fff; font-size:11px; font-weight:800; letter-spacing:.07em; text-transform:uppercase;}
+    .cmp .r{border-top:1px solid var(--line-2); font-size:13.5px; font-weight:600;}
+    .cmp .r:nth-child(even){background:#fbfcfd;}
+    .cmp .r b{font-weight:800; color:var(--navy);}
+    .cmp .c{text-align:center; font-weight:800; font-size:12.5px; color:var(--ink-2);}
+    .pill{display:inline-flex; align-items:center; gap:6px; border-radius:999px; padding:5px 10px; font-size:11px; font-weight:800; white-space:nowrap;}
+    .pill.neg{background:var(--neg-bg); color:var(--neg);}
+    .pill.pos{background:var(--pos-bg); color:var(--pos);}
+    .pill.warn{background:var(--warn-bg); color:var(--warn);}
+
+    .split{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px;}
+    .panel{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:22px; box-shadow:var(--shadow-sm);}
+    .panel.ink{background:linear-gradient(160deg,#1f2a33,#1a242c); color:#fff; border-color:rgba(255,255,255,.12);}
+    .panel h3{margin:0 0 12px; font-size:18px; font-weight:800;}
+    .panel p{margin:0; color:var(--ink-2); line-height:1.55; font-weight:500;}
+    .panel.ink p{color:rgba(255,255,255,.76);}
+    .siglist{display:grid; gap:2px; margin-top:14px;}
+    .sig{display:grid; grid-template-columns:44px 1fr; gap:12px; align-items:center; padding:11px 0; border-top:1px solid rgba(255,255,255,.1);}
+    .sig:first-child{border-top:0;}
+    .sig .dot{width:44px; height:44px; border-radius:11px; display:grid; place-items:center; font-size:14px; font-weight:900; color:#0d1418; background:var(--accent,var(--aqua-lt));}
+    .sig b{display:block; font-size:14px; margin-bottom:2px;}
+    .sig span{font-size:12.5px; color:rgba(255,255,255,.7); line-height:1.4; font-weight:500;}
+
+    .bars{display:grid; gap:12px; margin-top:14px;}
+    .bar{display:grid; grid-template-columns:158px 1fr 92px; gap:12px; align-items:center; font-size:12.5px; font-weight:800; color:var(--navy);}
+    .track{height:10px; border-radius:999px; background:var(--line-2); overflow:hidden;}
+    .fill{height:100%; width:var(--v); background:var(--accent,var(--teal)); border-radius:inherit;}
+
+    .serp{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px;}
+    .scard{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow-sm); display:grid; gap:10px;}
+    .tag{display:inline-flex; width:fit-content; align-items:center; gap:7px; border-radius:999px; padding:5px 11px; font-size:11.5px; font-weight:800; background:var(--pos-bg); color:var(--pos);}
+    .scard.bad .tag{background:var(--neg-bg); color:var(--neg);}
+    .scard.warn .tag{background:var(--warn-bg); color:var(--warn);}
+    .scard h3{margin:0; font-size:16px; font-weight:800; color:var(--navy);}
+    .scard p{margin:0; color:var(--ink-2); font-size:13px; line-height:1.45; font-weight:500;}
+
+    .fixes{display:grid; gap:10px;}
+    .fix{display:grid; grid-template-columns:56px 1fr 108px; gap:14px; align-items:start; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:15px 16px; box-shadow:var(--shadow-sm);}
+    .pr{display:inline-flex; align-items:center; justify-content:center; min-height:30px; border-radius:8px; font-weight:900; font-size:12px; color:#fff; background:var(--navy);}
+    .pr.p0{background:var(--neg);} .pr.p1{background:var(--teal);} .pr.p2{background:var(--gold); color:#3a2c08;} .pr.p3{background:var(--ink-3);}
+    .fix h3{margin:0 0 5px; font-size:15px; font-weight:800; color:var(--navy);}
+    .fix p{margin:0; color:var(--ink-2); font-size:12.5px; line-height:1.45; font-weight:500;}
+    .fix .imp{text-align:right; font-size:11px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; color:var(--ink-3);}
+
+    .road{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px;}
+    .phase{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow-sm); position:relative;}
+    .phase::before{content:""; position:absolute; left:18px; right:18px; top:0; height:4px; background:var(--accent,var(--teal)); border-radius:0 0 3px 3px;}
+    .phase small{display:inline-block; font-size:10.5px; font-weight:900; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3); margin-bottom:12px;}
+    .phase h3{margin:0 0 10px; font-size:16px; font-weight:800; color:var(--navy);}
+    .phase ul{margin:0; padding-left:16px; color:var(--ink-2); font-size:12.5px; line-height:1.5; font-weight:500;}
+
+    /* sources */
+    .src-table{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow-sm);}
+    .src-table .h,.src-table .r{display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1.5fr) 92px; gap:12px; padding:12px 18px;}
+    .src-table .h{background:var(--navy); color:#fff; font-size:11px; font-weight:800; letter-spacing:.07em; text-transform:uppercase;}
+    .src-table .r{border-top:1px solid var(--line-2); font-size:13px; font-weight:500; color:var(--ink-2); align-items:start;}
+    .src-table .r b{color:var(--navy); font-weight:800;}
+    .src-table .r .d{font-weight:800; color:var(--teal); font-size:12px;}
+    .refs{margin-top:16px; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:18px 22px; box-shadow:var(--shadow-sm);}
+    .refs h3{margin:0 0 10px; font-size:14px; font-weight:800; color:var(--navy);}
+    .refs ul{margin:0; padding-left:18px; columns:2; column-gap:28px; font-size:12.5px; line-height:1.7; color:var(--ink-2); font-weight:500;}
+    .refs a{color:var(--teal); font-weight:600; word-break:break-all;}
+    .note{margin-top:14px; font-size:12px; color:var(--ink-3); font-weight:500; line-height:1.5;}
+
+    /* footer */
+    footer.brandf{background:linear-gradient(160deg,#1f2a33,#1a242c); color:#fff; margin-top:38px;}
+    .bf-inner{max-width:var(--max); margin:0 auto; padding:30px 26px 40px; display:grid; grid-template-columns:1.2fr auto; gap:24px; align-items:center;}
+    .bf-brand{display:flex; align-items:center; gap:12px; margin-bottom:12px;}
+    .bf-brand img{width:34px; height:34px; object-fit:contain;}
+    .bf-brand b{font-size:17px; font-weight:900;}
+    .bf-tag{font-size:13px; font-weight:700; color:var(--aqua-lt); margin:0 0 6px;}
+    .bf-inner p{margin:0; font-size:12px; color:rgba(255,255,255,.62); line-height:1.5; font-weight:500;}
+    .bf-right{text-align:right; font-size:12.5px; line-height:1.7;}
+    .bf-right a{color:#fff; font-weight:700;}
+    .bf-right small{display:block; color:rgba(255,255,255,.5); font-size:11px; margin-top:6px;}
+
+    @media (max-width:900px){
+      .cover-body{grid-template-columns:1fr;}
+      .kpis,.trend,.road{grid-template-columns:repeat(2,minmax(0,1fr));}
+      .split,.serp{grid-template-columns:1fr;}
+      .refs ul{columns:1;}
+      .bf-inner{grid-template-columns:1fr;} .bf-right{text-align:left;}
+    }
+    @media (max-width:560px){
+      .kpis,.trend,.road{grid-template-columns:1fr;}
+      .cmp .h,.cmp .r{grid-template-columns:minmax(0,1.4fr) 58px 58px 104px; gap:7px; font-size:12px;}
+      .fix{grid-template-columns:1fr;} .fix .imp{text-align:left;}
+      .src-table .h,.src-table .r{grid-template-columns:1fr;}
+    }
+    @media print{
+      body{background:#fff;}
+      .cover{-webkit-print-color-adjust:exact; print-color-adjust:exact;}
+      .kpi,.tcard,.cmp,.panel,.scard,.fix,.phase,.summary,.src-table,.refs{box-shadow:none; break-inside:avoid;}
+      section.blk{padding:26px 0; break-inside:avoid;}
+      .pagebreak{break-before:page;}
+      footer.brandf,.cover,.panel.ink,.cmp .h,.src-table .h{-webkit-print-color-adjust:exact; print-color-adjust:exact;}
+    }
+  </style>
+</head>
+<body>
+
+  <header class="cover">
+    <div class="cover-inner">
+      <div class="cover-brand">
+        <img src="https://mybcat.com/images/logo-optimized.webp" alt="MyBCAT logo">
+        <span class="wm">MyBCAT</span>
+        <span class="tl">Centralized patient access for multi-location healthcare groups</span>
+      </div>
+      <div class="cover-body">
+        <div>
+          <span class="cover-eyebrow"><i data-lucide="scan-search"></i> SEO &amp; AI Readiness Report</span>
+          <h1>Unique Eyecare<br>&amp; Optical</h1>
+          <p class="lede">A search-visibility re-audit measuring what changed since May, and the fastest path to more booked eye exams in Houston.</p>
+          <div class="cover-meta">
+            <div><small>Prepared for</small><b>Unique Eyecare &amp; Optical</b></div>
+            <div><small>Prepared by</small><b>MyBCAT</b></div>
+            <div><small>Report date</small><b>July 23, 2026</b></div>
+            <div><small>Compared to</small><b>May 6, 2026 audit</b></div>
+          </div>
+        </div>
+        <aside class="score-card">
+          <div class="gauge"><div class="g-num"><b>57</b><span>/ 100</span></div></div>
+          <div style="text-align:center;"><span class="delta">was 58 on May 6</span></div>
+          <p class="cap"><b>SEO Health Score.</b> Essentially flat, because the structural fixes were never made while the site drifted further from local search.</p>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section class="blk">
+      <div class="summary">
+        <span class="lbl">Executive summary</span>
+        <p>Since the May 6 audit, organic traffic actually climbed, but <b>almost none of the recommended fixes were made</b>, and the growth is one national medical blog post rather than Houston patients. Page speed and reviews improved modestly. The fundamentals that turn searches into booked exams, clean site structure, local service pages, and local authority, have not moved.</p>
+      </div>
+      <div class="kpis">
+        <article class="kpi" style="--accent:var(--pos);">
+          <label><i data-lucide="mouse-pointer-click"></i> Organic traffic / mo</label>
+          <b>247</b><span class="sub"><span class="up">&uarr; from 68</span> estimated monthly visits (Ahrefs)</span>
+        </article>
+        <article class="kpi" style="--accent:var(--neg);">
+          <label><i data-lucide="shield-alert"></i> Domain Rating</label>
+          <b>1.7</b><span class="sub">Very low authority on a 100-point scale</span>
+        </article>
+        <article class="kpi" style="--accent:var(--teal);">
+          <label><i data-lucide="trophy"></i> Keywords in top 3</label>
+          <b>10</b><span class="sub"><span class="up">&uarr; from 3</span>, mostly national medical terms</span>
+        </article>
+        <article class="kpi" style="--accent:var(--gold);">
+          <label><i data-lucide="star"></i> Google reviews</label>
+          <b>126</b><span class="sub">4.9&#9733; rating, <span class="up">&uarr; from 122</span></span>
+        </article>
+      </div>
+    </section>
+
+    <section class="blk">
+      <div class="sec-head">
+        <div class="rule"></div>
+        <h2>Before &amp; After</h2>
+        <p>May 6 vs July 23, 2026. Technical checks were re-run live on the same URLs. Authority and traffic come from Ahrefs for both dates, page speed from DataForSEO Lighthouse, and reviews from the live Google Business Profile.</p>
+      </div>
+      <div class="trend">
+        <article class="tcard" style="--accent:var(--pos);">
+          <label>Organic traffic / mo</label>
+          <div class="nums"><span class="then">68</span><span class="arw">&rarr;</span><span class="now">247</span></div>
+          <span class="cap">+263%. Real, but 84% is one blog post.</span>
+        </article>
+        <article class="tcard" style="--accent:var(--teal);">
+          <label>Keywords in top 3</label>
+          <div class="nums"><span class="then">3</span><span class="arw">&rarr;</span><span class="now">10</span></div>
+          <span class="cap">National medical terms, not local commercial.</span>
+        </article>
+        <article class="tcard" style="--accent:var(--neg);">
+          <label>Domain Rating</label>
+          <div class="nums"><span class="now">1.7</span></div>
+          <span class="cap">Newly measured. The ceiling on local rankings.</span>
+        </article>
+        <article class="tcard" style="--accent:var(--gold);">
+          <label>P0 fixes shipped</label>
+          <div class="nums"><span class="now">0 / 6</span></div>
+          <span class="cap">None of the May 6 seven-day items were done.</span>
+        </article>
+      </div>
+      <div class="cmp">
+        <div class="h"><span>Issue from the May 6 audit</span><span class="c">May 6</span><span class="c">Jul 23</span><span class="c">Status</span></div>
+        <div class="r"><b>HTTP pages redirect to HTTPS</b><span class="c">200 OK</span><span class="c">200 OK</span><span><span class="pill neg">Still leaking</span></span></div>
+        <div class="r"><b>Self-referencing canonicals sitewide</b><span class="c">1 of 15</span><span class="c">1 of 15</span><span><span class="pill neg">Not fixed</span></span></div>
+        <div class="r"><b>Service-page meta descriptions</b><span class="c">8 empty</span><span class="c">8 empty</span><span><span class="pill neg">Not fixed</span></span></div>
+        <div class="r"><b>Invalid myopia JSON-LD schema</b><span class="c">Invalid</span><span class="c">Invalid</span><span><span class="pill neg">+ zeiss too</span></span></div>
+        <div class="r"><b>http:// URL inside homepage schema</b><span class="c">Present</span><span class="c">Present</span><span><span class="pill neg">Not fixed</span></span></div>
+        <div class="r"><b>Broken /frames.html</b><span class="c">404</span><span class="c">404</span><span><span class="pill neg">Not fixed</span></span></div>
+        <div class="r"><b>Empty llms.txt</b><span class="c">0 bytes</span><span class="c">0 bytes</span><span><span class="pill neg">Not fixed</span></span></div>
+        <div class="r"><b>Service &amp; blog structured data</b><span class="c">Missing</span><span class="c">Missing</span><span><span class="pill neg">Not fixed</span></span></div>
+        <div class="r"><b>Mobile accessibility (Lighthouse)</b><span class="c">43</span><span class="c">43</span><span><span class="pill neg">Not fixed</span></span></div>
+        <div class="r"><b>Desktop page speed (LCP)</b><span class="c">5.0s</span><span class="c">1.9s</span><span><span class="pill pos">Improved</span></span></div>
+        <div class="r"><b>Mobile page speed (LCP)</b><span class="c">5.5s</span><span class="c">4.6s</span><span><span class="pill warn">Better, &gt;2.5s</span></span></div>
+        <div class="r"><b>Google reviews</b><span class="c">122</span><span class="c">126</span><span><span class="pill pos">+4</span></span></div>
+        <div class="r"><b>PHP version leaked in headers</b><span class="c">Exposed</span><span class="c">Hidden</span><span><span class="pill pos">Improved</span></span></div>
+        <div class="r"><b>/contact.html reachable</b><span class="c">Live</span><span class="c">404</span><span><span class="pill warn">Regressed</span></span></div>
+        <div class="r"><b>http:// homepage indexed &amp; ranking</b><span class="c">Risk</span><span class="c">Confirmed</span><span><span class="pill neg">Now proven</span></span></div>
+      </div>
+    </section>
+
+    <section class="blk pagebreak">
+      <div class="sec-head">
+        <div class="rule"></div>
+        <h2>The traffic is real. The traffic is wrong.</h2>
+        <p>The growth is genuine, but it does not book eye exams in Houston. One blog post carries the site.</p>
+      </div>
+      <div class="split">
+        <article class="panel ink">
+          <h3>Where the 247 visits come from</h3>
+          <p>A single article on how XDEMVY treats Demodex blepharitis is 84% of all organic traffic. It ranks nationally for drug-information searches, not for Houston eye-care intent.</p>
+          <div class="siglist">
+            <div class="sig" style="--accent:var(--aqua-lt);"><span class="dot">207</span><div><b>XDEMVY / Demodex blog post</b><span>Up from 31 visits. Ranks #1 for &ldquo;demodex eye drops,&rdquo; &ldquo;eye drops for mites,&rdquo; &ldquo;ivermectin eye drops.&rdquo;</span></div></div>
+            <div class="sig" style="--accent:var(--aqua);"><span class="dot">35</span><div><b>Homepage</b><span>Barely moved from 32. This is the page that should convert local searchers.</span></div></div>
+            <div class="sig" style="--accent:var(--gold);"><span class="dot">~5</span><div><b>Everything else, incl. service pages</b><span>No commercial service page earns meaningful organic traffic.</span></div></div>
+          </div>
+        </article>
+        <article class="panel">
+          <h3>Who Google sees Unique competing with</h3>
+          <p>Ahrefs&rsquo; organic competitors are national medical and pharma publishers, not Houston optometrists. That is the clearest sign the content has drifted off-purpose.</p>
+          <div class="bars">
+            <div class="bar"><span>WebMD (DR 92)</span><span class="track"><span class="fill" style="--v:96%; --accent:var(--navy);"></span></span><span>national</span></div>
+            <div class="bar"><span>Drugs.com (DR 88)</span><span class="track"><span class="fill" style="--v:90%; --accent:var(--navy);"></span></span><span>national</span></div>
+            <div class="bar"><span>GoodRx (DR 85)</span><span class="track"><span class="fill" style="--v:88%; --accent:var(--navy);"></span></span><span>national</span></div>
+            <div class="bar"><span>FDA.gov (DR 92)</span><span class="track"><span class="fill" style="--v:96%; --accent:var(--navy);"></span></span><span>national</span></div>
+            <div class="bar"><span>xdemvy.com (drug brand)</span><span class="track"><span class="fill" style="--v:38%; --accent:var(--gold);"></span></span><span>14.5% overlap</span></div>
+          </div>
+          <p style="margin-top:14px; font-size:12.5px;">Local Houston optometrists barely register, because Unique is not really ranking in the local commercial race yet.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="blk">
+      <div class="sec-head">
+        <div class="rule"></div>
+        <h2>Local visibility &amp; authority</h2>
+        <p>The market terms that actually book appointments are still not won, and the authority gap is now measured.</p>
+      </div>
+      <div class="serp">
+        <article class="scard bad"><span class="tag"><i data-lucide="map-pin-off"></i> Not ranking</span><h3>eye doctor houston</h3><p>2,100 monthly searches. Unique is absent from the top 10. Winners hold the local pack plus 250&ndash;365 local referring domains.</p></article>
+        <article class="scard bad"><span class="tag"><i data-lucide="map-pin-off"></i> Not ranking</span><h3>optometrist houston</h3><p>800 monthly searches at difficulty 22, a winnable term Unique still does not appear for.</p></article>
+        <article class="scard warn"><span class="tag"><i data-lucide="trending-down"></i> Lost ground</span><h3>Local commercial terms</h3><p>Several neighborhood/commercial keywords that ranked on May 6 have dropped out of the index.</p></article>
+        <article class="scard"><span class="tag"><i data-lucide="badge-check"></i> Rank 1</span><h3>demodex / xdemvy queries</h3><p>The medical blog post wins nationally. Great reach, not a Houston appointment driver.</p></article>
+        <article class="scard"><span class="tag"><i data-lucide="badge-check"></i> Rank 2&ndash;3</span><h3>Branded search</h3><p>&ldquo;Unique optical&rdquo; stays healthy, with a knowledge panel and sitelinks present.</p></article>
+        <article class="scard warn"><span class="tag"><i data-lucide="link-2"></i> DR 1.7</span><h3>Authority is the ceiling</h3><p>349 referring domains but almost all directories, platforms, or flagged-spam. Very little local editorial link value.</p></article>
+      </div>
+    </section>
+
+    <section class="blk">
+      <div class="split">
+        <article class="panel">
+          <h3>AI readiness &mdash; the bright spot</h3>
+          <p>Nearly every query the XDEMVY article wins sits in an AI Overview-heavy results page, and the article holds rank 1 for several. That is real evidence the content is citation-worthy to answer engines on medical topics.</p>
+        </article>
+        <article class="panel">
+          <h3>AI readiness &mdash; the gap</h3>
+          <p>None of it helps a Houston patient. The local business entity is still fuzzy to machines: broken and missing schema, no author or clinical reviewer on health posts, the http/https split unresolved, and an empty llms.txt. Answer engines cite the drug article, not &ldquo;eye doctor near me.&rdquo;</p>
+        </article>
+      </div>
+      <div class="panel" style="margin-top:14px;">
+        <h3>Page experience &mdash; re-tested live July 23 (DataForSEO Lighthouse)</h3>
+        <p>Speed improved: desktop LCP now passes at 1.9s and mobile performance rose to 79. But mobile accessibility is unchanged at 43 and mobile LCP still fails the 2.5s target, both traceable to the homepage&rsquo;s 62 images with 59 missing alt text.</p>
+        <div class="bars">
+          <div class="bar"><span>Mobile performance</span><span class="track"><span class="fill" style="--v:79%; --accent:var(--gold);"></span></span><span>79 (was 74)</span></div>
+          <div class="bar"><span>Mobile accessibility</span><span class="track"><span class="fill" style="--v:43%; --accent:var(--neg);"></span></span><span>43 (flat)</span></div>
+          <div class="bar"><span>Desktop performance</span><span class="track"><span class="fill" style="--v:80%; --accent:var(--pos);"></span></span><span>80 (was 65)</span></div>
+          <div class="bar"><span>Homepage images w/o alt</span><span class="track"><span class="fill" style="--v:95%; --accent:var(--neg);"></span></span><span>59 / 62</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blk pagebreak">
+      <div class="sec-head">
+        <div class="rule"></div>
+        <h2>Priority fix list</h2>
+        <p>The P0 list from May 6 is unchanged and now overdue. The new priority: stop the duplicate that is actively ranking, then convert the traffic already earned.</p>
+      </div>
+      <div class="fixes">
+        <article class="fix"><span class="pr p0">P0</span><div><h3>Force HTTP to HTTPS with 301 redirects</h3><p>The http:// homepage is confirmed indexed and ranking as a duplicate. This is now proven signal loss, not a theoretical risk.</p></div><span class="imp">High impact</span></article>
+        <article class="fix"><span class="pr p0">P0</span><div><h3>Add self-referencing canonicals to all 14 uncovered pages</h3><p>Only the homepage has one today. Every service and blog page still needs a clean HTTPS canonical.</p></div><span class="imp">High impact</span></article>
+        <article class="fix"><span class="pr p0">P0</span><div><h3>Write the 8 missing service meta descriptions and fix short titles</h3><p>Pages like avulux (6 characters) and specialty contacts (14) still have generic titles and blank descriptions.</p></div><span class="imp">High impact</span></article>
+        <article class="fix"><span class="pr p0">P0</span><div><h3>Fix or redirect /frames.html and /contact.html</h3><p>frames.html is still 404 and contact.html has newly broken since May. Restore or 301 both.</p></div><span class="imp">High impact</span></article>
+        <article class="fix"><span class="pr p1">P1</span><div><h3>Repair the invalid schema and add service/article markup</h3><p>Two JSON-LD blocks fail to parse, the homepage schema still uses an http:// URL, and service and blog pages have none.</p></div><span class="imp">High impact</span></article>
+        <article class="fix"><span class="pr p1">P1</span><div><h3>Convert the XDEMVY traffic you already have</h3><p>Add author, clinical reviewer, Article schema, and a Houston appointment CTA to the post pulling 207 visits a month.</p></div><span class="imp">High impact</span></article>
+        <article class="fix"><span class="pr p1">P1</span><div><h3>Rebuild priority local service pages</h3><p>Local, patient-useful copy, doctor expertise, FAQs, insurance context, and appointment CTAs for exams, dry eye, pediatric, myopia, and contacts.</p></div><span class="imp">High impact</span></article>
+        <article class="fix"><span class="pr p2">P2</span><div><h3>Build local authority to lift DR off 1.7</h3><p>Earn real local editorial links (chambers, Rice Village / West University press, partners). Clean up the spam directory links.</p></div><span class="imp">Growth lever</span></article>
+        <article class="fix"><span class="pr p2">P2</span><div><h3>Reclaim the lost local commercial keywords</h3><p>Several local terms dropped out since May. Rebuild the pages and internal links that supported them.</p></div><span class="imp">Growth lever</span></article>
+        <article class="fix"><span class="pr p3">P3</span><div><h3>Populate or remove the empty llms.txt</h3><p>Still 0 bytes. Fill it with canonical business, service, and doctor details for AI agents, or remove it.</p></div><span class="imp">Polish</span></article>
+      </div>
+    </section>
+
+    <section class="blk">
+      <div class="sec-head">
+        <div class="rule"></div>
+        <h2>90-day roadmap</h2>
+        <p>Sequenced to seal the leaks first, then compound the visibility that is already showing up.</p>
+      </div>
+      <div class="road">
+        <article class="phase" style="--accent:var(--neg);"><small>Week 1</small><h3>Seal the leaks</h3><ul><li>HTTP to HTTPS 301s</li><li>Canonicals on 14 pages</li><li>Fix frames + contact 404s</li><li>Regenerate sitemap</li></ul></article>
+        <article class="phase" style="--accent:var(--gold);"><small>Weeks 2-4</small><h3>Make pages rankable</h3><ul><li>Titles + descriptions</li><li>Rebuild service pages</li><li>Repair + add schema</li><li>Alt text + LCP</li></ul></article>
+        <article class="phase" style="--accent:var(--aqua);"><small>Weeks 5-8</small><h3>Local proof</h3><ul><li>GBP alignment</li><li>Review growth</li><li>Neighborhood pages</li><li>Local editorial links</li></ul></article>
+        <article class="phase" style="--accent:var(--pos);"><small>Weeks 9-12</small><h3>Convert &amp; compound</h3><ul><li>Author/reviewer signals</li><li>Schema + CTAs on blog</li><li>Reclaim local terms</li><li>Authority link building</li></ul></article>
+      </div>
+    </section>
+
+    <section class="blk pagebreak">
+      <div class="sec-head">
+        <div class="rule"></div>
+        <h2>Sources &amp; methodology</h2>
+        <p>Every figure in this report is dated and traceable. All data was collected on July 23, 2026. You can look each source up directly using the references below.</p>
+      </div>
+      <div class="src-table">
+        <div class="h"><span>Source</span><span>What it measured</span><span>Date pulled</span></div>
+        <div class="r"><b>Ahrefs</b><span>Domain Rating, organic keywords, traffic estimates, backlinks and referring domains, organic competitors, SERP overview (both May 6 and July 23)</span><span class="d">Jul 23, 2026</span></div>
+        <div class="r"><b>DataForSEO Lighthouse</b><span>Mobile and desktop performance, accessibility, SEO, and Core Web Vitals (LCP, CLS), Google Lighthouse engine</span><span class="d">Jul 23, 2026</span></div>
+        <div class="r"><b>Google Business Profile</b><span>Live rating (4.9&#9733;) and review count (126), business category</span><span class="d">Jul 23, 2026</span></div>
+        <div class="r"><b>Live site crawl</b><span>HTTP status and redirects, canonicals, titles, meta descriptions, schema/JSON-LD, image alt text, robots.txt, sitemap, llms.txt</span><span class="d">Jul 23, 2026</span></div>
+        <div class="r"><b>Automated verification</b><span>On-page findings independently re-derived and cross-checked against the same page snapshots</span><span class="d">Jul 23, 2026</span></div>
+      </div>
+      <div class="refs">
+        <h3>Reference standards</h3>
+        <ul>
+          <li>Google Search Central, AI features and your website: <a href="https://developers.google.com/search/docs/appearance/ai-features">developers.google.com/search/docs/appearance/ai-features</a></li>
+          <li>Google LocalBusiness structured data: <a href="https://developers.google.com/search/docs/appearance/structured-data/local-business">developers.google.com/search/docs/appearance/structured-data/local-business</a></li>
+          <li>Google SEO Starter Guide: <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide">developers.google.com/search/docs/fundamentals/seo-starter-guide</a></li>
+          <li>Core Web Vitals thresholds (web.dev): <a href="https://web.dev/articles/vitals">web.dev/articles/vitals</a></li>
+          <li>OpenAI crawler documentation: <a href="https://platform.openai.com/docs/bots">platform.openai.com/docs/bots</a></li>
+          <li>Ahrefs metrics glossary: <a href="https://ahrefs.com/seo/glossary">ahrefs.com/seo/glossary</a></li>
+        </ul>
+        <p class="note">Data note: Ahrefs and DataForSEO figures are third-party estimates and live measurements that can shift as search results update. Traffic and keyword counts here use Ahrefs for both dates so the comparison is consistent; the original May 6 brief reported a broader DataForSEO keyword set, which is not directly comparable. Reputation and page-experience numbers are live measurements taken on the report date. No patient data (PHI) is included in this report.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="brandf">
+    <div class="bf-inner">
+      <div>
+        <div class="bf-brand"><img src="https://mybcat.com/images/logo-optimized.webp" alt="MyBCAT logo"><b>MyBCAT</b></div>
+        <p class="bf-tag">One team. Every location. Every call.</p>
+        <p>Centralized patient access, scheduling, recall, and reporting for healthcare groups. This report was prepared by MyBCAT for Unique Eyecare &amp; Optical and is confidential.</p>
+      </div>
+      <div class="bf-right">
+        <a href="https://www.mybcat.com">mybcat.com</a>
+        <small>SEO &amp; AI Readiness Report</small>
+        <small>Prepared July 23, 2026</small>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      if (window.lucide) window.lucide.createIcons({ attrs: { "stroke-width": 2.2, width: 16, height: 16 } });
+    });
+  </script>
+</body>
+</html>
