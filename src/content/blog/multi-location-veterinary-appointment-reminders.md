@@ -1,23 +1,24 @@
 ---
 title: Multi-Location Veterinary Appointment Reminders Playbook
 seoTitle: Multi-Location Veterinary Appointment Reminders Playbook
-description: Multi-location veterinary appointment reminders playbook for enterprise
-  teams standardizing outreach, QA, consent, and reporting across 3+ locations.
-seoDescription: Multi-location veterinary appointment reminders for COOs centralizing
-  reminder workflows, compliance review, QA, and reporting across 3+ locations.
-publishDate: '2026-07-21'
-status: scheduled
-scheduledDate: '2026-07-21'
+description: >-
+  Multi-location veterinary appointment reminders playbook for enterprise teams
+  standardizing outreach, QA, consent, and reporting across 3+ locations.
+seoDescription: >-
+  Multi-location veterinary appointment reminders for COOs centralizing reminder
+  workflows, compliance review, QA, and reporting across 3+ locations.
+publishDate: '2026-07-23T11:09:31.203Z'
+status: published
 author: Ankit Patel
 category: Technology
 tags:
-- multi-location veterinary appointment reminders
-- multi-location
-- enterprise operations
-- healthcare scale
+  - multi-location veterinary appointment reminders
+  - multi-location
+  - enterprise operations
+  - healthcare scale
 cluster: veterinary
 featuredImage: /images/blog/multi-location-veterinary-appointment-reminders.webp
-canonical: https://mybcat.com/blog/multi-location-veterinary-appointment-reminders/
+canonical: 'https://mybcat.com/blog/multi-location-veterinary-appointment-reminders/'
 ---
 ## Table of Contents
 
