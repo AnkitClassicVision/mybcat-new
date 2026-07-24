@@ -12,7 +12,7 @@
     "targetSlug": "optometry-front-office-standardization-group-practices",
     "originalMarkdown": "[front-office standardization for optometry groups](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "front-office standardization for optometry groups",
-    "contextBefore": "rcing every conversation into a script.\u21b5\u21b5This is one reason ",
+    "contextBefore": "rcing every conversation into a script.↵↵This is one reason ",
     "contextAfter": " should include phones, scheduling, and handoffs together. T"
   },
   {
@@ -29,7 +29,7 @@
     "originalMarkdown": "[optometry front-office standardization](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "optometry front-office standardization",
     "contextBefore": "her training is working. This is the same discipline behind ",
-    "contextAfter": ", applied before a staffing gap becomes a service problem.\u21b5\u21b5"
+    "contextAfter": ", applied before a staffing gap becomes a service problem.↵↵"
   },
   {
     "sourceSlug": "embracing-cultural-sensitivity-in-optometry-care",
@@ -37,7 +37,7 @@
     "originalMarkdown": "[front-office standardization across optometry groups](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "front-office standardization across optometry groups",
     "contextBefore": "issue is systemic. This is the same discipline required for ",
-    "contextAfter": ".\u21b5\u21b5## What Should Leaders Measure Without Reducing Respect t"
+    "contextAfter": ".↵↵## What Should Leaders Measure Without Reducing Respect t"
   },
   {
     "sourceSlug": "ensuring-compliance-and-security-with-your-outsourced-customer-service-team",
@@ -60,8 +60,8 @@
     "targetSlug": "optometry-front-office-standardization-group-practices",
     "originalMarkdown": "[Optometry Front Office Standardization for Group Practices](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "Optometry Front Office Standardization for Group Practices",
-    "contextBefore": "/blog/healthcare-call-center-outsourcing-multi-location/)\u21b5- ",
-    "contextAfter": "\u21b5- [Enterprise Call Answering for Healthcare Groups](/blog/e"
+    "contextBefore": "/blog/healthcare-call-center-outsourcing-multi-location/)↵- ",
+    "contextAfter": "↵- [Enterprise Call Answering for Healthcare Groups](/blog/e"
   },
   {
     "sourceSlug": "how-technology-is-boosting-operational-efficiency-in-optometry",
@@ -69,7 +69,7 @@
     "originalMarkdown": "[optometry front-office standardization for groups](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "optometry front-office standardization for groups",
     "contextBefore": "ore workflow. That is the same control problem addressed in ",
-    "contextAfter": ".\u21b5\u21b5## How Do EHRs and Practice-Management Systems Improve Da"
+    "contextAfter": ".↵↵## How Do EHRs and Practice-Management Systems Improve Da"
   },
   {
     "sourceSlug": "how-to-train-virtual-assistants-for-your-eye-care-practice",
@@ -77,7 +77,7 @@
     "originalMarkdown": "[front-office standardization framework](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "front-office standardization framework",
     "contextBefore": "ide](/blog/multi-location-healthcare-intake-guide/) and the ",
-    "contextAfter": ".\u21b5\u21b5### What should the scheduling SOP include?\u21b5\u21b5A scheduling"
+    "contextAfter": ".↵↵### What should the scheduling SOP include?↵↵A scheduling"
   },
   {
     "sourceSlug": "is-ai-investment-worth-it-for-your-optometry-clinic",
@@ -92,7 +92,7 @@
     "targetSlug": "optometry-front-office-standardization-group-practices",
     "originalMarkdown": "[optometry front-office standardization guide](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "optometry front-office standardization guide",
-    "contextBefore": "ner who updates that source when a change is approved.\u21b5\u21b5The ",
+    "contextBefore": "ner who updates that source when a change is approved.↵↵The ",
     "contextAfter": " offers a useful operating principle: local variation should"
   },
   {
@@ -109,7 +109,7 @@
     "originalMarkdown": "[patient access outsourcing vendor evaluation guide](/blog/vendor-evaluation-patient-access-outsourcing/)",
     "plainText": "patient access outsourcing vendor evaluation guide",
     "contextBefore": " questions for a formal buying process are available in the ",
-    "contextAfter": ".\u21b5\u21b5### Which vendor answers should concern a buying committe"
+    "contextAfter": ".↵↵### Which vendor answers should concern a buying committe"
   },
   {
     "sourceSlug": "operational-efficiency-in-optometry-seeing-the-bigger-picture",
@@ -124,7 +124,7 @@
     "targetSlug": "optometry-front-office-standardization-group-practices",
     "originalMarkdown": "[Optometry front-office standardization for group practices](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "Optometry front-office standardization for group practices",
-    "contextBefore": "han asking the shared team to infer the new office\u2019s rules. ",
+    "contextBefore": "han asking the shared team to infer the new office’s rules. ",
     "contextAfter": " explains why visible, repeatable operating rules matter as "
   },
   {
@@ -140,7 +140,7 @@
     "targetSlug": "optometry-front-office-standardization-group-practices",
     "originalMarkdown": "[front-office standardization model for optometry groups](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "front-office standardization model for optometry groups",
-    "contextBefore": "using the same rules across the group.\u21b5\u21b5This is why a clear ",
+    "contextBefore": "using the same rules across the group.↵↵This is why a clear ",
     "contextAfter": " matters. It turns recurring judgment calls into visible rol"
   },
   {
@@ -168,14 +168,6 @@
     "contextAfter": " explains how to turn shared expectations into repeatable wo"
   },
   {
-    "sourceSlug": "strategies-to-uphold-legal-and-regulatory-compliance-in-optometry",
-    "targetSlug": "enterprise-patient-access-center-implementation",
-    "originalMarkdown": "[enterprise patient access center implementation guide](/blog/enterprise-patient-access-center-implementation/)",
-    "plainText": "enterprise patient access center implementation guide",
-    "contextBefore": "entation standards, and reporting before broad rollout. The ",
-    "contextAfter": " offers related considerations for making a central team acc"
-  },
-  {
     "sourceSlug": "streamlining-insurance-claim-processing-for-optometric-practices",
     "targetSlug": "optometry-front-office-standardization-group-practices",
     "originalMarkdown": "[front-office standardization for group optometry practices](/blog/optometry-front-office-standardization-group-practices/)",
@@ -189,14 +181,14 @@
     "originalMarkdown": "[optometry front-office standardization for groups](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "optometry front-office standardization for groups",
     "contextBefore": "iew governance belongs alongside the standards described in ",
-    "contextAfter": ".\u21b5\u21b5## How Should Leaders Monitor Reviews Across Locations?\u21b5\u21b5"
+    "contextAfter": ".↵↵## How Should Leaders Monitor Reviews Across Locations?↵↵"
   },
   {
     "sourceSlug": "the-complete-guide-to-running-a-private-optometric-practice",
     "targetSlug": "optometry-front-office-standardization-group-practices",
     "originalMarkdown": "[front-office standardization guide for group practices](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "front-office standardization guide for group practices",
-    "contextBefore": "fects both the patient experience and the group\u2019s data. The ",
+    "contextBefore": "fects both the patient experience and the group’s data. The ",
     "contextAfter": " explains how leaders can set common service standards while"
   },
   {
@@ -204,7 +196,7 @@
     "targetSlug": "optometry-front-office-standardization-group-practices",
     "originalMarkdown": "[optometry front-office standardization](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "optometry front-office standardization",
-    "contextBefore": "ferently.\u21b5\u21b5This is the same management problem addressed in ",
+    "contextBefore": "ferently.↵↵This is the same management problem addressed in ",
     "contextAfter": ": local workarounds become operating policy when no shared p"
   },
   {
@@ -220,7 +212,7 @@
     "targetSlug": "optometry-front-office-standardization-group-practices",
     "originalMarkdown": "[optometry front-office standardization](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "optometry front-office standardization",
-    "contextBefore": ".\u21b5\u21b5For groups integrating locations or inherited workflows, ",
+    "contextBefore": ".↵↵For groups integrating locations or inherited workflows, ",
     "contextAfter": " is the broader management discipline. Efficiency is one out"
   },
   {
@@ -236,7 +228,7 @@
     "targetSlug": "optometry-buying-groups-vs-management-services-organization",
     "originalMarkdown": "[optometry buying groups versus MSOs](/blog/optometry-buying-groups-vs-management-services-organization/)",
     "plainText": "optometry buying groups versus MSOs",
-    "contextBefore": "ment membership alone will not solve it.\u21b5\u21b5The comparison in ",
+    "contextBefore": "ment membership alone will not solve it.↵↵The comparison in ",
     "contextAfter": " is useful because it separates purchasing support from broa"
   },
   {
@@ -253,6 +245,6 @@
     "originalMarkdown": "[front-office standardization for group practices](/blog/optometry-front-office-standardization-group-practices/)",
     "plainText": "front-office standardization for group practices",
     "contextBefore": "/enterprise/centralized-scheduling/) and its explanation of ",
-    "contextAfter": ".\u21b5\u21b5## How Does a Booking Service Reduce Administrative Burde"
+    "contextAfter": ".↵↵## How Does a Booking Service Reduce Administrative Burde"
   }
 ]

@@ -1,22 +1,24 @@
 ---
 title: Enterprise Patient Access Center Plan
 seoTitle: Enterprise Patient Access Center Implementation Plan
-description: A practical implementation plan for centralized patient access across
+description: >-
+  A practical implementation plan for centralized patient access across
   multi-location healthcare groups.
-seoDescription: Implement a centralized patient access center with governance, scheduling rules, security controls, and rollout steps for multi-location groups.
-publishDate: '2026-07-22'
-status: scheduled
-scheduledDate: '2026-07-22'
+seoDescription: >-
+  Implement a centralized patient access center with governance, scheduling
+  rules, security controls, and rollout steps for multi-location groups.
+publishDate: '2026-07-24T11:04:09.093Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
-- enterprise patient access center implementation
-- multi-location
-- enterprise operations
+  - enterprise patient access center implementation
+  - multi-location
+  - enterprise operations
 cluster: enterprise
 featuredImage: /images/blog/enterprise-patient-access-center-implementation.webp
-canonical: https://mybcat.com/blog/enterprise-patient-access-center-implementation/
-targetKeyword: "enterprise patient access center implementation"
+canonical: 'https://mybcat.com/blog/enterprise-patient-access-center-implementation/'
+targetKeyword: enterprise patient access center implementation
 ---
 
 ## Table of Contents
