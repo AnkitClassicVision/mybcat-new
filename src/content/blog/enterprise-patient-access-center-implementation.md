@@ -1,24 +1,26 @@
 ---
 title: Enterprise Patient Access Center Plan
 seoTitle: Enterprise Patient Access Center Implementation Plan
-description: >-
-  A practical implementation plan for centralized patient access across
+description: A practical implementation plan for centralized patient access across
   multi-location healthcare groups.
-seoDescription: >-
-  Implement a centralized patient access center with governance, scheduling
+seoDescription: Implement a centralized patient access center with governance, scheduling
   rules, security controls, and rollout steps for multi-location groups.
 publishDate: '2026-07-24T11:04:09.093Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - enterprise patient access center implementation
-  - multi-location
-  - enterprise operations
+- enterprise patient access center implementation
+- multi-location
+- enterprise operations
 cluster: enterprise
 featuredImage: /images/blog/enterprise-patient-access-center-implementation.webp
-canonical: 'https://mybcat.com/blog/enterprise-patient-access-center-implementation/'
+canonical: https://mybcat.com/blog/enterprise-patient-access-center-implementation/
 targetKeyword: enterprise patient access center implementation
+relatedPosts:
+- multi-location-dso-kpis
+- contact-center-qa-scorecard-dso
+- reporting-dashboard-multi-site-healthcare-operations
 ---
 
 ## Table of Contents
@@ -114,6 +116,12 @@ The access center will not solve every capacity issue. It gives the enterprise a
   <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices recapture missed calls and automate patient scheduling so no opportunity slips through the cracks.</p>
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
+
+## Related Reading
+
+- [Multi-Location DSO KPIs for Enterprise Operators](/blog/multi-location-dso-kpis/)
+- [Contact Center QA Scorecards for DSOs](/blog/contact-center-qa-scorecard-dso/)
+- [Reporting Dashboard Multi-Site Healthcare Operations](/blog/reporting-dashboard-multi-site-healthcare-operations/)
 
 ## Sources
 
