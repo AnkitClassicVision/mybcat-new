@@ -1,26 +1,29 @@
 ---
 title: Enterprise Front Office Consolidation Change Management
 seoTitle: Enterprise Front Office Consolidation Change Management
-description: >-
-  Front office consolidation change management playbook for multi-location
+description: Front office consolidation change management playbook for multi-location
   healthcare groups standardizing access, training, QA, and reporting.
-seoDescription: >-
-  Front office consolidation change management for enterprise healthcare groups
-  standardizing access, training, QA, and reporting.
+seoDescription: Front office consolidation change management for enterprise healthcare
+  groups standardizing access, training, QA, and reporting.
 publishDate: '2026-07-25T10:26:22.572Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - front office consolidation change management
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- front office consolidation change management
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: enterprise
 featuredImage: /images/blog/front-office-consolidation-change-management.webp
-canonical: 'https://mybcat.com/blog/front-office-consolidation-change-management/'
+canonical: https://mybcat.com/blog/front-office-consolidation-change-management/
 targetKeyword: front office consolidation change management
+relatedPosts:
+- enterprise-patient-access-center-implementation
+- multi-location-dso-kpis
+- contact-center-qa-scorecard-dso
 ---
+
 ## Table of Contents
 
 - [Why Does Front Office Consolidation Change Management Matter At Scale?](#why-does-front-office-consolidation-change-management-matter-at-scale)
