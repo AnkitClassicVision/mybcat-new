@@ -110,7 +110,7 @@ The strongest outsourcing relationships make accountability easier, not blurrier
 
 This approach supports more than regulatory hygiene. It makes onboarding less improvised, gives location leaders a clear way to request support, and provides executives with evidence that patient-access operations are governed across the enterprise. It also creates a better basis for comparing vendors. Rather than choosing on a broad promise of “HIPAA compliant,” evaluate the controls, proof, operating fit, and accountability that your specific group needs.
 
-If you are evaluating a partner, pair the questions above with the broader framework in our vendor evaluation guide for outsourced patient access. If you are building the program internally, start by documenting the current state: systems, access roles, approved channels, training, incident contacts, and unresolved exceptions. That inventory turns a vague compliance concern into a manageable operating plan.
+If you are evaluating a partner, pair the questions above with the broader framework in our [vendor evaluation guide for outsourced patient access](/blog/vendor-evaluation-patient-access-outsourcing/). If you are building the program internally, start by documenting the current state: systems, access roles, approved channels, training, incident contacts, and unresolved exceptions. That inventory turns a vague compliance concern into a manageable operating plan.
 
 ## Sources
 

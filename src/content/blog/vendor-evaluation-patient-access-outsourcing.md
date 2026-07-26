@@ -1,22 +1,25 @@
 ---
 title: Vendor Evaluation Criteria for Patient Access Outsourcing
 seoTitle: Patient Access Outsourcing Vendor Evaluation Criteria
-description: A practical vendor evaluation framework for multi-location healthcare
-  groups outsourcing patient access operations.
-seoDescription: Evaluate patient access outsourcing vendors with criteria for compliance, workflow design, staffing, reporting, and rollout across multi-location groups.
-publishDate: '2026-07-24'
-status: scheduled
-scheduledDate: '2026-07-24'
+description: >-
+  A practical vendor evaluation framework for multi-location healthcare groups
+  outsourcing patient access operations.
+seoDescription: >-
+  Evaluate patient access outsourcing vendors with criteria for compliance,
+  workflow design, staffing, reporting, and rollout across multi-location
+  groups.
+publishDate: '2026-07-26T10:43:59.452Z'
+status: published
 author: Ankit Patel
 category: Operations
 tags:
-- vendor evaluation patient access outsourcing
-- multi-location
-- enterprise operations
+  - vendor evaluation patient access outsourcing
+  - multi-location
+  - enterprise operations
 cluster: bpo-outsourcing
 featuredImage: /images/blog/vendor-evaluation-patient-access-outsourcing.webp
-canonical: https://mybcat.com/blog/vendor-evaluation-patient-access-outsourcing/
-targetKeyword: "vendor evaluation patient access outsourcing"
+canonical: 'https://mybcat.com/blog/vendor-evaluation-patient-access-outsourcing/'
+targetKeyword: vendor evaluation patient access outsourcing
 ---
 
 ## Table of Contents
