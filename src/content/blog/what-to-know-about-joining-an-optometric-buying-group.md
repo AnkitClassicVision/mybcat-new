@@ -53,7 +53,7 @@ Start with a twelve-month baseline by category and location. Separate recurring 
 
 The business case should also include membership dues, implementation work, ordering changes, training, rebates or reporting requirements, and the time a central team will spend administering the relationship. A useful review distinguishes a price concession from a dependable economic benefit. Finance should be able to trace the benefit to invoices, while operations should be able to explain any new approval rules or location exceptions.
 
-For groups that have grown through acquisition, this analysis can expose a wider issue: every location may be using a different purchasing habit. The same discipline used to standardize front-office operations across an optometry group applies here. Define what must be consistent, document legitimate exceptions, and give someone authority to resolve exceptions before they become routine.
+For groups that have grown through acquisition, this analysis can expose a wider issue: every location may be using a different purchasing habit. The same discipline used to standardize [front-office operations across an optometry group](/blog/optometry-front-office-standardization-group-practices/) applies here. Define what must be consistent, document legitimate exceptions, and give someone authority to resolve exceptions before they become routine.
 
 ## How Do Buying Groups, Alliances, and MSOs Differ?
 

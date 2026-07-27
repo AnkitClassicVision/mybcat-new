@@ -61,7 +61,7 @@ Start by letting the patient explain the issue without interruption. Then acknow
 
 Next, separate the conversation from the resolution path. Explain the action that will occur, who owns it, and the expected follow-up time. If the issue requires a manager, billing team, or clinician, warm-transfer when possible or create a documented task with a clear owner. A callback promise without an owner is simply a future complaint.
 
-Finally, look for the process behind repeat complaints. A single difficult call may be a one-off. Several calls about the same insurance explanation, provider availability rule, or order-status gap are a workflow signal. The group should review those patterns alongside front-office standardization work instead of treating every unhappy conversation as an individual performance problem.
+Finally, look for the process behind repeat complaints. A single difficult call may be a one-off. Several calls about the same insurance explanation, provider availability rule, or order-status gap are a workflow signal. The group should review those patterns alongside [front-office standardization work](/blog/optometry-front-office-standardization-group-practices/) instead of treating every unhappy conversation as an individual performance problem.
 
 ## Which Details Make Patients Feel Remembered Rather Than Processed?
 

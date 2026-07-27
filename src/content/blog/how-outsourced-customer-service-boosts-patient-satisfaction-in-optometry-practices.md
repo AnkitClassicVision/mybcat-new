@@ -115,7 +115,7 @@ The right outcome is not a claim that outsourcing automatically improves every m
 
 - [Front Desk Outsourcing for Multi-Location Practices](/blog/front-desk-outsourcing-multi-location-practices/)
 - [Healthcare Call Center Outsourcing for Multi-Location Groups](/blog/healthcare-call-center-outsourcing-multi-location/)
-- Optometry Front Office Standardization for Group Practices
+- [Optometry Front Office Standardization for Group Practices](/blog/optometry-front-office-standardization-group-practices/)
 - [Enterprise Call Answering for Healthcare Groups](/blog/enterprise-call-answering-healthcare/)
 
 ## Sources

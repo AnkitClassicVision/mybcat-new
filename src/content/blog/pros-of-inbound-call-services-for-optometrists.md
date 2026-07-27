@@ -72,7 +72,7 @@ Yes, if the service model is designed as an extension of the local workflow inst
 
 A hybrid design often works well for groups that want to preserve local relationships. Location teams can handle selected calls during normal coverage, while an inbound team manages overflow, lunch coverage, after-hours messages, recall responses, or defined appointment types. The group can adjust that mix as it learns where demand and staffing pressure actually occur.
 
-The key is to avoid creating two competing processes. If local staff and the inbound team use different appointment definitions or document calls in different places, the group has simply moved inconsistency into a new channel. A front-office standardization program should establish the shared rules before the group expands coverage.
+The key is to avoid creating two competing processes. If local staff and the inbound team use different appointment definitions or document calls in different places, the group has simply moved inconsistency into a new channel. A [front-office standardization program](/blog/optometry-front-office-standardization-group-practices/) should establish the shared rules before the group expands coverage.
 
 This operating design also gives leaders a better way to discuss staffing. Instead of treating every missed call as a reason to add another receptionist at a single location, they can distinguish between persistent local workload, predictable peak-period overflow, and gaps caused by an unclear workflow. The answer may be local staffing, centralized support, or both. The call data makes that decision more grounded.
 

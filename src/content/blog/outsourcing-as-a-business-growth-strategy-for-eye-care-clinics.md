@@ -86,7 +86,7 @@ Before launch, gather the details that often get missed in a high-level plan: pr
 
 During the early weeks, review real interactions frequently. Look for incomplete documentation, repeated transfers, calls that come back to the office, scheduling corrections, and questions that agents could not resolve with the available guidance. The right fix may be a clearer script, a scheduling configuration change, a training update, or a site-level decision. It should not be a quiet workaround that only one location knows.
 
-The same discipline applies when an acquisition or new location enters the group. The organization should use a standard onboarding packet rather than asking the shared team to infer the new office’s rules. Optometry front-office standardization for group practices explains why visible, repeatable operating rules matter as an organization grows.
+The same discipline applies when an acquisition or new location enters the group. The organization should use a standard onboarding packet rather than asking the shared team to infer the new office’s rules. [Optometry front-office standardization for group practices](/blog/optometry-front-office-standardization-group-practices/) explains why visible, repeatable operating rules matter as an organization grows.
 
 ## How Should a Multi-Location Group Measure Outsourcing Performance?
 

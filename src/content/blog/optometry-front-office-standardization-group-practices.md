@@ -1,21 +1,25 @@
 ---
 title: Optometry Front Office Standardization for Groups
 seoTitle: Optometry Front Office Standardization for Group Practices
-description: A practical guide to standardizing front-office workflows across multi-location optometry groups without erasing local judgment.
-seoDescription: Standardize calls, scheduling, intake, training, and quality control across multi-location optometry groups while preserving appropriate local exceptions.
-publishDate: '2026-07-27'
-status: scheduled
-scheduledDate: '2026-07-27'
+description: >-
+  A practical guide to standardizing front-office workflows across
+  multi-location optometry groups without erasing local judgment.
+seoDescription: >-
+  Standardize calls, scheduling, intake, training, and quality control across
+  multi-location optometry groups while preserving appropriate local exceptions.
+publishDate: '2026-07-27T12:22:57.741Z'
+status: published
 author: Ankit Patel
 category: Technology
 tags:
-- optometry front office standardization group practices
-- multi-location
-- enterprise operations
+  - optometry front office standardization group practices
+  - multi-location
+  - enterprise operations
 cluster: optometry
 featuredImage: /images/blog/optometry-front-office-standardization-group-practices.webp
-canonical: https://mybcat.com/blog/optometry-front-office-standardization-group-practices/
-targetKeyword: "optometry front office standardization group practices"
+canonical: >-
+  https://mybcat.com/blog/optometry-front-office-standardization-group-practices/
+targetKeyword: optometry front office standardization group practices
 ---
 
 ## Table of Contents

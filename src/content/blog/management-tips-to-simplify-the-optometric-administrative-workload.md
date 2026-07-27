@@ -67,7 +67,7 @@ Do not standardize away legitimate clinical judgment. Front-office staff should 
 
 Written procedures must be usable during a busy day. A long policy document that lives in a shared drive is not enough. Put the current version of key scripts, appointment rules, escalation paths, and location exceptions where the people receiving calls and scheduling requests can use them. Then assign an owner who updates that source when a change is approved.
 
-The optometry front-office standardization guide offers a useful operating principle: local variation should be either an approved exception or a problem to solve, not an unwritten rule. This makes onboarding easier and prevents a group from losing critical knowledge whenever a location manager or experienced scheduler leaves.
+The [optometry front-office standardization guide](/blog/optometry-front-office-standardization-group-practices/) offers a useful operating principle: local variation should be either an approved exception or a problem to solve, not an unwritten rule. This makes onboarding easier and prevents a group from losing critical knowledge whenever a location manager or experienced scheduler leaves.
 
 ## How Should Software Support the Administrative Workflow?
 

@@ -53,7 +53,7 @@ Missed calls are especially easy to underestimate because they are not always vi
 
 Inconsistent service is another source of quiet attrition. Patients do not expect every conversation to sound identical, but they do expect reliable basics: a clear greeting, accurate location information, an understandable scheduling path, and a respectful response when something has gone wrong. When those basics depend on which site answers, leaders cannot distinguish normal variation from an operational defect.
 
-Staff turnover makes informal knowledge particularly fragile. A highly experienced coordinator may know which recall list needs attention, which provider schedules differently, and which patients need a live conversation instead of a generic reminder. That knowledge should become documented workflow, not a dependency on one person. Optometry front-office standardization for group practices explains why shared processes protect both patient experience and site performance as teams change.
+Staff turnover makes informal knowledge particularly fragile. A highly experienced coordinator may know which recall list needs attention, which provider schedules differently, and which patients need a live conversation instead of a generic reminder. That knowledge should become documented workflow, not a dependency on one person. [Optometry front-office standardization for group practices](/blog/optometry-front-office-standardization-group-practices/) explains why shared processes protect both patient experience and site performance as teams change.
 
 ## How Can a Group Make Patient Access Consistent Across Locations?
 

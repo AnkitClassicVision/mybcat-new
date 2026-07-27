@@ -56,7 +56,7 @@ Start by reviewing the work that repeatedly reaches a leader during a normal wee
 
 For example, a leader may need to approve a change to group-wide provider-template policy. That is an executive decision. A patient who needs an approved exception to a schedule rule should go to an operations owner using a documented escalation path. A standard rescheduling request should be handled by a trained team member using the same rules across the group.
 
-This is why a clear front-office standardization model for optometry groups matters. It turns recurring judgment calls into visible roles, rules, and handoffs. It also makes it easier to see where local variation is valid and where it is merely an inherited workaround.
+This is why a clear [front-office standardization model for optometry groups](/blog/optometry-front-office-standardization-group-practices/) matters. It turns recurring judgment calls into visible roles, rules, and handoffs. It also makes it easier to see where local variation is valid and where it is merely an inherited workaround.
 
 Financial management deserves the same discipline. Leaders need a concise view of cash flow, labor, scheduling capacity, and exceptions that affect the operating plan. They do not need to personally perform every billing follow-up, payroll correction, or report assembly task. Appropriate finance and operations support can prepare decision-ready information, while the executive retains accountability for the decisions that follow.
 

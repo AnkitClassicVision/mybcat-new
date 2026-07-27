@@ -57,7 +57,7 @@ Build one group-wide core workflow for each recurring task, then attach a contro
 
 Each SOP should include a version date, owner, trigger, step-by-step instructions, examples, prohibited actions, escalation conditions, and a short quality checklist. Screenshots and annotated call-flow diagrams are useful when assistants work across multiple practice-management systems. Keep protected information out of training examples and use sanitized scenarios whenever possible.
 
-The operational point is not to produce a large handbook. It is to create a reference that an assistant can use in real time and that a QA reviewer can score consistently. Groups working toward uniform intake can pair this approach with the [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/) and the front-office standardization framework.
+The operational point is not to produce a large handbook. It is to create a reference that an assistant can use in real time and that a QA reviewer can score consistently. Groups working toward uniform intake can pair this approach with the [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/) and the [front-office standardization framework](/blog/optometry-front-office-standardization-group-practices/).
 
 ### What should the scheduling SOP include?
 

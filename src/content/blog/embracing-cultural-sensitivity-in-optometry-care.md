@@ -92,7 +92,7 @@ Training should use real access scenarios rather than a one-time presentation ab
 
 Managers should coach for behaviors that can be observed. Did the employee use plain language? Did they avoid making assumptions? Did they confirm the next administrative step? Did they recognize the boundary between scheduling support and clinical advice? Did they follow the approved privacy and escalation process? These questions make cultural sensitivity part of routine quality review instead of leaving it to individual personality.
 
-Training also needs a feedback channel. Front-desk employees, remote schedulers, and location managers see patterns that leadership may miss: a recurring question that scripts do not answer, a form instruction that creates confusion, or a scheduling rule that is hard to explain. Review those patterns by location and process, then update the standard when the issue is systemic. This is the same discipline required for front-office standardization across optometry groups.
+Training also needs a feedback channel. Front-desk employees, remote schedulers, and location managers see patterns that leadership may miss: a recurring question that scripts do not answer, a form instruction that creates confusion, or a scheduling rule that is hard to explain. Review those patterns by location and process, then update the standard when the issue is systemic. This is the same discipline required for [front-office standardization across optometry groups](/blog/optometry-front-office-standardization-group-practices/).
 
 ## What Should Leaders Measure Without Reducing Respect to a Score?
 
