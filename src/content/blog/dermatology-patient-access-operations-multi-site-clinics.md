@@ -1,26 +1,27 @@
 ---
 title: Dermatology Patient Access Operations for Multi-Site Clinics
 seoTitle: Dermatology Patient Access Operations for Multi-Site Clinics
-description: >-
-  Dermatology patient access operations multi-site clinics need standardized
+description: Dermatology patient access operations multi-site clinics need standardized
   triage, scheduling, QA, and reporting across growing enterprise platforms.
-seoDescription: >-
-  Dermatology patient access operations multi-site clinics need standardized
+seoDescription: Dermatology patient access operations multi-site clinics need standardized
   intake, scheduling, QA, and reporting across enterprise platforms.
 publishDate: '2026-07-28T11:16:51.562Z'
 status: published
 author: Ankit Patel
 category: Operations
 tags:
-  - dermatology patient access operations multi-site clinics
-  - multi-location
-  - enterprise operations
-  - healthcare scale
+- dermatology patient access operations multi-site clinics
+- multi-location
+- enterprise operations
+- healthcare scale
 cluster: enterprise
 featuredImage: /images/blog/dermatology-patient-access-operations-multi-site-clinics.webp
-canonical: >-
-  https://mybcat.com/blog/dermatology-patient-access-operations-multi-site-clinics/
+canonical: https://mybcat.com/blog/dermatology-patient-access-operations-multi-site-clinics/
 targetKeyword: dermatology patient access operations multi-site clinics
+relatedPosts:
+- front-office-consolidation-change-management
+- enterprise-patient-access-center-implementation
+- multi-location-dso-kpis
 ---
 
 ## What You'll Learn
