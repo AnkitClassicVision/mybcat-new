@@ -88,9 +88,9 @@ export default tseslint.config(
     },
   },
 
-  // Scripts
+  // Node scripts, serverless functions, and unit tests
   {
-    files: ['scripts/**/*.{js,mjs}'],
+    files: ['scripts/**/*.{js,mjs}', 'api/**/*.mjs', 'tests/unit/**/*.mjs'],
     languageOptions: {
       globals: {
         ...globals.node,

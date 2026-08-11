@@ -10,13 +10,19 @@ interface Props {
   description?: string;
   buttonText?: string;
   buttonHref?: string;
+  funnel?: 'service' | 'acquisition';
+  ctaId?: string;
+  contentCluster?: string;
 }
 
 const {
   title = "Reduce Your Front Desk Dependency",
   description = "MyBCAT helps multi-location healthcare groups build resilient intake operations that don't break when staffing is tight.",
   buttonText = "Schedule a Consultation",
-  buttonHref = "/contact/"
+  buttonHref = "/contact/",
+  funnel = "service",
+  ctaId = "service-fit-review-in-content",
+  contentCluster = "blog"
 } = Astro.props;
 ---
 
@@ -31,7 +37,14 @@ const {
       <h3 class="cta-title">{title}</h3>
       <p class="cta-description">{description}</p>
     </div>
-    <a href={buttonHref} class="cta-button">{buttonText}</a>
+    <a
+      href={buttonHref}
+      class="cta-button"
+      data-seo-cta
+      data-funnel={funnel}
+      data-cta-id={ctaId}
+      data-content-cluster={contentCluster}
+    >{buttonText}</a>
   </div>
 </aside>
 

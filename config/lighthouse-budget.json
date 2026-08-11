@@ -1,0 +1,27 @@
+{
+  "schema_version": "lighthouse-budget.v1",
+  "enforce_absolute_targets_on_or_after": "2026-09-08",
+  "minimum_runs_per_path": 3,
+  "critical_paths": [
+    "/",
+    "/solutions/medical-answering-service/",
+    "/industries/optometry/",
+    "/blog/",
+    "/contact/",
+    "/pricing/",
+    "/optometry-practice-transitions/"
+  ],
+  "regression_limits": {
+    "performance_points": 5,
+    "total_blocking_time_ms": 200
+  },
+  "absolute_targets": {
+    "performance": 80,
+    "best_practices": 90,
+    "seo": 95,
+    "accessibility": 95,
+    "largest_contentful_paint_ms": 2500,
+    "total_blocking_time_ms": 400,
+    "cumulative_layout_shift": 0.1
+  }
+}

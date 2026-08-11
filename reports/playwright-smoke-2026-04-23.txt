@@ -1,0 +1,501 @@
+
+Running 39 tests using 16 workers
+
+[1A[2K(node:918767) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918763) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918765) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918768) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918762) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918764) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918766) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918795) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918761) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918790) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918837) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918840) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918841) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918825) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918834) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918765) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918763) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918767) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918795) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918768) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918764) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918761) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918766) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918837) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918762) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918840) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918790) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:918841) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K[1/39] [chromium] › tests/navigation.spec.ts:22:3 › Navigation › should navigate to Blog page
+[1A[2K(node:918834) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K[2/39] [chromium] › tests/homepage.spec.ts:27:3 › Homepage › should have footer
+[1A[2K[3/39] [chromium] › tests/navigation.spec.ts:34:3 › Navigation › logo should link to homepage
+[1A[2K[4/39] [chromium] › tests/homepage.spec.ts:4:3 › Homepage › should load homepage successfully
+[1A[2K(node:918825) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K[5/39] [chromium] › tests/navigation.spec.ts:16:3 › Navigation › should navigate to Pricing page
+[1A[2K[6/39] [chromium] › tests/navigation.spec.ts:42:3 › Footer Links › footer should have company links
+[1A[2K[7/39] [chromium] › tests/seo.spec.ts:21:5 › SEO Essentials › Homepage should have meta description
+[1A[2K[8/39] [chromium] › tests/homepage.spec.ts:15:3 › Homepage › should have hero section
+[1A[2K[9/39] [chromium] › tests/navigation.spec.ts:28:3 › Navigation › should navigate to Contact page
+[1A[2K[10/39] [chromium] › tests/navigation.spec.ts:10:3 › Navigation › should navigate to Industries page
+[1A[2K[11/39] [chromium] › tests/navigation.spec.ts:4:3 › Navigation › should navigate to Solutions page
+[1A[2K[12/39] [chromium] › tests/seo.spec.ts:14:5 › SEO Essentials › Homepage should have meta title
+[1A[2K[13/39] [chromium] › tests/homepage.spec.ts:9:3 › Homepage › should have main navigation
+[1A[2K[14/39] [chromium] › tests/navigation.spec.ts:49:3 › Footer Links › footer should have legal links
+[1A[2K[15/39] [chromium] › tests/seo.spec.ts:28:5 › SEO Essentials › Homepage should have canonical URL
+[1A[2K[16/39] [chromium] › tests/homepage.spec.ts:21:3 › Homepage › should have working CTA button
+[1A[2K[17/39] [chromium] › tests/seo.spec.ts:34:5 › SEO Essentials › Homepage should have Open Graph tags
+[1A[2K[18/39] [chromium] › tests/seo.spec.ts:14:5 › SEO Essentials › Solutions should have meta title
+[1A[2K[19/39] [chromium] › tests/seo.spec.ts:21:5 › SEO Essentials › Solutions should have meta description
+[1A[2K[20/39] [chromium] › tests/seo.spec.ts:28:5 › SEO Essentials › Solutions should have canonical URL
+[1A[2K[21/39] [chromium] › tests/seo.spec.ts:34:5 › SEO Essentials › Solutions should have Open Graph tags
+[1A[2K[22/39] [chromium] › tests/seo.spec.ts:14:5 › SEO Essentials › Industries should have meta title
+[1A[2K[23/39] [chromium] › tests/seo.spec.ts:21:5 › SEO Essentials › Industries should have meta description
+[1A[2K  1) [chromium] › tests/homepage.spec.ts:9:3 › Homepage › should have main navigation ──────────────
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: locator('nav')
+    Expected: visible
+    Error: strict mode violation: locator('nav') resolved to 2 elements:
+        1) <nav role="navigation" class="mobile-menu" data-astro-cid-dmqpwcec="" aria-label="Mobile navigation">…</nav> aka getByLabel('Mobile navigation')
+        2) <nav class="nav-dock" role="navigation" data-astro-cid-dmqpwcec="" aria-label="Main navigation">…</nav> aka getByRole('navigation', { name: 'Main navigation' })
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+    [2m  - waiting for locator('nav')[22m
+
+
+      10 |     await page.goto('/');
+      11 |     const nav = page.locator('nav');
+    > 12 |     await expect(nav).toBeVisible();
+         |                       ^
+      13 |   });
+      14 |
+      15 |   test('should have hero section', async ({ page }) => {
+        at /mnt/d_drive/repos/mybcat-new/tests/homepage.spec.ts:12:23
+
+    Error Context: test-results/homepage-Homepage-should-have-main-navigation-chromium/error-context.md
+
+
+[1A[2K[24/39] [chromium] › tests/seo.spec.ts:34:5 › SEO Essentials › Industries should have Open Graph tags
+[1A[2K[25/39] [chromium] › tests/seo.spec.ts:14:5 › SEO Essentials › Pricing should have meta title
+[1A[2K(node:920818) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K[26/39] [chromium] › tests/seo.spec.ts:21:5 › SEO Essentials › Pricing should have meta description
+[1A[2K[27/39] [chromium] › tests/seo.spec.ts:28:5 › SEO Essentials › Pricing should have canonical URL
+[1A[2K[28/39] [chromium] › tests/seo.spec.ts:34:5 › SEO Essentials › Pricing should have Open Graph tags
+[1A[2K[29/39] [chromium] › tests/seo.spec.ts:14:5 › SEO Essentials › Contact should have meta title
+[1A[2K[30/39] [chromium] › tests/seo.spec.ts:21:5 › SEO Essentials › Contact should have meta description
+[1A[2K[31/39] [chromium] › tests/seo.spec.ts:28:5 › SEO Essentials › Contact should have canonical URL
+[1A[2K(node:920818) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K[32/39] [chromium] › tests/seo.spec.ts:34:5 › SEO Essentials › Contact should have Open Graph tags
+[1A[2K[33/39] [chromium] › tests/seo.spec.ts:28:5 › SEO Essentials › Industries should have canonical URL
+[1A[2K[34/39] [chromium] › tests/seo.spec.ts:14:5 › SEO Essentials › Blog should have meta title
+[1A[2K[35/39] [chromium] › tests/seo.spec.ts:21:5 › SEO Essentials › Blog should have meta description
+[1A[2K[36/39] [chromium] › tests/seo.spec.ts:28:5 › SEO Essentials › Blog should have canonical URL
+[1A[2K[37/39] [chromium] › tests/seo.spec.ts:34:5 › SEO Essentials › Blog should have Open Graph tags
+[1A[2K[38/39] [chromium] › tests/seo.spec.ts:45:3 › Accessibility Basics › Homepage should have h1 heading
+[1A[2K[39/39] [chromium] › tests/seo.spec.ts:51:3 › Accessibility Basics › Images should have alt text
+[1A[2K  2) [chromium] › tests/homepage.spec.ts:21:3 › Homepage › should have working CTA button ──────────
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator:  locator('a[href*="contact"], a[href*="meeting"]').first()
+    Expected: visible
+    Received: hidden
+    Timeout:  5000ms
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+    [2m  - waiting for locator('a[href*="contact"], a[href*="meeting"]').first()[22m
+    [2m    8 × locator resolved to <a href="/contact/" class="mobile-cta" data-astro-cid-dmqpwcec="">Get Started</a>[22m
+    [2m      - unexpected value "hidden"[22m
+
+
+      22 |     await page.goto('/');
+      23 |     const ctaButton = page.locator('a[href*="contact"], a[href*="meeting"]').first();
+    > 24 |     await expect(ctaButton).toBeVisible();
+         |                             ^
+      25 |   });
+      26 |
+      27 |   test('should have footer', async ({ page }) => {
+        at /mnt/d_drive/repos/mybcat-new/tests/homepage.spec.ts:24:29
+
+    Error Context: test-results/homepage-Homepage-should-have-working-CTA-button-chromium/error-context.md
+
+
+[1A[2K  3) [chromium] › tests/homepage.spec.ts:4:3 › Homepage › should load homepage successfully ────────
+
+    Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveTitle[2m([22m[32mexpected[39m[2m)[22m failed
+
+    Expected pattern: [32m/MyBCAT/[39m
+    Received string:  [31m"Healthcare Patient Operations | My Business Care Team"[39m
+    Timeout: 5000ms
+
+    Call log:
+    [2m  - Expect "toHaveTitle" with timeout 5000ms[22m
+    [2m    9 × unexpected value "Healthcare Patient Operations | My Business Care Team"[22m
+
+
+      4 |   test('should load homepage successfully', async ({ page }) => {
+      5 |     await page.goto('/');
+    > 6 |     await expect(page).toHaveTitle(/MyBCAT/);
+        |                        ^
+      7 |   });
+      8 |
+      9 |   test('should have main navigation', async ({ page }) => {
+        at /mnt/d_drive/repos/mybcat-new/tests/homepage.spec.ts:6:24
+
+    Error Context: test-results/homepage-Homepage-should-load-homepage-successfully-chromium/error-context.md
+
+
+[1A[2K  4) [chromium] › tests/navigation.spec.ts:22:3 › Navigation › should navigate to Blog page ────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('a[href="/blog/"]')[22m
+    [2m    - locator resolved to 3 elements. Proceeding with the first one: <a href="/blog/" data-astro-cid-dmqpwcec="">Blog</a>[22m
+    [2m  - attempting click action[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m    - waiting 20ms[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m      - waiting 100ms[22m
+    [2m    53 × waiting for element to be visible, enabled and stable[22m
+    [2m       - element is not visible[22m
+    [2m     - retrying click action[22m
+    [2m       - waiting 500ms[22m
+
+
+      22 |   test('should navigate to Blog page', async ({ page }) => {
+      23 |     await page.goto('/');
+    > 24 |     await page.click('a[href="/blog/"]');
+         |                ^
+      25 |     await expect(page).toHaveURL(/blog/);
+      26 |   });
+      27 |
+        at /mnt/d_drive/repos/mybcat-new/tests/navigation.spec.ts:24:16
+
+    Error Context: test-results/navigation-Navigation-should-navigate-to-Blog-page-chromium/error-context.md
+
+
+[1A[2K  5) [chromium] › tests/navigation.spec.ts:34:3 › Navigation › logo should link to homepage ────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('a[href="/"]')[22m
+    [2m    - locator resolved to 4 elements. Proceeding with the first one: <a href="/" class="mobile-logo" aria-label="MyBCAT Home" data-astro-cid-dmqpwcec="">…</a>[22m
+    [2m  - attempting click action[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m    - waiting 20ms[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m      - waiting 100ms[22m
+    [2m    52 × waiting for element to be visible, enabled and stable[22m
+    [2m       - element is not visible[22m
+    [2m     - retrying click action[22m
+    [2m       - waiting 500ms[22m
+
+
+      34 |   test('logo should link to homepage', async ({ page }) => {
+      35 |     await page.goto('/solutions/');
+    > 36 |     await page.click('a[href="/"]');
+         |                ^
+      37 |     await expect(page).toHaveURL('/');
+      38 |   });
+      39 | });
+        at /mnt/d_drive/repos/mybcat-new/tests/navigation.spec.ts:36:16
+
+    Error Context: test-results/navigation-Navigation-logo-should-link-to-homepage-chromium/error-context.md
+
+
+[1A[2K  6) [chromium] › tests/homepage.spec.ts:27:3 › Homepage › should have footer ──────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: page.goto: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - navigating to "http://localhost:4321/", waiting until "load"[22m
+
+
+      26 |
+      27 |   test('should have footer', async ({ page }) => {
+    > 28 |     await page.goto('/');
+         |                ^
+      29 |     const footer = page.locator('footer');
+      30 |     await expect(footer).toBeVisible();
+      31 |   });
+        at /mnt/d_drive/repos/mybcat-new/tests/homepage.spec.ts:28:16
+
+    Error Context: test-results/homepage-Homepage-should-have-footer-chromium/error-context.md
+
+
+[1A[2K  7) [chromium] › tests/navigation.spec.ts:16:3 › Navigation › should navigate to Pricing page ─────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('a[href="/pricing/"]')[22m
+    [2m    - locator resolved to 3 elements. Proceeding with the first one: <a href="/pricing/" data-astro-cid-dmqpwcec="">Pricing</a>[22m
+    [2m  - attempting click action[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m    - waiting 20ms[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m      - waiting 100ms[22m
+    [2m    51 × waiting for element to be visible, enabled and stable[22m
+    [2m       - element is not visible[22m
+    [2m     - retrying click action[22m
+    [2m       - waiting 500ms[22m
+
+
+      16 |   test('should navigate to Pricing page', async ({ page }) => {
+      17 |     await page.goto('/');
+    > 18 |     await page.click('a[href="/pricing/"]');
+         |                ^
+      19 |     await expect(page).toHaveURL(/pricing/);
+      20 |   });
+      21 |
+        at /mnt/d_drive/repos/mybcat-new/tests/navigation.spec.ts:18:16
+
+    Error Context: test-results/navigation-Navigation-should-navigate-to-Pricing-page-chromium/error-context.md
+
+
+[1A[2K  8) [chromium] › tests/navigation.spec.ts:28:3 › Navigation › should navigate to Contact page ─────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('a[href="/contact/"]')[22m
+    [2m    - locator resolved to 6 elements. Proceeding with the first one: <a href="/contact/" class="mobile-cta" data-astro-cid-dmqpwcec="">Get Started</a>[22m
+    [2m  - attempting click action[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m    - waiting 20ms[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m      - waiting 100ms[22m
+    [2m    51 × waiting for element to be visible, enabled and stable[22m
+    [2m       - element is not visible[22m
+    [2m     - retrying click action[22m
+    [2m       - waiting 500ms[22m
+
+
+      28 |   test('should navigate to Contact page', async ({ page }) => {
+      29 |     await page.goto('/');
+    > 30 |     await page.click('a[href="/contact/"]');
+         |                ^
+      31 |     await expect(page).toHaveURL(/contact/);
+      32 |   });
+      33 |
+        at /mnt/d_drive/repos/mybcat-new/tests/navigation.spec.ts:30:16
+
+    Error Context: test-results/navigation-Navigation-should-navigate-to-Contact-page-chromium/error-context.md
+
+
+[1A[2K  9) [chromium] › tests/navigation.spec.ts:10:3 › Navigation › should navigate to Industries page ──
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('a[href="/industries/"]')[22m
+    [2m    - locator resolved to 3 elements. Proceeding with the first one: <a href="/industries/" data-astro-cid-dmqpwcec="">All Industries</a>[22m
+    [2m  - attempting click action[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m    - waiting 20ms[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m      - waiting 100ms[22m
+    [2m    54 × waiting for element to be visible, enabled and stable[22m
+    [2m       - element is not visible[22m
+    [2m     - retrying click action[22m
+    [2m       - waiting 500ms[22m
+
+
+      10 |   test('should navigate to Industries page', async ({ page }) => {
+      11 |     await page.goto('/');
+    > 12 |     await page.click('a[href="/industries/"]');
+         |                ^
+      13 |     await expect(page).toHaveURL(/industries/);
+      14 |   });
+      15 |
+        at /mnt/d_drive/repos/mybcat-new/tests/navigation.spec.ts:12:16
+
+    Error Context: test-results/navigation-Navigation-should-navigate-to-Industries-page-chromium/error-context.md
+
+
+[1A[2K  10) [chromium] › tests/navigation.spec.ts:4:3 › Navigation › should navigate to Solutions page ───
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('a[href="/solutions/"]')[22m
+    [2m    - locator resolved to 3 elements. Proceeding with the first one: <a href="/solutions/" data-astro-cid-dmqpwcec="">All Solutions</a>[22m
+    [2m  - attempting click action[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m    - waiting 20ms[22m
+    [2m    2 × waiting for element to be visible, enabled and stable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying click action[22m
+    [2m      - waiting 100ms[22m
+    [2m    51 × waiting for element to be visible, enabled and stable[22m
+    [2m       - element is not visible[22m
+    [2m     - retrying click action[22m
+    [2m       - waiting 500ms[22m
+
+
+      4 |   test('should navigate to Solutions page', async ({ page }) => {
+      5 |     await page.goto('/');
+    > 6 |     await page.click('a[href="/solutions/"]');
+        |                ^
+      7 |     await expect(page).toHaveURL(/solutions/);
+      8 |   });
+      9 |
+        at /mnt/d_drive/repos/mybcat-new/tests/navigation.spec.ts:6:16
+
+    Error Context: test-results/navigation-Navigation-should-navigate-to-Solutions-page-chromium/error-context.md
+
+
+[1A[2K  10 failed
+    [chromium] › tests/homepage.spec.ts:4:3 › Homepage › should load homepage successfully ─────────
+    [chromium] › tests/homepage.spec.ts:9:3 › Homepage › should have main navigation ───────────────
+    [chromium] › tests/homepage.spec.ts:21:3 › Homepage › should have working CTA button ───────────
+    [chromium] › tests/homepage.spec.ts:27:3 › Homepage › should have footer ───────────────────────
+    [chromium] › tests/navigation.spec.ts:4:3 › Navigation › should navigate to Solutions page ─────
+    [chromium] › tests/navigation.spec.ts:10:3 › Navigation › should navigate to Industries page ───
+    [chromium] › tests/navigation.spec.ts:16:3 › Navigation › should navigate to Pricing page ──────
+    [chromium] › tests/navigation.spec.ts:22:3 › Navigation › should navigate to Blog page ─────────
+    [chromium] › tests/navigation.spec.ts:28:3 › Navigation › should navigate to Contact page ──────
+    [chromium] › tests/navigation.spec.ts:34:3 › Navigation › logo should link to homepage ─────────
+  29 passed (31.7s)

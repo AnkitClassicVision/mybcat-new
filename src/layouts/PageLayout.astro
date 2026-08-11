@@ -19,6 +19,7 @@ interface Props {
   ogImage?: string;
   canonical?: string;
   noindex?: boolean;
+  disableTracking?: boolean;
   breadcrumbs?: BreadcrumbItem[];
   showBreadcrumb?: boolean;
   heroTitle?: string;
@@ -32,6 +33,7 @@ const {
   ogImage,
   canonical,
   noindex = false,
+  disableTracking = false,
   breadcrumbs = [],
   showBreadcrumb = true,
   heroTitle,
@@ -56,6 +58,7 @@ const canonicalUrl = canonical || new URL(pathname, siteUrl).href;
   ogImage={ogImage}
   canonical={canonical}
   noindex={noindex}
+  disableTracking={disableTracking}
 >
   <slot name="head" slot="head" />
 

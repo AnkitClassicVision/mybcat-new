@@ -15,11 +15,13 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, publishDate, modifiedDate, author, category, tags, featuredImage, relatedPosts, seoTitle, seoDescription, canonical, cluster, ctaTheme } = post.data;
+const { title, description, publishDate, modifiedDate, author, category, tags, featuredImage, relatedPosts, seoTitle, seoDescription, canonical, cluster, ctaTheme, funnel, ctaId } = post.data;
 
 // Funnel-themed CTA variant resolved from the post's cluster (see src/data/blog-ctas.ts).
 // Explicit frontmatter ctaTheme wins; slug/category heuristic demotes off-ICP (dental/vet) posts.
-const cta = getBlogCta(cluster, { slug: post.slug, category, ctaTheme });
+const cta = getBlogCta(cluster, { slug: post.slug, category, ctaTheme, funnel });
+const contentCluster = cluster || 'blog';
+const effectiveCtaId = ctaId || cta.ctaId;
 
 // Generate category slug for linking
 const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
@@ -179,6 +181,9 @@ const authorInfo = authorData[author] || { role: '', image: '' };
         description={cta.description}
         buttonText={cta.buttonText}
         buttonHref={cta.buttonHref}
+        funnel={cta.funnel}
+        ctaId={`${effectiveCtaId}-in-content`}
+        contentCluster={contentCluster}
       />
     </div>
 
@@ -220,7 +225,14 @@ const authorInfo = authorData[author] || { role: '', image: '' };
         </div>
       </div>
       <div class="post-cta-buttons">
-        <a href={cta.endButtonHref} class="cta-button primary">{cta.endButtonText}</a>
+        <a
+          href={cta.endButtonHref}
+          class="cta-button primary"
+          data-seo-cta
+          data-funnel={cta.funnel}
+          data-cta-id={`${effectiveCtaId}-post`}
+          data-content-cluster={contentCluster}
+        >{cta.endButtonText}</a>
         <a href="/blog/" class="cta-button secondary">View More Articles</a>
       </div>
     </section>
@@ -231,7 +243,7 @@ const authorInfo = authorData[author] || { role: '', image: '' };
 <script>
   // Wrap markdown-generated tables in a scrollable container for mobile
   const postTitle = document.querySelector('.post-title')?.textContent?.trim() || 'Table';
-  const findNearestHeading = (table) => {
+  const findNearestHeading = (table: Element) => {
     let prev = table.previousElementSibling;
     while (prev) {
       if (/^H[1-6]$/.test(prev.tagName)) return prev;
@@ -273,13 +285,17 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     }
   }
 
-  // GTM: attribute CTA clicks by placement + funnel theme (utm_campaign on the href)
-  document.querySelectorAll('.in-content-cta .cta-button, .post-cta .cta-button.primary').forEach((link) => {
+  // Attribute only named blog CTAs. Ordinary links and page views are not conversion events.
+  document.querySelectorAll('[data-seo-cta]').forEach((link) => {
     link.addEventListener('click', () => {
       const href = link.getAttribute('href') || '';
-      const theme = new URLSearchParams(href.split('?')[1] || '').get('utm_campaign') || 'unknown';
-      const placement = link.closest('.in-content-cta') ? 'in-content-cta' : 'post-cta';
-      (window as any).dataLayer?.push({ event: 'blog_cta_click', cta_theme: theme, cta_placement: placement });
+      const element = link as HTMLElement;
+      window.MyBCATAttribution?.emit('seo_cta_click', {
+        funnel: element.dataset.funnel || 'service',
+        cta_id: element.dataset.ctaId || 'blog-cta',
+        content_cluster: element.dataset.contentCluster || 'blog',
+        destination: href,
+      });
     });
   });
 </script>
@@ -509,8 +525,6 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     color: var(--navy-800);
     margin-top: 2.5rem;
     margin-bottom: 1rem;
-    padding-left: 1rem;
-    border-left: 4px solid var(--electric-aqua);
   }
 
   .prose :global(h4) {
@@ -592,13 +606,13 @@ const authorInfo = authorData[author] || { role: '', image: '' };
 
   /* Enhanced Blockquotes */
   .prose :global(blockquote) {
-    border-left: 4px solid var(--oceanic-teal);
-    background: linear-gradient(to right, rgba(0, 96, 100, 0.06), transparent);
+    border: 1px solid rgba(0, 96, 100, 0.24);
+    background: rgba(0, 96, 100, 0.06);
     padding: 24px 32px;
     margin: 2.5rem 0;
     font-style: italic;
     color: var(--navy-800);
-    border-radius: 0 12px 12px 0;
+    border-radius: 12px;
     font-size: 1.15rem;
   }
 

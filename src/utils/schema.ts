@@ -5,6 +5,7 @@
 
 import { company } from '@data/company';
 import { solutions } from '@data/solutions';
+import { serializeScriptSafeJson } from './script-safe-json';
 
 // Types
 interface BreadcrumbItem {
@@ -649,5 +650,5 @@ export function generateBookSchema() {
  * Serialize schema to JSON string for embedding
  */
 export function serializeSchema(schema: object): string {
-  return JSON.stringify(schema, null, 0);
+  return serializeScriptSafeJson(schema);
 }

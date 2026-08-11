@@ -5,7 +5,11 @@ on:
     branches: [main]
     paths:
       - 'src/**'
+      - 'api/**'
+      - 'config/**'
+      - 'public/js/**'
       - 'scripts/**'
+      - 'tests/**'
       - 'astro.config.mjs'
       - 'vercel.json'
       - 'CONTROLS.md'
@@ -13,7 +17,11 @@ on:
     branches: [main]
     paths:
       - 'src/**'
+      - 'api/**'
+      - 'config/**'
+      - 'public/js/**'
       - 'scripts/**'
+      - 'tests/**'
 
 jobs:
   pre-build-validation:
@@ -30,6 +38,7 @@ jobs:
           fetch-depth: 0
 
       - name: AAC emit NODE_STARTED
+        continue-on-error: true
         run: bash .github/scripts/aac-emit.sh 09-seo-validation NODE_STARTED '{"github_run_id":"${{ github.run_id }}","trigger":"${{ github.event_name }}"}'
 
       - name: Setup Node.js
@@ -43,6 +52,9 @@ jobs:
 
       - name: Validate Forbidden Terms
         run: npm run validate:terms
+
+      - name: Run SEO revenue contract tests
+        run: npm run test:unit
 
       - name: Validate Meta Tags
         run: npm run validate:meta
@@ -142,10 +154,11 @@ jobs:
         run: npm run check
 
   aac-finalize:
-    name: AAC finalize
+    name: AAC finalize (advisory)
     needs: [pre-build-validation, post-build-validation, content-quality]
     if: always()
     runs-on: self-hosted
+    continue-on-error: true
     env:
       AAC_AGENT_ID: mybcat-content-lifecycle
       AAC_HMAC_KEY: ${{ secrets.AAC_HMAC_KEY }}

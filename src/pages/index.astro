@@ -61,8 +61,8 @@ const clientLogos = [
 ---
 
 <BaseLayout
-  title="Healthcare Patient Operations | My Business Care Team"
-  description="Complete patient operations for healthcare practices. 24/7 answering, scheduling, recall campaigns, and administrative support. HIPAA compliant."
+  title="Optometry Patient Access Operations | MyBCAT"
+  description="MyBCAT operates calls, scheduling, recall, and front-desk workflows for multi-location optometry groups, with location-level measurement."
   lcpImage="/videos/final-optimized-landscape.webp"
 >
   <!-- Organization + WebSite schemas are added by BaseLayout for homepage -->
@@ -70,18 +70,21 @@ const clientLogos = [
   <main id="main-content" class="homepage">
     <!-- Hero Section with Video -->
     <Hero
-      title="Centralized Patient Access for Multi-Location Healthcare Groups"
-      tagline="One team handles calls, scheduling, and intake across all your locations - patients never know the difference."
-      description="From 3 locations to 300, we centralize your patient operations. Direct scheduling into Eyefinity, Dentrix, ModMed, and 50+ systems. Unified reporting. Consistent patient experience. No staffing headaches."
-      ctaText="Get Started"
+      title="Patient Access Operations for Multi-Location Optometry"
+      tagline="MyBCAT operates the calls, scheduling, recall, and front-desk work that turns patient demand into booked care."
+      description="Built for optometry owners and operators with 3 or more locations. One accountable team follows your protocols and measures the result by location, while dedicated pages continue to support other healthcare specialties."
+      ctaText="Request a Fit Review"
       ctaHref="/contact/"
-      secondaryText="See How It Works"
-      secondaryHref="/enterprise/"
+      ctaFunnel="service"
+      ctaId="homepage-hero-service-fit"
+      ctaContentCluster="optometry-patient-access"
+      secondaryText="Explore Optometry Operations"
+      secondaryHref="/enterprise/optometry-groups/"
       showBrand={true}
       benefits={[
         { icon: 'check', text: 'Pilot 1-2 locations first' },
         { icon: 'chart', text: 'Unified reporting by location' },
-        { icon: 'growth', text: 'Rollouts for acquisitions' }
+        { icon: 'growth', text: 'Measured by location' }
       ]}
       trustItems={[
         { icon: 'shield', text: 'HIPAA Compliant' },
@@ -107,9 +110,9 @@ const clientLogos = [
     <!-- Enterprise Callout - Moved above Solutions for enterprise-first positioning -->
     <section class="enterprise-callout">
       <div class="enterprise-content">
-        <div class="enterprise-badge">For 3+ Locations</div>
-        <h2>Enterprise Patient Access Operations</h2>
-        <p>Centralize patient operations across all your locations. One team, consistent experience, unified reporting by location.</p>
+        <div class="enterprise-badge">Optometry Groups With 3+ Locations</div>
+        <h2>Operate Patient Access Across Every Location</h2>
+        <p>Give one team responsibility for the call, scheduling, recall, and intake work, then review the outcome by location.</p>
         <div class="enterprise-features">
           <div class="enterprise-feature">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -121,12 +124,12 @@ const clientLogos = [
           </div>
           <div class="enterprise-feature">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            <span>Rollouts for Acquisitions</span>
+            <span>Optometry-Specific Workflows</span>
           </div>
         </div>
         <div class="enterprise-ctas">
-          <Button href="/contact/" variant="primary">Get Started</Button>
-          <Button href="/enterprise/" variant="secondary">See How It Works</Button>
+          <Button href="/contact/" variant="primary" seoCta={true} funnel="service" ctaId="homepage-service-callout" contentCluster="optometry-patient-access">Request a Fit Review</Button>
+          <Button href="/enterprise/optometry-groups/" variant="secondary">See Optometry Operations</Button>
         </div>
       </div>
       <div class="enterprise-verticals">
@@ -345,6 +348,22 @@ const clientLogos = [
       </div>
     </section>
 
+    <section class="transition-path" aria-labelledby="transition-path-title">
+      <div>
+        <div class="eyebrow">A Separate Confidential Path</div>
+        <h2 id="transition-path-title">Considering a Future Practice Transition?</h2>
+        <p>Independent optometry owners in the Southeast can start a private fit-and-timing conversation. This path is separate from MyBCAT service marketing.</p>
+      </div>
+      <a
+        href="/optometry-practice-transitions/"
+        class="transition-link"
+        data-seo-cta
+        data-funnel="acquisition"
+        data-cta-id="homepage-transition-path"
+        data-content-cluster="optometry-practice-transitions"
+      >Start a confidential inquiry <span aria-hidden="true">→</span></a>
+    </section>
+
     <!-- Final CTA -->
     <CTA
       id="final-cta"
@@ -352,6 +371,9 @@ const clientLogos = [
       description="Stop choosing between the patient in front of you and the one on the phone. Book a discovery call to see how we can capture every call and fill every slot."
       buttonText="Book Your Discovery Call"
       buttonHref="/contact/"
+      buttonFunnel="service"
+      buttonCtaId="homepage-final-service-cta"
+      buttonContentCluster="optometry-patient-access"
     />
   </main>
 </BaseLayout>
@@ -389,6 +411,44 @@ const clientLogos = [
     color: var(--text-secondary);
     max-width: 600px;
     margin: 0 auto;
+  }
+
+  .transition-path {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 40px;
+    align-items: center;
+    margin: 72px 0 24px;
+    padding: 36px;
+    border: 1px solid var(--glass-border);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.78);
+  }
+
+  .transition-path h2 {
+    margin-bottom: 12px;
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+  }
+
+  .transition-path p {
+    max-width: 700px;
+  }
+
+  .transition-link {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    padding: 14px 18px;
+    border: 1px solid var(--navy-900);
+    border-radius: 8px;
+    color: var(--navy-900);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .transition-link:hover {
+    background: var(--navy-900);
+    color: #fff;
   }
 
   /* Solutions Overview */
@@ -819,6 +879,17 @@ const clientLogos = [
   }
 
   @media (max-width: 900px) {
+    .transition-path {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding: 28px;
+    }
+
+    .transition-link {
+      justify-content: center;
+      white-space: normal;
+    }
+
     .quick-links-grid {
       grid-template-columns: repeat(2, 1fr);
     }

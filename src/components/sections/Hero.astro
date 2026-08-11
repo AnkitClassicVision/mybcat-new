@@ -30,6 +30,9 @@ interface Props {
   description?: string;
   ctaText?: string;
   ctaHref?: string;
+  ctaFunnel?: 'service' | 'acquisition';
+  ctaId?: string;
+  ctaContentCluster?: string;
   secondaryText?: string;
   secondaryHref?: string;
   benefits?: BenefitItem[];
@@ -45,6 +48,9 @@ const {
   description,
   ctaText = 'Get Started',
   ctaHref = '#final-cta',
+  ctaFunnel,
+  ctaId,
+  ctaContentCluster,
   secondaryText,
   secondaryHref,
   benefits = [],
@@ -72,7 +78,7 @@ const icons: Record<string, string> = {
     <div class="hero-content">
       {showBrand && (
         <div class="hero-brand">
-          <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="54" height="50" loading="eager" fetchpriority="high">
+          <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="50" height="50" loading="eager" fetchpriority="high">
           <div class="hero-brand-text">My Business Care Team</div>
         </div>
       )}
@@ -95,7 +101,13 @@ const icons: Record<string, string> = {
       )}
 
       <div class="hero-cta-group">
-        <Button href={ctaHref}>{ctaText}</Button>
+        <Button
+          href={ctaHref}
+          seoCta={Boolean(ctaId)}
+          funnel={ctaFunnel}
+          ctaId={ctaId}
+          contentCluster={ctaContentCluster}
+        >{ctaText}</Button>
         {secondaryText && secondaryHref && (
           <a href={secondaryHref} class="text-link">{secondaryText}</a>
         )}
@@ -136,7 +148,6 @@ const icons: Record<string, string> = {
                   class="hero-youtube"
                   data-src={`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1&controls=1&modestbranding=1&rel=0`}
                   title="Client Testimonial Video"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
                 ></iframe>
@@ -740,19 +751,22 @@ const icons: Record<string, string> = {
     const ytFrame = document.getElementById('youtubeFrame') as HTMLIFrameElement;
 
     if (ytOverlay && ytPoster && ytContainer && ytFrame) {
+      const overlayElement = ytOverlay;
+      const posterElement = ytPoster;
+      const containerElement = ytContainer;
       function playYouTube() {
         // Load the YouTube iframe src
         if (ytFrame.dataset.src) {
           ytFrame.src = ytFrame.dataset.src;
         }
         // Hide poster and overlay, show video
-        ytPoster.style.display = 'none';
-        ytOverlay.style.display = 'none';
-        ytContainer.style.display = 'block';
+        posterElement.style.display = 'none';
+        overlayElement.style.display = 'none';
+        containerElement.style.display = 'block';
       }
 
-      ytOverlay.addEventListener('click', playYouTube);
-      ytOverlay.addEventListener('touchend', function(e) {
+      overlayElement.addEventListener('click', playYouTube);
+      overlayElement.addEventListener('touchend', function(e) {
         e.preventDefault();
         playYouTube();
       }, { passive: false });
@@ -765,6 +779,7 @@ const icons: Record<string, string> = {
     let videoLoaded = false;
 
     if (video && overlay) {
+      const overlayElement = overlay;
       function loadVideoSource() {
         if (videoLoaded) return;
         const source = video.querySelector('source[data-src]') as HTMLSourceElement;
@@ -795,8 +810,8 @@ const icons: Record<string, string> = {
           video.muted = false;
 
           hidePoster();
-          overlay.style.opacity = '0';
-          overlay.style.pointerEvents = 'none';
+          overlayElement.style.opacity = '0';
+          overlayElement.style.pointerEvents = 'none';
         } catch (error) {
           console.error('Video playback failed:', error);
           // If play fails, try playing muted as fallback
@@ -804,8 +819,8 @@ const icons: Record<string, string> = {
             video.muted = true;
             await video.play();
             hidePoster();
-            overlay.style.opacity = '0';
-            overlay.style.pointerEvents = 'none';
+            overlayElement.style.opacity = '0';
+            overlayElement.style.pointerEvents = 'none';
           } catch (e) {
             console.error('Muted playback also failed:', e);
           }
@@ -813,20 +828,20 @@ const icons: Record<string, string> = {
       }
 
       // Handle both click and touch events for mobile
-      overlay.addEventListener('click', playVideo);
-      overlay.addEventListener('touchend', function(e) {
+      overlayElement.addEventListener('click', playVideo);
+      overlayElement.addEventListener('touchend', function(e) {
         e.preventDefault();
         playVideo();
       }, { passive: false });
 
       video.addEventListener('pause', function() {
-        overlay.style.opacity = '1';
-        overlay.style.pointerEvents = 'auto';
+        overlayElement.style.opacity = '1';
+        overlayElement.style.pointerEvents = 'auto';
       });
 
       video.addEventListener('ended', function() {
-        overlay.style.opacity = '1';
-        overlay.style.pointerEvents = 'auto';
+        overlayElement.style.opacity = '1';
+        overlayElement.style.pointerEvents = 'auto';
       });
 
       video.addEventListener('click', function() {

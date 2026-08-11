@@ -1,7 +1,7 @@
 ---
 /**
  * Contact Page
- * HubSpot contact form with Organization schema for local search visibility
+ * Durable service intake with Organization schema for local search visibility
  */
 import PageLayout from '@/layouts/PageLayout.astro';
 import Card from '@/components/Card.astro';
@@ -13,19 +13,18 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
 ---
 
 <PageLayout
-  title="Contact Enterprise Team | Schedule a Discovery Call | MyBCAT"
-  description="Schedule a discovery call with MyBCAT. Learn how we help multi-location healthcare groups centralize patient access and intake operations."
+  title="Optometry Patient Access Discovery Call | MyBCAT"
+  description="Talk with MyBCAT about patient access, recall, scheduling, and front-desk operations across a multi-location optometry group."
   breadcrumbs={[
     { name: 'Home', url: '/' },
     { name: 'Contact' }
   ]}
-  heroEyebrow="Enterprise Inquiries"
-  heroTitle="Scaling Multi-Location Operations? Let's Talk."
-  heroSubtitle="Tell us about your group and we'll show you how centralized patient access works across 3, 10, or 50+ locations-with unified reporting and one team that knows your protocols."
+  heroEyebrow="Optometry Service Inquiries"
+  heroTitle="Turn Missed Patient Demand Into Booked Care"
+  heroSubtitle="Tell us where patient access is breaking down across your optometry locations. We will review the fit and the operating problem before recommending a next step."
 >
-  <!-- Preconnect to HubSpot meetings for faster iframe loading -->
+  <!-- The meeting scheduler loads only after durable intake succeeds. -->
   <link rel="dns-prefetch" href="https://meetings.hubspot.com" slot="head" />
-  <link rel="preconnect" href="https://api.hsforms.com" slot="head" />
   <!-- Organization schema with PostalAddress for local search visibility -->
   <script type="application/ld+json" set:html={serializeSchema(generateOrganizationSchema())} slot="head" />
   <div class="contact-page">
@@ -36,24 +35,31 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
         <div class="enterprise-qualifier">
           <div class="qualifier-label">We Work With</div>
           <div class="qualifier-tags">
-            <span class="qualifier-tag">DSOs</span>
             <span class="qualifier-tag">Optometry Groups</span>
-            <span class="qualifier-tag">Veterinary Chains</span>
-            <span class="qualifier-tag">Multi-Location Practices</span>
+            <span class="qualifier-tag">Patient Access Leaders</span>
+            <span class="qualifier-tag">Practice Operators</span>
             <span class="qualifier-tag highlight">3+ Locations</span>
           </div>
         </div>
 
         <Card variant="pricing" class="form-card">
           <!-- Form content (fades out after submit) -->
-          <div id="form-content">
-            <h2>Get Started Today</h2>
+          <div id="form-content" data-form-content>
+            <h2>Request a Fit Review</h2>
             <p class="form-description">
-              Tell us about your group and we'll reach out within 24 hours to discuss your centralized patient access strategy.
+              Share the operating problem, your role, and the size of your optometry group. A submission is an inquiry, not a qualification decision.
             </p>
             <div class="hubspot-form-wrapper">
-              <!-- Native contact form — submits directly to HubSpot Submissions API -->
-              <form id="contact-form" novalidate>
+              <form
+                id="contact-form"
+                data-seo-intake-form
+                data-funnel="service"
+                data-form-id="service-intake-v1"
+                data-content-cluster="optometry-patient-access"
+                data-cta-id="service-fit-review"
+                data-success-target="post-submit-state"
+                data-meeting-url="https://meetings.hubspot.com/ankit98/mybcat-discovery-call?embed=true"
+              >
                 <div class="form-row">
                   <div class="form-field">
                     <label for="cf-firstname">First Name <span class="required-mark" aria-hidden="true">*</span></label>
@@ -80,19 +86,63 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
                   <input type="text" id="cf-website" name="website" autocomplete="url" placeholder="https://yourpractice.com" />
                 </div>
                 <div class="form-field">
-                  <label for="cf-locations">Number of Locations</label>
-                  <select id="cf-locations" name="number_of_locations">
+                  <label for="cf-specialty">Specialty <span class="required-mark" aria-hidden="true">*</span></label>
+                  <select id="cf-specialty" name="specialty" required>
                     <option value="">Select...</option>
-                    <option value="1 Location">1 Location</option>
-                    <option value="2-4 Locations">2–4 Locations</option>
-                    <option value="5-20 Locations">5–20 Locations</option>
-                    <option value="20+ Locations">20+ Locations</option>
-                    <option value="Other">Other</option>
+                    <option value="Optometry">Optometry</option>
+                    <option value="Ophthalmology">Ophthalmology</option>
+                    <option value="Other healthcare">Other healthcare</option>
                   </select>
                 </div>
-                <input type="hidden" name="utm_source" id="cf-utm-source" />
-                <button type="submit" id="cf-submit">Schedule Discovery Call</button>
-                <p class="form-legal">By submitting, you agree to our <a href="/privacy-policy/">Privacy Policy</a>. We'll never share your information.</p>
+                <div class="form-row">
+                  <div class="form-field">
+                    <label for="cf-role">Your Role <span class="required-mark" aria-hidden="true">*</span></label>
+                    <select id="cf-role" name="role" required>
+                      <option value="">Select...</option>
+                      <option value="Owner">Owner</option>
+                      <option value="Executive">Executive</option>
+                      <option value="Operations leader">Operations leader</option>
+                      <option value="Practice manager">Practice manager</option>
+                      <option value="Authorized evaluator">Authorized evaluator</option>
+                    </select>
+                  </div>
+                  <div class="form-field">
+                    <label for="cf-locations">Number of Locations <span class="required-mark" aria-hidden="true">*</span></label>
+                    <select id="cf-locations" name="number_of_locations" required>
+                      <option value="">Select...</option>
+                      <option value="1 Location">1 Location</option>
+                      <option value="2 Locations">2 Locations</option>
+                      <option value="3-4 Locations">3–4 Locations</option>
+                      <option value="5-20 Locations">5–20 Locations</option>
+                      <option value="20+ Locations">20+ Locations</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-field">
+                  <label for="cf-problem">Primary Operating Problem <span class="required-mark" aria-hidden="true">*</span></label>
+                  <select id="cf-problem" name="operating_problem" required>
+                    <option value="">Select...</option>
+                    <option value="Missed calls">Missed calls</option>
+                    <option value="Scheduling consistency">Scheduling consistency</option>
+                    <option value="Patient recall">Patient recall</option>
+                    <option value="Front desk capacity">Front desk capacity</option>
+                    <option value="Multi-location reporting">Multi-location reporting</option>
+                    <option value="Other patient access problem">Other patient access problem</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="cf-timeline">Evaluation Timeline <span class="required-mark" aria-hidden="true">*</span></label>
+                  <select id="cf-timeline" name="timeline" required>
+                    <option value="">Select...</option>
+                    <option value="Within 30 days">Within 30 days</option>
+                    <option value="1-3 months">1–3 months</option>
+                    <option value="3-6 months">3–6 months</option>
+                    <option value="Exploring">Exploring</option>
+                  </select>
+                </div>
+                <p class="submit-error" data-submit-error role="alert" tabindex="-1" hidden></p>
+                <button type="submit" id="cf-submit">Request My Fit Review</button>
+                <p class="form-legal">By submitting, you ask MyBCAT to process this business inquiry under our <a href="/privacy-policy/">Privacy Policy</a>. Do not include patient information.</p>
               </form>
             </div>
           </div>
@@ -105,8 +155,8 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
               </div>
               <div>
-                <h2 class="ps-title">One last step!</h2>
-                <p class="ps-subtitle">Two things are happening right now:</p>
+                <h2 class="ps-title">Your inquiry was safely received.</h2>
+                <p class="ps-subtitle">Choose a time now, or wait for the team to review the fit.</p>
               </div>
             </div>
 
@@ -117,8 +167,8 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
                 </div>
                 <div class="ps-step-body">
-                  <strong>Check your inbox</strong>
-                  <span>A confirmation email is heading your way — check spam too. It has our contact info and next steps.</span>
+                  <strong>Qualification comes next</strong>
+                  <span>Your submission is not yet a qualified opportunity. Ankit reviews the organization, role, need, and location fit.</span>
                 </div>
               </div>
               <div class="ps-step">
@@ -127,7 +177,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
                 </div>
                 <div class="ps-step-body">
                   <strong>Pick a time below</strong>
-                  <span>Your calendar is ready — grab a slot now and skip the back-and-forth.</span>
+                  <span>Your calendar is ready. Grab a slot now and skip the back-and-forth.</span>
                 </div>
               </div>
             </div>
@@ -139,11 +189,11 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
             <div class="meetings-wrapper">
               <iframe
                 id="meetings-iframe"
+                data-meeting-iframe
                 title="Schedule a Discovery Call with MyBCAT"
-                frameborder="0"
               ></iframe>
               <div id="meetings-fallback" hidden>
-                <p>Can't see the calendar? <a id="meetings-fallback-link" href="https://meetings.hubspot.com/ankit98/mybcat-discovery-call?embed=true" target="_blank" rel="noopener noreferrer">Book your discovery call directly →</a></p>
+                <p>Can't see the calendar? <a id="meetings-fallback-link" data-meeting-fallback href="https://meetings.hubspot.com/ankit98/mybcat-discovery-call?embed=true" target="_blank" rel="noopener noreferrer">Book your discovery call directly →</a></p>
               </div>
             </div>
           </div>
@@ -436,6 +486,20 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
 
   .field-error.visible {
     display: block;
+  }
+
+  .submit-error {
+    padding: 12px 14px;
+    border: 1px solid #b42318;
+    border-radius: 8px;
+    background: #fff4f2;
+    color: #7a271a;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .submit-error[hidden] {
+    display: none;
   }
 
   #cf-submit {
@@ -743,6 +807,11 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     display: none;
   }
 
+  #cf-submit:disabled {
+    cursor: wait;
+    opacity: 0.72;
+  }
+
   /* Header row */
   .ps-header {
     display: flex;
@@ -903,125 +972,3 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     }
   }
 </style>
-
-<!-- Contact Form — optimistic UI: show calendar instantly, submit to HubSpot in background -->
-<script is:inline>
-(function () {
-  const PORTAL_ID = '23344341';
-  const FORM_ID = 'a365996f-87cf-4a60-8782-9dabb9f9dd97';
-  const MEETINGS_URL = 'https://meetings.hubspot.com/ankit98/mybcat-discovery-call?embed=true';
-  const MEETINGS_FALLBACK_URL = 'https://meetings.hubspot.com/ankit98/mybcat-discovery-call?embed=true';
-
-  function getCookie(name) {
-    const match = document.cookie.match(new RegExp('(?:^|; )' + name.replace(/([.*+?^=!:${}()|[\]/\\])/g, '\\$1') + '=([^;]*)'));
-    return match ? decodeURIComponent(match[1]) : '';
-  }
-
-  function buildMeetingsUrl(base, values) {
-    const params = new URLSearchParams();
-    if (values.firstName) params.set('firstName', values.firstName);
-    if (values.lastName) params.set('lastName', values.lastName);
-    if (values.email) params.set('email', values.email);
-    const qs = params.toString();
-    if (!qs) return base;
-    return base + (base.indexOf('?') !== -1 ? '&' : '?') + qs;
-  }
-
-  function showPostSubmitState(values) {
-    const formContent = document.getElementById('form-content');
-    const postSubmit = document.getElementById('post-submit-state');
-    const iframe = document.getElementById('meetings-iframe');
-    const fallbackLink = document.getElementById('meetings-fallback-link');
-    if (!formContent || !postSubmit || !iframe || !fallbackLink) return;
-
-    iframe.src = buildMeetingsUrl(MEETINGS_URL, values);
-    fallbackLink.href = buildMeetingsUrl(MEETINGS_FALLBACK_URL, values);
-
-    formContent.hidden = true;
-    postSubmit.hidden = false;
-
-    // Scroll to top of the card so the header and calendar are both visible
-    postSubmit.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
-
-  function submitToHubSpot(fields) {
-    const hutk = getCookie('hubspotutk');
-    const ctx = { pageUri: window.location.href, pageName: document.title };
-    if (hutk) ctx.hutk = hutk; // omit if empty — HubSpot rejects empty string hutk with INVALID_HUTK
-    const payload = { fields: fields, context: ctx };
-    fetch('https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_ID, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    }).then(function (r) {
-      if (!r.ok) r.text().then(function (t) { console.warn('[MyBCAT] HubSpot submission error ' + r.status + ':', t); });
-    }).catch(function (err) {
-      console.warn('[MyBCAT] HubSpot background submission failed:', err);
-    });
-  }
-
-  // Pre-fill UTM source from URL
-  const sp = new URLSearchParams(window.location.search);
-  const utmField = document.getElementById('cf-utm-source');
-  if (utmField && sp.get('utm_source')) utmField.value = sp.get('utm_source');
-
-  const form = document.getElementById('contact-form');
-  if (!form) return;
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    e.stopImmediatePropagation();
-
-    // Clear errors
-    form.querySelectorAll('.invalid').forEach(function (el) { el.classList.remove('invalid'); });
-    form.querySelectorAll('.field-error').forEach(function (el) { el.textContent = ''; el.classList.remove('visible'); });
-
-    // Validate
-    let valid = true;
-    [
-      { id: 'cf-firstname', errId: 'err-firstname', msg: 'First name is required.' },
-      { id: 'cf-lastname',  errId: 'err-lastname',  msg: 'Last name is required.' },
-      { id: 'cf-email',     errId: 'err-email',     msg: 'A valid email address is required.' }
-    ].forEach(function (f) {
-      const el = document.getElementById(f.id);
-      if (!el) return;
-      const val = el.value.trim();
-      const bad = !val || (el.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val));
-      if (bad) {
-        valid = false;
-        el.classList.add('invalid');
-        const err = document.getElementById(f.errId);
-        if (err) { err.textContent = f.msg; err.classList.add('visible'); }
-      }
-    });
-    if (!valid) return;
-
-    // Capture values before DOM swap removes the form fields
-    let firstName = (document.getElementById('cf-firstname') || {}).value || '';
-    let lastName  = (document.getElementById('cf-lastname')  || {}).value || '';
-    let email     = (document.getElementById('cf-email')     || {}).value || '';
-    firstName = firstName.trim(); lastName = lastName.trim(); email = email.trim();
-
-    // Build fields
-    const fields = [
-      { objectTypeId: '0-1', name: 'firstname', value: firstName },
-      { objectTypeId: '0-1', name: 'lastname',  value: lastName },
-      { objectTypeId: '0-1', name: 'email',     value: email }
-    ];
-    const phone = document.getElementById('cf-phone');
-    if (phone && phone.value.trim()) fields.push({ objectTypeId: '0-1', name: 'mobilephone', value: phone.value.trim() });
-    const website = document.getElementById('cf-website');
-    if (website && website.value.trim()) fields.push({ objectTypeId: '0-2', name: 'website', value: website.value.trim() });
-    const locs = document.getElementById('cf-locations');
-    if (locs && locs.value) fields.push({ objectTypeId: '0-1', name: 'number_of_locations', value: locs.value });
-    const utm = document.getElementById('cf-utm-source');
-    if (utm && utm.value) fields.push({ objectTypeId: '0-1', name: 'utm_source', value: utm.value });
-
-    // 1. Show calendar immediately — no waiting
-    showPostSubmitState({ firstName: firstName, lastName: lastName, email: email });
-
-    // 2. Send to HubSpot silently in the background
-    submitToHubSpot(fields);
-  }, true);
-})();
-</script>

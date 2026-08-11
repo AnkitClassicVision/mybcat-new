@@ -5,6 +5,10 @@ interface Props {
   size?: 'sm' | 'md' | 'lg';
   class?: string;
   type?: 'button' | 'submit';
+  seoCta?: boolean;
+  funnel?: 'service' | 'acquisition';
+  ctaId?: string;
+  contentCluster?: string;
 }
 
 const {
@@ -12,7 +16,11 @@ const {
   variant = 'primary',
   size = 'md',
   class: className = '',
-  type = 'button'
+  type = 'button',
+  seoCta = false,
+  funnel,
+  ctaId,
+  contentCluster
 } = Astro.props;
 
 const Tag = href ? 'a' : 'button';
@@ -24,6 +32,10 @@ const baseClass = `magnetic-button ${variant} ${size} ${className}`.trim();
   type={!href ? type : undefined}
   class={baseClass}
   data-magnetic
+  data-seo-cta={seoCta ? '' : undefined}
+  data-funnel={funnel}
+  data-cta-id={ctaId}
+  data-content-cluster={contentCluster}
 >
   <slot />
 </Tag>

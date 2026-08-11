@@ -1,0 +1,30 @@
+
+ ▄█▀ ▄▀█ █ █ █ █▀▄ █▀▄ █▀▀ █   ▄█▀ ▄▀▀ ▄▀█ █▄ █
+ ▀▄  █ █ █ █ █ ██▀ ██▀ █▀  █   ▀▄  █   █▀█ █ ▀█
+ █▄▀ ▀▀█ ▀▄▀ █ █ █ █ █ █▄▄ █▄▄ █▄▀ ▀▄▄ █ █ █  █
+
+  v0.0.36  •  https://squirrelscan.com
+────────────────────────────────────────────
+
+┌─────────────────────────────────────────┐
+│ Update available: v0.0.36 → v0.0.38     │
+│ Run: squirrel self update               │
+│ Dismiss: squirrel self update --dismiss │
+└─────────────────────────────────────────┘
+
+Config: /mnt/d_drive/repos/mybcat-new/squirrel.toml
+Auditing: http://127.0.0.1:4321
+Coverage: surface (max 40 pages)
+
+Database: /home/ankit114/.squirrel/projects/mybcat/project.db
+New crawl: http://127.0.0.1:4321
+✓ Audited 40 pages in 14.9s
+
+Audit stored in database. Use 'squirrel report' to view latest audit.
+Use 'squirrel report --list' to see all stored audits.
+
+LLM report saved to: reports/squirrel-audit-local-surface-2026-04-23.llm
+
+────────────────────────────────────────────────────────────
+File issues: https://github.com/squirrelscan/squirrelscan/issues  •  Send feedback: squirrel feedback
+

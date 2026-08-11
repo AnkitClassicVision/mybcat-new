@@ -55,16 +55,24 @@ def _parse_expiry(expiry_raw: object):
 
 def get_credentials() -> Credentials:
     token_json = os.environ.get("GSC_TOKEN_JSON")
+    credential_source = "environment"
     if token_json:
         try:
             token_data = json.loads(token_json)
         except json.JSONDecodeError as e:
             raise SystemExit(f"Invalid GSC_TOKEN_JSON: {e}") from e
+    elif os.environ.get("GSC_TOKEN_PATH"):
+        credential_source = "configured_path"
+        configured_path = Path(os.path.expanduser(os.environ["GSC_TOKEN_PATH"]))
+        if not configured_path.is_file():
+            raise SystemExit("GSC_TOKEN_PATH does not point to a readable credential file")
+        token_data = json.loads(configured_path.read_text(encoding="utf-8"))
     elif TOKEN_FILE.exists():
+        credential_source = "default_file"
         token_data = json.loads(TOKEN_FILE.read_text(encoding="utf-8"))
     else:
         raise SystemExit(
-            "No GSC credentials found. Provide GSC_TOKEN_JSON or create ~/.config/google-search-console/token.json"
+            "No GSC credentials found. Provide GSC_TOKEN_JSON, GSC_TOKEN_PATH, or the local token file"
         )
 
     creds = Credentials(
@@ -79,8 +87,9 @@ def get_credentials() -> Credentials:
 
     if creds.expired and creds.refresh_token:
         creds.refresh(Request())
-        # Persist refreshed token only if using file-based auth
-        if not token_json:
+        # Only the explicit local default file is mutable. Environment and
+        # configured-path credentials refresh in memory and are never copied.
+        if credential_source == "default_file":
             token_data["token"] = creds.token
             TOKEN_FILE.parent.mkdir(parents=True, exist_ok=True)
             TOKEN_FILE.write_text(json.dumps(token_data, indent=2), encoding="utf-8")
@@ -187,4 +196,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

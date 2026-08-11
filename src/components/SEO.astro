@@ -1,4 +1,6 @@
 ---
+import { serializeScriptSafeJson } from '@utils/script-safe-json';
+
 interface Props {
   title: string;
   description: string;
@@ -73,7 +75,7 @@ const fullCanonical = canonical
 
 <!-- Schema.org JSON-LD -->
 {type === 'website' ? (
-  <script type="application/ld+json" set:html={JSON.stringify({
+  <script type="application/ld+json" set:html={serializeScriptSafeJson({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "My Business Care Team",
@@ -87,7 +89,7 @@ const fullCanonical = canonical
     ]
   })} />
 ) : (
-  <script type="application/ld+json" set:html={JSON.stringify({
+  <script type="application/ld+json" set:html={serializeScriptSafeJson({
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": title,

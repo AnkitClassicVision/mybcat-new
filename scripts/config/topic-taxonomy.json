@@ -1,7 +1,7 @@
 {
   "_sourceOfTruth": "03_pillar_cluster_taxonomy.md",
-  "version": "1.1.0",
-  "lastUpdated": "2026-05-10",
+  "version": "1.2.0",
+  "lastUpdated": "2026-08-11",
   "description": "Approved topic clusters for blog content. Every post should map to one cluster.",
   "strategy": "broad-multi-vertical",
   "clusters": {
@@ -73,6 +73,36 @@
     "dental": {
       "pillar": "/industries/dental/",
       "description": "Dental-specific operations, DSO management, dental practice growth",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
+    },
+    "transition-readiness": {
+      "pillar": "/optometry-practice-transitions/",
+      "description": "Owner readiness, confidentiality, continuity, and preparation before a possible optometry practice transition",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
+    },
+    "transition-planning": {
+      "pillar": "/optometry-practice-transitions/",
+      "description": "Owner timeline, post-sale role, staff communication, and continuity planning for optometry transitions",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
+    },
+    "diligence-readiness": {
+      "pillar": "/optometry-practice-transitions/",
+      "description": "Evidence-backed records, valuation preparation, and secure human-approved diligence boundaries",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
+    },
+    "owner-transition-goals": {
+      "pillar": "/optometry-practice-transitions/",
+      "description": "Owner goals, timing, desired involvement, and confidential fit for an optometry practice transition",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
+    },
+    "patient-access-measurement": {
+      "pillar": "/enterprise/patient-access-center/",
+      "description": "Optometry patient-access measurement, scorecards, and operating review for multi-location groups",
+      "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
+    },
+    "patient-access-operations": {
+      "pillar": "/enterprise/centralized-scheduling/",
+      "description": "Missed-call routing and centralized scheduling standards for multi-location optometry groups",
       "source": "03_pillar_cluster_taxonomy.md §1, Rule 3.1"
     }
   }

@@ -1,0 +1,47 @@
+{
+  "change_id": "test-frontmatter-format",
+  "confidence": 0.91,
+  "decision": "AUTO_PR_ONLY",
+  "defer_until": null,
+  "evidence": {
+    "affected_urls": [
+      "/blog/patient-recall-scripts/"
+    ],
+    "change_classes": [
+      "frontmatter_format"
+    ],
+    "checks": {
+      "baseline_comparison": "not_applicable",
+      "build": "pass",
+      "forbidden_terms": "pass",
+      "frontmatter_parse": "pass",
+      "lighthouse_delta": "not_applicable",
+      "links": "pass",
+      "schema": "pass"
+    },
+    "diff_stats": {
+      "additions": 1,
+      "deletions": 1,
+      "files": 1
+    },
+    "files_changed": [
+      {
+        "kind": "blog_post",
+        "path": "src/content/blog/patient-recall-scripts.md"
+      }
+    ],
+    "mode": null,
+    "repo": "mybcat-new",
+    "risk_tiers": [
+      "blog_low"
+    ],
+    "source": "drift-audit"
+  },
+  "failed_checks": [],
+  "next_action": "log_shadow_decision",
+  "policy_version": "0.1.0",
+  "reasons": [
+    "change class and risk tier are in the mechanical autonomy lane"
+  ],
+  "schema_version": "0.1.0"
+}

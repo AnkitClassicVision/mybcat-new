@@ -12,7 +12,7 @@ const { currentPath = '/' } = Astro.props;
 
 <!-- Mobile Logo (visible when nav-dock is hidden) -->
 <a href="/" class="mobile-logo" aria-label="MyBCAT Home">
-  <img src="/images/logo-optimized.webp" alt="MyBCAT" width="36" height="33" loading="eager">
+  <img src="/images/logo-optimized.webp" alt="MyBCAT" width="36" height="36" loading="eager">
 </a>
 
 <!-- Mobile Menu Toggle Button -->
@@ -28,7 +28,7 @@ const { currentPath = '/' } = Astro.props;
 <!-- Mobile Menu Panel -->
 <nav class="mobile-menu" role="navigation" aria-label="Mobile navigation">
   <a href="/" class="mobile-nav-brand">
-    <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="54" height="50">
+    <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="50" height="50">
     <span class="mobile-nav-brand-text">My Business Care Team</span>
   </a>
 
@@ -112,7 +112,7 @@ const { currentPath = '/' } = Astro.props;
 <!-- Floating Navigation Dock -->
 <nav class="nav-dock" role="navigation" aria-label="Main navigation">
   <a href="/" class="nav-brand">
-    <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="54" height="50" loading="eager" fetchpriority="high">
+    <img src="/images/logo-optimized.webp" alt="MyBCAT Logo" width="50" height="50" loading="eager" fetchpriority="high">
     <span class="nav-brand-text">My Business Care Team</span>
   </a>
 
@@ -628,7 +628,7 @@ const { currentPath = '/' } = Astro.props;
       });
 
       // Toggle current section
-      toggle.setAttribute('aria-expanded', !isExpanded);
+      toggle.setAttribute('aria-expanded', String(!isExpanded));
       content?.classList.toggle('active');
     });
   });

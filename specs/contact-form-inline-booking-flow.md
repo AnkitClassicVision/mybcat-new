@@ -5,7 +5,9 @@ description: "Spec: Contact Page — Inline Post-Submit Booking Flow"
 
 # Spec: Contact Page — Inline Post-Submit Booking Flow
 
-**Status:** FINALIZED — ready for implementation
+**Status:** SUPERSEDED on 2026-08-11 by `docs/plans/2026-08-11-seo-revenue-reset-implementation.md`
+
+> Do not implement this document's direct HubSpot submission or optimistic-success behavior. The current contract requires durable estate intake acceptance before the success state appears, keeps the intake layer independent from the CRM, and treats Twenty as non-canonical until its separate cutover gate passes. This file remains as historical decision context only.
 **File to modify:** `src/pages/contact.astro`
 **Related URL:** `/contact/`
 

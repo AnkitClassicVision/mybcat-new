@@ -1,0 +1,38 @@
+{
+  "schema_version": "seo-events.v1",
+  "events": {
+    "seo_cta_click": {
+      "owner": "browser",
+      "meaning": "A visitor activated a named funnel CTA.",
+      "qualified_conversion": false
+    },
+    "lead_submit_success": {
+      "owner": "durable-intake-callback",
+      "meaning": "The estate intake endpoint durably accepted a valid form submission.",
+      "qualified_conversion": false
+    },
+    "meeting_booked": {
+      "owner": "trusted-scheduling-callback",
+      "meaning": "The scheduling provider confirmed a booking.",
+      "qualified_conversion": false
+    },
+    "service_qualified_opportunity": {
+      "owner": "human-qualification-workflow",
+      "meaning": "Ankit accepted a service inquiry against the documented criteria.",
+      "qualified_conversion": true
+    },
+    "acquisition_qualified_seller": {
+      "owner": "human-qualification-workflow",
+      "meaning": "Ankit accepted a seller inquiry against the documented criteria.",
+      "qualified_conversion": true
+    }
+  },
+  "forbidden_as_qualified_conversions": [
+    "page_view",
+    "contact_page_view",
+    "click",
+    "file_download",
+    "form_start",
+    "form_error"
+  ]
+}

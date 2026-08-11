@@ -26,6 +26,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: AAC emit NODE_STARTED
+        continue-on-error: true
         run: bash .github/scripts/aac-emit.sh 06-scheduled-publish NODE_STARTED '{"github_run_id":"${{ github.run_id }}","trigger":"${{ github.event_name }}"}'
 
       - name: Setup Node.js
@@ -38,15 +39,19 @@ jobs:
         run: npm ci
 
       - name: AAC emit deps installed
+        continue-on-error: true
         run: bash .github/scripts/aac-emit.sh 06-scheduled-publish NODE_OUTPUT '{"kind":"deps_ready"}'
+
+      # Fail closed until the weekly human-approved queue contains this post.
+      - name: Validate approved topic queue and scheduled post
+        run: node scripts/validate-seo-topic-queue.mjs config/seo-topic-queue.json --scheduled-dir src/content/blog
 
       - name: Pre-publish quality check
         run: node scripts/validators/validate-content-quality.js --scheduled-only
-        continue-on-error: true
 
       - name: Auto-remediate quality failures
+        if: ${{ false }}
         run: node scripts/remediate-quality.js
-        continue-on-error: true
         env:
           # Preferred: OpenRouter (lets us swap models via OPENROUTER_MODEL).
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -55,6 +60,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit remediation changes
+        if: ${{ false }}
         id: remediation_commit
         run: |
           git config user.name "GitHub Actions"
@@ -104,6 +110,7 @@ jobs:
         continue-on-error: true
 
       - name: AAC emit pre-publish ok
+        continue-on-error: true
         run: bash .github/scripts/aac-emit.sh 06-scheduled-publish NODE_OUTPUT '{"kind":"pre_publish_ok"}'
 
       - name: Reset AAC run manifest (prevent stale-read on self-hosted runner)
@@ -195,6 +202,7 @@ jobs:
           npm run audit:live -- --from="$FROM_DATE" --to="$TO_DATE" --status=published
 
       - name: AAC emit NODE_ENDED
+        continue-on-error: true
         if: always()
         run: |
           if [ "${{ job.status }}" = "success" ]; then

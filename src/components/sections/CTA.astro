@@ -13,6 +13,9 @@ interface Props {
   description?: string;
   buttonText?: string;
   buttonHref?: string;
+  buttonFunnel?: 'service' | 'acquisition';
+  buttonCtaId?: string;
+  buttonContentCluster?: string;
   variant?: 'default' | 'simple';
 }
 
@@ -23,6 +26,9 @@ const {
   title = 'Ready to Fill Every Appointment Slot?',
   buttonText = 'Book Your Discovery Call',
   buttonHref = ctaButton.href,
+  buttonFunnel,
+  buttonCtaId,
+  buttonContentCluster,
   variant = 'default'
 } = props;
 
@@ -36,7 +42,14 @@ const subtitle =
   <div class="cta-content">
     <h2>{title}</h2>
     <p>{subtitle}</p>
-    <Button href={buttonHref} variant="secondary-light">{buttonText}</Button>
+    <Button
+      href={buttonHref}
+      variant="secondary-light"
+      seoCta={Boolean(buttonCtaId)}
+      funnel={buttonFunnel}
+      ctaId={buttonCtaId}
+      contentCluster={buttonContentCluster}
+    >{buttonText}</Button>
   </div>
 </section>
 

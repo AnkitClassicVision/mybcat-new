@@ -20,10 +20,15 @@ export type FunnelTheme =
   | 'finance_open'    // opening/building a practice or location (Cold-Start / Growth Builder) -> remote front-office service
   | 'finance_profit'  // margin-stressed owner of an existing practice -> practice profit audit
   | 'finance_seller'  // Exit Strategist: raise value before listing (advisor stance, not acquirer)
+  | 'acquisition_transition'
   | 'operations'
   | 'default';
 
+export type BlogFunnel = 'service' | 'acquisition';
+
 export interface BlogCtaVariant {
+  funnel: BlogFunnel;
+  ctaId: string;
   /** Mid-content CTA (InContentCTA component) */
   title: string;
   description: string;
@@ -54,6 +59,8 @@ const clusterToTheme: Record<string, FunnelTheme> = {
   'compliance': 'operations',
   'ai-technology': 'operations',
   'optometry': 'operations',
+  'patient-access-measurement': 'operations',
+  'patient-access-operations': 'operations',
   // dental / veterinary intentionally fall through to default (off-ICP: soft CTA only)
 };
 
@@ -62,6 +69,8 @@ const utm = (theme: string, placement: string) =>
 
 export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
   recall_fill_book: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
     title: 'Your Recall List Is Sitting on Revenue',
     description:
       'Scripts help, but someone still has to work the list. MyBCAT teams run recall calls, texts, and rebooking for optometry practices, done for you and measured weekly.',
@@ -74,6 +83,8 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     endButtonHref: utm('recall', 'post-cta'),
   },
   finances_selling: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
     title: 'Practice Value Is Built in Operations',
     description:
       'Recall rate, phone answer rate, and no-shows move your EBITDA, and your valuation. MyBCAT runs the front-desk operations that raise both, whether you plan to grow or eventually sell.',
@@ -90,6 +101,8 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
   //   finance_profit / finance_seller -> the Practice Profit Audit ("another location's worth of profit, without the overhead")
   // Roll-up/sell-side is paused: no "we buy your practice" language anywhere. ---
   finance_open: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
     title: 'Opening a Practice? Watch the Front Desk',
     description:
       'The biggest ongoing cost of a new location is not the lease. It is a full front desk. MyBCAT runs the phones, scheduling, and recall remotely, so you can open without hiring one on day one.',
@@ -102,6 +115,8 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     endButtonHref: utm('finance-open', 'post-cta'),
   },
   finance_profit: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
     title: 'Working Harder, Keeping Less?',
     description:
       'You are not imagining the gap. Another location\'s worth of profit could be hiding inside the practice you already run, and a practice profit audit shows you where.',
@@ -114,6 +129,8 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     endButtonHref: utm('finance-profit', 'post-cta'),
   },
   finance_seller: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
     title: 'Thinking About Selling in the Next Few Years?',
     description:
       'Buyers pay more for a practice that runs without you and keeps its book full. The fastest way to raise your number is to clean up operations before you list, not during diligence.',
@@ -125,7 +142,23 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     endButtonText: 'Get the Practice Profit Audit',
     endButtonHref: utm('finance-seller', 'post-cta'),
   },
+  acquisition_transition: {
+    funnel: 'acquisition',
+    ctaId: 'confidential-seller-inquiry',
+    title: 'Considering a Practice Transition?',
+    description:
+      'Start with a confidential fit and timing conversation. No valuation, financial files, or patient records are required for the first inquiry.',
+    buttonText: 'Start a Confidential Conversation',
+    buttonHref: '/optometry-practice-transitions/?utm_source=blog&utm_medium=in-content-cta&utm_campaign=transition-guides',
+    endTitle: 'Talk Through Fit and Timing Confidentially',
+    endDescription:
+      'Share the basic shape of your goals and timeline. Ankit reviews each inquiry before any qualification or diligence step.',
+    endButtonText: 'Send a Confidential Inquiry',
+    endButtonHref: '/optometry-practice-transitions/?utm_source=blog&utm_medium=post-cta&utm_campaign=transition-guides',
+  },
   operations: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
     title: 'Stop Patching the Front Desk',
     description:
       'HIPAA-trained remote teams answer every call for 30+ optometry practices: scheduling, insurance verification, and recall, with QA you can inspect.',
@@ -138,6 +171,8 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     endButtonHref: utm('operations', 'post-cta'),
   },
   default: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
     title: 'Reduce Your Front Desk Dependency',
     description:
       'MyBCAT helps healthcare practices build resilient intake operations that do not break when staffing is tight.',
@@ -166,17 +201,21 @@ const OFF_ICP = /dental|dentist|veterinar|\bvet\b/i;
 export interface BlogCtaContext {
   slug?: string;
   category?: string;
+  /** The funnel is authoritative and prevents acquisition content from inheriting service CTAs. */
+  funnel?: BlogFunnel;
   /** Explicit frontmatter override (ctaTheme) — authoritative when present. */
   ctaTheme?: FunnelTheme;
 }
 
 /** Resolve a post's CTA variant. Precedence:
- * 1. explicit frontmatter ctaTheme override (authoritative, set per-post for
+ * 1. acquisition funnel -> confidential transition variant
+ * 2. explicit frontmatter ctaTheme override (authoritative, set per-post for
  *    content-classified off-ICP posts, e.g. dental-bodied recall guides)
- * 2. off-ICP slug/category heuristic -> default variant
- * 3. cluster -> theme mapping
- * 4. default variant */
+ * 3. off-ICP slug/category heuristic -> default variant
+ * 4. cluster -> theme mapping
+ * 5. default variant */
 export function getBlogCta(cluster?: string, ctx?: BlogCtaContext): BlogCtaVariant {
+  if (ctx?.funnel === 'acquisition') return blogCtaVariants.acquisition_transition;
   if (ctx?.ctaTheme && blogCtaVariants[ctx.ctaTheme]) return blogCtaVariants[ctx.ctaTheme];
   const haystack = [ctx?.slug, ctx?.category].filter(Boolean).join(' ');
   if (OFF_ICP.test(haystack)) return blogCtaVariants.default;

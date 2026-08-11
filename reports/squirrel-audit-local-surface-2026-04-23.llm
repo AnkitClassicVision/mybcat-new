@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audit version="0.0.36">
+<site url="http://127.0.0.1:4321" crawled="40" date="2026-04-23T14:44:07.612Z"/>
+<score overall="71" grade="C">
+ <cat name="Performance" score="81"/>
+ <cat name="Security" score="56"/>
+ <cat name="Crawlability" score="85"/>
+ <cat name="Links" score="90"/>
+ <cat name="Images" score="94"/>
+ <cat name="Accessibility" score="99"/>
+ <cat name="Internationalization" score="87"/>
+ <cat name="Content" score="97"/>
+ <cat name="E-E-A-T" score="89"/>
+ <cat name="Analytics" score="100"/>
+ <cat name="Core SEO" score="100"/>
+ <cat name="Legal Compliance" score="100"/>
+ <cat name="Local SEO" score="100"/>
+ <cat name="Mobile" score="100"/>
+ <cat name="Structured Data" score="100"/>
+ <cat name="Social Media" score="100"/>
+ <cat name="URL Structure" score="100"/>
+</score>
+<summary passed="4003" warnings="341" failed="81"/>
+<issues>
+ <category name="Crawlability" errors="1" warnings="41">
+  <rule id="crawl/sitemap-domain" severity="error" status="fail" docs="https://docs.squirrelscan.com/rules/crawl/sitemap-domain">
+   430 URL(s) point to different domain(s)
+   Items (5/430):
+    - https://mybcat.com/ [host: mybcat.com]
+    - https://mybcat.com/about/ [host: mybcat.com]
+    - https://mybcat.com/ai-profile/ [host: mybcat.com]
+    - https://mybcat.com/author/ankit-patel/ [host: mybcat.com]
+    - https://mybcat.com/author/dr-mital-patel/ [host: mybcat.com]
+  </rule>
+  <rule id="crawl/canonical-chain" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/crawl/canonical-chain">
+   Page redirects before content is served
+   Pages (5/39): /about, /ai-profile, /blog, /careers, /case-studies
+   Items (5/39):
+    - /pricing/ (http://127.0.0.1:4321/pricing (301) → http://127.0.0.1:4321/pricing/ (200)) [finalUrl: http://127.0.0.1:4321/pricing/, chain: {&quot;sourceUrl&quot;:&quot;http://127.0.0.1:4321/pricing&quot;,&quot;finalUrl&quot;:&quot;http://127.0.0.1:4321/pricing/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://127.0.0.1:4321/pricing&quot;,&quot;statusCode&quot;:301,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;http://127.0.0.1:4321/p…]
+    - /solutions/ (http://127.0.0.1:4321/solutions (301) → http://127.0.0.1:4321/solutions/ (200)) [finalUrl: http://127.0.0.1:4321/solutions/, chain: {&quot;sourceUrl&quot;:&quot;http://127.0.0.1:4321/solutions&quot;,&quot;finalUrl&quot;:&quot;http://127.0.0.1:4321/solutions/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://127.0.0.1:4321/solutions&quot;,&quot;statusCode&quot;:301,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;http://127.0.0.1:…]
+    - /resources/ (http://127.0.0.1:4321/resources (301) → http://127.0.0.1:4321/resources/ (200)) [finalUrl: http://127.0.0.1:4321/resources/, chain: {&quot;sourceUrl&quot;:&quot;http://127.0.0.1:4321/resources&quot;,&quot;finalUrl&quot;:&quot;http://127.0.0.1:4321/resources/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://127.0.0.1:4321/resources&quot;,&quot;statusCode&quot;:301,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;http://127.0.0.1:…]
+    - /blog/ (http://127.0.0.1:4321/blog (301) → http://127.0.0.1:4321/blog/ (200)) [finalUrl: http://127.0.0.1:4321/blog/, chain: {&quot;sourceUrl&quot;:&quot;http://127.0.0.1:4321/blog&quot;,&quot;finalUrl&quot;:&quot;http://127.0.0.1:4321/blog/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://127.0.0.1:4321/blog&quot;,&quot;statusCode&quot;:301,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;http://127.0.0.1:4321/blog/&quot;,&quot;st…]
+    - /faq/ (http://127.0.0.1:4321/faq (301) → http://127.0.0.1:4321/faq/ (200)) [finalUrl: http://127.0.0.1:4321/faq/, chain: {&quot;sourceUrl&quot;:&quot;http://127.0.0.1:4321/faq&quot;,&quot;finalUrl&quot;:&quot;http://127.0.0.1:4321/faq/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://127.0.0.1:4321/faq&quot;,&quot;statusCode&quot;:301,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;http://127.0.0.1:4321/faq/&quot;,&quot;status…]
+  </rule>
+  <rule id="crawl/sitemap-coverage" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/crawl/sitemap-coverage">
+   40 indexable page(s) not in sitemap (100%); 430 sitemap URL(s) were not crawled
+   Items (5/470):
+    - /
+    - /pricing
+    - /solutions
+    - /resources
+    - /blog
+  </rule>
+ </category>
+ <category name="Security" errors="40" warnings="3">
+  <rule id="security/https" severity="error" status="fail" docs="https://docs.squirrelscan.com/rules/security/https">
+   Page not served over HTTPS
+   Pages (5/40): /, /about, /ai-profile, /blog, /careers
+  </rule>
+  <rule id="security/csp" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/security/csp">
+   No Content-Security-Policy header
+  </rule>
+  <rule id="security/x-frame-options" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/security/x-frame-options">
+   No clickjacking protection
+  </rule>
+  <rule id="security/form-captcha" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/security/form-captcha">
+   1 public form(s) without CAPTCHA
+   Pages (1): /contact
+   Items (1):
+    - #contact-form
+  </rule>
+ </category>
+ <category name="Links" errors="0" warnings="42">
+  <rule id="links/internal-links" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/links/internal-links">
+   Too many internal links (151, max 100); Too many internal links (121, max 100); Too many internal links (125, max 100); Too many internal links (124, max 100); Too many internal links (201, max 100); Too many internal links (119, max 100); Too many internal links (123, max 100); Too many internal links (118, max 100); Too many internal links (129, max 100); Too many internal links (126, max 100); Too many internal links (138, max 100); Too many internal links (117, max 100); Too many internal links (351, max 100); Too many internal links (115, max 100); Too many internal links (127, max 100); Too many internal links (133, max 100); Too many internal links (131, max 100); Too many internal links (130, max 100)
+   Pages (5/40): /, /about, /ai-profile, /blog, /careers
+  </rule>
+  <rule id="links/redirect-chains" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/links/redirect-chains">
+   39 page(s) redirect to another URL; 39 link target(s) point to redirecting URLs
+   Items (5/78):
+    - /pricing (http://127.0.0.1:4321/pricing (301) → http://127.0.0.1:4321/pricing/ (200)) [targetUrl: http://127.0.0.1:4321/pricing/, chain: {&quot;sourceUrl&quot;:&quot;http://127.0.0.1:4321/pricing&quot;,&quot;finalUrl&quot;:&quot;http://127.0.0.1:4321/pricing/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://127.0.0.1:4321/pricing&quot;,&quot;statusCode&quot;:301,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;http://127.0.0.1:4321/p…]
+    - /solutions (http://127.0.0.1:4321/solutions (301) → http://127.0.0.1:4321/solutions/ (200)) [targetUrl: http://127.0.0.1:4321/solutions/, chain: {&quot;sourceUrl&quot;:&quot;http://127.0.0.1:4321/solutions&quot;,&quot;finalUrl&quot;:&quot;http://127.0.0.1:4321/solutions/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://127.0.0.1:4321/solutions&quot;,&quot;statusCode&quot;:301,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;http://127.0.0.1:…]
+    - /resources (http://127.0.0.1:4321/resources (301) → http://127.0.0.1:4321/resources/ (200)) [targetUrl: http://127.0.0.1:4321/resources/, chain: {&quot;sourceUrl&quot;:&quot;http://127.0.0.1:4321/resources&quot;,&quot;finalUrl&quot;:&quot;http://127.0.0.1:4321/resources/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://127.0.0.1:4321/resources&quot;,&quot;statusCode&quot;:301,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;http://127.0.0.1:…]
+    - /blog (http://127.0.0.1:4321/blog (301) → http://127.0.0.1:4321/blog/ (200)) [targetUrl: http://127.0.0.1:4321/blog/, chain: {&quot;sourceUrl&quot;:&quot;http://127.0.0.1:4321/blog&quot;,&quot;finalUrl&quot;:&quot;http://127.0.0.1:4321/blog/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://127.0.0.1:4321/blog&quot;,&quot;statusCode&quot;:301,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;http://127.0.0.1:4321/blog/&quot;,&quot;st…]
+    - /faq (http://127.0.0.1:4321/faq (301) → http://127.0.0.1:4321/faq/ (200)) [targetUrl: http://127.0.0.1:4321/faq/, chain: {&quot;sourceUrl&quot;:&quot;http://127.0.0.1:4321/faq&quot;,&quot;finalUrl&quot;:&quot;http://127.0.0.1:4321/faq/&quot;,&quot;hops&quot;:[{&quot;url&quot;:&quot;http://127.0.0.1:4321/faq&quot;,&quot;statusCode&quot;:301,&quot;type&quot;:&quot;http&quot;},{&quot;url&quot;:&quot;http://127.0.0.1:4321/faq/&quot;,&quot;status…]
+  </rule>
+ </category>
+ <category name="Content" errors="0" warnings="16">
+  <rule id="content/keyword-stuffing" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/content/keyword-stuffing">
+   1 word(s) may be overused; 2 word(s) may be overused
+   Pages (5/16): /blog, /faq, /gdpr, /how-it-works, /privacy-policy
+   Items (5/12):
+    - patient (&quot;patient&quot; (3.1%)) [count: 21, density: 3.070175438596491]
+    - location (&quot;location&quot; (3.2%)) [count: 27, density: 3.161592505854801]
+    - your (&quot;your&quot; (3.7%)) [count: 33, density: 3.6995515695067267]
+    - optometry (&quot;optometry&quot; (3.2%)) [count: 43, density: 3.235515425131678]
+    - information (&quot;information&quot; (3.1%)) [count: 19, density: 3.125]
+  </rule>
+ </category>
+ <category name="Images" errors="0" warnings="40">
+  <rule id="images/responsive-size" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/images/responsive-size">
+   5 small image(s) may be serving oversized files; 3 small image(s) may be serving oversized files; 4 small image(s) may be serving oversized files
+   Pages (5/40): /, /about, /ai-profile, /blog, /careers
+   Items (5/12):
+    - logo-optimized.webp (36x33, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+    - logo-optimized.webp (54x50, no srcset)
+    - dittman-headshot-optimized.webp (44x44, no srcset)
+  </rule>
+ </category>
+ <category name="Performance" errors="40" warnings="123">
+  <rule id="perf/compression" severity="warning" status="fail" docs="https://docs.squirrelscan.com/rules/perf/compression">
+   No compression detected (82KB uncompressed); No compression detected (52KB uncompressed); No compression detected (50KB uncompressed); No compression detected (37KB uncompressed); No compression detected (58KB uncompressed); No compression detected (49KB uncompressed); No compression detected (51KB uncompressed); No compression detected (55KB uncompressed); No compression detected (35KB uncompressed); No compression detected (48KB uncompressed); No compression detected (64KB uncompressed); No compression detected (43KB uncompressed); No compression detected (42KB uncompressed); No compression detected (31KB uncompressed); No compression detected (46KB uncompressed); No compression detected (38KB uncompressed); No compression detected (68KB uncompressed); No compression detected (66KB uncompressed); No compression detected (65KB uncompressed); No compression detected (67KB uncompressed)
+   Pages (5/40): /, /about, /ai-profile, /blog, /careers
+  </rule>
+  <rule id="perf/dom-size" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/dom-size">
+   Element with 150 children found
+   Pages (1): /sitemap
+  </rule>
+  <rule id="perf/total-byte-weight" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/total-byte-weight">
+   Total tracked resources: 2547KB (heavy page)
+  </rule>
+  <rule id="perf/critical-request-chains" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/critical-request-chains">
+   2 critical request chain(s) found; 1 critical request chain(s) found
+   Pages (5/40): /, /about, /ai-profile, /blog, /careers
+   Items (5/20):
+    - CSS: /_astro/_slug_.BFwyk8Ec.css
+    - CSS: /_astro/index.DRbI099p.css
+    - CSS: /_astro/pricing.BldMfUO0.css
+    - CSS: /_astro/index.B3aCQ-50.css
+    - CSS: /_astro/index.DBoCgXbW.css
+  </rule>
+  <rule id="perf/unminified-js" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/unminified-js">
+   1 JavaScript file(s) appear unminified
+   Pages (1): /contact
+   Items (1):
+    - inline script (5.3KB, ~1.4KB savings) [reason: high newlines (2.17%), 12 comments, long variable names, formatted code, excessive whitespace]
+  </rule>
+  <rule id="perf/cache-headers" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/perf/cache-headers">
+   No caching headers found
+   Pages (5/40): /, /about, /ai-profile, /blog, /careers
+  </rule>
+  <rule id="perf/http2" severity="info" status="warn" docs="https://docs.squirrelscan.com/rules/perf/http2">
+   HTTP/2 requires HTTPS
+   Pages (5/40): /, /about, /ai-profile, /blog, /careers
+  </rule>
+ </category>
+ <category name="Accessibility" errors="0" warnings="38">
+  <rule id="a11y/color-contrast" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/color-contrast">
+   2 potential color contrast issue(s)
+   Pages (5/33): /, /about, /blog, /careers, /case-studies
+   Items (5/10):
+    - White text (verify background): 8 instance(s)
+    - Very light text color: 8 instance(s)
+    - White text (verify background): 6 instance(s)
+    - Very light text color: 6 instance(s)
+    - White text (verify background): 2 instance(s)
+  </rule>
+  <rule id="a11y/identical-links-same-purpose" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/identical-links-same-purpose">
+   4 link text(s) lead to different destinations
+   Pages (2): /blog, /sitemap
+   Items (5):
+    - &quot;optometry&quot; → 2 different URLs
+    - &quot;dental&quot; → 2 different URLs
+    - &quot;get started&quot; → 2 different URLs
+    - &quot;enterprise&quot; → 2 different URLs
+    - &quot;hipaa compliance&quot; → 2 different URLs
+  </rule>
+  <rule id="a11y/image-redundant-alt" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/a11y/image-redundant-alt">
+   1 image(s) with redundant alt text; 4 image(s) with redundant alt text
+   Pages (3): /, /blog, /enterprise
+   Items (5/6):
+    - alt=&quot;iDoc&quot; matches filename
+    - &quot;Dr. Michael Dittman...&quot; duplicates surrounding text
+    - alt=&quot;EHR PMS Integration Centralized Scheduling Enterprise&quot; matches filename
+    - alt=&quot;Patient Access Center RFP Vendor Checklist Enterprise&quot; matches filename
+    - alt=&quot;Multi-Location Call Center QA Calibration Healthcare&quot; matches filename
+  </rule>
+ </category>
+ <category name="Internationalization" errors="0" warnings="37">
+  <rule id="i18n/hreflang" severity="info" status="warn" docs="https://docs.squirrelscan.com/rules/i18n/hreflang">
+   No self-referencing hreflang found
+   Pages (5/37): /, /about, /ai-profile, /careers, /case-studies
+  </rule>
+ </category>
+ <category name="E-E-A-T" errors="0" warnings="1">
+  <rule id="eeat/author-byline" severity="warning" status="warn" docs="https://docs.squirrelscan.com/rules/eeat/author-byline">
+   No content pages have author attribution
+  </rule>
+ </category>
+</issues>
+</audit>
