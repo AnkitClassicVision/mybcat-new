@@ -1,6 +1,6 @@
 ---
 title: Patient Win-Back Strategy for Enterprise Groups
-seoTitle: Patient Win-Back Strategy for Enterprise Groups
+seoTitle: Patient Win-Back Strategy for Multi-Location Groups
 description: 'Patient win-back strategy for enterprise practice groups: centralize
   reactivation, segment outreach, and standardize recall across multi-location care.'
 seoDescription: 'Patient win-back strategy for enterprise practice groups: centralize

@@ -4,7 +4,7 @@ seoTitle: Enterprise Front Office Consolidation Change Management
 description: Front office consolidation change management playbook for multi-location
   healthcare groups standardizing access, training, QA, and reporting.
 seoDescription: Front office consolidation change management for enterprise healthcare
-  groups standardizing access, training, QA, and reporting.
+  groups standardizing access, training, QA, reporting, and rollout governance.
 publishDate: '2026-07-25T10:26:22.572Z'
 status: published
 author: Ankit Patel

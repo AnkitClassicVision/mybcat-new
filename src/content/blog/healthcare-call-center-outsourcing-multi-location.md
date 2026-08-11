@@ -1,10 +1,10 @@
 ---
 title: Healthcare Call Center Outsourcing for Multi-Location
-seoTitle: Healthcare Call Center Outsourcing Multi-Location
+seoTitle: Healthcare Call Center Outsourcing for Multi-Location Groups
 description: 'Healthcare call center outsourcing for multi-location groups: how COOs
   standardize intake, BAAs, routing, and QA across every site without site-level drift.'
 seoDescription: Healthcare call center outsourcing multi-location playbook for COOs
-  covering centralization, BAA review, routing design, and QA governance.
+  covering centralization, BAA review, routing design, and QA governance at scale.
 publishDate: '2026-07-07T11:55:59.946Z'
 status: published
 author: Ankit Patel

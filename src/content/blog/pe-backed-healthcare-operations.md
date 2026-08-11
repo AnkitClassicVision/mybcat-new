@@ -427,7 +427,7 @@ Multi-location healthcare groups need standardized intake across every site. [Ta
 - [MGMA: Foundational Benchmarks and KPIs for Medical Practice Operations](https://www.mgma.com/articles/foundational-benchmarks-and-kpis-for-medical-practice-operations-in-2023)
 - [NetSuite: Healthcare KPIs and Metrics](https://www.netsuite.com/portal/resource/articles/erp/healthcare-kpis.shtml)
 - [Messina Group: Key Metrics for Healthcare Providers](https://messinagroupinc.com/key-metrics-for-healthcare-providers/)
-- [Cofi.ai: KPIs for Private Equity Portfolio Management](https://www.cofi.ai/resources/key-performance-indicators-kpis-critical-tools-for-private-equity-firm-portfolio-management)
+- [American Optometric Association: Selling Your Practice to a Private Equity Firm](https://www.aoa.org/news/practice-management/perfect-your-practice/selling-your-practice-to-a-private-equity-firm)
 - [InsightSoftware: Healthcare KPIs and Metric Examples](https://insightsoftware.com/blog/25-best-healthcare-kpis-and-metric-examples/)
 - [Maven Financial Partners: Financial KPIs for Healthcare Practice](https://mavenfp.com/post/financial-kpis-for-your-healthcare-practice)
 - [Zone & Co: KPIs for PE-Backed Companies](https://www.zoneandco.com/articles/kpis-for-pe-backed-companies-metrics-that-matter-at-every-growth-stage)

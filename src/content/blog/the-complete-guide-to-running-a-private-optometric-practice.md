@@ -2,7 +2,7 @@
 title: "Complete Guide to Running a Private Optometry Practice"
 seoTitle: "Running a Private Optometry Practice: Group Operations"
 description: "A practical guide for multi-location optometry groups to standardize finance, patient access, staffing, compliance, and growth operations."
-seoDescription: "A practical guide for multi-location optometry groups to standardize finance, patient access, staffing, compliance, and growth operations."
+seoDescription: "A practical guide for multi-location optometry groups to standardize finance, patient access, staffing, compliance, and sustainable growth operations."
 publishDate: 2023-11-13
 modifiedDate: '2026-07-16'
 status: published

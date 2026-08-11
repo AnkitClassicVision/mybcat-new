@@ -1,6 +1,6 @@
 ---
 title: DSO Centralized Scheduling Benchmarks
-seoTitle: DSO Centralized Scheduling Benchmarks for Groups
+seoTitle: DSO Centralized Scheduling Benchmarks for Dental Groups
 description: DSO centralized scheduling benchmarks for multi-location leaders standardizing
   access, reporting variance, and calibrating SLAs across dental groups.
 seoDescription: DSO centralized scheduling benchmarks for multi-location leaders standardizing
