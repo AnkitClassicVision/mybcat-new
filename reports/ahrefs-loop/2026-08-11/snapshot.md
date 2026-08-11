@@ -244,13 +244,13 @@ Live probes do not run until Ankit merges. The PR body carries the exact `curl` 
 | lighthouse | pass |
 | AAC finalize (advisory) | pass |
 | Vercel Preview Comments | pass |
-| **Vercel** | **fail — "GitHub couldn't verify an account for the commit"** |
+| Vercel | pass (after the fix below) |
 
-Every gate that tests the content is green. The one red check is an orchestrator mistake, not a content defect.
+**All checks green. `mergeStateStatus: CLEAN`, auto-merge not enabled, PR open and waiting on Ankit.**
 
-**Orchestrator error — commit identity.** The commits were authored with `ankit@mybcat.com`, which is not the email linked to the GitHub account. The repo's own git config carries the correct one (`42551708+AnkitClassicVision@users.noreply.github.com`) and the loop should simply have used it instead of overriding it. Vercel's deployment integration refuses to attribute a commit it cannot map to an account, so its check goes red.
+**Orchestrator error — commit identity.** The first two commits were authored with `ankit@mybcat.com`, which is not the email linked to the GitHub account. The repo's own git config already carries the correct one (`42551708+AnkitClassicVision@users.noreply.github.com`); the loop overrode it for no reason. Vercel's deployment integration refuses to attribute a commit it cannot map to an account, so its check went red on the first two pushes with "GitHub couldn't verify an account for the commit."
 
-The clean fix is a history rewrite, which this box's `git-main-guard` hook blocks (force-pushes are denied on protected repos, correctly). Opening a replacement PR would break the runbook's one-fix-PR-per-run cap. So the correction applied here was a follow-up commit carrying the right identity, and the loop's commit step must stop passing `-c user.email` at all — the worktree already has the right value.
+The clean fix would be a history rewrite, which this box's `git-main-guard` hook blocks — force-pushes are denied on protected repos, correctly. Opening a replacement PR would break the one-fix-PR-per-run cap. So the fix applied was a third commit carrying the correct identity, on the theory that Vercel attributes the head commit rather than the whole branch. That theory held: the Vercel check flipped to pass and the preview deployment completed.
 
 Runbook lesson to carry forward: **never override `user.name` / `user.email` at commit time. Use the repository's configured identity.**
 
@@ -264,8 +264,10 @@ base:           7d966c2 origin/main
 branch:         seo/cleanup-2026-08-11
 ahrefs budget:  300 / 1500 units (workspace 28,558 -> 28,858)
 ringer lanes:   10 / 10 cap, 10 PASS, 1 requeue, 0 failed, 0 salvaged
-ci:             all repo checks green (content-quality, pre/post-build, build, lighthouse, AAC)
-                Vercel check red on commit-account verification — orchestrator identity error, not content
+ci:             ALL GREEN (content-quality, pre/post-build, build, lighthouse, AAC, Vercel)
+                mergeStateStatus CLEAN, auto-merge NOT enabled, PR open
+                (Vercel initially red on commit-account verification — orchestrator identity
+                 error, fixed by a correctly-attributed head commit)
 found:          50 legacy-quality failures, 26 meta-warning posts, 3 dead outbound links,
                 1 per-page schema post, 0 broken backlinks, 0 orphans, 0 shared-generator schema errors
 fixed:          7 posts to standard, 15 posts' meta cleared, 3 dead links replaced, 9 schema warnings cleared
