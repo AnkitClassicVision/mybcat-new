@@ -255,6 +255,6 @@ report-only:    /compare/vs-hello-rache/ organic drop (pos 6->13 on "hello rache
 deferred:       43 legacy-quality failures, 11 meta-warning posts (queue for next run)
 post-merge:     202 pages queued for IndexNow; live probes listed in the PR body
 needs ankit:    review + merge the PR — in particular the seven shrunken posts
-pr:             PR_URL_PLACEHOLDER
+pr:             https://github.com/AnkitClassicVision/mybcat-new/pull/88
 ```
 
