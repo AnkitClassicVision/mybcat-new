@@ -12,20 +12,24 @@
 
 import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
+import { isPostVisible } from '@utils/blog';
 
 export interface Props {
   currentSlug: string;
   currentCategory?: string;
   currentTags?: string[];
+  currentFunnel?: 'service' | 'acquisition';
   relatedSlugs?: string[];
   maxPosts?: number;
 }
 
-const { currentSlug, currentCategory, currentTags = [], relatedSlugs = [], maxPosts = 3 } = Astro.props;
+const { currentSlug, currentCategory, currentTags = [], currentFunnel = 'service', relatedSlugs = [], maxPosts = 3 } = Astro.props;
 
-// Get all published posts (exclude future-dated posts)
-const now = new Date();
-const allPosts = await getCollection('blog', ({ data }) => data.status === 'published' && data.publishDate <= now);
+// Keep recommendations inside the current funnel. This prevents a confidential
+// seller article from falling back to a recent service-marketing post.
+const allPosts = await getCollection('blog', ({ data }) =>
+  isPostVisible(data) && data.funnel === currentFunnel
+);
 
 // Filter out current post
 const otherPosts = allPosts.filter(post => post.slug !== currentSlug);

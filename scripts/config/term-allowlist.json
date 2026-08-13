@@ -60,6 +60,20 @@
       "reason": "AI profile page - company headquarters location is factual business information",
       "approvedBy": "SEO Lead",
       "approvedDate": "2026-02-20"
+    },
+    {
+      "file": "src/content/blog/patient-continuity-optometry-practice-transition.md",
+      "terms": ["Georgia"],
+      "reason": "official state optometry record-retention source used for bounded legal context",
+      "approvedBy": "Ankit",
+      "approvedDate": "2026-08-13"
+    },
+    {
+      "file": "src/pages/optometry-practice-transitions/index.astro",
+      "terms": ["Georgia"],
+      "reason": "B2B seller-intake service area and structured practice-state field, not consumer targeting",
+      "approvedBy": "Ankit",
+      "approvedDate": "2026-08-13"
     }
   ],
 

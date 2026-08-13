@@ -1,0 +1,451 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import { getCollection } from 'astro:content';
+import { isPostVisible } from '@utils/blog';
+
+const transitionPosts = (await getCollection('blog', ({ data }) =>
+  isPostVisible(data) && data.funnel === 'acquisition'
+)).sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+---
+
+<PageLayout
+  disableTracking={true}
+  title="Confidential Optometry Practice Transitions | MyBCAT"
+  description="A confidential first conversation for independent optometry practice owners in the Southeast who are considering a future transition."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Optometry Practice Transitions' }
+  ]}
+  heroEyebrow="Separate Confidential Path"
+  heroTitle="Considering What Comes Next for Your Optometry Practice?"
+  heroSubtitle="Start with basic fit and timing. Financial files, patient information, and practice records belong in a later secure diligence process only after human approval."
+>
+  <div class="transition-page">
+    <section class="transition-context" aria-labelledby="transition-context-title">
+      <div>
+        <p class="context-label">For owner-led practices</p>
+        <h2 id="transition-context-title">A private first conversation, not a valuation form</h2>
+        <p>This path is for owners or authorized representatives of optometry practices in Georgia, Florida, Alabama, Tennessee, South Carolina, and North Carolina.</p>
+      </div>
+      <ul>
+        <li>Share only fit, timing, and your preferred role after a transition.</li>
+        <li>Do not upload financial statements, patient records, or diligence documents.</li>
+        <li>Your inquiry does not enter MyBCAT service marketing unless you opt in below.</li>
+      </ul>
+    </section>
+
+    {transitionPosts.length > 0 && (
+      <section class="transition-guides" aria-labelledby="transition-guides-title">
+        <div class="guides-heading">
+          <div>
+            <p class="context-label">Owner planning library</p>
+            <h2 id="transition-guides-title">Prepare before you share sensitive records</h2>
+            <p>These guides cover goals, continuity, readiness, and the questions to bring to qualified legal, tax, and valuation professionals.</p>
+          </div>
+          <a href="/blog/category/practice-transitions/">View all transition guides</a>
+        </div>
+        <div class="guide-grid">
+          {transitionPosts.slice(0, 6).map(post => (
+            <article class="guide-card">
+              <h3><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h3>
+              <p>{post.data.description}</p>
+              <a class="guide-link" href={`/blog/${post.slug}/`}>Read the guide</a>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="transition-form-card" aria-labelledby="transition-form-title">
+      <div data-form-content>
+        <p class="form-kicker">Confidential inquiry</p>
+        <h2 id="transition-form-title">Tell us the basic shape of the transition</h2>
+        <p class="form-intro">Ankit reviews each inquiry. Submission does not mean the practice is qualified, valued, or under diligence.</p>
+
+        <form
+          id="acquisition-intake-form"
+          data-seo-intake-form
+          data-funnel="acquisition"
+          data-form-id="acquisition-intake-v1"
+          data-content-cluster="optometry-practice-transitions"
+          data-cta-id="confidential-seller-inquiry"
+          data-success-target="acquisition-success"
+        >
+          <div class="form-row">
+            <div class="form-field">
+              <label for="at-firstname">First Name <span aria-hidden="true">*</span></label>
+              <input id="at-firstname" name="firstname" type="text" autocomplete="given-name" required />
+            </div>
+            <div class="form-field">
+              <label for="at-lastname">Last Name <span aria-hidden="true">*</span></label>
+              <input id="at-lastname" name="lastname" type="text" autocomplete="family-name" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="at-email">Work Email <span aria-hidden="true">*</span></label>
+              <input id="at-email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="form-field">
+              <label for="at-phone">Phone Number</label>
+              <input id="at-phone" name="mobilephone" type="tel" autocomplete="tel" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="at-state">Practice State <span aria-hidden="true">*</span></label>
+              <select id="at-state" name="state" required>
+                <option value="">Select...</option>
+                <option value="GA">Georgia</option>
+                <option value="FL">Florida</option>
+                <option value="AL">Alabama</option>
+                <option value="TN">Tennessee</option>
+                <option value="SC">South Carolina</option>
+                <option value="NC">North Carolina</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="at-locations">Number of Locations <span aria-hidden="true">*</span></label>
+              <select id="at-locations" name="number_of_locations" required>
+                <option value="">Select...</option>
+                <option value="1 Location">1 Location</option>
+                <option value="2 Locations">2 Locations</option>
+                <option value="3 Locations">3 Locations</option>
+                <option value="4+ Locations">4+ Locations</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="at-horizon">Transition Horizon <span aria-hidden="true">*</span></label>
+              <select id="at-horizon" name="transition_horizon" required>
+                <option value="">Select...</option>
+                <option value="Within 12 months">Within 12 months</option>
+                <option value="1-2 years">1 to 2 years</option>
+                <option value="3+ years">3+ years</option>
+                <option value="Exploring options">Exploring options</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="at-involvement">Desired Post-Sale Involvement</label>
+              <select id="at-involvement" name="post_sale_involvement">
+                <option value="">Select...</option>
+                <option value="Stay clinically involved">Stay clinically involved</option>
+                <option value="Short transition period">Short transition period</option>
+                <option value="Exit operations">Exit operations</option>
+                <option value="Not sure yet">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+
+          <label class="consent-row" for="at-confidentiality">
+            <input id="at-confidentiality" name="confidentiality_consent" type="checkbox" value="yes" required />
+            <span>I am the owner or an authorized representative, and I consent to MyBCAT processing this confidential transition inquiry. <strong>*</strong></span>
+          </label>
+
+          <label class="consent-row consent-row-secondary" for="at-service-interest">
+            <input id="at-service-interest" name="service_interest_consent" type="checkbox" value="yes" />
+            <span>I separately want information about MyBCAT patient-access services. Leave this unchecked to keep the inquiry out of service marketing.</span>
+          </label>
+
+          <p class="privacy-note">Do not enter patient information, credentials, financial details, or confidential diligence records. See our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+          <p class="submit-error" data-submit-error role="alert" tabindex="-1" hidden></p>
+          <button type="submit">Send Confidential Inquiry</button>
+        </form>
+      </div>
+
+      <div id="acquisition-success" class="success-state" role="status" aria-live="polite" hidden>
+        <div class="success-mark" aria-hidden="true">✓</div>
+        <p class="form-kicker">Inquiry received</p>
+        <h2>Your confidential inquiry was safely accepted.</h2>
+        <p>Ankit will review the owner, geography, transition interest, and timing before deciding whether to continue the conversation. No valuation or qualification decision has been made.</p>
+      </div>
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .transition-page {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 24px 96px;
+  }
+
+  .transition-context {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 48px;
+    padding: 32px;
+    margin-bottom: 28px;
+    background: var(--navy-900);
+    border-radius: 18px;
+  }
+
+  .transition-context h2,
+  .transition-context p,
+  .transition-context li {
+    color: #fff;
+  }
+
+  .transition-context h2 {
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+    margin-bottom: 14px;
+  }
+
+  .transition-context p,
+  .transition-context li {
+    color: rgba(255, 255, 255, 0.82);
+  }
+
+  .transition-context ul {
+    display: grid;
+    gap: 12px;
+    align-content: center;
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .context-label,
+  .form-kicker {
+    margin-bottom: 10px;
+    color: var(--electric-aqua);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .form-kicker {
+    color: var(--oceanic-teal);
+  }
+
+  .transition-form-card {
+    padding: clamp(24px, 5vw, 48px);
+    background: #fff;
+    border: 1px solid var(--glass-border);
+    border-radius: 18px;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .transition-guides {
+    margin-bottom: 28px;
+    padding: clamp(8px, 2vw, 16px) 0;
+  }
+
+  .guides-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 28px;
+    margin-bottom: 24px;
+  }
+
+  .guides-heading h2 {
+    margin-bottom: 10px;
+  }
+
+  .guides-heading > a {
+    flex: 0 0 auto;
+    color: var(--oceanic-teal);
+    font-weight: 700;
+  }
+
+  .guide-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .guide-card {
+    padding: 20px 0;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  .guide-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+  }
+
+  .guide-card h3 a {
+    color: var(--navy-900);
+  }
+
+  .guide-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--oceanic-teal);
+    font-weight: 700;
+  }
+
+  .transition-form-card h2 {
+    margin-bottom: 12px;
+  }
+
+  .form-intro {
+    max-width: 680px;
+    margin-bottom: 28px;
+  }
+
+  form {
+    display: grid;
+    gap: 18px;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .form-field {
+    display: grid;
+    gap: 7px;
+  }
+
+  label {
+    color: var(--navy-900);
+    font-size: 14px;
+    font-weight: 650;
+  }
+
+  label > span[aria-hidden="true"],
+  .consent-row strong {
+    color: #b42318;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--navy-900);
+    font: inherit;
+  }
+
+  input:focus-visible,
+  select:focus-visible,
+  button:focus-visible,
+  a:focus-visible {
+    outline: 3px solid rgba(0, 96, 100, 0.24);
+    outline-offset: 2px;
+    border-color: var(--oceanic-teal);
+  }
+
+  .consent-row {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 10px;
+    align-items: start;
+    padding: 14px;
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    background: var(--cream-50);
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  .consent-row input {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+  }
+
+  .consent-row-secondary {
+    background: #fff;
+  }
+
+  .privacy-note {
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .privacy-note a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .submit-error {
+    padding: 12px 14px;
+    border: 1px solid #b42318;
+    border-radius: 8px;
+    background: #fff4f2;
+    color: #7a271a;
+    font-size: 14px;
+  }
+
+  .submit-error[hidden],
+  .success-state[hidden] {
+    display: none;
+  }
+
+  button {
+    justify-self: start;
+    padding: 14px 24px;
+    border: 1px solid var(--oceanic-teal);
+    border-radius: 8px;
+    background: var(--oceanic-teal);
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  button:hover:not(:disabled) {
+    background: var(--navy-900);
+    border-color: var(--navy-900);
+  }
+
+  button:disabled {
+    cursor: wait;
+    opacity: 0.72;
+  }
+
+  .success-state {
+    max-width: 680px;
+    padding: 16px 0;
+  }
+
+  .success-mark {
+    display: grid;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: var(--oceanic-teal);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  @media (max-width: 760px) {
+    .transition-page {
+      padding-inline: 16px;
+    }
+
+    .transition-context,
+    .form-row,
+    .guide-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .guides-heading {
+      align-items: start;
+      flex-direction: column;
+    }
+
+    .transition-context {
+      gap: 24px;
+      padding: 24px;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+</style>

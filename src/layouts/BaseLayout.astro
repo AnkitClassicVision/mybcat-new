@@ -167,7 +167,7 @@ const shouldPreloadLogo = navMode !== 'hidden';
   )}
 
   <!-- DNS prefetch for third-party resources -->
-  <link rel="dns-prefetch" href="https://js.hsforms.net">
+  <link rel="dns-prefetch" href="https://js.hs-scripts.com">
   {!disableTracking && (
     <>
       <link rel="dns-prefetch" href="https://www.googletagmanager.com">
@@ -190,13 +190,6 @@ const shouldPreloadLogo = navMode !== 'hidden';
 
   <slot name="head" />
 
-  {/* HubSpot tracking script — sets hubspotutk cookie for workflow enrollment + form attribution */}
-  {!disableTracking && (
-    <>
-      <script is:inline>window.hsConversationsSettings = {loadImmediately: false};</script>
-      <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/23344341.js" />
-    </>
-  )}
 </head>
 <body>
   <a href="#main-content" class="skip-to-content">Skip to main content</a>
@@ -208,6 +201,13 @@ const shouldPreloadLogo = navMode !== 'hidden';
   <Footer />
 
   <slot name="footer-scripts" />
+
+  {/* First-party attribution stores only normalized campaign categories and paths. */}
+  <script is:inline src="/js/seo-attribution.js" defer></script>
+  <script is:inline src="/js/intake-form.js" defer></script>
+
+  {/* HubSpot is nonessential for first paint and loads only after consent or interaction. */}
+  {!disableTracking && <script is:inline src="/js/deferred-hubspot.js" defer></script>}
 
   {/* Block Vector.co pixel - misconfigured in GTM, causes console errors */}
   <script is:inline>

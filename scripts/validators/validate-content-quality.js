@@ -21,9 +21,9 @@
 
 import fs from 'fs';
 import path from 'path';
-import { execSync } from 'child_process';
 import matter from 'gray-matter';
 import { fileURLToPath, pathToFileURL } from 'url';
+import { changedFilesFromGit } from '../lib/git-diff-files.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -157,6 +157,26 @@ function countInternalLinks(body) {
 function hasCTA(body, ctaPatterns) {
   const lowerBody = body.toLowerCase();
   return ctaPatterns.some(pattern => lowerBody.includes(pattern.toLowerCase()));
+}
+
+export function normalizeCluster(value) {
+  return typeof value === 'string'
+    ? value.trim().replace(/^["']|["']$/g, '')
+    : null;
+}
+
+/**
+ * Resolve CTA patterns from the post's declared funnel. Legacy posts without a
+ * funnel continue to use the original service CTA patterns.
+ */
+export function resolveCTAPatterns(frontmatter, config) {
+  const funnel = typeof frontmatter?.funnel === 'string'
+    ? frontmatter.funnel.trim().toLowerCase()
+    : '';
+  const funnelPatterns = config.ctaPatternsByFunnel?.[funnel];
+  return Array.isArray(funnelPatterns) && funnelPatterns.length > 0
+    ? funnelPatterns
+    : config.ctaPatterns;
 }
 
 /**
@@ -316,8 +336,9 @@ export function validateFile(filePath, config, taxonomy) {
   }
 
   // CTA link
-  if (!hasCTA(body, config.ctaPatterns)) {
-    errors.push('No CTA link (hubspot meeting or /contact/)');
+  const ctaPatterns = resolveCTAPatterns(data, config);
+  if (!hasCTA(body, ctaPatterns)) {
+    errors.push(`No CTA link for ${data.funnel || 'default'} funnel (${ctaPatterns.join(', ')})`);
   }
 
   // Internal links
@@ -332,7 +353,7 @@ export function validateFile(filePath, config, taxonomy) {
     if (!cluster) {
       warnings.push('No "cluster" in frontmatter (required for topical authority)');
     } else {
-      const normalizedCluster = cluster.replace(/^["']|["']$/g, '');
+      const normalizedCluster = normalizeCluster(cluster);
       if (!taxonomy.clusters[normalizedCluster]) {
         warnings.push(`Cluster "${normalizedCluster}" not in approved taxonomy. Valid: ${Object.keys(taxonomy.clusters).join(', ')}`);
       }
@@ -387,16 +408,12 @@ export function validateFile(filePath, config, taxonomy) {
 function getChangedBlogFiles() {
   const base = process.env.DIFF_BASE || 'origin/main';
   try {
-    const out = execSync(`git diff --name-only ${base}...HEAD`, {
-      encoding: 'utf-8',
-      stdio: ['pipe', 'pipe', 'pipe'],
-    });
+    const changed = changedFilesFromGit({ base, cwd: path.resolve(__dirname, '..', '..') });
     const blogPrefix = 'src/content/blog/';
-    const changed = out
-      .split('\n')
+    const blogFiles = changed
       .filter(line => line.startsWith(blogPrefix))
       .map(line => path.basename(line));
-    return new Set(changed);
+    return new Set(blogFiles);
   } catch (err) {
     console.error(`${colors.yellow}WARN: --changed-files-only could not resolve git diff against ${base} (${err.message.split('\n')[0]}); checking all files${colors.reset}`);
     return null;
