@@ -1,8 +1,10 @@
 ---
 title: Optometry Practice Transition Readiness Checklist
 seoTitle: Optometry Practice Transition Readiness Checklist
-description: A neutral owner-facing checklist for reflecting on optometry practice transition readiness.
-seoDescription: A neutral owner-facing checklist for reflecting on optometry practice transition readiness.
+description: A neutral owner-facing checklist for reflecting on optometry practice
+  transition readiness.
+seoDescription: A neutral owner-facing checklist for reflecting on optometry practice
+  transition readiness.
 publishDate: '2026-08-13'
 status: published
 funnel: acquisition
@@ -18,12 +20,13 @@ claimsReviewed: true
 author: Ankit Patel
 category: Practice Transitions
 tags:
-  - optometry practice transition readiness checklist
-  - practice transitions
-  - optometry
+- optometry practice transition readiness checklist
+- practice transitions
+- optometry
 cluster: transition-readiness
 featuredImage: /images/blog/optometry-practice-transition-readiness-checklist.webp
 canonical: https://mybcat.com/blog/optometry-practice-transition-readiness-checklist/
+relatedPosts: []
 ---
 
 ## Table of Contents
