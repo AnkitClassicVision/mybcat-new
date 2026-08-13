@@ -34,6 +34,26 @@ export default tseslint.config(
     },
   },
 
+  // Vercel server functions
+  {
+    files: ['api/**/*.{js,mjs,cjs}'],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
+  },
+
+  // Node test files
+  {
+    files: ['tests/**/*.{js,mjs,cjs}'],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
+  },
+
   // React config for TSX files
   {
     files: ['**/*.{jsx,tsx}'],
