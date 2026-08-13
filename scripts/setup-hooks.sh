@@ -28,9 +28,9 @@ NC='\033[0m' # No Color
 # Track if any validation fails
 FAILED=0
 
-# Get list of staged files
-STAGED_MD=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(md|mdx)$' || true)
-STAGED_ASTRO=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.astro$' || true)
+# Get staged public-content files only. Internal docs/research Markdown is not published content.
+STAGED_MD=$(git diff --cached --name-only --diff-filter=ACM | grep -E '^src/content/blog/.*\.(md|mdx)$' || true)
+STAGED_ASTRO=$(git diff --cached --name-only --diff-filter=ACM | grep -E '^src/(pages|layouts)/.*\.astro$' || true)
 
 # If no relevant files are staged, skip validation
 if [ -z "$STAGED_MD" ] && [ -z "$STAGED_ASTRO" ]; then

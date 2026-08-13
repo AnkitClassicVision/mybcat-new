@@ -38,6 +38,18 @@
     "hubspot.mybcat.com",
     "openhubspotmodal"
   ],
+  "ctaPatternsByFunnel": {
+    "service": [
+      "hubspot.com",
+      "/contact/",
+      "meetings.hubspot.com",
+      "hubspot.mybcat.com",
+      "openhubspotmodal"
+    ],
+    "acquisition": [
+      "/optometry-practice-transitions/"
+    ]
+  },
   "bannedPhrases": {
     "hardFail": [],
     "softFail": [

@@ -19,14 +19,26 @@ const blog = defineCollection({
     cluster: z.string().optional(),
     // Explicit CTA variant override — wins over cluster-based routing (see src/data/blog-ctas.ts).
     // Use 'default' for off-ICP posts (e.g. dental-bodied content) that share a themed cluster.
-    ctaTheme: z.enum(['recall_fill_book', 'finances_selling', 'finance_open', 'finance_profit', 'finance_seller', 'operations', 'default']).optional(),
+    ctaTheme: z.enum(['recall_fill_book', 'finances_selling', 'finance_open', 'finance_profit', 'finance_seller', 'acquisition_transition', 'operations', 'default']).optional(),
+    // Attribution and editorial proof contract for the separate service and
+    // practice-transition funnels. Existing posts remain service content unless
+    // their frontmatter explicitly opts into the acquisition funnel.
+    funnel: z.enum(['service', 'acquisition']).default('service'),
+    seoTopicId: z.string().optional().transform((value) => value?.trim() || undefined),
+    buyerStage: z.enum(['awareness', 'problem-aware', 'consideration', 'solution-aware', 'decision']).optional(),
+    contentAction: z.enum(['new', 'refresh']).optional(),
+    ctaId: z.string().optional().transform((value) => value?.trim() || undefined),
+    intendedCrmOutcome: z.string().optional().transform((value) => value?.trim() || undefined),
+    evidencePacket: z.string().optional().transform((value) => value?.trim() || undefined),
+    researchReviewed: z.boolean().default(false),
+    cannibalizationReviewed: z.boolean().default(false),
+    claimsReviewed: z.boolean().default(false),
     isPillar: z.boolean().default(false),
     redirectTo: z.string().optional().transform((value) => value?.trim() || undefined),
     // SEO overrides
     seoTitle: z.string().optional(),
     seoDescription: z.string().optional(),
     canonical: z.string().optional().transform((value) => value?.trim() || undefined),
-    targetKeyword: z.string().trim().optional(),
   }),
 });
 
