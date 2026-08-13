@@ -109,7 +109,7 @@ State requirements vary. The following examples are limited to the cited rules a
 
 ### North Carolina's ceasing-practice rule
 
-[North Carolina's optometry rules](https://ncrules.state.nc.us/ncac/title%2021%20-%20occupational%20licensing%20boards%20and%20commissions/chapter%2042%20-%20optometry/subchapter%20b/subchapter%20b%20rules.pdf) require notice to the Board, notice to affected patients, proof of notice, and continued custody or transfer arrangements for records when a location ceases practice.
+[North Carolina's optometry rules](https://www.oah.nc.gov/122023-optometry-final-revised-rules/open) require notice to the Board, notice to affected patients, proof of notice, and continued custody or transfer arrangements for records when a location ceases practice.
 
 Whether that rule applies to a particular ownership transition is a state-specific legal question for qualified counsel and the appropriate regulator.
 
@@ -165,4 +165,4 @@ If you want to discuss fit and timing at a high level, [start a confidential tra
 - [AOA: Ethical Considerations when Selling a Practice](https://www.aoa.org/AOA/Documents/Education/Education_PDFs/Case%20Study%2016-Selling%20a%20Practice.pdf)
 - [AOA: Buying a Practice](https://www.aoa.org/practice/owning-a-practice/buying-a-practice)
 - [Georgia Rule 430-5-.01: Patient Records](https://rules.sos.ga.gov/gac/430-5)
-- [North Carolina Optometry Rules: Ceasing Practice](https://ncrules.state.nc.us/ncac/title%2021%20-%20occupational%20licensing%20boards%20and%20commissions/chapter%2042%20-%20optometry/subchapter%20b/subchapter%20b%20rules.pdf)
+- [North Carolina Optometry Rules: Ceasing Practice](https://www.oah.nc.gov/122023-optometry-final-revised-rules/open)

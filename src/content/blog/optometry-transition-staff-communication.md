@@ -118,7 +118,7 @@ This keeps the article at the right level: staff can be given a way to route a q
 
 Patient notification and continuity require deliberate planning when ownership changes. The exact obligations are not established by this article and require current, state-specific professional review.
 
-As one state example, [North Carolina optometry rules on ceasing practice](https://ncrules.state.nc.us/ncac/title%2021%20-%20occupational%20licensing%20boards%20and%20commissions/chapter%2042%20-%20optometry/subchapter%20b/subchapter%20b%20rules.pdf) require notice to the Board, notice to affected patients, proof of notice, and continued custody or transfer arrangements for records when a location ceases practice. This is not a general rule for every practice transition or every state.
+As one state example, [North Carolina optometry rules on ceasing practice](https://www.oah.nc.gov/122023-optometry-final-revised-rules/open) require notice to the Board, notice to affected patients, proof of notice, and continued custody or transfer arrangements for records when a location ceases practice. This is not a general rule for every practice transition or every state.
 
 [HHS explains patient rights to inspect and receive copies of covered medical and billing records](https://www.hhs.gov/hipaa/for-individuals/medical-records/index.html), and notes that transfers to another provider depend on treatment, payment, or permission. An owner should consult qualified counsel and applicable state and federal requirements before deciding how any record request or transfer will be handled.
 
@@ -164,7 +164,7 @@ No article can determine the right disclosure timing or content for a particular
 
 [Ethical Considerations when Selling a Practice | American Optometric Association](https://www.aoa.org/AOA/Documents/Education/Education_PDFs/Case%20Study%2016-Selling%20a%20Practice.pdf)
 
-[North Carolina Optometry Rules: Ceasing Practice | North Carolina Administrative Code](https://ncrules.state.nc.us/ncac/title%2021%20-%20occupational%20licensing%20boards%20and%20commissions/chapter%2042%20-%20optometry/subchapter%20b/subchapter%20b%20rules.pdf)
+[North Carolina Optometry Rules: Ceasing Practice | North Carolina Office of Administrative Hearings](https://www.oah.nc.gov/122023-optometry-final-revised-rules/open)
 
 [Your Medical Records | U.S. Department of Health and Human Services](https://www.hhs.gov/hipaa/for-individuals/medical-records/index.html)
 

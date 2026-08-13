@@ -157,7 +157,7 @@ The source supports professional review of the agreement.
 
 State-specific professional review is especially important for notice and records questions.
 
-For a location ceasing practice in North Carolina, the cited optometry rule requires notice to the Board, notice to affected patients, proof of notice, and continued custody or transfer arrangements for records ([North Carolina optometry rules](https://ncrules.state.nc.us/ncac/title%2021%20-%20occupational%20licensing%20boards%20and%20commissions/chapter%2042%20-%20optometry/subchapter%20b/subchapter%20b%20rules.pdf)).
+For a location ceasing practice in North Carolina, the cited optometry rule requires notice to the Board, notice to affected patients, proof of notice, and continued custody or transfer arrangements for records ([North Carolina optometry rules](https://www.oah.nc.gov/122023-optometry-final-revised-rules/open)).
 
 That example is limited to the rule's stated context. It is not a statement of requirements for an ownership change or for any other state.
 
@@ -227,5 +227,5 @@ The inquiry is not a substitute for the professional review described above.
 - [Doctors of optometry offer transition tips, whether buying or selling (American Optometric Association)](https://www.aoa.org/news/practice-management/perfect-your-practice/business-transition-tips-for-buying-or-selling)
 - [Succession Planning (American Optometric Association)](https://www.aoa.org/practice/financial-health/succession-planning)
 - [Close or Sell Your Business (U.S. Small Business Administration)](https://www.sba.gov/business-guide/manage-your-business/close-or-sell-your-business)
-- [North Carolina Optometry Rules: Ceasing Practice (NC Administrative Code)](https://ncrules.state.nc.us/ncac/title%2021%20-%20occupational%20licensing%20boards%20and%20commissions/chapter%2042%20-%20optometry/subchapter%20b/subchapter%20b%20rules.pdf)
+- [North Carolina Optometry Rules: Ceasing Practice (NC Office of Administrative Hearings)](https://www.oah.nc.gov/122023-optometry-final-revised-rules/open)
 - [Ethical Considerations when Selling a Practice (American Optometric Association)](https://www.aoa.org/AOA/Documents/Education/Education_PDFs/Case%20Study%2016-Selling%20a%20Practice.pdf)
