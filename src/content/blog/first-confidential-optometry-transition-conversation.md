@@ -1,11 +1,14 @@
 ---
 title: The Confidential Optometry Practice Transition Conversation
 seoTitle: The Confidential Optometry Practice Transition Conversation
-description: Questions an optometry practice owner can consider before an early transition conversation.
-seoDescription: Questions an optometry practice owner can consider before an early transition conversation.
-publishDate: '2026-08-14'
-status: scheduled
-scheduledDate: '2026-08-14'
+description: >-
+  Questions an optometry practice owner can consider before an early transition
+  conversation.
+seoDescription: >-
+  Questions an optometry practice owner can consider before an early transition
+  conversation.
+publishDate: '2026-08-14T10:00:33.310Z'
+status: published
 funnel: acquisition
 seoTopicId: seller-confidential-first-conversation
 buyerStage: awareness
@@ -19,12 +22,12 @@ claimsReviewed: true
 author: Ankit Patel
 category: Practice Transitions
 tags:
-- confidential optometry practice transition conversation
-- practice transitions
-- optometry
+  - confidential optometry practice transition conversation
+  - practice transitions
+  - optometry
 cluster: transition-readiness
 featuredImage: /images/blog/first-confidential-optometry-transition-conversation.webp
-canonical: https://mybcat.com/blog/first-confidential-optometry-transition-conversation/
+canonical: 'https://mybcat.com/blog/first-confidential-optometry-transition-conversation/'
 ---
 ## Table of Contents
 
