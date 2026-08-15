@@ -1,14 +1,14 @@
 ---
 title: Optometry Practice Post Sale Role Options for Owners
 seoTitle: Optometry Practice Post Sale Role Options for Owners
-description: Compare optometry practice post sale role options, from full exit to
-  associate work, and see how each choice shapes timing, continuity, and buyer fit.
-seoDescription: Compare optometry practice post sale role options, from full exit
-  to associate work, and see how each choice shapes timing, continuity, and buyer
-  fit.
-publishDate: '2026-08-15'
-status: scheduled
-scheduledDate: '2026-08-15'
+description: >-
+  Compare optometry practice post sale role options, from full exit to associate
+  work, and see how each choice shapes timing, continuity, and buyer fit.
+seoDescription: >-
+  Compare optometry practice post sale role options, from full exit to associate
+  work, and see how each choice shapes timing, continuity, and buyer fit.
+publishDate: '2026-08-15T09:25:19.857Z'
+status: published
 funnel: acquisition
 seoTopicId: seller-post-sale-role-options
 buyerStage: consideration
@@ -22,12 +22,12 @@ claimsReviewed: true
 author: Ankit Patel
 category: Practice Transitions
 tags:
-- optometry practice post sale role options
-- practice transitions
-- optometry
+  - optometry practice post sale role options
+  - practice transitions
+  - optometry
 cluster: owner-transition-goals
 featuredImage: /images/blog/optometry-practice-post-sale-role-options.webp
-canonical: https://mybcat.com/blog/optometry-practice-post-sale-role-options/
+canonical: 'https://mybcat.com/blog/optometry-practice-post-sale-role-options/'
 ---
 
 ## Table of Contents
