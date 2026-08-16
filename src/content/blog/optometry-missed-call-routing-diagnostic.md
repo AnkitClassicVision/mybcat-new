@@ -1,12 +1,10 @@
 ---
 title: Diagnose Missed-Call Routing Across Optometry Sites
 seoTitle: Diagnose Missed-Call Routing Across Optometry Sites
-description: >-
-  A local diagnostic for multi-location optometry groups to document missed-call
+description: A local diagnostic for multi-location optometry groups to document missed-call
   paths, define call measures, and review routing options.
-seoDescription: >-
-  A local diagnostic for multi-location optometry groups to document missed-call
-  paths, define call measures, and review routing options.
+seoDescription: A local diagnostic for multi-location optometry groups to document
+  missed-call paths, define call measures, and review routing options.
 publishDate: '2026-08-16T09:26:12.708Z'
 status: published
 funnel: service
@@ -22,13 +20,15 @@ claimsReviewed: true
 author: Ankit Patel
 category: Patient Access Operations
 tags:
-  - multi-location optometry missed call routing
-  - multi-location
-  - optometry
+- multi-location optometry missed call routing
+- multi-location
+- optometry
 cluster: patient-access-operations
 featuredImage: /images/blog/optometry-missed-call-routing-diagnostic.webp
-canonical: 'https://mybcat.com/blog/optometry-missed-call-routing-diagnostic/'
+canonical: https://mybcat.com/blog/optometry-missed-call-routing-diagnostic/
+relatedPosts: []
 ---
+
 ## Table of Contents
 
 - [Why Do Missed Calls Multiply Across Multi-Location Optometry Groups?](#why-do-missed-calls-multiply-across-multi-location-optometry-groups)
