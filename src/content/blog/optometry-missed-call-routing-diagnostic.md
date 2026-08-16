@@ -100,7 +100,7 @@ An optional overflow ladder is an ordered local record of where a call is config
 
 A practice can choose its own rungs, such as a queue, another internal destination, voicemail, or another approved destination, and document the conditions for each.
 
-[After-hours medical answering](/solutions/after-hours-medical-answering-service/) is related reading for practices evaluating their own options.
+[After-hours medical answering](/solutions/medical-answering-service/) is related reading for practices evaluating their own options.
 
 ## Which Metrics Tell You Whether Routing Is Working?
 
