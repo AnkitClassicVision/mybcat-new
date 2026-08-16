@@ -8,6 +8,7 @@ Allow: /
 Disallow: /draft/
 Disallow: /admin/
 Disallow: /preview/
+Disallow: /cutover-mock/
 Disallow: /search
 
 # API policy: keep internal APIs blocked but allow the public catalog endpoints
@@ -20,6 +21,7 @@ Allow: /
 Disallow: /draft/
 Disallow: /admin/
 Disallow: /preview/
+Disallow: /cutover-mock/
 Disallow: /search
 Disallow: /api/
 Allow: /api/public/
@@ -29,6 +31,7 @@ Allow: /
 Disallow: /draft/
 Disallow: /admin/
 Disallow: /preview/
+Disallow: /cutover-mock/
 Disallow: /search
 Disallow: /api/
 Allow: /api/public/

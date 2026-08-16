@@ -256,6 +256,8 @@ export default defineConfig({
       filter: (page) => {
         // Exclude API endpoints from sitemap
         if (page.includes('/api/')) return false;
+        // Exclude the internal cutover preview
+        if (page.includes('cutover-mock')) return false;
         // Exclude conference landing pages (non-indexable / not in sitemap)
         if (page.includes('/idoc-connections-2026/')) return false;
         // Exclude drafts
