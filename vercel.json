@@ -4206,6 +4206,46 @@
       "source": "/author/mybusinessan/",
       "destination": "/author/ankit-patel/",
       "permanent": true
+    },
+    {
+      "source": "/book/discovery",
+      "destination": "https://calendar.app.google/PLDmK4QwpdSqkxmb8",
+      "permanent": true
+    },
+    {
+      "source": "/book/discovery/",
+      "destination": "https://calendar.app.google/PLDmK4QwpdSqkxmb8",
+      "permanent": true
+    },
+    {
+      "source": "/book/prep",
+      "destination": "https://calendar.app.google/VqkXspVbhw4BbYyz8",
+      "permanent": true
+    },
+    {
+      "source": "/book/prep/",
+      "destination": "https://calendar.app.google/VqkXspVbhw4BbYyz8",
+      "permanent": true
+    },
+    {
+      "source": "/book/interview",
+      "destination": "https://calendar.app.google/Cpksvx8ywN26GtMY6",
+      "permanent": true
+    },
+    {
+      "source": "/book/interview/",
+      "destination": "https://calendar.app.google/Cpksvx8ywN26GtMY6",
+      "permanent": true
+    },
+    {
+      "source": "/book/1-1",
+      "destination": "https://calendar.app.google/4R8J9WLuNnrXFvnEA",
+      "permanent": true
+    },
+    {
+      "source": "/book/1-1/",
+      "destination": "https://calendar.app.google/4R8J9WLuNnrXFvnEA",
+      "permanent": true
     }
   ]
 }
