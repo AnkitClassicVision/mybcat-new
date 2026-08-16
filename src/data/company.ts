@@ -31,7 +31,7 @@ export const company = {
   // HubSpot integration
   hubspot: {
     portalId: '47905082',
-    meetingLink: 'https://meetings.hubspot.com/ankit98/mybcat-discovery-call'
+    meetingLink: 'https://mybcat.com/book/discovery'
   },
 
   // Ownership and founder info
