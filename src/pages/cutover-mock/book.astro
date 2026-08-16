@@ -1,0 +1,648 @@
+---
+/**
+ * Chrome-less booking embed for the cutover mock iframe.
+ * Used until Google appointment-schedule URLs are attached.
+ */
+const formEndpoint = import.meta.env.PUBLIC_FORM_ENDPOINT ||
+  'https://gmd394shy4.execute-api.us-east-1.amazonaws.com/forms/intake';
+const formsToken = import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || '';
+const apiBase = (import.meta.env.PUBLIC_CUTOVER_API_BASE || '').replace(/\/$/, '');
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Book a MyBCAT meeting</title>
+    <style>
+      :root {
+        --navy: #0b2b3a;
+        --teal: #006064;
+        --teal-soft: #e3f1ef;
+        --line: #d8e2e0;
+        --muted: #617177;
+        --disabled: #aeb9bb;
+        --surface: #fff;
+        --page: #f5f8f7;
+        --error: #a12b2b;
+      }
+      * { box-sizing: border-box; }
+      html, body {
+        margin: 0;
+        min-height: 100%;
+        background: var(--page);
+        color: var(--navy);
+        font: 15px/1.45 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      button, input { font: inherit; }
+      button:focus-visible, input:focus-visible {
+        outline: 3px solid rgba(0, 96, 100, 0.24);
+        outline-offset: 2px;
+      }
+      .shell {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 24px 16px;
+      }
+      .booking-card {
+        display: grid;
+        grid-template-columns: minmax(230px, 0.72fr) minmax(460px, 1.55fr);
+        min-height: 590px;
+        overflow: hidden;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        box-shadow: 0 14px 38px rgba(11, 43, 58, 0.08);
+      }
+      .meeting-rail {
+        padding: 38px 30px;
+        border-right: 1px solid var(--line);
+      }
+      .eyebrow {
+        margin: 0 0 10px;
+        color: var(--teal);
+        font-size: 12px;
+        font-weight: 750;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      h1, h2, p { margin-top: 0; }
+      h1 {
+        margin-bottom: 24px;
+        font-size: clamp(1.65rem, 3vw, 2.1rem);
+        line-height: 1.14;
+        letter-spacing: -0.025em;
+      }
+      .meeting-facts {
+        display: grid;
+        gap: 15px;
+        margin: 0;
+      }
+      .fact {
+        display: grid;
+        grid-template-columns: 22px 1fr;
+        gap: 9px;
+        align-items: start;
+        color: var(--muted);
+      }
+      .fact-icon {
+        color: var(--teal);
+        font-weight: 800;
+        text-align: center;
+      }
+      .scheduler { padding: 34px 34px 30px; }
+      .scheduler h2 {
+        margin-bottom: 5px;
+        font-size: 1.15rem;
+      }
+      .instruction { margin-bottom: 22px; color: var(--muted); }
+      .scheduler-grid {
+        display: grid;
+        grid-template-columns: minmax(320px, 1fr) minmax(150px, 0.48fr);
+        gap: 26px;
+        align-items: start;
+      }
+      .calendar-head {
+        display: grid;
+        grid-template-columns: 40px 1fr 40px;
+        align-items: center;
+        margin-bottom: 18px;
+      }
+      .month-label {
+        margin: 0;
+        text-align: center;
+        font-size: 1.05rem;
+      }
+      .month-nav {
+        width: 38px;
+        height: 38px;
+        border: 1px solid var(--line);
+        border-radius: 50%;
+        background: var(--surface);
+        color: var(--navy);
+        cursor: pointer;
+        font-size: 21px;
+        line-height: 1;
+      }
+      .month-nav:hover:not(:disabled) { background: var(--teal-soft); border-color: var(--teal); }
+      .month-nav:disabled { color: var(--disabled); cursor: not-allowed; opacity: 0.55; }
+      .weekdays, .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        gap: 4px;
+      }
+      .weekdays { margin-bottom: 7px; }
+      .weekday {
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 750;
+        letter-spacing: 0.04em;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .day, .day-spacer {
+        aspect-ratio: 1;
+        min-width: 0;
+      }
+      .day {
+        border: 1px solid transparent;
+        border-radius: 50%;
+        background: transparent;
+        color: var(--navy);
+        cursor: pointer;
+        font-weight: 700;
+      }
+      .day:hover:not(:disabled) { border-color: var(--teal); background: var(--teal-soft); }
+      .day.selected { border-color: var(--teal); background: var(--teal); color: #fff; }
+      .day:disabled { color: var(--disabled); cursor: not-allowed; font-weight: 500; }
+      .times-panel {
+        min-height: 360px;
+        padding-top: 56px;
+      }
+      .times-title {
+        margin-bottom: 12px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+      }
+      .times {
+        display: grid;
+        gap: 9px;
+      }
+      .time-button {
+        width: 100%;
+        min-height: 45px;
+        padding: 10px 12px;
+        border: 1px solid var(--teal);
+        border-radius: 7px;
+        background: #fff;
+        color: var(--teal);
+        cursor: pointer;
+        font-weight: 750;
+      }
+      .time-button:hover:not(:disabled) { background: var(--teal); color: #fff; }
+      .time-button:disabled { cursor: wait; opacity: 0.55; }
+      .empty-times {
+        margin: 30px 0 0;
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+      }
+      .guest-fields {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 26px;
+        padding-top: 22px;
+        border-top: 1px solid var(--line);
+      }
+      .guest-fields:empty { display: none; }
+      .field {
+        display: grid;
+        gap: 5px;
+        color: var(--navy);
+        font-size: 12px;
+        font-weight: 700;
+      }
+      .field.wide { grid-column: 1 / -1; }
+      .field.prefilled { display: none; }
+      input {
+        width: 100%;
+        padding: 10px 11px;
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        color: var(--navy);
+      }
+      .status {
+        min-height: 20px;
+        margin: 14px 0 0;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .status.error { color: var(--error); }
+      .picker.hidden { display: none; }
+      .confirm {
+        display: none;
+        max-width: 440px;
+        margin: 48px auto;
+        padding: 36px 28px 28px;
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        box-shadow: 0 14px 38px rgba(11, 43, 58, 0.08);
+        text-align: left;
+      }
+      .confirm.show { display: block; }
+      .confirm .check { margin-bottom: 18px; }
+      .confirm-kicker {
+        margin: 0 0 6px;
+        color: var(--teal);
+        font-size: 12px;
+        font-weight: 750;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .confirm h1,
+      .confirm-title { margin: 0 0 8px; font-size: 1.55rem; font-weight: 700; }
+      .confirm-lede { margin-bottom: 22px; color: var(--muted); font-size: 15px; }
+      .appt-card {
+        margin: 0 0 20px;
+        padding: 16px 16px 6px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: var(--page);
+      }
+      .appt-row {
+        display: grid;
+        grid-template-columns: 92px 1fr;
+        gap: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+      .appt-label { color: var(--muted); font-weight: 700; }
+      .appt-value { color: var(--navy); font-weight: 650; }
+      .meet-link {
+        display: inline-flex;
+        margin: 0 0 16px;
+        padding: 11px 16px;
+        border-radius: 8px;
+        background: var(--teal);
+        color: #fff;
+        font-weight: 750;
+        text-decoration: none;
+      }
+      .confirm-note { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+      .check {
+        display: grid;
+        width: 48px;
+        height: 48px;
+        margin: 0 auto 14px;
+        place-items: center;
+        border-radius: 50%;
+        background: var(--teal);
+        color: #fff;
+        font-size: 23px;
+      }
+      @media (max-width: 760px) {
+        .shell { padding: 0; }
+        .booking-card { display: block; min-height: 0; border: 0; border-radius: 0; box-shadow: none; }
+        .meeting-rail { padding: 25px 22px; border-right: 0; border-bottom: 1px solid var(--line); }
+        .meeting-rail h1 { margin-bottom: 17px; font-size: 1.55rem; }
+        .meeting-facts { gap: 10px; }
+        .scheduler { padding: 25px 18px 30px; }
+        .scheduler-grid { display: block; }
+        .calendar { max-width: 460px; margin: 0 auto; }
+        .times-panel { min-height: 0; padding-top: 26px; }
+        .times-title { text-align: left; }
+        .guest-fields { grid-template-columns: 1fr; }
+        .field.wide { grid-column: auto; }
+        .confirm { margin: 24px 16px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <div id="book-config" hidden data-endpoint={formEndpoint} data-token={formsToken} data-api-base={apiBase}></div>
+
+      <section id="picker" class="picker booking-card">
+        <aside class="meeting-rail" aria-label="Meeting details">
+          <p class="eyebrow">MyBCAT</p>
+          <h1>Discovery Call</h1>
+          <div class="meeting-facts">
+            <div class="fact"><span class="fact-icon" aria-hidden="true">◷</span><span>30 min</span></div>
+            <div class="fact"><span class="fact-icon" aria-hidden="true">●</span><span>My Business Care Team</span></div>
+            <div class="fact"><span class="fact-icon" aria-hidden="true">▣</span><span>Google Meet</span></div>
+            <div class="fact"><span class="fact-icon" aria-hidden="true">◎</span><span>America/New_York</span></div>
+          </div>
+        </aside>
+
+        <div class="scheduler">
+          <h2>Select a day</h2>
+          <p class="instruction">Choose an available weekday, then select a time.</p>
+
+          <div class="scheduler-grid">
+            <div class="calendar">
+              <div class="calendar-head">
+                <button id="prev-month" class="month-nav" type="button" aria-label="Previous month">‹</button>
+                <h3 id="month-label" class="month-label" aria-live="polite"></h3>
+                <button id="next-month" class="month-nav" type="button" aria-label="Next month">›</button>
+              </div>
+              <div class="weekdays" aria-hidden="true">
+                <span class="weekday">Sun</span><span class="weekday">Mon</span><span class="weekday">Tue</span>
+                <span class="weekday">Wed</span><span class="weekday">Thu</span><span class="weekday">Fri</span>
+                <span class="weekday">Sat</span>
+              </div>
+              <div id="calendar-grid" class="calendar-grid" role="grid" aria-labelledby="month-label"></div>
+            </div>
+
+            <div class="times-panel">
+              <div id="times-title" class="times-title">Select a day to see times</div>
+              <div id="times" class="times"></div>
+              <p id="empty-times" class="empty-times">Available times will appear here.</p>
+            </div>
+          </div>
+
+          <div id="guest-fields" class="guest-fields">
+            <label id="firstName-field" class="field">First name
+              <input id="firstName" autocomplete="given-name" />
+            </label>
+            <label id="lastName-field" class="field">Last name
+              <input id="lastName" autocomplete="family-name" />
+            </label>
+            <label id="email-field" class="field wide">Email
+              <input id="email" type="email" autocomplete="email" />
+            </label>
+            <label id="phone-field" class="field wide">Mobile number <span aria-hidden="true">*</span>
+              <input id="phone" type="tel" required autocomplete="tel" />
+            </label>
+          </div>
+          <p id="status" class="status" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section id="confirm" class="confirm" aria-live="polite">
+        <div class="check" aria-hidden="true">✓</div>
+        <p class="confirm-kicker">My Business Care Team</p>
+        <h2 class="confirm-title">Thank you</h2>
+        <p class="confirm-lede">Your appointment is booked.</p>
+        <div class="appt-card">
+          <div class="appt-row"><span class="appt-label">Meeting</span><span class="appt-value">Discovery Call</span></div>
+          <div class="appt-row"><span class="appt-label">When</span><span id="confirm-when" class="appt-value"></span></div>
+          <div class="appt-row"><span class="appt-label">Length</span><span class="appt-value">30 minutes</span></div>
+          <div class="appt-row"><span class="appt-label">With</span><span class="appt-value">My Business Care Team</span></div>
+          <div class="appt-row"><span class="appt-label">Where</span><span class="appt-value">Google Meet</span></div>
+        </div>
+        <a id="meet-link" class="meet-link" hidden href="#">Join Google Meet</a>
+        <p class="confirm-note">We sent a Google Calendar invite to your email. Open it and click Yes to add it to your calendar.</p>
+      </section>
+    </main>
+
+    <script is:inline>
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const meeting = {
+        label: 'Discovery',
+        title: 'Discovery Call',
+        owner: 'My Business Care Team',
+        minutes: 30,
+        location: 'https://meet.google.com/cutover-mock',
+        timeZone: 'America/New_York',
+      };
+      const config = document.getElementById('book-config');
+      const endpoint = (config && config.getAttribute('data-endpoint')) || '';
+      const token = (config && config.getAttribute('data-token')) || '';
+      const apiBase = (config && config.getAttribute('data-api-base')) || '';
+      let availability = { days: {} };
+      let availabilityKey = '';
+
+      const inputIds = ['firstName', 'lastName', 'email', 'phone'];
+      inputIds.forEach(function (id) {
+        const value = params.get(id) || '';
+        document.getElementById(id).value = value;
+        if (value) document.getElementById(id + '-field').classList.add('prefilled');
+      });
+
+      function easternTodayParts() {
+        const parts = new Intl.DateTimeFormat('en-US', {
+          timeZone: meeting.timeZone,
+          year: 'numeric', month: 'numeric', day: 'numeric',
+        }).formatToParts(new Date());
+        const values = {};
+        parts.forEach(function (part) { if (part.type !== 'literal') values[part.type] = Number(part.value); });
+        return { year: values.year, month: values.month - 1, day: values.day };
+      }
+
+      const today = easternTodayParts();
+      let viewYear = today.year;
+      let viewMonth = today.month;
+      let selectedDate = null;
+      const grid = document.getElementById('calendar-grid');
+      const times = document.getElementById('times');
+      const timesTitle = document.getElementById('times-title');
+      const emptyTimes = document.getElementById('empty-times');
+      const status = document.getElementById('status');
+
+      function dateKey(year, month, day) {
+        return year * 10000 + (month + 1) * 100 + day;
+      }
+
+      function ymd(date) {
+        const month = String(date.month + 1).padStart(2, '0');
+        const day = String(date.day).padStart(2, '0');
+        return date.year + '-' + month + '-' + day;
+      }
+
+      function slotsFor(date) {
+        return (availability.days && availability.days[ymd(date)]) || [];
+      }
+
+      function loadAvailability() {
+        const key = viewYear + '-' + (viewMonth + 1);
+        if (availabilityKey === key) {
+          renderCalendar();
+          renderTimes();
+          return;
+        }
+        timesTitle.textContent = 'Loading available times…';
+        fetch(apiBase + '/availability?year=' + viewYear + '&month=' + (viewMonth + 1))
+          .then(function (response) { if (!response.ok) throw new Error('avail'); return response.json(); })
+          .then(function (data) {
+            availability = data || { days: {} };
+            availabilityKey = key;
+            renderCalendar();
+            renderTimes();
+          })
+          .catch(function () {
+            availability = { days: {} };
+            availabilityKey = '';
+            status.className = 'status error';
+            status.textContent = 'Could not load Google Calendar availability.';
+            renderCalendar();
+            renderTimes();
+          });
+      }
+
+      function formatDate(date) {
+        return new Intl.DateTimeFormat('en-US', {
+          timeZone: 'UTC', weekday: 'long', month: 'long', day: 'numeric', year: 'numeric',
+        }).format(new Date(Date.UTC(date.year, date.month, date.day)));
+      }
+
+      function formatShortDate(date) {
+        return new Intl.DateTimeFormat('en-US', {
+          timeZone: 'UTC', weekday: 'short', month: 'short', day: 'numeric',
+        }).format(new Date(Date.UTC(date.year, date.month, date.day)));
+      }
+
+      function renderCalendar() {
+        const firstWeekday = new Date(Date.UTC(viewYear, viewMonth, 1)).getUTCDay();
+        const dayCount = new Date(Date.UTC(viewYear, viewMonth + 1, 0)).getUTCDate();
+        const todayKey = dateKey(today.year, today.month, today.day);
+        document.getElementById('month-label').textContent = new Intl.DateTimeFormat('en-US', {
+          timeZone: 'UTC', month: 'long', year: 'numeric',
+        }).format(new Date(Date.UTC(viewYear, viewMonth, 1)));
+        document.getElementById('prev-month').disabled = dateKey(viewYear, viewMonth, 1) <= dateKey(today.year, today.month, 1);
+        grid.innerHTML = '';
+
+        for (let spacer = 0; spacer < firstWeekday; spacer += 1) {
+          const blank = document.createElement('span');
+          blank.className = 'day-spacer';
+          blank.setAttribute('aria-hidden', 'true');
+          grid.appendChild(blank);
+        }
+
+        for (let day = 1; day <= dayCount; day += 1) {
+          const dow = new Date(Date.UTC(viewYear, viewMonth, day)).getUTCDay();
+          const date = { year: viewYear, month: viewMonth, day: day };
+          const hasSlots = slotsFor(date).length > 0;
+          const disabled = dow === 0 || dow === 6 || dateKey(viewYear, viewMonth, day) <= todayKey || !hasSlots;
+          const selected = selectedDate && dateKey(selectedDate.year, selectedDate.month, selectedDate.day) === dateKey(viewYear, viewMonth, day);
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'day' + (selected ? ' selected' : '');
+          button.textContent = String(day);
+          button.disabled = disabled;
+          button.setAttribute('role', 'gridcell');
+          button.setAttribute('aria-label', formatDate(date) + (disabled ? ', unavailable' : ', available'));
+          if (selected) button.setAttribute('aria-selected', 'true');
+          button.addEventListener('click', function () {
+            selectedDate = date;
+            status.textContent = '';
+            status.className = 'status';
+            renderCalendar();
+            renderTimes();
+          });
+          grid.appendChild(button);
+        }
+      }
+
+      function renderTimes() {
+        times.innerHTML = '';
+        if (!selectedDate) {
+          timesTitle.textContent = 'Select a day to see times';
+          emptyTimes.hidden = false;
+          return;
+        }
+        const daySlots = slotsFor(selectedDate);
+        timesTitle.textContent = formatShortDate(selectedDate) + ' · Eastern';
+        if (!daySlots.length) {
+          emptyTimes.hidden = false;
+          emptyTimes.textContent = 'No free times on this day.';
+          return;
+        }
+        emptyTimes.hidden = true;
+        daySlots.forEach(function (hour) {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'time-button';
+          button.textContent = hour.label;
+          button.addEventListener('click', function () { submitBooking(hour, button); });
+          times.appendChild(button);
+        });
+      }
+
+      function easternIso(date, hhmm) {
+        const pieces = hhmm.split(':').map(Number);
+        const desiredUtc = Date.UTC(date.year, date.month, date.day, pieces[0], pieces[1]);
+        let probe = desiredUtc;
+        for (let pass = 0; pass < 2; pass += 1) {
+          const parts = new Intl.DateTimeFormat('en-US', {
+            timeZone: meeting.timeZone,
+            year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric',
+            hourCycle: 'h23',
+          }).formatToParts(new Date(probe));
+          const values = {};
+          parts.forEach(function (part) { if (part.type !== 'literal') values[part.type] = Number(part.value); });
+          const shownAsUtc = Date.UTC(values.year, values.month - 1, values.day, values.hour, values.minute);
+          probe += desiredUtc - shownAsUtc;
+        }
+        return new Date(probe).toISOString();
+      }
+
+      function setTimesDisabled(disabled) {
+        times.querySelectorAll('button').forEach(function (button) { button.disabled = disabled; });
+      }
+
+      function submitBooking(hour, clickedButton) {
+        const firstName = document.getElementById('firstName').value.trim();
+        const lastName = document.getElementById('lastName').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const phone = document.getElementById('phone').value.trim();
+        if (!firstName || !lastName || !email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          status.className = 'status error';
+          status.textContent = 'Enter your name and a valid email before choosing a time.';
+          const firstMissing = !firstName ? 'firstName' : (!lastName ? 'lastName' : 'email');
+          document.getElementById(firstMissing).focus();
+          return;
+        }
+        if (phone.replace(/\D/g, '').length < 10) {
+          status.className = 'status error';
+          status.textContent = 'A mobile number is required.';
+          document.getElementById('phone').focus();
+          return;
+        }
+        if (!token) {
+          status.className = 'status error';
+          status.textContent = 'Intake token not set on this preview.';
+          return;
+        }
+
+        setTimesDisabled(true);
+        clickedButton.textContent = 'Booking…';
+        status.className = 'status';
+        status.textContent = 'Booking on Google Calendar…';
+        const startIso = hour.start || easternIso(selectedDate, hour.value);
+        const slotLabel = formatShortDate(selectedDate) + ' ' + hour.label + ' Eastern';
+
+        fetch(apiBase + '/book', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
+          body: JSON.stringify({
+            firstname: firstName,
+            lastname: lastName,
+            email: email,
+            phone: phone,
+            source: 'cutover-mock-booking',
+            meeting_start: startIso,
+            meeting_slot_label: slotLabel,
+          }),
+        }).then(function (response) {
+          if (!response.ok) throw new Error('status ' + response.status);
+          return response.json();
+        }).then(function (data) {
+          document.getElementById('picker').classList.add('hidden');
+          document.getElementById('confirm').classList.add('show');
+          document.getElementById('confirm-when').textContent =
+            formatDate(selectedDate) + ' at ' + hour.label + ' Eastern';
+          if (data && data.hangout_link) {
+            const meet = document.getElementById('meet-link');
+            meet.href = data.hangout_link;
+            meet.hidden = false;
+          }
+        }).catch(function () {
+          status.className = 'status error';
+          status.textContent = 'Could not send the booking. Please try again.';
+          clickedButton.textContent = hour.label;
+          setTimesDisabled(false);
+        });
+      }
+
+      document.getElementById('prev-month').addEventListener('click', function () {
+        if (dateKey(viewYear, viewMonth, 1) <= dateKey(today.year, today.month, 1)) return;
+        viewMonth -= 1;
+        if (viewMonth < 0) { viewMonth = 11; viewYear -= 1; }
+        loadAvailability();
+      });
+      document.getElementById('next-month').addEventListener('click', function () {
+        viewMonth += 1;
+        if (viewMonth > 11) { viewMonth = 0; viewYear += 1; }
+        loadAvailability();
+      });
+
+      loadAvailability();
+    })();
+    </script>
+  </body>
+</html>
