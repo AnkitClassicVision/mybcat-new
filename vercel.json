@@ -3625,7 +3625,6 @@
       "destination": "/blog/conducting-a-cost-benefit-analysis-of-bpo-in-optometry/",
       "permanent": true
     },
-
     {
       "source": "/blog/no-show-recovery",
       "destination": "/blog/no-show-recovery-program/",
@@ -4006,7 +4005,6 @@
       "destination": "/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/",
       "permanent": true
     },
-
     {
       "source": "/customer-service-outsourcing-for-optometry",
       "destination": "/industries/optometry/",
@@ -4246,6 +4244,12 @@
       "source": "/book/1-1/",
       "destination": "https://calendar.app.google/4R8J9WLuNnrXFvnEA",
       "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/forms/intake",
+      "destination": "https://gmd394shy4.execute-api.us-east-1.amazonaws.com/forms/intake"
     }
   ]
 }
