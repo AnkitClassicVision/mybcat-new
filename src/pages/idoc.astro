@@ -1,0 +1,313 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Card from '@/components/Card.astro';
+import Button from '@/components/Button.astro';
+
+const title = 'iDoc Members | $250 Off Setup | Discovery Call | MyBCAT';
+const description = 'iDoc members book a MyBCAT discovery call and get $250 off setup.';
+---
+
+<BaseLayout title={title} description={description} noindex={false} disableTracking={false} navMode="hidden">
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="shell brand-row">
+        <a class="brand" href="/" aria-label="MyBCAT home">
+          <img src="/images/logo-optimized.webp" alt="" width="48" height="45" />
+          <span><strong>MyBCAT</strong><small>My Business Care Team</small></span>
+        </a>
+        <div class="partner-badge">
+          <span>Exclusive member offer</span>
+          <img src="/images/authority/idoc.webp" alt="iDoc" width="112" height="52" />
+        </div>
+      </div>
+
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Exclusive for iDoc members</p>
+          <h1>Get your tasks completed, your books full, and get results for less than $10 an hour.</h1>
+          <p class="lead">Instead of just another person to manage who isn't even in your office.</p>
+          <img class="hero-photo" src="/images/landing/partner-lp/reception.webp" alt="Bright optometry practice reception area" width="1200" height="800" />
+          <div class="trust-row">
+            <img src="/images/ankit_headshot.webp" alt="Ankit Patel" width="72" height="72" />
+            <p><strong>Talk with Ankit Patel</strong><span>Ankit is an optometry practice owner who understands the work beyond the exam room.</span></p>
+          </div>
+          <div class="offer-strip" aria-label="iDoc member offer">
+            <div><span>Exclusive Offer for iDoc Members</span><strong>$250</strong></div>
+            <p>off the setup fee with promo code <b>iDoc</b></p>
+          </div>
+          <ol class="claim-steps">
+            <li>Fill out the form.</li>
+            <li>Mention iDoc.</li>
+            <li>Pick a Discovery time.</li>
+          </ol>
+        </div>
+
+        <div id="book">
+          <Card variant="pricing" class="form-card">
+          <div id="form-content" class="form-content">
+            <p class="form-kicker">Your iDoc member benefit</p>
+            <h2>Schedule your Discovery call</h2>
+            <p>Tell us where the staffing pressure is showing up. Then choose a time that works.</p>
+
+            <form id="contact-form" data-source="idoc" novalidate>
+              <div class="field-row">
+                <div class="field">
+                  <label for="cf-firstname">First name <span class="required-mark" aria-hidden="true">*</span></label>
+                  <input type="text" id="cf-firstname" name="firstname" required autocomplete="given-name" />
+                  <span class="field-error" id="err-firstname"></span>
+                </div>
+                <div class="field">
+                  <label for="cf-lastname">Last name <span class="required-mark" aria-hidden="true">*</span></label>
+                  <input type="text" id="cf-lastname" name="lastname" required autocomplete="family-name" />
+                  <span class="field-error" id="err-lastname"></span>
+                </div>
+              </div>
+              <div class="field">
+                <label for="cf-email">Work email <span class="required-mark" aria-hidden="true">*</span></label>
+                <input type="email" id="cf-email" name="email" required autocomplete="email" />
+                <span class="field-error" id="err-email"></span>
+              </div>
+              <div class="field">
+                <label for="cf-phone">Mobile number <span class="required-mark" aria-hidden="true">*</span></label>
+                <input type="tel" id="cf-phone" name="mobilephone" required autocomplete="tel" />
+                <span class="field-error" id="err-phone"></span>
+                <!-- Submit logic uses phone.replace(/\D/g, '') and requires at least 10 digits. -->
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="cf-website">Practice website</label>
+                  <input type="url" id="cf-website" name="website" autocomplete="url" />
+                </div>
+                <div class="field">
+                  <label for="cf-locations">Number of locations</label>
+                  <input type="number" id="cf-locations" name="number_of_locations" min="1" inputmode="numeric" />
+                </div>
+              </div>
+              <div class="field">
+                <label for="cf-message">What would you like help with?</label>
+                <textarea id="cf-message" name="message" rows="3">iDoc</textarea>
+              </div>
+              <input type="hidden" name="promo_code" value="iDoc" />
+              <input type="hidden" name="utm_source" id="cf-utm-source" />
+              <Button type="submit" variant="primary">Schedule Discovery Call</Button>
+              <p class="legal">Do not include patient information. See our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+            </form>
+          </div>
+
+          <div id="post-submit-state" class="post-submit-state" hidden aria-live="polite">
+            <p class="form-kicker">One last step</p>
+            <h2>Pick your Discovery time</h2>
+            <p>Pick a 30 min Discovery call with My Business Care Team on Google Meet.</p>
+            <p id="intake-status" class="intake-status" aria-live="polite"></p>
+            <div class="calendar-wrap">
+              <iframe id="meetings-iframe" title="Schedule a Discovery call with MyBCAT"></iframe>
+            </div>
+            <p class="calendar-fallback">Calendar trouble? <a href="https://mybcat.com/book/discovery">Open the booking page</a> or email <a href="mailto:ankit@mybcat.com">ankit@mybcat.com</a>.</p>
+          </div>
+          </Card>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="benefits-title">
+      <div class="section-heading">
+        <p class="eyebrow">A managed team, not another person to manage</p>
+        <h2 id="benefits-title">Steady support for the work beyond the exam room</h2>
+      </div>
+      <div class="benefit-grid">
+        <article><span>01</span><h3>Optometry-specialized agents</h3><p>Trained for the field, not a generic VA.</p></article>
+        <article><span>02</span><h3>All-inclusive management</h3><p>We hire, train, supervise, and replace.</p></article>
+        <article><span>03</span><h3>Coverage that does not leave with one person</h3><p>Backup is automatic.</p></article>
+      </div>
+    </section>
+
+    <section class="section comparison-section">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow">See the operating difference</p><h2>Less management stays on your desk</h2></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th scope="col">Responsibility</th><th scope="col">In-house hire</th><th scope="col">Generic VA</th><th scope="col">MyBCAT</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Recruit / train / manage</th><td>You</td><td>You</td><td>We do</td></tr>
+              <tr><th scope="row">Optometry workflows</th><td>You train them</td><td>Maybe</td><td>Pre-trained (VSP, EyeMed, Eyefinity)</td></tr>
+              <tr><th scope="row">Sick / vacation coverage</th><td>You scramble</td><td>You scramble</td><td>Automatic backup</td></tr>
+              <tr><th scope="row">Quality monitoring</th><td>You</td><td>You</td><td>Supervisor-managed</td></tr>
+              <tr><th scope="row">HIPAA / BAA</th><td>You</td><td>Varies</td><td>Yes</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="process-title">
+      <div class="section-heading"><p class="eyebrow">How it works</p><h2 id="process-title">From onboarding to ongoing support</h2><p>US-based client success managers guide the relationship from setup forward.</p></div>
+      <div class="process-layout">
+        <div class="process-grid">
+          <article><b>1</b><h3>Onboarding</h3><p>We learn your practice, priorities, and workflows.</p></article>
+          <article><b>2</b><h3>Integration</h3><p>Your team learns how to work with ours in the systems you already use.</p></article>
+          <article><b>3</b><h3>Optimization</h3><p>Supervisors monitor quality and improve the workflow over time.</p></article>
+          <article><b>4</b><h3>Support</h3><p>Your client success manager stays available as needs change.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof section">
+      <div class="shell">
+        <p class="eyebrow">Trusted by optometry practices</p>
+        <div class="logo-row">
+          <img src="/images/authority/classic-logo.webp" alt="Classic Vision Care" loading="lazy" />
+          <img src="/images/authority/golden-triangle-logo.webp" alt="Golden Triangle Eye Consultants" loading="lazy" />
+          <img src="/images/authority/rlk.webp" alt="RLK Eye Associates" loading="lazy" />
+          <img src="/images/authority/winchester-logo.webp" alt="Winchester Optical" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="shell"><h2>Ready to streamline the practice?</h2><a class="cta-button" href="#book">Schedule Discovery Call</a></div>
+    </section>
+  </main>
+</BaseLayout>
+
+<script>
+  const MEETINGS_URL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ21kmAUBj4aZSq7DYPJ4jkhMAVh400vqdkedNXshigCOXwWVU87EvvK4as9dXOlAqZYOruIhLog';
+  const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT || '/forms/intake';
+  const token = import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
+
+  const valueOf = (form: HTMLFormElement, name: string) => String(new FormData(form).get(name) || '').trim();
+
+  function showPostSubmitState(values: { firstName: string; lastName: string; email: string }) {
+    const formContent = document.getElementById('form-content');
+    const postSubmit = document.getElementById('post-submit-state');
+    const iframe = document.getElementById('meetings-iframe') as HTMLIFrameElement | null;
+    const calendarUrl = new URL(MEETINGS_URL);
+    calendarUrl.searchParams.set('firstName', values.firstName);
+    calendarUrl.searchParams.set('lastName', values.lastName);
+    calendarUrl.searchParams.set('email', values.email);
+    if (formContent) formContent.hidden = true;
+    if (postSubmit) postSubmit.hidden = false;
+    if (iframe) iframe.src = calendarUrl.toString();
+    postSubmit?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const firstName = valueOf(form, 'firstname');
+    const lastName = valueOf(form, 'lastname');
+    const email = valueOf(form, 'email');
+    const phone = valueOf(form, 'mobilephone');
+    const phoneDigits = phone.replace(/\D/g, '');
+    const phoneError = document.getElementById('err-phone');
+    if (phoneError) phoneError.textContent = phoneDigits.length >= 10 ? '' : 'A mobile number is required';
+    if (!firstName || !lastName || !email || phoneDigits.length < 10 || !form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    showPostSubmitState({ firstName, lastName, email });
+    const status = document.getElementById('intake-status');
+    if (!token) {
+      if (status) status.textContent = 'Intake token not set on this preview.';
+      return;
+    }
+
+    const formData = new FormData(form);
+    const fieldNames = ['firstname', 'lastname', 'email', 'mobilephone', 'website', 'number_of_locations', 'message', 'promo_code', 'utm_source'];
+    const fields = fieldNames
+      .map((name) => ({ name, value: String(formData.get(name) || '') }))
+      .filter(({ value, name }) => value || ['firstname', 'lastname', 'email', 'mobilephone', 'promo_code'].includes(name));
+    fields.push({ name: 'requested_meeting', value: 'Discovery' });
+    const payload = { fields, context: { pageUri: window.location.href, pageName: document.title, source: 'idoc' } };
+
+    fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
+      body: JSON.stringify(payload),
+    }).then((res) => {
+      if (!res.ok) throw new Error(`Intake returned ${res.status}`);
+    }).catch(() => {
+      if (status) status.innerHTML = 'We could not send your details. Please email <a href="mailto:help@mybcat.com">help@mybcat.com</a>.';
+    });
+  });
+
+  const sourceInput = document.getElementById('cf-utm-source') as HTMLInputElement | null;
+  if (sourceInput) sourceInput.value = new URLSearchParams(window.location.search).get('utm_source') || '';
+</script>
+
+<style>
+  .shell { width: min(1160px, calc(100% - 40px)); margin-inline: auto; }
+  .hero { padding: 34px 0 76px; color: var(--navy-900); background: var(--spatial-bg); }
+  .brand-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 54px; }
+  .brand { display: flex; align-items: center; gap: 12px; color: var(--navy-900); }
+  .brand img { width: 48px; height: auto; }
+  .brand span { display: grid; line-height: 1.15; }
+  .brand strong { font-size: 20px; }
+  .brand small { margin-top: 4px; color: var(--text-secondary); font-size: 11px; letter-spacing: .05em; }
+  .partner-badge { display: flex; align-items: center; gap: 14px; padding: 8px 14px; border: 1px solid var(--glass-border); border-radius: 16px; background: white; color: var(--navy-800); font-size: 12px; font-weight: 700; box-shadow: var(--shadow); }
+  .partner-badge img { max-height: 38px; width: auto; }
+  .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(390px, .78fr); gap: 64px; align-items: start; }
+  .eyebrow, .form-kicker { margin: 0 0 14px; color: var(--oceanic-teal); font-size: 13px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+  .hero .eyebrow { color: var(--oceanic-teal); }
+  h1 { margin: 0 0 22px; color: var(--navy-900); font-size: clamp(2.65rem, 5vw, 4.75rem); line-height: 1.02; letter-spacing: -.045em; }
+  .lead { max-width: 650px; margin: 0 0 28px; color: var(--navy-800); font-size: 19px; }
+  .hero-photo { display: block; width: 100%; max-height: 330px; margin: 0 0 18px; border-radius: 20px; object-fit: cover; box-shadow: var(--shadow-lg); }
+  .trust-row { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; padding: 12px 14px; border: 1px solid rgba(0,96,100,.14); border-radius: 14px; background: rgba(255,255,255,.78); }
+  .trust-row img { width: 58px; height: 58px; border-radius: 50%; object-fit: cover; }
+  .trust-row p { display: grid; gap: 3px; margin: 0; }
+  .trust-row span { color: var(--text-secondary); font-size: 13px; }
+  .offer-strip { display: flex; align-items: center; gap: 20px; max-width: 570px; padding: 18px 20px; border: 1px solid rgba(0,96,100,.18); border-radius: 14px; background: rgba(255,255,255,.82); }
+  .offer-strip div { display: grid; }
+  .offer-strip span { font-size: 12px; font-weight: 700; text-transform: uppercase; }
+  .offer-strip strong { color: var(--oceanic-teal); font-size: 42px; line-height: 1; }
+  .offer-strip p { margin: 0; color: var(--navy-800); }
+  .claim-steps { display: flex; gap: 30px; margin: 24px 0 0; padding-left: 22px; color: var(--navy-800); font-size: 14px; }
+  :global(.form-card) { overflow: hidden; color: var(--navy-900); text-align: left; cursor: default; box-shadow: var(--shadow-lg); }
+  .form-content, .post-submit-state { padding: 0; }
+  .form-card h2 { margin: 0 0 8px; font-size: 29px; }
+  .form-card p { margin-top: 0; }
+  #contact-form { display: grid; gap: 16px; margin-top: 24px; }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .field { display: grid; gap: 6px; }
+  .field label { color: var(--navy-800); font-size: 13px; font-weight: 700; }
+  .field label .required-mark { color: #a12b2b; font-weight: 800; }
+  .field input, .field textarea { width: 100%; padding: 11px 12px; border: 1px solid #cbd4da; border-radius: 8px; background: white; color: var(--navy-900); font: inherit; }
+  .field input:focus, .field textarea:focus { border-color: var(--oceanic-teal); outline: 3px solid rgba(0,96,100,.12); }
+  .field-error { min-height: 16px; color: #a12b2b; font-size: 12px; }
+  .cta-button { display: inline-flex; justify-content: center; padding: 14px 20px; border: 0; border-radius: 9px; background: var(--oceanic-teal); color: white; font: inherit; font-weight: 800; cursor: pointer; }
+  .cta-button:hover { background: var(--navy-800); color: white; }
+  .legal { font-size: 12px; }
+  .post-submit-state[hidden], .form-content[hidden] { display: none; }
+  .calendar-wrap { overflow: hidden; margin-top: 20px; border: 1px solid #d9e1e5; border-radius: 12px; }
+  #meetings-iframe { display: block; width: 100%; height: 610px; border: 0; }
+  .intake-status { padding: 8px 0; color: #8b4513; font-weight: 700; }
+  .calendar-fallback { margin: 14px 0 0; font-size: 13px; }
+  .section { padding: 88px 0; }
+  .section-heading { max-width: 720px; margin-bottom: 36px; }
+  .section-heading h2 { margin: 0 0 12px; font-size: clamp(2rem, 4vw, 3.1rem); letter-spacing: -.035em; }
+  .benefit-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .benefit-grid article { padding: 30px; border: 1px solid rgba(39,52,60,.12); border-radius: 16px; background: white; box-shadow: 0 8px 25px rgba(39,52,60,.06); }
+  .benefit-grid article > span { color: var(--oceanic-teal); font-size: 13px; font-weight: 800; }
+  .benefit-grid h3 { margin: 30px 0 10px; font-size: 21px; }
+  .comparison-section { background: white; }
+  .table-wrap { overflow-x: auto; border: 1px solid #d9e1e5; border-radius: 16px; }
+  table { width: 100%; border-collapse: collapse; min-width: 760px; }
+  th, td { padding: 18px 20px; border-bottom: 1px solid #e4e9ec; text-align: left; }
+  thead th { background: var(--navy-900); color: white; }
+  tbody th { color: var(--navy-900); }
+  tbody td:last-child { background: rgba(0,96,100,.07); color: var(--oceanic-teal); font-weight: 700; }
+  tbody tr:last-child th, tbody tr:last-child td { border-bottom: 0; }
+  .process-layout { display: block; }
+  .process-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  .process-grid article { padding: 24px; border-top: 3px solid var(--oceanic-teal); background: white; }
+  .process-grid b { color: var(--oceanic-teal); }
+  .process-grid h3 { margin: 20px 0 8px; font-size: 20px; }
+  .proof { padding-top: 10px; text-align: center; }
+  .logo-row { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 38px; padding: 30px; border-radius: 16px; background: white; }
+  .logo-row img { width: auto; max-width: 170px; max-height: 62px; }
+  .final-cta { padding: 82px 0; background: linear-gradient(135deg, rgba(0,96,100,.94), rgba(33,150,154,.82)); text-align: center; }
+  .final-cta h2 { margin: 0 0 24px; color: white; font-size: clamp(2rem, 4vw, 3.4rem); }
+  @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; gap: 42px; } .benefit-grid { grid-template-columns: 1fr; } .process-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 600px) { .shell { width: min(100% - 28px, 1160px); } .hero { padding-top: 24px; } .brand-row { align-items: flex-start; margin-bottom: 42px; } .partner-badge span { display: none; } .partner-badge img { max-width: 82px; } h1 { font-size: 2.55rem; } .offer-strip { align-items: flex-start; flex-direction: column; gap: 8px; } .claim-steps { flex-direction: column; gap: 8px; } .field-row, .process-grid { grid-template-columns: 1fr; } .section { padding: 64px 0; } }
+</style>
