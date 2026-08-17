@@ -1,13 +1,15 @@
 ---
 title: Optometry Practice Transition Timeline for Owners
 seoTitle: Optometry Practice Transition Timeline for Owners
-description: See how an optometry practice transition timeline unfolds stage by stage,
-  from early goal-setting to patient notice, so you can plan on your terms.
-seoDescription: A stage-by-stage optometry practice transition timeline for independent
-  owners, covering early preparation, valuation, diligence, and patient continuity.
-publishDate: '2026-08-17'
-status: scheduled
-scheduledDate: '2026-08-17'
+description: >-
+  See how an optometry practice transition timeline unfolds stage by stage, from
+  early goal-setting to patient notice, so you can plan on your terms.
+seoDescription: >-
+  A stage-by-stage optometry practice transition timeline for independent
+  owners, covering early preparation, valuation, diligence, and patient
+  continuity.
+publishDate: '2026-08-17T09:40:20.831Z'
+status: published
 funnel: acquisition
 seoTopicId: seller-transition-timeline-planning
 buyerStage: consideration
@@ -21,12 +23,12 @@ claimsReviewed: true
 author: Ankit Patel
 category: Practice Transitions
 tags:
-- optometry practice transition timeline
-- practice transitions
-- optometry ownership
+  - optometry practice transition timeline
+  - practice transitions
+  - optometry ownership
 cluster: owner-transition-goals
 featuredImage: /images/blog/optometry-practice-transition-timeline.webp
-canonical: https://mybcat.com/blog/optometry-practice-transition-timeline/
+canonical: 'https://mybcat.com/blog/optometry-practice-transition-timeline/'
 ---
 ## Table of Contents
 
