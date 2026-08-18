@@ -206,7 +206,7 @@ Success in patient reactivation campaigns comes from treating the work as operat
 
 ---
 
-*Need help reactivating dormant patients across your locations? [Schedule a consultation](https://meetings.hubspot.com/ankit98/mybcat-discovery-call) to learn how MyBCAT's reactivation campaigns recover 15-25% of inactive patients for multi-location healthcare groups.*
+*Need help reactivating dormant patients across your locations? [Schedule a consultation](https://mybcat.com/book/discovery) to learn how MyBCAT's reactivation campaigns recover 15-25% of inactive patients for multi-location healthcare groups.*
 
 ---
 

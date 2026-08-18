@@ -61,7 +61,9 @@ export default function ROICalculator() {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
   const [emailForm, setEmailForm] = useState({
     firstName: '',
+    lastName: '',
     workEmail: '',
+    mobilePhone: '',
     companyName: '',
     numberOfLocations: '1',
   });
@@ -116,7 +118,14 @@ export default function ROICalculator() {
     e.preventDefault();
     setEmailFormError('');
 
-    if (!emailForm.firstName.trim() || !emailForm.workEmail.trim() || !emailForm.companyName.trim()) {
+    const phoneDigits = emailForm.mobilePhone.replace(/\D/g, '');
+    if (
+      !emailForm.firstName.trim()
+      || !emailForm.lastName.trim()
+      || !emailForm.workEmail.trim()
+      || phoneDigits.length < 10
+      || !emailForm.companyName.trim()
+    ) {
       setEmailFormError('Please fill in all required fields.');
       return;
     }
@@ -135,29 +144,21 @@ export default function ROICalculator() {
       return;
     }
 
-    // Submit to HubSpot Forms API
-    const portalId = '23344341';
-    const formGuid = '51bdf1e4-ea47-48ff-8ba0-9d0e04e99bd9';
-
-    // Get HubSpot tracking cookie if available
-    const hutk = document.cookie
-      .split('; ')
-      .find((row) => row.startsWith('hubspotutk='))
-      ?.split('=')[1];
-
-    const submissionData: Record<string, unknown> = {
+    const token =
+      import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
+    const submissionData = {
       fields: [
         { name: 'firstname', value: emailForm.firstName },
+        { name: 'lastname', value: emailForm.lastName },
         { name: 'email', value: emailForm.workEmail },
+        { name: 'mobilephone', value: emailForm.mobilePhone },
         { name: 'company', value: emailForm.companyName },
         { name: 'number_of_locations', value: emailForm.numberOfLocations },
-        // ROI calculator inputs
         { name: 'roi_calc_industry', value: industry },
         { name: 'roi_calc_monthly_call_volume', value: String(inputs.monthlyCallVolume) },
         { name: 'roi_calc_missed_call_rate', value: String(inputs.missedCallPercentage) },
         { name: 'roi_calc_avg_appointment_value', value: String(inputs.avgAppointmentValue) },
         { name: 'roi_calc_conversion_rate', value: String(inputs.conversionRate) },
-        // ROI calculator results
         { name: 'roi_calc_monthly_lost_revenue', value: String(results?.monthlyLostRevenue ?? 0) },
         { name: 'roi_calc_annual_lost_revenue', value: String(results?.annualLostRevenue ?? 0) },
         { name: 'roi_calc_monthly_recovery', value: String(results?.recoveredWithMybcat ?? 0) },
@@ -168,29 +169,23 @@ export default function ROICalculator() {
       context: {
         pageUri: window.location.href,
         pageName: 'ROI Calculator',
+        source: 'roi-calculator',
       },
     };
 
-    if (hutk) {
-      submissionData.context = { ...submissionData.context as Record<string, string>, hutk };
-    }
-
-    try {
-      const response = await fetch(
-        `https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formGuid}`,
-        {
+    if (token) {
+      try {
+        const response = await fetch('/forms/intake', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
           body: JSON.stringify(submissionData),
+        });
+        if (!response.ok) {
+          console.error('Owned intake submission failed:', response.status);
         }
-      );
-
-      if (!response.ok) {
-        console.error('HubSpot submission failed:', await response.text());
+      } catch (err) {
+        console.error('Owned intake submission error:', err);
       }
-    } catch (err) {
-      // Don't block the user experience if HubSpot submission fails
-      console.error('HubSpot submission error:', err);
     }
 
     setEmailSubmitted(true);
@@ -335,6 +330,18 @@ export default function ROICalculator() {
                 />
               </div>
               <div className="gate-form-field">
+                <label htmlFor="lastName">Last Name *</label>
+                <input
+                  type="text"
+                  id="lastName"
+                  placeholder="Chen"
+                  value={emailForm.lastName}
+                  onChange={(e) => setEmailForm({ ...emailForm, lastName: e.target.value })}
+                />
+              </div>
+            </div>
+            <div className="gate-form-row">
+              <div className="gate-form-field">
                 <label htmlFor="workEmail">Work Email *</label>
                 <input
                   type="email"
@@ -342,6 +349,16 @@ export default function ROICalculator() {
                   placeholder="jane@yourpractice.com"
                   value={emailForm.workEmail}
                   onChange={(e) => setEmailForm({ ...emailForm, workEmail: e.target.value })}
+                />
+              </div>
+              <div className="gate-form-field">
+                <label htmlFor="mobilePhone">Mobile Number *</label>
+                <input
+                  type="tel"
+                  id="mobilePhone"
+                  placeholder="(555) 000-0000"
+                  value={emailForm.mobilePhone}
+                  onChange={(e) => setEmailForm({ ...emailForm, mobilePhone: e.target.value })}
                 />
               </div>
             </div>

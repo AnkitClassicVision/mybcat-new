@@ -196,13 +196,32 @@ const showInlineTestimonial = variant !== 'booth';
             </div>
 
             <div class="form-embed">
-              <script src="https://js.hsforms.net/forms/embed/23344341.js" defer></script>
-              <div
-                class="hs-form-frame"
-                data-region="na1"
-                data-form-id="34a2f351-9875-4a20-9c35-9d527a2eba71"
-                data-portal-id="23344341"
-              ></div>
+              <form id="idoc-kit-form" novalidate>
+                <div class="kit-row">
+                  <label>
+                    First name <span class="required-mark" aria-hidden="true">*</span>
+                    <input type="text" name="firstname" required autocomplete="given-name" />
+                  </label>
+                  <label>
+                    Last name <span class="required-mark" aria-hidden="true">*</span>
+                    <input type="text" name="lastname" required autocomplete="family-name" />
+                  </label>
+                </div>
+                <label>
+                  Work email <span class="required-mark" aria-hidden="true">*</span>
+                  <input type="email" name="email" required autocomplete="email" />
+                </label>
+                <label>
+                  Mobile number <span class="required-mark" aria-hidden="true">*</span>
+                  <input type="tel" name="mobilephone" required autocomplete="tel" />
+                </label>
+                <p class="kit-error" id="idoc-kit-error" hidden></p>
+                <button type="submit" class="kit-submit">Get the deck + snapshot</button>
+              </form>
+              <p class="kit-thanks" id="idoc-kit-thanks" hidden>
+                Thanks. The kit is on its way. Want a live walkthrough?
+                <a href="https://mybcat.com/book/discovery">Book a Discovery call</a>.
+              </p>
             </div>
 
             <div class="form-fineprint">
@@ -862,16 +881,54 @@ const showInlineTestimonial = variant !== 'booth';
     margin-top: 8px;
   }
 
-  :global(.hs-form-frame) {
-    width: 100%;
-    min-height: 420px;
+  .kit-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
   }
 
-  :global(.hs-form-frame iframe) {
-    width: 100% !important;
-    border: 0 !important;
-    border-radius: 14px;
-    overflow: hidden;
+  .form-embed label {
+    display: grid;
+    gap: 6px;
+    margin: 0 0 12px;
+    font-size: 0.86rem;
+    font-weight: 700;
+    color: var(--navy-900);
+  }
+
+  .form-embed input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid rgba(39, 52, 60, 0.18);
+    border-radius: 12px;
+    font-size: 1rem;
+  }
+
+  .required-mark { color: #c0392b; }
+
+  .kit-error {
+    color: #c0392b;
+    font-size: 0.86rem;
+    margin: 0 0 10px;
+  }
+
+  .kit-submit {
+    width: 100%;
+    margin-top: 4px;
+    padding: 14px 18px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--oceanic-teal, #006064);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .kit-thanks {
+    margin: 8px 0 0;
+    font-size: 0.98rem;
+    line-height: 1.55;
   }
 
   .form-fineprint {
@@ -1463,6 +1520,54 @@ const showInlineTestimonial = variant !== 'booth';
 </style>
 
 <script>
+  window.MYBCAT_FORM_TOKEN =
+    import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
+
+  const kitForm = document.getElementById('idoc-kit-form') as HTMLFormElement | null;
+  const kitThanks = document.getElementById('idoc-kit-thanks');
+  const kitError = document.getElementById('idoc-kit-error');
+  kitForm?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const data = new FormData(kitForm);
+    const firstName = String(data.get('firstname') || '').trim();
+    const lastName = String(data.get('lastname') || '').trim();
+    const email = String(data.get('email') || '').trim();
+    const phone = String(data.get('mobilephone') || '').trim();
+    const phoneDigits = phone.replace(/\D/g, '');
+    if (!firstName || !lastName || !email || phoneDigits.length < 10) {
+      if (kitError) {
+        kitError.hidden = false;
+        kitError.textContent = 'First name, last name, work email, and a mobile number are required.';
+      }
+      return;
+    }
+    if (kitError) kitError.hidden = true;
+    kitForm.hidden = true;
+    if (kitThanks) kitThanks.hidden = false;
+    const token = window.MYBCAT_FORM_TOKEN || '';
+    if (!token) return;
+    const fields = [
+      { name: 'firstname', value: firstName },
+      { name: 'lastname', value: lastName },
+      { name: 'email', value: email },
+      { name: 'mobilephone', value: phone },
+      { name: 'requested_meeting', value: 'IDOC kit' },
+    ];
+    fetch('/forms/intake', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
+      body: JSON.stringify({
+        fields,
+        context: { pageUri: window.location.href, pageName: document.title, source: 'idoc-connections' },
+      }),
+    }).catch(() => {
+      if (kitError) {
+        kitError.hidden = false;
+        kitError.textContent = 'We could not send your details. Please email help@mybcat.com.';
+      }
+    });
+  });
+
   // Hide sticky CTA when the form is in view (mobile only)
   const sticky = document.querySelector('[data-idoc-sticky]');
   const target = document.querySelector('#get-the-kit');
