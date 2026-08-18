@@ -1,7 +1,7 @@
 ---
 /**
  * Contact Page
- * HubSpot contact form with Organization schema for local search visibility
+ * Contact form with Organization schema for local search visibility
  */
 import PageLayout from '@/layouts/PageLayout.astro';
 import Card from '@/components/Card.astro';
@@ -23,9 +23,8 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   heroTitle="Scaling Multi-Location Operations? Let's Talk."
   heroSubtitle="Tell us about your group and we'll show you how centralized patient access works across 3, 10, or 50+ locations-with unified reporting and one team that knows your protocols."
 >
-  <!-- Preconnect to HubSpot meetings for faster iframe loading -->
+  <!-- Prefetch Google appointments so the post-submit calendar loads fast -->
   <link rel="dns-prefetch" href="https://calendar.google.com" slot="head" />
-  <link rel="preconnect" href="https://api.hsforms.com" slot="head" />
   <!-- Organization schema with PostalAddress for local search visibility -->
   <script type="application/ld+json" set:html={serializeSchema(generateOrganizationSchema())} slot="head" />
   <div class="contact-page">
@@ -52,7 +51,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
               Tell us about your group and we'll reach out within 24 hours to discuss your centralized patient access strategy.
             </p>
             <div class="hubspot-form-wrapper">
-              <!-- Native contact form — submits directly to HubSpot Submissions API -->
+              <!-- Native contact form — submits to owned /forms/intake -->
               <form id="contact-form" novalidate>
                 <div class="form-row">
                   <div class="form-field">
@@ -72,8 +71,9 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
                   <span class="field-error" id="err-email"></span>
                 </div>
                 <div class="form-field">
-                  <label for="cf-phone">Phone Number</label>
-                  <input type="tel" id="cf-phone" name="mobilephone" autocomplete="tel" placeholder="(555) 000-0000" />
+                  <label for="cf-phone">Phone Number <span class="required-mark" aria-hidden="true">*</span></label>
+                  <input type="tel" id="cf-phone" name="mobilephone" required autocomplete="tel" placeholder="(555) 000-0000" />
+                  <span class="field-error" id="err-phone"></span>
                 </div>
                 <div class="form-field">
                   <label for="cf-website">Company Website</label>
@@ -904,18 +904,16 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   }
 </style>
 
-<!-- Contact Form — optimistic UI: show calendar instantly, submit to HubSpot in background -->
+<script>
+  window.MYBCAT_FORM_TOKEN =
+    import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
+</script>
+<!-- Contact Form — optimistic UI: show calendar instantly, submit to owned intake in background -->
 <script is:inline>
 (function () {
-  const PORTAL_ID = '23344341';
-  const FORM_ID = 'a365996f-87cf-4a60-8782-9dabb9f9dd97';
   const MEETINGS_URL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ21kmAUBj4aZSq7DYPJ4jkhMAVh400vqdkedNXshigCOXwWVU87EvvK4as9dXOlAqZYOruIhLog';
   const MEETINGS_FALLBACK_URL = 'https://mybcat.com/book/discovery';
-
-  function getCookie(name) {
-    const match = document.cookie.match(new RegExp('(?:^|; )' + name.replace(/([.*+?^=!:${}()|[\]/\\])/g, '\\$1') + '=([^;]*)'));
-    return match ? decodeURIComponent(match[1]) : '';
-  }
+  const INTAKE_ENDPOINT = '/forms/intake';
 
   function buildMeetingsUrl(base, values) {
     const params = new URLSearchParams();
@@ -946,19 +944,24 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     postSubmit.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  function submitToHubSpot(fields) {
-    const hutk = getCookie('hubspotutk');
-    const ctx = { pageUri: window.location.href, pageName: document.title };
-    if (hutk) ctx.hutk = hutk; // omit if empty — HubSpot rejects empty string hutk with INVALID_HUTK
-    const payload = { fields: fields, context: ctx };
-    fetch('https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_ID, {
+  function submitToOwnedIntake(fields) {
+    const token = window.MYBCAT_FORM_TOKEN || '';
+    if (!token) {
+      console.warn('[MyBCAT] Intake token not set on this preview.');
+      return;
+    }
+    const payload = {
+      fields: fields,
+      context: { pageUri: window.location.href, pageName: document.title, source: 'contact' }
+    };
+    fetch(INTAKE_ENDPOINT, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
       body: JSON.stringify(payload)
     }).then(function (r) {
-      if (!r.ok) r.text().then(function (t) { console.warn('[MyBCAT] HubSpot submission error ' + r.status + ':', t); });
+      if (!r.ok) r.text().then(function (t) { console.warn('[MyBCAT] Intake error ' + r.status + ':', t); });
     }).catch(function (err) {
-      console.warn('[MyBCAT] HubSpot background submission failed:', err);
+      console.warn('[MyBCAT] Owned intake background submission failed:', err);
     });
   }
 
@@ -983,12 +986,16 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     [
       { id: 'cf-firstname', errId: 'err-firstname', msg: 'First name is required.' },
       { id: 'cf-lastname',  errId: 'err-lastname',  msg: 'Last name is required.' },
-      { id: 'cf-email',     errId: 'err-email',     msg: 'A valid email address is required.' }
+      { id: 'cf-email',     errId: 'err-email',     msg: 'A valid email address is required.' },
+      { id: 'cf-phone',     errId: 'err-phone',     msg: 'A mobile number is required.' }
     ].forEach(function (f) {
       const el = document.getElementById(f.id);
       if (!el) return;
       const val = el.value.trim();
-      const bad = !val || (el.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val));
+      const phoneDigits = f.id === 'cf-phone' ? val.replace(/\D/g, '') : '';
+      const bad = !val
+        || (el.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val))
+        || (f.id === 'cf-phone' && phoneDigits.length < 10);
       if (bad) {
         valid = false;
         el.classList.add('invalid');
@@ -1004,26 +1011,26 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     let email     = (document.getElementById('cf-email')     || {}).value || '';
     firstName = firstName.trim(); lastName = lastName.trim(); email = email.trim();
 
-    // Build fields
-    const fields = [
-      { objectTypeId: '0-1', name: 'firstname', value: firstName },
-      { objectTypeId: '0-1', name: 'lastname',  value: lastName },
-      { objectTypeId: '0-1', name: 'email',     value: email }
-    ];
     const phone = document.getElementById('cf-phone');
-    if (phone && phone.value.trim()) fields.push({ objectTypeId: '0-1', name: 'mobilephone', value: phone.value.trim() });
     const website = document.getElementById('cf-website');
-    if (website && website.value.trim()) fields.push({ objectTypeId: '0-2', name: 'website', value: website.value.trim() });
     const locs = document.getElementById('cf-locations');
-    if (locs && locs.value) fields.push({ objectTypeId: '0-1', name: 'number_of_locations', value: locs.value });
     const utm = document.getElementById('cf-utm-source');
-    if (utm && utm.value) fields.push({ objectTypeId: '0-1', name: 'utm_source', value: utm.value });
+    const fields = [
+      { name: 'firstname', value: firstName },
+      { name: 'lastname', value: lastName },
+      { name: 'email', value: email },
+      { name: 'mobilephone', value: phone && phone.value ? phone.value.trim() : '' }
+    ];
+    if (website && website.value.trim()) fields.push({ name: 'website', value: website.value.trim() });
+    if (locs && locs.value) fields.push({ name: 'number_of_locations', value: locs.value });
+    if (utm && utm.value) fields.push({ name: 'utm_source', value: utm.value });
+    fields.push({ name: 'requested_meeting', value: 'Discovery' });
 
     // 1. Show calendar immediately — no waiting
     showPostSubmitState({ firstName: firstName, lastName: lastName, email: email });
 
-    // 2. Send to HubSpot silently in the background
-    submitToHubSpot(fields);
+    // 2. Send to owned intake silently in the background
+    submitToOwnedIntake(fields);
   }, true);
 })();
 </script>
