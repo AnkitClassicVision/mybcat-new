@@ -215,7 +215,7 @@ For groups [building patient reactivation campaigns](/blog/dormant-patient-react
 
 ---
 
-*Need help reducing no-shows across your locations? [Schedule a consultation](https://meetings.hubspot.com/ankit98/mybcat-discovery-call) to learn how MyBCAT's automated recall systems standardize results across multi-location healthcare groups.*
+*Need help reducing no-shows across your locations? [Schedule a consultation](https://mybcat.com/book/discovery) to learn how MyBCAT's automated recall systems standardize results across multi-location healthcare groups.*
 
 ---
 
