@@ -1,11 +1,15 @@
 ---
 title: 'Optometry Practice Records Before Diligence: A Guide'
 seoTitle: Preparing Optometry Practice Records Before Diligence
-description: 'A practical guide to organizing optometry practice records before diligence, including asset records, valuation questions, and patient-record considerations.'
-seoDescription: 'Prepare optometry practice records before diligence with an organized record inventory, advisor questions, and patient-record considerations.'
-publishDate: '2026-08-18'
-status: scheduled
-scheduledDate: '2026-08-18'
+description: >-
+  A practical guide to organizing optometry practice records before diligence,
+  including asset records, valuation questions, and patient-record
+  considerations.
+seoDescription: >-
+  Prepare optometry practice records before diligence with an organized record
+  inventory, advisor questions, and patient-record considerations.
+publishDate: '2026-08-18T09:32:35.677Z'
+status: published
 funnel: acquisition
 seoTopicId: seller-records-before-diligence
 buyerStage: consideration
@@ -19,12 +23,12 @@ claimsReviewed: true
 author: Ankit Patel
 category: Practice Transitions
 tags:
-- optometry practice records before diligence
-- practice transitions
-- optometry
+  - optometry practice records before diligence
+  - practice transitions
+  - optometry
 cluster: diligence-readiness
 featuredImage: /images/blog/optometry-practice-records-before-diligence.webp
-canonical: https://mybcat.com/blog/optometry-practice-records-before-diligence/
+canonical: 'https://mybcat.com/blog/optometry-practice-records-before-diligence/'
 ---
 ## Table of Contents
 
