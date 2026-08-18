@@ -4244,6 +4244,16 @@
       "source": "/book/1-1/",
       "destination": "https://calendar.app.google/4R8J9WLuNnrXFvnEA",
       "permanent": true
+    },
+    {
+      "source": "/book/csm",
+      "destination": "https://calendar.app.google/cXqHvb1KNsT5j8FVA",
+      "permanent": true
+    },
+    {
+      "source": "/book/csm/",
+      "destination": "https://calendar.app.google/cXqHvb1KNsT5j8FVA",
+      "permanent": true
     }
   ],
   "rewrites": [
