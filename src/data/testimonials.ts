@@ -81,7 +81,7 @@ export const clientLogos = [
   { src: '/images/authority/classic-logo.webp', alt: 'Classic Vision Care' },
   { src: '/images/authority/golden-triangle-logo.webp', alt: 'Golden Triangle' },
   { src: '/images/authority/fec_logo.webp', alt: 'FEC' },
-  { src: '/images/authority/idoc.webp', alt: 'iDoc' },
+  { src: '/images/authority/idoc.webp', alt: 'IDOC' },
   { src: '/images/authority/rlk.webp', alt: 'RLK Vision' },
   { src: '/images/authority/ODonFinance-Logo.webp', alt: 'ODon Finance' },
   { src: '/images/authority/Emerald.webp', alt: 'Emerald Eye Care' },
