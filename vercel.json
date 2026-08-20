@@ -4254,6 +4254,26 @@
       "source": "/book/csm/",
       "destination": "https://calendar.app.google/cXqHvb1KNsT5j8FVA",
       "permanent": true
+    },
+    {
+      "source": "/book/competitive-analysis",
+      "destination": "https://calendar.app.google/XDCP7gR3WpnjAu1Z6",
+      "permanent": true
+    },
+    {
+      "source": "/book/competitive-analysis/",
+      "destination": "https://calendar.app.google/XDCP7gR3WpnjAu1Z6",
+      "permanent": true
+    },
+    {
+      "source": "/book/exit-plan",
+      "destination": "https://calendar.app.google/6wbUP2DEzxw8XWUC9",
+      "permanent": true
+    },
+    {
+      "source": "/book/exit-plan/",
+      "destination": "https://calendar.app.google/6wbUP2DEzxw8XWUC9",
+      "permanent": true
     }
   ],
   "rewrites": [
