@@ -34,7 +34,7 @@ export const pricingTiers: PricingTier[] = [
       'Medical answering services'
     ],
     ctaText: 'Click to book',
-    ctaHref: '/book/discovery',
+    ctaHref: '/contact/',
     popular: false
   },
   {
@@ -52,7 +52,7 @@ export const pricingTiers: PricingTier[] = [
       'Front desk outsourcing'
     ],
     ctaText: 'Click to book',
-    ctaHref: '/book/discovery',
+    ctaHref: '/contact/',
     popular: true
   },
   {
@@ -70,7 +70,7 @@ export const pricingTiers: PricingTier[] = [
       'Custom integrations'
     ],
     ctaText: 'Click to book',
-    ctaHref: '/book/discovery',
+    ctaHref: '/contact/',
     popular: false
   }
 ];
