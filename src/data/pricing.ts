@@ -24,8 +24,8 @@ export const pricingTiers: PricingTier[] = [
   {
     name: 'Starter',
     slug: 'starter',
-    price: 'From $490',
-    period: '/week',
+    price: 'Starting at $10',
+    period: '/hr',
     description: 'Perfect for practices ready to capture every call around the clock.',
     features: [
       'All calls answered 24/7',
@@ -33,15 +33,15 @@ export const pricingTiers: PricingTier[] = [
       'Dashboard & metrics reporting',
       'Medical answering services'
     ],
-    ctaText: 'Get Started',
-    ctaHref: '/contact/',
+    ctaText: 'Click to book',
+    ctaHref: '/book/discovery',
     popular: false
   },
   {
     name: 'Scale',
     slug: 'scale',
-    price: 'From $1,200',
-    period: '/week',
+    price: 'Starting at $10',
+    period: '/hr',
     description: 'For practices ready to scale with customizable workflows and full front desk support.',
     features: [
       '24/7 coverage with moderate customization',
@@ -51,15 +51,15 @@ export const pricingTiers: PricingTier[] = [
       'Appointment confirmations',
       'Front desk outsourcing'
     ],
-    ctaText: 'Get Started',
-    ctaHref: '/contact/',
+    ctaText: 'Click to book',
+    ctaHref: '/book/discovery',
     popular: true
   },
   {
     name: 'Enterprise',
     slug: 'enterprise',
-    price: 'From $2,500',
-    period: '/week',
+    price: 'Starting at $10',
+    period: '/hr',
     description: 'Multi-location groups with full virtual team support and complete customization.',
     features: [
       'Everything in Scale',
@@ -69,8 +69,8 @@ export const pricingTiers: PricingTier[] = [
       '30-day pilot available',
       'Custom integrations'
     ],
-    ctaText: 'Get Started',
-    ctaHref: '/contact/',
+    ctaText: 'Click to book',
+    ctaHref: '/book/discovery',
     popular: false
   }
 ];
