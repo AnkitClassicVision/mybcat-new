@@ -17,6 +17,7 @@ const FIELD_RULES = {
     allowed: new Set([
       'firstname', 'lastname', 'email', 'mobilephone', 'website',
       'number_of_locations', 'specialty', 'role', 'operating_problem', 'timeline',
+      'message',
     ]),
   },
   acquisition: {
@@ -91,7 +92,8 @@ function normalizedFields(rawFields, rules) {
   const fields = rawFields.map((field) => {
     const name = typeof field?.name === 'string' ? field.name.trim() : '';
     const rawValue = typeof field?.value === 'string' ? field.value.trim() : '';
-    if (!rules.allowed.has(name) || seen.has(name) || rawValue.length > 500) {
+    const maxLen = name === 'message' ? 2000 : 500;
+    if (!rules.allowed.has(name) || seen.has(name) || rawValue.length > maxLen) {
       throw new Error('invalid_fields');
     }
     seen.add(name);
