@@ -167,7 +167,6 @@ const shouldPreloadLogo = navMode !== 'hidden';
   )}
 
   <!-- DNS prefetch for third-party resources -->
-  <link rel="dns-prefetch" href="https://js.hs-scripts.com">
   {!disableTracking && (
     <>
       <link rel="dns-prefetch" href="https://www.googletagmanager.com">
@@ -205,9 +204,6 @@ const shouldPreloadLogo = navMode !== 'hidden';
   {/* First-party attribution stores only normalized campaign categories and paths. */}
   <script is:inline src="/js/seo-attribution.js" defer></script>
   <script is:inline src="/js/intake-form.js" defer></script>
-
-  {/* HubSpot is nonessential for first paint and loads only after consent or interaction. */}
-  {!disableTracking && <script is:inline src="/js/deferred-hubspot.js" defer></script>}
 
   {/* Block Vector.co pixel - misconfigured in GTM, causes console errors */}
   <script is:inline>

@@ -4284,6 +4284,26 @@
       "source": "/book/exit-plan/",
       "destination": "https://calendar.app.google/6wbUP2DEzxw8XWUC9",
       "permanent": true
+    },
+    {
+      "source": "/book/30mincall",
+      "destination": "https://calendar.app.google/PLDmK4QwpdSqkxmb8",
+      "permanent": true
+    },
+    {
+      "source": "/book/30mincall/",
+      "destination": "https://calendar.app.google/PLDmK4QwpdSqkxmb8",
+      "permanent": true
+    },
+    {
+      "source": "/book/client-success",
+      "destination": "https://calendar.app.google/4R8J9WLuNnrXFvnEA",
+      "permanent": true
+    },
+    {
+      "source": "/book/client-success/",
+      "destination": "https://calendar.app.google/4R8J9WLuNnrXFvnEA",
+      "permanent": true
     }
   ],
   "rewrites": [
