@@ -1,13 +1,14 @@
 ---
 title: Owner Dependency Before an Optometry Transition
 seoTitle: 'Owner Dependency: Optometry Practice Transition'
-description: Guidance on documenting workflows and delegating operations before an
+description: >-
+  Guidance on documenting workflows and delegating operations before an
   optometry practice transition.
-seoDescription: 'Questions to help assess owner dependency before an optometry practice
-  transition, including workflow documentation and shared responsibilities.'
-publishDate: '2026-08-20'
-status: scheduled
-scheduledDate: '2026-08-20'
+seoDescription: >-
+  Questions to help assess owner dependency before an optometry practice
+  transition, including workflow documentation and shared responsibilities.
+publishDate: '2026-08-20T09:33:33.806Z'
+status: published
 funnel: acquisition
 seoTopicId: seller-owner-dependency
 buyerStage: consideration
@@ -21,12 +22,12 @@ claimsReviewed: true
 author: Ankit Patel
 category: Practice Transitions
 tags:
-- reduce owner dependency optometry practice transition
-- practice transitions
-- optometry
+  - reduce owner dependency optometry practice transition
+  - practice transitions
+  - optometry
 cluster: transition-readiness
 featuredImage: /images/blog/reduce-owner-dependency-optometry-transition.webp
-canonical: https://mybcat.com/blog/reduce-owner-dependency-optometry-transition/
+canonical: 'https://mybcat.com/blog/reduce-owner-dependency-optometry-transition/'
 ---
 
 
