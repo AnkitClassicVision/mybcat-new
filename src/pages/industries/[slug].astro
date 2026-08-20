@@ -244,6 +244,16 @@ const icons: Record<string, string> = {
       />
     </section>
 
+    {industry.slug === 'optometry' && (
+      <section class="other-industries" aria-label="Member programs">
+        <h3>Member programs</h3>
+        <div class="industries-links">
+          <a href="/idoc/" class="industry-link">IDOC members</a>
+          <a href="/ods-on-finance/" class="industry-link">ODs on Finance members</a>
+        </div>
+      </section>
+    )}
+
     <!-- CTA Section -->
     <section class="cta-section">
       <CTA

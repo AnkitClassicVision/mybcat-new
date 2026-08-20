@@ -246,6 +246,16 @@
       "permanent": true
     },
     {
+      "source": "/solutions/after-hours-medical-answering-service",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/after-hours-medical-answering-service/",
+      "destination": "/solutions/medical-answering-service/",
+      "permanent": true
+    },
+    {
       "source": "/virtual-assistants-for-optometry",
       "destination": "/solutions/optometry-virtual-assistant/",
       "permanent": true
