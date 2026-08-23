@@ -1,13 +1,14 @@
 ---
 title: Five Goals to Clarify Before a Practice Transition
 seoTitle: Optometry Owner Practice Transition Goals Guide
-description: 'Define your optometry owner practice transition goals: timing, post-sale
-  role, patient continuity, and buyer fit before exploring a transition.'
-seoDescription: 'Define your optometry owner practice transition goals: timing, post-sale
-  role, patient continuity, and buyer fit before conversations.'
-publishDate: '2026-08-23'
-status: scheduled
-scheduledDate: '2026-08-23'
+description: >-
+  Define your optometry owner practice transition goals: timing, post-sale role,
+  patient continuity, and buyer fit before exploring a transition.
+seoDescription: >-
+  Define your optometry owner practice transition goals: timing, post-sale role,
+  patient continuity, and buyer fit before conversations.
+publishDate: '2026-08-23T09:26:37.607Z'
+status: published
 funnel: acquisition
 seoTopicId: seller-transition-goals
 buyerStage: awareness
@@ -21,12 +22,12 @@ claimsReviewed: true
 author: Ankit Patel
 category: Practice Transitions
 tags:
-- optometry owner practice transition goals
-- practice transitions
-- optometry
+  - optometry owner practice transition goals
+  - practice transitions
+  - optometry
 cluster: owner-transition-goals
 featuredImage: /images/blog/optometry-owner-transition-goals.webp
-canonical: https://mybcat.com/blog/optometry-owner-transition-goals/
+canonical: 'https://mybcat.com/blog/optometry-owner-transition-goals/'
 ---
 
 
