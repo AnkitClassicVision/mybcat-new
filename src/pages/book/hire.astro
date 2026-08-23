@@ -1,0 +1,150 @@
+---
+/**
+ * Hiring interview booking page.
+ * Public URL: https://mybcat.com/book/hire
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Card from '@/components/Card.astro';
+
+const pageTitle = 'Book a Hiring Interview | MyBCAT';
+const pageDescription = 'Book a hiring interview with Ankit. Type the open position so the calendar title includes the role.';
+---
+
+<PageLayout
+  title={pageTitle}
+  description={pageDescription}
+  noindex={true}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Careers', url: '/careers/' },
+    { name: 'Book interview' }
+  ]}
+  heroEyebrow="Hiring interview"
+  heroTitle="Interview with Ankit"
+  heroSubtitle="Name the role. Pick a time. We put the position in the calendar title."
+>
+  <div class="hire-page">
+    <Card variant="pricing" class="hire-card">
+      <div id="form-content">
+        <h2>Request your interview time</h2>
+        <p class="form-description">
+          Use this page only for a job interview. Podcast interviews use a different link.
+          Type the exact open position. First and last name are required.
+        </p>
+        <form id="hire-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="hf-firstname">First name <span class="required-mark">*</span></label>
+              <input type="text" id="hf-firstname" name="firstname" required autocomplete="given-name" />
+              <span class="field-error" id="err-firstname"></span>
+            </div>
+            <div class="form-field">
+              <label for="hf-lastname">Last name <span class="required-mark">*</span></label>
+              <input type="text" id="hf-lastname" name="lastname" required autocomplete="family-name" />
+              <span class="field-error" id="err-lastname"></span>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="hf-email">Email <span class="required-mark">*</span></label>
+            <input type="email" id="hf-email" name="email" required autocomplete="email" />
+            <span class="field-error" id="err-email"></span>
+          </div>
+          <div class="form-field">
+            <label for="hf-position">Position <span class="required-mark">*</span></label>
+            <input type="text" id="hf-position" name="position" required placeholder="Optometry Technician" />
+            <span class="field-error" id="err-position"></span>
+          </div>
+          <div class="form-field">
+            <label for="hf-when">Preferred time <span class="optional-mark">(optional)</span></label>
+            <input type="datetime-local" id="hf-when" name="preferred_time" />
+          </div>
+          <button type="submit" id="hf-submit">Request interview</button>
+          <p class="form-legal">Hiring path only. Do not use this for Discovery or the OBE podcast.</p>
+        </form>
+      </div>
+      <div id="post-submit-state" hidden aria-live="polite">
+        <h2>Request received</h2>
+        <p id="confirm-copy" class="form-description"></p>
+      </div>
+    </Card>
+  </div>
+</PageLayout>
+
+<style>
+  .hire-page { max-width: 640px; margin: 0 auto; padding: 0 24px 80px; }
+  :global(.hire-card) { padding: 40px; text-align: left; }
+  :global(.hire-card) h2 { font-size: 1.5rem; font-weight: 700; color: var(--navy-900); margin-bottom: 12px; text-align: center; }
+  .form-description { font-size: 1rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 24px; text-align: center; }
+  #hire-form { display: flex; flex-direction: column; gap: 16px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-field { display: flex; flex-direction: column; gap: 6px; }
+  .form-field label { font-size: 14px; font-weight: 600; color: var(--navy-900); }
+  .required-mark { color: var(--oceanic-teal); }
+  .optional-mark { font-weight: 400; color: var(--text-muted); }
+  #hire-form input { width: 100%; padding: 12px 16px; border: 1px solid var(--glass-border); border-radius: 8px; font-size: 15px; color: var(--navy-900); background: white; box-sizing: border-box; font-family: inherit; }
+  #hire-form input:focus { outline: none; border-color: var(--oceanic-teal); box-shadow: 0 0 0 3px rgba(0, 96, 100, 0.1); }
+  #hire-form input.invalid { border-color: #dc3545; }
+  .field-error { font-size: 13px; color: #dc3545; display: none; }
+  .field-error.visible { display: block; }
+  #hf-submit { width: 100%; padding: 14px 24px; background: var(--oceanic-teal); color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; font-family: inherit; }
+  #hf-submit:hover:not(:disabled) { background: var(--navy-900); }
+  .form-legal { font-size: 12px; color: var(--text-muted); line-height: 1.5; text-align: center; margin: 0; }
+  #post-submit-state[hidden] { display: none; }
+  @media (max-width: 640px) { .form-row { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+  window.MYBCAT_FORM_TOKEN = import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
+</script>
+<script is:inline>
+(function () {
+  const form = document.getElementById('hire-form');
+  if (!form) return;
+  function showError(id, errId, msg) {
+    const el = document.getElementById(id);
+    const err = document.getElementById(errId);
+    if (el) el.classList.add('invalid');
+    if (err) { err.textContent = msg; err.classList.add('visible'); }
+  }
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    form.querySelectorAll('.invalid').forEach(function (el) { el.classList.remove('invalid'); });
+    form.querySelectorAll('.field-error').forEach(function (el) { el.textContent = ''; el.classList.remove('visible'); });
+    const firstName = ((document.getElementById('hf-firstname') || {}).value || '').trim();
+    const lastName = ((document.getElementById('hf-lastname') || {}).value || '').trim();
+    const email = ((document.getElementById('hf-email') || {}).value || '').trim();
+    const position = ((document.getElementById('hf-position') || {}).value || '').trim();
+    const when = ((document.getElementById('hf-when') || {}).value || '').trim();
+    let valid = true;
+    if (!firstName) { valid = false; showError('hf-firstname', 'err-firstname', 'First name is required.'); }
+    if (!lastName) { valid = false; showError('hf-lastname', 'err-lastname', 'Last name is required.'); }
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { valid = false; showError('hf-email', 'err-email', 'A valid email is required.'); }
+    if (!position) { valid = false; showError('hf-position', 'err-position', 'Position is required.'); }
+    if (!valid) return;
+    const token = window.MYBCAT_FORM_TOKEN || '';
+    if (token) {
+      const fields = [
+        { name: 'firstname', value: firstName },
+        { name: 'lastname', value: lastName },
+        { name: 'email', value: email },
+        { name: 'position', value: position },
+        { name: 'requested_meeting', value: 'Hiring interview' }
+      ];
+      if (when) fields.push({ name: 'preferred_time', value: when });
+      fetch('/forms/intake', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
+        body: JSON.stringify({ fields: fields, context: { pageUri: window.location.href, pageName: document.title, source: 'hire' } })
+      }).catch(function () {});
+    }
+    const copy = document.getElementById('confirm-copy');
+    if (copy) {
+      copy.textContent = 'Thanks ' + firstName + '. We have the ' + position + ' interview request. The calendar title will be Interview - ' + position + ' - ' + firstName + ' ' + lastName + '.';
+    }
+    const formContent = document.getElementById('form-content');
+    const postSubmit = document.getElementById('post-submit-state');
+    if (formContent) formContent.hidden = true;
+    if (postSubmit) postSubmit.hidden = false;
+  });
+})();
+</script>
