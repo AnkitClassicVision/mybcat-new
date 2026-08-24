@@ -12,3 +12,7 @@ import { company } from '@data/company';
 import { getTestimonialsByIndustry, getFeaturedTestimonial } from '@data/testimonials';
 
 export type IdocLandingVariant = 'qr' | 'booth' | 'followup';
+
+interface Props {
+  variant?: IdocLandingVariant;
+}
