@@ -1,11 +1,10 @@
----
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Card from '@/components/Card.astro';
 import Button from '@/components/Button.astro';
 
 const title = 'ODs on Finance Members | $250 Off Setup | Discovery Call | MyBCAT';
 const description = 'ODs on Finance members can book a MyBCAT discovery call and get $250 off the setup fee.';
-const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT || 'https://estate-form-bridge.mybcat-estate.workers.dev';
+const endpoint = 'https://estate-form-bridge.mybcat-estate.workers.dev';
 const token = import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
 ---
 
