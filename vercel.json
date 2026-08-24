@@ -1,1 +1,23 @@
-FILE_CONTENTS_FROM_TMP_VERCEL_PATCHED_JSON
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "headers": [
+    {
+      "source": "/404.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
+  "redirects": [],
+  "rewrites": [
+    {
+      "source": "/forms/intake",
+      "destination": "https://estate-form-bridge.mybcat-estate.workers.dev"
+    }
+  ]
+}
