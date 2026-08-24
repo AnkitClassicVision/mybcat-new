@@ -1,12 +1,24 @@
 ---
 /**
  * Hiring interviews only. Public URL: https://mybcat.com/book/hire
- * Temporary catcher: HubSpot interview-link until the Google
- * Interview with Ankit appointment schedule exists.
+ * Temporary catcher until the Google Interview with Ankit schedule exists.
  * Do not use /book/interview (OBE podcast).
  */
-return Astro.redirect(
-  'https://meetings.hubspot.com/ankit98/interview-link',
-  307
-);
+const HIRE_BOOKER = 'https://meetings.hubspot.com/ankit98/interview-link';
 ---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="refresh" content={`0;url=${HIRE_BOOKER}`} />
+    <title>Book a hiring interview | MyBCAT</title>
+    <link rel="canonical" href="https://mybcat.com/book/hire/" />
+    <script is:inline define:vars={{ HIRE_BOOKER }}>
+      window.location.replace(HIRE_BOOKER);
+    </script>
+  </head>
+  <body>
+    <p><a href={HIRE_BOOKER}>Continue to book your hiring interview</a></p>
+  </body>
+</html>
