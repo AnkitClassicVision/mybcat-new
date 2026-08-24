@@ -1553,7 +1553,7 @@ const showInlineTestimonial = variant !== 'booth';
       { name: 'mobilephone', value: phone },
       { name: 'requested_meeting', value: 'IDOC kit' },
     ];
-    fetch('/forms/intake', {
+    fetch('https://estate-form-bridge.mybcat-estate.workers.dev', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
       body: JSON.stringify({
