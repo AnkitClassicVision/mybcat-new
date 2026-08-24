@@ -1,4 +1,3 @@
----
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Card from '@/components/Card.astro';
 import Button from '@/components/Button.astro';
@@ -172,7 +171,7 @@ const description = 'iDoc members book a MyBCAT discovery call and get $250 off 
 
 <script>
   const MEETINGS_URL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ21kmAUBj4aZSq7DYPJ4jkhMAVh400vqdkedNXshigCOXwWVU87EvvK4as9dXOlAqZYOruIhLog';
-  const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT || 'https://estate-form-bridge.mybcat-estate.workers.dev';
+  const endpoint = 'https://estate-form-bridge.mybcat-estate.workers.dev';
   const token = import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
 
   const valueOf = (form: HTMLFormElement, name: string) => String(new FormData(form).get(name) || '').trim();
