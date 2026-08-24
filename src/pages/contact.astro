@@ -923,7 +923,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
 (function () {
   const MEETINGS_URL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ21kmAUBj4aZSq7DYPJ4jkhMAVh400vqdkedNXshigCOXwWVU87EvvK4as9dXOlAqZYOruIhLog';
   const MEETINGS_FALLBACK_URL = 'https://mybcat.com/book/discovery';
-  const INTAKE_ENDPOINT = '/forms/intake';
+  const INTAKE_ENDPOINT = 'https://estate-form-bridge.mybcat-estate.workers.dev';
 
   function buildMeetingsUrl(base, values) {
     const params = new URLSearchParams();
@@ -1004,7 +1004,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
       const val = el.value.trim();
       const phoneDigits = f.id === 'cf-phone' ? val.replace(/\D/g, '') : '';
       const bad = !val
-        || (el.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val))
+        || (el.type === 'email' && !/[^\s@]+@[^\s@]+\.[^\s@]+/.test(val))
         || (f.id === 'cf-phone' && phoneDigits.length < 10);
       if (bad) {
         valid = false;
