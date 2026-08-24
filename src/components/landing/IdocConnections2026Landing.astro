@@ -7,3 +7,8 @@
  * - followup: post-talk follow-up
  */
 import Button from '@/components/Button.astro';
+import Card from '@/components/Card.astro';
+import { company } from '@data/company';
+import { getTestimonialsByIndustry, getFeaturedTestimonial } from '@data/testimonials';
+
+export type IdocLandingVariant = 'qr' | 'booth' | 'followup';
