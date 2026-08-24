@@ -440,7 +440,7 @@ const packages = [
 </script>
 <script is:inline>
 (function () {
-  const INTAKE_ENDPOINT = '/forms/intake';
+  const INTAKE_ENDPOINT = 'https://estate-form-bridge.mybcat-estate.workers.dev';
   const DISCOVERY_URL = 'https://mybcat.com/book/discovery';
   const INTAKE_EMAIL = 'ankit@mybcat.com';
   const ALLOWED_PACKAGES = { Social: true, Convert: true, Grow: true };
@@ -592,7 +592,7 @@ const packages = [
     if (!practiceName.trim()) fail('pg-practice-name', 'err-practice-name', 'Practice name is required.');
     if (!cityState.trim()) fail('pg-city-state', 'err-city-state', 'City and state are required.');
     if (!ownerName.trim()) fail('pg-owner-name', 'err-owner-name', 'Owner name is required.');
-    if (!ownerEmail.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(ownerEmail.trim())) {
+    if (!ownerEmail.trim() || !/[^\s@]+@[^\s@]+\.[^\s@]+/.test(ownerEmail.trim())) {
       fail('pg-owner-email', 'err-owner-email', 'A valid owner email is required.');
     }
     if (!packageInput) {

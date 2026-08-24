@@ -175,7 +175,7 @@ export default function ROICalculator() {
 
     if (token) {
       try {
-        const response = await fetch('/forms/intake', {
+        const response = await fetch('https://estate-form-bridge.mybcat-estate.workers.dev', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
           body: JSON.stringify(submissionData),
