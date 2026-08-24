@@ -258,6 +258,8 @@ export default defineConfig({
         if (page.includes('/api/')) return false;
         // Exclude conference landing pages (non-indexable / not in sitemap)
         if (page.includes('/idoc-connections-2026/')) return false;
+        // Exclude draft Practice Growth offer until pricing and copy are live
+        if (page.includes('/practice-growth/')) return false;
         // Exclude drafts
         if (page.includes('/draft/')) return false;
         // Exclude empty category pages (no published posts exist)
