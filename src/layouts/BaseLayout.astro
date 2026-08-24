@@ -205,23 +205,34 @@ const shouldPreloadLogo = navMode !== 'hidden';
   <script is:inline src="/js/seo-attribution.js" defer></script>
   <script is:inline src="/js/intake-form.js" defer></script>
 
-  {/* Block Vector.co pixel - misconfigured in GTM, causes console errors */}
+  {/* Block Vector.co pixel (misconfigured in GTM) and RB2B visitor tracker */}
   <script is:inline>
     (function () {
       try {
-        const origAppend = HTMLHeadElement.prototype.appendChild;
+        function isBlockedTracker(node) {
+          if (!node || node.tagName !== 'SCRIPT' || typeof node.src !== 'string') return false;
+          var src = node.src;
+          return (
+            src.indexOf('vector.co') !== -1 ||
+            src.indexOf('b2bjsstore') !== -1 ||
+            src.indexOf('reb2b') !== -1
+          );
+        }
+
+        var origAppend = HTMLHeadElement.prototype.appendChild;
         HTMLHeadElement.prototype.appendChild = function (node) {
           try {
-            if (
-              node &&
-              node.tagName === 'SCRIPT' &&
-              typeof node.src === 'string' &&
-              node.src.indexOf('vector.co') !== -1
-            ) {
-              return node;
-            }
+            if (isBlockedTracker(node)) return node;
           } catch (_e) { /* empty */ }
           return origAppend.call(this, node);
+        };
+
+        var origInsert = Node.prototype.insertBefore;
+        Node.prototype.insertBefore = function (node, referenceNode) {
+          try {
+            if (isBlockedTracker(node)) return node;
+          } catch (_e) { /* empty */ }
+          return origInsert.call(this, node, referenceNode);
         };
       } catch (_e) { /* empty */ }
     })();
