@@ -7,6 +7,7 @@ import LandingLayout from '@/layouts/LandingLayout.astro';
 import Button from '@/components/Button.astro';
 
 const DISCOVERY_URL = 'https://mybcat.com/book/discovery';
+const ONBOARD_URL = '/practice-growth/onboard/';
 
 const packages = [
   {
@@ -89,8 +90,9 @@ const operatingLoop = [
       </p>
       <div class="hero-actions">
         <Button href={DISCOVERY_URL} variant="primary">Book a discovery call</Button>
+        <a class="secondary-cta" href={ONBOARD_URL}>Start practice onboard</a>
       </div>
-      <p class="hero-note">The only next step on this page is a discovery call. Pricing below is a starting monthly range, not a signed package.</p>
+      <p class="hero-note">Book discovery is the primary next step. Onboard is a practice brief only. It is not checkout. Pricing below is a starting monthly range, not a signed package.</p>
     </section>
 
     <section class="system" aria-labelledby="pg-system-title">
@@ -185,7 +187,10 @@ const operatingLoop = [
     <section class="close" aria-labelledby="pg-close-title">
       <h2 id="pg-close-title">Review the draft offer on a discovery call</h2>
       <p>Starting prices are listed so the conversation has a floor. Setup is TBD. Nothing bills from this page.</p>
-      <Button href={DISCOVERY_URL} variant="primary">Book a discovery call</Button>
+      <div class="close-actions">
+        <Button href={DISCOVERY_URL} variant="primary">Book a discovery call</Button>
+        <a class="secondary-cta" href={ONBOARD_URL}>Start practice onboard</a>
+      </div>
     </section>
   </div>
 </LandingLayout>
@@ -255,10 +260,30 @@ const operatingLoop = [
     margin: 0 auto 28px;
   }
 
-  .hero-actions {
+  .hero-actions,
+  .close-actions {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
     margin-bottom: 16px;
+  }
+
+  .close-actions {
+    margin-bottom: 0;
+  }
+
+  .secondary-cta {
+    color: var(--oceanic-teal);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .secondary-cta:hover,
+  .secondary-cta:focus-visible {
+    border-bottom-color: var(--oceanic-teal);
   }
 
   .hero-note {
