@@ -1,0 +1,649 @@
+---
+/**
+ * Practice Growth draft onboard / signup page.
+ * Theme owner: customer-facing signup motion.
+ * Not checkout. Not P01 factory intake. No Stripe. No HubSpot. No PHI.
+ */
+import LandingLayout from '@/layouts/LandingLayout.astro';
+import Button from '@/components/Button.astro';
+
+const DISCOVERY_URL = 'https://mybcat.com/book/discovery';
+const INTAKE_EMAIL = 'ankit@mybcat.com';
+const packages = [
+  { value: 'Social', label: 'Social', note: 'Starting $260/mo' },
+  { value: 'Convert', label: 'Convert', note: 'Starting $599/mo' },
+  { value: 'Grow', label: 'Grow', note: 'Starting $999/mo plus ad spend' }
+];
+---
+
+<LandingLayout
+  title="Practice Growth onboard | MyBCAT"
+  description="Draft Practice Growth onboard form. Share practice details for a discovery call. This is not checkout."
+  noindex={true}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Practice Growth', url: '/practice-growth/' },
+    { name: 'Onboard' }
+  ]}
+>
+  <div class="pg-page">
+    <p class="draft-banner" role="status">
+      Draft onboard. This is not checkout. Submit does not charge. Send, spend, and publish stay behind a human yes.
+    </p>
+
+    <section class="hero" aria-labelledby="pg-onboard-title">
+      <p class="eyebrow">Practice onboard</p>
+      <h1 id="pg-onboard-title">Share a practice brief. Then book discovery.</h1>
+      <p class="lede">
+        We run a portable practice growth system. This page is the customer-facing signup motion. It collects a practice brief only. It does not start ads, publish posts, or bill a card.
+      </p>
+      <div class="hero-actions">
+        <Button href={DISCOVERY_URL} variant="primary">Book a discovery call</Button>
+      </div>
+      <p class="hero-note">
+        Book discovery stays primary. The form below is optional prep so a person can review the brief. Live send, spend, and publish still wait for a human yes.
+      </p>
+    </section>
+
+    <section class="form-section" aria-labelledby="pg-form-title">
+      <div class="section-head">
+        <p class="eyebrow">Practice brief</p>
+        <h2 id="pg-form-title">Tell us about the practice</h2>
+        <p>
+          Business details only. Do not include patient names, insurance IDs, clinical notes, or payment card data.
+        </p>
+      </div>
+
+      <div id="form-content" class="form-card">
+        <form id="onboard-form" novalidate>
+          <div class="form-field">
+            <label for="pg-practice-name">Practice name <span class="required-mark" aria-hidden="true">*</span></label>
+            <input type="text" id="pg-practice-name" name="practice_name" required autocomplete="organization" maxlength="200" placeholder="Practice name" />
+            <span class="field-error" id="err-practice-name"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="pg-city-state">City and state <span class="required-mark" aria-hidden="true">*</span></label>
+            <input type="text" id="pg-city-state" name="city_state" required autocomplete="address-level2" maxlength="200" placeholder="City, ST" />
+            <span class="field-error" id="err-city-state"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="pg-website">Website <span class="optional-mark">(if any)</span></label>
+            <input type="text" id="pg-website" name="website" autocomplete="url" maxlength="300" placeholder="https://yourpractice.com" />
+          </div>
+
+          <div class="form-field">
+            <label for="pg-owner-name">Owner name <span class="required-mark" aria-hidden="true">*</span></label>
+            <input type="text" id="pg-owner-name" name="owner_name" required autocomplete="name" maxlength="200" placeholder="Owner name" />
+            <span class="field-error" id="err-owner-name"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="pg-owner-email">Owner email <span class="required-mark" aria-hidden="true">*</span></label>
+            <input type="email" id="pg-owner-email" name="owner_email" required autocomplete="email" maxlength="200" placeholder="owner@yourpractice.com" />
+            <span class="field-error" id="err-owner-email"></span>
+          </div>
+
+          <fieldset class="form-field package-field">
+            <legend>Package pick <span class="required-mark" aria-hidden="true">*</span></legend>
+            <div class="package-picks" role="radiogroup" aria-required="true">
+              {packages.map((pkg) => (
+                <label class="package-pick">
+                  <input type="radio" name="package" value={pkg.value} required />
+                  <span>
+                    <strong>{pkg.label}</strong>
+                    <em>{pkg.note}</em>
+                  </span>
+                </label>
+              ))}
+            </div>
+            <span class="field-error" id="err-package"></span>
+          </fieldset>
+
+          <div class="form-field">
+            <label for="pg-office-count">Office count</label>
+            <input type="number" id="pg-office-count" name="office_count" min="1" max="99" step="1" value="1" inputmode="numeric" />
+          </div>
+
+          <div class="form-field">
+            <label for="pg-notes">Notes <span class="optional-mark">(optional)</span></label>
+            <textarea id="pg-notes" name="notes" rows="4" maxlength="2000" placeholder="Market, current site, or what you want reviewed. No patient or insurance details."></textarea>
+          </div>
+
+          <p class="not-checkout">This form does not charge. There is no Stripe checkout on this page.</p>
+          <button type="submit" id="pg-submit">Send practice brief</button>
+          <p class="form-legal">
+            By submitting, you agree to our <a href="/privacy-policy/">Privacy Policy</a>. We use this brief to prepare a discovery call. We do not publish, spend, or send outreach from this submit.
+          </p>
+        </form>
+      </div>
+
+      <div id="post-submit-state" class="form-card summary-card" hidden aria-live="polite">
+        <h2>Practice brief ready</h2>
+        <p class="summary-lede">
+          This is the brief a person can react to. It is not a signed package and not a charge. Book discovery to review it live.
+        </p>
+        <dl id="brief-summary" class="brief-summary"></dl>
+        <p id="intake-status" class="intake-status"></p>
+        <div class="summary-actions">
+          <Button href={DISCOVERY_URL} variant="primary">Book a discovery call</Button>
+          <a id="mailto-fallback" class="secondary-cta" href={`mailto:${INTAKE_EMAIL}`}>Email this brief</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</LandingLayout>
+
+<style>
+  .pg-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px 96px;
+    color: var(--navy-900);
+  }
+
+  .draft-banner {
+    margin: 8px 0 32px;
+    padding: 12px 16px;
+    background: rgba(0, 96, 100, 0.08);
+    border: 1px solid rgba(0, 96, 100, 0.18);
+    border-radius: 12px;
+    color: var(--oceanic-teal);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .hero,
+  .form-section {
+    padding: 32px 0 56px;
+  }
+
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--oceanic-teal);
+    margin-bottom: 12px;
+  }
+
+  .hero {
+    text-align: center;
+    padding-top: 16px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 4.5vw, 3.25rem);
+    line-height: 1.15;
+    font-weight: 800;
+    max-width: 18ch;
+    margin: 0 auto 16px;
+  }
+
+  .lede,
+  .section-head p,
+  .hero-note,
+  .summary-lede {
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  .lede {
+    font-size: 1.2rem;
+    max-width: 680px;
+    margin: 0 auto 28px;
+  }
+
+  .hero-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .hero-note {
+    font-size: 0.95rem;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .section-head {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 40px;
+  }
+
+  .section-head h2,
+  .summary-card h2 {
+    font-size: clamp(1.6rem, 3vw, 2.25rem);
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .form-card {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 32px 28px;
+    background: var(--spatial-surface);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    box-shadow: var(--shadow);
+  }
+
+  #onboard-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .form-field label,
+  .form-field legend {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .package-field {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .required-mark {
+    color: var(--oceanic-teal);
+  }
+
+  .optional-mark {
+    font-weight: 400;
+    color: var(--text-muted);
+  }
+
+  #onboard-form input[type="text"],
+  #onboard-form input[type="email"],
+  #onboard-form input[type="number"],
+  #onboard-form textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    font-size: 15px;
+    color: var(--navy-900);
+    background: white;
+    box-sizing: border-box;
+    font-family: inherit;
+  }
+
+  #onboard-form input:focus,
+  #onboard-form textarea:focus {
+    outline: none;
+    border-color: var(--oceanic-teal);
+    box-shadow: 0 0 0 3px rgba(0, 96, 100, 0.1);
+  }
+
+  #onboard-form input.invalid,
+  #onboard-form textarea.invalid {
+    border-color: #dc3545;
+  }
+
+  .package-picks {
+    display: grid;
+    gap: 10px;
+  }
+
+  .package-pick {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px 16px;
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+  }
+
+  .package-pick:has(input:checked) {
+    border-color: var(--oceanic-teal);
+    box-shadow: 0 0 0 2px var(--oceanic-teal);
+  }
+
+  .package-pick strong {
+    display: block;
+    color: var(--navy-900);
+  }
+
+  .package-pick em {
+    display: block;
+    font-style: normal;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+  }
+
+  .field-error {
+    font-size: 13px;
+    color: #dc3545;
+    display: none;
+  }
+
+  .field-error.visible {
+    display: block;
+  }
+
+  .not-checkout {
+    margin: 4px 0 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--navy-800);
+    text-align: center;
+  }
+
+  #pg-submit {
+    width: 100%;
+    padding: 14px 24px;
+    background: var(--oceanic-teal);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  #pg-submit:hover:not(:disabled) {
+    background: var(--navy-900);
+  }
+
+  .form-legal {
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+  }
+
+  .form-legal a {
+    color: var(--oceanic-teal);
+    text-decoration: none;
+  }
+
+  .brief-summary {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    gap: 10px 16px;
+    margin: 0 0 24px;
+  }
+
+  .brief-summary dt {
+    font-weight: 700;
+    color: var(--navy-900);
+  }
+
+  .brief-summary dd {
+    margin: 0;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  .intake-status {
+    font-size: 0.95rem;
+    color: var(--navy-800);
+    margin: 0 0 20px;
+  }
+
+  .summary-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .secondary-cta {
+    color: var(--oceanic-teal);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .secondary-cta:hover,
+  .secondary-cta:focus-visible {
+    border-bottom-color: var(--oceanic-teal);
+  }
+
+  #post-submit-state[hidden],
+  #form-content[hidden] {
+    display: none;
+  }
+
+  @media (max-width: 900px) {
+    .hero h1 {
+      max-width: none;
+    }
+
+    .brief-summary {
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
+  }
+</style>
+
+<script>
+  window.MYBCAT_FORM_TOKEN =
+    import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
+</script>
+<script is:inline>
+(function () {
+  const INTAKE_ENDPOINT = '/forms/intake';
+  const DISCOVERY_URL = 'https://mybcat.com/book/discovery';
+  const INTAKE_EMAIL = 'ankit@mybcat.com';
+  const ALLOWED_PACKAGES = { Social: true, Convert: true, Grow: true };
+
+  function splitOwnerName(fullName) {
+    const parts = fullName.trim().split(/\s+/);
+    const firstName = parts[0] || 'Practice';
+    const lastName = parts.slice(1).join(' ') || 'Owner';
+    return { firstName: firstName, lastName: lastName };
+  }
+
+  function buildBriefLines(values) {
+    return [
+      'Practice Growth onboard (not checkout)',
+      'Practice: ' + values.practiceName,
+      'City/state: ' + values.cityState,
+      'Website: ' + (values.website || 'none given'),
+      'Owner: ' + values.ownerName,
+      'Owner email: ' + values.ownerEmail,
+      'Package: ' + values.packageName,
+      'Office count: ' + values.officeCount,
+      'Notes: ' + (values.notes || 'none')
+    ];
+  }
+
+  function buildMailto(values) {
+    const subject = 'Practice Growth onboard: ' + values.practiceName;
+    const body = buildBriefLines(values).join('\n');
+    return 'mailto:' + INTAKE_EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  }
+
+  function buildDiscoveryLink(values) {
+    const names = splitOwnerName(values.ownerName);
+    const url = new URL(DISCOVERY_URL);
+    url.searchParams.set('firstName', names.firstName);
+    url.searchParams.set('lastName', names.lastName);
+    url.searchParams.set('email', values.ownerEmail);
+    return url.toString();
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function renderSummary(values) {
+    const summary = document.getElementById('brief-summary');
+    if (!summary) return;
+    const rows = [
+      ['Practice', values.practiceName],
+      ['City / state', values.cityState],
+      ['Website', values.website || 'None given'],
+      ['Owner', values.ownerName],
+      ['Owner email', values.ownerEmail],
+      ['Package', values.packageName],
+      ['Office count', values.officeCount],
+      ['Notes', values.notes || 'None']
+    ];
+    summary.innerHTML = rows.map(function (row) {
+      return '<dt>' + escapeHtml(row[0]) + '</dt><dd>' + escapeHtml(row[1]) + '</dd>';
+    }).join('');
+  }
+
+  function showSummary(values, statusText) {
+    const formContent = document.getElementById('form-content');
+    const postSubmit = document.getElementById('post-submit-state');
+    const status = document.getElementById('intake-status');
+    const mailto = document.getElementById('mailto-fallback');
+    const discovery = postSubmit ? postSubmit.querySelector('a.magnetic-button') : null;
+    renderSummary(values);
+    if (status) status.textContent = statusText;
+    if (mailto) mailto.href = buildMailto(values);
+    if (discovery) discovery.href = buildDiscoveryLink(values);
+    if (formContent) formContent.hidden = true;
+    if (postSubmit) {
+      postSubmit.hidden = false;
+      postSubmit.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  function submitToOwnedIntake(fields) {
+    const token = window.MYBCAT_FORM_TOKEN || '';
+    if (!token) {
+      return Promise.resolve({ ok: false, reason: 'missing_token' });
+    }
+    const payload = {
+      fields: fields,
+      context: {
+        pageUri: window.location.href,
+        pageName: document.title,
+        source: 'practice-growth-onboard'
+      }
+    };
+    return fetch(INTAKE_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
+      body: JSON.stringify(payload)
+    }).then(function (response) {
+      return { ok: response.ok, reason: response.ok ? 'sent' : 'http_' + response.status };
+    }).catch(function () {
+      return { ok: false, reason: 'network' };
+    });
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  const presetPackage = params.get('package');
+  if (presetPackage && ALLOWED_PACKAGES[presetPackage]) {
+    const preset = document.querySelector('input[name="package"][value="' + presetPackage + '"]');
+    if (preset) preset.checked = true;
+  }
+
+  const form = document.getElementById('onboard-form');
+  if (!form) return;
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    event.stopImmediatePropagation();
+
+    form.querySelectorAll('.invalid').forEach(function (el) { el.classList.remove('invalid'); });
+    form.querySelectorAll('.field-error').forEach(function (el) {
+      el.textContent = '';
+      el.classList.remove('visible');
+    });
+
+    const practiceName = (document.getElementById('pg-practice-name') || {}).value || '';
+    const cityState = (document.getElementById('pg-city-state') || {}).value || '';
+    const website = (document.getElementById('pg-website') || {}).value || '';
+    const ownerName = (document.getElementById('pg-owner-name') || {}).value || '';
+    const ownerEmail = (document.getElementById('pg-owner-email') || {}).value || '';
+    const officeCountRaw = (document.getElementById('pg-office-count') || {}).value || '1';
+    const notes = (document.getElementById('pg-notes') || {}).value || '';
+    const packageInput = form.querySelector('input[name="package"]:checked');
+
+    let valid = true;
+    function fail(id, errId, message) {
+      valid = false;
+      const el = document.getElementById(id);
+      const err = document.getElementById(errId);
+      if (el) el.classList.add('invalid');
+      if (err) {
+        err.textContent = message;
+        err.classList.add('visible');
+      }
+    }
+
+    if (!practiceName.trim()) fail('pg-practice-name', 'err-practice-name', 'Practice name is required.');
+    if (!cityState.trim()) fail('pg-city-state', 'err-city-state', 'City and state are required.');
+    if (!ownerName.trim()) fail('pg-owner-name', 'err-owner-name', 'Owner name is required.');
+    if (!ownerEmail.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(ownerEmail.trim())) {
+      fail('pg-owner-email', 'err-owner-email', 'A valid owner email is required.');
+    }
+    if (!packageInput) {
+      valid = false;
+      const err = document.getElementById('err-package');
+      if (err) {
+        err.textContent = 'Pick Social, Convert, or Grow.';
+        err.classList.add('visible');
+      }
+    }
+
+    const officeCount = Math.max(1, parseInt(String(officeCountRaw), 10) || 1);
+    if (!valid || !packageInput) return;
+
+    const values = {
+      practiceName: practiceName.trim(),
+      cityState: cityState.trim(),
+      website: website.trim(),
+      ownerName: ownerName.trim(),
+      ownerEmail: ownerEmail.trim(),
+      packageName: packageInput.value,
+      officeCount: String(officeCount),
+      notes: notes.trim()
+    };
+
+    const names = splitOwnerName(values.ownerName);
+    const fields = [
+      { name: 'firstname', value: names.firstName },
+      { name: 'lastname', value: names.lastName },
+      { name: 'email', value: values.ownerEmail },
+      { name: 'website', value: values.website },
+      { name: 'number_of_locations', value: values.officeCount },
+      { name: 'message', value: buildBriefLines(values).join('\n') },
+      { name: 'requested_meeting', value: 'Discovery' },
+      { name: 'utm_source', value: 'practice-growth-onboard' }
+    ].filter(function (field) {
+      return field.value || field.name === 'number_of_locations';
+    });
+
+    showSummary(values, 'Preparing your brief. This is not checkout.');
+
+    submitToOwnedIntake(fields).then(function (result) {
+      if (result.ok) {
+        showSummary(values, 'Brief sent through the existing contact path. Book discovery to review it. Nothing was charged.');
+        return;
+      }
+      showSummary(
+        values,
+        'The brief is ready below. Email it if intake is not available on this preview. Nothing was charged.'
+      );
+    });
+  }, true);
+})();
+</script>
