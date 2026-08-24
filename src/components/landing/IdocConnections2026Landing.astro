@@ -16,3 +16,8 @@ export type IdocLandingVariant = 'qr' | 'booth' | 'followup';
 interface Props {
   variant?: IdocLandingVariant;
 }
+
+const { variant = 'qr' } = Astro.props;
+
+const optometryTestimonials = getTestimonialsByIndustry('optometry');
+const featuredTestimonial = optometryTestimonials[0] ?? getFeaturedTestimonial();
