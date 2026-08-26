@@ -4246,6 +4246,16 @@
       "permanent": true
     },
     {
+      "source": "/book/hire",
+      "destination": "https://calendar.app.google/8K52yAQAyztRRpFc8",
+      "permanent": true
+    },
+    {
+      "source": "/book/hire/",
+      "destination": "https://calendar.app.google/8K52yAQAyztRRpFc8",
+      "permanent": true
+    },
+    {
       "source": "/book/1-1",
       "destination": "https://calendar.app.google/4R8J9WLuNnrXFvnEA",
       "permanent": true
