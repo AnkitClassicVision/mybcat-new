@@ -6,7 +6,9 @@ description: Evaluate an optometry virtual assistant model for centralized sched
 seoDescription: Enterprise optometry virtual assistant playbook for multi-location
   groups standardizing patient access, QA, EHR workflows, and vendor oversight.
 publishDate: '2026-09-01'
-status: scheduled
+status: draft
+# held 2026-08-31: fuzzy collision with live
+# /blog/optometry-virtual-assistant-multi-location-practices/
 scheduledDate: '2026-09-01'
 author: Ankit Patel
 category: Operations
