@@ -843,4 +843,17 @@ const icons: Record<string, string> = {
       }, { passive: false });
     }
   });
+
+  // PostHog: track hero CTA clicks
+  var heroCta = document.querySelector('#hero .hero-cta-group a, #hero .hero-cta-group button');
+  var heroSecondary = document.querySelectorAll('#hero .hero-cta-group a, #hero .hero-cta-group .text-link');
+  heroSecondary.forEach(function (el, idx) {
+    el.addEventListener('click', function () {
+      window.posthog && window.posthog.capture('hero_cta_clicked', {
+        cta_type: idx === 0 ? 'primary' : 'secondary',
+        cta_text: el.textContent ? el.textContent.trim() : '',
+        cta_href: el.getAttribute('href') || ''
+      });
+    });
+  });
 </script>

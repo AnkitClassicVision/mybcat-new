@@ -126,3 +126,20 @@ const faqSchema = includeSchema ? generateFAQSchema(
     }
   }
 </style>
+
+<script is:inline>
+  // PostHog: track FAQ item expansions
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.faq-item').forEach(function (el) {
+      el.addEventListener('toggle', function () {
+        if (el.open) {
+          var question = el.querySelector('summary') ? el.querySelector('summary').textContent.trim() : '';
+          window.posthog && window.posthog.capture('faq_item_expanded', {
+            question: question,
+            index: el.getAttribute('data-index')
+          });
+        }
+      });
+    });
+  });
+</script>
