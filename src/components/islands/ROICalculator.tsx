@@ -107,6 +107,20 @@ export default function ROICalculator() {
       annualRecovery,
     });
 
+    // PostHog: user clicked Calculate — track inputs (no PII)
+    if (typeof window !== 'undefined' && (window as any).posthog) {
+      (window as any).posthog.capture('roi_calculator_completed', {
+        industry,
+        monthly_call_volume: inputs.monthlyCallVolume,
+        missed_call_percentage: inputs.missedCallPercentage,
+        avg_appointment_value: inputs.avgAppointmentValue,
+        conversion_rate: inputs.conversionRate,
+        monthly_lost_revenue: monthlyLostRevenue,
+        annual_lost_revenue: annualLostRevenue,
+        annual_recovery: annualRecovery,
+      });
+    }
+
     if (emailSubmitted) {
       setShowResults(true);
     } else {
@@ -186,6 +200,17 @@ export default function ROICalculator() {
       } catch (err) {
         console.error('Owned intake submission error:', err);
       }
+    }
+
+    // PostHog: user submitted email to unlock ROI results (no PII in event properties)
+    if (typeof window !== 'undefined' && (window as any).posthog) {
+      (window as any).posthog.capture('roi_calculator_email_submitted', {
+        industry,
+        number_of_locations: emailForm.numberOfLocations,
+        monthly_call_volume: inputs.monthlyCallVolume,
+        annual_lost_revenue: results?.annualLostRevenue ?? 0,
+        annual_recovery: results?.annualRecovery ?? 0,
+      });
     }
 
     setEmailSubmitted(true);
