@@ -54,6 +54,11 @@ export const mainNavigation: NavItem[] = [
         description: 'Complete front desk support'
       },
       {
+        label: 'Hiring Talent',
+        href: '/hiring/',
+        description: 'Get trained people for your practice'
+      },
+      {
         label: 'How It Works',
         href: '/how-it-works/',
         description: 'Our process explained'
@@ -127,6 +132,7 @@ export const footerNavigation = {
     { label: 'Security & Compliance', href: '/hipaa-compliance/' }
   ],
   solutions: [
+    { label: 'Hiring Talent', href: '/hiring/' },
     { label: 'Front Desk Outsourcing', href: '/solutions/front-desk-outsourcing/' },
     { label: 'Medical Answering Service', href: '/solutions/medical-answering-service/' },
     { label: 'Medical Virtual Assistant', href: '/solutions/medical-virtual-assistant/' },

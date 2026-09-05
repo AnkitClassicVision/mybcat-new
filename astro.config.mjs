@@ -160,6 +160,7 @@ const sectionLastModDates = {
   '/contact/': '2025-08-15',         // Contact info (stable)
   '/pricing/': '2025-12-15',         // Pricing (may update periodically)
   '/careers/': '2025-11-01',         // Careers page
+  '/hiring/': '2026-09-05',          // Practice talent / hiring hub
   '/how-it-works/': '2025-10-20',    // How it works page
   '/privacy-policy/': '2025-07-01',  // Legal pages (rarely change)
   '/terms/': '2025-07-01',           // Legal pages

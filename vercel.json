@@ -2976,6 +2976,26 @@
       "permanent": true
     },
     {
+      "source": "/talent",
+      "destination": "/hiring/",
+      "permanent": true
+    },
+    {
+      "source": "/talent/",
+      "destination": "/hiring/",
+      "permanent": true
+    },
+    {
+      "source": "/staffing",
+      "destination": "/hiring/",
+      "permanent": true
+    },
+    {
+      "source": "/staffing/",
+      "destination": "/hiring/",
+      "permanent": true
+    },
+    {
       "source": "/jobs",
       "destination": "/careers/",
       "permanent": true

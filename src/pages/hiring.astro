@@ -1,0 +1,601 @@
+---
+/**
+ * Hiring / talent page for practices.
+ * Audience: practice owners who need trained people, not job seekers.
+ * Job seekers stay on /careers/.
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Button from '@/components/Button.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import Testimonials from '@/components/sections/Testimonials.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { testimonials } from '@data/testimonials';
+import { company } from '@data/company';
+import {
+  generateServiceSchema,
+  generateFAQSchema,
+  generateHowToSchema,
+  combineSchemas,
+  serializeSchema
+} from '@/utils/schema';
+
+const pageTitle = 'Hire Trained Healthcare Talent';
+const pageDescription =
+  'Get trained patient coordinators, virtual assistants, and front desk coverage without recruiting, training, or managing a new hire. MyBCAT places a managed team into your EHR.';
+
+const pageUrl = `${company.site.url}/hiring/`;
+
+const roles = [
+  {
+    title: 'Patient coordinators',
+    outcome: 'Every inbound call answered as your practice, with appointments booked in your EHR.',
+    href: '/solutions/medical-answering-service/',
+    linkLabel: 'Medical answering service'
+  },
+  {
+    title: 'Front desk coverage',
+    outcome: 'Calls, confirmations, insurance questions, and schedule gaps handled as one workflow.',
+    href: '/solutions/front-desk-outsourcing/',
+    linkLabel: 'Front desk outsourcing'
+  },
+  {
+    title: 'Dedicated virtual assistants',
+    outcome: 'One trained admin who learns your office: insurance, recall, referrals, and back-office work.',
+    href: '/solutions/medical-virtual-assistant/',
+    linkLabel: 'Medical virtual assistant'
+  },
+  {
+    title: 'Recall and reactivation',
+    outcome: 'Overdue patients get systematic outreach instead of sitting on a list your front desk never reaches.',
+    href: '/solutions/patient-recall/',
+    linkLabel: 'Patient recall'
+  },
+  {
+    title: 'No-show recovery',
+    outcome: 'Cancelled slots get filled the same day instead of becoming empty chair time.',
+    href: '/solutions/no-show-recovery/',
+    linkLabel: 'No-show recovery'
+  },
+  {
+    title: 'Virtual medical scribes',
+    outcome: 'Providers keep the visit. Documentation happens in parallel.',
+    href: '/solutions/virtual-medical-scribe/',
+    linkLabel: 'Virtual medical scribe'
+  }
+];
+
+const compareRows = [
+  {
+    label: 'What you buy',
+    hire: 'A person to recruit, train, and replace',
+    mybcat: 'A managed team with backup coverage'
+  },
+  {
+    label: 'Time to productive',
+    hire: 'Weeks of posting, interviews, and ramp',
+    mybcat: 'Live in days to a few weeks'
+  },
+  {
+    label: 'When someone is out',
+    hire: 'The phones go to voicemail',
+    mybcat: 'Another trained coordinator covers'
+  },
+  {
+    label: 'EHR work',
+    hire: 'You train them on Eyefinity, Dentrix, or your system',
+    mybcat: 'We book directly into 50+ EHR and PM systems'
+  },
+  {
+    label: 'Management load',
+    hire: 'You own coaching, QA, and turnover',
+    mybcat: 'You talk to a manager. We own the team.'
+  }
+];
+
+const steps = [
+  {
+    step: '1',
+    title: 'Tell us the seat you need',
+    text: 'Calls, front desk, insurance, recall, scribing, or a mix. We map the work, not a job title.'
+  },
+  {
+    step: '2',
+    title: 'We match and train',
+    text: 'Coordinators learn your greeting, providers, insurance mix, and EHR before they take live volume.'
+  },
+  {
+    step: '3',
+    title: 'They work inside your systems',
+    text: 'Appointments land in your schedule. Patients hear your practice name, not a call center script.'
+  },
+  {
+    step: '4',
+    title: 'You keep the manager, not the hiring loop',
+    text: 'Coverage, QA, and backup stay with us. You get booked visits and a single operating owner.'
+  }
+];
+
+const faqs = [
+  {
+    question: 'Is this a staffing agency?',
+    answer:
+      'No. You are not hiring employees through MyBCAT. You get a managed patient-operations team. We recruit, train, supervise, and cover absences. You buy booked visits and coverage, not a person to babysit.'
+  },
+  {
+    question: 'Will patients know they are not talking to my office?',
+    answer:
+      'No. We answer as your practice using your greeting, provider names, and office protocols. The goal is that patients cannot tell the difference.'
+  },
+  {
+    question: 'How is this different from posting a job or hiring a $10/hr VA?',
+    answer:
+      'A job post gives you a resume. A gig VA still needs you to train, manage, and replace them. MyBCAT arrives trained on healthcare workflows and your EHR, with a manager and backup so coverage does not drop when one person is out.'
+  },
+  {
+    question: 'What roles can you fill first?',
+    answer:
+      'Most practices start with inbound call handling and scheduling, then add insurance verification, recall, no-show recovery, or a dedicated virtual assistant. We do not place on-site clinical staff such as opticians or technicians.'
+  },
+  {
+    question: 'How fast can we start?',
+    answer:
+      'Discovery is a short call. Integration and training usually take days to a few weeks, depending on EHR access and the seat you need. Multi-location groups can pilot one or two offices first.'
+  },
+  {
+    question: 'I want to work at MyBCAT. Is this the right page?',
+    answer:
+      'No. This page is for practices that need talent. Open roles at MyBCAT are on the careers page.'
+  }
+];
+
+const hiringTestimonials = testimonials.slice(0, 4);
+
+const serviceSchema = generateServiceSchema({
+  name: 'Healthcare Talent and Patient Operations Staffing',
+  description: pageDescription,
+  url: pageUrl,
+  serviceType: 'Managed Healthcare Staffing'
+});
+
+const faqSchema = generateFAQSchema(faqs);
+
+const howToSchema = generateHowToSchema({
+  name: 'How to get trained healthcare talent through MyBCAT',
+  description:
+    'Four steps to add trained patient coordinators or virtual assistants to a healthcare practice without running a hiring loop.',
+  totalTime: 'P4W',
+  url: pageUrl,
+  steps: steps.map((item) => ({
+    name: item.title,
+    text: item.text
+  }))
+});
+
+const combinedSchema = combineSchemas(serviceSchema, faqSchema, howToSchema);
+---
+
+<PageLayout
+  title={`${pageTitle} | MyBCAT`}
+  description={pageDescription}
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Hiring' }
+  ]}
+>
+  <script slot="head" type="application/ld+json" set:html={serializeSchema(combinedSchema)} />
+
+  <div class="hiring-page">
+    <section class="hiring-hero">
+      <span class="eyebrow">For practice owners</span>
+      <h1>Get trained healthcare talent without running another hire</h1>
+      <p class="hero-description">
+        MyBCAT places a managed team on your phones, schedule, and admin work.
+        You keep the patients. We own recruiting, training, backup, and quality.
+      </p>
+      <div class="hero-actions">
+        <Button href="/contact/" seoCta={true} funnel="service" ctaId="hiring-hero-start">
+          Tell us the seat you need
+        </Button>
+        <a href="#roles" class="text-link">See the roles we cover</a>
+      </div>
+      <p class="seeker-note">
+        Looking for a job at MyBCAT? Go to <a href="/careers/">Careers</a>.
+      </p>
+    </section>
+
+    <section class="problem-strip" aria-label="Why practices use MyBCAT instead of hiring">
+      <div class="strip-item">
+        <strong>You do not need another resume pile.</strong>
+        <span>You need calls answered and appointments on the book.</span>
+      </div>
+      <div class="strip-item">
+        <strong>One hire is a single point of failure.</strong>
+        <span>Sick days and turnover send patients to voicemail.</span>
+      </div>
+      <div class="strip-item">
+        <strong>Training is the expensive part.</strong>
+        <span>We arrive knowing healthcare workflows and your EHR.</span>
+      </div>
+    </section>
+
+    <section id="roles" class="roles-section">
+      <div class="section-header">
+        <h2>Talent you can add this month</h2>
+        <p>Pick the work. We staff a trained team around it.</p>
+      </div>
+      <div class="roles-grid">
+        {roles.map((role) => (
+          <a href={role.href} class="role-card">
+            <h3>{role.title}</h3>
+            <p>{role.outcome}</p>
+            <span class="role-link">{role.linkLabel}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="compare-section">
+      <div class="section-header">
+        <h2>Hiring a person vs adding MyBCAT</h2>
+        <p>Same problem. Different operating model.</p>
+      </div>
+      <div class="compare-table" role="table" aria-label="Hiring compared with MyBCAT">
+        <div class="compare-row compare-head" role="row">
+          <span role="columnheader"> </span>
+          <span role="columnheader">Post a job</span>
+          <span role="columnheader">MyBCAT</span>
+        </div>
+        {compareRows.map((row) => (
+          <div class="compare-row" role="row">
+            <span class="compare-label" role="rowheader">{row.label}</span>
+            <span role="cell">{row.hire}</span>
+            <span class="compare-win" role="cell">{row.mybcat}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="steps-section">
+      <div class="section-header">
+        <h2>How practices get talent from us</h2>
+        <p>No job board. No 90-day ramp you have to run yourself.</p>
+      </div>
+      <ol class="steps-list">
+        {steps.map((item) => (
+          <li>
+            <span class="step-num">{item.step}</span>
+            <div>
+              <h3>{item.title}</h3>
+              <p>{item.text}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <Testimonials
+      items={hiringTestimonials}
+      eyebrow="From practice owners"
+      title="Owners keep the patients. We keep the hiring loop."
+    />
+
+    <FAQ
+      items={faqs}
+      eyebrow="Hiring questions"
+      title="What practices ask before they stop posting jobs"
+      includeSchema={false}
+    />
+
+    <section class="split-cta">
+      <div class="split-card">
+        <h2>Need people for your practice?</h2>
+        <p>Book a discovery call. Tell us the seat, the EHR, and where coverage breaks today.</p>
+        <Button href="/contact/" seoCta={true} funnel="service" ctaId="hiring-practice-contact">
+          Get talent for your office
+        </Button>
+      </div>
+      <div class="split-card split-card-quiet">
+        <h2>Want to join the MyBCAT team?</h2>
+        <p>Open roles and culture notes live on Careers. This page is not an application form.</p>
+        <Button href="/careers/" variant="secondary">See Careers</Button>
+      </div>
+    </section>
+
+    <CTA
+      title="Stop hiring for a seat that keeps turning over"
+      subtitle="Get a managed team that answers as your practice and books into your EHR."
+      buttonText="Book a discovery call"
+      buttonHref="/contact/"
+      buttonFunnel="service"
+      buttonCtaId="hiring-footer"
+    />
+  </div>
+</PageLayout>
+
+<style>
+  .hiring-page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .hiring-hero {
+    text-align: center;
+    padding: 32px 0 48px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 16px;
+  }
+
+  .hiring-hero h1 {
+    font-size: clamp(2rem, 4.4vw, 3rem);
+    font-weight: 800;
+    color: var(--navy-900);
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 720px;
+    margin: 0 auto 28px;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .text-link {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .text-link:hover {
+    text-decoration: underline;
+  }
+
+  .seeker-note {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+  }
+
+  .seeker-note a {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+  }
+
+  .problem-strip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 64px;
+  }
+
+  .strip-item {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 20px;
+  }
+
+  .strip-item strong {
+    display: block;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .strip-item span {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    color: var(--text-secondary);
+  }
+
+  .roles-section,
+  .compare-section,
+  .steps-section {
+    margin-bottom: 72px;
+  }
+
+  .roles-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .role-card {
+    display: block;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+  }
+
+  .role-card:hover {
+    border-color: var(--oceanic-teal);
+    transform: translateY(-2px);
+  }
+
+  .role-card h3 {
+    color: var(--navy-900);
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+  }
+
+  .role-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .role-link {
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .compare-table {
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .compare-row {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 1.2fr;
+    gap: 12px;
+    padding: 16px 20px;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  .compare-row.compare-head {
+    border-top: 0;
+    background: var(--navy-900);
+    color: white;
+    font-weight: 700;
+  }
+
+  .compare-label {
+    font-weight: 700;
+    color: var(--navy-900);
+  }
+
+  .compare-win {
+    color: var(--navy-900);
+    font-weight: 600;
+  }
+
+  .steps-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+
+  .steps-list li {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 16px;
+    align-items: start;
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 20px;
+  }
+
+  .step-num {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--navy-900);
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+
+  .steps-list h3 {
+    margin: 0 0 6px;
+    color: var(--navy-900);
+  }
+
+  .steps-list p {
+    margin: 0;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  .split-cta {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 16px;
+    margin: 48px 0 32px;
+  }
+
+  .split-card {
+    background: var(--spatial-glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 28px;
+  }
+
+  .split-card h2 {
+    color: var(--navy-900);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .split-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .split-card-quiet {
+    background: transparent;
+  }
+
+  @media (max-width: 800px) {
+    .problem-strip,
+    .roles-grid,
+    .split-cta,
+    .compare-row {
+      grid-template-columns: 1fr;
+    }
+
+    .compare-row.compare-head {
+      display: none;
+    }
+
+    .compare-row span::before {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .compare-row span:nth-child(2)::before {
+      content: "Post a job";
+    }
+
+    .compare-row span:nth-child(3)::before {
+      content: "MyBCAT";
+    }
+  }
+</style>
