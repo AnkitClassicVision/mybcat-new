@@ -1,12 +1,10 @@
 ---
 title: 'Optometry Sale: Staff Communication & Confidentiality'
 seoTitle: 'Optometry Sale: Staff Communication & Confidentiality'
-description: >-
-  How owners handle optometry practice sale staff communication confidentiality:
-  when to tell your team, what to say, and how to protect continuity.
-seoDescription: >-
-  How owners handle optometry practice sale staff communication confidentiality:
-  when to tell your team, what to say, and how to protect continuity.
+description: 'How owners handle optometry practice sale staff communication confidentiality:
+  when to tell your team, what to say, and how to protect continuity.'
+seoDescription: 'How owners handle optometry practice sale staff communication confidentiality:
+  when to tell your team, what to say, and how to protect continuity.'
 publishDate: '2026-08-21T09:35:28.608Z'
 status: published
 funnel: acquisition
@@ -22,13 +20,16 @@ claimsReviewed: true
 author: Ankit Patel
 category: Practice Transitions
 tags:
-  - optometry practice sale staff communication confidentiality
-  - practice transitions
-  - optometry
+- optometry practice sale staff communication confidentiality
+- practice transitions
+- optometry
 cluster: transition-planning
 featuredImage: /images/blog/optometry-transition-staff-communication.webp
-canonical: 'https://mybcat.com/blog/optometry-transition-staff-communication/'
+canonical: https://mybcat.com/blog/optometry-transition-staff-communication/
+relatedPosts:
+- patient-continuity-optometry-practice-transition
 ---
+
 ## Table of Contents
 
 - [Why Plan Staff Communication Separately?](#why-plan-staff-communication-separately)

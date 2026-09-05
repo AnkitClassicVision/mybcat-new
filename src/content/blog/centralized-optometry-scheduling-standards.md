@@ -1,12 +1,10 @@
 ---
 title: Standardize Before Centralizing Optometry Scheduling
 seoTitle: Standardize Before Centralizing Optometry Scheduling
-description: >-
-  How multi-location optometry groups standardize appointment types, metrics,
+description: How multi-location optometry groups standardize appointment types, metrics,
   and reporting before centralizing scheduling, plus a phased rollout plan.
-seoDescription: >-
-  How multi-location optometry groups standardize appointment types, metrics,
-  and reporting before centralizing scheduling, plus a phased rollout plan.
+seoDescription: How multi-location optometry groups standardize appointment types,
+  metrics, and reporting before centralizing scheduling, plus a phased rollout plan.
 publishDate: '2026-08-19T09:33:11.840Z'
 status: published
 funnel: service
@@ -22,13 +20,16 @@ claimsReviewed: true
 author: Ankit Patel
 category: Patient Access Operations
 tags:
-  - centralized scheduling multi-location optometry
-  - multi-location
-  - enterprise operations
+- centralized scheduling multi-location optometry
+- multi-location
+- enterprise operations
 cluster: patient-access-operations
 featuredImage: /images/blog/centralized-optometry-scheduling-standards.webp
-canonical: 'https://mybcat.com/blog/centralized-optometry-scheduling-standards/'
+canonical: https://mybcat.com/blog/centralized-optometry-scheduling-standards/
+relatedPosts:
+- optometry-missed-call-routing-diagnostic
 ---
+
 ## Table of Contents
 
 - [What Is Centralized Scheduling in a Multi-Location Optometry Group?](#what-is-centralized-scheduling-in-a-multi-location-optometry-group)

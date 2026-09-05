@@ -1,11 +1,9 @@
 ---
 title: Patient Continuity in an Optometry Practice Transition
 seoTitle: Patient Continuity in an Optometry Practice Transition
-description: >-
-  Questions optometry owners can use to plan for records, communication, and
-  state-specific review during a practice transition.
-seoDescription: >-
-  Questions to consider about records, patient communication, and state-specific
+description: Questions optometry owners can use to plan for records, communication,
+  and state-specific review during a practice transition.
+seoDescription: Questions to consider about records, patient communication, and state-specific
   requirements during an optometry practice transition.
 publishDate: '2026-08-22T09:25:49.260Z'
 status: published
@@ -22,13 +20,16 @@ claimsReviewed: true
 author: Ankit Patel
 category: Practice Transitions
 tags:
-  - patient continuity optometry practice transition
-  - practice transitions
-  - optometry
+- patient continuity optometry practice transition
+- practice transitions
+- optometry
 cluster: transition-planning
 featuredImage: /images/blog/patient-continuity-optometry-practice-transition.webp
-canonical: 'https://mybcat.com/blog/patient-continuity-optometry-practice-transition/'
+canonical: https://mybcat.com/blog/patient-continuity-optometry-practice-transition/
+relatedPosts:
+- optometry-transition-staff-communication
 ---
+
 ## Table of Contents
 
 - [What Does Patient Continuity Mean in a Transition?](#what-does-patient-continuity-mean-in-a-transition)
