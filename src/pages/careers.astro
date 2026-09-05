@@ -31,23 +31,19 @@ const openings = [
 const values = [
   {
     title: 'Patient-First Mindset',
-    description: 'Every call is someone\'s healthcare journey. We treat every interaction with care and professionalism.',
-    icon: '❤️'
+    description: 'Every call is someone\'s healthcare journey. We treat every interaction with care and professionalism.'
   },
   {
     title: 'Ownership & Accountability',
-    description: 'We take responsibility for our work and deliver on our commitments to practices and patients.',
-    icon: '🎯'
+    description: 'We take responsibility for our work and deliver on our commitments to practices and patients.'
   },
   {
     title: 'Continuous Improvement',
-    description: 'We\'re always learning, adapting, and finding better ways to serve our clients.',
-    icon: '📈'
+    description: 'We\'re always learning, adapting, and finding better ways to serve our clients.'
   },
   {
     title: 'Team Collaboration',
-    description: 'We support each other. When one person succeeds, we all succeed.',
-    icon: '🤝'
+    description: 'We support each other. When one person succeeds, we all succeed.'
   }
 ];
 
@@ -105,7 +101,6 @@ const benefits = [
       <div class="values-grid">
         {values.map(value => (
           <div class="value-card">
-            <span class="value-icon">{value.icon}</span>
             <h3>{value.title}</h3>
             <p>{value.description}</p>
           </div>
@@ -123,7 +118,6 @@ const benefits = [
       <div class="benefits-list">
         {benefits.map(benefit => (
           <div class="benefit-item">
-            <span class="check">✓</span>
             <span>{benefit}</span>
           </div>
         ))}
@@ -301,12 +295,6 @@ const benefits = [
     text-align: center;
   }
 
-  .value-icon {
-    font-size: 2rem;
-    display: block;
-    margin-bottom: 12px;
-  }
-
   .value-card h3 {
     font-size: 1.1rem;
     font-weight: 700;
@@ -343,12 +331,6 @@ const benefits = [
     border-radius: 12px;
     font-size: 15px;
     color: var(--text-secondary);
-  }
-
-  .check {
-    color: var(--oceanic-teal);
-    font-weight: 600;
-    font-size: 1.1rem;
   }
 
   /* Openings */
