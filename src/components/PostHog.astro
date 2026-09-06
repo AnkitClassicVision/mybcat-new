@@ -14,6 +14,22 @@
       api_host: apiHost || 'https://us.i.posthog.com',
       ui_host: 'https://us.posthog.com',
       defaults: '2026-01-30',
+      // Drop exceptions that browser extensions or injected scripts throw on the
+      // page. The Microsoft Office / Outlook link-preview handler raises a
+      // synthetic "Object Not Found Matching Id" rejection with no stack frames.
+      // This code does not ship it, so it is noise in error tracking.
+      before_send: function (event) {
+        if (event && event.event === '$exception') {
+          var exceptions = (event.properties && event.properties.$exception_list) || [];
+          for (var i = 0; i < exceptions.length; i++) {
+            var value = exceptions[i] && exceptions[i].value;
+            if (typeof value === 'string' && value.indexOf('Object Not Found Matching Id') !== -1) {
+              return null;
+            }
+          }
+        }
+        return event;
+      },
       // Automatically add X-POSTHOG-SESSION-ID and X-POSTHOG-DISTINCT-ID headers
       // to same-origin requests so server-side events join the same session.
       tracing_headers: [window.location.hostname],
