@@ -20,9 +20,9 @@
       // This code does not ship it, so it is noise in error tracking.
       before_send: function (event) {
         if (event && event.event === '$exception') {
-          var exceptions = (event.properties && event.properties.$exception_list) || [];
-          for (var i = 0; i < exceptions.length; i++) {
-            var value = exceptions[i] && exceptions[i].value;
+          const exceptions = (event.properties && event.properties.$exception_list) || [];
+          for (let i = 0; i < exceptions.length; i++) {
+            const value = exceptions[i] && exceptions[i].value;
             if (typeof value === 'string' && value.indexOf('Object Not Found Matching Id') !== -1) {
               return null;
             }
