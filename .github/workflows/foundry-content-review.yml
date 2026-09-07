@@ -7,6 +7,7 @@ on:
     paths:
       - 'src/content/blog/healthcare-group-operations-benchmarks.md'
       - 'src/content/blog/healthcare-call-center-roi-enterprise.md'
+      - 'src/content/blog/soc2-medical-answering-service-enterprise-healthcare.md'
       - '.github/workflows/foundry-content-review.yml'
 permissions:
   contents: read
@@ -52,17 +53,19 @@ jobs:
           import assert from 'node:assert/strict';
           import matter from 'gray-matter';
           import {validateFile} from './scripts/validators/validate-content-quality.js';
-          const names=['healthcare-group-operations-benchmarks','healthcare-call-center-roi-enterprise'];
+          const names=['healthcare-group-operations-benchmarks','healthcare-call-center-roi-enterprise','soc2-medical-answering-service-enterprise-healthcare'];
           const rules=JSON.parse(fs.readFileSync('scripts/config/content-quality-rules.json'));
           const taxonomy=JSON.parse(fs.readFileSync('scripts/config/topic-taxonomy.json'));
-          const protectedKeys=['slug','canonical','status','publishDate','scheduledDate','author','featuredImage','category','cluster','funnel'];
+          const editableKeys=new Set(['title','seoTitle','description','seoDescription']);
           const evidence=[];
           for(const name of names){
             const file=`src/content/blog/${name}.md`;
             const raw=fs.readFileSync(file,'utf8');
             const current=matter(raw);
             const previous=matter(execFileSync('git',['show',`${process.env.BASE_REF}:${file}`],{encoding:'utf8'}));
-            for(const key of protectedKeys) assert.deepEqual(current.data[key],previous.data[key],`Protected field changed: ${key}`);
+            for(const key of new Set([...Object.keys(previous.data),...Object.keys(current.data)])){
+              if(!editableKeys.has(key)) assert.deepEqual(current.data[key],previous.data[key],`Protected field changed: ${key}`);
+            }
             assert.ok(!/^#\s+/m.test(current.content),'Template owns the H1');
             assert.ok(!/<\s*(script|iframe|object|embed)\b|\bon\w+\s*=|javascript\s*:/i.test(current.content),'Active content is forbidden in this batch');
             const result=validateFile(file,rules,taxonomy);
@@ -73,9 +76,10 @@ jobs:
           JS
           node scripts/validators/validate-meta.js --file src/content/blog/healthcare-group-operations-benchmarks.md
           node scripts/validators/validate-meta.js --file src/content/blog/healthcare-call-center-roi-enterprise.md
+          node scripts/validators/validate-meta.js --file src/content/blog/soc2-medical-answering-service-enterprise-healthcare.md
       - name: Build with existing prebuild checks, no deploy
         run: npm run build
-      - name: Save and check the two actual rendered pages
+      - name: Save and check the three actual rendered pages
         run: |
           python3 - <<'PY'
           import hashlib,json,re
@@ -90,7 +94,7 @@ jobs:
                   if tag=='a' and a.get('href','').startswith('#'): self.anchors.append(a['href'][1:])
                   if tag=='link' and a.get('rel')=='canonical': self.canonical.append(a.get('href'))
           result=[]
-          for slug in ('healthcare-group-operations-benchmarks','healthcare-call-center-roi-enterprise'):
+          for slug in ('healthcare-group-operations-benchmarks','healthcare-call-center-roi-enterprise','soc2-medical-answering-service-enterprise-healthcare'):
               choices=[Path(root)/'blog'/slug/'index.html' for root in ('dist','.vercel/output/static')]
               source=next((p for p in choices if p.is_file()),None)
               assert source is not None, 'Expected rendered page missing'
