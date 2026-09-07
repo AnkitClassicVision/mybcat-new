@@ -1,10 +1,10 @@
 ---
 title: Dental Group Workflow Standardization for DSOs
-seoTitle: Dental Group Workflow Standardization for DSOs
+seoTitle: Dental Group Workflow Standardization for Multi-Site DSOs
 description: Learn how multi-location dental groups standardize workflows across locations.
   Framework for COOs and VPs managing DSO operations at scale.
 seoDescription: Learn how multi-location dental groups standardize workflows across
-  locations. Framework for COOs and VPs managing DSO operations at scale.
+  locations. Framework for COOs and VPs managing DSO operations at scale today.
 publishDate: '2026-06-26T11:44:32.642Z'
 status: published
 author: Ankit Patel

@@ -1,6 +1,6 @@
 ---
 title: Urgent Care Call Volume Management Multi-Location
-seoTitle: Urgent Care Call Volume Management Multi-Location
+seoTitle: Urgent Care Call Volume Management for Health Systems
 description: Urgent care call volume management multi-location groups need centralized
   triage, SLA calibration, and reporting across urgent care networks.
 seoDescription: Urgent care call volume management multi-location guide for centralized

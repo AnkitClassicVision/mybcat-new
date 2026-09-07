@@ -1,6 +1,6 @@
 ---
 title: After-Hours Medical Answering SLA for Groups
-seoTitle: After-Hours Medical Answering SLA for Groups
+seoTitle: After-Hours Medical Answering SLA for Multi-Location Groups
 description: After-hours medical answering SLA playbook for group practices. Standardize
   multi-location coverage, triage, QA, and escalation across 3+ sites.
 seoDescription: After-hours medical answering SLA playbook for group practices. Learn

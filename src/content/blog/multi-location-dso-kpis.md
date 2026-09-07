@@ -1,10 +1,10 @@
 ---
 title: Multi-Location DSO KPIs for Enterprise Operators
-seoTitle: Multi-Location DSO KPIs for Enterprise Operators
+seoTitle: Multi-Location DSO KPIs for Enterprise Operating Leaders
 description: Use this multi-location dso kpis playbook to align access, recall, QA,
   integrations, and EBITDA impact across enterprise DSO operations at scale.
-seoDescription: A multi-location dso kpis guide for COO and VP teams standardizing
-  dashboards, QA, integrations, and enterprise DSO operating cadence.
+seoDescription: A guide for DSO COO and VP teams to standardize KPI dashboards, QA,
+  integrations, and operating cadence across multi-location organizations.
 publishDate: '2026-07-17T10:46:40.847Z'
 status: published
 author: Ankit Patel

@@ -2,7 +2,7 @@
 title: "Operational Efficiency in Optometry: A Maturity Model"
 seoTitle: "Optometry Operational Efficiency for Group Leaders"
 description: "Use our tiered maturity model to assess and improve your optometry clinic's operational efficiency, from reactive firefighting to innovative best practices."
-seoDescription: "A maturity model for multi-location optometry leaders to standardize patient access, reduce rework, and improve operational visibility."
+seoDescription: "A maturity model for multi-location optometry leaders to standardize patient access, reduce rework, improve visibility, and govern scalable operations."
 publishDate: 2023-08-11
 status: published
 author: Ankit Patel
