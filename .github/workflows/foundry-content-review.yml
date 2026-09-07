@@ -1,0 +1,43 @@
+name: Foundry content review
+on:
+  push:
+    branches: [codex/mybcat-seo-repair-20260907]
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/content/blog/**'
+      - '.github/workflows/foundry-content-review.yml'
+permissions:
+  contents: read
+concurrency:
+  group: foundry-content-review-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  source-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Capture bounded source evidence, never operational state or credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p review-evidence
+          git rev-parse HEAD > review-evidence/source-commit.txt
+          git ls-tree -r --name-only HEAD > review-evidence/tracked-paths.txt
+          paths=()
+          for p in src scripts package.json package-lock.json astro.config.mjs tsconfig.json vercel.json AGENTS.md; do
+            if git cat-file -e "HEAD:$p" 2>/dev/null; then paths+=("$p"); fi
+          done
+          git archive --format=zip --output=review-evidence/source.zip HEAD "${paths[@]}"
+          test "$(stat -c%s review-evidence/source.zip)" -lt 15000000
+          sha256sum review-evidence/source.zip > review-evidence/source.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mybcat-content-source-${{ github.sha }}
+          path: review-evidence/
+          retention-days: 1
+          compression-level: 9
+          if-no-files-found: error
