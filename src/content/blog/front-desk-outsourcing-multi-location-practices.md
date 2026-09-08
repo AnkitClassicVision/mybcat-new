@@ -183,4 +183,4 @@ Seen that way, front desk outsourcing is less about replacing a receptionist and
 5. [Fact Sheet: Using Secure Electronic Messaging to Support Patient and Family Engagement](https://web.archive.org/web/20180329195116/https://www.healthit.gov/providers-professionals/implementation-resources/fact-sheet-using-secure-electronic-messaging)
 6. [Chapter 1 - Patient Engagement Playbook](https://playbook.healthit.gov/playbook/pe/chapter-1)
 
-*Managing front desk outsourcing across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing front desk outsourcing across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

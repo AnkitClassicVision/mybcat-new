@@ -142,4 +142,4 @@ The objective is not to eliminate human judgment or turn every interaction into 
 2. [Patient Engagement Playbook | HealthIT.gov](https://playbook.healthit.gov/playbook/patient-engagement)
 3. [Tips to Improve Healthcare Call Center Efficiency | MGMA](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency)
 
-*Managing patient communication across 3+ eye care locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing patient communication across 3+ eye care locations? [Request an Enterprise Assessment for your group.](/contact/)*

@@ -193,4 +193,4 @@ These articles support the implementation layer of front office consolidation. T
 7. [American Dental Association: More Dentists Affiliating With DSOs](https://adanews.ada.org/ada-news/2023/june/more-dentists-affiliating-with-dsos)
 8. [The Wall Street Journal: Seeing a Doctor Doesn't Have to Be So Frustrating](https://www.wsj.com/health/wellness/doctor-visits-appointments-frustration-1c88eb9a)
 
-*[Managing front office consolidation change management across 3+ locations? Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*[Managing front office consolidation change management across 3+ locations? Request an Enterprise Assessment for your group.](/contact/)*

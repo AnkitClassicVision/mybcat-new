@@ -179,4 +179,4 @@ It is about fewer open slots, less front-desk rework, clearer labor planning, an
 5. [Improve Care Coordination using Electronic Health Records | Providers & Professionals](https://www.healthit.gov/providers-professionals/improved-care-coordination)
 6. [Health IT & Health Information Exchange Basics - ONC - Office of the National Coordinator for Health Information Technology](https://healthit.gov/health-it-basics)
 
-*Managing optometry recall automation across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing optometry recall automation across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

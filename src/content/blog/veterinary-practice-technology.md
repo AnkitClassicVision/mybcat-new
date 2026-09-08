@@ -127,4 +127,4 @@ Technology is never fully finished after go-live. The durable outcome is a gover
 2. [A Review of Radiomics and Artificial Intelligence and Their Application in Veterinary Diagnostic Imaging](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9693121)
 3. [Health IT Basics](https://healthit.gov/health-it-basics)
 
-*Standardizing technology and patient access across 3+ veterinary locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Standardizing technology and patient access across 3+ veterinary locations? [Request an Enterprise Assessment for your group.](/contact/)*

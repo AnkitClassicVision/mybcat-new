@@ -276,7 +276,7 @@ Organizations that treat scheduling as a strategic capability invest accordingly
 
 If your DSO operates 3 or more locations and you are evaluating options for centralizing patient scheduling, our team can help you assess your current state, identify improvement opportunities, and plan your transformation.
 
-[Schedule a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss how centralized scheduling can drive growth and efficiency across your dental organization.
+[Schedule a discovery call](/contact/) to discuss how centralized scheduling can drive growth and efficiency across your dental organization.
 
 ---
 

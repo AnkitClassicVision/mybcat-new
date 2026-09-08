@@ -345,7 +345,7 @@ MyBCAT is not the right fit for every veterinary practice.
 
 A single-location hospital looking for a simple message service may be better served by a basic answering vendor.
 
-If you operate a multi-location veterinary group or are building toward a centralized access model across 3+ locations, schedule a discovery call here: [Book a MyBCAT discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call).
+If you operate a multi-location veterinary group or are building toward a centralized access model across 3+ locations, schedule a discovery call here: [Book a MyBCAT discovery call](/contact/).
 
 ## Related Reading
 

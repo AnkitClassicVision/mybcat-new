@@ -113,4 +113,4 @@ The end state is a managed patient-access layer: routine work is handled consist
 2. [HealthIT.gov: Patient Engagement Playbook](https://playbook.healthit.gov/playbook/patient-engagement)
 3. [HealthIT.gov: Health IT Basics](https://healthit.gov/health-it-basics)
 
-*Standardizing call support across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Standardizing call support across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

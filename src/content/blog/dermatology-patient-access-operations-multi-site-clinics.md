@@ -254,4 +254,4 @@ Instead, define the operating model, baseline the current workflow, track varian
 7. [PubMed: Automated Waitlists for Ambulatory Appointment Scheduling](https://pubmed.ncbi.nlm.nih.gov/42330489/)
 8. [MGMA: Streamlining Scheduling Workflows To Improve Appointment Capacity](https://www.mgma.com/articles/streamlining-scheduling-workflows-to-improve-appointment-capacity)
 
-*Managing dermatology patient access operations across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing dermatology patient access operations across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

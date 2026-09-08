@@ -114,7 +114,7 @@ A sustainable model has a documented work boundary, controlled exceptions, calib
 
 That model gives an eye care group room to grow without asking every new office to invent its own intake process. It also preserves the local context that matters to providers and patients. Outsourcing becomes valuable when it makes patient access more manageable, accountable, and consistent across the organization.
 
-*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
 
 ## Sources
 

@@ -210,7 +210,7 @@ For related operating models, see MyBCAT's guides to [enterprise call answering 
 
 ### Enterprise CTA
 
-If you operate a multi-location optometry group with 3+ locations and want a more consistent patient communication model, schedule a discovery call here: [Book a MyBCAT discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call).
+If you operate a multi-location optometry group with 3+ locations and want a more consistent patient communication model, schedule a discovery call here: [Book a MyBCAT discovery call](/contact/).
 
 ## Related Reading
 

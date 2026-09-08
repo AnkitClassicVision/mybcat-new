@@ -171,4 +171,4 @@ For operating support, review [front desk outsourcing](/solutions/front-desk-out
 7. [Imaging Interoperability - American Academy of Ophthalmology](https://www.aao.org/advocacy/issues/health-it/imaging-interoperability)
 8. [Tools for the 2024 Primary Care Practice - Optometric Management](https://www.optometricmanagement.com/issues/2023/novdec/tools-for-the-2024-primary-care-practice)
 
-[Managing optometrist equipment across 3+ locations? Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)
+[Managing optometrist equipment across 3+ locations? Request an Enterprise Assessment for your group.](/contact/)

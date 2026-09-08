@@ -225,4 +225,4 @@ When acquiring new practices, the ability to rapidly deploy standardized recall 
 
 ---
 
-*Managing patient recall across 3+ locations? [Request an Enterprise Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for your group.*
+*Managing patient recall across 3+ locations? [Request an Enterprise Assessment](/contact/) for your group.*

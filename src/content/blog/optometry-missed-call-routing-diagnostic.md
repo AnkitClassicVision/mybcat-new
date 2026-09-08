@@ -222,7 +222,7 @@ After a local review, a practice may decide whether to evaluate internal coverag
 
 That choice requires the practice's own operational, financial, privacy, and legal judgment.
 
-For a service-funnel conversation, [request a service fit review](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call).
+For a service-funnel conversation, [request a service fit review](/contact/).
 
 ## Related Reading
 

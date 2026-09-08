@@ -192,7 +192,7 @@ The difference between success and failure is rarely technology. It is the chang
 
 ADA data confirms that practice modality trends continue shifting toward DSOs and multi-location groups. Organizations that master centralized operations will be positioned to capitalize on continued consolidation while those that struggle with operational basics will find growth increasingly difficult.
 
-**If your DSO or multi-location healthcare group is navigating intake centralization and needs guidance on implementation strategy, [schedule a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss your specific situation.** We work exclusively with organizations managing 3 or more locations facing the operational challenges that come with scale.
+**If your DSO or multi-location healthcare group is navigating intake centralization and needs guidance on implementation strategy, [schedule a discovery call](/contact/) to discuss your specific situation.** We work exclusively with organizations managing 3 or more locations facing the operational challenges that come with scale.
 
 ## Related Reading
 

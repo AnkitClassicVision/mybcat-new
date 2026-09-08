@@ -160,4 +160,4 @@ The larger lesson applies across specialties: expand only after the organization
 5. [Chapter 2 - Patient Engagement Playbook](https://playbook.healthit.gov/playbook/pe/chapter-2)
 6. [CAMBRA | School of Dentistry](https://dentistry.ucsf.edu/research/cambra)
 
-*Managing patient win-back strategy across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing patient win-back strategy across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

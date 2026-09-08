@@ -252,4 +252,4 @@ Multi-location groups should stay informed about technology developments while m
 
 ---
 
-*Managing phone call handling across 3+ dental locations? [Request an Enterprise Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for your group.*
+*Managing phone call handling across 3+ dental locations? [Request an Enterprise Assessment](/contact/) for your group.*

@@ -225,4 +225,4 @@ Feedback mechanisms can range from simple suggestion systems to structured conti
 
 ---
 
-*Managing lead capture phone systems across 3+ locations? [Request an Enterprise Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for your dental group.*
+*Managing lead capture phone systems across 3+ locations? [Request an Enterprise Assessment](/contact/) for your dental group.*

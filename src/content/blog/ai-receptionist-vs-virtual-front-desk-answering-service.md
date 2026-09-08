@@ -147,4 +147,4 @@ Ask which calls are resolved directly, which require a callback, how transfers c
 2. [ONC Patient Engagement Playbook, Chapter 2](https://playbook.healthit.gov/playbook/pe/chapter-2)
 3. [MGMA: Implementing Central Scheduling to Support Practice Growth](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)
 
-*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

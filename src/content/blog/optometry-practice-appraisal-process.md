@@ -280,4 +280,4 @@ For operations leaders preparing multi-location optometry groups for appraisal, 
 
 ---
 
-Managing optometry practice appraisals across 3+ locations? [Request an enterprise assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for your group to identify operational improvements that support premium valuations.
+Managing optometry practice appraisals across 3+ locations? [Request an enterprise assessment](/contact/) for your group to identify operational improvements that support premium valuations.

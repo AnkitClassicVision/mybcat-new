@@ -178,4 +178,4 @@ A strong multi-site dashboard is not just informative. It becomes part of how th
 5. [Cypress - CMS quality reporting programs Testing And Certification Tool](https://www.healthit.gov/cypress)
 6. [DataDive](https://www.mgma.com/datadive)
 
-*Managing reporting dashboard design across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing reporting dashboard design across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

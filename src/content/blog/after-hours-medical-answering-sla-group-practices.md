@@ -205,4 +205,4 @@ The best outcome is not a prettier after-hours script. It is a standard that let
 6. [Safety of clinical and non-clinical decision makers in telephone triage: a narrative review](https://pubmed.ncbi.nlm.nih.gov/25761468)
 7. [Toward higher-performance health systems: adults' health care experiences in seven countries, 2007](https://pubmed.ncbi.nlm.nih.gov/17978360)
 
-*Managing after-hours answering across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing after-hours answering across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

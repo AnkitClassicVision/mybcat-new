@@ -207,4 +207,4 @@ A DSO patient recall workflow is standardized when clinical logic, patient activ
 8. [Chapter 1 - Patient Engagement Playbook](https://playbook.healthit.gov/playbook/pe/chapter-1)
 9. [Chapter 2 - Patient Engagement Playbook](https://playbook.healthit.gov/playbook/pe/chapter-2)
 
-*Managing DSO patient recall workflow standardization across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing DSO patient recall workflow standardization across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

@@ -198,7 +198,7 @@ The answers can help leadership identify which scheduling questions require addi
 
 ### When to request a service fit review
 
-If you operate an optometry group with 3+ locations and want a grounded, specifics-first conversation about whether a centralized patient-access model fits your operation, you can [request a service fit review](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call).
+If you operate an optometry group with 3+ locations and want a grounded, specifics-first conversation about whether a centralized patient-access model fits your operation, you can [request a service fit review](/contact/).
 
 ## Related Reading
 
