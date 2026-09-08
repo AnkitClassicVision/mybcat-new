@@ -142,13 +142,12 @@ Many answering service failures are not caused by poor agents. They are caused b
 
 A vendor cannot route accurately if it is working from outdated hours, old doctor schedules, unclear emergency partners, or inconsistent rules for same-day appointments.
 
-For a multi-location veterinary group, the source of truth should define:
+For a multi-location veterinary group, the source of truth should list each location's hours and holiday rules and state which appointment types the service can schedule or request.
 
-- Location hours and holiday rules
-- Appointment types the service can schedule or request
-- Transfer rules by call type
-- Emergency and urgent-care routing
-- Refill and prescription request workflows
+It should also define transfer rules by call type, emergency and urgent-care routing, and refill and prescription request workflows.
+
+The same source of truth should also cover:
+
 - Records request handling
 - Payment and billing message rules
 - Post-operative concern escalation

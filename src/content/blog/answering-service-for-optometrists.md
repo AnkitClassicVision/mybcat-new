@@ -223,8 +223,8 @@ If you operate a multi-location optometry group with 3+ locations and want a mor
 
 ## Sources
 
-- AHRQ: Be Easy To Reach: Tool 7, https://www.ahrq.gov/health-literacy/improve/precautions/tool7.html
-- HHS OCR: Business Associates, https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html
+- AHRQ: [Be Easy To Reach: Tool 7](https://www.ahrq.gov/health-literacy/improve/precautions/tool7.html)
+- HHS OCR: [Business Associates](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)
 - American Optometric Association: Patient Communication, https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication
 - American Optometric Association: Using automated services to reach patients? Know the rules, https://www.aoa.org/news/practice-management/perfect-your-practice/the-wrong-patient-communication-plan-could-be-costly
 - MGMA: Optimizing provider staffing, patient scheduling and communication for improved patient access, https://www.mgma.com/articles/optimizing-provider-staffing-patient-scheduling-and-communication-for-improved-patient-access
