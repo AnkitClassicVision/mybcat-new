@@ -52,11 +52,12 @@ const colors = {
 const AUTHORITY_DOMAINS = new Set([
   // Government
   'nih.gov', 'cdc.gov', 'cms.gov', 'hhs.gov', 'ftc.gov', 'bls.gov',
+  'ahrq.gov', 'healthit.gov', 'sba.gov', 'irs.gov', 'accesshealthct.com',
   // Education
   'harvard.edu', 'stanford.edu', 'mit.edu', 'mayo.edu',
   // Healthcare industry bodies
   'aoa.org', 'ada.org', 'avma.org', 'mgma.com', 'ama-assn.org',
-  'aao.org', 'who.int',
+  'aao.org', 'who.int', 'caqh.org',
   // Business / research
   'mckinsey.com', 'hbr.org', 'pewresearch.org',
   // Recognized trade publications

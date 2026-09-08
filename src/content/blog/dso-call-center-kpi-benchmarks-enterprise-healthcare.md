@@ -61,7 +61,7 @@ Industry leaders achieve 94-99% answer rates, significantly outperforming the 80
 
 ### Abandonment Rate
 
-Healthcare call centers average 5-7% abandonment, but high performers maintain rates below 5%. The VA Health Administration targets 5% or lower, with CMS requiring similar thresholds for Medicare plan compliance. For enterprise DSOs, every percentage point above 5% represents quantifiable patient leakage. Understanding [how missed calls create revenue leaks](/blog/missed-calls-revenue-leak-multi-location-healthcare/) helps operations teams prioritize abandonment reduction initiatives.
+Healthcare call centers average 5-7% abandonment, but high performers maintain rates below 5%. CMS call-center monitoring materials use an average hold time of two minutes or less and a disconnect rate of 5% or less as passing scores for the Medicare plan lines they monitor. That regulated-program reference is useful context, not a universal DSO benchmark ([CMS](https://www.cms.gov/medicare/prescription-drug-coverage/prescriptiondrugcovcontra/downloads/call-center-monitoring-webinar-.pdf)). For enterprise DSOs, every percentage point above 5% represents quantifiable patient leakage. Understanding [how missed calls create revenue leaks](/blog/missed-calls-revenue-leak-multi-location-healthcare/) helps operations teams prioritize abandonment reduction initiatives.
 
 <div style="background: #fef2f2; border-radius: 12px; padding: 24px; border-left: 4px solid #ef4444; margin: 24px 0;">
 <h4 style="color: #dc2626; margin-top: 0;">Abandonment Rate Benchmark</h4>
@@ -225,6 +225,7 @@ Organizations hitting these benchmarks typically combine centralized telephony p
 1. [Dialog Health: Healthcare Call Center Statistics](https://www.dialoghealth.com/post/healthcare-call-center-statistics)
 2. [Healthcare Contact Center Technology Survey Report 2024](https://hcctconference.com/wp-content/uploads/2024/06/HealthcareContactCenterSurveyReport_HCCT2024.pdf)
 3. [VoiceStack: The Ultimate Dental Call Center Playbook for 2025](https://voicestack.com/assets/The-Ultimate-Dental-Call-Center-Playbook-for-2025-USA.pdf)
+4. [CMS: Call Center Monitoring](https://www.cms.gov/medicare/prescription-drug-coverage/prescriptiondrugcovcontra/downloads/call-center-monitoring-webinar-.pdf)
 
 ---
 
