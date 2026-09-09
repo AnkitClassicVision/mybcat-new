@@ -696,27 +696,31 @@ import { getFAQsByCategory } from '@data/faq';
   // PostHog: track pricing CTA clicks
   document.addEventListener('DOMContentLoaded', function () {
     // Track the enterprise CTA
-    var enterpriseCta = document.querySelector('.enterprise-cta');
+    const enterpriseCta = document.querySelector('.enterprise-cta');
     if (enterpriseCta) {
       enterpriseCta.addEventListener('click', function () {
-        window.posthog && window.posthog.capture('pricing_cta_clicked', {
-          plan_name: 'Enterprise',
-          cta_text: enterpriseCta.textContent ? enterpriseCta.textContent.trim() : '',
-          cta_href: enterpriseCta.getAttribute('href') || ''
-        });
+        if (window.posthog) {
+          window.posthog.capture('pricing_cta_clicked', {
+            plan_name: 'Enterprise',
+            cta_text: enterpriseCta.textContent ? enterpriseCta.textContent.trim() : '',
+            cta_href: enterpriseCta.getAttribute('href') || ''
+          });
+        }
       });
     }
 
     // Track tier CTA buttons inside the pricing grid
     document.querySelectorAll('.pricing-section .pricing-card a, .pricing-section .pricing-card button').forEach(function (btn) {
       btn.addEventListener('click', function () {
-        var card = btn.closest('.pricing-card');
-        var planName = card && card.querySelector('h3') ? card.querySelector('h3').textContent.trim() : 'unknown';
-        window.posthog && window.posthog.capture('pricing_cta_clicked', {
-          plan_name: planName,
-          cta_text: btn.textContent ? btn.textContent.trim() : '',
-          cta_href: btn.getAttribute('href') || ''
-        });
+        const card = btn.closest('.pricing-card');
+        const planName = card && card.querySelector('h3') ? card.querySelector('h3').textContent.trim() : 'unknown';
+        if (window.posthog) {
+          window.posthog.capture('pricing_cta_clicked', {
+            plan_name: planName,
+            cta_text: btn.textContent ? btn.textContent.trim() : '',
+            cta_href: btn.getAttribute('href') || ''
+          });
+        }
       });
     });
   });
