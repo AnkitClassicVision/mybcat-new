@@ -163,6 +163,8 @@ const description = 'ODs on Finance members can book a MyBCAT discovery call and
   </main>
 
   <script>
+    import { MEETINGS_URL } from '../lib/booking';
+
     const endpoint = 'https://estate-form-bridge.mybcat-estate.workers.dev';
     const token = import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
     const form = document.getElementById('contact-form');
@@ -172,18 +174,16 @@ const description = 'ODs on Finance members can book a MyBCAT discovery call and
     const phoneInput = document.getElementById('cf-phone');
     const phoneError = document.getElementById('err-phone');
     const intakeStatus = document.getElementById('intake-status');
-    const calendarUrl = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ21kmAUBj4aZSq7DYPJ4jkhMAVh400vqdkedNXshigCOXwWVU87EvvK4as9dXOlAqZYOruIhLog';
 
-    function showPostSubmitState(data) {
-      const params = new URLSearchParams({
-        firstName: String(data.get('firstname') || ''),
-        lastName: String(data.get('lastname') || ''),
-        email: String(data.get('email') || '')
-      });
-      meetingsIframe.src = `${calendarUrl}?${params.toString()}`;
+    function showPostSubmitState() {
+      meetingsIframe.src = MEETINGS_URL;
       formContent.hidden = true;
       postSubmitState.hidden = false;
       postSubmitState.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      window.posthog?.capture('discovery_call_scheduled', {
+        source: 'odof_page'
+      });
     }
 
     async function sendIntake(data) {
@@ -223,6 +223,15 @@ const description = 'ODs on Finance members can book a MyBCAT discovery call and
       }
     }
 
+    let formStarted = false;
+    form.addEventListener('focusin', () => {
+      if (formStarted) return;
+      formStarted = true;
+      window.posthog?.capture('contact_form_started', {
+        source: 'odof_page'
+      });
+    });
+
     form.addEventListener('submit', (event) => {
       event.preventDefault();
       phoneError.textContent = '';
@@ -233,7 +242,12 @@ const description = 'ODs on Finance members can book a MyBCAT discovery call and
       }
       if (!form.reportValidity()) return;
       const data = new FormData(form);
-      showPostSubmitState(data);
+      window.posthog?.capture('contact_form_submitted', {
+        number_of_locations: String(data.get('number_of_locations') || '') || 'not_selected',
+        utm_source: String(data.get('utm_source') || '') || undefined,
+        source: 'odof_page'
+      });
+      showPostSubmitState();
       void sendIntake(data);
     });
   </script>

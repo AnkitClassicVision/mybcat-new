@@ -3,4 +3,5 @@
 
 interface Window {
   MYBCAT_FORM_TOKEN?: string;
+  posthog?: { capture: (event: string, properties?: Record<string, unknown>) => void };
 }
