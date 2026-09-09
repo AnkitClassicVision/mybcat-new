@@ -1,6 +1,6 @@
 /**
  * Company information and configuration
- * Central source of truth for brand, contact, and HubSpot settings
+ * Central source of truth for brand and contact settings
  */
 
 export const company = {
@@ -26,12 +26,6 @@ export const company = {
   social: {
     facebook: 'https://www.facebook.com/profile.php?id=100088695738006',
     linkedin: 'https://www.linkedin.com/company/my-business-care-team/'
-  },
-
-  // HubSpot integration
-  hubspot: {
-    portalId: '47905082',
-    meetingLink: 'https://mybcat.com/book/discovery'
   },
 
   // Ownership and founder info

@@ -131,4 +131,4 @@ The practical value of a BPO transition is a more controlled patient-access oper
 2. [MGMA: Implementing Central Scheduling to Support Practice Growth and Success](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)
 3. [ONC: Security Risk Assessment Tool](https://healthit.gov/privacy-security/security-risk-assessment-tool/)
 
-*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

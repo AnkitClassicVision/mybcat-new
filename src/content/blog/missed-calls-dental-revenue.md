@@ -145,4 +145,4 @@ Over time, the group should retain the decisions behind its access model: why a 
 2. [Agency for Healthcare Research and Quality: Open Access Scheduling for Routine and Urgent Appointments](https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/access/strategy6a-openaccess.html)
 3. [AAFP: Same-Day Appointments: Exploding the Access Paradigm](https://www.aafp.org/fpm/2000/0900/p45)
 
-*Managing patient access across 3+ dental locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing patient access across 3+ dental locations? [Request an Enterprise Assessment for your group.](/contact/)*

@@ -954,9 +954,11 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     postSubmit.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
     // PostHog: discovery call scheduling step reached
-    window.posthog && window.posthog.capture('discovery_call_scheduled', {
-      source: 'contact_page'
-    });
+    if (window.posthog) {
+      window.posthog.capture('discovery_call_scheduled', {
+        source: 'contact_page'
+      });
+    }
   }
 
   function submitToOwnedIntake(fields) {
@@ -989,13 +991,15 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
   if (!form) return;
 
   // PostHog: fire once when user first interacts with the form
-  var formStarted = false;
+  let formStarted = false;
   form.addEventListener('focusin', function () {
     if (!formStarted) {
       formStarted = true;
-      window.posthog && window.posthog.capture('contact_form_started', {
-        source: 'contact_page'
-      });
+      if (window.posthog) {
+        window.posthog.capture('contact_form_started', {
+          source: 'contact_page'
+        });
+      }
     }
   }, { once: false });
 
@@ -1055,13 +1059,15 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     fields.push({ name: 'requested_meeting', value: 'Discovery' });
 
     // PostHog: contact form submission (no PII in event properties)
-    var locValue = locs && locs.value ? locs.value : 'not_selected';
-    var utmValue = utm && utm.value ? utm.value : undefined;
-    window.posthog && window.posthog.capture('contact_form_submitted', {
-      number_of_locations: locValue,
-      utm_source: utmValue,
-      source: 'contact_page'
-    });
+    const locValue = locs && locs.value ? locs.value : 'not_selected';
+    const utmValue = utm && utm.value ? utm.value : undefined;
+    if (window.posthog) {
+      window.posthog.capture('contact_form_submitted', {
+        number_of_locations: locValue,
+        utm_source: utmValue,
+        source: 'contact_page'
+      });
+    }
 
     // 1. Show calendar immediately — no waiting
     showPostSubmitState({ firstName: firstName, lastName: lastName, email: email });

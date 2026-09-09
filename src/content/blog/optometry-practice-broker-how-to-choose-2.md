@@ -210,7 +210,7 @@ Not all brokers will accept modified structures, but sophisticated brokers servi
 
 ---
 
-**Operations leaders at multi-location healthcare groups navigating practice acquisitions or divestitures face complex decisions about professional advisor engagement.** If your organization is evaluating acquisition targets, preparing practices for sale, or building institutional M&A capabilities across three or more locations, [schedule a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss how operational infrastructure supports transaction success.
+**Operations leaders at multi-location healthcare groups navigating practice acquisitions or divestitures face complex decisions about professional advisor engagement.** If your organization is evaluating acquisition targets, preparing practices for sale, or building institutional M&A capabilities across three or more locations, [schedule a discovery call](/contact/) to discuss how operational infrastructure supports transaction success.
 
 ---
 

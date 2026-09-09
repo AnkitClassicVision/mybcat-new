@@ -46,7 +46,7 @@ That standard should define which equipment is required for the care model, whic
 
 The baseline should begin with required clinical capability and jurisdiction-specific review.
 
-Illinois offers an official example of a minimum office equipment rule, listing categories such as direct and indirect ophthalmoscopes, a retinoscope or equivalent, a tonometer, an automated threshold visual field testing device, a color vision testing device, a keratometer or equivalent, a biomicroscope, subjective testing lenses, and a blood pressure measuring device ([1](https://www.ilga.gov/commission/jcar/admincode/068/068013200A00950R.html)).
+Illinois offers an official example of a minimum office equipment rule, listing categories such as direct and indirect ophthalmoscopes, a retinoscope or equivalent, a tonometer, an automated threshold visual field testing device, a color vision testing device, a keratometer or equivalent, a biomicroscope, subjective testing lenses, and a blood pressure measuring device ([1](https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-68-SS-1320.95)).
 
 Enterprise teams should treat that kind of rule as an input to counsel-led review, not as a universal national checklist. Required equipment should be captured in a centrally maintained standard, mapped to location type, and reviewed before leasehold design, credentialing workflow, staffing plans, and appointment templates are finalized.
 
@@ -162,7 +162,7 @@ For operating support, review [front desk outsourcing](/solutions/front-desk-out
 
 ## Sources
 
-1. [Section 1320.95 Minimum Equipment List](https://www.ilga.gov/commission/jcar/admincode/068/068013200A00950R.html)
+1. [Section 1320.95 Minimum Equipment List](https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-68-SS-1320.95)
 2. [FDA Product Classification](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?PAGENUM=50&Panel=OP&sortcolumn=ProductCode&start_search=1)
 3. [FDA Recognized Consensus Standards: Medical Devices](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfStandards/detail.cfm?standard__identification_no=46071)
 4. [CMS LCD - Scanning Computerized Ophthalmic Diagnostic Imaging](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?areaId=all&bc=1&contractOption=all&docType=NCA%2CCAL%2CNCD%2CMEDCAC%2CTA%2CMCD%2C6%2C3%2C5%2C1%2CF%2CP&keyword=Ophthalmic&keywordType=starts&lcdid=34760&sortBy=relevance&ver=27)
@@ -171,4 +171,4 @@ For operating support, review [front desk outsourcing](/solutions/front-desk-out
 7. [Imaging Interoperability - American Academy of Ophthalmology](https://www.aao.org/advocacy/issues/health-it/imaging-interoperability)
 8. [Tools for the 2024 Primary Care Practice - Optometric Management](https://www.optometricmanagement.com/issues/2023/novdec/tools-for-the-2024-primary-care-practice)
 
-[Managing optometrist equipment across 3+ locations? Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)
+[Managing optometrist equipment across 3+ locations? Request an Enterprise Assessment for your group.](/contact/)

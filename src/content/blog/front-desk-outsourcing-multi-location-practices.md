@@ -106,7 +106,7 @@ Without that, every monthly review can turn into an argument about definitions.
 
 SLA calibration should reflect workflow type, not a single blanket target. Routine scheduling requests, voicemail recovery, digital message follow-up, and location handoffs each create different kinds of work. If all of them sit under one broad promise, the organization may appear aligned while the actual queue behaves very differently from site to site.
 
-ONC's secure messaging fact sheet is useful here because it explains that secure messaging can reduce phone calls, avoid telephone tag, and let support staff triage messages ([Fact Sheet: Using Secure Electronic Messaging to Support Patient and Family Engagement](https://web.archive.org/web/20180329195116/https://www.healthit.gov/providers-professionals/implementation-resources/fact-sheet-using-secure-electronic-messaging)).
+ONC's Patient Engagement Playbook explains that online scheduling, secure messaging, and reminders can strengthen real-time engagement and reduce practice workload ([Chapter 1 - Patient Engagement Playbook](https://playbook.healthit.gov/playbook/pe/chapter-1)).
 
 That is operationally important for SLA design: the more clearly a group defines which issues can move through digital triage, the more realistic its live front-desk service model can become.
 
@@ -180,7 +180,6 @@ Seen that way, front desk outsourcing is less about replacing a receptionist and
 2. [Managing Dental Teams](https://www.ada.org/resources/practice/practice-management/managing-dental-teams)
 3. [Consumers' use of online medical records and devices for health needs](https://healthit.gov/sites/default/files/page/2018-03/HINTS-2017-Consumer-Data-Brief-3.21.18.pdf)
 4. [Electronic Capabilities for Patient Engagement among U.S. Non-Federal Acute Care Hospitals: 2013-2017](https://healthit.gov/data/data-briefs/electronic-capabilities-patient-engagement-among-us-non-federal-acute-care)
-5. [Fact Sheet: Using Secure Electronic Messaging to Support Patient and Family Engagement](https://web.archive.org/web/20180329195116/https://www.healthit.gov/providers-professionals/implementation-resources/fact-sheet-using-secure-electronic-messaging)
-6. [Chapter 1 - Patient Engagement Playbook](https://playbook.healthit.gov/playbook/pe/chapter-1)
+5. [Chapter 1 - Patient Engagement Playbook](https://playbook.healthit.gov/playbook/pe/chapter-1)
 
-*Managing front desk outsourcing across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing front desk outsourcing across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

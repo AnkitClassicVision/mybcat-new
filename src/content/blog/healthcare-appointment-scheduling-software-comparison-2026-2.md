@@ -226,4 +226,4 @@ What matters most is matching the platform's capabilities to your organization's
 
 ---
 
-*Managing healthcare scheduling software decisions across 3+ locations? [Request an Enterprise Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss how centralized scheduling operations can support your multi-location group's growth.*
+*Managing healthcare scheduling software decisions across 3+ locations? [Request an Enterprise Assessment](/contact/) to discuss how centralized scheduling operations can support your multi-location group's growth.*

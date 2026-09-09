@@ -259,7 +259,7 @@ Understanding call center KPIs and benchmarks is the first step. Translating tha
 
 Healthcare groups with 3+ locations face particular challenges in standardizing measurement, identifying root causes of performance variation, and implementing improvements across distributed operations. These challenges benefit from experience across multiple organizations and operational contexts.
 
-If your organization is ready to move from measurement to improvement, [schedule a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss how centralized patient access operations can help your network achieve its performance goals.
+If your organization is ready to move from measurement to improvement, [schedule a discovery call](/contact/) to discuss how centralized patient access operations can help your network achieve its performance goals.
 
 ## Sources
 

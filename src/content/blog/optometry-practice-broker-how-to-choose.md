@@ -74,7 +74,7 @@ Enterprise optometry brokers maintain relationships with healthcare transaction 
 
 PE buyers and strategic acquirers evaluate practices based on integration complexity. A broker who can present your practice with detailed integration timelines, technology migration plans, and staff transition frameworks reduces perceived buyer risk. Lower perceived risk translates to higher valuations and faster closings.
 
-The best enterprise brokers proactively prepare integration documentation before going to market. This preparation demonstrates operational sophistication and positions your group as a lower-risk acquisition target. Groups working with integration-focused brokers report 20-30% faster closing timelines, according to [MA Healthcare Advisors' 2024 end-of-year review](https://web.archive.org/web/20260420031809/https://www.mahealthcareadvisors.com/2024-end-of-year-review/).
+The best enterprise brokers proactively prepare integration documentation before going to market. This can make scope, risk, and diligence needs easier for buyers and advisers to evaluate. SBA sale guidance likewise treats valuation, professional support, agreement terms, and broker fees as explicit parts of a business sale ([SBA](https://www.sba.gov/counseling/manage-your-business/)).
 
 ## How Should You Evaluate Broker Fee Structures at Scale?
 
@@ -408,7 +408,7 @@ The difference between adequate and excellent broker selection compounds across 
 2. [Kaufman Hall - Hospital and Health System M&A Trends 2024](https://www.kaufmanhall.com/insights/infographic/hospital-and-health-system-ma-trends-2024)
 3. [Practice Transitions Group - How Do Brokers Get Paid](https://practicetransitionsgroup.com/blog/how-do-brokers-get-paid/)
 4. [ODs on Finance - Methods of Valuing an Optometry Private Practice](https://odsonfinance.com/methods-of-valuing-an-optometry-private-practice-a-comprehensive-guide/)
-5. [MA Healthcare Advisors - 2024 End of Year Review](https://web.archive.org/web/20260420031809/https://www.mahealthcareadvisors.com/2024-end-of-year-review/)
+5. [SBA - Manage Your Business](https://www.sba.gov/counseling/manage-your-business/)
 6. [Leerink Partners - Healthcare M&A Q2 2024 Trends](https://leerink.com/article/insights-into-healthcare-ma-q2-2024-trends/)
 7. [Morgan & Westfield - Business Broker and M&A Advisor Fees: A Comprehensive Guide](https://morganandwestfield.com/knowledge/business-broker-and-ma-advisor-fees-a-comprehensive-guide/)
 
@@ -418,6 +418,6 @@ The difference between adequate and excellent broker selection compounds across 
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
   <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Managing M&A Due Diligence Across 3+ Locations?</h3>
   <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how enterprise optometry groups use centralized intake operations to command premium valuations and accelerate due diligence timelines.</p>
-  <a href="https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Request Enterprise Assessment →</a>
+  <a href="/contact/" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Request Enterprise Assessment →</a>
 </div>
 <!-- End MyBCAT CTA Section -->

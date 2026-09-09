@@ -200,4 +200,4 @@ For teams refining dashboards and scorecards, these guides are a practical next 
 4. [Dental Economics: The practices that invisible DSOs value most](https://www.dentaleconomics.com/macro-op-ed/professional-trends/article/14167566/the-practices-that-invisible-dsos-value-most)
 5. [Dental Economics: ‘Invisible’ DSOs: Friend or foe?](https://www.dentaleconomics.com/macro-op-ed/article/16386279/invisible-dsos-friend-or-foe)
 
-*Managing multi-location DSO KPIs across 3+ locations? [Request an Enterprise Assessment for your group](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call).*
+*Managing multi-location DSO KPIs across 3+ locations? [Request an Enterprise Assessment for your group](/contact/).*

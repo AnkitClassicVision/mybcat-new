@@ -207,4 +207,4 @@ These articles are useful once the buying committee moves from concept to evalua
 5. [ADA: Appointment Confirmations](https://www.ada.org/resources/practice/practice-management/appointment-confirmations)
 6. [Becker's Hospital Review: One call away: The all-too common mistake hospitals make with customer relationships](https://www.beckershospitalreview.com/finance/one-call-away-the-all-too-common-mistake-hospitals-make-with-customer-relationships)
 
-*[Managing appointment scheduling outsourcing across 3+ locations? Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*[Managing appointment scheduling outsourcing across 3+ locations? Request an Enterprise Assessment for your group.](/contact/)*

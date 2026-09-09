@@ -121,7 +121,7 @@ At the end of the pilot, assess more than volume. Did agents follow the defined 
 
 The right decision may be a broader rollout, a narrower scope, a remediation period, or a different vendor. What matters is that the decision follows evidence from the operating model the group intends to run. For enterprise buyers, that discipline is more valuable than choosing the fastest sales process.
 
-*Evaluating patient access outsourcing across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Evaluating patient access outsourcing across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
 
 ## Related Reading
 

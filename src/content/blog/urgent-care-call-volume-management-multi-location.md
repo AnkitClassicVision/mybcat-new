@@ -206,4 +206,4 @@ For urgent care groups, the most useful next step is usually to compare the curr
 5. [AAFP: Improving Telephone Management in Your Practice](https://www.aafp.org/fpm/2005/0500/p49)
 6. [AMA STEPS Forward: Saving Time Playbook: Build a Well-Run Ambulatory Practice by Optimizing Teamwork and Clinical Operations](https://edhub.ama-assn.org/steps-forward/module/2838581)
 
-*[Managing urgent care call volume across 3+ locations? Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*[Managing urgent care call volume across 3+ locations? Request an Enterprise Assessment for your group.](/contact/)*

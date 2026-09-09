@@ -188,4 +188,4 @@ That is why metrics often sit alongside related work such as [staffing-ratio pla
 4. [The CAHPS Ambulatory Care Improvement Guide | Agency for Healthcare Research and Quality](https://www.ahrq.gov/sites/default/files/wysiwyg/cahps/about-cahps/research/cahps-improvement-guide.pdf)
 5. [Achieving Excellence Across All CG-CAHPS Core Measures: Lessons from Top-Performing Medical Practices | Agency for Healthcare Research and Quality](https://www.ahrq.gov/cahps/news-and-events/events/20141022_cg/webcast_10_22_14_cg.html)
 
-*Managing patient access center metrics across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing patient access center metrics across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

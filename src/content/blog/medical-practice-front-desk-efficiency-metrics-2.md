@@ -93,4 +93,4 @@ For additional context on building operational infrastructure across multi-locat
 
 ---
 
-*Managing front desk efficiency across 3+ locations? [Request an Enterprise Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for your multi-location group.*
+*Managing front desk efficiency across 3+ locations? [Request an Enterprise Assessment](/contact/) for your multi-location group.*

@@ -218,4 +218,4 @@ Regular review meetings provide opportunities to discuss performance trends, add
 
 ---
 
-*Managing after-hours coverage across 3+ locations? [Request an Enterprise Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss how centralized after-hours answering can support your organization's patient access strategy.*
+*Managing after-hours coverage across 3+ locations? [Request an Enterprise Assessment](/contact/) to discuss how centralized after-hours answering can support your organization's patient access strategy.*

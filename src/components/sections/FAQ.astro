@@ -133,11 +133,13 @@ const faqSchema = includeSchema ? generateFAQSchema(
     document.querySelectorAll('.faq-item').forEach(function (el) {
       el.addEventListener('toggle', function () {
         if (el.open) {
-          var question = el.querySelector('summary') ? el.querySelector('summary').textContent.trim() : '';
-          window.posthog && window.posthog.capture('faq_item_expanded', {
-            question: question,
-            index: el.getAttribute('data-index')
-          });
+          const question = el.querySelector('summary') ? el.querySelector('summary').textContent.trim() : '';
+          if (window.posthog) {
+            window.posthog.capture('faq_item_expanded', {
+              question: question,
+              index: el.getAttribute('data-index')
+            });
+          }
         }
       });
     });

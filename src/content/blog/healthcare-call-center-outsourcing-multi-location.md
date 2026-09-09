@@ -199,4 +199,4 @@ Healthcare call center outsourcing can absolutely work in a multi-location envir
 6. [ED Utilization by Uninsured and Medicaid Patients after Availability of Telephone Triage - PubMed](https://pubmed.ncbi.nlm.nih.gov/26409919)
 7. [Potential of a nurse telephone triage line to direct elderly to appropriate health care settings - PubMed](https://pubmed.ncbi.nlm.nih.gov/31145491)
 
-*Managing healthcare call center outsourcing across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing healthcare call center outsourcing across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

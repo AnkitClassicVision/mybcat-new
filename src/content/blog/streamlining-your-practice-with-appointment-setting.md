@@ -112,7 +112,7 @@ Roll out the model in a controlled sequence. Start with a limited but representa
 
 Appointment setting becomes an advantage when it is dependable. Patients get a clearer path to the right location and next action. Site teams spend less time recovering routine administrative work. Executives gain a view of access performance that is consistent enough to manage across the network. That result comes from disciplined workflow design, not from adding another calendar tool.
 
-*Standardizing appointment setting across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Standardizing appointment setting across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
 
 ## Sources
 

@@ -189,4 +189,4 @@ They also help procurement teams evaluate whether a technology or service partne
 4. [Strategy 6A: Open Access Scheduling for Routine and Urgent Appointments | Agency for Healthcare Research and Quality](https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/access/strategy6a-openaccess.html)
 5. [Same-Day Appointments: Exploding the Access Paradigm | AAFP](https://www.aafp.org/fpm/2000/0900/p45)
 
-*Managing centralized scheduling benchmarks across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing centralized scheduling benchmarks across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

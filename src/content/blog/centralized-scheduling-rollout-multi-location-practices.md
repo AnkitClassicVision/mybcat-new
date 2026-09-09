@@ -172,4 +172,4 @@ Once the operating model is defined, leaders usually need supporting material fo
 3. [Individuals’ Access and Use of Patient Portals and Smartphone Health Apps, 2020 - ONC Health IT Research & Analysis](https://www.healthit.gov/data/data-briefs/individuals-access-and-use-patient-portals-and-smartphone-health-apps-2020)
 4. [What physicians need to know about patient portals](https://www.ama-assn.org/practice-management/medicare-medicaid/what-physicians-need-know-about-patient-portals)
 
-*Managing centralized scheduling across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing centralized scheduling across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

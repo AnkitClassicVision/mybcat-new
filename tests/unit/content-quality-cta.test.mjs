@@ -4,9 +4,9 @@ import test from 'node:test';
 import { resolveCTAPatterns } from '../../scripts/validators/validate-content-quality.js';
 
 const config = {
-  ctaPatterns: ['hubspot.com', '/contact/'],
+  ctaPatterns: ['/contact/'],
   ctaPatternsByFunnel: {
-    service: ['hubspot.com', '/contact/'],
+    service: ['/contact/'],
     acquisition: ['/optometry-practice-transitions/'],
   },
 };
@@ -18,10 +18,10 @@ test('acquisition posts use only the confidential transition CTA', () => {
   );
 });
 
-test('service and legacy posts retain service CTA patterns', () => {
+test('service and legacy posts use the native contact CTA pattern', () => {
   assert.deepEqual(
     resolveCTAPatterns({ funnel: 'service' }, config),
-    ['hubspot.com', '/contact/'],
+    ['/contact/'],
   );
   assert.deepEqual(resolveCTAPatterns({}, config), config.ctaPatterns);
 });

@@ -365,5 +365,5 @@ Technology approaches include training agents on all PMS platforms individually 
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
   <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Centralize Your DSO Scheduling Operations?</h3>
   <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Managing patient scheduling across 3+ locations? Request an Enterprise Assessment to see how centralized operations could improve your answer rates and EBITDA.</p>
-  <a href="https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call" style="display: inline-block; background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none;">Schedule a Consultation Today →</a>
+  <a href="/contact/" style="display: inline-block; background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none;">Schedule a Consultation Today →</a>
 </div>

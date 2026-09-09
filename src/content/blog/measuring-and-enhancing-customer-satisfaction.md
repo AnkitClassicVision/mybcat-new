@@ -128,4 +128,4 @@ It can help when it gives the group consistent coverage, trained coordinators, d
 2. [Tips to Improve Healthcare Call Center Efficiency - MGMA](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency)
 3. [Patient Communication - American Optometric Association](https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication)
 
-*Improving patient access across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Improving patient access across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

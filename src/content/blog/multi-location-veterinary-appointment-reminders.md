@@ -241,4 +241,4 @@ These resources give the buying committee additional context for reminder design
 6. [CAN-SPAM Act: A Compliance Guide for Business](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)
 7. [Vet wait times remain high due to pandemic](https://www.axios.com/local/austin/2021/11/09/vet-wait-times-high-pandemic-pets)
 
-*Managing veterinary appointment reminders across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing veterinary appointment reminders across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

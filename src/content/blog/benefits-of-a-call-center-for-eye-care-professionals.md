@@ -128,7 +128,7 @@ The group should standardize the core greeting, privacy checks, scheduling rules
 
 Establish a baseline. Document current routing, call types, answer and abandonment patterns, schedule rules, location exceptions, and the handoffs that repeatedly fail. That gives the pilot a clear scope and a meaningful measure of improvement.
 
-*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
 
 ## Sources
 

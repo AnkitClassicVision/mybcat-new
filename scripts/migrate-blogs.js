@@ -236,7 +236,7 @@ ${content}
 
 ---
 
-*Need help managing your practice's calls and scheduling? [Book a discovery call](https://meetings.hubspot.com/ankit98/mybcat-discovery-call) to learn how MyBCAT can help.*
+*Need help managing your practice's calls and scheduling? [Book a discovery call](/contact/) to learn how MyBCAT can help.*
 `;
 }
 

@@ -201,4 +201,4 @@ These pieces extend the same enterprise theme: centralization is stronger when w
 7. [ADA: FAQ on HIPAA Business Associates](https://www.ada.org/resources/practice/legal-and-regulatory/faqs-on-hipaa-business-associates)
 8. [Physicians' greatest use for AI? Cutting administrative burdens](https://www.ama-assn.org/practice-management/digital-health/physicians-greatest-use-ai-cutting-administrative-burdens)
 
-*[Managing optometry virtual assistant deployment across 3+ locations? Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*[Managing optometry virtual assistant deployment across 3+ locations? Request an Enterprise Assessment for your group.](/contact/)*

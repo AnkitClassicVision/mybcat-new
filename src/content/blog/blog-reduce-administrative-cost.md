@@ -103,7 +103,7 @@ Once the workflow is stable, expand deliberately. Use the same definitions acros
 
 Reducing administrative cost is ultimately an exercise in making work visible. When leadership can see where demand enters, who owns it, when it is resolved, and where it returns for rework, it can improve the labor model without sacrificing access quality. That is a more reliable path than asking every site to spend less while leaving the operating design unchanged.
 
-*Managing administrative cost across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing administrative cost across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
 
 ## Sources
 

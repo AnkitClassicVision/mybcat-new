@@ -214,7 +214,7 @@ Specify who from the vendor organization will serve as your ongoing point of con
 
 ---
 
-**If your dental group operates 3+ locations and is evaluating centralized call center options, we can help you build your RFP requirements and evaluate vendor responses.** [Schedule a discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss your patient access strategy.
+**If your dental group operates 3+ locations and is evaluating centralized call center options, we can help you build your RFP requirements and evaluate vendor responses.** [Schedule a discovery call](/contact/) to discuss your patient access strategy.
 
 ---
 

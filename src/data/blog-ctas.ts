@@ -6,8 +6,7 @@
  *  - finances_selling: owners on the financial/ownership journey (pre-exit or margin-stressed)
  *  - operations: multi-location admins / DSO ops leads (closest to service, shortest funnel)
  *
- * CTA hrefs carry UTM params so HubSpot meeting bookings attribute per theme
- * (landing-URL UTMs propagate into the meeting embed — see HubSpotMeeting.astro).
+ * CTA hrefs carry UTM params so the native contact flow attributes each theme.
  * When the Free Phone & Staffing Analysis page ships, update the hrefs here once.
  */
 

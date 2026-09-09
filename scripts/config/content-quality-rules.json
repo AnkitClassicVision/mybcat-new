@@ -32,19 +32,11 @@
     "source": "04_content_quality_rules.md §3, Rule 4.7"
   },
   "ctaPatterns": [
-    "hubspot.com",
-    "/contact/",
-    "meetings.hubspot.com",
-    "hubspot.mybcat.com",
-    "openhubspotmodal"
+    "/contact/"
   ],
   "ctaPatternsByFunnel": {
     "service": [
-      "hubspot.com",
-      "/contact/",
-      "meetings.hubspot.com",
-      "hubspot.mybcat.com",
-      "openhubspotmodal"
+      "/contact/"
     ],
     "acquisition": [
       "/optometry-practice-transitions/"

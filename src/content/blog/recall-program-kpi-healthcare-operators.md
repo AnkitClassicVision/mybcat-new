@@ -176,4 +176,4 @@ A strong recall KPI program can give multi-location operators one language for p
 4. [CMS: Promoting Interoperability Programs](https://www.cms.gov/medicare/regulations-guidance/promoting-interoperability-programs)
 5. [CMS: Preventive Services](https://www.cms.gov/medicare/coverage/preventive-services-coverage)
 
-*Managing recall program KPI across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing recall program KPI across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

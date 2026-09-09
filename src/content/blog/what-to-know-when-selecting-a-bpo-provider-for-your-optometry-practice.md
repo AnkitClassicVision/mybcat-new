@@ -114,4 +114,4 @@ The right BPO partner can give a multi-location optometry group a more consisten
 2. [MGMA: Tips to Improve Healthcare Call Center Efficiency](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency)
 3. [OIG General Compliance Program Guidance](https://oig.hhs.gov/compliance/general-compliance-program-guidance)
 
-*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

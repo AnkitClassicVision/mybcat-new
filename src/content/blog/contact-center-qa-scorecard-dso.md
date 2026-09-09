@@ -348,7 +348,7 @@ This is how a contact center QA scorecard becomes more than a quality audit. It 
 
 If your dental or healthcare group has 3+ locations and needs a more consistent patient access operation, MyBCAT can help evaluate where contact center QA, reporting, scheduling workflows, and team coaching need to tighten.
 
-Schedule a discovery call here: [https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)
+Schedule a discovery call here: [/contact/](/contact/)
 
 ### What the discovery call should cover
 

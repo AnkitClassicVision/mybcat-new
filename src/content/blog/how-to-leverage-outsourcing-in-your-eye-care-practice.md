@@ -114,4 +114,4 @@ For multi-location eye care groups, the point of outsourcing is not to make the 
 2. [MGMA: Implementing Central Scheduling to Support Practice Growth and Success](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)
 3. [HHS Office of Inspector General: General Compliance Program Guidance](https://oig.hhs.gov/compliance/general-compliance-program-guidance)
 
-*Managing patient access across 3+ eye care locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing patient access across 3+ eye care locations? [Request an Enterprise Assessment for your group.](/contact/)*

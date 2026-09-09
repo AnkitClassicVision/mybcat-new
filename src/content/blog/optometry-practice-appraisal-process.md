@@ -72,7 +72,7 @@ For multi-location optometry groups with 5-15 locations, EBITDA multiples common
 
 ### Portfolio-Level EBITDA Normalization
 
-Calculating EBITDA for a multi-location group requires normalization that accounts for shared services, inter-company transactions, and ownership compensation structures. Raw financial statements rarely provide an accurate picture because costs may be allocated inconsistently across locations, and owner benefits may flow through in various forms.
+Calculating EBITDA for a multi-location group requires normalization that accounts for shared services, inter-company transactions, and ownership compensation structures. Raw financial statements rarely provide an accurate picture because costs may be allocated inconsistently across locations, and owner benefits may flow through in various forms. IRS business valuation guidance calls for analysis of historical financial statements and selection of appropriate benefit streams, rates, or multiples, with marketability and control considered where relevant ([IRS](https://www.irs.gov/irm/part4/irm_04-048-004)).
 
 The normalization process begins with consolidated financial statements that eliminate inter-company transactions. Buyers then adjust for market-rate compensation for all owners and key managers, one-time expenses that will not recur post-acquisition, and costs that will be eliminated or reduced through integration. This normalized EBITDA figure becomes the basis for applying multiples.
 
@@ -278,6 +278,8 @@ For operations leaders preparing multi-location optometry groups for appraisal, 
 
 7. Books and Benchmarks. [Optometry Benchmarks: Overhead and Profitability](https://booksandbenchmarks.com/optometry-benchmarks-overhead-profitability/). Financial benchmarks for independent optometry practices.
 
+8. IRS. [Business Valuation Guidelines](https://www.irs.gov/irm/part4/irm_04-048-004). General guidance on financial analysis and valuation methods; it does not establish optometry-specific multiples.
+
 ---
 
-Managing optometry practice appraisals across 3+ locations? [Request an enterprise assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for your group to identify operational improvements that support premium valuations.
+Managing optometry practice appraisals across 3+ locations? [Request an enterprise assessment](/contact/) for your group to identify operational improvements that support premium valuations.

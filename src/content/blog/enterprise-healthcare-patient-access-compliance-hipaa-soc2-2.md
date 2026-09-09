@@ -191,4 +191,4 @@ The integration of compliance monitoring with operational performance monitoring
 
 ---
 
-*Managing patient access compliance across 3+ locations? [Request an Enterprise Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for your group.*
+*Managing patient access compliance across 3+ locations? [Request an Enterprise Assessment](/contact/) for your group.*

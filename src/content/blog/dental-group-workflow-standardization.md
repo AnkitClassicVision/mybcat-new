@@ -233,4 +233,4 @@ Standardization success can be measured by compliance readiness: the organizatio
 6. [MGMA Data Standardization Best Practices](https://www.mgma.com/articles/improving-medical-practice-culture-through-best-practices-in-data-standardization-and-visualization), Guidance on data fields, naming conventions, and benchmarking
 7. [Integrated Dental Practice Management Study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12249282), Peer-reviewed research on managerial training correlation with standardized digital tool adoption
 
-*Managing workflow standardization across 3+ locations? [Request an Enterprise Assessment](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) for your group.*
+*Managing workflow standardization across 3+ locations? [Request an Enterprise Assessment](/contact/) for your group.*

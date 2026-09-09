@@ -215,4 +215,4 @@ These pieces support the technology, reporting, and vendor-evaluation layers beh
 5. [ADA Health Policy Institute: Practice Modalities Among U.S. Dentists](https://www.ada.org/resources/research/health-policy-institute/dental-practice-research/practice-modalities-among-us-dentists)
 6. [ADA News: Main Types of DSOs](https://adanews.ada.org/ada-news/2022/march/main-types-of-dsos)
 
-*[Managing centralized healthcare across 3+ locations? Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*[Managing centralized healthcare across 3+ locations? Request an Enterprise Assessment for your group.](/contact/)*
