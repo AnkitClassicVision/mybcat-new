@@ -7,6 +7,7 @@ import PageLayout from '@/layouts/PageLayout.astro';
 import Card from '@/components/Card.astro';
 import { company } from '@data/company';
 import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
+import { MEETINGS_URL, MEETINGS_FALLBACK_URL } from '@/lib/booking';
 // Organization schema added to contact page per schema-rules.json exception
 // PostalAddress allowed on /contact/ to improve local search visibility
 // while maintaining enterprise B2B positioning (not LocalBusiness)
@@ -919,30 +920,18 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
 </script>
 <!-- Contact Form — optimistic UI: show calendar instantly, submit to owned intake in background -->
-<script is:inline>
+<script is:inline define:vars={{ MEETINGS_URL, MEETINGS_FALLBACK_URL }}>
 (function () {
-  const MEETINGS_URL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ21kmAUBj4aZSq7DYPJ4jkhMAVh400vqdkedNXshigCOXwWVU87EvvK4as9dXOlAqZYOruIhLog';
-  const MEETINGS_FALLBACK_URL = 'https://mybcat.com/book/discovery';
   const INTAKE_ENDPOINT = 'https://estate-form-bridge.mybcat-estate.workers.dev';
 
-  function buildMeetingsUrl(base, values) {
-    const params = new URLSearchParams();
-    if (values.firstName) params.set('firstName', values.firstName);
-    if (values.lastName) params.set('lastName', values.lastName);
-    if (values.email) params.set('email', values.email);
-    const qs = params.toString();
-    if (!qs) return base;
-    return base + (base.indexOf('?') !== -1 ? '&' : '?') + qs;
-  }
-
-  function showPostSubmitState(values) {
+  function showPostSubmitState() {
     const formContent = document.getElementById('form-content');
     const postSubmit = document.getElementById('post-submit-state');
     const iframe = document.getElementById('meetings-iframe');
     const fallbackLink = document.getElementById('meetings-fallback-link');
     if (!formContent || !postSubmit || !iframe || !fallbackLink) return;
 
-    iframe.src = buildMeetingsUrl(MEETINGS_URL, values);
+    iframe.src = MEETINGS_URL;
     fallbackLink.href = MEETINGS_FALLBACK_URL;
 
     formContent.hidden = true;
@@ -1064,7 +1053,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     });
 
     // 1. Show calendar immediately — no waiting
-    showPostSubmitState({ firstName: firstName, lastName: lastName, email: email });
+    showPostSubmitState();
 
     // 2. Send to owned intake silently in the background
     submitToOwnedIntake(fields);

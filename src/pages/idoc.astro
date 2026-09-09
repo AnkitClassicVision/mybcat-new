@@ -171,27 +171,38 @@ const description = 'iDoc members book a MyBCAT discovery call and get $250 off 
 </BaseLayout>
 
 <script>
-  const MEETINGS_URL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ21kmAUBj4aZSq7DYPJ4jkhMAVh400vqdkedNXshigCOXwWVU87EvvK4as9dXOlAqZYOruIhLog';
+  import { MEETINGS_URL } from '../lib/booking';
+
   const endpoint = 'https://estate-form-bridge.mybcat-estate.workers.dev';
   const token = import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
 
   const valueOf = (form: HTMLFormElement, name: string) => String(new FormData(form).get(name) || '').trim();
 
-  function showPostSubmitState(values: { firstName: string; lastName: string; email: string }) {
+  function showPostSubmitState() {
     const formContent = document.getElementById('form-content');
     const postSubmit = document.getElementById('post-submit-state');
     const iframe = document.getElementById('meetings-iframe') as HTMLIFrameElement | null;
-    const calendarUrl = new URL(MEETINGS_URL);
-    calendarUrl.searchParams.set('firstName', values.firstName);
-    calendarUrl.searchParams.set('lastName', values.lastName);
-    calendarUrl.searchParams.set('email', values.email);
     if (formContent) formContent.hidden = true;
     if (postSubmit) postSubmit.hidden = false;
-    if (iframe) iframe.src = calendarUrl.toString();
+    if (iframe) iframe.src = MEETINGS_URL;
     postSubmit?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    window.posthog?.capture('discovery_call_scheduled', {
+      source: 'idoc_page'
+    });
   }
 
   const form = document.getElementById('contact-form') as HTMLFormElement | null;
+
+  let formStarted = false;
+  form?.addEventListener('focusin', () => {
+    if (formStarted) return;
+    formStarted = true;
+    window.posthog?.capture('contact_form_started', {
+      source: 'idoc_page'
+    });
+  });
+
   form?.addEventListener('submit', (event) => {
     event.preventDefault();
     const firstName = valueOf(form, 'firstname');
@@ -206,7 +217,13 @@ const description = 'iDoc members book a MyBCAT discovery call and get $250 off 
       return;
     }
 
-    showPostSubmitState({ firstName, lastName, email });
+    window.posthog?.capture('contact_form_submitted', {
+      number_of_locations: valueOf(form, 'number_of_locations') || 'not_selected',
+      utm_source: valueOf(form, 'utm_source') || undefined,
+      source: 'idoc_page'
+    });
+
+    showPostSubmitState();
     const status = document.getElementById('intake-status');
     if (!token) {
       if (status) status.textContent = 'Intake token not set on this preview.';
