@@ -47,6 +47,15 @@ for (let i = 1; i <= page.lastPage; i++) {
     pageItems.push({ type: 'ellipsis' });
   }
 }
+
+// Astro's HTML attribute types do not describe `key`, but this list has rendered
+// the attribute since it was written. Passing it as a typed object keeps the
+// rendered markup byte for byte the same without widening the element types.
+interface EllipsisAttributes {
+  key: string;
+}
+
+const ellipsisAttributes = (idx: number): EllipsisAttributes => ({ key: `ellipsis-${idx}` });
 ---
 
 <Base
@@ -117,7 +126,7 @@ for (let i = 1; i <= page.lastPage; i++) {
             <div class="pagination-numbers">
               {pageItems.map((item, idx) => (
                 item.type === 'ellipsis' ? (
-                  <span class="pagination-ellipsis" key={`ellipsis-${idx}`}>...</span>
+                  <span class="pagination-ellipsis" {...ellipsisAttributes(idx)}>...</span>
                 ) : item.current ? (
                   <span class="pagination-number current" aria-current="page">{item.num}</span>
                 ) : (
