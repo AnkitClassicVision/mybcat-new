@@ -8,7 +8,7 @@ import Card from '@/components/Card.astro';
 import Button from '@/components/Button.astro';
 import CTA from '@/components/sections/CTA.astro';
 import { caseStudies, type CaseStudy } from '@data/case-studies';
-import { getSolutionBySlug } from '@data/solutions';
+import { getSolutionBySlug, type Solution } from '@data/solutions';
 import { generateArticleSchema, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
 import { execSync } from 'node:child_process';
@@ -33,9 +33,12 @@ const proofLabel = isComposite ? 'Composite Benchmark' : 'Named Client Story';
 const heroSummary = study.seoDescription || study.results;
 
 // Get related solutions for this case study
+// getSolutionBySlug returns Solution or undefined, so undefined is the only value
+// the old filter(Boolean) could drop. The predicate keeps that exact result and
+// tells the compiler the survivors are defined.
 const relatedSolutions = study.relatedSolutions
   .map(slug => getSolutionBySlug(slug))
-  .filter(Boolean);
+  .filter((solution): solution is Solution => solution !== undefined);
 
 function normalizeSpaces(text: string): string {
   return text.trim().replace(/\s+/g, ' ');
