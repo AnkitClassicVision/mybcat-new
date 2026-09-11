@@ -165,16 +165,22 @@ const description = 'ODs on Finance members can book a MyBCAT discovery call and
   <script>
     const endpoint = 'https://estate-form-bridge.mybcat-estate.workers.dev';
     const token = import.meta.env.PUBLIC_CUTOVER_FORMS_TOKEN || import.meta.env.PUBLIC_FORM_INTAKE_TOKEN || '';
-    const form = document.getElementById('contact-form');
-    const formContent = document.getElementById('form-content');
-    const postSubmitState = document.getElementById('post-submit-state');
-    const meetingsIframe = document.getElementById('meetings-iframe');
-    const phoneInput = document.getElementById('cf-phone');
-    const phoneError = document.getElementById('err-phone');
-    const intakeStatus = document.getElementById('intake-status');
+    // Every id below is rendered unconditionally by this page's own markup.
+    // The original code dereferenced each element directly, so the submit handler
+    // called preventDefault and then failed loudly if one were ever missing. A null
+    // guard here would instead let the browser post the form natively, which is a
+    // different outcome, so the lookups keep their original contract and only gain
+    // the concrete element types the handlers need.
+    const form = document.getElementById('contact-form') as HTMLFormElement;
+    const formContent = document.getElementById('form-content') as HTMLElement;
+    const postSubmitState = document.getElementById('post-submit-state') as HTMLElement;
+    const meetingsIframe = document.getElementById('meetings-iframe') as HTMLIFrameElement;
+    const phoneInput = document.getElementById('cf-phone') as HTMLInputElement;
+    const phoneError = document.getElementById('err-phone') as HTMLElement;
+    const intakeStatus = document.getElementById('intake-status') as HTMLElement;
     const calendarUrl = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ21kmAUBj4aZSq7DYPJ4jkhMAVh400vqdkedNXshigCOXwWVU87EvvK4as9dXOlAqZYOruIhLog';
 
-    function showPostSubmitState(data) {
+    function showPostSubmitState(data: FormData) {
       const params = new URLSearchParams({
         firstName: String(data.get('firstname') || ''),
         lastName: String(data.get('lastname') || ''),
@@ -186,7 +192,7 @@ const description = 'ODs on Finance members can book a MyBCAT discovery call and
       postSubmitState.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
-    async function sendIntake(data) {
+    async function sendIntake(data: FormData) {
       if (!token) {
         intakeStatus.textContent = 'Intake token not set on this preview.';
         intakeStatus.classList.add('is-error');
