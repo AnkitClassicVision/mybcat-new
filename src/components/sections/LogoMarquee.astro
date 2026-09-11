@@ -3,7 +3,11 @@
  * Logo Marquee Section component
  * Displays scrolling client/authority logos
  */
-import { clientLogos, type ClientLogo } from '@data/testimonials';
+import { clientLogos } from '@data/testimonials';
+
+// The data module exports the logo array, not a named type. Derive the
+// element type from it so the props and the map callback stay typed.
+type ClientLogo = (typeof clientLogos)[number];
 
 interface Props {
   title?: string;
