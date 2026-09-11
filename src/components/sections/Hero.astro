@@ -732,6 +732,16 @@ const icons: Record<string, string> = {
 </style>
 
 <script>
+  // PostHog is loaded by a separate site script, so it is described here as an
+  // optional member of a local Window shape rather than assumed to exist.
+  interface PostHogClient {
+    capture: (event: string, properties?: Record<string, unknown>) => void;
+  }
+
+  interface PostHogWindow extends Window {
+    posthog?: PostHogClient;
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
     // YouTube video handling
     const ytOverlay = document.getElementById('youtubePlayOverlay');
@@ -740,7 +750,7 @@ const icons: Record<string, string> = {
     const ytFrame = document.getElementById('youtubeFrame') as HTMLIFrameElement;
 
     if (ytOverlay && ytPoster && ytContainer && ytFrame) {
-      function playYouTube() {
+      const playYouTube = () => {
         // Load the YouTube iframe src
         if (ytFrame.dataset.src) {
           ytFrame.src = ytFrame.dataset.src;
@@ -749,7 +759,7 @@ const icons: Record<string, string> = {
         ytPoster.style.display = 'none';
         ytOverlay.style.display = 'none';
         ytContainer.style.display = 'block';
-      }
+      };
 
       ytOverlay.addEventListener('click', playYouTube);
       ytOverlay.addEventListener('touchend', function(e) {
@@ -780,7 +790,7 @@ const icons: Record<string, string> = {
         if (poster) poster.classList.add('hidden');
       }
 
-      async function playVideo() {
+      const playVideo = async () => {
         if (!video.paused) return;
 
         loadVideoSource();
@@ -810,7 +820,7 @@ const icons: Record<string, string> = {
             console.error('Muted playback also failed:', e);
           }
         }
-      }
+      };
 
       // Handle both click and touch events for mobile
       overlay.addEventListener('click', playVideo);
@@ -849,8 +859,9 @@ const icons: Record<string, string> = {
   const heroSecondary = document.querySelectorAll('#hero .hero-cta-group a, #hero .hero-cta-group .text-link');
   heroSecondary.forEach(function (el, idx) {
     el.addEventListener('click', function () {
-      if (window.posthog) {
-        window.posthog.capture('hero_cta_clicked', {
+      const heroWindow: PostHogWindow = window;
+      if (heroWindow.posthog) {
+        heroWindow.posthog.capture('hero_cta_clicked', {
           cta_type: idx === 0 ? 'primary' : 'secondary',
           cta_text: el.textContent ? el.textContent.trim() : '',
           cta_href: el.getAttribute('href') || ''
