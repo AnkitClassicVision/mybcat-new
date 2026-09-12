@@ -41,11 +41,44 @@ const categoryLabels: Record<string, string> = {
   marketing: 'Marketing'
 };
 
-// Get other terms for "More Terms" section
-const otherTerms = glossaryTerms
-  .filter(t => t.slug !== term.slug)
-  .sort(() => Math.random() - 0.5)
-  .slice(0, 4);
+// Get other terms for "More Terms" section.
+// Stable pseudo-random selection AND order, seeded by the current page's term slug.
+// Each page keeps its own fixed four terms in the same order on every build.
+function hashSlugToSeed(slug: string): number {
+  // FNV-1a 32-bit hash: deterministic, no Date, no Math.random.
+  let hash = 0x811c9dc5;
+  for (let i = 0; i < slug.length; i++) {
+    hash ^= slug.charCodeAt(i);
+    // hash * 16777619, keep within 32 bits
+    hash = Math.imul(hash, 0x01000193);
+  }
+  // Force into unsigned 32-bit range.
+  return hash >>> 0;
+}
+
+function mulberry32(seed: number): () => number {
+  let a = seed >>> 0;
+  return () => {
+    a |= 0;
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function pickOtherTerms(allTerms: GlossaryTerm[], currentSlug: string): GlossaryTerm[] {
+  const candidates = allTerms.filter(t => t.slug !== currentSlug);
+  const rng = mulberry32(hashSlugToSeed(currentSlug));
+  // Fisher-Yates shuffle using the seeded PRNG.
+  for (let i = candidates.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
+  }
+  return candidates.slice(0, 4);
+}
+
+const otherTerms = pickOtherTerms(glossaryTerms, term.slug);
 
 function pickBestMeta(options: string[], min: number, max: number): string {
   for (const option of options) {
