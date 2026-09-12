@@ -628,7 +628,7 @@ const { currentPath = '/' } = Astro.props;
       });
 
       // Toggle current section
-      toggle.setAttribute('aria-expanded', !isExpanded);
+      toggle.setAttribute('aria-expanded', String(!isExpanded));
       content?.classList.toggle('active');
     });
   });

@@ -10,8 +10,16 @@ import Button from '@/components/Button.astro';
 const pageTitle = 'Careers: Healthcare Operations Jobs';
 const pageDescription = 'Join the mybcat team and help healthcare practices grow. Explore career opportunities in patient coordination, operations, and technology.';
 
+interface JobOpening {
+  title: string;
+  location: string;
+  type: string;
+  description: string;
+  requirements: string[];
+}
+
 // Current openings (can be updated as needed)
-const openings = [
+const openings: JobOpening[] = [
   // Uncomment and add positions when available
   // {
   //   title: 'Patient Coordinator',

@@ -77,7 +77,9 @@ const articleSchema = generateArticleSchema({
   wordCount: wordCount,
   section: category,
   keywords: tags,
-  reviewedBy: reviewer ? { name: reviewer.name, url: reviewer.url, credential: reviewer.credential } : undefined,
+  // generateArticleSchema takes ArticleMeta, which has no reviewedBy field, and
+  // the function never copies one into its result. The reviewer is rendered by
+  // the byline component below, so dropping the ignored property changes nothing.
 });
 
 const breadcrumbSchema = generateBreadcrumbSchema([
@@ -242,6 +244,16 @@ const authorInfo = authorData[author] || { role: '', image: '' };
 </Base>
 
 <script>
+  // The attribution helper is attached to window by a separate site script, so
+  // it is described here as an optional member of a local Window shape.
+  interface AttributionApi {
+    emit: (event: string, properties: Record<string, unknown>) => void;
+  }
+
+  interface AttributionWindow extends Window {
+    MyBCATAttribution?: AttributionApi;
+  }
+
   // Wrap markdown-generated tables in a scrollable container for mobile
   const postTitle = document.querySelector('.post-title')?.textContent?.trim() || 'Table';
   const findNearestHeading = (table: Element) => {
@@ -291,7 +303,8 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     link.addEventListener('click', () => {
       const href = link.getAttribute('href') || '';
       const element = link as HTMLElement;
-      window.MyBCATAttribution?.emit('seo_cta_click', {
+      const attributionWindow: AttributionWindow = window;
+      attributionWindow.MyBCATAttribution?.emit('seo_cta_click', {
         funnel: element.dataset.funnel || 'service',
         cta_id: element.dataset.ctaId || 'blog-cta',
         content_cluster: element.dataset.contentCluster || 'blog',

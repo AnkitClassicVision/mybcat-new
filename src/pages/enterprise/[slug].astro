@@ -8,7 +8,7 @@ import PageLayout from '@/layouts/PageLayout.astro';
 import Button from '@/components/Button.astro';
 import Card from '@/components/Card.astro';
 import CTA from '@/components/sections/CTA.astro';
-import { enterpriseVerticals } from '@data/enterprise';
+import { enterpriseVerticals, type EnterpriseVertical } from '@data/enterprise';
 import { caseStudies } from '@data/case-studies';
 
 // Get relevant case studies based on vertical type
@@ -32,6 +32,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
     props: { vertical }
   }));
 };
+
+interface Props {
+  vertical: EnterpriseVertical;
+}
 
 const { vertical } = Astro.props;
 const verticalCaseStudies = getVerticalCaseStudies(vertical.slug);
