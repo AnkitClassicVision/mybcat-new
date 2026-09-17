@@ -50,6 +50,9 @@ const icons: Record<string, string> = {
         </div>
         <h3 class="industry-name">{industry.name}</h3>
         <p class="industry-description">{industry.description}</p>
+        {industry.descriptionCta && (
+          <a href={industry.descriptionCta.href} class="industry-description-cta">{industry.descriptionCta.text}</a>
+        )}
         {showLinks && (
           <a href={`/industries/${industry.slug}/`} class="industry-link">
             Explore {industry.name}
@@ -146,6 +149,14 @@ const icons: Record<string, string> = {
     font-size: 0.95rem;
     color: var(--text-secondary);
     line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .industry-description-cta {
+    display: block;
+    color: var(--oceanic-teal);
+    text-decoration: underline;
+    font-size: 0.9rem;
     margin-bottom: 16px;
   }
 

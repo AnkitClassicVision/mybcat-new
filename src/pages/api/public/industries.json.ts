@@ -12,6 +12,7 @@ export const GET: APIRoute = () => {
     icon: industry.icon,
     headline: industry.headline,
     description: industry.description,
+    descriptionCta: industry.descriptionCta,
     tldr: industry.tldr,
     metaDescription: industry.metaDescription,
     url: `${company.site.url}/industries/${industry.slug}/`,

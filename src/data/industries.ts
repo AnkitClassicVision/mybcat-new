@@ -12,6 +12,7 @@ export interface Industry {
   seoTitle?: string;  // Optional <title> override; falls back to templated title in [slug].astro
   heroCta?: { text: string; href: string };  // Optional hero CTA override; falls back to Get Started -> /contact/
   description: string;
+  descriptionCta?: { text: string; href: string };  // Optional link shown after the description; kept out of description so plain-text consumers stay safe
   tldr: string;  // 40-60 word summary for SEO answer-friendliness
   metaDescription: string;
   patientAcquisition: {
@@ -42,7 +43,8 @@ export const industries: Industry[] = [
     headline: 'Optometry Virtual Assistants, Answering & Patient Intake',
     seoTitle: 'Optometry Virtual Assistants & Answering Service | MyBCAT',
     heroCta: { text: 'Book a Discovery Call', href: '/contact/?utm_source=seo&utm_medium=industries-optometry&utm_campaign=theme-operations' },
-    description: 'Dedicated answering service and patient intake for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences. Need a dedicated VA instead? See our <a href="/solutions/optometry-virtual-assistant/">optometry virtual assistant service</a>.',
+    description: 'Dedicated answering service and patient intake for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences.',
+    descriptionCta: { text: 'Need a dedicated VA instead? See our optometry virtual assistant service.', href: '/solutions/optometry-virtual-assistant/' },
     tldr: 'My Business Care Team provides optometry-specific phone answering and scheduling services. We understand VSP vs EyeMed insurance, route medical vs routine visits correctly, and book directly into Eyefinity, RevolutionEHR, and other eye care systems. Practices typically recover $127K+ in annual revenue from missed calls.',
     metaDescription: 'HIPAA-trained optometry patient access teams manage scheduling, insurance verification, and recall workflows across multi-location eye care groups.',
     patientAcquisition: {
