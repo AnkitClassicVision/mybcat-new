@@ -5,9 +5,10 @@ description: How multi-location optometry groups can evaluate answering services
   patient access, scheduling, compliance, and front-desk relief.
 seoDescription: Evaluate answering services for optometrists across access, scheduling,
   compliance, QA, and multi-location operating standards.
-publishDate: '2026-09-07'
+publishDate: '2026-09-23'
 status: scheduled
-scheduledDate: '2026-09-07'
+scheduledDate: '2026-09-23'
+seoTopicId: answering-service-for-optometrists
 author: Ankit Patel
 category: Patient Care
 tags:

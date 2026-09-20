@@ -5,9 +5,10 @@ description: A scalable optometrist equipment playbook for centralizing procurem
   exam-room standards, integrations, maintenance, and rollout governance.
 seoDescription: 'Enterprise optometrist equipment planning for multi-location groups:
   standardize procurement, interoperability, maintenance, and rollout governance.'
-publishDate: '2026-09-10'
+publishDate: '2026-09-26'
 status: scheduled
-scheduledDate: '2026-09-10'
+scheduledDate: '2026-09-26'
+seoTopicId: optometrist-equipment
 author: Ankit Patel
 category: Business
 tags:

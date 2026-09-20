@@ -1,12 +1,12 @@
 {
   "schema_version": "seo-topic-queue.v2",
   "classification": "UNROOMED / INTERNAL-ONLY / NOT FOR EXTERNAL USE",
-  "opportunity_feed_as_of": "2026-08-13T16:00:00Z",
+  "opportunity_feed_as_of": "2026-09-20T16:00:00Z",
   "stale_after_hours": 48,
   "publication_window": {
     "approved_by": "Ankit",
-    "approved_at": "2026-08-13T18:00:00Z",
-    "valid_through": "2026-08-23T10:00:00Z"
+    "approved_at": "2026-09-20T18:00:00Z",
+    "valid_through": "2026-09-30T10:00:00Z"
   },
   "minimum_approved_topics": 14,
   "minimum_draft_ready": 14,
@@ -1125,6 +1125,444 @@
       "research_reviewed_at": "2026-08-11",
       "cannibalization_reviewed": true,
       "claims_reviewed": false
+    },
+    {
+      "id": "answering-service-veterinary",
+      "slot": 17,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "veterinary",
+      "topic": "How multi-location veterinary groups should evaluate answering services",
+      "keyword": "answering service veterinary",
+      "suggested_title": "Answering Service Veterinary Groups Can Scale",
+      "slug": "answering-service-veterinary",
+      "content_action": "refresh",
+      "intended_crm_outcome": "new-inbound",
+      "cannibalization_note": "Existing approved veterinary access post. Not a new topic. Queue entry maps the scheduled article.",
+      "geography": [],
+      "category": "Technology",
+      "pillar_url": "/enterprise/patient-access-center/",
+      "cta_id": "service-fit-review",
+      "word_count": 3142,
+      "search_intent": "commercial-investigation",
+      "status": "publish_ready",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-09-20T18:00:00Z"
+      },
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "Veterinarian-Client-Patient Relationships, prescribing, dispensing, and telemedicine",
+          "publisher": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/animal-veterinary/product-safety-information/veterinarian-client-patient-relationships-prescribingdispensing-animal-drugs-and-telemedicine",
+          "accessed_at": "2026-09-20",
+          "snippet": "Veterinarian-Client-Patient Relationships, prescribing, dispensing, and telemedicine is cited in the approved scheduled post as operational source material.",
+          "supports": "veterinary answering services need administrative vs clinical routing boundaries"
+        },
+        {
+          "title": "client service communication",
+          "publisher": "American Animal Hospital Association",
+          "url": "https://www.aaha.org/trends-magazine/june-2022/f2-csr",
+          "accessed_at": "2026-09-20",
+          "snippet": "client service communication is cited in the approved scheduled post as operational source material.",
+          "supports": "veterinary answering services need administrative vs clinical routing boundaries"
+        },
+        {
+          "title": "AAHA/AVMA telehealth guidelines",
+          "publisher": "American Animal Hospital Association",
+          "url": "https://www.aaha.org/resources/2021-aaha-avma-telehealth-guidelines-for-small-animal-practice",
+          "accessed_at": "2026-09-20",
+          "snippet": "AAHA/AVMA telehealth guidelines is cited in the approved scheduled post as operational source material.",
+          "supports": "veterinary answering services need administrative vs clinical routing boundaries"
+        },
+        {
+          "title": "standardized workflow table",
+          "publisher": "American Animal Hospital Association",
+          "url": "https://www.aaha.org/resources/2023-aaha-technician-utilization-guidelines/standardized-workflow-for-optimal-utilization-table-5-2",
+          "accessed_at": "2026-09-20",
+          "snippet": "standardized workflow table is cited in the approved scheduled post as operational source material.",
+          "supports": "veterinary answering services need administrative vs clinical routing boundaries"
+        },
+        {
+          "title": "telephone triage for horses with abdominal pain",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7510986",
+          "accessed_at": "2026-09-20",
+          "snippet": "telephone triage for horses with abdominal pain is cited in the approved scheduled post as operational source material.",
+          "supports": "veterinary answering services need administrative vs clinical routing boundaries"
+        }
+      ],
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-09-20",
+      "cannibalization_reviewed": true,
+      "claims_reviewed": true
+    },
+    {
+      "id": "centralized-healthcare",
+      "slot": 18,
+      "funnel": "service",
+      "buyer_stage": "problem-aware",
+      "content_cluster": "enterprise",
+      "topic": "Centralized healthcare operations for multi-location groups",
+      "keyword": "centralized healthcare",
+      "suggested_title": "Centralized Healthcare at Multi-Location Scale",
+      "slug": "centralized-healthcare",
+      "content_action": "refresh",
+      "intended_crm_outcome": "new-inbound",
+      "cannibalization_note": "Existing approved centralized operations post. Not a new topic. Queue entry maps the scheduled article.",
+      "geography": [],
+      "category": "Operations",
+      "pillar_url": "/enterprise/patient-access-center/",
+      "cta_id": "service-fit-review",
+      "word_count": 2949,
+      "search_intent": "commercial-investigation",
+      "status": "publish_ready",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-09-20T18:00:00Z"
+      },
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "S1: CMS",
+          "publisher": "Centers for Medicare & Medicaid Services",
+          "url": "https://www.cms.gov/priorities/innovation/key-concepts/care-coordination",
+          "accessed_at": "2026-09-20",
+          "snippet": "S1: CMS is cited in the approved scheduled post as operational source material.",
+          "supports": "centralized access needs shared workflows, reporting, and governance"
+        },
+        {
+          "title": "S4: MGMA",
+          "publisher": "Medical Group Management Association",
+          "url": "https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment",
+          "accessed_at": "2026-09-20",
+          "snippet": "S4: MGMA is cited in the approved scheduled post as operational source material.",
+          "supports": "centralized access needs shared workflows, reporting, and governance"
+        },
+        {
+          "title": "S2: HealthIT.gov",
+          "publisher": "HealthIT.gov",
+          "url": "https://playbook.healthit.gov/playbook/health-information-exchange",
+          "accessed_at": "2026-09-20",
+          "snippet": "S2: HealthIT.gov is cited in the approved scheduled post as operational source material.",
+          "supports": "centralized access needs shared workflows, reporting, and governance"
+        },
+        {
+          "title": "S3: AHRQ",
+          "publisher": "Agency for Healthcare Research and Quality",
+          "url": "https://www.ahrq.gov/ncepcr/research/care-coordination/pcmh/define.html",
+          "accessed_at": "2026-09-20",
+          "snippet": "S3: AHRQ is cited in the approved scheduled post as operational source material.",
+          "supports": "centralized access needs shared workflows, reporting, and governance"
+        },
+        {
+          "title": "S6: ADA HPI",
+          "publisher": "American Dental Association",
+          "url": "https://www.ada.org/resources/research/health-policy-institute/dental-practice-research/practice-modalities-among-us-dentists",
+          "accessed_at": "2026-09-20",
+          "snippet": "S6: ADA HPI is cited in the approved scheduled post as operational source material.",
+          "supports": "centralized access needs shared workflows, reporting, and governance"
+        }
+      ],
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-09-20",
+      "cannibalization_reviewed": true,
+      "claims_reviewed": true
+    },
+    {
+      "id": "answering-service-for-optometrists",
+      "slot": 19,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-communications",
+      "topic": "How multi-location optometry groups evaluate answering services",
+      "keyword": "answering service for optometrists",
+      "suggested_title": "Answering Service for Optometrists",
+      "slug": "answering-service-for-optometrists",
+      "content_action": "refresh",
+      "intended_crm_outcome": "new-inbound",
+      "cannibalization_note": "Existing approved optometry answering-service post. Not a new topic. Queue entry maps the scheduled article.",
+      "geography": [],
+      "category": "Patient Care",
+      "pillar_url": "/enterprise/patient-access-center/",
+      "cta_id": "service-fit-review",
+      "word_count": 3493,
+      "search_intent": "commercial-investigation",
+      "status": "publish_ready",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-09-20T18:00:00Z"
+      },
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "Be Easy To Reach: Tool 7",
+          "publisher": "Agency for Healthcare Research and Quality",
+          "url": "https://www.ahrq.gov/health-literacy/improve/precautions/tool7.html",
+          "accessed_at": "2026-09-20",
+          "snippet": "Be Easy To Reach: Tool 7 is cited in the approved scheduled post as operational source material.",
+          "supports": "optometry answering services need access, scheduling, and privacy controls"
+        },
+        {
+          "title": "Business Associates",
+          "publisher": "U.S. Department of Health and Human Services",
+          "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html",
+          "accessed_at": "2026-09-20",
+          "snippet": "Business Associates is cited in the approved scheduled post as operational source material.",
+          "supports": "optometry answering services need access, scheduling, and privacy controls"
+        },
+        {
+          "title": "patient communication",
+          "publisher": "American Optometric Association",
+          "url": "https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication",
+          "accessed_at": "2026-09-20",
+          "snippet": "patient communication is cited in the approved scheduled post as operational source material.",
+          "supports": "optometry answering services need access, scheduling, and privacy controls"
+        },
+        {
+          "title": "the wrong patient communication plan could be costly",
+          "publisher": "American Optometric Association",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/the-wrong-patient-communication-plan-could-be-costly",
+          "accessed_at": "2026-09-20",
+          "snippet": "the wrong patient communication plan could be costly is cited in the approved scheduled post as operational source material.",
+          "supports": "optometry answering services need access, scheduling, and privacy controls"
+        },
+        {
+          "title": "optimizing provider staffing patient scheduling and communication for improved p",
+          "publisher": "Medical Group Management Association",
+          "url": "https://www.mgma.com/articles/optimizing-provider-staffing-patient-scheduling-and-communication-for-improved-patient-access",
+          "accessed_at": "2026-09-20",
+          "snippet": "optimizing provider staffing patient scheduling and communication for improved p is cited in the approved scheduled post as operational source material.",
+          "supports": "optometry answering services need access, scheduling, and privacy controls"
+        }
+      ],
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-09-20",
+      "cannibalization_reviewed": true,
+      "claims_reviewed": true
+    },
+    {
+      "id": "accounting-for-optometrists",
+      "slot": 15,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "optometry",
+      "topic": "Accounting for optometrists at multi-location scale",
+      "keyword": "accounting for optometrists",
+      "suggested_title": "Accounting for Optometrists at Enterprise Scale",
+      "slug": "accounting-for-optometrists",
+      "content_action": "refresh",
+      "intended_crm_outcome": "new-inbound",
+      "cannibalization_note": "Existing approved finance-operations post. Not a new topic. Queue entry maps the scheduled article.",
+      "geography": [],
+      "category": "Technology",
+      "pillar_url": "/optometry-practice-transitions/",
+      "cta_id": "service-fit-review",
+      "word_count": 3047,
+      "search_intent": "commercial-investigation",
+      "status": "publish_ready",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-09-20T18:00:00Z"
+      },
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "AOA",
+          "publisher": "American Optometric Association",
+          "url": "https://www.aoa.org/practice/owning-a-practice/managing-practice-finances",
+          "accessed_at": "2026-09-20",
+          "snippet": "AOA is cited in the approved scheduled post as operational source material.",
+          "supports": "multi-location optometry finance needs centralized reporting and controls"
+        },
+        {
+          "title": "AOA Billing and Coding Help Desk",
+          "publisher": "American Optometric Association",
+          "url": "https://www.aoa.org/practice/practice-success-resources/aoa-billing-and-coding-help-desk",
+          "accessed_at": "2026-09-20",
+          "snippet": "AOA Billing and Coding Help Desk is cited in the approved scheduled post as operational source material.",
+          "supports": "multi-location optometry finance needs centralized reporting and controls"
+        },
+        {
+          "title": "Review of Optometric Business",
+          "publisher": "Review of Optometric Business",
+          "url": "https://reviewob.com/chart-of-accounts-how-to-create-this-chart-to-better-measure-and-improve-your-profitability",
+          "accessed_at": "2026-09-20",
+          "snippet": "Review of Optometric Business is cited in the approved scheduled post as operational source material.",
+          "supports": "multi-location optometry finance needs centralized reporting and controls"
+        },
+        {
+          "title": "CMS Medicare Vision Services",
+          "publisher": "Centers for Medicare & Medicaid Services",
+          "url": "https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnproducts/mln-publications-items/cms1254655",
+          "accessed_at": "2026-09-20",
+          "snippet": "CMS Medicare Vision Services is cited in the approved scheduled post as operational source material.",
+          "supports": "multi-location optometry finance needs centralized reporting and controls"
+        },
+        {
+          "title": "CMS PFS Look-Up Tool",
+          "publisher": "Centers for Medicare & Medicaid Services",
+          "url": "https://www.cms.gov/medicare/physician-fee-schedule/search/overview",
+          "accessed_at": "2026-09-20",
+          "snippet": "CMS PFS Look-Up Tool is cited in the approved scheduled post as operational source material.",
+          "supports": "multi-location optometry finance needs centralized reporting and controls"
+        }
+      ],
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-09-20",
+      "cannibalization_reviewed": true,
+      "claims_reviewed": true
+    },
+    {
+      "id": "appointment-scheduling-outsourcing",
+      "slot": 20,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "bpo-outsourcing",
+      "topic": "Appointment scheduling outsourcing for multi-location healthcare groups",
+      "keyword": "appointment scheduling outsourcing",
+      "suggested_title": "Appointment Scheduling Outsourcing at Enterprise Scale",
+      "slug": "appointment-scheduling-outsourcing",
+      "content_action": "refresh",
+      "intended_crm_outcome": "new-inbound",
+      "cannibalization_note": "Existing approved scheduling-outsourcing post. Not a new topic. Queue entry maps the scheduled article.",
+      "geography": [],
+      "category": "Operations",
+      "pillar_url": "/enterprise/patient-access-center/",
+      "cta_id": "service-fit-review",
+      "word_count": 2845,
+      "search_intent": "commercial-investigation",
+      "status": "publish_ready",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-09-20T18:00:00Z"
+      },
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "S7: Becker's Hospital Review",
+          "publisher": "Becker's Hospital Review",
+          "url": "https://www.beckershospitalreview.com/finance/one-call-away-the-all-too-common-mistake-hospitals-make-with-customer-relationships",
+          "accessed_at": "2026-09-20",
+          "snippet": "S7: Becker's Hospital Review is cited in the approved scheduled post as operational source material.",
+          "supports": "outsourced scheduling needs shared access rules, QA, and vendor scope"
+        },
+        {
+          "title": "S3: MGMA",
+          "publisher": "Medical Group Management Association",
+          "url": "https://www.mgma.com/articles/optimizing-provider-staffing-patient-scheduling-and-communication-for-improved-patient-access",
+          "accessed_at": "2026-09-20",
+          "snippet": "S3: MGMA is cited in the approved scheduled post as operational source material.",
+          "supports": "outsourced scheduling needs shared access rules, QA, and vendor scope"
+        },
+        {
+          "title": "S4: MGMA Fellowship Paper",
+          "publisher": "Medical Group Management Association",
+          "url": "https://www.mgma.com/fellowship-papers/improving-access-to-care-for-patients-and-referring-providers-through-centralized-scheduling",
+          "accessed_at": "2026-09-20",
+          "snippet": "S4: MGMA Fellowship Paper is cited in the approved scheduled post as operational source material.",
+          "supports": "outsourced scheduling needs shared access rules, QA, and vendor scope"
+        },
+        {
+          "title": "S5: ADA",
+          "publisher": "American Dental Association",
+          "url": "https://www.ada.org/resources/practice/practice-management/appointment-confirmations",
+          "accessed_at": "2026-09-20",
+          "snippet": "S5: ADA is cited in the approved scheduled post as operational source material.",
+          "supports": "outsourced scheduling needs shared access rules, QA, and vendor scope"
+        },
+        {
+          "title": "S1: HHS",
+          "publisher": "U.S. Department of Health and Human Services",
+          "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html",
+          "accessed_at": "2026-09-20",
+          "snippet": "S1: HHS is cited in the approved scheduled post as operational source material.",
+          "supports": "outsourced scheduling needs shared access rules, QA, and vendor scope"
+        }
+      ],
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-09-20",
+      "cannibalization_reviewed": true,
+      "claims_reviewed": true
+    },
+    {
+      "id": "optometrist-equipment",
+      "slot": 16,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "starting-practice",
+      "topic": "Optometrist equipment planning for multi-location groups",
+      "keyword": "optometrist equipment",
+      "suggested_title": "Optometrist Equipment for Multi-Location Groups",
+      "slug": "optometrist-equipment",
+      "content_action": "refresh",
+      "intended_crm_outcome": "new-inbound",
+      "cannibalization_note": "Existing approved equipment-operations post. Not a new topic. Queue entry maps the scheduled article.",
+      "geography": [],
+      "category": "Business",
+      "pillar_url": "/optometry-practice-transitions/",
+      "cta_id": "service-fit-review",
+      "word_count": 2608,
+      "search_intent": "commercial-investigation",
+      "status": "publish_ready",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-09-20T18:00:00Z"
+      },
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "5",
+          "publisher": "UC Berkeley School of Optometry",
+          "url": "https://optometry.berkeley.edu/clinicmanual/clinic-policies-and-procedures/clinic-equipment-instrument-sanitation-hygiene",
+          "accessed_at": "2026-09-20",
+          "snippet": "5 is cited in the approved scheduled post as operational source material.",
+          "supports": "group equipment planning covers procurement, interoperability, and maintenance"
+        },
+        {
+          "title": "6",
+          "publisher": "American Optometric Association",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/keeping-up-with-doctor-jones",
+          "accessed_at": "2026-09-20",
+          "snippet": "6 is cited in the approved scheduled post as operational source material.",
+          "supports": "group equipment planning covers procurement, interoperability, and maintenance"
+        },
+        {
+          "title": "7",
+          "publisher": "American Academy of Ophthalmology",
+          "url": "https://www.aao.org/advocacy/issues/health-it/imaging-interoperability",
+          "accessed_at": "2026-09-20",
+          "snippet": "7 is cited in the approved scheduled post as operational source material.",
+          "supports": "group equipment planning covers procurement, interoperability, and maintenance"
+        },
+        {
+          "title": "1",
+          "publisher": "Cornell Legal Information Institute",
+          "url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-68-SS-1320.95",
+          "accessed_at": "2026-09-20",
+          "snippet": "1 is cited in the approved scheduled post as operational source material.",
+          "supports": "group equipment planning covers procurement, interoperability, and maintenance"
+        },
+        {
+          "title": "2",
+          "publisher": "U.S. Food and Drug Administration",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?PAGENUM=50&Panel=OP&sortcolumn=ProductCode&start_search=1",
+          "accessed_at": "2026-09-20",
+          "snippet": "2 is cited in the approved scheduled post as operational source material.",
+          "supports": "group equipment planning covers procurement, interoperability, and maintenance"
+        }
+      ],
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-09-20",
+      "cannibalization_reviewed": true,
+      "claims_reviewed": true
     }
   ]
 }

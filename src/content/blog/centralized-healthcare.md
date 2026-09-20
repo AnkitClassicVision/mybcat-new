@@ -5,9 +5,10 @@ description: A centralized healthcare playbook for multi-location groups standar
   access, handoffs, reporting, and SLA governance across the enterprise.
 seoDescription: Learn how centralized healthcare helps enterprise groups standardize
   access, handoffs, reporting, and governance across multi-location operations.
-publishDate: '2026-09-04'
+publishDate: '2026-09-22'
 status: scheduled
-scheduledDate: '2026-09-04'
+scheduledDate: '2026-09-22'
+seoTopicId: centralized-healthcare
 author: Ankit Patel
 category: Operations
 tags:

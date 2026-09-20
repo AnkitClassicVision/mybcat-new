@@ -5,9 +5,10 @@ description: Appointment scheduling outsourcing playbook for multi-location heal
   groups centralizing access, QA, reporting, and rollout governance across 3+ locations.
 seoDescription: Appointment scheduling outsourcing guide for enterprise groups evaluating
   centralized access, vendor scope, QA, and rollout across 3+ locations.
-publishDate: '2026-09-09'
+publishDate: '2026-09-25'
 status: scheduled
-scheduledDate: '2026-09-09'
+scheduledDate: '2026-09-25'
+seoTopicId: appointment-scheduling-outsourcing
 author: Ankit Patel
 category: Operations
 tags:
