@@ -56,23 +56,23 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
                 <div class="form-row">
                   <div class="form-field">
                     <label for="cf-firstname">First Name <span class="required-mark" aria-hidden="true">*</span></label>
-                    <input type="text" id="cf-firstname" name="firstname" required autocomplete="given-name" placeholder="Sarah" />
+                    <input type="text" id="cf-firstname" name="firstname" required aria-describedby="err-firstname" autocomplete="given-name" placeholder="Sarah" />
                     <span class="field-error" id="err-firstname"></span>
                   </div>
                   <div class="form-field">
                     <label for="cf-lastname">Last Name <span class="required-mark" aria-hidden="true">*</span></label>
-                    <input type="text" id="cf-lastname" name="lastname" required autocomplete="family-name" placeholder="Chen" />
+                    <input type="text" id="cf-lastname" name="lastname" required aria-describedby="err-lastname" autocomplete="family-name" placeholder="Chen" />
                     <span class="field-error" id="err-lastname"></span>
                   </div>
                 </div>
                 <div class="form-field">
                   <label for="cf-email">Work Email <span class="required-mark" aria-hidden="true">*</span></label>
-                  <input type="email" id="cf-email" name="email" required autocomplete="email" placeholder="sarah@yourpractice.com" />
+                  <input type="email" id="cf-email" name="email" required aria-describedby="err-email" autocomplete="email" placeholder="sarah@yourpractice.com" />
                   <span class="field-error" id="err-email"></span>
                 </div>
                 <div class="form-field">
                   <label for="cf-phone">Phone Number <span class="required-mark" aria-hidden="true">*</span></label>
-                  <input type="tel" id="cf-phone" name="mobilephone" required autocomplete="tel" placeholder="(555) 000-0000" />
+                  <input type="tel" id="cf-phone" name="mobilephone" required aria-describedby="err-phone" autocomplete="tel" placeholder="(555) 000-0000" />
                   <span class="field-error" id="err-phone"></span>
                 </div>
                 <div class="form-field">
@@ -96,6 +96,7 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
                 </div>
                 <input type="hidden" name="utm_source" id="cf-utm-source" />
                 <button type="submit" id="cf-submit">Schedule Discovery Call</button>
+                <p id="cf-status" class="sr-only" role="status" aria-live="polite"></p>
                 <p class="form-legal">By submitting, you agree to our <a href="/privacy-policy/">Privacy Policy</a>. We'll never share your information.</p>
               </form>
             </div>
@@ -1008,32 +1009,57 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     e.stopImmediatePropagation();
 
     // Clear errors
-    form.querySelectorAll('.invalid').forEach(function (el) { el.classList.remove('invalid'); });
+    form.querySelectorAll('.invalid').forEach(function (el) { el.classList.remove('invalid'); el.removeAttribute('aria-invalid'); });
     form.querySelectorAll('.field-error').forEach(function (el) { el.textContent = ''; el.classList.remove('visible'); });
+    const status = document.getElementById('cf-status');
+    if (status) status.textContent = '';
 
     // Validate
-    let valid = true;
+    const invalid = [];
     [
       { id: 'cf-firstname', errId: 'err-firstname', msg: 'First name is required.' },
       { id: 'cf-lastname',  errId: 'err-lastname',  msg: 'Last name is required.' },
       { id: 'cf-email',     errId: 'err-email',     msg: 'A valid email address is required.' },
-      { id: 'cf-phone',     errId: 'err-phone',     msg: 'A mobile number is required.' }
+      { id: 'cf-phone',     errId: 'err-phone',     msg: 'A phone number is required.', formatMsg: 'Enter a 10-digit phone number, including area code.' }
     ].forEach(function (f) {
       const el = document.getElementById(f.id);
       if (!el) return;
       const val = el.value.trim();
       const phoneDigits = f.id === 'cf-phone' ? val.replace(/\D/g, '') : '';
-      const bad = !val
-        || (el.type === 'email' && !/[^\s@]+@[^\s@]+\.[^\s@]+/.test(val))
-        || (f.id === 'cf-phone' && phoneDigits.length < 10);
-      if (bad) {
-        valid = false;
+      const badFormat = !!val && (
+        (el.type === 'email' && !/[^\s@]+@[^\s@]+\.[^\s@]+/.test(val))
+        || (f.id === 'cf-phone' && phoneDigits.length < 10)
+      );
+      if (!val || badFormat) {
+        invalid.push({ el: el, reason: val ? 'invalid_format' : 'empty' });
         el.classList.add('invalid');
+        el.setAttribute('aria-invalid', 'true');
         const err = document.getElementById(f.errId);
-        if (err) { err.textContent = f.msg; err.classList.add('visible'); }
+        if (err) { err.textContent = (badFormat && f.formatMsg) || f.msg; err.classList.add('visible'); }
       }
     });
-    if (!valid) return;
+    if (invalid.length) {
+      // Bring the first blocked field into view so a blocked submit does not look like a dead button
+      const first = invalid[0];
+      first.el.focus({ preventScroll: true });
+      first.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (status) {
+        status.textContent = invalid.length === 1
+          ? 'One field needs attention before you can submit.'
+          : invalid.length + ' fields need attention before you can submit.';
+      }
+      // PostHog: field names and reasons only, never field values
+      if (window.posthog) {
+        window.posthog.capture('contact_form_validation_failed', {
+          first_invalid_field: first.el.name,
+          first_invalid_reason: first.reason,
+          invalid_fields: invalid.map(function (i) { return i.el.name; }),
+          invalid_field_count: invalid.length,
+          source: 'contact_page'
+        });
+      }
+      return;
+    }
 
     // Capture values before DOM swap removes the form fields
     let firstName = (document.getElementById('cf-firstname') || {}).value || '';
