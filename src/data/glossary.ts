@@ -214,15 +214,16 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     slug: 'patient-intake',
     term: 'Patient Intake',
-    definition: 'The patient intake process in healthcare covers the steps from first contact through scheduling, forms, insurance verification, and visit preparation.',
-    detailedExplanation: 'In healthcare, patient intake management includes the steps that happen before an appointment is fulfilled: answering inquiries, collecting demographics, confirming the visit reason, verifying insurance, sending forms or consent paperwork, documenting communication preferences, and preparing the schedule or chart for the clinical team.',
+    definition: 'Patient intake management is the healthcare process from first contact through scheduling, forms, insurance verification, and visit preparation.',
+    detailedExplanation: 'Patient intake management is the pre-visit operating system. It covers the first inquiry, demographics, visit reason, insurance verification, forms or consent, communication preferences, and chart or schedule prep. Weak intake shows up later as no-shows, missing benefits data, and providers waiting on paperwork. Strong intake captures the right phone and SMS consent so appointment reminders actually reach the patient. See appointment reminder best practices and the medical answering service page for the call-handling half of the same workflow. Multi-location groups should use one intake checklist so every site asks for the same fields.',
     category: 'operations',
     relatedTerms: ['patient-acquisition', 'appointment-conversion', 'insurance-verification'],
     relatedSolutions: ['medical-answering-service', 'front-desk-outsourcing'],
     examples: [
       'A new patient calls, shares insurance details, completes intake forms, and receives an appointment confirmation',
       'A returning patient updates demographics and consent forms before a follow-up visit',
-      'Staff verify benefits, collect referral information, and flag missing paperwork before the appointment day'
+      'Staff verify benefits, collect referral information, and flag missing paperwork before the appointment day',
+      'A group uses one intake script across sites so VSP versus medical visits route the same way'
     ]
   },
   {

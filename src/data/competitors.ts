@@ -52,50 +52,52 @@ export const competitors: Competitor[] = [
   {
     slug: 'vs-hello-rache',
     name: 'Hello Rache',
-    metaTitle: 'Hello Rache VA Alternative for Optometry | MyBCAT',
-    tagline: 'Compare Hello Rache\'s hourly healthcare virtual assistant model with a managed optometry front-desk team',
-    headline: 'Hello Rache Virtual Assistant Alternative for Optometry Practices',
-    description: 'Compare Hello Rache vs My Business Care Team for optometry practices. See hourly VA pricing, management burden, coverage when a VA is out, and workflow support for scheduling, recall, and front-desk calls.',
-    metaDescription: 'Compare Hello Rache VA pricing, coverage, management burden, and workflow support vs MyBCAT for optometry practices.',
-    pricing: '$9.50/hour',
+    metaTitle: 'Hello Rache Alternative: Optometry Front Desk Team',
+    tagline: 'Compare Hello Rache hourly VA staffing with a managed optometry front-desk team',
+    headline: 'Hello Rache vs MyBCAT for Optometry Front Desk Work',
+    description: 'Hello Rache sells hourly healthcare virtual assistants. My Business Care Team sells a managed optometry front desk: scheduling, recall, no-show recovery, and coverage when someone is out. Use this page to compare published rates, ownership of QA, and workflow fit. Then read the optometry industry page and the published pricing page for context.',
+    metaDescription: 'Compare Hello Rache hourly VA staffing with MyBCAT managed optometry front-desk coverage, published starting rates, QA ownership, and recall workflows.',
+    pricing: '$9.50/hour (rate already published on this page)',
     model: 'Hourly VA staffing',
     website: 'hellorache.com',
 
     features: [
       {
-        category: 'Service Model',
+        category: 'Published pricing (not an apples-to-apples quote)',
         items: [
-          { name: 'Management burden', mybcat: 'Fully managed', competitor: 'More owner-managed' },
-          { name: 'Pricing', mybcat: 'Outcome-based', competitor: 'Hourly ($9.50/hr)' },
-          { name: 'Coverage if someone is out', mybcat: 'Team + AI backup', competitor: 'Ask about backup plan' },
-          { name: 'Vacation and sick-day coverage', mybcat: 'Automatic', competitor: 'Depends on staffing plan' },
+          { name: 'Public rate shown on this site', mybcat: 'Starting at $10/hr on /pricing/', competitor: '$9.50/hour (this page)' },
+          { name: 'What that rate buys', mybcat: 'Managed answering / front-desk service', competitor: 'Hourly VA hours you supervise' },
+          { name: 'Scribe work', mybcat: 'Listed on Enterprise at /pricing/', competitor: 'Not a published MyBCAT comparison point' },
+          { name: 'Hidden-cost check', mybcat: 'Training, QA, and backup included', competitor: 'Owner time for coaching and coverage' },
         ]
       },
       {
-        category: 'Technology',
+        category: 'Coverage when a person is out',
         items: [
-          { name: 'Real-time dashboard', mybcat: true, competitor: false },
-          { name: 'Overflow and after-hours backup', mybcat: true, competitor: false },
-          { name: 'QA and call reporting', mybcat: true, competitor: false },
-          { name: 'Optometry EHR workflow support', mybcat: true, competitor: 'Handled by dedicated VA' },
+          { name: 'Who answers if the assigned person is sick', mybcat: 'Team coverage + overflow backup', competitor: 'Ask Hello Rache about backup' },
+          { name: 'Vacation coverage', mybcat: 'Automatic within the team', competitor: 'Depends on the staffing plan' },
+          { name: 'After-hours / overflow', mybcat: 'Included in the managed model', competitor: 'Usually a separate plan decision' },
+          { name: 'Single-person outage risk', mybcat: 'Low (team model)', competitor: 'Higher if one VA owns the queue' },
         ]
       },
       {
-        category: 'Services',
+        category: 'Optometry front-desk workflows',
         items: [
           { name: 'Inbound call handling', mybcat: true, competitor: true },
-          { name: 'Scheduling workflow', mybcat: 'Direct to EHR', competitor: 'Manual entry' },
-          { name: 'Recall and reactivation', mybcat: true, competitor: 'Extra cost' },
-          { name: 'No-show recovery programs', mybcat: true, competitor: 'Extra cost' },
-          { name: 'Insurance verification', mybcat: true, competitor: true },
+          { name: 'Scheduling into eye-care EHRs', mybcat: 'Direct workflow support', competitor: 'Dedicated VA enters appointments' },
+          { name: 'Eyefinity / Crystal PM / Compulink depth', mybcat: 'Trained before go-live', competitor: 'Training often happens after hire' },
+          { name: 'Recall and reactivation', mybcat: 'Included program', competitor: 'Usually extra or owner-run' },
+          { name: 'No-show recovery', mybcat: 'Included program', competitor: 'Usually extra or owner-run' },
+          { name: 'Insurance verification (VSP vs medical)', mybcat: true, competitor: true },
         ]
       },
       {
-        category: 'Healthcare Expertise',
+        category: 'Management, QA, and reporting',
         items: [
-          { name: 'HIPAA compliance', mybcat: true, competitor: true },
-          { name: 'Optometry specialization', mybcat: 'Deep vertical focus', competitor: 'Optometry-trained VA available' },
-          { name: 'Optometry software depth', mybcat: 'Certified specialists', competitor: 'Specialty training available' },
+          { name: 'Who coaches the agent', mybcat: 'MyBCAT managers', competitor: 'Practice owner or office manager' },
+          { name: 'Call QA and reporting', mybcat: 'Included', competitor: 'Owner-defined' },
+          { name: 'Real-time dashboard', mybcat: true, competitor: false },
+          { name: 'HIPAA program', mybcat: true, competitor: true },
         ]
       }
     ],
@@ -103,52 +105,60 @@ export const competitors: Competitor[] = [
     advantages: [
       'No owner management overhead for training, QA, scheduling, or coverage',
       'Team coverage means one absence does not shut down your front desk',
-      'AI backup protects overflow and after-hours missed-call risk',
-      'Real-time reporting gives visibility beyond generic VA status updates',
-      'Outcome-based pricing aligns around booked appointments and resolved calls',
-      'Built around optometry workflows, recall, scheduling, and EHR usage'
+      'Overflow backup protects after-hours and spike missed-call risk',
+      'Reporting shows calls, bookings, and QA instead of hours logged',
+      'Published MyBCAT starting rate is a managed-service floor, not a VA hourly bid',
+      'Built around optometry recall, scheduling, and eye-care EHR usage'
     ],
 
     competitorStrengths: [
-      'Straightforward hourly pricing can look cheaper on paper',
-      'A dedicated VA can build familiarity with your doctors and scripts',
-      'Good fit if you want direct control over coaching and day-to-day tasks',
-      'Flexible for broader admin work outside front-desk performance',
-      'Established healthcare VA brand many practices recognize'
+      'A published hourly rate is easy to budget if you only compare dollars per hour',
+      'A dedicated VA can learn one doctor panel and one script set',
+      'Owners who want to coach the assistant day to day keep that control',
+      'The model can stretch to general admin work beyond the phone queue',
+      'Hello Rache is a known healthcare VA brand'
     ],
 
     bestFor: [
       'Practices that want to hire and manage their own VA day to day',
-      'Owners optimizing for the lowest hourly rate first',
-      'Teams comfortable handling backup coverage and QA internally',
-      'Practices needing a generalist assistant more than a managed front-desk function'
+      'Owners optimizing for the lowest published hourly rate first',
+      'Teams that already have backup coverage and QA internally',
+      'Practices that need a generalist assistant more than a managed front desk'
     ],
 
     differentiators: [
       { competitor: 'Hourly VA you supervise', mybcat: 'Managed optometry front desk team' },
-      { competitor: 'One VA availability risk', mybcat: 'Team coverage + AI overflow backup' },
+      { competitor: 'One VA availability risk', mybcat: 'Team coverage plus overflow backup' },
       { competitor: 'Limited practice-level reporting', mybcat: 'Call, booking, and QA visibility' },
-      { competitor: 'Pay by hours worked', mybcat: 'Pay for managed outcomes' },
-      { competitor: 'General healthcare workflows', mybcat: 'Optometry recall and scheduling depth' },
+      { competitor: 'Pay by hours worked', mybcat: 'Pay for a managed front-desk function' },
+      { competitor: 'General healthcare VA workflows', mybcat: 'Optometry recall and scheduling depth' },
       { competitor: 'Training and QA on your plate', mybcat: 'MyBCAT owns onboarding, QA, and coverage' }
     ],
 
     faqs: [
       {
         question: 'How does Hello Rache pricing compare with My Business Care Team?',
-        answer: 'Hello Rache publishes an hourly rate, while My Business Care Team is sold as a managed service. On paper the hourly rate can look cheaper, but optometry owners still need to account for training time, QA, backup coverage, and management overhead when comparing total cost.'
+        answer: 'This page already lists Hello Rache at $9.50/hour. MyBCAT publishes Starter, Scale, and Enterprise at Starting at $10/hr on /pricing/. Those figures are not the same SKU. Hello Rache is hourly VA staffing. MyBCAT is a managed front-desk service. Do not treat $10 vs $9.50 as a quote. Add owner time for training, QA, and backup before you call either option cheaper.'
+      },
+      {
+        question: 'Does MyBCAT invent a Hello Rache package price on this page?',
+        answer: 'No. The only Hello Rache dollar figure used here is the $9.50/hour rate already published on this comparison page. We do not invent monthly packages, seat counts, or testimonials. Ask Hello Rache for a current quote if you need their latest offer.'
       },
       {
         question: 'What should optometry practices evaluate before choosing Hello Rache?',
-        answer: 'The useful questions are usually about management burden, coverage continuity, and workflow fit. A dedicated-VA model can work well, but owners should look for signals about how much coaching, QA oversight, and backup planning they will still need to handle themselves.'
+        answer: 'Ask who coaches the VA, who covers sick days, and who owns recall and no-show follow-up. A dedicated-VA model can work. It usually leaves QA, backup, and program design with the owner. Compare that load with a managed team on /industries/optometry/.'
       },
       {
         question: 'Is Hello Rache a good fit for an optometry practice?',
-        answer: 'Yes, Hello Rache does offer optometry-trained virtual assistants. It can be a fit if you want a lower hourly-cost assistant and you are comfortable managing the VA directly. If your practice needs dependable scheduling, recall, no-show recovery, and front-desk coverage without extra oversight, a managed optometry-specific team is usually a better match.'
+        answer: 'It can be, if you want an hourly assistant and you will manage coaching and coverage. If you need dependable scheduling, recall, no-show recovery, and front-desk coverage without extra oversight, a managed optometry team is usually the better match. See also /solutions/optometry-virtual-assistant/ and /solutions/front-desk-outsourcing/.'
+      },
+      {
+        question: 'What happens when a Hello Rache VA is out?',
+        answer: 'In a single-VA model, coverage depends on the staffing plan you buy and the backup you arrange. MyBCAT uses a team model so one absence does not zero the queue. Confirm Hello Rache backup in writing before you treat hourly cost as the full risk picture.'
       },
       {
         question: 'What makes My Business Care Team a stronger Hello Rache alternative?',
-        answer: 'The biggest differences are management burden, coverage continuity, and optometry workflow depth. My Business Care Team gives practices a managed team, direct scheduling support, recall programs, QA visibility, and backup coverage instead of relying on one hourly VA.'
+        answer: 'Management burden, coverage continuity, and optometry workflow depth. You get a managed team, scheduling support, recall programs, QA visibility, and backup instead of one hourly VA. Start with published rates on /pricing/, then book a scoped conversation if the model fits.'
       }
     ]
   },

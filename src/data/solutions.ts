@@ -787,13 +787,13 @@ If you don't see your system listed, ask us. We've likely integrated with it bef
   },
   {
     slug: 'virtual-medical-scribe',
-    name: 'Virtual Medical Scribe',
-    metaTitle: 'Virtual Scribe Service for Clinical Documentation',
-    tagline: 'Documentation Done. Focus on Patients.',
-    headline: 'Virtual Medical Scribe Service for Healthcare Providers',
-    description: 'Remote medical scribes that handle clinical documentation in real-time. Reduce provider burnout, improve note quality, and reclaim hours each week for patient care.',
-    tldr: 'My Business Care Team\'s virtual medical scribe service provides trained remote scribes who document patient encounters in real-time. Scribes work alongside providers via audio or video, completing notes during or immediately after visits—reducing documentation time by 2+ hours daily.',
-    metaDescription: 'Virtual scribe service with trained human scribes who document clinical encounters in real time, reduce charting burden, and support HIPAA-compliant workflows.',
+    name: 'Virtual Scribe Service',
+    metaTitle: 'Virtual Scribe Service for Clinical Charting',
+    tagline: 'A human virtual scribe service. Notes done same day.',
+    headline: 'Virtual Scribe Service for Healthcare Providers',
+    description: 'A virtual scribe service with remote medical scribes who document visits in real time. Cut after-hours charting, keep note quality consistent, and give providers time back for patients.',
+    tldr: 'My Business Care Team virtual scribe service assigns trained remote scribes who document encounters in real time by audio or video. Notes are complete during or right after the visit, which typically returns 2+ hours a day to the provider.',
+    metaDescription: 'Virtual scribe service with trained remote scribes who document visits in real time, cut after-hours charting, and support HIPAA-ready clinical notes.',
     serviceType: 'Virtual Medical Scribe Service',
     problem: {
       question: 'How much time are your providers losing to documentation?',
@@ -812,12 +812,12 @@ If you don't see your system listed, ask us. We've likely integrated with it bef
     features: [
       {
         title: 'Real-Time Documentation',
-        description: 'Scribes document encounters as they happen via audio or video connection, so notes are done when the visit ends.',
+        description: 'The virtual scribe service documents encounters as they happen via audio or video, so notes are done when the visit ends.',
         icon: 'edit'
       },
       {
         title: 'EHR Integration',
-        description: 'Direct documentation into your EHR—Epic, Cerner, Athena, ModMed, and 50+ systems supported.',
+        description: 'Direct documentation into your EHR: Epic, Cerner, Athena, ModMed, and 50+ systems supported.',
         icon: 'link'
       },
       {
@@ -862,12 +862,12 @@ If you don't see your system listed, ask us. We've likely integrated with it bef
     ],
     extendedContent: {
       whatIs: {
-        title: 'What is a Virtual Medical Scribe?',
-        content: `A virtual medical scribe is a trained healthcare documentation specialist who works remotely to document patient encounters in real-time. Unlike in-person scribes who sit in the exam room, virtual scribes connect via audio or video to listen to patient encounters and complete clinical documentation as the visit happens.
+        title: 'What is a Virtual Scribe Service?',
+        content: `A virtual scribe service is a remote clinical documentation team. A trained scribe joins the visit by audio or video and writes the note in your EHR while you see the patient. The product is finished notes, not an extra body in the exam room.
 
-The documentation burden on healthcare providers has reached crisis levels. Providers spend an average of 2-3 hours daily on documentation—often after clinic hours, cutting into personal time and contributing to the burnout epidemic affecting 63% of physicians.
+Providers often spend 2-3 hours a day on documentation, much of it after clinic. That after-hours work is a common burnout driver. The figure we use on this page is 63% of physicians reporting burnout.
 
-My Business Care Team's virtual scribe service provides dedicated, specialty-trained scribes who handle your clinical documentation in real-time. When the patient visit ends, the note is complete. No more evening charting sessions. No more weekend catch-up. Just finished notes and time back in your day.`
+My Business Care Team virtual scribe service assigns a specialty-trained human scribe. When the visit ends, the note is ready for review. Evening charting and weekend catch-up should be the exception, not the default. Eye-care groups can pair this with <a href="/industries/optometry/">optometry patient-access support</a>. Administrative work that is not charting belongs on the <a href="/solutions/medical-virtual-assistant/">medical virtual assistant</a> page.`
       },
       howItWorks: {
         title: 'How Virtual Medical Scribing Works',
@@ -898,14 +898,14 @@ My Business Care Team's virtual scribe service provides dedicated, specialty-tra
 <strong>Cost-Conscious Practices:</strong> Virtual scribes typically cost 40-60% less than in-person scribes while delivering comparable documentation quality and time savings.`
       },
       comparison: {
-        title: 'Virtual Scribes vs In-Person Scribes vs AI Documentation',
-        content: `<strong>In-Person Scribes:</strong> Physical presence in the exam room allows for non-verbal cue capture and immediate clarification. But in-person scribes are expensive, require physical space, and are subject to availability and turnover issues.
+        title: 'Virtual Scribe Service vs In-Person Scribes vs AI Documentation',
+        content: `<strong>In-person scribes:</strong> A person in the room can catch non-verbal cues and ask a quick clarifying question. The cost, space, and turnover load are higher.
 
-<strong>AI Documentation (Ambient Listening):</strong> AI tools are improving but still struggle with medical accuracy, speaker identification, and complex clinical reasoning. They work best as first drafts requiring significant provider editing.
+<strong>AI documentation (ambient listening):</strong> Useful as a first draft. Accuracy, speaker identification, and clinical reasoning still need a provider edit.
 
-<strong>Voice Dictation:</strong> Provider dictation saves some time but still requires provider effort during or after encounters. It's faster than typing but not as efficient as having someone else document entirely.
+<strong>Voice dictation:</strong> Faster than typing. The provider still does the documentation work.
 
-<strong>My Business Care Team Virtual Scribes:</strong> Human intelligence with remote flexibility. Our scribes understand clinical context, ask clarifying questions when needed, and produce complete, accurate notes. Cost-effective and scalable without the space and staffing challenges of in-person scribes.`
+<strong>Virtual scribe service:</strong> A trained human writes the note remotely. You review and sign. Medical scribes are listed on the Enterprise row of <a href="/pricing/">published pricing</a> (Starting at $10/hr). That is a starting rate for the Enterprise tier, not a per-note quote. Ask for a scoped scribe plan if documentation is the job you need filled.`
       },
       faqs: [
         {
@@ -929,8 +929,20 @@ My Business Care Team's virtual scribe service provides dedicated, specialty-tra
           answer: 'You control the connection. Simply mute or disconnect when needed for sensitive discussions, and reconnect when ready to continue documentation.'
         },
         {
+          question: 'What is a virtual scribe service?',
+          answer: 'A virtual scribe service is a remote documentation team. A trained scribe listens to the visit and writes the clinical note in your EHR. You review and sign. The goal is same-day notes without hiring an in-room scribe.'
+        },
+        {
           question: 'What is the difference between a virtual scribe and a medical virtual assistant?',
-          answer: 'Virtual scribes own real-time clinical encounter documentation. Medical virtual assistants own non-clinical administrative workflows, including insurance verification, referral coordination, and billing follow-up.'
+          answer: 'Virtual scribes own real-time clinical encounter documentation. Medical virtual assistants own non-clinical administrative workflows, including insurance verification, referral coordination, and billing follow-up. Use the medical virtual assistant page if the work is admin, not charting.'
+        },
+        {
+          question: 'How much does a virtual scribe service cost?',
+          answer: 'This site does not publish a per-note scribe price. Medical scribes appear on the Enterprise tier at Starting at $10/hr on the pricing page. Treat that as a published starting rate, not a scribe quote. We will scope hours, specialty, and EHR before naming a number.'
+        },
+        {
+          question: 'Does a virtual scribe service work for optometry?',
+          answer: 'Yes, when the provider wants encounter notes written during clinic instead of after hours. Pair documentation with the optometry industry page if the front desk is the other bottleneck.'
         }
       ]
     }

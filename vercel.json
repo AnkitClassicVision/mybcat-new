@@ -125,6 +125,36 @@
   ],
   "redirects": [
     {
+      "source": "/Blog",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/Blog/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/Glossary",
+      "destination": "/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/Glossary/",
+      "destination": "/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/Solutions",
+      "destination": "/solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/Solutions/",
+      "destination": "/solutions/",
+      "permanent": true
+    },
+    {
       "source": "/blog/the-optometric-practice-valuation",
       "destination": "/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/",
       "permanent": true
