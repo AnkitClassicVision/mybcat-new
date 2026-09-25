@@ -6,8 +6,7 @@ description: How multi-location veterinary groups should evaluate answering serv
 seoDescription: A practical guide to veterinary answering service strategy for multi-location
   groups, including workflows, teletriage boundaries, and vendor selection.
 publishDate: '2026-09-21'
-status: scheduled
-scheduledDate: '2026-09-21'
+status: published
 seoTopicId: answering-service-veterinary
 author: Ankit Patel
 category: Technology

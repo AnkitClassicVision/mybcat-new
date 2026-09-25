@@ -16,7 +16,9 @@ concurrency:
 jobs:
   check-new-posts:
     name: Validate Today's Published Posts
-    runs-on: self-hosted
+    # GitHub-hosted. The self-hosted runner left this check queued, so it
+    # never produced a receipt. Keep it off that runner.
+    runs-on: ubuntu-latest
     env:
       AAC_AGENT_ID: mybcat-content-lifecycle
       AAC_HMAC_KEY: ${{ secrets.AAC_HMAC_KEY }}
@@ -36,6 +38,28 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Fail if today's due post is still scheduled
+        shell: bash
+        run: |
+          set +e
+          TODAY=$(date -u '+%Y-%m-%d')
+          echo "Due-today gate for $TODAY"
+          FAILED=0
+          for f in src/content/blog/*.md src/content/blog/*.mdx; do
+            [ -f "$f" ] || continue
+            SD=$(grep -m1 "^scheduledDate:" "$f" 2>/dev/null | grep -oP '\d{4}-\d{2}-\d{2}')
+            STATUS=$(grep -m1 "^status:" "$f" 2>/dev/null | grep -oP 'published|scheduled|draft')
+            if [ "$SD" = "$TODAY" ] && [ "$STATUS" = "scheduled" ]; then
+              echo "::error::Due today but still scheduled: $f"
+              FAILED=1
+            fi
+          done
+          if [ "$FAILED" -ne 0 ]; then
+            echo "::error::Today's post is still scheduled. Publishing did not commit."
+            exit 1
+          fi
+          echo "No due-today post is still scheduled."
 
       - name: Find posts published in last 48 hours
         id: find-new

@@ -6,8 +6,7 @@ description: 'Accounting for optometrists at enterprise scale: centralize revenu
 seoDescription: A multi-location guide to accounting for optometrists, with centralized
   reporting, revenue cycle inputs, dashboards, and rollout governance.
 publishDate: '2026-09-24'
-status: scheduled
-scheduledDate: '2026-09-24'
+status: published
 seoTopicId: accounting-for-optometrists
 author: Ankit Patel
 category: Technology

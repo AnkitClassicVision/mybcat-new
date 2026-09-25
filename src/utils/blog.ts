@@ -8,12 +8,11 @@ import type { CollectionEntry } from 'astro:content';
 /**
  * Check if a blog post should be visible on the site
  *
- * A post is visible if:
- * 1. status is 'published' AND publishDate is in the past/today
- * 2. status is 'scheduled' AND scheduledDate is in the past/today
- *
- * This prevents future-dated posts from appearing on the site
- * even if they're accidentally marked as 'published'.
+ * A post is visible only when status is 'published' and publishDate is
+ * in the past or today. A scheduled post stays off the site until the
+ * publisher commits status: published. A past scheduledDate must not
+ * make the page public, or a rebuild releases it while main still says
+ * scheduled.
  */
 export function isPostVisible(data: CollectionEntry<'blog'>['data']): boolean {
   const now = new Date();
@@ -24,13 +23,8 @@ export function isPostVisible(data: CollectionEntry<'blog'>['data']): boolean {
   }
 
   if (data.status === 'published') {
-    // Published posts must have a past/current publishDate
+    // Published posts must have a past or current publishDate.
     return data.publishDate <= now;
-  }
-
-  if (data.status === 'scheduled' && data.scheduledDate) {
-    // Scheduled posts become visible when scheduledDate passes
-    return new Date(data.scheduledDate) <= now;
   }
 
   return false;
