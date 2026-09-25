@@ -11,9 +11,16 @@ permissions:
   contents: write
   issues: write   # Needed for auto-remediation notification issue (#10 regression)
 
+concurrency:
+  group: scheduled-publish-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   publish:
-    runs-on: self-hosted
+    # GitHub-hosted. The repo self-hosted runner was offline for days and
+    # left this job queued until GitHub cancelled it. Do not move this job
+    # back to self-hosted unless that runner has a fresh online receipt.
+    runs-on: ubuntu-latest
     env:
       AAC_AGENT_ID: mybcat-content-lifecycle
       AAC_HMAC_KEY: ${{ secrets.AAC_HMAC_KEY }}

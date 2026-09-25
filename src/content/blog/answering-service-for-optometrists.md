@@ -6,8 +6,7 @@ description: How multi-location optometry groups can evaluate answering services
 seoDescription: Evaluate answering services for optometrists across access, scheduling,
   compliance, QA, and multi-location operating standards.
 publishDate: '2026-09-23'
-status: scheduled
-scheduledDate: '2026-09-23'
+status: published
 seoTopicId: answering-service-for-optometrists
 author: Ankit Patel
 category: Patient Care

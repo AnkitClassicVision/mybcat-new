@@ -31,9 +31,11 @@ const today = new Date().toISOString().split('T')[0];
 
 const args = process.argv.slice(2);
 const forceMode = args.includes('--force');
+const dryRun = args.includes('--dry-run');
 
 console.log(`Checking for posts scheduled on or before ${today}...`);
 if (forceMode) console.log('--force mode: publish cap disabled');
+if (dryRun) console.log('--dry-run: no files will be written');
 
 // Ensure blog directory exists
 if (!fs.existsSync(BLOG_DIR)) {
@@ -129,27 +131,47 @@ if (deferred.length > 0) {
   }
 }
 
+if (dryRun) {
+  console.log(`Dry run would publish ${toPublish.length} post(s).`);
+  for (const post of toPublish) {
+    console.log(`Would publish: ${post.file}`);
+    console.log(`  status: scheduled -> published`);
+    console.log(`  publishDate: ${post.scheduledDate}`);
+    console.log(`  scheduledDate: removed`);
+  }
+  for (const post of deferred) {
+    console.log(`Would leave scheduled: ${post.file} (${post.scheduledDate})`);
+  }
+  process.exit(0);
+}
+
 // Publish posts
 let publishedCount = 0;
 const publishedSlugs = [];
 
 for (const post of toPublish) {
   const content = fs.readFileSync(post.filePath, 'utf8');
-  const { data, content: body } = matter(content);
 
   console.log(`Publishing: ${post.file}`);
 
-  // publishDate should reflect the day the post actually goes live.
-  // The scheduler can fall behind when quality gates or runner queues block a run;
-  // using scheduledDate here backdates overdue posts and makes the 48-hour health
-  // check falsely report "No New Posts" even after a successful publish.
-  data.publishDate = new Date().toISOString();
-
-  data.status = 'published';
-  delete data.scheduledDate;
-
-  const newContent = matter.stringify(body, data);
-  fs.writeFileSync(post.filePath, newContent);
+  // Keep the scheduled calendar day and the article body. A late runner
+  // must not move publishDate to the run day or reflow the post.
+  const newline = content.includes('\r\n') ? '\r\n' : '\n';
+  const lines = content.split(/\r?\n/);
+  const nextLines = [];
+  for (const line of lines) {
+    if (/^scheduledDate:/.test(line)) continue;
+    if (/^status:\s*['"]?scheduled['"]?\s*$/.test(line)) {
+      nextLines.push('status: published');
+      continue;
+    }
+    if (/^publishDate:/.test(line)) {
+      nextLines.push(`publishDate: '${post.scheduledDate}'`);
+      continue;
+    }
+    nextLines.push(line);
+  }
+  fs.writeFileSync(post.filePath, nextLines.join(newline));
 
   publishedCount++;
   publishedSlugs.push(post.file.replace(/\.(md|mdx)$/, ''));
