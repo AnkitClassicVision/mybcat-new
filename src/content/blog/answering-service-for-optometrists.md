@@ -17,8 +17,13 @@ tags:
 cluster: patient-communications
 featuredImage: /images/blog/answering-service-for-optometrists.webp
 canonical: https://mybcat.com/blog/answering-service-for-optometrists/
-targetKeyword: "answering service for optometrists"
+targetKeyword: answering service for optometrists
+relatedPosts:
+- urgent-care-call-volume-management-multi-location
+- after-hours-medical-answering-sla-group-practices
+- dental-practice-phone-call-handling-best-practices-2
 ---
+
 ## Table of Contents
 
 - [Why Optometry Groups Need More Than Basic Message Taking](#why-optometry-groups-need-more-than-basic-message-taking)

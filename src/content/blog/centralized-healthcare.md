@@ -18,8 +18,13 @@ tags:
 cluster: enterprise
 featuredImage: /images/blog/centralized-healthcare.webp
 canonical: https://mybcat.com/blog/centralized-healthcare/
-targetKeyword: "centralized healthcare"
+targetKeyword: centralized healthcare
+relatedPosts:
+- dermatology-patient-access-operations-multi-site-clinics
+- front-office-consolidation-change-management
+- enterprise-patient-access-center-implementation
 ---
+
 ## Table of Contents
 
 - [What Does Centralized Healthcare Mean at Enterprise Scale?](#what-does-centralized-healthcare-mean-at-enterprise-scale)

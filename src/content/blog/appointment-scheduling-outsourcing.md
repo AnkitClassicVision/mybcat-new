@@ -18,8 +18,13 @@ tags:
 cluster: bpo-outsourcing
 featuredImage: /images/blog/appointment-scheduling-outsourcing.webp
 canonical: https://mybcat.com/blog/appointment-scheduling-outsourcing/
-targetKeyword: "appointment scheduling outsourcing"
+targetKeyword: appointment scheduling outsourcing
+relatedPosts:
+- vendor-evaluation-patient-access-outsourcing
+- front-desk-outsourcing-multi-location-practices
+- healthcare-call-center-outsourcing-multi-location
 ---
+
 ## Table of Contents
 
 - [What Is Appointment Scheduling Outsourcing at Scale?](#what-is-appointment-scheduling-outsourcing-at-scale)

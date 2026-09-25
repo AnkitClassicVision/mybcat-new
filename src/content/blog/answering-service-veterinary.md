@@ -17,8 +17,13 @@ tags:
 cluster: veterinary
 featuredImage: /images/blog/answering-service-veterinary.webp
 canonical: https://mybcat.com/blog/answering-service-veterinary/
-targetKeyword: "answering service veterinary"
+targetKeyword: answering service veterinary
+relatedPosts:
+- multi-location-veterinary-appointment-reminders
+- veterinary-practice-technology
+- animal-hospital-patient-intake
 ---
+
 ## Table of Contents
 
 - [What An Answering Service Veterinary Groups Actually Needs To Do](#what-an-answering-service-veterinary-groups-actually-needs-to-do)

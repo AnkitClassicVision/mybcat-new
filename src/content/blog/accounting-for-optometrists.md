@@ -18,8 +18,13 @@ tags:
 cluster: optometry
 featuredImage: /images/blog/accounting-for-optometrists.webp
 canonical: https://mybcat.com/blog/accounting-for-optometrists/
-targetKeyword: "accounting for optometrists"
+targetKeyword: accounting for optometrists
+relatedPosts:
+- optometry-front-office-standardization-group-practices
+- optometry-recall-automation-multi-location-groups
+- virtual-receptionist-vs-front-desk-optometry
 ---
+
 ## Table of Contents
 
 - [Why Does Accounting for Optometrists Change at Scale?](#why-does-accounting-for-optometrists-change-at-scale)
