@@ -18,8 +18,13 @@ tags:
 cluster: starting-practice
 featuredImage: /images/blog/optometrist-equipment.webp
 canonical: https://mybcat.com/blog/optometrist-equipment/
-targetKeyword: "optometrist equipment"
+targetKeyword: optometrist equipment
+relatedPosts:
+- first-year-financial-planning-optometry
+- location-selection-optometric-practices
+- staffing-new-optometry-practice
 ---
+
 ## Table of Contents
 
 - [How Should Enterprise Teams Define Optometrist Equipment Standards?](#how-should-enterprise-teams-define-optometrist-equipment-standards)
