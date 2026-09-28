@@ -4,6 +4,7 @@ import Nav from '@/components/Nav.astro';
 import Footer from '@/components/Footer.astro';
 import GoogleTagManager from '@/components/GoogleTagManager.astro';
 import GoogleTagManagerNoScript from '@/components/GoogleTagManagerNoScript.astro';
+import PostHog from '@/components/PostHog.astro';
 import { company } from '@data/company';
 
 interface Props {
@@ -182,6 +183,9 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <!-- PostHog client-side analytics. Same component as BaseLayout. -->
+  <PostHog />
 
   <slot name="head" />
 </head>
