@@ -5,6 +5,7 @@
  */
 import Card from '@/components/Card.astro';
 import Button from '@/components/Button.astro';
+import IndustryDescription from '@/components/IndustryDescription.astro';
 import { industries, type Industry } from '@data/industries';
 
 interface Props {
@@ -49,7 +50,8 @@ const icons: Record<string, string> = {
           <Fragment set:html={icons[industry.icon] || icons.shield} />
         </div>
         <h3 class="industry-name">{industry.name}</h3>
-        <p class="industry-description">{industry.description}</p>
+        <!-- This card is not wrapped in an anchor. Do not pass descriptionParts into a card that is. -->
+        <IndustryDescription description={industry.description} parts={industry.descriptionParts} class="industry-description" />
         {showLinks && (
           <a href={`/industries/${industry.slug}/`} class="industry-link">
             Explore {industry.name}
@@ -142,11 +144,16 @@ const icons: Record<string, string> = {
     margin-bottom: 8px;
   }
 
-  .industry-description {
+  :global(.industry-description) {
     font-size: 0.95rem;
     color: var(--text-secondary);
     line-height: 1.6;
     margin-bottom: 16px;
+  }
+
+  :global(.industry-description a) {
+    color: var(--oceanic-teal);
+    text-decoration: underline;
   }
 
   .industry-link {

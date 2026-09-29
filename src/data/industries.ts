@@ -3,6 +3,10 @@
  * Each industry has specific pain points, solutions, and messaging
  */
 
+export type DescriptionPart =
+  | { type: 'text'; value: string }
+  | { type: 'link'; text: string; href: string };
+
 export interface Industry {
   slug: string;
   name: string;
@@ -11,7 +15,8 @@ export interface Industry {
   headline: string;
   seoTitle?: string;  // Optional <title> override; falls back to templated title in [slug].astro
   heroCta?: { text: string; href: string };  // Optional hero CTA override; falls back to Get Started -> /contact/
-  description: string;
+  description: string;  // Plain text only. The industries hub wraps this in a card link, so HTML here prints as raw tags.
+  descriptionParts?: DescriptionPart[];  // Same words as description, with real links, for surfaces that are not already inside an anchor.
   tldr: string;  // 40-60 word summary for SEO answer-friendliness
   metaDescription: string;
   patientAcquisition: {
@@ -42,7 +47,18 @@ export const industries: Industry[] = [
     headline: 'Optometry Virtual Assistants, Answering & Patient Intake',
     seoTitle: 'Optometry Virtual Assistants & Answering Service | MyBCAT',
     heroCta: { text: 'Book a Discovery Call', href: '/contact/?utm_source=seo&utm_medium=industries-optometry&utm_campaign=theme-operations' },
-    description: 'Dedicated answering service and patient intake for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences. Need a dedicated VA instead? See our <a href="/solutions/optometry-virtual-assistant/">optometry virtual assistant service</a>. Comparing hourly VAs such as Hello Rache? Read the <a href="/compare/vs-hello-rache/">Hello Rache vs MyBCAT comparison</a>. Owners weighing a sale can start with the <a href="/blog/the-complete-guide-to-running-a-private-optometric-practice/">private practice operations guide</a> or the <a href="/blog/guide-for-selling-your-optometry-practice/">optometry practice sale guide</a>.',
+    description: 'Dedicated answering service and patient intake for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences. Need a dedicated VA instead? See our optometry virtual assistant service. Comparing hourly VAs such as Hello Rache? Read the Hello Rache vs MyBCAT comparison. Owners weighing a sale can start with the private practice operations guide or the optometry practice sale guide.',
+    descriptionParts: [
+      { type: 'text', value: 'Dedicated answering service and patient intake for optometry and ophthalmology practices. We understand VSP vs EyeMed, medical vs routine visits, and provider scheduling preferences. Need a dedicated VA instead? See our ' },
+      { type: 'link', text: 'optometry virtual assistant service', href: '/solutions/optometry-virtual-assistant/' },
+      { type: 'text', value: '. Comparing hourly VAs such as Hello Rache? Read the ' },
+      { type: 'link', text: 'Hello Rache vs MyBCAT comparison', href: '/compare/vs-hello-rache/' },
+      { type: 'text', value: '. Owners weighing a sale can start with the ' },
+      { type: 'link', text: 'private practice operations guide', href: '/blog/the-complete-guide-to-running-a-private-optometric-practice/' },
+      { type: 'text', value: ' or the ' },
+      { type: 'link', text: 'optometry practice sale guide', href: '/blog/guide-for-selling-your-optometry-practice/' },
+      { type: 'text', value: '.' },
+    ],
     tldr: 'My Business Care Team provides optometry-specific phone answering and scheduling services. We understand VSP vs EyeMed insurance, route medical vs routine visits correctly, and book directly into Eyefinity, RevolutionEHR, and other eye care systems. Practices typically recover $127K+ in annual revenue from missed calls.',
     metaDescription: 'HIPAA-trained optometry patient access teams manage scheduling, insurance verification, and recall workflows across multi-location eye care groups.',
     patientAcquisition: {
@@ -324,4 +340,14 @@ export function getIndustryBySlug(slug: string): Industry | undefined {
 
 export function getAllIndustrySlugs(): string[] {
   return industries.map(i => i.slug);
+}
+
+for (const industry of industries) {
+  if (!industry.descriptionParts) continue;
+  const fromParts = industry.descriptionParts
+    .map((part) => (part.type === 'link' ? part.text : part.value))
+    .join('');
+  if (fromParts !== industry.description) {
+    throw new Error(`descriptionParts drifted from description for ${industry.slug}`);
+  }
 }
