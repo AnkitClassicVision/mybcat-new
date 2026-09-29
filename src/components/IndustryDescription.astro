@@ -1,0 +1,21 @@
+---
+import type { DescriptionPart } from '@data/industries';
+
+interface Props {
+  description: string;
+  parts?: DescriptionPart[];
+  class?: string;
+}
+
+const { description, parts, class: className } = Astro.props;
+---
+
+<p class={className}>
+  {
+    parts && parts.length > 0
+      ? parts.map((part) =>
+          part.type === 'link' ? <a href={part.href}>{part.text}</a> : part.value
+        )
+      : description
+  }
+</p>
