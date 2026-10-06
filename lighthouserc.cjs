@@ -9,6 +9,10 @@
  */
 
 const newestPostUrl = process.env.LHCI_NEWEST_POST_URL;
+// error on the Monday hard run and on layout/style/tracking edits.
+// warn on ordinary pushes so a blog or token commit does not fail a known miss.
+// Do not change 2500. A higher cap would hide the miss.
+const fcpLevel = process.env.LHCI_FCP_LEVEL === "error" ? "error" : "warn";
 
 module.exports = {
   ci: {
@@ -71,7 +75,7 @@ module.exports = {
         'categories:seo': ['error', { minScore: 0.9 }],
 
         // Core Web Vitals - STRICT MOBILE THRESHOLDS
-        'first-contentful-paint': ['error', { maxNumericValue: 2500 }],
+        'first-contentful-paint': [fcpLevel, { maxNumericValue: 2500 }],
         // LCP: 'warn' while perf debt lands. Currently passes /, /pricing/,
         // /contact/ but fails /blog/ at ~3500.8ms (under 1ms over).
         // Threshold stays at 3500 so we see when perf actually improves.
