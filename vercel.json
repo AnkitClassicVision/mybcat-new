@@ -4350,6 +4350,14 @@
     {
       "source": "/forms/intake",
       "destination": "https://gmd394shy4.execute-api.us-east-1.amazonaws.com/forms/intake"
+    },
+    {
+      "source": "/mcp",
+      "destination": "https://front-desk-planner-mcp.vercel.app/mcp"
+    },
+    {
+      "source": "/mcp/",
+      "destination": "https://front-desk-planner-mcp.vercel.app/mcp"
     }
   ]
 }
