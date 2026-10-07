@@ -5,6 +5,10 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  schedule:
+    # Monday 10:00 America/New_York. This is the hard paint check.
+    - cron: '0 14 * * 1'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -14,6 +18,7 @@ jobs:
   lighthouse:
     runs-on: self-hosted
     env:
+      GH_TOKEN: ${{ github.token }}
       AAC_AGENT_ID: mybcat-content-lifecycle
       AAC_HMAC_KEY: ${{ secrets.AAC_HMAC_KEY }}
       AAC_INGEST_ENDPOINT: ${{ vars.AAC_INGEST_ENDPOINT }}
@@ -45,6 +50,26 @@ jobs:
           newest_post_slug="${newest_post_slug##*/}"
           printf 'LHCI_NEWEST_POST_URL=%s\n' "$newest_post_url" >> "$GITHUB_ENV"
           printf '## Lighthouse dynamic article\n\n- Selected slug: `%s`\n' "$newest_post_slug" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Decide paint gate
+        shell: bash
+        run: |
+          files=""
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            files="$(gh api --paginate "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" --jq '.[].filename')"
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            before="${{ github.event.before }}"
+            if [ -n "$before" ] && [ "$before" != "0000000000000000000000000000000000000000" ]; then
+              files="$(gh api --paginate "repos/${{ github.repository }}/compare/${before}...${{ github.sha }}" --jq '.files[].filename')"
+            fi
+          fi
+          level="$(node scripts/lighthouse-paint-gate.mjs --event "${{ github.event_name }}" --files "$files")"
+          case "$level" in
+            error|warn) ;;
+            *) echo "Unknown paint gate: $level" >&2; exit 2 ;;
+          esac
+          printf 'LHCI_FCP_LEVEL=%s\n' "$level" >> "$GITHUB_ENV"
+          printf '## Paint gate\n\n- Level: `%s`\n- Event: `%s`\n' "$level" "${{ github.event_name }}" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v11
