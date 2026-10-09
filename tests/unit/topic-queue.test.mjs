@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { evaluateQueue, evaluateRun, evaluateScheduledPosts } from '../../scripts/validate-seo-topic-queue.mjs';
+import { evaluateQueue, evaluateRun, evaluateScheduledPosts, evaluatePublishRelease } from '../../scripts/validate-seo-topic-queue.mjs';
 
 function validQueue() {
   const funnels = ['acquisition', 'acquisition', 'acquisition', 'acquisition', 'acquisition', 'service', 'service', 'acquisition', 'acquisition', 'acquisition', 'acquisition', 'acquisition', 'service', 'service'];
@@ -156,4 +156,22 @@ test('scheduled topic without approval fails even when the queue meets global mi
   }]);
   assert.equal(result.ok, false);
   assert.deepEqual(result.issues, ['RED_SCHEDULED_POST_NOT_APPROVED:unapproved.md']);
+});
+
+test('release ignores an expired opportunity window when the scheduled post is already approved', () => {
+  const queue = validQueue();
+  queue.opportunity_feed_as_of = '2026-01-01T00:00:00Z';
+  const files = [{ name: 'good.md', content: 'status: scheduled\nseoTopicId: topic-1\n' }];
+  const release = evaluatePublishRelease(queue, files);
+  assert.equal(release.ok, true);
+  assert.deepEqual(release.issues, []);
+  assert.ok(release.intake_issues.includes('RED_STALE_OPPORTUNITY_FEED'));
+  assert.equal(evaluateQueue(queue, new Date('2026-08-11T13:00:00Z')).ok, false);
+});
+
+test('release still rejects a scheduled post with no approval link', () => {
+  const queue = validQueue();
+  const release = evaluatePublishRelease(queue, [{ name: 'bad.md', content: 'status: scheduled\n' }]);
+  assert.equal(release.ok, false);
+  assert.ok(release.issues[0].startsWith('RED_SCHEDULED_POST_NOT_APPROVED'));
 });
