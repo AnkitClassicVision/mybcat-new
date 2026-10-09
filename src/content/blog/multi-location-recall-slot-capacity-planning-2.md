@@ -5,9 +5,10 @@ description: A capacity-planning framework for DSOs and healthcare groups prepar
   recall or reactivation outreach across multiple locations.
 seoDescription: Plan recall slot capacity before a group reactivation blast with a
   practical framework for multi-location healthcare operators.
-publishDate: '2026-09-28'
+publishDate: '2026-10-09'
 status: scheduled
-scheduledDate: '2026-09-28'
+seoTopicId: multi-location-recall-slot-capacity-planning-2
+scheduledDate: '2026-10-09'
 author: Ankit Patel
 category: Practice Growth
 tags:

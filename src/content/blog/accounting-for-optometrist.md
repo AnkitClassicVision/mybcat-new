@@ -5,9 +5,10 @@ description: Accounting for optometrist groups at scale means centralizing contr
   revenue cycle inputs, and reporting across multi-location operations.
 seoDescription: Accounting for optometrist groups at scale requires centralized controls,
   revenue cycle visibility, and reporting discipline across locations.
-publishDate: '2026-10-14'
+publishDate: '2026-10-21'
 status: scheduled
-scheduledDate: '2026-10-14'
+seoTopicId: accounting-for-optometrist
+scheduledDate: '2026-10-21'
 author: Ankit Patel
 category: Technology
 tags:

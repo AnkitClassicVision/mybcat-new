@@ -5,9 +5,10 @@ description: A practical guide to location routing rules for centralized patient
   across multi-location healthcare groups.
 seoDescription: Build location routing rules for centralized patient access across
   multi-location healthcare groups without losing local nuance.
-publishDate: '2026-10-07'
+publishDate: '2026-10-16'
 status: scheduled
-scheduledDate: '2026-10-07'
+seoTopicId: location-routing-rules-centralized-patient-access-2
+scheduledDate: '2026-10-16'
 author: Ankit Patel
 category: Business
 tags:

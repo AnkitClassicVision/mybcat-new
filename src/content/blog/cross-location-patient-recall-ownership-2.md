@@ -5,9 +5,10 @@ description: Cross-location patient recall ownership playbook for multi-location
   groups centralizing recall accountability, QA, and reporting.
 seoDescription: Cross-location patient recall ownership guidance for enterprise groups
   standardizing recall roles, centralized workflows, QA, and reporting.
-publishDate: '2026-09-29'
+publishDate: '2026-10-10'
 status: scheduled
-scheduledDate: '2026-09-29'
+seoTopicId: cross-location-patient-recall-ownership-2
+scheduledDate: '2026-10-10'
 author: Ankit Patel
 category: Practice Growth
 tags:

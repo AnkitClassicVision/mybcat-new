@@ -5,9 +5,10 @@ description: Same-day cancellation backfill call center playbook for enterprise 
   centralizing waitlists, QA, SLA calibration, and reporting at scale.
 seoDescription: Use a same-day cancellation backfill call center to standardize cancellation
   recovery, waitlist outreach, QA, and reporting across 3+ locations.
-publishDate: '2026-10-06'
+publishDate: '2026-10-15'
 status: scheduled
-scheduledDate: '2026-10-06'
+seoTopicId: same-day-cancellation-backfill-call-center-2
+scheduledDate: '2026-10-15'
 author: Ankit Patel
 category: Practice Growth
 tags:

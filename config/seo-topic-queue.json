@@ -1,12 +1,12 @@
 {
   "schema_version": "seo-topic-queue.v2",
   "classification": "UNROOMED / INTERNAL-ONLY / NOT FOR EXTERNAL USE",
-  "opportunity_feed_as_of": "2026-09-20T16:00:00Z",
+  "opportunity_feed_as_of": "2026-10-08T22:26:00Z",
   "stale_after_hours": 48,
   "publication_window": {
     "approved_by": "Ankit",
-    "approved_at": "2026-09-20T18:00:00Z",
-    "valid_through": "2026-09-30T10:00:00Z"
+    "approved_at": "2026-10-08T22:30:00Z",
+    "valid_through": "2026-10-17T22:30:00Z"
   },
   "minimum_approved_topics": 14,
   "minimum_draft_ready": 14,
@@ -1563,6 +1563,1059 @@
       "research_reviewed_at": "2026-09-20",
       "cannibalization_reviewed": true,
       "claims_reviewed": true
+    },
+    {
+      "id": "multi-location-recall-slot-capacity-planning-2",
+      "slot": 21,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "How DSOs Size Recall Capacity Before a Blast",
+      "keyword": "multi-location recall slot capacity planning",
+      "suggested_title": "How DSOs Size Recall Capacity Before a Blast",
+      "slug": "multi-location-recall-slot-capacity-planning-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/health-promotion-education/cahps-strategy-6-r.pdf",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "multi-location recall slot capacity planning"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/articles/streamlining-scheduling-workflows-to-improve-appointment-capacity",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "multi-location recall slot capacity planning"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "multi-location recall slot capacity planning"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/recare-appointments",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "multi-location recall slot capacity planning"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/measuring-success20160428t155202",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "multi-location recall slot capacity planning"
+        }
+      ],
+      "evidence_packet": "scheduled-post:multi-location-recall-slot-capacity-planning-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "cross-location-patient-recall-ownership-2",
+      "slot": 22,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Cross-Location Patient Recall Ownership at Scale",
+      "keyword": "cross-location patient recall ownership",
+      "suggested_title": "Cross-Location Patient Recall Ownership at Scale",
+      "slug": "cross-location-patient-recall-ownership-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/recare-appointments",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "cross-location patient recall ownership"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "cross-location patient recall ownership"
+        },
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/sites/default/files/publications2/files/practice-facilitation-handbook.pdf",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "cross-location patient recall ownership"
+        },
+        {
+          "title": "www.optometricmanagement.com",
+          "publisher": "www.optometricmanagement.com",
+          "url": "https://www.optometricmanagement.com/issues/2021/march/implement-a-patient-recall-system/",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "cross-location patient recall ownership"
+        },
+        {
+          "title": "pubmed.ncbi.nlm.nih.gov",
+          "publisher": "pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23576590",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "cross-location patient recall ownership"
+        }
+      ],
+      "evidence_packet": "scheduled-post:cross-location-patient-recall-ownership-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "unscheduled-treatment-reactivation-dental-groups-2",
+      "slot": 23,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Unscheduled Treatment Reactivation Dental Groups",
+      "keyword": "unscheduled treatment reactivation dental groups",
+      "suggested_title": "Unscheduled Treatment Reactivation Dental Groups",
+      "slug": "unscheduled-treatment-reactivation-dental-groups-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.cda.org",
+          "publisher": "www.cda.org",
+          "url": "https://www.cda.org/newsroom/leadership-and-practice-ownership/how-to-fill-the-patient-schedule-in-the-dental-practice/",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "unscheduled treatment reactivation dental groups"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/recare-appointments",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "unscheduled treatment reactivation dental groups"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/active-vs-inactive-patients",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "unscheduled treatment reactivation dental groups"
+        },
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/health-literacy/improve/precautions/tool6.html",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "unscheduled treatment reactivation dental groups"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/case-presentations",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "unscheduled treatment reactivation dental groups"
+        }
+      ],
+      "evidence_packet": "scheduled-post:unscheduled-treatment-reactivation-dental-groups-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "recall-list-data-hygiene-multi-location-ehr-2",
+      "slot": 24,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Recall List Data Hygiene Multi-Location EHR",
+      "keyword": "recall list data hygiene multi-location EHR",
+      "suggested_title": "Recall List Data Hygiene Multi-Location EHR",
+      "slug": "recall-list-data-hygiene-multi-location-ehr-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "healthit.gov",
+          "publisher": "healthit.gov",
+          "url": "https://healthit.gov/wp-content/uploads/2025/01/Safer-Guide-6.-Patient-Identification-Final.pdf",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "recall list data hygiene multi-location EHR"
+        },
+        {
+          "title": "healthit.gov",
+          "publisher": "healthit.gov",
+          "url": "https://healthit.gov/standards-and-technology/patient-identity-and-patient-record-matching",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "recall list data hygiene multi-location EHR"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/recare-appointments",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "recall list data hygiene multi-location EHR"
+        },
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/health-promotion-education/strategy6r-reminder-systems.html",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "recall list data hygiene multi-location EHR"
+        },
+        {
+          "title": "pmc.ncbi.nlm.nih.gov",
+          "publisher": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4832129/",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "recall list data hygiene multi-location EHR"
+        }
+      ],
+      "evidence_packet": "scheduled-post:recall-list-data-hygiene-multi-location-ehr-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "centralized-call-overflow-routing-healthcare-groups-2",
+      "slot": 25,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Centralized Call Overflow Routing for Healthcare Groups",
+      "keyword": "centralized call overflow routing healthcare groups",
+      "suggested_title": "Centralized Call Overflow Routing for Healthcare Groups",
+      "slug": "centralized-call-overflow-routing-healthcare-groups-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/professionals/quality-patient-safety/quality-resources/tools/literacy-toolkit/healthlittoolkit2.pdf?pg=13",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "centralized call overflow routing healthcare groups"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/mgma-stat/patient-access-priorities-for-2026",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "centralized call overflow routing healthcare groups"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "centralized call overflow routing healthcare groups"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/articles/don-t-let-the-labor-shortage-hurt-your-patient-access",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "centralized call overflow routing healthcare groups"
+        },
+        {
+          "title": "pmc.ncbi.nlm.nih.gov",
+          "publisher": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8806007/",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "centralized call overflow routing healthcare groups"
+        }
+      ],
+      "evidence_packet": "scheduled-post:centralized-call-overflow-routing-healthcare-groups-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "insurance-verification-before-scheduling-patient-access-2",
+      "slot": 26,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Insurance Verification Before Scheduling Patient Access",
+      "keyword": "insurance verification before scheduling patient access",
+      "suggested_title": "Insurance Verification Before Scheduling Patient Access",
+      "slug": "insurance-verification-before-scheduling-patient-access-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.healthit.gov",
+          "publisher": "www.healthit.gov",
+          "url": "https://www.healthit.gov/sites/default/files/medicaid-eligibility-verification-service-specification-v1-011310.pdf",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "insurance verification before scheduling patient access"
+        },
+        {
+          "title": "www.cms.gov",
+          "publisher": "www.cms.gov",
+          "url": "https://www.cms.gov/priorities/key-initiatives/burden-reduction/administrative-simplification/operating-rules/eligibility-claim-status",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "insurance verification before scheduling patient access"
+        },
+        {
+          "title": "www.cms.gov",
+          "publisher": "www.cms.gov",
+          "url": "https://www.cms.gov/data-research/cms-information-technology/hipaa-eligibility-transaction-system",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "insurance verification before scheduling patient access"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/dental-insurance/pre-authorizations",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "insurance verification before scheduling patient access"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/articles/pre-verifying-eligibility-and-benefits",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "insurance verification before scheduling patient access"
+        }
+      ],
+      "evidence_packet": "scheduled-post:insurance-verification-before-scheduling-patient-access-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "same-day-cancellation-backfill-call-center-2",
+      "slot": 27,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Same-Day Cancellation Backfill Call Center Playbook",
+      "keyword": "same-day cancellation backfill call center",
+      "suggested_title": "Same-Day Cancellation Backfill Call Center Playbook",
+      "slug": "same-day-cancellation-backfill-call-center-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/mgma-stats/practice-leaders-report-their-biggest-challenges-with-appointments-are-no-shows-and-appointment-availability",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "same-day cancellation backfill call center"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/cancellations",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "same-day cancellation backfill call center"
+        },
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/issues/2017/january/maintain-a-full-schedule",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "same-day cancellation backfill call center"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/3-solutions-for-noshow-patients",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "same-day cancellation backfill call center"
+        },
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/health-promotion-education/cahps-strategy-6-r.pdf",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "same-day cancellation backfill call center"
+        }
+      ],
+      "evidence_packet": "scheduled-post:same-day-cancellation-backfill-call-center-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "location-routing-rules-centralized-patient-access-2",
+      "slot": 28,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "How PE-Backed Groups Route Calls",
+      "keyword": "location routing rules centralized patient access",
+      "suggested_title": "How PE-Backed Groups Route Calls",
+      "slug": "location-routing-rules-centralized-patient-access-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "location routing rules centralized patient access"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/fellowship-papers/improving-access-to-care-for-patients-and-referring-providers-through-centralized-scheduling",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "location routing rules centralized patient access"
+        },
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/access/strategy6a-openaccess.html",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "location routing rules centralized patient access"
+        },
+        {
+          "title": "pmc.ncbi.nlm.nih.gov",
+          "publisher": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11983827",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "location routing rules centralized patient access"
+        },
+        {
+          "title": "adanews.ada.org",
+          "publisher": "adanews.ada.org",
+          "url": "https://adanews.ada.org/ada-pubplus/custom-articles/from-silos-to-synergy-the-rise-of-connected-dentistry",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "location routing rules centralized patient access"
+        }
+      ],
+      "evidence_packet": "scheduled-post:location-routing-rules-centralized-patient-access-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "de-novo-location-patient-access-cutover-2",
+      "slot": 29,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "De Novo Location Patient Access Cutover Playbook",
+      "keyword": "de novo location patient access cutover",
+      "suggested_title": "De Novo Location Patient Access Cutover Playbook",
+      "slug": "de-novo-location-patient-access-cutover-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "healthit.gov",
+          "publisher": "healthit.gov",
+          "url": "https://healthit.gov/clinical-quality-and-safety/safer-guides/implementing-health-it",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "de novo location patient access cutover"
+        },
+        {
+          "title": "playbook.healthit.gov",
+          "publisher": "playbook.healthit.gov",
+          "url": "https://playbook.healthit.gov/playbook/electronic-health-records/",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "de novo location patient access cutover"
+        },
+        {
+          "title": "www.ama-assn.org",
+          "publisher": "www.ama-assn.org",
+          "url": "https://www.ama-assn.org/practice-management/claims-processing/how-select-practice-management-system",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "de novo location patient access cutover"
+        },
+        {
+          "title": "sfch.ucsfhealth.org",
+          "publisher": "sfch.ucsfhealth.org",
+          "url": "https://sfch.ucsfhealth.org/cutover-and-cutover-dry-runs",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "de novo location patient access cutover"
+        },
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/access/strategy6a-openaccess.html",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "de novo location patient access cutover"
+        }
+      ],
+      "evidence_packet": "scheduled-post:de-novo-location-patient-access-cutover-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "multi-site-patient-record-transfer-operations-2",
+      "slot": 30,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "How Groups Transfer Patient Records Between Sites",
+      "keyword": "multi-site patient record transfer operations",
+      "suggested_title": "How Groups Transfer Patient Records Between Sites",
+      "slug": "multi-site-patient-record-transfer-operations-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.hhs.gov",
+          "publisher": "www.hhs.gov",
+          "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/access/index.html",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "multi-site patient record transfer operations"
+        },
+        {
+          "title": "healthit.gov",
+          "publisher": "healthit.gov",
+          "url": "https://healthit.gov/standards-and-technology/patient-identity-and-patient-record-matching",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "multi-site patient record transfer operations"
+        },
+        {
+          "title": "playbook.healthit.gov",
+          "publisher": "playbook.healthit.gov",
+          "url": "https://playbook.healthit.gov/playbook/registrar/chapter-1",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "multi-site patient record transfer operations"
+        },
+        {
+          "title": "healthit.gov",
+          "publisher": "healthit.gov",
+          "url": "https://healthit.gov/health-it-basics/hie",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "multi-site patient record transfer operations"
+        },
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/issues/2022/june/what-is-a-health-information-exchange",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "multi-site patient record transfer operations"
+        }
+      ],
+      "evidence_packet": "scheduled-post:multi-site-patient-record-transfer-operations-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "medspa-membership-lapse-reactivation-multi-location-2",
+      "slot": 31,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Medspa Membership Lapse Reactivation Multi-Location",
+      "keyword": "medspa membership lapse reactivation multi-location",
+      "suggested_title": "Medspa Membership Lapse Reactivation Multi-Location",
+      "slug": "medspa-membership-lapse-reactivation-multi-location-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.americanmedspa.org",
+          "publisher": "www.americanmedspa.org",
+          "url": "https://www.americanmedspa.org/news/what-research-from-100-medspa-brands-reveals-about-growth-in-2026/",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "medspa membership lapse reactivation multi-location"
+        },
+        {
+          "title": "www.americanmedspa.org",
+          "publisher": "www.americanmedspa.org",
+          "url": "https://www.americanmedspa.org/news/the-pros-cons-of-membership-programs-for-medical-spas",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "medspa membership lapse reactivation multi-location"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/active-vs-inactive-patients",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "medspa membership lapse reactivation multi-location"
+        },
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/cahps/quality-improvement/improvement-guide/cahps-ambulatory-care-guide-full.pdf",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "medspa membership lapse reactivation multi-location"
+        },
+        {
+          "title": "www.ftc.gov",
+          "publisher": "www.ftc.gov",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/10/federal-trade-commission-announces-final-click-cancel-rule-making-it-easier-consumers-end-recurring",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "medspa membership lapse reactivation multi-location"
+        }
+      ],
+      "evidence_packet": "scheduled-post:medspa-membership-lapse-reactivation-multi-location-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "ent-group-referral-intake-call-center-2",
+      "slot": 32,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "ENT Group Referral Intake Call Center at Scale",
+      "keyword": "ENT group referral intake call center",
+      "suggested_title": "ENT Group Referral Intake Call Center at Scale",
+      "slug": "ent-group-referral-intake-call-center-2",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.mayoclinic.org",
+          "publisher": "www.mayoclinic.org",
+          "url": "https://www.mayoclinic.org/medical-professionals/otolaryngology/referrals",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "ENT group referral intake call center"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/webinars/where-referrals-leak-measuring-and-automating-the-patient-access-pipeline",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "ENT group referral intake call center"
+        },
+        {
+          "title": "psnet.ahrq.gov",
+          "publisher": "psnet.ahrq.gov",
+          "url": "https://psnet.ahrq.gov/issue/closing-loop-guide-safer-ambulatory-referrals-ehr-era",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "ENT group referral intake call center"
+        },
+        {
+          "title": "pmc.ncbi.nlm.nih.gov",
+          "publisher": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6302393/",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "ENT group referral intake call center"
+        },
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/access/strategy6g-rapid-referral.html",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "ENT group referral intake call center"
+        }
+      ],
+      "evidence_packet": "scheduled-post:ent-group-referral-intake-call-center-2",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
+    },
+    {
+      "id": "accounting-for-optometrist",
+      "slot": 33,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Accounting for Optometrist Groups at Enterprise Scale",
+      "keyword": "accounting for optometrist",
+      "suggested_title": "Accounting for Optometrist Groups at Enterprise Scale",
+      "slug": "accounting-for-optometrist",
+      "content_action": "scheduled-dispersal",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Dispersal approval for an already scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-08T22:26:00Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/owning-a-practice/managing-practice-finances",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "accounting for optometrist"
+        },
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/issues/2019/june/alliance-solutions-to-accounting-challenges/",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "accounting for optometrist"
+        },
+        {
+          "title": "prod.mgma.com",
+          "publisher": "prod.mgma.com",
+          "url": "https://prod.mgma.com/books/financial-management-for-medical-groups-3rd-edition",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "accounting for optometrist"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/practice-success-resources/aoa-billing-and-coding-help-desk",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "accounting for optometrist"
+        },
+        {
+          "title": "www.cms.gov",
+          "publisher": "www.cms.gov",
+          "url": "https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnproducts/mln-publications-items/cms1254655",
+          "accessed_at": "2026-10-08",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "accounting for optometrist"
+        }
+      ],
+      "evidence_packet": "scheduled-post:accounting-for-optometrist",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-08T22:30:00Z"
+      }
     }
   ]
 }

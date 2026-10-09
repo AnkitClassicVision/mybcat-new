@@ -5,9 +5,10 @@ description: A practical operating model for moving patient records between heal
   locations without creating access, matching, or compliance gaps.
 seoDescription: Build a safer multi-site patient record transfer workflow across locations
   with governance, intake standards, routing, and audit controls.
-publishDate: '2026-10-09'
+publishDate: '2026-10-18'
 status: scheduled
-scheduledDate: '2026-10-09'
+seoTopicId: multi-site-patient-record-transfer-operations-2
+scheduledDate: '2026-10-18'
 author: Ankit Patel
 category: Business
 tags:
