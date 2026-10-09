@@ -5,9 +5,10 @@ description: A de novo location patient access cutover playbook for multi-locati
   groups standardizing scheduling, intake, QA, and reporting before go-live.
 seoDescription: Use this de novo location patient access cutover guide to centralize
   scheduling, PMS readiness, QA, and rollout governance across sites.
-publishDate: '2026-10-08'
+publishDate: '2026-10-17'
 status: scheduled
-scheduledDate: '2026-10-08'
+seoTopicId: de-novo-location-patient-access-cutover-2
+scheduledDate: '2026-10-17'
 author: Ankit Patel
 category: Business
 tags:

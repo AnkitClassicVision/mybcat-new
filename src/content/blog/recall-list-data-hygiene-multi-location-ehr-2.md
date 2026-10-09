@@ -5,9 +5,10 @@ description: Recall list data hygiene multi-location EHR playbook for operators 
   patient matching, recall queues, QA, and reporting at scale.
 seoDescription: Recall list data hygiene multi-location EHR guidance for enterprise
   groups standardizing recall queues, patient matching, QA, and reporting.
-publishDate: '2026-10-01'
+publishDate: '2026-10-12'
 status: scheduled
-scheduledDate: '2026-10-01'
+seoTopicId: recall-list-data-hygiene-multi-location-ehr-2
+scheduledDate: '2026-10-12'
 author: Ankit Patel
 category: Practice Growth
 tags:

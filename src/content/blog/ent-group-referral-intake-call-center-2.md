@@ -5,9 +5,10 @@ description: 'Enterprise playbook for an ENT group referral intake call center: 
   referrals, calibrate SLAs, and standardize access across sites.'
 seoDescription: Learn how a multi-location ENT group referral intake call center standardizes
   referral capture, routing, QA, and reporting for enterprise teams.
-publishDate: '2026-10-13'
+publishDate: '2026-10-20'
 status: scheduled
-scheduledDate: '2026-10-13'
+seoTopicId: ent-group-referral-intake-call-center-2
+scheduledDate: '2026-10-20'
 author: Ankit Patel
 category: Business
 tags:

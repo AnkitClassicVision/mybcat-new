@@ -5,9 +5,10 @@ description: Insurance verification before scheduling patient access helps multi
   groups standardize intake, payer checks, and patient communication.
 seoDescription: Use insurance verification before scheduling patient access to align
   centralized intake, eligibility checks, QA, and reporting across sites for scale.
-publishDate: '2026-10-05'
+publishDate: '2026-10-14'
 status: scheduled
-scheduledDate: '2026-10-05'
+seoTopicId: insurance-verification-before-scheduling-patient-access-2
+scheduledDate: '2026-10-14'
 author: Ankit Patel
 category: Practice Growth
 tags:

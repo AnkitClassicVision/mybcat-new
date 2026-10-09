@@ -5,9 +5,10 @@ description: Centralized call overflow routing healthcare groups use to standard
   intake, QA, and reporting across multi-location operations.
 seoDescription: Centralized call overflow routing healthcare groups need for scalable
   intake, QA, routing governance, and enterprise reporting.
-publishDate: '2026-10-02'
+publishDate: '2026-10-13'
 status: scheduled
-scheduledDate: '2026-10-02'
+seoTopicId: centralized-call-overflow-routing-healthcare-groups-2
+scheduledDate: '2026-10-13'
 author: Ankit Patel
 category: Business
 tags:

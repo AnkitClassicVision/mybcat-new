@@ -5,9 +5,10 @@ description: Medspa membership lapse reactivation multi-location playbook for CO
   standardizing outreach, QA, and reporting across enterprise groups.
 seoDescription: Medspa membership lapse reactivation multi-location guide for enterprise
   teams centralizing retention workflows across locations.
-publishDate: '2026-10-12'
+publishDate: '2026-10-19'
 status: scheduled
-scheduledDate: '2026-10-12'
+seoTopicId: medspa-membership-lapse-reactivation-multi-location-2
+scheduledDate: '2026-10-19'
 author: Ankit Patel
 category: Practice Growth
 tags:

@@ -5,9 +5,10 @@ description: Unscheduled treatment reactivation dental groups need centralized o
   documentation discipline, QA, and reporting to manage follow-up at scale.
 seoDescription: Unscheduled treatment reactivation dental groups need centralized
   workflows, documentation discipline, QA, and enterprise reporting.
-publishDate: '2026-09-30'
+publishDate: '2026-10-11'
 status: scheduled
-scheduledDate: '2026-09-30'
+seoTopicId: unscheduled-treatment-reactivation-dental-groups-2
+scheduledDate: '2026-10-11'
 author: Ankit Patel
 category: Industry
 tags:
