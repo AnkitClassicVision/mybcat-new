@@ -17,7 +17,7 @@ function isDraftReady(topic, queue) {
     topic.cannibalization_reviewed === true;
 }
 
-function isPublishReady(topic, queue) {
+export function isPublishReady(topic, queue) {
   return isDraftReady(topic, queue) &&
     topic.status === 'publish_ready' &&
     topic.claims_reviewed === true;
@@ -120,6 +120,21 @@ export function evaluateRun(run) {
   return { ok: issues.length === 0, issues };
 }
 
+export function evaluatePublishRelease(queue, files) {
+  const scheduled = evaluateScheduledPosts(queue, files);
+  const intake = evaluateQueue(queue);
+  return {
+    ok: scheduled.ok,
+    issues: scheduled.issues,
+    intake_issues: intake.issues,
+    required_readiness: 'publish_ready',
+    counts: {
+      scheduled_posts: scheduled.scheduled_posts,
+      publish_ready: intake.counts.publish_ready,
+    },
+  };
+}
+
 export function evaluateScheduledPosts(queue, files) {
   const issues = [];
   const topicById = new Map((queue?.topics || []).map((topic) => [topic.id, topic]));
@@ -149,13 +164,18 @@ function main() {
     process.exitCode = 2;
     return;
   }
-  const result = evaluateQueue(queue, new Date(), requiredReadiness);
-  if (scheduledDirIndex !== -1) {
-    const scheduledDir = process.argv[scheduledDirIndex + 1];
-    const files = fs.readdirSync(scheduledDir)
-      .filter((name) => /\.mdx?$/.test(name))
-      .map((name) => ({ name, content: fs.readFileSync(path.join(scheduledDir, name), 'utf8') }));
-    const scheduledResult = evaluateScheduledPosts(queue, files);
+  const release = process.argv.includes('--release');
+  const scheduledFiles = scheduledDirIndex === -1 ? [] : fs.readdirSync(process.argv[scheduledDirIndex + 1])
+    .filter((name) => /\.mdx?$/.test(name))
+    .map((name) => ({
+      name,
+      content: fs.readFileSync(path.join(process.argv[scheduledDirIndex + 1], name), 'utf8'),
+    }));
+  const result = release
+    ? evaluatePublishRelease(queue, scheduledFiles)
+    : evaluateQueue(queue, new Date(), requiredReadiness);
+  if (!release && scheduledDirIndex !== -1) {
+    const scheduledResult = evaluateScheduledPosts(queue, scheduledFiles);
     result.issues.push(...scheduledResult.issues);
     result.ok = result.issues.length === 0;
     result.counts.scheduled_posts = scheduledResult.scheduled_posts;

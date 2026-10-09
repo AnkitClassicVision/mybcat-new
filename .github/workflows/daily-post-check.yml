@@ -57,6 +57,7 @@ jobs:
           done
           if [ "$FAILED" -ne 0 ]; then
             echo "::error::Today's post is still scheduled. Publishing did not commit."
+            node scripts/validate-seo-topic-queue.mjs config/seo-topic-queue.json --scheduled-dir src/content/blog --release || true
             exit 1
           fi
           echo "No due-today post is still scheduled."
