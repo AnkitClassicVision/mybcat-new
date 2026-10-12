@@ -6,9 +6,11 @@
 import PageLayout from '@/layouts/PageLayout.astro';
 import Card from '@/components/Card.astro';
 import Button from '@/components/Button.astro';
+import { company } from '@data/company';
 
 const pageTitle = 'Careers: Healthcare Operations Jobs';
 const pageDescription = 'Join the mybcat team and help healthcare practices grow. Explore career opportunities in patient coordination, operations, and technology.';
+const careersHref = `mailto:${company.email}?subject=${encodeURIComponent('Careers at MyBCAT')}`;
 
 interface JobOpening {
   title: string;
@@ -163,7 +165,7 @@ const benefits = [
                   ))}
                 </ul>
               </div>
-              <Button href="/contact/">
+              <Button href={careersHref}>
                 Apply Now
               </Button>
             </Card>
@@ -182,7 +184,7 @@ const benefits = [
               <p>
                 Send us your resume and tell us why you'd be a great fit for mybcat.
               </p>
-              <Button href="/contact/">
+              <Button href={careersHref}>
                 Get In Touch
               </Button>
             </div>
@@ -196,7 +198,7 @@ const benefits = [
       <div class="contact-content">
         <h2>Questions About Careers?</h2>
         <p>
-          <a href="/contact/">Reach out to our team</a>
+          <a href={careersHref}>Email our team</a>
         </p>
       </div>
     </section>
