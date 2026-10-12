@@ -1,0 +1,119 @@
+name: Foundry content review
+on:
+  push:
+    branches: [codex/mybcat-seo-repair-20260907]
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/content/blog/healthcare-group-operations-benchmarks.md'
+      - 'src/content/blog/healthcare-call-center-roi-enterprise.md'
+      - 'src/content/blog/soc2-medical-answering-service-enterprise-healthcare.md'
+      - '.github/workflows/foundry-content-review.yml'
+permissions:
+  contents: read
+concurrency:
+  group: foundry-content-review-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  content-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      BASE_REF: ${{ github.event.pull_request.base.sha || '12b6923e994923cc59a83da8c0f3bc4dae62f725' }}
+      CI: 'true'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Capture bounded source evidence, never operational state or credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p review-evidence
+          git rev-parse HEAD > review-evidence/source-commit.txt
+          git ls-tree -r --name-only HEAD > review-evidence/tracked-paths.txt
+          paths=()
+          for p in src scripts package.json package-lock.json astro.config.mjs tsconfig.json vercel.json AGENTS.md; do
+            if git cat-file -e "HEAD:$p" 2>/dev/null; then paths+=("$p"); fi
+          done
+          git archive --format=zip --output=review-evidence/source.zip HEAD "${paths[@]}"
+          test "$(stat -c%s review-evidence/source.zip)" -lt 15000000
+          sha256sum review-evidence/source.zip > review-evidence/source.sha256
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Run existing content rules and preserve publication identity
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import {execFileSync} from 'node:child_process';
+          import assert from 'node:assert/strict';
+          import matter from 'gray-matter';
+          import {validateFile} from './scripts/validators/validate-content-quality.js';
+          const names=['healthcare-group-operations-benchmarks','healthcare-call-center-roi-enterprise','soc2-medical-answering-service-enterprise-healthcare'];
+          const rules=JSON.parse(fs.readFileSync('scripts/config/content-quality-rules.json'));
+          const taxonomy=JSON.parse(fs.readFileSync('scripts/config/topic-taxonomy.json'));
+          const editableKeys=new Set(['title','seoTitle','description','seoDescription']);
+          const evidence=[];
+          for(const name of names){
+            const file=`src/content/blog/${name}.md`;
+            const raw=fs.readFileSync(file,'utf8');
+            const current=matter(raw);
+            const previous=matter(execFileSync('git',['show',`${process.env.BASE_REF}:${file}`],{encoding:'utf8'}));
+            for(const key of new Set([...Object.keys(previous.data),...Object.keys(current.data)])){
+              if(!editableKeys.has(key)) assert.deepEqual(current.data[key],previous.data[key],`Protected field changed: ${key}`);
+            }
+            assert.ok(!/^#\s+/m.test(current.content),'Template owns the H1');
+            assert.ok(!/<\s*(script|iframe|object|embed)\b|\bon\w+\s*=|javascript\s*:/i.test(current.content),'Active content is forbidden in this batch');
+            const result=validateFile(file,rules,taxonomy);
+            evidence.push({file,...result,publicationIdentity:'UNCHANGED',semanticReview:'NOT_PROVEN_BY_THIS_CHECK'});
+          }
+          fs.writeFileSync('review-evidence/content-validation.json',JSON.stringify(evidence,null,2));
+          assert.ok(evidence.every(r=>r.errors.length===0),'Existing content-quality gate failed');
+          JS
+          node scripts/validators/validate-meta.js --file src/content/blog/healthcare-group-operations-benchmarks.md
+          node scripts/validators/validate-meta.js --file src/content/blog/healthcare-call-center-roi-enterprise.md
+          node scripts/validators/validate-meta.js --file src/content/blog/soc2-medical-answering-service-enterprise-healthcare.md
+      - name: Build with existing prebuild checks, no deploy
+        run: npm run build
+      - name: Save and check the three actual rendered pages
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,re
+          from pathlib import Path
+          from html.parser import HTMLParser
+          class Page(HTMLParser):
+              def __init__(self): super().__init__(); self.h1=0;self.ids=set();self.anchors=[];self.canonical=[]
+              def handle_starttag(self,tag,attrs):
+                  a=dict(attrs)
+                  if tag=='h1': self.h1+=1
+                  if a.get('id'): self.ids.add(a['id'])
+                  if tag=='a' and a.get('href','').startswith('#'): self.anchors.append(a['href'][1:])
+                  if tag=='link' and a.get('rel')=='canonical': self.canonical.append(a.get('href'))
+          result=[]
+          for slug in ('healthcare-group-operations-benchmarks','healthcare-call-center-roi-enterprise','soc2-medical-answering-service-enterprise-healthcare'):
+              choices=[Path(root)/'blog'/slug/'index.html' for root in ('dist','.vercel/output/static')]
+              source=next((p for p in choices if p.is_file()),None)
+              assert source is not None, 'Expected rendered page missing'
+              raw=source.read_bytes();p=Page();p.feed(raw.decode())
+              assert p.h1==1, 'Expected exactly one rendered H1'
+              assert p.canonical==['https://mybcat.com/blog/'+slug+'/'], 'Unexpected canonical'
+              assert all(x in p.ids for x in p.anchors if x), 'Broken same-page anchor'
+              destination=Path('review-evidence')/(slug+'.html');destination.write_bytes(raw)
+              result.append({'slug':slug,'sha256':hashlib.sha256(raw).hexdigest(),'h1':p.h1,'canonical':p.canonical,'rendered':True,'deployed':False})
+          Path('review-evidence/rendered-checks.json').write_text(json.dumps(result,indent=2))
+          PY
+      - name: Record any existing prebuild source mutation
+        if: always()
+        run: git diff --name-only > review-evidence/prebuild-changed-paths.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mybcat-content-review-${{ github.sha }}
+          path: review-evidence/
+          retention-days: 1
+          compression-level: 9
+          if-no-files-found: error
