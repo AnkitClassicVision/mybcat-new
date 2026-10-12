@@ -199,6 +199,9 @@ const shouldPreloadLogo = navMode !== 'hidden';
   {!disableTracking && <GoogleTagManagerNoScript />}
   {navMode !== 'hidden' && <Nav currentPath={Astro.url.pathname} />}
 
+  <script is:inline src="/js/first-touch.js"></script>
+  <script is:inline src="/js/owned-intake-context.js"></script>
+
   <slot />
 
   <Footer />
