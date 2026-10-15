@@ -2616,6 +2616,87 @@
         "owner": "Ankit",
         "approved_at": "2026-10-08T22:30:00Z"
       }
+    },
+    {
+      "id": "eye-care-kpi-dashboard-playbook",
+      "slot": 34,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Eye Care KPI Dashboard Playbook for Practice Groups",
+      "keyword": "eye care KPI dashboard playbook",
+      "suggested_title": "Eye Care KPI Dashboard Playbook for Practice Groups",
+      "slug": "eye-care-kpi-dashboard-playbook",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Writer registered this scheduled post under the standing release approval. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-15T20:37:30Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/sites/default/files/publications/files/practicefacilitationhandbook.pdf",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care KPI dashboard playbook"
+        },
+        {
+          "title": "www.aafp.org",
+          "publisher": "www.aafp.org",
+          "url": "https://www.aafp.org/fpm/2023/1100/access-staffing-dashboard",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care KPI dashboard playbook"
+        },
+        {
+          "title": "www.eyecarebusiness.com",
+          "publisher": "www.eyecarebusiness.com",
+          "url": "https://www.eyecarebusiness.com/issues/2023/januaryfebruary/in-practice",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care KPI dashboard playbook"
+        },
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/issues/2020/september/build-out-your-metrics",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care KPI dashboard playbook"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/articles/your-dashboard-is-only-as-good-as-your-registration",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care KPI dashboard playbook"
+        }
+      ],
+      "evidence_packet": "scheduled-post:eye-care-kpi-dashboard-playbook",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-15T20:37:30Z"
+      }
     }
   ]
 }
