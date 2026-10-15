@@ -2697,6 +2697,87 @@
         "owner": "Ankit",
         "approved_at": "2026-10-15T20:37:30Z"
       }
+    },
+    {
+      "id": "eye-care-recall-postcard-playbook",
+      "slot": 35,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Eye Care Recall Postcard Playbook",
+      "keyword": "eye care recall postcard playbook",
+      "suggested_title": "Eye Care Recall Postcard Playbook",
+      "slug": "eye-care-recall-postcard-playbook",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Writer registered this scheduled post under the standing release approval. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-15T20:51:53Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/issues/2021/march/implement-a-patient-recall-system",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care recall postcard playbook"
+        },
+        {
+          "title": "www.optometricmanagement.com",
+          "publisher": "www.optometricmanagement.com",
+          "url": "https://www.optometricmanagement.com/issues/2013/may/bring-back-lost-patients",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care recall postcard playbook"
+        },
+        {
+          "title": "www.hhs.gov",
+          "publisher": "www.hhs.gov",
+          "url": "https://www.hhs.gov/hipaa/for-professionals/faq/are-appointment-reminders-allowed-under-hipaa-without-authorization/index.html",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care recall postcard playbook"
+        },
+        {
+          "title": "www.hhs.gov",
+          "publisher": "www.hhs.gov",
+          "url": "https://www.hhs.gov/hipaa/for-professionals/faq/may-health-care-providers-leave-messages/index.html",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care recall postcard playbook"
+        },
+        {
+          "title": "pubmed.ncbi.nlm.nih.gov",
+          "publisher": "pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26656245",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care recall postcard playbook"
+        }
+      ],
+      "evidence_packet": "scheduled-post:eye-care-recall-postcard-playbook",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-15T20:51:53Z"
+      }
     }
   ]
 }
