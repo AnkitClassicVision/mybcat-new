@@ -2778,6 +2778,87 @@
         "owner": "Ankit",
         "approved_at": "2026-10-15T20:51:53Z"
       }
+    },
+    {
+      "id": "eye-care-recall-attribution-playbook",
+      "slot": 36,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Eye Care Recall Attribution Playbook",
+      "keyword": "eye care recall attribution playbook",
+      "suggested_title": "Eye Care Recall Attribution Playbook",
+      "slug": "eye-care-recall-attribution-playbook",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Writer registered this scheduled post under the standing release approval. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-15T21:05:01Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/recare-appointments",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care recall attribution playbook"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care recall attribution playbook"
+        },
+        {
+          "title": "pubmed.ncbi.nlm.nih.gov",
+          "publisher": "pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26656245",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care recall attribution playbook"
+        },
+        {
+          "title": "pmc.ncbi.nlm.nih.gov",
+          "publisher": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9878360",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care recall attribution playbook"
+        },
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/issues/2021/march/implement-a-patient-recall-system",
+          "accessed_at": "2026-10-15",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care recall attribution playbook"
+        }
+      ],
+      "evidence_packet": "scheduled-post:eye-care-recall-attribution-playbook",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-15T21:05:01Z"
+      }
     }
   ]
 }
