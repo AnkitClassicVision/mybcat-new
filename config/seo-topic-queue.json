@@ -2859,6 +2859,87 @@
         "owner": "Ankit",
         "approved_at": "2026-10-15T21:05:01Z"
       }
+    },
+    {
+      "id": "eye-care-no-show-fee-policy-playbook",
+      "slot": 37,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Eye Care No-Show Fee Policy Playbook",
+      "keyword": "eye care no-show fee policy playbook",
+      "suggested_title": "Eye Care No-Show Fee Policy Playbook",
+      "slug": "eye-care-no-show-fee-policy-playbook",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Writer registered this scheduled post under the standing release approval. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-16T20:12:56Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/3-solutions-for-noshow-patients",
+          "accessed_at": "2026-10-16",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care no-show fee policy playbook"
+        },
+        {
+          "title": "www.cms.gov",
+          "publisher": "www.cms.gov",
+          "url": "https://www.cms.gov/Outreach-and-Education/Medicare-Learning-Network-MLN/MLNMattersArticles/Downloads/MM5613.pdf",
+          "accessed_at": "2026-10-16",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care no-show fee policy playbook"
+        },
+        {
+          "title": "www.medicaid.gov",
+          "publisher": "www.medicaid.gov",
+          "url": "https://www.medicaid.gov/sites/default/files/2019-12/keep-kids-smiling.pdf",
+          "accessed_at": "2026-10-16",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care no-show fee policy playbook"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/mgma-stat/no-show-fees-in-medical-practices-on-the-rise-to-balance-bumpy-attendance-rates",
+          "accessed_at": "2026-10-16",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care no-show fee policy playbook"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/cancellations",
+          "accessed_at": "2026-10-16",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care no-show fee policy playbook"
+        }
+      ],
+      "evidence_packet": "scheduled-post:eye-care-no-show-fee-policy-playbook",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-16T20:12:56Z"
+      }
     }
   ]
 }
