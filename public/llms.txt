@@ -8,8 +8,6 @@ My Business Care Team (MyBCAT) provides managed patient access and front desk op
 - Trailing slashes are canonical (e.g., /about/ not /about)
 
 ## Start here
-- Public truth layer: https://mybcat.com/truth-layer/
-- AI profile: https://mybcat.com/ai-profile/
 - Enterprise: https://mybcat.com/enterprise/
 - Solutions: https://mybcat.com/solutions/
 - Industries: https://mybcat.com/industries/
@@ -23,7 +21,6 @@ My Business Care Team (MyBCAT) provides managed patient access and front desk op
 
 ## Machine-readable catalog
 - OpenAPI: https://mybcat.com/.well-known/openapi.json
-- Truth layer JSON: https://mybcat.com/api/public/truth-layer.json
 - Solutions JSON: https://mybcat.com/api/public/solutions.json
 - Industries JSON: https://mybcat.com/api/public/industries.json
 - Comparisons JSON: https://mybcat.com/api/public/comparisons.json
