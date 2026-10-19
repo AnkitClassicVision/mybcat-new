@@ -2940,6 +2940,87 @@
         "owner": "Ankit",
         "approved_at": "2026-10-16T20:12:56Z"
       }
+    },
+    {
+      "id": "eye-care-confirmation-cadence-playbook",
+      "slot": 38,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Eye Care Confirmation Cadence Playbook",
+      "keyword": "eye care confirmation cadence playbook",
+      "suggested_title": "Eye Care Confirmation Cadence Playbook",
+      "slug": "eye-care-confirmation-cadence-playbook",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Writer registered this scheduled post under the standing release approval. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-19T21:53:35Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/health-promotion-education/strategy6r-reminder-systems.html",
+          "accessed_at": "2026-10-19",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care confirmation cadence playbook"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/3-solutions-for-noshow-patients",
+          "accessed_at": "2026-10-19",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care confirmation cadence playbook"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/practice/practice-management/appointment-confirmations",
+          "accessed_at": "2026-10-19",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care confirmation cadence playbook"
+        },
+        {
+          "title": "www.mgma.com",
+          "publisher": "www.mgma.com",
+          "url": "https://www.mgma.com/articles/getting-the-message-what-one-clinic-learned-from-a-year-of-texting-patients",
+          "accessed_at": "2026-10-19",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care confirmation cadence playbook"
+        },
+        {
+          "title": "www.optometricmanagement.com",
+          "publisher": "www.optometricmanagement.com",
+          "url": "https://www.optometricmanagement.com/issues/2021/may/stay-in-touch",
+          "accessed_at": "2026-10-19",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care confirmation cadence playbook"
+        }
+      ],
+      "evidence_packet": "scheduled-post:eye-care-confirmation-cadence-playbook",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-19T21:53:35Z"
+      }
     }
   ]
 }
