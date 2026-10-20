@@ -3021,6 +3021,87 @@
         "owner": "Ankit",
         "approved_at": "2026-10-19T21:53:35Z"
       }
+    },
+    {
+      "id": "eye-care-chair-time-playbook",
+      "slot": 39,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Eye Care Chair Time Playbook for Multi-Location Groups",
+      "keyword": "eye care chair time playbook",
+      "suggested_title": "Eye Care Chair Time Playbook for Multi-Location Groups",
+      "slug": "eye-care-chair-time-playbook",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Writer registered this scheduled post under the standing release approval. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-20T21:01:42Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/new-doctors-of-optometry/day-to-day-operations",
+          "accessed_at": "2026-10-20",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care chair time playbook"
+        },
+        {
+          "title": "digital.ahrq.gov",
+          "publisher": "digital.ahrq.gov",
+          "url": "https://digital.ahrq.gov/health-it-tools-and-resources/evaluation-resources/workflow-assessment-health-it-toolkit",
+          "accessed_at": "2026-10-20",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care chair time playbook"
+        },
+        {
+          "title": "pmc.ncbi.nlm.nih.gov",
+          "publisher": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7792026",
+          "accessed_at": "2026-10-20",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care chair time playbook"
+        },
+        {
+          "title": "pmc.ncbi.nlm.nih.gov",
+          "publisher": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6391189",
+          "accessed_at": "2026-10-20",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care chair time playbook"
+        },
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/issues/2014/june/business-efficiency",
+          "accessed_at": "2026-10-20",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "eye care chair time playbook"
+        }
+      ],
+      "evidence_packet": "scheduled-post:eye-care-chair-time-playbook",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-20T21:01:42Z"
+      }
     }
   ]
 }
