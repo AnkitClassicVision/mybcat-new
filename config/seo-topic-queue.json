@@ -3102,6 +3102,87 @@
         "owner": "Ankit",
         "approved_at": "2026-10-20T21:01:42Z"
       }
+    },
+    {
+      "id": "optometry-practice-valuation-benchmarks",
+      "slot": 40,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Optometry Practice Valuation Benchmarks",
+      "keyword": "optometry practice valuation benchmarks",
+      "suggested_title": "Optometry Practice Valuation Benchmarks",
+      "slug": "optometry-practice-valuation-benchmarks",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Writer registered this scheduled post under the standing release approval. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-10-21T21:16:13Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "reviewob.com",
+          "publisher": "reviewob.com",
+          "url": "https://reviewob.com/how-incomplete-practice-financials-overvalued-a-practice-by-300k-and-almost-blew-up-a-transition",
+          "accessed_at": "2026-10-21",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice valuation benchmarks"
+        },
+        {
+          "title": "reviewob.com",
+          "publisher": "reviewob.com",
+          "url": "https://reviewob.com/private-equity",
+          "accessed_at": "2026-10-21",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice valuation benchmarks"
+        },
+        {
+          "title": "www.reviewob.com",
+          "publisher": "www.reviewob.com",
+          "url": "https://www.reviewob.com/wp-content/uploads/2018/09/9-27-18pe.pdf",
+          "accessed_at": "2026-10-21",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice valuation benchmarks"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/owning-a-practice/buying-a-practice",
+          "accessed_at": "2026-10-21",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice valuation benchmarks"
+        },
+        {
+          "title": "www.optometricmanagement.com",
+          "publisher": "www.optometricmanagement.com",
+          "url": "https://www.optometricmanagement.com/issues/2024/novemberdecember/preventing-practice-sales-transaction-pitfalls",
+          "accessed_at": "2026-10-21",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice valuation benchmarks"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-practice-valuation-benchmarks",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-10-21T21:16:13Z"
+      }
     }
   ]
 }
