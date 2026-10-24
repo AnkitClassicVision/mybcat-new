@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "MyBCAT website - Astro/Vercel static site",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=24"
   },
   "scripts": {
     "dev": "astro dev",
@@ -51,7 +51,7 @@
   "dependencies": {
     "@astrojs/mdx": "^3.1.9",
     "@astrojs/react": "^4.4.2",
-    "@astrojs/rss": "^4.0.0",
+    "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.2.0",
     "@astrojs/vercel": "^7.8.0",
     "@types/react": "^19.2.7",
@@ -77,8 +77,12 @@
     "globals": "^16.5.0",
     "gray-matter": "^4.0.3",
     "playwright": "^1.57.0",
-    "sharp": "^0.33.5",
+    "sharp": "^0.35.5",
     "typescript": "^5.0.0",
     "typescript-eslint": "^8.51.0"
+  },
+  "overrides": {
+    "esbuild": "^0.25.12",
+    "sharp": "$sharp"
   }
 }
