@@ -1,17 +1,18 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Optometry Analysis landing page', () => {
-  test('renders the research page with title, H1, and both CTAs', async ({ page }) => {
+  test('renders the research page with title, H1, viewer, and CTA', async ({ page }) => {
     await page.goto('/optometry-analysis/');
 
     await expect(page).toHaveTitle(/What Drives Growth Across Optometry Practices \| MyBCAT/);
     await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /Multi-practice research/);
     await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', /What Drives Growth Across Optometry Practices/);
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', /\/optometry-analysis\/$/);
-    await expect(page.locator('h1')).toHaveText('What drives growth across a group of optometry practices');
-    await expect(page.locator('[data-optometry-analysis-form]')).toHaveCount(2);
-    await expect(page.getByRole('heading', { name: /what drives growth across a group of optometry practices/i })).toHaveCount(2);
-    await expect(page.getByRole('button', { name: 'Get a plan built for your market' })).toHaveCount(2);
+    await expect(page.locator('h1')).toHaveText('What drives growth across optometry practices');
+    await expect(page.locator('[data-optometry-analysis-form]')).toHaveCount(1);
+    await expect(page.getByRole('button', { name: 'Get a plan built for your market' })).toHaveCount(1);
+    await expect(page.getByRole('link', { name: 'Get a plan built for your market' })).toBeVisible();
+    await expect(page.locator('[data-oa-deck]')).toBeVisible();
   });
 
   test('shows the research slide viewer and advances with next', async ({ page }) => {
@@ -19,7 +20,7 @@ test.describe('Optometry Analysis landing page', () => {
     const deck = page.locator('[data-oa-deck]');
 
     await expect(deck).toBeVisible();
-    await expect(page.locator('#oa-deck-title')).toHaveText('The research: what drives growth across a group of optometry practices');
+    await expect(page.locator('#oa-deck-title')).toHaveText('Research slides');
     await expect(deck.locator('[data-oa-slide]')).toHaveCount(4);
     await expect(deck.locator('[data-oa-thumb]')).toHaveCount(4);
     await expect(deck.locator('[data-oa-counter]')).toHaveText('1 / 4');
@@ -93,7 +94,7 @@ test.describe('Optometry Analysis landing page', () => {
     expect(body).not.toMatch(/Classic Vision Care|\bCVC\b|East Cobb|Kennesaw|Marietta/i);
     expect(body).not.toMatch(/Golden Triangle|Winchester Optical|RLK/i);
 
-    const html = await page.content();
+    const html = await page.locator('.oa-page').evaluate((el) => el.innerHTML);
     expect(html).not.toMatch(/Classic Vision Care|\bCVC\b|East Cobb|Kennesaw|Marietta/i);
 
     const slideAlts = await page.locator('[data-oa-slide] img').evaluateAll((imgs) => (

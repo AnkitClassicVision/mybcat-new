@@ -17,14 +17,10 @@ interface Props {
 const { slides } = Astro.props;
 ---
 
-<section class="oa-deck-section" id="example-deck" aria-labelledby="oa-deck-title">
+<div class="oa-deck-section" id="example-deck">
+  <h2 id="oa-deck-title" class="sr-only">Research slides</h2>
+  <p class="sr-only">Use the previous and next buttons, arrow keys, or swipe to move between slides.</p>
   <div class="oa-deck-wide">
-    <p class="oa-deck-eyebrow">The research</p>
-    <h2 id="oa-deck-title">The research: what drives growth across a group of optometry practices</h2>
-    <p class="oa-deck-lede">
-      4 of 14 slides from the October 2026 multi-practice deck. Practice-specific example slides and two internal scorecards are withheld. Practices stay unlabeled or as P-codes.
-    </p>
-    <p class="sr-only">Use the previous and next buttons, arrow keys, or swipe to move between slides.</p>
 
     <div class="oa-deck" data-oa-deck>
       <div
@@ -90,7 +86,7 @@ const { slides } = Astro.props;
       </div>
     </div>
   </div>
-</section>
+</div>
 
 <script>
   function loadSlide(slide: HTMLElement) {
@@ -199,38 +195,12 @@ const { slides } = Astro.props;
 
 <style>
   .oa-deck-section {
-    padding: 8px 0 40px;
+    padding: 0;
   }
 
   .oa-deck-wide {
-    width: min(1280px, calc(100% - 32px));
-    margin: 0 auto;
-  }
-
-  .oa-deck-eyebrow {
-    margin: 0 0 6px;
-    color: var(--oceanic-teal);
-    font-size: 0.76rem;
-    font-weight: 800;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
-
-  #oa-deck-title {
-    max-width: none;
-    margin: 0 0 8px;
-    color: var(--navy-900);
-    font-size: clamp(1.35rem, 2.4vw, 1.85rem);
-    line-height: 1.2;
-    letter-spacing: -0.03em;
-  }
-
-  .oa-deck-lede {
-    max-width: 72ch;
-    margin: 0 0 12px;
-    color: var(--text-secondary);
-    font-size: 0.95rem;
-    line-height: 1.5;
+    width: 100%;
+    margin: 0;
   }
 
   .oa-deck {
@@ -251,14 +221,12 @@ const { slides } = Astro.props;
 
   .oa-deck__frame {
     width: 100%;
-    max-width: min(1280px, calc((100vh - 300px) * 16 / 9));
-    max-height: calc(100vh - 300px);
+    max-height: calc(100vh - 280px);
     aspect-ratio: 16 / 9;
-    margin-inline: auto;
     overflow: hidden;
     background: #fff;
     border: 1px solid var(--glass-border);
-    border-radius: 18px;
+    border-radius: 20px;
     box-shadow: var(--shadow-lg);
   }
 
@@ -393,12 +361,7 @@ const { slides } = Astro.props;
   }
 
   @media (max-width: 700px) {
-    .oa-deck-wide {
-      width: calc(100% - 28px);
-    }
-
     .oa-deck__frame {
-      max-width: none;
       max-height: none;
     }
 

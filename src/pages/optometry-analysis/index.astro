@@ -2,10 +2,10 @@
 /**
  * Public landing page for the October 2026 multi-practice growth research.
  * Group research only. No named practices. Others stay as P-codes or omitted.
- * No internal scorecard / Sheet 2 / "Ankit only" material.
- * Practice-specific worked-example slides are withheld.
+ * Layout matches the iDoc / ODs on Finance lead-gen landings.
  */
-import LandingLayout from '@/layouts/LandingLayout.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Card from '@/components/Card.astro';
 import OptometryAnalysisForm from '@/components/landing/OptometryAnalysisForm.astro';
 import OptometryAnalysisDeck from '@/components/landing/OptometryAnalysisDeck.astro';
 
@@ -34,253 +34,62 @@ const slides = [
     alt: 'Hours, online booking, site speed, dry-eye care, and the Google Book button are noise at n equals 19.',
   },
 ];
-
-const noiseRows = [
-  { factor: 'Evening / Saturday hours', rho: '+0.38 / −0.12', n: '19', p: '.11 / .63', verdict: 'Noise; evenings is closest to a lean. Do not claim hours drive growth.' },
-  { factor: 'Online booking', rho: '+0.26', n: '19', p: '.28', verdict: 'Noise; not a growth driver in this data.' },
-  { factor: 'Dry-eye service line', rho: '+0.21', n: '19', p: '.39', verdict: 'Noise; do not claim dry eye drives growth.' },
-  { factor: 'Google Business Profile Book button', rho: '+0.18', n: '15', p: '.51', verdict: 'Noise; not a growth driver in this data.' },
-  { factor: 'Site speed (Lighthouse mobile)', rho: '−0.12', n: '18', p: '.63', verdict: 'Noise.' },
-];
 ---
 
-<LandingLayout
+<BaseLayout
   title={title}
   description={description}
-  breadcrumbs={[
-    { name: 'Home', url: '/' },
-    { name: 'Optometry Analysis' }
-  ]}
+  noindex={false}
+  disableTracking={false}
+  navMode="hidden"
+  lcpImage="/images/optometry-analysis/slide-01.webp"
 >
-  <div class="oa-page">
-    <section class="oa-hero" aria-labelledby="oa-hero-title">
-      <div class="oa-shell oa-hero__grid">
-        <div class="oa-hero__copy">
-          <p class="oa-eyebrow">Multi-practice growth research · October 2026</p>
-          <h1 id="oa-hero-title">What drives growth across a group of optometry practices</h1>
-          <p class="oa-lede">
-            A public-data study of 19 private independents. Growth follows the market more than the practice. The slides report the group findings, not a single-practice case study.
-          </p>
+  <main id="main-content" class="oa-page">
+    <section class="hero" aria-labelledby="oa-hero-title">
+      <div class="shell brand-row">
+        <a class="brand" href="/" aria-label="MyBCAT home">
+          <img src="/images/logo-optimized.webp" alt="" width="48" height="45" />
+          <span><strong>MyBCAT</strong><small>My Business Care Team</small></span>
+        </a>
+        <div class="partner-badge">
+          <span>October 2026 research</span>
+          <strong>n=19</strong>
         </div>
-        <div id="request-analysis" class="oa-hero__form">
-          <OptometryAnalysisForm idPrefix="oa-top" />
+      </div>
+
+      <div class="shell hero-intro">
+        <p class="eyebrow">Multi-practice growth research</p>
+        <h1 id="oa-hero-title">What drives growth across optometry practices</h1>
+        <p class="lead">A public-data study of 19 private independents. Growth follows the market more than the practice.</p>
+      </div>
+
+      <div class="shell hero-grid">
+        <div class="hero-visual">
+          <OptometryAnalysisDeck slides={slides} />
+          <ul class="hero-bullets">
+            <li>Growers sit in older markets with less private-only insurance.</li>
+            <li>Reviews and web authority track growth. Hours, booking, and site speed do not.</li>
+            <li>Every finding is a lead, not proof.</li>
+          </ul>
+          <p class="source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; directional, n=19 (13 Up / 6 not-Up). Practices coded P01–P27; P14 and P21 excluded from correlations.</p>
         </div>
-        <ul class="oa-hero__points">
-          <li>Growers sit in older markets with less private-only insurance.</li>
-          <li>Reviews and web authority track growth. Hours, online booking, and site speed do not.</li>
-          <li>Every finding is a lead, not proof. None of the 64 tests survives correction.</li>
-        </ul>
-        <p class="oa-source oa-hero__source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; directional, n=19 (13 Up / 6 not-Up).</p>
-      </div>
-    </section>
 
-    <nav class="oa-toc" aria-label="On this page">
-      <div class="oa-shell oa-toc__row">
-        <a href="#example-deck">The research</a>
-        <a href="#covers">What it covers</a>
-        <a href="#sample">Sample</a>
-        <a href="#findings">Findings</a>
-        <a href="#market">Market</a>
-        <a href="#custom">Your plan</a>
-        <a href="#caveats">How to read it</a>
-      </div>
-    </nav>
-
-    <OptometryAnalysisDeck slides={slides} />
-
-    <section class="oa-section" id="covers" aria-labelledby="oa-covers-title">
-      <div class="oa-shell">
-        <p class="oa-eyebrow">What the research covers</p>
-        <h2 id="oa-covers-title">A public-data runbook, then 64 fields against a self-reported revenue answer</h2>
-        <p class="oa-section__lede">
-          For each practice in the group we ran a public-data runbook, then correlated 64 fields with the self-reported answer (Spearman ρ). That group study is what the slides report. We can apply the same market read to your location as a growth plan.
-        </p>
-        <ul class="oa-cover-grid">
-          <li><strong>Google profile and reviews</strong> Volume, velocity, and reviews versus a frozen set of local competitors.</li>
-          <li><strong>Website</strong> Service pages, online booking, and Lighthouse mobile speed.</li>
-          <li><strong>Web authority</strong> Domain rating from Ahrefs.</li>
-          <li><strong>Market</strong> Census ACS age and insurance mix, CDC PLACES, NPPES.</li>
-        </ul>
-        <p class="oa-note">Answers that said Up: 14 of 21. Action from the findings: read each practice’s market before promising growth, start with a review engine, and run each change as a 90-day pilot with a metric and a kill rule.</p>
-      </div>
-    </section>
-
-    <section class="oa-section oa-section--alt" id="sample" aria-labelledby="oa-sample-title">
-      <div class="oa-shell">
-        <p class="oa-eyebrow">The comparison set</p>
-        <h2 id="oa-sample-title">We profiled 27 practices from one poll; 19 private independents form the comparison set</h2>
-        <p class="oa-section__lede">21 answered the poll; 6 only commented. P14 (low match) and P21 (corporate/retail) are excluded from the correlation set.</p>
-        <div class="oa-stat-row" role="list">
-          <div class="oa-stat" role="listitem"><strong>27</strong><span>Practices profiled, coded P01–P27</span></div>
-          <div class="oa-stat" role="listitem"><strong>21</strong><span>Answered the poll</span></div>
-          <div class="oa-stat" role="listitem"><strong>19</strong><span>Private independents used for correlations</span></div>
-          <div class="oa-stat" role="listitem"><strong>13 / 6</strong><span>Up / not-Up in the correlation set</span></div>
+        <div id="book" class="hero-form">
+          <Card variant="pricing" class="form-card">
+            <OptometryAnalysisForm idPrefix="oa-top" variant="plain" />
+          </Card>
         </div>
-        <p class="oa-source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; n=27 profiled, n=19 private independents for correlations; directional.</p>
       </div>
     </section>
 
-    <section class="oa-section" id="findings" aria-labelledby="oa-findings-title">
-      <div class="oa-shell">
-        <p class="oa-eyebrow">Findings</p>
-        <h2 id="oa-findings-title">Growers share an older, less privately insured market first; web authority, myopia care, and reviews come next</h2>
-        <p class="oa-section__lede">Spearman ρ with the self-reported revenue answer, private independents (n=19 unless shown). At n=19, |ρ| must reach about 0.46 for p&lt;.05. The named correlations from the deck are private-only insurance share (−0.68), median catchment age (+0.63), web domain rating (+0.57), a myopia-control page (+0.51), reviews vs local peers (+0.51), and local CPI (−0.48).</p>
-
-        <div class="oa-split">
-          <article>
-            <h3>Once the market is held fixed</h3>
-            <p>Partial Spearman ρ, private independents n=19. F1 = older/Medicare market. F2 = privately insured, college-educated.</p>
-            <ul class="oa-plain">
-              <li><strong>Practice skill holds up.</strong> Domain rating rises to +0.63 and myopia care to +0.56 with both market factors held. Reviews stay +0.47 with both market factors held, and weaken to +0.26 when only age is held.</li>
-              <li><strong>Market proxies fade.</strong> Medicare and 65+ fall to +0.18 and +0.13 with age held. CPI falls from −0.48 to −0.10 with private-only share held. Bachelor’s falls to −0.04 with F2 held.</li>
-              <li>Competitiveness (PCS) is +0.52 with the market held and +0.29 with age held.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>What this means</h3>
-            <ul class="oa-plain">
-              <li><strong>Market first:</strong> private-only share (−0.68) and median age (+0.63) hold in every leave-one-out and sensitivity check.</li>
-              <li><strong>Practice second:</strong> web domain rating, a myopia-control page, and reviews vs peers.</li>
-              <li><strong>Leads, not proof:</strong> only 6 private practices are not-Up, so one practice can move a correlation by about 0.1.</li>
-            </ul>
-          </article>
-        </div>
-        <p class="oa-source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis and multivariate analysis (Oct 22, 2026); 64 fields tested, none survive Bonferroni; directional, n=19.</p>
+    <section class="final-cta">
+      <div class="shell">
+        <h2>Ready to apply this to your market?</h2>
+        <a class="cta-button" href="#book">Get a plan built for your market</a>
       </div>
     </section>
-
-    <section class="oa-section oa-section--alt" aria-labelledby="oa-noise-title">
-      <div class="oa-shell">
-        <p class="oa-eyebrow">What does not separate growers</p>
-        <h2 id="oa-noise-title">Hours, online booking, site speed, and dry-eye care are noise at n=19</h2>
-        <div class="oa-table-wrap">
-          <table>
-            <caption class="sr-only">Factors that do not separate growers in this sample</caption>
-            <thead>
-              <tr>
-                <th scope="col">Factor</th>
-                <th scope="col">ρ with answer</th>
-                <th scope="col">n</th>
-                <th scope="col">p</th>
-                <th scope="col">Verdict</th>
-              </tr>
-            </thead>
-            <tbody>
-              {noiseRows.map((row) => (
-                <tr>
-                  <th scope="row">{row.factor}</th>
-                  <td>{row.rho}</td>
-                  <td>{row.n}</td>
-                  <td>{row.p}</td>
-                  <td>{row.verdict}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <p class="oa-note">What this means: noise at n=19. Test these as measured pilots with a kill rule, not as growth promises.</p>
-      </div>
-    </section>
-
-    <section class="oa-section" id="market" aria-labelledby="oa-market-title">
-      <div class="oa-shell">
-        <p class="oa-eyebrow">Market cells</p>
-        <h2 id="oa-market-title">Only 1 of 7 practices in younger, privately insured markets said Up, against 12 of 12 everywhere else</h2>
-        <p class="oa-section__lede">Cells split at median age 37.3 and private-only coverage 61.5%. Dots in the original deck are placed approximately; the cells are what matter.</p>
-        <div class="oa-matrix" role="img" aria-label="Four market cells. Younger and privately insured: 1 of 7 Up. Older and privately insured: 2 of 2 Up. Younger and less private-only: 3 of 3 Up. Older and less private-only: 7 of 7 Up.">
-          <div class="oa-matrix__axis oa-matrix__axis--y-top">Private-only &gt; 61.5%</div>
-          <div class="oa-matrix__axis oa-matrix__axis--y-bottom">Private-only ≤ 61.5%</div>
-          <div class="oa-matrix__axis oa-matrix__axis--x-left">Younger market: median age ≤ 37.3</div>
-          <div class="oa-matrix__axis oa-matrix__axis--x-right">Older market: median age &gt; 37.3</div>
-          <div class="oa-matrix__grid">
-            <article class="oa-cell oa-cell--hard">
-              <p class="oa-cell__kicker">Younger, privately insured</p>
-              <p class="oa-cell__score">1 of 7 Up</p>
-              <p>All 6 not-Up practices sit here: growth has to be earned.</p>
-            </article>
-            <article class="oa-cell oa-cell--tailwind">
-              <p class="oa-cell__kicker">Older, privately insured</p>
-              <p class="oa-cell__score">2 of 2 Up</p>
-              <p>Older market with more private-only coverage.</p>
-            </article>
-            <article class="oa-cell oa-cell--tailwind">
-              <p class="oa-cell__kicker">Younger, less private-only</p>
-              <p class="oa-cell__score">3 of 3 Up</p>
-              <p>Younger market, but less private-only coverage.</p>
-            </article>
-            <article class="oa-cell oa-cell--tailwind">
-              <p class="oa-cell__kicker">Older, less private-only</p>
-              <p class="oa-cell__score">7 of 7 Up</p>
-              <p>Largest group: older markets, less private-only coverage.</p>
-            </article>
-          </div>
-        </div>
-        <p class="oa-source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; cells split at age 37.3 and private-only 61.5%; directional, n=19.</p>
-      </div>
-    </section>
-
-    <section class="oa-section" id="custom" aria-labelledby="oa-custom-title">
-      <div class="oa-shell">
-        <p class="oa-eyebrow">A plan for your market</p>
-        <h2 id="oa-custom-title">Same research method. Your market. A 90-day pilot, not a growth promise.</h2>
-        <ol class="oa-steps">
-          <li>
-            <b>1</b>
-            <h3>Send the practice and website</h3>
-            <p>We need a practice name and a public site. Phone and email help us follow up. Do not send patient information.</p>
-          </li>
-          <li>
-            <b>2</b>
-            <h3>We run the public-data runbook</h3>
-            <p>Google profile and reviews, a frozen local competitor set, website, Ahrefs, NPPES, Census ACS, CDC PLACES, and Lighthouse.</p>
-          </li>
-          <li>
-            <b>3</b>
-            <h3>We place the location in the market cells</h3>
-            <p>Median age and private-only coverage first. Then reviews, domain rating, and the service lines that still track after the market is held fixed.</p>
-          </li>
-          <li>
-            <b>4</b>
-            <h3>Walk it on a discovery call</h3>
-            <p>One evidence-backed first play where the data supports it. Judgment pilots elsewhere, each with a metric and a kill rule. Nothing here is a guarantee.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="oa-section oa-section--alt" id="caveats" aria-labelledby="oa-caveats-title">
-      <div class="oa-shell">
-        <p class="oa-eyebrow">How to read every number</p>
-        <h2 id="oa-caveats-title">Directional: a small, self-reported sample in which no single test survives correction</h2>
-        <div class="oa-stat-row" role="list">
-          <div class="oa-stat" role="listitem"><strong>0 of 64</strong><span>Tests that survive correction</span></div>
-          <div class="oa-stat" role="listitem"><strong>14 of 21</strong><span>Answers that said Up</span></div>
-          <div class="oa-stat" role="listitem"><strong>11</strong><span>Practices with organic traffic trend data</span></div>
-          <div class="oa-stat" role="listitem"><strong>16</strong><span>Practices with reviews vs local peers</span></div>
-          <div class="oa-stat" role="listitem"><strong>18</strong><span>Practices with web domain rating</span></div>
-          <div class="oa-stat" role="listitem"><strong>19</strong><span>Market and most fields</span></div>
-        </div>
-        <ol class="oa-caveats">
-          <li>Self-reported in a public Facebook thread, so Up is likely over-represented; only 6 private practices are not-Up.</li>
-          <li>Leads, not proof: one practice can move ρ by about 0.1. Do not use any number for pricing or guarantees.</li>
-          <li>Peer median: ophthalmology groups count as local peers, which inflates it for an OD practice.</li>
-        </ol>
-        <p class="oa-source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; directional, n=19.</p>
-      </div>
-    </section>
-
-    <section class="oa-final" aria-labelledby="oa-final-title">
-      <div class="oa-shell oa-final__grid">
-        <div>
-          <p class="oa-eyebrow">Next step</p>
-          <h2 id="oa-final-title">Get a plan built for your market</h2>
-          <p>We will not promise growth from a form. We will place your location in the market cells from this research, name the evidence-backed gap, and set a 90-day pilot.</p>
-        </div>
-        <OptometryAnalysisForm idPrefix="oa-bottom" />
-      </div>
-    </section>
-  </div>
-</LandingLayout>
+  </main>
+</BaseLayout>
 
 <script>
   window.MYBCAT_FORM_TOKEN =
@@ -492,452 +301,206 @@ const noiseRows = [
     background: var(--spatial-bg);
   }
 
-  .oa-shell {
-    width: min(1120px, calc(100% - 40px));
-    margin: 0 auto;
+  .shell {
+    width: min(1160px, calc(100% - 40px));
+    margin-inline: auto;
   }
 
-  .oa-eyebrow {
-    margin: 0 0 10px;
+  .hero {
+    padding: 34px 0 76px;
+    color: var(--navy-900);
+    background: var(--spatial-bg);
+  }
+
+  .brand-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 28px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--navy-900);
+    text-decoration: none;
+  }
+
+  .brand img {
+    width: 48px;
+    height: auto;
+  }
+
+  .brand span {
+    display: grid;
+    line-height: 1.15;
+  }
+
+  .brand strong {
+    font-size: 20px;
+  }
+
+  .brand small {
+    margin-top: 4px;
+    color: var(--text-secondary);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+  }
+
+  .partner-badge {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 8px 14px;
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    background: #fff;
+    color: var(--navy-800);
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: var(--shadow);
+  }
+
+  .partner-badge strong {
     color: var(--oceanic-teal);
-    font-size: 0.76rem;
+    font-size: 16px;
+  }
+
+  .hero-intro {
+    margin-bottom: 22px;
+  }
+
+  .eyebrow {
+    margin: 0 0 14px;
+    color: var(--oceanic-teal);
+    font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.12em;
     text-transform: uppercase;
   }
 
-  .oa-hero {
-    padding: 36px 0 56px;
+  h1 {
+    max-width: 18ch;
+    margin: 0 0 16px;
+    color: var(--navy-900);
+    font-size: clamp(2.45rem, 5vw, 4.2rem);
+    line-height: 1.02;
+    letter-spacing: -0.045em;
   }
 
-  .oa-hero__grid {
+  .lead {
+    max-width: 650px;
+    margin: 0;
+    color: var(--navy-800);
+    font-size: 19px;
+    line-height: 1.5;
+  }
+
+  .hero-grid {
     display: grid;
-    grid-template-columns: 1.08fr 0.92fr;
-    gap: 48px 48px;
+    grid-template-columns: minmax(0, 1fr) minmax(360px, 0.78fr);
+    gap: 48px;
     align-items: start;
   }
 
-  .oa-hero__points,
-  .oa-hero__source {
-    grid-column: 1;
+  .hero-visual {
+    min-width: 0;
   }
 
-  @media (min-width: 901px) {
-    .oa-hero__form {
-      grid-column: 2;
-      grid-row: 1 / span 3;
-    }
-  }
-
-  .oa-hero h1 {
-    max-width: 22ch;
-    margin: 0 0 18px;
-    color: var(--navy-900);
-    font-size: clamp(2.2rem, 5vw, 4rem);
-    line-height: 1.05;
-    letter-spacing: -0.04em;
-  }
-
-  .oa-lede,
-  .oa-section__lede {
-    max-width: 62ch;
-    margin: 0 0 20px;
-    color: var(--navy-800);
-    font-size: 1.1rem;
-    line-height: 1.65;
-  }
-
-  .oa-hero__points {
+  .hero-bullets {
     display: grid;
-    gap: 10px;
-    margin: 0 0 22px;
+    gap: 8px;
+    margin: 16px 0 12px;
     padding-left: 20px;
-  }
-
-  .oa-source,
-  .oa-note {
-    color: var(--text-secondary);
-    font-size: 0.86rem;
-    line-height: 1.55;
-  }
-
-  .oa-toc {
-    position: sticky;
-    top: 76px;
-    z-index: 5;
-    padding: 10px 0;
-    background: rgba(244, 246, 248, 0.92);
-    border-top: 1px solid var(--glass-border);
-    border-bottom: 1px solid var(--glass-border);
-    backdrop-filter: blur(10px);
-  }
-
-  .oa-toc__row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 18px;
-  }
-
-  .oa-toc a {
     color: var(--navy-800);
-    font-size: 0.82rem;
-    font-weight: 700;
-    text-decoration: none;
+    font-size: 15px;
   }
 
-  .oa-toc a:hover,
-  .oa-toc a:focus-visible {
-    color: var(--oceanic-teal);
-  }
-
-  .oa-section {
-    padding: 72px 0;
-  }
-
-  .oa-section--alt {
-    background: #fff;
-  }
-
-  .oa-section h2,
-  .oa-final h2 {
-    max-width: 22ch;
-    margin: 0 0 16px;
-    color: var(--navy-900);
-    font-size: clamp(1.8rem, 3.4vw, 2.7rem);
-    line-height: 1.15;
-    letter-spacing: -0.03em;
-  }
-
-  .oa-cover-grid,
-  .oa-stat-row,
-  .oa-split,
-  .oa-office-grid,
-  .oa-final__grid {
-    display: grid;
-    gap: 18px;
-  }
-
-  .oa-cover-grid {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 0 20px;
-    padding: 0;
-    list-style: none;
-  }
-
-  .oa-cover-grid li,
-  .oa-stat,
-  .oa-office,
-  .oa-split article,
-  .oa-cell {
-    padding: 22px;
-    background: #fff;
-    border: 1px solid var(--glass-border);
-    border-radius: 16px;
-    box-shadow: var(--shadow);
-  }
-
-  .oa-cover-grid strong,
-  .oa-split h3,
-  .oa-office h3,
-  .oa-subhead,
-  .oa-plays h4,
-  .oa-steps h3 {
-    color: var(--navy-900);
-  }
-
-  .oa-stat-row {
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0 0 28px;
-  }
-
-  .oa-stat strong {
-    display: block;
-    color: var(--oceanic-teal);
-    font-size: 2rem;
-    letter-spacing: -0.03em;
-  }
-
-  .oa-stat span,
-  .oa-cover-grid li,
-  .oa-split p,
-  .oa-split li,
-  .oa-cell p,
-  .oa-office p,
-  .oa-plays p,
-  .oa-steps p,
-  .oa-final p {
-    color: var(--text-secondary);
-  }
-
-  .oa-subhead {
-    margin: 0 0 16px;
-    color: var(--navy-900);
-    font-weight: 700;
-  }
-
-  .oa-plain,
-  .oa-plays,
-  .oa-steps,
-  .oa-caveats {
+  .source {
     margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .oa-split,
-  .oa-office-grid,
-  .oa-final__grid {
-    grid-template-columns: 1fr 1fr;
-    margin: 28px 0;
-  }
-
-  .oa-plain {
-    display: grid;
-    gap: 12px;
-  }
-
-  .oa-table-wrap {
-    overflow-x: auto;
-    margin: 20px 0;
-    border: 1px solid var(--glass-border);
-    border-radius: 16px;
-    background: #fff;
-  }
-
-  table {
-    width: 100%;
-    min-width: 760px;
-    border-collapse: collapse;
-    text-align: left;
-  }
-
-  th, td {
-    padding: 14px 16px;
-    border-bottom: 1px solid var(--glass-border);
-    vertical-align: top;
-  }
-
-  thead {
-    background: var(--navy-900);
-    color: #fff;
-  }
-
-  tbody th {
-    color: var(--navy-900);
-  }
-
-  tbody td:last-child {
-    color: var(--oceanic-teal);
-    font-weight: 700;
-  }
-
-  .oa-matrix {
-    position: relative;
-    margin: 36px 0 24px;
-    padding: 36px 0 28px;
-  }
-
-  .oa-matrix__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 14px;
-  }
-
-  .oa-matrix__axis {
-    position: absolute;
     color: var(--text-secondary);
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.5;
   }
 
-  .oa-matrix__axis--y-top { top: 0; left: 0; }
-  .oa-matrix__axis--y-bottom { bottom: 0; left: 0; }
-  .oa-matrix__axis--x-left,
-  .oa-matrix__axis--x-right {
-    top: 8px;
-    width: 46%;
+  :global(.form-card) {
+    overflow: hidden;
+    color: var(--navy-900);
+    text-align: left;
+    cursor: default;
+    box-shadow: var(--shadow-lg);
+  }
+
+  :global(.form-card:hover) {
+    transform: none;
+    border-color: var(--glass-border);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .final-cta {
+    padding: 72px 0;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.94), rgba(33, 150, 154, 0.82));
     text-align: center;
   }
-  .oa-matrix__axis--x-left { left: 0; }
-  .oa-matrix__axis--x-right { right: 0; }
 
-  .oa-cell--hard {
-    border-color: rgba(139, 69, 19, 0.28);
-    background: #fff8f1;
+  .final-cta h2 {
+    margin: 0 0 24px;
+    color: #fff;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    letter-spacing: -0.03em;
   }
 
-  .oa-cell--tailwind {
-    border-color: rgba(0, 96, 100, 0.2);
-    background: rgba(0, 96, 100, 0.04);
-  }
-
-  .oa-cell__kicker,
-  .oa-office .oa-cell__kicker {
-    margin-bottom: 8px;
+  .cta-button {
+    display: inline-flex;
+    justify-content: center;
+    padding: 14px 22px;
+    border: 0;
+    border-radius: 9px;
+    background: #fff;
     color: var(--oceanic-teal);
-    font-size: 0.76rem;
+    font: inherit;
     font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
   }
 
-  .oa-cell__score {
-    margin: 0 0 8px;
-    color: var(--navy-900);
-    font-size: 1.6rem;
-    font-weight: 800;
-  }
-
-  .oa-cell__tag {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 4px 8px;
-    border-radius: 999px;
-    background: #fff;
-    color: var(--navy-900);
-    font-size: 0.78rem;
-    font-weight: 700;
-  }
-
-  .oa-callout,
-  .oa-office {
-    background: #fff;
-  }
-
-  .oa-callout {
-    padding: 18px 20px;
-    border-left: 4px solid var(--oceanic-teal);
-    border-radius: 12px;
-    background: rgba(0, 96, 100, 0.05);
-  }
-
-  .oa-office__stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin: 16px 0;
-  }
-
-  .oa-office__stats div {
-    padding: 10px;
-    background: var(--spatial-bg);
-    border-radius: 10px;
-  }
-
-  .oa-office__stats dt {
-    color: var(--text-secondary);
-    font-size: 0.72rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .oa-office__stats dd {
-    margin: 4px 0 0;
-    color: var(--navy-900);
-    font-size: 1.15rem;
-    font-weight: 800;
-  }
-
-  .oa-plays,
-  .oa-steps {
-    display: grid;
-    gap: 16px;
-    margin: 8px 0 28px;
-  }
-
-  .oa-plays li,
-  .oa-steps li {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 14px;
-    align-items: start;
-    padding: 18px;
-    background: #fff;
-    border: 1px solid var(--glass-border);
-    border-radius: 14px;
-  }
-
-  .oa-plays span,
-  .oa-steps b {
-    display: grid;
-    place-items: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background: var(--oceanic-teal);
-    color: #fff;
-    font-size: 0.85rem;
-  }
-
-  .oa-steps {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .oa-caveats {
-    display: grid;
-    gap: 12px;
-    padding-left: 22px;
-    list-style: decimal;
-  }
-
-  .oa-final {
-    padding: 72px 0 96px;
-    background: linear-gradient(135deg, rgba(0, 96, 100, 0.94), rgba(33, 150, 154, 0.82));
-    color: #fff;
-  }
-
-  .oa-final .oa-eyebrow {
-    color: #85e4eb;
-  }
-
-  .oa-final h2,
-  .oa-final p {
-    color: #fff;
+  .cta-button:hover {
+    filter: brightness(0.96);
   }
 
   @media (max-width: 900px) {
-    .oa-hero__grid,
-    .oa-split,
-    .oa-office-grid,
-    .oa-final__grid,
-    .oa-cover-grid,
-    .oa-steps,
-    .oa-stat-row {
+    .hero-grid {
       grid-template-columns: 1fr;
+      gap: 36px;
     }
 
-    .oa-toc {
-      top: 0;
-    }
-
-    .oa-office__stats {
-      grid-template-columns: 1fr;
+    h1 {
+      max-width: none;
     }
   }
 
   @media (max-width: 600px) {
-    .oa-shell {
-      width: min(100% - 28px, 1120px);
+    .shell {
+      width: min(100% - 28px, 1160px);
     }
 
-    .oa-section,
-    .oa-final,
-    .oa-hero {
-      padding: 48px 0;
+    .hero {
+      padding: 24px 0 56px;
     }
 
-    .oa-matrix__axis--x-left,
-    .oa-matrix__axis--x-right {
-      position: static;
-      width: auto;
-      text-align: left;
-      margin-bottom: 8px;
+    .brand-row {
+      align-items: flex-start;
+      margin-bottom: 28px;
     }
 
-    .oa-matrix__grid {
-      grid-template-columns: 1fr;
+    .partner-badge span {
+      display: none;
+    }
+
+    h1 {
+      font-size: 2.4rem;
     }
   }
 </style>
