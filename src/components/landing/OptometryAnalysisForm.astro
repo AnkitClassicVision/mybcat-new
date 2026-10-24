@@ -1,0 +1,235 @@
+---
+interface Props {
+  idPrefix: string;
+  variant?: 'card' | 'plain';
+}
+
+const { idPrefix, variant = 'card' } = Astro.props;
+const nameId = `${idPrefix}-practice-name`;
+const websiteId = `${idPrefix}-website`;
+const phoneId = `${idPrefix}-phone`;
+const emailId = `${idPrefix}-email`;
+---
+
+<form
+  class:list={['oa-form', { 'oa-form--card': variant === 'card' }]}
+  data-optometry-analysis-form
+  novalidate
+>
+  <div class="oa-form__intro">
+    <p class="oa-form__kicker">Custom analysis</p>
+    <h2>Get a custom analysis for your location</h2>
+    <p>Send the practice name and website. We run the same public-data runbook used in this analysis, then book a discovery call to walk the findings.</p>
+  </div>
+
+  <div class="oa-form__field">
+    <label for={nameId}>Practice name <span class="oa-form__req" aria-hidden="true">*</span></label>
+    <input
+      id={nameId}
+      name="practice_name"
+      type="text"
+      autocomplete="organization"
+      required
+      maxlength="160"
+      aria-required="true"
+    />
+    <p class="oa-form__error" data-error-for="practice_name" role="alert" hidden></p>
+  </div>
+
+  <div class="oa-form__field">
+    <label for={websiteId}>Practice website <span class="oa-form__req" aria-hidden="true">*</span></label>
+    <input
+      id={websiteId}
+      name="website"
+      type="url"
+      inputmode="url"
+      autocomplete="url"
+      required
+      maxlength="300"
+      placeholder="https://yourpractice.com"
+      aria-required="true"
+    />
+    <p class="oa-form__error" data-error-for="website" role="alert" hidden></p>
+  </div>
+
+  <div class="oa-form__row">
+    <div class="oa-form__field">
+      <label for={phoneId}>Phone <span class="oa-form__opt">(optional)</span></label>
+      <input
+        id={phoneId}
+        name="mobilephone"
+        type="tel"
+        autocomplete="tel"
+        inputmode="tel"
+        maxlength="32"
+      />
+      <p class="oa-form__error" data-error-for="mobilephone" role="alert" hidden></p>
+    </div>
+    <div class="oa-form__field">
+      <label for={emailId}>Email <span class="oa-form__opt">(optional)</span></label>
+      <input
+        id={emailId}
+        name="email"
+        type="email"
+        autocomplete="email"
+        maxlength="160"
+      />
+      <p class="oa-form__error" data-error-for="email" role="alert" hidden></p>
+    </div>
+  </div>
+
+  <input type="hidden" name="utm_source" value="optometry-analysis" />
+  <p class="oa-form__legal">
+    Do not include patient information. See our <a href="/privacy-policy/">Privacy Policy</a>.
+  </p>
+  <p class="oa-form__status" data-form-status role="status" aria-live="polite" hidden></p>
+  <button type="submit" class="oa-form__submit">Get a custom analysis for your location</button>
+</form>
+
+<style>
+  .oa-form {
+    display: grid;
+    gap: 16px;
+    text-align: left;
+  }
+
+  .oa-form--card {
+    padding: 28px 24px;
+    background: #fff;
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .oa-form__intro h2 {
+    margin: 6px 0 8px;
+    color: var(--navy-900);
+    font-size: 1.45rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+
+  .oa-form__intro p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .oa-form__kicker {
+    margin: 0;
+    color: var(--oceanic-teal);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .oa-form__field {
+    display: grid;
+    gap: 6px;
+  }
+
+  .oa-form__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .oa-form label {
+    color: var(--navy-800);
+    font-size: 0.84rem;
+    font-weight: 700;
+  }
+
+  .oa-form__req {
+    color: #a33131;
+  }
+
+  .oa-form__opt {
+    color: var(--text-tertiary);
+    font-weight: 500;
+  }
+
+  .oa-form input[type='text'],
+  .oa-form input[type='url'],
+  .oa-form input[type='tel'],
+  .oa-form input[type='email'] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid rgba(39, 52, 60, 0.22);
+    border-radius: 9px;
+    background: #fff;
+    color: var(--navy-900);
+    font: inherit;
+  }
+
+  .oa-form input:focus {
+    outline: 3px solid rgba(0, 96, 100, 0.15);
+    border-color: var(--oceanic-teal);
+  }
+
+  .oa-form input[aria-invalid='true'] {
+    border-color: #a33131;
+  }
+
+  .oa-form__error {
+    margin: 0;
+    color: #a33131;
+    font-size: 0.76rem;
+    font-weight: 700;
+  }
+
+  .oa-form__legal,
+  .oa-form__status {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.73rem;
+  }
+
+  .oa-form__legal a {
+    color: var(--oceanic-teal);
+  }
+
+  .oa-form__status.is-error {
+    color: #a33131;
+    font-weight: 700;
+  }
+
+  .oa-form__submit {
+    width: 100%;
+    min-height: 50px;
+    padding: 14px 20px;
+    border: 0;
+    border-radius: 10px;
+    background: var(--oceanic-teal);
+    color: #fff;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .oa-form__submit:hover:not(:disabled) {
+    background: var(--navy-900);
+    transform: translateY(-1px);
+  }
+
+  .oa-form__submit:focus-visible {
+    outline: 3px solid rgba(0, 96, 100, 0.25);
+    outline-offset: 2px;
+  }
+
+  .oa-form__submit:disabled {
+    opacity: 0.7;
+    cursor: wait;
+  }
+
+  @media (max-width: 600px) {
+    .oa-form__row {
+      grid-template-columns: 1fr;
+    }
+
+    .oa-form--card {
+      padding: 22px 16px;
+    }
+  }
+</style>

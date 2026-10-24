@@ -127,6 +127,7 @@ function getPageLastModDates() {
     'src/pages/resources/podcast.astro': '/resources/podcast/',
     'src/pages/resources/book.astro': '/resources/book/',
     'src/pages/resources/roi-calculator.astro': '/resources/roi-calculator/',
+    'src/pages/optometry-analysis/index.astro': '/optometry-analysis/',
     'src/pages/blog/index.astro': '/blog/',
     'src/pages/compare/build-vs-buy.astro': '/compare/build-vs-buy/',
   };
