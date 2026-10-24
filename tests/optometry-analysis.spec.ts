@@ -11,7 +11,6 @@ test.describe('Optometry Analysis landing page', () => {
     await expect(page.locator('h1')).toHaveText('What drives growth across a group of optometry practices');
     await expect(page.locator('[data-optometry-analysis-form]')).toHaveCount(2);
     await expect(page.getByRole('heading', { name: /what drives growth across a group of optometry practices/i })).toHaveCount(2);
-    await expect(page.getByRole('heading', { name: 'Classic Vision Care: two offices, East Cobb (Marietta, GA) and Kennesaw (GA), sharing one website' })).toBeVisible();
     await expect(page.getByRole('button', { name: 'Get a plan built for your market' })).toHaveCount(2);
   });
 
@@ -21,14 +20,14 @@ test.describe('Optometry Analysis landing page', () => {
 
     await expect(deck).toBeVisible();
     await expect(page.locator('#oa-deck-title')).toHaveText('The research: what drives growth across a group of optometry practices');
-    await expect(deck.locator('[data-oa-slide]')).toHaveCount(12);
-    await expect(deck.locator('[data-oa-thumb]')).toHaveCount(12);
-    await expect(deck.locator('[data-oa-counter]')).toHaveText('1 / 12');
+    await expect(deck.locator('[data-oa-slide]')).toHaveCount(4);
+    await expect(deck.locator('[data-oa-thumb]')).toHaveCount(4);
+    await expect(deck.locator('[data-oa-counter]')).toHaveText('1 / 4');
     await expect(deck.locator('[data-oa-slide]').nth(0)).toBeVisible();
     await expect(deck.locator('[data-oa-slide]').nth(1)).toBeHidden();
 
     await deck.getByRole('button', { name: 'Next slide' }).click();
-    await expect(deck.locator('[data-oa-counter]')).toHaveText('2 / 12');
+    await expect(deck.locator('[data-oa-counter]')).toHaveText('2 / 4');
     await expect(deck.locator('[data-oa-slide]').nth(1)).toBeVisible();
     await expect(deck.locator('[data-oa-slide]').nth(0)).toBeHidden();
   });
@@ -86,19 +85,21 @@ test.describe('Optometry Analysis landing page', () => {
     expect(page.url()).toContain('email=preview-test%40example.com');
   });
 
-  test('does not name practices other than Classic Vision Care', async ({ page }) => {
+  test('does not name Classic Vision Care or other practices', async ({ page }) => {
     await page.goto('/optometry-analysis/');
     const body = await page.locator('.oa-page').textContent();
-    expect(body).toContain('Classic Vision Care');
     expect(body).toContain('P14');
     expect(body).toContain('P21');
-    expect(body).toContain('one worked example');
+    expect(body).not.toMatch(/Classic Vision Care|\bCVC\b|East Cobb|Kennesaw|Marietta/i);
     expect(body).not.toMatch(/Golden Triangle|Winchester Optical|RLK/i);
+
+    const html = await page.content();
+    expect(html).not.toMatch(/Classic Vision Care|\bCVC\b|East Cobb|Kennesaw|Marietta/i);
 
     const slideAlts = await page.locator('[data-oa-slide] img').evaluateAll((imgs) => (
       imgs.map((img) => img.getAttribute('alt') || '').join(' ')
     ));
-    expect(slideAlts).toContain('Classic Vision Care');
+    expect(slideAlts).not.toMatch(/Classic Vision Care|\bCVC\b|East Cobb|Kennesaw|Marietta/i);
     expect(slideAlts).not.toMatch(/Golden Triangle|Winchester Optical|RLK/i);
   });
 });

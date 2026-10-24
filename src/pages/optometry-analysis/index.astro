@@ -1,77 +1,37 @@
 ---
 /**
  * Public landing page for the October 2026 multi-practice growth research.
- * This is group research, not a single-practice report. CVC is one worked example.
- * Other practices stay as P-codes or omitted.
+ * Group research only. No named practices. Others stay as P-codes or omitted.
  * No internal scorecard / Sheet 2 / "Ankit only" material.
+ * Practice-specific worked-example slides are withheld.
  */
 import LandingLayout from '@/layouts/LandingLayout.astro';
 import OptometryAnalysisForm from '@/components/landing/OptometryAnalysisForm.astro';
 import OptometryAnalysisDeck from '@/components/landing/OptometryAnalysisDeck.astro';
 
 const title = 'What Drives Growth Across Optometry Practices | MyBCAT';
-const description = 'Multi-practice research on what separates growing independent optometry practices. Classic Vision Care is one worked example. Get a growth plan built for your market.';
+const description = 'Multi-practice research on what separates growing independent optometry practices. Get a growth plan built for your market.';
 
 const slides = [
   {
     src: '/images/optometry-analysis/slide-01.webp',
     srcMobile: '/images/optometry-analysis/slide-01-800.webp',
-    alt: 'Title slide from the October 2026 multi-practice research: what separates growing independent practices. Classic Vision Care is one worked example.',
+    alt: 'Sample: 27 practices profiled as P01 to P27; 21 answered the poll; 19 private independents used for correlations. Self-reported mix: 14 Up, 4 mixed or neutral, 3 Down, 6 comment only.',
   },
   {
     src: '/images/optometry-analysis/slide-02.webp',
     srcMobile: '/images/optometry-analysis/slide-02-800.webp',
-    alt: 'Three takeaways: growers sit in older markets with less private-only insurance; reviews and web authority track growth while hours, booking, and site speed do not; every finding is a lead, not proof.',
+    alt: 'Named Spearman correlations: private-only insurance share minus 0.68, median catchment age plus 0.63, web domain rating plus 0.57, myopia-control page plus 0.51, reviews versus peers plus 0.51.',
   },
   {
     src: '/images/optometry-analysis/slide-03.webp',
     srcMobile: '/images/optometry-analysis/slide-03-800.webp',
-    alt: 'Sample: 27 practices profiled as P01 to P27; 21 answered the poll; 19 private independents used for correlations. Self-reported mix: 14 Up, 4 mixed or neutral, 3 Down, 6 comment only.',
+    alt: 'Partial correlations with the market held: domain rating and myopia care still track growth; Medicare, age 65 plus, and CPI fade.',
   },
   {
     src: '/images/optometry-analysis/slide-04.webp',
     srcMobile: '/images/optometry-analysis/slide-04-800.webp',
-    alt: 'Named Spearman correlations: private-only insurance share minus 0.68, median catchment age plus 0.63, web domain rating plus 0.57, myopia-control page plus 0.51, reviews versus peers plus 0.51.',
-  },
-  {
-    src: '/images/optometry-analysis/slide-05.webp',
-    srcMobile: '/images/optometry-analysis/slide-05-800.webp',
-    alt: 'Partial correlations with the market held: domain rating and myopia care still track growth; Medicare, age 65 plus, and CPI fade.',
-  },
-  {
-    src: '/images/optometry-analysis/slide-06.webp',
-    srcMobile: '/images/optometry-analysis/slide-06-800.webp',
     alt: 'Hours, online booking, site speed, dry-eye care, and the Google Book button are noise at n equals 19.',
-  },
-  {
-    src: '/images/optometry-analysis/slide-07.webp',
-    srcMobile: '/images/optometry-analysis/slide-07-800.webp',
-    alt: 'Market cells: only 1 of 7 practices in younger, privately insured markets said Up, against 12 of 12 everywhere else. Classic Vision Care East Cobb is in a tailwind cell; Kennesaw sits just inside the hard cell.',
-  },
-  {
-    src: '/images/optometry-analysis/slide-08.webp',
-    srcMobile: '/images/optometry-analysis/slide-08-800.webp',
-    alt: 'Worked example section title: Classic Vision Care, two offices in East Cobb and Kennesaw sharing one website.',
-  },
-  {
-    src: '/images/optometry-analysis/slide-09.webp',
-    srcMobile: '/images/optometry-analysis/slide-09-800.webp',
-    alt: 'Reviews gap: Classic Vision Care East Cobb at 0.40 times local peers and Kennesaw at 0.77 times, versus a grower median of 1.86 times.',
-  },
-  {
-    src: '/images/optometry-analysis/slide-10.webp',
-    srcMobile: '/images/optometry-analysis/slide-10-800.webp',
-    alt: 'Recommended plays: review engine first at both offices, then an office-specific second play, then recall and reactivation as a judgment pilot.',
-  },
-  {
-    src: '/images/optometry-analysis/slide-11.webp',
-    srcMobile: '/images/optometry-analysis/slide-11-800.webp',
-    alt: 'Lever table for Classic Vision Care versus the grower median: do reviews first, hold web authority and myopia care, and pilot booking and recall.',
-  },
-  {
-    src: '/images/optometry-analysis/slide-12.webp',
-    srcMobile: '/images/optometry-analysis/slide-12-800.webp',
-    alt: 'How to read the numbers: 0 of 64 tests survive correction; 14 of 21 answers said Up; leads, not proof.',
   },
 ];
 
@@ -99,7 +59,7 @@ const noiseRows = [
           <p class="oa-eyebrow">Multi-practice growth research · October 2026</p>
           <h1 id="oa-hero-title">What drives growth across a group of optometry practices</h1>
           <p class="oa-lede">
-            A public-data study of 19 private independents. Growth follows the market more than the practice. Classic Vision Care is one worked example inside that research, not the subject of the study.
+            A public-data study of 19 private independents. Growth follows the market more than the practice. The slides report the group findings, not a single-practice case study.
           </p>
         </div>
         <div id="request-analysis" class="oa-hero__form">
@@ -110,7 +70,7 @@ const noiseRows = [
           <li>Reviews and web authority track growth. Hours, online booking, and site speed do not.</li>
           <li>Every finding is a lead, not proof. None of the 64 tests survives correction.</li>
         </ul>
-        <p class="oa-source oa-hero__source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; CVC runbook test (Oct 23, 2026); directional, n=19 (13 Up / 6 not-Up).</p>
+        <p class="oa-source oa-hero__source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; directional, n=19 (13 Up / 6 not-Up).</p>
       </div>
     </section>
 
@@ -121,7 +81,6 @@ const noiseRows = [
         <a href="#sample">Sample</a>
         <a href="#findings">Findings</a>
         <a href="#market">Market</a>
-        <a href="#cvc">CVC example</a>
         <a href="#custom">Your plan</a>
         <a href="#caveats">How to read it</a>
       </div>
@@ -228,7 +187,7 @@ const noiseRows = [
         <p class="oa-eyebrow">Market cells</p>
         <h2 id="oa-market-title">Only 1 of 7 practices in younger, privately insured markets said Up, against 12 of 12 everywhere else</h2>
         <p class="oa-section__lede">Cells split at median age 37.3 and private-only coverage 61.5%. Dots in the original deck are placed approximately; the cells are what matter.</p>
-        <div class="oa-matrix" role="img" aria-label="Four market cells. Younger and privately insured: 1 of 7 Up. Older and privately insured: 2 of 2 Up, including CVC East Cobb. Younger and less private-only: 3 of 3 Up. Older and less private-only: 7 of 7 Up.">
+        <div class="oa-matrix" role="img" aria-label="Four market cells. Younger and privately insured: 1 of 7 Up. Older and privately insured: 2 of 2 Up. Younger and less private-only: 3 of 3 Up. Older and less private-only: 7 of 7 Up.">
           <div class="oa-matrix__axis oa-matrix__axis--y-top">Private-only &gt; 61.5%</div>
           <div class="oa-matrix__axis oa-matrix__axis--y-bottom">Private-only ≤ 61.5%</div>
           <div class="oa-matrix__axis oa-matrix__axis--x-left">Younger market: median age ≤ 37.3</div>
@@ -238,13 +197,11 @@ const noiseRows = [
               <p class="oa-cell__kicker">Younger, privately insured</p>
               <p class="oa-cell__score">1 of 7 Up</p>
               <p>All 6 not-Up practices sit here: growth has to be earned.</p>
-              <p class="oa-cell__tag">CVC Kennesaw (borderline)</p>
             </article>
             <article class="oa-cell oa-cell--tailwind">
               <p class="oa-cell__kicker">Older, privately insured</p>
               <p class="oa-cell__score">2 of 2 Up</p>
-              <p>Includes CVC East Cobb.</p>
-              <p class="oa-cell__tag">CVC East Cobb</p>
+              <p>Older market with more private-only coverage.</p>
             </article>
             <article class="oa-cell oa-cell--tailwind">
               <p class="oa-cell__kicker">Younger, less private-only</p>
@@ -258,130 +215,7 @@ const noiseRows = [
             </article>
           </div>
         </div>
-        <div class="oa-callout">
-          <p><strong>Read-across for Classic Vision Care.</strong> East Cobb (age 39.3; private-only 67.6%) is in a tailwind cell. Kennesaw (36.5; 63.5%) sits just inside the hard cell, so its growth has to be earned.</p>
-        </div>
         <p class="oa-source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; cells split at age 37.3 and private-only 61.5%; directional, n=19.</p>
-      </div>
-    </section>
-
-    <section class="oa-section oa-section--alt" id="cvc" aria-labelledby="oa-cvc-title">
-      <div class="oa-shell">
-        <p class="oa-eyebrow">Worked example</p>
-        <h2 id="oa-cvc-title">Classic Vision Care: two offices, East Cobb (Marietta, GA) and Kennesaw (GA), sharing one website</h2>
-        <p class="oa-section__lede">Reviews are the one evidence-backed gap at both offices: 0.40× and 0.77× of local peers versus a grower median of 1.86×.</p>
-
-        <div class="oa-office-grid">
-          <article class="oa-office">
-            <p class="oa-cell__kicker">East Cobb · tailwind cell</p>
-            <h3>Older market, uncertain outlook, reviews at 0.40× local peers</h3>
-            <p>273 reviews versus a peer median of 680. 1 new review in the last 90 days (13 in a year). Grower level is +995 reviews, a multi-year end-state.</p>
-            <dl class="oa-office__stats">
-              <div><dt>Reviews vs peers</dt><dd>0.40×</dd></div>
-              <div><dt>P(Up)</dt><dd>0.80</dd></div>
-              <div><dt>95% interval</dt><dd>0.36–0.98</dd></div>
-            </dl>
-            <p class="oa-note">The interval spans 50%, so the outlook is uncertain. The job in a tailwind cell, where 12 of 12 reference practices said Up, is capturing demand that already exists.</p>
-          </article>
-          <article class="oa-office">
-            <p class="oa-cell__kicker">Kennesaw · hard cell, just inside</p>
-            <h3>Growth has to be earned; reviews at 0.77× local peers</h3>
-            <p>Median age 36.5 versus the 37.3 cut; private-only 63.5% versus 61.5%. 493 reviews versus a peer median of 643. 3 new reviews in 90 days (21 in a year). Grower level is +706 reviews.</p>
-            <dl class="oa-office__stats">
-              <div><dt>Reviews vs peers</dt><dd>0.77×</dd></div>
-              <div><dt>P(Up)</dt><dd>0.63</dd></div>
-              <div><dt>95% interval</dt><dd>0.30–0.88</dd></div>
-            </dl>
-            <p class="oa-note">The smooth model gives 0.63 while the hard cell record is 1 of 7. Trust the interval, not the label.</p>
-          </article>
-        </div>
-        <p class="oa-source">Evidence: reviews vs peers ρ +0.51 raw (n=16); +0.47 with both market factors held; +0.26 with age held. Grower median is 1.86×. Caveat: ophthalmology groups count as peers, which inflates the peer median.</p>
-
-        <h3 class="oa-subhead">If we ran the business: fix reviews first, hold what is already strong, and run booking and recall as judgment pilots</h3>
-        <ol class="oa-plays">
-          <li>
-            <span>01</span>
-            <div>
-              <h4>Review engine (both offices)</h4>
-              <p>Ask after every exam (front desk + SMS). Reply to every review. Evidence-backed.</p>
-            </div>
-          </li>
-          <li>
-            <span>02</span>
-            <div>
-              <h4>Office-specific second play</h4>
-              <p>East Cobb: lift PCS 70.4 → 76.1 (evidence). Kennesaw: Google Book button within 30 days (judgment).</p>
-            </div>
-          </li>
-          <li>
-            <span>03</span>
-            <div>
-              <h4>Recall and reactivation (both)</h4>
-              <p>Call or text patients overdue for an annual exam; target from a week-1 PMS baseline. Judgment.</p>
-            </div>
-          </li>
-        </ol>
-
-        <div class="oa-table-wrap">
-          <table>
-            <caption class="sr-only">CVC levers versus the grower median</caption>
-            <thead>
-              <tr>
-                <th scope="col">Lever</th>
-                <th scope="col">Evidence (n=19)</th>
-                <th scope="col">East Cobb</th>
-                <th scope="col">Kennesaw</th>
-                <th scope="col">Our call</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Review engine</th>
-                <td>ρ +0.51 raw; +0.47 market held</td>
-                <td>0.40× peers: gap</td>
-                <td>0.77× peers: gap</td>
-                <td>Do first (evidence)</td>
-              </tr>
-              <tr>
-                <th scope="row">Competitiveness (PCS)</th>
-                <td>+0.52 market held; +0.29 age held</td>
-                <td>70.4 vs 76.1: gap</td>
-                <td>80.2: past median</td>
-                <td>East Cobb second</td>
-              </tr>
-              <tr>
-                <th scope="row">Web domain authority</th>
-                <td>+0.63 market held; +0.50 age held</td>
-                <td>DR 16 vs 8.5: hold</td>
-                <td>DR 16: hold (shared site)</td>
-                <td>Hold</td>
-              </tr>
-              <tr>
-                <th scope="row">Myopia-control service</th>
-                <td>+0.56 market held; +0.33 age held</td>
-                <td>Offered: hold</td>
-                <td>Offered: hold</td>
-                <td>Hold</td>
-              </tr>
-              <tr>
-                <th scope="row">Google Book button</th>
-                <td>+0.18 (booking +0.26); noise</td>
-                <td>Online booking live</td>
-                <td>Book button off</td>
-                <td>Pilot (judgment)</td>
-              </tr>
-              <tr>
-                <th scope="row">Recall and reactivation</th>
-                <td>No tested variable</td>
-                <td>Needs PMS baseline</td>
-                <td>Needs PMS baseline</td>
-                <td>Pilot (judgment)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="oa-note">Not claimed: hours, dry eye, and site speed are noise at n=19. Both P(Up) predictors are market variables, so no lever here moves P(Up); levers move the competitive scores only. Do not use any number for pricing or guarantees.</p>
-        <p class="oa-source">Source: Classic Vision Care runbook test (Oct 23, 2026), MyBCAT analysis; reference: ODs on Finance private independents; directional, n=19.</p>
       </div>
     </section>
 
@@ -431,7 +265,7 @@ const noiseRows = [
           <li>Leads, not proof: one practice can move ρ by about 0.1. Do not use any number for pricing or guarantees.</li>
           <li>Peer median: ophthalmology groups count as local peers, which inflates it for an OD practice.</li>
         </ol>
-        <p class="oa-source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; CVC runbook test (Oct 23, 2026); directional, n=19.</p>
+        <p class="oa-source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; directional, n=19.</p>
       </div>
     </section>
 
