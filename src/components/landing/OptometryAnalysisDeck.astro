@@ -1,0 +1,377 @@
+---
+/**
+ * Public slide viewer for the October 2026 optometry analysis.
+ * Deck slides 9 and 10 are omitted: they show Sheet 2 / internal
+ * scorecard numbers (Page 2 Opportunity, Addition, composite percentiles).
+ */
+export interface AnalysisSlide {
+  src: string;
+  srcMobile: string;
+  alt: string;
+}
+
+interface Props {
+  slides: AnalysisSlide[];
+}
+
+const { slides } = Astro.props;
+---
+
+<section class="oa-deck-section" id="example-deck" aria-labelledby="oa-deck-title">
+  <div class="oa-shell">
+    <p class="oa-eyebrow">Example analysis</p>
+    <h2 id="oa-deck-title">Example: the MyBCAT Optometry Analysis, with Classic Vision Care as the worked example</h2>
+    <p class="oa-deck-lede">
+      12 of 14 slides from the October 2026 deck. Two internal scorecard slides are withheld. Classic Vision Care is the only named practice.
+    </p>
+    <p class="sr-only">Use the previous and next buttons, arrow keys, or swipe to move between slides.</p>
+
+    <div class="oa-deck" data-oa-deck>
+      <div
+        class="oa-deck__stage"
+        data-oa-stage
+        tabindex="0"
+        role="region"
+        aria-roledescription="carousel"
+        aria-label="Example analysis slides"
+      >
+        <div class="oa-deck__frame" data-oa-frame>
+          {slides.map((slide, index) => (
+            <figure class="oa-deck__slide" data-oa-slide hidden={index !== 0}>
+              <picture>
+                <source media="(max-width: 700px)" srcset={index === 0 ? slide.srcMobile : undefined} data-srcset={slide.srcMobile} />
+                <img
+                  src={index === 0 ? slide.src : undefined}
+                  data-src={slide.src}
+                  alt={slide.alt}
+                  width="1600"
+                  height="901"
+                  decoding={index === 0 ? 'sync' : 'async'}
+                  loading={index === 0 ? 'eager' : 'lazy'}
+                  fetchpriority={index === 0 ? 'high' : 'low'}
+                />
+              </picture>
+            </figure>
+          ))}
+        </div>
+
+        <button type="button" class="oa-deck__nav oa-deck__nav--prev" data-oa-prev aria-label="Previous slide">
+          <span aria-hidden="true">‹</span>
+        </button>
+        <button type="button" class="oa-deck__nav oa-deck__nav--next" data-oa-next aria-label="Next slide">
+          <span aria-hidden="true">›</span>
+        </button>
+      </div>
+
+      <div class="oa-deck__toolbar">
+        <p class="oa-deck__counter" data-oa-counter aria-live="polite">1 / {slides.length}</p>
+        <button type="button" class="oa-deck__fullscreen" data-oa-fullscreen aria-pressed="false">
+          View fullscreen
+        </button>
+      </div>
+
+      <div class="oa-deck__thumbs-wrap">
+        <ol class="oa-deck__thumbs" data-oa-thumbs>
+          {slides.map((slide, index) => (
+            <li>
+              <button
+                type="button"
+                class:list={['oa-deck__thumb', { 'is-active': index === 0 }]}
+                data-oa-thumb
+                data-index={index}
+                aria-label={`Go to slide ${index + 1} of ${slides.length}`}
+                aria-current={index === 0 ? 'true' : undefined}
+              >
+                <img src={slide.srcMobile} alt="" width="800" height="450" loading="lazy" decoding="async" />
+              </button>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function loadSlide(slide: HTMLElement) {
+    slide.querySelectorAll('source[data-srcset]').forEach((source) => {
+      const node = source as HTMLSourceElement;
+      if (!node.srcset) node.srcset = node.dataset.srcset || '';
+    });
+    slide.querySelectorAll('img[data-src]').forEach((image) => {
+      const node = image as HTMLImageElement;
+      if (!node.getAttribute('src')) node.src = node.dataset.src || '';
+    });
+  }
+
+  function enhance(root: HTMLElement) {
+    const slides = Array.from(root.querySelectorAll<HTMLElement>('[data-oa-slide]'));
+    const thumbs = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-oa-thumb]'));
+    const counterEl = root.querySelector<HTMLElement>('[data-oa-counter]');
+    const stage = root.querySelector<HTMLElement>('[data-oa-stage]');
+    const fullscreen = root.querySelector<HTMLButtonElement>('[data-oa-fullscreen]');
+    const prev = root.querySelector<HTMLButtonElement>('[data-oa-prev]');
+    const next = root.querySelector<HTMLButtonElement>('[data-oa-next]');
+    if (!slides.length || !counterEl || !stage || !prev || !next || !fullscreen) return;
+    const counter = counterEl;
+
+    let index = 0;
+
+    function show(nextIndex: number) {
+      index = (nextIndex + slides.length) % slides.length;
+      slides.forEach((slide, i) => {
+        const active = i === index;
+        slide.hidden = !active;
+        if (active || i === (index + 1) % slides.length || i === (index - 1 + slides.length) % slides.length) {
+          loadSlide(slide);
+        }
+      });
+      thumbs.forEach((thumb, i) => {
+        thumb.classList.toggle('is-active', i === index);
+        if (i === index) thumb.setAttribute('aria-current', 'true');
+        else thumb.removeAttribute('aria-current');
+      });
+      counter.textContent = `${index + 1} / ${slides.length}`;
+      thumbs[index]?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    }
+
+    prev.addEventListener('click', () => show(index - 1));
+    next.addEventListener('click', () => show(index + 1));
+    thumbs.forEach((thumb) => {
+      thumb.addEventListener('click', () => show(Number(thumb.dataset.index)));
+    });
+
+    stage.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        show(index + 1);
+      } else if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        show(index - 1);
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      const target = event.target as HTMLElement | null;
+      if (target && /^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(target.tagName) && target !== stage) return;
+      if (!root.contains(document.activeElement) && document.fullscreenElement !== stage) return;
+      if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        show(index + 1);
+      } else if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        show(index - 1);
+      }
+    });
+
+    let touchX = 0;
+    stage.addEventListener('touchstart', (event) => {
+      touchX = event.changedTouches[0]?.clientX || 0;
+    }, { passive: true });
+    stage.addEventListener('touchend', (event) => {
+      const endX = event.changedTouches[0]?.clientX || 0;
+      const delta = endX - touchX;
+      if (Math.abs(delta) < 40) return;
+      show(delta < 0 ? index + 1 : index - 1);
+    }, { passive: true });
+
+    fullscreen.addEventListener('click', async () => {
+      try {
+        if (document.fullscreenElement === stage) {
+          await document.exitFullscreen();
+        } else {
+          await stage.requestFullscreen();
+        }
+      } catch {
+        /* Fullscreen can be blocked by the browser. */
+      }
+    });
+
+    document.addEventListener('fullscreenchange', () => {
+      const open = document.fullscreenElement === stage;
+      fullscreen.setAttribute('aria-pressed', open ? 'true' : 'false');
+      fullscreen.textContent = open ? 'Exit fullscreen' : 'View fullscreen';
+    });
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-oa-deck]').forEach(enhance);
+</script>
+
+<style>
+  .oa-deck-section {
+    padding: 24px 0 64px;
+  }
+
+  .oa-deck-lede {
+    max-width: 62ch;
+    margin: 0 0 24px;
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+
+  .oa-deck {
+    display: grid;
+    gap: 14px;
+  }
+
+  .oa-deck__stage {
+    position: relative;
+    outline: none;
+  }
+
+  .oa-deck__stage:focus-visible {
+    outline: 3px solid rgba(0, 96, 100, 0.28);
+    outline-offset: 4px;
+    border-radius: 18px;
+  }
+
+  .oa-deck__frame {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid var(--glass-border);
+    border-radius: 18px;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .oa-deck__slide {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .oa-deck__slide[hidden] {
+    display: none;
+  }
+
+  .oa-deck__slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #fff;
+  }
+
+  .oa-deck__nav {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(26, 36, 44, 0.88);
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+
+  .oa-deck__nav:hover,
+  .oa-deck__nav:focus-visible {
+    background: var(--oceanic-teal);
+  }
+
+  .oa-deck__nav:focus-visible {
+    outline: 3px solid rgba(0, 96, 100, 0.35);
+    outline-offset: 2px;
+  }
+
+  .oa-deck__nav--prev { left: 12px; }
+  .oa-deck__nav--next { right: 12px; }
+
+  .oa-deck__toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .oa-deck__counter {
+    margin: 0;
+    color: var(--navy-900);
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+
+  .oa-deck__fullscreen {
+    border: 1px solid var(--glass-border);
+    border-radius: 999px;
+    padding: 8px 14px;
+    background: #fff;
+    color: var(--navy-800);
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .oa-deck__fullscreen:hover,
+  .oa-deck__fullscreen:focus-visible {
+    border-color: var(--oceanic-teal);
+    color: var(--oceanic-teal);
+  }
+
+  .oa-deck__thumbs-wrap {
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .oa-deck__thumbs {
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .oa-deck__thumb {
+    display: block;
+    width: 112px;
+    padding: 0;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    cursor: pointer;
+  }
+
+  .oa-deck__thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .oa-deck__thumb.is-active,
+  .oa-deck__thumb:focus-visible {
+    border-color: var(--oceanic-teal);
+  }
+
+  .oa-deck__stage:fullscreen,
+  .oa-deck__stage:-webkit-full-screen {
+    display: grid;
+    place-items: center;
+    background: #0b1216;
+  }
+
+  .oa-deck__stage:fullscreen .oa-deck__frame,
+  .oa-deck__stage:-webkit-full-screen .oa-deck__frame {
+    width: min(100vw, calc(100vh * 16 / 9));
+    max-height: 100vh;
+  }
+
+  @media (max-width: 700px) {
+    .oa-deck__nav {
+      width: 38px;
+      height: 38px;
+    }
+
+    .oa-deck__thumb {
+      width: 88px;
+    }
+  }
+</style>

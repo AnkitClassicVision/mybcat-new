@@ -6,17 +6,72 @@
  */
 import LandingLayout from '@/layouts/LandingLayout.astro';
 import OptometryAnalysisForm from '@/components/landing/OptometryAnalysisForm.astro';
+import OptometryAnalysisDeck from '@/components/landing/OptometryAnalysisDeck.astro';
 
 const title = 'Optometry Analysis: What Drives Growth | MyBCAT';
 const description = 'What separates growing independent optometry practices, with a Classic Vision Care worked example. Request a custom public-data analysis of your location.';
 
-const correlations = [
-  { label: 'Private-only insurance share', rho: -0.68, note: 'Holds in every robustness check' },
-  { label: 'Median catchment age', rho: 0.63, note: 'Holds in every leave-one-out check' },
-  { label: 'Web domain rating', rho: 0.57, note: 'Practice signal; rises when market is held' },
-  { label: 'Myopia-control page', rho: 0.51, note: 'Practice signal' },
-  { label: 'Reviews vs local peers', rho: 0.51, note: 'Practice signal' },
-  { label: 'Local CPI', rho: -0.48, note: 'Falls to −0.10 once private-only share is held' },
+const slides = [
+  {
+    src: '/images/optometry-analysis/slide-01.webp',
+    srcMobile: '/images/optometry-analysis/slide-01-800.webp',
+    alt: 'Title slide: MyBCAT Optometry Analysis, October 2026. What separates growing independent practices, with Classic Vision Care as the worked example.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-02.webp',
+    srcMobile: '/images/optometry-analysis/slide-02-800.webp',
+    alt: 'Three takeaways: growers sit in older markets with less private-only insurance; reviews and web authority track growth while hours, booking, and site speed do not; every finding is a lead, not proof.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-03.webp',
+    srcMobile: '/images/optometry-analysis/slide-03-800.webp',
+    alt: 'Sample: 27 practices profiled as P01 to P27; 21 answered the poll; 19 private independents used for correlations. Self-reported mix: 14 Up, 4 mixed or neutral, 3 Down, 6 comment only.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-04.webp',
+    srcMobile: '/images/optometry-analysis/slide-04-800.webp',
+    alt: 'Named Spearman correlations: private-only insurance share minus 0.68, median catchment age plus 0.63, web domain rating plus 0.57, myopia-control page plus 0.51, reviews versus peers plus 0.51.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-05.webp',
+    srcMobile: '/images/optometry-analysis/slide-05-800.webp',
+    alt: 'Partial correlations with the market held: domain rating and myopia care still track growth; Medicare, age 65 plus, and CPI fade.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-06.webp',
+    srcMobile: '/images/optometry-analysis/slide-06-800.webp',
+    alt: 'Hours, online booking, site speed, dry-eye care, and the Google Book button are noise at n equals 19.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-07.webp',
+    srcMobile: '/images/optometry-analysis/slide-07-800.webp',
+    alt: 'Market cells: only 1 of 7 practices in younger, privately insured markets said Up, against 12 of 12 everywhere else. Classic Vision Care East Cobb is in a tailwind cell; Kennesaw sits just inside the hard cell.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-08.webp',
+    srcMobile: '/images/optometry-analysis/slide-08-800.webp',
+    alt: 'Worked example section title: Classic Vision Care, two offices in East Cobb and Kennesaw sharing one website.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-09.webp',
+    srcMobile: '/images/optometry-analysis/slide-09-800.webp',
+    alt: 'Reviews gap: Classic Vision Care East Cobb at 0.40 times local peers and Kennesaw at 0.77 times, versus a grower median of 1.86 times.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-10.webp',
+    srcMobile: '/images/optometry-analysis/slide-10-800.webp',
+    alt: 'Recommended plays: review engine first at both offices, then an office-specific second play, then recall and reactivation as a judgment pilot.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-11.webp',
+    srcMobile: '/images/optometry-analysis/slide-11-800.webp',
+    alt: 'Lever table for Classic Vision Care versus the grower median: do reviews first, hold web authority and myopia care, and pilot booking and recall.',
+  },
+  {
+    src: '/images/optometry-analysis/slide-12.webp',
+    srcMobile: '/images/optometry-analysis/slide-12-800.webp',
+    alt: 'How to read the numbers: 0 of 64 tests survive correction; 14 of 21 answers said Up; leads, not proof.',
+  },
 ];
 
 const noiseRows = [
@@ -60,6 +115,7 @@ const noiseRows = [
 
     <nav class="oa-toc" aria-label="On this page">
       <div class="oa-shell oa-toc__row">
+        <a href="#example-deck">Example slides</a>
         <a href="#covers">What it covers</a>
         <a href="#sample">Sample</a>
         <a href="#findings">Findings</a>
@@ -69,6 +125,8 @@ const noiseRows = [
         <a href="#caveats">How to read it</a>
       </div>
     </nav>
+
+    <OptometryAnalysisDeck slides={slides} />
 
     <section class="oa-section" id="covers" aria-labelledby="oa-covers-title">
       <div class="oa-shell">
@@ -98,32 +156,7 @@ const noiseRows = [
           <div class="oa-stat" role="listitem"><strong>19</strong><span>Private independents used for correlations</span></div>
           <div class="oa-stat" role="listitem"><strong>13 / 6</strong><span>Up / not-Up in the correlation set</span></div>
         </div>
-        <figure class="oa-chart">
-          <figcaption>Self-reported revenue answer (number of practices, n=27)</figcaption>
-          <ol class="oa-stack" aria-label="Self-reported revenue mix among 21 poll answers, plus 6 comment-only">
-            <li style="--share: 14">
-              <span class="oa-stack__label">Up</span>
-              <span class="oa-stack__track"><span class="oa-stack__fill oa-stack__fill--up" style="width: 51.85%"></span></span>
-              <span class="oa-stack__n">14</span>
-            </li>
-            <li style="--share: 4">
-              <span class="oa-stack__label">Mixed or neutral</span>
-              <span class="oa-stack__track"><span class="oa-stack__fill oa-stack__fill--mix" style="width: 14.81%"></span></span>
-              <span class="oa-stack__n">4</span>
-            </li>
-            <li style="--share: 3">
-              <span class="oa-stack__label">Down</span>
-              <span class="oa-stack__track"><span class="oa-stack__fill oa-stack__fill--down" style="width: 11.11%"></span></span>
-              <span class="oa-stack__n">3</span>
-            </li>
-            <li style="--share: 6">
-              <span class="oa-stack__label">Comment only</span>
-              <span class="oa-stack__track"><span class="oa-stack__fill oa-stack__fill--comment" style="width: 22.22%"></span></span>
-              <span class="oa-stack__n">6</span>
-            </li>
-          </ol>
-          <p class="oa-source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; n=27 profiled, n=19 private independents for correlations; directional.</p>
-        </figure>
+        <p class="oa-source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; n=27 profiled, n=19 private independents for correlations; directional.</p>
       </div>
     </section>
 
@@ -131,30 +164,7 @@ const noiseRows = [
       <div class="oa-shell">
         <p class="oa-eyebrow">Findings</p>
         <h2 id="oa-findings-title">Growers share an older, less privately insured market first; web authority, myopia care, and reviews come next</h2>
-        <p class="oa-section__lede">Spearman ρ with the self-reported revenue answer, private independents (n=19 unless shown). At n=19, |ρ| must reach about 0.46 for p&lt;.05. Values below are the named correlations from the deck. Teal marks that threshold.</p>
-        <figure class="oa-chart">
-          <figcaption>Named Spearman ρ values (uncorrected)</figcaption>
-          <ul class="oa-bars">
-            {correlations.map((row) => {
-              const pct = Math.min(Math.abs(row.rho) * 100, 100);
-              const side = row.rho < 0 ? 'neg' : 'pos';
-              const sign = row.rho < 0 ? '−' : '+';
-              return (
-                <li>
-                  <div class="oa-bars__meta">
-                    <span>{row.label}</span>
-                    <strong>{sign}{Math.abs(row.rho).toFixed(2)}</strong>
-                  </div>
-                  <div class="oa-bars__axis" aria-hidden="true">
-                    <span class="oa-bars__zero"></span>
-                    <span class:list={['oa-bars__fill', `oa-bars__fill--${side}`]} style={`width: ${pct / 2}%`}></span>
-                  </div>
-                  <p>{row.note}</p>
-                </li>
-              );
-            })}
-          </ul>
-        </figure>
+        <p class="oa-section__lede">Spearman ρ with the self-reported revenue answer, private independents (n=19 unless shown). At n=19, |ρ| must reach about 0.46 for p&lt;.05. The named correlations from the deck are private-only insurance share (−0.68), median catchment age (+0.63), web domain rating (+0.57), a myopia-control page (+0.51), reviews vs local peers (+0.51), and local CPI (−0.48).</p>
 
         <div class="oa-split">
           <article>
@@ -284,33 +294,7 @@ const noiseRows = [
             <p class="oa-note">The smooth model gives 0.63 while the hard cell record is 1 of 7. Trust the interval, not the label.</p>
           </article>
         </div>
-
-        <figure class="oa-chart">
-          <figcaption>Google reviews ÷ local Tier-1 peer median (1.00× = peer median). Grower median from 10 of 13 Up practices.</figcaption>
-          <ul class="oa-compare">
-            <li>
-              <span>Grower median</span>
-              <span class="oa-compare__track"><span style="width: 100%"></span></span>
-              <strong>1.86×</strong>
-            </li>
-            <li>
-              <span>Local peer median</span>
-              <span class="oa-compare__track"><span style="width: 53.76%"></span></span>
-              <strong>1.00×</strong>
-            </li>
-            <li>
-              <span>CVC Kennesaw</span>
-              <span class="oa-compare__track"><span class="is-gap" style="width: 41.4%"></span></span>
-              <strong>0.77×</strong>
-            </li>
-            <li>
-              <span>CVC East Cobb</span>
-              <span class="oa-compare__track"><span class="is-gap" style="width: 21.5%"></span></span>
-              <strong>0.40×</strong>
-            </li>
-          </ul>
-          <p class="oa-source">Evidence: ρ +0.51 raw (n=16); +0.47 with both market factors held; +0.26 with age held. Caveat: ophthalmology groups count as peers, which inflates the peer median.</p>
-        </figure>
+        <p class="oa-source">Evidence: reviews vs peers ρ +0.51 raw (n=16); +0.47 with both market factors held; +0.26 with age held. Grower median is 1.86×. Caveat: ophthalmology groups count as peers, which inflates the peer median.</p>
 
         <h3 class="oa-subhead">If we ran the business: fix reviews first, hold what is already strong, and run booking and recall as judgment pilots</h3>
         <ol class="oa-plays">
@@ -850,20 +834,12 @@ const noiseRows = [
     color: var(--text-secondary);
   }
 
-  .oa-chart {
-    margin: 0;
-  }
-
-  .oa-chart figcaption,
   .oa-subhead {
     margin: 0 0 16px;
     color: var(--navy-900);
     font-weight: 700;
   }
 
-  .oa-stack,
-  .oa-bars,
-  .oa-compare,
   .oa-plain,
   .oa-plays,
   .oa-steps,
@@ -871,92 +847,6 @@ const noiseRows = [
     margin: 0;
     padding: 0;
     list-style: none;
-  }
-
-  .oa-stack {
-    display: grid;
-    gap: 12px;
-    margin-bottom: 16px;
-  }
-
-  .oa-stack li,
-  .oa-compare li {
-    display: grid;
-    grid-template-columns: minmax(110px, 180px) 1fr auto;
-    gap: 12px;
-    align-items: center;
-  }
-
-  .oa-stack__track,
-  .oa-compare__track,
-  .oa-bars__axis {
-    position: relative;
-    height: 14px;
-    background: var(--cream-100);
-    border-radius: 999px;
-    overflow: hidden;
-  }
-
-  .oa-stack__fill,
-  .oa-compare__track span,
-  .oa-bars__fill {
-    display: block;
-    height: 100%;
-    border-radius: inherit;
-    background: var(--oceanic-teal);
-  }
-
-  .oa-stack__fill--mix { background: var(--revenue-gold); }
-  .oa-stack__fill--down { background: #8b4513; }
-  .oa-stack__fill--comment { background: var(--charcoal-500); }
-  .oa-compare__track span.is-gap { background: var(--revenue-gold); }
-
-  .oa-bars {
-    display: grid;
-    gap: 18px;
-    margin-bottom: 28px;
-  }
-
-  .oa-bars__meta {
-    display: flex;
-    justify-content: space-between;
-    gap: 12px;
-    margin-bottom: 6px;
-    color: var(--navy-900);
-    font-weight: 700;
-  }
-
-  .oa-bars__axis {
-    height: 16px;
-    overflow: visible;
-    background:
-      linear-gradient(90deg, transparent 0 50%, var(--cream-100) 50% 100%);
-  }
-
-  .oa-bars__zero {
-    position: absolute;
-    top: -3px;
-    bottom: -3px;
-    left: 50%;
-    width: 2px;
-    background: var(--navy-800);
-  }
-
-  .oa-bars__fill--pos {
-    position: absolute;
-    left: 50%;
-  }
-
-  .oa-bars__fill--neg {
-    position: absolute;
-    right: 50%;
-    background: #8b4513;
-  }
-
-  .oa-bars p {
-    margin: 6px 0 0;
-    color: var(--text-secondary);
-    font-size: 0.88rem;
   }
 
   .oa-split,
@@ -1115,12 +1005,6 @@ const noiseRows = [
     font-weight: 800;
   }
 
-  .oa-compare {
-    display: grid;
-    gap: 12px;
-    margin-bottom: 12px;
-  }
-
   .oa-plays,
   .oa-steps {
     display: grid;
@@ -1207,16 +1091,6 @@ const noiseRows = [
     .oa-final,
     .oa-hero {
       padding: 48px 0;
-    }
-
-    .oa-stack li,
-    .oa-compare li {
-      grid-template-columns: 1fr auto;
-    }
-
-    .oa-stack__track,
-    .oa-compare__track {
-      grid-column: 1 / -1;
     }
 
     .oa-matrix__axis--x-left,

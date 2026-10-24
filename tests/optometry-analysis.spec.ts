@@ -10,7 +10,25 @@ test.describe('Optometry Analysis landing page', () => {
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', /\/optometry-analysis\/$/);
     await expect(page.locator('h1')).toHaveText('What separates growing independent practices');
     await expect(page.locator('[data-optometry-analysis-form]')).toHaveCount(2);
+    await expect(page.getByRole('heading', { name: /Classic Vision Care as the worked example/ })).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Classic Vision Care: two offices, East Cobb (Marietta, GA) and Kennesaw (GA), sharing one website' })).toBeVisible();
+  });
+
+  test('shows the example slide viewer and advances with next', async ({ page }) => {
+    await page.goto('/optometry-analysis/');
+    const deck = page.locator('[data-oa-deck]');
+
+    await expect(deck).toBeVisible();
+    await expect(deck.locator('[data-oa-slide]')).toHaveCount(12);
+    await expect(deck.locator('[data-oa-thumb]')).toHaveCount(12);
+    await expect(deck.locator('[data-oa-counter]')).toHaveText('1 / 12');
+    await expect(deck.locator('[data-oa-slide]').nth(0)).toBeVisible();
+    await expect(deck.locator('[data-oa-slide]').nth(1)).toBeHidden();
+
+    await deck.getByRole('button', { name: 'Next slide' }).click();
+    await expect(deck.locator('[data-oa-counter]')).toHaveText('2 / 12');
+    await expect(deck.locator('[data-oa-slide]').nth(1)).toBeVisible();
+    await expect(deck.locator('[data-oa-slide]').nth(0)).toBeHidden();
   });
 
   test('requires practice name and a valid website', async ({ page }) => {
@@ -68,10 +86,16 @@ test.describe('Optometry Analysis landing page', () => {
 
   test('does not name practices other than Classic Vision Care', async ({ page }) => {
     await page.goto('/optometry-analysis/');
-    const body = await page.locator('.oa-page').innerText();
+    const body = await page.locator('.oa-page').textContent();
     expect(body).toContain('Classic Vision Care');
     expect(body).toContain('P14');
     expect(body).toContain('P21');
     expect(body).not.toMatch(/Golden Triangle|Winchester Optical|RLK/i);
+
+    const slideAlts = await page.locator('[data-oa-slide] img').evaluateAll((imgs) => (
+      imgs.map((img) => img.getAttribute('alt') || '').join(' ')
+    ));
+    expect(slideAlts).toContain('Classic Vision Care');
+    expect(slideAlts).not.toMatch(/Golden Triangle|Winchester Optical|RLK/i);
   });
 });
