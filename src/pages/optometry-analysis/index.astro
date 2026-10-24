@@ -63,22 +63,26 @@ const slides = [
         <p class="lead">A public-data study of 19 private independents. Growth follows the market more than the practice.</p>
       </div>
 
-      <div class="shell hero-grid">
-        <div class="hero-visual">
-          <OptometryAnalysisDeck slides={slides} />
-          <ul class="hero-bullets">
-            <li>Growers sit in older markets with less private-only insurance.</li>
-            <li>Reviews and web authority track growth. Hours, booking, and site speed do not.</li>
-            <li>Every finding is a lead, not proof.</li>
-          </ul>
-          <p class="source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; directional, n=19 (13 Up / 6 not-Up). Practices coded P01–P27; P14 and P21 excluded from correlations.</p>
-        </div>
+      <div class="deck-shell">
+        <OptometryAnalysisDeck slides={slides} />
+        <p class="oa-plan-jump">
+          <a href="#book" data-oa-plan-cta>Get my plan ↓</a>
+        </p>
+      </div>
 
-        <div id="book" class="hero-form">
-          <Card variant="pricing" class="form-card">
-            <OptometryAnalysisForm idPrefix="oa-top" variant="plain" />
-          </Card>
-        </div>
+      <div class="shell hero-notes">
+        <ul class="hero-bullets">
+          <li>Growers sit in older markets with less private-only insurance.</li>
+          <li>Reviews and web authority track growth. Hours, booking, and site speed do not.</li>
+          <li>Every finding is a lead, not proof.</li>
+        </ul>
+        <p class="source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; directional, n=19 (13 Up / 6 not-Up). Practices coded P01–P27; P14 and P21 excluded from correlations.</p>
+      </div>
+
+      <div id="book" class="shell hero-form">
+        <Card variant="pricing" class="form-card">
+          <OptometryAnalysisForm idPrefix="oa-top" variant="plain" />
+        </Card>
       </div>
     </section>
 
@@ -306,6 +310,11 @@ const slides = [
     margin-inline: auto;
   }
 
+  .deck-shell {
+    width: min(1280px, calc(100% - 40px));
+    margin: 0 auto 28px;
+  }
+
   .hero {
     padding: 34px 0 76px;
     color: var(--navy-900);
@@ -398,24 +407,40 @@ const slides = [
     line-height: 1.5;
   }
 
-  .hero-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(360px, 0.78fr);
-    gap: 48px;
-    align-items: start;
+  .oa-plan-jump {
+    margin: 10px 0 0;
+    text-align: center;
   }
 
-  .hero-visual {
-    min-width: 0;
+  .oa-plan-jump a {
+    color: var(--oceanic-teal);
+    font-size: 0.9rem;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .oa-plan-jump a:hover,
+  .oa-plan-jump a:focus-visible {
+    text-decoration: underline;
+  }
+
+  .hero-notes {
+    margin-bottom: 28px;
   }
 
   .hero-bullets {
     display: grid;
     gap: 8px;
-    margin: 16px 0 12px;
+    margin: 0 0 12px;
     padding-left: 20px;
     color: var(--navy-800);
     font-size: 15px;
+  }
+
+  .hero-form {
+    width: min(560px, calc(100% - 40px));
+    margin-inline: auto;
+    scroll-margin-top: 28px;
   }
 
   .source {
@@ -471,19 +496,16 @@ const slides = [
   }
 
   @media (max-width: 900px) {
-    .hero-grid {
-      grid-template-columns: 1fr;
-      gap: 36px;
-    }
-
     h1 {
       max-width: none;
     }
   }
 
   @media (max-width: 600px) {
-    .shell {
-      width: min(100% - 28px, 1160px);
+    .shell,
+    .deck-shell,
+    .hero-form {
+      width: min(100% - 28px, 1280px);
     }
 
     .hero {

@@ -15,6 +15,8 @@ interface Props {
 }
 
 const { slides } = Astro.props;
+const total = slides.length + 1;
+const ctaIndex = slides.length;
 ---
 
 <div class="oa-deck-section" id="example-deck">
@@ -49,6 +51,15 @@ const { slides } = Astro.props;
               </picture>
             </figure>
           ))}
+          <div class="oa-deck__slide oa-deck__slide--cta" data-oa-slide hidden>
+            <div class="oa-deck__cta">
+              <h3>Get a plan built for your market</h3>
+              <p>We apply this research to your market.</p>
+              <button type="button" class="oa-deck__cta-btn" data-oa-plan-cta>
+                Get my plan
+              </button>
+            </div>
+          </div>
         </div>
 
         <button type="button" class="oa-deck__nav oa-deck__nav--prev" data-oa-prev aria-label="Previous slide">
@@ -60,7 +71,7 @@ const { slides } = Astro.props;
       </div>
 
       <div class="oa-deck__toolbar">
-        <p class="oa-deck__counter" data-oa-counter aria-live="polite">1 / {slides.length}</p>
+        <p class="oa-deck__counter" data-oa-counter aria-live="polite">1 / {total}</p>
         <button type="button" class="oa-deck__fullscreen" data-oa-fullscreen aria-pressed="false">
           View fullscreen
         </button>
@@ -75,13 +86,24 @@ const { slides } = Astro.props;
                 class:list={['oa-deck__thumb', { 'is-active': index === 0 }]}
                 data-oa-thumb
                 data-index={index}
-                aria-label={`Go to slide ${index + 1} of ${slides.length}`}
+                aria-label={`Go to slide ${index + 1} of ${total}`}
                 aria-current={index === 0 ? 'true' : undefined}
               >
                 <img src={slide.srcMobile} alt="" width="800" height="450" loading="lazy" decoding="async" />
               </button>
             </li>
           ))}
+          <li>
+            <button
+              type="button"
+              class="oa-deck__thumb oa-deck__thumb--cta"
+              data-oa-thumb
+              data-index={ctaIndex}
+              aria-label={`Go to slide ${total} of ${total}`}
+            >
+              <span>Plan</span>
+            </button>
+          </li>
         </ol>
       </div>
     </div>
@@ -190,7 +212,22 @@ const { slides } = Astro.props;
     });
   }
 
+  function goToPlanForm(event: Event) {
+    event.preventDefault();
+    const field = document.getElementById('oa-top-practice-name') as HTMLInputElement | null;
+    const book = document.getElementById('book');
+    (book || field)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    window.setTimeout(() => {
+      field?.focus({ preventScroll: true });
+    }, 450);
+  }
+
   document.querySelectorAll<HTMLElement>('[data-oa-deck]').forEach(enhance);
+  document.addEventListener('click', (event) => {
+    const trigger = (event.target as HTMLElement | null)?.closest('[data-oa-plan-cta]');
+    if (!trigger) return;
+    goToPlanForm(event);
+  });
 </script>
 
 <style>
@@ -220,8 +257,9 @@ const { slides } = Astro.props;
   }
 
   .oa-deck__frame {
+    display: grid;
     width: 100%;
-    max-height: calc(100vh - 280px);
+    max-height: calc(100vh - 220px);
     aspect-ratio: 16 / 9;
     overflow: hidden;
     background: #fff;
@@ -234,10 +272,64 @@ const { slides } = Astro.props;
     margin: 0;
     width: 100%;
     height: 100%;
+    min-height: 0;
   }
 
   .oa-deck__slide[hidden] {
-    display: none;
+    display: none !important;
+  }
+
+  .oa-deck__slide--cta:not([hidden]) {
+    display: grid;
+    place-items: center;
+    padding: clamp(16px, 5%, 48px);
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.96), rgba(33, 150, 154, 0.86));
+    color: #fff;
+  }
+
+  .oa-deck__cta {
+    display: grid;
+    justify-items: center;
+    gap: 14px;
+    max-width: 34rem;
+    text-align: center;
+  }
+
+  .oa-deck__cta h3 {
+    margin: 0;
+    color: #fff;
+    font-size: clamp(1.55rem, 4.2vw, 2.85rem);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+  }
+
+  .oa-deck__cta p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: clamp(0.95rem, 1.8vw, 1.15rem);
+    line-height: 1.45;
+  }
+
+  .oa-deck__cta-btn {
+    margin-top: 6px;
+    padding: 14px 22px;
+    border: 0;
+    border-radius: 9px;
+    background: #fff;
+    color: var(--oceanic-teal);
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .oa-deck__cta-btn:hover,
+  .oa-deck__cta-btn:focus-visible {
+    filter: brightness(0.96);
+  }
+
+  .oa-deck__cta-btn:focus-visible {
+    outline: 3px solid rgba(255, 255, 255, 0.55);
+    outline-offset: 3px;
   }
 
   .oa-deck__slide img {
@@ -334,12 +426,24 @@ const { slides } = Astro.props;
     cursor: pointer;
   }
 
-  .oa-deck__thumb img {
+  .oa-deck__thumb img,
+  .oa-deck__thumb--cta span {
     display: block;
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
     object-fit: cover;
+  }
+
+  .oa-deck__thumb--cta span {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, rgba(0, 96, 100, 0.96), rgba(33, 150, 154, 0.86));
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
 
   .oa-deck__thumb.is-active,
