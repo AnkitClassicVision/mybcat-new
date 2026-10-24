@@ -1,21 +1,22 @@
 ---
 /**
- * Public landing page for the October 2026 MyBCAT Optometry Analysis.
- * CVC is the only named practice. Other practices stay as P-codes or omitted.
+ * Public landing page for the October 2026 multi-practice growth research.
+ * This is group research, not a single-practice report. CVC is one worked example.
+ * Other practices stay as P-codes or omitted.
  * No internal scorecard / Sheet 2 / "Ankit only" material.
  */
 import LandingLayout from '@/layouts/LandingLayout.astro';
 import OptometryAnalysisForm from '@/components/landing/OptometryAnalysisForm.astro';
 import OptometryAnalysisDeck from '@/components/landing/OptometryAnalysisDeck.astro';
 
-const title = 'Optometry Analysis: What Drives Growth | MyBCAT';
-const description = 'What separates growing independent optometry practices, with a Classic Vision Care worked example. Request a custom public-data analysis of your location.';
+const title = 'What Drives Growth Across Optometry Practices | MyBCAT';
+const description = 'Multi-practice research on what separates growing independent optometry practices. Classic Vision Care is one worked example. Get a growth plan built for your market.';
 
 const slides = [
   {
     src: '/images/optometry-analysis/slide-01.webp',
     srcMobile: '/images/optometry-analysis/slide-01-800.webp',
-    alt: 'Title slide: MyBCAT Optometry Analysis, October 2026. What separates growing independent practices, with Classic Vision Care as the worked example.',
+    alt: 'Title slide from the October 2026 multi-practice research: what separates growing independent practices. Classic Vision Care is one worked example.',
   },
   {
     src: '/images/optometry-analysis/slide-02.webp',
@@ -95,10 +96,10 @@ const noiseRows = [
     <section class="oa-hero" aria-labelledby="oa-hero-title">
       <div class="oa-shell oa-hero__grid">
         <div class="oa-hero__copy">
-          <p class="oa-eyebrow">Practice growth analysis · October 2026</p>
-          <h1 id="oa-hero-title">What separates growing independent practices</h1>
+          <p class="oa-eyebrow">Multi-practice growth research · October 2026</p>
+          <h1 id="oa-hero-title">What drives growth across a group of optometry practices</h1>
           <p class="oa-lede">
-            Growth follows the market more than the practice. The best plays are measured pilots on reviews and web authority. Classic Vision Care is the worked example.
+            A public-data study of 19 private independents. Growth follows the market more than the practice. Classic Vision Care is one worked example inside that research, not the subject of the study.
           </p>
         </div>
         <div id="request-analysis" class="oa-hero__form">
@@ -115,13 +116,13 @@ const noiseRows = [
 
     <nav class="oa-toc" aria-label="On this page">
       <div class="oa-shell oa-toc__row">
-        <a href="#example-deck">Example slides</a>
+        <a href="#example-deck">The research</a>
         <a href="#covers">What it covers</a>
         <a href="#sample">Sample</a>
         <a href="#findings">Findings</a>
         <a href="#market">Market</a>
         <a href="#cvc">CVC example</a>
-        <a href="#custom">Custom analysis</a>
+        <a href="#custom">Your plan</a>
         <a href="#caveats">How to read it</a>
       </div>
     </nav>
@@ -130,10 +131,10 @@ const noiseRows = [
 
     <section class="oa-section" id="covers" aria-labelledby="oa-covers-title">
       <div class="oa-shell">
-        <p class="oa-eyebrow">What the analysis covers</p>
+        <p class="oa-eyebrow">What the research covers</p>
         <h2 id="oa-covers-title">A public-data runbook, then 64 fields against a self-reported revenue answer</h2>
         <p class="oa-section__lede">
-          For each practice we ran a public-data runbook, then correlated 64 fields with the self-reported answer (Spearman ρ). The runbook is the same work we would run for your location.
+          For each practice in the group we ran a public-data runbook, then correlated 64 fields with the self-reported answer (Spearman ρ). That group study is what the slides report. We can apply the same market read to your location as a growth plan.
         </p>
         <ul class="oa-cover-grid">
           <li><strong>Google profile and reviews</strong> Volume, velocity, and reviews versus a frozen set of local competitors.</li>
@@ -386,8 +387,8 @@ const noiseRows = [
 
     <section class="oa-section" id="custom" aria-labelledby="oa-custom-title">
       <div class="oa-shell">
-        <p class="oa-eyebrow">A custom analysis</p>
-        <h2 id="oa-custom-title">Same runbook. Your location. A 90-day pilot, not a growth promise.</h2>
+        <p class="oa-eyebrow">A plan for your market</p>
+        <h2 id="oa-custom-title">Same research method. Your market. A 90-day pilot, not a growth promise.</h2>
         <ol class="oa-steps">
           <li>
             <b>1</b>
@@ -438,8 +439,8 @@ const noiseRows = [
       <div class="oa-shell oa-final__grid">
         <div>
           <p class="oa-eyebrow">Next step</p>
-          <h2 id="oa-final-title">Request the same analysis for your location</h2>
-          <p>We will not promise growth from a form. We will tell you which cell you sit in, where the evidence-backed gap is, and what to pilot for 90 days.</p>
+          <h2 id="oa-final-title">Get a plan built for your market</h2>
+          <p>We will not promise growth from a form. We will place your location in the market cells from this research, name the evidence-backed gap, and set a 90-day pilot.</p>
         </div>
         <OptometryAnalysisForm idPrefix="oa-bottom" />
       </div>
@@ -695,7 +696,7 @@ const noiseRows = [
   }
 
   .oa-hero h1 {
-    max-width: 18ch;
+    max-width: 22ch;
     margin: 0 0 18px;
     color: var(--navy-900);
     font-size: clamp(2.2rem, 5vw, 4rem);

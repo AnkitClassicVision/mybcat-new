@@ -1,24 +1,26 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Optometry Analysis landing page', () => {
-  test('renders the analysis page with title, H1, and both CTAs', async ({ page }) => {
+  test('renders the research page with title, H1, and both CTAs', async ({ page }) => {
     await page.goto('/optometry-analysis/');
 
-    await expect(page).toHaveTitle(/Optometry Analysis: What Drives Growth \| MyBCAT/);
-    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /Classic Vision Care/);
-    await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', /Optometry Analysis/);
+    await expect(page).toHaveTitle(/What Drives Growth Across Optometry Practices \| MyBCAT/);
+    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /Multi-practice research/);
+    await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', /What Drives Growth Across Optometry Practices/);
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', /\/optometry-analysis\/$/);
-    await expect(page.locator('h1')).toHaveText('What separates growing independent practices');
+    await expect(page.locator('h1')).toHaveText('What drives growth across a group of optometry practices');
     await expect(page.locator('[data-optometry-analysis-form]')).toHaveCount(2);
-    await expect(page.getByRole('heading', { name: /Classic Vision Care as the worked example/ })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /what drives growth across a group of optometry practices/i })).toHaveCount(2);
     await expect(page.getByRole('heading', { name: 'Classic Vision Care: two offices, East Cobb (Marietta, GA) and Kennesaw (GA), sharing one website' })).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Get a plan built for your market' })).toHaveCount(2);
   });
 
-  test('shows the example slide viewer and advances with next', async ({ page }) => {
+  test('shows the research slide viewer and advances with next', async ({ page }) => {
     await page.goto('/optometry-analysis/');
     const deck = page.locator('[data-oa-deck]');
 
     await expect(deck).toBeVisible();
+    await expect(page.locator('#oa-deck-title')).toHaveText('The research: what drives growth across a group of optometry practices');
     await expect(deck.locator('[data-oa-slide]')).toHaveCount(12);
     await expect(deck.locator('[data-oa-thumb]')).toHaveCount(12);
     await expect(deck.locator('[data-oa-counter]')).toHaveText('1 / 12');
@@ -35,13 +37,13 @@ test.describe('Optometry Analysis landing page', () => {
     await page.goto('/optometry-analysis/');
     const form = page.locator('[data-optometry-analysis-form]').first();
 
-    await form.getByRole('button', { name: 'Get a custom analysis for your location' }).click();
+    await form.getByRole('button', { name: 'Get a plan built for your market' }).click();
     await expect(form.locator('[data-error-for="practice_name"]')).toHaveText('Practice name is required.');
     await expect(form.locator('[data-error-for="website"]')).toHaveText('Practice website is required.');
 
     await form.locator('#oa-top-practice-name').fill('Test Vision');
     await form.locator('#oa-top-website').fill('not-a-url');
-    await form.getByRole('button', { name: 'Get a custom analysis for your location' }).click();
+    await form.getByRole('button', { name: 'Get a plan built for your market' }).click();
     await expect(form.locator('[data-error-for="website"]')).toContainText('valid website URL');
   });
 
@@ -53,7 +55,7 @@ test.describe('Optometry Analysis landing page', () => {
     await form.locator('#oa-top-website').fill('https://example.com');
     await form.locator('#oa-top-phone').fill('123');
     await form.locator('#oa-top-email').fill('not-an-email');
-    await form.getByRole('button', { name: 'Get a custom analysis for your location' }).click();
+    await form.getByRole('button', { name: 'Get a plan built for your market' }).click();
 
     await expect(form.locator('[data-error-for="mobilephone"]')).toContainText('10 digits');
     await expect(form.locator('[data-error-for="email"]')).toContainText('valid email');
@@ -76,7 +78,7 @@ test.describe('Optometry Analysis landing page', () => {
     await form.locator('#oa-top-email').fill('preview-test@example.com');
 
     const requestPromise = page.waitForRequest('https://estate-form-bridge.mybcat-estate.workers.dev');
-    await form.getByRole('button', { name: 'Get a custom analysis for your location' }).click();
+    await form.getByRole('button', { name: 'Get a plan built for your market' }).click();
     const request = await requestPromise;
     expect(request.headers()['x-forms-token']).toBe('preview-test-token');
     await page.waitForURL(/\/book\/discovery\/\?/);
@@ -90,6 +92,7 @@ test.describe('Optometry Analysis landing page', () => {
     expect(body).toContain('Classic Vision Care');
     expect(body).toContain('P14');
     expect(body).toContain('P21');
+    expect(body).toContain('one worked example');
     expect(body).not.toMatch(/Golden Triangle|Winchester Optical|RLK/i);
 
     const slideAlts = await page.locator('[data-oa-slide] img').evaluateAll((imgs) => (
