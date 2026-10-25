@@ -1,4 +1,49 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
+
+type IntakeBody = {
+  fields?: { name: string; value: string }[];
+  context?: { source?: string; utm?: Record<string, string> };
+};
+
+function fieldsByName(body: IntakeBody) {
+  return Object.fromEntries((body.fields || []).map((field) => [field.name, field.value]));
+}
+
+async function stubIntakeAndPosthog(page: Page) {
+  const posthog = {
+    events: [] as { event: string; props?: Record<string, unknown> }[],
+    identifies: [] as string[],
+  };
+
+  await page.exposeFunction('__oaPhCapture', (event: string, props: Record<string, unknown>) => {
+    posthog.events.push({ event, props });
+  });
+  await page.exposeFunction('__oaPhIdentify', (id: string) => {
+    posthog.identifies.push(id);
+  });
+  await page.addInitScript(() => {
+    const w = window as Window & {
+      MYBCAT_FORM_TOKEN?: string;
+      posthog?: {
+        capture: (event: string, props?: Record<string, unknown>) => void;
+        identify: (id: string) => void;
+      };
+      __oaPhCapture: (event: string, props?: Record<string, unknown>) => void;
+      __oaPhIdentify: (id: string) => void;
+    };
+    w.MYBCAT_FORM_TOKEN = 'preview-test-token';
+    w.posthog = {
+      capture(event, props) {
+        w.__oaPhCapture(event, props);
+      },
+      identify(id) {
+        w.__oaPhIdentify(id);
+      },
+    };
+  });
+
+  return posthog;
+}
 
 test.describe('Optometry Analysis landing page', () => {
   test('renders the research page with title, H1, viewer, and CTA', async ({ page }) => {
@@ -84,12 +129,19 @@ test.describe('Optometry Analysis landing page', () => {
   });
 
   test('redirects to discovery booking after a successful intake post', async ({ page }) => {
-    await page.addInitScript(() => {
-      window.MYBCAT_FORM_TOKEN = 'preview-test-token';
-    });
+    const posthog = await stubIntakeAndPosthog(page);
     await page.route('https://estate-form-bridge.mybcat-estate.workers.dev', async (route) => {
-      const body = route.request().postDataJSON() as { context?: { source?: string } };
+      const body = route.request().postDataJSON() as IntakeBody;
       expect(body.context?.source).toBe('optometry-analysis');
+      const fields = fieldsByName(body);
+      expect(fields.utm_source).toBe('optometry-analysis');
+      expect(fields.utm_medium).toBeUndefined();
+      expect(fields.utm_campaign).toBeUndefined();
+      expect(fields.utm_content).toBeUndefined();
+      expect(fields.message).toBe(
+        'Growth plan request: wants a growth plan for their local market (optometry analysis page)'
+      );
+      expect(body.context?.utm).toEqual({ utm_source: 'optometry-analysis' });
       await route.fulfill({ status: 200, contentType: 'application/json', body: '{"ok":true}' });
     });
 
@@ -106,6 +158,71 @@ test.describe('Optometry Analysis landing page', () => {
     await page.waitForURL(/\/book\/discovery\/\?/);
     expect(page.url()).toContain('firstName=Preview+Test+Practice');
     expect(page.url()).toContain('email=preview-test%40example.com');
+    expect(posthog.events.map((item) => item.event)).toContain('growth_plan_requested');
+    expect(posthog.events.map((item) => item.event)).not.toContain('discovery_call_scheduled');
+    expect(posthog.identifies).toEqual(['preview-test@example.com']);
+    const growth = posthog.events.find((item) => item.event === 'growth_plan_requested');
+    expect(growth?.props).toMatchObject({
+      source: 'optometry-analysis',
+      utm_source: 'optometry-analysis',
+    });
+  });
+
+  test('sends URL UTMs as fields and context.utm', async ({ page }) => {
+    const posthog = await stubIntakeAndPosthog(page);
+    await page.route('https://estate-form-bridge.mybcat-estate.workers.dev', async (route) => {
+      const body = route.request().postDataJSON() as IntakeBody;
+      expect(body.context?.source).toBe('optometry-analysis');
+      const fields = fieldsByName(body);
+      expect(fields.utm_source).toBe('linkedin');
+      expect(fields.utm_medium).toBe('social');
+      expect(fields.utm_campaign).toBe('oa-2026');
+      expect(fields.utm_content).toBe('hero-cta');
+      expect(fields.message).toBe(
+        'Growth plan request: wants a growth plan for their local market (optometry analysis page)'
+      );
+      expect(body.context?.utm).toEqual({
+        utm_source: 'linkedin',
+        utm_medium: 'social',
+        utm_campaign: 'oa-2026',
+        utm_content: 'hero-cta',
+      });
+      await route.fulfill({ status: 200, contentType: 'application/json', body: '{"ok":true}' });
+    });
+
+    const utmUrl =
+      '/optometry-analysis/?utm_source=linkedin&utm_medium=social&utm_campaign=oa-2026&utm_content=hero-cta';
+    await page.goto(utmUrl);
+    const stored = await page.evaluate(() => sessionStorage.getItem('mybcat_oa_utm'));
+    expect(JSON.parse(stored || '{}')).toEqual({
+      utm_source: 'linkedin',
+      utm_medium: 'social',
+      utm_campaign: 'oa-2026',
+      utm_content: 'hero-cta',
+    });
+
+    const form = page.locator('[data-optometry-analysis-form]').first();
+    await form.locator('#oa-top-practice-name').fill('Preview Test Practice');
+    await form.locator('#oa-top-website').fill('https://example.com');
+    await form.locator('#oa-top-email').fill('preview-test@example.com');
+
+    const requestPromise = page.waitForRequest('https://estate-form-bridge.mybcat-estate.workers.dev');
+    await form.getByRole('button', { name: 'Get a plan built for your market' }).click();
+    const request = await requestPromise;
+    expect(request.headers()['x-forms-token']).toBe('preview-test-token');
+    await page.waitForURL(/\/book\/discovery\/\?/);
+    expect(page.url()).toContain('firstName=Preview+Test+Practice');
+    expect(page.url()).toContain('email=preview-test%40example.com');
+    const growth = posthog.events.find((item) => item.event === 'growth_plan_requested');
+    expect(growth).toBeTruthy();
+    expect(posthog.events.map((item) => item.event)).not.toContain('discovery_call_scheduled');
+    expect(growth?.props).toMatchObject({
+      source: 'optometry-analysis',
+      utm_source: 'linkedin',
+      utm_medium: 'social',
+      utm_campaign: 'oa-2026',
+      utm_content: 'hero-cta',
+    });
   });
 
   test('exposes SEO metadata and structured data', async ({ page }) => {

@@ -231,15 +231,85 @@ const jsonLd = {
   const BOOKING_PATH = '/book/discovery/';
   const SOURCE = 'optometry-analysis';
   const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content'];
+  const UTM_STORAGE_KEY = 'mybcat_oa_utm';
+  const UTM_UNSAFE = /[^A-Za-z0-9._-]/g;
   let started = false;
 
   function token() {
     return window.MYBCAT_FORM_TOKEN || '';
   }
 
+  function sanitizeUtm(value) {
+    return String(value || '').replace(UTM_UNSAFE, '').slice(0, 100);
+  }
+
+  function pickUtms(source) {
+    const out = {};
+    UTM_KEYS.forEach(function (key) {
+      const clean = sanitizeUtm(source && source[key]);
+      if (clean) out[key] = clean;
+    });
+    return out;
+  }
+
+  function readUrlUtms() {
+    const sp = new URLSearchParams(window.location.search);
+    const fromUrl = {};
+    UTM_KEYS.forEach(function (key) {
+      const clean = sanitizeUtm(sp.get(key));
+      if (clean) fromUrl[key] = clean;
+    });
+    return fromUrl;
+  }
+
+  function readStoredUtms() {
+    try {
+      const parsed = JSON.parse(sessionStorage.getItem(UTM_STORAGE_KEY) || 'null');
+      return pickUtms(parsed);
+    } catch {
+      return {};
+    }
+  }
+
+  function writeStoredUtms(utms) {
+    try {
+      sessionStorage.setItem(UTM_STORAGE_KEY, JSON.stringify(utms));
+    } catch {
+      // sessionStorage can be unavailable; submit still uses in-memory UTMs.
+    }
+  }
+
+  function resolveUtms() {
+    const fromUrl = readUrlUtms();
+    if (Object.keys(fromUrl).length) {
+      writeStoredUtms(fromUrl);
+      if (!fromUrl.utm_source) fromUrl.utm_source = SOURCE;
+      return fromUrl;
+    }
+    const stored = readStoredUtms();
+    if (!stored.utm_source) stored.utm_source = SOURCE;
+    return stored;
+  }
+
+  function applyUtmsToForms(utms) {
+    document.querySelectorAll('[data-optometry-analysis-form]').forEach(function (form) {
+      UTM_KEYS.forEach(function (key) {
+        const input = form.elements.namedItem(key);
+        if (input) input.value = utms[key] || '';
+      });
+    });
+  }
+
   function capture(eventName, props) {
     if (window.posthog && typeof window.posthog.capture === 'function') {
       window.posthog.capture(eventName, props);
+    }
+  }
+
+  function identify(email) {
+    if (email && window.posthog && typeof window.posthog.identify === 'function') {
+      window.posthog.identify(email);
     }
   }
 
@@ -351,14 +421,17 @@ const jsonLd = {
   }
 
   function submitIntake(values) {
+    const utms = resolveUtms();
     const fields = [
       { name: 'company', value: values.practiceName },
       { name: 'firstname', value: values.practiceName },
       { name: 'website', value: values.website },
-      { name: 'utm_source', value: SOURCE },
       { name: 'requested_meeting', value: 'Discovery' },
-      { name: 'message', value: 'Custom optometry analysis request' }
+      { name: 'message', value: 'Growth plan request: wants a growth plan for their local market (optometry analysis page)' }
     ];
+    UTM_KEYS.forEach(function (key) {
+      if (utms[key]) fields.push({ name: key, value: utms[key] });
+    });
     if (values.email) fields.push({ name: 'email', value: values.email });
     if (values.phone) fields.push({ name: 'mobilephone', value: values.phone });
 
@@ -367,7 +440,8 @@ const jsonLd = {
       context: {
         pageUri: window.location.href,
         pageName: document.title,
-        source: SOURCE
+        source: SOURCE,
+        utm: utms
       }
     };
 
@@ -412,7 +486,8 @@ const jsonLd = {
       pushDataLayer('form_submit', { formName: SOURCE, source: SOURCE });
 
       submitIntake(values).then(function () {
-        capture('discovery_call_scheduled', { source: SOURCE });
+        identify(values.email);
+        capture('growth_plan_requested', Object.assign({ source: SOURCE }, resolveUtms()));
         window.location.assign(bookingUrl(values));
       }).catch(function () {
         setBusy(form, false);
@@ -421,6 +496,7 @@ const jsonLd = {
     });
   }
 
+  applyUtmsToForms(resolveUtms());
   document.querySelectorAll('[data-optometry-analysis-form]').forEach(attach);
 })();
 </script>
