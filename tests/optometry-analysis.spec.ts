@@ -111,8 +111,8 @@ test.describe('Optometry Analysis landing page', () => {
   test('does not name Classic Vision Care or other practices', async ({ page }) => {
     await page.goto('/optometry-analysis/');
     const body = await page.locator('.oa-page').textContent();
-    expect(body).toContain('P14');
-    expect(body).toContain('P21');
+    expect(body).not.toMatch(/\bP\d{2}\b/);
+    expect(body).not.toMatch(/private-only/i);
     expect(body).not.toMatch(/Classic Vision Care|\bCVC\b|East Cobb|Kennesaw|Marietta/i);
     expect(body).not.toMatch(/Golden Triangle|Winchester Optical|RLK/i);
 
@@ -124,5 +124,6 @@ test.describe('Optometry Analysis landing page', () => {
     ));
     expect(slideAlts).not.toMatch(/Classic Vision Care|\bCVC\b|East Cobb|Kennesaw|Marietta/i);
     expect(slideAlts).not.toMatch(/Golden Triangle|Winchester Optical|RLK/i);
+    expect(slideAlts).not.toMatch(/\bP\d{2}\b|private-only/i);
   });
 });
