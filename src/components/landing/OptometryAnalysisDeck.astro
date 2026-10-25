@@ -8,6 +8,8 @@ export interface AnalysisSlide {
   src: string;
   srcMobile: string;
   alt: string;
+  /** id of the crawlable text version of this slide on the page (optional). */
+  textId?: string;
 }
 
 interface Props {
@@ -35,13 +37,22 @@ const ctaIndex = slides.length;
       >
         <div class="oa-deck__frame" data-oa-frame>
           {slides.map((slide, index) => (
-            <figure class="oa-deck__slide" data-oa-slide hidden={index !== 0}>
+            <figure
+              class="oa-deck__slide"
+              data-oa-slide
+              hidden={index !== 0}
+              aria-roledescription="slide"
+              aria-label={`Slide ${index + 1} of ${total}`}
+            >
               <picture>
-                <source media="(max-width: 700px)" srcset={index === 0 ? slide.srcMobile : undefined} data-srcset={slide.srcMobile} />
+                {/* Real src/srcset on every slide so crawlers can find the images.
+                    Hidden slides stay deferred by native lazy loading. */}
+                <source media="(max-width: 700px)" srcset={slide.srcMobile} data-srcset={slide.srcMobile} />
                 <img
-                  src={index === 0 ? slide.src : undefined}
+                  src={slide.src}
                   data-src={slide.src}
                   alt={slide.alt}
+                  aria-describedby={slide.textId}
                   width="1600"
                   height="901"
                   decoding={index === 0 ? 'sync' : 'async'}
@@ -51,7 +62,14 @@ const ctaIndex = slides.length;
               </picture>
             </figure>
           ))}
-          <div class="oa-deck__slide oa-deck__slide--cta" data-oa-slide hidden>
+          <div
+            class="oa-deck__slide oa-deck__slide--cta"
+            data-oa-slide
+            hidden
+            role="group"
+            aria-roledescription="slide"
+            aria-label={`Slide ${total} of ${total}`}
+          >
             <div class="oa-deck__cta">
               <h3>Get a plan built for your market</h3>
               <p>We apply this research to your market.</p>
@@ -119,6 +137,8 @@ const ctaIndex = slides.length;
     slide.querySelectorAll('img[data-src]').forEach((image) => {
       const node = image as HTMLImageElement;
       if (!node.getAttribute('src')) node.src = node.dataset.src || '';
+      // Warm the next/previous slide so navigation stays instant.
+      if (node.loading === 'lazy') node.loading = 'eager';
     });
   }
 

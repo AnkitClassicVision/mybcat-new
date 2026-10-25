@@ -167,6 +167,7 @@ const sectionLastModDates = {
   '/hipaa-compliance/': '2025-06-15',// Compliance pages
   '/gdpr/': '2025-06-15',            // Compliance pages
   '/sitemap/': '2025-12-01',         // HTML sitemap
+  '/optometry-analysis/': '2026-10-25', // Optometry practice growth study (update on content changes)
   '/blog/category/': '2025-12-20',   // Category pages
   '/blog/tag/': '2025-12-20',        // Tag pages
   '/blog/archive/': '2025-12-25',    // Archive pages
@@ -301,6 +302,10 @@ export default defineConfig({
         // Industry, solution, and comparison pages
         if (item.url.includes('/industries/') || item.url.includes('/solutions/') || item.url.includes('/compare/')) {
           return { ...item, lastmod, priority: 0.9, changefreq: 'weekly' };
+        }
+        // Original research pages
+        if (item.url === 'https://mybcat.com/optometry-analysis/') {
+          return { ...item, lastmod, priority: 0.8, changefreq: 'monthly' };
         }
         // Blog posts
         if (item.url.includes('/blog/')) {
