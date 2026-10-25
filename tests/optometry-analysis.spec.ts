@@ -4,11 +4,11 @@ test.describe('Optometry Analysis landing page', () => {
   test('renders the research page with title, H1, viewer, and CTA', async ({ page }) => {
     await page.goto('/optometry-analysis/');
 
-    await expect(page).toHaveTitle(/What Drives Growth Across Optometry Practices \| MyBCAT/);
-    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /Multi-practice research/);
-    await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', /What Drives Growth Across Optometry Practices/);
+    await expect(page).toHaveTitle(/What Drives Optometry Practice Growth\? 2026 Study \| MyBCAT/);
+    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /How to grow an optometry practice/);
+    await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', /What Drives Optometry Practice Growth/);
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', /\/optometry-analysis\/$/);
-    await expect(page.locator('h1')).toHaveText('What drives growth across optometry practices');
+    await expect(page.locator('h1')).toHaveText('What drives optometry practice growth');
     await expect(page.locator('[data-optometry-analysis-form]')).toHaveCount(1);
     await expect(page.getByRole('button', { name: 'Get a plan built for your market' })).toHaveCount(1);
     await expect(page.getByRole('link', { name: 'Get a plan built for your market' })).toBeVisible();
@@ -108,11 +108,57 @@ test.describe('Optometry Analysis landing page', () => {
     expect(page.url()).toContain('email=preview-test%40example.com');
   });
 
+  test('exposes SEO metadata and structured data', async ({ page }) => {
+    await page.goto('/optometry-analysis/');
+
+    await expect(page.locator('meta[property="og:type"]')).toHaveAttribute('content', 'article');
+    await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', /\/images\/optometry-analysis\/og-optometry-analysis\.jpg$/);
+    await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', /^index, follow/);
+
+    const blocks = await page.locator('script[type="application/ld+json"]').allTextContents();
+    const types = blocks
+      .flatMap((block) => {
+        const data = JSON.parse(block);
+        return data['@graph'] ?? [data];
+      })
+      .flatMap((node) => [node['@type']].flat());
+    expect(types).toEqual(expect.arrayContaining(['WebPage', 'Report', 'BreadcrumbList']));
+  });
+
+  test('keeps every slide crawlable with src, alt, and a text version', async ({ page }) => {
+    await page.goto('/optometry-analysis/');
+
+    const imgs = page.locator('[data-oa-slide] img');
+    await expect(imgs).toHaveCount(4);
+    for (const img of await imgs.all()) {
+      await expect(img).toHaveAttribute('src', /\/images\/optometry-analysis\/.+\.webp$/);
+      await expect(img).toHaveAttribute('alt', /.{20,}/);
+      await expect(img).toHaveAttribute('width', '1600');
+      await expect(img).toHaveAttribute('height', '901');
+    }
+    await expect(imgs.nth(0)).toHaveAttribute('loading', 'eager');
+    await expect(imgs.nth(1)).toHaveAttribute('loading', 'lazy');
+
+    const transcript = page.locator('.oa-transcript');
+    await expect(transcript.locator('li')).toHaveCount(4);
+    await expect(transcript).toContainText('Growers sit in older markets with more Medicare and Medicaid patients.');
+    await expect(page.locator('.hero-notes .source')).toContainText('n=19 (13 Up / 6 not-Up)');
+  });
+
+  test('links to related MyBCAT pages', async ({ page }) => {
+    await page.goto('/optometry-analysis/');
+    const links = page.locator('.oa-links');
+
+    await expect(links.locator('a[href="/ods-on-finance/"]')).toHaveCount(1);
+    await expect(links.locator('a[href="/idoc/"]')).toHaveCount(1);
+    await expect(links.locator('a[href="/"]')).toHaveCount(1);
+  });
+
   test('does not name Classic Vision Care or other practices', async ({ page }) => {
     await page.goto('/optometry-analysis/');
     const body = await page.locator('.oa-page').textContent();
     expect(body).not.toMatch(/\bP\d{2}\b/);
-    expect(body).not.toMatch(/private-only/i);
+    expect(body).not.toMatch(/private-only|self-pay|uninsured/i);
     expect(body).not.toMatch(/Classic Vision Care|\bCVC\b|East Cobb|Kennesaw|Marietta/i);
     expect(body).not.toMatch(/Golden Triangle|Winchester Optical|RLK/i);
 

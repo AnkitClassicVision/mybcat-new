@@ -8,42 +8,151 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Card from '@/components/Card.astro';
 import OptometryAnalysisForm from '@/components/landing/OptometryAnalysisForm.astro';
 import OptometryAnalysisDeck from '@/components/landing/OptometryAnalysisDeck.astro';
+import { company } from '@data/company';
+import { serializeSchema } from '@utils/schema';
 
-const title = 'What Drives Growth Across Optometry Practices | MyBCAT';
-const description = 'Multi-practice research on what separates growing independent optometry practices. Get a growth plan built for your market.';
+// Primary keyword: "optometry practice growth". Secondary: "how to grow an optometry practice",
+// "independent optometry practice", "optometry benchmarks" (Ahrefs US, Oct 2026).
+const title = 'What Drives Optometry Practice Growth? 2026 Study | MyBCAT';
+const description = 'How to grow an optometry practice: a 2026 study of 19 independents and 64 public data points shows what tracks growth. Get a plan for your market.';
+const headline = 'What drives optometry practice growth';
+const publishDate = new Date('2026-10-24T00:00:00-04:00');
+const modifiedDate = new Date('2026-10-25T00:00:00-04:00');
+const ogImage = '/images/optometry-analysis/og-optometry-analysis.jpg';
 
 const slides = [
   {
     src: '/images/optometry-analysis/slide-01-v2.webp',
     srcMobile: '/images/optometry-analysis/slide-01-v2-800.webp',
-    alt: 'Sample: 27 practices profiled; 21 answered the poll; 19 private independents used for correlations (one low-match and one corporate/retail practice excluded). Self-reported mix: 14 Up, 4 mixed or neutral, 3 Down, 6 comment only.',
+    alt: 'Sample: 27 practices profiled from one poll; 21 answered (14 Up, 4 mixed or neutral, 3 Down) and 6 only commented. 19 independents form the comparison set: 13 Up, 6 not-Up.',
+    textId: 'oa-slide-text-1',
   },
   {
     src: '/images/optometry-analysis/slide-02-v2.webp',
     srcMobile: '/images/optometry-analysis/slide-02-v2-800.webp',
     alt: 'Growers sit in older markets with more Medicare and Medicaid patients. Spearman correlations: employer or individual-plan-only share minus 0.68, median catchment age plus 0.63, Medicare share plus 0.60, web domain rating plus 0.57, myopia-control page plus 0.51, reviews versus peers plus 0.51.',
+    textId: 'oa-slide-text-2',
   },
   {
     src: '/images/optometry-analysis/slide-03-v2.webp',
     srcMobile: '/images/optometry-analysis/slide-03-v2-800.webp',
     alt: 'Partial correlations with the market held: domain rating and myopia care still track growth; Medicare, age 65 plus, and CPI fade.',
+    textId: 'oa-slide-text-3',
   },
   {
     src: '/images/optometry-analysis/slide-04.webp',
     srcMobile: '/images/optometry-analysis/slide-04-800.webp',
     alt: 'Hours, online booking, site speed, dry-eye care, and the Google Book button are noise at n equals 19.',
+    textId: 'oa-slide-text-4',
   },
 ];
+
+// Crawlable text version of each slide. Short, factual, no practice names.
+const slideText = [
+  {
+    heading: '27 practices profiled; 19 form the comparison set',
+    body: '27 practices profiled from one poll. 21 answered: 14 Up, 4 mixed or neutral, 3 Down; 6 only commented. 19 independents are used for correlations (13 Up / 6 not-Up). One low-match and one corporate/retail practice are excluded.',
+  },
+  {
+    heading: 'Growers sit in older markets with more Medicare and Medicaid patients.',
+    body: 'Market first: median catchment age (+0.63) and insurance mix (employer or individual-plan share, −0.68). Practice second: web domain rating (+0.57), a myopia-control page (+0.51), and reviews vs local peers (+0.51). Leads, not proof.',
+  },
+  {
+    heading: 'With the market held fixed, web authority and myopia care still track growth',
+    body: 'Domain rating rises to +0.63 and myopia care to +0.56 with both market factors held. Medicare and age 65+ fall to +0.18 and +0.13; competitive pressure (CPI) falls from −0.48 to −0.10.',
+  },
+  {
+    heading: 'Hours, online booking, site speed, and dry-eye care are noise at n=19',
+    body: 'Evening / Saturday hours +0.38 / −0.12, online booking +0.26, dry-eye care +0.21, Google Book button +0.18, site speed −0.12. Test these as measured pilots, not growth promises.',
+  },
+];
+
+const pageUrl = `${company.site.url}/optometry-analysis/`;
+const orgId = `${company.site.url}/#organization`;
+const slideImages = slides.map((slide) => `${company.site.url}${slide.src}`);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebPage',
+      '@id': `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: title,
+      description,
+      inLanguage: 'en-US',
+      isPartOf: { '@id': `${company.site.url}/#website` },
+      about: { '@type': 'Thing', name: 'Optometry practice growth' },
+      primaryImageOfPage: { '@id': `${pageUrl}#slide-1` },
+      breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
+      mainEntity: { '@id': `${pageUrl}#report` },
+      datePublished: publishDate.toISOString(),
+      dateModified: modifiedDate.toISOString(),
+    },
+    {
+      '@type': ['Article', 'Report'],
+      '@id': `${pageUrl}#report`,
+      headline,
+      description,
+      url: pageUrl,
+      inLanguage: 'en-US',
+      datePublished: publishDate.toISOString(),
+      dateModified: modifiedDate.toISOString(),
+      author: { '@id': orgId },
+      publisher: { '@id': orgId },
+      mainEntityOfPage: { '@id': `${pageUrl}#webpage` },
+      image: slides.map((slide, index) => ({
+        '@type': 'ImageObject',
+        '@id': `${pageUrl}#slide-${index + 1}`,
+        url: slideImages[index],
+        contentUrl: slideImages[index],
+        width: 1600,
+        height: 901,
+        caption: slide.alt,
+      })),
+      keywords: 'optometry practice growth, how to grow an optometry practice, independent optometry practice, optometry benchmarks',
+      citation: 'Source: ODs on Finance revenue poll (Oct 2026) plus public data, MyBCAT analysis; directional, n=19 (13 Up / 6 not-Up).',
+    },
+    {
+      '@type': 'Organization',
+      '@id': orgId,
+      name: 'MyBCAT',
+      alternateName: company.name,
+      url: company.site.url,
+      logo: `${company.site.url}/images/logo.webp`,
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: company.site.url },
+        { '@type': 'ListItem', position: 2, name: 'Optometry', item: `${company.site.url}/industries/optometry/` },
+        { '@type': 'ListItem', position: 3, name: 'Optometry practice growth study', item: pageUrl },
+      ],
+    },
+  ],
+};
 ---
 
 <BaseLayout
   title={title}
   description={description}
+  ogImage={ogImage}
+  ogType="article"
+  publishDate={publishDate}
+  modifiedDate={modifiedDate}
   noindex={false}
   disableTracking={false}
   navMode="hidden"
-  lcpImage="/images/optometry-analysis/slide-01-v2.webp"
 >
+  <Fragment slot="head">
+    {/* Responsive LCP preload: phones fetch the 800px slide, not both sizes. */}
+    <link rel="preload" as="image" type="image/webp" href={slides[0].srcMobile} media="(max-width: 700px)" fetchpriority="high" />
+    <link rel="preload" as="image" type="image/webp" href={slides[0].src} media="(min-width: 701px)" fetchpriority="high" />
+    <meta property="og:image:alt" content="Optometry practice growth study: growers sit in older markets with more Medicare and Medicaid patients." />
+    <meta name="twitter:image:alt" content="Optometry practice growth study: growers sit in older markets with more Medicare and Medicaid patients." />
+    <script type="application/ld+json" set:html={serializeSchema(jsonLd)} />
+  </Fragment>
   <main id="main-content" class="oa-page">
     <section class="hero" aria-labelledby="oa-hero-title">
       <div class="shell brand-row">
@@ -59,8 +168,8 @@ const slides = [
 
       <div class="shell hero-intro">
         <p class="eyebrow">Multi-practice growth research</p>
-        <h1 id="oa-hero-title">What drives growth across optometry practices</h1>
-        <p class="lead">A public-data study of 19 private independents. Growth follows the market more than the practice.</p>
+        <h1 id="oa-hero-title">What drives optometry practice growth</h1>
+        <p class="lead">A study of 19 independent practices and 64 public data points. Growth follows the market more than the practice.</p>
       </div>
 
       <div class="deck-shell">
@@ -77,7 +186,24 @@ const slides = [
           <li>Every finding is a lead, not proof.</li>
         </ul>
         <p class="source">Source: ODs on Finance revenue poll (Oct 2026) plus public data, MyBCAT analysis; directional, n=19 (13 Up / 6 not-Up).</p>
+        <p class="oa-links">
+          For members: <a href="/ods-on-finance/">ODs on Finance</a> · <a href="/idoc/">iDoc</a> · <a href="/industries/optometry/">MyBCAT for optometry</a> · <a href="/">MyBCAT home</a>
+        </p>
       </div>
+
+      <section class="shell oa-transcript" aria-labelledby="oa-transcript-title">
+        <details>
+          <summary><h2 id="oa-transcript-title">Read the slide text</h2></summary>
+          <ol>
+            {slideText.map((item, index) => (
+              <li id={`oa-slide-text-${index + 1}`}>
+                <h3>Slide {index + 1}: {item.heading}</h3>
+                <p>{item.body}</p>
+              </li>
+            ))}
+          </ol>
+        </details>
+      </section>
 
       <div id="book" class="shell hero-form">
         <Card variant="pricing" class="form-card">
@@ -434,6 +560,47 @@ const slides = [
     margin: 0 0 12px;
     padding-left: 20px;
     color: var(--navy-800);
+    font-size: 15px;
+  }
+
+  .oa-links {
+    margin: 8px 0 0;
+    color: var(--text-secondary);
+    font-size: 12px;
+  }
+
+  .oa-links a {
+    color: var(--oceanic-teal);
+    font-weight: 700;
+  }
+
+  .oa-transcript {
+    margin-bottom: 28px;
+  }
+
+  .oa-transcript summary {
+    cursor: pointer;
+    color: var(--oceanic-teal);
+    font-weight: 800;
+  }
+
+  .oa-transcript summary h2 {
+    display: inline;
+    font-size: 15px;
+  }
+
+  .oa-transcript ol {
+    display: grid;
+    gap: 12px;
+    margin: 12px 0 0;
+    padding-left: 20px;
+    color: var(--navy-800);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .oa-transcript h3 {
+    margin: 0 0 4px;
     font-size: 15px;
   }
 
