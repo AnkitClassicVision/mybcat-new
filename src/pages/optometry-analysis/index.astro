@@ -1,7 +1,7 @@
 ---
 /**
  * Public landing page for the October 2026 multi-practice growth research.
- * Group research only. No named practices. Others stay as P-codes or omitted.
+ * Group research only. No named practices and no practice codes.
  * Layout matches the iDoc / ODs on Finance lead-gen landings.
  */
 import BaseLayout from '@/layouts/BaseLayout.astro';
@@ -14,18 +14,18 @@ const description = 'Multi-practice research on what separates growing independe
 
 const slides = [
   {
-    src: '/images/optometry-analysis/slide-01.webp',
-    srcMobile: '/images/optometry-analysis/slide-01-800.webp',
-    alt: 'Sample: 27 practices profiled as P01 to P27; 21 answered the poll; 19 private independents used for correlations. Self-reported mix: 14 Up, 4 mixed or neutral, 3 Down, 6 comment only.',
+    src: '/images/optometry-analysis/slide-01-v2.webp',
+    srcMobile: '/images/optometry-analysis/slide-01-v2-800.webp',
+    alt: 'Sample: 27 practices profiled; 21 answered the poll; 19 private independents used for correlations (one low-match and one corporate/retail practice excluded). Self-reported mix: 14 Up, 4 mixed or neutral, 3 Down, 6 comment only.',
   },
   {
-    src: '/images/optometry-analysis/slide-02.webp',
-    srcMobile: '/images/optometry-analysis/slide-02-800.webp',
-    alt: 'Named Spearman correlations: private-only insurance share minus 0.68, median catchment age plus 0.63, web domain rating plus 0.57, myopia-control page plus 0.51, reviews versus peers plus 0.51.',
+    src: '/images/optometry-analysis/slide-02-v2.webp',
+    srcMobile: '/images/optometry-analysis/slide-02-v2-800.webp',
+    alt: 'Growers sit in older markets with more Medicare and Medicaid patients. Spearman correlations: employer or individual-plan-only share minus 0.68, median catchment age plus 0.63, Medicare share plus 0.60, web domain rating plus 0.57, myopia-control page plus 0.51, reviews versus peers plus 0.51.',
   },
   {
-    src: '/images/optometry-analysis/slide-03.webp',
-    srcMobile: '/images/optometry-analysis/slide-03-800.webp',
+    src: '/images/optometry-analysis/slide-03-v2.webp',
+    srcMobile: '/images/optometry-analysis/slide-03-v2-800.webp',
     alt: 'Partial correlations with the market held: domain rating and myopia care still track growth; Medicare, age 65 plus, and CPI fade.',
   },
   {
@@ -42,7 +42,7 @@ const slides = [
   noindex={false}
   disableTracking={false}
   navMode="hidden"
-  lcpImage="/images/optometry-analysis/slide-01.webp"
+  lcpImage="/images/optometry-analysis/slide-01-v2.webp"
 >
   <main id="main-content" class="oa-page">
     <section class="hero" aria-labelledby="oa-hero-title">
@@ -72,11 +72,11 @@ const slides = [
 
       <div class="shell hero-notes">
         <ul class="hero-bullets">
-          <li>Growers sit in older markets with less private-only insurance.</li>
+          <li>Growers sit in older markets with more Medicare and Medicaid patients.</li>
           <li>Reviews and web authority track growth. Hours, booking, and site speed do not.</li>
           <li>Every finding is a lead, not proof.</li>
         </ul>
-        <p class="source">Source: ODs on Finance revenue poll (Oct 2026), MyBCAT analysis; directional, n=19 (13 Up / 6 not-Up). Practices coded P01–P27; P14 and P21 excluded from correlations.</p>
+        <p class="source">Source: ODs on Finance revenue poll (Oct 2026) plus public data, MyBCAT analysis; directional, n=19 (13 Up / 6 not-Up).</p>
       </div>
 
       <div id="book" class="shell hero-form">
