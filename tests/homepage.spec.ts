@@ -20,7 +20,7 @@ test.describe('Homepage', () => {
 
   test('should have working CTA button', async ({ page }) => {
     await page.goto('/');
-    const ctaButton = page.locator('a[href*="contact"], a[href*="meeting"]').first();
+    const ctaButton = page.locator('a[href*="book/discovery"], a[href*="contact"], a[href*="meeting"]').first();
     await expect(ctaButton).toBeVisible();
   });
 
