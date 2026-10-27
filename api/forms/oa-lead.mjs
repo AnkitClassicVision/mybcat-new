@@ -75,7 +75,13 @@ function isAllowedOrigin(origin) {
 
 function sanitizeLine(value, maxLen = 500) {
   if (typeof value !== 'string') return '';
-  return value.replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, '').trim().slice(0, maxLen);
+  let cleaned = '';
+  for (const char of value) {
+    const code = char.codePointAt(0) ?? 0;
+    const isControl = (code < 32 && code !== 9 && code !== 10 && code !== 13) || code === 127;
+    if (!isControl) cleaned += char;
+  }
+  return cleaned.trim().slice(0, maxLen);
 }
 
 function parseBody(req) {
