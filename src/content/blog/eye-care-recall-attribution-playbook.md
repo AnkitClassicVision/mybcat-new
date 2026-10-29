@@ -196,6 +196,8 @@ Before approving a larger rollout or vendor engagement, have the buying committe
 
 ## Related Reading
 
+- [Enterprise reporting and quality assurance](/enterprise/reporting-qa/)
+
 ### Recall ownership and workflow
 
 - [Centralized patient recall across multiple locations](/blog/centralized-patient-recall-multi-location/)

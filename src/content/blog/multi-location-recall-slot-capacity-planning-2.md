@@ -369,11 +369,11 @@ If you operate a DSO, MSO, optometry group, dental group, or healthcare organiza
 
 ## Sources
 
-- AHRQ: Reminder Systems for Immunizations and Preventive Services, https://www.ahrq.gov/sites/default/files/wysiwyg/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/health-promotion-education/cahps-strategy-6-r.pdf
-- MGMA: Streamlining scheduling workflows to improve appointment capacity with physician engagement and technology, https://www.mgma.com/articles/streamlining-scheduling-workflows-to-improve-appointment-capacity
-- MGMA: Central scheduling to support practice growth and success in the accountable care environment, https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment
-- ADA: Recare Appointments, https://www.ada.org/resources/practice/practice-management/recare-appointments
-- ADA: Key Performance Indicators (KPIs), https://www.ada.org/resources/practice/practice-management/measuring-success20160428t155202
-- AOA: Patient Communication, https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication
-- Optometric Management: Implement a Patient Recall System, https://www.optometricmanagement.com/issues/2021/march/implement-a-patient-recall-system
-- PubMed: Appointment reminder systems are effective but not optimal, https://pubmed.ncbi.nlm.nih.gov/27110102
+- [AHRQ: Reminder Systems for Immunizations and Preventive Services](https://www.ahrq.gov/sites/default/files/wysiwyg/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/health-promotion-education/cahps-strategy-6-r.pdf)
+- [MGMA: Streamlining scheduling workflows to improve appointment capacity with physician engagement and technology](https://www.mgma.com/articles/streamlining-scheduling-workflows-to-improve-appointment-capacity)
+- [MGMA: Central scheduling to support practice growth and success in the accountable care environment](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)
+- [ADA: Recare Appointments](https://www.ada.org/resources/practice/practice-management/recare-appointments)
+- [ADA: Key Performance Indicators (KPIs)](https://www.ada.org/resources/practice/practice-management/measuring-success20160428t155202)
+- [AOA: Patient Communication](https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication)
+- [Optometric Management: Implement a Patient Recall System](https://www.optometricmanagement.com/issues/2021/march/implement-a-patient-recall-system)
+- [PubMed: Appointment reminder systems are effective but not optimal](https://pubmed.ncbi.nlm.nih.gov/27110102)

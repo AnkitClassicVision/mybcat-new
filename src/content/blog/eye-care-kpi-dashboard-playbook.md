@@ -210,6 +210,8 @@ If you oversee **3+ locations** and are evaluating those responsibilities, [book
 
 ## Related Reading
 
+- [Enterprise reporting and quality assurance](/enterprise/reporting-qa/)
+
 ### Dashboard design and reporting
 
 - [Reporting dashboards for multi-site healthcare operations](/blog/reporting-dashboard-multi-site-healthcare-operations/)

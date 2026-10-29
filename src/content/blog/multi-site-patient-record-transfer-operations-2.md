@@ -271,7 +271,7 @@ The buying committee should look for governance: documented workflows, training,
 
 For groups with 3+ locations, the right partner should understand multi-location complexity. The conversation should include patient access, scheduling, referral operations, compliance, systems, and local site realities.
 
-If your group is centralizing patient access or standardizing record transfer workflows across 3+ locations, you can schedule a discovery call with MyBCAT here: https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call
+If your group is centralizing patient access or standardizing record transfer workflows across 3+ locations, you can schedule a discovery call with MyBCAT here: [schedule a MyBCAT discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)
 
 ## Related Reading
 
@@ -293,14 +293,13 @@ If your group is centralizing patient access or standardizing record transfer wo
 
 ### Government Sources
 
-- HHS: Individuals’ Right under HIPAA to Access their Health Information 45 CFR § 164.524, https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/access/index.html
-- ONC: What is HIE?, https://healthit.gov/health-it-basics/hie
-- ONC: Patient Identity and Patient Record Matching, https://healthit.gov/standards-and-technology/patient-identity-and-patient-record-matching
-- ONC: Registrar Playbook, Chapter 1, https://playbook.healthit.gov/playbook/registrar/chapter-1
-- CMS: Interoperability Framework, https://www.cms.gov/initiatives/health-technology-ecosystem/overview/interoperability-framework
-
+- [HHS: Individuals’ Right under HIPAA to Access their Health Information 45 CFR § 164.524](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/access/index.html)
+- [ONC: What is HIE?](https://healthit.gov/health-it-basics/hie)
+- [ONC: Patient Identity and Patient Record Matching](https://healthit.gov/standards-and-technology/patient-identity-and-patient-record-matching)
+- [ONC: Registrar Playbook, Chapter 1](https://playbook.healthit.gov/playbook/registrar/chapter-1)
+- [CMS: Interoperability Framework](https://www.cms.gov/initiatives/health-technology-ecosystem/overview/interoperability-framework)
 ### Industry Sources
 
-- American Dental Association: Copying and/or Transferring Records, https://www.ada.org/resources/practice/practice-management/copying-transferring-records
-- Optometric Management: What is a Health Information Exchange?, https://optometricmanagement.com/issues/2022/june/what-is-a-health-information-exchange
-- American Optometric Association: Health Insurance Portability and Accountability Act (HIPAA), https://www.aoa.org/practice/practice-success-resources/health-insurance-portability-and-accountability-act-%28hipaa%29
+- [American Dental Association: Copying and/or Transferring Records](https://www.ada.org/resources/practice/practice-management/copying-transferring-records)
+- [Optometric Management: What is a Health Information Exchange?](https://optometricmanagement.com/issues/2022/june/what-is-a-health-information-exchange)
+- [American Optometric Association: Health Insurance Portability and Accountability Act (HIPAA)](https://www.aoa.org/practice/practice-success-resources/health-insurance-portability-and-accountability-act-%28hipaa%29)
