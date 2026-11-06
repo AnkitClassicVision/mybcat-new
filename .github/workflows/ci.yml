@@ -9,6 +9,12 @@ on:
   pull_request:
     branches: [main]
 
+# Concurrency: PR runs share one group per workflow+PR and supersede older runs;
+# every non-PR run (push, schedule, manual) gets a unique run-scoped group so it
+# can never cancel or replace another run, and can never be cancelled or replaced.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.number) || format('run-{0}-{1}', github.run_id, github.run_attempt) }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 jobs:
   build:
     runs-on: self-hosted
