@@ -4,7 +4,7 @@ title: >-
   Guide
 description: 'Sell your optometry practice with an exit plan covering buyer selection, due diligence, deal structure, tax planning, and a 1-3 year preparation timeline.'
 publishDate: 2026-01-20T00:00:00.000Z
-modifiedDate: '2026-09-24'
+modifiedDate: '2026-11-06'
 status: published
 author: Ankit Patel
 category: Practice Management
@@ -84,7 +84,7 @@ Use three live URLs, not a generic blog hub:
 
 - [Valuation methods and published ranges](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/)
 - [This exit-planning guide](/blog/guide-for-selling-your-optometry-practice/)
-- [Operations that make a valuation defensible](/blog/the-complete-guide-to-running-a-private-optometric-practice/)
+- [Multi-location private practice operations](/blog/the-complete-guide-to-running-a-private-optometric-practice/)
 
 The valuation article already publishes the broad ranges (for example 40-70% of annual gross revenue or 2-4x EBITDA). We do not invent a new 2026 multiple here. If operations are messy, expect the low end of those already-stated ranges.
 
