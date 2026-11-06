@@ -271,7 +271,7 @@ The buying committee should look for governance: documented workflows, training,
 
 For groups with 3+ locations, the right partner should understand multi-location complexity. The conversation should include patient access, scheduling, referral operations, compliance, systems, and local site realities.
 
-If your group is centralizing patient access or standardizing record transfer workflows across 3+ locations, you can schedule a discovery call with MyBCAT here: [schedule a MyBCAT discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)
+If your group is centralizing patient access or standardizing record transfer workflows across 3+ locations, you can schedule a discovery call with MyBCAT here: [schedule a MyBCAT discovery call](https://mybcat.com/book/discovery)
 
 ## Related Reading
 

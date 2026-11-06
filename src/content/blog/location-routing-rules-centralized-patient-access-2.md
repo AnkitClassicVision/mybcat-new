@@ -246,7 +246,7 @@ A strong partner should not require every location to become identical. It shoul
 
 For multi-location groups, the right question is not "Can you answer calls?" It is "Can you route each caller according to our access strategy, our location realities, and our governance model?"
 
-If your healthcare group has **3+ locations** and is evaluating centralized patient access, call routing, or front-office consolidation, you can schedule a discovery conversation here: [Book a MyBCAT discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call).
+If your healthcare group has **3+ locations** and is evaluating centralized patient access, call routing, or front-office consolidation, you can schedule a discovery conversation here: [Book a MyBCAT discovery call](https://mybcat.com/book/discovery).
 
 ## Related Reading
 

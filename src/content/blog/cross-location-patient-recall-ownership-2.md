@@ -170,4 +170,4 @@ For adjacent front-office strategy, read [Centralized Scheduling for Multi-Offic
 7. [PMC, "Implementing care coordination in a large dental care organization in the United States by upskilling front office personnel"](https://pmc.ncbi.nlm.nih.gov/articles/PMC8028788/)
 8. [PubMed, "Risk Assessment-Based Individualized Treatment (RABIT): a comprehensive approach to dental patient recall"](https://pubmed.ncbi.nlm.nih.gov/23576590)
 
-*[Managing cross-location patient recall ownership across 3+ locations? Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*[Managing cross-location patient recall ownership across 3+ locations? Request an Enterprise Assessment for your group.](https://mybcat.com/book/discovery)*

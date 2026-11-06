@@ -183,4 +183,4 @@ For the solution overview, review [Patient Recall](/solutions/patient-recall/). 
 6. [American Optometric Association, Patient Communication](https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication)
 7. [Why Patient Matching Is a Challenge: Research on Master Patient Index Data Discrepancies in Key Identifying Fields](https://pmc.ncbi.nlm.nih.gov/articles/PMC4832129/)
 
-*Managing recall list data hygiene across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing recall list data hygiene across 3+ locations? [Request an Enterprise Assessment for your group.](https://mybcat.com/book/discovery)*

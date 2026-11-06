@@ -233,4 +233,4 @@ They are most useful for operators designing cross-location ownership, QA calibr
 7. [S7: Agency for Healthcare Research and Quality, Follow Up with Patients: Tool 6](https://www.ahrq.gov/health-literacy/improve/precautions/tool6.html)
 8. [S8: PubMed, An intervention study to assess the effectiveness of a reminder telephone call in improving patient appointment attendance at a Community Dental Service clinic](https://pubmed.ncbi.nlm.nih.gov/28537358/)
 
-*Managing unscheduled treatment reactivation across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing unscheduled treatment reactivation across 3+ locations? [Request an Enterprise Assessment for your group.](https://mybcat.com/book/discovery)*

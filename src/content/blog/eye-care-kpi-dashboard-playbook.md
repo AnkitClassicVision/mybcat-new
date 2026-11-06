@@ -206,7 +206,7 @@ Agree on how definition changes, source-system changes, and unresolved discrepan
 
 Use the dashboard playbook to prepare a focused discussion about centralized call support and back-office responsibilities. Identify which workflows need shared ownership, which measures leadership wants to review, and where location-level authority should sit.
 
-If you oversee **3+ locations** and are evaluating those responsibilities, [book a MyBCAT discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call). Bring an aggregate scorecard, your current ownership questions, and the operating decisions your reporting needs to support.
+If you oversee **3+ locations** and are evaluating those responsibilities, [book a MyBCAT discovery call](https://mybcat.com/book/discovery). Bring an aggregate scorecard, your current ownership questions, and the operating decisions your reporting needs to support.
 
 ## Related Reading
 

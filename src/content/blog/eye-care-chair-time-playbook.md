@@ -214,7 +214,7 @@ For leaders overseeing **3+ locations**, bring the current appointment rules, lo
 
 Use those materials to identify the administrative work under consideration, the decisions retained by clinical leadership, and the evidence needed to assess a proposed operating model.
 
-[Book a MyBCAT enterprise discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss patient-access workflows, scheduling ownership, and administrative support for your multi-location group.
+[Book a MyBCAT enterprise discovery call](https://mybcat.com/book/discovery) to discuss patient-access workflows, scheduling ownership, and administrative support for your multi-location group.
 
 ## Related Reading
 

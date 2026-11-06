@@ -213,4 +213,4 @@ These links are most useful when operations, finance, and regional leadership ne
 6. [S7: American Optometric Association, Patient Communication](https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication)
 7. [S8: Telephone Access Management in Primary Care](https://pmc.ncbi.nlm.nih.gov/articles/PMC8806007/)
 
-*Managing centralized call overflow routing across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing centralized call overflow routing across 3+ locations? [Request an Enterprise Assessment for your group.](https://mybcat.com/book/discovery)*

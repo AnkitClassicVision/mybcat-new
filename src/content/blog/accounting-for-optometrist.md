@@ -185,4 +185,4 @@ MyBCAT's guide to [optometry front office standardization for group practices](/
 7. [S7: Optometric Management, Alliance Solutions to Accounting Challenges](https://optometricmanagement.com/issues/2019/june/alliance-solutions-to-accounting-challenges/)
 8. [S8: MGMA, Financial Management for Medical Groups](https://prod.mgma.com/books/financial-management-for-medical-groups-3rd-edition)
 
-*Managing accounting for optometrist groups across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing accounting for optometrist groups across 3+ locations? [Request an Enterprise Assessment for your group.](https://mybcat.com/book/discovery)*

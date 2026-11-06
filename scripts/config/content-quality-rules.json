@@ -36,12 +36,12 @@
   },
   "ctaPatterns": [
     "/contact/",
-    "https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call"
+    "https://mybcat.com/book/discovery"
   ],
   "ctaPatternsByFunnel": {
     "service": [
       "/contact/",
-      "https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call"
+      "https://mybcat.com/book/discovery"
     ],
     "acquisition": [
       "/optometry-practice-transitions/"

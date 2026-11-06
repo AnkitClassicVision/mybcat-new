@@ -200,7 +200,7 @@ For healthcare groups with **3+ locations**, bring your current reminder sequenc
 
 Focus the conversation on where your team needs clearer ownership, additional follow-up capacity, or a more consistent scheduling handoff.
 
-[Schedule a MyBCAT discovery call for your multi-location group](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss the confirmation workflow and the scope of support your organization wants to evaluate.
+[Schedule a MyBCAT discovery call for your multi-location group](https://mybcat.com/book/discovery) to discuss the confirmation workflow and the scope of support your organization wants to evaluate.
 
 ## Related Reading
 
