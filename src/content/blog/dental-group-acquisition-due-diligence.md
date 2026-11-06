@@ -45,6 +45,8 @@ The purchase price of a dental practice is largely a bet on patient retention. W
 
 Unlike equipment or real estate, the primary asset in a dental practice acquisition is goodwill, which represents the expectation that patients will continue returning.
 
+If the acquired location has staffing gaps at the front desk, [managed front desk outsourcing](/solutions/front-desk-outsourcing/) can stabilize call answering and outbound recall during acquisition integration.
+
 **The value equation:**
 
 <div style="background: #fffbeb; border: 2px solid #f59e0b; border-radius: 8px; padding: 24px; margin: 24px 0;">
@@ -336,7 +338,7 @@ During the first 30 days, communication priorities include patient notification 
 
 Retention efforts during months one through six should focus on personal outreach to top patients, a structured hygiene recall campaign using proven [patient recall scripts](/blog/patient-recall-scripts/), consistent [appointment reminder best practices](/blog/appointment-reminder-best-practices/), treatment plan follow-up, and addressing any identified service gaps.
 
-If the acquired location has staffing gaps at the front desk, [front office outsourcing](/solutions/front-desk-outsourcing/) can stabilize call answering and outbound recall during acquisition integration. Monitoring activities include tracking patient visits versus the prior year, monitoring no-show and cancellation rates, surveying patient satisfaction, and watching online reviews closely.
+Monitoring activities include tracking patient visits versus the prior year, monitoring no-show and cancellation rates, surveying patient satisfaction, and watching online reviews closely.
 
 ### Medium-term (Months 6-18)
 
