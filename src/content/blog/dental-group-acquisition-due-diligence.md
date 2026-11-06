@@ -9,6 +9,7 @@ seoDescription: >-
   flags, data analysis, and risk mitigation strategies for DSOs and dental
   acquirers.
 publishDate: '2026-02-18T00:00:00.000Z'
+modifiedDate: '2026-11-06'
 status: published
 author: Ankit Patel
 category: Enterprise
@@ -27,6 +28,7 @@ relatedPosts:
   - multi-location-healthcare-ebitda
   - pe-backed-healthcare-operations
   - optometry-network-operations-scale
+  - patient-recall-scripts
 ---
 The purchase price of a dental practice is largely a bet on patient retention. When you acquire a practice for 70-80% of collections, you are betting that those patients will continue coming after the seller leaves. Yet many acquirers, even experienced DSOs, underweight patient retention analysis during due diligence, only to watch 20-30% of patients disappear within 18 months of closing. This guide identifies the specific patient retention red flags to look for during dental acquisition due diligence.
 
@@ -42,6 +44,8 @@ The purchase price of a dental practice is largely a bet on patient retention. W
 ## Why Does Patient Retention Drive Dental Practice Value?
 
 Unlike equipment or real estate, the primary asset in a dental practice acquisition is goodwill, which represents the expectation that patients will continue returning.
+
+If the acquired location has staffing gaps at the front desk, [managed front desk outsourcing](/solutions/front-desk-outsourcing/) can stabilize call answering and outbound recall during acquisition integration.
 
 **The value equation:**
 
@@ -174,6 +178,8 @@ External factors requiring analysis include competitive landscape changes, demog
 Before signing a letter of intent, request summary production reports covering three years, active patient count trend data, general patient demographics, and a payer mix summary. Quick disqualifiers that should stop the deal include an active patient count declining 10% or more annually, hygiene recall compliance under 50%, a seller who wants to leave immediately post-close, or a major competitor that just opened within one mile.
 
 ### Phase 2: Detailed Analysis (Post-LOI, Days 1-10)
+
+Use this post-LOI **dental practice acquisition checklist** to verify patient retention, production stability, and scheduling health before closing.
 
 **Comprehensive data requests:**
 
@@ -330,7 +336,9 @@ During the first 30 days, communication priorities include patient notification 
 
 ### Short-term (Months 1-6)
 
-Retention efforts during months one through six should focus on personal outreach to top patients, a hygiene recall campaign, treatment plan follow-up, and addressing any identified service gaps. Monitoring activities include tracking patient visits versus the prior year, monitoring no-show and cancellation rates, surveying patient satisfaction, and watching online reviews closely.
+Retention efforts during months one through six should focus on personal outreach to top patients, a structured hygiene recall campaign using proven [patient recall scripts](/blog/patient-recall-scripts/), consistent [appointment reminder best practices](/blog/appointment-reminder-best-practices/), treatment plan follow-up, and addressing any identified service gaps.
+
+Monitoring activities include tracking patient visits versus the prior year, monitoring no-show and cancellation rates, surveying patient satisfaction, and watching online reviews closely.
 
 ### Medium-term (Months 6-18)
 
