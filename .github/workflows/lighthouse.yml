@@ -157,3 +157,6 @@ jobs:
           else
             bash .github/scripts/aac-emit.sh 10-lighthouse ERROR '{"job_status":"${{ job.status }}","github_run_id":"${{ github.run_id }}"}'
           fi
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}

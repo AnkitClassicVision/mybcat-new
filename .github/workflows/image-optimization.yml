@@ -119,3 +119,6 @@ jobs:
 
             The optimized images have been committed to this PR.`
             });
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}

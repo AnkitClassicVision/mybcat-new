@@ -33,3 +33,6 @@ jobs:
         run: npm run build
         # Note: Artifact upload removed - Vercel handles deployment artifacts
         # and GitHub storage quota was being exceeded
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
