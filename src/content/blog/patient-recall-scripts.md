@@ -51,6 +51,8 @@ Consistent patient experience across all staff members. Faster onboarding for ne
 
 Research shows personalized messages generate 3-4x higher response rates than generic reminders. Scripts provide the framework for personalization at scale.
 
+Centralizing outbound recall through [front office outsourcing](/solutions/front-desk-outsourcing/) keeps multi-location execution consistent without pulling in-office staff away from patients.
+
 The script is only half the equation. Someone has to work the list consistently, which is where most practices stall. If your front desk cannot keep up with recall calls, a dedicated [optometry virtual assistant and call team](/industries/optometry/) can run these exact scripts daily without pulling staff off in-office patients.
 
 ## What Are the Best Phone Scripts for Patient Recall?
@@ -253,10 +255,6 @@ For healthcare groups operating multiple sites, scripts need local customization
   <p style="font-size: 13px; color: #0369a1; font-weight: 600; margin: 0 0 8px 0;">Multi-Location SMS Template</p>
   <p style="background: white; border-radius: 8px; padding: 12px; margin: 0; color: #1f2937; font-size: 15px; line-height: 1.5;">Hi <strong>[First Name]</strong>, this is <strong>[Practice Name] [Location]</strong>. You're due for your <strong>[appointment type]</strong> with Dr. <strong>[Provider]</strong>. We have openings at our <strong>[City]</strong> office this week. Reply YES to book or call <strong>[location phone]</strong>.</p>
 </div>
-
-Centralizing outbound recall through [front office outsourcing](/solutions/front-desk-outsourcing/) keeps multi-location execution consistent without pulling in-office staff away from patients.
-
-For DSOs and healthcare groups evaluating new locations, auditing recall script compliance and overdue hygiene lists is also a core item on any [dental practice acquisition checklist](/blog/dental-group-acquisition-due-diligence/) before closing.
 
 ## How Do You Measure Script Effectiveness?
 
