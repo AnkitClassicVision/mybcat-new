@@ -19,6 +19,7 @@ import { glob } from 'glob';
 // writes build output to `.vercel/output/static/`.
 const DIST_DIR = fs.existsSync('./.vercel/output/static') ? './.vercel/output/static' : './dist';
 const SITE_BASE = 'https://mybcat.com';
+const VERCEL_CONFIG = './vercel.json';
 
 const colors = {
   red: '\x1b[31m',
@@ -56,6 +57,33 @@ function decodeHtmlEntities(text) {
         return match;
       }
     });
+}
+
+function loadVercelRedirectSources() {
+  if (!fs.existsSync(VERCEL_CONFIG)) return new Set();
+
+  const data = JSON.parse(fs.readFileSync(VERCEL_CONFIG, 'utf8'));
+  const sources = new Set();
+
+  for (const redirect of data.redirects || []) {
+    if (!redirect.source || /[:*()+]/.test(redirect.source)) continue;
+    const src = redirect.source.split('?')[0];
+    sources.add(src);
+    if (src.endsWith('/')) {
+      sources.add(src.slice(0, -1));
+    } else {
+      sources.add(`${src}/`);
+    }
+  }
+
+  return sources;
+}
+
+function isVercelRedirectSource(href, redirectSources) {
+  if (!href) return false;
+  return redirectSources.has(href) ||
+    redirectSources.has(href.replace(/\/$/, '')) ||
+    redirectSources.has(`${href}/`);
 }
 
 function sanitizeHref(href) {
@@ -170,6 +198,7 @@ async function main() {
     allLinks.push(...links);
   }
 
+  const redirectSources = loadVercelRedirectSources();
   console.log(`Found ${allLinks.length} internal links\n`);
 
   // Validate each link
@@ -187,7 +216,7 @@ async function main() {
 
     const targetPath = linkToFilePath(link.sanitizedHref || link.href, DIST_DIR);
 
-    if (!targetPath) {
+    if (!targetPath && !isVercelRedirectSource(link.sanitizedHref || link.href, redirectSources)) {
       brokenLinks.push({
         href: link.href,
         source: link.source,

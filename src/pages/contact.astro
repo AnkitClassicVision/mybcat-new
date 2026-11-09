@@ -7,6 +7,7 @@ import PageLayout from '@/layouts/PageLayout.astro';
 import Card from '@/components/Card.astro';
 import { company } from '@data/company';
 import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
+import { discoveryBookingHref } from '@data/navigation';
 // Organization schema added to contact page per schema-rules.json exception
 // PostalAddress allowed on /contact/ to improve local search visibility
 // while maintaining enterprise B2B positioning (not LocalBusiness)
@@ -50,6 +51,8 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
             <p class="form-description">
               Tell us about your group and we'll reach out within 24 hours to discuss your centralized patient access strategy.
             </p>
+            <a href={discoveryBookingHref('contact')} class="direct-book-cta">Book a 20-minute call now</a>
+            <p class="or-send-note">Or send a note and we'll reply.</p>
             <div class="hubspot-form-wrapper">
               <!-- Native contact form — submits to owned /forms/intake -->
               <form id="contact-form" novalidate>
@@ -360,6 +363,36 @@ import { generateOrganizationSchema, serializeSchema } from '@utils/schema';
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+
+  .direct-book-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 14px 24px;
+    background: var(--oceanic-teal);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+  }
+
+  .direct-book-cta:hover {
+    background: var(--navy-900);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(211, 175, 94, 0.5);
+  }
+
+  .or-send-note {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    text-align: center;
+    margin: 0 0 8px;
   }
 
   .hubspot-form-wrapper {

@@ -9,6 +9,7 @@ import Stats from '@/components/sections/Stats.astro';
 import FAQ from '@/components/sections/FAQ.astro';
 import CTA from '@/components/sections/CTA.astro';
 import { getFAQsByCategory } from '@data/faq';
+import { discoveryBookingHref } from '@data/navigation';
 import { generateServiceSchema, generateFAQSchema, generateHowToSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
 
@@ -360,6 +361,7 @@ const icons: Record<string, string> = {
         title="Ready to Get Started?"
         description="Book your discovery call today. We'll walk you through exactly how My Business Care Team will work for your practice."
         buttonText="Schedule Discovery Call"
+        buttonHref={discoveryBookingHref('how-it-works')}
       />
     </section>
   </div>

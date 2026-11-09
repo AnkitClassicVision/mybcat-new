@@ -6,7 +6,7 @@
 export { company } from './company';
 export type { Company } from './company';
 
-export { mainNavigation, footerNavigation, ctaButton } from './navigation';
+export { mainNavigation, footerNavigation, ctaButton, headerCta, discoveryBookingHref } from './navigation';
 export type { NavItem } from './navigation';
 
 export { industries, getIndustryBySlug, getAllIndustrySlugs } from './industries';

@@ -98,7 +98,7 @@ export const mainNavigation: NavItem[] = [
       { label: 'ROI Calculator', href: '/resources/roi-calculator/', description: 'Calculate your savings' },
       { label: 'Security & Compliance', href: '/hipaa-compliance/', description: 'HIPAA, SOC 2 docs' },
       { label: 'Blog', href: '/blog/' },
-      { label: 'Book', href: '/resources/book/', description: 'Staff Smart Not Hard' },
+      { label: "Ankit's Book", href: '/resources/book/', description: 'Staff Smart Not Hard' },
       { label: 'Podcast', href: '/resources/podcast/', description: 'Staff Smart Podcast' },
       { label: 'Glossary', href: '/glossary/', description: 'Healthcare terms explained' },
       { label: 'FAQ', href: '/faq/', description: 'Common questions' }
@@ -153,7 +153,7 @@ export const footerNavigation = {
   ],
   resources: [
     { label: 'Blog', href: '/blog/' },
-    { label: 'Book', href: '/resources/book/' },
+    { label: "Ankit's Book", href: '/resources/book/' },
     { label: 'Podcast', href: '/resources/podcast/' },
     { label: 'ROI Calculator', href: '/resources/roi-calculator/' },
     { label: 'Sitemap', href: '/sitemap/' }
@@ -166,9 +166,20 @@ export const footerNavigation = {
   ]
 };
 
-// CTA button configuration
+// CTA button configuration (page-level CTA sections still default to /contact/)
 export const ctaButton = {
   label: 'Get Started',
   href: '/contact/',
   mobileLabel: 'Contact Us'
+};
+
+// Site-wide header booking CTA
+export function discoveryBookingHref(utmContent: string): string {
+  return `/book/discovery?utm_source=site&utm_content=${utmContent}`;
+}
+
+export const headerCta = {
+  label: 'Book a 20-min call',
+  href: discoveryBookingHref('header'),
+  mobileLabel: 'Book a 20-min call'
 };
