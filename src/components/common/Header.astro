@@ -3,7 +3,7 @@
  * Header component with navigation
  * Enhanced version of Nav.astro using data layer
  */
-import { mainNavigation, ctaButton } from '@data/navigation';
+import { mainNavigation, headerCta } from '@data/navigation';
 import Logo from './Logo.astro';
 
 interface Props {
@@ -41,7 +41,7 @@ function isActive(href: string): boolean {
       ))}
     </>
   ))}
-  <a href={ctaButton.href} class="mobile-cta">{ctaButton.mobileLabel}</a>
+  <a href={headerCta.href} class="mobile-cta">{headerCta.mobileLabel}</a>
 </nav>
 
 <!-- Floating Navigation Dock -->
@@ -70,7 +70,7 @@ function isActive(href: string): boolean {
     )
   ))}
 
-  <a href={ctaButton.href} class="nav-item nav-cta-glow">{ctaButton.label}</a>
+  <a href={headerCta.href} class="nav-item nav-cta-glow">{headerCta.label}</a>
 </nav>
 
 <style>

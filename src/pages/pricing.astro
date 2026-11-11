@@ -10,6 +10,7 @@ import CTA from '@/components/sections/CTA.astro';
 import Card from '@/components/Card.astro';
 import { pricingTiers, allFeatures } from '@data/pricing';
 import { getFAQsByCategory } from '@data/faq';
+import { discoveryBookingHref } from '@data/navigation';
 ---
 
 <PageLayout
@@ -40,7 +41,7 @@ import { getFAQsByCategory } from '@data/faq';
           <li><span class="check">&#10003;</span> Scale at your pace</li>
           <li><span class="check">&#10003;</span> 30-day pilot available</li>
         </ul>
-        <a href="/contact/" class="enterprise-cta">Click to book</a>
+        <a href={discoveryBookingHref('pricing')} class="enterprise-cta">Click to book</a>
       </div>
     </section>
 
@@ -228,6 +229,7 @@ import { getFAQsByCategory } from '@data/faq';
         title="Ready to Get Started?"
         description="Book a discovery call to get a custom quote for your practice."
         buttonText="Book Your Call"
+        buttonHref={discoveryBookingHref('pricing')}
       />
     </section>
   </div>

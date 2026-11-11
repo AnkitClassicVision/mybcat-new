@@ -2,6 +2,7 @@
  * Pricing tier data
  * Extracted from homepage for reuse across site
  */
+import { discoveryBookingHref } from './navigation';
 
 export interface PricingFeature {
   text: string;
@@ -34,7 +35,7 @@ export const pricingTiers: PricingTier[] = [
       'Medical answering services'
     ],
     ctaText: 'Click to book',
-    ctaHref: '/contact/',
+    ctaHref: discoveryBookingHref('pricing'),
     popular: false
   },
   {
@@ -52,7 +53,7 @@ export const pricingTiers: PricingTier[] = [
       'Front desk outsourcing'
     ],
     ctaText: 'Click to book',
-    ctaHref: '/contact/',
+    ctaHref: discoveryBookingHref('pricing'),
     popular: true
   },
   {
@@ -70,7 +71,7 @@ export const pricingTiers: PricingTier[] = [
       'Custom integrations'
     ],
     ctaText: 'Click to book',
-    ctaHref: '/contact/',
+    ctaHref: discoveryBookingHref('pricing'),
     popular: false
   }
 ];

@@ -3,6 +3,8 @@
  * Main Navigation Component
  * Uses proper page links instead of anchor links
  */
+import { headerCta } from '@data/navigation';
+
 interface Props {
   currentPath?: string;
 }
@@ -98,7 +100,7 @@ const { currentPath = '/' } = Astro.props;
       <a href="/blog/">Blog</a>
       <a href="/case-studies/">Case Studies</a>
       <a href="/resources/roi-calculator/">ROI Calculator</a>
-      <a href="/resources/book/">Book</a>
+      <a href="/resources/book/">Ankit's Book</a>
       <a href="/resources/podcast/">Podcast</a>
       <a href="/glossary/">Glossary</a>
       <a href="/faq/">FAQ</a>
@@ -106,7 +108,7 @@ const { currentPath = '/' } = Astro.props;
   </div>
 
   <a href="/about/">About</a>
-  <a href="/contact/" class="mobile-cta">Get Started</a>
+  <a href={headerCta.href} class="mobile-cta">{headerCta.mobileLabel}</a>
 </nav>
 
 <!-- Floating Navigation Dock -->
@@ -178,7 +180,7 @@ const { currentPath = '/' } = Astro.props;
       <a href="/blog/">Blog</a>
       <a href="/case-studies/">Case Studies</a>
       <a href="/resources/roi-calculator/">ROI Calculator</a>
-      <a href="/resources/book/">Book</a>
+      <a href="/resources/book/">Ankit's Book</a>
       <a href="/resources/podcast/">Podcast</a>
       <a href="/glossary/">Glossary</a>
       <a href="/faq/">FAQ</a>
@@ -187,7 +189,7 @@ const { currentPath = '/' } = Astro.props;
 
   <a href="/about/" class="nav-item" class:list={[{ active: currentPath === '/about/' }]}>About</a>
 
-  <a href="/contact/" class="nav-item nav-cta-glow">Get Started</a>
+  <a href={headerCta.href} class="nav-item nav-cta-glow">{headerCta.label}</a>
 </nav>
 
 <style>

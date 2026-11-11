@@ -27,8 +27,38 @@ test.describe('Navigation', () => {
 
   test('should navigate to Contact page', async ({ page }) => {
     await page.goto('/');
-    await page.click('a[href="/contact/"]');
+    await page.locator('footer a[href="/contact/"]').click();
     await expect(page).toHaveURL(/contact/);
+  });
+
+  test('header CTA books a 20-min discovery call', async ({ page }) => {
+    await page.goto('/');
+    const viewport = page.viewportSize();
+    const isCompact = Boolean(viewport && viewport.width <= 1024);
+    const headerCta = isCompact
+      ? page.locator('.mobile-menu a.mobile-cta')
+      : page.locator('nav.nav-dock a.nav-cta-glow');
+
+    if (isCompact) {
+      await page.locator('.mobile-menu-toggle').click();
+    }
+
+    await expect(headerCta).toBeVisible();
+    await expect(headerCta).toHaveText('Book a 20-min call');
+    await expect(headerCta).toHaveAttribute(
+      'href',
+      '/book/discovery?utm_source=site&utm_content=header'
+    );
+  });
+
+  test("resources nav item reads Ankit's Book", async ({ page }) => {
+    await page.goto('/');
+    const bookLinks = page.locator('a[href="/resources/book/"]');
+    const labels = await bookLinks.evaluateAll((els) =>
+      els.map((el) => (el.textContent || '').trim())
+    );
+    expect(labels.length).toBeGreaterThan(0);
+    expect(labels.every((label) => label === "Ankit's Book")).toBeTruthy();
   });
 
   test('logo should link to homepage', async ({ page }) => {
