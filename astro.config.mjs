@@ -262,6 +262,8 @@ export default defineConfig({
         if (page.includes('/idoc-connections-2026/')) return false;
         // Exclude draft Practice Growth offer until pricing and copy are live
         if (new URL(page).pathname === '/practice-growth/') return false;
+        // Exclude the discovery booking source page (noindex, not a marketing URL)
+        if (new URL(page).pathname === '/book/discovery/') return false;
         // Exclude private podcast guest share pages (noindex, preview-only)
         if (page.includes('/resources/podcast/share/')) return false;
         // Exclude drafts
