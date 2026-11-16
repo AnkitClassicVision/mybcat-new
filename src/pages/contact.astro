@@ -98,6 +98,9 @@ import { discoveryBookingHref } from '@data/navigation';
                   <textarea id="cf-message" name="message" rows="4" maxlength="2000" placeholder="Anything we should know before the call?"></textarea>
                 </div>
                 <input type="hidden" name="utm_source" id="cf-utm-source" />
+                <input type="hidden" name="utm_medium" id="cf-utm-medium" />
+                <input type="hidden" name="utm_campaign" id="cf-utm-campaign" />
+                <input type="hidden" name="utm_content" id="cf-utm-content" />
                 <button type="submit" id="cf-submit">Schedule Discovery Call</button>
                 <p class="form-legal">By submitting, you agree to our <a href="/privacy-policy/">Privacy Policy</a>. We'll never share your information.</p>
               </form>
@@ -956,7 +959,10 @@ import { discoveryBookingHref } from '@data/navigation';
 (function () {
   const MEETINGS_URL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ21kmAUBj4aZSq7DYPJ4jkhMAVh400vqdkedNXshigCOXwWVU87EvvK4as9dXOlAqZYOruIhLog';
   const MEETINGS_FALLBACK_URL = 'https://mybcat.com/book/discovery';
-  const INTAKE_ENDPOINT = 'https://estate-form-bridge.mybcat-estate.workers.dev';
+  const LEAD_ENDPOINT = '/api/forms/lead';
+  const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content'];
+  const UTM_STORAGE_KEY = 'mybcat_contact_utm';
+  const UTM_UNSAFE = /[^A-Za-z0-9._-]/g;
 
   function buildMeetingsUrl(base, values) {
     const params = new URLSearchParams();
@@ -986,27 +992,83 @@ import { discoveryBookingHref } from '@data/navigation';
     // Scroll to top of the card so the header and calendar are both visible
     postSubmit.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-    // PostHog: discovery call scheduling step reached
+    // Calendar shown after submit. A real booking is a separate event and is out of scope.
     if (window.posthog) {
-      window.posthog.capture('discovery_call_scheduled', {
+      window.posthog.capture('booking_calendar_shown', {
         source: 'contact_page'
       });
     }
   }
 
-  function submitToOwnedIntake(fields) {
-    const token = window.MYBCAT_FORM_TOKEN || '';
-    if (!token) {
-      console.warn('[MyBCAT] Intake token not set on this preview.');
-      return;
+  function sanitizeUtm(value) {
+    return String(value || '').replace(UTM_UNSAFE, '').slice(0, 100);
+  }
+
+  function pickUtms(source) {
+    const out = {};
+    UTM_KEYS.forEach(function (key) {
+      const clean = sanitizeUtm(source && source[key]);
+      if (clean) out[key] = clean;
+    });
+    return out;
+  }
+
+  function readUrlUtms() {
+    const sp = new URLSearchParams(window.location.search);
+    const fromUrl = {};
+    UTM_KEYS.forEach(function (key) {
+      const clean = sanitizeUtm(sp.get(key));
+      if (clean) fromUrl[key] = clean;
+    });
+    return fromUrl;
+  }
+
+  function readStoredUtms() {
+    try {
+      const parsed = JSON.parse(sessionStorage.getItem(UTM_STORAGE_KEY) || 'null');
+      return pickUtms(parsed);
+    } catch {
+      return {};
     }
+  }
+
+  function writeStoredUtms(utms) {
+    try {
+      sessionStorage.setItem(UTM_STORAGE_KEY, JSON.stringify(utms));
+    } catch {
+      // sessionStorage can be unavailable; submit still uses in-memory UTMs.
+    }
+  }
+
+  function resolveUtms() {
+    const fromUrl = readUrlUtms();
+    if (Object.keys(fromUrl).length) {
+      writeStoredUtms(fromUrl);
+      return fromUrl;
+    }
+    return readStoredUtms();
+  }
+
+  function applyUtmsToForm(utms) {
+    UTM_KEYS.forEach(function (key) {
+      const input = document.getElementById('cf-' + key.replace(/_/g, '-'));
+      if (input) input.value = utms[key] || '';
+    });
+  }
+
+  function submitToOwnedIntake(fields, utms) {
     const payload = {
       fields: fields,
-      context: { pageUri: window.location.href, pageName: document.title, source: 'contact' }
+      context: {
+        pageUri: window.location.href,
+        pageName: document.title,
+        source: 'contact',
+        utm: utms
+      }
     };
-    fetch(INTAKE_ENDPOINT, {
+    fetch(LEAD_ENDPOINT, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
     }).then(function (r) {
       if (!r.ok) r.text().then(function (t) { console.warn('[MyBCAT] Intake error ' + r.status + ':', t); });
@@ -1015,10 +1077,7 @@ import { discoveryBookingHref } from '@data/navigation';
     });
   }
 
-  // Pre-fill UTM source from URL
-  const sp = new URLSearchParams(window.location.search);
-  const utmField = document.getElementById('cf-utm-source');
-  if (utmField && sp.get('utm_source')) utmField.value = sp.get('utm_source');
+  applyUtmsToForm(resolveUtms());
 
   const form = document.getElementById('contact-form');
   if (!form) return;
@@ -1078,7 +1137,8 @@ import { discoveryBookingHref } from '@data/navigation';
     const website = document.getElementById('cf-website');
     const locs = document.getElementById('cf-locations');
     const message = document.getElementById('cf-message');
-    const utm = document.getElementById('cf-utm-source');
+    const utms = resolveUtms();
+    applyUtmsToForm(utms);
     const fields = [
       { name: 'firstname', value: firstName },
       { name: 'lastname', value: lastName },
@@ -1088,25 +1148,25 @@ import { discoveryBookingHref } from '@data/navigation';
     if (website && website.value.trim()) fields.push({ name: 'website', value: website.value.trim() });
     if (locs && locs.value) fields.push({ name: 'number_of_locations', value: locs.value });
     if (message && message.value.trim()) fields.push({ name: 'message', value: message.value.trim() });
-    if (utm && utm.value) fields.push({ name: 'utm_source', value: utm.value });
+    UTM_KEYS.forEach(function (key) {
+      if (utms[key]) fields.push({ name: key, value: utms[key] });
+    });
     fields.push({ name: 'requested_meeting', value: 'Discovery' });
 
     // PostHog: contact form submission (no PII in event properties)
     const locValue = locs && locs.value ? locs.value : 'not_selected';
-    const utmValue = utm && utm.value ? utm.value : undefined;
     if (window.posthog) {
-      window.posthog.capture('contact_form_submitted', {
+      window.posthog.capture('contact_form_submitted', Object.assign({
         number_of_locations: locValue,
-        utm_source: utmValue,
         source: 'contact_page'
-      });
+      }, utms));
     }
 
     // 1. Show calendar immediately — no waiting
     showPostSubmitState({ firstName: firstName, lastName: lastName, email: email });
 
     // 2. Send to owned intake silently in the background
-    submitToOwnedIntake(fields);
+    submitToOwnedIntake(fields, utms);
   }, true);
 })();
 </script>
