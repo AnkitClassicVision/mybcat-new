@@ -49,6 +49,12 @@ export function bindScheduledPosts(queue, files, now = new Date()) {
       }
       continue;
     }
+    // Existing queue decisions must be reviewed in place. Registering another
+    // topic here would duplicate its ID and overwrite its approval at release.
+    if (existing) {
+      skipped.push(slug);
+      continue;
+    }
     const urls = externalCitations(file.content);
     if (urls.length < REQUIRED_SOURCES) {
       skipped.push(slug);
