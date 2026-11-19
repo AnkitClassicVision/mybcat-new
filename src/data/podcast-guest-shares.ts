@@ -201,6 +201,160 @@ Full episode: ${episodeUrl}`,
       { href: 'https://buildingempires.live', label: 'buildingempires.live' },
       { href: 'https://mybcat.com', label: 'mybcat.com' }
     ]
+  },
+  {
+    slug: 'know-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice',
+    pageTitle: 'Copy your posts · Know Your Why: Adam Ramsey on People, Purpose, and Starting a Practice',
+    pageDescription: 'Copy-ready posts for Optometrists Building Empires Episode 119.',
+    eyebrow: 'Episode 119 · Now live',
+    titleLine1: 'Know Your Why: Adam Ramsey',
+    titleLine2: 'on People, Purpose, and Starting a Practice',
+    subhead: 'Optometrists Building Empires, presented by MyBCAT',
+    heroImage: {
+      src: 'https://obe-podcast-public-assets.s3.amazonaws.com/3747612/social-image.png',
+      alt: 'Episode 119 cover: Know Your Why: Adam Ramsey on People, Purpose, and Starting a Practice',
+      width: 520
+    },
+    greeting: 'Hi Adam,',
+    intro: [
+      "It's live now. Our conversation is out as Episode 119 of Optometrists Building Empires: Know Your Why: Adam Ramsey on People, Purpose, and Starting a Practice.",
+      'Most owners say they care about the patient experience. Dr. Adam Ramsey runs his practice on it. He reads people for a living, and he wants every patient to get the exam he would want at the doctor. His reviews say it back: best eye exam, best experience. Adam joins Ankit to talk about why the same idea drives his hiring, how he develops a team, and why private equity makes specialization the way independent practices survive.'
+    ],
+    listenLinks: [
+      { href: 'https://buildingempires.live/episodes/know-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice', label: 'Listen' },
+      { href: 'https://youtube.com/watch?v=oHAzuUrBSmc', label: 'Full episode' },
+      { href: 'https://youtube.com/watch?v=klC4Z4-rQ5g', label: 'Short' },
+      {
+        href: 'https://podcasts.apple.com/us/podcast/optometrists-building-empires/id1762685070',
+        label: 'Apple Podcasts'
+      },
+      {
+        href: 'https://open.spotify.com/show/5w1H9BBwRXvBSSkexePYxG',
+        label: 'Spotify'
+      }
+    ],
+    listenNote:
+      "Use the Optometrists Building Empires link in your posts. It's the brand URL and lets listeners pick their platform.",
+    postsIntro:
+      'A short post for each platform. Copy it, then post it, or open the clip to share on Instagram, TikTok, or YouTube.',
+    platforms: [
+      {
+        id: 'linkedin',
+        label: 'LinkedIn',
+        copy: `My episode of Optometrists Building Empires is live: https://buildingempires.live/episodes/know-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice
+
+A few things we covered:
+
+- Why the exam is an experience, not just eye care, and why I want every patient to get the exam I would want at the doctor
+- Why a generic practice cannot outlast private equity, and why specialization is how independent practices survive: sclerals, dry eye, vision therapy, low vision, nursing homes
+- Know your why, and why it keeps you steady when things go wrong
+
+If you own an independent practice and you have been thinking about what actually sets the exam, the team, and the specialty work apart, this one is for you.
+
+Tag Optometrists Building Empires so they can reshare.`,
+        actionLabel: 'Post on LinkedIn',
+        actionHref:
+          'https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fbuildingempires.live%2Fepisodes%2Fknow-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice'
+      },
+      {
+        id: 'x',
+        label: 'X',
+        copy: `My episode of Optometrists Building Empires is live. The exam is an experience, not just eye care, and a generic practice cannot outlast private equity. @AnkitTheLeanWay
+https://buildingempires.live/episodes/know-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice`,
+        actionLabel: 'Post on X',
+        actionHref:
+          'https://x.com/intent/post?text=My%20episode%20of%20Optometrists%20Building%20Empires%20is%20live.%20The%20exam%20is%20an%20experience%2C%20not%20just%20eye%20care%2C%20and%20a%20generic%20practice%20cannot%20outlast%20private%20equity.%20%40AnkitTheLeanWay&url=https%3A%2F%2Fbuildingempires.live%2Fepisodes%2Fknow-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice'
+      },
+      {
+        id: 'facebook',
+        label: 'Facebook',
+        copy: `My episode of Optometrists Building Empires is live: https://buildingempires.live/episodes/know-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice
+
+We talked about why the exam is an experience, not just eye care, why a generic practice cannot outlast private equity, and why knowing your why keeps you steady when things go wrong.
+
+If you own an independent practice, this one is for you.`,
+        actionLabel: 'Post on Facebook',
+        actionHref:
+          'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbuildingempires.live%2Fepisodes%2Fknow-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice'
+      },
+      {
+        id: 'instagram',
+        label: 'Instagram',
+        copy: `My episode of Optometrists Building Empires is out now. We talked about treating the exam as an experience, not just eye care, why a generic practice cannot outlast private equity, and why knowing your why keeps you steady when things go wrong. Full conversation here: https://buildingempires.live/episodes/know-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice
+
+@my_business_care_team
+
+#optometry #optical #OptometristsBuildingEmpires`,
+        actionLabel: 'Open clip',
+        actionHref: 'https://youtube.com/watch?v=klC4Z4-rQ5g'
+      },
+      {
+        id: 'tiktok',
+        label: 'TikTok',
+        copy: `We're delivering an experience. We're not just providing eye care.
+
+Dr. Adam Ramsey wants every patient to get the exam he would want at the doctor. His reviews say it back: best eye exam, best experience.
+
+Full episode: Know Your Why: Adam Ramsey on People, Purpose, and Starting a Practice
+https://buildingempires.live/episodes/know-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice
+
+@my_business_care_team
+#optometry #optical #OptometristsBuildingEmpires`,
+        actionLabel: 'Open clip',
+        actionHref: 'https://youtube.com/watch?v=klC4Z4-rQ5g'
+      },
+      {
+        id: 'youtube',
+        label: 'YouTube',
+        copy: `My episode of Optometrists Building Empires is live: Know Your Why: Adam Ramsey on People, Purpose, and Starting a Practice.
+
+The exam is an experience, not just eye care. A generic practice cannot outlast private equity.
+
+Full episode: https://buildingempires.live/episodes/know-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice`,
+        actionLabel: 'Open clip',
+        actionHref: 'https://youtube.com/watch?v=klC4Z4-rQ5g'
+      }
+    ],
+    assetsIntro:
+      'Open any of these in your browser and attach them when you post. The social image is 1280×720.',
+    assets: [
+      {
+        href: 'https://obe-podcast-public-assets.s3.amazonaws.com/3747612/social-image.png',
+        label: 'Open social image'
+      },
+      {
+        href: 'https://youtube.com/watch?v=klC4Z4-rQ5g',
+        label: "Watch clip 1 on YouTube · We're delivering an experience. We're not just providing eye care."
+      },
+      {
+        href: 'https://media.zernio.com/media/1795120572974_6c294cd8e502a69c_e119-clip1-thumb.jpg',
+        label: 'Open clip 1 still'
+      },
+      {
+        href: 'https://youtube.com/watch?v=611NvqfiVwg',
+        label: "Watch clip 2 on YouTube · If we stay generic, we're going to get crushed."
+      },
+      {
+        href: 'https://media.zernio.com/media/1795120574257_d3360c29837c7228_e119-clip2-thumb.jpg',
+        label: 'Open clip 2 still'
+      },
+      {
+        href: 'https://www.tiktok.com/@my_business_care_team/video/7709932493725650190',
+        label: 'Watch clip 1 on TikTok'
+      },
+      {
+        href: 'https://www.tiktok.com/@my_business_care_team/video/7709947941858970910',
+        label: 'Watch clip 2 on TikTok'
+      }
+    ],
+    assetsNote:
+      'Both clips are live as YouTube Shorts and on TikTok at @my_business_care_team.',
+    thanks:
+      "Thanks again for coming on the show. Tag Optometrists Building Empires on LinkedIn, @my_business_care_team on Instagram and TikTok, and @AnkitTheLeanWay on X, and we'll reshare to amplify it.",
+    footerLinks: [
+      { href: 'https://buildingempires.live', label: 'buildingempires.live' },
+      { href: 'https://mybcat.com', label: 'mybcat.com' }
+    ]
   }
 ];
 
