@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 
 const PAGE_PATH = '/resources/podcast/share/why-your-frame-turn-is-lying-to-you/';
+const E119_PAGE_PATH =
+  '/resources/podcast/share/know-your-why-adam-ramsey-on-people-purpose-and-starting-a-practice/';
 const SECTION_IDS = ['linkedin', 'x', 'facebook', 'instagram', 'tiktok', 'youtube'];
 
 test.describe('Podcast guest share page', () => {
@@ -35,6 +37,33 @@ test.describe('Podcast guest share page', () => {
     expect(clipboardText).toContain(
       'https://buildingempires.live/episodes/why-your-frame-turn-is-lying-to-you'
     );
+  });
+
+  test('E119 is noindex and every copy button becomes Copied!', async ({ page, context }) => {
+    await context.grantPermissions(['clipboard-read', 'clipboard-write']);
+    await page.goto(E119_PAGE_PATH);
+
+    await expect(page).toHaveTitle(
+      'Copy your posts · Know Your Why: Adam Ramsey on People, Purpose, and Starting a Practice'
+    );
+    await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
+    await expect(page.locator('nav')).toHaveCount(0);
+    await expect(page.locator('h1')).toContainText('Know Your Why: Adam Ramsey');
+    await expect(page.locator('.copy-btn')).toHaveCount(6);
+    await expect(page.locator('.post-btn')).toHaveCount(6);
+
+    for (const id of SECTION_IDS) {
+      await expect(page.locator(`section#${id}`)).toHaveCount(1);
+      await page.goto(`${E119_PAGE_PATH}#${id}`);
+      expect(new URL(page.url()).hash).toBe(`#${id}`);
+    }
+
+    for (const id of SECTION_IDS) {
+      const copyButton = page.locator(`[data-copy="post-${id}"]`);
+      await copyButton.click();
+      await expect(copyButton).toHaveText('Copied!');
+      await expect(copyButton).toHaveClass(/copied/);
+    }
   });
 
   test('is left out of the sitemap and has no nav links on the public site', async ({ page, request }) => {
