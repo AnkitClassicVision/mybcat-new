@@ -1,7 +1,10 @@
 # robots.txt for mybcat.com
 # Consolidated rules for all crawlers
 
+# Content Signals (https://contentsignals.org/): allow search indexing,
+# disallow AI training and AI input (RAG / generative answers).
 User-agent: *
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
 
 # Block non-public paths
@@ -16,6 +19,7 @@ Allow: /api/public/
 
 # OpenAI
 User-agent: OAI-SearchBot
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
 Disallow: /draft/
 Disallow: /admin/
@@ -25,6 +29,7 @@ Disallow: /api/
 Allow: /api/public/
 
 User-agent: GPTBot
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
 Disallow: /draft/
 Disallow: /admin/
