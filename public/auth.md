@@ -1,22 +1,22 @@
 # auth.md
 
-This document is for automated agents that read the public MyBCAT catalog.
+You are an agent. The public MyBCAT catalog does not use agent registration. Read it without a credential.
 
 ## Audience
 
-The public catalog at https://mybcat.com is read-only. It lists solutions, industries, comparisons, case studies, and glossary terms. An agent does not register and does not need a credential to read it.
+This file is for automated agents that read https://mybcat.com. The public catalog lists solutions, industries, comparisons, case studies, and glossary terms.
 
-## Methods
+## Agent registration
 
-The supported method is none. Send an anonymous GET request. Do not send an Authorization header. The server does not issue a token for these resources.
+The supported method is anonymous read. Do not register. Do not send an Authorization header. A GET request to a published catalog URL is the whole flow.
 
-## Registration
-
-There is no agent registration endpoint. A practice that wants a MyBCAT account uses the human contact page at https://mybcat.com/contact/. That page starts a staff conversation. It does not issue an API credential.
+There is no agent registration endpoint. The contact page at https://mybcat.com/contact/ is for a human who wants to talk with MyBCAT staff. That page does not issue a client id, a client secret, or a bearer token.
 
 ## Credential use
 
-The public catalog does not accept a bearer token, an API key, or a client secret. A credential does not grant more access to the published JSON resources. Do not call a registration URL. This site does not publish OAuth Protected Resource Metadata or an OAuth authorization server.
+The public catalog does not accept a bearer token, an API key, or a client secret. A credential does not grant more access to the published JSON resources.
+
+This site does not publish OAuth Protected Resource Metadata. It does not publish an OAuth authorization server. Do not look for `agent_auth`, `register_uri`, or `identity_types_supported` on this host. Those fields are absent because this host does not run that flow.
 
 ## Discovery
 
