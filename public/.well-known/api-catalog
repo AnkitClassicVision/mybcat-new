@@ -1,0 +1,19 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://mybcat.com/.well-known/openapi.json",
+      "service-desc": [
+        {
+          "href": "https://mybcat.com/.well-known/openapi.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://mybcat.com/truth-layer/",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}
