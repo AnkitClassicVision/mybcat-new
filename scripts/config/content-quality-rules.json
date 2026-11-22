@@ -1,20 +1,23 @@
 {
   "_sourceOfTruth": "04_content_quality_rules.md",
-  "version": "1.1.0",
-  "lastUpdated": "2026-03-06",
+  "version": "1.1.1",
+  "lastUpdated": "2026-10-28",
   "thresholds": {
     "minWordCount": 1500,
     "wordCountTarget": 1800,
     "wordCountMinRatio": 0.6,
-    "wordCountMaxRatio": 2.0,
+    "wordCountMaxRatio": 2,
     "minProseDensity": 0.6,
     "minExternalCitations": 2,
     "externalLinksMinimum": 2,
     "minInternalLinks": 5,
     "minWordCountForTOC": 1500,
-    "minH2QuestionRatio": 0.70,
-    "cannibalizationOverlapThreshold": 0.40,
-    "featuredImageDimensions": [1200, 630],
+    "minH2QuestionRatio": 0.7,
+    "cannibalizationOverlapThreshold": 0.4,
+    "featuredImageDimensions": [
+      1200,
+      630
+    ],
     "legacyCutoffDate": "2026-03-06",
     "source": "04_content_quality_rules.md §1-4, Rules 4.1-4.9"
   },
@@ -32,11 +35,13 @@
     "source": "04_content_quality_rules.md §3, Rule 4.7"
   },
   "ctaPatterns": [
-    "/contact/"
+    "/contact/",
+    "https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call"
   ],
   "ctaPatternsByFunnel": {
     "service": [
-      "/contact/"
+      "/contact/",
+      "https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call"
     ],
     "acquisition": [
       "/optometry-practice-transitions/"
@@ -74,7 +79,7 @@
   },
   "punctuation": {
     "warnOnEmDash": true,
-    "emDashChar": "\u2014",
+    "emDashChar": "—",
     "source": "06_forbidden_terms_and_language.md §3, Rule 6.5"
   }
 }

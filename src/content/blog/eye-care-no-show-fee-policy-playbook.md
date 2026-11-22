@@ -224,6 +224,8 @@ Focus the conversation on how a centralized support team would explain approved 
 
 ## Related Reading
 
+- [Enterprise reporting and quality assurance](/enterprise/reporting-qa/)
+
 ### Patient communication and appointment recovery
 
 - [Appointment Reminder Best Practices](/blog/appointment-reminder-best-practices/)

@@ -30,3 +30,48 @@ test('binder does not approve a scheduled post with too few citations', () => {
   assert.deepEqual(bound.skipped, ['thin']);
   assert.equal(evaluatePublishRelease(queue, files).ok, false);
 });
+
+for (const decision of ['pending', 'rejected']) {
+  test(`binder preserves an existing ${decision} decision despite five citations`, () => {
+    const topic = { id: 'reviewed-topic', status: 'draft_ready', approval: { decision, owner: 'Reviewer' } };
+    const queue = { topics: [topic] };
+    const before = JSON.stringify(queue);
+    const files = [{
+      name: 'new-post.md',
+      content: `---\nstatus: scheduled\nseoTopicId: reviewed-topic\n---\n${[1,2,3,4,5].map(n => `https://example${n}.org/source`).join('\n')}`,
+    }];
+    const originalContent = files[0].content;
+    const result = bindScheduledPosts(queue, files);
+    assert.deepEqual(result.bound, []);
+    assert.deepEqual(result.skipped, ['new-post']);
+    assert.equal(JSON.stringify(queue), before);
+    assert.equal(files[0].content, originalContent);
+    assert.equal(evaluatePublishRelease(queue, files).ok, false);
+  });
+}
+
+test('binder preserves an incomplete existing topic matched by slug', () => {
+  const queue = { topics: [{ id: 'new-post', status: 'draft_ready' }] };
+  const before = JSON.stringify(queue);
+  const files = [{ name: 'new-post.md', content: `---\nstatus: scheduled\n---\n${[1,2,3,4,5].map(n => `https://example${n}.org/source`).join('\n')}` }];
+  const result = bindScheduledPosts(queue, files);
+  assert.deepEqual(result.skipped, ['new-post']);
+  assert.equal(JSON.stringify(queue), before);
+  assert.equal(evaluatePublishRelease(queue, files).ok, false);
+});
+
+test('binder binds a ready existing topic without replacing its approval', () => {
+  const topic = {
+    id: 'new-post', status: 'publish_ready',
+    approval: { decision: 'approved', owner: 'Reviewer', approved_at: '2026-10-01T00:00:00Z' },
+    research_reviewed: true, claims_reviewed: true, cannibalization_reviewed: true,
+    evidence_set: [1,2,3,4,5],
+  };
+  const queue = { topics: [topic] };
+  const before = JSON.stringify(queue);
+  const files = [{ name: 'new-post.md', content: '---\nstatus: scheduled\n---\n' }];
+  const result = bindScheduledPosts(queue, files);
+  assert.deepEqual(result.bound, ['new-post']);
+  assert.equal(JSON.stringify(queue), before);
+  assert.equal(evaluatePublishRelease(queue, files).ok, true);
+});

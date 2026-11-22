@@ -269,19 +269,18 @@ If your healthcare group has **3+ locations** and is evaluating centralized pati
 ### Centralized scheduling and access
 
 - [S1] MGMA: Central scheduling to support practice growth and success in the accountable care environment  
-  https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment
+  [Source](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)
 - [S2] MGMA: Improving Access to Care for Patients and Referring Providers through Centralized Scheduling  
-  https://www.mgma.com/fellowship-papers/improving-access-to-care-for-patients-and-referring-providers-through-centralized-scheduling
+  [Source](https://www.mgma.com/fellowship-papers/improving-access-to-care-for-patients-and-referring-providers-through-centralized-scheduling)
 - [S5] Agency for Healthcare Research and Quality: Strategy 6A, Open Access Scheduling for Routine and Urgent Appointments  
-  https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/access/strategy6a-openaccess.html
+  [Source](https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/access/strategy6a-openaccess.html)
 - [S7] A framework for patient access management: consensus from a Delphi panel of US health system leaders  
-  https://pmc.ncbi.nlm.nih.gov/articles/PMC11983827
-
+  [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC11983827)
 ### Routing data, capacity, and call center design
 
 - [S4] American Dental Association: From Silos to Synergy, The Rise of Connected Dentistry  
-  https://adanews.ada.org/ada-pubplus/custom-articles/from-silos-to-synergy-the-rise-of-connected-dentistry
+  [Source](https://adanews.ada.org/ada-pubplus/custom-articles/from-silos-to-synergy-the-rise-of-connected-dentistry)
 - [S6] Telephone Access Management in Primary Care: Cross-Case Analysis of High-Performing Primary Care Access Sites  
-  https://pmc.ncbi.nlm.nih.gov/articles/PMC8806007
+  [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC8806007)
 - [S8] CMS: Provider Directory API  
-  https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/provider-directory-api
+  [Source](https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/provider-directory-api)
