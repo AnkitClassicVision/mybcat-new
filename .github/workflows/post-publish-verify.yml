@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   verify:
@@ -29,15 +30,27 @@ jobs:
         with:
           node-version: '24'
 
+      # The publish run uploads this artifact; latest-run.json lists the posts it published.
+      # A missing artifact is handled in the next step, so this step must not fail the job.
+      - name: Download scheduled-publish run manifest
+        if: github.event_name == 'workflow_run'
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: scheduled-publish-run-manifest
+          path: artifacts/scheduled-publish
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+
       - name: Determine post slugs
         id: targets
         env:
           EVENT_NAME: ${{ github.event_name }}
           DISPATCH_SLUG: ${{ inputs.slug }}
+          TRIGGER_RUN_ID: ${{ github.event.workflow_run.id }}
         run: |
           node --input-type=module <<'NODE'
           import { appendFileSync, existsSync, readFileSync } from 'node:fs';
-          import { execFileSync } from 'node:child_process';
 
           const output = (name, value) => appendFileSync(process.env.GITHUB_OUTPUT, `${name}=${value}\n`);
           const summary = (line) => appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${line}\n`);
@@ -53,8 +66,15 @@ jobs:
             output('slugs', slug);
             output('skip', 'false');
             summary(`## Post-publish verification\n\nManual target: \`${slug}\``);
-          } else if (existsSync('artifacts/scheduled-publish/latest-run.json')) {
-            const manifest = JSON.parse(readFileSync('artifacts/scheduled-publish/latest-run.json', 'utf8'));
+          } else if (process.env.EVENT_NAME === 'workflow_run') {
+            const manifestPath = 'artifacts/scheduled-publish/latest-run.json';
+            if (!existsSync(manifestPath)) {
+              const message = `The run manifest (artifact scheduled-publish-run-manifest, file latest-run.json) was not found for publish run ${process.env.TRIGGER_RUN_ID}. Without it the published posts are unknown, so nothing was verified. There is no fallback to the newest post.`;
+              console.log(`::error title=Run manifest missing::${message}`);
+              summary(`## Post-publish verification\n\nFAILED, nothing verified: ${message}`);
+              process.exit(1);
+            }
+            const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
             const publishedCount = Number(manifest.posts_published ?? 0);
             if (!Number.isInteger(publishedCount) || publishedCount < 0) {
               throw new Error('latest-run.json has an invalid posts_published value.');
@@ -74,14 +94,7 @@ jobs:
               summary(`## Post-publish verification\n\nManifest targets: ${slugs.map((slug) => `\`${slug}\``).join(', ')}`);
             }
           } else {
-            const newestUrl = execFileSync(process.execPath, ['scripts/newest-post-url.mjs'], { encoding: 'utf8' }).trim();
-            const pathname = new URL(newestUrl).pathname;
-            const match = pathname.match(/^\/blog\/([^/]+)\/$/);
-            if (!match) throw new Error(`Could not extract a blog slug from newest-post-url.mjs output: ${newestUrl}`);
-            const slug = validateSlug(decodeURIComponent(match[1]));
-            output('slugs', slug);
-            output('skip', 'false');
-            summary(`## Post-publish verification\n\nManifest absent; newest published post fallback: \`${slug}\``);
+            throw new Error(`Unsupported event: ${process.env.EVENT_NAME}`);
           }
           NODE
 

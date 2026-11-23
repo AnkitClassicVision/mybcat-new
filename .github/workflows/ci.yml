@@ -26,6 +26,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Run unit tests
+        run: node --test tests/unit/*.test.mjs
+
       - name: Run Astro check
         run: npx astro check
 
