@@ -6,7 +6,7 @@ description: A de novo location patient access cutover playbook for multi-locati
 seoDescription: Use this de novo location patient access cutover guide to centralize
   scheduling, PMS readiness, QA, and rollout governance across sites.
 publishDate: '2026-10-17'
-status: scheduled
+status: draft
 seoTopicId: de-novo-location-patient-access-cutover-2
 scheduledDate: '2026-10-17'
 author: Ankit Patel
@@ -211,4 +211,4 @@ These resources are useful after the workflow is defined and leadership needs to
 5. [MGMA, Maximizing Patient Access and Scheduling](https://www.mgma.com/deep-dives/maximizing-patient-access-and-scheduling)
 6. [AMA, How to Select a Practice Management System](https://www.ama-assn.org/practice-management/claims-processing/how-select-practice-management-system)
 
-*Managing de novo location patient access cutover across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing de novo location patient access cutover across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

@@ -6,7 +6,7 @@ description: A practical operating model for moving patient records between heal
 seoDescription: Build a safer multi-site patient record transfer workflow across locations
   with governance, intake standards, routing, and audit controls.
 publishDate: '2026-10-18'
-status: scheduled
+status: draft
 seoTopicId: multi-site-patient-record-transfer-operations-2
 scheduledDate: '2026-10-18'
 author: Ankit Patel
@@ -271,7 +271,7 @@ The buying committee should look for governance: documented workflows, training,
 
 For groups with 3+ locations, the right partner should understand multi-location complexity. The conversation should include patient access, scheduling, referral operations, compliance, systems, and local site realities.
 
-If your group is centralizing patient access or standardizing record transfer workflows across 3+ locations, you can schedule a discovery call with MyBCAT here: https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call
+If your group is centralizing patient access or standardizing record transfer workflows across 3+ locations, you can schedule a discovery call with MyBCAT here: /contact/
 
 ## Related Reading
 

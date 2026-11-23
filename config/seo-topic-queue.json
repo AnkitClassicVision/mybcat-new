@@ -2694,9 +2694,12 @@
       "evidence_packet": "scheduled-post:eye-care-kpi-dashboard-playbook",
       "approval": {
         "decision": "approved",
-        "owner": "Ankit",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-10-15T20:37:30Z"
-      }
+      },
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
     {
       "id": "eye-care-recall-postcard-playbook",
@@ -2775,9 +2778,12 @@
       "evidence_packet": "scheduled-post:eye-care-recall-postcard-playbook",
       "approval": {
         "decision": "approved",
-        "owner": "Ankit",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-10-15T20:51:53Z"
-      }
+      },
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
     {
       "id": "eye-care-recall-attribution-playbook",
@@ -2856,9 +2862,12 @@
       "evidence_packet": "scheduled-post:eye-care-recall-attribution-playbook",
       "approval": {
         "decision": "approved",
-        "owner": "Ankit",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-10-15T21:05:01Z"
-      }
+      },
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
     {
       "id": "eye-care-no-show-fee-policy-playbook",
@@ -2937,9 +2946,12 @@
       "evidence_packet": "scheduled-post:eye-care-no-show-fee-policy-playbook",
       "approval": {
         "decision": "approved",
-        "owner": "Ankit",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-10-16T20:12:56Z"
-      }
+      },
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
     {
       "id": "eye-care-confirmation-cadence-playbook",
@@ -3018,9 +3030,12 @@
       "evidence_packet": "scheduled-post:eye-care-confirmation-cadence-playbook",
       "approval": {
         "decision": "approved",
-        "owner": "Ankit",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-10-19T21:53:35Z"
-      }
+      },
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
     {
       "id": "eye-care-chair-time-playbook",
@@ -3099,9 +3114,12 @@
       "evidence_packet": "scheduled-post:eye-care-chair-time-playbook",
       "approval": {
         "decision": "approved",
-        "owner": "Ankit",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-10-20T21:01:42Z"
-      }
+      },
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
     {
       "id": "optometry-practice-valuation-benchmarks",
@@ -3180,9 +3198,12 @@
       "evidence_packet": "scheduled-post:optometry-practice-valuation-benchmarks",
       "approval": {
         "decision": "approved",
-        "owner": "Ankit",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-10-21T21:16:13Z"
-      }
+      },
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     }
   ]
 }

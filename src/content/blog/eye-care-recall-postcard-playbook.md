@@ -224,7 +224,7 @@ During the pilot, review actual handoffs. Confirm that staff can identify the ca
 
 Define the rollout decision in advance: which issues must be resolved, who signs off, and how the group will maintain the workflow after launch. Keep clinical decisions with clinical leadership and make operational responsibilities explicit.
 
-For healthcare groups with **3+ locations**, [schedule a MyBCAT discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss recall ownership, centralized follow-up, location routing, and reporting responsibilities.
+For healthcare groups with **3+ locations**, [schedule a MyBCAT discovery call](/contact/) to discuss recall ownership, centralized follow-up, location routing, and reporting responsibilities.
 
 ## Related Reading
 

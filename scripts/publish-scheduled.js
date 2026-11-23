@@ -7,6 +7,8 @@
  *
  * Safeguards:
  *   - Publish cap: MAX_DAILY_PUBLISH (default 1, override with --force)
+ *   - Release gate: each post must be approved in the topic queue and inside the
+ *     optometry-only scope. A post that is not is held back on its own.
  *   - Pre-publish quality gate: posts that fail content quality checks are skipped
  *   - Cross-link auto-restore: re-activates deactivated links when targets are published
  *
@@ -18,11 +20,13 @@ import path from 'path';
 import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
 import { validateFile } from './validators/validate-content-quality.js';
+import { evaluateScheduledPost } from './validate-seo-topic-queue.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const BLOG_DIR = path.join(__dirname, '..', 'src', 'content', 'blog');
+const TOPIC_QUEUE_PATH = path.join(__dirname, '..', 'config', 'seo-topic-queue.json');
 const DEACTIVATED_LINKS_PATH = path.join(__dirname, 'config', 'deactivated-links.json');
 const QUALITY_RULES_PATH = path.join(__dirname, 'config', 'content-quality-rules.json');
 
@@ -88,11 +92,42 @@ eligible.sort((a, b) => {
 
 console.log(`Found ${eligible.length} eligible post(s).`);
 
+// Release gate: approval and optometry scope, one post at a time. An
+// unreadable queue approves nothing, so every post is held.
+let topicQueue = null;
+try {
+  topicQueue = JSON.parse(fs.readFileSync(TOPIC_QUEUE_PATH, 'utf-8'));
+} catch (err) {
+  console.log(`Release gate: topic queue unreadable (${err.message}). Every post is held.`);
+}
+
+const releasable = [];
+const releaseHeld = [];
+
+for (const post of eligible) {
+  const result = topicQueue
+    ? evaluateScheduledPost(topicQueue, { name: post.file, content: fs.readFileSync(post.filePath, 'utf8') })
+    : { ok: false, issues: [`RED_QUEUE_UNREADABLE:${post.file}`] };
+  if (result.ok) {
+    releasable.push(post);
+  } else {
+    releaseHeld.push({ ...post, reasons: result.issues });
+    console.log(`Release gate HELD: ${post.file}`);
+    for (const issue of result.issues) {
+      console.log(`  - ${issue}`);
+    }
+  }
+}
+
+if (releaseHeld.length > 0) {
+  console.log(`\n${releaseHeld.length} post(s) held by the release gate. The others go on.`);
+}
+
 // Pre-publish quality gate
 const qualityPassed = [];
 const qualityFailed = [];
 
-for (const post of eligible) {
+for (const post of releasable) {
   if (!qualityConfig) {
     qualityPassed.push(post);
     continue;
@@ -142,6 +177,7 @@ if (dryRun) {
   for (const post of deferred) {
     console.log(`Would leave scheduled: ${post.file} (${post.scheduledDate})`);
   }
+  console.log(`Dry run would hold ${releaseHeld.length + qualityFailed.length} post(s): ${releaseHeld.length} at the release gate, ${qualityFailed.length} at the quality gate.`);
   process.exit(0);
 }
 
@@ -204,10 +240,14 @@ if (publishedCount > 0) {
       .catch(err => console.log(`IndexNow ping failed (non-blocking): ${err.message}`));
   }
 } else {
-  console.log('No posts published (all failed quality gate or were deferred).');
+  console.log('No posts published (all were held or deferred).');
 }
 
-const shouldFailNoPublish = eligible.length > 0 && publishedCount === 0 && qualityFailed.length > 0;
+const heldPosts = [
+  ...releaseHeld.map((post) => ({ file: post.file, gate: 'release', reasons: post.reasons })),
+  ...qualityFailed.map((post) => ({ file: post.file, gate: 'quality', reasons: post.reasons })),
+];
+const shouldFailNoPublish = eligible.length > 0 && publishedCount === 0 && heldPosts.length > 0;
 
 // AAC v2: write run manifest so scheduled-publish.yml can emit posts_published count
 const MANIFEST_DIR = path.join(__dirname, '..', 'artifacts', 'scheduled-publish');
@@ -217,16 +257,18 @@ fs.mkdirSync(MANIFEST_DIR, { recursive: true });
 fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
   finished_at: new Date().toISOString(),
   eligible: eligible.length,
+  release_held: releaseHeld.length,
   quality_failed: qualityFailed.length,
   deferred: deferred.length,
   posts_published: publishedCount,
   slugs: publishedSlugs,
+  held: heldPosts,
 }, null, 2) + '\n');
 console.log(`Manifest written: ${MANIFEST_PATH}`);
 
 if (shouldFailNoPublish) {
   console.error(
-    `Publish failed: ${qualityFailed.length} eligible post(s) failed quality gate and zero posts were published.`
+    `Publish failed: ${heldPosts.length} eligible post(s) were held (${releaseHeld.length} release gate, ${qualityFailed.length} quality gate) and zero posts were published.`
   );
   process.exitCode = 1;
 }

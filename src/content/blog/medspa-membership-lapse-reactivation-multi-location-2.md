@@ -6,7 +6,7 @@ description: Medspa membership lapse reactivation multi-location playbook for CO
 seoDescription: Medspa membership lapse reactivation multi-location guide for enterprise
   teams centralizing retention workflows across locations.
 publishDate: '2026-10-19'
-status: scheduled
+status: draft
 seoTopicId: medspa-membership-lapse-reactivation-multi-location-2
 scheduledDate: '2026-10-19'
 author: Ankit Patel
@@ -202,4 +202,4 @@ For that operating layer, compare [Multi-Location Recall Workflow](/blog/multi-l
 7. [S7: The CAHPS Ambulatory Care Improvement Guide - AHRQ](https://www.ahrq.gov/sites/default/files/wysiwyg/cahps/quality-improvement/improvement-guide/cahps-ambulatory-care-guide-full.pdf)
 8. [S8: Effect of a patient portal reminder message after no-show on appointment reattendance in ophthalmology: a randomized clinical trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC11162931/)
 
-*Managing medspa membership lapse reactivation across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing medspa membership lapse reactivation across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

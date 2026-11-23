@@ -1,7 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { isPublishReady } from './validate-seo-topic-queue.mjs';
+import {
+  evaluateOptometryScope,
+  isPublishReady,
+  postScopeFields,
+  standingReleaseRule,
+} from './validate-seo-topic-queue.mjs';
 
 const REQUIRED_SOURCES = 5;
 
@@ -36,6 +41,14 @@ export function bindScheduledPosts(queue, files, now = new Date()) {
   let nextSlot = topics.reduce((max, topic) => Math.max(max, Number(topic.slot) || 0), 0) + 1;
   const bound = [];
   const skipped = [];
+  const reasons = {};
+  const skip = (slug, reason) => {
+    skipped.push(slug);
+    reasons[slug] = reason;
+  };
+  // A writer-scheduled post is registered only under the owner's standing
+  // release rule. This script never records a person as the approver.
+  const rule = standingReleaseRule(queue);
   const approvedAt = now.toISOString().replace('.000Z', 'Z');
 
   for (const file of files) {
@@ -49,9 +62,24 @@ export function bindScheduledPosts(queue, files, now = new Date()) {
       }
       continue;
     }
+    const scope = evaluateOptometryScope(postScopeFields(file));
+    if (!scope.ok) {
+      skip(slug, `out of scope: ${scope.reason}`);
+      continue;
+    }
+    if (!rule) {
+      skip(slug, 'no approved standing release rule');
+      continue;
+    }
+    // The queue already holds this topic and it is not ready. Never add a
+    // second, automatic approval beside it.
+    if (existing) {
+      skip(slug, 'queue topic is not publish-ready');
+      continue;
+    }
     const urls = externalCitations(file.content);
     if (urls.length < REQUIRED_SOURCES) {
-      skipped.push(slug);
+      skip(slug, `fewer than ${REQUIRED_SOURCES} external sources`);
       continue;
     }
     const keyword = frontmatterValue(file.content, 'targetKeyword') || slug.replace(/-/g, ' ');
@@ -90,9 +118,12 @@ export function bindScheduledPosts(queue, files, now = new Date()) {
         supports: keyword,
       })),
       evidence_packet: `scheduled-post:${slug}`,
+      review_basis: 'Automatic checks only (optometry scope, source count). No human review.',
       approval: {
         decision: 'approved',
-        owner: 'Ankit',
+        mode: 'automatic',
+        owner: `standing-rule:${rule.id}`,
+        rule_id: rule.id,
         approved_at: approvedAt,
       },
     };
@@ -104,7 +135,7 @@ export function bindScheduledPosts(queue, files, now = new Date()) {
     }
     bound.push(slug);
   }
-  return { queue, files, bound, skipped };
+  return { queue, files, bound, skipped, reasons };
 }
 
 function readScheduledFiles(dir) {
@@ -124,7 +155,7 @@ function main() {
   for (const file of result.files) {
     if (file.path) fs.writeFileSync(file.path, file.content);
   }
-  process.stdout.write(`${JSON.stringify({ bound: result.bound, skipped: result.skipped })}\n`);
+  process.stdout.write(`${JSON.stringify({ bound: result.bound, skipped: result.skipped, reasons: result.reasons })}\n`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) main();
