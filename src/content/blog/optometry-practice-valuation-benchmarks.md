@@ -7,6 +7,7 @@ seoDescription: Compare published optometry valuation benchmarks and assess earn
   add-backs, site economics, and operational readiness for multi-location acquisitions.
 publishDate: '2026-10-30'
 status: scheduled
+funnel: acquisition
 scheduledDate: '2026-10-30'
 author: Ankit Patel
 tags:
@@ -171,7 +172,7 @@ Before the decision meeting ends, assign an owner and next action to every unres
 
 For a practice of any size, a useful next step is an operating-readiness discussion focused on front-office responsibilities, central support, and location-specific handoffs. Bring the workflow map, proposed changes, and questions requiring management decisions.
 
-Whether you run one practice or several, [schedule a short MyBCAT discovery call](/contact/) to discuss back-office and call-center support as part of your operating plan.
+If you are weighing a sale of your practice, [start a confidential conversation about fit and timing](/optometry-practice-transitions/). No valuation, financial files, or patient records are needed for a first inquiry.
 
 ## Related Reading
 
