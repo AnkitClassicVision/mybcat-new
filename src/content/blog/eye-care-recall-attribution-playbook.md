@@ -192,7 +192,7 @@ Review eligibility corrections, unresolved attribution, appointment-status recon
 
 Before approving a larger rollout or vendor engagement, have the buying committee confirm the cohort definition, credit rule, outcome measures, reporting ownership, and exception responsibilities. These are concrete requirements that can be reviewed in a workflow demonstration and included in the operating agreement.
 
-**For COOs and operations leaders overseeing 3+ locations:** [Schedule a MyBCAT discovery call](/contact/) to discuss your recall operating model. Bring your current workflow, location-routing rules, and an aggregate report so the conversation can focus on ownership, attribution requirements, and service scope.
+**For optometry owners and operations leaders at practices of any size:** [Schedule a short MyBCAT discovery call](/contact/) to discuss your recall operating model. Bring your current workflow, location-routing rules, and an aggregate report so the conversation can focus on ownership, attribution requirements, and service scope.
 
 ## Related Reading
 

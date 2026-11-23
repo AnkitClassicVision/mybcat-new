@@ -33,7 +33,7 @@ seoTopicId: eye-care-no-show-fee-policy-playbook
 
 
 
-For an eye-care group with 3+ locations, a no-show fee policy needs decisions about scheduling, patient communication, billing, and exceptions.
+For an eye-care practice of any size, a no-show fee policy needs decisions about scheduling, patient communication, billing, and exceptions.
 
 Before adopting a fee, operations leaders should be able to explain what triggers review, how patients receive notice, who can approve a waiver, and how a disputed charge gets resolved.
 
@@ -214,13 +214,13 @@ Introduce the workflow in a defined set of locations and review actual operation
 
 Keep revisions controlled. When a rule changes, update the master policy, patient materials, scripts, system instructions, and training together. Tell staff which appointments the revised terms govern.
 
-### Discuss execution for groups with 3+ locations
+### Discuss execution with MyBCAT
 
-If your organization operates **3+ locations**, bring your current cancellation policy, patient-access workflow, and ownership gaps to a discussion with MyBCAT.
+Whether you run one practice or several, bring your current cancellation policy, patient-access workflow, and ownership gaps to a discussion with MyBCAT.
 
 Focus the conversation on how a centralized support team would explain approved terms, route disputes, process cancellations, and coordinate missed-visit follow-up.
 
-[Book a MyBCAT discovery call for your multi-location group](/contact/).
+[Book a short MyBCAT discovery call](/contact/).
 
 ## Related Reading
 

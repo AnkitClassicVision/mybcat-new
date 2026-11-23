@@ -7,6 +7,7 @@ seoDescription: Compare published optometry valuation benchmarks and assess earn
   add-backs, site economics, and operational readiness for multi-location acquisitions.
 publishDate: '2026-10-30'
 status: scheduled
+funnel: acquisition
 scheduledDate: '2026-10-30'
 author: Ankit Patel
 tags:
@@ -33,7 +34,7 @@ seoTopicId: optometry-practice-valuation-benchmarks
 
 Published optometry practice valuation benchmarks provide reference points for acquisition discussions. Review of Optometric Business articles published in 2025 describe ranges of “4–6x EBITDA” and “3-6x EBITDA” in their respective valuation and private equity discussions. Those are attributed observations from dated publications, rather than a current appraisal of a particular practice group. [Financial-records valuation discussion](https://reviewob.com/how-incomplete-practice-financials-overvalued-a-practice-by-300k-and-almost-blew-up-a-transition), [private equity valuation discussion](https://reviewob.com/private-equity).
 
-For a COO, VP of Operations, or buying committee evaluating a group with 3+ locations, the practical question is how to connect a published benchmark to the business being acquired. Which earnings are supported? Which expenses continue after the seller leaves? What equipment, lease, and operating commitments need review?
+For an owner, COO, VP of Operations, or buying committee evaluating a practice or group, the practical question is how to connect a published benchmark to the business being acquired. Which earnings are supported? Which expenses continue after the seller leaves? What equipment, lease, and operating commitments need review?
 
 Use the benchmarks to organize those questions. Then build a practice-specific assessment around financial records and operating evidence.
 
@@ -169,9 +170,9 @@ The AOA describes goodwill as “potential income that buyers can reasonably exp
 
 Before the decision meeting ends, assign an owner and next action to every unresolved operating assumption. Specify the evidence required and the person responsible for reviewing it. Bring unresolved valuation questions back to the transaction advisers with that supporting context.
 
-For a group with 3+ locations, a useful next step is an operating-readiness discussion focused on front-office responsibilities, central support, and location-specific handoffs. Bring the workflow map, proposed changes, and questions requiring management decisions.
+For a practice of any size, a useful next step is an operating-readiness discussion focused on front-office responsibilities, central support, and location-specific handoffs. Bring the workflow map, proposed changes, and questions requiring management decisions.
 
-If your buying committee or operations team manages **3+ locations**, [schedule a MyBCAT discovery call](/contact/) to discuss multi-location back-office and call-center support as part of your operating plan.
+If you are weighing a sale of your practice, [start a confidential conversation about fit and timing](/optometry-practice-transitions/). No valuation, financial files, or patient records are needed for a first inquiry.
 
 ## Related Reading
 

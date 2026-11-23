@@ -20,6 +20,9 @@ export type FunnelTheme =
   | 'finance_profit'  // margin-stressed owner of an existing practice -> practice profit audit
   | 'finance_seller'  // Exit Strategist: raise value before listing (advisor stance, not acquirer)
   | 'acquisition_transition'
+  // Cluster themes for any optometry owner, solo practices included.
+  | 'practice_finance' // practice-finance cluster: books, margins, cash
+  | 'ai_projects'      // ai-projects cluster: front desk, phones, scribe, first project
   | 'operations'
   | 'default';
 
@@ -49,6 +52,10 @@ const clusterToTheme: Record<string, FunnelTheme> = {
   'practice-valuation': 'finances_selling',
   'starting-practice': 'finances_selling',
   'private-practice': 'finances_selling',
+  'practice-finance': 'practice_finance',
+  'ai-projects': 'ai_projects',
+  // practice-transitions reuses the confidential transition variant (links to /optometry-practice-transitions/)
+  'practice-transitions': 'acquisition_transition',
   'enterprise': 'operations',
   'enterprise-operations': 'operations',
   'enterprise-compliance': 'operations',
@@ -155,6 +162,34 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     endButtonText: 'Send a Confidential Inquiry',
     endButtonHref: '/optometry-practice-transitions/?utm_source=blog&utm_medium=post-cta&utm_campaign=transition-guides',
   },
+  practice_finance: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
+    title: 'Know Your Books, Margins, and Cash',
+    description:
+      'You do not need a finance team to see where your practice earns and where it leaks. Start with a short call about your books, your margins, and your cash flow.',
+    buttonText: 'Book a Short Discovery Call',
+    buttonHref: utm('practice-finance', 'in-content-cta'),
+    endTitle: 'Get Clear on Your Practice Numbers',
+    endDescription:
+      'Whether you run one practice or several, the questions are the same: are the books current, which lines hold margin, and how much cash is left after payroll and bills. A short discovery call is a good place to start.',
+    endButtonText: 'Book a Short Discovery Call',
+    endButtonHref: utm('practice-finance', 'post-cta'),
+  },
+  ai_projects: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
+    title: 'Thinking About AI for Your Practice?',
+    description:
+      'Start with one job: the front desk, the phones, or a scribe. A small first project shows what works in your practice before you commit to anything bigger.',
+    buttonText: 'Book a Short Discovery Call',
+    buttonHref: utm('ai-projects', 'in-content-cta'),
+    endTitle: 'Pick the First AI Project for Your Practice',
+    endDescription:
+      'Front desk, phones, or a scribe: choose one first project that fits your team and your patients. A short discovery call is a good place to begin.',
+    endButtonText: 'Book a Short Discovery Call',
+    endButtonHref: utm('ai-projects', 'post-cta'),
+  },
   operations: {
     funnel: 'service',
     ctaId: 'service-fit-review',
@@ -179,7 +214,7 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     buttonHref: utm('general', 'in-content-cta'),
     endTitle: 'Ready to Capture More Revenue?',
     endDescription:
-      'See how MyBCAT helps multi-location healthcare groups fill every appointment slot and reduce front desk dependency.',
+      'See how MyBCAT helps optometry practices of any size fill every appointment slot and reduce front desk dependency.',
     endButtonText: 'Schedule a Consultation',
     endButtonHref: utm('general', 'post-cta'),
   },
