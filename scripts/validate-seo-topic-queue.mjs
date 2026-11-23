@@ -2,15 +2,64 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-function hasApproval(topic) {
-  return topic?.approval?.decision === 'approved' &&
-    typeof topic.approval?.owner === 'string' && topic.approval.owner.length > 0 &&
-    Number.isFinite(new Date(topic.approval?.approved_at || 0).getTime());
+// Optometry-only scope (owner decision 2026-11-23). A post must name optometry
+// or eye care in its title, target keyword or slug, and must not name another
+// specialty there. Both lists are whole-word matches.
+const OPTOMETRY_TERMS = /\b(?:optomet\w*|eye[\s-]?care|eye doctors?|eye exams?|eyewear|eyeglass\w*|optical|opticians?|ophthalm\w*|contact lens\w*|vision (?:care|practices?|plans?|centers?|groups?|source)|vsp|eyemed|ods?)\b/i;
+const OTHER_SPECIALTY_TERMS = /\b(?:dental|dentist\w*|dsos?|orthodont\w*|veterinar\w*|vet (?:clinic|practice|group|hospital)s?|med[\s-]?spas?|dermatolog\w*|urgent care|ent|chiropract\w*)\b/i;
+
+export function evaluateOptometryScope({ title = '', keyword = '', slug = '' } = {}) {
+  const named = [title, keyword, String(slug).replace(/-/g, ' ')].join(' \n ');
+  const other = named.match(OTHER_SPECIALTY_TERMS);
+  if (other) return { ok: false, reason: `names another specialty: ${other[0].toLowerCase()}` };
+  if (!OPTOMETRY_TERMS.test(named)) return { ok: false, reason: 'does not name optometry or eye care' };
+  return { ok: true, reason: '' };
+}
+
+function frontmatterLine(content, key) {
+  const value = content.match(new RegExp(`^${key}:[ \\t]*(.+?)[ \\t]*$`, 'mi'))?.[1] || '';
+  return value.replace(/^(["'])(.*)\1$/, '$2').trim();
+}
+
+// The scope fields of a post file: what a reader and a search engine see first.
+export function postScopeFields(file) {
+  return {
+    title: frontmatterLine(file.content, 'title'),
+    keyword: frontmatterLine(file.content, 'targetKeyword'),
+    slug: file.name.replace(/\.mdx?$/, ''),
+  };
+}
+
+// The owner's standing release rule. Automatic approvals count only while this
+// record names the owner, carries a real date and is not switched off.
+export function standingReleaseRule(queue) {
+  const rule = queue?.standing_release_rule;
+  const approvedBy = typeof rule?.approved_by === 'string' ? rule.approved_by.trim() : '';
+  const approvedAt = typeof rule?.approved_at === 'string' ? new Date(rule.approved_at).getTime() : NaN;
+  if (!rule || rule.enabled === false) return null;
+  if (typeof rule.id !== 'string' || rule.id.length === 0) return null;
+  if (approvedBy.length === 0 || !Number.isFinite(approvedAt)) return null;
+  return rule;
+}
+
+function isAutomaticApproval(topic) {
+  return topic?.approval?.mode === 'automatic';
+}
+
+function hasApproval(topic, queue) {
+  const approval = topic?.approval;
+  if (approval?.decision !== 'approved') return false;
+  if (!Number.isFinite(new Date(approval.approved_at || 0).getTime())) return false;
+  if (isAutomaticApproval(topic)) {
+    const rule = standingReleaseRule(queue);
+    return rule !== null && approval.rule_id === rule.id;
+  }
+  return typeof approval.owner === 'string' && approval.owner.length > 0;
 }
 
 function isDraftReady(topic, queue) {
   return ['draft_ready', 'publish_ready'].includes(topic?.status) &&
-    hasApproval(topic) &&
+    hasApproval(topic, queue) &&
     topic.research_reviewed === true &&
     Array.isArray(topic.evidence_set) &&
     topic.evidence_set.length >= Number(topic.required_external_source_count || queue?.required_external_source_count || 5) &&
@@ -61,7 +110,7 @@ export function evaluateQueue(queue, now = new Date(), requiredReadiness = 'publ
   }
 
   const approved = topics.filter((topic) =>
-    ['approved', 'draft_ready', 'publish_ready'].includes(topic.status) && hasApproval(topic)
+    ['approved', 'draft_ready', 'publish_ready'].includes(topic.status) && hasApproval(topic, queue)
   );
   const draftReady = topics.filter((topic) => isDraftReady(topic, queue));
   const publishReady = topics.filter((topic) => isPublishReady(topic, queue));
@@ -128,6 +177,8 @@ export function evaluatePublishRelease(queue, files) {
     issues: scheduled.issues,
     intake_issues: intake.issues,
     required_readiness: 'publish_ready',
+    releasable: scheduled.releasable,
+    held: scheduled.held,
     counts: {
       scheduled_posts: scheduled.scheduled_posts,
       publish_ready: intake.counts.publish_ready,
@@ -135,19 +186,40 @@ export function evaluatePublishRelease(queue, files) {
   };
 }
 
+// One post, judged alone: approved in the queue and inside the optometry scope.
+// A held post never holds back another post.
+export function evaluateScheduledPost(queue, file, topicById) {
+  const topics = topicById || new Map((queue?.topics || []).map((topic) => [topic.id, topic]));
+  const issues = [];
+  const topicId = file.content.match(/^seoTopicId:\s*["']?([^"'\r\n]+)["']?\s*$/mi)?.[1]?.trim();
+  const topic = topics.get(topicId);
+  if (!topicId || !isPublishReady(topic, queue)) {
+    const waitsOnRule = isAutomaticApproval(topic) && standingReleaseRule(queue) === null;
+    issues.push(`${waitsOnRule ? 'RED_STANDING_RULE_NOT_APPROVED' : 'RED_SCHEDULED_POST_NOT_APPROVED'}:${file.name}`);
+  }
+  if (!evaluateOptometryScope(postScopeFields(file)).ok) {
+    issues.push(`RED_POST_OUT_OF_SCOPE:${file.name}`);
+  }
+  return { name: file.name, ok: issues.length === 0, issues };
+}
+
 export function evaluateScheduledPosts(queue, files) {
   const issues = [];
   const topicById = new Map((queue?.topics || []).map((topic) => [topic.id, topic]));
   const scheduled = files.filter((file) => /^status:\s*["']?scheduled["']?\s*$/mi.test(file.content));
   if (scheduled.length === 0) issues.push('RED_NO_SCHEDULED_POST');
+  const releasable = [];
+  const held = [];
   for (const file of scheduled) {
-    const topicId = file.content.match(/^seoTopicId:\s*["']?([^"'\r\n]+)["']?\s*$/mi)?.[1]?.trim();
-    const topic = topicById.get(topicId);
-    if (!topicId || !isPublishReady(topic, queue)) {
-      issues.push(`RED_SCHEDULED_POST_NOT_APPROVED:${file.name}`);
+    const result = evaluateScheduledPost(queue, file, topicById);
+    if (result.ok) {
+      releasable.push(file.name);
+    } else {
+      held.push({ name: file.name, issues: result.issues });
+      issues.push(...result.issues);
     }
   }
-  return { ok: issues.length === 0, issues, scheduled_posts: scheduled.length };
+  return { ok: issues.length === 0, issues, scheduled_posts: scheduled.length, releasable, held };
 }
 
 function main() {
@@ -180,8 +252,11 @@ function main() {
     result.ok = result.issues.length === 0;
     result.counts.scheduled_posts = scheduledResult.scheduled_posts;
   }
-  process.stdout.write(JSON.stringify({ ...result, queue: queuePath }) + '\n');
-  if (!result.ok) process.exitCode = 2;
+  // --report-only lists what is held and exits 0. The publish script holds
+  // each post on its own, so one held post must not stop the whole job here.
+  const reportOnly = process.argv.includes('--report-only');
+  process.stdout.write(JSON.stringify({ ...result, queue: queuePath, report_only: reportOnly }) + '\n');
+  if (!result.ok && !reportOnly) process.exitCode = 2;
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) main();

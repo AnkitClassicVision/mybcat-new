@@ -12,6 +12,9 @@
  *   --scheduled-only        Only check posts with status=scheduled and scheduledDate<=today
  *   --new-only              Skip posts published before legacyCutoffDate (avoids legacy noise)
  *   --changed-files-only    Only check blog files in `git diff origin/main...HEAD` (PR-scoped)
+ *   --report-only           List every failing post, then exit 0. Used before the daily
+ *                           publish, where publish-scheduled.js holds back each failing
+ *                           post on its own, so one bad post cannot stop the others.
  *   --verbose / -v          Show passing files too
  *
  * Exports validateFile() for programmatic use.
@@ -426,6 +429,7 @@ async function main() {
   const scheduledOnly = args.includes('--scheduled-only');
   const newOnly = args.includes('--new-only');
   const changedFilesOnly = args.includes('--changed-files-only');
+  const reportOnly = args.includes('--report-only');
 
   console.log(`${colors.bold}Content Quality Validator${colors.reset}\n`);
 
@@ -450,6 +454,7 @@ async function main() {
   let warningCount = 0;
   let checkedCount = 0;
   let skippedCount = 0;
+  let failedPostCount = 0;
 
   for (const file of files) {
     // --changed-files-only: skip files not in this PR's diff
@@ -499,6 +504,7 @@ async function main() {
       const slug = file.replace(/\.(md|mdx)$/, '');
       if (result.errors.length > 0) {
         errorCount += result.errors.length;
+        failedPostCount++;
         console.log(`${colors.red}✗${colors.reset} ${slug}`);
         for (const err of result.errors) {
           console.log(`  ${colors.red}ERROR: ${err}${colors.reset}`);
@@ -525,6 +531,12 @@ async function main() {
   console.log(`  Checked: ${checkedCount} | Skipped: ${skippedCount}`);
   console.log(`  ${colors.red}Errors: ${errorCount}${colors.reset}`);
   console.log(`  ${colors.yellow}Warnings: ${warningCount}${colors.reset}`);
+  console.log(`  Posts passing: ${checkedCount - failedPostCount} | Posts failing: ${failedPostCount}`);
+
+  if (errorCount > 0 && reportOnly) {
+    console.log(`\nReport only: ${failedPostCount} failing post(s) will be held back by the publish script. Passing posts are not blocked.`);
+    return;
+  }
 
   if (errorCount > 0) {
     process.exit(1);

@@ -220,7 +220,7 @@ If your organization operates **3+ locations**, bring your current cancellation 
 
 Focus the conversation on how a centralized support team would explain approved terms, route disputes, process cancellations, and coordinate missed-visit follow-up.
 
-[Book a MyBCAT discovery call for your multi-location group](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call).
+[Book a MyBCAT discovery call for your multi-location group](/contact/).
 
 ## Related Reading
 

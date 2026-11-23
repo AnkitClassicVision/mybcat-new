@@ -6,7 +6,7 @@ description: 'Enterprise playbook for an ENT group referral intake call center: 
 seoDescription: Learn how a multi-location ENT group referral intake call center standardizes
   referral capture, routing, QA, and reporting for enterprise teams.
 publishDate: '2026-10-20'
-status: scheduled
+status: draft
 seoTopicId: ent-group-referral-intake-call-center-2
 scheduledDate: '2026-10-20'
 author: Ankit Patel
@@ -193,4 +193,4 @@ For vendor evaluation, use the [Patient Access Center RFP Vendor Checklist](/blo
 7. [Closing the Loop: A Guide to Safer Ambulatory Referrals in the EHR Era](https://psnet.ahrq.gov/issue/closing-loop-guide-safer-ambulatory-referrals-ehr-era)
 8. [A categorisation of problems and solutions to improve patient referrals from primary to specialty care](https://pmc.ncbi.nlm.nih.gov/articles/PMC6302393)
 
-[Managing ENT group referral intake call center operations across 3+ locations? Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)
+[Managing ENT group referral intake call center operations across 3+ locations? Request an Enterprise Assessment for your group.](/contact/)

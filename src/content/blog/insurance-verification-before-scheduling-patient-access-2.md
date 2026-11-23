@@ -6,7 +6,7 @@ description: Insurance verification before scheduling patient access helps multi
 seoDescription: Use insurance verification before scheduling patient access to align
   centralized intake, eligibility checks, QA, and reporting across sites for scale.
 publishDate: '2026-10-14'
-status: scheduled
+status: draft
 seoTopicId: insurance-verification-before-scheduling-patient-access-2
 scheduledDate: '2026-10-14'
 author: Ankit Patel
@@ -206,4 +206,4 @@ For KPI structure, use the [multi-location intake KPI dashboard guide](/blog/kpi
 7. [MGMA, Pre-verifying Eligibility and Benefits](https://www.mgma.com/articles/pre-verifying-eligibility-and-benefits)
 8. [Optometric Management, 10 Steps to an Efficient Accounts Receivable](https://optometricmanagement.com/issues/2018/december/10-steps-to-an-efficient-accounts-receivable)
 
-*[Managing insurance verification before scheduling patient access across 3+ locations? Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*[Managing insurance verification before scheduling patient access across 3+ locations? Request an Enterprise Assessment for your group.](/contact/)*

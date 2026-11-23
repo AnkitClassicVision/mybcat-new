@@ -7,6 +7,8 @@
  *
  * Safeguards:
  *   - Publish cap: MAX_DAILY_PUBLISH (default 1, override with --force)
+ *   - Release gate: each post must be approved in the topic queue and inside the
+ *     optometry-only scope. A post that is not is held back on its own.
  *   - Pre-publish quality gate: posts that fail content quality checks are skipped
  *   - Cross-link auto-restore: re-activates deactivated links when targets are published
  *
@@ -18,16 +20,26 @@ import path from 'path';
 import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
 import { validateFile } from './validators/validate-content-quality.js';
+import { evaluateScheduledPost } from './validate-seo-topic-queue.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const BLOG_DIR = path.join(__dirname, '..', 'src', 'content', 'blog');
+const TOPIC_QUEUE_PATH = path.join(__dirname, '..', 'config', 'seo-topic-queue.json');
 const DEACTIVATED_LINKS_PATH = path.join(__dirname, 'config', 'deactivated-links.json');
 const QUALITY_RULES_PATH = path.join(__dirname, 'config', 'content-quality-rules.json');
 
 const MAX_DAILY_PUBLISH = 1;
 const today = new Date().toISOString().split('T')[0];
+
+// A runner that is a day late keeps the scheduled day. A post held back for
+// longer takes the day it really goes live, so its date is true and the daily
+// checks, which look at today's posts, see it.
+function publishDayFor(scheduledDate, runDay) {
+  const lateDays = (Date.parse(runDay) - Date.parse(scheduledDate)) / 86400000;
+  return lateDays > 1 ? runDay : scheduledDate;
+}
 
 const args = process.argv.slice(2);
 const forceMode = args.includes('--force');
@@ -88,11 +100,42 @@ eligible.sort((a, b) => {
 
 console.log(`Found ${eligible.length} eligible post(s).`);
 
+// Release gate: approval and optometry scope, one post at a time. An
+// unreadable queue approves nothing, so every post is held.
+let topicQueue = null;
+try {
+  topicQueue = JSON.parse(fs.readFileSync(TOPIC_QUEUE_PATH, 'utf-8'));
+} catch (err) {
+  console.log(`Release gate: topic queue unreadable (${err.message}). Every post is held.`);
+}
+
+const releasable = [];
+const releaseHeld = [];
+
+for (const post of eligible) {
+  const result = topicQueue
+    ? evaluateScheduledPost(topicQueue, { name: post.file, content: fs.readFileSync(post.filePath, 'utf8') })
+    : { ok: false, issues: [`RED_QUEUE_UNREADABLE:${post.file}`] };
+  if (result.ok) {
+    releasable.push(post);
+  } else {
+    releaseHeld.push({ ...post, reasons: result.issues });
+    console.log(`Release gate HELD: ${post.file}`);
+    for (const issue of result.issues) {
+      console.log(`  - ${issue}`);
+    }
+  }
+}
+
+if (releaseHeld.length > 0) {
+  console.log(`\n${releaseHeld.length} post(s) held by the release gate. The others go on.`);
+}
+
 // Pre-publish quality gate
 const qualityPassed = [];
 const qualityFailed = [];
 
-for (const post of eligible) {
+for (const post of releasable) {
   if (!qualityConfig) {
     qualityPassed.push(post);
     continue;
@@ -142,6 +185,7 @@ if (dryRun) {
   for (const post of deferred) {
     console.log(`Would leave scheduled: ${post.file} (${post.scheduledDate})`);
   }
+  console.log(`Dry run would hold ${releaseHeld.length + qualityFailed.length} post(s): ${releaseHeld.length} at the release gate, ${qualityFailed.length} at the quality gate.`);
   process.exit(0);
 }
 
@@ -154,8 +198,9 @@ for (const post of toPublish) {
 
   console.log(`Publishing: ${post.file}`);
 
-  // Keep the scheduled calendar day and the article body. A late runner
-  // must not move publishDate to the run day or reflow the post.
+  // Keep the article body. A late runner must not move publishDate to the
+  // run day or reflow the post. See publishDayFor for a long-held post.
+  const publishDay = publishDayFor(post.scheduledDate, today);
   const newline = content.includes('\r\n') ? '\r\n' : '\n';
   const lines = content.split(/\r?\n/);
   const nextLines = [];
@@ -166,7 +211,7 @@ for (const post of toPublish) {
       continue;
     }
     if (/^publishDate:/.test(line)) {
-      nextLines.push(`publishDate: '${post.scheduledDate}'`);
+      nextLines.push(`publishDate: '${publishDay}'`);
       continue;
     }
     nextLines.push(line);
@@ -183,12 +228,17 @@ if (publishedCount > 0) {
   // Cross-link auto-restore
   restoreDeactivatedLinks(publishedSlugs);
 
-  // Ping IndexNow
+  // Ping IndexNow. Only the scheduled job on GitHub Actions pings. A local or
+  // test run must never tell search engines about a page that is not live.
   const INDEXNOW_KEY = 'd0fa8fc9f2c9f1eddea0d7f5ba4163e8';
   const SITE_URL = 'https://mybcat.com';
   const publishedUrls = publishedSlugs.map(slug => `${SITE_URL}/blog/${slug}/`);
 
-  if (publishedUrls.length > 0) {
+  const mayPing = process.env.GITHUB_ACTIONS === 'true';
+  if (publishedUrls.length > 0 && !mayPing) {
+    console.log('IndexNow ping skipped: not running in GitHub Actions.');
+  }
+  if (publishedUrls.length > 0 && mayPing) {
     console.log(`Pinging IndexNow for ${publishedUrls.length} URL(s)...`);
     fetch('https://api.indexnow.org/indexnow', {
       method: 'POST',
@@ -204,10 +254,14 @@ if (publishedCount > 0) {
       .catch(err => console.log(`IndexNow ping failed (non-blocking): ${err.message}`));
   }
 } else {
-  console.log('No posts published (all failed quality gate or were deferred).');
+  console.log('No posts published (all were held or deferred).');
 }
 
-const shouldFailNoPublish = eligible.length > 0 && publishedCount === 0 && qualityFailed.length > 0;
+const heldPosts = [
+  ...releaseHeld.map((post) => ({ file: post.file, gate: 'release', reasons: post.reasons })),
+  ...qualityFailed.map((post) => ({ file: post.file, gate: 'quality', reasons: post.reasons })),
+];
+const shouldFailNoPublish = eligible.length > 0 && publishedCount === 0 && heldPosts.length > 0;
 
 // AAC v2: write run manifest so scheduled-publish.yml can emit posts_published count
 const MANIFEST_DIR = path.join(__dirname, '..', 'artifacts', 'scheduled-publish');
@@ -217,16 +271,18 @@ fs.mkdirSync(MANIFEST_DIR, { recursive: true });
 fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
   finished_at: new Date().toISOString(),
   eligible: eligible.length,
+  release_held: releaseHeld.length,
   quality_failed: qualityFailed.length,
   deferred: deferred.length,
   posts_published: publishedCount,
   slugs: publishedSlugs,
+  held: heldPosts,
 }, null, 2) + '\n');
 console.log(`Manifest written: ${MANIFEST_PATH}`);
 
 if (shouldFailNoPublish) {
   console.error(
-    `Publish failed: ${qualityFailed.length} eligible post(s) failed quality gate and zero posts were published.`
+    `Publish failed: ${heldPosts.length} eligible post(s) were held (${releaseHeld.length} release gate, ${qualityFailed.length} quality gate) and zero posts were published.`
   );
   process.exitCode = 1;
 }

@@ -6,7 +6,7 @@ description: Same-day cancellation backfill call center playbook for enterprise 
 seoDescription: Use a same-day cancellation backfill call center to standardize cancellation
   recovery, waitlist outreach, QA, and reporting across 3+ locations.
 publishDate: '2026-10-15'
-status: scheduled
+status: draft
 seoTopicId: same-day-cancellation-backfill-call-center-2
 scheduledDate: '2026-10-15'
 author: Ankit Patel
@@ -211,4 +211,4 @@ These resources help buying committees place backfill inside the enterprise acce
 7. [Advancing Primary Care Access Through a Virtual Waiting Room](https://pmc.ncbi.nlm.nih.gov/articles/PMC11347508)
 8. [AHRQ CAHPS Strategy 6R Reminder Systems](https://www.ahrq.gov/sites/default/files/wysiwyg/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/health-promotion-education/cahps-strategy-6-r.pdf)
 
-*Managing same-day cancellation backfill across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing same-day cancellation backfill across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

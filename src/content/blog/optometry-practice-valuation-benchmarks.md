@@ -171,7 +171,7 @@ Before the decision meeting ends, assign an owner and next action to every unres
 
 For a group with 3+ locations, a useful next step is an operating-readiness discussion focused on front-office responsibilities, central support, and location-specific handoffs. Bring the workflow map, proposed changes, and questions requiring management decisions.
 
-If your buying committee or operations team manages **3+ locations**, [schedule a MyBCAT discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss multi-location back-office and call-center support as part of your operating plan.
+If your buying committee or operations team manages **3+ locations**, [schedule a MyBCAT discovery call](/contact/) to discuss multi-location back-office and call-center support as part of your operating plan.
 
 ## Related Reading
 

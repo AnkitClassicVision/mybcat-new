@@ -6,7 +6,7 @@ description: A capacity-planning framework for DSOs and healthcare groups prepar
 seoDescription: Plan recall slot capacity before a group reactivation blast with a
   practical framework for multi-location healthcare operators.
 publishDate: '2026-10-09'
-status: scheduled
+status: draft
 seoTopicId: multi-location-recall-slot-capacity-planning-2
 scheduledDate: '2026-10-09'
 author: Ankit Patel
@@ -356,7 +356,7 @@ For enterprise teams, the real question is not â€œCan we send recall messages?â€
 
 If you operate a DSO, MSO, optometry group, dental group, or healthcare organization with 3+ locations, MyBCAT can help you evaluate whether centralized recall and patient access support fits your operating model.
 
-[Schedule a MyBCAT discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss multi-location recall capacity, scheduling workflows, and the level of support your group needs before launching a reactivation campaign.
+[Schedule a MyBCAT discovery call](/contact/) to discuss multi-location recall capacity, scheduling workflows, and the level of support your group needs before launching a reactivation campaign.
 
 ## Related Reading
 

@@ -6,7 +6,7 @@ description: Centralized call overflow routing healthcare groups use to standard
 seoDescription: Centralized call overflow routing healthcare groups need for scalable
   intake, QA, routing governance, and enterprise reporting.
 publishDate: '2026-10-13'
-status: scheduled
+status: draft
 seoTopicId: centralized-call-overflow-routing-healthcare-groups-2
 scheduledDate: '2026-10-13'
 author: Ankit Patel
@@ -213,4 +213,4 @@ These links are most useful when operations, finance, and regional leadership ne
 6. [S7: American Optometric Association, Patient Communication](https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication)
 7. [S8: Telephone Access Management in Primary Care](https://pmc.ncbi.nlm.nih.gov/articles/PMC8806007/)
 
-*Managing centralized call overflow routing across 3+ locations? [Request an Enterprise Assessment for your group.](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call)*
+*Managing centralized call overflow routing across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*

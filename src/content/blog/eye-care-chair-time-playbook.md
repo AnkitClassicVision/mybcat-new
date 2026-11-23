@@ -182,7 +182,7 @@ Use financial measures alongside the workflow review. When a measure changes, ex
 
 EyeNet describes ophthalmic practices using revised scheduling, remote scribing, and electronic patient tracking as part of efficiency work. It emphasizes empowering staff to “gather metrics” when evaluating revised procedures.
 
-[Source: EyeNet lean-practice article](https://www.ophth.wisc.edu/wp-content/uploads/2021/07/Lean-Practice-Management-_-EyeNet-Magazine-July-2021.pdf).
+[Source: EyeNet lean-practice article](https://www.aao.org/eyenet/article/lean-practice-lessons-learned-during-the-pandemic).
 
 Translate that approach into a bounded pilot. Select a location and appointment family with a documented problem. Describe the proposed change, the operational question it addresses, and the observations needed to evaluate it.
 
@@ -214,7 +214,7 @@ For leaders overseeing **3+ locations**, bring the current appointment rules, lo
 
 Use those materials to identify the administrative work under consideration, the decisions retained by clinical leadership, and the evidence needed to assess a proposed operating model.
 
-[Book a MyBCAT enterprise discovery call](https://hubspot.mybcat.com/meetings/ankit98/mybcat-discovery-call) to discuss patient-access workflows, scheduling ownership, and administrative support for your multi-location group.
+[Book a MyBCAT enterprise discovery call](/contact/) to discuss patient-access workflows, scheduling ownership, and administrative support for your multi-location group.
 
 ## Related Reading
 
@@ -238,7 +238,7 @@ Use those materials to identify the administrative work under consideration, the
 
 ### Eye-care practice-management guidance
 
-- **EyeNet, hosted by the University of Wisconsin:** [Lean Practice: Lessons Learned During the Pandemic](https://www.ophth.wisc.edu/wp-content/uploads/2021/07/Lean-Practice-Management-_-EyeNet-Magazine-July-2021.pdf), scheduling, remote scribing, electronic patient tracking, and staff-led measurement.
+- **EyeNet, American Academy of Ophthalmology:** [Lean Practice: Lessons Learned During the Pandemic](https://www.aao.org/eyenet/article/lean-practice-lessons-learned-during-the-pandemic), scheduling, remote scribing, electronic patient tracking, and staff-led measurement.
 - **American Optometric Association:** [Day-to-Day Operations](https://www.aoa.org/practice/new-doctors-of-optometry/day-to-day-operations), chair cost, appointment scheduling, and no-show planning.
 - **Optometric Management:** [BUSINESS: efficiency](https://optometricmanagement.com/issues/2014/june/business-efficiency), appointment mix, shared resources, staff workloads, and optical handoffs.
 - **Optometric Management:** [Build Out Your Metrics](https://optometricmanagement.com/issues/2020/september/build-out-your-metrics), revenue per patient and revenue per working hour in practice-management decisions.
