@@ -36,12 +36,10 @@ const MANIFEST_PATH = path.join(MANIFEST_DIR, 'latest-run.json');
 const MAX_DAILY_PUBLISH = 1;
 const today = new Date().toISOString().split('T')[0];
 
-// A runner that is a day late keeps the scheduled day. A post held back for
-// longer takes the day it really goes live, so its date is true and the daily
-// checks, which look at today's posts, see it.
+// A post is eligible only when its scheduled day is the run day or earlier, so
+// the day it goes live is always the run day. The daily cap counts on this.
 function publishDayFor(scheduledDate, runDay) {
-  const lateDays = (Date.parse(runDay) - Date.parse(scheduledDate)) / 86400000;
-  return lateDays > 1 ? runDay : scheduledDate;
+  return runDay;
 }
 
 const args = process.argv.slice(2);
@@ -233,7 +231,7 @@ if (dryRun) {
   for (const post of toPublish) {
     console.log(`Would publish: ${post.file}`);
     console.log(`  status: scheduled -> published`);
-    console.log(`  publishDate: ${post.scheduledDate}`);
+    console.log(`  publishDate: ${publishDayFor(post.scheduledDate, today)}`);
     console.log(`  scheduledDate: removed`);
   }
   for (const post of deferred) {
@@ -252,8 +250,7 @@ for (const post of toPublish) {
 
   console.log(`Publishing: ${post.file}`);
 
-  // Keep the article body. A late runner must not move publishDate to the
-  // run day or reflow the post. See publishDayFor for a long-held post.
+  // Keep the article body. Only publishDate moves, to the day the post goes live.
   const publishDay = publishDayFor(post.scheduledDate, today);
   const newline = content.includes('\r\n') ? '\r\n' : '\n';
   const lines = content.split(/\r?\n/);
