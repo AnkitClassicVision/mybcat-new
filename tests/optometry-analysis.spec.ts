@@ -5,6 +5,14 @@ type IntakeBody = {
   context?: { source?: string; utm?: Record<string, string> };
 };
 
+function isOaLeadUrl(url: string) {
+  try {
+    return new URL(url).pathname.replace(/\/$/, '') === '/api/forms/oa-lead';
+  } catch {
+    return url.includes('/api/forms/oa-lead');
+  }
+}
+
 function fieldsByName(body: IntakeBody) {
   return Object.fromEntries((body.fields || []).map((field) => [field.name, field.value]));
 }
@@ -130,7 +138,7 @@ test.describe('Optometry Analysis landing page', () => {
 
   test('redirects to discovery booking after a successful intake post', async ({ page }) => {
     const posthog = await stubIntakeAndPosthog(page);
-    await page.route('https://estate-form-bridge.mybcat-estate.workers.dev', async (route) => {
+    await page.route('**/api/forms/oa-lead', async (route) => {
       const body = route.request().postDataJSON() as IntakeBody;
       expect(body.context?.source).toBe('optometry-analysis');
       const fields = fieldsByName(body);
@@ -151,7 +159,7 @@ test.describe('Optometry Analysis landing page', () => {
     await form.locator('#oa-top-website').fill('https://example.com');
     await form.locator('#oa-top-email').fill('preview-test@example.com');
 
-    const requestPromise = page.waitForRequest('https://estate-form-bridge.mybcat-estate.workers.dev');
+    const requestPromise = page.waitForRequest((request) => isOaLeadUrl(request.url()));
     await form.getByRole('button', { name: 'Get a plan built for your market' }).click();
     const request = await requestPromise;
     expect(request.headers()['x-forms-token']).toBe('preview-test-token');
@@ -170,7 +178,7 @@ test.describe('Optometry Analysis landing page', () => {
 
   test('sends URL UTMs as fields and context.utm', async ({ page }) => {
     const posthog = await stubIntakeAndPosthog(page);
-    await page.route('https://estate-form-bridge.mybcat-estate.workers.dev', async (route) => {
+    await page.route('**/api/forms/oa-lead', async (route) => {
       const body = route.request().postDataJSON() as IntakeBody;
       expect(body.context?.source).toBe('optometry-analysis');
       const fields = fieldsByName(body);
@@ -206,7 +214,7 @@ test.describe('Optometry Analysis landing page', () => {
     await form.locator('#oa-top-website').fill('https://example.com');
     await form.locator('#oa-top-email').fill('preview-test@example.com');
 
-    const requestPromise = page.waitForRequest('https://estate-form-bridge.mybcat-estate.workers.dev');
+    const requestPromise = page.waitForRequest((request) => isOaLeadUrl(request.url()));
     await form.getByRole('button', { name: 'Get a plan built for your market' }).click();
     const request = await requestPromise;
     expect(request.headers()['x-forms-token']).toBe('preview-test-token');
