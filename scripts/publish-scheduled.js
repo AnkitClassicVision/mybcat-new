@@ -59,6 +59,7 @@ function writeRunManifest({
   publishedCount = 0,
   publishedSlugs = [],
   held = [],
+  dailyCapReached = false,
 } = {}) {
   if (dryRun) return;
   fs.mkdirSync(MANIFEST_DIR, { recursive: true });
@@ -71,8 +72,17 @@ function writeRunManifest({
     posts_published: publishedCount,
     slugs: publishedSlugs,
     held,
+    daily_cap_reached: dailyCapReached,
   }, null, 2) + '\n');
   console.log(`Manifest written: ${MANIFEST_PATH}`);
+}
+
+// True when the post is published and its publishDate is the given UTC day.
+// MAX_DAILY_PUBLISH counts these, so a second run on one day cannot go past it.
+function isPublishedOn(data, day) {
+  if (data.status !== 'published' || !data.publishDate) return false;
+  const published = new Date(data.publishDate);
+  return !Number.isNaN(published.getTime()) && published.toISOString().split('T')[0] === day;
 }
 
 console.log(`Checking for posts scheduled on or before ${today}...`);
@@ -104,12 +114,16 @@ if (files.length === 0) {
   process.exit(0);
 }
 
-// Collect eligible posts (scheduledDate <= today)
+// Collect eligible posts (scheduledDate <= today) and count posts already
+// published today (UTC), so the daily cap holds across runs and not only per run.
 const eligible = [];
+let publishedToday = 0;
 for (const file of files) {
   const filePath = path.join(BLOG_DIR, file);
   const content = fs.readFileSync(filePath, 'utf8');
   const { data } = matter(content);
+
+  if (isPublishedOn(data, today)) publishedToday++;
 
   if (data.status === 'scheduled' && data.scheduledDate) {
     const scheduledDate = new Date(data.scheduledDate).toISOString().split('T')[0];
@@ -117,6 +131,13 @@ for (const file of files) {
       eligible.push({ file, filePath, scheduledDate });
     }
   }
+}
+
+const dailyRemaining = Math.max(0, MAX_DAILY_PUBLISH - publishedToday);
+if (!forceMode && dailyRemaining === 0) {
+  console.log(`Daily publish cap reached: ${publishedToday} post(s) already published on ${today} (cap ${MAX_DAILY_PUBLISH}). Nothing to publish.`);
+  writeRunManifest({ dailyCapReached: true });
+  process.exit(0);
 }
 
 if (eligible.length === 0) {
@@ -196,12 +217,12 @@ if (qualityFailed.length > 0) {
 }
 
 // Apply publish cap
-const limit = forceMode ? qualityPassed.length : MAX_DAILY_PUBLISH;
+const limit = forceMode ? qualityPassed.length : dailyRemaining;
 const toPublish = qualityPassed.slice(0, limit);
 const deferred = qualityPassed.slice(limit);
 
 if (deferred.length > 0) {
-  console.log(`\nPublish cap (${MAX_DAILY_PUBLISH}): publishing ${toPublish.length}, deferring ${deferred.length}`);
+  console.log(`\nPublish cap (${dailyRemaining} left of ${MAX_DAILY_PUBLISH} today): publishing ${toPublish.length}, deferring ${deferred.length}`);
   for (const post of deferred) {
     console.log(`  Deferred: ${post.file} (scheduled ${post.scheduledDate})`);
   }
