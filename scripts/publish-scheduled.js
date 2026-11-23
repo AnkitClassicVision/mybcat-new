@@ -30,6 +30,9 @@ const TOPIC_QUEUE_PATH = path.join(__dirname, '..', 'config', 'seo-topic-queue.j
 const DEACTIVATED_LINKS_PATH = path.join(__dirname, 'config', 'deactivated-links.json');
 const QUALITY_RULES_PATH = path.join(__dirname, 'config', 'content-quality-rules.json');
 
+const MANIFEST_DIR = path.join(__dirname, '..', 'artifacts', 'scheduled-publish');
+const MANIFEST_PATH = path.join(MANIFEST_DIR, 'latest-run.json');
+
 const MAX_DAILY_PUBLISH = 1;
 const today = new Date().toISOString().split('T')[0];
 
@@ -45,6 +48,33 @@ const args = process.argv.slice(2);
 const forceMode = args.includes('--force');
 const dryRun = args.includes('--dry-run');
 
+// AAC v2: the one place that writes the run manifest. scheduled-publish.yml
+// uploads it and post-publish-verify.yml reads it, so every run that ends with
+// nothing to publish writes it too (all counts zero). A dry run writes nothing.
+function writeRunManifest({
+  eligible = 0,
+  releaseHeld = 0,
+  qualityFailed = 0,
+  deferred = 0,
+  publishedCount = 0,
+  publishedSlugs = [],
+  held = [],
+} = {}) {
+  if (dryRun) return;
+  fs.mkdirSync(MANIFEST_DIR, { recursive: true });
+  fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
+    finished_at: new Date().toISOString(),
+    eligible,
+    release_held: releaseHeld,
+    quality_failed: qualityFailed,
+    deferred,
+    posts_published: publishedCount,
+    slugs: publishedSlugs,
+    held,
+  }, null, 2) + '\n');
+  console.log(`Manifest written: ${MANIFEST_PATH}`);
+}
+
 console.log(`Checking for posts scheduled on or before ${today}...`);
 if (forceMode) console.log('--force mode: publish cap disabled');
 if (dryRun) console.log('--dry-run: no files will be written');
@@ -52,6 +82,7 @@ if (dryRun) console.log('--dry-run: no files will be written');
 // Ensure blog directory exists
 if (!fs.existsSync(BLOG_DIR)) {
   console.log('No blog directory found. Nothing to publish.');
+  writeRunManifest();
   process.exit(0);
 }
 
@@ -69,6 +100,7 @@ const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md') || f.endsWi
 
 if (files.length === 0) {
   console.log('No blog posts found. Nothing to publish.');
+  writeRunManifest();
   process.exit(0);
 }
 
@@ -89,6 +121,7 @@ for (const file of files) {
 
 if (eligible.length === 0) {
   console.log('No posts scheduled for today or earlier.');
+  writeRunManifest();
   process.exit(0);
 }
 
@@ -264,21 +297,15 @@ const heldPosts = [
 const shouldFailNoPublish = eligible.length > 0 && publishedCount === 0 && heldPosts.length > 0;
 
 // AAC v2: write run manifest so scheduled-publish.yml can emit posts_published count
-const MANIFEST_DIR = path.join(__dirname, '..', 'artifacts', 'scheduled-publish');
-const MANIFEST_PATH = path.join(MANIFEST_DIR, 'latest-run.json');
-
-fs.mkdirSync(MANIFEST_DIR, { recursive: true });
-fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
-  finished_at: new Date().toISOString(),
+writeRunManifest({
   eligible: eligible.length,
-  release_held: releaseHeld.length,
-  quality_failed: qualityFailed.length,
+  releaseHeld: releaseHeld.length,
+  qualityFailed: qualityFailed.length,
   deferred: deferred.length,
-  posts_published: publishedCount,
-  slugs: publishedSlugs,
+  publishedCount,
+  publishedSlugs,
   held: heldPosts,
-}, null, 2) + '\n');
-console.log(`Manifest written: ${MANIFEST_PATH}`);
+});
 
 if (shouldFailNoPublish) {
   console.error(
