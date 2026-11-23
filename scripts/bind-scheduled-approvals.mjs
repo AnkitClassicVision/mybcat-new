@@ -48,8 +48,11 @@ export function bindScheduledPosts(queue, files, now = new Date()) {
   };
   // A writer-scheduled post is registered only under the owner's standing
   // release rule. This script never records a person as the approver.
+  // The approval carries the time the rule bound the post: the bind time, and
+  // never earlier than the rule's own approval time.
   const rule = standingReleaseRule(queue);
-  const approvedAt = now.toISOString().replace('.000Z', 'Z');
+  const boundAt = rule ? Math.max(now.getTime(), new Date(rule.approved_at).getTime()) : now.getTime();
+  const approvedAt = new Date(boundAt).toISOString().replace('.000Z', 'Z');
 
   for (const file of files) {
     if (!/^status:\s*['"]?scheduled['"]?\s*$/mi.test(file.content)) continue;

@@ -2706,7 +2706,8 @@
         "mode": "automatic",
         "owner": "standing-rule:optometry-auto-release-v1",
         "rule_id": "optometry-auto-release-v1",
-        "approved_at": "2026-10-15T20:37:30Z"
+        "approved_at": "2026-11-23T19:40:04Z",
+        "first_registered_at": "2026-10-15T20:37:30Z"
       },
       "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
@@ -2790,7 +2791,8 @@
         "mode": "automatic",
         "owner": "standing-rule:optometry-auto-release-v1",
         "rule_id": "optometry-auto-release-v1",
-        "approved_at": "2026-10-15T20:51:53Z"
+        "approved_at": "2026-11-23T19:40:04Z",
+        "first_registered_at": "2026-10-15T20:51:53Z"
       },
       "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
@@ -2874,7 +2876,8 @@
         "mode": "automatic",
         "owner": "standing-rule:optometry-auto-release-v1",
         "rule_id": "optometry-auto-release-v1",
-        "approved_at": "2026-10-15T21:05:01Z"
+        "approved_at": "2026-11-23T19:40:04Z",
+        "first_registered_at": "2026-10-15T21:05:01Z"
       },
       "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
@@ -2958,7 +2961,8 @@
         "mode": "automatic",
         "owner": "standing-rule:optometry-auto-release-v1",
         "rule_id": "optometry-auto-release-v1",
-        "approved_at": "2026-10-16T20:12:56Z"
+        "approved_at": "2026-11-23T19:40:04Z",
+        "first_registered_at": "2026-10-16T20:12:56Z"
       },
       "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
@@ -3042,7 +3046,8 @@
         "mode": "automatic",
         "owner": "standing-rule:optometry-auto-release-v1",
         "rule_id": "optometry-auto-release-v1",
-        "approved_at": "2026-10-19T21:53:35Z"
+        "approved_at": "2026-11-23T19:40:04Z",
+        "first_registered_at": "2026-10-19T21:53:35Z"
       },
       "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
@@ -3126,7 +3131,8 @@
         "mode": "automatic",
         "owner": "standing-rule:optometry-auto-release-v1",
         "rule_id": "optometry-auto-release-v1",
-        "approved_at": "2026-10-20T21:01:42Z"
+        "approved_at": "2026-11-23T19:40:04Z",
+        "first_registered_at": "2026-10-20T21:01:42Z"
       },
       "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     },
@@ -3210,7 +3216,8 @@
         "mode": "automatic",
         "owner": "standing-rule:optometry-auto-release-v1",
         "rule_id": "optometry-auto-release-v1",
-        "approved_at": "2026-10-21T21:16:13Z"
+        "approved_at": "2026-11-23T19:40:04Z",
+        "first_registered_at": "2026-10-21T21:16:13Z"
       },
       "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     }

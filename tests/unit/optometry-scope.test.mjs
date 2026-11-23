@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import {
   evaluateOptometryScope,
   evaluateScheduledPost,
@@ -108,7 +109,7 @@ test('an automatic approval releases nothing until the owner approves a standing
       mode: 'automatic',
       owner: `standing-rule:${RULE.id}`,
       rule_id: RULE.id,
-      approved_at: '2026-10-15T20:37:30Z',
+      approved_at: RULE.approved_at,
     },
   });
   const file = post('optometry-recall-playbook.md', 'Optometry Recall Playbook');
@@ -135,10 +136,49 @@ test('an automatic approval releases nothing until the owner approves a standing
 
 test('a standing rule without an owner or a date approves nothing', () => {
   const automatic = topic({
-    approval: { decision: 'approved', mode: 'automatic', rule_id: RULE.id, approved_at: '2026-10-15T20:37:30Z' },
+    approval: { decision: 'approved', mode: 'automatic', rule_id: RULE.id, approved_at: RULE.approved_at },
   });
   const file = post('optometry-recall-playbook.md', 'Optometry Recall Playbook');
   for (const rule of [{ id: RULE.id }, { ...RULE, approved_by: ' ' }, { ...RULE, approved_at: 'not-a-date' }]) {
     assert.equal(evaluateScheduledPost({ topics: [automatic], standing_release_rule: rule }, file).ok, false);
+  }
+});
+
+test('an automatic approval dated before its rule is held', () => {
+  const file = post('optometry-recall-playbook.md', 'Optometry Recall Playbook');
+  const automatic = (approvedAt) => topic({
+    approval: {
+      decision: 'approved',
+      mode: 'automatic',
+      owner: `standing-rule:${RULE.id}`,
+      rule_id: RULE.id,
+      approved_at: approvedAt,
+    },
+  });
+  const queue = (approvedAt) => ({ topics: [automatic(approvedAt)], standing_release_rule: RULE });
+
+  const early = evaluateScheduledPost(queue('2026-11-23T11:59:59Z'), file);
+  assert.equal(early.ok, false);
+  assert.deepEqual(early.issues, ['RED_STANDING_RULE_NOT_APPROVED:optometry-recall-playbook.md']);
+
+  assert.equal(evaluateScheduledPost(queue(RULE.approved_at), file).ok, true);
+  assert.equal(evaluateScheduledPost(queue('2026-11-24T02:00:00Z'), file).ok, true);
+
+  const held = evaluateScheduledPosts(queue('2026-10-15T20:37:30Z'), [file]);
+  assert.deepEqual(held.releasable, []);
+  assert.deepEqual(held.held.map((item) => item.name), ['optometry-recall-playbook.md']);
+});
+
+test('the real queue file has no automatic approval dated before its rule', () => {
+  const queue = JSON.parse(fs.readFileSync(new URL('../../config/seo-topic-queue.json', import.meta.url), 'utf8'));
+  const ruleTime = new Date(queue.standing_release_rule.approved_at).getTime();
+  assert.ok(Number.isFinite(ruleTime));
+  const automatic = queue.topics.filter((item) => item.approval?.mode === 'automatic');
+  assert.ok(automatic.length > 0);
+  for (const item of automatic) {
+    assert.ok(
+      new Date(item.approval.approved_at).getTime() >= ruleTime,
+      `${item.id} automatic approval is dated before the standing rule`,
+    );
   }
 });

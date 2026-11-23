@@ -46,13 +46,18 @@ function isAutomaticApproval(topic) {
   return topic?.approval?.mode === 'automatic';
 }
 
+// An automatic approval cannot be older than the rule that allows it.
+function automaticApprovalPredatesRule(topic, rule) {
+  return new Date(topic.approval.approved_at).getTime() < new Date(rule.approved_at).getTime();
+}
+
 function hasApproval(topic, queue) {
   const approval = topic?.approval;
   if (approval?.decision !== 'approved') return false;
   if (!Number.isFinite(new Date(approval.approved_at || 0).getTime())) return false;
   if (isAutomaticApproval(topic)) {
     const rule = standingReleaseRule(queue);
-    return rule !== null && approval.rule_id === rule.id;
+    return rule !== null && approval.rule_id === rule.id && !automaticApprovalPredatesRule(topic, rule);
   }
   return typeof approval.owner === 'string' && approval.owner.length > 0;
 }
@@ -194,7 +199,8 @@ export function evaluateScheduledPost(queue, file, topicById) {
   const topicId = file.content.match(/^seoTopicId:\s*["']?([^"'\r\n]+)["']?\s*$/mi)?.[1]?.trim();
   const topic = topics.get(topicId);
   if (!topicId || !isPublishReady(topic, queue)) {
-    const waitsOnRule = isAutomaticApproval(topic) && standingReleaseRule(queue) === null;
+    const rule = standingReleaseRule(queue);
+    const waitsOnRule = isAutomaticApproval(topic) && (rule === null || automaticApprovalPredatesRule(topic, rule));
     issues.push(`${waitsOnRule ? 'RED_STANDING_RULE_NOT_APPROVED' : 'RED_SCHEDULED_POST_NOT_APPROVED'}:${file.name}`);
   }
   if (!evaluateOptometryScope(postScopeFields(file)).ok) {
