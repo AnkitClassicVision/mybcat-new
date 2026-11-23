@@ -30,20 +30,58 @@ const TOPIC_QUEUE_PATH = path.join(__dirname, '..', 'config', 'seo-topic-queue.j
 const DEACTIVATED_LINKS_PATH = path.join(__dirname, 'config', 'deactivated-links.json');
 const QUALITY_RULES_PATH = path.join(__dirname, 'config', 'content-quality-rules.json');
 
+const MANIFEST_DIR = path.join(__dirname, '..', 'artifacts', 'scheduled-publish');
+const MANIFEST_PATH = path.join(MANIFEST_DIR, 'latest-run.json');
+
 const MAX_DAILY_PUBLISH = 1;
 const today = new Date().toISOString().split('T')[0];
 
-// A runner that is a day late keeps the scheduled day. A post held back for
-// longer takes the day it really goes live, so its date is true and the daily
-// checks, which look at today's posts, see it.
+// A post is eligible only when its scheduled day is the run day or earlier, so
+// the day it goes live is always the run day. The daily cap counts on this.
 function publishDayFor(scheduledDate, runDay) {
-  const lateDays = (Date.parse(runDay) - Date.parse(scheduledDate)) / 86400000;
-  return lateDays > 1 ? runDay : scheduledDate;
+  return runDay;
 }
 
 const args = process.argv.slice(2);
 const forceMode = args.includes('--force');
 const dryRun = args.includes('--dry-run');
+
+// AAC v2: the one place that writes the run manifest. scheduled-publish.yml
+// uploads it and post-publish-verify.yml reads it, so every run that ends with
+// nothing to publish writes it too (all counts zero). A dry run writes nothing.
+function writeRunManifest({
+  eligible = 0,
+  releaseHeld = 0,
+  qualityFailed = 0,
+  deferred = 0,
+  publishedCount = 0,
+  publishedSlugs = [],
+  held = [],
+  dailyCapReached = false,
+} = {}) {
+  if (dryRun) return;
+  fs.mkdirSync(MANIFEST_DIR, { recursive: true });
+  fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
+    finished_at: new Date().toISOString(),
+    eligible,
+    release_held: releaseHeld,
+    quality_failed: qualityFailed,
+    deferred,
+    posts_published: publishedCount,
+    slugs: publishedSlugs,
+    held,
+    daily_cap_reached: dailyCapReached,
+  }, null, 2) + '\n');
+  console.log(`Manifest written: ${MANIFEST_PATH}`);
+}
+
+// True when the post is published and its publishDate is the given UTC day.
+// MAX_DAILY_PUBLISH counts these, so a second run on one day cannot go past it.
+function isPublishedOn(data, day) {
+  if (data.status !== 'published' || !data.publishDate) return false;
+  const published = new Date(data.publishDate);
+  return !Number.isNaN(published.getTime()) && published.toISOString().split('T')[0] === day;
+}
 
 console.log(`Checking for posts scheduled on or before ${today}...`);
 if (forceMode) console.log('--force mode: publish cap disabled');
@@ -52,6 +90,7 @@ if (dryRun) console.log('--dry-run: no files will be written');
 // Ensure blog directory exists
 if (!fs.existsSync(BLOG_DIR)) {
   console.log('No blog directory found. Nothing to publish.');
+  writeRunManifest();
   process.exit(0);
 }
 
@@ -69,15 +108,20 @@ const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md') || f.endsWi
 
 if (files.length === 0) {
   console.log('No blog posts found. Nothing to publish.');
+  writeRunManifest();
   process.exit(0);
 }
 
-// Collect eligible posts (scheduledDate <= today)
+// Collect eligible posts (scheduledDate <= today) and count posts already
+// published today (UTC), so the daily cap holds across runs and not only per run.
 const eligible = [];
+let publishedToday = 0;
 for (const file of files) {
   const filePath = path.join(BLOG_DIR, file);
   const content = fs.readFileSync(filePath, 'utf8');
   const { data } = matter(content);
+
+  if (isPublishedOn(data, today)) publishedToday++;
 
   if (data.status === 'scheduled' && data.scheduledDate) {
     const scheduledDate = new Date(data.scheduledDate).toISOString().split('T')[0];
@@ -87,8 +131,16 @@ for (const file of files) {
   }
 }
 
+const dailyRemaining = Math.max(0, MAX_DAILY_PUBLISH - publishedToday);
+if (!forceMode && dailyRemaining === 0) {
+  console.log(`Daily publish cap reached: ${publishedToday} post(s) already published on ${today} (cap ${MAX_DAILY_PUBLISH}). Nothing to publish.`);
+  writeRunManifest({ dailyCapReached: true });
+  process.exit(0);
+}
+
 if (eligible.length === 0) {
   console.log('No posts scheduled for today or earlier.');
+  writeRunManifest();
   process.exit(0);
 }
 
@@ -163,12 +215,12 @@ if (qualityFailed.length > 0) {
 }
 
 // Apply publish cap
-const limit = forceMode ? qualityPassed.length : MAX_DAILY_PUBLISH;
+const limit = forceMode ? qualityPassed.length : dailyRemaining;
 const toPublish = qualityPassed.slice(0, limit);
 const deferred = qualityPassed.slice(limit);
 
 if (deferred.length > 0) {
-  console.log(`\nPublish cap (${MAX_DAILY_PUBLISH}): publishing ${toPublish.length}, deferring ${deferred.length}`);
+  console.log(`\nPublish cap (${dailyRemaining} left of ${MAX_DAILY_PUBLISH} today): publishing ${toPublish.length}, deferring ${deferred.length}`);
   for (const post of deferred) {
     console.log(`  Deferred: ${post.file} (scheduled ${post.scheduledDate})`);
   }
@@ -179,7 +231,7 @@ if (dryRun) {
   for (const post of toPublish) {
     console.log(`Would publish: ${post.file}`);
     console.log(`  status: scheduled -> published`);
-    console.log(`  publishDate: ${post.scheduledDate}`);
+    console.log(`  publishDate: ${publishDayFor(post.scheduledDate, today)}`);
     console.log(`  scheduledDate: removed`);
   }
   for (const post of deferred) {
@@ -198,8 +250,7 @@ for (const post of toPublish) {
 
   console.log(`Publishing: ${post.file}`);
 
-  // Keep the article body. A late runner must not move publishDate to the
-  // run day or reflow the post. See publishDayFor for a long-held post.
+  // Keep the article body. Only publishDate moves, to the day the post goes live.
   const publishDay = publishDayFor(post.scheduledDate, today);
   const newline = content.includes('\r\n') ? '\r\n' : '\n';
   const lines = content.split(/\r?\n/);
@@ -264,21 +315,15 @@ const heldPosts = [
 const shouldFailNoPublish = eligible.length > 0 && publishedCount === 0 && heldPosts.length > 0;
 
 // AAC v2: write run manifest so scheduled-publish.yml can emit posts_published count
-const MANIFEST_DIR = path.join(__dirname, '..', 'artifacts', 'scheduled-publish');
-const MANIFEST_PATH = path.join(MANIFEST_DIR, 'latest-run.json');
-
-fs.mkdirSync(MANIFEST_DIR, { recursive: true });
-fs.writeFileSync(MANIFEST_PATH, JSON.stringify({
-  finished_at: new Date().toISOString(),
+writeRunManifest({
   eligible: eligible.length,
-  release_held: releaseHeld.length,
-  quality_failed: qualityFailed.length,
+  releaseHeld: releaseHeld.length,
+  qualityFailed: qualityFailed.length,
   deferred: deferred.length,
-  posts_published: publishedCount,
-  slugs: publishedSlugs,
+  publishedCount,
+  publishedSlugs,
   held: heldPosts,
-}, null, 2) + '\n');
-console.log(`Manifest written: ${MANIFEST_PATH}`);
+});
 
 if (shouldFailNoPublish) {
   console.error(

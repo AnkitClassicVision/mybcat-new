@@ -1,4 +1,5 @@
 import { readFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
 
 const SITE_ORIGIN = 'https://mybcat.com';
 const SITEMAP_INDEX_URL = `${SITE_ORIGIN}/sitemap-index.xml`;
@@ -139,6 +140,49 @@ function inspectHtml(html) {
   return { metaRobotsNoindex, canonicals };
 }
 
+const RETIRED_HOST = 'hubspot.mybcat.com';
+const REQUIRED_CTA_PATHS = ['/contact', '/optometry-practice-transitions'];
+
+function stripNonContent(html) {
+  return html
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .replace(/<script\b[\s\S]*?<\/script\s*>/gi, '')
+    .replace(/<style\b[\s\S]*?<\/style\s*>/gi, '');
+}
+
+function isCtaHref(href) {
+  let target = (href ?? '').trim();
+  if (target.startsWith(SITE_ORIGIN)) target = target.slice(SITE_ORIGIN.length);
+  if (!target.startsWith('/') || target.startsWith('//')) return false;
+  const pathname = target.split(/[?#]/)[0].replace(/\/+$/, '');
+  return REQUIRED_CTA_PATHS.includes(pathname);
+}
+
+// Checks the live page content. Returns a list of failure strings, empty when the page passes.
+export function checkPageContent(html) {
+  const failures = [];
+  const source = String(html ?? '');
+  const visible = stripNonContent(source);
+
+  const h1Count = (visible.match(/<h1(?=[\s/>])/gi) ?? []).length;
+  if (h1Count !== 1) {
+    failures.push(`expected exactly 1 <h1> element, found ${h1Count}`);
+  }
+
+  const hasCta = [...visible.matchAll(/<a\b[^>]*>/gi)]
+    .some((match) => isCtaHref(parseAttributes(match[0]).get('href')));
+  if (!hasCta) {
+    failures.push(`no <a href> to ${REQUIRED_CTA_PATHS.map((path) => `${path}/`).join(' or ')} found`);
+  }
+
+  const retiredHostCount = source.toLowerCase().split(RETIRED_HOST).length - 1;
+  if (retiredHostCount > 0) {
+    failures.push(`retired host ${RETIRED_HOST} appears ${retiredHostCount} time(s)`);
+  }
+
+  return failures;
+}
+
 function extractXmlLocations(xml) {
   return [...xml.matchAll(/<loc\b[^>]*>([\s\S]*?)<\/loc>/gi)]
     .map((match) => decodeEntities(match[1].trim()))
@@ -272,9 +316,12 @@ async function verifyPage(slug) {
       const found = canonicals.length > 0 ? canonicals.join(', ') : 'none';
       failures.push(['canonical', `expected exactly ${expectedUrl}, found ${found}`]);
     }
+    for (const detail of checkPageContent(html)) {
+      failures.push(['page-content', detail]);
+    }
   } catch (error) {
     const reason = `page request failed: ${error.message}`;
-    for (const assertion of ['http-status', 'final-url', 'meta-robots', 'x-robots-tag', 'canonical']) {
+    for (const assertion of ['http-status', 'final-url', 'meta-robots', 'x-robots-tag', 'canonical', 'page-content']) {
       failures.push([assertion, reason]);
     }
   }
@@ -333,6 +380,7 @@ function printSuccesses(urls) {
     console.log('  - meta-robots: no noindex directive');
     console.log('  - x-robots-tag: no noindex directive');
     console.log(`  - canonical: ${url}`);
+    console.log('  - page-content: one h1, CTA link present, no retired host');
     console.log('  - sitemap: URL found in a child sitemap');
     console.log(`  - robots: ${new URL(url).pathname} is allowed`);
   }
@@ -438,4 +486,4 @@ async function main() {
   }
 }
 
-await main();
+if (process.argv[1] === fileURLToPath(import.meta.url)) await main();
