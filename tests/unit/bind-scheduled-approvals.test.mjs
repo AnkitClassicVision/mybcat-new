@@ -93,3 +93,19 @@ test('binder does not add a second approval for a topic the queue already holds 
   assert.equal(bound.reasons['optometry-new-post'], 'queue topic is not publish-ready');
   assert.equal(queue.topics.length, 1);
 });
+
+test('binder never dates an automatic approval before the standing rule', () => {
+  const queue = { topics: [], required_external_source_count: 5, standing_release_rule: RULE };
+  const files = [citedPost('optometry-new-post.md', 'Optometry New Post')];
+  bindScheduledPosts(queue, files, new Date('2026-11-01T08:00:00Z'));
+  assert.equal(queue.topics[0].approval.approved_at, RULE.approved_at);
+  assert.equal(queue.topics[0].research_reviewed_at, RULE.approved_at);
+  queue.opportunity_feed_as_of = '2026-01-01T00:00:00Z';
+  assert.equal(evaluatePublishRelease(queue, files).ok, true);
+});
+
+test('binder keeps a bind time that is later than the standing rule', () => {
+  const queue = { topics: [], required_external_source_count: 5, standing_release_rule: RULE };
+  bindScheduledPosts(queue, [citedPost('optometry-new-post.md', 'Optometry New Post')], new Date('2026-11-24T02:00:00Z'));
+  assert.equal(queue.topics[0].approval.approved_at, '2026-11-24T02:00:00Z');
+});
