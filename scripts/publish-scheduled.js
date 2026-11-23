@@ -219,12 +219,17 @@ if (publishedCount > 0) {
   // Cross-link auto-restore
   restoreDeactivatedLinks(publishedSlugs);
 
-  // Ping IndexNow
+  // Ping IndexNow. Only the scheduled job on GitHub Actions pings. A local or
+  // test run must never tell search engines about a page that is not live.
   const INDEXNOW_KEY = 'd0fa8fc9f2c9f1eddea0d7f5ba4163e8';
   const SITE_URL = 'https://mybcat.com';
   const publishedUrls = publishedSlugs.map(slug => `${SITE_URL}/blog/${slug}/`);
 
-  if (publishedUrls.length > 0) {
+  const mayPing = process.env.GITHUB_ACTIONS === 'true';
+  if (publishedUrls.length > 0 && !mayPing) {
+    console.log('IndexNow ping skipped: not running in GitHub Actions.');
+  }
+  if (publishedUrls.length > 0 && mayPing) {
     console.log(`Pinging IndexNow for ${publishedUrls.length} URL(s)...`);
     fetch('https://api.indexnow.org/indexnow', {
       method: 'POST',
