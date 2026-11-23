@@ -35,7 +35,7 @@ seoTopicId: eye-care-chair-time-playbook
 
 An eye care chair time playbook should explain how appointment demand, clinical resources, administrative preparation, and visit flow fit together.
 
-For a COO or VP of Operations overseeing 3+ locations, that means defining what schedulers may book, what each location can support, who handles exceptions, and how leaders evaluate changes.
+For an optometry owner or operations leader at a practice of any size, that means defining what schedulers may book, what each location can support, who handles exceptions, and how leaders evaluate changes.
 
 Start with a practical operating question: **What must be ready for the next appropriate patient visit to proceed as planned?** Answer it across the entire journey, from the appointment request through the clinical visit and checkout.
 
@@ -208,13 +208,13 @@ Use the recurring operations review to examine patterns: repeated overrides, unr
 
 Keep the published playbook current. Each revision should show its owner, approval date, affected locations, and training requirements. Ask managers to verify that scheduling instructions and system settings reflect the approved version.
 
-### Prepare an enterprise discussion around actual decisions
+### Prepare a discussion around actual decisions
 
-For leaders overseeing **3+ locations**, bring the current appointment rules, location capacity profiles, ownership map, and an aggregated view of unresolved workflow issues to the next planning discussion.
+Whether you run one practice or several, bring the current appointment rules, location capacity profiles, ownership map, and an aggregated view of unresolved workflow issues to the next planning discussion.
 
 Use those materials to identify the administrative work under consideration, the decisions retained by clinical leadership, and the evidence needed to assess a proposed operating model.
 
-[Book a MyBCAT enterprise discovery call](/contact/) to discuss patient-access workflows, scheduling ownership, and administrative support for your multi-location group.
+[Book a short MyBCAT discovery call](/contact/) to discuss patient-access workflows, scheduling ownership, and administrative support for your practice.
 
 ## Related Reading
 

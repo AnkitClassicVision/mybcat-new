@@ -196,11 +196,11 @@ Request the operating artifacts that support the demonstration: the cadence tabl
 
 ### Discuss the operating model with MyBCAT
 
-For healthcare groups with **3+ locations**, bring your current reminder sequence, central-versus-local responsibilities, and unresolved-request workflow to a discovery discussion.
+Whether you run one practice or several, bring your current reminder sequence, central-versus-local responsibilities, and unresolved-request workflow to a discovery discussion.
 
 Focus the conversation on where your team needs clearer ownership, additional follow-up capacity, or a more consistent scheduling handoff.
 
-[Schedule a MyBCAT discovery call for your multi-location group](/contact/) to discuss the confirmation workflow and the scope of support your organization wants to evaluate.
+[Schedule a short MyBCAT discovery call](/contact/) to discuss the confirmation workflow and the scope of support your practice wants to evaluate.
 
 ## Related Reading
 

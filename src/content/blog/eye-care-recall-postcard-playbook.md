@@ -32,7 +32,7 @@ seoTopicId: eye-care-recall-postcard-playbook
 
 
 
-For an eye care group with 3+ locations, a postcard campaign needs decisions about eligibility, communication preferences, appointment availability, and follow-up before the mailing leaves the practice.
+For an eye care practice of any size, a postcard campaign needs decisions about eligibility, communication preferences, appointment availability, and follow-up before the mailing leaves the practice.
 
 This eye care recall postcard playbook gives COOs, VPs of Operations, and buying committees a practical framework for those decisions. Use it to establish a shared process while keeping clinical recall instructions and location-specific scheduling requirements with the appropriate teams.
 
@@ -224,7 +224,7 @@ During the pilot, review actual handoffs. Confirm that staff can identify the ca
 
 Define the rollout decision in advance: which issues must be resolved, who signs off, and how the group will maintain the workflow after launch. Keep clinical decisions with clinical leadership and make operational responsibilities explicit.
 
-For healthcare groups with **3+ locations**, [schedule a MyBCAT discovery call](/contact/) to discuss recall ownership, centralized follow-up, location routing, and reporting responsibilities.
+Whether you run one practice or several, [schedule a short MyBCAT discovery call](/contact/) to discuss recall ownership, centralized follow-up, location routing, and reporting responsibilities.
 
 ## Related Reading
 

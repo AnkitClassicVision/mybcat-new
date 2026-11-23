@@ -33,7 +33,7 @@ seoTopicId: eye-care-kpi-dashboard-playbook
 
 An eye care KPI dashboard should connect a visible result to a management decision. When appointment availability needs attention, who reviews the schedule? When collections per exam change, who checks the reporting basis? When a location’s data are incomplete, who resolves the exception?
 
-For COOs, VPs of Operations, and buying committees overseeing 3+ locations, those questions belong in the dashboard design. The scorecard should establish what each metric means, which locations can be compared, and who owns the next action.
+For optometry owners, COOs, VPs of Operations, and buying committees at practices of any size, those questions belong in the dashboard design. The scorecard should establish what each metric means, which locations can be compared, and who owns the next action.
 
 This eye care KPI dashboard playbook provides a practical operating framework. Use it to select a focused scorecard, document shared definitions, establish review responsibilities, and evaluate reporting requirements for internal teams or service partners. Treat the recommendations as design choices for your group, with targets approved against your own operating context.
 
@@ -201,11 +201,11 @@ Clarify where responsibilities cross organizational boundaries. If centralized s
 
 Agree on how definition changes, source-system changes, and unresolved discrepancies will be communicated. Put those responsibilities into the operating agreement so the committee can review the proposed service concretely.
 
-### Bring your multi-location priorities to MyBCAT
+### Bring your priorities to MyBCAT
 
 Use the dashboard playbook to prepare a focused discussion about centralized call support and back-office responsibilities. Identify which workflows need shared ownership, which measures leadership wants to review, and where location-level authority should sit.
 
-If you oversee **3+ locations** and are evaluating those responsibilities, [book a MyBCAT discovery call](/contact/). Bring an aggregate scorecard, your current ownership questions, and the operating decisions your reporting needs to support.
+If you run one practice or several and are evaluating those responsibilities, [book a short MyBCAT discovery call](/contact/). Bring an aggregate scorecard, your current ownership questions, and the operating decisions your reporting needs to support.
 
 ## Related Reading
 
