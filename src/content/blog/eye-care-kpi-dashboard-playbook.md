@@ -5,9 +5,8 @@ description: 'A practical eye care KPI dashboard playbook for multi-location gro
   metric definitions, location comparisons, data ownership, and operating reviews.'
 seoDescription: 'A practical eye care KPI dashboard playbook for multi-location groups:
   metric definitions, location comparisons, data ownership, and operating reviews.'
-publishDate: '2026-10-22'
-status: scheduled
-scheduledDate: '2026-10-22'
+publishDate: '2026-11-23'
+status: published
 author: Ankit Patel
 tags:
 - eye care KPI dashboard playbook
