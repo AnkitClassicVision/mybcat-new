@@ -33,6 +33,14 @@ const QUALITY_RULES_PATH = path.join(__dirname, 'config', 'content-quality-rules
 const MAX_DAILY_PUBLISH = 1;
 const today = new Date().toISOString().split('T')[0];
 
+// A runner that is a day late keeps the scheduled day. A post held back for
+// longer takes the day it really goes live, so its date is true and the daily
+// checks, which look at today's posts, see it.
+function publishDayFor(scheduledDate, runDay) {
+  const lateDays = (Date.parse(runDay) - Date.parse(scheduledDate)) / 86400000;
+  return lateDays > 1 ? runDay : scheduledDate;
+}
+
 const args = process.argv.slice(2);
 const forceMode = args.includes('--force');
 const dryRun = args.includes('--dry-run');
@@ -190,8 +198,9 @@ for (const post of toPublish) {
 
   console.log(`Publishing: ${post.file}`);
 
-  // Keep the scheduled calendar day and the article body. A late runner
-  // must not move publishDate to the run day or reflow the post.
+  // Keep the article body. A late runner must not move publishDate to the
+  // run day or reflow the post. See publishDayFor for a long-held post.
+  const publishDay = publishDayFor(post.scheduledDate, today);
   const newline = content.includes('\r\n') ? '\r\n' : '\n';
   const lines = content.split(/\r?\n/);
   const nextLines = [];
@@ -202,7 +211,7 @@ for (const post of toPublish) {
       continue;
     }
     if (/^publishDate:/.test(line)) {
-      nextLines.push(`publishDate: '${post.scheduledDate}'`);
+      nextLines.push(`publishDate: '${publishDay}'`);
       continue;
     }
     nextLines.push(line);

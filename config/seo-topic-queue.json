@@ -16,6 +16,15 @@
     "acquisition": 5,
     "service": 2
   },
+  "standing_release_rule": {
+    "id": "optometry-auto-release-v1",
+    "approved_by": "Ankit",
+    "approved_at": "2026-11-23T19:40:04Z",
+    "decision_id": "WEBGROWTH-D1",
+    "enabled": true,
+    "scope": "Optometry and eye care posts that pass the release gate and the content quality gate. One post a day.",
+    "stop": "Set enabled to false, or delete this block. Automatic approvals then release nothing."
+  },
   "topics": [
     {
       "id": "seller-confidential-first-conversation",
