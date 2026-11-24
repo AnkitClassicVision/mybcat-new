@@ -1,10 +1,10 @@
 ---
-title: Optometry Practice Sale Process Playbook
-seoTitle: Optometry Practice Sale Process Playbook
+title: Optometry Practice Sale Process Playbook for Owners
+seoTitle: Optometry Practice Sale Process Playbook for Owners
 description: Plan an optometry practice sale, from defining your goals and preparing
-  records to evaluating buyers and supporting a smooth transition.
-seoDescription: A practical playbook for selling an optometry practice, preparing
-  for due diligence, comparing offers, and planning the handoff.
+  records to evaluating buyers and supporting a smooth transition for staff and patients.
+seoDescription: A practical playbook for an optometry practice sale, from setting goals
+  and preparing records for due diligence to comparing offers and planning the handoff.
 publishDate: '2026-11-24'
 status: scheduled
 scheduledDate: '2026-11-24'
@@ -37,7 +37,7 @@ Selling an optometry practice is both a business decision and a personal transit
 
 An effective sale process gives each of those questions room. It begins before you speak with a prospective buyer and continues after the transaction closes.
 
-This optometry practice sale process playbook walks a single-office owner through the decisions, preparation, diligence, and handoff that can make the process easier to manage.
+This optometry practice sale process playbook walks an optometry practice owner, whether solo or multi-office, through the decisions, preparation, diligence, and handoff that can make the process easier to manage.
 
 The American Optometric Association (AOA) discusses preparing a practice, maintaining revenue, finding a buyer, and planning the owner’s post-sale role in its guidance on [practice transitions](https://www.aoa.org/news/practice-management/perfect-your-practice/transition-right).
 
@@ -125,7 +125,7 @@ Looking at these materials from the buyer’s perspective can help you prepare a
 
 ### Document the work that keeps the office moving
 
-A single-office practice often relies on knowledge held by its owner and experienced team members. Write down how routine work is handled, including appointment requests, phone coverage, intake, billing follow-up, supply ordering, and communication with patients.
+A practice of any size, solo or multi-office, often relies on knowledge held by its owner and experienced team members. Write down how routine work is handled, including appointment requests, phone coverage, intake, billing follow-up, supply ordering, and communication with patients.
 
 Focus on what someone taking responsibility for the work needs to know: who owns each task, where instructions are maintained, what happens when an issue cannot be resolved, and which vendors or systems support the process.
 
@@ -233,6 +233,8 @@ If you plan to leave, identify the information and contacts the new owner needs 
 
 A transition is complete when the agreed responsibilities have been handed over and the people involved know how to move forward. Review the handoff list with the buyer and address remaining questions directly.
 
+This article is general information, not legal, tax, or financial advice, and an owner should rely on their own attorney and accountant for guidance on a sale.
+
 Every optometry practice owner is welcome to explore MyBCAT’s [optometry practice transition resources](/optometry-practice-transitions/) for support in planning the path ahead.
 
 ## Related Reading
@@ -246,7 +248,6 @@ Every optometry practice owner is welcome to explore MyBCAT’s [optometry pract
 ### Plan the transition
 
 - [Optometry practice post-sale role options](/blog/optometry-practice-post-sale-role-options/)
-- Communicating with staff during an optometry practice transition
 - [Patient continuity during an optometry practice transition](/blog/patient-continuity-optometry-practice-transition/)
 
 ## Sources

@@ -38,6 +38,12 @@ export function bindScheduledPosts(queue, files, now = new Date()) {
   const topics = Array.isArray(queue.topics) ? queue.topics : [];
   queue.topics = topics;
   const byId = new Map(topics.map((topic) => [topic.id, topic]));
+  // A topic's id can differ from its slug. A post counts as already bound when
+  // any topic holds its slug, not only when a topic id matches.
+  const bySlug = new Map();
+  for (const topic of topics) {
+    if (typeof topic.slug === 'string' && topic.slug.length > 0 && !bySlug.has(topic.slug)) bySlug.set(topic.slug, topic);
+  }
   let nextSlot = topics.reduce((max, topic) => Math.max(max, Number(topic.slot) || 0), 0) + 1;
   const bound = [];
   const skipped = [];
@@ -63,6 +69,13 @@ export function bindScheduledPosts(queue, files, now = new Date()) {
         file.content = file.content.replace(/^status:\s*['"]?scheduled['"]?\s*$/mi, (line) => `${line}\nseoTopicId: ${existing.id}`);
         bound.push(slug);
       }
+      continue;
+    }
+    // Another topic holds this slug under a different id, and the post has no
+    // seoTopicId that links it. Write nothing: a second, automatic entry would
+    // release a post a person held.
+    if (!existing && bySlug.has(slug)) {
+      skip(slug, `queue topic ${bySlug.get(slug).id} already holds this slug`);
       continue;
     }
     const scope = evaluateOptometryScope(postScopeFields(file));
@@ -132,6 +145,7 @@ export function bindScheduledPosts(queue, files, now = new Date()) {
     };
     topics.push(topic);
     byId.set(slug, topic);
+    bySlug.set(slug, topic);
     nextSlot += 1;
     if (!/^seoTopicId:/m.test(file.content)) {
       file.content = file.content.replace(/^status:\s*['"]?scheduled['"]?\s*$/mi, (line) => `${line}\nseoTopicId: ${slug}`);
