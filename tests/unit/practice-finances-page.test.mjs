@@ -41,6 +41,8 @@ test('the page source has a short title, an FAQ, Service data and the discovery 
   assert.match(page, /'@type': 'Service'/);
   assert.match(page, /discoveryBookingHref\('optometry-practice-finances'\)/);
   assert.match(page, /from '@data\/testimonials'/, 'quotes come from the testimonials file');
+  assert.match(page, /a meeting with Ankit Patel, our Founder & CEO, to purchase/, 'step 2 is a meeting with the company founder');
+  assert.doesNotMatch(page, /meeting with the practice owner/);
   assert.deepEqual(deliverableProblems(page), []);
 });
 
