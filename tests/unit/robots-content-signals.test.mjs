@@ -62,6 +62,16 @@ export function contentSignalProblems(text) {
   for (const crawler of ['*', ...namedCrawlers]) {
     if (!agents.includes(crawler)) problems.push(`no group for ${crawler}`);
   }
+  // A named group replaces the * group for that crawler, so it must repeat every rule.
+  const star = groups.find((g) => g.agents.includes('*'));
+  if (star) {
+    for (const group of groups) {
+      if (group === star) continue;
+      const name = group.agents.join(', ');
+      for (const rule of star.allow) if (!group.allow.includes(rule)) problems.push(`${name}: missing Allow: ${rule}`);
+      for (const rule of star.disallow) if (!group.disallow.includes(rule)) problems.push(`${name}: missing Disallow: ${rule}`);
+    }
+  }
   return problems;
 }
 
@@ -74,6 +84,18 @@ test('the checker rejects ai-input=no, ai-train=yes and a missing signal', () =>
   assert.match(contentSignalProblems(good.replace('ai-input=yes', 'ai-input=no')).join('\n'), /ai-input is no/);
   assert.match(contentSignalProblems(good.replace('ai-train=no', 'ai-train=yes')).join('\n'), /ai-train is yes/);
   assert.match(contentSignalProblems('User-agent: *\nAllow: /\n').join('\n'), /expected one Content-Signal line/);
+});
+
+test('every named crawler group repeats every Allow and Disallow rule of the * group', () => {
+  const text = fs.readFileSync(path.join(repoRoot, sourceFile), 'utf8');
+  assert.deepEqual(contentSignalProblems(text), []);
+  // Drop one rule from one named group: the check must catch it.
+  const lines = text.split('\n');
+  const gpt = lines.indexOf('User-agent: GPTBot');
+  const apiRule = lines.indexOf('Disallow: /api/', gpt);
+  assert.ok(gpt > 0 && apiRule > gpt, 'the GPTBot group has Disallow: /api/');
+  const broken = [...lines.slice(0, apiRule), ...lines.slice(apiRule + 1)].join('\n');
+  assert.match(contentSignalProblems(broken).join('\n'), /GPTBot: missing Disallow: \/api\//);
 });
 
 test('public/robots.txt allows AI input and refuses AI training in every group', () => {

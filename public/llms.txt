@@ -9,7 +9,7 @@
 ## Services
 - Medical answering service: live coordinators answer patient calls 24/7 and book appointments in the practice's EHR or PM system: https://mybcat.com/solutions/medical-answering-service/
 - Optometry virtual assistant: a dedicated assistant for scheduling, insurance verification, patient recall and EHR work: https://mybcat.com/solutions/optometry-virtual-assistant/
-- Front desk outsourcing: remote staff handle overflow calls, scheduling and administrative tasks during business hours: https://mybcat.com/solutions/front-desk-outsourcing/
+- Front desk outsourcing: remote staff handle calls, appointment confirmations, insurance coordination and scheduling, with business-hours, extended-hours or 24/7 coverage: https://mybcat.com/solutions/front-desk-outsourcing/
 - Patient recall: phone, text and email campaigns that bring overdue patients back for care: https://mybcat.com/solutions/patient-recall/
 - No-show recovery: same-day calls to reschedule patients who miss appointments: https://mybcat.com/solutions/no-show-recovery/
 - Virtual medical assistant: insurance verification, referral coordination and prior authorization processing: https://mybcat.com/solutions/medical-virtual-assistant/
@@ -20,7 +20,7 @@
 - Plans start at $10/hr: https://mybcat.com/pricing/
 
 ## Book a call or contact us
-- Book a discovery call: https://mybcat.com/book/discovery
+- Book a discovery call (the link opens the scheduling calendar): https://mybcat.com/book/discovery
 - Contact form: https://mybcat.com/contact/
 - How onboarding works: https://mybcat.com/how-it-works/
 
