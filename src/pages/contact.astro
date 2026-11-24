@@ -959,13 +959,14 @@ import { discoveryBookingHref } from '@data/navigation';
   const INTAKE_ENDPOINT = 'https://estate-form-bridge.mybcat-estate.workers.dev';
 
   // First-party lead source (src/utils/attribution.mjs). It loads after this
-  // script runs, so read it at call time. Missing or failing, the form must
-  // still submit exactly as before.
+  // script runs, so read it at call time. Missing (no tracking, or Global Privacy
+  // Control / Do Not Track) or failing, the form must still submit exactly as before.
+  // This script is not transpiled: no optional catch binding.
   function leadSource() {
     try {
       const api = window.MyBCATLeadSource;
-      return api ? { api: api, attribution: api.get(), flat: api.flat() } : null;
-    } catch {
+      return api ? { api: api, flat: api.flat(), utm: api.utm() } : null;
+    } catch (e) {
       return null;
     }
   }
@@ -1008,10 +1009,10 @@ import { discoveryBookingHref } from '@data/navigation';
     // dataLayer: the calendar is shown, so this is a booking start for this lead
     try {
       if (lead) lead.api.trackBookingStart({ placement: 'contact_form', trigger: 'calendar_embed', posthog: false });
-    } catch { /* tracking must never block the booking step */ }
+    } catch (e) { /* tracking must never block the booking step */ }
   }
 
-  function submitToOwnedIntake(fields, attribution) {
+  function submitToOwnedIntake(fields, utm) {
     const token = window.MYBCAT_FORM_TOKEN || '';
     if (!token) {
       console.warn('[MyBCAT] Intake token not set on this preview.');
@@ -1021,12 +1022,13 @@ import { discoveryBookingHref } from '@data/navigation';
       fields: fields,
       context: { pageUri: window.location.href, pageName: document.title, source: 'contact' }
     };
-    // Lead source rides inside context, next to the page facts the receiver already
-    // reads (the optometry-analysis page sends context.utm the same way). The submit
-    // is fire and forget, so a receiver that rejected a new top-level key would drop
-    // the lead without a sign. A nested context key cannot do that to a receiver that
-    // already accepts context.
-    if (attribution) payload.context.attribution = attribution;
+    // First-touch campaign values go in context.utm, the shape the /optometry-analysis/
+    // page already posts to this same receiver: a flat map of strings, with only
+    // utm_source, utm_medium and utm_campaign (three of the four keys that page sends).
+    // Nothing else is new for the receiver. Channel, referrer host, landing path and
+    // dates go to PostHog and the dataLayer only. The submit is fire and forget, so
+    // the receiver must never see a shape it has not already accepted.
+    if (utm && Object.keys(utm).length) payload.context.utm = utm;
     fetch(INTAKE_ENDPOINT, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-Forms-Token': token },
@@ -1131,13 +1133,13 @@ import { discoveryBookingHref } from '@data/navigation';
         form_id: 'contact',
         number_of_locations: locValue
       }, lead.flat));
-    } catch { /* tracking must never block the submit */ }
+    } catch (e) { /* tracking must never block the submit */ }
 
     // 1. Show calendar immediately — no waiting
     showPostSubmitState({ firstName: firstName, lastName: lastName, email: email });
 
     // 2. Send to owned intake silently in the background
-    submitToOwnedIntake(fields, lead ? lead.attribution : null);
+    submitToOwnedIntake(fields, lead ? lead.utm : null);
   }, true);
 })();
 </script>
