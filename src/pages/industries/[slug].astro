@@ -53,6 +53,10 @@ const pageQuote = industry.testimonial ?? (sharedQuote && {
   title: sharedQuote.title,
   company: sharedQuote.company
 });
+// Name the field a shared quote comes from, so it never reads as a client in this industry.
+const sharedQuoteSource = sharedQuote?.industry
+  ? `Quote from ${/^[aeiou]/i.test(sharedQuote.industry) ? 'an' : 'a'} ${sharedQuote.industry} client`
+  : undefined;
 const linkedCaseStudy = industryCaseStudies.length === 0 && industry.sharedCaseStudySlug
   ? getCaseStudyBySlug(industry.sharedCaseStudySlug)
   : undefined;
@@ -183,6 +187,7 @@ const icons: Record<string, string> = {
     <!-- Testimonial Section (if available) -->
     {pageQuote && (
       <section class="testimonial-section">
+        {sharedQuoteSource && <p class="testimonial-source-label">{sharedQuoteSource}</p>}
         <Card variant="testimonial" class="testimonial-card">
           <blockquote>"{pageQuote.quote}"</blockquote>
           <cite>
@@ -595,6 +600,16 @@ const icons: Record<string, string> = {
   /* Testimonial */
   .testimonial-section {
     margin-bottom: 60px;
+  }
+
+  .testimonial-source-label {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 12px;
   }
 
   .testimonial-case-link {

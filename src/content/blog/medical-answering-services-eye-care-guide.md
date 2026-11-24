@@ -127,7 +127,7 @@ For growing groups evaluating new acquisitions or opening new locations, a [pati
 
 Unlike many practice investments that are difficult to quantify, a medical answering service produces clear, trackable metrics. Every call is logged. Every appointment booked through the service is recorded. Every patient interaction is documented.
 
-This data allows you to calculate your return with precision. Track the number of calls answered that would have previously gone to voicemail. Track the appointments booked through those calls. Assign a revenue value based on your average exam and optical sale. Compare that recovered revenue to [the cost of the service](/pricing/).
+This data allows you to calculate your return with precision. Track the number of calls answered that would have previously gone to voicemail. Track the appointments booked through those calls. Assign a revenue value based on your average exam and optical sale. Compare that recovered revenue to the cost of the service.
 
 The math tends to be compelling. If a service costs $2,000 per month and the recovered calls generate 30 additional appointments at an average value of $300 each, that is $9,000 in monthly revenue from a $2,000 investment, a 4.5x return. Practices that implement professional answering services typically report a 3-5x return on their investment when all revenue streams are included.
 
@@ -147,7 +147,7 @@ Not all answering services are created equal, and the wrong choice can create mo
 
 **Bilingual support.** In most markets, the ability to serve Spanish-speaking patients is essential. According to Census data, over 13% of the U.S. population speaks Spanish at home, and that percentage is significantly higher in many metropolitan areas. A service that offers bilingual agents in English and Spanish ensures you do not lose patients due to language barriers.
 
-**Transparent pricing and reporting.** Understand exactly what you are paying for. Per-call pricing, per-minute pricing, and flat-rate models all have different implications depending on your call volume. Ask for sample reports so you can see the level of detail provided. The best services give you real-time dashboards with metrics like answer rate, average handle time, appointments booked, and call disposition.
+**Transparent pricing and reporting.** Understand exactly what you are paying for. Per-call pricing, per-minute pricing, and flat-rate models all have different implications depending on your call volume. Ask for sample reports so you can see the level of detail provided. The best services give you real-time dashboards with metrics like answer rate, average handle time, appointments booked, and call disposition. MyBCAT lists starting rates for its medical answering service on its [pricing page](/pricing/).
 
 **Scalability.** Your needs will change. A good service can scale up during insurance benefits season and scale down during slower months without requiring you to renegotiate contracts or retrain new teams.
 

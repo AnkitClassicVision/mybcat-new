@@ -154,7 +154,7 @@ Most new practices start with minimal staff and add positions as volume justifie
 **Established (1500+ patients):**
 - Doctor, front desk coordinator, billing specialist, 1-2 opticians, technician
 
-Staff costs typically run 22-28% of collections (see [MyBCAT pricing](/pricing/)). Higher percentages indicate overstaffing or underperformance; lower percentages often mean the doctor is doing tasks that should be delegated.
+Staff costs typically run 22-28% of collections. Higher percentages indicate overstaffing or underperformance; lower percentages often mean the doctor is doing tasks that should be delegated. MyBCAT lists starting rates for its front desk outsourcing on its [pricing page](/pricing/).
 
 ### How Should You Integrate Technology Systems?
 

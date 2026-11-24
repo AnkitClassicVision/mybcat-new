@@ -5,6 +5,7 @@ import InContentCTA from '@/components/blog/InContentCTA.astro';
 import MedicalReviewBadge from '@/components/blog/MedicalReviewBadge.astro';
 import RelatedPosts from '@/components/blog/RelatedPosts.astro';
 import FAQ from '@/components/sections/FAQ.astro';
+import { bodyHasFaqSchema, splitBeforeSources } from '@utils/blog-faq.mjs';
 import { getBlogCta } from '@data/blog-ctas';
 import { isPostVisible } from '@utils/blog';
 import { generateArticleSchema, generateBreadcrumbSchema, combineSchemas, serializeSchema } from '@/utils/schema';
@@ -20,8 +21,12 @@ const { title, description, publishDate, modifiedDate, author, category, tags, f
 
 // A post's visible FAQ comes from frontmatter and renders through the shared FAQ
 // component, which also emits the FAQPage JSON-LD. A post that already embeds its
-// own FAQPage block keeps that one, so a page never carries two.
-const bodyHasFaqSchema = /"@type"\s*:\s*"FAQPage"/.test(post.body || '');
+// own FAQPage block keeps that one, so a page never carries two. The FAQ goes just
+// before the Sources heading; posts without faqs render their body unchanged.
+const faqSchemaInBody = bodyHasFaqSchema(post.body);
+const [bodyBeforeSources, bodyFromSources] = faqs.length > 0
+  ? splitBeforeSources(await Astro.slots.render('default'))
+  : ['', ''];
 
 // Funnel-themed CTA variant resolved from the post's cluster (see src/data/blog-ctas.ts).
 // Explicit frontmatter ctaTheme wins; slug/category heuristic demotes off-ICP (dental/vet) posts.
@@ -179,14 +184,18 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     )}
 
     <div class="post-content prose" id="blog-content" itemprop="articleBody">
-      <slot />
+      {faqs.length > 0 ? (
+        <Fragment>
+          <Fragment set:html={bodyBeforeSources} />
+          <div id="faq" class="post-faq">
+            <FAQ items={faqs} includeSchema={!faqSchemaInBody} track={funnel !== 'acquisition'} />
+          </div>
+          <Fragment set:html={bodyFromSources} />
+        </Fragment>
+      ) : (
+        <slot />
+      )}
     </div>
-
-    {faqs.length > 0 && (
-      <div id="faq" class="post-faq">
-        <FAQ items={faqs} includeSchema={!bodyHasFaqSchema} track={funnel !== 'acquisition'} />
-      </div>
-    )}
 
     <!-- In-content CTA: rendered hidden, moved mid-article by script below -->
     <div id="in-content-cta-slot" hidden>
@@ -300,7 +309,7 @@ const authorInfo = authorData[author] || { role: '', image: '' };
   const ctaSlot = document.getElementById('in-content-cta-slot');
   const ctaEl = ctaSlot?.firstElementChild;
   if (ctaSlot && ctaEl) {
-    const headings = Array.from(document.querySelectorAll('#blog-content h2'));
+    const headings = Array.from(document.querySelectorAll('#blog-content h2')).filter((h) => !h.closest('#faq'));
     const target =
       headings.find((h) => /key\s*takeaway/i.test(h.textContent || '')) ||
       (headings.length >= 2 ? headings[Math.floor(headings.length / 2)] : null);
@@ -543,6 +552,17 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     width: 60px;
     height: 2px;
     background: var(--oceanic-teal);
+  }
+
+  /* The FAQ sits inside the article body but keeps its own centered heading. */
+  .prose :global(.post-faq h2) {
+    margin-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .prose :global(.post-faq h2)::after {
+    display: none;
   }
 
   .prose :global(h3) {

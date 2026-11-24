@@ -208,9 +208,9 @@ Controlling expenses without compromising quality requires discipline.
 
 ### How Do You Manage Staff Costs?
 
-Payroll is typically the largest expense (see [MyBCAT pricing](/pricing/)). Manage carefully:
+Payroll is typically the largest expense. Manage carefully:
 
-Right-size staffing for current volume, not projected volume. Cross-train for flexibility. Use part-time staff during ramp-up. Add hours before adding headcount.
+Right-size staffing for current volume, not projected volume. Cross-train for flexibility. Use part-time staff during ramp-up. Add hours before adding headcount. MyBCAT lists starting rates for its front desk outsourcing on its [pricing page](/pricing/).
 
 ### How Much Should You Spend on Marketing?
 

@@ -39,8 +39,10 @@ export interface Industry {
     company?: string;
   };
   // A page with no testimonial of its own shows one existing quote from testimonials.ts,
-  // looked up by author so the quote and attribution are never retyped. The industry's
-  // own `testimonial` (also served by /api/public/industries.json) stays unset.
+  // looked up by author so the quote and attribution are never retyped. The page labels
+  // it with the client's field. Leave it unset where the quote would sit above that
+  // industry's own case studies. The industry's `testimonial` (also served by
+  // /api/public/industries.json) stays unset.
   sharedQuoteAuthor?: string;
   // Existing case study linked under that quote when the industry has no case study.
   sharedCaseStudySlug?: string;
@@ -142,8 +144,7 @@ export const industries: Industry[] = [
       { label: 'Average Revenue Lost to Missed Calls', value: '$150,000/year' },
       { label: 'Typical Hygiene Recall Rate', value: '45-65%' },
       { label: 'New Patient No-Show Rate', value: '20-30%' }
-    ],
-    sharedQuoteAuthor: 'Ashley Choate'
+    ]
   },
   {
     slug: 'veterinary',

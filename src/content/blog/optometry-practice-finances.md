@@ -17,7 +17,7 @@ keywords:
   - practice management
   - healthcare
 cluster: starting-practice
-ctaTheme: practice_finance  # books, margins and cash: matches the guide and its accounting queries
+ctaTheme: finance_profit  # finance-intent routing
 category: Practice Management
 relatedPosts:
   - optometry-practice-staffing
@@ -124,7 +124,7 @@ The expense side of optometry practice finances requires surgical precision. Cut
 
 ### How Do You Manage Staffing Costs?
 
-Labor typically represents 25-30% of practice revenue (see [MyBCAT pricing](/pricing/)). This includes salaries, benefits, payroll taxes, and training costs.
+Labor typically represents 25-30% of practice revenue. This includes salaries, benefits, payroll taxes, and training costs. MyBCAT lists starting rates for its front desk outsourcing on its [pricing page](/pricing/).
 
 Analyze productivity metrics for each role. How many patients can your front desk team check in per hour? How efficiently does your optical staff convert prescriptions to sales? Identify bottlenecks and address them through training or workflow improvements before adding headcount.
 
