@@ -17,7 +17,7 @@ keywords:
   - practice management
   - healthcare
 cluster: starting-practice
-ctaTheme: finance_profit  # finance-intent routing
+ctaTheme: finance_service  # points at the practice finances page
 category: Practice Management
 relatedPosts:
   - optometry-practice-staffing
@@ -312,7 +312,7 @@ Financial mastery takes time to develop, but the payoff is substantial. Practice
 
 Start with one area. Master it. Then expand to the next. Within a year, you'll wonder how you ever operated without this clarity.
 ---
-Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
+Keeping every appointment slot filled starts with answering every call. See [how MyBCAT helps practice finances](/optometry-practice-finances/), or [talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
 
 ## Related Reading
 

@@ -103,7 +103,7 @@ Missed appointments cost eye care practices thousands of dollars every month. In
 
 Medical answering services address this through proactive outbound communication. Agents make reminder calls 48 to 72 hours before appointments, confirm attendance, and reschedule patients who cannot make it. This two-way interaction is significantly more effective than automated text reminders alone, because a live person can immediately offer alternative times and fill the gap before it becomes an empty slot.
 
-When cancellations do occur, answering service agents can work through a waitlist in real-time, calling patients who wanted earlier availability and offering them the newly opened time. This same-day rescheduling capability keeps your schedule full and your providers productive. Practices that implement this approach consistently see their no-show rates drop by 25-40%.
+When cancellations do occur, answering service agents can work through a waitlist in real-time, calling patients who wanted earlier availability and offering them the newly opened time. This same-day rescheduling capability helps keep your schedule full and your providers productive. Practices that implement this approach consistently see their no-show rates drop by 25-40%.
 
 ### 3. Free Your In-Office Staff
 

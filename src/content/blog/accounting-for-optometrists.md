@@ -16,6 +16,7 @@ tags:
 - enterprise operations
 - healthcare scale
 cluster: optometry
+ctaTheme: finance_service  # points at the practice finances page
 featuredImage: /images/blog/accounting-for-optometrists.webp
 canonical: https://mybcat.com/blog/accounting-for-optometrists/
 targetKeyword: accounting for optometrists
@@ -205,4 +206,4 @@ The accounting lens keeps the conversation grounded. Leaders can ask whether the
 7. [Optometric Management: Software for Financial Health](https://www.optometricmanagement.com/issues/2019/november/software-for-financial-health)
 8. [Review of Optometric Business: Chart of Accounts](https://reviewob.com/chart-of-accounts-how-to-create-this-chart-to-better-measure-and-improve-your-profitability)
 
-*Managing accounting for an optometry practice of any size? [Book a short MyBCAT discovery call.](/contact/)*
+*Working on the finances of an optometry practice of any size? See [how MyBCAT helps practice finances](/optometry-practice-finances/), or [book a short MyBCAT discovery call](/contact/).*

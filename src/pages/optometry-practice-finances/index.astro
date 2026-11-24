@@ -1,0 +1,205 @@
+---
+/**
+ * Practice finances: how the service helps an optometry practice's top line (a fuller
+ * schedule) and bottom line (lower front-desk labor cost).
+ * Every claim restates the owner's own description of the service or text already on
+ * the site (pricing page, compare pages, testimonials). It describes only that service
+ * and gives no professional advice. tests/unit/practice-finances-page.test.mjs checks the wording.
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import ProcessSteps from '@/components/sections/ProcessSteps.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import Quote from '@/components/sections/Quote.astro';
+import CTA from '@/components/sections/CTA.astro';
+import { serializeSchema } from '@utils/schema';
+import { company } from '@data/company';
+import { testimonials } from '@data/testimonials';
+import { discoveryBookingHref } from '@data/navigation';
+
+const pageUrl = `${company.site.url}/optometry-practice-finances/`;
+const bookingHref = discoveryBookingHref('optometry-practice-finances');
+
+// Existing quotes, looked up by author so the text and attribution are never retyped.
+const quoteBy = (author: string) => {
+  const found = testimonials.find((t) => t.author === author);
+  if (!found) throw new Error(`No testimonial by ${author}`);
+  return found;
+};
+const profitQuote = quoteBy('Dr. Bradley Grant');
+const managedQuote = quoteBy('Dr. Derek Black');
+
+const steps = [
+  {
+    step: 1,
+    title: 'Book a discovery call',
+    description: 'We talk through your schedule, staffing, and costs, so you can work out your own numbers.'
+  },
+  {
+    step: 2,
+    title: 'Meet with our Founder & CEO',
+    description: 'Then a meeting with Ankit Patel, our Founder & CEO, to purchase.'
+  }
+];
+
+const faqs = [
+  {
+    question: "How can I improve my optometry practice's finances?",
+    answer: 'This page covers two levers: a fuller schedule, which raises the top line, and lower front-desk labor cost, which helps the bottom line. Our remote hospitality center works on both, and we do all the work.'
+  },
+  {
+    question: 'How much does MyBCAT cost compared with an in-office receptionist?',
+    answer: 'Our pricing page lists plans starting at $10/hr and puts a full-time receptionist at $45,000+ a year for 40 hours a week. By our own estimate, the same work often costs about half as much with us. Your numbers will differ, and a discovery call works them out.'
+  },
+  {
+    question: 'Is MyBCAT a virtual assistant staffing agency?',
+    answer: 'No. We own the service delivery: we recruit, train, supervise, and replace team members if needed, and we manage the team. Some virtual assistant companies place an assistant and leave the managing to you.'
+  }
+];
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': `${pageUrl}#service`,
+  name: 'Remote hospitality center for optometry practices',
+  description: 'A remote team that works to keep an optometry practice schedule full and runs front-desk work, managed end to end by MyBCAT.',
+  serviceType: 'Remote front-desk operations',
+  provider: { '@id': `${company.site.url}/#organization` },
+  areaServed: { '@type': 'Country', name: 'United States' },
+  audience: { '@type': 'Audience', audienceType: 'Optometry practice owners' }
+};
+---
+
+<PageLayout
+  title="Optometry Front Desk: Fuller Schedule, Lower Cost | MyBCAT"
+  description="How MyBCAT helps optometry practices of any size: a fuller schedule for the top line and lower front-desk labor cost for the bottom line. We do all the work."
+  breadcrumbs={[
+    { name: 'Home', url: '/' },
+    { name: 'Practice Finances' }
+  ]}
+  heroEyebrow="Practice Finances"
+  heroTitle="A Better Top Line and Bottom Line for Your Optometry Practice"
+  heroSubtitle="Our remote hospitality center works to keep your schedule full, and by our own estimate the front-desk labor often costs less than staffing the same work in the office. We do all the work, so there is no assistant for you to manage."
+>
+  <script slot="head" is:inline type="application/ld+json" set:html={serializeSchema(serviceSchema)} />
+
+  <div class="finance-page">
+    <p class="hero-action"><a class="start-link" href={bookingHref}>Book a discovery call</a></p>
+
+    <p class="audience-line">For optometry practices of any size, from one location to several.</p>
+
+    <section class="finance-section" aria-labelledby="top-line-title">
+      <p class="section-label">Top line</p>
+      <h2 id="top-line-title">A fuller schedule</h2>
+      <p>Our remote hospitality center works to keep your schedule full. The team answers your calls and books appointments directly into your EHR. Depending on your plan, it also runs appointment confirmations, <a href="/solutions/patient-recall/">patient recalls</a>, and insurance verifications.</p>
+      <p>Coverage runs from business hours to 24/7. See <a href="/solutions/no-show-recovery/">no-show recovery</a> for how missed appointments get followed up.</p>
+    </section>
+
+    <section class="finance-section" aria-labelledby="bottom-line-title">
+      <p class="section-label">Bottom line</p>
+      <h2 id="bottom-line-title">Lower front-desk labor cost</h2>
+      <p>Our <a href="/pricing/">pricing page</a> compares a full-time receptionist, at $45,000+ a year with salary, benefits, and training for 40 hours a week, with MyBCAT plans starting at $10/hr.</p>
+      <p>By our own estimate, the same front-desk work often costs about half as much with us as it does in the office. Your numbers will differ, so a discovery call works them out for your practice.</p>
+      <Quote quote={profitQuote.quote} author={profitQuote.author} title={[profitQuote.title, profitQuote.company].filter(Boolean).join(', ')} />
+    </section>
+
+    <section class="finance-section" aria-labelledby="delivery-title">
+      <p class="section-label">How we work</p>
+      <h2 id="delivery-title">We do all the work. We are not a temp agency.</h2>
+      <p>Some virtual assistant companies place an assistant and leave the managing to you. We own the service delivery. We recruit, train, supervise, and replace team members if needed, and we manage the team, so you do not have to.</p>
+      <Quote quote={managedQuote.quote} author={managedQuote.author} title={[managedQuote.title, managedQuote.company].filter(Boolean).join(', ')} />
+    </section>
+
+    <section class="finance-section" aria-labelledby="more-title">
+      <h2 id="more-title">Other services, with automation</h2>
+      <p>We run <a href="/solutions/">other services</a> too, and we use automation where it fits. For example, AI handles after-hours calls, overflow during peak times, and routine information requests, with people ready to step in.</p>
+      <p class="scope-line">We do not do tax work at this time.</p>
+    </section>
+
+    <ProcessSteps eyebrow="How to start" title="From a first call to a decision" steps={steps} />
+
+    <FAQ eyebrow="Owner questions" title="Questions owners ask about practice finances" items={faqs} />
+
+    <section class="cta-wrap">
+      <CTA
+        title="Start With a Discovery Call"
+        description="We talk through your schedule, staffing, and costs with you, so you can see your own numbers."
+        buttonText="Book a Discovery Call"
+        buttonHref={bookingHref}
+      />
+    </section>
+  </div>
+</PageLayout>
+
+<style>
+  .finance-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .hero-action {
+    text-align: center;
+    margin: 0 0 24px;
+  }
+
+  .start-link {
+    display: inline-block;
+    padding: 14px 28px;
+    background: var(--oceanic-teal);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+
+  .start-link:hover {
+    background: var(--navy-900);
+  }
+
+  .audience-line {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: 48px;
+  }
+
+  .finance-section {
+    margin-bottom: 56px;
+  }
+
+  .section-label {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 8px;
+  }
+
+  .finance-section h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 16px;
+  }
+
+  .finance-section p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+  }
+
+  .finance-section a {
+    color: var(--oceanic-teal);
+    font-weight: 500;
+  }
+
+  .scope-line {
+    font-weight: 600;
+    color: var(--navy-900);
+  }
+
+  .cta-wrap {
+    margin-top: 40px;
+  }
+</style>
