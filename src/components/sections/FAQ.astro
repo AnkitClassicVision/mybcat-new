@@ -11,13 +11,16 @@ interface Props {
   title?: string;
   eyebrow?: string;
   includeSchema?: boolean;
+  /** Send the PostHog faq_item_expanded event. Pages with tracking turned off pass false. */
+  track?: boolean;
 }
 
 const {
   items,
   title = 'Frequently Asked Questions',
   eyebrow = 'Questions?',
-  includeSchema = true
+  includeSchema = true,
+  track = true
 } = Astro.props;
 
 // Generate FAQ schema
@@ -33,7 +36,7 @@ const faqSchema = includeSchema ? generateFAQSchema(
   <script type="application/ld+json" set:html={serializeSchema(faqSchema)} />
 )}
 
-<section class="faq-section-wrapper">
+<section class="faq-section-wrapper" data-faq-track={track ? undefined : 'off'}>
   <div class="section-intro">
     <div class="section-intro-eyebrow">{eyebrow}</div>
     <h2 class="section-intro-title">{title}</h2>
@@ -127,10 +130,12 @@ const faqSchema = includeSchema ? generateFAQSchema(
   }
 </style>
 
+{track && (
 <script is:inline>
-  // PostHog: track FAQ item expansions
+  // PostHog: track FAQ item expansions (skips FAQ sections rendered with track={false})
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.faq-item').forEach(function (el) {
+      if (el.closest('[data-faq-track="off"]')) return;
       el.addEventListener('toggle', function () {
         if (el.open) {
           const question = el.querySelector('summary') ? el.querySelector('summary').textContent.trim() : '';
@@ -145,3 +150,4 @@ const faqSchema = includeSchema ? generateFAQSchema(
     });
   });
 </script>
+)}

@@ -431,6 +431,6 @@ If you are thinking about selling, [start with a confidential conversation](/opt
 
 ## Sources
 
-- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)
+- [American Optometric Association: Practice Management](https://www.aoa.org/news/practice-management)
 - [Review of Optometric Business: Practice Growth](https://reviewob.com/)
 - [MGMA: Medical Practice Operations](https://www.mgma.com/)
