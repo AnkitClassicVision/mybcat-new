@@ -123,4 +123,4 @@ The right outcome is not a claim that outsourcing automatically improves every m
 1. [American Optometric Association: Patient Communication](https://aoa.org/aoa-plus/entering-the-profession/day-to-day-practice-operations/patient-communication)
 2. [Health IT Playbook: Patient Engagement, Chapter 2](https://playbook.healthit.gov/playbook/pe/chapter-2)
 
-*Managing patient access across 3+ optometry locations? [Request an Enterprise Assessment for your group.](/contact/)*
+*Managing patient access for an optometry practice of any size? [Book a short MyBCAT discovery call.](/contact/)*

@@ -2,7 +2,7 @@
 title: "Virtual Team Solutions for Overwhelmed Optometry Practices"
 seoTitle: "Virtual Team Solutions for Optometry Practice Groups"
 description: "Overwhelmed and understaffed? Virtual assistants handle scheduling, calls, and admin tasks so your optometry team can focus on patient care."
-seoDescription: "Learn how multi-location optometry groups use virtual teams to standardize scheduling, calls, recall, and back-office work across 3+ locations."
+seoDescription: "Learn how multi-location optometry groups use virtual teams to standardize scheduling, calls, recall, and back-office work for a practice of any size."
 publishDate: 2025-06-20
 status: published
 author: Ankit Patel
@@ -28,7 +28,7 @@ That distinction is central to a [virtual medical assistant program](/solutions/
 ## Table of Contents
 
 - [Why do optometry groups become overwhelmed even when every location has staff?](#why-do-optometry-groups-become-overwhelmed-even-when-every-location-has-staff)
-- [What work should a virtual team handle across 3+ locations?](#what-work-should-a-virtual-team-handle-across-3-locations)
+- [What work should a virtual team handle across multiple locations?](#what-work-should-a-virtual-team-handle-across-multiple-locations)
 - [How can leaders tell whether virtual support is needed now?](#how-can-leaders-tell-whether-virtual-support-is-needed-now)
 - [How should a virtual team fit with on-site staff?](#how-should-a-virtual-team-fit-with-on-site-staff)
 - [What does a safe rollout look like for a multi-location group?](#what-does-a-safe-rollout-look-like-for-a-multi-location-group)
@@ -46,7 +46,7 @@ Virtual team support is useful when it turns those scattered tasks into a define
 
 The operational case is stronger when leaders first assess the whole intake path. Our [multi-location healthcare intake guide](/blog/multi-location-healthcare-intake-guide/) explains how routing, ownership, and handoffs affect patient access across sites. The question is not whether remote support can answer a phone. It is whether every routine request reaches the right owner quickly and leaves a visible record.
 
-## What work should a virtual team handle across 3+ locations?
+## What work should a virtual team handle across multiple locations?
 
 The strongest virtual-team deployments begin with work that is repeatable, administrative, and governed by clear rules. That includes inbound call answering, appointment requests, confirmations, routine reschedules, waitlist outreach, referral follow-up, insurance eligibility preparation, recall outreach, and basic questions about hours, locations, and services.
 

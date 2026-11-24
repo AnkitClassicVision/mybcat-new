@@ -122,4 +122,4 @@ Outsourcing can give a multi-location optometry group a more consistent access l
 2. [ONC Patient Engagement Playbook, Chapter 2](https://playbook.healthit.gov/playbook/pe/chapter-2)
 3. [MGMA: Tips to Improve Healthcare Call Center Efficiency](https://www.mgma.com/articles/tips-to-improve-healthcare-call-center-efficiency)
 
-*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
+*Managing patient access for an optometry practice of any size? [Book a short MyBCAT discovery call.](/contact/)*

@@ -2,7 +2,7 @@
 title: How to Choose an Optometry Practice Broker for
 seoTitle: How to Choose an Optometry Practice Broker | Multi-Location
 description: Enterprise guide for COOs and VPs of Operations on selecting an optometry
-  practice broker for 3+ location groups. Due diligence framework, fee structures,
+  practice broker for any practice size. Due diligence framework, fee structures,
   and
 seoDescription: How to choose an optometry practice broker for multi-location groups.
   Enterprise due diligence framework for DSOs and PE-backed portfolios.
@@ -24,7 +24,7 @@ relatedPosts:
 - optometry-practice-financing-loan-options
 ---
 
-Optometry practice broker selection determines whether your multi-location portfolio captures full market value or leaves significant proceeds on the table. For a PE-backed portfolio managing 15 locations with $30M in combined revenue, the difference between adequate and excellent representation can exceed $3.6M in a single transaction. This guide provides the enterprise framework for evaluating optometry practice brokers, specifically designed for COOs, VPs of Operations, and acquisition teams managing 3+ location portfolios.
+Optometry practice broker selection determines whether your multi-location portfolio captures full market value or leaves significant proceeds on the table. For a PE-backed portfolio managing 15 locations with $30M in combined revenue, the difference between adequate and excellent representation can exceed $3.6M in a single transaction. This guide provides the enterprise framework for evaluating optometry practice brokers, specifically designed for COOs, VPs of Operations, and acquisition teams managing multi-location portfolios.
 
 ## What You'll Learn
 
@@ -416,8 +416,8 @@ The difference between adequate and excellent broker selection compounds across 
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Managing M&A Due Diligence Across 3+ Locations?</h3>
+  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Managing M&A Due Diligence for an Optometry Practice of Any Size?</h3>
   <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how enterprise optometry groups use centralized intake operations to command premium valuations and accelerate due diligence timelines.</p>
-  <a href="/contact/" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Request Enterprise Assessment →</a>
+  <a href="/contact/" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Book a Short Discovery Call →</a>
 </div>
 <!-- End MyBCAT CTA Section -->

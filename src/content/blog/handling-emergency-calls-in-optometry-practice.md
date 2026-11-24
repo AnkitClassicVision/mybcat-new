@@ -32,7 +32,7 @@ The operating model should protect both patient access and clinical boundaries. 
 - [What Should the First Person on the Call Do?](#what-should-the-first-person-on-the-call-do)
 - [How Should a Group Route Urgent Calls After Hours?](#how-should-a-group-route-urgent-calls-after-hours)
 - [What Information Must Be Documented During an Escalation?](#what-information-must-be-documented-during-an-escalation)
-- [How Can Leaders Keep Emergency Coverage Consistent Across 3+ Locations?](#how-can-leaders-keep-emergency-coverage-consistent-across-3-locations)
+- [How Can Leaders Keep Emergency Coverage Consistent Across Multiple Locations?](#how-can-leaders-keep-emergency-coverage-consistent-across-multiple-locations)
 - [Which Metrics Show Whether the Protocol Is Working?](#which-metrics-show-whether-the-protocol-is-working)
 - [How Should an Optometry Group Test Its Emergency-Call Protocol?](#how-should-an-optometry-group-test-its-emergency-call-protocol)
 - [What Should Be in the Group's Final Emergency-Call Playbook?](#what-should-be-in-the-groups-final-emergency-call-playbook)
@@ -83,7 +83,7 @@ At a minimum, the record usually identifies the receiving location or team, the 
 
 Documentation is also how the organization distinguishes a completed handoff from a transfer. If one team says it sent an item and another says it never received it, the record should show the route, time, and owner. That gives a manager a concrete process issue to correct rather than a vague concern about responsiveness. For related controls, see MyBCAT's [medical answering service approach](/solutions/medical-answering-service/).
 
-## How Can Leaders Keep Emergency Coverage Consistent Across 3+ Locations?
+## How Can Leaders Keep Emergency Coverage Consistent Across Multiple Locations?
 
 Consistency comes from shared ownership and regular maintenance. The group needs one current escalation directory, a common script for the first interaction, defined service hours, and a named leader responsible for approving changes. Site leaders still supply local information, such as provider-specific instructions or office closures, but they should use a controlled update process rather than informally telling individual staff members.
 

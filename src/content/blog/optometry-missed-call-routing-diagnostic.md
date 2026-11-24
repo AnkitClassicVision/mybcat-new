@@ -34,7 +34,7 @@ relatedPosts: []
 - [Why Do Missed Calls Multiply Across Multi-Location Optometry Groups?](#why-do-missed-calls-multiply-across-multi-location-optometry-groups)
 - [What Does Missed Call Routing Actually Mean for an Optometry Group?](#what-does-missed-call-routing-actually-mean-for-an-optometry-group)
 - [Which Metrics Tell You Whether Routing Is Working?](#which-metrics-tell-you-whether-routing-is-working)
-- [How Should a 3+ Location Group Design Its Routing Standard?](#how-should-a-3-location-group-design-its-routing-standard)
+- [How Should a Multi-Location Group Design Its Routing Standard?](#how-should-a-multi-location-group-design-its-routing-standard)
 - [How Does Scheduling Capacity Shape Missed Call Recovery?](#how-does-scheduling-capacity-shape-missed-call-recovery)
 - [How Do Voicemail and Callback Workflows Handle Patient Privacy?](#how-do-voicemail-and-callback-workflows-handle-patient-privacy)
 - [What Should a Multi-Location Group Do Next?](#what-should-a-multi-location-group-do-next)
@@ -44,7 +44,7 @@ A missed-call review can be one part of an optometry group's patient-access oper
 
 Multi-location optometry missed-call routing is the set of configurable phone paths that direct a call when it is not answered at the initial destination. The details of those paths are local to each practice and phone system.
 
-This guide offers a draft-only diagnostic for operators of 3+ location groups. It uses government operations guidance to frame questions about routing, measurement, appointment access, and communication practices as part of a broader [patient-access operations](/enterprise/patient-access-center/) review.
+This guide offers a draft-only diagnostic for operators of multi-location groups. It uses government operations guidance to frame questions about routing, measurement, appointment access, and communication practices as part of a broader [patient-access operations](/enterprise/patient-access-center/) review.
 
 ## Why Do Missed Calls Multiply Across Multi-Location Optometry Groups?
 
@@ -128,7 +128,7 @@ Before comparing locations, a group can establish and document local definitions
 
 GAO also found that standardized contact-center services need shared implementation schedules, defined performance metrics and targets, clear assessment roles, and technology data such as call-queue information ([GAO](https://www.gao.gov/products/gao-22-104620)). Those elements can inform, but do not prescribe, a local routing-review process.
 
-## How Should a 3+ Location Group Design Its Routing Standard?
+## How Should a Multi-Location Group Design Its Routing Standard?
 
 An optional routing standard is a local document that describes what the practice intends to happen to inbound calls in stated conditions. A practice can choose its own level of detail, locations, and ownership model.
 

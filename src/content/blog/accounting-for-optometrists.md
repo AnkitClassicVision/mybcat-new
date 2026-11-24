@@ -205,4 +205,4 @@ The accounting lens keeps the conversation grounded. Leaders can ask whether the
 7. [Optometric Management: Software for Financial Health](https://www.optometricmanagement.com/issues/2019/november/software-for-financial-health)
 8. [Review of Optometric Business: Chart of Accounts](https://reviewob.com/chart-of-accounts-how-to-create-this-chart-to-better-measure-and-improve-your-profitability)
 
-*Managing accounting for optometrists across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
+*Managing accounting for an optometry practice of any size? [Book a short MyBCAT discovery call.](/contact/)*

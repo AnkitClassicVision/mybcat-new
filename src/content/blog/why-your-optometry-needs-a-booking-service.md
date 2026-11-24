@@ -35,7 +35,7 @@ For a broader view of the operating model behind this work, see MyBCAT's [optome
 - [What Should Executives Measure Beyond Answer Rate?](#what-should-executives-measure-beyond-answer-rate)
 - [When Should a Group Use a Centralized Team, a Virtual Team, or Both?](#when-should-a-group-use-a-centralized-team-a-virtual-team-or-both)
 - [How Can Leaders Protect Patient Experience While Centralizing Booking?](#how-can-leaders-protect-patient-experience-while-centralizing-booking)
-- [What Is the Right Way to Launch a Booking Service Across 3+ Locations?](#what-is-the-right-way-to-launch-a-booking-service-across-3-locations)
+- [What Is the Right Way to Launch a Booking Service Across Multiple Locations?](#what-is-the-right-way-to-launch-a-booking-service-across-multiple-locations)
 
 ## What Does a Booking Service Actually Need to Do for a Multi-Location Optometry Group?
 
@@ -105,7 +105,7 @@ That requires continuity. If a call is transferred or returned, the next team me
 
 Patient experience also depends on knowing when to escalate. Booking staff should not provide medical advice, diagnose a condition, or improvise on clinical urgency. They should use the group-approved escalation process for requests that fall outside routine scheduling. Clear boundaries protect patients, staff, and the organization while keeping the booking service focused on what it is designed to do.
 
-## What Is the Right Way to Launch a Booking Service Across 3+ Locations?
+## What Is the Right Way to Launch a Booking Service Across Multiple Locations?
 
 Begin with a baseline, not a broad technology rollout. Follow a few common journeys from first inquiry to final outcome: a new patient requesting an appointment, an existing patient who needs to reschedule, an after-hours request, and a request that cannot be booked through a standard path. This exposes where calls are abandoned, where local knowledge is trapped, and where handoffs fail.
 

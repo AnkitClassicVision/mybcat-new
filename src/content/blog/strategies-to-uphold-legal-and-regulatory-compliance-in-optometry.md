@@ -130,12 +130,12 @@ Legal and compliance leaders interpret requirements and govern the program. Oper
 
 The goal is not perfect paperwork. It is a system where the group can explain how patient information moves, who is allowed to act, how exceptions are handled, and how leaders know the controls are working. Clear workflows, disciplined access, role-based training, vendor oversight, and recurring review make that system more durable as locations and patient-access operations expand.
 
-MyBCAT supports multi-location healthcare groups with managed patient access, scheduling, recall, virtual assistants, and back-office support. If your group is standardizing patient-access workflows across three or more locations, we can help you assess where operating controls need to be made explicit.
+MyBCAT supports optometry practices of any size with managed patient access, scheduling, recall, virtual assistants, and back-office support. If you are standardizing patient-access workflows, at one location or many, we can help you assess where operating controls need to be made explicit.
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Standardizing Patient Access Across 3+ Locations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Talk with MyBCAT about a managed patient-access operating model built for multi-location healthcare groups.</p>
+  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Standardizing Patient Access for an Optometry Practice of Any Size?</h3>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Book a short MyBCAT discovery call to talk about a managed patient-access operating model for your practice.</p>
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->

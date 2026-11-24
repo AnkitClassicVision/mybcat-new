@@ -4,7 +4,7 @@ seoTitle: Accounting for Multi-Location Optometry Groups
 description: Learn how multi-location optometry groups centralize accounting operations
   to reduce revenue leakage, standardize reporting, and improve EBITDA margins across
 seoDescription: 'Multi-location optometry accounting guide: centralize finances, reduce
-  revenue leakage, and standardize reporting across 3+ locations.'
+  revenue leakage, and standardize reporting for an optometry practice of any size.'
 publishDate: '2026-04-14T00:00:00.000Z'
 status: published
 author: Ankit Patel
@@ -262,8 +262,8 @@ The financial management systems you build today determine the optometry group y
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Managing Financial Operations Across 3+ Optometry Locations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Request an enterprise assessment to identify revenue leakage points and operational improvement opportunities across your network.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Request Enterprise Assessment →</button>
+  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Managing Financial Operations for an Optometry Practice of Any Size?</h3>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Book a short MyBCAT discovery call to identify revenue leakage points and operational improvement opportunities in your practice.</p>
+  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Book a Short Discovery Call →</button>
 </div>
 <!-- End MyBCAT CTA Section -->

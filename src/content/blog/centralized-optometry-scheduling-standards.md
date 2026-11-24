@@ -38,7 +38,7 @@ relatedPosts:
 - [Which Metrics Should a Centralized Scheduling Team Actually Watch?](#which-metrics-should-a-centralized-scheduling-team-actually-watch)
 - [How Does Centralized Scheduling Connect to Your EHR and PMS Data?](#how-does-centralized-scheduling-connect-to-your-ehr-and-pms-data)
 - [How Should a Multi-Location Group Roll Out Centralized Scheduling?](#how-should-a-multi-location-group-roll-out-centralized-scheduling)
-- [What Should a 3+ Location Optometry Group Do Next?](#what-should-a-3-location-optometry-group-do-next)
+- [What Should a Multi-Location Optometry Group Do Next?](#what-should-a-multi-location-optometry-group-do-next)
 
 
 Scheduling practices can differ across locations when a group has not adopted shared definitions, routing rules, and reporting.
@@ -181,7 +181,7 @@ Document written appointment definitions, routing rules, and escalation paths be
 
 The [GAO's findings on standardized contact-center services](https://www.gao.gov/products/gao-22-104620) support using shared implementation schedules, defined metrics and targets, and clear assessment roles. A group can use those elements to structure its own rollout and review cadence.
 
-## What Should a 3+ Location Optometry Group Do Next?
+## What Should a Multi-Location Optometry Group Do Next?
 
 If your group is feeling the symptoms described here, the next step is not a software demo. It is an honest internal accounting of how scheduling actually works today, followed by a decision about whether to build the central capability in-house or operate it with a partner.
 
@@ -196,9 +196,9 @@ Before any structural change, get the leadership team aligned on a few concrete 
 
 The answers can help leadership identify which scheduling questions require additional measurement or written standards before a change.
 
-### When to request a service fit review
+### When to book a discovery call
 
-If you operate an optometry group with 3+ locations and want a grounded, specifics-first conversation about whether a centralized patient-access model fits your operation, you can [request a service fit review](/contact/).
+If you run an optometry practice of any size and want a grounded, specifics-first conversation about whether a centralized patient-access model fits your operation, you can [book a short MyBCAT discovery call](/contact/).
 
 ## Related Reading
 

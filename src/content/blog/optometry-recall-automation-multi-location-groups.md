@@ -3,7 +3,7 @@ title: Optometry Recall Automation for Multi-Location Groups
 seoTitle: Optometry Recall Automation for Multi-Location Groups
 description: Enterprise playbook for optometry recall automation multi-location groups.
   Standardize workflows, centralize reporting, and protect EBITDA.
-seoDescription: How optometry groups with 3+ locations standardize recall automation,
+seoDescription: How optometry practices of any size, from one office to many, standardize recall automation,
   centralize follow-up, and improve reporting discipline.
 publishDate: '2026-07-02T11:33:43.767Z'
 status: published
@@ -29,12 +29,12 @@ relatedPosts:
 - [What Should Enterprise Optometry Groups Automate First?](#what-should-enterprise-optometry-groups-automate-first)
 - [How Should Operating Responsibility Be Split Between Central and Local Teams?](#how-should-operating-responsibility-be-split-between-central-and-local-teams)
 - [What Technology and Data Foundation Does a Buying Committee Need?](#what-technology-and-data-foundation-does-a-buying-committee-need)
-- [How Should a 3+ Location Rollout Be Governed and Measured?](#how-should-a-3-location-rollout-be-governed-and-measured)
+- [How Should a Multi-Location Rollout Be Governed and Measured?](#how-should-a-multi-location-rollout-be-governed-and-measured)
 
 
 Optometry recall automation becomes a different operating problem once a group moves beyond a single site. A local office can survive on memory, ad hoc lists, and front-desk heroics for longer than it should.
 
-A regional platform usually cannot. Once a portfolio reaches 3+ locations, recall usually stops looking like a simple reminder task and starts to behave like an enterprise workflow that needs standardization, centralization, and auditability.
+A regional platform usually cannot. Once a portfolio spans multiple locations, recall usually stops looking like a simple reminder task and starts to behave like an enterprise workflow that needs standardization, centralization, and auditability.
 
 For COOs, VPs of Operations, and buying committees, the goal is not simply to send more outreach. The goal is to build a repeatable system that identifies due patients, routes the next action correctly, and gives leadership consistent visibility into performance by location.
 
@@ -142,7 +142,7 @@ For multi-location optometry groups, the operational implication is straightforw
 
 Buying committees should still ask their compliance and security teams to review permissions, access design, audit trails, and vendor controls. But from an operations standpoint, cross-location data continuity is a practical foundation for centralized recall.
 
-## How Should a 3+ Location Rollout Be Governed and Measured?
+## How Should a Multi-Location Rollout Be Governed and Measured?
 
 A prudent rollout treats recall automation as an operating-system change, not a marketing campaign. The organization should start with a defined cohort, a documented booking path, and a small set of enterprise metrics that leadership trusts. That creates a cleaner pilot and makes later expansion easier to govern.
 
@@ -179,4 +179,4 @@ It is about fewer open slots, less front-desk rework, clearer labor planning, an
 5. [Improve Care Coordination using Electronic Health Records | Providers & Professionals](https://www.healthit.gov/providers-professionals/improved-care-coordination)
 6. [Health IT & Health Information Exchange Basics - ONC - Office of the National Coordinator for Health Information Technology](https://healthit.gov/health-it-basics)
 
-*Managing optometry recall automation across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
+*Managing optometry recall automation for a practice of any size? [Book a short MyBCAT discovery call.](/contact/)*
