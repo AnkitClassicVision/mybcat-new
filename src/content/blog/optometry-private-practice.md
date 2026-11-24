@@ -259,6 +259,6 @@ Start with the fundamentals: choose your location carefully, equip efficiently, 
 
 ## Sources
 
-- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)
+- [American Optometric Association: Practice Management](https://www.aoa.org/news/practice-management)
 - [Review of Optometric Business: Practice Growth](https://reviewob.com/)
 - [MGMA: Medical Practice Operations](https://www.mgma.com/)

@@ -336,4 +336,4 @@ Financial planning is one component of launching a successful practice. For guid
 
 - [SBA - Manage Your Finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
 - [Review of Optometric Business](https://reviewob.com/3-metrics-that-reveal-the-true-financial-health-of-your-practice/)
-- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)
+- [American Optometric Association: Practice Management](https://www.aoa.org/news/practice-management)
