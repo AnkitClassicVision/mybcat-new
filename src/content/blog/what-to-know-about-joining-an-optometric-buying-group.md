@@ -1,8 +1,8 @@
 ---
 title: What to Know About Joining an Optometric Buying Group
-seoTitle: 'Joining an Optometric Buying Group: What to Evaluate'
+seoTitle: 'Optometry Buying Groups: What to Check Before You Join'
 description: 'Optometric buying groups unlock volume discounts and growth support for independent practices. Compare alliance types and find the right fit for you.'
-seoDescription: 'Learn how multi-location optometry groups should evaluate buying-group contracts, vendor access, governance, and operational fit before joining.'
+seoDescription: 'How optometry buying groups differ from alliances and management services organizations, plus contract terms to check and a scorecard to compare programs.'
 publishDate: 2023-11-01
 modifiedDate: '2026-07-16'
 status: published

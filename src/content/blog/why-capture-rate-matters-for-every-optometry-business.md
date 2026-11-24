@@ -1,8 +1,8 @@
 ---
 title: "Why Capture Rate Matters for Every Optometry Business"
-seoTitle: "Improve Optometry Capture Rate Across Multiple Locations"
+seoTitle: "Average Optical Capture Rate: Benchmark and How to Measure"
 description: "Most optometry practices capture only 50-55% of eyewear sales. Learn proven strategies to boost your optical capture rate, revenue, and patient loyalty."
-seoDescription: "Learn how multi-location optometry groups can measure and improve optical capture rate through stronger handoffs, access workflows, and reporting."
+seoDescription: "See the 50 to 55 percent optical capture benchmark often cited, how to calculate your own rate, and the handoff and follow-up steps that lift it."
 publishDate: 2023-10-02
 modifiedDate: '2026-03-18'
 status: published
