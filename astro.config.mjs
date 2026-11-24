@@ -260,8 +260,9 @@ export default defineConfig({
         if (page.includes('/api/')) return false;
         // Exclude conference landing pages (non-indexable / not in sitemap)
         if (page.includes('/idoc-connections-2026/')) return false;
-        // Exclude draft Practice Growth offer until pricing and copy are live
-        if (new URL(page).pathname === '/practice-growth/') return false;
+        // Exclude the draft Practice Growth offer and its onboard form until pricing and copy
+        // are live. Both pages are noindex, so neither belongs in the sitemap.
+        if (new URL(page).pathname.startsWith('/practice-growth/')) return false;
         // Exclude private podcast guest share pages (noindex, preview-only)
         if (page.includes('/resources/podcast/share/')) return false;
         // Exclude drafts

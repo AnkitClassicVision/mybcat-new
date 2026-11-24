@@ -1,25 +1,46 @@
-# mybcat.com — My Business Care Team (MyBCAT)
+# MyBCAT (My Business Care Team)
 
-## What this site is
-My Business Care Team (MyBCAT) provides managed patient access and front desk operations for healthcare practices and multi-location groups.
+> MyBCAT runs remote answering, scheduling, recall and front desk support for optometry practices of any size, from one location to groups. Coordinators answer calls under the practice's name and book appointments in the practice's own scheduling system.
+
+## Who we serve
+- Optometry and ophthalmology practices of any size, from 1 location to 50+: https://mybcat.com/industries/optometry/
+- Pages for other specialties (dental, veterinary, dermatology, MedSpa, urgent care, ENT): https://mybcat.com/industries/
+
+## Services
+- Medical answering service: live coordinators answer patient calls 24/7 and book appointments in the practice's EHR or PM system: https://mybcat.com/solutions/medical-answering-service/
+- Optometry virtual assistant: a dedicated assistant for scheduling, insurance verification, patient recall and EHR work: https://mybcat.com/solutions/optometry-virtual-assistant/
+- Front desk outsourcing: remote staff handle overflow calls, scheduling and administrative tasks during business hours: https://mybcat.com/solutions/front-desk-outsourcing/
+- Patient recall: phone, text and email campaigns that bring overdue patients back for care: https://mybcat.com/solutions/patient-recall/
+- No-show recovery: same-day calls to reschedule patients who miss appointments: https://mybcat.com/solutions/no-show-recovery/
+- Virtual medical assistant: insurance verification, referral coordination and prior authorization processing: https://mybcat.com/solutions/medical-virtual-assistant/
+- Virtual medical scribe: remote documentation support for clinical encounters: https://mybcat.com/solutions/virtual-medical-scribe/
+- EHR and PM system integrations: https://mybcat.com/solutions/integrations/
+
+## Pricing
+- Plans start at $10/hr: https://mybcat.com/pricing/
+
+## Book a call or contact us
+- Book a discovery call: https://mybcat.com/book/discovery
+- Contact form: https://mybcat.com/contact/
+- How onboarding works: https://mybcat.com/how-it-works/
+
+## Selling an optometry practice
+- Owners thinking about selling an optometry practice in the Southeast can start with a confidential conversation about fit and timing: https://mybcat.com/optometry-practice-transitions/
+
+## Proof and trust
+- Case studies: https://mybcat.com/case-studies/
+- HIPAA compliance: https://mybcat.com/hipaa-compliance/
+
+## Reference
+- Public truth layer: https://mybcat.com/truth-layer/
+- AI profile: https://mybcat.com/ai-profile/
+- FAQ: https://mybcat.com/faq/
+- Glossary: https://mybcat.com/glossary/
+- Blog: https://mybcat.com/blog/
 
 ## Canonical URL rules
 - Primary domain: https://mybcat.com
 - Trailing slashes are canonical (e.g., /about/ not /about)
-
-## Start here
-- Public truth layer: https://mybcat.com/truth-layer/
-- AI profile: https://mybcat.com/ai-profile/
-- Enterprise: https://mybcat.com/enterprise/
-- Solutions: https://mybcat.com/solutions/
-- Industries: https://mybcat.com/industries/
-- How it works: https://mybcat.com/how-it-works/
-- Pricing: https://mybcat.com/pricing/
-- Case studies: https://mybcat.com/case-studies/
-- Glossary: https://mybcat.com/glossary/
-- FAQ: https://mybcat.com/faq/
-- Contact: https://mybcat.com/contact/
-- Trust & compliance: https://mybcat.com/hipaa-compliance/
 
 ## Machine-readable catalog
 - OpenAPI: https://mybcat.com/.well-known/openapi.json
@@ -29,4 +50,3 @@ My Business Care Team (MyBCAT) provides managed patient access and front desk op
 - Comparisons JSON: https://mybcat.com/api/public/comparisons.json
 - Case studies JSON: https://mybcat.com/api/public/case-studies.json
 - Glossary JSON: https://mybcat.com/api/public/glossary.json
-
