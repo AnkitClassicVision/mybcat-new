@@ -3304,6 +3304,90 @@
         "approved_at": "2026-11-24T01:35:38.832Z"
       },
       "review_basis": "Automatic checks only (optometry scope, source count). No human review."
+    },
+    {
+      "id": "ai-receptionist-for-optometry-practice",
+      "slot": 42,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "ai-projects",
+      "topic": "AI Receptionists for Optometry Practices: What to Expect",
+      "keyword": "AI receptionist for optometry practice",
+      "suggested_title": "AI Receptionists for Optometry Practices: What to Expect",
+      "slug": "ai-receptionist-for-optometry-practice",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-24T23:39:22.259Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication",
+          "accessed_at": "2026-11-24",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI receptionist for optometry practice"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/aoaexcel/aoaexcel-resource-updates/aoaexcel-news/aoaexcel-endorses-its-first-ever-ehr-barti-ehr",
+          "accessed_at": "2026-11-24",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI receptionist for optometry practice"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/AOA/Documents/Education/Paraoptometric/Certification/Expanded%20CPOT%20Outline%202023%20Final.pdf",
+          "accessed_at": "2026-11-24",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI receptionist for optometry practice"
+        },
+        {
+          "title": "www.hhs.gov",
+          "publisher": "www.hhs.gov",
+          "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html",
+          "accessed_at": "2026-11-24",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI receptionist for optometry practice"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/the-wrong-patient-communication-plan-could-be-costly",
+          "accessed_at": "2026-11-24",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI receptionist for optometry practice"
+        }
+      ],
+      "evidence_packet": "scheduled-post:ai-receptionist-for-optometry-practice",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-24T23:39:22.259Z"
+      }
     }
   ]
 }
