@@ -3,7 +3,7 @@ title: 'Optometry Answering Service ROI: Measuring Returns Across'
 seoTitle: Optometry Answering Service ROI for Multi-Location Groups
 description: Multi-location optometry groups achieve measurable ROI from answering
   services through standardized call handling, reduced missed appointments, and
-seoDescription: Calculate optometry answering service ROI across 3+ locations. Enterprise
+seoDescription: Calculate optometry answering service ROI for a practice of any size. Enterprise
   metrics, staffing cost analysis, and multi-site performance benchmarks.
 publishDate: '2026-04-21T00:00:00.000Z'
 status: published

@@ -2,7 +2,7 @@
 title: 'Optometry Front Desk Outsourcing vs Virtual Assistant:'
 seoTitle: 'Optometry Outsourcing vs Virtual Assistant: Enterprise Guide'
 description: 'Multi-location optometry groups face a critical choice: front desk outsourcing
-  or virtual assistants? Compare costs, scalability, and ROI for 3+ location'
+  or virtual assistants? Compare costs, scalability, and ROI for any practice'
 seoDescription: 'Multi-location optometry groups: Compare front desk outsourcing vs
   virtual assistants for cost, scale, and ROI across your network.'
 publishDate: '2026-04-20T00:00:00.000Z'

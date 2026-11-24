@@ -6,7 +6,7 @@ description: >-
   portfolios. Covers EBITDA methodology, operational metrics, and PE buyer
 seoDescription: >-
   Multi-location optometry appraisal guide: EBITDA multiples, operational
-  metrics, and PE buyer expectations for 3+ location groups.
+  metrics, and PE buyer expectations for optometry practices of any size.
 publishDate: '2026-04-29T00:00:00.000Z'
 status: published
 author: Ankit Patel

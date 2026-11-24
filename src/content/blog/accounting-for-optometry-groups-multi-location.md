@@ -4,7 +4,7 @@ seoTitle: Accounting for Multi-Location Optometry Groups
 description: Learn how multi-location optometry groups centralize accounting operations
   to reduce revenue leakage, standardize reporting, and improve EBITDA margins across
 seoDescription: 'Multi-location optometry accounting guide: centralize finances, reduce
-  revenue leakage, and standardize reporting across 3+ locations.'
+  revenue leakage, and standardize reporting for an optometry practice of any size.'
 publishDate: '2026-04-14T00:00:00.000Z'
 status: published
 author: Ankit Patel

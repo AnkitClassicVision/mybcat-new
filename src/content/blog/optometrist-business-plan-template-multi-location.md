@@ -2,12 +2,11 @@
 title: Optometrist Business Plan Template for Multi-Location Groups
 seoTitle: Optometrist Business Plan Template Multi-Location
 description: >-
-  Enterprise business plan framework for optometry groups managing 3+ locations.
+  Enterprise business plan framework for optometry practices of any size.
   Covers financial modeling, operational standardization, and PE-ready
 seoDescription: >-
   Enterprise optometry business plan template for multi-location groups.
-  Financial projections, KPIs, and operational frameworks for 3+ location
-  networks.
+  Financial projections, KPIs, and operational frameworks for practices of any size.
 publishDate: '2026-04-27T00:00:00.000Z'
 status: published
 author: Ankit Patel

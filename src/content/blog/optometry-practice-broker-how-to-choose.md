@@ -2,7 +2,7 @@
 title: How to Choose an Optometry Practice Broker for
 seoTitle: How to Choose an Optometry Practice Broker | Multi-Location
 description: Enterprise guide for COOs and VPs of Operations on selecting an optometry
-  practice broker for 3+ location groups. Due diligence framework, fee structures,
+  practice broker for any practice size. Due diligence framework, fee structures,
   and
 seoDescription: How to choose an optometry practice broker for multi-location groups.
   Enterprise due diligence framework for DSOs and PE-backed portfolios.

@@ -3,7 +3,7 @@ title: Optometry Recall Automation for Multi-Location Groups
 seoTitle: Optometry Recall Automation for Multi-Location Groups
 description: Enterprise playbook for optometry recall automation multi-location groups.
   Standardize workflows, centralize reporting, and protect EBITDA.
-seoDescription: How optometry groups with 3+ locations standardize recall automation,
+seoDescription: How optometry practices of any size, from one office to many, standardize recall automation,
   centralize follow-up, and improve reporting discipline.
 publishDate: '2026-07-02T11:33:43.767Z'
 status: published

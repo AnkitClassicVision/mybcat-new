@@ -2,7 +2,7 @@
 title: "Improve Patient Call Support in Your Optometry Practice"
 seoTitle: "Optometry Call Support for Multi-Location Practices"
 description: "Strengthen patient loyalty with better call support. Get actionable tips on structured interactions, emotional intelligence, and tone for optometry teams."
-seoDescription: "Improve optometry call support across 3+ locations with standardized scheduling, patient communication, QA, and escalation workflows that scale."
+seoDescription: "Improve optometry call support in a practice of any size with standardized scheduling, patient communication, QA, and escalation workflows that scale."
 publishDate: 2023-10-20
 status: published
 author: Ankit Patel

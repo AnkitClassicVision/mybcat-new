@@ -2,7 +2,7 @@
 title: "Virtual Team Solutions for Overwhelmed Optometry Practices"
 seoTitle: "Virtual Team Solutions for Optometry Practice Groups"
 description: "Overwhelmed and understaffed? Virtual assistants handle scheduling, calls, and admin tasks so your optometry team can focus on patient care."
-seoDescription: "Learn how multi-location optometry groups use virtual teams to standardize scheduling, calls, recall, and back-office work across 3+ locations."
+seoDescription: "Learn how multi-location optometry groups use virtual teams to standardize scheduling, calls, recall, and back-office work for a practice of any size."
 publishDate: 2025-06-20
 status: published
 author: Ankit Patel
