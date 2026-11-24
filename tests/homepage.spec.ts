@@ -36,7 +36,7 @@ test.describe('Homepage', () => {
   test('hero headline and Get Started CTA stay on the contact form', async ({ page }) => {
     await page.goto('/');
     await expect(page.locator('#hero h1.hero-title')).toHaveText(
-      'Centralized Patient Access for Multi-Location Healthcare Groups'
+      'Answering, Scheduling, and Recall for Optometry Practices of Any Size'
     );
     const heroCta = page.locator('#hero .hero-cta-group a').first();
     await expect(heroCta).toHaveText('Get Started');

@@ -15,7 +15,18 @@ relatedPosts:
   - front-desk-outsourcing-multi-location-practices
   - healthcare-call-center-outsourcing-multi-location
   - human-ai-hybrid-model-healthcare-intake
+faqs:
+  - question: "Is an AI receptionist the same as a virtual receptionist?"
+    answer: "No. An AI receptionist is software that handles structured conversations and tasks within its configuration. A virtual receptionist or virtual front desk is a remote human team that can apply approved protocols, handle nuanced conversations, and manage controlled escalations. Some vendors combine both, so ask exactly which calls each layer owns."
+  - question: "Can an AI receptionist handle routine front-desk calls?"
+    answer: "AI is usually a reasonable first handler for simple, bounded requests: office hours, directions, confirmation of an existing appointment, a routine reschedule inside an approved template, or a request to send a standard form. The system should still offer an easy path to a person, and trained humans are usually the better first handler for new-patient conversion, complaints, and callers who are frustrated or confused."
+  - question: "How is a traditional answering service different from a live virtual receptionist?"
+    answer: "A traditional answering service usually answers overflow or after-hours calls, captures a message, and forwards it to staff, so the practice still owns contact, scheduling, documentation, and follow-up. A virtual front desk works from approved protocols and scheduling rules, can book within authorized appointment types, and creates a managed escalation when it cannot resolve the request."
+  - question: "How should you compare AI receptionists with human answering services?"
+    answer: "Start with a baseline, not a pricing sheet: pull a representative sample of calls and classify why patients called, whether the request was resolved, and how often a callback was required. Then ask which calls are resolved directly, which require a callback, how transfers carry context, what happens when a caller requests a person, how the team handles urgent or clinical concerns, and how QA is calibrated."
 ---
+
+An AI receptionist is software that handles structured conversations and tasks within its configuration, while a virtual front desk is a remote human team that can apply approved protocols, handle nuanced conversations, and manage controlled escalations. A traditional answering service usually answers overflow or after-hours calls, captures a message, and forwards it to staff.
 
 For a multi-location healthcare group, the choice between an AI receptionist, a virtual front desk, and a traditional answering service is not a branding exercise. It determines who owns a patient inquiry, how appointment requests are resolved, when a call is escalated, and whether leadership can see the same operating picture across every location.
 
@@ -111,7 +122,7 @@ The core scorecard should include answer rate, speed to answer, abandonment, app
 
 Executives should also measure operational variance. If two locations receive comparable call types but one creates far more callbacks, the issue may be staffing, scheduling rules, training, or local documentation. Network averages can conceal those differences. This is the rationale behind [multi-location call center QA calibration](/blog/multi-location-call-center-qa-calibration-healthcare/): the point is not simply to score agents, but to find which part of the system is producing inconsistent outcomes.
 
-Cost should be evaluated as total operating cost, including internal management time, technology, training, coverage gaps, and the work created by unresolved calls. MGMA's work on centralized scheduling is relevant because centralization is an operational design choice that requires planning for growth, not merely a change in where calls are answered ([MGMA: Implementing Central Scheduling to Support Practice Growth](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)).
+Cost should be evaluated as total operating cost, including internal management time, technology, training, coverage gaps, and the work created by unresolved calls. MGMA's work on centralized scheduling is relevant because centralization is an operational design choice that requires planning for growth, not merely a change in where calls are answered ([MGMA: Implementing Central Scheduling to Support Practice Growth](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)). MyBCAT lists starting rates for its answering service and front desk outsourcing on its [pricing page](/pricing/).
 
 ## How should a multi-location group implement the change?
 
@@ -123,28 +134,10 @@ Expand only after the group can show that callers are reaching the right handler
 
 No model removes the need for accountable owners. AI needs monitoring and a human fallback. A virtual front desk needs training, QA, and current rules. An answering service needs a defined message-closure process. The right choice is the one that makes those responsibilities explicit across the full group.
 
-## FAQ
-
-### Is an AI receptionist the same as a virtual receptionist?
-
-No. An AI receptionist is software that handles structured conversations and tasks within its configuration. A virtual receptionist or virtual front desk is a remote human team that can apply approved protocols, handle nuanced conversations, and manage controlled escalations. Some vendors combine both, so groups should ask exactly which calls each layer owns.
-
-### Which model is best for a dental, optometry, or veterinary group?
-
-The specialty matters, but the call type matters more. Groups should keep clinical or urgent concerns on an approved human escalation path. Dental and optometry groups may centralize routine scheduling and administrative work, while veterinary groups may need especially clear after-hours and urgent-call protocols. The appropriate model follows the documented routing and escalation requirements of the organization.
-
-### Can an answering service schedule appointments?
-
-Some can, but message-taking alone does not establish scheduling capability. Verify whether the service has authorized practice-management-system access, current appointment rules, location-specific scheduling knowledge, and a way to document completed bookings and exceptions.
-
-### What should a group ask vendors during evaluation?
-
-Ask which calls are resolved directly, which require a callback, how transfers carry context, what happens when a caller requests a person, how the team handles urgent or clinical concerns, how QA is calibrated, and how reporting separates locations and call types. Also ask who owns script changes and how acquired locations are added without creating a separate operating model.
-
 ## Sources
 
 1. [Safety of clinical and non-clinical decision makers in telephone triage: a narrative review](https://pubmed.ncbi.nlm.nih.gov/25761468)
 2. [ONC Patient Engagement Playbook, Chapter 2](https://playbook.healthit.gov/playbook/pe/chapter-2)
 3. [MGMA: Implementing Central Scheduling to Support Practice Growth](https://www.mgma.com/articles/implementing-central-scheduling-to-support-practice-growth-and-success-in-the-accountable-care-environment)
 
-*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
+*Managing patient access for an optometry practice of any size? [Book a short MyBCAT discovery call.](/contact/)*

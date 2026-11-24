@@ -23,7 +23,16 @@ canonical: 'https://mybcat.com/blog/first-year-financial-planning-optometry/'
 cluster: starting-practice
 ctaTheme: finance_open  # finance-intent routing (new-practice opener, QA-003)
 relatedPosts: []
+faqs:
+  - question: "What bookkeeping does a new optometry practice need?"
+    answer: "Implement basic accounting from day one and review financials monthly at minimum. An accountant or CPA can cover monthly bookkeeping (which can be outsourced), a quarterly financial review, and payroll processing; this guide puts bookkeeping and basic services at $300-800/month, plus tax preparation."
+  - question: "How do you choose an accountant for an optometry practice?"
+    answer: "Look for healthcare practice experience, ideally with optometry clients, responsive communication, and reasonable fees for your practice size."
+  - question: "How much does it cost to open an optometry practice?"
+    answer: "This guide estimates total startup capital of $200,000-480,000, covering equipment, build-out, initial inventory, technology setup, legal and professional costs, licenses and permits, a marketing launch, and working capital. That is why most new practices use SBA loans, equipment financing, or a combination of debt sources."
 ---
+
+In year one, expenses start at full levels while revenue builds gradually, so a new optometry practice needs a startup budget, month-by-month projections, and cash reserves to fund the gap. Most practices need 6-9 months of operating expenses in reserve and should monitor cash weekly.
 
 The first year of practice ownership is a financial marathon. Cash flows out faster than it comes in, unexpected expenses emerge constantly, and revenue takes time to build. This guide provides a realistic framework for financial planning that helps new optometry practice owners survive year one and set up for year-two success.
 
@@ -201,7 +210,7 @@ Controlling expenses without compromising quality requires discipline.
 
 Payroll is typically the largest expense. Manage carefully:
 
-Right-size staffing for current volume, not projected volume. Cross-train for flexibility. Use part-time staff during ramp-up. Add hours before adding headcount.
+Right-size staffing for current volume, not projected volume. Cross-train for flexibility. Use part-time staff during ramp-up. Add hours before adding headcount. MyBCAT lists starting rates for its front desk outsourcing on its [pricing page](/pricing/).
 
 ### How Much Should You Spend on Marketing?
 
@@ -327,4 +336,4 @@ Financial planning is one component of launching a successful practice. For guid
 
 - [SBA - Manage Your Finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
 - [Review of Optometric Business](https://reviewob.com/3-metrics-that-reveal-the-true-financial-health-of-your-practice/)
-- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)
+- [American Optometric Association: Practice Management](https://www.aoa.org/news/practice-management)

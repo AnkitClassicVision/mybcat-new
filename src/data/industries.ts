@@ -2,6 +2,8 @@
  * Industry data for industry landing pages
  * Each industry has specific pain points, solutions, and messaging
  */
+import { testimonials } from './testimonials';
+import { caseStudies } from './case-studies';
 
 export type DescriptionPart =
   | { type: 'text'; value: string }
@@ -36,6 +38,14 @@ export interface Industry {
     title: string;
     company?: string;
   };
+  // A page with no testimonial of its own shows one existing quote from testimonials.ts,
+  // looked up by author so the quote and attribution are never retyped. The page labels
+  // it with the client's field. Leave it unset where the quote would sit above that
+  // industry's own case studies. The industry's `testimonial` (also served by
+  // /api/public/industries.json) stays unset.
+  sharedQuoteAuthor?: string;
+  // Existing case study linked under that quote when the industry has no case study.
+  sharedCaseStudySlug?: string;
 }
 
 export const industries: Industry[] = [
@@ -173,7 +183,9 @@ export const industries: Industry[] = [
       { label: 'Average Revenue Lost to Missed Calls', value: '$95,000/year' },
       { label: 'Emergency Calls After Hours', value: '35%' },
       { label: 'Multi-Pet Household Rate', value: '40%' }
-    ]
+    ],
+    sharedQuoteAuthor: 'Dr. Michael Dittman',
+    sharedCaseStudySlug: 'dittman-eye-care'
   },
   {
     slug: 'medspa',
@@ -212,7 +224,9 @@ export const industries: Industry[] = [
       { label: 'Average Consultation Value', value: '$2,500+' },
       { label: 'Inquiry-to-Booking Rate', value: '30-45%' },
       { label: 'Repeat Client Revenue', value: '65%' }
-    ]
+    ],
+    sharedQuoteAuthor: 'Dr. Michael Dittman',
+    sharedCaseStudySlug: 'dittman-eye-care'
   },
   {
     slug: 'dermatology',
@@ -251,7 +265,9 @@ export const industries: Industry[] = [
       { label: 'Average Revenue Lost to Missed Calls', value: '$110,000/year' },
       { label: 'Cosmetic Consultation Value', value: '$1,800+' },
       { label: 'Skin Check Conversion Rate', value: '75%' }
-    ]
+    ],
+    sharedQuoteAuthor: 'Dr. Michael Dittman',
+    sharedCaseStudySlug: 'dittman-eye-care'
   },
   {
     slug: 'urgent-care',
@@ -290,7 +306,9 @@ export const industries: Industry[] = [
       { label: 'Average Daily Call Volume', value: '150-300 calls' },
       { label: 'Peak Hour Call Spike', value: '3-5x normal' },
       { label: 'Calls About Wait Times', value: '40%' }
-    ]
+    ],
+    sharedQuoteAuthor: 'Dr. Michael Dittman',
+    sharedCaseStudySlug: 'dittman-eye-care'
   },
   {
     slug: 'ent',
@@ -329,7 +347,9 @@ export const industries: Industry[] = [
       { label: 'Average Surgical Case Value', value: '$8,500+' },
       { label: 'Hearing Aid Revenue Opportunity', value: '$3,000-6,000' },
       { label: 'Multi-Visit Patient Rate', value: '60%' }
-    ]
+    ],
+    sharedQuoteAuthor: 'Dr. Michael Dittman',
+    sharedCaseStudySlug: 'dittman-eye-care'
   }
 ];
 
@@ -340,6 +360,15 @@ export function getIndustryBySlug(slug: string): Industry | undefined {
 
 export function getAllIndustrySlugs(): string[] {
   return industries.map(i => i.slug);
+}
+
+for (const industry of industries) {
+  if (industry.sharedQuoteAuthor && !testimonials.some((t) => t.author === industry.sharedQuoteAuthor)) {
+    throw new Error(`sharedQuoteAuthor matches no testimonial for ${industry.slug}`);
+  }
+  if (industry.sharedCaseStudySlug && !caseStudies.some((cs) => cs.slug === industry.sharedCaseStudySlug)) {
+    throw new Error(`sharedCaseStudySlug matches no case study for ${industry.slug}`);
+  }
 }
 
 for (const industry of industries) {

@@ -16,12 +16,22 @@ tags:
 featuredImage: /images/blog/medical-answering-services-eye-care-guide.webp
 canonical: https://mybcat.com/blog/medical-answering-services-eye-care-guide/
 cluster: patient-communications
+ctaTheme: operations  # an answering-service guide gets the answer-every-call offer, not the recall offer
 relatedPosts:
 - virtual-receptionist-vs-front-desk-optometry
 - call-handling-patient-experience-eye-care
 - call-management-best-practices-optometry
 - appointment-reminder-best-practices
+faqs:
+  - question: "What does an optometry answering service do?"
+    answer: "Trained agents answer calls using your practice name, follow your protocols, and can schedule appointments, answer common questions, and triage urgent calls. The best services work directly within your scheduling system, so appointments booked over the phone appear in your calendar in real time."
+  - question: "Why do eye doctors need a dedicated answering service?"
+    answer: "Eye care practices handle calls about comprehensive exams, medical eye care visits, contact lens orders, frame selections, insurance benefits, and optical pickups, and each needs different scheduling logic and provider availability. Call volume is also seasonal, with a surge from September through December when insurance benefits are about to expire."
+  - question: "What should you look for in an answering service for optometrists?"
+    answer: "Look for healthcare domain expertise (ideally in eye care), documented HIPAA training with a signed Business Associate Agreement, direct EHR and practice management integration, bilingual support, transparent pricing and reporting, and the ability to scale during insurance benefits season."
 ---
+
+A medical answering service is a team of trained agents who answer phone calls on behalf of your practice, built specifically for healthcare. For eye care practices, it ensures every patient call is answered by a trained professional who can schedule appointments, answer questions, and triage urgent calls while your in-office team focuses on the people in your waiting room.
 
 Every day, eye care practices across the country lose patients they never knew they had. The phone rings while the front desk is checking in a patient, verifying insurance, or answering a question about a contact lens order. It goes to voicemail. The caller hangs up. They call the next practice on their list, get a human, and book an appointment there instead.
 
@@ -137,7 +147,7 @@ Not all answering services are created equal, and the wrong choice can create mo
 
 **Bilingual support.** In most markets, the ability to serve Spanish-speaking patients is essential. According to Census data, over 13% of the U.S. population speaks Spanish at home, and that percentage is significantly higher in many metropolitan areas. A service that offers bilingual agents in English and Spanish ensures you do not lose patients due to language barriers.
 
-**Transparent pricing and reporting.** Understand exactly what you are paying for. Per-call pricing, per-minute pricing, and flat-rate models all have different implications depending on your call volume. Ask for sample reports so you can see the level of detail provided. The best services give you real-time dashboards with metrics like answer rate, average handle time, appointments booked, and call disposition.
+**Transparent pricing and reporting.** Understand exactly what you are paying for. Per-call pricing, per-minute pricing, and flat-rate models all have different implications depending on your call volume. Ask for sample reports so you can see the level of detail provided. The best services give you real-time dashboards with metrics like answer rate, average handle time, appointments booked, and call disposition. MyBCAT lists starting rates for its medical answering service on its [pricing page](/pricing/).
 
 **Scalability.** Your needs will change. A good service can scale up during insurance benefits season and scale down during slower months without requiring you to renegotiate contracts or retrain new teams.
 
@@ -179,6 +189,6 @@ If your phones are ringing to voicemail, if your front desk is overwhelmed, or i
 
 ## Sources
 
-- [American Optometric Association: Practice Management](https://www.aoa.org/practice/practice-management)
+- [American Optometric Association: Practice Management](https://www.aoa.org/news/practice-management)
 - [Review of Optometric Business: Practice Growth](https://reviewob.com/)
 - [MGMA: Medical Practice Operations](https://www.mgma.com/)

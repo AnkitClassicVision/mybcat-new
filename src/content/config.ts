@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+import { faqsSchema } from '../utils/blog-faq.mjs';
 
 const blog = defineCollection({
   type: 'content',
@@ -20,6 +21,9 @@ const blog = defineCollection({
     // Explicit CTA variant override — wins over cluster-based routing (see src/data/blog-ctas.ts).
     // Use 'default' for off-ICP posts (e.g. dental-bodied content) that share a themed cluster.
     ctaTheme: z.enum(['recall_fill_book', 'finances_selling', 'finance_open', 'finance_profit', 'finance_seller', 'acquisition_transition', 'operations', 'default']).optional(),
+    // Visible FAQ rendered by the shared FAQ component before the Sources heading. The
+    // component emits the page's FAQPage JSON-LD, so each answer must restate the post.
+    faqs: faqsSchema,
     // Attribution and editorial proof contract for the separate service and
     // practice-transition funnels. Existing posts remain service content unless
     // their frontmatter explicitly opts into the acquisition funnel.
