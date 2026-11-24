@@ -1,0 +1,20 @@
+---
+/**
+ * First-party lead source capture. Rendered by both base layouts next to
+ * PostHog, and only when tracking is on. The marker below is how the script
+ * knows tracking is on: Astro 4 bundles this script for every page that
+ * imports the layout, even when the component itself is not rendered.
+ * The call is wrapped so an error here can never stop the other bundled page
+ * scripts that Astro merges into the same file.
+ * Logic and tests: src/utils/attribution.mjs, tests/unit/lead-attribution.test.mjs
+ */
+---
+<meta name="mybcat-attribution" content="on" />
+<script>
+  import { initAttribution } from '@utils/attribution.mjs';
+  try {
+    initAttribution(window);
+  } catch (e) {
+    // Lead source capture is optional. Nothing here may break the page.
+  }
+</script>

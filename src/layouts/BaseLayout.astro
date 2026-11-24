@@ -9,6 +9,7 @@ import Footer from '@/components/Footer.astro';
 import GoogleTagManager from '@/components/GoogleTagManager.astro';
 import GoogleTagManagerNoScript from '@/components/GoogleTagManagerNoScript.astro';
 import PostHog from '@/components/PostHog.astro';
+import AttributionCapture from '@/components/AttributionCapture.astro';
 import { company } from '@data/company';
 import { generateOrganizationSchema, generateWebSiteSchema, serializeSchema } from '@utils/schema';
 
@@ -190,6 +191,9 @@ const shouldPreloadLogo = navMode !== 'hidden';
 
   <!-- PostHog client-side analytics -->
   {!disableTracking && <PostHog />}
+
+  <!-- First-party lead source capture (first touch and last touch) -->
+  {!disableTracking && <AttributionCapture />}
 
   <slot name="head" />
 
