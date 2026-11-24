@@ -4286,12 +4286,7 @@
     },
     {
       "source": "/book/discovery",
-      "destination": "https://calendar.app.google/PLDmK4QwpdSqkxmb8",
-      "permanent": true
-    },
-    {
-      "source": "/book/discovery/",
-      "destination": "https://calendar.app.google/PLDmK4QwpdSqkxmb8",
+      "destination": "/book/discovery/",
       "permanent": true
     },
     {
