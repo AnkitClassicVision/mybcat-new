@@ -3224,9 +3224,9 @@
     {
       "id": "optometry-practice-sale-process-playbook",
       "slot": 41,
-      "funnel": "service",
+      "funnel": "acquisition",
       "buyer_stage": "consideration",
-      "content_cluster": "patient-access",
+      "content_cluster": "practice-transitions",
       "topic": "Optometry Practice Sale Process Playbook",
       "keyword": "optometry practice sale process playbook",
       "suggested_title": "Optometry Practice Sale Process Playbook",
@@ -3244,7 +3244,7 @@
         "NC"
       ],
       "search_intent": "commercial",
-      "category": "Technology",
+      "category": "Practice Transitions",
       "word_count": 0,
       "pillar_url": "/industries/optometry/",
       "cta_id": "talk-to-mybcat",
@@ -3298,9 +3298,12 @@
       "evidence_packet": "scheduled-post:optometry-practice-sale-process-playbook",
       "approval": {
         "decision": "approved",
-        "owner": "Ankit",
-        "approved_at": "2026-11-24T01:25:34Z"
-      }
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-24T01:35:38.832Z"
+      },
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review."
     }
   ]
 }
