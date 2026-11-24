@@ -124,7 +124,7 @@ Assign one accountable operational owner, document the revised workflow, train t
 
 Better patient experience comes from making it easier for patients to reach the right person, get a clear answer, and trust that the next step will happen. For multi-location eye care groups, those outcomes depend on accessible communication, well-trained people, current operational information, and a feedback loop that produces real corrections.
 
-*Managing patient access across 3+ locations? [Request an Enterprise Assessment](/contact/) to discuss how centralized answering and scheduling can support a consistent patient experience.*
+*Managing patient access for an optometry practice of any size? [Book a short MyBCAT discovery call](/contact/) to discuss how centralized answering and scheduling can support a consistent patient experience.*
 
 ## Sources
 

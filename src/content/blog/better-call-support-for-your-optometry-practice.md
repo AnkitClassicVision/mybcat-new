@@ -34,7 +34,7 @@ Better call support starts with a shared operating model, not a longer script. I
 - [What Language Keeps Calls Helpful Without Overpromising?](#what-language-keeps-calls-helpful-without-overpromising)
 - [Which Calls Should a Centralized Team Own?](#which-calls-should-a-centralized-team-own)
 - [How Should Leaders Measure Call Support Quality?](#how-should-leaders-measure-call-support-quality)
-- [What Does a Practical Rollout Look Like for 3+ Locations?](#what-does-a-practical-rollout-look-like-for-3-locations)
+- [What Does a Practical Rollout Look Like for Multiple Locations?](#what-does-a-practical-rollout-look-like-for-multiple-locations)
 - [When Should a Group Consider Managed Call Support?](#when-should-a-group-consider-managed-call-support)
 
 ## What Does Good Call Support Look Like Across an Optometry Group?
@@ -107,7 +107,7 @@ Quality assurance should combine sampled call review with workflow review. A cal
 
 MGMA's work on centralized scheduling and call-center efficiency is relevant because it treats access as a management function with workflows and measures, rather than as an isolated receptionist task. Groups can use that perspective to build a [patient-access metrics](/blog/patient-access-center-metrics-healthcare-executives/) review that identifies system issues without turning every metric into a punitive target.
 
-## What Does a Practical Rollout Look Like for 3+ Locations?
+## What Does a Practical Rollout Look Like for Multiple Locations?
 
 Begin with a narrow call category and a limited set of locations. Map the current path from the initial ring to the final documented outcome. Identify who owns each handoff, which systems are used, what exceptions occur, and where callers are asked to repeat themselves. That baseline makes it possible to design a shared workflow without guessing.
 

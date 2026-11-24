@@ -31,7 +31,7 @@ relatedPosts:
 - [What Belongs in the Enterprise Standard and What Stays Local?](#what-belongs-in-the-enterprise-standard-and-what-stays-local)
 - [How Should Groups Train, Audit, and Govern the Standard?](#how-should-groups-train-audit-and-govern-the-standard)
 - [When Does Centralized Support Improve Front-Office Control?](#when-does-centralized-support-improve-front-office-control)
-- [What Does a Low-Risk Rollout Look Like for a 3+ Location Group?](#what-does-a-low-risk-rollout-look-like-for-a-3-location-group)
+- [What Does a Low-Risk Rollout Look Like for a Multi-Location Group?](#what-does-a-low-risk-rollout-look-like-for-a-multi-location-group)
 
 For an optometry group, front-office standardization is not a script-writing exercise. It is an operating-control decision. Once a group has three or more locations, informal knowledge about appointment types, payer checks, callback ownership, provider preferences, and escalation rules stops being a strength. It becomes a source of uneven patient access and unreliable reporting.
 
@@ -111,7 +111,7 @@ Before centralizing a task, leaders should decide what the team can complete, wh
 
 An outsourced or remote support partner should operate inside the group’s standard, not become the unrecorded author of it. A capable partner can identify recurring friction and recommend improvements. The group should still decide how changes are approved, versioned, trained, and measured. That preserves accountability when internal and external teams share the workflow.
 
-## What Does a Low-Risk Rollout Look Like for a 3+ Location Group?
+## What Does a Low-Risk Rollout Look Like for a Multi-Location Group?
 
 Use one workflow as a controlled pilot. Appointment-request handling, new-patient intake, eligibility readiness, recall routing, or checkout-to-follow-up handoff are sensible starting points because they expose the organization’s real training and governance discipline.
 
@@ -124,7 +124,7 @@ Once the pilot is controlled, expand one workflow or one location cohort at a ti
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
   <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Standardize Patient Access Across Your Locations?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Managing front-office workflows across 3+ optometry locations? Request an enterprise assessment to review where variation is creating patient-access and management friction.</p>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Managing front-office workflows for an optometry practice of any size? Book a short MyBCAT discovery call to review where variation is creating patient-access and management friction.</p>
   <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
 </div>
 <!-- End MyBCAT CTA Section -->

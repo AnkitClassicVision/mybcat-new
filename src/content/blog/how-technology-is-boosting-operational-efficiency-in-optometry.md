@@ -119,7 +119,7 @@ This is why technology should support management discipline rather than replace 
 
 For organizations that need a more consistent patient-access model across locations, [MyBCAT’s enterprise approach](/enterprise/) centers on defined workflows, trained support, and visibility into the work that moves patients from first contact to the next appropriate step.
 
-*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
+*Managing patient access for an optometry practice of any size? [Book a short MyBCAT discovery call.](/contact/)*
 
 ## Sources
 

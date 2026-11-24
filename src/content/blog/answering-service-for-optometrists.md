@@ -213,9 +213,9 @@ MyBCAT's approach is a fit for groups that want call support aligned with schedu
 
 For related operating models, see MyBCAT's guides to [enterprise call answering in healthcare](/blog/enterprise-call-answering-healthcare/), [centralized optometry scheduling standards](/blog/centralized-optometry-scheduling-standards/), and [front-desk outsourcing for multi-location practices](/blog/front-desk-outsourcing-multi-location-practices/).
 
-### Enterprise CTA
+### Talk with MyBCAT
 
-If you operate a multi-location optometry group with 3+ locations and want a more consistent patient communication model, schedule a discovery call here: [Book a MyBCAT discovery call](/contact/).
+If you run an optometry practice of any size and want a more consistent patient communication model, schedule a short discovery call here: [Book a short MyBCAT discovery call](/contact/).
 
 ## Related Reading
 

@@ -278,6 +278,6 @@ For groups operating [PE-backed healthcare operations](/blog/pe-backed-healthcar
 
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
   <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Build Your Multi-Location Business Plan?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Managing operations across 3+ optometry locations requires infrastructure that scales. See how enterprise groups achieve 95%+ answer rates and consistent patient experiences across every site.</p>
-  <a href="/contact/" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Request an Enterprise Assessment</a>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">Managing operations for an optometry practice of any size requires infrastructure that scales. See how enterprise groups achieve 95%+ answer rates and consistent patient experiences across every site.</p>
+  <a href="/contact/" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Book a Short Discovery Call</a>
 </div>

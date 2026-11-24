@@ -23,7 +23,7 @@ For a multi-location eye care group, a virtual assistant is not simply extra adm
 
 The training standard has to hold across locations, providers, schedules, and systems. A caller should receive the same clear, respectful experience whether the assistant is supporting a three-location group during a peak morning window or helping a larger network centralize patient access. The broader [virtual medical assistant model](/solutions/medical-virtual-assistant/) works best when groups treat training, quality assurance, and escalation as operating disciplines rather than hiring tasks.
 
-This article preserves the practical foundation of VA training: industry knowledge, cultural and communication coaching, written procedures, mock calls, and ongoing evaluation. It puts that foundation into a structure an operations leader can run across 3 or more locations. It does not ask VAs to make clinical decisions. Their job is to follow approved workflows, document accurately, and escalate promptly when a patient or situation falls outside the workflow.
+This article preserves the practical foundation of VA training: industry knowledge, cultural and communication coaching, written procedures, mock calls, and ongoing evaluation. It puts that foundation into a structure an operations leader can run across multiple locations. It does not ask VAs to make clinical decisions. Their job is to follow approved workflows, document accurately, and escalate promptly when a patient or situation falls outside the workflow.
 
 ## Table of Contents
 

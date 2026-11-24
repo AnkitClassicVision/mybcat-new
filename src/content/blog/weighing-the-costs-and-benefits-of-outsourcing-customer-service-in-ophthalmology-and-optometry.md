@@ -121,4 +121,4 @@ Customer service outsourcing can be valuable for ophthalmology and optometry gro
 2. [Health IT Privacy, Security, and HIPAA](https://healthit.gov/topic/privacy-security-and-hipaa)
 3. [OIG General Compliance Program Guidance](https://oig.hhs.gov/compliance/general-compliance-program-guidance)
 
-*Managing patient access across 3+ locations? [Request an Enterprise Assessment for your group.](/contact/)*
+*Managing patient access for an optometry practice of any size? [Book a short MyBCAT discovery call.](/contact/)*
