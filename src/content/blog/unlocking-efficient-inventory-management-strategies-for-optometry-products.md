@@ -1,8 +1,8 @@
 ---
 title: "Efficient Inventory Management Strategies for Optometry"
-seoTitle: "Optometry Inventory Management for Multi-Location Groups"
+seoTitle: "How to Manage Optical Inventory: Reorder Points and Counts"
 description: "Stop tying up capital in unsold frames. Data-driven inventory strategies help optometry practices balance stock levels, cut waste, and improve cash flow."
-seoDescription: "Improve optical inventory control across locations with practical methods for forecasting demand, setting reorder points, and protecting working capital."
+seoDescription: "Learn to manage optical inventory: sort items by value, set reorder points, use an order-quantity formula, run cycle counts and review aging frames."
 publishDate: 2023-11-16
 status: published
 author: Ankit Patel
