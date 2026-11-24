@@ -3220,6 +3220,87 @@
         "first_registered_at": "2026-10-21T21:16:13Z"
       },
       "review_basis": "Automatic checks only (optometry scope, source count). No human review."
+    },
+    {
+      "id": "optometry-practice-sale-process-playbook",
+      "slot": 41,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-access",
+      "topic": "Optometry Practice Sale Process Playbook",
+      "keyword": "optometry practice sale process playbook",
+      "suggested_title": "Optometry Practice Sale Process Playbook",
+      "slug": "optometry-practice-sale-process-playbook",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Writer registered this scheduled post under the standing release approval. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-24T01:25:34Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/transition-right",
+          "accessed_at": "2026-11-24",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale process playbook"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/selling-your-practice-to-a-private-equity-firm",
+          "accessed_at": "2026-11-24",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale process playbook"
+        },
+        {
+          "title": "www.optometricmanagement.com",
+          "publisher": "www.optometricmanagement.com",
+          "url": "https://www.optometricmanagement.com/issues/2016/november/ready-to-buy-or-sell-a-practice",
+          "accessed_at": "2026-11-24",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale process playbook"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/owning-a-practice/buying-a-practice",
+          "accessed_at": "2026-11-24",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale process playbook"
+        },
+        {
+          "title": "www.optometricmanagement.com",
+          "publisher": "www.optometricmanagement.com",
+          "url": "https://www.optometricmanagement.com/issues/2019/december/transition-out-of-practice",
+          "accessed_at": "2026-11-24",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale process playbook"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-practice-sale-process-playbook",
+      "approval": {
+        "decision": "approved",
+        "owner": "Ankit",
+        "approved_at": "2026-11-24T01:25:34Z"
+      }
     }
   ]
 }
