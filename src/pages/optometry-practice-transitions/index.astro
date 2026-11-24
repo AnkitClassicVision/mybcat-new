@@ -1,36 +1,110 @@
 ---
 import PageLayout from '@/layouts/PageLayout.astro';
+import ProcessSteps from '@/components/sections/ProcessSteps.astro';
+import FAQ from '@/components/sections/FAQ.astro';
 import { getCollection } from 'astro:content';
 import { isPostVisible } from '@utils/blog';
+import { serializeSchema } from '@utils/schema';
+import { company } from '@data/company';
 
 const transitionPosts = (await getCollection('blog', ({ data }) =>
   isPostVisible(data) && data.funnel === 'acquisition'
 )).sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+
+const pageUrl = `${company.site.url}/optometry-practice-transitions/`;
+const servedStates = ['Georgia', 'Florida', 'Alabama', 'Tennessee', 'South Carolina', 'North Carolina'];
+
+// Every step, benefit, and answer below restates what this page already says about the path.
+const steps = [
+  {
+    step: 1,
+    title: 'Send a confidential inquiry',
+    description: 'Share only fit, timing, and your preferred role after a transition. Leave out financial statements, patient records, and diligence documents.'
+  },
+  {
+    step: 2,
+    title: 'Ankit reviews it',
+    description: 'Ankit reviews the owner, geography, transition interest, and timing before deciding whether to continue the conversation.'
+  },
+  {
+    step: 3,
+    title: 'Records come later, only after approval',
+    description: 'Financial files, patient information, and practice records belong in a later secure diligence process, only after human approval.'
+  }
+];
+
+const faqs = [
+  {
+    question: 'How do I sell my optometry practice?',
+    answer: 'This page is a confidential first step for owners in Georgia, Florida, Alabama, Tennessee, South Carolina, and North Carolina. You share fit, timing, and the role you want after a transition. Our guide for selling your optometry practice covers the wider process.'
+  },
+  {
+    question: 'How do I value an optometry practice?',
+    answer: 'This first conversation does not value your practice. Sending an inquiry does not mean the practice is qualified, valued, or under diligence. Our practice valuation guide explains common methods. Ask your own attorney, accountant, and a qualified valuation professional about your real number.'
+  },
+  {
+    question: 'Do I need an optometry practice broker?',
+    answer: 'This page does not make that choice for you. Our guide to choosing an optometry practice broker covers what to look for. Bring the question to your own legal, tax, and valuation professionals.'
+  },
+  {
+    question: 'What do I share in the first conversation?',
+    answer: 'Only fit, timing, and your preferred role after a transition. Do not upload financial statements, patient records, or diligence documents. Your inquiry does not enter MyBCAT service marketing unless you opt in on the form.'
+  }
+];
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': `${pageUrl}#service`,
+  name: 'Confidential optometry practice transition conversation',
+  description: 'A confidential first conversation for independent optometry practice owners in the Southeast who are considering selling or another future transition.',
+  serviceType: 'Optometry practice transition inquiry',
+  provider: { '@id': `${company.site.url}/#organization` },
+  areaServed: servedStates.map((name) => ({ '@type': 'State', name })),
+  audience: { '@type': 'Audience', audienceType: 'Optometry practice owners' }
+};
 ---
 
 <PageLayout
   disableTracking={true}
-  title="Confidential Optometry Practice Transitions | MyBCAT"
-  description="A confidential first conversation for independent optometry practice owners in the Southeast who are considering a future transition."
+  title="Sell Your Optometry Practice: A Confidential Start | MyBCAT"
+  description="Thinking about selling your optometry practice in the Southeast? Start with a confidential talk about fit and timing. No valuation or financial files needed."
   breadcrumbs={[
     { name: 'Home', url: '/' },
     { name: 'Optometry Practice Transitions' }
   ]}
   heroEyebrow="Separate Confidential Path"
-  heroTitle="Considering What Comes Next for Your Optometry Practice?"
+  heroTitle="Selling Your Optometry Practice? Start With a Confidential Conversation"
   heroSubtitle="Start with basic fit and timing. Financial files, patient information, and practice records belong in a later secure diligence process only after human approval."
 >
+  <script slot="head" type="application/ld+json" set:html={serializeSchema(serviceSchema)} />
+
   <div class="transition-page">
+    <p class="hero-action"><a class="start-link" href="#transition-form-title">Start the confidential inquiry</a></p>
+
     <section class="transition-context" aria-labelledby="transition-context-title">
       <div>
         <p class="context-label">For owner-led practices</p>
         <h2 id="transition-context-title">A private first conversation, not a valuation form</h2>
         <p>This path is for owners or authorized representatives of optometry practices in Georgia, Florida, Alabama, Tennessee, South Carolina, and North Carolina.</p>
+        <p>It fits a solo office or a practice with several locations.</p>
       </div>
       <ul>
         <li>Share only fit, timing, and your preferred role after a transition.</li>
         <li>Do not upload financial statements, patient records, or diligence documents.</li>
         <li>Your inquiry does not enter MyBCAT service marketing unless you opt in below.</li>
+      </ul>
+    </section>
+
+    <ProcessSteps eyebrow="How it works" title="How the first conversation works" steps={steps} />
+
+    <section class="transition-gets" aria-labelledby="transition-gets-title">
+      <h2 id="transition-gets-title">What you get</h2>
+      <ul>
+        <li>A private first conversation about fit and timing, not a valuation form.</li>
+        <li>A human review: Ankit reads each inquiry before any qualification or diligence step.</li>
+        <li>Control over marketing: the inquiry stays out of MyBCAT service marketing unless you opt in.</li>
+        <li>Owner planning guides on goals, continuity, readiness, and the questions to bring to qualified legal, tax, and valuation professionals.</li>
       </ul>
     </section>
 
@@ -164,6 +238,16 @@ const transitionPosts = (await getCollection('blog', ({ data }) =>
         <p>Ankit will review the owner, geography, transition interest, and timing before deciding whether to continue the conversation. No valuation or qualification decision has been made.</p>
       </div>
     </section>
+
+    <FAQ eyebrow="Owner questions" title="Questions owners ask about selling" items={faqs} track={false} />
+
+    <p class="transition-related">
+      Read more: <a href="/blog/guide-for-selling-your-optometry-practice/">guide for selling your optometry practice</a>,
+      <a href="/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/">practice valuation guide</a>, and
+      <a href="/blog/optometry-practice-broker-how-to-choose/">how to choose an optometry practice broker</a>.
+    </p>
+
+    <p class="transition-disclaimer">This page is general information, not legal, tax, or valuation advice. Use your own attorney and accountant before you decide anything about a sale.</p>
   </div>
 </PageLayout>
 
@@ -282,6 +366,60 @@ const transitionPosts = (await getCollection('blog', ({ data }) =>
 
   .transition-form-card h2 {
     margin-bottom: 12px;
+  }
+
+  .hero-action {
+    margin: 0 0 28px;
+    text-align: center;
+  }
+
+  .start-link {
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 8px;
+    background: var(--oceanic-teal);
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .start-link:hover {
+    background: var(--navy-900);
+  }
+
+  .transition-gets {
+    margin: 28px 0;
+  }
+
+  .transition-gets h2 {
+    margin-bottom: 14px;
+  }
+
+  .transition-gets ul {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  #transition-form-title {
+    scroll-margin-top: 96px;
+  }
+
+  .transition-related,
+  .transition-disclaimer {
+    max-width: 760px;
+    margin: 20px auto 0;
+    font-size: 15px;
+  }
+
+  .transition-related a {
+    color: var(--oceanic-teal);
+    font-weight: 700;
+  }
+
+  .transition-disclaimer {
+    color: var(--text-secondary);
+    font-size: 13px;
   }
 
   .form-intro {

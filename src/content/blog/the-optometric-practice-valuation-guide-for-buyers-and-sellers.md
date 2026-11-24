@@ -106,7 +106,7 @@ Scaled, private-equity-ready platforms can command higher multiples than a singl
 
 ## How Strategic Buyers and Operator Buyers Price a Practice
 
-For sellers, the focus should be on the strengths that change pricing logic: patient retention, team quality, service mix, profitability, and market position. These factors can justify stronger numbers because they make the practice more transferable and more attractive to a wider set of buyers.
+[For sellers](/optometry-practice-transitions/), the focus should be on the strengths that change pricing logic: patient retention, team quality, service mix, profitability, and market position. These factors can justify stronger numbers because they make the practice more transferable and more attractive to a wider set of buyers.
 
 On the buyer side, operator buyers often focus on stable cash flow and what they can comfortably run. Strategic buyers often focus on how the practice fits into a broader platform and whether they can improve performance after acquisition. That is why two buyers can look at the same optometry practice and still land on different valuation ranges.
 
@@ -118,7 +118,7 @@ Valuing an optometry practice is a complex process influenced not just by financ
 
 The valuation is not a static figure but a dynamic one molded by market trends and individual competencies. Understanding these financial, operational, and human factors helps ensure a valuation that truly reflects the practice's value. The objective for both parties is to align their respective strengths and opportunities, offering a pathway to an agreed-upon valuation.
 
-The one lever you fully control before a sale is your operations. Cleaner phones, stronger recall, and a fuller book raise the earnings a buyer underwrites, and they are far easier to fix on your own timeline than under diligence pressure. If you want a buyer's-eye read on where your practice value is leaking today, [book a Practice Profit Audit](/contact/) and see the number before you list.
+The one lever you fully control before a sale is your operations. Cleaner phones, stronger recall, and a fuller book raise the earnings a buyer underwrites, and they are far easier to fix on your own timeline than under diligence pressure. If you are thinking about selling, [start with a confidential conversation](/optometry-practice-transitions/) about fit and timing before you share any financial files.
 
 ## Sources
 

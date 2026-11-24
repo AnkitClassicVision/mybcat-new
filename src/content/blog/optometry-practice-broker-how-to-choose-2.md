@@ -32,7 +32,7 @@ relatedPosts:
 - [How Can Multi-Location Groups Optimize Their Broker Relationships?](#how-can-multi-location-groups-optimize-their-broker-relationships)
 
 
-For multi-location healthcare groups evaluating acquisition targets or preparing a practice for sale, the question of whether to engage a practice broker, and how to select one, carries significant operational and financial implications.
+For multi-location healthcare groups evaluating acquisition targets or [preparing a practice for sale](/optometry-practice-transitions/), the question of whether to engage a practice broker, and how to select one, carries significant operational and financial implications.
 
 The optometry transaction landscape has evolved considerably, with private equity activity reshaping buyer expectations and valuation methodologies.
 
@@ -210,7 +210,7 @@ Not all brokers will accept modified structures, but sophisticated brokers servi
 
 ---
 
-**Operations leaders at multi-location healthcare groups navigating practice acquisitions or divestitures face complex decisions about professional advisor engagement.** If your organization is evaluating acquisition targets, preparing practices for sale, or building institutional M&A capabilities across three or more locations, [schedule a discovery call](/contact/) to discuss how operational infrastructure supports transaction success.
+**Operations leaders at multi-location healthcare groups navigating practice acquisitions or divestitures face complex decisions about professional advisor engagement.** If you are thinking about selling, [start with a confidential conversation](/optometry-practice-transitions/) about fit and timing, or [talk to our team](/contact/) about the front-office work buyers review.
 
 ---
 
