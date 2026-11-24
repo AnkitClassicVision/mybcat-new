@@ -5,6 +5,7 @@ import Footer from '@/components/Footer.astro';
 import GoogleTagManager from '@/components/GoogleTagManager.astro';
 import GoogleTagManagerNoScript from '@/components/GoogleTagManagerNoScript.astro';
 import PostHog from '@/components/PostHog.astro';
+import AttributionCapture from '@/components/AttributionCapture.astro';
 import { company } from '@data/company';
 
 interface Props {
@@ -186,6 +187,9 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
 
   <!-- PostHog client-side analytics. Same component as BaseLayout. -->
   <PostHog />
+
+  <!-- First-party lead source capture (first touch and last touch) -->
+  <AttributionCapture />
 
   <slot name="head" />
 </head>
