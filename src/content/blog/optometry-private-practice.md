@@ -23,8 +23,17 @@ tags:
   - practice management
   - healthcare
 cluster: private-practice
-ctaTheme: finance_profit  # finance-intent routing
+ctaTheme: operations  # the guide closes on practice operations and a discovery call
+faqs:
+  - question: "What should optometry practice management track?"
+    answer: "Track collections rate (95%+ of net charges), overhead percentage (55-65% of collections), average revenue per patient, optical capture rate, contact lens capture, and days in accounts receivable (under 35 days) every month. Practices consistently missing these targets need operational intervention, not just harder work."
+  - question: "How do you grow an optometry practice?"
+    answer: "Once your practice stabilizes, the most common paths are adding an associate optometrist, expanding physical space only when documented demand exceeds current capacity, and adding medical specialty services such as dry eye treatment, myopia management, low vision rehabilitation, and sports vision training."
+  - question: "How do you market an optometry practice?"
+    answer: "Focus on online presence (Google Business Profile optimization, a website with online scheduling, and reviews management), community connections such as school vision screenings and pediatrician and PCP referral relationships, and patient retention through recall systems, contact lens subscription programs, and text appointment reminders."
 ---
+
+Building a successful optometry private practice requires patience, planning, and persistent execution. Start with the fundamentals: choose your location carefully, equip efficiently, staff appropriately, and market consistently, then refine your operations based on data, not intuition.
 
 ## Optometry Private Practice: A Complete Guide to Success
 
@@ -145,7 +154,7 @@ Most new practices start with minimal staff and add positions as volume justifie
 **Established (1500+ patients):**
 - Doctor, front desk coordinator, billing specialist, 1-2 opticians, technician
 
-Staff costs typically run 22-28% of collections. Higher percentages indicate overstaffing or underperformance; lower percentages often mean the doctor is doing tasks that should be delegated.
+Staff costs typically run 22-28% of collections (see [MyBCAT pricing](/pricing/)). Higher percentages indicate overstaffing or underperformance; lower percentages often mean the doctor is doing tasks that should be delegated.
 
 ### How Should You Integrate Technology Systems?
 

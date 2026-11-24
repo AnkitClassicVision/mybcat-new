@@ -12,7 +12,8 @@ import FAQ from '@/components/sections/FAQ.astro';
 import CTA from '@/components/sections/CTA.astro';
 import IndustryDescription from '@/components/IndustryDescription.astro';
 import { industries, type Industry } from '@data/industries';
-import { getCaseStudiesByIndustry } from '@data/case-studies';
+import { getCaseStudiesByIndustry, getCaseStudyBySlug } from '@data/case-studies';
+import { testimonials } from '@data/testimonials';
 import { faqs } from '@data/faq';
 import { solutions } from '@data/solutions';
 import { enterpriseVerticals } from '@data/enterprise';
@@ -42,6 +43,19 @@ const enterpriseVertical = enterpriseVerticals.find(v => v.parentIndustrySlug ==
 
 // Get case studies for this industry
 const industryCaseStudies = getCaseStudiesByIndustry(industry.slug);
+
+// A page with no testimonial of its own shows one existing quote, unedited, and links
+// one existing case study when the industry has none (see sharedQuoteAuthor in industries.ts).
+const sharedQuote = industry.testimonial ? undefined : testimonials.find(t => t.author === industry.sharedQuoteAuthor);
+const pageQuote = industry.testimonial ?? (sharedQuote && {
+  quote: sharedQuote.quote,
+  author: sharedQuote.author,
+  title: sharedQuote.title,
+  company: sharedQuote.company
+});
+const linkedCaseStudy = industryCaseStudies.length === 0 && industry.sharedCaseStudySlug
+  ? getCaseStudyBySlug(industry.sharedCaseStudySlug)
+  : undefined;
 
 // Icon SVGs for industry
 const icons: Record<string, string> = {
@@ -167,15 +181,18 @@ const icons: Record<string, string> = {
     </section>
 
     <!-- Testimonial Section (if available) -->
-    {industry.testimonial && (
+    {pageQuote && (
       <section class="testimonial-section">
         <Card variant="testimonial" class="testimonial-card">
-          <blockquote>"{industry.testimonial.quote}"</blockquote>
+          <blockquote>"{pageQuote.quote}"</blockquote>
           <cite>
-            <strong>{industry.testimonial.author}</strong>
-            <span>{industry.testimonial.title}{industry.testimonial.company && `, ${industry.testimonial.company}`}</span>
+            <strong>{pageQuote.author}</strong>
+            <span>{pageQuote.title}{pageQuote.company && `, ${pageQuote.company}`}</span>
           </cite>
         </Card>
+        {linkedCaseStudy && (
+          <a href={`/case-studies/${linkedCaseStudy.slug}/`} class="testimonial-case-link">Read the {linkedCaseStudy.client} case study</a>
+        )}
       </section>
     )}
 
@@ -578,6 +595,19 @@ const icons: Record<string, string> = {
   /* Testimonial */
   .testimonial-section {
     margin-bottom: 60px;
+  }
+
+  .testimonial-case-link {
+    display: block;
+    width: fit-content;
+    margin: 16px auto 0;
+    color: var(--oceanic-teal);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .testimonial-case-link:hover {
+    text-decoration: underline;
   }
 
   /* Multi-Location Section */

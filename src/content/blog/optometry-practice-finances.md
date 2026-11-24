@@ -17,14 +17,23 @@ keywords:
   - practice management
   - healthcare
 cluster: starting-practice
-ctaTheme: finance_profit  # finance-intent routing
+ctaTheme: practice_finance  # books, margins and cash: matches the guide and its accounting queries
 category: Practice Management
 relatedPosts:
   - optometry-practice-staffing
   - optometry-practice-location
   - optometric-practice-equipment
   - optometry-private-practice
+faqs:
+  - question: "What should optometrists look for in an accountant?"
+    answer: "A CPA who specializes in healthcare practices understands optometry billing, common deductions, and benchmark ratios for the specialty, while generic accountants may miss industry-specific opportunities. Meet quarterly, not just at tax time."
+  - question: "Which numbers should accounting for an optometry practice track?"
+    answer: "Track revenue per patient visit, optical capture rate, cost of goods sold, and overhead ratio. This guide puts healthy optical COGS at 25-35% of optical revenue and healthy overhead at 55-65% of revenue."
+  - question: "What bookkeeping habits keep an optometry practice's cash flow healthy?"
+    answer: "Revenue recognized is not cash received, so map when major expenses hit through the year and build reserves for them. Submit claims within 24 hours of service, follow up on unpaid claims at 30 days, not 60, and collect patient portions at the time of service whenever possible."
 ---
+
+Strong optometry practice finances come from a few connected systems: track revenue per patient, optical capture rate, COGS, and overhead ratio, and maximize revenue before cutting costs. Then manage cash flow actively, with faster collections and adequate reserves.
 
 ## Optometry Practice Finances: A Complete Guide to Building a Profitable Practice
 
@@ -115,7 +124,7 @@ The expense side of optometry practice finances requires surgical precision. Cut
 
 ### How Do You Manage Staffing Costs?
 
-Labor typically represents 25-30% of practice revenue. This includes salaries, benefits, payroll taxes, and training costs.
+Labor typically represents 25-30% of practice revenue (see [MyBCAT pricing](/pricing/)). This includes salaries, benefits, payroll taxes, and training costs.
 
 Analyze productivity metrics for each role. How many patients can your front desk team check in per hour? How efficiently does your optical staff convert prescriptions to sales? Identify bottlenecks and address them through training or workflow improvements before adding headcount.
 
