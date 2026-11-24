@@ -40,7 +40,7 @@ Optometry practice broker selection determines whether your multi-location portf
 
 ## Why Does Broker Selection Matter for Multi-Location Groups?
 
-The difference between a generalist business broker and a specialized optometry practice broker becomes magnified when operating at scale. A single-location owner selling their practice faces different challenges than a regional group divesting three underperforming locations or a PE-backed platform acquiring eight practices to consolidate a market.
+The difference between a generalist business broker and a specialized optometry practice broker becomes magnified when operating at scale. A single-location owner [selling their practice](/optometry-practice-transitions/) faces different challenges than a regional group divesting three underperforming locations or a PE-backed platform acquiring eight practices to consolidate a market.
 
 ### The Enterprise Complexity Factor
 
@@ -417,7 +417,7 @@ The difference between adequate and excellent broker selection compounds across 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
   <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Managing M&A Due Diligence for an Optometry Practice of Any Size?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">See how enterprise optometry groups use centralized intake operations to command premium valuations and accelerate due diligence timelines.</p>
-  <a href="/contact/" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Book a Short Discovery Call →</a>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">If you are thinking about selling, start with a confidential conversation about fit and timing, or <a href="/contact/" style="color: #ffffff; text-decoration: underline;">talk to our team</a> about the front-office work buyers review.</p>
+  <a href="/optometry-practice-transitions/" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Start a Confidential Conversation →</a>
 </div>
 <!-- End MyBCAT CTA Section -->

@@ -29,7 +29,7 @@ relatedPosts:
   - the-complete-guide-to-running-a-private-optometric-practice
 ---
 
-Selling an optometry practice is an exit-planning process, not just a valuation exercise. Buyers look at risk, transferability, diligence readiness, and whether the business can operate without the owner. Two practices with similar revenue can receive very different offers depending on documentation, staff structure, growth trend, and post-close integration risk.
+[Selling an optometry practice](/optometry-practice-transitions/) is an exit-planning process, not just a valuation exercise. Buyers look at risk, transferability, diligence readiness, and whether the business can operate without the owner. Two practices with similar revenue can receive very different offers depending on documentation, staff structure, growth trend, and post-close integration risk.
 
 **Quick takeaways for optometrists considering a sale:**
 Start preparing **1-3 years** before you want to sell--earlier is better. Buyers evaluate more than headline multiples: they care about clean financials, staff depth, retention, lease terms, and operational documentation. Individual buyers, PE firms, and strategic acquirers each bring different priorities and tradeoffs. Deal structure (asset vs. stock sale) can change your after-tax outcome as much as the offer price itself.
@@ -427,7 +427,7 @@ Start earlier than you think you need to. Document more than you think matters. 
 
 The practices that command premium offers in 2025-2026 are the ones that look transferable, predictable, and professionally operated. If your practice depends entirely on you--for patient relationships, for daily decisions, for answering the phones--that's the first thing to fix.
 
-Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
+If you are thinking about selling, [start with a confidential conversation](/optometry-practice-transitions/) about fit and timing, or [talk to our team](/contact/) about the front-office work buyers review.
 
 ## Sources
 

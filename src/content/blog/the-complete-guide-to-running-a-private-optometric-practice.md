@@ -49,7 +49,7 @@ Begin with a consistent chart of accounts, a monthly close calendar, and a small
 
 The purpose of the budget is not to force every site to hit the same ratio. It is to identify where a variance requires explanation. Newer sites may need different staffing and marketing assumptions than established sites. A location with a different payer mix may collect on a different timeline. Leaders should document those differences, assign an owner to each material variance, and revisit the assumption in the next planning cycle.
 
-For broader operating guidance, the [MyBCAT practice-growth blog](/blog/) covers the related financial and access decisions that affect a healthcare group as it expands. If an owner is evaluating a sale or acquisition, the [optometry practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/) explains why buyers examine earnings quality and operational transferability, not revenue alone.
+For broader operating guidance, the [MyBCAT practice-growth blog](/blog/) covers the related financial and access decisions that affect a healthcare group as it expands. If an owner is [evaluating a sale](/optometry-practice-transitions/) or acquisition, the [optometry practice valuation guide](/blog/the-optometric-practice-valuation-guide-for-buyers-and-sellers/) explains why buyers examine earnings quality and operational transferability, not revenue alone.
 
 ## How Should a Group Manage Revenue Cycle and Capacity?
 
@@ -141,9 +141,9 @@ Running a private optometry group well means building an operation that patients
 
 <!-- MyBCAT CTA Section -->
 <div style="background: linear-gradient(135deg, #0A1628 0%, #9B6B3F 100%); padding: 40px; border-radius: 12px; text-align: center; margin: 40px 0;">
-  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Ready to Improve Your Patient Retention?</h3>
-  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">MyBCAT helps healthcare practices recapture missed calls and automate patient scheduling so no opportunity slips through the cracks.</p>
-  <button onclick="if(typeof openHubSpotModal === 'function') { openHubSpotModal(); } else { window.location.href='/contact/'; }" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em;">Schedule a Consultation Today</button>
+  <h3 style="color: #ffffff; font-size: 28px; margin-bottom: 16px;">Thinking About Selling Your Practice?</h3>
+  <p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 24px;">If you are thinking about selling, start with a confidential conversation about fit and timing, or <a href="/contact/" style="color: #ffffff; text-decoration: underline;">talk to our team</a> about the front-office work buyers review.</p>
+  <a href="/optometry-practice-transitions/" style="background: linear-gradient(135deg, #C49A6C 0%, #B17E4F 100%); color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; display: inline-block;">Start a Confidential Conversation</a>
 </div>
 <!-- End MyBCAT CTA Section -->
 
