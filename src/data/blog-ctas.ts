@@ -19,6 +19,7 @@ export type FunnelTheme =
   | 'finance_open'    // opening/building a practice or location (Cold-Start / Growth Builder) -> remote front-office service
   | 'finance_profit'  // margin-stressed owner of an existing practice -> practice profit audit
   | 'finance_seller'  // Exit Strategist: raise value before listing (advisor stance, not acquirer)
+  | 'finance_service' // practice finances page: fuller schedule (top line), lower front-desk labor cost (bottom line)
   | 'acquisition_transition'
   // Cluster themes for any optometry owner, solo practices included.
   | 'practice_finance' // practice-finance cluster: books, margins, cash
@@ -147,6 +148,22 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
       'A practice profit audit gives you a buyer\'s-eye view of your operations: phone answer rate, recall, scheduling, and where value is leaking. Fix it on your timeline, not theirs.',
     endButtonText: 'Get the Practice Profit Audit',
     endButtonHref: utm('finance-seller', 'post-cta'),
+  },
+  // Points at /optometry-practice-finances/. Copy restates that page only: no
+  // bookkeeping, accounting or tax deliverables, no figures beyond the page's own.
+  finance_service: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
+    title: 'A Better Top Line and Bottom Line',
+    description:
+      'Our remote hospitality center keeps your schedule full, and front-desk labor often costs less than staffing the same work in the office. We do all the work.',
+    buttonText: 'See How It Works',
+    buttonHref: '/optometry-practice-finances/?utm_source=blog&utm_medium=in-content-cta&utm_campaign=theme-finance-service',
+    endTitle: 'A Fuller Schedule and Lower Front-Desk Labor Cost',
+    endDescription:
+      'We run your remote front desk, so there is no assistant for you to manage. See how that helps your practice finances, then book a discovery call to work out your own numbers.',
+    endButtonText: 'See How It Helps Your Finances',
+    endButtonHref: '/optometry-practice-finances/?utm_source=blog&utm_medium=post-cta&utm_campaign=theme-finance-service',
   },
   acquisition_transition: {
     funnel: 'acquisition',

@@ -23,7 +23,7 @@ tags:
   - practice management
   - healthcare
 cluster: private-practice
-ctaTheme: operations  # the guide closes on practice operations and a discovery call
+ctaTheme: finance_service  # points at the practice finances page
 faqs:
   - question: "What should optometry practice management track?"
     answer: "Track collections rate (95%+ of net charges), overhead percentage (55-65% of collections), average revenue per patient, optical capture rate, contact lens capture, and days in accounts receivable (under 35 days) every month. Practices consistently missing these targets need operational intervention, not just harder work."
@@ -250,7 +250,7 @@ Start with the fundamentals: choose your location carefully, equip efficiently, 
 
 ---
 
-*Ready to improve your practice operations? [Schedule a discovery call](https://mybcat.com/contact/) to learn how MyBCAT can help.*
+*Ready to improve your practice operations? See [how MyBCAT helps practice finances](/optometry-practice-finances/), or [schedule a discovery call](https://mybcat.com/contact/) to learn how MyBCAT can help.*
 ---
 
 ## Related Reading

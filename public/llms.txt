@@ -15,6 +15,7 @@
 - Virtual medical assistant: insurance verification, referral coordination and prior authorization processing: https://mybcat.com/solutions/medical-virtual-assistant/
 - Virtual medical scribe: remote documentation support for clinical encounters: https://mybcat.com/solutions/virtual-medical-scribe/
 - EHR and PM system integrations: https://mybcat.com/solutions/integrations/
+- Practice finances: a remote team keeps the schedule full and lowers front-desk labor cost; we manage the team and do not do tax work at this time: https://mybcat.com/optometry-practice-finances/
 
 ## Pricing
 - Plans start at $10/hr: https://mybcat.com/pricing/

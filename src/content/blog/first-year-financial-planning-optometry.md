@@ -21,7 +21,7 @@ tags:
 featuredImage: /images/blog/first-year-financial-planning-optometry.webp
 canonical: 'https://mybcat.com/blog/first-year-financial-planning-optometry/'
 cluster: starting-practice
-ctaTheme: finance_open  # finance-intent routing (new-practice opener, QA-003)
+ctaTheme: finance_service  # points at the practice finances page
 relatedPosts: []
 faqs:
   - question: "What bookkeeping does a new optometry practice need?"
@@ -326,7 +326,7 @@ As year one ends, plan for year two:
 
 Year two should be the year of profitability and stability, setting up year three and beyond for growth and owner wealth building.
 
-Keeping every appointment slot filled starts with answering every call. [Talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
+Keeping every appointment slot filled starts with answering every call. See [how MyBCAT helps practice finances](/optometry-practice-finances/), or [talk to our team](/contact/) about how MyBCAT helps optometry practices capture more patients and reduce revenue leakage.
 
 ## Next Steps
 
