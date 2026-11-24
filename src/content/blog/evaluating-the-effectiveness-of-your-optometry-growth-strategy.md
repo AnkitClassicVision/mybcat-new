@@ -96,7 +96,7 @@ Patient feedback adds the context that operational reports cannot. Review survey
 
 Financial evaluation should connect back to the workflow. Review scheduled and completed visits alongside the labor required to support them, then look for avoidable rework: repeat contacts, unworked callbacks, inaccurate bookings, or manual correction after intake. This makes the conversation more useful than a broad review of revenue and expenses. It helps leadership determine whether a problem is demand, capacity, process design, or reporting quality.
 
-Benchmarking can be helpful when it frames questions rather than dictates targets. Compare operating definitions, trends, and site variation first. Then use outside benchmarks to challenge assumptions. MGMA's data and analytics resources are one possible starting point for organizations that want broader practice-management context without replacing their own baseline.[^mgma-data]
+Benchmarking can be helpful when it frames questions rather than dictates targets. Compare operating definitions, trends, and site variation first. Then use [outside benchmarks](/optometry-analysis/) to challenge assumptions. MGMA's data and analytics resources are one possible starting point for organizations that want broader practice-management context without replacing their own baseline.[^mgma-data]
 
 ## How Should You Evaluate Staffing and Technology Capacity?
 

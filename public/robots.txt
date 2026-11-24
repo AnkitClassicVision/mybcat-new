@@ -1,10 +1,10 @@
 # robots.txt for mybcat.com
 # Consolidated rules for all crawlers
 
-# Content Signals (https://contentsignals.org/): allow search indexing,
-# disallow AI training and AI input (RAG / generative answers).
+# Content Signals (https://contentsignals.org/): allow search indexing and
+# AI input (RAG / generative answers that cite pages), disallow AI training.
 User-agent: *
-Content-Signal: ai-train=no, search=yes, ai-input=no
+Content-Signal: ai-train=no, search=yes, ai-input=yes
 Allow: /
 
 # Block non-public paths
@@ -19,7 +19,7 @@ Allow: /api/public/
 
 # OpenAI
 User-agent: OAI-SearchBot
-Content-Signal: ai-train=no, search=yes, ai-input=no
+Content-Signal: ai-train=no, search=yes, ai-input=yes
 Allow: /
 Disallow: /draft/
 Disallow: /admin/
@@ -29,7 +29,40 @@ Disallow: /api/
 Allow: /api/public/
 
 User-agent: GPTBot
-Content-Signal: ai-train=no, search=yes, ai-input=no
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Allow: /
+Disallow: /draft/
+Disallow: /admin/
+Disallow: /preview/
+Disallow: /search
+Disallow: /api/
+Allow: /api/public/
+
+# Anthropic
+User-agent: ClaudeBot
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Allow: /
+Disallow: /draft/
+Disallow: /admin/
+Disallow: /preview/
+Disallow: /search
+Disallow: /api/
+Allow: /api/public/
+
+# Perplexity
+User-agent: PerplexityBot
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Allow: /
+Disallow: /draft/
+Disallow: /admin/
+Disallow: /preview/
+Disallow: /search
+Disallow: /api/
+Allow: /api/public/
+
+# Google (Gemini use of content Google crawls)
+User-agent: Google-Extended
+Content-Signal: ai-train=no, search=yes, ai-input=yes
 Allow: /
 Disallow: /draft/
 Disallow: /admin/
