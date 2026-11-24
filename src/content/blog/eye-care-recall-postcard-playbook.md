@@ -5,9 +5,8 @@ description: Build a multi-location eye care recall postcard workflow with clear
   mailing rules, privacy preferences, scheduling handoffs, and reporting.
 seoDescription: Build a multi-location eye care recall postcard workflow with clear
   ownership, mailing rules, privacy preferences, scheduling handoffs, and reporting.
-publishDate: '2026-10-23'
-status: scheduled
-scheduledDate: '2026-10-23'
+publishDate: '2026-11-24'
+status: published
 author: Ankit Patel
 tags:
 - eye care recall postcard playbook
