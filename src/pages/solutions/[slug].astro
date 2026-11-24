@@ -15,6 +15,8 @@ import { getCaseStudiesBySolution } from '@data/case-studies';
 import { faqs } from '@data/faq';
 import { testimonials } from '@data/testimonials';
 import { generateFAQSchema, serializeSchema } from '@utils/schema';
+import { discoveryBookingHref } from '@data/navigation';
+import { BOOKING_LABEL } from '@utils/booking.mjs';
 
 export function getStaticPaths() {
   return solutions.map(solution => ({
@@ -85,12 +87,13 @@ const relatedCaseStudies = getCaseStudiesBySolution(solution.slug);
         </div>
         <span class="hero-tagline">{solution.tagline}</span>
         <h1>{solution.headline}</h1>
-        <p class="tldr"><strong>TL;DR:</strong> {solution.tldr}</p>
-        <p class="hero-description">{solution.description}</p>
         <div class="hero-cta">
-          <Button href="/contact/">Get Started</Button>
+          <Button href={discoveryBookingHref(`${solution.slug}-hero`)}>{BOOKING_LABEL}</Button>
+          <Button href="/contact/" variant="secondary">Get Started</Button>
           <a href="#how-it-works" class="text-link">See how it works</a>
         </div>
+        <p class="tldr"><strong>TL;DR:</strong> {solution.tldr}</p>
+        <p class="hero-description">{solution.description}</p>
       </div>
     </section>
 
@@ -310,7 +313,8 @@ const relatedCaseStudies = getCaseStudiesBySolution(solution.slug);
       <CTA
         title={`Ready for ${solution.name}?`}
         description="Book a discovery call to learn how we can help your practice."
-        buttonText="Schedule a Call"
+        buttonText={BOOKING_LABEL}
+        buttonHref={discoveryBookingHref(`${solution.slug}-cta`)}
       />
     </section>
 
@@ -406,6 +410,7 @@ const relatedCaseStudies = getCaseStudiesBySolution(solution.slug);
     gap: 24px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 32px;
   }
 
   .text-link {

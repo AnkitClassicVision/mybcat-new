@@ -8,7 +8,9 @@
  *
  * CTA hrefs carry UTM params so the native contact flow attributes each theme.
  * When the Free Phone & Staffing Analysis page ships, update the hrefs here once.
+ * Discovery-call buttons go through the one booking route (src/utils/booking.mjs).
  */
+import { discoveryBookingHref } from './navigation';
 
 export type FunnelTheme =
   | 'recall_fill_book'
@@ -119,7 +121,7 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     endDescription:
       'MyBCAT covers the calls and scheduling for your new practice from day one, so the book fills while your local team stays small and focused on the patients in the chair.',
     endButtonText: 'Book a Discovery Call',
-    endButtonHref: utm('finance-open', 'post-cta'),
+    endButtonHref: discoveryBookingHref('blog-end'),
   },
   finance_profit: {
     funnel: 'service',
@@ -185,13 +187,13 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     title: 'Know Your Books, Margins, and Cash',
     description:
       'You do not need a finance team to see where your practice earns and where it leaks. Start with a short call about your books, your margins, and your cash flow.',
-    buttonText: 'Book a Short Discovery Call',
-    buttonHref: utm('practice-finance', 'in-content-cta'),
+    buttonText: 'Book a Discovery Call',
+    buttonHref: discoveryBookingHref('blog-mid'),
     endTitle: 'Get Clear on Your Practice Numbers',
     endDescription:
       'Whether you run one practice or several, the questions are the same: are the books current, which lines hold margin, and how much cash is left after payroll and bills. A short discovery call is a good place to start.',
-    endButtonText: 'Book a Short Discovery Call',
-    endButtonHref: utm('practice-finance', 'post-cta'),
+    endButtonText: 'Book a Discovery Call',
+    endButtonHref: discoveryBookingHref('blog-end'),
   },
   ai_projects: {
     funnel: 'service',
@@ -199,13 +201,13 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     title: 'Thinking About AI for Your Practice?',
     description:
       'Start with one job: the front desk, the phones, or a scribe. A small first project shows what works in your practice before you commit to anything bigger.',
-    buttonText: 'Book a Short Discovery Call',
-    buttonHref: utm('ai-projects', 'in-content-cta'),
+    buttonText: 'Book a Discovery Call',
+    buttonHref: discoveryBookingHref('blog-mid'),
     endTitle: 'Pick the First AI Project for Your Practice',
     endDescription:
       'Front desk, phones, or a scribe: choose one first project that fits your team and your patients. A short discovery call is a good place to begin.',
-    endButtonText: 'Book a Short Discovery Call',
-    endButtonHref: utm('ai-projects', 'post-cta'),
+    endButtonText: 'Book a Discovery Call',
+    endButtonHref: discoveryBookingHref('blog-end'),
   },
   operations: {
     funnel: 'service',
@@ -214,12 +216,12 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     description:
       'HIPAA-trained remote teams answer every call for 30+ optometry practices: scheduling, insurance verification, and recall, with QA you can inspect.',
     buttonText: 'Book a Discovery Call',
-    buttonHref: utm('operations', 'in-content-cta'),
+    buttonHref: discoveryBookingHref('blog-mid'),
     endTitle: 'See the Operation Behind 30+ Practices',
     endDescription:
       'Coverage, cost, and QA in one 20-minute walkthrough. If it is not a fit, you keep the benchmarks.',
     endButtonText: 'Book a Discovery Call',
-    endButtonHref: utm('operations', 'post-cta'),
+    endButtonHref: discoveryBookingHref('blog-end'),
   },
   default: {
     funnel: 'service',

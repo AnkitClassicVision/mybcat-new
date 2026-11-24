@@ -15,9 +15,11 @@ import { serializeSchema } from '@utils/schema';
 import { company } from '@data/company';
 import { testimonials } from '@data/testimonials';
 import { discoveryBookingHref } from '@data/navigation';
+import { BOOKING_LABEL } from '@utils/booking.mjs';
 
 const pageUrl = `${company.site.url}/optometry-practice-finances/`;
-const bookingHref = discoveryBookingHref('optometry-practice-finances');
+const heroBookingHref = discoveryBookingHref('finances-hero');
+const ctaBookingHref = discoveryBookingHref('finances-cta');
 
 // Existing quotes, looked up by author so the text and attribution are never retyped.
 const quoteBy = (author: string) => {
@@ -83,7 +85,7 @@ const serviceSchema = {
   <script slot="head" is:inline type="application/ld+json" set:html={serializeSchema(serviceSchema)} />
 
   <div class="finance-page">
-    <p class="hero-action"><a class="start-link" href={bookingHref}>Book a discovery call</a></p>
+    <p class="hero-action"><a class="start-link" href={heroBookingHref}>{BOOKING_LABEL}</a></p>
 
     <p class="audience-line">For optometry practices of any size, from one location to several.</p>
 
@@ -123,8 +125,8 @@ const serviceSchema = {
       <CTA
         title="Start With a Discovery Call"
         description="We talk through your schedule, staffing, and costs with you, so you can see your own numbers."
-        buttonText="Book a Discovery Call"
-        buttonHref={bookingHref}
+        buttonText={BOOKING_LABEL}
+        buttonHref={ctaBookingHref}
       />
     </section>
   </div>

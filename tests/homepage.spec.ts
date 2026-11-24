@@ -29,7 +29,7 @@ test.describe('Homepage', () => {
     const discoveryCta = page.getByRole('link', { name: 'Book Your Discovery Call' });
     await expect(discoveryCta).toHaveAttribute(
       'href',
-      '/book/discovery?utm_source=site&utm_content=home'
+      '/book/discovery?src=home-cta'
     );
   });
 

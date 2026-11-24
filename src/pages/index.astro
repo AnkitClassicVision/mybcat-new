@@ -16,6 +16,7 @@ import LogoMarquee from '@/components/sections/LogoMarquee.astro';
 import { testimonials } from '@data/testimonials';
 import { getFAQsByCategory } from '@data/faq';
 import { discoveryBookingHref } from '@data/navigation';
+import { BOOKING_LABEL } from '@utils/booking.mjs';
 
 // Process steps
 const processSteps = [
@@ -76,8 +77,8 @@ const clientLogos = [
       description="Whether you run one practice or several, we book directly into Eyefinity, RevolutionEHR, and other eye care systems. Consistent patient experience. No staffing headaches."
       ctaText="Get Started"
       ctaHref="/contact/"
-      secondaryText="See How It Works"
-      secondaryHref="/how-it-works/"
+      secondaryText={BOOKING_LABEL}
+      secondaryHref={discoveryBookingHref('home-hero')}
       showBrand={true}
       benefits={[
         { icon: 'check', text: 'Insurance verifications' },
@@ -352,7 +353,7 @@ const clientLogos = [
       title="Give Your Front Desk the Backup They Deserve"
       description="Stop choosing between the patient in front of you and the one on the phone. Book a discovery call to see how we can capture every call and fill every slot."
       buttonText="Book Your Discovery Call"
-      buttonHref={discoveryBookingHref('home')}
+      buttonHref={discoveryBookingHref('home-cta')}
     />
   </main>
 </BaseLayout>

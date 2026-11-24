@@ -31,7 +31,7 @@ test.describe('Navigation', () => {
     await expect(page).toHaveURL(/contact/);
   });
 
-  test('header CTA books a 20-min discovery call', async ({ page }) => {
+  test('header CTA books a discovery call', async ({ page }) => {
     await page.goto('/');
     const viewport = page.viewportSize();
     const isCompact = Boolean(viewport && viewport.width <= 1024);
@@ -44,11 +44,8 @@ test.describe('Navigation', () => {
     }
 
     await expect(headerCta).toBeVisible();
-    await expect(headerCta).toHaveText('Book a 20-min call');
-    await expect(headerCta).toHaveAttribute(
-      'href',
-      '/book/discovery?utm_source=site&utm_content=header'
-    );
+    await expect(headerCta).toHaveText('Book a Discovery Call');
+    await expect(headerCta).toHaveAttribute('href', '/book/discovery?src=header');
   });
 
   test("resources nav item reads Ankit's Book", async ({ page }) => {

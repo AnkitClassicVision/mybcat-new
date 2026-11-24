@@ -7,6 +7,8 @@ import RelatedPosts from '@/components/blog/RelatedPosts.astro';
 import FAQ from '@/components/sections/FAQ.astro';
 import { bodyHasFaqSchema, splitBeforeSources } from '@utils/blog-faq.mjs';
 import { getBlogCta } from '@data/blog-ctas';
+import { discoveryBookingHref } from '@data/navigation';
+import { BOOKING_LABEL } from '@utils/booking.mjs';
 import { isPostVisible } from '@utils/blog';
 import { generateArticleSchema, generateBreadcrumbSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
@@ -142,6 +144,9 @@ const authorInfo = authorData[author] || { role: '', image: '' };
 	      </div>
       <h1 class="post-title" itemprop="headline">{title}</h1>
       <p class="post-description" itemprop="description">{description}</p>
+      {funnel !== 'acquisition' && (
+        <p class="post-booking"><a class="post-booking-cta" href={discoveryBookingHref('blog-top')}>{BOOKING_LABEL}</a></p>
+      )}
       <div class="post-author">
         {authorInfo.image ? (
           <img src={authorInfo.image} alt={author} class="author-avatar-img" width="48" height="48" loading="eager" />
@@ -456,6 +461,25 @@ const authorInfo = authorData[author] || { role: '', image: '' };
     color: var(--text-secondary);
     line-height: 1.6;
     margin-bottom: 24px;
+  }
+
+  /* First-screen discovery-call link for service posts (src/utils/booking.mjs). */
+  .post-booking {
+    margin: -8px 0 24px;
+  }
+
+  .post-booking-cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--oceanic-teal);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+
+  .post-booking-cta:hover {
+    background: var(--navy-900);
   }
 
   .post-author {
