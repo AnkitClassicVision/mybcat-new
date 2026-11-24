@@ -7,8 +7,8 @@
 import PageLayout from '@/layouts/PageLayout.astro';
 
 const CALENDAR_URL = 'https://calendar.app.google/PLDmK4QwpdSqkxmb8';
-const title = 'Book your 20-minute discovery call | MyBCAT';
-const description = 'Tell us how you heard about MyBCAT, then pick a time for a 20-minute discovery call.';
+const title = 'Book your discovery call | MyBCAT';
+const description = 'Tell us how you heard about MyBCAT, then pick a time for a discovery call.';
 
 const lanes = [
   { value: 'podcast', label: 'Optometrists Building Empires (podcast)' },
@@ -34,20 +34,20 @@ const lanes = [
   showBreadcrumb={false}
 >
   <div class="discovery-page">
-    <h1>Book your 20-minute discovery call</h1>
+    <h1>Book your discovery call</h1>
     <p class="lede">Tell us how you heard about us, then pick a time.</p>
 
     <div class="form-field">
       <label for="hear-about-us">
-        How did you hear about us? <span class="required-mark" aria-hidden="true">*</span>
+        How did you hear about us?
       </label>
-      <select id="hear-about-us" name="lane" autocomplete="off">
+      <select id="hear-about-us" aria-describedby="source-hint" name="lane" autocomplete="off">
         <option value="">Select an option</option>
         {lanes.map((lane) => (
           <option value={lane.value}>{lane.label}</option>
         ))}
       </select>
-      <p class="hint">You can skip this.</p>
+      <p id="source-hint" class="hint">Optional. You can skip this.</p>
     </div>
 
     <div id="other-wrap" class="form-field" hidden>
@@ -99,10 +99,6 @@ const lanes = [
     font-size: 14px;
     font-weight: 600;
     color: var(--navy-900);
-  }
-
-  .required-mark {
-    color: var(--oceanic-teal);
   }
 
   .hint {
@@ -185,7 +181,6 @@ const lanes = [
 
 <script is:inline>
 (function () {
-  const CALENDAR_URL = 'https://calendar.app.google/PLDmK4QwpdSqkxmb8';
   const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content'];
   const SESSION_KEY = 'mybcat_booking_utm';
   const FIRST_TOUCH_KEY = 'mybcat_booking_first_touch';
@@ -345,15 +340,17 @@ const lanes = [
     }
   }
 
-  function continueToCalendar(event) {
-    if (event) event.preventDefault();
+  function recordSelection() {
     const fromUrl = readUrlUtms();
     const utms = Object.keys(fromUrl).length ? fromUrl : readStoredUtms();
     const record = buildRecord(currentLane(), utms);
     writeSession(record);
     writeFirstTouch(record);
-    capture(record);
-    window.location.assign(CALENDAR_URL);
+    try {
+      capture(record);
+    } catch {
+      // Analytics is best effort. Let the link handle navigation.
+    }
   }
 
   const fromUrl = readUrlUtms();
@@ -365,7 +362,7 @@ const lanes = [
     toggleOther();
   }
 
-  if (continueLink) continueLink.addEventListener('click', continueToCalendar);
-  if (fallbackLink) fallbackLink.addEventListener('click', continueToCalendar);
+  if (continueLink) continueLink.addEventListener('click', recordSelection);
+  if (fallbackLink) fallbackLink.addEventListener('click', recordSelection);
 })();
 </script>
