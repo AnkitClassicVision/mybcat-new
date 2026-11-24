@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     question: 'How much does MyBCAT cost compared with an in-office receptionist?',
-    answer: 'Our pricing page lists plans starting at $10/hr and puts a full-time receptionist at $45,000+ a year. By our own estimate, the same work often costs about half as much with us. Your numbers will differ, and a discovery call works them out.'
+    answer: 'Our pricing page lists plans starting at $10/hr and puts a full-time receptionist at $45,000+ a year for 40 hours a week. By our own estimate, the same work often costs about half as much with us. Your numbers will differ, and a discovery call works them out.'
   },
   {
     question: 'Is MyBCAT a virtual assistant staffing agency?',
@@ -61,7 +61,7 @@ const serviceSchema = {
   '@type': 'Service',
   '@id': `${pageUrl}#service`,
   name: 'Remote hospitality center for optometry practices',
-  description: 'A remote team that keeps an optometry practice schedule full and runs front-desk work, managed end to end by MyBCAT.',
+  description: 'A remote team that works to keep an optometry practice schedule full and runs front-desk work, managed end to end by MyBCAT.',
   serviceType: 'Remote front-desk operations',
   provider: { '@id': `${company.site.url}/#organization` },
   areaServed: { '@type': 'Country', name: 'United States' },
@@ -70,7 +70,7 @@ const serviceSchema = {
 ---
 
 <PageLayout
-  title="Optometry Practice Finances: Top and Bottom Line | MyBCAT"
+  title="Optometry Front Desk: Fuller Schedule, Lower Cost | MyBCAT"
   description="How MyBCAT helps optometry practices of any size: a fuller schedule for the top line and lower front-desk labor cost for the bottom line. We do all the work."
   breadcrumbs={[
     { name: 'Home', url: '/' },
@@ -78,7 +78,7 @@ const serviceSchema = {
   ]}
   heroEyebrow="Practice Finances"
   heroTitle="A Better Top Line and Bottom Line for Your Optometry Practice"
-  heroSubtitle="Our remote hospitality center keeps your schedule full, and by our own estimate the front-desk labor often costs about half as much as staffing the same work in the office. We do all the work, so there is no assistant for you to manage."
+  heroSubtitle="Our remote hospitality center works to keep your schedule full, and by our own estimate the front-desk labor often costs less than staffing the same work in the office. We do all the work, so there is no assistant for you to manage."
 >
   <script slot="head" is:inline type="application/ld+json" set:html={serializeSchema(serviceSchema)} />
 
@@ -90,14 +90,14 @@ const serviceSchema = {
     <section class="finance-section" aria-labelledby="top-line-title">
       <p class="section-label">Top line</p>
       <h2 id="top-line-title">A fuller schedule</h2>
-      <p>Our remote hospitality center keeps your schedule full. The team answers your calls and books appointments directly into your EHR. Depending on your plan, it also runs appointment confirmations, <a href="/solutions/patient-recall/">patient recalls</a>, and insurance verifications.</p>
+      <p>Our remote hospitality center works to keep your schedule full. The team answers your calls and books appointments directly into your EHR. Depending on your plan, it also runs appointment confirmations, <a href="/solutions/patient-recall/">patient recalls</a>, and insurance verifications.</p>
       <p>Coverage runs from business hours to 24/7. See <a href="/solutions/no-show-recovery/">no-show recovery</a> for how missed appointments get followed up.</p>
     </section>
 
     <section class="finance-section" aria-labelledby="bottom-line-title">
       <p class="section-label">Bottom line</p>
       <h2 id="bottom-line-title">Lower front-desk labor cost</h2>
-      <p>Our <a href="/pricing/">pricing page</a> compares a full-time receptionist, at $45,000+ a year with salary, benefits, and training, with MyBCAT plans starting at $10/hr.</p>
+      <p>Our <a href="/pricing/">pricing page</a> compares a full-time receptionist, at $45,000+ a year with salary, benefits, and training for 40 hours a week, with MyBCAT plans starting at $10/hr.</p>
       <p>By our own estimate, the same front-desk work often costs about half as much with us as it does in the office. Your numbers will differ, so a discovery call works them out for your practice.</p>
       <Quote quote={profitQuote.quote} author={profitQuote.author} title={[profitQuote.title, profitQuote.company].filter(Boolean).join(', ')} />
     </section>

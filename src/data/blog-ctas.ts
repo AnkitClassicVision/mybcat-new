@@ -156,7 +156,7 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
     ctaId: 'service-fit-review',
     title: 'A Better Top Line and Bottom Line',
     description:
-      'Our remote hospitality center keeps your schedule full, and front-desk labor often costs less than staffing the same work in the office. We do all the work.',
+      'Our remote hospitality center works to keep your schedule full, and front-desk labor often costs less than staffing the same work in the office. We do all the work.',
     buttonText: 'See How It Works',
     buttonHref: '/optometry-practice-finances/?utm_source=blog&utm_medium=in-content-cta&utm_campaign=theme-finance-service',
     endTitle: 'A Fuller Schedule and Lower Front-Desk Labor Cost',

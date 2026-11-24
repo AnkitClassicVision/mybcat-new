@@ -32,6 +32,28 @@ test('the deliverable check flags bookkeeping and tax wording but allows the sco
   assert.deepEqual(deliverableProblems('Tax planning saves money.'), ['tax']);
 });
 
+/** Promise wording: "keeps your schedule full". The page uses the aim form instead. */
+export function promiseProblems(text) {
+  return String(text).match(/\bkeeps\s+(?:\w+\s+){0,3}schedule\s+full\b/gi) || [];
+}
+
+test('the schedule wording states an aim, not a promise', () => {
+  assert.deepEqual(promiseProblems('Our team works to keep your schedule full.'), []);
+  assert.equal(promiseProblems('Our team keeps your schedule full.').length, 1);
+  assert.equal(promiseProblems('A team that keeps an optometry practice schedule full.').length, 1);
+  for (const file of [pageFile, 'public/llms.txt', 'src/data/blog-ctas.ts', 'src/content/blog/medical-answering-services-eye-care-guide.md']) {
+    assert.deepEqual(promiseProblems(read(file)), [], file);
+  }
+});
+
+test('the hero carries no figure, and the cost figures state their basis', () => {
+  const page = read(pageFile);
+  const hero = page.match(/heroSubtitle="([^"]+)"/)[1];
+  assert.doesNotMatch(hero, /half|\$|%/);
+  for (const sentence of page.match(/[^.>]*\$45,000\+[^.<]*\./g)) assert.match(sentence, /40 hours a week/);
+  assert.doesNotMatch(page.match(/^\s*title="([^"]+)"/m)[1], /^Optometry Practice Finances:/);
+});
+
 test('the page source has a short title, an FAQ, Service data and the discovery call', () => {
   const page = read(pageFile);
   const title = page.match(/^\s*title="([^"]+)"/m)?.[1];
