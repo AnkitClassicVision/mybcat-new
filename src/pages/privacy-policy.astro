@@ -1,5 +1,9 @@
 ---
 import Base from '@/layouts/Base.astro';
+import { company } from '@data/company';
+
+const address = company.address;
+const effectiveDate = 'November 24, 2026';
 ---
 
 <Base
@@ -10,111 +14,303 @@ import Base from '@/layouts/Base.astro';
     <div class="container">
       <header class="legal-header">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last updated: December 2024</p>
+        <p class="last-updated">Effective date: {effectiveDate}<br>Last updated: {effectiveDate}</p>
       </header>
 
       <div class="legal-content">
         <section>
-          <h2>1. Introduction</h2>
-          <p>My Business Care Team ("MyBCAT," "we," "us," or "our") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website mybcat.com or use our services.</p>
+          <h2>1. About This Policy</h2>
+          <p>My Business Care Team ("MyBCAT," "we," "us," or "our") runs mybcat.com. This policy explains what information our website collects, how we use it, and which companies receive it.</p>
+          <p>Our website is for owners and staff of healthcare practices who are looking at our services for their business.</p>
         </section>
 
         <section>
-          <h2>2. Information We Collect</h2>
-          <h3>Personal Information</h3>
-          <p>We may collect personal information that you voluntarily provide to us, including:</p>
-          <ul>
-            <li>Name and contact information (email, phone number)</li>
-            <li>Business information (practice name, role, number of locations)</li>
-            <li>Communications you send to us</li>
-            <li>Information provided when scheduling a consultation</li>
-          </ul>
-
-          <h3>Automatically Collected Information</h3>
-          <p>When you visit our website, we automatically collect certain information, including:</p>
-          <ul>
-            <li>IP address and device information</li>
-            <li>Browser type and version</li>
-            <li>Pages visited and time spent</li>
-            <li>Referral source</li>
-          </ul>
+          <h2>2. Information You Give Us</h2>
+          <p>You give us information when you fill in a form or book a call. Each form marks the fields it needs. The other fields are optional.</p>
+          <div class="table-wrap" role="region" aria-labelledby="forms-caption" tabindex="0">
+            <table>
+              <caption id="forms-caption">What each part of our site asks for</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Where</th>
+                  <th scope="col">What we ask for</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Contact page and member pages</th>
+                  <td>First and last name, work email, phone number, practice website, number of locations, and an optional message. Member pages also send a code that names the member program.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Conference event pages</th>
+                  <td>First and last name, work email, and mobile phone number.</td>
+                </tr>
+                <tr>
+                  <th scope="row">ROI calculator</th>
+                  <td>Name, work email, mobile phone number, company name, number of locations, the figures you enter, and the results the calculator shows.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Optometry practice growth study</th>
+                  <td>Practice name and practice website. Phone number and email are optional.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Practice Growth onboarding</th>
+                  <td>Practice name, city and state, website, owner name and email, the package you choose, number of offices, and notes.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Confidential practice transition inquiry</th>
+                  <td>First and last name, email, optional phone number, state, number of locations, transition timing, the role you want after a sale, and your consent choices.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Booking a call</th>
+                  <td>We use Google Calendar appointment booking. You enter your details on Google's booking page, and the booking comes to our calendar.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>With most forms, we also send the address of the page you used and the campaign values described in Section 3.</p>
+          <p><strong>Please do not send patient information, health information, passwords, or financial account details</strong> through our website forms or booking pages.</p>
         </section>
 
         <section>
-          <h2>3. How We Use Your Information</h2>
+          <h2>3. Information Collected Automatically</h2>
+          <p>When your browser loads a page, our hosting provider receives your IP address, your browser type, and the page you asked for. An IP address can show your general location.</p>
+          <h3>Analytics</h3>
+          <ul>
+            <li><strong>Vercel Web Analytics</strong> counts page views. It records the page, the website that sent you, your general location, and your device, operating system, and browser type. It does not set cookies.</li>
+            <li><strong>PostHog</strong> records page views, clicks, and events such as form starts, form sends, and booking clicks. It gives your browser a random identifier, kept in a cookie and in browser storage. PostHog can also record sessions. We set PostHog's recordings to mask form inputs.</li>
+            <li><strong>Google Tag Manager</strong> starts after your first click, tap, or key press on a page. If JavaScript is turned off in your browser, a small Google Tag Manager frame loads when the page opens instead. When a page opens, your browser may also connect to Google's tag server in advance. On November 24, 2026, Google Tag Manager loaded Google Analytics, Google Ads tags, Ahrefs Web Analytics, and Inspectlet, a session recording tool. The tools that Google Tag Manager loads can change without a change to our website code.</li>
+          </ul>
+          <p>A session recording tool may capture your interactions with a page, including form fields, unless the tool's own settings mask them. Our website code cannot show Inspectlet's settings.</p>
+          <h3>Files from other companies' servers</h3>
+          <p>Some pages load files from other companies' servers when they open: our podcast share pages load images from Amazon Web Services, and one private report page loads fonts from Google Fonts and code from unpkg. These companies receive your IP address and browser details when your browser asks for the file.</p>
+          <h3>Linking a visit to your email address</h3>
+          <p>On the optometry practice growth study page, if you give us your email address, we also send it to PostHog. PostHog then links your earlier and later visits from that browser, including any session recordings, to your email address.</p>
+          <h3>How you found us</h3>
+          <p>Our own code stores a short record of how you first found our site: the campaign source, medium, and name; the website that sent you; the first page you saw; a channel label such as "search" or "social"; and the date. It stores the same fields for your current visit. We attach some of these values to the forms you send and to booking clicks, so we can see which pages and campaigns lead to inquiries. This record holds no name or email address.</p>
+          <p>Some pages also keep a separate record, <code>mybcat_attribution_v1</code>. It holds a random ID; for your first visit and your latest visit, a source category, a medium category, a flag that shows whether the link carried a campaign name, and the page you landed on; and the last call-to-action you clicked and its topic. None of these values identifies a person by itself. Our confidential practice transition form sends this record with your inquiry.</p>
+          <h3>Tracking across websites</h3>
+          <p>Google and the other tools that Google Tag Manager loads may collect information about your online activity over time and across different websites.</p>
+        </section>
+
+        <section>
+          <h2>4. How We Use Information</h2>
           <p>We use the information we collect to:</p>
           <ul>
-            <li>Provide and improve our services</li>
-            <li>Respond to your inquiries and requests</li>
-            <li>Send you marketing communications (with your consent)</li>
-            <li>Analyze website usage and improve user experience</li>
-            <li>Comply with legal obligations</li>
+            <li>Answer your request and arrange the calls you book</li>
+            <li>Provide what a form offers, such as a growth plan or an event kit</li>
+            <li>Contact you about your inquiry and our services</li>
+            <li>Review a confidential practice transition inquiry</li>
+            <li>Understand how our site is used and improve it</li>
+            <li>See which pages, campaigns, and ads lead to inquiries and bookings</li>
           </ul>
         </section>
 
         <section>
-          <h2>4. Information Sharing</h2>
-          <p>We do not sell your personal information. We may share your information with:</p>
+          <h2>5. Who Receives Information</h2>
+          <p>These companies receive information when you use our site. This list of tools reflects our site as of the effective date of this policy.</p>
+          <div class="table-wrap" role="region" aria-labelledby="providers-caption" tabindex="0">
+            <table class="wide">
+              <caption id="providers-caption">Companies that receive information from our site</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Company</th>
+                  <th scope="col">What it does for us</th>
+                  <th scope="col">What it receives</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Vercel</th>
+                  <td>Hosts our website and runs Vercel Web Analytics. It also runs our own server function that receives the confidential practice transition form and passes it to our internal systems for follow-up.</td>
+                  <td>Request data (IP address, browser, pages), page views, and the contents of the transition form</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cloudflare</th>
+                  <td>Runs the service that receives our contact, member, event, ROI calculator, growth study, and onboarding forms</td>
+                  <td>The contents of those forms, the address of the page you sent them from, and campaign values</td>
+                </tr>
+                <tr>
+                  <th scope="row">Google</th>
+                  <td>Google Calendar booking pages, Google Tag Manager, Google Analytics, and Google Ads. On some pages, fonts are loaded from Google Fonts.</td>
+                  <td>The details you enter when you book; and pages viewed, device and browser data, IP address, and cookie identifiers</td>
+                </tr>
+                <tr>
+                  <th scope="row">PostHog</th>
+                  <td>Product analytics and session recordings</td>
+                  <td>Page views, clicks, form and booking events, campaign values, device and browser data, IP address, a random identifier, session recordings with form inputs masked, and on one page your email address</td>
+                </tr>
+                <tr>
+                  <th scope="row">Inspectlet</th>
+                  <td>Session recordings, loaded by Google Tag Manager</td>
+                  <td>Pages viewed, your interactions with the page (which may include form fields), and device and browser data</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ahrefs</th>
+                  <td>Website traffic analytics, loaded by Google Tag Manager</td>
+                  <td>Page views, the website that sent you, and device and browser data</td>
+                </tr>
+                <tr>
+                  <th scope="row">YouTube (Google)</th>
+                  <td>Plays the video on our home page, only if you press play</td>
+                  <td>Device and browser data and your viewing activity</td>
+                </tr>
+                <tr>
+                  <th scope="row">Amazon Web Services</th>
+                  <td>Stores the images on our podcast share pages</td>
+                  <td>IP address and browser details when a page loads a file it hosts</td>
+                </tr>
+                <tr>
+                  <th scope="row">unpkg (an open source project; its site says its files are served from Cloudflare's network)</th>
+                  <td>Serves a code file used by one private report page</td>
+                  <td>IP address and browser details when a page loads a file it hosts</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <h2>6. Advertising Tags</h2>
+          <p>Our site loads Google Ads tags through Google Tag Manager. These tags measure whether our ads lead to visits and inquiries. They also let Google set advertising cookies, including a cookie on Google's doubleclick.net domain, and Google may use information from these tags for advertising. Section 8 explains how to opt out.</p>
+        </section>
+
+        <section>
+          <h2>7. Cookies and Browser Storage</h2>
+          <p>Cookies and browser storage are small files and entries that a website keeps in your browser. PostHog and our own records start when a page opens. Google Tag Manager starts after your first click, tap, or key press (or, without JavaScript, when the page opens). The table shows what we saw on our site on November 24, 2026. Lifetimes for other companies' cookies are set by those companies and can change.</p>
+          <div class="table-wrap" role="region" aria-labelledby="cookies-caption" tabindex="0">
+            <table class="wide">
+              <caption id="cookies-caption">Cookies and browser storage on mybcat.com</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Set by</th>
+                  <th scope="col">Type</th>
+                  <th scope="col">Purpose</th>
+                  <th scope="col">How long it lasts</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Name starts with <code>ph_</code> and ends with <code>_posthog</code></th>
+                  <td>PostHog</td>
+                  <td>Cookie on our domain</td>
+                  <td>Random visitor ID and session ID for analytics</td>
+                  <td>1 year</td>
+                </tr>
+                <tr>
+                  <th scope="row">Other items starting <code>ph_</code></th>
+                  <td>PostHog</td>
+                  <td>Local storage and session storage</td>
+                  <td>The same visitor and session details, and recording state</td>
+                  <td>Local storage: until you clear it. Session storage: until you close the tab.</td>
+                </tr>
+                <tr>
+                  <th scope="row"><code>mybcat_first_touch_v1</code></th>
+                  <td>MyBCAT</td>
+                  <td>Local storage</td>
+                  <td>How you first found us: campaign source, medium, and name; referring website; first page; channel; and date</td>
+                  <td>No set end date. It stays until you clear your browser storage.</td>
+                </tr>
+                <tr>
+                  <th scope="row"><code>mybcat_last_touch_v1</code></th>
+                  <td>MyBCAT</td>
+                  <td>Session storage</td>
+                  <td>The same fields for your current visit</td>
+                  <td>Until you close the tab</td>
+                </tr>
+                <tr>
+                  <th scope="row"><code>mybcat_attribution_v1</code></th>
+                  <td>MyBCAT</td>
+                  <td>Local storage</td>
+                  <td>To connect an inquiry to the content that led to it: a random ID; for your first visit and your latest visit, a source category, a medium category, a flag that shows whether the link carried a campaign name, and the page you landed on; and the last call-to-action you clicked and its topic. None of these values identifies a person by itself.</td>
+                  <td>No set end date. It stays until you clear your browser storage.</td>
+                </tr>
+                <tr>
+                  <th scope="row"><code>mybcat_oa_utm</code></th>
+                  <td>MyBCAT</td>
+                  <td>Session storage</td>
+                  <td>Campaign tags on the growth study page</td>
+                  <td>Until you close the tab</td>
+                </tr>
+                <tr>
+                  <th scope="row"><code>_ga</code>, and a name starting <code>_ga_</code></th>
+                  <td>Google Analytics</td>
+                  <td>Cookie on our domain</td>
+                  <td>Tell visitors and visits apart</td>
+                  <td>About 13 months</td>
+                </tr>
+                <tr>
+                  <th scope="row"><code>_gcl_au</code> and <code>_gcl_ls</code></th>
+                  <td>Google Ads</td>
+                  <td>Cookie and local storage on our domain</td>
+                  <td>Link ad clicks to visits and inquiries</td>
+                  <td>Cookie: 90 days. Local storage: until you clear it.</td>
+                </tr>
+                <tr>
+                  <th scope="row"><code>IDE</code> and <code>test_cookie</code></th>
+                  <td>Google advertising (doubleclick.net)</td>
+                  <td>Third-party cookie</td>
+                  <td>Advertising</td>
+                  <td><code>IDE</code>: about 13 months. <code>test_cookie</code>: a few minutes.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Names starting <code>__insp_</code></th>
+                  <td>Inspectlet</td>
+                  <td>Cookie on our domain</td>
+                  <td>Session recording state and visit count</td>
+                  <td>1 year</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Google may also set its own cookies on its own websites when our booking calendar loads or when you play our video.</p>
+        </section>
+
+        <section>
+          <h2>8. Your Choices</h2>
+          <h3>Global Privacy Control and Do Not Track</h3>
+          <p>This is how our site responds to these browser signals today. If your browser sends a Global Privacy Control or Do Not Track signal, our site does not create the "how you found us" record (<code>mybcat_first_touch_v1</code> and <code>mybcat_last_touch_v1</code>) and removes any saved copy. These signals do not switch off PostHog, Google Tag Manager, the tools that Google Tag Manager loads, Vercel Web Analytics, or the <code>mybcat_attribution_v1</code> record.</p>
+          <h3>Opting out of analytics and advertising</h3>
           <ul>
-            <li>Service providers who assist in our operations (hosting, analytics, CRM)</li>
-            <li>Professional advisors (lawyers, accountants)</li>
-            <li>Government authorities when required by law</li>
+            <li>Block or delete cookies and site data in your browser settings.</li>
+            <li>Use Google's opt-out add-on for Google Analytics at <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">tools.google.com/dlpage/gaoptout</a>.</li>
+            <li>Manage how Google uses your information for ads at <a href="https://myadcenter.google.com/" target="_blank" rel="noopener">myadcenter.google.com</a>.</li>
           </ul>
+          <h3>Access, correction, and deletion</h3>
+          <p>You can ask to access, correct, or delete your information by writing to the contact address in Section 13. We will respond as the law that applies to your request requires. You can also write to us to stop marketing emails or calls.</p>
         </section>
 
         <section>
-          <h2>5. HIPAA Compliance</h2>
-          <p>When handling Protected Health Information (PHI) on behalf of our healthcare clients, we operate as a Business Associate under HIPAA. We maintain administrative, technical, and physical safeguards to protect PHI and comply with all applicable HIPAA regulations.</p>
+          <h2>9. Our Confidential Practice Transition Page</h2>
+          <p>Our confidential practice transition page does not load PostHog, Google Tag Manager, or Vercel Web Analytics. It does keep the <code>mybcat_attribution_v1</code> record described in Section 3, and its form sends that record's random ID with your inquiry.</p>
         </section>
 
         <section>
-          <h2>6. Cookies and Tracking</h2>
-          <p>We use cookies and similar technologies to enhance your experience. You can control cookies through your browser settings. We use:</p>
-          <ul>
-            <li>Essential cookies for website functionality</li>
-            <li>Analytics cookies to understand usage patterns</li>
-            <li>Marketing cookies to personalize content (with consent)</li>
-          </ul>
+          <h2>10. Information We Handle for Our Client Practices</h2>
+          <p>Our website is for practice owners and staff. The services we perform for our client practices, including any patient information we handle for them, are governed by our agreements with those practices. This website policy does not cover them. If you are a patient of one of our client practices, please contact that practice about your information.</p>
         </section>
 
         <section>
-          <h2>7. Your Rights</h2>
-          <p>Depending on your location, you may have rights including:</p>
-          <ul>
-            <li>Access to your personal information</li>
-            <li>Correction of inaccurate data</li>
-            <li>Deletion of your data</li>
-            <li>Opt-out of marketing communications</li>
-            <li>Data portability</li>
-          </ul>
+          <h2>11. Security and Children</h2>
+          <p>Our site and our forms use encrypted connections (HTTPS). No website, and no way of sending or storing information, is completely secure.</p>
+          <p>Our website is not directed to children under 13, and we do not knowingly collect information from children under 13.</p>
         </section>
 
         <section>
-          <h2>8. Data Security</h2>
-          <p>We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
+          <h2>12. Visitors Outside the United States and Links to Other Websites</h2>
+          <p>We operate this website from the United States, and it is directed to businesses in the United States. Information collected through the site is processed in the United States, and our service providers may also process it in other countries.</p>
+          <p>Our site links to other websites, such as podcast apps, social networks, and booking pages hosted by Google. Their own privacy policies apply when you visit them.</p>
         </section>
 
         <section>
-          <h2>9. Third-Party Services</h2>
-          <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices of these external sites. We use the following third-party services:</p>
-          <ul>
-            <li>HubSpot (CRM and forms)</li>
-            <li>Google Analytics (website analytics)</li>
-            <li>Vercel (website hosting)</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>10. Changes to This Policy</h2>
-          <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
-        </section>
-
-        <section>
-          <h2>11. Contact Us</h2>
-          <p>If you have questions about this Privacy Policy or our privacy practices, please contact us at:</p>
+          <h2>13. Changes and Contact</h2>
+          <p>When we change this policy, we post the new version on this page and change the effective date.</p>
+          <p>If you have questions about this policy or want to make a request, contact us:</p>
           <p>
             <strong>My Business Care Team</strong><br>
             Email: privacy (at) mybcat (dot) com<br>
+            Mail: {address.street}, {address.city}, {address.state} {address.zip}<br>
             Website: mybcat.com
           </p>
         </section>
@@ -191,5 +387,63 @@ import Base from '@/layouts/Base.astro';
     color: var(--text-secondary);
     line-height: 1.8;
     margin-bottom: 8px;
+  }
+
+  .legal-content a {
+    color: var(--oceanic-teal);
+    text-decoration: underline;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    margin-bottom: 16px;
+  }
+
+  .table-wrap:focus-visible {
+    outline: 2px solid var(--oceanic-teal);
+    outline-offset: 2px;
+  }
+
+  .legal-content table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  .legal-content caption {
+    text-align: left;
+    font-weight: 600;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .legal-content th,
+  .legal-content td {
+    text-align: left;
+    vertical-align: top;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .legal-content thead th {
+    color: var(--navy-900);
+    font-weight: 700;
+    border-bottom: 2px solid var(--glass-border);
+  }
+
+  .legal-content tbody th {
+    color: var(--navy-900);
+    font-weight: 600;
+  }
+
+  .legal-content table.wide {
+    min-width: 640px;
+  }
+
+  .legal-content code {
+    font-size: 0.85em;
+    overflow-wrap: anywhere;
   }
 </style>
