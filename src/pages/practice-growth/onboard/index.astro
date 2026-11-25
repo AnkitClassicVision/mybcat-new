@@ -472,15 +472,6 @@ const packages = [
     return 'mailto:' + INTAKE_EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
   }
 
-  function buildDiscoveryLink(values) {
-    const names = splitOwnerName(values.ownerName);
-    const url = new URL(DISCOVERY_URL);
-    url.searchParams.set('firstName', names.firstName);
-    url.searchParams.set('lastName', names.lastName);
-    url.searchParams.set('email', values.ownerEmail);
-    return url.toString();
-  }
-
   function escapeHtml(value) {
     return String(value)
       .replace(/&/g, '&amp;')
@@ -516,7 +507,8 @@ const packages = [
     renderSummary(values);
     if (status) status.textContent = statusText;
     if (mailto) mailto.href = buildMailto(values);
-    if (discovery) discovery.href = buildDiscoveryLink(values);
+    // No name or email in the booking URL: the redirect would forward them to Google.
+    if (discovery) discovery.href = DISCOVERY_URL;
     if (formContent) formContent.hidden = true;
     if (postSubmit) {
       postSubmit.hidden = false;

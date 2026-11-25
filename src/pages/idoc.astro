@@ -177,17 +177,15 @@ const description = 'iDoc members book a MyBCAT discovery call and get $250 off 
 
   const valueOf = (form: HTMLFormElement, name: string) => String(new FormData(form).get(name) || '').trim();
 
-  function showPostSubmitState(values: { firstName: string; lastName: string; email: string }) {
+  // The calendar loads without prefill: the visitor types their details into
+  // Google's own booking form. No name or email goes into the URL.
+  function showPostSubmitState() {
     const formContent = document.getElementById('form-content');
     const postSubmit = document.getElementById('post-submit-state');
     const iframe = document.getElementById('meetings-iframe') as HTMLIFrameElement | null;
-    const calendarUrl = new URL(MEETINGS_URL);
-    calendarUrl.searchParams.set('firstName', values.firstName);
-    calendarUrl.searchParams.set('lastName', values.lastName);
-    calendarUrl.searchParams.set('email', values.email);
     if (formContent) formContent.hidden = true;
     if (postSubmit) postSubmit.hidden = false;
-    if (iframe) iframe.src = calendarUrl.toString();
+    if (iframe) iframe.src = MEETINGS_URL;
     postSubmit?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
@@ -206,7 +204,7 @@ const description = 'iDoc members book a MyBCAT discovery call and get $250 off 
       return;
     }
 
-    showPostSubmitState({ firstName, lastName, email });
+    showPostSubmitState();
     const status = document.getElementById('intake-status');
     if (!token) {
       if (status) status.textContent = 'Intake token not set on this preview.';

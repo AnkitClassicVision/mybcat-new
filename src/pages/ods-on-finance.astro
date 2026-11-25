@@ -180,13 +180,10 @@ const description = 'ODs on Finance members can book a MyBCAT discovery call and
     const intakeStatus = document.getElementById('intake-status') as HTMLElement;
     const calendarUrl = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ21kmAUBj4aZSq7DYPJ4jkhMAVh400vqdkedNXshigCOXwWVU87EvvK4as9dXOlAqZYOruIhLog';
 
-    function showPostSubmitState(data: FormData) {
-      const params = new URLSearchParams({
-        firstName: String(data.get('firstname') || ''),
-        lastName: String(data.get('lastname') || ''),
-        email: String(data.get('email') || '')
-      });
-      meetingsIframe.src = `${calendarUrl}?${params.toString()}`;
+    // The calendar loads without prefill: the visitor types their details into
+    // Google's own booking form. No name or email goes into the URL.
+    function showPostSubmitState() {
+      meetingsIframe.src = calendarUrl;
       formContent.hidden = true;
       postSubmitState.hidden = false;
       postSubmitState.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -239,7 +236,7 @@ const description = 'ODs on Finance members can book a MyBCAT discovery call and
       }
       if (!form.reportValidity()) return;
       const data = new FormData(form);
-      showPostSubmitState(data);
+      showPostSubmitState();
       void sendIntake(data);
     });
   </script>

@@ -402,13 +402,6 @@ const jsonLd = {
     };
   }
 
-  function bookingUrl(values) {
-    const params = new URLSearchParams();
-    if (values.practiceName) params.set('firstName', values.practiceName);
-    if (values.email) params.set('email', values.email);
-    const qs = params.toString();
-    return qs ? BOOKING_PATH + '?' + qs : BOOKING_PATH;
-  }
 
   function setBusy(form, busy) {
     const button = form.querySelector('[type="submit"]');
@@ -488,7 +481,8 @@ const jsonLd = {
       submitIntake(values).then(function () {
         identify(values.email);
         capture('growth_plan_requested', Object.assign({ source: SOURCE }, resolveUtms()));
-        window.location.assign(bookingUrl(values));
+        // No name or email in the booking URL: the redirect would forward them to Google.
+        window.location.assign(BOOKING_PATH);
       }).catch(function () {
         setBusy(form, false);
         setStatus(form, 'We could not send your details. Please email help@mybcat.com or try again.', true);

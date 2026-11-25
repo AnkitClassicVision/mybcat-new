@@ -155,9 +155,9 @@ test.describe('Optometry Analysis landing page', () => {
     await form.getByRole('button', { name: 'Get a plan built for your market' }).click();
     const request = await requestPromise;
     expect(request.headers()['x-forms-token']).toBe('preview-test-token');
-    await page.waitForURL(/\/book\/discovery\/\?/);
-    expect(page.url()).toContain('firstName=Preview+Test+Practice');
-    expect(page.url()).toContain('email=preview-test%40example.com');
+    await page.waitForURL(/\/book\/discovery\/$/);
+    expect(page.url()).not.toContain('firstName=');
+    expect(page.url()).not.toContain('email=');
     expect(posthog.events.map((item) => item.event)).toContain('growth_plan_requested');
     expect(posthog.events.map((item) => item.event)).not.toContain('discovery_call_scheduled');
     expect(posthog.identifies).toEqual(['preview-test@example.com']);
@@ -210,9 +210,9 @@ test.describe('Optometry Analysis landing page', () => {
     await form.getByRole('button', { name: 'Get a plan built for your market' }).click();
     const request = await requestPromise;
     expect(request.headers()['x-forms-token']).toBe('preview-test-token');
-    await page.waitForURL(/\/book\/discovery\/\?/);
-    expect(page.url()).toContain('firstName=Preview+Test+Practice');
-    expect(page.url()).toContain('email=preview-test%40example.com');
+    await page.waitForURL(/\/book\/discovery\/$/);
+    expect(page.url()).not.toContain('firstName=');
+    expect(page.url()).not.toContain('email=');
     const growth = posthog.events.find((item) => item.event === 'growth_plan_requested');
     expect(growth).toBeTruthy();
     expect(posthog.events.map((item) => item.event)).not.toContain('discovery_call_scheduled');
