@@ -3724,6 +3724,90 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-25T02:02:48.032Z"
       }
+    },
+    {
+      "id": "optometry-practice-profit-margin-benchmarks",
+      "slot": 47,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "practice-finance",
+      "topic": "Optometry Practice Profit Margin Benchmarks",
+      "keyword": "optometry practice profit margin benchmarks",
+      "suggested_title": "Optometry Practice Profit Margin Benchmarks",
+      "slug": "optometry-practice-profit-margin-benchmarks",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Business",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T02:09:49.060Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.optometrytimes.com",
+          "publisher": "www.optometrytimes.com",
+          "url": "https://www.optometrytimes.com/view/independent-od-practices-net-31-of-revenue-idoc-benchmarks-show",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice profit margin benchmarks"
+        },
+        {
+          "title": "www.visionone.org",
+          "publisher": "www.visionone.org",
+          "url": "https://www.visionone.org/resources/loan-faqs",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice profit margin benchmarks"
+        },
+        {
+          "title": "www.optometricmanagement.com",
+          "publisher": "www.optometricmanagement.com",
+          "url": "https://www.optometricmanagement.com/issues/2019/november/software-for-financial-health",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice profit margin benchmarks"
+        },
+        {
+          "title": "reviewob.com",
+          "publisher": "reviewob.com",
+          "url": "https://reviewob.com/metrics-we-used-to-grow-our-optometry-practice-10x",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice profit margin benchmarks"
+        },
+        {
+          "title": "files.optometrybusiness.com",
+          "publisher": "files.optometrybusiness.com",
+          "url": "https://files.optometrybusiness.com/Best%20Practices%20of%20Financial%20Management.pdf",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice profit margin benchmarks"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-practice-profit-margin-benchmarks",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T02:09:49.060Z"
+      }
     }
   ]
 }
