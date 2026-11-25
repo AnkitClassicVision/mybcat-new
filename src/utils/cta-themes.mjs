@@ -10,6 +10,7 @@ export const CTA_THEMES = /** @type {const} */ ([
   'finance_seller',
   'finance_service',
   'acquisition_transition',
+  'fill_rate_review',
   'operations',
   'default',
 ]);

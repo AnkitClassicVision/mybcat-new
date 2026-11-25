@@ -16,10 +16,18 @@ import { company } from '@data/company';
 import { testimonials } from '@data/testimonials';
 import { discoveryBookingHref } from '@data/navigation';
 import { BOOKING_LABEL } from '@utils/booking.mjs';
+import { getCollection } from 'astro:content';
+import { isVisiblePost } from '@utils/blog';
 
 const pageUrl = `${company.site.url}/optometry-practice-finances/`;
 const heroBookingHref = discoveryBookingHref('finances-hero');
 const ctaBookingHref = discoveryBookingHref('finances-cta');
+
+// Fill rate proof (tests/unit/fill-rate-proof.test.mjs). The post goes live on the
+// daily publish, so the page links it only once the post is visible.
+const fillRateBookingHref = discoveryBookingHref('fill-rate-finance-mid');
+const fillRatePostHref = '/blog/optometry-appointment-fill-rate/';
+const fillRatePostLive = (await getCollection('blog', isVisiblePost)).some((post) => post.slug === 'optometry-appointment-fill-rate');
 
 // Existing quotes, looked up by author so the text and attribution are never retyped.
 const quoteBy = (author: string) => {
@@ -94,6 +102,12 @@ const serviceSchema = {
       <h2 id="top-line-title">A fuller schedule</h2>
       <p>Our remote hospitality center works to keep your schedule full. The team answers your calls and books appointments directly into your EHR. Depending on your plan, it also runs appointment confirmations, <a href="/solutions/patient-recall/">patient recalls</a>, and insurance verifications.</p>
       <p>Coverage runs from business hours to 24/7. See <a href="/solutions/no-show-recovery/">no-show recovery</a> for how missed appointments get followed up.</p>
+      <aside class="fill-rate-proof" aria-labelledby="fill-rate-proof-title">
+        <p class="fill-rate-label" id="fill-rate-proof-title">Where schedules ended up</p>
+        <p>Across the 17 optometry practices in our fill rate reporting, 91.0% of appointment slots were filled from Oct 24 to Nov 14, 2026 (6,550 of 7,199), compared with 88.9% in the earlier window, Sept 19 to Oct 3 (6,252 of 7,034).</p>
+        <p>Both periods were with MyBCAT, so this shows only where schedules ended up, not whether, or how much, our work changed them.</p>
+        <p class="fill-rate-links">{fillRatePostLive && <a href={fillRatePostHref}>How we measure fill rate and what an open slot costs</a>}<a class="fill-rate-cta" href={fillRateBookingHref}>Book a 15-minute fill rate review</a></p>
+      </aside>
     </section>
 
     <section class="finance-section" aria-labelledby="bottom-line-title">
@@ -194,6 +208,38 @@ const serviceSchema = {
   .finance-section a {
     color: var(--oceanic-teal);
     font-weight: 500;
+  }
+
+  .fill-rate-proof {
+    margin-top: 24px;
+    padding: 20px 24px;
+    border-left: 4px solid var(--oceanic-teal);
+    background: var(--bg-light);
+    border-radius: 8px;
+  }
+
+  .fill-rate-proof .fill-rate-label {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--copper-500);
+    margin-bottom: 8px;
+  }
+
+  .fill-rate-proof p:last-child {
+    margin-bottom: 0;
+  }
+
+  .fill-rate-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    align-items: center;
+  }
+
+  .fill-rate-proof .fill-rate-cta {
+    font-weight: 600;
   }
 
   .scope-line {

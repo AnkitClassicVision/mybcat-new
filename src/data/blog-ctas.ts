@@ -23,6 +23,7 @@ export type FunnelTheme =
   | 'finance_seller'  // Exit Strategist: raise value before listing (advisor stance, not acquirer)
   | 'finance_service' // practice finances page: fuller schedule (top line), lower front-desk labor cost (bottom line)
   | 'acquisition_transition'
+  | 'fill_rate_review' // the fill rate proof post: one offer, the 15-minute fill rate review
   // Cluster themes for any optometry owner, solo practices included.
   | 'practice_finance' // practice-finance cluster: books, margins, cash
   | 'ai_projects'      // ai-projects cluster: front desk, phones, scribe, first project
@@ -34,6 +35,9 @@ export type BlogFunnel = 'service' | 'acquisition';
 export interface BlogCtaVariant {
   funnel: BlogFunnel;
   ctaId: string;
+  /** Link under the post description. Without these the layout shows the shared booking link. */
+  topText?: string;
+  topHref?: string;
   /** Mid-content CTA (InContentCTA component) */
   title: string;
   description: string;
@@ -182,6 +186,22 @@ export const blogCtaVariants: Record<FunnelTheme, BlogCtaVariant> = {
       'Share the basic shape of your goals and timeline. Ankit reviews each inquiry before any qualification or diligence step.',
     endButtonText: 'Send a Confidential Inquiry',
     endButtonHref: '/optometry-practice-transitions/?utm_source=blog&utm_medium=post-cta&utm_campaign=transition-guides',
+  },
+  // The fill rate proof post. Its one offer is the fill rate review, at the top, middle
+  // and end. No other offer and no claim (tests/unit/fill-rate-proof.test.mjs).
+  fill_rate_review: {
+    funnel: 'service',
+    ctaId: 'service-fit-review',
+    topText: 'Book a 15-minute fill rate review',
+    topHref: discoveryBookingHref('fill-rate-blog-top'),
+    title: 'A 15-minute fill rate review',
+    description: 'We go through how you count slots offered and slots filled, and how to put your open slots into the formula.',
+    buttonText: 'Book a 15-minute fill rate review',
+    buttonHref: discoveryBookingHref('fill-rate-blog-mid'),
+    endTitle: 'A 15-minute fill rate review',
+    endDescription: 'Bring schedule totals for a recent week, not patient details. We go through your slots offered, slots filled and open slots with you.',
+    endButtonText: 'Book a 15-minute fill rate review',
+    endButtonHref: discoveryBookingHref('fill-rate-blog-end'),
   },
   practice_finance: {
     funnel: 'service',

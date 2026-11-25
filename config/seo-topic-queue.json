@@ -3892,6 +3892,90 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-25T02:17:12.342Z"
       }
+    },
+    {
+      "id": "optometry-appointment-fill-rate",
+      "slot": 49,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "practice-finance",
+      "topic": "Optometry Appointment Fill Rate: What an Open Slot Costs",
+      "keyword": "optometry appointment fill rate",
+      "suggested_title": "Optometry Appointment Fill Rate: What an Open Slot Costs",
+      "slug": "optometry-appointment-fill-rate",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Business",
+      "word_count": 0,
+      "pillar_url": "/optometry-practice-finances/",
+      "cta_id": "service-fit-review",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T19:36:10.713Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.aafp.org",
+          "publisher": "www.aafp.org",
+          "url": "https://www.aafp.org/fpm/2023/1100/access-staffing-dashboard",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry appointment fill rate"
+        },
+        {
+          "title": "www.ahrq.gov",
+          "publisher": "www.ahrq.gov",
+          "url": "https://www.ahrq.gov/sites/default/files/publications/files/practicefacilitationhandbook.pdf",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry appointment fill rate"
+        },
+        {
+          "title": "pmc.ncbi.nlm.nih.gov",
+          "publisher": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4714455/",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry appointment fill rate"
+        },
+        {
+          "title": "pmc.ncbi.nlm.nih.gov",
+          "publisher": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4187098/",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry appointment fill rate"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/3-solutions-for-noshow-patients",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry appointment fill rate"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-appointment-fill-rate",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T19:36:10.713Z"
+      }
     }
   ]
 }
