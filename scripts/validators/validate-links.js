@@ -65,7 +65,8 @@ function loadVercelRedirectSources() {
   const data = JSON.parse(fs.readFileSync(VERCEL_CONFIG, 'utf8'));
   const sources = new Set();
 
-  for (const redirect of data.redirects || []) {
+  // Rewrite sources are served routes too (for example /book/discovery).
+  for (const redirect of [...(data.redirects || []), ...(data.rewrites || [])]) {
     if (!redirect.source || /[:*()+]/.test(redirect.source)) continue;
     const src = redirect.source.split('?')[0];
     sources.add(src);
