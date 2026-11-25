@@ -20,21 +20,10 @@ canonical: https://mybcat.com/blog/ai-scribe-for-optometrists/
 targetKeyword: "AI scribe for optometrists"
 seoTopicId: ai-scribe-for-optometrists
 ---
-## Table of Contents
 
-- [What an AI Scribe for Optometrists Does](#what-an-ai-scribe-for-optometrists-does)
-- [What the Evidence Can Tell a Practice Owner](#what-the-evidence-can-tell-a-practice-owner)
-- [Evaluating How the Scribe Fits Your EHR](#evaluating-how-the-scribe-fits-your-ehr)
-- [Making Clinical Review Part of the Workflow](#making-clinical-review-part-of-the-workflow)
-- [Addressing Privacy and Patient Communication](#addressing-privacy-and-patient-communication)
-- [Running a Pilot That Informs the Decision](#running-a-pilot-that-informs-the-decision)
-- [Connecting the Scribe to Practice Operations](#connecting-the-scribe-to-practice-operations)
-
-
+An **AI scribe for optometrists** uses information from a clinical encounter to generate draft documentation. In an ambient workflow, the clinician activates a tool that captures the encounter conversation and uses it to prepare a note.
 
 If charting follows you home, an AI scribe deserves a careful look. Whether you own a solo practice or oversee a group, the practical question is the same: how would it change the work required to produce a complete, reviewed clinical record?
-
-An **AI scribe for optometrists** uses information from a clinical encounter to generate draft documentation.
 
 Optometry Australia’s education listing describes clinical note generation alongside the practical considerations of workflow integration, privacy, and clinical responsibility.
 
@@ -45,6 +34,16 @@ Those considerations belong in the buying decision from the beginning.
 Start by examining your current documentation process. Identify what you want help with, where the draft would enter your electronic health record, and who would review it.
 
 Then evaluate a tool against those needs. The following approach gives owners a way to connect the technology to everyday practice operations.
+
+## Table of Contents
+
+- [What an AI Scribe for Optometrists Does](#what-an-ai-scribe-for-optometrists-does)
+- [What the Evidence Can Tell a Practice Owner](#what-the-evidence-can-tell-a-practice-owner)
+- [Evaluating How the Scribe Fits Your EHR](#evaluating-how-the-scribe-fits-your-ehr)
+- [Making Clinical Review Part of the Workflow](#making-clinical-review-part-of-the-workflow)
+- [Addressing Privacy and Patient Communication](#addressing-privacy-and-patient-communication)
+- [Running a Pilot That Informs the Decision](#running-a-pilot-that-informs-the-decision)
+- [Connecting the Scribe to Practice Operations](#connecting-the-scribe-to-practice-operations)
 
 ## What an AI Scribe for Optometrists Does
 
@@ -237,7 +236,7 @@ This places the scribe within the wider work of [optometry practice operations](
 
 Return to the problem that started the evaluation. If documentation is the concern, assess the reviewed note and the effort required to complete it.
 
-If the concern is follow-up ownership, phone coverage, or an unclear checkout process, make those needs explicit in the operating plan as well.
+If the concern is follow-up ownership, [phone coverage](/solutions/medical-answering-service/), or an unclear checkout process, make those needs explicit in the operating plan as well.
 
 Before committing to broader use, review the proposed subscription, setup, training, support, and exit arrangements. Ask which responsibilities remain with your team and who will maintain the workflow when templates or product features change.
 

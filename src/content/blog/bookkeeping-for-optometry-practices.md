@@ -14,12 +14,24 @@ tags:
 - bookkeeping for optometry practices
 - optometry practice
 cluster: practice-finance
+ctaTheme: finance_service
 funnel: service
 featuredImage: /images/blog/bookkeeping-for-optometry-practices.webp
 canonical: https://mybcat.com/blog/bookkeeping-for-optometry-practices/
 targetKeyword: "bookkeeping for optometry practices"
 seoTopicId: bookkeeping-for-optometry-practices
 ---
+
+Bookkeeping for an optometry practice means having a consistent way to organize receipts, classify activity, reconcile accounts, and review unresolved items. For an owner handling [the finances](/optometry-practice-finances/) between appointments, the test is whether you can explain the transactions in your books using the records behind them.
+
+The American Optometric Association describes financial management responsibilities that include banking arrangements and “handling the monies from your practice.” Bookkeeping provides the transaction records for that broader responsibility.
+
+[American Optometric Association: Managing Practice Finances](https://www.aoa.org/practice/owning-a-practice/managing-practice-finances).
+
+Whether you run a solo office or a group, build the routine around your actual work: professional services, optical sales, contact lenses, supplier bills, payroll, and collections.
+
+Treat it as a defined part of your [optometry practice operations](/industries/optometry/), with named responsibilities and a regular review.
+
 ## Table of Contents
 
 - [Establish a Clear Foundation for Your Books](#establish-a-clear-foundation-for-your-books)
@@ -29,18 +41,6 @@ seoTopicId: bookkeeping-for-optometry-practices
 - [Create a Repeatable Bookkeeping Schedule](#create-a-repeatable-bookkeeping-schedule)
 - [Review Reports and Choose Tools Deliberately](#review-reports-and-choose-tools-deliberately)
 - [Make the Routine Work for Your Practice](#make-the-routine-work-for-your-practice)
-
-
-
-Bookkeeping for optometry practices starts with a practical question: can you explain the transactions in your books using the records behind them? For an owner handling the finances between appointments, that means having a consistent way to organize receipts, classify activity, reconcile accounts, and review unresolved items.
-
-The American Optometric Association describes financial management responsibilities that include banking arrangements and “handling the monies from your practice.” Bookkeeping provides the transaction records for that broader responsibility.
-
-[American Optometric Association: Managing Practice Finances](https://www.aoa.org/practice/owning-a-practice/managing-practice-finances).
-
-Whether you run a solo office or a group, build the routine around your actual work: professional services, optical sales, contact lenses, supplier bills, payroll, and collections.
-
-Treat it as a defined part of your [optometry practice operations](/industries/optometry/), with named responsibilities and a regular review.
 
 ## Establish a Clear Foundation for Your Books
 
@@ -82,7 +82,7 @@ A chart of accounts is the category structure used to organize your books.
 
 Review of Optometric Business presents an optometry example that separates service, optical, and contact lens income and addresses cost of goods sold, payroll, and other expenses.
 
-[Review of Optometric Business: Chart of Accounts](https://staging.reviewob.com/chart-of-accounts-how-to-create-this-chart-to-better-measure-and-improve-your-profitability).
+[Review of Optometric Business: Chart of Accounts](https://reviewob.com/chart-of-accounts-how-to-create-this-chart-to-better-measure-and-improve-your-profitability/).
 
 Use that structure as a starting point for a conversation with your accountant. The following is a planning outline, rather than a prescribed accounting treatment:
 
@@ -282,7 +282,7 @@ Every optometry practice owner is welcome, from a solo office to a group. [Conta
 ### Optometry financial management references
 
 - [American Optometric Association: Managing Practice Finances](https://www.aoa.org/practice/owning-a-practice/managing-practice-finances)
-- [Review of Optometric Business: Chart of Accounts, How to Create This Chart to Better Measure (and Improve) Your Profitability](https://staging.reviewob.com/chart-of-accounts-how-to-create-this-chart-to-better-measure-and-improve-your-profitability)
+- [Review of Optometric Business: Chart of Accounts, How to Create This Chart to Better Measure (and Improve) Your Profitability](https://reviewob.com/chart-of-accounts-how-to-create-this-chart-to-better-measure-and-improve-your-profitability/)
 - [Best Practices of Financial Management: A How-To Guide for Owners of Independent Optometric Practices](https://files.optometrybusiness.com/Best%20Practices%20of%20Financial%20Management.pdf)
 - [Optometric Management: Closing the Year Strong](https://digital.optometricmanagement.com/articles/closing-the-year-strong)
 - [Optometric Management: Software for Financial Health](https://www.optometricmanagement.com/issues/2019/november/software-for-financial-health)

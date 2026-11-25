@@ -14,12 +14,22 @@ tags:
 - optometry practice profit margin benchmarks
 - optometry practice
 cluster: practice-finance
+ctaTheme: finance_service
 funnel: service
 featuredImage: /images/blog/optometry-practice-profit-margin-benchmarks.webp
 canonical: https://mybcat.com/blog/optometry-practice-profit-margin-benchmarks/
 targetKeyword: "optometry practice profit margin benchmarks"
 seoTopicId: optometry-practice-profit-margin-benchmarks
 ---
+
+Published optometry practice profit margin benchmarks include a median of 31% of collections for doctor compensation plus EBITDA and 16% of revenue for unadjusted EBITDA in IDOC’s 2025 benchmarks, and a typical pre-tax net income range of 5%–25% from Vision One Credit Union. These benchmarks become useful when you know what each source counts as profit: some include doctor compensation, while others report earnings after that expense.
+
+Comparing those figures without checking their definitions can lead an owner to draw the wrong conclusion about the practice.
+
+For the owner who does the books, the practical starting point is a clearly labeled financial statement. Identify the revenue being measured, the expenses deducted, and the treatment of owner and associate compensation. Then choose a benchmark that matches.
+
+This guide brings the published figures together and explains how to use them in a financial review, whether you run a solo office or a group.
+
 ## Table of Contents
 
 - [What Published Optometry Profit Margin Benchmarks Measure](#what-published-optometry-profit-margin-benchmarks-measure)
@@ -27,16 +37,6 @@ seoTopicId: optometry-practice-profit-margin-benchmarks
 - [Choose Comparisons That Fit Your Practice](#choose-comparisons-that-fit-your-practice)
 - [Turn a Margin Gap Into a Focused Review](#turn-a-margin-gap-into-a-focused-review)
 - [Make Benchmark Reviews Useful Month After Month](#make-benchmark-reviews-useful-month-after-month)
-
-
-
-Optometry practice profit margin benchmarks become useful when you know what each source counts as profit. Published references use different measures: some include doctor compensation, while others report earnings after that expense.
-
-Comparing those figures without checking their definitions can lead an owner to draw the wrong conclusion about the practice.
-
-For the owner who does the books, the practical starting point is a clearly labeled financial statement. Identify the revenue being measured, the expenses deducted, and the treatment of owner and associate compensation. Then choose a benchmark that matches.
-
-This guide brings the published figures together and explains how to use them in a financial review, whether you run a solo office or a group.
 
 ## What Published Optometry Profit Margin Benchmarks Measure
 
@@ -160,7 +160,7 @@ Avoid assigning a cause to a margin difference simply because a particular expen
 
 ### Connect expense categories to the work being performed
 
-After checking the reporting, examine the activity behind the expense. For administrative staffing, document responsibilities, coverage arrangements, handoffs, and unresolved tasks. For software, list the functions used, the team responsible, and any overlapping subscriptions.
+After checking the reporting, examine the activity behind the expense. For [administrative staffing](/optometry-practice-finances/), document responsibilities, coverage arrangements, handoffs, and unresolved tasks. For software, list the functions used, the team responsible, and any overlapping subscriptions.
 
 For optical purchasing, assemble the relevant purchasing records and inventory reports. For occupancy, separate the commitments already in place from decisions still available to the practice.
 

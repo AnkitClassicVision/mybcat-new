@@ -14,6 +14,7 @@ const EXTENSIONS = /\.(astro|ts|tsx|mjs|js)$/;
 // The transitions page is frozen; its wording is listed for the owner instead.
 const FROZEN = ['src/pages/optometry-practice-transitions/index.astro'];
 
+// Promises that data is never shared, sold or tracked. Always a problem.
 const PROMISE = new RegExp(
   [
     'never\\s+(?:be\\s+)?shar',
@@ -22,17 +23,25 @@ const PROMISE = new RegExp(
     "won[’']t\\s+(?:share|sell)",
     'will\\s+not\\s+(?:share|sell)',
     'not\\s+shared\\s+with\\s+third',
-    '100%\\s+(?:secure|private|confidential)',
-    'completely\\s+(?:confidential|secure|private)',
     "we\\s+don[’']t\\s+track",
     'we\\s+do\\s+not\\s+track',
   ].join('|'),
   'gi',
 );
+// Assurances of total security. A problem unless the sentence denies them first, as
+// the privacy policy does: "No website ... is completely secure."
+const ASSURANCE = /100%\s+(?:secure|private|confidential)|completely\s+(?:confidential|secure|private)/gi;
+const NEGATION = /\b(?:no|not|nothing|cannot|can't|isn't)\b/i;
 
 /** Absolute privacy or security promises in a piece of source text. */
 export function promiseProblems(text) {
-  return [...String(text).matchAll(PROMISE)].map((m) => m[0]);
+  const source = String(text);
+  const found = [...source.matchAll(PROMISE)].map((m) => m[0]);
+  for (const m of source.matchAll(ASSURANCE)) {
+    const sentenceStart = Math.max(source.lastIndexOf('.', m.index), source.lastIndexOf('>', m.index), source.lastIndexOf('\n', m.index)) + 1;
+    if (!NEGATION.test(source.slice(sentenceStart, m.index))) found.push(m[0]);
+  }
+  return found;
 }
 
 function files(dir) {
@@ -52,6 +61,8 @@ test('the check finds never-share style promises and lets plain lines through', 
   assert.equal(promiseProblems('We don’t track you.').length, 1);
   assert.deepEqual(promiseProblems('We use your details to respond to your request. See our Privacy Policy.'), []);
   assert.deepEqual(promiseProblems('87% of callers never call back.'), []);
+  assert.deepEqual(promiseProblems('No website, and no way of sending or storing information, is completely secure.'), []);
+  assert.equal(promiseProblems('Your data is completely secure with us.').length, 1);
 });
 
 test('no page, component, layout or data file makes an absolute privacy promise', () => {

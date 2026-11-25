@@ -20,6 +20,15 @@ canonical: https://mybcat.com/blog/optometry-practice-sale-letter-of-intent/
 targetKeyword: "optometry practice sale letter of intent"
 seoTopicId: optometry-practice-sale-letter-of-intent
 ---
+
+An optometry practice sale letter of intent, or LOI, outlines the proposed transaction before the parties complete their definitive agreements. It brings purchase price, timing, conditions, and expectations into a document both sides can review.
+
+Some provisions, including confidentiality or exclusivity, may be binding even when the principal business terms are not. [Dental & Medical Counsel](https://www.dmcounsel.com/blog/10-key-terms-for-an-optometry-practice-letter-of-intent).
+
+For an owner, the central question is whether the written proposal reflects [the transition you actually want](/optometry-practice-transitions/). An attractive price deserves careful consideration alongside the assets included, payment conditions, work you would continue doing, and obligations you would accept.
+
+Whether you own a solo practice or several offices, approach the LOI as a connected set of decisions. Read it with your transaction attorney, identify unresolved questions, and make your priorities explicit before signing.
+
 ## Table of Contents
 
 - [What an Optometry Practice Sale Letter of Intent Establishes](#what-an-optometry-practice-sale-letter-of-intent-establishes)
@@ -28,16 +37,6 @@ seoTopicId: optometry-practice-sale-letter-of-intent
 - [Set a Workable Path Through Diligence and Closing](#set-a-workable-path-through-diligence-and-closing)
 - [Describe Your Role and the Practice Handoff](#describe-your-role-and-the-practice-handoff)
 - [Review the Whole Proposal Before Signing](#review-the-whole-proposal-before-signing)
-
-
-
-An optometry practice sale letter of intent, or LOI, outlines the proposed transaction before the parties complete their definitive agreements. It brings purchase price, timing, conditions, and expectations into a document both sides can review.
-
-Some provisions, including confidentiality or exclusivity, may be binding even when the principal business terms are not. [Dental & Medical Counsel](https://www.dmcounsel.com/blog/10-key-terms-for-an-optometry-practice-letter-of-intent).
-
-For an owner, the central question is whether the written proposal reflects the transition you actually want. An attractive price deserves careful consideration alongside the assets included, payment conditions, work you would continue doing, and obligations you would accept.
-
-Whether you own a solo practice or several offices, approach the LOI as a connected set of decisions. Read it with your transaction attorney, identify unresolved questions, and make your priorities explicit before signing.
 
 ## What an Optometry Practice Sale Letter of Intent Establishes
 
@@ -55,9 +54,7 @@ Mark unresolved matters explicitly. A topic described as subject to further agre
 
 ### A framework suited to the actual buyer
 
-The transaction deserves attention on its own terms. Optometry attorney Craig Steinberg distinguishes sales between optometrists from private equity acquisitions and identifies the LOI as a place to address whether the transaction involves an “asset sale or a stock sale.” [Craig S.
-
-Steinberg, O.D., J.D.](https://www.csteinberglaw.org/od-od-practice-sales).
+The transaction deserves attention on its own terms. Optometry attorney Craig Steinberg distinguishes sales between optometrists from private equity acquisitions and identifies the LOI as a place to address whether the transaction involves an “asset sale or a stock sale.” [Craig S. Steinberg, O.D., J.D.](https://www.csteinberglaw.org/od-od-practice-sales).
 
 Start by confirming who would buy the practice, what business or locations the proposal covers, and what ownership interest or assets would change hands. For a multi-office practice, ask for clear treatment of each location.
 
@@ -69,7 +66,7 @@ If an associate is the prospective buyer, give the written proposal the same car
 
 Review the description of the sale before focusing exclusively on price. An attorney writing for Review of Optometric Business includes price, included and excluded assets, liabilities, holdbacks, and restrictive covenants among the LOI terms to examine.
 
-[Review of Optometric Business](https://staging.reviewob.com/7-due-diligence-steps-to-protect-yourself-before-buying-a-practice).
+[Review of Optometric Business](https://reviewob.com/7-due-diligence-steps-to-protect-yourself-before-buying-a-practice/).
 
 Prepare a working list of the equipment, optical inventory, business name, and other items you expect the transaction to include.
 
@@ -231,7 +228,7 @@ Every optometry practice owner is welcome, from solo practitioners to owners of 
 
 - [Dental & Medical Counsel: 10 Key Terms For An Optometry Practice Letter Of Intent](https://www.dmcounsel.com/blog/10-key-terms-for-an-optometry-practice-letter-of-intent), LOI provisions and the distinction between principal business terms and potentially binding clauses.
 - [Craig S. Steinberg, O.D., J.D.: OD, OD Practice Sales](https://www.csteinberglaw.org/od-od-practice-sales), Transactions between optometrists, sale structure, and the progression from LOI to closing.
-- [Review of Optometric Business: 7 Due Diligence Steps to Protect Yourself Before Buying a Practice](https://staging.reviewob.com/7-due-diligence-steps-to-protect-yourself-before-buying-a-practice), Attorney discussion of acquisition terms and diligence.
+- [Review of Optometric Business: 7 Due Diligence Steps to Protect Yourself Before Buying a Practice](https://reviewob.com/7-due-diligence-steps-to-protect-yourself-before-buying-a-practice/), Attorney discussion of acquisition terms and diligence.
 - [Eyes On Eyecare: 7 Key Steps to Purchasing an Optometry Practice](https://eyesoneyecare.com/resources/7-key-steps-purchasing-optometry-practice), Buyer-oriented checklist of LOI subjects sellers should consider.
 - [Visionary Practice Group: Sell an Optometry Practice](https://visionarypracticegroup.com/sell-optometry-practice), A broker’s description of negotiations, diligence, and closing.
 - [MyEyeDr.: Step-by-Step Optometry Partnership Process](https://acquisitions.myeyedr.com/optometry-partnership-opportunities/process), A buyer’s description of its LOI, employment discussion, and subsequent review process.
