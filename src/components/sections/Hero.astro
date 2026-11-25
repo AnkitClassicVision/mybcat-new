@@ -31,6 +31,9 @@ interface Props {
   ctaText?: string;
   ctaHref?: string;
   secondaryText?: string;
+  /** Optional discovery-call button shown between the main button and the secondary link. */
+  bookingText?: string;
+  bookingHref?: string;
   secondaryHref?: string;
   benefits?: BenefitItem[];
   trustItems?: TrustItem[];
@@ -46,6 +49,8 @@ const {
   ctaText = 'Get Started',
   ctaHref = '#final-cta',
   secondaryText,
+  bookingText,
+  bookingHref,
   secondaryHref,
   benefits = [],
   trustItems = [],
@@ -96,6 +101,9 @@ const icons: Record<string, string> = {
 
       <div class="hero-cta-group">
         <Button href={ctaHref}>{ctaText}</Button>
+        {bookingText && bookingHref && (
+          <Button href={bookingHref} variant="secondary">{bookingText}</Button>
+        )}
         {secondaryText && secondaryHref && (
           <a href={secondaryHref} class="text-link">{secondaryText}</a>
         )}

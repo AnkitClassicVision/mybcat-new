@@ -4,7 +4,7 @@ import path from 'node:path';
 import test from 'node:test';
 import { fileURLToPath } from 'node:url';
 
-import { BOOKING_LABEL, BOOKING_PATH, bookingHref } from '../../src/utils/booking.mjs';
+import { BOOKING_LABEL, BOOKING_PATH, CONFIDENTIAL_LABEL, bookingHref, blogTopCta } from '../../src/utils/booking.mjs';
 
 // One booking route: every discovery-call CTA goes through /book/discovery with a
 // src naming the page and position, and each page in the booking set shows one
@@ -71,6 +71,25 @@ test('bookingHref builds the one route with a clean src and refuses anything els
   }
 });
 
+// Sale and valuation guides that carry the finance_seller theme, and one acquisition post.
+const SALE_POSTS = [
+  'guide-for-selling-your-optometry-practice',
+  'optometry-practice-appraisal-process',
+  'optometry-practice-broker-how-to-choose',
+  'the-optometric-practice-valuation-guide-for-buyers-and-sellers',
+  'first-confidential-optometry-transition-conversation',
+];
+const OFF_AUDIENCE = /dental|dentist|veterinar|\bvet\b/i;
+
+test('the blog top link follows the CTA theme: none for off-audience, confidential for sale posts', () => {
+  assert.equal(blogTopCta('default'), 'none');
+  assert.equal(blogTopCta('acquisition_transition'), 'confidential');
+  assert.equal(blogTopCta('finance_seller'), 'confidential');
+  for (const theme of ['operations', 'recall_fill_book', 'finance_open', 'finance_service', 'finance_profit']) {
+    assert.equal(blogTopCta(theme), 'booking', theme);
+  }
+});
+
 test('the booking check flags calendar links and discovery-call links that skip the route', () => {
   assert.deepEqual(bookingProblems('<a href="/book/discovery?src=home-hero">Book a Discovery Call</a>'), []);
   assert.equal(bookingProblems('<a href="https://calendar.app.google/abc">Book</a>').length, 1);
@@ -98,6 +117,35 @@ test('built pages: one first-screen booking CTA with the shared label, and no by
     const firstH2 = html.slice(main).search(/<h2\b/);
     assert.ok(firstH2 < 0 || cta.index < main + firstH2, `${page}: ${src} sits above the first section heading`);
   }
+  const home = fs.readFileSync(path.join(built, 'index.html'), 'utf8');
+  const heroGroup = home.slice(home.indexOf('hero-cta-group'), home.indexOf('</div>', home.indexOf('hero-cta-group')));
+  const order = links(heroGroup).map((l) => l.text);
+  assert.deepEqual(order, ['Get Started', BOOKING_LABEL, 'See How It Works'], 'home hero links');
   const transitions = fs.readFileSync(path.join(built, 'optometry-practice-transitions/index.html'), 'utf8');
   assert.match(transitions, /href="#transition-form-title"[^>]*>Start the confidential inquiry</);
+});
+
+test('built blog posts: no top booking link off-audience, the confidential link on sale posts', (t) => {
+  const blog = path.join(built, 'blog');
+  if (!fs.existsSync(blog)) {
+    t.skip('no build output; run astro build first');
+    return;
+  }
+  const topBooking = bookingHref('blog-top');
+  let offAudience = 0;
+  for (const slug of fs.readdirSync(blog)) {
+    const file = path.join(blog, slug, 'index.html');
+    if (!OFF_AUDIENCE.test(slug) || !fs.existsSync(file)) continue;
+    offAudience += 1;
+    assert.ok(!fs.readFileSync(file, 'utf8').includes(`href="${topBooking}"`), `${slug} shows the top booking link`);
+  }
+  assert.ok(offAudience > 10, 'off-audience posts were checked');
+  for (const slug of SALE_POSTS) {
+    const html = fs.readFileSync(path.join(blog, slug, 'index.html'), 'utf8');
+    assert.ok(!html.includes(`href="${topBooking}"`), `${slug} shows the booking link`);
+    const top = html.slice(html.indexOf('post-header'), html.indexOf('id="blog-content"'));
+    const confidential = links(top).find((l) => l.text === CONFIDENTIAL_LABEL);
+    assert.ok(confidential, `${slug} has the confidential link at the top`);
+    assert.match(confidential.href, /^\/optometry-practice-transitions\//);
+  }
 });

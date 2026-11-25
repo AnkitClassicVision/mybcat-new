@@ -6,9 +6,9 @@ import MedicalReviewBadge from '@/components/blog/MedicalReviewBadge.astro';
 import RelatedPosts from '@/components/blog/RelatedPosts.astro';
 import FAQ from '@/components/sections/FAQ.astro';
 import { bodyHasFaqSchema, splitBeforeSources } from '@utils/blog-faq.mjs';
-import { getBlogCta } from '@data/blog-ctas';
+import { getBlogCta, getBlogCtaTheme } from '@data/blog-ctas';
 import { discoveryBookingHref } from '@data/navigation';
-import { BOOKING_LABEL } from '@utils/booking.mjs';
+import { BOOKING_LABEL, CONFIDENTIAL_HREF, CONFIDENTIAL_LABEL, blogTopCta } from '@utils/booking.mjs';
 import { isPostVisible } from '@utils/blog';
 import { generateArticleSchema, generateBreadcrumbSchema, combineSchemas, serializeSchema } from '@/utils/schema';
 import { company } from '@data/company';
@@ -33,6 +33,9 @@ const [bodyBeforeSources, bodyFromSources] = faqs.length > 0
 // Funnel-themed CTA variant resolved from the post's cluster (see src/data/blog-ctas.ts).
 // Explicit frontmatter ctaTheme wins; slug/category heuristic demotes off-ICP (dental/vet) posts.
 const cta = getBlogCta(cluster, { slug: post.slug, category, ctaTheme, funnel });
+// Link under the description: none for off-audience posts, the confidential path for
+// sale and valuation posts, the booking link for the rest.
+const topCta = blogTopCta(getBlogCtaTheme(cluster, { slug: post.slug, category, ctaTheme, funnel }));
 const contentCluster = cluster || 'blog';
 const effectiveCtaId = ctaId || cta.ctaId;
 
@@ -144,8 +147,11 @@ const authorInfo = authorData[author] || { role: '', image: '' };
 	      </div>
       <h1 class="post-title" itemprop="headline">{title}</h1>
       <p class="post-description" itemprop="description">{description}</p>
-      {funnel !== 'acquisition' && (
+      {topCta === 'booking' && (
         <p class="post-booking"><a class="post-booking-cta" href={discoveryBookingHref('blog-top')}>{BOOKING_LABEL}</a></p>
+      )}
+      {topCta === 'confidential' && (
+        <p class="post-booking"><a class="post-booking-cta" href={CONFIDENTIAL_HREF}>{CONFIDENTIAL_LABEL}</a></p>
       )}
       <div class="post-author">
         {authorInfo.image ? (

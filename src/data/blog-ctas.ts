@@ -267,12 +267,15 @@ export interface BlogCtaContext {
  * 3. off-ICP slug/category heuristic -> default variant
  * 4. cluster -> theme mapping
  * 5. default variant */
-export function getBlogCta(cluster?: string, ctx?: BlogCtaContext): BlogCtaVariant {
-  if (ctx?.funnel === 'acquisition') return blogCtaVariants.acquisition_transition;
-  if (ctx?.ctaTheme && blogCtaVariants[ctx.ctaTheme]) return blogCtaVariants[ctx.ctaTheme];
+export function getBlogCtaTheme(cluster?: string, ctx?: BlogCtaContext): FunnelTheme {
+  if (ctx?.funnel === 'acquisition') return 'acquisition_transition';
+  if (ctx?.ctaTheme && blogCtaVariants[ctx.ctaTheme]) return ctx.ctaTheme;
   const haystack = [ctx?.slug, ctx?.category].filter(Boolean).join(' ');
-  if (OFF_ICP.test(haystack)) return blogCtaVariants.default;
+  if (OFF_ICP.test(haystack)) return 'default';
   const key = (cluster || '').replace(/["']/g, '').trim();
-  const theme = clusterToTheme[key] || 'default';
-  return blogCtaVariants[theme];
+  return clusterToTheme[key] || 'default';
+}
+
+export function getBlogCta(cluster?: string, ctx?: BlogCtaContext): BlogCtaVariant {
+  return blogCtaVariants[getBlogCtaTheme(cluster, ctx)];
 }
