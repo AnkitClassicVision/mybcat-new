@@ -3472,6 +3472,90 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-25T01:38:44.407Z"
       }
+    },
+    {
+      "id": "optometry-answering-service-cost",
+      "slot": 44,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-communications",
+      "topic": "What an Optometry Answering Service Costs",
+      "keyword": "optometry answering service cost",
+      "suggested_title": "What an Optometry Answering Service Costs",
+      "slug": "optometry-answering-service-cost",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Patient Care",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T01:46:52.304Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.clementineanswers.com",
+          "publisher": "www.clementineanswers.com",
+          "url": "https://www.clementineanswers.com/24-7-live-answering-service-medical-doctors-offices",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry answering service cost"
+        },
+        {
+          "title": "nextcallin.com",
+          "publisher": "nextcallin.com",
+          "url": "https://nextcallin.com/pricing",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry answering service cost"
+        },
+        {
+          "title": "www.eyecareworks.com",
+          "publisher": "www.eyecareworks.com",
+          "url": "https://www.eyecareworks.com/virtual-receptionist",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry answering service cost"
+        },
+        {
+          "title": "www.ringiq.ai",
+          "publisher": "www.ringiq.ai",
+          "url": "https://www.ringiq.ai",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry answering service cost"
+        },
+        {
+          "title": "prod.mgma.com",
+          "publisher": "prod.mgma.com",
+          "url": "https://prod.mgma.com/mgma-stat/phones-are-still-a-backlog-costing-medical-practices-time",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry answering service cost"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-answering-service-cost",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T01:46:52.304Z"
+      }
     }
   ]
 }
