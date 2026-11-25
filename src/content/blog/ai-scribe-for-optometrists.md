@@ -21,9 +21,7 @@ targetKeyword: "AI scribe for optometrists"
 seoTopicId: ai-scribe-for-optometrists
 ---
 
-An **AI scribe for optometrists** uses information from a clinical encounter to generate draft documentation. In an ambient workflow, the clinician activates a tool that captures the encounter conversation and uses it to prepare a note.
-
-If charting follows you home, an AI scribe deserves a careful look. Whether you own a solo practice or oversee a group, the practical question is the same: how would it change the work required to produce a complete, reviewed clinical record?
+An **AI scribe for optometrists** uses information from a clinical encounter to generate draft documentation. If charting follows you home, an AI scribe deserves a careful look. Whether you own a solo practice or oversee a group, the practical question is the same: how would it change the work required to produce a complete, reviewed clinical record?
 
 Optometry Australia’s education listing describes clinical note generation alongside the practical considerations of workflow integration, privacy, and clinical responsibility.
 
@@ -234,7 +232,7 @@ This places the scribe within the wider work of [optometry practice operations](
 
 ### Choose the next step around your actual bottleneck
 
-Return to the problem that started the evaluation. If documentation is the concern, assess the reviewed note and the effort required to complete it.
+Return to the problem that started the evaluation. If [documentation](/solutions/virtual-medical-scribe/) is the concern, assess the reviewed note and the effort required to complete it.
 
 If the concern is follow-up ownership, [phone coverage](/solutions/medical-answering-service/), or an unclear checkout process, make those needs explicit in the operating plan as well.
 

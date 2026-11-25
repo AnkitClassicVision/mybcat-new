@@ -22,7 +22,7 @@ targetKeyword: "optometry answering service cost"
 seoTopicId: optometry-answering-service-cost
 ---
 
-**Optometry answering service cost** depends on the work you want covered, the hours you need, and the unit the provider bills: monthly plans with included minutes, per-call or per-provider plans, or hourly virtual receptionist support. To compare providers, request a written estimate that includes the base charge, applicable usage charges, and setup terms.
+**Optometry answering service cost** depends on the work you want covered, the hours you need, and the unit the provider bills: monthly plans with included calls or minutes, per-call or per-provider plans, or hourly virtual receptionist support. To compare providers, request a written estimate that includes the base charge, applicable usage charges, and setup terms.
 
 For a solo owner, the immediate need might be answering calls while the front desk helps someone in the office. For a group operator, it might be directing callers to the correct location and following different provider schedules. Both owners need a clear answer to the same question: what work will this agreement cover, and what will remain with the practice?
 
@@ -39,7 +39,9 @@ This guide explains the pricing structures in published provider examples and of
 
 ## How optometry answering service pricing works
 
-### Monthly plans with included minutes
+### Monthly plans with included calls or minutes
+
+Some providers sell a monthly plan with a set number of calls or minutes and bill a stated rate for usage beyond it. Next Call In lists monthly per-call bundles with overage calls billed at the rate shown. EyeCareWorks notes that per-minute answering services bill by the minute once plan minutes are used. [Next Call In pricing](https://nextcallin.com/pricing). [EyeCareWorks virtual receptionist service](https://www.eyecareworks.com/virtual-receptionist).
 
 For a minute-based proposal, ask the provider to define billable time. Does the clock include hold time, transfers, message preparation, or follow-up work? Request those definitions in the agreement, along with the treatment of unused minutes.
 

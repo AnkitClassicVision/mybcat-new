@@ -13,7 +13,7 @@ const POSTS = {
   'bookkeeping-for-optometry-practices': { service: '/optometry-practice-finances/', theme: 'finance_service' },
   'optometry-answering-service-cost': { service: '/solutions/front-desk-outsourcing/', theme: 'operations' },
   'optometry-practice-sale-letter-of-intent': { service: '/optometry-practice-transitions/', theme: null },
-  'ai-scribe-for-optometrists': { service: '/solutions/medical-answering-service/', theme: null },
+  'ai-scribe-for-optometrists': { service: '/solutions/virtual-medical-scribe/', theme: null },
   'optometry-practice-profit-margin-benchmarks': { service: '/optometry-practice-finances/', theme: 'finance_service' },
   'optometry-practice-chart-of-accounts': { service: '/optometry-practice-finances/', theme: 'finance_service' },
 };
@@ -52,7 +52,28 @@ for (const [slug, rule] of Object.entries(POSTS)) {
     assert.doesNotMatch(body, /staging\.reviewob\.com|aoa\.org\/practice\/practice-management\)/);
     assert.doesNotMatch(body, /\[[^\]\n]*\n\s*\n[^\]\n]*\]\(/, 'no link split across paragraphs');
 
+    // No sentence appears twice.
+    // Citation links are dropped first: citing one source twice is not a repeated sentence.
+    const sentencesAll = body.slice(0, body.indexOf('## Sources')).replace(/\[([^\]]*)\]\([^)]*\)\.?/g, '').split(/(?<=[.!?])\s+/).map((x) => x.trim()).filter((x) => x.length > 40 && !x.startsWith('|') && !x.startsWith('-'));
+    const repeated = sentencesAll.filter((x, i) => sentencesAll.indexOf(x) !== i);
+    assert.deepEqual(repeated, [], 'no repeated sentence');
+
     const theme = (front.match(/^ctaTheme:\s*(\w+)/m) || [])[1] || null;
     assert.equal(theme, rule.theme, 'CTA theme');
   });
 }
+
+test('review fixes: no unsourced included minutes; profit figures carry their sources and the right section', () => {
+  const cost = parse('optometry-answering-service-cost').body;
+  assert.doesNotMatch(cost, /included minutes/i);
+  // "Included calls or minutes" stays only with its live sources in that section.
+  const plans = cost.split('### Monthly plans with included calls or minutes')[1].split(/\n#{2,3} /)[0];
+  assert.match(plans, /\]\(https:\/\/nextcallin\.com\/pricing\)/);
+  assert.match(plans, /\]\(https:\/\/www\.eyecareworks\.com\/virtual-receptionist\)/);
+  const margin = parse('optometry-practice-profit-margin-benchmarks').body;
+  const opening = margin.trim().split(/\n\s*\n/)[0];
+  assert.match(opening, /optometrytimes\.com\/view\/independent-od-practices-net-31-of-revenue-idoc-benchmarks-show/);
+  assert.match(opening, /visionone\.org\/resources\/loan-faqs/);
+  assert.doesNotMatch(margin, /Success Points[^\n]*30%/);
+  assert.match(margin, /Maximizing Practice Cash Flow[^\n]*30%|30%[^\n]*Maximizing Practice Cash Flow/);
+});
