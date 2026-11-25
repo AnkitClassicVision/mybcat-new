@@ -4285,16 +4285,6 @@
       "permanent": true
     },
     {
-      "source": "/book/discovery",
-      "destination": "https://calendar.app.google/PLDmK4QwpdSqkxmb8",
-      "permanent": true
-    },
-    {
-      "source": "/book/discovery/",
-      "destination": "https://calendar.app.google/PLDmK4QwpdSqkxmb8",
-      "permanent": true
-    },
-    {
       "source": "/book/prep",
       "destination": "https://calendar.app.google/VqkXspVbhw4BbYyz8",
       "permanent": true
@@ -4389,6 +4379,14 @@
     {
       "source": "/forms/intake",
       "destination": "https://gmd394shy4.execute-api.us-east-1.amazonaws.com/forms/intake"
+    },
+    {
+      "source": "/book/discovery",
+      "destination": "/api/book/discovery"
+    },
+    {
+      "source": "/book/discovery/",
+      "destination": "/api/book/discovery"
     },
     {
       "source": "/mcp",
