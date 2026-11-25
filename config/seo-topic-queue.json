@@ -3808,6 +3808,90 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-25T02:09:49.060Z"
       }
+    },
+    {
+      "id": "optometry-practice-chart-of-accounts",
+      "slot": 48,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "practice-finance",
+      "topic": "A Chart of Accounts for an Optometry Practice",
+      "keyword": "optometry practice chart of accounts",
+      "suggested_title": "A Chart of Accounts for an Optometry Practice",
+      "slug": "optometry-practice-chart-of-accounts",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Business",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T02:17:12.342Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/issues/2010/november/use-metrics-in-your-practice",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice chart of accounts"
+        },
+        {
+          "title": "www.visionone.org",
+          "publisher": "www.visionone.org",
+          "url": "https://www.visionone.org/education/financial-statements",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice chart of accounts"
+        },
+        {
+          "title": "files.optometrybusiness.com",
+          "publisher": "files.optometrybusiness.com",
+          "url": "https://files.optometrybusiness.com/Best%20Practices%20of%20Financial%20Management.pdf",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice chart of accounts"
+        },
+        {
+          "title": "www.aao.org",
+          "publisher": "www.aao.org",
+          "url": "https://www.aao.org/Assets/32e115ee-de89-4c50-9f9a-5965d6282aa9/637194422877430000/academetrics-surveyquestions-pdf",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice chart of accounts"
+        },
+        {
+          "title": "reviewob.com",
+          "publisher": "reviewob.com",
+          "url": "https://reviewob.com/key-occupancy-metrics",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice chart of accounts"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-practice-chart-of-accounts",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T02:17:12.342Z"
+      }
     }
   ]
 }
