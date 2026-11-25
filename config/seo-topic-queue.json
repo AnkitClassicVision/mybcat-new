@@ -3472,6 +3472,426 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-25T01:38:44.407Z"
       }
+    },
+    {
+      "id": "optometry-answering-service-cost",
+      "slot": 44,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-communications",
+      "topic": "What an Optometry Answering Service Costs",
+      "keyword": "optometry answering service cost",
+      "suggested_title": "What an Optometry Answering Service Costs",
+      "slug": "optometry-answering-service-cost",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Patient Care",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T01:46:52.304Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.clementineanswers.com",
+          "publisher": "www.clementineanswers.com",
+          "url": "https://www.clementineanswers.com/24-7-live-answering-service-medical-doctors-offices",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry answering service cost"
+        },
+        {
+          "title": "nextcallin.com",
+          "publisher": "nextcallin.com",
+          "url": "https://nextcallin.com/pricing",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry answering service cost"
+        },
+        {
+          "title": "www.eyecareworks.com",
+          "publisher": "www.eyecareworks.com",
+          "url": "https://www.eyecareworks.com/virtual-receptionist",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry answering service cost"
+        },
+        {
+          "title": "www.ringiq.ai",
+          "publisher": "www.ringiq.ai",
+          "url": "https://www.ringiq.ai",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry answering service cost"
+        },
+        {
+          "title": "prod.mgma.com",
+          "publisher": "prod.mgma.com",
+          "url": "https://prod.mgma.com/mgma-stat/phones-are-still-a-backlog-costing-medical-practices-time",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry answering service cost"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-answering-service-cost",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T01:46:52.304Z"
+      }
+    },
+    {
+      "id": "optometry-practice-sale-letter-of-intent",
+      "slot": 45,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "practice-transitions",
+      "topic": "The Letter of Intent in an Optometry Practice Sale",
+      "keyword": "optometry practice sale letter of intent",
+      "suggested_title": "The Letter of Intent in an Optometry Practice Sale",
+      "slug": "optometry-practice-sale-letter-of-intent",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Practice Transitions",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T01:55:12.457Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.dmcounsel.com",
+          "publisher": "www.dmcounsel.com",
+          "url": "https://www.dmcounsel.com/blog/10-key-terms-for-an-optometry-practice-letter-of-intent",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale letter of intent"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/careers/career-planning/what-makes-a-successful-sale",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale letter of intent"
+        },
+        {
+          "title": "www.csteinberglaw.org",
+          "publisher": "www.csteinberglaw.org",
+          "url": "https://www.csteinberglaw.org/od-od-practice-sales",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale letter of intent"
+        },
+        {
+          "title": "staging.reviewob.com",
+          "publisher": "staging.reviewob.com",
+          "url": "https://staging.reviewob.com/7-due-diligence-steps-to-protect-yourself-before-buying-a-practice",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale letter of intent"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/AOA/Documents/Education/Education_PDFs/Case%20Study%2016-Selling%20a%20Practice.pdf",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale letter of intent"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-practice-sale-letter-of-intent",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T01:55:12.457Z"
+      }
+    },
+    {
+      "id": "ai-scribe-for-optometrists",
+      "slot": 46,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "ai-projects",
+      "topic": "AI Scribes for Optometrists: How They Work",
+      "keyword": "AI scribe for optometrists",
+      "suggested_title": "AI Scribes for Optometrists: How They Work",
+      "slug": "ai-scribe-for-optometrists",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T02:02:48.032Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.optometry.org.au",
+          "publisher": "www.optometry.org.au",
+          "url": "https://www.optometry.org.au/institute-of-excellence/cpd-events/artificial-intelligence-scribes-in-practice-the-potential-for-ai-to-change-optometry",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI scribe for optometrists"
+        },
+        {
+          "title": "www.apa.org",
+          "publisher": "www.apa.org",
+          "url": "https://www.apa.org/topics/artificial-intelligence-machine-learning/evaluating-ai-scribes.html",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI scribe for optometrists"
+        },
+        {
+          "title": "edhub.ama-assn.org",
+          "publisher": "edhub.ama-assn.org",
+          "url": "https://edhub.ama-assn.org/code-of-medical-ethics/module/2850594?bypassSolrId=J_2850594&resultClick=1",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI scribe for optometrists"
+        },
+        {
+          "title": "pubmed.ncbi.nlm.nih.gov",
+          "publisher": "pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41776297",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI scribe for optometrists"
+        },
+        {
+          "title": "www.nature.com",
+          "publisher": "www.nature.com",
+          "url": "https://www.nature.com/articles/s41433-026-04346-y",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI scribe for optometrists"
+        }
+      ],
+      "evidence_packet": "scheduled-post:ai-scribe-for-optometrists",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T02:02:48.032Z"
+      }
+    },
+    {
+      "id": "optometry-practice-profit-margin-benchmarks",
+      "slot": 47,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "practice-finance",
+      "topic": "Optometry Practice Profit Margin Benchmarks",
+      "keyword": "optometry practice profit margin benchmarks",
+      "suggested_title": "Optometry Practice Profit Margin Benchmarks",
+      "slug": "optometry-practice-profit-margin-benchmarks",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Business",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T02:09:49.060Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.optometrytimes.com",
+          "publisher": "www.optometrytimes.com",
+          "url": "https://www.optometrytimes.com/view/independent-od-practices-net-31-of-revenue-idoc-benchmarks-show",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice profit margin benchmarks"
+        },
+        {
+          "title": "www.visionone.org",
+          "publisher": "www.visionone.org",
+          "url": "https://www.visionone.org/resources/loan-faqs",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice profit margin benchmarks"
+        },
+        {
+          "title": "www.optometricmanagement.com",
+          "publisher": "www.optometricmanagement.com",
+          "url": "https://www.optometricmanagement.com/issues/2019/november/software-for-financial-health",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice profit margin benchmarks"
+        },
+        {
+          "title": "reviewob.com",
+          "publisher": "reviewob.com",
+          "url": "https://reviewob.com/metrics-we-used-to-grow-our-optometry-practice-10x",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice profit margin benchmarks"
+        },
+        {
+          "title": "files.optometrybusiness.com",
+          "publisher": "files.optometrybusiness.com",
+          "url": "https://files.optometrybusiness.com/Best%20Practices%20of%20Financial%20Management.pdf",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice profit margin benchmarks"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-practice-profit-margin-benchmarks",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T02:09:49.060Z"
+      }
+    },
+    {
+      "id": "optometry-practice-chart-of-accounts",
+      "slot": 48,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "practice-finance",
+      "topic": "A Chart of Accounts for an Optometry Practice",
+      "keyword": "optometry practice chart of accounts",
+      "suggested_title": "A Chart of Accounts for an Optometry Practice",
+      "slug": "optometry-practice-chart-of-accounts",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Business",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T02:17:12.342Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/issues/2010/november/use-metrics-in-your-practice",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice chart of accounts"
+        },
+        {
+          "title": "www.visionone.org",
+          "publisher": "www.visionone.org",
+          "url": "https://www.visionone.org/education/financial-statements",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice chart of accounts"
+        },
+        {
+          "title": "files.optometrybusiness.com",
+          "publisher": "files.optometrybusiness.com",
+          "url": "https://files.optometrybusiness.com/Best%20Practices%20of%20Financial%20Management.pdf",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice chart of accounts"
+        },
+        {
+          "title": "www.aao.org",
+          "publisher": "www.aao.org",
+          "url": "https://www.aao.org/Assets/32e115ee-de89-4c50-9f9a-5965d6282aa9/637194422877430000/academetrics-surveyquestions-pdf",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice chart of accounts"
+        },
+        {
+          "title": "reviewob.com",
+          "publisher": "reviewob.com",
+          "url": "https://reviewob.com/key-occupancy-metrics",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice chart of accounts"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-practice-chart-of-accounts",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T02:17:12.342Z"
+      }
     }
   ]
 }
