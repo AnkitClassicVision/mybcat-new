@@ -3640,6 +3640,90 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-25T01:55:12.457Z"
       }
+    },
+    {
+      "id": "ai-scribe-for-optometrists",
+      "slot": 46,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "ai-projects",
+      "topic": "AI Scribes for Optometrists: How They Work",
+      "keyword": "AI scribe for optometrists",
+      "suggested_title": "AI Scribes for Optometrists: How They Work",
+      "slug": "ai-scribe-for-optometrists",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T02:02:48.032Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.optometry.org.au",
+          "publisher": "www.optometry.org.au",
+          "url": "https://www.optometry.org.au/institute-of-excellence/cpd-events/artificial-intelligence-scribes-in-practice-the-potential-for-ai-to-change-optometry",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI scribe for optometrists"
+        },
+        {
+          "title": "www.apa.org",
+          "publisher": "www.apa.org",
+          "url": "https://www.apa.org/topics/artificial-intelligence-machine-learning/evaluating-ai-scribes.html",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI scribe for optometrists"
+        },
+        {
+          "title": "edhub.ama-assn.org",
+          "publisher": "edhub.ama-assn.org",
+          "url": "https://edhub.ama-assn.org/code-of-medical-ethics/module/2850594?bypassSolrId=J_2850594&resultClick=1",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI scribe for optometrists"
+        },
+        {
+          "title": "pubmed.ncbi.nlm.nih.gov",
+          "publisher": "pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41776297",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI scribe for optometrists"
+        },
+        {
+          "title": "www.nature.com",
+          "publisher": "www.nature.com",
+          "url": "https://www.nature.com/articles/s41433-026-04346-y",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI scribe for optometrists"
+        }
+      ],
+      "evidence_packet": "scheduled-post:ai-scribe-for-optometrists",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T02:02:48.032Z"
+      }
     }
   ]
 }
