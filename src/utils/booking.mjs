@@ -57,6 +57,30 @@ export const BOOKING_PLACEMENTS = Object.freeze([
   'virtual-medical-scribe-cta',
 ]);
 
+/**
+ * Tags on booking links posted outside the site, such as social posts. The booking
+ * counter records these by name too. They are kept apart from BOOKING_PLACEMENTS on
+ * purpose: bookingHref refuses them, so a site link cannot carry a social tag and
+ * site clicks never count as social clicks.
+ * A new campaign must add its tags here before its links go out.
+ */
+export const CAMPAIGN_PLACEMENTS = Object.freeze([
+  'fill-rate-linkedin-personal-1',
+  'fill-rate-linkedin-personal-2',
+  'fill-rate-linkedin-personal-3',
+  'fill-rate-linkedin-company-2',
+  'fill-rate-linkedin-company-3',
+  'fill-rate-facebook-1',
+  'fill-rate-facebook-2',
+  'fill-rate-facebook-3',
+  'fill-rate-instagram-1',
+  'fill-rate-instagram-2',
+  'fill-rate-instagram-3',
+  'fill-rate-social-1',
+  'fill-rate-social-2',
+  'fill-rate-social-3',
+]);
+
 /** True when src has the form of a placement name: lower case letters, digits and hyphens, 64 at most. */
 export function isWellFormedSrc(src) {
   return typeof src === 'string' && SRC.test(src);

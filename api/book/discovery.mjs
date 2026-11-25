@@ -3,16 +3,16 @@
  *
  * vercel.json rewrites /book/discovery and /book/discovery/ to this function.
  * The answer is the same 308 the static redirect gave, to the same Google
- * appointment schedule. The host and path are fixed. Only a src from the site's
- * own placement list goes on (?src=home-hero), so a normal booking link gets a
- * byte-identical Location; every other query value is dropped. Google's short
- * link drops the query anyway, so the visitor lands on the same page.
+ * appointment schedule. The host and path are fixed. Only a src from the site
+ * or campaign placement lists goes on (?src=home-hero), so a normal booking link
+ * gets a byte-identical Location; every other query value is dropped. Google's
+ * short link drops the query anyway, so the visitor lands on the same page.
  *
  * For a GET it writes one record of three values:
- * - src: the placement name when it is in BOOKING_PLACEMENTS
- *   (src/utils/booking.mjs); 'other' for a well-formed name the site does not
- *   use; 'invalid' for anything else; 'none' when the link has no src. Only
- *   listed names are ever kept.
+ * - src: the placement name when it is in BOOKING_PLACEMENTS or
+ *   CAMPAIGN_PLACEMENTS (src/utils/booking.mjs); 'other' for a well-formed
+ *   name in neither list; 'invalid' for anything else; 'none' when the link
+ *   has no src. Only listed names are ever kept.
  * - date: the UTC day, YYYY-MM-DD.
  * - bot: true when the GET is not a plain browser navigation, by a coarse test
  *   on the user agent. The user agent itself is not kept.
@@ -51,11 +51,14 @@ const BOT_UA = /bot|crawl|spider|slurp|scrap|fetch|preview|monitor|uptime|pingdo
 
 let rules = null;
 
-/** The placement list and src rule, loaded once inside the handler so a load error cannot stop the redirect. */
+/** The site and campaign placement lists and the src rule, loaded once inside the handler so a load error cannot stop the redirect. */
 async function loadRules() {
   if (!rules) {
     const booking = await import('../../src/utils/booking.mjs');
-    rules = { placements: new Set(booking.BOOKING_PLACEMENTS), isWellFormedSrc: booking.isWellFormedSrc };
+    rules = {
+      placements: new Set([...booking.BOOKING_PLACEMENTS, ...booking.CAMPAIGN_PLACEMENTS]),
+      isWellFormedSrc: booking.isWellFormedSrc,
+    };
   }
   return rules;
 }

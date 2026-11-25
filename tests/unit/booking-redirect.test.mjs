@@ -7,7 +7,7 @@ import test from 'node:test';
 import { fileURLToPath } from 'node:url';
 
 import handler, { DESTINATION, EVENT, createHandler, isBot, placement } from '../../api/book/discovery.mjs';
-import { BOOKING_PLACEMENTS, bookingHref } from '../../src/utils/booking.mjs';
+import { BOOKING_PLACEMENTS, CAMPAIGN_PLACEMENTS, bookingHref } from '../../src/utils/booking.mjs';
 
 // /book/discovery is served by api/book/discovery.mjs: one count, then the same
 // 308 to the same Google schedule that the static redirect gave.
@@ -185,6 +185,56 @@ test('the placement list is the one the site uses: bookingHref refuses any src n
   for (const unknown of ['test-link', 'jane-doe-glaucoma', 'header-x']) {
     assert.throws(() => bookingHref(unknown), /BOOKING_PLACEMENTS/, unknown);
   }
+  // The fill rate tags that are live on the site are site placements.
+  for (const live of ['fill-rate-blog-top', 'fill-rate-blog-mid', 'fill-rate-blog-end', 'fill-rate-finance-mid']) {
+    assert.ok(BOOKING_PLACEMENTS.includes(live), live);
+  }
+});
+
+// Tags on booking links posted outside the site (social posts for Dec 1 to 3).
+const CAMPAIGN_TAGS = [
+  'fill-rate-linkedin-personal-1',
+  'fill-rate-linkedin-personal-2',
+  'fill-rate-linkedin-personal-3',
+  'fill-rate-linkedin-company-2',
+  'fill-rate-linkedin-company-3',
+  'fill-rate-facebook-1',
+  'fill-rate-facebook-2',
+  'fill-rate-facebook-3',
+  'fill-rate-instagram-1',
+  'fill-rate-instagram-2',
+  'fill-rate-instagram-3',
+  'fill-rate-social-1',
+  'fill-rate-social-2',
+  'fill-rate-social-3',
+];
+
+test('campaign tags are a separate list: counted by name, refused on site links', async () => {
+  assert.deepEqual([...CAMPAIGN_PLACEMENTS], CAMPAIGN_TAGS);
+  assert.ok(Object.isFrozen(CAMPAIGN_PLACEMENTS), 'the list cannot be changed at run time');
+  assert.equal(new Set(CAMPAIGN_PLACEMENTS).size, CAMPAIGN_PLACEMENTS.length, 'no duplicates');
+  for (const tag of CAMPAIGN_PLACEMENTS) {
+    assert.match(tag, /^[a-z0-9][a-z0-9-]{0,63}$/, tag);
+    assert.ok(!BOOKING_PLACEMENTS.includes(tag), `${tag} is in both lists`);
+    assert.ok(!['none', 'invalid', 'other'].includes(tag), `${tag} is a reserved record value`);
+    // A site link must not carry a social tag, or site clicks would count as social.
+    assert.throws(() => bookingHref(tag), /BOOKING_PLACEMENTS/, tag);
+    assert.equal(await placement(`src=${tag}`), tag, tag);
+  }
+  for (const nearMiss of ['fill-rate-facebook-9', 'fill-rate-linkedin-company-1', 'fill-rate-social', 'fill-rate-instagram-1-x']) {
+    assert.equal(await placement(`src=${nearMiss}`), 'other', nearMiss);
+  }
+  const { run, lines, calls } = rig({ env: TOKEN_ENV });
+  const res = recorder();
+  await run(request('/book/discovery?src=fill-rate-linkedin-personal-1&utm_source=linkedin'), res);
+  assert.equal(res.headers.location, `${CALENDAR}?src=fill-rate-linkedin-personal-1`);
+  assert.equal(JSON.parse(lines[0]).src, 'fill-rate-linkedin-personal-1');
+  assert.equal(JSON.parse(calls[0].init.body).properties.src, 'fill-rate-linkedin-personal-1');
+  const near = rig();
+  const nearRes = recorder();
+  await near.run(request('/book/discovery?src=fill-rate-facebook-9'), nearRes);
+  assert.equal(JSON.parse(near.lines[0]).src, 'other');
+  assert.equal(nearRes.headers.location, CALENDAR);
 });
 
 test('one log line per GET, holding only the event, src, date and bot flag', async () => {
