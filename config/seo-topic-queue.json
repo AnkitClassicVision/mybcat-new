@@ -3388,6 +3388,90 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-24T23:39:22.259Z"
       }
+    },
+    {
+      "id": "bookkeeping-for-optometry-practices",
+      "slot": 43,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "practice-finance",
+      "topic": "Bookkeeping for Optometry Practices: A Practical Guide",
+      "keyword": "bookkeeping for optometry practices",
+      "suggested_title": "Bookkeeping for Optometry Practices: A Practical Guide",
+      "slug": "bookkeeping-for-optometry-practices",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Business",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T01:38:44.407Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/owning-a-practice/managing-practice-finances",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "bookkeeping for optometry practices"
+        },
+        {
+          "title": "www.irs.gov",
+          "publisher": "www.irs.gov",
+          "url": "https://www.irs.gov/pub/irs-pdf/p583.pdf",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "bookkeeping for optometry practices"
+        },
+        {
+          "title": "www.irs.gov",
+          "publisher": "www.irs.gov",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "bookkeeping for optometry practices"
+        },
+        {
+          "title": "staging.reviewob.com",
+          "publisher": "staging.reviewob.com",
+          "url": "https://staging.reviewob.com/chart-of-accounts-how-to-create-this-chart-to-better-measure-and-improve-your-profitability",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "bookkeeping for optometry practices"
+        },
+        {
+          "title": "digital.optometricmanagement.com",
+          "publisher": "digital.optometricmanagement.com",
+          "url": "https://digital.optometricmanagement.com/articles/closing-the-year-strong",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "bookkeeping for optometry practices"
+        }
+      ],
+      "evidence_packet": "scheduled-post:bookkeeping-for-optometry-practices",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T01:38:44.407Z"
+      }
     }
   ]
 }
