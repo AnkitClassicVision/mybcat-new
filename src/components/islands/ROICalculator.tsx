@@ -419,7 +419,7 @@ export default function ROICalculator() {
               Unlock My ROI Report
             </button>
             <p className="gate-privacy">
-              We respect your privacy. Your data is never shared with third parties.
+              We use your details to respond to your request. See our <a href="/privacy-policy/">Privacy Policy</a>.
             </p>
           </form>
         </div>
