@@ -14,12 +14,22 @@ tags:
 - optometry practice profit margin benchmarks
 - optometry practice
 cluster: practice-finance
+ctaTheme: finance_service
 funnel: service
 featuredImage: /images/blog/optometry-practice-profit-margin-benchmarks.webp
 canonical: https://mybcat.com/blog/optometry-practice-profit-margin-benchmarks/
 targetKeyword: "optometry practice profit margin benchmarks"
 seoTopicId: optometry-practice-profit-margin-benchmarks
 ---
+
+Published optometry practice profit margin benchmarks include a median of 31% of collections for doctor compensation plus EBITDA and 16% of revenue for unadjusted EBITDA in [IDOC’s 2025 benchmarks](https://www.optometrytimes.com/view/independent-od-practices-net-31-of-revenue-idoc-benchmarks-show), and a typical pre-tax net income range of 5%–25% from [Vision One Credit Union](https://www.visionone.org/resources/loan-faqs). These benchmarks become useful when you know what each source counts as profit: some include doctor compensation, while others report earnings after that expense.
+
+Comparing those figures without checking their definitions can lead an owner to draw the wrong conclusion about the practice.
+
+For the owner who does the books, the practical starting point is a clearly labeled financial statement. Identify the revenue being measured, the expenses deducted, and the treatment of owner and associate compensation. Then choose a benchmark that matches.
+
+This guide brings the published figures together and explains how to use them in a financial review, whether you run a solo office or a group.
+
 ## Table of Contents
 
 - [What Published Optometry Profit Margin Benchmarks Measure](#what-published-optometry-profit-margin-benchmarks-measure)
@@ -27,16 +37,6 @@ seoTopicId: optometry-practice-profit-margin-benchmarks
 - [Choose Comparisons That Fit Your Practice](#choose-comparisons-that-fit-your-practice)
 - [Turn a Margin Gap Into a Focused Review](#turn-a-margin-gap-into-a-focused-review)
 - [Make Benchmark Reviews Useful Month After Month](#make-benchmark-reviews-useful-month-after-month)
-
-
-
-Optometry practice profit margin benchmarks become useful when you know what each source counts as profit. Published references use different measures: some include doctor compensation, while others report earnings after that expense.
-
-Comparing those figures without checking their definitions can lead an owner to draw the wrong conclusion about the practice.
-
-For the owner who does the books, the practical starting point is a clearly labeled financial statement. Identify the revenue being measured, the expenses deducted, and the treatment of owner and associate compensation. Then choose a benchmark that matches.
-
-This guide brings the published figures together and explains how to use them in a financial review, whether you run a solo office or a group.
 
 ## What Published Optometry Profit Margin Benchmarks Measure
 
@@ -69,9 +69,9 @@ A *Review of Optometric Business* article describes targets used in an individua
 
 They are not presented as a national median. [Practice expense targets in Review of Optometric Business](https://reviewob.com/metrics-we-used-to-grow-our-optometry-practice-10x).
 
-The 2015 *Financial Management Planner: Success Points* reports a historical median practice cash-flow ratio of **30% before OD compensation**.
+The “Maximizing Practice Cash Flow” section of Optometric Business’s 2015 *Best Practices of Financial Management* guide reports a historical median practice cash-flow ratio of **30% before OD compensation**.
 
-It distinguishes that measure from cash flow after OD compensation, a useful distinction when reviewing a group with employed doctors. [Financial Management Planner: Success Points](https://files.optometrybusiness.com/Best%20Practices%20of%20Financial%20Management.pdf).
+It distinguishes that measure from cash flow after OD compensation, a useful distinction when reviewing a group with employed doctors. [Best Practices of Financial Management (2015)](https://files.optometrybusiness.com/Best%20Practices%20of%20Financial%20Management.pdf).
 
 An older textbook chapter gives a historical **25%–35% adjusted net-to-gross income range for dispensing optometry practices**. It discusses service mix, overhead, and debt as considerations when comparing practices.
 
@@ -160,7 +160,7 @@ Avoid assigning a cause to a margin difference simply because a particular expen
 
 ### Connect expense categories to the work being performed
 
-After checking the reporting, examine the activity behind the expense. For administrative staffing, document responsibilities, coverage arrangements, handoffs, and unresolved tasks. For software, list the functions used, the team responsible, and any overlapping subscriptions.
+After checking the reporting, examine the activity behind the expense. For [administrative staffing](/optometry-practice-finances/), document responsibilities, coverage arrangements, handoffs, and unresolved tasks. For software, list the functions used, the team responsible, and any overlapping subscriptions.
 
 For optical purchasing, assemble the relevant purchasing records and inventory reports. For occupancy, separate the commitments already in place from decisions still available to the practice.
 
@@ -238,5 +238,5 @@ Every optometry practice owner is welcome, whether you operate a solo office or 
 ### Historical financial guidance
 
 - [Optometric Management: Software for Financial Health](https://www.optometricmanagement.com/issues/2019/november/software-for-financial-health). Historical guidance for traditional practices with a net-income definition that includes doctor compensation and benefits.
-- [Financial Management Planner: Success Points](https://files.optometrybusiness.com/Best%20Practices%20of%20Financial%20Management.pdf). Historical practice cash-flow comparisons distinguishing results before and after OD compensation.
+- [Best Practices of Financial Management (2015), Maximizing Practice Cash Flow](https://files.optometrybusiness.com/Best%20Practices%20of%20Financial%20Management.pdf). Historical practice cash-flow comparisons distinguishing results before and after OD compensation.
 - [Valuation and Purchase of an Eye Care Practice](https://files.optometrybusiness.com/BAO-Textbook-Chapter-8.pdf). Historical adjusted net-to-gross income guidance for dispensing practices and discussion of comparison factors.
