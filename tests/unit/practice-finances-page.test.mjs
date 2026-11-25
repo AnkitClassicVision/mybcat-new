@@ -61,7 +61,7 @@ test('the page source has a short title, an FAQ, Service data and the discovery 
   assert.ok(title.length < 60, `title is ${title.length} characters`);
   assert.match(page, /<FAQ\b/);
   assert.match(page, /'@type': 'Service'/);
-  assert.match(page, /discoveryBookingHref\('optometry-practice-finances'\)/);
+  assert.match(page, /discoveryBookingHref\('finances-hero'\)/);
   assert.match(page, /from '@data\/testimonials'/, 'quotes come from the testimonials file');
   assert.match(page, /a meeting with Ankit Patel, our Founder & CEO, to purchase/, 'step 2 is a meeting with the company founder');
   assert.doesNotMatch(page, /meeting with the practice owner/);
@@ -94,7 +94,8 @@ test('the built page has one H1, one FAQPage, Service and breadcrumb data, and i
   assert.match(types, /"@type":"BreadcrumbList"/);
   const title = html.match(/<title>([^<]*)<\/title>/)[1];
   assert.ok(title.length < 60, `built title is ${title.length} characters`);
-  assert.match(html, /href="\/book\/discovery\?utm_source=site&#38;utm_content=optometry-practice-finances"|href="\/book\/discovery\?utm_source=site&amp;utm_content=optometry-practice-finances"/);
+  assert.match(html, /href="\/book\/discovery\?src=finances-hero"/);
+  assert.match(html, /href="\/book\/discovery\?src=finances-cta"/);
   assert.match(fs.readFileSync(path.join(built, 'sitemap-0.xml'), 'utf8'), /<loc>https:\/\/mybcat\.com\/optometry-practice-finances\/<\/loc>/);
   for (const slug of financePosts) {
     const post = fs.readFileSync(path.join(built, 'blog', slug, 'index.html'), 'utf8');

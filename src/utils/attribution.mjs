@@ -312,10 +312,11 @@ export function isBookingUrl(href, ownHosts, base) {
   return isOwnHost(host, ownHosts) && BOOKING_PATH.test(url.pathname);
 }
 
-/** Where on the site the link sat: the utm_content the link already carries. */
+/** Where on the site the link sat: its src (page and position), or an older utm_content. */
 export function bookingPlacement(href, base) {
   try {
-    return cleanToken(new URL(href, base || 'https://mybcat.com/').searchParams.get('utm_content') || '');
+    const params = new URL(href, base || 'https://mybcat.com/').searchParams;
+    return cleanToken(params.get('src') || params.get('utm_content') || '');
   } catch {
     return '';
   }

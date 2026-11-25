@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const discoveryHref = (page: string) =>
-  `/book/discovery?utm_source=site&utm_content=${page}`;
+const discoveryHref = (src: string) => `/book/discovery?src=${src}`;
 
 test.describe('Discovery booking CTAs', () => {
   test('how-it-works schedule CTA points at discovery booking', async ({ page }) => {
@@ -16,13 +15,15 @@ test.describe('Discovery booking CTAs', () => {
     await page.goto('/pricing/');
     const clickToBook = page.getByRole('link', { name: 'Click to book' });
     await expect(clickToBook).toHaveCount(4);
-    for (const link of await clickToBook.all()) {
-      await expect(link).toHaveAttribute('href', discoveryHref('pricing'));
+    await expect(clickToBook.first()).toHaveAttribute('href', discoveryHref('pricing-callout'));
+    for (const link of (await clickToBook.all()).slice(1)) {
+      await expect(link).toHaveAttribute('href', discoveryHref('pricing-plans'));
     }
     await expect(page.getByRole('link', { name: 'Book Your Call' })).toHaveAttribute(
       'href',
-      discoveryHref('pricing')
+      discoveryHref('pricing-cta')
     );
+    await expect(page.locator('main a.hero-book')).toHaveAttribute('href', discoveryHref('pricing-hero'));
   });
 
   test('contact page adds a book button above the form', async ({ page }) => {

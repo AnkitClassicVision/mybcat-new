@@ -11,6 +11,7 @@ import Card from '@/components/Card.astro';
 import { pricingTiers, allFeatures } from '@data/pricing';
 import { getFAQsByCategory } from '@data/faq';
 import { discoveryBookingHref } from '@data/navigation';
+import { BOOKING_LABEL } from '@utils/booking.mjs';
 ---
 
 <PageLayout
@@ -25,6 +26,8 @@ import { discoveryBookingHref } from '@data/navigation';
   heroSubtitle="One team for your calls, whether you run one practice or several. No per-call charges."
 >
   <div class="pricing-page">
+    <p class="hero-action"><a class="hero-book" href={discoveryBookingHref('pricing-hero')}>{BOOKING_LABEL}</a></p>
+
     <!-- Enterprise Callout -->
     <section class="enterprise-callout">
       <div class="enterprise-box">
@@ -39,7 +42,7 @@ import { discoveryBookingHref } from '@data/navigation';
           <li><span class="check">&#10003;</span> Unified reporting by location</li>
           <li><span class="check">&#10003;</span> Scale at your pace</li>
         </ul>
-        <a href={discoveryBookingHref('pricing')} class="enterprise-cta">Click to book</a>
+        <a href={discoveryBookingHref('pricing-callout')} class="enterprise-cta">Click to book</a>
       </div>
     </section>
 
@@ -227,13 +230,32 @@ import { discoveryBookingHref } from '@data/navigation';
         title="Ready to Get Started?"
         description="Book a discovery call to get a custom quote for your practice."
         buttonText="Book Your Call"
-        buttonHref={discoveryBookingHref('pricing')}
+        buttonHref={discoveryBookingHref('pricing-cta')}
       />
     </section>
   </div>
 </PageLayout>
 
 <style>
+  .hero-action {
+    text-align: center;
+    margin: 0 0 32px;
+  }
+
+  .hero-book {
+    display: inline-block;
+    padding: 14px 28px;
+    background: var(--oceanic-teal);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+
+  .hero-book:hover {
+    background: var(--navy-900);
+  }
+
   .pricing-page {
     max-width: 1200px;
     margin: 0 auto;

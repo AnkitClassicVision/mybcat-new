@@ -585,6 +585,34 @@ test('a click on a booking link pushes the dataLayer event and the PostHog event
   assert.equal(captured[0].props.event, undefined);
 });
 
+// The booking event carries these keys and nothing else: the page, the CTA position
+// (from the link's src), the trigger, and the cleaned first and last touch.
+const BOOKING_EVENT_KEYS = [
+  'event', 'booking_placement', 'booking_trigger', 'page_path',
+  ...['first_touch', 'last_touch'].flatMap((touch) =>
+    ['utm_source', 'utm_medium', 'utm_campaign', 'referrer_host', 'landing_path', 'channel', 'date'].map((field) => `${touch}_${field}`)),
+].sort();
+
+test('the booking event takes its position from src and carries allow-listed keys only', () => {
+  const captured = [];
+  const win = fakeWindow({
+    href: 'https://mybcat.com/optometry-practice-finances/?utm_source=google&utm_medium=organic&email=jane%40example.com',
+    referrer: 'https://www.google.com/',
+    posthog: { capture: (name, props) => captured.push({ name, props }) },
+  });
+  initAttribution(win);
+  click(win, anchor('/book/discovery?src=finances-hero'));
+  const pushed = win.dataLayer[0];
+  assert.deepEqual(Object.keys(pushed).sort(), BOOKING_EVENT_KEYS);
+  assert.deepEqual(Object.keys(captured[0].props).sort(), BOOKING_EVENT_KEYS.filter((key) => key !== 'event'));
+  assert.equal(pushed.booking_placement, 'finances-hero');
+  assert.equal(pushed.page_path, '/optometry-practice-finances/');
+  assert.equal(pushed.first_touch_channel, 'organic_search');
+  assert.ok(!/jane|example/i.test(JSON.stringify(pushed)));
+  assert.equal(bookingPlacement('/book/discovery?src=blog-top&utm_content=old'), 'blog-top');
+  assert.equal(bookingPlacement('/book/discovery?src=Jane%40Example.com'), '');
+});
+
 test('a click inside a booking link counts, an absolute site link counts, other links do not', () => {
   const win = fakeWindow({ href: 'https://mybcat.com/blog/post/' });
   initAttribution(win);

@@ -1,6 +1,7 @@
 /**
  * Navigation structure for main menu, footer, and breadcrumbs
  */
+import { BOOKING_LABEL, bookingHref } from '../utils/booking.mjs';
 
 export interface NavItem {
   label: string;
@@ -173,13 +174,13 @@ export const ctaButton = {
   mobileLabel: 'Contact Us'
 };
 
-// Site-wide header booking CTA
-export function discoveryBookingHref(utmContent: string): string {
-  return `/book/discovery?utm_source=site&utm_content=${utmContent}`;
+// Discovery-call links: one route, a src naming the page and position (src/utils/booking.mjs).
+export function discoveryBookingHref(src: string): string {
+  return bookingHref(src);
 }
 
 export const headerCta = {
-  label: 'Book a 20-min call',
+  label: BOOKING_LABEL,
   href: discoveryBookingHref('header'),
-  mobileLabel: 'Book a 20-min call'
+  mobileLabel: BOOKING_LABEL
 };
