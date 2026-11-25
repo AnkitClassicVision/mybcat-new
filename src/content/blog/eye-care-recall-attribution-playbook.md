@@ -5,9 +5,8 @@ description: Define recall attribution across eye care locations with shared coh
   rules, channel credit, booking and visit metrics, and accountable handoffs.
 seoDescription: Define recall attribution across eye care locations with shared cohort
   rules, channel credit, booking and visit metrics, and accountable handoffs.
-publishDate: '2026-10-26'
-status: scheduled
-scheduledDate: '2026-10-26'
+publishDate: '2026-11-25'
+status: published
 author: Ankit Patel
 tags:
 - eye care recall attribution playbook
