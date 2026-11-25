@@ -7,7 +7,7 @@ import test from 'node:test';
 import { fileURLToPath } from 'node:url';
 
 import handler, { DESTINATION, EVENT, createHandler, isBot, placement } from '../../api/book/discovery.mjs';
-import { bookingHref } from '../../src/utils/booking.mjs';
+import { BOOKING_PLACEMENTS, bookingHref } from '../../src/utils/booking.mjs';
 
 // /book/discovery is served by api/book/discovery.mjs: one count, then the same
 // 308 to the same Google schedule that the static redirect gave.
@@ -42,19 +42,20 @@ function recorder() {
 }
 
 /** A handler with fake clock, log and fetch. Returns the handler and what it recorded. */
-function rig({ env = {}, fetchImpl, timeoutMs } = {}) {
+function rig({ env = {}, fetchImpl, timeoutMs, waitUntil = null, log } = {}) {
   const lines = [];
   const calls = [];
   const fetcher = fetchImpl || (async () => ({ ok: true, status: 200 }));
   const run = createHandler({
     env,
     now: () => DAY,
-    log: (line) => lines.push(line),
+    log: log || ((line) => lines.push(line)),
     fetchImpl: (url, init) => {
       calls.push({ url, init });
       return fetcher(url, init);
     },
     timeoutMs,
+    getWaitUntil: () => waitUntil,
   });
   return { run, lines, calls };
 }
@@ -71,16 +72,16 @@ test('a normal booking click gets the same 308 and Location as the static redire
   assert.equal(DESTINATION, CALENDAR);
   const { run } = rig();
   const res = recorder();
-  await run(request('/book/discovery?src=test-link'), res);
+  await run(request('/book/discovery?src=header'), res);
   assert.equal(res.statusCode, 308);
-  assert.equal(res.headers.location, `${CALENDAR}?src=test-link`);
-  assert.equal(res.headers.refresh, `0;url=${CALENDAR}?src=test-link`);
+  assert.equal(res.headers.location, `${CALENDAR}?src=header`);
+  assert.equal(res.headers.refresh, `0;url=${CALENDAR}?src=header`);
   assert.equal(res.headers['content-type'], 'text/plain');
   assert.equal(res.body, 'Redirecting...\n');
   assert.ok(res.ended);
 });
 
-test('only a valid src goes on to Google; every other query value is dropped', async () => {
+test('only a listed placement goes on to Google; every other query value is dropped', async () => {
   const cases = [
     ['/book/discovery', CALENDAR],
     ['/book/discovery?', CALENDAR],
@@ -91,6 +92,11 @@ test('only a valid src goes on to Google; every other query value is dropped', a
     ['/book/discovery?a=1&a=2&b', CALENDAR],
     ['/book/discovery?src=a+b', CALENDAR],
     ['/book/discovery?src=Home-Hero', CALENDAR],
+    // Well formed but not a site placement: not passed on (Google drops it anyway).
+    ['/book/discovery?src=test-link', CALENDAR],
+    ['/book/discovery?src=jane-doe-glaucoma', CALENDAR],
+    // A long query does not lose a listed src.
+    [`/book/discovery?src=header&${'x='.repeat(50000)}`, `${CALENDAR}?src=header`],
   ];
   for (const [url, location] of cases) assert.equal(await locationFor(url), location, url);
 });
@@ -140,12 +146,18 @@ test('HEAD, OPTIONS and POST get the redirect and are not counted; HEAD gets no 
   }
 });
 
-test('placement keeps a src that passes the booking rule, and never keeps any other value', async () => {
+test('placement names only a listed site placement; other, none and invalid otherwise', async () => {
   assert.equal(await placement('src=home-hero'), 'home-hero');
   assert.equal(await placement('src=fill-rate-blog-top&utm_source=site'), 'fill-rate-blog-top');
+  assert.equal(await placement(`src=header&${'x'.repeat(5000)}`), 'header', 'a long query keeps its src');
+  assert.equal(await placement(`${'x='.repeat(50000)}&src=blog-top`), 'blog-top', 'a long query keeps its src');
   assert.equal(await placement(''), 'none');
   assert.equal(await placement('src='), 'none');
   assert.equal(await placement('utm_content=header'), 'none');
+  // Well formed, but not a placement the site uses: the value is never kept.
+  for (const query of ['src=jane-doe-glaucoma', 'src=test-link', 'src=5551234567', 'src=call-555-123-4567', 'src=header-x']) {
+    assert.equal(await placement(query), 'other', query);
+  }
   const bad = [
     'src=Home-Hero',
     'src=jane%40example.com',
@@ -154,14 +166,25 @@ test('placement keeps a src that passes the booking rule, and never keeps any ot
     'src=hero.top',
     'src=hero_top',
     `src=${'x'.repeat(65)}`,
-    'src=5551234567',
-    'src=call-555-123-4567',
     'src=%E2%9C%93',
     'src=-hero',
     'src=%E0%A4%A',
-    `src=header&${'x'.repeat(5000)}`,
   ];
   for (const query of bad) assert.equal(await placement(query), 'invalid', query.slice(0, 40));
+});
+
+test('the placement list is the one the site uses: bookingHref refuses any src not in it', () => {
+  assert.ok(BOOKING_PLACEMENTS.length > 20, 'the list is filled');
+  assert.equal(new Set(BOOKING_PLACEMENTS).size, BOOKING_PLACEMENTS.length, 'no duplicates');
+  assert.ok(Object.isFrozen(BOOKING_PLACEMENTS), 'the list cannot be changed at run time');
+  for (const src of BOOKING_PLACEMENTS) {
+    assert.match(src, /^[a-z0-9][a-z0-9-]{0,63}$/, src);
+    assert.ok(!['none', 'invalid', 'other'].includes(src), `${src} is a reserved record value`);
+    assert.equal(bookingHref(src), `/book/discovery?src=${src}`, src);
+  }
+  for (const unknown of ['test-link', 'jane-doe-glaucoma', 'header-x']) {
+    assert.throws(() => bookingHref(unknown), /BOOKING_PLACEMENTS/, unknown);
+  }
 });
 
 test('one log line per GET, holding only the event, src, date and bot flag', async () => {
@@ -181,12 +204,19 @@ test('one log line per GET, holding only the event, src, date and bot flag', asy
   }
 });
 
-test('an invalid src is counted as invalid, without its value', async () => {
-  const { run, lines } = rig();
-  await run(request('/book/discovery?src=jane-doe-5551234567'), recorder());
-  const record = JSON.parse(lines[0]);
-  assert.equal(record.src, 'invalid');
-  assert.ok(!lines[0].includes('jane'));
+test('an unknown or invalid src is counted as other or invalid, without its value', async () => {
+  const cases = [
+    ['/book/discovery?src=jane-doe-glaucoma', 'other'],
+    ['/book/discovery?src=Jane-Doe', 'invalid'],
+    ['/book/discovery?src=jane%40example.com', 'invalid'],
+  ];
+  for (const [url, expected] of cases) {
+    const { run, lines, calls } = rig({ env: TOKEN_ENV });
+    await run(request(url), recorder());
+    assert.equal(JSON.parse(lines[0]).src, expected, url);
+    assert.equal(JSON.parse(calls[0].init.body).properties.src, expected, url);
+    assert.ok(!/jane|glaucoma/i.test(lines[0] + calls[0].init.body), `${url} value kept`);
+  }
 });
 
 test('bots are counted apart by a coarse test; the user agent is not kept', async () => {
@@ -265,6 +295,125 @@ test('PostHog event: one fixed anonymous id, no person profile, no visitor IP, n
   assert.equal(calls[0].init.body, calls[1].init.body, 'two visitors send the same event');
 });
 
+test('with waitUntil: the redirect goes first and PostHog finishes after it', async () => {
+  const order = [];
+  let release;
+  const cancel = { called: 0 };
+  const fetchImpl = () => new Promise((resolve) => {
+    release = () => {
+      order.push('posthog');
+      resolve({ ok: true, status: 200, body: { cancel: async () => { cancel.called += 1; } } });
+    };
+  });
+  const kept = [];
+  const { run, calls } = rig({ env: TOKEN_ENV, fetchImpl, timeoutMs: 500, waitUntil: (promise) => kept.push(promise) });
+  const res = recorder();
+  const end = res.end.bind(res);
+  res.end = (body) => {
+    order.push('redirect');
+    end(body);
+  };
+  await run(request('/book/discovery?src=header'), res);
+  assert.deepEqual(order, ['redirect'], 'the visitor did not wait for PostHog');
+  assert.equal(res.headers.location, `${CALENDAR}?src=header`);
+  assert.equal(kept.length, 1, 'the PostHog call was handed to waitUntil');
+  assert.equal(calls.length, 1);
+  release();
+  assert.equal(await kept[0], true);
+  assert.deepEqual(order, ['redirect', 'posthog']);
+  assert.equal(cancel.called, 1, 'the PostHog response body is released');
+});
+
+test('with waitUntil: a hung PostHog call still ends at the cap', async () => {
+  const kept = [];
+  const { run } = rig({ env: TOKEN_ENV, fetchImpl: () => new Promise(() => {}), timeoutMs: 20, waitUntil: (promise) => kept.push(promise) });
+  const res = recorder();
+  await run(request('/book/discovery?src=header'), res);
+  assert.equal(res.statusCode, 308);
+  const started = Date.now();
+  assert.equal(await kept[0], false);
+  assert.ok(Date.now() - started < 1000);
+});
+
+test('waitUntil comes from the Vercel request context when the platform provides one', async () => {
+  const key = Symbol.for('@vercel/request-context');
+  const before = globalThis[key];
+  const kept = [];
+  globalThis[key] = { get: () => ({ waitUntil: (promise) => kept.push(promise) }) };
+  try {
+    const run = createHandler({ env: TOKEN_ENV, now: () => DAY, log: () => {}, fetchImpl: async () => ({ ok: true, status: 200 }) });
+    const res = recorder();
+    await run(request('/book/discovery?src=header'), res);
+    assert.equal(res.statusCode, 308);
+    assert.equal(kept.length, 1);
+    assert.equal(await kept[0], true);
+  } finally {
+    if (before === undefined) delete globalThis[key];
+    else globalThis[key] = before;
+  }
+  // No context, or a context that throws: the call is awaited instead.
+  for (const context of [undefined, { get: () => { throw new Error('context'); } }, { get: () => ({}) }]) {
+    if (context === undefined) delete globalThis[key];
+    else globalThis[key] = context;
+    try {
+      const order = [];
+      const run = createHandler({
+        env: TOKEN_ENV,
+        now: () => DAY,
+        log: () => {},
+        fetchImpl: () => new Promise((resolve) => setTimeout(() => {
+          order.push('posthog');
+          resolve({ ok: true, status: 200 });
+        }, 5)),
+      });
+      const res = recorder();
+      const end = res.end.bind(res);
+      res.end = (body) => {
+        order.push('redirect');
+        end(body);
+      };
+      await run(request('/book/discovery?src=header'), res);
+      assert.deepEqual(order, ['posthog', 'redirect']);
+    } finally {
+      if (before === undefined) delete globalThis[key];
+      else globalThis[key] = before;
+    }
+  }
+});
+
+test('a waitUntil that throws falls back to waiting, then redirects', async () => {
+  const order = [];
+  const fetchImpl = () => new Promise((resolve) => setTimeout(() => {
+    order.push('posthog');
+    resolve({ ok: true, status: 200 });
+  }, 5));
+  const { run } = rig({ env: TOKEN_ENV, fetchImpl, waitUntil: () => { throw new Error('no'); } });
+  const res = recorder();
+  const end = res.end.bind(res);
+  res.end = (body) => {
+    order.push('redirect');
+    end(body);
+  };
+  await run(request('/book/discovery?src=header'), res);
+  assert.deepEqual(order, ['posthog', 'redirect']);
+});
+
+test('a failing log line does not stop the PostHog count', async () => {
+  const { run, calls } = rig({ env: TOKEN_ENV, log: () => { throw new Error('log'); } });
+  const res = recorder();
+  await run(request('/book/discovery?src=header'), res);
+  assert.equal(calls.length, 1);
+  assert.equal(JSON.parse(calls[0].init.body).properties.src, 'header');
+  assert.equal(res.statusCode, 308);
+});
+
+test('without waitUntil: the PostHog call finishes before the redirect is sent, and its body is released', async () => {
+  const cancel = { called: 0 };
+  const { run } = rig({ env: TOKEN_ENV, fetchImpl: async () => ({ ok: true, status: 200, body: { cancel: async () => { cancel.called += 1; } } }) });
+  await run(request('/book/discovery?src=header'), recorder());
+  assert.equal(cancel.called, 1);
+});
+
 test('the PostHog call finishes before the redirect is sent, so the function is not stopped mid-send', async () => {
   const order = [];
   const fetchImpl = () => new Promise((resolve) => setTimeout(() => {
@@ -334,13 +483,16 @@ test('fails open: a broken log, clock, fetch or request still redirects', async 
     { method: undefined, url: 42, headers: null },
     null,
     { method: 'GET', url: '/book/discovery?src=%E0%A4%A&x=%', headers: { 'user-agent': ['a', 'b'] } },
-    { method: 'GET', url: `/book/discovery?src=header&${'x='.repeat(50000)}`, headers: {} },
   ]) {
     const odd = recorder();
     await broken(req, odd);
     assert.equal(odd.statusCode, 308);
     assert.equal(odd.headers.location, CALENDAR);
   }
+  const long = recorder();
+  await broken({ method: 'GET', url: `/book/discovery?src=header&${'x='.repeat(50000)}`, headers: {} }, long);
+  assert.equal(long.statusCode, 308);
+  assert.equal(long.headers.location, `${CALENDAR}?src=header`);
 });
 
 test('fails open: a response object that refuses headers still gets a 308 with the bare link', async () => {
@@ -437,8 +589,18 @@ test('every src the site source sets passes the counter rule', async () => {
     }
   };
   walk(srcDir);
-  assert.ok(found.size > 10, `found ${found.size} src values`);
+  // The solution pages build their src from each solution's slug.
+  const solutions = fs.readFileSync(path.join(srcDir, 'data/solutions.ts'), 'utf8');
+  const slugs = [...solutions.matchAll(/\bslug:\s*'([a-z0-9-]+)'/g)].map((m) => m[1]);
+  assert.ok(slugs.length > 5, `found ${slugs.length} solution slugs`);
+  assert.match(fs.readFileSync(path.join(srcDir, 'pages/solutions/[slug].astro'), 'utf8'), /discoveryBookingHref\(`\$\{solution\.slug\}-hero`\)/);
+  for (const slug of slugs) {
+    found.add(`${slug}-hero`);
+    found.add(`${slug}-cta`);
+  }
+  assert.ok(found.size > 20, `found ${found.size} src values`);
   for (const src of found) {
+    assert.ok(BOOKING_PLACEMENTS.includes(src), `${src} is used by the site but missing from BOOKING_PLACEMENTS`);
     assert.equal(await placement(new URL(bookingHref(src), 'https://mybcat.com').search.slice(1)), src, src);
   }
 });
@@ -465,6 +627,7 @@ test('built pages: every booking link on the site is counted under its own src',
     const query = href.includes('?') ? href.slice(href.indexOf('?') + 1) : '';
     const src = new URLSearchParams(query).get('src');
     assert.ok(src, `${href} carries a src`);
+    assert.ok(BOOKING_PLACEMENTS.includes(src), `${href}: src ${src} is missing from BOOKING_PLACEMENTS`);
     assert.equal(await placement(query), src, href);
     assert.equal(await locationFor(href), `${CALENDAR}?src=${src}`, href);
   }
