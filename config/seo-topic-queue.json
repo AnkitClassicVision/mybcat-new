@@ -3556,6 +3556,90 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-25T01:46:52.304Z"
       }
+    },
+    {
+      "id": "optometry-practice-sale-letter-of-intent",
+      "slot": 45,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "practice-transitions",
+      "topic": "The Letter of Intent in an Optometry Practice Sale",
+      "keyword": "optometry practice sale letter of intent",
+      "suggested_title": "The Letter of Intent in an Optometry Practice Sale",
+      "slug": "optometry-practice-sale-letter-of-intent",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Standing release registration for a writer-scheduled post. No new cannibalization study was run.",
+      "cannibalization_reviewed": true,
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Practice Transitions",
+      "word_count": 0,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-25T01:55:12.457Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.dmcounsel.com",
+          "publisher": "www.dmcounsel.com",
+          "url": "https://www.dmcounsel.com/blog/10-key-terms-for-an-optometry-practice-letter-of-intent",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale letter of intent"
+        },
+        {
+          "title": "www.ada.org",
+          "publisher": "www.ada.org",
+          "url": "https://www.ada.org/resources/careers/career-planning/what-makes-a-successful-sale",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale letter of intent"
+        },
+        {
+          "title": "www.csteinberglaw.org",
+          "publisher": "www.csteinberglaw.org",
+          "url": "https://www.csteinberglaw.org/od-od-practice-sales",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale letter of intent"
+        },
+        {
+          "title": "staging.reviewob.com",
+          "publisher": "staging.reviewob.com",
+          "url": "https://staging.reviewob.com/7-due-diligence-steps-to-protect-yourself-before-buying-a-practice",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale letter of intent"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/AOA/Documents/Education/Education_PDFs/Case%20Study%2016-Selling%20a%20Practice.pdf",
+          "accessed_at": "2026-11-25",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale letter of intent"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-practice-sale-letter-of-intent",
+      "review_basis": "Automatic checks only (optometry scope, source count). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-25T01:55:12.457Z"
+      }
     }
   ]
 }
