@@ -2,39 +2,57 @@
  * /book/discovery: count one booking click, then send the visitor on.
  *
  * vercel.json rewrites /book/discovery and /book/discovery/ to this function.
- * The answer is the same 308 the static redirect gave: the Google appointment
- * schedule, with the request's query string passed on as it came.
+ * The answer is the same 308 the static redirect gave, to the same Google
+ * appointment schedule. The host and path are fixed. Only a valid src goes on
+ * (?src=home-hero), so a normal booking link gets a byte-identical Location;
+ * every other query value is dropped. Google's short link drops the query
+ * anyway, so nothing is lost.
  *
- * Before the redirect it writes one record of three values:
- * - src: the link's page and position (for example home-hero) when it passes
- *   the booking src rule (src/utils/booking.mjs) and the stored-value rule
- *   (src/utils/attribution.mjs); 'none' when the link has no src; 'invalid'
- *   for anything else. An invalid value is never kept.
+ * For a GET it first writes one record of three values:
+ * - src: the link's page and position when it passes the booking src rule
+ *   (src/utils/booking.mjs) and the stored-value rule (src/utils/attribution.mjs);
+ *   'none' when the link has no src; 'invalid' for anything else. An invalid
+ *   value is never kept.
  * - date: the UTC day, YYYY-MM-DD.
- * - bot: true when the request is not a plain browser navigation, by a coarse
- *   test on the method and user agent. The user agent itself is not kept.
+ * - bot: true when the GET is not a plain browser navigation, by a coarse test
+ *   on the user agent. The user agent itself is not kept.
  * No IP address, user agent, cookie, referrer, other query value or identifier.
+ * HEAD, OPTIONS, POST and other methods get the redirect and are not counted.
  *
  * The record goes to the Vercel runtime log (one JSON line; Pro keeps one day)
  * and, when PUBLIC_POSTHOG_PROJECT_TOKEN is set (Production), to PostHog as one
- * personless event, which keeps the daily counts.
+ * personless event under one fixed id, which keeps the daily counts.
  *
- * It fails open: any error in counting still sends the redirect, and a slow
- * PostHog call is cut off after POSTHOG_TIMEOUT_MS.
+ * It fails open: there is no top-level import, the shared rules load inside the
+ * handler, any error in counting still sends the redirect, and a slow PostHog
+ * call is cut off after POSTHOG_TIMEOUT_MS.
  */
-import { cleanToken } from '../../src/utils/attribution.mjs';
-import { bookingHref } from '../../src/utils/booking.mjs';
-
 export const DESTINATION = 'https://calendar.app.google/PLDmK4QwpdSqkxmb8';
 export const EVENT = 'booking_redirect';
 const BODY = 'Redirecting...\n';
 const DEFAULT_POSTHOG_HOST = 'https://us.i.posthog.com';
-// A fixed name, not a person: the events are personless.
+// One fixed name for every event, not a person: the events are personless.
 const DISTINCT_ID = 'mybcat-booking-redirect';
 const POSTHOG_TIMEOUT_MS = 800;
+// A real booking link's query is short. A longer one is not parsed.
+const MAX_QUERY = 2048;
 
 // Coarse: crawlers, link previews, monitors, headless browsers and HTTP tools.
 const BOT_UA = /bot|crawl|spider|slurp|scrap|fetch|preview|monitor|uptime|pingdom|lighthouse|headless|phantom|python|curl|wget|httpclient|http-client|okhttp|axios|undici|go-http|java\/|libwww|facebookexternalhit|embedly|whatsapp|telegram|discord|slack|skype/i;
+
+let rules = null;
+
+/** The shared allow rules, loaded once inside the handler so a load error cannot stop the redirect. */
+async function loadRules() {
+  if (!rules) {
+    const [booking, attribution] = await Promise.all([
+      import('../../src/utils/booking.mjs'),
+      import('../../src/utils/attribution.mjs'),
+    ]);
+    rules = { bookingHref: booking.bookingHref, cleanToken: attribution.cleanToken };
+  }
+  return rules;
+}
 
 function header(req, name) {
   const value = req?.headers?.[name];
@@ -49,7 +67,8 @@ function rawQuery(req) {
 }
 
 /** The link's placement: its src if it passes both allow rules, else 'none' or 'invalid'. */
-export function placement(query) {
+export async function placement(query) {
+  if (typeof query !== 'string' || query.length > MAX_QUERY) return 'invalid';
   let src;
   try {
     src = new URLSearchParams(query).get('src');
@@ -57,6 +76,7 @@ export function placement(query) {
     return 'invalid';
   }
   if (src === null || src === '') return 'none';
+  const { bookingHref, cleanToken } = await loadRules();
   try {
     bookingHref(src);
   } catch {
@@ -96,6 +116,7 @@ async function sendToPostHog(record, { env, fetchImpl, timeoutMs }) {
     }, timeoutMs);
   });
   const send = (async () => {
+    // No request header is passed on: PostHog sees this server, not the visitor.
     const response = await fetchImpl(`${host.href.replace(/\/+$/, '')}/i/v0/e/`, {
       method: 'POST',
       redirect: 'error',
@@ -109,6 +130,7 @@ async function sendToPostHog(record, { env, fetchImpl, timeoutMs }) {
           date: record.date,
           bot: record.bot,
           $process_person_profile: false,
+          $ip: null,
           $geoip_disable: true,
         },
       }),
@@ -124,19 +146,23 @@ async function sendToPostHog(record, { env, fetchImpl, timeoutMs }) {
 }
 
 function redirect(req, res, target) {
-  const set = (location) => {
-    res.setHeader('Location', location);
-    res.setHeader('Refresh', `0;url=${location}`);
-  };
   try {
-    set(target);
+    res.setHeader('Location', target);
+    res.setHeader('Refresh', `0;url=${target}`);
+    res.setHeader('Content-Type', 'text/plain');
+    res.setHeader('Cache-Control', 'no-store');
+    res.statusCode = 308;
+    res.end(String(req?.method || '').toUpperCase() === 'HEAD' ? undefined : BODY);
   } catch {
-    set(DESTINATION);
+    try {
+      res.statusCode = 308;
+      res.setHeader('Location', DESTINATION);
+      res.setHeader('Cache-Control', 'no-store');
+      res.end();
+    } catch {
+      // Nothing more can be sent.
+    }
   }
-  res.setHeader('Content-Type', 'text/plain');
-  res.setHeader('Cache-Control', 'no-store');
-  res.statusCode = 308;
-  res.end(String(req?.method || '').toUpperCase() === 'HEAD' ? undefined : BODY);
 }
 
 export function createHandler({
@@ -147,20 +173,24 @@ export function createHandler({
   timeoutMs = POSTHOG_TIMEOUT_MS,
 } = {}) {
   return async function bookDiscovery(req, res) {
-    const query = rawQuery(req);
+    let target = DESTINATION;
     try {
-      const record = {
-        event: EVENT,
-        src: placement(query),
-        date: new Date(now()).toISOString().slice(0, 10),
-        bot: isBot(req),
-      };
-      log(JSON.stringify(record));
-      await sendToPostHog(record, { env, fetchImpl, timeoutMs });
+      const src = await placement(rawQuery(req));
+      if (src !== 'none' && src !== 'invalid') target = `${DESTINATION}?src=${src}`;
+      if (String(req?.method || 'GET').toUpperCase() === 'GET') {
+        const record = {
+          event: EVENT,
+          src,
+          date: new Date(now()).toISOString().slice(0, 10),
+          bot: isBot(req),
+        };
+        log(JSON.stringify(record));
+        await sendToPostHog(record, { env, fetchImpl, timeoutMs });
+      }
     } catch {
       // Counting must never block a booking.
     }
-    redirect(req, res, query ? `${DESTINATION}?${query}` : DESTINATION);
+    redirect(req, res, target);
   };
 }
 

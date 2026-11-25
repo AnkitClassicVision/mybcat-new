@@ -1,5 +1,7 @@
 import assert from 'node:assert/strict';
+import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import test from 'node:test';
 import { fileURLToPath } from 'node:url';
@@ -17,6 +19,7 @@ const built = path.join(repoRoot, '.vercel/output/static');
 const CALENDAR = 'https://calendar.app.google/PLDmK4QwpdSqkxmb8';
 const BROWSER = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 const DAY = Date.parse('2026-11-25T15:04:05Z');
+const TOKEN_ENV = { PUBLIC_POSTHOG_PROJECT_TOKEN: 'phc_test_token' };
 
 function request(url, headers = {}, method = 'GET') {
   return { method, url, headers: { 'user-agent': BROWSER, ...headers } };
@@ -42,21 +45,26 @@ function recorder() {
 function rig({ env = {}, fetchImpl, timeoutMs } = {}) {
   const lines = [];
   const calls = [];
-  const fetcher = fetchImpl || (async (url, init) => {
-    calls.push({ url, init });
-    return { ok: true, status: 200 };
-  });
+  const fetcher = fetchImpl || (async () => ({ ok: true, status: 200 }));
   const run = createHandler({
     env,
     now: () => DAY,
     log: (line) => lines.push(line),
     fetchImpl: (url, init) => {
-      if (fetchImpl) calls.push({ url, init });
+      calls.push({ url, init });
       return fetcher(url, init);
     },
     timeoutMs,
   });
   return { run, lines, calls };
+}
+
+async function locationFor(url, method = 'GET') {
+  const { run } = rig();
+  const res = recorder();
+  await run(request(url, {}, method), res);
+  assert.equal(res.statusCode, 308, url);
+  return res.headers.location;
 }
 
 test('a normal booking click gets the same 308 and Location as the static redirect', async () => {
@@ -72,23 +80,44 @@ test('a normal booking click gets the same 308 and Location as the static redire
   assert.ok(res.ended);
 });
 
-test('the query string goes on as it came; no query and an empty query give the bare link', async () => {
+test('only a valid src goes on to Google; every other query value is dropped', async () => {
   const cases = [
     ['/book/discovery', CALENDAR],
     ['/book/discovery?', CALENDAR],
     ['/book/discovery/?src=home-hero', `${CALENDAR}?src=home-hero`],
     ['/api/book/discovery?src=header', `${CALENDAR}?src=header`],
-    ['/book/discovery?utm_source=site&utm_content=header', `${CALENDAR}?utm_source=site&utm_content=header`],
-    ['/book/discovery?a=1&a=2&b', `${CALENDAR}?a=1&a=2&b`],
-    ['/book/discovery?src=%E2%9C%93&x=%2F', `${CALENDAR}?src=%E2%9C%93&x=%2F`],
+    ['/book/discovery?src=header&utm_source=site&email=jane%40example.com', `${CALENDAR}?src=header`],
+    ['/book/discovery?utm_source=site&utm_content=header', CALENDAR],
+    ['/book/discovery?a=1&a=2&b', CALENDAR],
+    ['/book/discovery?src=a+b', CALENDAR],
+    ['/book/discovery?src=Home-Hero', CALENDAR],
   ];
-  for (const [url, location] of cases) {
-    const { run } = rig();
-    const res = recorder();
-    await run(request(url), res);
-    assert.equal(res.statusCode, 308, url);
-    assert.equal(res.headers.location, location, url);
+  for (const [url, location] of cases) assert.equal(await locationFor(url), location, url);
+});
+
+test('no request input can change the redirect host or path', async () => {
+  const attacks = [
+    '/book/discovery?src=//evil.example',
+    '/book/discovery?src=%2F%2Fevil.example',
+    '/book/discovery?src=header%0d%0aLocation:%20https://evil.example',
+    '/book/discovery?src=%0d%0a',
+    '/book/discovery?src=user@evil.example',
+    '/book/discovery?src=https://evil.example/',
+    '/book/discovery?src=https%3A%2F%2Fevil.example%2F',
+    '/book/discovery?next=https://evil.example&url=//evil.example',
+    '/book/discovery?@evil.example',
+    '/book/discovery?src=header/../../evil',
+    '//evil.example/book/discovery?src=evil-example',
+  ];
+  for (const url of attacks) {
+    const location = await locationFor(url);
+    const parsed = new URL(location);
+    assert.equal(parsed.origin, 'https://calendar.app.google', url);
+    assert.equal(parsed.pathname, '/PLDmK4QwpdSqkxmb8', url);
+    assert.ok(!/evil\.example|[\r\n@]|\/\//.test(location.slice('https://'.length)), `${url} -> ${location}`);
   }
+  // The first src wins; a second one cannot add anything.
+  assert.equal(await locationFor('/book/discovery?src=header&src=//evil.example'), `${CALENDAR}?src=header`);
 });
 
 test('the redirect is never stored by a cache, so each click reaches the counter', async () => {
@@ -98,23 +127,25 @@ test('the redirect is never stored by a cache, so each click reaches the counter
   assert.equal(res.headers['cache-control'], 'no-store');
 });
 
-test('every method gets the redirect, and HEAD gets no body', async () => {
-  for (const method of ['GET', 'HEAD', 'POST', 'OPTIONS']) {
-    const { run } = rig();
+test('HEAD, OPTIONS and POST get the redirect and are not counted; HEAD gets no body', async () => {
+  for (const method of ['HEAD', 'OPTIONS', 'POST', 'PUT', 'DELETE']) {
+    const { run, lines, calls } = rig({ env: TOKEN_ENV });
     const res = recorder();
     await run(request('/book/discovery?src=header', {}, method), res);
     assert.equal(res.statusCode, 308, method);
     assert.equal(res.headers.location, `${CALENDAR}?src=header`, method);
     assert.equal(res.body, method === 'HEAD' ? undefined : 'Redirecting...\n', method);
+    assert.equal(lines.length, 0, `${method} is not logged`);
+    assert.equal(calls.length, 0, `${method} is not sent to PostHog`);
   }
 });
 
-test('placement keeps a src that passes the booking rule, and never keeps any other value', () => {
-  assert.equal(placement('src=home-hero'), 'home-hero');
-  assert.equal(placement('src=fill-rate-blog-top&utm_source=site'), 'fill-rate-blog-top');
-  assert.equal(placement(''), 'none');
-  assert.equal(placement('src='), 'none');
-  assert.equal(placement('utm_content=header'), 'none');
+test('placement keeps a src that passes the booking rule, and never keeps any other value', async () => {
+  assert.equal(await placement('src=home-hero'), 'home-hero');
+  assert.equal(await placement('src=fill-rate-blog-top&utm_source=site'), 'fill-rate-blog-top');
+  assert.equal(await placement(''), 'none');
+  assert.equal(await placement('src='), 'none');
+  assert.equal(await placement('utm_content=header'), 'none');
   const bad = [
     'src=Home-Hero',
     'src=jane%40example.com',
@@ -127,11 +158,13 @@ test('placement keeps a src that passes the booking rule, and never keeps any ot
     'src=call-555-123-4567',
     'src=%E2%9C%93',
     'src=-hero',
+    'src=%E0%A4%A',
+    `src=header&${'x'.repeat(5000)}`,
   ];
-  for (const query of bad) assert.equal(placement(query), 'invalid', query);
+  for (const query of bad) assert.equal(await placement(query), 'invalid', query.slice(0, 40));
 });
 
-test('one log line per request, holding only the event, src, date and bot flag', async () => {
+test('one log line per GET, holding only the event, src, date and bot flag', async () => {
   const { run, lines } = rig();
   const req = request('/book/discovery?src=pricing-hero&email=jane%40example.com', {
     cookie: 'ph_phc_x_posthog=secret-cookie',
@@ -181,7 +214,6 @@ test('bots are counted apart by a coarse test; the user agent is not kept', asyn
   for (const ua of human) assert.equal(isBot(request('/', { 'user-agent': ua })), false, ua);
   for (const ua of bots) assert.equal(isBot(request('/', { 'user-agent': ua })), true, ua);
   assert.equal(isBot({ method: 'GET', url: '/', headers: {} }), true, 'no user agent');
-  assert.equal(isBot(request('/', {}, 'HEAD')), true, 'HEAD is not a click');
   assert.equal(isBot(request('/', { 'sec-purpose': 'prefetch' })), true, 'prefetch is not a click');
   assert.equal(isBot(request('/', { purpose: 'prefetch' })), true, 'prefetch is not a click');
 
@@ -200,15 +232,15 @@ test('without the PostHog token nothing is sent; the log line and redirect still
   assert.equal(res.statusCode, 308);
 });
 
-test('with the PostHog token: one personless event with the same three values', async () => {
-  const { run, calls } = rig({ env: { PUBLIC_POSTHOG_PROJECT_TOKEN: 'phc_test_token', PUBLIC_POSTHOG_HOST: 'https://us.i.posthog.com/' } });
-  await run(request('/book/discovery?src=home-hero', { cookie: 'a=b', 'x-forwarded-for': '203.0.113.9' }), recorder());
-  assert.equal(calls.length, 1);
-  assert.equal(calls[0].url, 'https://us.i.posthog.com/i/v0/e/');
-  assert.equal(calls[0].init.method, 'POST');
-  assert.deepEqual(Object.keys(calls[0].init.headers), ['Content-Type']);
-  const body = JSON.parse(calls[0].init.body);
-  assert.deepEqual(body, {
+test('PostHog event: one fixed anonymous id, no person profile, no visitor IP, no GeoIP', async () => {
+  const { run, calls } = rig({ env: { ...TOKEN_ENV, PUBLIC_POSTHOG_HOST: 'https://us.i.posthog.com/' } });
+  const visitors = [
+    { 'x-forwarded-for': '203.0.113.9', 'x-real-ip': '203.0.113.9', 'x-vercel-forwarded-for': '203.0.113.9', cookie: 'ph_phc_a_posthog=%7B%22distinct_id%22%3A%22visitor-a%22%7D', 'x-posthog-distinct-id': 'visitor-a', 'x-posthog-session-id': 'session-a' },
+    { 'x-forwarded-for': '198.51.100.7', cookie: 'ph_phc_b_posthog=visitor-b', 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148 Safari/604.1' },
+  ];
+  for (const headers of visitors) await run(request('/book/discovery?src=home-hero', headers), recorder());
+  assert.equal(calls.length, 2);
+  const expected = {
     api_key: 'phc_test_token',
     event: EVENT,
     distinct_id: 'mybcat-booking-redirect',
@@ -217,11 +249,20 @@ test('with the PostHog token: one personless event with the same three values', 
       date: '2026-11-25',
       bot: false,
       $process_person_profile: false,
+      $ip: null,
       $geoip_disable: true,
     },
-  });
-  assert.ok(!calls[0].init.body.includes('203.0.113.9'));
-  assert.ok(!calls[0].init.body.includes('Mozilla'));
+  };
+  for (const call of calls) {
+    assert.equal(call.url, 'https://us.i.posthog.com/i/v0/e/');
+    assert.equal(call.init.method, 'POST');
+    assert.deepEqual(call.init.headers, { 'Content-Type': 'application/json' }, 'no request header is passed on');
+    assert.deepEqual(JSON.parse(call.init.body), expected);
+    for (const leak of ['203.0.113.9', '198.51.100.7', 'visitor-a', 'visitor-b', 'session-a', 'Mozilla', 'iPhone']) {
+      assert.ok(!call.init.body.includes(leak), `PostHog body holds ${leak}`);
+    }
+  }
+  assert.equal(calls[0].init.body, calls[1].init.body, 'two visitors send the same event');
 });
 
 test('the PostHog call finishes before the redirect is sent, so the function is not stopped mid-send', async () => {
@@ -230,7 +271,7 @@ test('the PostHog call finishes before the redirect is sent, so the function is 
     order.push('posthog');
     resolve({ ok: true, status: 200 });
   }, 5));
-  const { run } = rig({ env: { PUBLIC_POSTHOG_PROJECT_TOKEN: 'phc_test_token' }, fetchImpl, timeoutMs: 500 });
+  const { run } = rig({ env: TOKEN_ENV, fetchImpl, timeoutMs: 500 });
   const res = recorder();
   const end = res.end.bind(res);
   res.end = (body) => {
@@ -242,25 +283,25 @@ test('the PostHog call finishes before the redirect is sent, so the function is 
 });
 
 test('the default PostHog host is the one the site uses, and a non-https host sends nothing', async () => {
-  const first = rig({ env: { PUBLIC_POSTHOG_PROJECT_TOKEN: 'phc_test_token' } });
+  const first = rig({ env: TOKEN_ENV });
   await first.run(request('/book/discovery?src=header'), recorder());
   assert.equal(first.calls[0].url, 'https://us.i.posthog.com/i/v0/e/');
-  const second = rig({ env: { PUBLIC_POSTHOG_PROJECT_TOKEN: 'phc_test_token', PUBLIC_POSTHOG_HOST: 'http://us.i.posthog.com' } });
+  const second = rig({ env: { ...TOKEN_ENV, PUBLIC_POSTHOG_HOST: 'http://us.i.posthog.com' } });
   await second.run(request('/book/discovery?src=header'), recorder());
   assert.equal(second.calls.length, 0);
 });
 
-test('fails open: a PostHog error, refusal or hang still redirects', async () => {
-  const env = { PUBLIC_POSTHOG_PROJECT_TOKEN: 'phc_test_token' };
+test('fails open: a PostHog error, 500, refusal or hang still redirects', async () => {
   const failures = [
     async () => {
       throw new Error('network down');
     },
+    async () => ({ ok: false, status: 500 }),
     async () => ({ ok: false, status: 503 }),
     () => new Promise(() => {}),
   ];
   for (const fetchImpl of failures) {
-    const { run } = rig({ env, fetchImpl, timeoutMs: 20 });
+    const { run } = rig({ env: TOKEN_ENV, fetchImpl, timeoutMs: 20 });
     const res = recorder();
     const started = Date.now();
     await run(request('/book/discovery?src=header'), res);
@@ -270,14 +311,17 @@ test('fails open: a PostHog error, refusal or hang still redirects', async () =>
   }
 });
 
-test('fails open: a broken log, clock or request still redirects', async () => {
+test('fails open: a broken log, clock, fetch or request still redirects', async () => {
   const broken = createHandler({
-    env: {},
+    env: TOKEN_ENV,
     now: () => {
       throw new Error('clock');
     },
     log: () => {
       throw new Error('log');
+    },
+    fetchImpl: () => {
+      throw new Error('fetch');
     },
   });
   const res = recorder();
@@ -285,25 +329,40 @@ test('fails open: a broken log, clock or request still redirects', async () => {
   assert.equal(res.statusCode, 308);
   assert.equal(res.headers.location, `${CALENDAR}?src=header`);
 
-  const odd = recorder();
-  await broken({ method: 'GET', url: undefined, headers: undefined }, odd);
-  assert.equal(odd.statusCode, 308);
-  assert.equal(odd.headers.location, CALENDAR);
+  for (const req of [
+    { method: 'GET', url: undefined, headers: undefined },
+    { method: undefined, url: 42, headers: null },
+    null,
+    { method: 'GET', url: '/book/discovery?src=%E0%A4%A&x=%', headers: { 'user-agent': ['a', 'b'] } },
+    { method: 'GET', url: `/book/discovery?src=header&${'x='.repeat(50000)}`, headers: {} },
+  ]) {
+    const odd = recorder();
+    await broken(req, odd);
+    assert.equal(odd.statusCode, 308);
+    assert.equal(odd.headers.location, CALENDAR);
+  }
 });
 
-test('fails open: a query the header cannot hold falls back to the bare link', async () => {
+test('fails open: a response object that refuses headers still gets a 308 with the bare link', async () => {
+  const { run } = rig();
   const strict = recorder();
+  let refused = 0;
   strict.setHeader = function setHeader(name, value) {
-    if (/[^\x20-\x7e]/.test(String(value))) throw new TypeError('Invalid character in header content');
+    if (name === 'Refresh' && refused === 0) {
+      refused += 1;
+      throw new TypeError('Invalid character in header content');
+    }
     this.headers[name.toLowerCase()] = value;
   };
-  const { run } = rig();
-  await run(request('/book/discovery?src=é'), strict);
+  await run(request('/book/discovery?src=header'), strict);
   assert.equal(strict.statusCode, 308);
   assert.equal(strict.headers.location, CALENDAR);
+  assert.ok(strict.ended);
 });
 
-test('the default export is a ready handler', async () => {
+test('no top-level import or module-scope work that could fail at cold start', () => {
+  const source = fs.readFileSync(path.join(repoRoot, 'api/book/discovery.mjs'), 'utf8');
+  assert.doesNotMatch(source, /^\s*import\s/m, 'shared rules are loaded inside the handler');
   assert.equal(typeof handler, 'function');
 });
 
@@ -332,7 +391,38 @@ test('vercel.json: /book/discovery is a rewrite to the function, not a redirect;
   }
 });
 
-test('every src the site source sets passes the counter rule', () => {
+test('the link check accepts a rewrite source and still reports a missing page', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'mybcat-links-'));
+  const script = path.join(repoRoot, 'scripts/validators/validate-links.js');
+  const page = (hrefs) => `<html><body>${hrefs.map((h) => `<a href="${h}">x</a>`).join('')}</body></html>`;
+  const run = () => {
+    const out = spawnSync(process.execPath, [script], { cwd: dir, encoding: 'utf8' });
+    // eslint-disable-next-line no-control-regex -- strips the script's color codes
+    return { status: out.status, text: `${out.stdout}${out.stderr}`.replace(/\x1b\[[0-9;]*m/g, '') };
+  };
+  try {
+    fs.writeFileSync(path.join(dir, 'vercel.json'), JSON.stringify({
+      redirects: [{ source: '/old-page', destination: '/', permanent: true }],
+      rewrites: [{ source: '/book/discovery', destination: '/api/book/discovery' }],
+    }));
+    fs.mkdirSync(path.join(dir, 'dist'));
+    fs.writeFileSync(path.join(dir, 'dist', 'index.html'), page(['/book/discovery?src=header', '/old-page']));
+    const good = run();
+    assert.equal(good.status, 0, good.text);
+    assert.match(good.text, /All internal links valid|Broken links: 0/);
+
+    fs.writeFileSync(path.join(dir, 'dist', 'index.html'), page(['/book/discovery?src=header', '/definitely-missing-page/']));
+    const bad = run();
+    assert.equal(bad.status, 1, bad.text);
+    assert.match(bad.text, /✗ \/definitely-missing-page\//);
+    assert.doesNotMatch(bad.text, /✗ \/book\/discovery/);
+    assert.match(bad.text, /Broken links: 1\b/);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test('every src the site source sets passes the counter rule', async () => {
   const srcDir = path.join(repoRoot, 'src');
   const found = new Set();
   const walk = (dir) => {
@@ -349,11 +439,11 @@ test('every src the site source sets passes the counter rule', () => {
   walk(srcDir);
   assert.ok(found.size > 10, `found ${found.size} src values`);
   for (const src of found) {
-    assert.equal(placement(new URL(bookingHref(src), 'https://mybcat.com').search.slice(1)), src, src);
+    assert.equal(await placement(new URL(bookingHref(src), 'https://mybcat.com').search.slice(1)), src, src);
   }
 });
 
-test('built pages: every booking link on the site is counted under its own src', (t) => {
+test('built pages: every booking link on the site is counted under its own src', async (t) => {
   if (!fs.existsSync(path.join(built, 'index.html'))) {
     t.skip('no build output; run astro build first');
     return;
@@ -375,6 +465,7 @@ test('built pages: every booking link on the site is counted under its own src',
     const query = href.includes('?') ? href.slice(href.indexOf('?') + 1) : '';
     const src = new URLSearchParams(query).get('src');
     assert.ok(src, `${href} carries a src`);
-    assert.equal(placement(query), src, href);
+    assert.equal(await placement(query), src, href);
+    assert.equal(await locationFor(href), `${CALENDAR}?src=${src}`, href);
   }
 });
