@@ -43,12 +43,27 @@ jobs:
       # post dated today can legitimately wait behind older posts. This gate fails
       # only when nothing was published although a releasable post was due, or a
       # due post waited longer than its place in the queue explains. Posts held
-      # by the release gate are reported, not failed. Logic and tests:
-      # scripts/check-due-queue.mjs, tests/unit/check-due-queue.test.mjs.
+      # by the release gate are reported, not failed, until held for 14 days. The
+      # publish job removes scheduledDate when a post goes live, so the order rules
+      # read the original order from the publish commits in git history.
+      # Logic and tests: scripts/check-due-queue.mjs, tests/unit/check-due-queue.test.mjs.
+      #
+      # Timing: this gate reads the repository after the publish job. It runs on the
+      # workflow_run event, right after a publish, and on a cron. GitHub has started
+      # the publish job about 8 to 12 hours after its 09:00 UTC cron, so a manual run
+      # or a cron run before today's publish reports "nothing published today". The
+      # workflow has no reliable way to tell that the publish has not run yet: a
+      # missing run today looks the same as a publish that never started, which is
+      # the fault this gate exists to catch. It does not guess. Run it again after
+      # the publish.
       - name: Fail if publishing stalled or a due post is overdue in the queue
         shell: bash
         run: |
           set +e
+          # History without file contents. If it cannot be fetched the gate still
+          # runs, warns, and skips only the rules that need the original order.
+          git fetch --no-tags --quiet --filter=blob:none --shallow-since="$(date -u -d '-60 days' '+%Y-%m-%d')" origin "$GITHUB_SHA" \
+            || echo "::warning::Could not fetch publish history. The publish-order rules cannot run."
           node scripts/check-due-queue.mjs --blog-dir src/content/blog --queue config/seo-topic-queue.json
           STATUS=$?
           if [ "$STATUS" -ne 0 ]; then
