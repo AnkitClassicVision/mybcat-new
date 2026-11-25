@@ -55,7 +55,8 @@ import { discoveryBookingHref } from '@data/navigation';
             <p class="or-send-note">Or send a note and we'll reply.</p>
             <div class="hubspot-form-wrapper">
               <!-- Native contact form — submits to owned /forms/intake -->
-              <form id="contact-form" novalidate>
+              <noscript><p class="form-noscript">This form needs JavaScript. Please turn it on, or email us at <a href="mailto:hello@mybcat.com">hello@mybcat.com</a>.</p></noscript>
+              <form id="contact-form" method="post" action="javascript:void(0)" novalidate>
                 <div class="form-row">
                   <div class="form-field">
                     <label for="cf-firstname">First Name <span class="required-mark" aria-hidden="true">*</span></label>

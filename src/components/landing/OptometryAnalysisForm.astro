@@ -11,9 +11,11 @@ const phoneId = `${idPrefix}-phone`;
 const emailId = `${idPrefix}-email`;
 ---
 
+<noscript><p class="form-noscript">This form needs JavaScript. Please turn it on, or email us at <a href="mailto:hello@mybcat.com">hello@mybcat.com</a>.</p></noscript>
 <form
   class:list={['oa-form', { 'oa-form--card': variant === 'card' }]}
   data-optometry-analysis-form
+  method="post" action="javascript:void(0)"
   novalidate
 >
   <div class="oa-form__intro">

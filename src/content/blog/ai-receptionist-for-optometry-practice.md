@@ -1,10 +1,10 @@
 ---
 title: 'AI Receptionists for Optometry Practices: What to Expect'
 seoTitle: 'AI Receptionist for Optometry Practice: What to Expect'
-description: Explore AI reception for optometry, including scheduling, human handoffs,
-  privacy questions, and practical steps for evaluating a vendor.
-seoDescription: Explore AI reception for optometry, including scheduling, human handoffs,
-  privacy questions, and practical steps for evaluating a vendor.
+description: Explore AI reception for optometry practices, including scheduling, human
+  handoffs, privacy questions, and practical steps for evaluating a vendor.
+seoDescription: Explore AI reception for optometry practices, including scheduling, human
+  handoffs, privacy questions, and practical steps for evaluating a vendor.
 publishDate: '2026-11-25'
 status: scheduled
 scheduledDate: '2026-11-25'
@@ -30,6 +30,8 @@ seoTopicId: ai-receptionist-for-optometry-practice
 - [Introduce the workflow in a manageable scope](#introduce-the-workflow-in-a-manageable-scope)
 - [Choose the arrangement your practice can maintain](#choose-the-arrangement-your-practice-can-maintain)
 
+
+Expect an AI receptionist to handle only the administrative calls you define, such as answering approved questions and offering eligible appointment openings, and to route requests outside those categories to staff. Choosing one starts with deciding what should happen when someone calls, then seeing the system’s behavior demonstrated and assigning responsibility for everything that needs human follow-through.
 
 Choosing an AI receptionist for optometry practice operations starts with deciding what should happen when someone calls. Which questions should receive an immediate answer? Which appointments may the system book? When should a staff member take over?
 
@@ -188,7 +190,7 @@ Make expansion a deliberate decision. Agree on the evidence your practice needs 
 
 ### Match automation to the work you want to delegate
 
-Compare proposed reception arrangements by assigning each task to an owner. Identify what the automated system will handle, what office staff will handle, and what any outside support team will handle.
+[Compare proposed reception arrangements](/compare/vs-ai-receptionists/) by assigning each task to an owner. Identify [what the automated system will handle](/blog/ai-receptionist-vs-virtual-front-desk-answering-service/), what office staff will handle, and what any outside support team will handle.
 
 For a solo practice, keep that responsibility map simple enough to use during a busy day. A brief guide should show where calls go and who handles unfinished requests.
 

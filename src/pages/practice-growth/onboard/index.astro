@@ -55,7 +55,8 @@ const packages = [
       </div>
 
       <div id="form-content" class="form-card">
-        <form id="onboard-form" novalidate>
+        <noscript><p class="form-noscript">This form needs JavaScript. Please turn it on, or email us at <a href="mailto:hello@mybcat.com">hello@mybcat.com</a>.</p></noscript>
+        <form id="onboard-form" method="post" action="javascript:void(0)" novalidate>
           <div class="form-field">
             <label for="pg-practice-name">Practice name <span class="required-mark" aria-hidden="true">*</span></label>
             <input type="text" id="pg-practice-name" name="practice_name" required autocomplete="organization" maxlength="200" placeholder="Practice name" />
@@ -128,7 +129,7 @@ const packages = [
         <p id="intake-status" class="intake-status"></p>
         <div class="summary-actions">
           <Button href={DISCOVERY_URL} variant="primary">Book a discovery call</Button>
-          <a id="mailto-fallback" class="secondary-cta" href={`mailto:${INTAKE_EMAIL}`}>Email this brief</a>
+          <a id="mailto-fallback" class="secondary-cta" href={`mailto:${INTAKE_EMAIL}`}>Email us</a>
         </div>
       </div>
     </section>
@@ -466,10 +467,9 @@ const packages = [
     ];
   }
 
-  function buildMailto(values) {
-    const subject = 'Practice Growth onboard: ' + values.practiceName;
-    const body = buildBriefLines(values).join('\n');
-    return 'mailto:' + INTAKE_EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  // Address and a fixed subject only: no name, email or brief in the link.
+  function buildMailto() {
+    return 'mailto:' + INTAKE_EMAIL + '?subject=Practice%20Growth%20onboard';
   }
 
   function escapeHtml(value) {
@@ -506,7 +506,7 @@ const packages = [
     const discovery = postSubmit ? postSubmit.querySelector('a.magnetic-button') : null;
     renderSummary(values);
     if (status) status.textContent = statusText;
-    if (mailto) mailto.href = buildMailto(values);
+    if (mailto) mailto.href = buildMailto();
     // No name or email in the booking URL: the redirect would forward them to Google.
     if (discovery) discovery.href = DISCOVERY_URL;
     if (formContent) formContent.hidden = true;
