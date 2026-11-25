@@ -120,7 +120,8 @@ test('built pages: one first-screen booking CTA with the shared label, and no by
   const home = fs.readFileSync(path.join(built, 'index.html'), 'utf8');
   const heroGroup = home.slice(home.indexOf('hero-cta-group'), home.indexOf('</div>', home.indexOf('hero-cta-group')));
   const order = links(heroGroup).map((l) => l.text);
-  assert.deepEqual(order, ['Get Started', BOOKING_LABEL, 'See How It Works'], 'home hero links');
+  assert.deepEqual(order, [BOOKING_LABEL, 'Get Started', 'See How It Works'], 'home hero links, booking first');
+  assert.ok(home.indexOf('hero-cta-group') < home.indexOf('hero-benefit-bar'), 'home tick list sits below the buttons');
   const transitions = fs.readFileSync(path.join(built, 'optometry-practice-transitions/index.html'), 'utf8');
   assert.match(transitions, /href="#transition-form-title"[^>]*>Start the confidential inquiry</);
 });
@@ -140,6 +141,14 @@ test('built blog posts: no top booking link off-audience, the confidential link 
     assert.ok(!fs.readFileSync(file, 'utf8').includes(`href="${topBooking}"`), `${slug} shows the top booking link`);
   }
   assert.ok(offAudience > 10, 'off-audience posts were checked');
+  // Unmapped topic groups: the general front-desk post gets the booking link; the
+  // dental, veterinary and dental-bodied posts stay without it.
+  const general = fs.readFileSync(path.join(blog, 'medical-practice-front-desk-efficiency-metrics-2', 'index.html'), 'utf8');
+  assert.ok(general.includes(`href="${topBooking}"`), 'the general front-desk post shows the top booking link');
+  for (const slug of ['animal-hospital-patient-intake', 'centralized-scheduling-multi-office-2026', 'dso-case-study-15-location-missed-calls', 'dso-centralized-scheduling-benchmarks', 'dso-patient-recall-workflow-standardization']) {
+    const html = fs.readFileSync(path.join(blog, slug, 'index.html'), 'utf8');
+    assert.ok(!html.includes(`href="${topBooking}"`), `${slug} stays without the top booking link`);
+  }
   for (const slug of SALE_POSTS) {
     const html = fs.readFileSync(path.join(blog, slug, 'index.html'), 'utf8');
     assert.ok(!html.includes(`href="${topBooking}"`), `${slug} shows the booking link`);

@@ -61,6 +61,8 @@ const clusterToTheme: Record<string, FunnelTheme> = {
   'practice-transitions': 'acquisition_transition',
   'enterprise': 'operations',
   'enterprise-operations': 'operations',
+  // General front-desk posts filed under a plain "operations" group.
+  'operations': 'operations',
   'enterprise-compliance': 'operations',
   'bpo-outsourcing': 'operations',
   'call-center-operations': 'operations',

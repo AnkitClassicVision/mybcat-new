@@ -38,10 +38,21 @@ test.describe('Homepage', () => {
     await expect(page.locator('#hero h1.hero-title')).toHaveText(
       'Answering, Scheduling, and Recall for Optometry Practices of Any Size'
     );
-    const heroCta = page.locator('#hero .hero-cta-group a').first();
-    await expect(heroCta).toHaveText('Get Started');
+    const heroCta = page.locator('#hero .hero-cta-group').getByRole('link', { name: 'Get Started' });
     await expect(heroCta).toHaveAttribute('href', '/contact/');
+    await expect(page.locator('#hero .hero-cta-group a').first()).toHaveText('Book a Discovery Call');
   });
+
+  for (const [width, height] of [[360, 640], [375, 667], [390, 664], [414, 736], [390, 844]]) {
+    test(`booking button is fully on the first screen at ${width}x${height}`, async ({ page }) => {
+      await page.setViewportSize({ width, height });
+      await page.goto('/');
+      const box = await page.locator('#hero a[href="/book/discovery?src=home-hero"]').boundingBox();
+      expect(box && box.y >= 0 && box.y + box.height <= height).toBeTruthy();
+      const h1 = await page.locator('#hero h1').boundingBox();
+      expect(h1 && h1.y + h1.height <= height).toBeTruthy();
+    });
+  }
 
   test('should have footer', async ({ page }) => {
     await page.goto('/');

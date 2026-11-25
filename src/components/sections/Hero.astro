@@ -31,7 +31,7 @@ interface Props {
   ctaText?: string;
   ctaHref?: string;
   secondaryText?: string;
-  /** Optional discovery-call button shown between the main button and the secondary link. */
+  /** Optional discovery-call button. When set it comes first, and the main button follows it. */
   bookingText?: string;
   bookingHref?: string;
   secondaryHref?: string;
@@ -88,6 +88,21 @@ const icons: Record<string, string> = {
 
       {description && <p class="hero-description">{description}</p>}
 
+      <div class="hero-cta-group">
+        {bookingText && bookingHref ? (
+          <Fragment>
+            <Button href={bookingHref}>{bookingText}</Button>
+            <Button href={ctaHref} variant="secondary">{ctaText}</Button>
+          </Fragment>
+        ) : (
+          <Button href={ctaHref}>{ctaText}</Button>
+        )}
+        {secondaryText && secondaryHref && (
+          <a href={secondaryHref} class="text-link">{secondaryText}</a>
+        )}
+      </div>
+
+      {/* The tick list sits below the buttons so the booking button reaches the first screen on small phones. */}
       {benefits.length > 0 && (
         <div class="hero-benefit-bar">
           {benefits.map(benefit => (
@@ -98,16 +113,6 @@ const icons: Record<string, string> = {
           ))}
         </div>
       )}
-
-      <div class="hero-cta-group">
-        <Button href={ctaHref}>{ctaText}</Button>
-        {bookingText && bookingHref && (
-          <Button href={bookingHref} variant="secondary">{bookingText}</Button>
-        )}
-        {secondaryText && secondaryHref && (
-          <a href={secondaryHref} class="text-link">{secondaryText}</a>
-        )}
-      </div>
 
       {trustItems.length > 0 && (
         <div class="hero-trust-bar">
@@ -735,6 +740,21 @@ const icons: Record<string, string> = {
     .premium-play-btn svg {
       width: 24px;
       height: 24px;
+    }
+  }
+
+  /* Narrow phones (360-380px): tighter spacing keeps the booking button on the first screen. */
+  @media (max-width: 380px) {
+    .hero-brand {
+      margin-bottom: 16px;
+    }
+
+    .hero-title {
+      margin-bottom: 14px;
+    }
+
+    .hero-description {
+      margin-bottom: 20px;
     }
   }
 </style>

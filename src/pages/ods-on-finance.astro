@@ -60,7 +60,8 @@ const description = 'ODs on Finance members can book a MyBCAT discovery call and
             <h2>Schedule your Discovery call</h2>
             <p>Tell us about your practice. Your calendar opens next.</p>
 
-            <form id="contact-form" novalidate>
+            <noscript><p class="form-noscript">This form needs JavaScript. Please turn it on, or email us at <a href="mailto:hello@mybcat.com">hello@mybcat.com</a>.</p></noscript>
+            <form id="contact-form" method="post" action="javascript:void(0)" novalidate>
               <div class="field-grid">
                 <label>First name <span class="required-mark" aria-hidden="true">*</span><input id="cf-firstname" name="firstname" autocomplete="given-name" required /></label>
                 <label>Last name <span class="required-mark" aria-hidden="true">*</span><input id="cf-lastname" name="lastname" autocomplete="family-name" required /></label>
