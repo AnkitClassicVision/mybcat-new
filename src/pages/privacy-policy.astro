@@ -78,14 +78,17 @@ const effectiveDate = 'November 24, 2026';
           <h3>Analytics</h3>
           <ul>
             <li><strong>Vercel Web Analytics</strong> counts page views. It records the page, the website that sent you, your general location, and your device, operating system, and browser type. It does not set cookies.</li>
-            <li><strong>PostHog</strong> records page views, clicks, and events such as form starts, form sends, and booking clicks. It gives your browser a random identifier, kept in a cookie and in browser storage. PostHog can also record how a visit unfolds, such as mouse movement, clicks, and scrolling. We set it to hide what you type into form fields in these recordings.</li>
-            <li><strong>Google Tag Manager</strong> starts after your first click, tap, or key press on a page. On November 24, 2026, it loaded Google Analytics, Google Ads tags, Ahrefs Web Analytics, and Inspectlet. Inspectlet can record how a visit unfolds, such as mouse movement, clicks, and scrolling. The tools that Google Tag Manager loads can change without a change to our website code.</li>
+            <li><strong>PostHog</strong> records page views, clicks, and events such as form starts, form sends, and booking clicks. It gives your browser a random identifier, kept in a cookie and in browser storage. PostHog can also record sessions. We set PostHog's recordings to mask form inputs.</li>
+            <li><strong>Google Tag Manager</strong> starts after your first click, tap, or key press on a page. If JavaScript is turned off in your browser, a small Google Tag Manager frame loads when the page opens instead. When a page opens, your browser may also connect to Google's tag server in advance. On November 24, 2026, Google Tag Manager loaded Google Analytics, Google Ads tags, Ahrefs Web Analytics, and Inspectlet, a session recording tool. The tools that Google Tag Manager loads can change without a change to our website code.</li>
           </ul>
+          <p>A session recording tool may capture your interactions with a page, including form fields, unless the tool's own settings mask them. Our website code cannot show Inspectlet's settings.</p>
+          <h3>Files from other companies' servers</h3>
+          <p>Some pages load files from other companies' servers when they open: our podcast share pages load images from Amazon Web Services, and one private report page loads fonts from Google Fonts and code from unpkg. These companies receive your IP address and browser details when your browser asks for the file.</p>
           <h3>Linking a visit to your email address</h3>
           <p>On the optometry practice growth study page, if you give us your email address, we also send it to PostHog. PostHog then links your earlier and later visits from that browser, including any session recordings, to your email address.</p>
           <h3>How you found us</h3>
           <p>Our own code stores a short record of how you first found our site: the campaign source, medium, and name; the website that sent you; the first page you saw; a channel label such as "search" or "social"; and the date. It stores the same fields for your current visit. We attach some of these values to the forms you send and to booking clicks, so we can see which pages and campaigns lead to inquiries. This record holds no name or email address.</p>
-          <p>Some pages also keep a separate record with a random ID, a source category, and the first page you saw. Our confidential practice transition form sends this record with your inquiry.</p>
+          <p>Some pages also keep a separate record, <code>mybcat_attribution_v1</code>. It holds a random ID; for your first visit and your latest visit, a source category, a medium category, a flag that shows whether the link carried a campaign name, and the page you landed on; and the last call-to-action you clicked and its topic. None of these values identifies a person by itself. Our confidential practice transition form sends this record with your inquiry.</p>
           <h3>Tracking across websites</h3>
           <p>Google and the other tools that Google Tag Manager loads may collect information about your online activity over time and across different websites.</p>
         </section>
@@ -105,7 +108,7 @@ const effectiveDate = 'November 24, 2026';
 
         <section>
           <h2>5. Who Receives Information</h2>
-          <p>These companies receive information when you use our site.</p>
+          <p>These companies receive information when you use our site. This list of tools reflects our site as of the effective date of this policy.</p>
           <div class="table-wrap" role="region" aria-labelledby="providers-caption" tabindex="0">
             <table class="wide">
               <caption id="providers-caption">Companies that receive information from our site</caption>
@@ -119,28 +122,28 @@ const effectiveDate = 'November 24, 2026';
               <tbody>
                 <tr>
                   <th scope="row">Vercel</th>
-                  <td>Hosts our website, runs Vercel Web Analytics, and runs the handler for the confidential practice transition form</td>
+                  <td>Hosts our website and runs Vercel Web Analytics. It also runs our own server function that receives the confidential practice transition form and passes it to our internal systems for follow-up.</td>
                   <td>Request data (IP address, browser, pages), page views, and the contents of the transition form</td>
                 </tr>
                 <tr>
                   <th scope="row">Cloudflare</th>
-                  <td>Runs the service that receives our other website forms</td>
+                  <td>Runs the service that receives our contact, member, event, ROI calculator, growth study, and onboarding forms</td>
                   <td>The contents of those forms, the address of the page you sent them from, and campaign values</td>
                 </tr>
                 <tr>
                   <th scope="row">Google</th>
-                  <td>Google Calendar booking pages, Google Tag Manager, Google Analytics, and Google Ads</td>
+                  <td>Google Calendar booking pages, Google Tag Manager, Google Analytics, and Google Ads. On some pages, fonts are loaded from Google Fonts.</td>
                   <td>The details you enter when you book; and pages viewed, device and browser data, IP address, and cookie identifiers</td>
                 </tr>
                 <tr>
                   <th scope="row">PostHog</th>
                   <td>Product analytics and session recordings</td>
-                  <td>Page views, clicks, form and booking events, campaign values, device and browser data, IP address, a random identifier, session recordings with form inputs hidden, and on one page your email address</td>
+                  <td>Page views, clicks, form and booking events, campaign values, device and browser data, IP address, a random identifier, session recordings with form inputs masked, and on one page your email address</td>
                 </tr>
                 <tr>
                   <th scope="row">Inspectlet</th>
                   <td>Session recordings, loaded by Google Tag Manager</td>
-                  <td>Pages viewed, mouse movement, clicks, scrolling, and device and browser data</td>
+                  <td>Pages viewed, your interactions with the page (which may include form fields), and device and browser data</td>
                 </tr>
                 <tr>
                   <th scope="row">Ahrefs</th>
@@ -151,6 +154,16 @@ const effectiveDate = 'November 24, 2026';
                   <th scope="row">YouTube (Google)</th>
                   <td>Plays the video on our home page, only if you press play</td>
                   <td>Device and browser data and your viewing activity</td>
+                </tr>
+                <tr>
+                  <th scope="row">Amazon Web Services</th>
+                  <td>Stores the images on our podcast share pages</td>
+                  <td>IP address and browser details when a page loads a file it hosts</td>
+                </tr>
+                <tr>
+                  <th scope="row">unpkg (an open source project; its site says its files are served from Cloudflare's network)</th>
+                  <td>Serves a code file used by one private report page</td>
+                  <td>IP address and browser details when a page loads a file it hosts</td>
                 </tr>
               </tbody>
             </table>
@@ -164,7 +177,7 @@ const effectiveDate = 'November 24, 2026';
 
         <section>
           <h2>7. Cookies and Browser Storage</h2>
-          <p>Cookies and browser storage are small files and entries that a website keeps in your browser. PostHog and our own records start when a page opens. Google Tag Manager starts after your first click, tap, or key press. The table shows what we saw on our site on November 24, 2026. Lifetimes for other companies' cookies are set by those companies and can change.</p>
+          <p>Cookies and browser storage are small files and entries that a website keeps in your browser. PostHog and our own records start when a page opens. Google Tag Manager starts after your first click, tap, or key press (or, without JavaScript, when the page opens). The table shows what we saw on our site on November 24, 2026. Lifetimes for other companies' cookies are set by those companies and can change.</p>
           <div class="table-wrap" role="region" aria-labelledby="cookies-caption" tabindex="0">
             <table class="wide">
               <caption id="cookies-caption">Cookies and browser storage on mybcat.com</caption>
@@ -210,7 +223,7 @@ const effectiveDate = 'November 24, 2026';
                   <th scope="row"><code>mybcat_attribution_v1</code></th>
                   <td>MyBCAT</td>
                   <td>Local storage</td>
-                  <td>A random ID, a source category, and your first page, to connect an inquiry to the content that led to it</td>
+                  <td>To connect an inquiry to the content that led to it: a random ID; for your first visit and your latest visit, a source category, a medium category, a flag that shows whether the link carried a campaign name, and the page you landed on; and the last call-to-action you clicked and its topic. None of these values identifies a person by itself.</td>
                   <td>No set end date. It stays until you clear your browser storage.</td>
                 </tr>
                 <tr>
