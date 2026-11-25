@@ -21,6 +21,7 @@ import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
 import { validateFile } from './validators/validate-content-quality.js';
 import { evaluateScheduledPost } from './validate-seo-topic-queue.mjs';
+import { MAX_DAILY_PUBLISH, applyDailyCap, orderForPublish, remainingToday, splitByRelease } from './publish-selection.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -33,7 +34,6 @@ const QUALITY_RULES_PATH = path.join(__dirname, 'config', 'content-quality-rules
 const MANIFEST_DIR = path.join(__dirname, '..', 'artifacts', 'scheduled-publish');
 const MANIFEST_PATH = path.join(MANIFEST_DIR, 'latest-run.json');
 
-const MAX_DAILY_PUBLISH = 1;
 const today = new Date().toISOString().split('T')[0];
 
 // A post is eligible only when its scheduled day is the run day or earlier, so
@@ -131,7 +131,7 @@ for (const file of files) {
   }
 }
 
-const dailyRemaining = Math.max(0, MAX_DAILY_PUBLISH - publishedToday);
+const dailyRemaining = remainingToday(publishedToday);
 if (!forceMode && dailyRemaining === 0) {
   console.log(`Daily publish cap reached: ${publishedToday} post(s) already published on ${today} (cap ${MAX_DAILY_PUBLISH}). Nothing to publish.`);
   writeRunManifest({ dailyCapReached: true });
@@ -144,11 +144,8 @@ if (eligible.length === 0) {
   process.exit(0);
 }
 
-// Sort by scheduledDate (oldest first), then filename
-eligible.sort((a, b) => {
-  if (a.scheduledDate !== b.scheduledDate) return a.scheduledDate.localeCompare(b.scheduledDate);
-  return a.file.localeCompare(b.file);
-});
+// Sort by scheduledDate (oldest first), then filename (scripts/publish-selection.mjs)
+const ordered = orderForPublish(eligible);
 
 console.log(`Found ${eligible.length} eligible post(s).`);
 
@@ -161,23 +158,18 @@ try {
   console.log(`Release gate: topic queue unreadable (${err.message}). Every post is held.`);
 }
 
-const releasable = [];
-const releaseHeld = [];
-
-for (const post of eligible) {
+const { releasable, releaseHeld } = splitByRelease(ordered, (post) => {
   const result = topicQueue
     ? evaluateScheduledPost(topicQueue, { name: post.file, content: fs.readFileSync(post.filePath, 'utf8') })
     : { ok: false, issues: [`RED_QUEUE_UNREADABLE:${post.file}`] };
-  if (result.ok) {
-    releasable.push(post);
-  } else {
-    releaseHeld.push({ ...post, reasons: result.issues });
+  if (!result.ok) {
     console.log(`Release gate HELD: ${post.file}`);
     for (const issue of result.issues) {
       console.log(`  - ${issue}`);
     }
   }
-}
+  return result;
+});
 
 if (releaseHeld.length > 0) {
   console.log(`\n${releaseHeld.length} post(s) held by the release gate. The others go on.`);
@@ -215,9 +207,7 @@ if (qualityFailed.length > 0) {
 }
 
 // Apply publish cap
-const limit = forceMode ? qualityPassed.length : dailyRemaining;
-const toPublish = qualityPassed.slice(0, limit);
-const deferred = qualityPassed.slice(limit);
+const { toPublish, deferred } = applyDailyCap(qualityPassed, { force: forceMode, remaining: dailyRemaining });
 
 if (deferred.length > 0) {
   console.log(`\nPublish cap (${dailyRemaining} left of ${MAX_DAILY_PUBLISH} today): publishing ${toPublish.length}, deferring ${deferred.length}`);
