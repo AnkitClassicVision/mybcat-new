@@ -45,6 +45,8 @@ test('the finance_service CTA points at the practice finances page', () => {
   assert.equal(hrefs.length, 2);
   for (const href of hrefs) assert.match(href, /optometry-practice-finances/);
   assert.doesNotMatch(block, /bookkeep|reconcil|tax|guarantee/i);
+  // Like the finance page, any lower-cost line carries the company's own-estimate hedge.
+  for (const line of block.match(/[^'\n]*costs less[^'\n]*/g) || []) assert.match(line, /by our own estimate/, line);
 });
 
 test('every post uses an allowed ctaTheme', () => {

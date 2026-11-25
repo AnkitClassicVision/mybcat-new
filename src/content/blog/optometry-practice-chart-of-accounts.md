@@ -14,12 +14,22 @@ tags:
 - optometry practice chart of accounts
 - optometry practice
 cluster: practice-finance
+ctaTheme: finance_service
 funnel: service
 featuredImage: /images/blog/optometry-practice-chart-of-accounts.webp
 canonical: https://mybcat.com/blog/optometry-practice-chart-of-accounts/
 targetKeyword: "optometry practice chart of accounts"
 seoTopicId: optometry-practice-chart-of-accounts
 ---
+
+An optometry practice chart of accounts is the organized list of categories used to record the practice’s financial activity. It gives each transaction a defined place in your books, from professional services and optical sales to payroll, rent, equipment, and owner equity.
+
+For an owner doing the books, the practical challenge is deciding how much detail to keep. A broad “supplies” account leaves important questions unanswered. A separate account for every vendor creates a long report without necessarily making it more useful.
+
+Start with categories that reflect how you operate the practice, then write clear rules for using them. Whether you manage a solo office or a group, the aim is a report you can read, explain, and compare over time.
+
+The structure below is a suggested starting point for discussion with your accountant. Adapt it to your services, accounting method, and ownership structure before changing your books.
+
 ## Table of Contents
 
 - [Build the Chart Around the Questions You Need to Answer](#build-the-chart-around-the-questions-you-need-to-answer)
@@ -30,21 +40,11 @@ seoTopicId: optometry-practice-chart-of-accounts
 - [Adapt the Structure for a Solo Office or a Group](#adapt-the-structure-for-a-solo-office-or-a-group)
 - [Put the Chart to Work in Your Monthly Review](#put-the-chart-to-work-in-your-monthly-review)
 
-
-
-An optometry practice chart of accounts is the organized list of categories used to record the practice’s financial activity. It gives each transaction a defined place in your books, from professional services and optical sales to payroll, rent, equipment, and owner equity.
-
-For an owner doing the books, the practical challenge is deciding how much detail to keep. A broad “supplies” account leaves important questions unanswered. A separate account for every vendor creates a long report without necessarily making it more useful.
-
-Start with categories that reflect how you operate the practice, then write clear rules for using them. Whether you manage a solo office or a group, the aim is a report you can read, explain, and compare over time.
-
-The structure below is a suggested starting point for discussion with your accountant. Adapt it to your services, accounting method, and ownership structure before changing your books.
-
 ## Build the Chart Around the Questions You Need to Answer
 
 ### Make clinical, optical, and operating activity recognizable
 
-Start by listing the questions you bring to a financial review. You may want to understand how clinical revenue compares with product sales, which expenses belong to the optical department, or what you spend on staffing and facilities.
+Start by listing the questions you bring to a financial review. You may want to understand how clinical revenue compares with product sales, which expenses belong to the optical department, or [what you spend on staffing](/optometry-practice-finances/) and facilities.
 
 Those questions should guide your account structure. In “Use Metrics in Your Practice,” Optometric Management recommends organizing the chart around major expense areas and comparing the practice’s results over time. Its reminder that “Each practice is different” is useful when deciding which categories deserve additional detail. [Source: Optometric Management](https://optometricmanagement.com/issues/2010/november/use-metrics-in-your-practice)
 
