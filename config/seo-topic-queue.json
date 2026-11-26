@@ -3976,6 +3976,112 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-25T19:36:10.713Z"
       }
+    },
+    {
+      "id": "optometry-after-hours-call-handling",
+      "slot": 50,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "patient-communications",
+      "topic": "After-Hours Call Handling for Optometry Practices",
+      "keyword": "optometry after-hours call handling",
+      "suggested_title": "After-Hours Call Handling for Optometry Practices",
+      "slug": "optometry-after-hours-call-handling",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Automatic check of the target term and slug against 227 existing post slugs and titles: distinct. Closest: handling-emergency-calls-in-optometry-practice (0.5), after-hours-medical-answering-sla-group-practices (0.5), call-handling-patient-experience-eye-care (0.5). No manual study was run.",
+      "cannibalization_reviewed": true,
+      "cannibalization_check": {
+        "verdict": "distinct",
+        "method": "term_slug_title_token_containment.v2",
+        "threshold": 0.75,
+        "compared": 227,
+        "closest": [
+          {
+            "slug": "handling-emergency-calls-in-optometry-practice",
+            "score": 0.5
+          },
+          {
+            "slug": "after-hours-medical-answering-sla-group-practices",
+            "score": 0.5
+          },
+          {
+            "slug": "call-handling-patient-experience-eye-care",
+            "score": 0.5
+          }
+        ],
+        "overlapping": [],
+        "overlap_linked": {}
+      },
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Patient Care",
+      "word_count": 2415,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-26T01:13:08.040Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/AOA/Documents/About%20the%20AOA/Ethics%20%26%20Values/An%20Optometrist%27s%20Guide%20to%20Clinical%20Ethics.pdf",
+          "accessed_at": "2026-11-26",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry after-hours call handling"
+        },
+        {
+          "title": "www.pacificu.edu",
+          "publisher": "www.pacificu.edu",
+          "url": "https://www.pacificu.edu/about/campuses-locations/healthcare-clinics/pacific-eyeclinics/pacific-eyeclinic-forest-grove",
+          "accessed_at": "2026-11-26",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry after-hours call handling"
+        },
+        {
+          "title": "optometry.iu.edu",
+          "publisher": "optometry.iu.edu",
+          "url": "https://optometry.iu.edu/patient-care/emergency-eyecare.html",
+          "accessed_at": "2026-11-26",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry after-hours call handling"
+        },
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/issues/2022/october/teach-ocular-emergency-triage-to-your-staff",
+          "accessed_at": "2026-11-26",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry after-hours call handling"
+        },
+        {
+          "title": "www.urmc.rochester.edu",
+          "publisher": "www.urmc.rochester.edu",
+          "url": "https://www.urmc.rochester.edu/eye-institute/patient-services-information/after-hours-emergency",
+          "accessed_at": "2026-11-26",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry after-hours call handling"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-after-hours-call-handling",
+      "review_basis": "Automatic checks only (optometry scope, source count, term and slug overlap). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-26T01:13:08.040Z"
+      }
     }
   ]
 }
