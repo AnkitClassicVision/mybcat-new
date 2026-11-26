@@ -5,10 +5,9 @@ description: How to measure your optometry appointment fill rate, what our fill 
   reporting shows, and a simple formula for what each open slot costs your practice.
 seoDescription: How to measure your optometry appointment fill rate, what our fill rate
   reporting shows, and a simple formula for what each open slot costs your practice.
-publishDate: '2026-10-26'
-status: scheduled
+publishDate: '2026-11-26'
+status: published
 seoTopicId: optometry-appointment-fill-rate
-scheduledDate: '2026-10-26'
 author: Ankit Patel
 category: Business
 tags:
