@@ -5,9 +5,8 @@ description: Build an eye care no-show fee policy across locations with payer ch
   patient scripts, waiver rules, clear ownership, and reporting.
 seoDescription: Build an eye care no-show fee policy across locations with payer checks,
   patient scripts, waiver rules, clear ownership, and reporting.
-publishDate: '2026-10-27'
-status: scheduled
-scheduledDate: '2026-10-27'
+publishDate: '2026-11-27'
+status: published
 author: Ankit Patel
 tags:
 - eye care no-show fee policy playbook
