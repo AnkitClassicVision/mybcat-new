@@ -4082,6 +4082,112 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-26T01:13:08.040Z"
       }
+    },
+    {
+      "id": "optometry-practice-sale-tax-considerations",
+      "slot": 51,
+      "funnel": "acquisition",
+      "buyer_stage": "consideration",
+      "content_cluster": "practice-transitions",
+      "topic": "Tax Considerations When You Sell an Optometry Practice",
+      "keyword": "optometry practice sale tax considerations",
+      "suggested_title": "Tax Considerations When You Sell an Optometry Practice",
+      "slug": "optometry-practice-sale-tax-considerations",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Automatic check of the target term and slug against 228 existing post slugs and titles: distinct. Closest: optometry-practice-sale-letter-of-intent (0.333), optometry-practice-sale-process-playbook (0.333), optometry-practice-post-sale-role-options (0.333). No manual study was run.",
+      "cannibalization_reviewed": true,
+      "cannibalization_check": {
+        "verdict": "distinct",
+        "method": "term_slug_title_token_containment.v2",
+        "threshold": 0.75,
+        "compared": 228,
+        "closest": [
+          {
+            "slug": "optometry-practice-sale-letter-of-intent",
+            "score": 0.333
+          },
+          {
+            "slug": "optometry-practice-sale-process-playbook",
+            "score": 0.333
+          },
+          {
+            "slug": "optometry-practice-post-sale-role-options",
+            "score": 0.333
+          }
+        ],
+        "overlapping": [],
+        "overlap_linked": {}
+      },
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Practice Transitions",
+      "word_count": 2153,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-27T01:14:40.458Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.irs.gov",
+          "publisher": "www.irs.gov",
+          "url": "https://www.irs.gov/publications/p544?trk=article-ssr-frontend-pulse_little-text-block",
+          "accessed_at": "2026-11-27",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale tax considerations"
+        },
+        {
+          "title": "www.irs.gov",
+          "publisher": "www.irs.gov",
+          "url": "https://www.irs.gov/publications/p537",
+          "accessed_at": "2026-11-27",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale tax considerations"
+        },
+        {
+          "title": "www.optometricmanagement.com",
+          "publisher": "www.optometricmanagement.com",
+          "url": "https://www.optometricmanagement.com/issues/2016/november/ready-to-buy-or-sell-a-practice",
+          "accessed_at": "2026-11-27",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale tax considerations"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/transition-right",
+          "accessed_at": "2026-11-27",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale tax considerations"
+        },
+        {
+          "title": "www.irs.gov",
+          "publisher": "www.irs.gov",
+          "url": "https://www.irs.gov/pub/irs-pdf/i8594.pdf",
+          "accessed_at": "2026-11-27",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "optometry practice sale tax considerations"
+        }
+      ],
+      "evidence_packet": "scheduled-post:optometry-practice-sale-tax-considerations",
+      "review_basis": "Automatic checks only (optometry scope, source count, term and slug overlap). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-27T01:14:40.458Z"
+      }
     }
   ]
 }
