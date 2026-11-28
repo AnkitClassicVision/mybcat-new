@@ -4188,6 +4188,112 @@
         "rule_id": "optometry-auto-release-v1",
         "approved_at": "2026-11-27T01:14:40.458Z"
       }
+    },
+    {
+      "id": "ai-phone-agent-for-optometry-scheduling",
+      "slot": 52,
+      "funnel": "service",
+      "buyer_stage": "consideration",
+      "content_cluster": "ai-projects",
+      "topic": "AI Phone Agents for Optometry Scheduling",
+      "keyword": "AI phone agent for optometry scheduling",
+      "suggested_title": "AI Phone Agents for Optometry Scheduling",
+      "slug": "ai-phone-agent-for-optometry-scheduling",
+      "content_action": "scheduled-release",
+      "intended_crm_outcome": "operator-inquiry",
+      "cannibalization_note": "Automatic check of the target term and slug against 229 existing post slugs and titles: distinct. Closest: ai-receptionist-for-optometry-practice (0.25), ai-scribe-for-optometrists (0.25), is-ai-investment-worth-it-for-your-optometry-clinic (0.25). No manual study was run.",
+      "cannibalization_reviewed": true,
+      "cannibalization_check": {
+        "verdict": "distinct",
+        "method": "term_slug_title_token_containment.v2",
+        "threshold": 0.75,
+        "compared": 229,
+        "closest": [
+          {
+            "slug": "ai-receptionist-for-optometry-practice",
+            "score": 0.25
+          },
+          {
+            "slug": "ai-scribe-for-optometrists",
+            "score": 0.25
+          },
+          {
+            "slug": "is-ai-investment-worth-it-for-your-optometry-clinic",
+            "score": 0.25
+          }
+        ],
+        "overlapping": [],
+        "overlap_linked": {}
+      },
+      "geography": [
+        "GA",
+        "FL",
+        "AL",
+        "TN",
+        "SC",
+        "NC"
+      ],
+      "search_intent": "commercial",
+      "category": "Technology",
+      "word_count": 2176,
+      "pillar_url": "/industries/optometry/",
+      "cta_id": "talk-to-mybcat",
+      "status": "publish_ready",
+      "research_reviewed": true,
+      "research_reviewed_at": "2026-11-28T00:46:39.969Z",
+      "claims_reviewed": true,
+      "required_external_source_count": 5,
+      "evidence_set": [
+        {
+          "title": "www.optometrytimes.com",
+          "publisher": "www.optometrytimes.com",
+          "url": "https://www.optometrytimes.com/view/the-independent-advantage-s02-e10-demoing-ai-voice-agents",
+          "accessed_at": "2026-11-28",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI phone agent for optometry scheduling"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/news/practice-management/perfect-your-practice/new-technologies-shaping-optometrys-future",
+          "accessed_at": "2026-11-28",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI phone agent for optometry scheduling"
+        },
+        {
+          "title": "optometricmanagement.com",
+          "publisher": "optometricmanagement.com",
+          "url": "https://optometricmanagement.com/news/2025/first-insight-mango-voice-partner-to-deliver-front-office-automation-for-eyecare-practices",
+          "accessed_at": "2026-11-28",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI phone agent for optometry scheduling"
+        },
+        {
+          "title": "www.aoa.org",
+          "publisher": "www.aoa.org",
+          "url": "https://www.aoa.org/practice/new-doctors-of-optometry/patient-communication",
+          "accessed_at": "2026-11-28",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI phone agent for optometry scheduling"
+        },
+        {
+          "title": "www.optometricmanagement.com",
+          "publisher": "www.optometricmanagement.com",
+          "url": "https://www.optometricmanagement.com/issues/2022/october/teach-ocular-emergency-triage-to-your-staff",
+          "accessed_at": "2026-11-28",
+          "snippet": "Cited by the scheduled post.",
+          "supports": "AI phone agent for optometry scheduling"
+        }
+      ],
+      "evidence_packet": "scheduled-post:ai-phone-agent-for-optometry-scheduling",
+      "review_basis": "Automatic checks only (optometry scope, source count, term and slug overlap). No human review.",
+      "approval": {
+        "decision": "approved",
+        "mode": "automatic",
+        "owner": "standing-rule:optometry-auto-release-v1",
+        "rule_id": "optometry-auto-release-v1",
+        "approved_at": "2026-11-28T00:46:39.969Z"
+      }
     }
   ]
 }
